@@ -202,7 +202,7 @@ intersection_of: affects_quality PATO:0001420 ! buoyancy
 id: OBA:0000040
 name: calcium ion concentration
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:39124
 
 [Term]
@@ -210,7 +210,7 @@ id: OBA:0000041
 name: calcium ion concentration in cytosol
 is_a: OBA:0000040 ! calcium ion concentration
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:39124
 intersection_of: occurs_in GO:0005829 ! cytosol
 
@@ -218,7 +218,7 @@ intersection_of: occurs_in GO:0005829 ! cytosol
 id: OBA:0000042
 name: calcium ion concentration in mitochondria
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:39124
 intersection_of: occurs_in GO:0005739 ! mitochondrion
 
@@ -227,7 +227,7 @@ id: OBA:0000043
 name: calcium ion concentration in smooth ER
 is_a: OBA:0000003 ! ER calcium ion concentration
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:39124
 intersection_of: occurs_in GO:0005790 ! smooth endoplasmic reticulum
 
@@ -617,7 +617,7 @@ intersection_of: attribute_of GO:0045211 ! postsynaptic membrane
 id: OBA:0000126
 name: potassium ion concentration
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:29103
 
 [Term]
@@ -6683,7 +6683,7 @@ synonym: "abscisic acid accumulation" RELATED []
 synonym: "abscisic acid content" RELATED []
 is_a: TO:0000476 ! growth hormone content
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:22152
 
 [Term]
@@ -6973,7 +6973,7 @@ def: "The total potassium ion concentration measured in a plant or a plant part 
 synonym: "KCONC" RELATED []
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality 
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:26216
 
 [Term]
@@ -7070,7 +7070,7 @@ def: "The total sodium ion concentration measured in a given volume of a plant o
 synonym: "NACONC" RELATED []
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:26708
 
 [Term]
@@ -8605,7 +8605,7 @@ def: "Concentration of starch present in the plant or plant part." [GR:pj]
 synonym: "STARCHCONC" RELATED []
 is_a: TO:0006007 ! polysaccharide content
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:28017
 
 [Term]
@@ -12974,7 +12974,7 @@ def: "The total Lithium ion concentration measured in a given volume of a plant 
 comment: May be assayed for per gram fresh weight.
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:30145
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -12986,7 +12986,7 @@ name: boron concentration
 def: "The total Boron ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:27560
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -12998,7 +12998,7 @@ name: magnesium concentration
 def: "The total Magnesium ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:25107
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13010,7 +13010,7 @@ name: phosphorus concentration
 def: "The total Phosphorus concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0001024 ! phosphorus content
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:28659
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13022,7 +13022,7 @@ name: sulfur concentration
 def: "The total Sulfur concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:26833
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13034,7 +13034,7 @@ name: calcium concentration
 def: "The total Calcium ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:22984
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13046,7 +13046,7 @@ name: manganese concentration
 def: "The total Manganese ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:18291
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13058,7 +13058,7 @@ name: iron concentration
 def: "The total iron concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:18248
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13070,7 +13070,7 @@ name: cobalt concentration
 def: "The total Cobalt ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:27638
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13090,7 +13090,7 @@ name: copper concentration
 def: "The total Copper ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:28694
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13102,7 +13102,7 @@ name: zinc concentration
 def: "The total Zinc ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:27363
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13114,7 +13114,7 @@ name: arsenic concentration
 def: "The total Arsenic ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:27563
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13126,7 +13126,7 @@ name: selenium concentration
 def: "The total Selenium ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:27568
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13138,7 +13138,7 @@ name: molybdenum concentration
 def: "The total Molybdenum  concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:28685
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13166,7 +13166,7 @@ name: cadmium concentration
 def: "The total Cadmium concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality PATO:0000033 ! concentration of
 intersection_of: attribute_of CHEBI:22977
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -46892,4 +46892,3 @@ id: part_of
 name: part_of
 xref: BFO:0000050
 is_transitive: true
-
