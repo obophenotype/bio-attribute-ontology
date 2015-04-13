@@ -3,11 +3,11 @@ date: 02:03:2015 17:14
 saved-by: cjmungall
 auto-generated-by: TermGenie 1.0
 default-namespace: oba
-import: http://purl.obolibrary.org/obo/cl/cl-basic.owl
-import: http://purl.obolibrary.org/obo/go.owl
-import: http://purl.obolibrary.org/obo/pato.owl
-import: http://purl.obolibrary.org/obo/po.owl
-import: http://purl.obolibrary.org/obo/uberon.owl
+import: http://purl.obolibrary.org/obo/oba/imports/cl_import.owl
+import: http://purl.obolibrary.org/obo/oba/imports/go_import.owl
+import: http://purl.obolibrary.org/obo/oba/imports/pato_import.owl
+import: http://purl.obolibrary.org/obo/oba/imports/po_import.owl
+import: http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl
 ontology: oba
 property-value: foaf-homepage \"http://wiki.geneontology.org/index.php/Extensions/x-attribute\" xsd:anyURL
 
@@ -29,19 +29,15 @@ intersection_of: attribute_of CL:1000410 ! myocyte of atrioventricular node
 id: OBA:0000003
 name: ER calcium ion concentration
 is_a: OBA:0000040 ! calcium ion concentration
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000040 ! calcium ion concentration
 intersection_of: attribute_of GO:0005783 ! endoplasmic reticulum
-relationship: attribute_of GO:0005783 {is_inferred="true"} ! endoplasmic reticulum
 
 [Term]
 id: OBA:0000005
 name: Golgi calcium ion concentration
 is_a: OBA:0000040 ! calcium ion concentration
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000040 ! calcium ion concentration
 intersection_of: attribute_of GO:0005794 ! Golgi apparatus
-relationship: attribute_of GO:0005794 {is_inferred="true"} ! Golgi apparatus
 
 [Term]
 id: OBA:0000006
@@ -148,22 +144,16 @@ is_obsolete: true
 id: OBA:0000022
 name: autophagic vacuole size
 is_a: OBA:0000057 ! cellular component size
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of GO:0005776 ! autophagic vacuole
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of GO:0005776 {is_inferred="true"} ! autophagic vacuole
 
 [Term]
 id: OBA:0000023
 name: axon diameter
-is_a: OBA:1000115 {is_inferred="true"} ! axon length
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001334 ! diameter
 intersection_of: attribute_of GO:0030424 ! axon
-relationship: affects_quality PATO:0001334 {is_inferred="true"} ! diameter
-relationship: attribute_of GO:0030424 {is_inferred="true"} ! axon
 
 [Term]
 id: OBA:0000027
@@ -269,10 +259,8 @@ intersection_of: attribute_of GO:0005623 ! cell
 id: OBA:0000050
 name: cell pH
 is_a: OBA:0000058 ! cellular pH
-is_a: OBA:1000076 {is_inferred="true"} ! cell attribute
 intersection_of: OBA:0000121 ! pH
 intersection_of: attribute_of GO:0005623 ! cell
-relationship: attribute_of GO:0005623 {is_inferred="true"} ! cell
 
 [Term]
 id: OBA:0000051
@@ -285,23 +273,17 @@ intersection_of: attribute_of GO:0042995 ! cell projection
 [Term]
 id: OBA:0000052
 name: cell shape
-is_a: OBA:1000076 {is_inferred="true"} ! cell attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052 ! shape
 intersection_of: attribute_of GO:0005623 ! cell
-relationship: affects_quality PATO:0000052 {is_inferred="true"} ! shape
-relationship: attribute_of GO:0005623 {is_inferred="true"} ! cell
 
 [Term]
 id: OBA:0000055
 name: cell size
 is_a: OBA:0000057 ! cellular component size
-is_a: OBA:1000076 {is_inferred="true"} ! cell attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of GO:0005623 ! cell
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of GO:0005623 {is_inferred="true"} ! cell
 
 [Term]
 id: OBA:0000056
@@ -363,12 +345,9 @@ intersection_of: attribute_of CL:0002321 ! embryonic cell
 id: OBA:0000068
 name: endosome size
 is_a: OBA:0000057 ! cellular component size
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of GO:0005768 ! endosome
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of GO:0005768 {is_inferred="true"} ! endosome
 
 [Term]
 id: OBA:0000069
@@ -455,12 +434,9 @@ intersection_of: occurs_in GO:0043202 ! lysosomal lumen
 [Term]
 id: OBA:0000092
 name: lysosomal membrane permeability
-is_a: OBA:1000028 {is_inferred="true"} ! membrane permeability
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000970 ! permeability
 intersection_of: attribute_of GO:0005765 ! lysosomal membrane
-relationship: affects_quality PATO:0000970 {is_inferred="true"} ! permeability
-relationship: attribute_of GO:0005765 {is_inferred="true"} ! lysosomal membrane
 
 [Term]
 id: OBA:0000093
@@ -481,12 +457,9 @@ intersection_of: occurs_in GO:0016020 ! membrane
 [Term]
 id: OBA:0000099
 name: membrane potential
-is_a: OBA:1000090 {is_inferred="true"} ! membrane quality
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001464 ! electric potential
 intersection_of: attribute_of GO:0016020 ! membrane
-relationship: affects_quality PATO:0001464 {is_inferred="true"} ! electric potential
-relationship: attribute_of GO:0016020 {is_inferred="true"} ! membrane
 
 [Term]
 id: OBA:0000100
@@ -520,12 +493,9 @@ intersection_of: occurs_in GO:0005739 ! mitochondrion
 [Term]
 id: OBA:0000104
 name: mitochondrial membrane permeability
-is_a: OBA:1000028 {is_inferred="true"} ! membrane permeability
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000970 ! permeability
 intersection_of: attribute_of GO:0031966 ! mitochondrial membrane
-relationship: affects_quality PATO:0000970 {is_inferred="true"} ! permeability
-relationship: attribute_of GO:0031966 {is_inferred="true"} ! mitochondrial membrane
 
 [Term]
 id: OBA:0000105
@@ -550,29 +520,21 @@ intersection_of: attribute_of GO:0005771 ! multivesicular body
 [Term]
 id: OBA:0000110
 name: muscle filament sliding speed
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 relationship: attribute_of GO:0030016 ! myofibril
 
 [Term]
 id: OBA:0000112
 name: myofibril number
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of GO:0030016 ! myofibril
-relationship: affects_quality PATO:0000070 {is_inferred="true"} ! amount
-relationship: attribute_of GO:0030016 {is_inferred="true"} ! myofibril
 
 [Term]
 id: OBA:0000113
 name: myofibril size
-is_a: OBA:0000057 {is_inferred="true"} ! cellular component size
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of GO:0030016 ! myofibril
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of GO:0030016 {is_inferred="true"} ! myofibril
 
 [Term]
 id: OBA:0000114
@@ -591,12 +553,9 @@ intersection_of: attribute_of CHEBI:25512
 id: OBA:0000117
 name: nuclear size
 is_a: OBA:0000057 ! cellular component size
-is_a: OBA:1000019 {is_inferred="true"} ! nucleus morphology
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of GO:0005634 ! nucleus
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of GO:0005634 {is_inferred="true"} ! nucleus
 
 [Term]
 id: OBA:0000119
@@ -626,12 +585,9 @@ intersection_of: attribute_of CARO:0000000
 id: OBA:0000122
 name: peroxisome size
 is_a: OBA:0000057 ! cellular component size
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of GO:0005777 ! peroxisome
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of GO:0005777 {is_inferred="true"} ! peroxisome
 
 [Term]
 id: OBA:0000123
@@ -646,12 +602,9 @@ intersection_of: occurs_in GO:0005886 ! plasma membrane
 id: OBA:0000124
 name: post-lysosomal vacuole size
 is_a: OBA:0000057 ! cellular component size
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of GO:0032195 ! post-lysosomal vacuole
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of GO:0032195 {is_inferred="true"} ! post-lysosomal vacuole
 
 [Term]
 id: OBA:0000125
@@ -701,12 +654,9 @@ is_a: OBA:0000114 ! neuronal synaptic plasticity
 [Term]
 id: OBA:0000138
 name: spindle density
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of GO:0005819 ! spindle
-relationship: affects_quality PATO:0000070 {is_inferred="true"} ! amount
-relationship: attribute_of GO:0005819 {is_inferred="true"} ! spindle
 
 [Term]
 id: OBA:0000139
@@ -876,13 +826,9 @@ id: OBA:1000001
 name: blood brain barrier permeability
 def: "Any measurable or observable characteristic related to the permeability of a blood brain barrier." [GOC:TermGenie]
 synonym: "blood brain barrier permeability trait" EXACT [GOC:TermGenie]
-is_a: VT:0000075 {is_inferred="true"} ! blood-brain barrier morphology trait
-is_a: VT:0000190 {is_inferred="true"} ! blood vessel permeability trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000970 ! permeability
 intersection_of: attribute_of UBERON:0000120 ! blood brain barrier
-relationship: affects_quality PATO:0000970 {is_inferred="true"} ! permeability
-relationship: attribute_of UBERON:0000120 {is_inferred="true"} ! blood brain barrier
 created_by: cjmungall
 creation_date: 2013-05-15T00:36:22Z
 
@@ -891,12 +837,9 @@ id: OBA:1000002
 name: intermammary line length
 def: "Any measurable or observable characteristic related to the length of an intermammary line." [GOC:TermGenie]
 synonym: "intermammary line length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0013771 ! intermammary line
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0013771 {is_inferred="true"} ! intermammary line
 created_by: cjmungall
 creation_date: 2013-05-15T00:42:06Z
 
@@ -905,12 +848,9 @@ id: OBA:1000003
 name: inter-canthal distance
 def: "Any measurable or observable characteristic related to the length of an anatomical line between inner canthi." [GOC:TermGenie]
 synonym: "anatomical line between inner canthi length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0013678 ! anatomical line between inner canthi
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0013678 {is_inferred="true"} ! anatomical line between inner canthi
 created_by: cjmungall
 creation_date: 2013-05-15T00:42:08Z
 
@@ -919,12 +859,9 @@ id: OBA:1000004
 name: distance between ears
 def: "Any measurable or observable characteristic related to the length of an anatomical line between outer ears." [GOC:TermGenie]
 synonym: "anatomical line between outer ears length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0010231 ! anatomical line between outer ears
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0010231 {is_inferred="true"} ! anatomical line between outer ears
 created_by: cjmungall
 creation_date: 2013-05-15T00:42:11Z
 
@@ -933,12 +870,9 @@ id: OBA:1000005
 name: inter-pupillar distance
 def: "Any measurable or observable characteristic related to the length of an anatomical line between pupils." [GOC:TermGenie]
 synonym: "anatomical line between pupils length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0010222 ! anatomical line between pupils
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0010222 {is_inferred="true"} ! anatomical line between pupils
 created_by: cjmungall
 creation_date: 2013-05-15T00:42:13Z
 
@@ -947,13 +881,9 @@ id: OBA:1000006
 name: cilium length
 def: "Any measurable or observable characteristic related to the length of a cilium." [GOC:TermGenie]
 synonym: "cilium length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000051 {is_inferred="true"} ! cell projection size
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of GO:0005929 ! cilium
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of GO:0005929 {is_inferred="true"} ! cilium
 created_by: cjmungall
 creation_date: 2013-05-15T00:55:27Z
 
@@ -962,12 +892,9 @@ id: OBA:1000007
 name: dendrite length
 def: "Any measurable or observable characteristic related to the length of a dendrite." [GOC:TermGenie]
 synonym: "dendrite length trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000123 {is_inferred="true"} ! dendrite size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of GO:0030425 ! dendrite
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of GO:0030425 {is_inferred="true"} ! dendrite
 created_by: cjmungall
 creation_date: 2013-05-15T00:55:30Z
 
@@ -976,12 +903,9 @@ id: OBA:1000008
 name: microtubule length
 def: "Any measurable or observable characteristic related to the length of a microtubule." [GOC:TermGenie]
 synonym: "microtubule length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000057 {is_inferred="true"} ! cellular component size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of GO:0005874 ! microtubule
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of GO:0005874 {is_inferred="true"} ! microtubule
 created_by: cjmungall
 creation_date: 2013-05-15T05:48:55Z
 
@@ -990,13 +914,9 @@ id: OBA:1000009
 name: mitochondrial nucleoid size
 def: "Any measurable or observable characteristic related to the size of a mitochondrial nucleoid." [GOC:TermGenie]
 synonym: "mitochondrial nucleoid size trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000057 {is_inferred="true"} ! cellular component size
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of GO:0042645 ! mitochondrial nucleoid
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of GO:0042645 {is_inferred="true"} ! mitochondrial nucleoid
 created_by: cjmungall
 creation_date: 2013-05-15T05:48:58Z
 
@@ -1005,13 +925,9 @@ id: OBA:1000010
 name: spindle length
 def: "Any measurable or observable characteristic related to the length of a spindle." [GOC:TermGenie]
 synonym: "spindle length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000057 {is_inferred="true"} ! cellular component size
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of GO:0005819 ! spindle
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of GO:0005819 {is_inferred="true"} ! spindle
 created_by: cjmungall
 creation_date: 2013-05-15T05:49:01Z
 
@@ -1020,12 +936,9 @@ id: OBA:1000011
 name: Golgi apparatus morphology
 def: "Any measurable or observable characteristic related to the morphology of a Golgi apparatus." [GOC:TermGenie]
 synonym: "Golgi apparatus morphology trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of GO:0005794 ! Golgi apparatus
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of GO:0005794 {is_inferred="true"} ! Golgi apparatus
 created_by: cjmungall
 creation_date: 2013-05-15T05:49:03Z
 
@@ -1034,12 +947,9 @@ id: OBA:1000012
 name: germ tube septin ring length
 def: "Any measurable or observable characteristic related to the length of a germ tube septin ring." [GOC:TermGenie]
 synonym: "germ tube septin ring length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000057 {is_inferred="true"} ! cellular component size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of GO:0032172 ! germ tube septin ring
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of GO:0032172 {is_inferred="true"} ! germ tube septin ring
 created_by: cjmungall
 creation_date: 2013-05-15T05:49:06Z
 
@@ -1048,12 +958,9 @@ id: OBA:1000013
 name: cytoskeleton morphology
 def: "Any measurable or observable characteristic related to the morphology of a cytoskeleton." [GOC:TermGenie]
 synonym: "cytoskeleton morphology trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of GO:0005856 ! cytoskeleton
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of GO:0005856 {is_inferred="true"} ! cytoskeleton
 created_by: cjmungall
 creation_date: 2013-05-15T05:53:18Z
 
@@ -1062,12 +969,9 @@ id: OBA:1000014
 name: endomembrane system morphology
 def: "Any measurable or observable characteristic related to the morphology of an endomembrane system." [GOC:TermGenie]
 synonym: "endomembrane system morphology trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of GO:0012505 ! endomembrane system
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of GO:0012505 {is_inferred="true"} ! endomembrane system
 created_by: cjmungall
 creation_date: 2013-05-15T05:53:21Z
 
@@ -1076,12 +980,9 @@ id: OBA:1000015
 name: lipid particle morphology
 def: "Any measurable or observable characteristic related to the morphology of a lipid particle." [GOC:TermGenie]
 synonym: "lipid particle morphology trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of GO:0005811 ! lipid particle
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of GO:0005811 {is_inferred="true"} ! lipid particle
 created_by: cjmungall
 creation_date: 2013-05-15T05:53:24Z
 
@@ -1090,12 +991,9 @@ id: OBA:1000016
 name: mating projection morphology
 def: "Any measurable or observable characteristic related to the morphology of a mating projection." [GOC:TermGenie]
 synonym: "mating projection morphology trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of GO:0005937 ! mating projection
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of GO:0005937 {is_inferred="true"} ! mating projection
 created_by: cjmungall
 creation_date: 2013-05-15T05:53:26Z
 
@@ -1104,12 +1002,9 @@ id: OBA:1000017
 name: mating projection tip length
 def: "Any measurable or observable characteristic related to the length of a mating projection tip." [GOC:TermGenie]
 synonym: "mating projection tip length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000057 {is_inferred="true"} ! cellular component size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of GO:0043332 ! mating projection tip
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of GO:0043332 {is_inferred="true"} ! mating projection tip
 created_by: cjmungall
 creation_date: 2013-05-15T05:53:29Z
 
@@ -1118,12 +1013,9 @@ id: OBA:1000018
 name: nucleus shape
 def: "Any measurable or observable characteristic related to the shape of a nucleus." [GOC:TermGenie]
 synonym: "nucleus shape trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052 ! shape
 intersection_of: attribute_of GO:0005634 ! nucleus
-relationship: affects_quality PATO:0000052 {is_inferred="true"} ! shape
-relationship: attribute_of GO:0005634 {is_inferred="true"} ! nucleus
 created_by: cjmungall
 creation_date: 2013-05-15T05:55:08Z
 
@@ -1132,12 +1024,9 @@ id: OBA:1000019
 name: nucleus morphology
 def: "Any measurable or observable characteristic related to the morphology of a nucleus." [GOC:TermGenie]
 synonym: "nucleus morphology trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of GO:0005634 ! nucleus
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of GO:0005634 {is_inferred="true"} ! nucleus
 created_by: cjmungall
 creation_date: 2013-05-15T05:56:08Z
 
@@ -1146,40 +1035,28 @@ id: OBA:1000021
 name: cotyledon size
 def: "Any measurable or observable characteristic related to the size of a cotyledon." [GOC:TermGenie]
 synonym: "cotyledon size trait" EXACT [GOC:TermGenie]
-is_a: TO:0002637 {is_inferred="true"} ! leaf size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of PO:0020030 ! cotyledon
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of PO:0020030 {is_inferred="true"} ! cotyledon
 created_by: cjmungall
 creation_date: 2013-05-15T17:27:00Z
 
 [Term]
 id: OBA:1000022
-name: erythrocyte levels
+name: obsolete erythrocyte levels
 def: "Any measurable or observable characteristic related to the concentration of of an erythrocyte." [GOC:TermGenie]
 synonym: "erythrocyte concentration of trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
-intersection_of: attribute_of CL:0000232 ! erythrocyte
-relationship: affects_quality PATO:0000033 {is_inferred="true"} ! concentration of
-relationship: attribute_of CL:0000232 {is_inferred="true"} ! erythrocyte
-created_by: cjmungall
-creation_date: 2013-06-05T19:14:43Z
+is_obsolete: true
+replaced_by: VT:0001586 ! erythrocyte quantity
 
 [Term]
 id: OBA:1000023
 name: subcutaneous adipose tissue quality
 def: "Any measurable or observable characteristic related to the quality of a subcutaneous adipose tissue." [GOC:TermGenie]
 synonym: "subcutaneous adipose tissue quality trait" EXACT [GOC:TermGenie]
-is_a: VT:0100002 {is_inferred="true"} ! connective tissue trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0002190 ! subcutaneous adipose tissue
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0002190 {is_inferred="true"} ! subcutaneous adipose tissue
 created_by: cjmungall
 creation_date: 2013-06-05T19:18:57Z
 
@@ -1188,12 +1065,9 @@ id: OBA:1000024
 name: subcutaneous adipose tissue proportionality to
 def: "Any measurable or observable characteristic related to the proportionality to of a subcutaneous adipose tissue." [GOC:TermGenie]
 synonym: "subcutaneous adipose tissue proportionality to trait" EXACT [GOC:TermGenie]
-is_a: VT:0100002 {is_inferred="true"} ! connective tissue trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001470 ! proportionality to
 intersection_of: attribute_of UBERON:0002190 ! subcutaneous adipose tissue
-relationship: affects_quality PATO:0001470 {is_inferred="true"} ! proportionality to
-relationship: attribute_of UBERON:0002190 {is_inferred="true"} ! subcutaneous adipose tissue
 created_by: cjmungall
 creation_date: 2013-06-05T19:19:33Z
 
@@ -1202,13 +1076,9 @@ id: OBA:1000025
 name: breast size
 def: "Any measurable or observable characteristic related to the size of a breast." [GOC:TermGenie]
 synonym: "breast size trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
-is_a: VT:0100003 {is_inferred="true"} ! organism subdivision trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0000310 ! breast
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0000310 {is_inferred="true"} ! breast
 created_by: cjmungall
 creation_date: 2013-06-05T19:22:16Z
 
@@ -1217,12 +1087,9 @@ id: OBA:1000026
 name: intervertebral disk of lumbar vertebra morphology
 def: "Any measurable or observable characteristic related to the morphology of an intervertebral disk of lumbar vertebra." [GOC:TermGenie]
 synonym: "intervertebral disk of lumbar vertebra morphology trait" EXACT [GOC:TermGenie]
-is_a: VT:0004173 {is_inferred="true"} ! intervertebral disk morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0007255 ! intervertebral disk of lumbar vertebra
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0007255 {is_inferred="true"} ! intervertebral disk of lumbar vertebra
 created_by: cjmungall
 creation_date: 2013-06-05T19:26:27Z
 
@@ -1231,12 +1098,9 @@ id: OBA:1000027
 name: thyroid gland volume
 def: "Any measurable or observable characteristic related to the volume of a thyroid gland." [GOC:TermGenie]
 synonym: "thyroid gland volume trait" EXACT [GOC:TermGenie]
-is_a: VT:0005355 {is_inferred="true"} ! thyroid gland size trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000918 ! volume
 intersection_of: attribute_of UBERON:0002046 ! thyroid gland
-relationship: affects_quality PATO:0000918 {is_inferred="true"} ! volume
-relationship: attribute_of UBERON:0002046 {is_inferred="true"} ! thyroid gland
 created_by: cjmungall
 creation_date: 2013-06-05T19:26:29Z
 
@@ -1245,12 +1109,9 @@ id: OBA:1000028
 name: membrane permeability
 def: "Any measurable or observable characteristic related to the permeability of a membrane." [GOC:TermGenie]
 synonym: "membrane permeability trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000091 {is_inferred="true"} ! membrane morphology
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000970 ! permeability
 intersection_of: attribute_of GO:0016020 ! membrane
-relationship: affects_quality PATO:0000970 {is_inferred="true"} ! permeability
-relationship: attribute_of GO:0016020 {is_inferred="true"} ! membrane
 created_by: cjmungall
 creation_date: 2013-06-11T07:21:47Z
 
@@ -1259,12 +1120,9 @@ id: OBA:1000029
 name: cerebellum shape
 def: "Any measurable or observable characteristic related to the shape of a cerebellum." [GOC:TermGenie]
 synonym: "cerebellum shape trait" EXACT [GOC:TermGenie]
-is_a: VT:0000849 {is_inferred="true"} ! cerebellum morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052 ! shape
 intersection_of: attribute_of UBERON:0002037 ! cerebellum
-relationship: affects_quality PATO:0000052 {is_inferred="true"} ! shape
-relationship: attribute_of UBERON:0002037 {is_inferred="true"} ! cerebellum
 created_by: vasilevs
 creation_date: 2013-06-12T22:46:08Z
 
@@ -1273,13 +1131,9 @@ id: OBA:1000030
 name: upper arm circumference
 def: "Any measurable or observable characteristic related to the circumference of a forelimb stylopod." [GOC:TermGenie]
 synonym: "forelimb stylopod circumference trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
-is_a: VT:0100003 {is_inferred="true"} ! organism subdivision trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001648 ! circumference
 intersection_of: attribute_of UBERON:0003822 ! forelimb stylopod
-relationship: affects_quality PATO:0001648 {is_inferred="true"} ! circumference
-relationship: attribute_of UBERON:0003822 {is_inferred="true"} ! forelimb stylopod
 created_by: cjmungall
 creation_date: 2013-06-17T17:53:31Z
 
@@ -1288,13 +1142,9 @@ id: OBA:1000031
 name: neck circumference
 def: "Any measurable or observable characteristic related to the circumference of a neck." [GOC:TermGenie]
 synonym: "neck circumference trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
-is_a: VT:0100003 {is_inferred="true"} ! organism subdivision trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001648 ! circumference
 intersection_of: attribute_of UBERON:0000974 ! neck
-relationship: affects_quality PATO:0001648 {is_inferred="true"} ! circumference
-relationship: attribute_of UBERON:0000974 {is_inferred="true"} ! neck
 created_by: cjmungall
 creation_date: 2013-06-17T17:53:34Z
 
@@ -1303,13 +1153,9 @@ id: OBA:1000032
 name: hip circumference
 def: "Any measurable or observable characteristic related to the circumference of a hip." [GOC:TermGenie]
 synonym: "hip circumference trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
-is_a: VT:0100003 {is_inferred="true"} ! organism subdivision trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001648 ! circumference
 intersection_of: attribute_of UBERON:0001464 ! hip
-relationship: affects_quality PATO:0001648 {is_inferred="true"} ! circumference
-relationship: attribute_of UBERON:0001464 {is_inferred="true"} ! hip
 created_by: cjmungall
 creation_date: 2013-06-17T17:53:37Z
 
@@ -1318,13 +1164,9 @@ id: OBA:1000033
 name: upper leg circumference
 def: "Any measurable or observable characteristic related to the circumference of a hindlimb stylopod." [GOC:TermGenie]
 synonym: "hindlimb stylopod circumference trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
-is_a: VT:0100003 {is_inferred="true"} ! organism subdivision trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001648 ! circumference
 intersection_of: attribute_of UBERON:0000376 ! hindlimb stylopod
-relationship: affects_quality PATO:0001648 {is_inferred="true"} ! circumference
-relationship: attribute_of UBERON:0000376 {is_inferred="true"} ! hindlimb stylopod
 created_by: cjmungall
 creation_date: 2013-06-17T17:53:39Z
 
@@ -1333,13 +1175,9 @@ id: OBA:1000034
 name: cell surface area
 def: "Any measurable or observable characteristic related to the area of a cell surface." [GOC:TermGenie]
 synonym: "cell surface area trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000057 {is_inferred="true"} ! cellular component size
-is_a: OBA:1000087 {is_inferred="true"} ! cell surface morphology
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001323 ! area
 intersection_of: attribute_of GO:0009986 ! cell surface
-relationship: affects_quality PATO:0001323 {is_inferred="true"} ! area
-relationship: attribute_of GO:0009986 {is_inferred="true"} ! cell surface
 created_by: jen.hammock
 creation_date: 2013-08-06T20:05:54Z
 
@@ -1350,12 +1188,9 @@ def: "Any measurable or observable characteristic related to the opacity of a le
 synonym: "lens of camera-type eye opacity trait" EXACT [GOC:TermGenie]
 synonym: "lens opacity" BROAD []
 synonym: "lens transparency" BROAD []
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000957 ! opacity
 intersection_of: attribute_of UBERON:0000965 ! lens of camera-type eye
-relationship: affects_quality PATO:0000957 {is_inferred="true"} ! opacity
-relationship: attribute_of UBERON:0000965 {is_inferred="true"} ! lens of camera-type eye
 created_by: cjmungall
 creation_date: 2013-09-25T23:32:06Z
 
@@ -1364,12 +1199,9 @@ id: OBA:1000036
 name: cell mass
 def: "Any measurable or observable characteristic related to the mass of a cell." [GOC:TermGenie]
 synonym: "cell mass trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000076 {is_inferred="true"} ! cell attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000125 ! mass
 intersection_of: attribute_of GO:0005623 ! cell
-relationship: affects_quality PATO:0000125 {is_inferred="true"} ! mass
-relationship: attribute_of GO:0005623 {is_inferred="true"} ! cell
 created_by: jen.hammock
 creation_date: 2013-09-30T20:01:39Z
 
@@ -1378,12 +1210,9 @@ id: OBA:1000037
 name: adult organism mass
 def: "Any measurable or observable characteristic related to the mass of an adult organism." [GOC:TermGenie]
 synonym: "adult organism mass trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000125 ! mass
 intersection_of: attribute_of UBERON:0007023 ! adult organism
-relationship: affects_quality PATO:0000125 {is_inferred="true"} ! mass
-relationship: attribute_of UBERON:0007023 {is_inferred="true"} ! adult organism
 created_by: jen.hammock
 creation_date: 2013-10-08T20:29:11Z
 
@@ -1392,13 +1221,9 @@ id: OBA:1000038
 name: mollusc shell height
 def: "Any measurable or observable characteristic related to the height of a mollusc shell." [GOC:TermGenie]
 synonym: "mollusc shell height trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
-is_a: OBA:1000051 {is_inferred="true"} ! mollusc shell quality
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000119 ! height
 intersection_of: attribute_of UBERON:0008270 ! mollusc shell
-relationship: affects_quality PATO:0000119 {is_inferred="true"} ! height
-relationship: attribute_of UBERON:0008270 {is_inferred="true"} ! mollusc shell
 created_by: jen.hammock
 creation_date: 2013-10-08T21:19:32Z
 
@@ -1407,13 +1232,9 @@ id: OBA:1000039
 name: mollusc shell length
 def: "Any measurable or observable characteristic related to the length of a mollusc shell." [GOC:TermGenie]
 synonym: "mollusc shell length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
-is_a: OBA:1000051 {is_inferred="true"} ! mollusc shell quality
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0008270 ! mollusc shell
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0008270 {is_inferred="true"} ! mollusc shell
 created_by: jen.hammock
 creation_date: 2013-10-08T21:21:38Z
 
@@ -1422,12 +1243,9 @@ id: OBA:1000040
 name: secondary xylem volumetric density
 def: "Any measurable or observable characteristic related to the volumetric density of a secondary xylem." [GOC:TermGenie, http://dx.doi.org/10.1111/j.1461-0248.2009.01285.x]
 synonym: "secondary xylem volumetric density trait" EXACT [GOC:TermGenie]
-is_a: TO:0000470 {is_inferred="true"} ! vascular tissue anatomy and morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001353 ! volumetric density
 intersection_of: attribute_of PO:0005848 ! secondary xylem
-relationship: affects_quality PATO:0001353 {is_inferred="true"} ! volumetric density
-relationship: attribute_of PO:0005848 {is_inferred="true"} ! secondary xylem
 created_by: eolspecies
 creation_date: 2013-10-22T16:26:19Z
 
@@ -1436,12 +1254,9 @@ id: OBA:1000041
 name: cotyledonary node color
 def: "Any measurable or observable characteristic related to the color of a cotyledonary node." [GOC:TermGenie]
 synonym: "cotyledonary node color trait" EXACT [GOC:TermGenie]
-is_a: TO:0000059 {is_inferred="true"} ! node color
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000014 ! color
 intersection_of: attribute_of PO:0025321 ! cotyledonary node
-relationship: affects_quality PATO:0000014 {is_inferred="true"} ! color
-relationship: attribute_of PO:0025321 {is_inferred="true"} ! cotyledonary node
 created_by: cjmungall
 creation_date: 2013-10-29T21:11:53Z
 
@@ -1450,12 +1265,9 @@ id: OBA:1000042
 name: scutellar node color
 def: "Any measurable or observable characteristic related to the color of a scutellar node." [GOC:TermGenie]
 synonym: "scutellar node color trait" EXACT [GOC:TermGenie]
-is_a: TO:0000059 {is_inferred="true"} ! node color
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000014 ! color
 intersection_of: attribute_of PO:0004708 ! scutellar node
-relationship: affects_quality PATO:0000014 {is_inferred="true"} ! color
-relationship: attribute_of PO:0004708 {is_inferred="true"} ! scutellar node
 created_by: cjmungall
 creation_date: 2013-10-29T21:11:59Z
 
@@ -1464,12 +1276,9 @@ id: OBA:1000043
 name: shoot node color
 def: "Any measurable or observable characteristic related to the color of a shoot node." [GOC:TermGenie]
 synonym: "shoot node color trait" EXACT [GOC:TermGenie]
-is_a: TO:0000017 {is_inferred="true"} ! anatomy and morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000014 ! color
 intersection_of: attribute_of PO:0005004 ! shoot node
-relationship: affects_quality PATO:0000014 {is_inferred="true"} ! color
-relationship: attribute_of PO:0005004 {is_inferred="true"} ! shoot node
 created_by: cjmungall
 creation_date: 2013-10-29T21:15:42Z
 
@@ -1490,12 +1299,9 @@ def: "Any measurable or observable characteristic related to the color of an iri
 synonym: "coloration of irides" RELATED []
 synonym: "eye color" BROAD []
 synonym: "iris color trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000014 ! color
 intersection_of: attribute_of UBERON:0001769 ! iris
-relationship: affects_quality PATO:0000014 {is_inferred="true"} ! color
-relationship: attribute_of UBERON:0001769 {is_inferred="true"} ! iris
 created_by: cjmungall
 creation_date: 2014-01-21T22:46:17Z
 
@@ -1504,13 +1310,9 @@ id: OBA:1000046
 name: philtrum length
 def: "Any measurable or observable characteristic related to the length of a philtrum." [GOC:TermGenie]
 synonym: "philtrum length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
-is_a: VT:0015066 {is_inferred="true"} ! surface structure morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0005402 ! philtrum
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0005402 {is_inferred="true"} ! philtrum
 created_by: cjmungall
 creation_date: 2014-01-27T23:37:06Z
 
@@ -1519,12 +1321,9 @@ id: OBA:1000047
 name: palpebral fissure length
 def: "Any measurable or observable characteristic related to the length of a palpebral fissure." [GOC:TermGenie]
 synonym: "palpebral fissure length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0001819 ! palpebral fissure
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0001819 {is_inferred="true"} ! palpebral fissure
 created_by: cjmungall
 creation_date: 2014-01-27T23:50:54Z
 
@@ -1534,13 +1333,9 @@ name: manus length
 def: "Any measurable or observable characteristic related to the length of a manus." [GOC:TermGenie]
 synonym: "hand length" EXACT []
 synonym: "manus length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
-is_a: VT:0000572 {is_inferred="true"} ! autopod morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0002398 ! manus
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0002398 {is_inferred="true"} ! manus
 created_by: cjmungall
 creation_date: 2014-01-27T23:51:00Z
 
@@ -1550,13 +1345,9 @@ name: pes length
 def: "Any measurable or observable characteristic related to the length of a pes." [GOC:TermGenie]
 synonym: "foot length" EXACT []
 synonym: "pes length trait" EXACT [GOC:TermGenie]
-is_a: VT:0000548 {is_inferred="true"} ! limb length
-is_a: VT:0000573 {is_inferred="true"} ! hind paw size trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0002387 ! pes
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0002387 {is_inferred="true"} ! pes
 created_by: cjmungall
 creation_date: 2014-01-27T23:51:06Z
 
@@ -1566,13 +1357,9 @@ name: palmar part of manus length
 def: "Any measurable or observable characteristic related to the length of a palmar part of manus." [GOC:TermGenie]
 synonym: "palm length" EXACT []
 synonym: "palmar part of manus length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
-is_a: VT:0100003 {is_inferred="true"} ! organism subdivision trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0008878 ! palmar part of manus
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0008878 {is_inferred="true"} ! palmar part of manus
 created_by: cjmungall
 creation_date: 2014-01-27T23:51:13Z
 
@@ -1581,12 +1368,9 @@ id: OBA:1000051
 name: mollusc shell quality
 def: "Any measurable or observable characteristic related to the quality of a mollusc shell." [GOC:TermGenie]
 synonym: "mollusc shell quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0008270 ! mollusc shell
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0008270 {is_inferred="true"} ! mollusc shell
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:01Z
 
@@ -1595,12 +1379,9 @@ id: OBA:1000052
 name: columnella quality
 def: "Any measurable or observable characteristic related to the quality of a columnella." [GOC:TermGenie]
 synonym: "columnella quality trait" EXACT [GOC:TermGenie]
-is_a: VT:0100003 {is_inferred="true"} ! organism subdivision trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0008283 ! columnella
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0008283 {is_inferred="true"} ! columnella
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:08Z
 
@@ -1609,12 +1390,9 @@ id: OBA:1000053
 name: albumen gland quality
 def: "Any measurable or observable characteristic related to the quality of an albumen gland." [GOC:TermGenie]
 synonym: "albumen gland quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0008935 ! gastropod albumen gland
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0008935 {is_inferred="true"} ! gastropod albumen gland
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:14Z
 
@@ -1623,12 +1401,9 @@ id: OBA:1000054
 name: headfoot quality
 def: "Any measurable or observable characteristic related to the quality of a headfoot." [GOC:TermGenie]
 synonym: "headfoot quality trait" EXACT [GOC:TermGenie]
-is_a: VT:0100003 {is_inferred="true"} ! organism subdivision trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0008943 ! headfoot
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0008943 {is_inferred="true"} ! headfoot
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:20Z
 
@@ -1637,12 +1412,9 @@ id: OBA:1000055
 name: osphradium quality
 def: "Any measurable or observable characteristic related to the quality of an osphradium." [GOC:TermGenie]
 synonym: "osphradium quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0007770 ! osphradium
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0007770 {is_inferred="true"} ! osphradium
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:26Z
 
@@ -1651,12 +1423,9 @@ id: OBA:1000056
 name: nacre quality
 def: "Any measurable or observable characteristic related to the quality of a nacre." [GOC:TermGenie]
 synonym: "nacre quality trait" EXACT [GOC:TermGenie]
-is_a: VT:0100002 {is_inferred="true"} ! connective tissue trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0008269 ! nacre
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0008269 {is_inferred="true"} ! nacre
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:32Z
 
@@ -1665,12 +1434,9 @@ id: OBA:1000057
 name: gland quality
 def: "Any measurable or observable characteristic related to the quality of a gland." [GOC:TermGenie]
 synonym: "gland quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0002530 ! gland
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0002530 {is_inferred="true"} ! gland
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:38Z
 
@@ -1679,12 +1445,9 @@ id: OBA:1000058
 name: visceral hump quality
 def: "Any measurable or observable characteristic related to the quality of a visceral hump." [GOC:TermGenie]
 synonym: "visceral hump quality trait" EXACT [GOC:TermGenie]
-is_a: VT:0100003 {is_inferred="true"} ! organism subdivision trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0008937 ! visceral hump
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0008937 {is_inferred="true"} ! visceral hump
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:45Z
 
@@ -1693,12 +1456,9 @@ id: OBA:1000059
 name: parapodium quality
 def: "Any measurable or observable characteristic related to the quality of a parapodium." [GOC:TermGenie]
 synonym: "parapodium quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000099 {is_inferred="true"} ! appendage trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0009473 ! parapodium
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0009473 {is_inferred="true"} ! parapodium
 created_by: cjmungall
 creation_date: 2014-02-02T01:20:31Z
 
@@ -1707,12 +1467,9 @@ id: OBA:1000060
 name: prostomium quality
 def: "Any measurable or observable characteristic related to the quality of a prostomium." [GOC:TermGenie]
 synonym: "prostomium quality trait" EXACT [GOC:TermGenie]
-is_a: VT:0100003 {is_inferred="true"} ! organism subdivision trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0008834 ! prostomium
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0008834 {is_inferred="true"} ! prostomium
 created_by: cjmungall
 creation_date: 2014-02-02T01:20:37Z
 
@@ -1721,12 +1478,9 @@ id: OBA:1000061
 name: vestimentum muscle quality
 def: "Any measurable or observable characteristic related to the quality of a vestimentum muscle." [GOC:TermGenie]
 synonym: "vestimentum muscle quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0012642 ! vestimentum muscle
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0012642 {is_inferred="true"} ! vestimentum muscle
 created_by: cjmungall
 creation_date: 2014-02-02T01:20:43Z
 
@@ -1735,12 +1489,9 @@ id: OBA:1000062
 name: trophosome quality
 def: "Any measurable or observable characteristic related to the quality of a trophosome." [GOC:TermGenie]
 synonym: "trophosome quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0012644 ! trophosome
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0012644 {is_inferred="true"} ! trophosome
 created_by: cjmungall
 creation_date: 2014-02-02T01:20:49Z
 
@@ -1749,12 +1500,9 @@ id: OBA:1000063
 name: opisthosome quality
 def: "Any measurable or observable characteristic related to the quality of an opisthosome." [GOC:TermGenie]
 synonym: "opisthosome quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0012645 ! opisthosome
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0012645 {is_inferred="true"} ! opisthosome
 created_by: cjmungall
 creation_date: 2014-02-02T01:20:55Z
 
@@ -1763,12 +1511,9 @@ id: OBA:1000064
 name: dermal bone quality
 def: "Any measurable or observable characteristic related to the quality of a dermal bone." [GOC:TermGenie]
 synonym: "dermal bone quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0008907 ! dermal bone
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0008907 {is_inferred="true"} ! dermal bone
 created_by: cjmungall
 creation_date: 2014-02-22T16:19:16Z
 
@@ -1777,13 +1522,9 @@ id: OBA:1000065
 name: dermal bone morphology
 def: "Any measurable or observable characteristic related to the morphology of a dermal bone." [GOC:TermGenie]
 synonym: "dermal bone morphology trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000064 {is_inferred="true"} ! dermal bone quality
-is_a: VT:0010003 {is_inferred="true"} ! bone morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0008907 ! dermal bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0008907 {is_inferred="true"} ! dermal bone
 created_by: cjmungall
 creation_date: 2014-02-22T16:24:50Z
 
@@ -1792,12 +1533,9 @@ id: OBA:1000066
 name: endochondral bone morphology
 def: "Any measurable or observable characteristic related to the morphology of an endochondral bone." [GOC:TermGenie]
 synonym: "endochondral bone morphology trait" EXACT [GOC:TermGenie]
-is_a: VT:0010003 {is_inferred="true"} ! bone morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0002513 ! endochondral bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0002513 {is_inferred="true"} ! endochondral bone
 created_by: cjmungall
 creation_date: 2014-02-22T16:24:56Z
 
@@ -1806,12 +1544,9 @@ id: OBA:1000067
 name: endochondral bone quality
 def: "Any measurable or observable characteristic related to the quality of an endochondral bone." [GOC:TermGenie]
 synonym: "endochondral bone quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0002513 ! endochondral bone
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0002513 {is_inferred="true"} ! endochondral bone
 created_by: cjmungall
 creation_date: 2014-02-22T16:25:02Z
 
@@ -1820,13 +1555,9 @@ id: OBA:1000068
 name: epiplastron size
 def: "Any measurable or observable characteristic related to the size of an epiplastron." [GOC:TermGenie]
 synonym: "epiplastron size trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000065 {is_inferred="true"} ! dermal bone morphology
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0011658 ! epiplastron
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0011658 {is_inferred="true"} ! epiplastron
 created_by: cjmungall
 creation_date: 2014-02-22T16:56:12Z
 
@@ -1835,12 +1566,9 @@ id: OBA:1000069
 name: epiplastron mass
 def: "Any measurable or observable characteristic related to the mass of an epiplastron." [GOC:TermGenie]
 synonym: "epiplastron mass trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000064 {is_inferred="true"} ! dermal bone quality
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000125 ! mass
 intersection_of: attribute_of UBERON:0011658 ! epiplastron
-relationship: affects_quality PATO:0000125 {is_inferred="true"} ! mass
-relationship: attribute_of UBERON:0011658 {is_inferred="true"} ! epiplastron
 created_by: cjmungall
 creation_date: 2014-02-22T16:56:18Z
 
@@ -1849,13 +1577,9 @@ id: OBA:1000070
 name: xiphiplastron size
 def: "Any measurable or observable characteristic related to the size of a xiphiplastron." [GOC:TermGenie]
 synonym: "xiphiplastron size trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000065 {is_inferred="true"} ! dermal bone morphology
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0011661 ! xiphiplastron
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0011661 {is_inferred="true"} ! xiphiplastron
 created_by: cjmungall
 creation_date: 2014-02-22T16:56:25Z
 
@@ -1864,12 +1588,9 @@ id: OBA:1000071
 name: coat color
 def: "Any measurable or observable characteristic related to the color of a coat of hair." [GOC:TermGenie]
 synonym: "coat of hair color trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000014 ! color
 intersection_of: attribute_of UBERON:0010166 ! coat of hair
-relationship: affects_quality PATO:0000014 {is_inferred="true"} ! color
-relationship: attribute_of UBERON:0010166 {is_inferred="true"} ! coat of hair
 created_by: cjmungall
 creation_date: 2014-03-06T04:45:10Z
 
@@ -1878,12 +1599,9 @@ id: OBA:1000072
 name: coat color pattern
 def: "Any measurable or observable characteristic related to the color pattern of a coat of hair." [GOC:TermGenie]
 synonym: "coat of hair color pattern trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000019 ! color pattern
 intersection_of: attribute_of UBERON:0010166 ! coat of hair
-relationship: affects_quality PATO:0000019 {is_inferred="true"} ! color pattern
-relationship: attribute_of UBERON:0010166 {is_inferred="true"} ! coat of hair
 created_by: cjmungall
 creation_date: 2014-03-06T04:45:14Z
 
@@ -1892,12 +1610,9 @@ id: OBA:1000073
 name: coat spatial pattern
 def: "Any measurable or observable characteristic related to the spatial pattern of a coat of hair." [GOC:TermGenie]
 synonym: "coat of hair spatial pattern trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000060 ! spatial pattern
 intersection_of: attribute_of UBERON:0010166 ! coat of hair
-relationship: affects_quality PATO:0000060 {is_inferred="true"} ! spatial pattern
-relationship: attribute_of UBERON:0010166 {is_inferred="true"} ! coat of hair
 created_by: cjmungall
 creation_date: 2014-03-06T04:45:18Z
 
@@ -1905,13 +1620,9 @@ creation_date: 2014-03-06T04:45:18Z
 id: OBA:1000074
 name: antenna size
 def: "Any measurable or observable characteristic related to the size of an antenna." [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
-is_a: VT:0015071 {is_inferred="true"} ! appendage morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0000972 ! antenna
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0000972 {is_inferred="true"} ! antenna
 created_by: caripark
 creation_date: 2014-04-11T18:52:34Z
 
@@ -1920,12 +1631,9 @@ id: OBA:1000075
 name: cytosol color
 def: "Any measurable or observable characteristic related to the color of a cytosol." [GOC:TermGenie]
 synonym: "cytosol color trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000077 {is_inferred="true"} ! cytosol attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000014 ! color
 intersection_of: attribute_of GO:0005829 ! cytosol
-relationship: affects_quality PATO:0000014 {is_inferred="true"} ! color
-relationship: attribute_of GO:0005829 {is_inferred="true"} ! cytosol
 created_by: annethessen
 creation_date: 2014-06-04T18:58:27Z
 
@@ -1934,12 +1642,9 @@ id: OBA:1000076
 name: cell attribute
 def: "Any measurable or observable characteristic related to the quality of a cell." [GOC:TermGenie]
 synonym: "cell quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of GO:0005623 ! cell
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of GO:0005623 {is_inferred="true"} ! cell
 created_by: cjmungall
 creation_date: 2014-06-04T19:24:06Z
 
@@ -1948,12 +1653,9 @@ id: OBA:1000077
 name: cytosol attribute
 def: "Any measurable or observable characteristic related to the quality of a cytosol." [GOC:TermGenie]
 synonym: "cytosol quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of GO:0005829 ! cytosol
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of GO:0005829 {is_inferred="true"} ! cytosol
 created_by: cjmungall
 creation_date: 2014-06-04T19:24:09Z
 
@@ -1962,12 +1664,9 @@ id: OBA:1000078
 name: organelle attribute
 def: "Any measurable or observable characteristic related to the quality of an organelle." [GOC:TermGenie]
 synonym: "organelle quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of GO:0043226 ! organelle
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of GO:0043226 {is_inferred="true"} ! organelle
 created_by: cjmungall
 creation_date: 2014-06-04T19:24:13Z
 
@@ -1976,12 +1675,9 @@ id: OBA:1000079
 name: muscle organ strength
 def: "Any measurable or observable characteristic related to the strength of a muscle organ." [GOC:TermGenie]
 synonym: "muscle organ strength trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001230 ! strength
 intersection_of: attribute_of UBERON:0001630 ! muscle organ
-relationship: affects_quality PATO:0001230 {is_inferred="true"} ! strength
-relationship: attribute_of UBERON:0001630 {is_inferred="true"} ! muscle organ
 created_by: cjmungall
 creation_date: 2014-06-04T19:27:04Z
 
@@ -1990,12 +1686,9 @@ id: OBA:1000080
 name: skeletal muscle organ strength
 def: "Any measurable or observable characteristic related to the strength of a skeletal muscle organ." [GOC:TermGenie]
 synonym: "skeletal muscle organ strength trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001230 ! strength
 intersection_of: attribute_of UBERON:0014892 ! skeletal muscle organ
-relationship: affects_quality PATO:0001230 {is_inferred="true"} ! strength
-relationship: attribute_of UBERON:0014892 {is_inferred="true"} ! skeletal muscle organ
 created_by: cjmungall
 creation_date: 2014-06-04T19:27:08Z
 
@@ -2004,12 +1697,9 @@ id: OBA:1000081
 name: forelimb muscle strength
 def: "Any measurable or observable characteristic related to the strength of a forelimb muscle." [GOC:TermGenie]
 synonym: "forelimb muscle strength trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001230 ! strength
 intersection_of: attribute_of UBERON:0003662 ! forelimb muscle
-relationship: affects_quality PATO:0001230 {is_inferred="true"} ! strength
-relationship: attribute_of UBERON:0003662 {is_inferred="true"} ! forelimb muscle
 created_by: cjmungall
 creation_date: 2014-06-04T19:27:11Z
 
@@ -2018,12 +1708,9 @@ id: OBA:1000082
 name: hindlimb muscle strength
 def: "Any measurable or observable characteristic related to the strength of a hindlimb muscle." [GOC:TermGenie]
 synonym: "hindlimb muscle strength trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001230 ! strength
 intersection_of: attribute_of UBERON:0003663 ! hindlimb muscle
-relationship: affects_quality PATO:0001230 {is_inferred="true"} ! strength
-relationship: attribute_of UBERON:0003663 {is_inferred="true"} ! hindlimb muscle
 created_by: cjmungall
 creation_date: 2014-06-04T19:27:15Z
 
@@ -2032,12 +1719,9 @@ id: OBA:1000083
 name: nucleus length
 def: "Any measurable or observable characteristic related to the length of a nucleus." [GOC:TermGenie]
 synonym: "nucleus length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000117 {is_inferred="true"} ! nuclear size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of GO:0005634 ! nucleus
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of GO:0005634 {is_inferred="true"} ! nucleus
 created_by: annethessen
 creation_date: 2014-06-04T19:31:50Z
 
@@ -2046,12 +1730,9 @@ id: OBA:1000084
 name: cell surface texture
 def: "Any measurable or observable characteristic related to the texture of a cell surface." [GOC:TermGenie]
 synonym: "cell surface texture trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000087 {is_inferred="true"} ! cell surface morphology
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000150 ! texture
 intersection_of: attribute_of GO:0009986 ! cell surface
-relationship: affects_quality PATO:0000150 {is_inferred="true"} ! texture
-relationship: attribute_of GO:0009986 {is_inferred="true"} ! cell surface
 created_by: annethessen
 creation_date: 2014-06-04T19:42:11Z
 
@@ -2060,12 +1741,9 @@ id: OBA:1000085
 name: nucleus width
 def: "Any measurable or observable characteristic related to the width of a nucleus." [GOC:TermGenie]
 synonym: "nucleus width trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000117 {is_inferred="true"} ! nuclear size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000921 ! width
 intersection_of: attribute_of GO:0005634 ! nucleus
-relationship: affects_quality PATO:0000921 {is_inferred="true"} ! width
-relationship: attribute_of GO:0005634 {is_inferred="true"} ! nucleus
 created_by: annethessen
 creation_date: 2014-06-04T20:31:38Z
 
@@ -2074,12 +1752,9 @@ id: OBA:1000086
 name: cell surface quality
 def: "Any measurable or observable characteristic related to the quality of a cell surface." [GOC:TermGenie]
 synonym: "cell surface quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of GO:0009986 ! cell surface
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of GO:0009986 {is_inferred="true"} ! cell surface
 created_by: cjmungall
 creation_date: 2014-06-06T16:11:26Z
 
@@ -2088,12 +1763,9 @@ id: OBA:1000087
 name: cell surface morphology
 def: "Any measurable or observable characteristic related to the morphology of a cell surface." [GOC:TermGenie]
 synonym: "cell surface morphology trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of GO:0009986 ! cell surface
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of GO:0009986 {is_inferred="true"} ! cell surface
 created_by: cjmungall
 creation_date: 2014-06-06T16:11:30Z
 
@@ -2102,12 +1774,9 @@ id: OBA:1000088
 name: plasma membrane quality
 def: "Any measurable or observable characteristic related to the quality of a plasma membrane." [GOC:TermGenie]
 synonym: "plasma membrane quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of GO:0005886 ! plasma membrane
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of GO:0005886 {is_inferred="true"} ! plasma membrane
 created_by: cjmungall
 creation_date: 2014-06-06T16:11:34Z
 
@@ -2116,12 +1785,9 @@ id: OBA:1000089
 name: plasma membrane morphology
 def: "Any measurable or observable characteristic related to the morphology of a plasma membrane." [GOC:TermGenie]
 synonym: "plasma membrane morphology trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of GO:0005886 ! plasma membrane
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of GO:0005886 {is_inferred="true"} ! plasma membrane
 created_by: cjmungall
 creation_date: 2014-06-06T16:11:38Z
 
@@ -2130,12 +1796,9 @@ id: OBA:1000090
 name: membrane quality
 def: "Any measurable or observable characteristic related to the quality of a membrane." [GOC:TermGenie]
 synonym: "membrane quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of GO:0016020 ! membrane
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of GO:0016020 {is_inferred="true"} ! membrane
 created_by: cjmungall
 creation_date: 2014-06-06T16:11:41Z
 
@@ -2144,12 +1807,9 @@ id: OBA:1000091
 name: membrane morphology
 def: "Any measurable or observable characteristic related to the morphology of a membrane." [GOC:TermGenie]
 synonym: "membrane morphology trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of GO:0016020 ! membrane
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of GO:0016020 {is_inferred="true"} ! membrane
 created_by: cjmungall
 creation_date: 2014-06-06T16:11:45Z
 
@@ -2158,12 +1818,9 @@ id: OBA:1000092
 name: dinoflagellate cingulum shape
 def: "Any measurable or observable characteristic related to the shape of a dinoflagellate cingulum." [GOC:TermGenie]
 synonym: "dinoflagellate cingulum shape trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052 ! shape
 intersection_of: attribute_of GO:0097611 ! dinoflagellate cingulum
-relationship: affects_quality PATO:0000052 {is_inferred="true"} ! shape
-relationship: attribute_of GO:0097611 {is_inferred="true"} ! dinoflagellate cingulum
 created_by: annethessen
 creation_date: 2014-06-25T00:10:46Z
 
@@ -2172,12 +1829,9 @@ id: OBA:1000093
 name: dinoflagellate sulcus shape
 def: "Any measurable or observable characteristic related to the shape of a dinoflagellate sulcus." [GOC:TermGenie]
 synonym: "dinoflagellate sulcus shape trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052 ! shape
 intersection_of: attribute_of GO:0097612 ! dinoflagellate sulcus
-relationship: affects_quality PATO:0000052 {is_inferred="true"} ! shape
-relationship: attribute_of GO:0097612 {is_inferred="true"} ! dinoflagellate sulcus
 created_by: annethessen
 creation_date: 2014-06-27T17:49:26Z
 
@@ -2186,12 +1840,9 @@ id: OBA:1000094
 name: chloroplast shape
 def: "Any measurable or observable characteristic related to the shape of a chloroplast." [GOC:TermGenie]
 synonym: "chloroplast shape trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052 ! shape
 intersection_of: attribute_of GO:0009507 ! chloroplast
-relationship: affects_quality PATO:0000052 {is_inferred="true"} ! shape
-relationship: attribute_of GO:0009507 {is_inferred="true"} ! chloroplast
 created_by: annethessen
 creation_date: 2014-07-01T14:09:53Z
 
@@ -2200,12 +1851,9 @@ id: OBA:1000095
 name: chloroplast spatial pattern
 def: "Any measurable or observable characteristic related to the spatial pattern of a chloroplast." [GOC:TermGenie]
 synonym: "chloroplast spatial pattern trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000060 ! spatial pattern
 intersection_of: attribute_of GO:0009507 ! chloroplast
-relationship: affects_quality PATO:0000060 {is_inferred="true"} ! spatial pattern
-relationship: attribute_of GO:0009507 {is_inferred="true"} ! chloroplast
 created_by: annethessen
 creation_date: 2014-07-01T14:46:16Z
 
@@ -2214,12 +1862,9 @@ id: OBA:1000096
 name: chloroplast color
 def: "Any measurable or observable characteristic related to the color of a chloroplast." [GOC:TermGenie]
 synonym: "chloroplast color trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000014 ! color
 intersection_of: attribute_of GO:0009507 ! chloroplast
-relationship: affects_quality PATO:0000014 {is_inferred="true"} ! color
-relationship: attribute_of GO:0009507 {is_inferred="true"} ! chloroplast
 created_by: annethessen
 creation_date: 2014-07-01T15:18:01Z
 
@@ -2228,13 +1873,9 @@ id: OBA:1000097
 name: chloroplast size
 def: "Any measurable or observable characteristic related to the size of a chloroplast." [GOC:TermGenie]
 synonym: "chloroplast size trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000057 {is_inferred="true"} ! cellular component size
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of GO:0009507 ! chloroplast
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of GO:0009507 {is_inferred="true"} ! chloroplast
 created_by: annethessen
 creation_date: 2014-07-01T17:59:40Z
 
@@ -2243,12 +1884,9 @@ id: OBA:1000098
 name: dinoflagellate sulcus width
 def: "Any measurable or observable characteristic related to the width of a dinoflagellate sulcus." [GOC:TermGenie]
 synonym: "dinoflagellate sulcus width trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000057 {is_inferred="true"} ! cellular component size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000921 ! width
 intersection_of: attribute_of GO:0097612 ! dinoflagellate sulcus
-relationship: affects_quality PATO:0000921 {is_inferred="true"} ! width
-relationship: attribute_of GO:0097612 {is_inferred="true"} ! dinoflagellate sulcus
 created_by: annethessen
 creation_date: 2014-07-01T20:43:17Z
 
@@ -2257,12 +1895,9 @@ id: OBA:1000099
 name: appendage trait
 def: "Any measurable or observable characteristic related to the quality of an appendage." [GOC:TermGenie]
 synonym: "appendage quality trait" EXACT [GOC:TermGenie]
-is_a: VT:0100003 {is_inferred="true"} ! organism subdivision trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0000026 ! appendage
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0000026 {is_inferred="true"} ! appendage
 created_by: cjmungall
 creation_date: 2014-07-07T02:17:51Z
 
@@ -2271,12 +1906,9 @@ id: OBA:1000100
 name: paired fin trait
 def: "Any measurable or observable characteristic related to the quality of a paired fin." [GOC:TermGenie]
 synonym: "paired fin quality trait" EXACT [GOC:TermGenie]
-is_a: VT:0100003 {is_inferred="true"} ! organism subdivision trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0002534 ! paired fin
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0002534 {is_inferred="true"} ! paired fin
 created_by: cjmungall
 creation_date: 2014-07-07T02:17:54Z
 
@@ -2285,12 +1917,9 @@ id: OBA:1000101
 name: axial skeleton plus cranial skeleton length
 def: "Any measurable or observable characteristic related to the length of an axial skeleton plus cranial skeleton." [GOC:TermGenie]
 synonym: "axial skeleton plus cranial skeleton length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0005944 ! axial skeleton plus cranial skeleton
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0005944 {is_inferred="true"} ! axial skeleton plus cranial skeleton
 created_by: cjmungall
 creation_date: 2014-07-07T02:21:22Z
 
@@ -2299,13 +1928,9 @@ id: OBA:1000102
 name: vertebral column length
 def: "Any measurable or observable characteristic related to the length of a vertebral column." [GOC:TermGenie]
 synonym: "vertebral column length trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
-is_a: VT:0010086 {is_inferred="true"} ! vertebral column morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0001130 ! vertebral column
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0001130 {is_inferred="true"} ! vertebral column
 created_by: cjmungall
 creation_date: 2014-07-07T02:21:25Z
 
@@ -2314,12 +1939,9 @@ id: OBA:1000103
 name: cervical region of vertebral column length
 def: "Any measurable or observable characteristic related to the length of a cervical region of vertebral column." [GOC:TermGenie]
 synonym: "cervical region of vertebral column length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0006072 ! cervical region of vertebral column
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0006072 {is_inferred="true"} ! cervical region of vertebral column
 created_by: cjmungall
 creation_date: 2014-07-07T02:21:29Z
 
@@ -2328,12 +1950,9 @@ id: OBA:1000104
 name: subdivision of vertebral column length
 def: "Any measurable or observable characteristic related to the length of a subdivision of vertebral column." [GOC:TermGenie]
 synonym: "subdivision of vertebral column length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0006077 ! subdivision of vertebral column
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0006077 {is_inferred="true"} ! subdivision of vertebral column
 created_by: cjmungall
 creation_date: 2014-07-07T02:21:32Z
 
@@ -2342,12 +1961,9 @@ id: OBA:1000105
 name: tissue composition
 def: "Any measurable or observable characteristic related to the composition of a tissue." [GOC:TermGenie]
 synonym: "tissue composition trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000025 ! composition
 intersection_of: attribute_of UBERON:0000479 ! tissue
-relationship: affects_quality PATO:0000025 {is_inferred="true"} ! composition
-relationship: attribute_of UBERON:0000479 {is_inferred="true"} ! tissue
 created_by: cjmungall
 creation_date: 2014-07-12T22:00:01Z
 
@@ -2356,12 +1972,9 @@ id: OBA:1000106
 name: skeletal tissue composition
 def: "Any measurable or observable characteristic related to the composition of a skeletal tissue." [GOC:TermGenie]
 synonym: "skeletal tissue composition trait" EXACT [GOC:TermGenie]
-is_a: VT:0001248 {is_inferred="true"} ! connective tissue morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000025 ! composition
 intersection_of: attribute_of UBERON:0004755 ! skeletal tissue
-relationship: affects_quality PATO:0000025 {is_inferred="true"} ! composition
-relationship: attribute_of UBERON:0004755 {is_inferred="true"} ! skeletal tissue
 created_by: cjmungall
 creation_date: 2014-07-12T22:00:04Z
 
@@ -2370,12 +1983,9 @@ id: OBA:1000107
 name: testis position
 def: "Any measurable or observable characteristic related to the position of a testis." [GOC:TermGenie]
 synonym: "testis position trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000140 ! position
 intersection_of: attribute_of UBERON:0000473 ! testis
-relationship: affects_quality PATO:0000140 {is_inferred="true"} ! position
-relationship: attribute_of UBERON:0000473 {is_inferred="true"} ! testis
 created_by: cjmungall
 creation_date: 2014-07-15T22:55:29Z
 
@@ -2384,12 +1994,9 @@ id: OBA:1000108
 name: hoof trait
 def: "Any measurable or observable characteristic related to the quality of a hoof." [GOC:TermGenie]
 synonym: "hoof quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000001 ! quality
 intersection_of: attribute_of UBERON:0008963 ! hoof
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0008963 {is_inferred="true"} ! hoof
 created_by: cjmungall
 creation_date: 2014-07-18T16:52:08Z
 
@@ -2398,12 +2005,9 @@ id: OBA:1000109
 name: anatomical pigmentation
 def: "Any measurable or observable characteristic related to the degree of pigmentation of an anatomical structure." [GOC:TermGenie]
 synonym: "anatomical structure degree of pigmentation trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0002247 ! degree of pigmentation
 intersection_of: attribute_of UBERON:0000061 ! anatomical structure
-relationship: affects_quality PATO:0002247 {is_inferred="true"} ! degree of pigmentation
-relationship: attribute_of UBERON:0000061 {is_inferred="true"} ! anatomical structure
 created_by: cjmungall
 creation_date: 2014-07-18T16:52:11Z
 
@@ -2412,12 +2016,9 @@ id: OBA:1000110
 name: bone density
 def: "Any measurable or observable characteristic related to the mass density of a bone tissue." [GOC:TermGenie]
 synonym: "bone tissue mass density trait" EXACT [GOC:TermGenie]
-is_a: VT:0100002 {is_inferred="true"} ! connective tissue trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001019 ! mass density
 intersection_of: attribute_of UBERON:0002481 ! bone tissue
-relationship: affects_quality PATO:0001019 {is_inferred="true"} ! mass density
-relationship: attribute_of UBERON:0002481 {is_inferred="true"} ! bone tissue
 created_by: cjmungall
 creation_date: 2014-07-25T16:15:45Z
 
@@ -2426,13 +2027,9 @@ id: OBA:1000111
 name: adrenal gland size
 def: "Any measurable or observable characteristic related to the size of an adrenal gland." [GOC:TermGenie]
 synonym: "adrenal gland size trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
-is_a: VT:0000639 {is_inferred="true"} ! adrenal gland morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0002369 ! adrenal gland
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0002369 {is_inferred="true"} ! adrenal gland
 created_by: cjmungall
 creation_date: 2014-07-27T01:19:14Z
 
@@ -2441,13 +2038,9 @@ id: OBA:1000112
 name: tooth size
 def: "Any measurable or observable characteristic related to the size of a calcareous tooth." [GOC:TermGenie]
 synonym: "calcareous tooth size trait" EXACT [GOC:TermGenie]
-is_a: VT:0000002 {is_inferred="true"} ! head size trait
-is_a: VT:0002100 {is_inferred="true"} ! tooth morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0001091 ! calcareous tooth
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0001091 {is_inferred="true"} ! calcareous tooth
 created_by: cjmungall
 creation_date: 2014-07-27T01:19:07Z
 
@@ -2456,13 +2049,9 @@ id: OBA:1000113
 name: incisor size
 def: "Any measurable or observable characteristic related to the size of an incisor tooth." [GOC:TermGenie]
 synonym: "incisor tooth size trait" EXACT [GOC:TermGenie]
-is_a: VT:0000002 {is_inferred="true"} ! head size trait
-is_a: VT:0005358 {is_inferred="true"} ! incisor morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0001098 ! incisor tooth
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0001098 {is_inferred="true"} ! incisor tooth
 created_by: cjmungall
 creation_date: 2014-07-27T01:19:11Z
 
@@ -2471,12 +2060,9 @@ id: OBA:1000114
 name: axon terminus orientation
 def: "Any measurable or observable characteristic related to the orientation of an axon terminus." [GOC:TermGenie]
 synonym: "axon terminus orientation trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000133 ! orientation
 intersection_of: attribute_of GO:0043679 ! axon terminus
-relationship: affects_quality PATO:0000133 {is_inferred="true"} ! orientation
-relationship: attribute_of GO:0043679 {is_inferred="true"} ! axon terminus
 created_by: cjmungall
 creation_date: 2014-07-29T01:00:41Z
 
@@ -2485,14 +2071,9 @@ id: OBA:1000115
 name: axon length
 def: "Any measurable or observable characteristic related to the length of an axon." [GOC:TermGenie]
 synonym: "axon length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000051 {is_inferred="true"} ! cell projection size
-is_a: VT:0005404 {is_inferred="true"} ! axon morphology trait
-is_a: VT:0005603 {is_inferred="true"} ! neuron size trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of GO:0030424 ! axon
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of GO:0030424 {is_inferred="true"} ! axon
 created_by: cjmungall
 creation_date: 2014-07-29T01:00:44Z
 
@@ -2501,12 +2082,9 @@ id: OBA:1000116
 name: axon located in
 def: "Any measurable or observable characteristic related to the located in of an axon." [GOC:TermGenie]
 synonym: "axon located in trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0002261 ! located in
 intersection_of: attribute_of GO:0030424 ! axon
-relationship: affects_quality PATO:0002261 {is_inferred="true"} ! located in
-relationship: attribute_of GO:0030424 {is_inferred="true"} ! axon
 created_by: cjmungall
 creation_date: 2014-07-29T01:00:47Z
 
@@ -2515,12 +2093,9 @@ id: OBA:1000117
 name: axon shape
 def: "Any measurable or observable characteristic related to the shape of an axon." [GOC:TermGenie]
 synonym: "axon shape trait" EXACT [GOC:TermGenie]
-is_a: VT:0005404 {is_inferred="true"} ! axon morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052 ! shape
 intersection_of: attribute_of GO:0030424 ! axon
-relationship: affects_quality PATO:0000052 {is_inferred="true"} ! shape
-relationship: attribute_of GO:0030424 {is_inferred="true"} ! axon
 created_by: cjmungall
 creation_date: 2014-07-29T01:00:50Z
 
@@ -2529,12 +2104,9 @@ id: OBA:1000118
 name: dendrite count
 def: "Any measurable or observable characteristic related to the count of a dendrite." [GOC:TermGenie]
 synonym: "dendrite count trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of GO:0030425 ! dendrite
-relationship: affects_quality PATO:0000070 {is_inferred="true"} ! amount
-relationship: attribute_of GO:0030425 {is_inferred="true"} ! dendrite
 created_by: cjmungall
 creation_date: 2014-07-29T01:00:53Z
 
@@ -2543,14 +2115,9 @@ id: OBA:1000119
 name: dendrite thickness
 def: "Any measurable or observable characteristic related to the thickness of a dendrite." [GOC:TermGenie]
 synonym: "dendrite thickness trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000051 {is_inferred="true"} ! cell projection size
-is_a: VT:0005603 {is_inferred="true"} ! neuron size trait
-is_a: VT:0015109 {is_inferred="true"} ! dendrite morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000915 ! thickness
 intersection_of: attribute_of GO:0030425 ! dendrite
-relationship: affects_quality PATO:0000915 {is_inferred="true"} ! thickness
-relationship: attribute_of GO:0030425 {is_inferred="true"} ! dendrite
 created_by: cjmungall
 creation_date: 2014-07-29T01:00:56Z
 
@@ -2559,12 +2126,9 @@ id: OBA:1000120
 name: axon orientation
 def: "Any measurable or observable characteristic related to the orientation of an axon." [GOC:TermGenie]
 synonym: "axon orientation trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000133 ! orientation
 intersection_of: attribute_of GO:0030424 ! axon
-relationship: affects_quality PATO:0000133 {is_inferred="true"} ! orientation
-relationship: attribute_of GO:0030424 {is_inferred="true"} ! axon
 created_by: cjmungall
 creation_date: 2014-07-29T01:00:59Z
 
@@ -2573,12 +2137,9 @@ id: OBA:1000121
 name: dendrite orientation
 def: "Any measurable or observable characteristic related to the orientation of a dendrite." [GOC:TermGenie]
 synonym: "dendrite orientation trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000133 ! orientation
 intersection_of: attribute_of GO:0030425 ! dendrite
-relationship: affects_quality PATO:0000133 {is_inferred="true"} ! orientation
-relationship: attribute_of GO:0030425 {is_inferred="true"} ! dendrite
 created_by: cjmungall
 creation_date: 2014-07-29T01:01:02Z
 
@@ -2587,12 +2148,9 @@ id: OBA:1000122
 name: dendrite shape
 def: "Any measurable or observable characteristic related to the shape of a dendrite." [GOC:TermGenie]
 synonym: "dendrite shape trait" EXACT [GOC:TermGenie]
-is_a: VT:0015109 {is_inferred="true"} ! dendrite morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052 ! shape
 intersection_of: attribute_of GO:0030425 ! dendrite
-relationship: affects_quality PATO:0000052 {is_inferred="true"} ! shape
-relationship: attribute_of GO:0030425 {is_inferred="true"} ! dendrite
 created_by: cjmungall
 creation_date: 2014-07-29T01:01:05Z
 
@@ -2601,14 +2159,9 @@ id: OBA:1000123
 name: dendrite size
 def: "Any measurable or observable characteristic related to the size of a dendrite." [GOC:TermGenie]
 synonym: "dendrite size trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000051 {is_inferred="true"} ! cell projection size
-is_a: VT:0005603 {is_inferred="true"} ! neuron size trait
-is_a: VT:0015109 {is_inferred="true"} ! dendrite morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of GO:0030425 ! dendrite
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of GO:0030425 {is_inferred="true"} ! dendrite
 created_by: cjmungall
 creation_date: 2014-07-29T01:01:08Z
 
@@ -2618,12 +2171,9 @@ name: blue iris 
 def: "Any measurable or observable characteristic related to the blue of an iris." [GOC:TermGenie]
 synonym: "blue eyes" RELATED [GOC:NV]
 synonym: "blue iris trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000045 {is_inferred="true"} ! iris color
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000318 ! blue
 intersection_of: attribute_of UBERON:0001769 ! iris
-relationship: affects_quality PATO:0000318 {is_inferred="true"} ! blue
-relationship: attribute_of UBERON:0001769 {is_inferred="true"} ! iris
 created_by: vasilevs
 creation_date: 2014-10-07T20:39:39Z
 
@@ -2633,12 +2183,9 @@ name: brown strand of hair 
 def: "Any measurable or observable characteristic related to a brown strand of hair." [GOC:TermGenie]
 synonym: "brown hair" RELATED [GOC:NV]
 synonym: "brown strand of hair  trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000952 ! brown
 intersection_of: attribute_of UBERON:0001037 ! strand of hair
-relationship: affects_quality PATO:0000952 {is_inferred="true"} ! brown
-relationship: attribute_of UBERON:0001037 {is_inferred="true"} ! strand of hair
 created_by: vasilevs
 creation_date: 2014-10-07T20:41:50Z
 
@@ -2647,12 +2194,9 @@ id: OBA:1000126
 name: dinoflagellate epicone length
 def: "Any measurable or observable characteristic related to the length of a dinoflagellate epicone." [GOC:TermGenie]
 synonym: "dinoflagellate epicone length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000057 {is_inferred="true"} ! cellular component size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of GO:0097613 ! dinoflagellate epicone
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of GO:0097613 {is_inferred="true"} ! dinoflagellate epicone
 created_by: annethessen
 creation_date: 2014-12-02T18:49:09Z
 
@@ -2661,12 +2205,9 @@ id: OBA:1000127
 name: dinoflagellate hypocone length
 def: "Any measurable or observable characteristic related to the length of a dinoflagellate hypocone." [GOC:TermGenie]
 synonym: "dinoflagellate hypocone length trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000057 {is_inferred="true"} ! cellular component size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of GO:0097614 ! dinoflagellate hypocone
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of GO:0097614 {is_inferred="true"} ! dinoflagellate hypocone
 created_by: annethessen
 creation_date: 2014-12-02T18:53:16Z
 
@@ -2675,12 +2216,9 @@ id: OBA:1000128
 name: eyespot apparatus color
 def: "Any measurable or observable characteristic related to the color of an eyespot apparatus." [GOC:TermGenie]
 synonym: "eyespot apparatus color trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000014 ! color
 intersection_of: attribute_of GO:1990413 ! eyespot apparatus
-relationship: affects_quality PATO:0000014 {is_inferred="true"} ! color
-relationship: attribute_of GO:1990413 {is_inferred="true"} ! eyespot apparatus
 created_by: annethessen
 creation_date: 2014-12-02T19:04:56Z
 
@@ -2689,12 +2227,9 @@ id: OBA:1000129
 name: cell color
 def: "Any measurable or observable characteristic related to the color of a cell." [GOC:TermGenie]
 synonym: "cell color trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000076 {is_inferred="true"} ! cell attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000014 ! color
 intersection_of: attribute_of GO:0005623 ! cell
-relationship: affects_quality PATO:0000014 {is_inferred="true"} ! color
-relationship: attribute_of GO:0005623 {is_inferred="true"} ! cell
 created_by: annethessen
 creation_date: 2014-12-02T19:42:39Z
 
@@ -2703,12 +2238,9 @@ id: OBA:1000130
 name: nucleus diameter
 def: "Any measurable or observable characteristic related to the diameter of a nucleus." [GOC:TermGenie]
 synonym: "nucleus diameter trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000083 {is_inferred="true"} ! nucleus length
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001334 ! diameter
 intersection_of: attribute_of GO:0005634 ! nucleus
-relationship: affects_quality PATO:0001334 {is_inferred="true"} ! diameter
-relationship: attribute_of GO:0005634 {is_inferred="true"} ! nucleus
 created_by: annethessen
 creation_date: 2014-12-02T19:49:17Z
 
@@ -2717,12 +2249,9 @@ id: OBA:1000131
 name: eyespot apparatus located in
 def: "Any measurable or observable characteristic related to the located in of an eyespot apparatus." [GOC:TermGenie]
 synonym: "eyespot apparatus located in trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0002261 ! located in
 intersection_of: attribute_of GO:1990413 ! eyespot apparatus
-relationship: affects_quality PATO:0002261 {is_inferred="true"} ! located in
-relationship: attribute_of GO:1990413 {is_inferred="true"} ! eyespot apparatus
 created_by: annethessen
 creation_date: 2014-12-04T14:56:06Z
 
@@ -2731,12 +2260,9 @@ id: OBA:1000132
 name: dinoflagellate sulcal notch shape
 def: "Any measurable or observable characteristic related to the shape of a dinoflagellate sulcal notch." [GOC:TermGenie]
 synonym: "dinoflagellate sulcal notch shape trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000093 {is_inferred="true"} ! dinoflagellate sulcus shape
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052 ! shape
 intersection_of: attribute_of GO:0097618 ! dinoflagellate sulcal notch
-relationship: affects_quality PATO:0000052 {is_inferred="true"} ! shape
-relationship: attribute_of GO:0097618 {is_inferred="true"} ! dinoflagellate sulcal notch
 created_by: annethessen
 creation_date: 2014-12-10T15:43:23Z
 
@@ -2745,12 +2271,9 @@ id: OBA:1000133
 name: dinoflagellate apex shape
 def: "Any measurable or observable characteristic related to the shape of a dinoflagellate apex." [GOC:TermGenie]
 synonym: "dinoflagellate apex shape trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052 ! shape
 intersection_of: attribute_of GO:0097683 ! dinoflagellate apex
-relationship: affects_quality PATO:0000052 {is_inferred="true"} ! shape
-relationship: attribute_of GO:0097683 {is_inferred="true"} ! dinoflagellate apex
 created_by: annethessen
 creation_date: 2014-12-19T19:29:50Z
 
@@ -2759,12 +2282,9 @@ id: OBA:1000134
 name: dinoflagellate antapex shape
 def: "Any measurable or observable characteristic related to the shape of a dinoflagellate antapex." [GOC:TermGenie]
 synonym: "dinoflagellate antapex shape trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052 ! shape
 intersection_of: attribute_of GO:0097684 ! dinoflagellate antapex
-relationship: affects_quality PATO:0000052 {is_inferred="true"} ! shape
-relationship: attribute_of GO:0097684 {is_inferred="true"} ! dinoflagellate antapex
 created_by: annethessen
 creation_date: 2014-12-19T19:31:27Z
 
@@ -2773,12 +2293,9 @@ id: OBA:1000135
 name: dinoflagellate apical horn shape
 def: "Any measurable or observable characteristic related to the shape of a dinoflagellate apical horn." [GOC:TermGenie]
 synonym: "dinoflagellate apical horn shape trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052 ! shape
 intersection_of: attribute_of GO:0097686 ! dinoflagellate apical horn
-relationship: affects_quality PATO:0000052 {is_inferred="true"} ! shape
-relationship: attribute_of GO:0097686 {is_inferred="true"} ! dinoflagellate apical horn
 created_by: annethessen
 creation_date: 2014-12-22T19:25:15Z
 
@@ -2787,12 +2304,9 @@ id: OBA:1000136
 name: dinoflagellate antapical horn shape
 def: "Any measurable or observable characteristic related to the shape of a dinoflagellate antapical horn." [GOC:TermGenie]
 synonym: "dinoflagellate antapical horn shape trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052 ! shape
 intersection_of: attribute_of GO:0097687 ! dinoflagellate antapical horn
-relationship: affects_quality PATO:0000052 {is_inferred="true"} ! shape
-relationship: attribute_of GO:0097687 {is_inferred="true"} ! dinoflagellate antapical horn
 created_by: annethessen
 creation_date: 2014-12-22T20:37:23Z
 
@@ -2801,12 +2315,9 @@ id: OBA:1000137
 name: endolymph volume
 def: "Any measurable or observable characteristic related to the volume of an endolymph." [GOC:TermGenie]
 synonym: "endolymph volume trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000918 ! volume
 intersection_of: attribute_of UBERON:0001852 ! endolymph
-relationship: affects_quality PATO:0000918 {is_inferred="true"} ! volume
-relationship: attribute_of UBERON:0001852 {is_inferred="true"} ! endolymph
 created_by: cjmungall
 creation_date: 2015-01-11T01:04:32Z
 
@@ -2815,13 +2326,9 @@ id: OBA:1000138
 name: bone element size
 def: "Any measurable or observable characteristic related to the size of a bone element." [GOC:TermGenie]
 synonym: "bone element size trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
-is_a: VT:0010003 {is_inferred="true"} ! bone morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0001474 ! bone element
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0001474 {is_inferred="true"} ! bone element
 created_by: cjmungall
 creation_date: 2015-03-03T00:34:47Z
 
@@ -3366,12 +2873,9 @@ id: TO:0000059
 name: node color
 def: "Color of the stem node." [GR:pj]
 synonym: "NDCL" RELATED []
-is_a: OBA:1000043 {is_inferred="true"} ! shoot node color
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000014 ! color
 intersection_of: attribute_of PO:0020141 ! stem node
-relationship: affects_quality PATO:0000014 {is_inferred="true"} ! color
-relationship: attribute_of PO:0020141 {is_inferred="true"} ! stem node
 relationship: part_of TO:0000056 ! stem color
 
 [Term]
@@ -7469,7 +6973,7 @@ def: "The total potassium ion concentration measured in a plant or a plant part 
 synonym: "KCONC" RELATED []
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
+intersection_of: affects_quality 
 intersection_of: attribute_of CHEBI:26216
 
 [Term]
@@ -15155,13 +14659,10 @@ intersection_of: attribute_of UBERON:0002825 ! superior part of vestibular gangl
 id: VT:0000029
 name: malleus morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the largest of the three auditory ossicles, which resembles a club." [ISBN:0-683-40008-8, MP:0000029]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0005105 ! auditory ossicle morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001689 ! malleus bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001689 {is_inferred="true"} ! malleus bone
 
 [Term]
 id: VT:0000030
@@ -15248,14 +14749,10 @@ id: VT:0000039
 name: otic capsule morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the cartilage or bony capsule surrounding the inner ear mechanism." [ISBN:0-683-40008-8, MP:0000039]
 synonym: "periotic capsule morphology trait" EXACT []
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0000026 ! inner ear morphology trait
-is_a: VT:0002116 {is_inferred="true"} ! craniofacial bone morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0004637 ! otic capsule
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0004637 {is_inferred="true"} ! otic capsule
 
 [Term]
 id: VT:0000040
@@ -15616,50 +15113,38 @@ intersection_of: attribute_of UBERON:0004339 ! vault of skull
 id: VT:0000077
 name: interparietal bone morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the bone of the cranium that lies above and anterior to the occipital bone in some mammals." [MP:0000077]
-is_a: OBA:1000065 {is_inferred="true"} ! dermal bone morphology
 is_a: VT:0000076 ! calvaria morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0002229 ! interparietal bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0002229 {is_inferred="true"} ! interparietal bone
 
 [Term]
 id: VT:0000078
 name: supraoccipital bone morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the bone on the dorsal side of the great foramen of the skull, usually forming a part of the occipital in the adult, but distinct in the young." [MP:0000078]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0005269 ! occipital bone morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0004747 ! supraoccipital bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0004747 {is_inferred="true"} ! supraoccipital bone
 
 [Term]
 id: VT:0000079
 name: basilar bone morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the basilar process of the occipital bone in the base of the cranium, frequently forming a direct part of the occipital in the adult, but usually distinct in the young." [ISBN:0-683-40008-8, MP:0000079]
 synonym: "basioccipital bone morphology trait" EXACT []
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0005269 ! occipital bone morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001692 ! basioccipital bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001692 {is_inferred="true"} ! basioccipital bone
 
 [Term]
 id: VT:0000080
 name: exoccipital bone morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the bone or region on the lateral sides of the great foramen of the skull, which often forms a part of the occipital in the adult, but is usually distinct in the young." [ISBN:0-683-40008-8, MP:0000080]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0005269 ! occipital bone morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001693 ! exoccipital bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001693 {is_inferred="true"} ! exoccipital bone
 
 [Term]
 id: VT:0000081
@@ -15701,51 +15186,39 @@ intersection_of: attribute_of UBERON:0001982 ! capillary
 id: VT:0000098
 name: vomer bone morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the triangular flat bone of the nasal septum." [ISBN:0-683-40008-8, MP:0000098]
-is_a: OBA:1000065 {is_inferred="true"} ! dermal bone morphology
 is_a: VT:0005274 ! viscerocranium morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0002396 ! vomer
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0002396 {is_inferred="true"} ! vomer
 
 [Term]
 id: VT:0000100
 name: ethmoid bone morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the bone lying between the orbital plates of the frontal bone and anterior to the sphenoid bone; it enters into the formation of the anterior cranial fossa, the orbits, and the nasal cavity." [ISBN:0-683-40008-8]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0005246 ! orbit morphology trait
 is_a: VT:0005273 ! cranial base morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001679 ! ethmoid bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001679 {is_inferred="true"} ! ethmoid bone
 
 [Term]
 id: VT:0000102
 name: nasal bone morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of either of two rectangular bone plates forming the bridge of the nose." [ISBN:0-683-40008-8, MP:0000102]
-is_a: OBA:1000065 {is_inferred="true"} ! dermal bone morphology
 is_a: VT:0005274 ! viscerocranium morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001681 ! nasal bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001681 {is_inferred="true"} ! nasal bone
 
 [Term]
 id: VT:0000104
 name: sphenoid bone morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the most irregularly shaped bone of the base of the skull." [ISBN:0-683-40008-8, MP:0000104]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0005246 ! orbit morphology trait
 is_a: VT:0005273 ! cranial base morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001677 ! sphenoid bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001677 {is_inferred="true"} ! sphenoid bone
 
 [Term]
 id: VT:0000106
@@ -15761,15 +15234,12 @@ intersection_of: attribute_of UBERON:0006428 ! basisphenoid bone
 id: VT:0000107
 name: frontal bone morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the bone forming the forehead and roof of the eye orbit." [ISBN:0-683-40008-8, MP:0000107]
-is_a: OBA:1000065 {is_inferred="true"} ! dermal bone morphology
 is_a: VT:0000076 ! calvaria morphology trait
 is_a: VT:0005246 ! orbit morphology trait
 is_a: VT:0005274 ! viscerocranium morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0000209 ! tetrapod frontal bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0000209 {is_inferred="true"} ! tetrapod frontal bone
 
 [Term]
 id: VT:0000109
@@ -15889,13 +15359,10 @@ intersection_of: attribute_of UBERON:0001437 ! epiphysis
 id: VT:0000132
 name: epiphysis width
 def: "The distance from side to side of the part of the head of a long bone which, during development and growth, is separated from the shaft by the epiphyseal plate." [MeSH:D004838, PMID:10709991]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0000131 ! long bone epiphysis morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000921 ! width
 intersection_of: attribute_of UBERON:0001437 ! epiphysis
-relationship: affects_quality PATO:0000921 {is_inferred="true"} ! width
-relationship: attribute_of UBERON:0001437 {is_inferred="true"} ! epiphysis
 
 [Term]
 id: VT:0000133
@@ -15911,13 +15378,10 @@ intersection_of: attribute_of UBERON:0001438 ! metaphysis
 id: VT:0000134
 name: compact bone thickness
 def: "The distance between the surfaces of the superficial layer of solid, hard bone that covers spongy bone." [ISBN:0-683-40008-8, PMID:10581033]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0003797 ! compact bone morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000915 ! thickness
 intersection_of: attribute_of UBERON:0001439 ! compact bone tissue
-relationship: affects_quality PATO:0000915 {is_inferred="true"} ! thickness
-relationship: attribute_of UBERON:0001439 {is_inferred="true"} ! compact bone tissue
 
 [Term]
 id: VT:0000135
@@ -15943,13 +15407,10 @@ id: VT:0000137
 name: vertebra morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of the bony segments of the spinal column." [ISBN:0-683-40008-8]
 synonym: "vertebrae morphology trait" EXACT []
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0010086 ! vertebral column morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0002412 ! vertebra
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0002412 {is_inferred="true"} ! vertebra
 
 [Term]
 id: VT:0000138
@@ -16012,15 +15473,11 @@ intersection_of: attribute_of UBERON:0001124
 id: VT:0000150
 name: rib morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of the elongated, curved bones forming the bony wall of the chest." [ISBN:0-683-40008-8, PMID:9778510]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
-is_a: VT:0003723 {is_inferred="true"} ! long bone morphology trait
 is_a: VT:0004134 ! thorax morphology trait
 is_a: VT:0010092 ! thoracic cage morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0002228 ! rib
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0002228 {is_inferred="true"} ! rib
 
 [Term]
 id: VT:0000151
@@ -17009,14 +16466,11 @@ id: VT:0000455
 name: maxilla morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the upper bony framework of the mouth where the superior teeth are held." [ISBN:0-683-40008-8, MP:0000455]
 synonym: "upper jaw morphology trait" EXACT []
-is_a: OBA:1000065 {is_inferred="true"} ! dermal bone morphology
 is_a: VT:0000454 ! jaw morphology trait
 is_a: VT:0005274 ! viscerocranium morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0002397 ! maxilla
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0002397 {is_inferred="true"} ! maxilla
 
 [Term]
 id: VT:0000458
@@ -17182,14 +16636,10 @@ intersection_of: attribute_of CL:0000584 ! enterocyte
 id: VT:0000482
 name: fibula length
 def: "The distance from point to point along the longest axis of the lateral and smaller bone of the lower/hind limb." [ISBN:0-683-40008-8, MGI:pvb]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0002187 ! fibula morphology trait
-is_a: VT:0010024 {is_inferred="true"} ! hindlimb length
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0001446 ! fibula
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0001446 {is_inferred="true"} ! fibula
 
 [Term]
 id: VT:0000483
@@ -21494,14 +20944,10 @@ is_a: VT:0001445 ! vestibular hair cell stereociliary bundle morphology trait
 id: VT:0001456
 name: otic capsule size trait
 def: "Any measurable or observable characteristic related to the physical magnitude of the cartilage or bony capsule surrounding the inner ear mechanism." [MP:0000039]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
-is_a: VT:0000002 {is_inferred="true"} ! head size trait
 is_a: VT:0000039 ! otic capsule morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0004637 ! otic capsule
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0004637 {is_inferred="true"} ! otic capsule
 
 [Term]
 id: VT:0001457
@@ -23122,13 +22568,10 @@ id: VT:0002163
 name: gland morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of an organized aggregation of cells functioning as a secretory or excretory organ." [ISBN:0-683-40008-8]
 comment: pslim term
-is_a: OBA:1000057 {is_inferred="true"} ! gland quality
 is_a: VT:1000782 ! endocrine/exocrine system trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0002530 ! gland
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0002530 {is_inferred="true"} ! gland
 
 [Term]
 id: VT:0002164
@@ -23138,13 +22581,10 @@ comment: pslim term
 synonym: "endocrine gland function" EXACT []
 synonym: "endocrine system physiology trait" EXACT []
 synonym: "gland function" EXACT []
-is_a: OBA:1000057 {is_inferred="true"} ! gland quality
 is_a: VT:1000782 ! endocrine/exocrine system trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001509 ! functionality
 intersection_of: attribute_of UBERON:0002530 ! gland
-relationship: affects_quality PATO:0001509 {is_inferred="true"} ! functionality
-relationship: attribute_of UBERON:0002530 {is_inferred="true"} ! gland
 
 [Term]
 id: VT:0002174
@@ -23176,15 +22616,11 @@ intersection_of: attribute_of UBERON:0001757 ! pinna
 id: VT:0002181
 name: brain cell morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of any or all brain cell types." [MGI:csmith]
-is_a: OBA:1000076 {is_inferred="true"} ! cell attribute
 is_a: VT:0002152 ! brain morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of GO:0005623 ! cell
 intersection_of: occurs_in UBERON:0000955 ! brain
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of GO:0005623 {is_inferred="true"} ! cell
-relationship: occurs_in UBERON:0000955 {is_inferred="true"} ! brain
 
 [Term]
 id: VT:0002182
@@ -24880,14 +24316,10 @@ intersection_of: attribute_of CHEBI:28790
 id: VT:0002543
 name: phalanx length
 def: "The distance from point to point along the longest axis of any of the long bones of the digits." [ISBN:0-683-40008-8]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
-is_a: VT:0002544 {is_inferred="true"} ! digit length
 is_a: VT:0005306 ! phalanx morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0003221 ! phalanx
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0003221 {is_inferred="true"} ! phalanx
 
 [Term]
 id: VT:0002544
@@ -26784,14 +26216,10 @@ id: VT:0003104
 name: skull size trait
 def: "Any measurable or observable characteristic related to the physical magnitude of the bones surrounding the brain and bones of the lower face and jaws." [ISBN:0-683-40008-8, MP:0000438]
 synonym: "cranium size trait	" EXACT []
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
-is_a: VT:0000002 {is_inferred="true"} ! head size trait
 is_a: VT:0000438 ! skull morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0003129 ! skull
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0003129 {is_inferred="true"} ! skull
 
 [Term]
 id: VT:0003105
@@ -27689,13 +27117,10 @@ id: VT:0003409
 name: hypertrophic chondrocyte zone thickness
 def: "The distance between the surfaces of the layer of the epiphyseal plate where no cell division occurs and chondrocytes begin to terminally differentiate." [http://www.wheelessonline.com, RGD:MS]
 synonym: "hypertrophic chondrocyte zone width" EXACT []
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0000165 ! hypertrophic chondrocyte zone morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000915 ! thickness
 intersection_of: attribute_of UBERON:0006772 ! long bone epiphyseal plate hypertrophic zone
-relationship: affects_quality PATO:0000915 {is_inferred="true"} ! thickness
-relationship: attribute_of UBERON:0006772 {is_inferred="true"} ! long bone epiphyseal plate hypertrophic zone
 
 [Term]
 id: VT:0003412
@@ -28404,13 +27829,10 @@ id: VT:0003646
 name: muscle fatigue trait
 def: "Any measurable or observable characteristic related to the process of muscle exhaustion following contraction." [PMID:15760270, RGD:cur]
 synonym: "muscle fatigability" EXACT []
-is_a: OBA:1000079 {is_inferred="true"} ! muscle organ strength
 is_a: VT:0002106 ! muscular system physiology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001815 ! fatigability
 intersection_of: attribute_of UBERON:0001630 ! muscle organ
-relationship: affects_quality PATO:0001815 {is_inferred="true"} ! fatigability
-relationship: attribute_of UBERON:0001630 {is_inferred="true"} ! muscle organ
 
 [Term]
 id: VT:0003647
@@ -28758,13 +28180,10 @@ intersection_of: attribute_of UBERON:0001787 ! photoreceptor layer of retina
 id: VT:0003729
 name: photoreceptor outer segment morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the photoreceptor layer which contains stacks of membranous discs that are rich in the visual pigment rhodopsin." [MGI:monikat]
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 is_a: VT:0001004 ! retinal photoreceptor morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of GO:0001750 ! photoreceptor outer segment
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of GO:0001750 {is_inferred="true"} ! photoreceptor outer segment
 
 [Term]
 id: VT:0003730
@@ -28826,14 +28245,10 @@ id: VT:0003739
 name: auditory ossicle size trait
 def: "Any measurable or observable characteristic related to the physical magnitude of any of the small bones of the middle ear." [ISBN:0-683-40008-8, MP:0005105]
 synonym: "middle ear ossicle size trait" EXACT []
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
-is_a: VT:0000002 {is_inferred="true"} ! head size trait
 is_a: VT:0005105 ! auditory ossicle morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0001686 ! auditory ossicle
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0001686 {is_inferred="true"} ! auditory ossicle
 
 [Term]
 id: VT:0003743
@@ -29998,13 +29413,10 @@ intersection_of: attribute_of CL:0000187 ! muscle cell
 id: VT:0004088
 name: sarcoplasmic reticulum morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of the endoplasmic reticulum of skeletal or cardiac muscle, i.e., the complex of vesicles, tubules, and cisternae that form a continuous structure around striated myofibrils, with a repetition of structure within each sarcomere." [ISBN:0-683-40008-8, MGI:anna]
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 is_a: VT:0004087 ! muscle cell morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of GO:0016529 ! sarcoplasmic reticulum
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of GO:0016529 {is_inferred="true"} ! sarcoplasmic reticulum
 
 [Term]
 id: VT:0004090
@@ -30238,13 +29650,10 @@ id: VT:0004121
 name: sarcolemma morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of the plasma membrane of a muscle fiber that is capable of conducting electrical impulses." [ISBN:0-683-40008-8]
 synonym: "myolemma morphology trait" EXACT []
-is_a: OBA:1000091 {is_inferred="true"} ! membrane morphology
 is_a: VT:0004087 ! muscle cell morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of GO:0042383 ! sarcolemma
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of GO:0042383 {is_inferred="true"} ! sarcolemma
 
 [Term]
 id: VT:0004123
@@ -31392,27 +30801,21 @@ intersection_of: attribute_of UBERON:0000975 ! sternum
 id: VT:0004322
 name: sternebra morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of the segments of the primordial sternum of the embryo; these segments fuse to form the body of the adult vertebrate sternum." [ISBN:0-683-40008-8, MGI:csmith]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0000157 ! sternum morphology trait
 is_a: VT:0010005 ! bone development trait
 is_a: VT:0015061 ! thorax development trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0002208 ! sternebra
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0002208 {is_inferred="true"} ! sternebra
 
 [Term]
 id: VT:0004323
 name: sternum size trait
 def: "Any measurable or observable characteristic related to the physical magnitude of the long, flat bone of the chest." [ISBN:0-683-40008-8, MGI:csmith]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0000157 ! sternum morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0000975 ! sternum
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0000975 {is_inferred="true"} ! sternum
 
 [Term]
 id: VT:0004326
@@ -31465,13 +30868,10 @@ is_a: VT:0005298 ! clavicle morphology trait
 id: VT:0004338
 name: clavicle size trait
 def: "Any measurable or observable characteristic related to the physical magnitude of one or both of the doubly curved long bones that form part of the shoulder girdle and articulate with the sternum and the scapula." [ISBN:0-683-40008-8]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0005298 ! clavicle morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0001105 ! clavicle bone
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0001105 {is_inferred="true"} ! clavicle bone
 
 [Term]
 id: VT:0004340
@@ -31486,13 +30886,10 @@ intersection_of: attribute_of UBERON:0001124
 id: VT:0004343
 name: scapula size trait
 def: "Any measurable or observable characteristic related to the physical magnitude of either or both of the large, flat bones of the shoulder girdle." [MP:0000149]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0000149 ! scapula morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0001124
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0001124 {is_inferred="true"}
 
 [Term]
 id: VT:0004344
@@ -31557,14 +30954,10 @@ intersection_of: attribute_of UBERON:0002498 ! deltopectoral crest
 id: VT:0004355
 name: radius length
 def: "The distance from point to point along the longest axis of the bone situated on the lateral side of the ulna in the forelimb." [ISBN:0-914294-08-3]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0000552 ! radius morphology trait
-is_a: VT:0010023 {is_inferred="true"} ! forelimb length
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0001423 ! radius bone
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0001423 {is_inferred="true"} ! radius bone
 
 [Term]
 id: VT:0004356
@@ -31657,14 +31050,10 @@ intersection_of: occurs_in UBERON:0002282 ! stria vascularis of cochlear duct
 id: VT:0004370
 name: ulna length
 def: "The distance from point to point along the longest axis of the medial and larger of the two bones of the forearm or lower forelimb; fused with the radius in some species." [ISBN:0-683-40008-8]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0005108 ! ulna morphology trait
-is_a: VT:0010023 {is_inferred="true"} ! forelimb length
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0001424 ! ulna
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0001424 {is_inferred="true"} ! ulna
 
 [Term]
 id: VT:0004371
@@ -31830,13 +31219,10 @@ name: squama temporalis morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the thin, scale-like part of the temporal bone forming part of the lateral wall of the cranial vault." [ISBN:0-683-40008-8, MP:0004423]
 synonym: "squamosal bone morphology trait" EXACT []
 synonym: "squamous part of temporal bone morphology trait" EXACT []
-is_a: OBA:1000065 {is_inferred="true"} ! dermal bone morphology
 is_a: VT:0005272 ! temporal bone morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001695 ! squamous part of temporal bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001695 {is_inferred="true"} ! squamous part of temporal bone
 
 [Term]
 id: VT:0004425
@@ -31965,13 +31351,10 @@ intersection_of: attribute_of UBERON:0004649 ! sphenoid bone pterygoid process
 id: VT:0004453
 name: pterygoid bone morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the bone region which corresponds to the inner plate of the pterygoid process of the mammalian skull." [ISBN:0-683-40008-8, MP:0004453]
-is_a: OBA:1000065 {is_inferred="true"} ! dermal bone morphology
 is_a: VT:0004452 ! pterygoid process morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0010389 ! pterygoid bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0010389 {is_inferred="true"} ! pterygoid bone
 
 [Term]
 id: VT:0004457
@@ -32723,25 +32106,19 @@ intersection_of: attribute_of UBERON:0001686 ! auditory ossicle
 id: VT:0005106
 name: incus morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the middle of the three auditory ossicles." [ISBN:0-683-40008-8, MP:0005106, PMID:12606286]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0005105 ! auditory ossicle morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001688 ! incus bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001688 {is_inferred="true"} ! incus bone
 
 [Term]
 id: VT:0005107
 name: stapes morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the smallest and innermost of the three auditory ossicles." [ISBN:0-683-40008-8, MP:0005107]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0005105 ! auditory ossicle morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001687 ! stapes bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001687 {is_inferred="true"} ! stapes bone
 
 [Term]
 id: VT:0005108
@@ -32757,25 +32134,19 @@ id: VT:0005109
 name: talus morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of the tarsal bone that articulates with the tibia and fibula." [ISBN:0-683-40008-8]
 synonym: "ankle bone morphology trait" EXACT []
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0005104 ! tarsus morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0002395 ! talus
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0002395 {is_inferred="true"} ! talus
 
 [Term]
 id: VT:0005110
 name: talus size trait
 def: "Any measurable or observable characteristic related to the physical magnitude of the tarsal bone that articulates with the tibia and fibula." [ISBN:0-683-40008-8]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0005109 ! talus morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0002395 ! talus
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0002395 {is_inferred="true"} ! talus
 
 [Term]
 id: VT:0005112
@@ -33378,14 +32749,11 @@ id: VT:0005249
 name: palatine bone morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of either of two irregularly shaped bones that form the back of the hard palate and help to form the nasal cavity and the floor of the orbits." [ISBN:0-683-40008-8, MP:0005249]
 synonym: "hard palate morphology trait" BROAD []
-is_a: OBA:1000065 {is_inferred="true"} ! dermal bone morphology
 is_a: VT:0005246 ! orbit morphology trait
 is_a: VT:0005274 ! viscerocranium morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001682 ! palatine bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001682 {is_inferred="true"} ! palatine bone
 
 [Term]
 id: VT:0005250
@@ -33466,27 +32834,21 @@ synonym: " jugal bone morphology trait" EXACT []
 synonym: "cheek bone morphology trait" EXACT []
 synonym: "malar bone morphology trait" EXACT []
 synonym: "yoke bone morphology trait" EXACT []
-is_a: OBA:1000065 {is_inferred="true"} ! dermal bone morphology
 is_a: VT:0005246 ! orbit morphology trait
 is_a: VT:0005274 ! viscerocranium morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001683 ! jugal bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001683 {is_inferred="true"} ! jugal bone
 
 [Term]
 id: VT:0005271
 name: lacrimal bone morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of the irregularly thin plate that forms part of the medial wall of the orbit behind the frontal process of the maxilla." [ISBN:0-683-40008-8, MP:0005271]
-is_a: OBA:1000065 {is_inferred="true"} ! dermal bone morphology
 is_a: VT:0005246 ! orbit morphology trait
 is_a: VT:0005274 ! viscerocranium morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001680 ! lacrimal bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001680 {is_inferred="true"} ! lacrimal bone
 
 [Term]
 id: VT:0005272
@@ -33659,14 +33021,11 @@ id: VT:0005306
 name: phalanx morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of any of the long bones of the digits." [ISBN:0-683-40008-8]
 synonym: "phalanges morphology trait" EXACT []
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0002110 ! digit morphology trait
 is_a: VT:0003723 ! long bone morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0003221 ! phalanx
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0003221 {is_inferred="true"} ! phalanx
 
 [Term]
 id: VT:0005308
@@ -33851,27 +33210,21 @@ id: VT:0005353
 name: patella morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of the large sesamoid bone that articulates with the femur and, in some species, covers the anterior surface of the knee." [ISBN:0-683-40008-8, MGI:cwg, PMID:9590288]
 synonym: "kneecap morphology trait" EXACT []
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0002109 ! limb morphology trait
 is_a: VT:0002115 ! skeleton extremities morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0002446 ! patella
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0002446 {is_inferred="true"} ! patella
 
 [Term]
 id: VT:0005354
 name: ilium morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of the broad, flaring portion of the hip bone, which fuses with the ischium and the pubis." [ISBN:0-683-40008-8, MGI:cwg, PMID:9590288]
 synonym: "iliac bone morphology trait" EXACT []
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0010090 ! pelvic girdle morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001273 ! ilium
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001273 {is_inferred="true"} ! ilium
 
 [Term]
 id: VT:0005355
@@ -34819,14 +34172,10 @@ intersection_of: attribute_of UBERON:0002364 ! tympanic membrane
 id: VT:0006020
 name: tympanic ring size trait
 def: "Any measurable or observable characteristic related to the physical magnitude of the bony ring at the ear canal to which the tympanic membrane is attached." [ISBN:0-683-40008-8, MP:0000030]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
-is_a: VT:0000002 {is_inferred="true"} ! head size trait
 is_a: VT:0000030 ! tympanic ring morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0002218 ! tympanic ring
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0002218 {is_inferred="true"} ! tympanic ring
 
 [Term]
 id: VT:0006021
@@ -38598,13 +37947,10 @@ creation_date: 2011-10-18T10:14:44Z
 id: VT:0010010
 name: femur strength trait
 def: "Any measurable or observable characteristic related to the ability of the long bone of the thigh to withstand the application of force without yielding or breaking." [ISBN:0-683-40008-8]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0001542 ! bone strength trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001230 ! strength
 intersection_of: attribute_of UBERON:0000981 ! femur
-relationship: affects_quality PATO:0001230 {is_inferred="true"} ! strength
-relationship: attribute_of UBERON:0000981 {is_inferred="true"} ! femur
 created_by: caripark
 creation_date: 2011-10-18T10:31:38Z
 
@@ -38623,13 +37969,10 @@ creation_date: 2011-10-18T10:34:29Z
 id: VT:0010012
 name: humerus strength trait
 def: "Any measurable or observable characteristic related to the ability of the bone of the forelimb that articulates with the scapula above and the radius and ulna below to withstand the application of force without yielding or breaking." [ISBN:0-683-40008-8]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0001542 ! bone strength trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001230 ! strength
 intersection_of: attribute_of UBERON:0000976 ! humerus
-relationship: affects_quality PATO:0001230 {is_inferred="true"} ! strength
-relationship: attribute_of UBERON:0000976 {is_inferred="true"} ! humerus
 created_by: caripark
 creation_date: 2011-10-18T10:48:29Z
 
@@ -38729,14 +38072,10 @@ creation_date: 2010-04-06T02:28:15Z
 id: VT:0010022
 name: metacarpus length
 def: "The distance from point to point along the longest axis of the bones of the forelimbs that articulate proximally with the carpal bones and distally with the phalanges." [ISBN:978-0028454405]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0003073 ! metacarpus morphology trait
-is_a: VT:0010023 {is_inferred="true"} ! forelimb length
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
 intersection_of: attribute_of UBERON:0004453 ! metacarpus region
-relationship: affects_quality PATO:0000122 {is_inferred="true"} ! length
-relationship: attribute_of UBERON:0004453 {is_inferred="true"} ! metacarpus region
 created_by: caripark
 creation_date: 2011-10-19T03:46:46Z
 
@@ -39439,13 +38778,10 @@ id: VT:0010087
 name: ischium morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of the lower, posterior part of the hip bone, which fuses with the ilium and pubis." [ISBN:0-683-40008-8]
 synonym: "ischial bone morphology trait" EXACT []
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0010090 ! pelvic girdle morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001274 ! ischium
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001274 {is_inferred="true"} ! ischium
 created_by: caripark
 creation_date: 2010-03-12T01:32:42Z
 
@@ -39454,13 +38790,10 @@ id: VT:0010088
 name: pubis morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of the anteroinferior portion of the hip bone, which fuses with the ilium and ischium." [ISBN:0-683-40008-8]
 synonym: "pubic bone morphology trait" EXACT []
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0010090 ! pelvic girdle morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001275 ! pubis
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0001275 {is_inferred="true"} ! pubis
 created_by: caripark
 creation_date: 2010-03-12T01:32:42Z
 
@@ -39639,14 +38972,11 @@ creation_date: 2012-02-01T09:48:04Z
 id: VT:0010104
 name: forelimb long bone morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of any of the elongated bones of the anterior/superior extremities, consisting of a tubular shaft (diaphysis) and two extremities (epiphyses)." [ISBN:0-683-40008-8]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0000550 ! forelimb morphology trait
 is_a: VT:0003723 ! long bone morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0003607 ! forelimb long bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0003607 {is_inferred="true"} ! forelimb long bone
 created_by: caripark
 creation_date: 2010-04-05T02:47:34Z
 
@@ -39654,14 +38984,11 @@ creation_date: 2010-04-05T02:47:34Z
 id: VT:0010105
 name: hindlimb long bone morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of any of the elongated bones of the posterior/inferior extremities, consisting of a tubular shaft (diaphysis) and two extremities (epiphyses)." [ISBN:0-683-40008-8]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0000556 ! hindlimb morphology trait
 is_a: VT:0003723 ! long bone morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0003608 ! hindlimb long bone
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0003608 {is_inferred="true"} ! hindlimb long bone
 created_by: caripark
 creation_date: 2010-04-05T02:47:34Z
 
@@ -43252,14 +42579,10 @@ id: VT:0010406
 name: sperm flagellum size trait
 def: "Any measurable or observable characteristic related to the physical magnitude of the whiplike locomotory organelle of the spermatozoa." [ISBN:0-683-40008-8, VTO:INRA]
 xref: ATOL:0001010
-is_a: OBA:0000051 {is_inferred="true"} ! cell projection size
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
 is_a: VT:0010405 ! sperm size trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of GO:0036126 ! sperm flagellum
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of GO:0036126 {is_inferred="true"} ! sperm flagellum
 created_by: caripark
 creation_date: 2012-07-19T10:35:11Z
 
@@ -44324,13 +43647,10 @@ creation_date: 2013-03-18T11:26:27Z
 id: VT:0010518
 name: lumbar vertebra size trait
 def: "Any measurable or observable characteristic related to the physical magnitude of the bony segments of the spinal column located anterior/superior to the sacral vertebrae and posterior/inferior to the thoracic vertebrae." [ISBN:0-683-40008-8, ISBN:0-8036-1207-9]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0010494 ! lumbar vertebra morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0002414 ! lumbar vertebra
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0002414 {is_inferred="true"} ! lumbar vertebra
 created_by: caripark
 creation_date: 2013-03-18T12:28:56Z
 
@@ -45033,13 +44353,10 @@ creation_date: 2010-02-19T02:44:06Z
 id: VT:0015070
 name: appendage physiology trait
 def: "Any measurable or observable characteristic related to the function of or processes in an external body part that projects from the body." [MGI:smb]
-is_a: OBA:1000099 {is_inferred="true"} ! appendage trait
 is_a: VT:0015068 ! surface structure physiology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001509 ! functionality
 intersection_of: attribute_of UBERON:0000026 ! appendage
-relationship: affects_quality PATO:0001509 {is_inferred="true"} ! functionality
-relationship: attribute_of UBERON:0000026 {is_inferred="true"} ! appendage
 created_by: smb
 creation_date: 2010-02-19T02:44:50Z
 
@@ -45047,13 +44364,10 @@ creation_date: 2010-02-19T02:44:50Z
 id: VT:0015071
 name: appendage morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color or pattern of an external body part that projects from the body." [MGI:smb]
-is_a: OBA:1000099 {is_inferred="true"} ! appendage trait
 is_a: VT:0015066 ! surface structure morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0000026 ! appendage
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0000026 {is_inferred="true"} ! appendage
 created_by: smb
 creation_date: 2010-02-19T02:45:44Z
 
@@ -45061,13 +44375,10 @@ creation_date: 2010-02-19T02:45:44Z
 id: VT:0015072
 name: fin morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of the appendages primarily used to maintain position, move, steer or stop in a liquid medium." [MGI:smb]
-is_a: OBA:1000100 {is_inferred="true"} ! paired fin trait
 is_a: VT:0015071 ! appendage morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0002534 ! paired fin
-relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
-relationship: attribute_of UBERON:0002534 {is_inferred="true"} ! paired fin
 created_by: smb
 creation_date: 2010-02-19T02:46:09Z
 
@@ -45416,13 +44727,10 @@ creation_date: 2010-06-07T05:25:56Z
 id: VT:0100000
 name: humerus size trait
 def: "Any measurable or observable characteristic related to the physical magnitude of the bone of the forelimb that articulates with the scapula above and the radius and ulna below." [ISBN:0-683-40008-8]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0005296 ! humerus morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0000976 ! humerus
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0000976 {is_inferred="true"} ! humerus
 created_by: caripark
 creation_date: 2009-09-04T03:32:20Z
 
@@ -45430,13 +44738,10 @@ creation_date: 2009-09-04T03:32:20Z
 id: VT:0100001
 name: tibia size trait
 def: "Any measurable or observable characteristic related to the physical magnitude of the medial and larger of the two bones of the lower leg, which articulates with the femur, fibula, and talus." [ISBN:0-683-40008-8]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0000558 ! tibia morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0000979 ! tibia
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0000979 {is_inferred="true"} ! tibia
 created_by: caripark
 creation_date: 2009-09-04T03:33:55Z
 
@@ -46211,13 +45516,10 @@ creation_date: 2008-11-11T10:32:08Z
 id: VT:1000284
 name: tibia strength trait
 def: "Any measurable or observable characteristic related to the ability of the medial and larger of the two bones of the lower leg to withstand the application of force without yielding or breaking." [ISBN:0-683-40008-8]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0001542 ! bone strength trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001230 ! strength
 intersection_of: attribute_of UBERON:0000979 ! tibia
-relationship: affects_quality PATO:0001230 {is_inferred="true"} ! strength
-relationship: attribute_of UBERON:0000979 {is_inferred="true"} ! tibia
 created_by: caripark
 creation_date: 2008-11-11T10:32:08Z
 
@@ -46225,13 +45527,10 @@ creation_date: 2008-11-11T10:32:08Z
 id: VT:1000286
 name: tibia elasticity trait
 def: "Any measurable or observable characteristic related to the ability of the medial and larger of the two bones of the lower leg to recover size and shape after deformation in any way." [ISBN:0-683-40008-8, PMID:7298519]
-is_a: OBA:1000067 {is_inferred="true"} ! endochondral bone quality
 is_a: VT:0000072 ! bone elasticity trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001031 ! elasticity
 intersection_of: attribute_of UBERON:0000979 ! tibia
-relationship: affects_quality PATO:0001031 {is_inferred="true"} ! elasticity
-relationship: attribute_of UBERON:0000979 {is_inferred="true"} ! tibia
 created_by: caripark
 creation_date: 2008-11-11T10:32:08Z
 
@@ -46263,14 +45562,9 @@ creation_date: 2008-11-11T10:43:29Z
 id: VT:1000361
 name: cannon bone circumference
 def: "The distance around the metacarpal or metatarsal bone(s) in some hoofed mammals, extending between the knee or hock and the fetlock." [http://www.aps.uoguelph.ca/~swatland/ch2_1.htm, VTO:CP]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
-is_a: VT:0010023 {is_inferred="true"} ! forelimb length
-is_a: VT:0010104 {is_inferred="true"} ! forelimb long bone morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001648 ! circumference
 intersection_of: attribute_of UBERON:0003647 ! metacarpal bone of digit 3
-relationship: affects_quality PATO:0001648 {is_inferred="true"} ! circumference
-relationship: attribute_of UBERON:0003647 {is_inferred="true"} ! metacarpal bone of digit 3
 created_by: caripark
 creation_date: 2008-11-11T01:13:23Z
 
@@ -46279,13 +45573,10 @@ id: VT:1000369
 name: femur size trait
 def: "Any measurable or observable characteristic related to the physical magnitude of the long bone of the thigh." [ISBN:0-683-40008-8]
 synonym: "femur dimensions" RELATED []
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
 is_a: VT:0000559 ! femur morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of UBERON:0000981 ! femur
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0000981 {is_inferred="true"} ! femur
 created_by: caripark
 creation_date: 2008-11-11T01:13:23Z
 
