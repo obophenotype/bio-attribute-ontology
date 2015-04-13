@@ -117,7 +117,7 @@ id: OBA:0000016
 name: angiotensin levels in blood
 is_a: OBA:0000079 ! hormone levels
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of PR:000036009
 intersection_of: occurs_in UBERON:0000178 ! blood
 
@@ -136,19 +136,13 @@ intersection_of: attribute_of CL:0002129 ! regular atrial cardiac myocyte
 
 [Term]
 id: OBA:0000020
-name: atrial cardiac muscle cell depolarization
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0002186 ! polarity
-intersection_of: attribute_of GGO:0051899
-intersection_of: occurs_in CL:0002129 ! regular atrial cardiac myocyte
+name: obsolete atrial cardiac muscle cell depolarization
+is_obsolete: true
 
 [Term]
 id: OBA:0000021
-name: atrial cardiac muscle cell membrane repolarization
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0002186 ! polarity
-intersection_of: attribute_of GO:0086009 ! membrane repolarization
-intersection_of: occurs_in CL:0002129 ! regular atrial cardiac myocyte
+name: obsolete atrial cardiac muscle cell membrane repolarization
+is_obsolete: true
 
 [Term]
 id: OBA:0000022
@@ -218,7 +212,7 @@ intersection_of: affects_quality PATO:0001420 ! buoyancy
 id: OBA:0000040
 name: calcium ion concentration
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:39124
 
 [Term]
@@ -226,7 +220,7 @@ id: OBA:0000041
 name: calcium ion concentration in cytosol
 is_a: OBA:0000040 ! calcium ion concentration
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:39124
 intersection_of: occurs_in GO:0005829 ! cytosol
 
@@ -234,7 +228,7 @@ intersection_of: occurs_in GO:0005829 ! cytosol
 id: OBA:0000042
 name: calcium ion concentration in mitochondria
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:39124
 intersection_of: occurs_in GO:0005739 ! mitochondrion
 
@@ -243,7 +237,7 @@ id: OBA:0000043
 name: calcium ion concentration in smooth ER
 is_a: OBA:0000003 ! ER calcium ion concentration
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:39124
 intersection_of: occurs_in GO:0005790 ! smooth endoplasmic reticulum
 
@@ -346,7 +340,7 @@ id: OBA:0000061
 name: circulating fibrinogen levels
 is_a: OBA:0000001 ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of GO:0005577 ! fibrinogen complex
 
 [Term]
@@ -383,10 +377,8 @@ is_a: OBA:0000125 ! post-synaptic membrane potential
 
 [Term]
 id: OBA:0000071
-name: female receptivity, post-mating
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0001720 ! female receptivity
-intersection_of: happens_after GO:0007620 ! copulation
+name: obsolete female receptivity, post-mating
+is_obsolete: true
 
 [Term]
 id: OBA:0000072
@@ -409,7 +401,7 @@ name: hormone levels
 comment: TODO - unify levels vs amount
 is_a: OBA:0000001 ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:24621
 
 [Term]
@@ -592,7 +584,7 @@ intersection_of: attribute_of CL:0000540 ! neuron
 id: OBA:0000116
 name: neurotransmitter levels
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:25512
 
 [Term]
@@ -620,7 +612,7 @@ name: osmotic pressure
 comment: Check this
 xref: Wikipedia:Osmotic_pressure
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:15377
 
 [Term]
@@ -672,7 +664,7 @@ intersection_of: attribute_of GO:0045211 ! postsynaptic membrane
 id: OBA:0000126
 name: potassium ion concentration
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:29103
 
 [Term]
@@ -851,19 +843,13 @@ intersection_of: attribute_of CL:0002131 ! regular ventricular cardiac myocyte
 
 [Term]
 id: OBA:0000179
-name: ventricular cardiac muscle cell membrane depolarization
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0002186 ! polarity
-intersection_of: attribute_of GGO:0051899
-intersection_of: occurs_in CL:0002131 ! regular ventricular cardiac myocyte
+name: obsolete ventricular cardiac muscle cell membrane depolarization
+is_obsolete: true
 
 [Term]
 id: OBA:0000180
-name: ventricular cardiac muscle cell membrane repolarization
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0002186 ! polarity
-intersection_of: attribute_of GO:0086009 ! membrane repolarization
-intersection_of: occurs_in CL:0002131 ! regular ventricular cardiac myocyte
+name: obsolete ventricular cardiac muscle cell membrane repolarization
+is_obsolete: true
 
 [Term]
 id: OBA:0000181
@@ -875,7 +861,7 @@ id: OBA:0000182
 name: nutrient level
 is_a: OBA:0000001 ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:33284
 
 [Term]
@@ -1176,7 +1162,7 @@ def: "Any measurable or observable characteristic related to the concentration o
 synonym: "erythrocyte concentration of trait" EXACT [GOC:TermGenie]
 is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CL:0000232 ! erythrocyte
 relationship: affects_quality PATO:0000033 {is_inferred="true"} ! concentration of
 relationship: attribute_of CL:0000232 {is_inferred="true"} ! erythrocyte
@@ -4669,7 +4655,7 @@ is_a: TO:0000489 ! carbohydrate composition related trait
 is_a: TO:0000667 ! cooking or brewing quality
 is_a: TO:0006007 ! polysaccharide content
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:28102
 intersection_of: occurs_in PO:0009010 ! seed
 
@@ -5534,7 +5520,7 @@ def: "The carotene content in a plant or plant part." [ISBN:198506732]
 comment: These are any group of naturally occurring tetraterpenes (carotenoids) that are synthesized only in plants and differ from xanthophyll by not having oxygen in their molecule.
 is_a: TO:0000496 ! carotenoid content
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:23042
 intersection_of: occurs_in PO:0009011 ! plant structure
 
@@ -5545,7 +5531,7 @@ def: "The flavonoid content in a plant or plant part." [GR:pj]
 comment: Flavonoids are water soluble polyphenolic molecules containing 15 carbon atoms. Flavonoids belong to the polyphenol family and have antioxidant activity.
 is_a: TO:0000674 ! phytochemical compound content
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:47916
 intersection_of: occurs_in PO:0009011 ! plant structure
 
@@ -5556,7 +5542,7 @@ def: "Trait asssociated with the carbohydrate content, concentration and/or yeil
 synonym: "CARBCN" RELATED []
 is_a: TO:0000281 ! metabolite content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:23008
 intersection_of: occurs_in PO:0009011 ! plant structure
 
@@ -5613,7 +5599,7 @@ synonym: "GLUCNCN" RELATED []
 is_a: TO:0006003 ! oligosaccharide content
 is_a: TO:0006008 ! carbohydrate derivative content
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:5417
 intersection_of: occurs_in PO:0009011 ! plant structure
 
@@ -7193,7 +7179,7 @@ synonym: "abscisic acid accumulation" RELATED []
 synonym: "abscisic acid content" RELATED []
 is_a: TO:0000476 ! growth hormone content
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:22152
 
 [Term]
@@ -7483,7 +7469,7 @@ def: "The total potassium ion concentration measured in a plant or a plant part 
 synonym: "KCONC" RELATED []
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:26216
 
 [Term]
@@ -7580,7 +7566,7 @@ def: "The total sodium ion concentration measured in a given volume of a plant o
 synonym: "NACONC" RELATED []
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:26708
 
 [Term]
@@ -7731,7 +7717,7 @@ def: "A leaf composition trait (TO:0000493) which is associated with the amount 
 synonym: "LFNICN" RELATED []
 is_a: TO:0000493 ! leaf composition trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:25555
 intersection_of: occurs_in PO:0009025 ! vascular leaf
 
@@ -8311,7 +8297,7 @@ synonym: "H2O2CN" RELATED []
 is_a: TO:0000277 ! biochemical trait
 is_a: TO:0002657 ! oxidative stress
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:16240
 
 [Term]
@@ -9115,7 +9101,7 @@ def: "Concentration of starch present in the plant or plant part." [GR:pj]
 synonym: "STARCHCONC" RELATED []
 is_a: TO:0006007 ! polysaccharide content
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:28017
 
 [Term]
@@ -13484,7 +13470,7 @@ def: "The total Lithium ion concentration measured in a given volume of a plant 
 comment: May be assayed for per gram fresh weight.
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:30145
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13496,7 +13482,7 @@ name: boron concentration
 def: "The total Boron ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:27560
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13508,7 +13494,7 @@ name: magnesium concentration
 def: "The total Magnesium ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:25107
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13520,7 +13506,7 @@ name: phosphorus concentration
 def: "The total Phosphorus concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0001024 ! phosphorus content
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:28659
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13532,7 +13518,7 @@ name: sulfur concentration
 def: "The total Sulfur concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:26833
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13544,7 +13530,7 @@ name: calcium concentration
 def: "The total Calcium ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:22984
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13556,7 +13542,7 @@ name: manganese concentration
 def: "The total Manganese ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:18291
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13568,7 +13554,7 @@ name: iron concentration
 def: "The total iron concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:18248
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13580,7 +13566,7 @@ name: cobalt concentration
 def: "The total Cobalt ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:27638
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13600,7 +13586,7 @@ name: copper concentration
 def: "The total Copper ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:28694
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13612,7 +13598,7 @@ name: zinc concentration
 def: "The total Zinc ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:27363
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13624,7 +13610,7 @@ name: arsenic concentration
 def: "The total Arsenic ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:27563
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13636,7 +13622,7 @@ name: selenium concentration
 def: "The total Selenium ion concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:27568
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13648,7 +13634,7 @@ name: molybdenum concentration
 def: "The total Molybdenum  concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:28685
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -13676,7 +13662,7 @@ name: cadmium concentration
 def: "The total Cadmium concentration measured in a given volume of a plant or a plant part or plant extract." [GR:Karthik]
 is_a: TO:0000465 ! mineral and ion content related trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:22977
 intersection_of: occurs_in PO:0000003 ! whole plant
 created_by: jaiswalp
@@ -16275,7 +16261,7 @@ synonym: "triacylglycerol level" EXACT []
 synonym: "triglyceride level" EXACT []
 is_a: VT:0001547 ! lipid amount
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:17855
 
 [Term]
@@ -16311,7 +16297,7 @@ name: mineral amount
 def: "The proportion, quantity, or volume in a body tissue or fluid of any inorganic element or compound that has importance in body functions." [ISBN:0-8036-1207-9]
 is_a: VT:0005636 ! mineral homeostasis trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:46662
 
 [Term]
@@ -21651,7 +21637,7 @@ name: lipid amount
 def: "The proportion, quantity, or volume in a body fluid or tissue of fat-soluble substances (molecules composed of carbon and hydrogen and are characteristically insoluble in water)." [ISBN:0-683-40008-8]
 is_a: VT:0002118 ! lipid homeostasis trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:18059
 
 [Term]
@@ -21754,7 +21740,7 @@ synonym: "haemoglobin level" EXACT []
 is_a: VT:0002447 ! erythrocyte morphology trait
 is_a: VT:0005416 ! blood protein amount
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:35143
 
 [Term]
@@ -22188,7 +22174,7 @@ def: "The proportion, quantity, or volume in a body tissue or fluid of this meta
 is_a: VT:0000192 ! mineral amount
 is_a: VT:0005637 ! iron homeostasis trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:18248
 
 [Term]
@@ -22208,7 +22194,7 @@ name: selenium amount
 def: "The proportion, quantity, or volume in a body tissue or fluid of this essential trace element, required for glutathione peroxidase and other enzymes." [ISBN:0-683-40008-8]
 is_a: VT:0000192 ! mineral amount
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:27568
 
 [Term]
@@ -22425,7 +22411,7 @@ def: "The proportion, quantity, or volume in a nervous system tissue of this cat
 synonym: "dopaminergic level" BROAD []
 is_a: VT:0003632 ! nervous system morphology trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:18243
 
 [Term]
@@ -24755,7 +24741,7 @@ synonym: "immunoglobulin level" RELATED []
 synonym: "serum level of immunoglobulin" RELATED []
 is_a: VT:0005416 ! blood protein amount
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of GO:0019814 ! immunoglobulin complex
 
 [Term]
@@ -29608,7 +29594,7 @@ synonym: "cholesterol level" EXACT []
 is_a: VT:0001547 ! lipid amount
 is_a: VT:0005278 ! cholesterol homeostasis trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:16113
 
 [Term]
@@ -29636,7 +29622,7 @@ def: "The proportion, quantity, or volume in a body tissue or fluid of this meta
 is_a: VT:0000192 ! mineral amount
 is_a: VT:0003951 ! copper homeostasis trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:30052
 
 [Term]
@@ -30398,7 +30384,7 @@ name: porphyrin amount
 def: "The proportion, quantity, or volume in a body tissue or fluid of porphyrins or protoporphyrins." [MGI:smb]
 is_a: VT:0015077 ! molecule homeostasis trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:8337
 
 [Term]
@@ -34134,7 +34120,7 @@ name: blood glycogen amount
 def: "The proportion, quantity, or volume in whole blood, serum, or plasma of the polysaccharide which is the storage form for glucose in the liver and muscles; readily converted to glucose when blood glucose level decreases." [ISBN:0-683-40008-8, ISBN:0-8036-0655-9]
 is_a: VT:0015078 ! blood homeostasis trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:28087
 
 [Term]
@@ -38994,7 +38980,7 @@ name: fatty acid amount
 def: "The proportion, quantity, or volume in a body fluid or tissue of organic, monobasic acids derived from hydrocarbons; they are saturated and unsaturated." [MeSH:D005227]
 is_a: VT:0001547 ! lipid amount
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of CHEBI:35366
 created_by: caripark
 creation_date: 2010-02-09T12:45:06Z
@@ -39848,7 +39834,7 @@ name: protein amount
 def: "The proportion, quantity, or volume in a body tissue or fluid of macromolecules consisting of long sequences of amino acids in peptide linkage." [ISBN:0-683-40008-8]
 is_a: VT:0015077 ! molecule homeostasis trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
+intersection_of: affects_quality PATO:0000070 ! amount
 intersection_of: attribute_of PR:000000001
 created_by: caripark
 creation_date: 2010-05-05T11:27:49Z
