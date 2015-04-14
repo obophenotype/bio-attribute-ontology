@@ -2348,6 +2348,34 @@ created_by: cjmungall
 creation_date: 2015-03-03T16:41:59Z
 
 [Term]
+id: OBA:1000140
+name: epipubic bone size
+def: "Any measurable or observable characteristic related to the size of an epipubic bone." [GOC:TermGenie]
+synonym: "epipubic bone size trait" EXACT [GOC:TermGenie]
+is_a: OBA:1000138 {is_inferred="true"} ! bone element size
+intersection_of: OBA:0000001 ! biological attribute
+intersection_of: affects_quality PATO:0000117 ! size
+intersection_of: attribute_of UBERON:0013204 ! epipubic bone
+relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
+relationship: attribute_of UBERON:0013204 {is_inferred="true"} ! epipubic bone
+created_by: cjmungall
+creation_date: 2015-03-03T23:14:23Z
+
+[Term]
+id: OBA:1000141
+name: epipubic bone mass density
+def: "Any measurable or observable characteristic related to the mass density of an epipubic bone." [GOC:TermGenie]
+synonym: "epipubic bone mass density trait" EXACT [GOC:TermGenie]
+is_a: VT:0005007 {is_inferred="true"} ! bone mineral mass
+intersection_of: OBA:0000001 ! biological attribute
+intersection_of: affects_quality PATO:0001019 ! mass density
+intersection_of: attribute_of UBERON:0013204 ! epipubic bone
+relationship: affects_quality PATO:0001019 {is_inferred="true"} ! mass density
+relationship: attribute_of UBERON:0013204 {is_inferred="true"} ! epipubic bone
+created_by: cjmungall
+creation_date: 2015-03-03T23:14:26Z
+
+[Term]
 id: TO:0000001
 name: carbon sensitivity
 def: "Sensitivity to the carbon content in the growth medium. It plays an important role in the synthesis of various inorganic and organic metabolites such as carbohydrates, lipids, aminoacids and peptides and plays a role in various metabolic processes." [GR:pj]
