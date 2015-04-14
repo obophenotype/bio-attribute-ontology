@@ -602,10 +602,12 @@ intersection_of: occurs_in GO:0005886 ! plasma membrane
 [Term]
 id: OBA:0000124
 name: post-lysosomal vacuole size
-is_a: OBA:0000057 ! cellular component size
+is_a: OBA:1000142 {is_inferred="true"} ! vesicle size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
 intersection_of: attribute_of GO:0032195 ! post-lysosomal vacuole
+relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
+relationship: attribute_of GO:0032195 {is_inferred="true"} ! post-lysosomal vacuole
 
 [Term]
 id: OBA:0000125
@@ -2374,6 +2376,65 @@ relationship: affects_quality PATO:0001019 {is_inferred="true"} ! mass density
 relationship: attribute_of UBERON:0013204 {is_inferred="true"} ! epipubic bone
 created_by: cjmungall
 creation_date: 2015-03-03T23:14:26Z
+
+[Term]
+id: OBA:1000142
+name: vesicle size
+def: "Any measurable or observable characteristic related to the size of a vesicle." [GOC:TermGenie]
+synonym: "vesicle size trait" EXACT [GOC:TermGenie]
+is_a: OBA:0000057 {is_inferred="true"} ! cellular component size
+is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
+intersection_of: OBA:0000001 ! biological attribute
+intersection_of: affects_quality PATO:0000117 ! size
+intersection_of: attribute_of GO:0031982 ! vesicle
+relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
+relationship: attribute_of GO:0031982 {is_inferred="true"} ! vesicle
+created_by: cjmungall
+creation_date: 2015-04-14T22:09:46Z
+
+[Term]
+id: OBA:1000143
+name: lymphatic vessel size
+def: "Any measurable or observable characteristic related to the size of a lymphatic vessel." [GOC:TermGenie]
+synonym: "lymphatic vessel size trait" EXACT [GOC:TermGenie]
+is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
+is_a: VT:0001879 {is_inferred="true"} ! lymphatic vessel morphology trait
+intersection_of: OBA:0000001 ! biological attribute
+intersection_of: affects_quality PATO:0000117 ! size
+intersection_of: attribute_of UBERON:0001473 ! lymphatic vessel
+relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
+relationship: attribute_of UBERON:0001473 {is_inferred="true"} ! lymphatic vessel
+created_by: cjmungall
+creation_date: 2015-04-14T22:09:50Z
+
+[Term]
+id: OBA:1000144
+name: lymphatic vessel permeability
+def: "Any measurable or observable characteristic related to the permeability of a lymphatic vessel." [GOC:TermGenie]
+synonym: "lymphatic vessel permeability trait" EXACT [GOC:TermGenie]
+is_a: OBA:0000174 {is_inferred="true"} ! vascular permeability
+is_a: VT:0001879 {is_inferred="true"} ! lymphatic vessel morphology trait
+intersection_of: OBA:0000001 ! biological attribute
+intersection_of: affects_quality PATO:0000970 ! permeability
+intersection_of: attribute_of UBERON:0001473 ! lymphatic vessel
+relationship: affects_quality PATO:0000970 {is_inferred="true"} ! permeability
+relationship: attribute_of UBERON:0001473 {is_inferred="true"} ! lymphatic vessel
+created_by: cjmungall
+creation_date: 2015-04-14T22:09:54Z
+
+[Term]
+id: OBA:1000145
+name: lymphatic vessel quality
+def: "Any measurable or observable characteristic related to the quality of a lymphatic vessel." [GOC:TermGenie]
+synonym: "lymphatic vessel quality trait" EXACT [GOC:TermGenie]
+is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
+intersection_of: OBA:0000001 ! biological attribute
+intersection_of: affects_quality PATO:0000001 ! quality
+intersection_of: attribute_of UBERON:0001473 ! lymphatic vessel
+relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
+relationship: attribute_of UBERON:0001473 {is_inferred="true"} ! lymphatic vessel
+created_by: cjmungall
+creation_date: 2015-04-14T22:09:58Z
 
 [Term]
 id: TO:0000001
@@ -15651,11 +15712,14 @@ is_a: VT:0002398 ! bone marrow cell morphology trait
 id: VT:0000173
 name: lymph vessel physiology trait
 def: "Any measurable or observable characteristic related to the function of or processes in the lymph vessels." [RGD:dhm]
+is_a: OBA:1000145 {is_inferred="true"} ! lymphatic vessel quality
 is_a: VT:0001790 ! immune system physiology trait
 is_a: VT:0010040 ! lymphatic system physiology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001509 ! functionality
 intersection_of: attribute_of UBERON:0001473 ! lymphatic vessel
+relationship: affects_quality PATO:0001509 {is_inferred="true"} ! functionality
+relationship: attribute_of UBERON:0001473 {is_inferred="true"} ! lymphatic vessel
 
 [Term]
 id: VT:0000174
@@ -21828,11 +21892,14 @@ id: VT:0001879
 name: lymphatic vessel morphology trait
 def: "Any measurable or observable characteristic related to the shape, structure, color, or pattern of the network of vessels which carries lymph around the body." [ISBN:0-683-40008-8, MGI:tc]
 synonym: "lymphatic system morphology trait" BROAD []
+is_a: OBA:1000145 {is_inferred="true"} ! lymphatic vessel quality
 is_a: VT:0000685 ! immune system morphology trait
 is_a: VT:0010071 ! lymphatic system morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
 intersection_of: attribute_of UBERON:0001473 ! lymphatic vessel
+relationship: affects_quality PATO:0000051 {is_inferred="true"} ! morphology
+relationship: attribute_of UBERON:0001473 {is_inferred="true"} ! lymphatic vessel
 
 [Term]
 id: VT:0001881
