@@ -8,6 +8,7 @@ import: http://purl.obolibrary.org/obo/oba/imports/go_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/pato_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/po_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl
+import: http://purl.obolibrary.org/obo/oba/imports/chebi_import.owl
 ontology: oba
 property-value: foaf-homepage \"http://wiki.geneontology.org/index.php/Extensions/x-attribute\" xsd:anyURL
 

@@ -1,0 +1,2811 @@
+format-version: 1.2
+ontology: oba/imports/cl_import
+
+[Term]
+id: CL:0000000
+name: cell
+
+[Term]
+id: CL:0000003
+name: native cell
+is_a: CL:0000000 ! cell
+
+[Term]
+id: CL:0000006
+name: neuronal receptor cell
+is_a: CL:0000101 ! sensory neuron
+is_a: CL:0000197 ! receptor cell
+
+[Term]
+id: CL:0000015
+name: male germ cell
+is_a: CL:0000586 ! germ cell
+
+[Term]
+id: CL:0000017
+name: spermatocyte
+is_a: CL:0000015 ! male germ cell
+relationship: develops_from CL:0000020 ! spermatogonium
+
+[Term]
+id: CL:0000018
+name: spermatid
+is_a: CL:0000015 ! male germ cell
+is_a: CL:0000413 ! haploid cell
+relationship: develops_from CL:0000657 ! secondary spermatocyte
+
+[Term]
+id: CL:0000019
+name: sperm
+is_a: CL:0000064 ! ciliated cell
+is_a: CL:0000219 ! motile cell
+is_a: CL:0000408 ! male gamete
+relationship: develops_from CL:0000018 ! spermatid
+
+[Term]
+id: CL:0000020
+name: spermatogonium
+is_a: CL:0000015 ! male germ cell
+
+[Term]
+id: CL:0000021
+name: female germ cell
+is_a: CL:0000586 ! germ cell
+
+[Term]
+id: CL:0000023
+name: oocyte
+is_a: CL:0000021 ! female germ cell
+
+[Term]
+id: CL:0000025
+name: egg cell
+is_a: CL:0000675 ! female gamete
+relationship: develops_from CL:0000023 ! oocyte
+
+[Term]
+id: CL:0000029
+name: neuron neural crest derived
+is_a: CL:0000540 ! neuron
+relationship: develops_from CL:0000333 ! migratory neural crest cell
+relationship: develops_from CL:0002676 ! neural crest derived neuroblast
+
+[Term]
+id: CL:0000030
+name: glioblast
+is_a: CL:0000055 ! non-terminally differentiated cell
+relationship: develops_from CL:0000133 ! neurectodermal cell
+
+[Term]
+id: CL:0000031
+name: neuroblast
+is_a: CL:0000047 ! neuronal stem cell
+is_a: CL:0000055 ! non-terminally differentiated cell
+
+[Term]
+id: CL:0000034
+name: stem cell
+is_a: CL:0011115 ! precursor cell
+
+[Term]
+id: CL:0000035
+name: single fate stem cell
+is_a: CL:0000723 ! somatic stem cell
+
+[Term]
+id: CL:0000036
+name: epithelial fate stem cell
+is_a: CL:0000035 ! single fate stem cell
+
+[Term]
+id: CL:0000037
+name: hematopoietic stem cell
+is_a: CL:0000723 ! somatic stem cell
+is_a: CL:0008001 ! hematopoietic precursor cell
+relationship: develops_from CL:0000566 ! angioblastic mesenchymal cell
+
+[Term]
+id: CL:0000038
+name: erythroid progenitor cell
+is_a: CL:0000764 ! erythroid lineage cell
+is_a: CL:0000839 ! myeloid lineage restricted progenitor cell
+relationship: develops_from CL:0000050 ! megakaryocyte-erythroid progenitor cell
+
+[Term]
+id: CL:0000039
+name: germ line cell
+is_a: CL:0000548 ! animal cell
+
+[Term]
+id: CL:0000040
+name: monoblast
+is_a: CL:0000763 ! myeloid cell
+is_a: CL:0002194 ! monopoietic cell
+relationship: develops_from CL:0002009 ! macrophage dendritic cell progenitor
+
+[Term]
+id: CL:0000047
+name: neuronal stem cell
+is_a: CL:0000048 ! multi fate stem cell
+is_a: CL:0002319 ! neural cell
+relationship: develops_from CL:0000133 ! neurectodermal cell
+
+[Term]
+id: CL:0000048
+name: multi fate stem cell
+is_a: CL:0000034 ! stem cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0000049
+name: common myeloid progenitor
+is_a: CL:0002032 ! hematopoietic oligopotent progenitor cell
+
+[Term]
+id: CL:0000050
+name: megakaryocyte-erythroid progenitor cell
+is_a: CL:0000763 ! myeloid cell
+is_a: CL:0002032 ! hematopoietic oligopotent progenitor cell
+is_a: CL:0011115 ! precursor cell
+relationship: develops_from CL:0000049 ! common myeloid progenitor
+
+[Term]
+id: CL:0000051
+name: common lymphoid progenitor
+is_a: CL:0002032 ! hematopoietic oligopotent progenitor cell
+is_a: CL:0011115 ! precursor cell
+
+[Term]
+id: CL:0000055
+name: non-terminally differentiated cell
+is_a: CL:0011115 ! precursor cell
+
+[Term]
+id: CL:0000056
+name: myoblast
+is_a: CL:0000680 ! muscle precursor cell
+
+[Term]
+id: CL:0000057
+name: fibroblast
+is_a: CL:0002320 ! connective tissue cell
+relationship: develops_from CL:0000134 ! mesenchymal stem cell
+
+[Term]
+id: CL:0000058
+name: chondroblast
+is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0002320 ! connective tissue cell
+relationship: develops_from CL:0007009 ! prechondroblast
+
+[Term]
+id: CL:0000062
+name: osteoblast
+is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0002320 ! connective tissue cell
+relationship: develops_from CL:0007010 ! preosteoblast
+
+[Term]
+id: CL:0000064
+name: ciliated cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000066
+name: epithelial cell
+is_a: CL:0000548 ! animal cell
+
+[Term]
+id: CL:0000068
+name: duct epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0000071
+name: blood vessel endothelial cell
+is_a: CL:0000076 ! squamous epithelial cell
+is_a: CL:0002139 ! endothelial cell of vascular tree
+relationship: develops_from CL:0002546 ! embryonic blood vessel endothelial progenitor cell
+
+[Term]
+id: CL:0000075
+name: columnar/cuboidal epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0000076
+name: squamous epithelial cell
+is_a: CL:0000066 ! epithelial cell
+
+[Term]
+id: CL:0000077
+name: mesothelial cell
+is_a: CL:0000076 ! squamous epithelial cell
+is_a: CL:0000213 ! lining cell
+relationship: develops_from CL:0000222 ! mesodermal cell
+
+[Term]
+id: CL:0000079
+name: stratified epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
+relationship: develops_from CL:0000357 ! stratified epithelial stem cell
+
+[Term]
+id: CL:0000081
+name: blood cell
+is_a: CL:0000988 ! hematopoietic cell
+
+[Term]
+id: CL:0000082
+name: epithelial cell of lung
+is_a: CL:0000066 ! epithelial cell
+
+[Term]
+id: CL:0000083
+name: epithelial cell of pancreas
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
+relationship: develops_from CL:0000223 ! endodermal cell
+
+[Term]
+id: CL:0000084
+name: T cell
+is_a: CL:0000542 ! lymphocyte
+relationship: develops_from CL:0000827 ! pro-T cell
+
+[Term]
+id: CL:0000091
+name: Kupffer cell
+is_a: CL:0000864 ! tissue-resident macrophage
+
+[Term]
+id: CL:0000092
+name: osteoclast
+is_a: CL:0000766 ! myeloid leukocyte
+is_a: CL:0001035 ! bone cell
+relationship: develops_from CL:0000576 ! monocyte
+
+[Term]
+id: CL:0000094
+name: granulocyte
+is_a: CL:0000081 ! blood cell
+is_a: CL:0000766 ! myeloid leukocyte
+
+[Term]
+id: CL:0000095
+name: neuron associated cell
+is_a: CL:0002319 ! neural cell
+relationship: develops_from CL:0000133 ! neurectodermal cell
+
+[Term]
+id: CL:0000097
+name: mast cell
+is_a: CL:0000766 ! myeloid leukocyte
+is_a: CL:0002274 ! histamine secreting cell
+relationship: develops_from CL:0000831 ! mast cell progenitor
+
+[Term]
+id: CL:0000098
+name: sensory epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0000197 ! receptor cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0000099
+name: interneuron
+is_a: CL:0000540 ! neuron
+
+[Term]
+id: CL:0000100
+name: motor neuron
+is_a: CL:0000527 ! efferent neuron
+
+[Term]
+id: CL:0000101
+name: sensory neuron
+is_a: CL:0000526 ! afferent neuron
+
+[Term]
+id: CL:0000107
+name: autonomic neuron
+is_a: CL:2000032 ! peripheral nervous system neuron
+
+[Term]
+id: CL:0000108
+name: cholinergic neuron
+is_a: CL:0000151 ! secretory cell
+is_a: CL:0000540 ! neuron
+
+[Term]
+id: CL:0000109
+name: adrenergic neuron
+is_a: CL:0000540 ! neuron
+
+[Term]
+id: CL:0000110
+name: peptidergic neuron
+is_a: CL:0000540 ! neuron
+
+[Term]
+id: CL:0000113
+name: mononuclear phagocyte
+is_a: CL:0000226 ! single nucleate cell
+is_a: CL:0000518 ! phagocyte (sensu Vertebrata)
+
+[Term]
+id: CL:0000114
+name: surface ectodermal cell
+is_a: CL:0000221 ! ectodermal cell
+
+[Term]
+id: CL:0000115
+name: endothelial cell
+is_a: CL:0000213 ! lining cell
+is_a: CL:0002078 ! meso-epithelial cell
+
+[Term]
+id: CL:0000117
+name: CNS neuron (sensu Vertebrata)
+is_a: CL:2000029 ! central nervous system neuron
+relationship: develops_from CL:0000337 ! neuroblast (sensu Vertebrata)
+
+[Term]
+id: CL:0000120
+name: granule cell
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
+
+[Term]
+id: CL:0000121
+name: Purkinje cell
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
+is_a: CL:0000527 ! efferent neuron
+is_a: CL:1001611 ! cerebellar neuron
+
+[Term]
+id: CL:0000123
+name: neuron associated cell (sensu Vertebrata)
+is_a: CL:0000095 ! neuron associated cell
+relationship: develops_from CL:0000333 ! migratory neural crest cell
+
+[Term]
+id: CL:0000125
+name: glial cell
+is_a: CL:0000095 ! neuron associated cell
+relationship: develops_from CL:0000030 ! glioblast
+
+[Term]
+id: CL:0000126
+name: macroglial cell
+is_a: CL:0000243 ! glial cell (sensu Vertebrata)
+relationship: develops_from CL:0000339 ! glioblast (sensu Vertebrata)
+
+[Term]
+id: CL:0000127
+name: astrocyte
+is_a: CL:0000126 ! macroglial cell
+
+[Term]
+id: CL:0000128
+name: oligodendrocyte
+is_a: CL:0000126 ! macroglial cell
+relationship: develops_from CL:0002453 ! oligodendrocyte precursor cell
+
+[Term]
+id: CL:0000129
+name: microglial cell
+is_a: CL:0000243 ! glial cell (sensu Vertebrata)
+is_a: CL:0000878 ! central nervous system macrophage
+relationship: develops_from CL:0002453 ! oligodendrocyte precursor cell
+
+[Term]
+id: CL:0000133
+name: neurectodermal cell
+is_a: CL:0000221 ! ectodermal cell
+
+[Term]
+id: CL:0000134
+name: mesenchymal stem cell
+is_a: CL:0000048 ! multi fate stem cell
+is_a: CL:0000219 ! motile cell
+is_a: CL:0002320 ! connective tissue cell
+
+[Term]
+id: CL:0000135
+name: fibrocyte
+is_a: CL:0000499 ! stromal cell
+relationship: develops_from CL:0000057 ! fibroblast
+
+[Term]
+id: CL:0000136
+name: fat cell
+is_a: CL:0000325 ! stuff accumulating cell
+is_a: CL:0002320 ! connective tissue cell
+relationship: develops_from CL:0000134 ! mesenchymal stem cell
+
+[Term]
+id: CL:0000137
+name: osteocyte
+is_a: CL:0001035 ! bone cell
+relationship: develops_from CL:0001040 ! non-terminally differentiated osteoblast
+
+[Term]
+id: CL:0000138
+name: chondrocyte
+is_a: CL:0000153 ! GAG secreting cell
+is_a: CL:0000667 ! collagen secreting cell
+relationship: develops_from CL:0000058 ! chondroblast
+
+[Term]
+id: CL:0000147
+name: pigment cell
+is_a: CL:0000325 ! stuff accumulating cell
+
+[Term]
+id: CL:0000148
+name: melanocyte
+is_a: CL:0000147 ! pigment cell
+is_a: CL:0002371 ! somatic cell
+relationship: develops_from CL:0000541 ! melanoblast
+
+[Term]
+id: CL:0000150
+name: glandular epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0000151 ! secretory cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0000151
+name: secretory cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000153
+name: GAG secreting cell
+is_a: CL:0000327 ! extracellular matrix secreting cell
+is_a: CL:0000447 ! carbohydrate secreting cell
+
+[Term]
+id: CL:0000154
+name: protein secreting cell
+is_a: CL:0000151 ! secretory cell
+
+[Term]
+id: CL:0000157
+name: surfactant secreting cell
+is_a: CL:0000151 ! secretory cell
+
+[Term]
+id: CL:0000158
+name: Clara cell
+is_a: CL:0000157 ! surfactant secreting cell
+is_a: CL:0002328 ! bronchial epithelial cell
+
+[Term]
+id: CL:0000159
+name: seromucus secreting cell
+is_a: CL:0000151 ! secretory cell
+
+[Term]
+id: CL:0000160
+name: goblet cell
+is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0000319 ! mucus secreting cell
+
+[Term]
+id: CL:0000163
+name: endocrine cell
+is_a: CL:0000151 ! secretory cell
+
+[Term]
+id: CL:0000164
+name: enteroendocrine cell
+is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0000163 ! endocrine cell
+
+[Term]
+id: CL:0000167
+name: peptide hormone secreting cell
+is_a: CL:0000151 ! secretory cell
+
+[Term]
+id: CL:0000168
+name: insulin secreting cell
+is_a: CL:0000154 ! protein secreting cell
+is_a: CL:0000167 ! peptide hormone secreting cell
+
+[Term]
+id: CL:0000169
+name: type B pancreatic cell
+is_a: CL:0000083 ! epithelial cell of pancreas
+is_a: CL:0000164 ! enteroendocrine cell
+is_a: CL:0000168 ! insulin secreting cell
+is_a: CL:0008024 ! pancreatic endocrine cell
+relationship: develops_from CL:0002351 ! progenitor cell of endocrine pancreas
+
+[Term]
+id: CL:0000170
+name: glucagon secreting cell
+is_a: CL:0000167 ! peptide hormone secreting cell
+
+[Term]
+id: CL:0000171
+name: pancreatic A cell
+is_a: CL:0000083 ! epithelial cell of pancreas
+is_a: CL:0002067 ! type A enterocrine cell
+is_a: CL:0008024 ! pancreatic endocrine cell
+relationship: develops_from CL:0002351 ! progenitor cell of endocrine pancreas
+
+[Term]
+id: CL:0000172
+name: somatostatin secreting cell
+is_a: CL:0000167 ! peptide hormone secreting cell
+
+[Term]
+id: CL:0000173
+name: pancreatic D cell
+is_a: CL:0000083 ! epithelial cell of pancreas
+is_a: CL:0000502 ! type D enteroendocrine cell
+is_a: CL:0008024 ! pancreatic endocrine cell
+relationship: develops_from CL:0002351 ! progenitor cell of endocrine pancreas
+
+[Term]
+id: CL:0000174
+name: steroid hormone secreting cell
+is_a: CL:0000163 ! endocrine cell
+
+[Term]
+id: CL:0000177
+name: testosterone secreting cell
+is_a: CL:0000593 ! androgen secreting cell
+
+[Term]
+id: CL:0000178
+name: Leydig cell
+is_a: CL:0000177 ! testosterone secreting cell
+
+[Term]
+id: CL:0000181
+name: metabolising cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000182
+name: hepatocyte
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0000181 ! metabolising cell
+is_a: CL:0000417 ! endopolyploid cell
+is_a: CL:0002371 ! somatic cell
+relationship: develops_from CL:0005026 ! hepatoblast
+
+[Term]
+id: CL:0000183
+name: contractile cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000187
+name: muscle cell
+is_a: CL:0000183 ! contractile cell
+is_a: CL:0000393 ! electrically responsive cell
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
+relationship: develops_from CL:0000056 ! myoblast
+
+[Term]
+id: CL:0000188
+name: cell of skeletal muscle
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0000189
+name: slow muscle cell
+is_a: CL:0008002 ! skeletal muscle fiber
+relationship: develops_from CL:0000857 ! slow muscle myoblast
+
+[Term]
+id: CL:0000190
+name: fast muscle cell
+is_a: CL:0008002 ! skeletal muscle fiber
+relationship: develops_from CL:0000858 ! fast muscle myoblast
+
+[Term]
+id: CL:0000197
+name: receptor cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000198
+name: pain receptor cell
+is_a: CL:0000006 ! neuronal receptor cell
+
+[Term]
+id: CL:0000199
+name: mechanoreceptor cell
+is_a: CL:0000101 ! sensory neuron
+
+[Term]
+id: CL:0000202
+name: auditory hair cell
+is_a: CL:0000006 ! neuronal receptor cell
+is_a: CL:0000710 ! neurecto-epithelial cell
+is_a: CL:0002374 ! ear hair cell
+is_a: CL:0002491 ! auditory epithelial cell
+
+[Term]
+id: CL:0000206
+name: chemoreceptor cell
+is_a: CL:0000101 ! sensory neuron
+
+[Term]
+id: CL:0000207
+name: olfactory receptor cell
+is_a: CL:0000206 ! chemoreceptor cell
+
+[Term]
+id: CL:0000210
+name: photoreceptor cell
+is_a: CL:0000006 ! neuronal receptor cell
+
+[Term]
+id: CL:0000211
+name: electrically active cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000212
+name: absorptive cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000213
+name: lining cell
+is_a: CL:0000215 ! barrier cell
+
+[Term]
+id: CL:0000215
+name: barrier cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000216
+name: Sertoli cell
+is_a: CL:0000511 ! androgen binding protein secreting cell
+is_a: CL:0000630 ! supportive cell
+is_a: CL:0002625 ! seminiferous tubule epithelial cell
+
+[Term]
+id: CL:0000217
+name: insulating cell
+is_a: CL:0000215 ! barrier cell
+
+[Term]
+id: CL:0000218
+name: myelinating Schwann cell
+is_a: CL:0000217 ! insulating cell
+is_a: CL:0000328 ! myelin accumulating cell
+is_a: CL:0002573 ! Schwann cell
+relationship: develops_from CL:0002377 ! immature Schwann cell
+
+[Term]
+id: CL:0000219
+name: motile cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000221
+name: ectodermal cell
+is_a: CL:0002321 ! embryonic cell
+
+[Term]
+id: CL:0000222
+name: mesodermal cell
+is_a: CL:0002321 ! embryonic cell
+
+[Term]
+id: CL:0000223
+name: endodermal cell
+is_a: CL:0002321 ! embryonic cell
+
+[Term]
+id: CL:0000225
+name: anucleate cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000226
+name: single nucleate cell
+is_a: CL:0002242 ! nucleate cell
+
+[Term]
+id: CL:0000228
+name: multinucleate cell
+is_a: CL:0002242 ! nucleate cell
+
+[Term]
+id: CL:0000232
+name: erythrocyte
+is_a: CL:0000081 ! blood cell
+is_a: CL:0000329 ! oxygen accumulating cell
+is_a: CL:0000764 ! erythroid lineage cell
+relationship: develops_from CL:0000558 ! reticulocyte
+
+[Term]
+id: CL:0000233
+name: platelet
+is_a: CL:0000081 ! blood cell
+is_a: CL:0000225 ! anucleate cell
+is_a: CL:0000458 ! serotonin secreting cell
+is_a: CL:0000763 ! myeloid cell
+relationship: develops_from CL:0000556 ! megakaryocyte
+
+[Term]
+id: CL:0000234
+name: phagocyte
+is_a: CL:0000219 ! motile cell
+is_a: CL:0000325 ! stuff accumulating cell
+is_a: CL:0000473 ! defensive cell
+
+[Term]
+id: CL:0000235
+name: macrophage
+is_a: CL:0000234 ! phagocyte
+is_a: CL:0000766 ! myeloid leukocyte
+relationship: develops_from CL:0000576 ! monocyte
+
+[Term]
+id: CL:0000236
+name: B cell
+is_a: CL:0000945 ! lymphocyte of B lineage
+relationship: develops_from CL:0000826 ! pro-B cell
+
+[Term]
+id: CL:0000237
+name: keratinizing barrier epithelial cell
+is_a: CL:0000240 ! stratified squamous epithelial cell
+is_a: CL:0000311 ! keratin accumulating cell
+is_a: CL:0002077 ! ecto-epithelial cell
+relationship: develops_from CL:0000114 ! surface ectodermal cell
+
+[Term]
+id: CL:0000239
+name: brush border epithelial cell
+is_a: CL:0000075 ! columnar/cuboidal epithelial cell
+
+[Term]
+id: CL:0000240
+name: stratified squamous epithelial cell
+is_a: CL:0000076 ! squamous epithelial cell
+is_a: CL:0000079 ! stratified epithelial cell
+
+[Term]
+id: CL:0000243
+name: glial cell (sensu Vertebrata)
+is_a: CL:0000125 ! glial cell
+relationship: develops_from CL:0000339 ! glioblast (sensu Vertebrata)
+
+[Term]
+id: CL:0000255
+name: eukaryotic cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000287
+name: eye photoreceptor cell
+is_a: CL:0000210 ! photoreceptor cell
+
+[Term]
+id: CL:0000300
+name: gamete
+is_a: CL:0000413 ! haploid cell
+is_a: CL:0000586 ! germ cell
+
+[Term]
+id: CL:0000306
+name: crystallin accumulating cell
+is_a: CL:0000325 ! stuff accumulating cell
+
+[Term]
+id: CL:0000311
+name: keratin accumulating cell
+is_a: CL:0000325 ! stuff accumulating cell
+
+[Term]
+id: CL:0000312
+name: keratinocyte
+is_a: CL:0000237 ! keratinizing barrier epithelial cell
+is_a: CL:0000362 ! epidermal cell
+
+[Term]
+id: CL:0000319
+name: mucus secreting cell
+is_a: CL:0000159 ! seromucus secreting cell
+
+[Term]
+id: CL:0000322
+name: pneumocyte
+is_a: CL:0010003 ! epithelial cell of alveolus of lung
+
+[Term]
+id: CL:0000325
+name: stuff accumulating cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000327
+name: extracellular matrix secreting cell
+is_a: CL:0000151 ! secretory cell
+is_a: CL:0000499 ! stromal cell
+
+[Term]
+id: CL:0000328
+name: myelin accumulating cell
+is_a: CL:0000325 ! stuff accumulating cell
+
+[Term]
+id: CL:0000329
+name: oxygen accumulating cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000333
+name: migratory neural crest cell
+is_a: CL:0000219 ! motile cell
+is_a: CL:0002321 ! embryonic cell
+relationship: develops_from CL:0007004 ! premigratory neural crest cell
+
+[Term]
+id: CL:0000337
+name: neuroblast (sensu Vertebrata)
+is_a: CL:0000031 ! neuroblast
+
+[Term]
+id: CL:0000339
+name: glioblast (sensu Vertebrata)
+is_a: CL:0000030 ! glioblast
+is_a: CL:0000123 ! neuron associated cell (sensu Vertebrata)
+
+[Term]
+id: CL:0000349
+name: extraembryonic cell
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0000351
+name: trophoblast cell
+is_a: CL:0000349 ! extraembryonic cell
+
+[Term]
+id: CL:0000355
+name: multi-potent skeletal muscle stem cell
+is_a: CL:0000048 ! multi fate stem cell
+is_a: CL:0000188 ! cell of skeletal muscle
+
+[Term]
+id: CL:0000357
+name: stratified epithelial stem cell
+is_a: CL:0000036 ! epithelial fate stem cell
+
+[Term]
+id: CL:0000362
+name: epidermal cell
+is_a: CL:0002159 ! general ecto-epithelial cell
+
+[Term]
+id: CL:0000381
+name: neurosecretory neuron
+is_a: CL:0000151 ! secretory cell
+is_a: CL:0000527 ! efferent neuron
+
+[Term]
+id: CL:0000393
+name: electrically responsive cell
+is_a: CL:0000211 ! electrically active cell
+
+[Term]
+id: CL:0000402
+name: CNS interneuron
+is_a: CL:0000099 ! interneuron
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
+
+[Term]
+id: CL:0000404
+name: electrically signaling cell
+is_a: CL:0000211 ! electrically active cell
+
+[Term]
+id: CL:0000408
+name: male gamete
+is_a: CL:0000015 ! male germ cell
+is_a: CL:0000300 ! gamete
+
+[Term]
+id: CL:0000412
+name: polyploid cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000413
+name: haploid cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000417
+name: endopolyploid cell
+is_a: CL:0000412 ! polyploid cell
+
+[Term]
+id: CL:0000424
+name: excretory cell
+is_a: CL:0000151 ! secretory cell
+
+[Term]
+id: CL:0000441
+name: follicle stem cell
+is_a: CL:0000036 ! epithelial fate stem cell
+
+[Term]
+id: CL:0000442
+name: follicular dendritic cell
+is_a: CL:0000473 ! defensive cell
+
+[Term]
+id: CL:0000446
+name: chief cell of parathyroid gland
+is_a: CL:0000167 ! peptide hormone secreting cell
+is_a: CL:0002260 ! epithelial cell of parathyroid gland
+
+[Term]
+id: CL:0000447
+name: carbohydrate secreting cell
+is_a: CL:0000151 ! secretory cell
+
+[Term]
+id: CL:0000448
+name: white fat cell
+is_a: CL:0000136 ! fat cell
+relationship: develops_from CL:0002334 ! preadipocyte
+
+[Term]
+id: CL:0000449
+name: brown fat cell
+is_a: CL:0000136 ! fat cell
+relationship: develops_from CL:0002335 ! brown preadipocyte
+
+[Term]
+id: CL:0000451
+name: dendritic cell
+is_a: CL:0000738 ! leukocyte
+
+[Term]
+id: CL:0000453
+name: Langerhans cell
+is_a: CL:0000766 ! myeloid leukocyte
+is_a: CL:0000990 ! conventional dendritic cell
+relationship: develops_from CL:0000763 ! myeloid cell
+
+[Term]
+id: CL:0000457
+name: biogenic amine secreting cell
+is_a: CL:0000163 ! endocrine cell
+
+[Term]
+id: CL:0000458
+name: serotonin secreting cell
+is_a: CL:0000457 ! biogenic amine secreting cell
+
+[Term]
+id: CL:0000473
+name: defensive cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000477
+name: follicle cell
+is_a: CL:0000075 ! columnar/cuboidal epithelial cell
+relationship: develops_from CL:0000441 ! follicle stem cell
+
+[Term]
+id: CL:0000492
+name: CD4-positive helper T cell
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+is_a: CL:0000912 ! helper T cell
+relationship: develops_from CL:0000896 ! activated CD4-positive, alpha-beta T cell
+
+[Term]
+id: CL:0000499
+name: stromal cell
+is_a: CL:0002320 ! connective tissue cell
+relationship: develops_from CL:0000134 ! mesenchymal stem cell
+
+[Term]
+id: CL:0000502
+name: type D enteroendocrine cell
+is_a: CL:0000164 ! enteroendocrine cell
+is_a: CL:0000172 ! somatostatin secreting cell
+
+[Term]
+id: CL:0000511
+name: androgen binding protein secreting cell
+is_a: CL:0000154 ! protein secreting cell
+
+[Term]
+id: CL:0000513
+name: cardiac muscle myoblast
+is_a: CL:0002494 ! cardiocyte
+is_a: CL:0010021 ! cardiac myoblast
+
+[Term]
+id: CL:0000515
+name: skeletal muscle myoblast
+is_a: CL:0000056 ! myoblast
+relationship: develops_from CL:0000355 ! multi-potent skeletal muscle stem cell
+
+[Term]
+id: CL:0000518
+name: phagocyte (sensu Vertebrata)
+is_a: CL:0000234 ! phagocyte
+
+[Term]
+id: CL:0000526
+name: afferent neuron
+is_a: CL:0000540 ! neuron
+
+[Term]
+id: CL:0000527
+name: efferent neuron
+is_a: CL:0000540 ! neuron
+
+[Term]
+id: CL:0000540
+name: neuron
+is_a: CL:0000393 ! electrically responsive cell
+is_a: CL:0000404 ! electrically signaling cell
+is_a: CL:0002319 ! neural cell
+relationship: develops_from CL:0000031 ! neuroblast
+
+[Term]
+id: CL:0000541
+name: melanoblast
+is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0002371 ! somatic cell
+relationship: develops_from CL:0000333 ! migratory neural crest cell
+
+[Term]
+id: CL:0000542
+name: lymphocyte
+is_a: CL:0002087 ! nongranular leukocyte
+is_a: CL:0002242 ! nucleate cell
+relationship: develops_from CL:0000051 ! common lymphoid progenitor
+
+[Term]
+id: CL:0000545
+name: T-helper 1 cell
+is_a: CL:0000492 ! CD4-positive helper T cell
+relationship: develops_from CL:0000896 ! activated CD4-positive, alpha-beta T cell
+
+[Term]
+id: CL:0000546
+name: T-helper 2 cell
+is_a: CL:0000492 ! CD4-positive helper T cell
+is_a: CL:0001051 ! CD4-positive, CXCR3-negative, CCR6-negative, alpha-beta T cell
+relationship: develops_from CL:0000896 ! activated CD4-positive, alpha-beta T cell
+
+[Term]
+id: CL:0000547
+name: proerythroblast
+is_a: CL:0000764 ! erythroid lineage cell
+is_a: CL:0002242 ! nucleate cell
+relationship: develops_from CL:0000038 ! erythroid progenitor cell
+
+[Term]
+id: CL:0000548
+name: animal cell
+is_a: CL:0000255 ! eukaryotic cell
+
+[Term]
+id: CL:0000549
+name: basophilic erythroblast
+is_a: CL:0000765 ! erythroblast
+relationship: develops_from CL:0000547 ! proerythroblast
+
+[Term]
+id: CL:0000550
+name: polychromatophilic erythroblast
+is_a: CL:0000765 ! erythroblast
+relationship: develops_from CL:0000549 ! basophilic erythroblast
+
+[Term]
+id: CL:0000552
+name: orthochromatic erythroblast
+is_a: CL:0000765 ! erythroblast
+relationship: develops_from CL:0000550 ! polychromatophilic erythroblast
+
+[Term]
+id: CL:0000553
+name: megakaryocyte progenitor cell
+is_a: CL:0000763 ! myeloid cell
+is_a: CL:0000839 ! myeloid lineage restricted progenitor cell
+relationship: develops_from CL:0000050 ! megakaryocyte-erythroid progenitor cell
+
+[Term]
+id: CL:0000556
+name: megakaryocyte
+is_a: CL:0000763 ! myeloid cell
+is_a: CL:1001610 ! bone marrow hematopoietic cell
+relationship: develops_from CL:0000553 ! megakaryocyte progenitor cell
+
+[Term]
+id: CL:0000557
+name: granulocyte monocyte progenitor cell
+is_a: CL:0000763 ! myeloid cell
+is_a: CL:0001012 ! CD7-negative lymphoid progenitor OR granulocyte monocyte progenitor
+is_a: CL:0011115 ! precursor cell
+is_a: CL:1001610 ! bone marrow hematopoietic cell
+relationship: develops_from CL:0000049 ! common myeloid progenitor
+
+[Term]
+id: CL:0000558
+name: reticulocyte
+is_a: CL:0000764 ! erythroid lineage cell
+relationship: develops_from CL:0000552 ! orthochromatic erythroblast
+
+[Term]
+id: CL:0000559
+name: promonocyte
+is_a: CL:0000763 ! myeloid cell
+is_a: CL:0002194 ! monopoietic cell
+relationship: develops_from CL:0000040 ! monoblast
+
+[Term]
+id: CL:0000561
+name: amacrine cell
+is_a: CL:0000099 ! interneuron
+
+[Term]
+id: CL:0000566
+name: angioblastic mesenchymal cell
+is_a: CL:0000134 ! mesenchymal stem cell
+relationship: develops_from CL:0000134 ! mesenchymal stem cell
+
+[Term]
+id: CL:0000573
+name: retinal cone cell
+is_a: CL:0010009 ! camera-type eye photoreceptor cell
+relationship: develops_from CL:0002672 ! retinal progenitor cell
+
+[Term]
+id: CL:0000576
+name: monocyte
+is_a: CL:0000766 ! myeloid leukocyte
+is_a: CL:0002087 ! nongranular leukocyte
+is_a: CL:0011115 ! precursor cell
+relationship: develops_from CL:0000559 ! promonocyte
+
+[Term]
+id: CL:0000581
+name: peritoneal macrophage
+is_a: CL:0000864 ! tissue-resident macrophage
+
+[Term]
+id: CL:0000583
+name: alveolar macrophage
+is_a: CL:0000864 ! tissue-resident macrophage
+
+[Term]
+id: CL:0000584
+name: enterocyte
+is_a: CL:0000239 ! brush border epithelial cell
+is_a: CL:0000677 ! gut absorptive cell
+is_a: CL:0002563 ! intestinal epithelial cell
+
+[Term]
+id: CL:0000586
+name: germ cell
+is_a: CL:0000039 ! germ line cell
+
+[Term]
+id: CL:0000589
+name: cochlear inner hair cell
+is_a: CL:0000202 ! auditory hair cell
+
+[Term]
+id: CL:0000593
+name: androgen secreting cell
+is_a: CL:0000174 ! steroid hormone secreting cell
+
+[Term]
+id: CL:0000598
+name: pyramidal cell
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
+
+[Term]
+id: CL:0000601
+name: outer hair cell
+is_a: CL:0000202 ! auditory hair cell
+
+[Term]
+id: CL:0000609
+name: vestibular hair cell
+is_a: CL:0002374 ! ear hair cell
+
+[Term]
+id: CL:0000623
+name: natural killer cell
+is_a: CL:0000542 ! lymphocyte
+relationship: develops_from CL:0000825 ! pro-NK cell
+
+[Term]
+id: CL:0000624
+name: CD4-positive, alpha-beta T cell
+is_a: CL:0000791 ! mature alpha-beta T cell
+
+[Term]
+id: CL:0000625
+name: CD8-positive, alpha-beta T cell
+is_a: CL:0000791 ! mature alpha-beta T cell
+
+[Term]
+id: CL:0000630
+name: supportive cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000633
+name: Hensen cell
+is_a: CL:0002490 ! organ of Corti supporting cell
+
+[Term]
+id: CL:0000634
+name: Claudius cell
+is_a: CL:0002315 ! supporting cell of cochlea
+
+[Term]
+id: CL:0000635
+name: Deiter's cell
+is_a: CL:0002165 ! phalangeal cell
+
+[Term]
+id: CL:0000636
+name: Mueller cell
+is_a: CL:0000127 ! astrocyte
+
+[Term]
+id: CL:0000649
+name: prickle cell
+is_a: CL:0000312 ! keratinocyte
+
+[Term]
+id: CL:0000650
+name: mesangial cell
+is_a: CL:0000669 ! pericyte cell
+relationship: develops_from CL:0000134 ! mesenchymal stem cell
+
+[Term]
+id: CL:0000651
+name: mucous neck cell
+is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0000319 ! mucus secreting cell
+
+[Term]
+id: CL:0000653
+name: glomerular visceral epithelial cell
+is_a: CL:0002522 ! renal filtration cell
+is_a: CL:1000451 ! epithelial cell of visceral layer of glomerular capsule
+
+[Term]
+id: CL:0000656
+name: primary spermatocyte
+is_a: CL:0000017 ! spermatocyte
+
+[Term]
+id: CL:0000657
+name: secondary spermatocyte
+is_a: CL:0000017 ! spermatocyte
+is_a: CL:0000413 ! haploid cell
+relationship: develops_from CL:0000656 ! primary spermatocyte
+
+[Term]
+id: CL:0000667
+name: collagen secreting cell
+is_a: CL:0000327 ! extracellular matrix secreting cell
+
+[Term]
+id: CL:0000669
+name: pericyte cell
+is_a: CL:0000183 ! contractile cell
+is_a: CL:0000630 ! supportive cell
+is_a: CL:0002320 ! connective tissue cell
+
+[Term]
+id: CL:0000675
+name: female gamete
+is_a: CL:0000021 ! female germ cell
+is_a: CL:0000300 ! gamete
+
+[Term]
+id: CL:0000677
+name: gut absorptive cell
+is_a: CL:0000212 ! absorptive cell
+
+[Term]
+id: CL:0000680
+name: muscle precursor cell
+is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0002371 ! somatic cell
+relationship: develops_from CL:0000222 ! mesodermal cell
+
+[Term]
+id: CL:0000681
+name: radial glial cell
+is_a: CL:0000243 ! glial cell (sensu Vertebrata)
+relationship: develops_from CL:0000710 ! neurecto-epithelial cell
+
+[Term]
+id: CL:0000695
+name: Cajal-Retzius cell
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
+
+[Term]
+id: CL:0000700
+name: dopaminergic neuron
+is_a: CL:0000151 ! secretory cell
+is_a: CL:0000540 ! neuron
+
+[Term]
+id: CL:0000710
+name: neurecto-epithelial cell
+is_a: CL:0000075 ! columnar/cuboidal epithelial cell
+is_a: CL:0002077 ! ecto-epithelial cell
+relationship: develops_from CL:0000133 ! neurectodermal cell
+
+[Term]
+id: CL:0000723
+name: somatic stem cell
+is_a: CL:0000034 ! stem cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0000737
+name: striated muscle cell
+is_a: CL:0000187 ! muscle cell
+
+[Term]
+id: CL:0000738
+name: leukocyte
+is_a: CL:0000219 ! motile cell
+is_a: CL:0000988 ! hematopoietic cell
+relationship: develops_from CL:0000037 ! hematopoietic stem cell
+
+[Term]
+id: CL:0000740
+name: retinal ganglion cell
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
+is_a: CL:0009004 ! retinal cell
+
+[Term]
+id: CL:0000745
+name: retina horizontal cell
+is_a: CL:0000099 ! interneuron
+is_a: CL:0009004 ! retinal cell
+
+[Term]
+id: CL:0000746
+name: cardiac muscle cell
+is_a: CL:0000737 ! striated muscle cell
+is_a: CL:0002494 ! cardiocyte
+relationship: develops_from CL:0000513 ! cardiac muscle myoblast
+
+[Term]
+id: CL:0000762
+name: nucleated thrombocyte
+is_a: CL:0000226 ! single nucleate cell
+is_a: CL:0000763 ! myeloid cell
+relationship: develops_from CL:0000828 ! thromboblast
+
+[Term]
+id: CL:0000763
+name: myeloid cell
+is_a: CL:0000988 ! hematopoietic cell
+relationship: develops_from CL:0000049 ! common myeloid progenitor
+
+[Term]
+id: CL:0000764
+name: erythroid lineage cell
+is_a: CL:0000763 ! myeloid cell
+
+[Term]
+id: CL:0000765
+name: erythroblast
+is_a: CL:0000764 ! erythroid lineage cell
+is_a: CL:0002242 ! nucleate cell
+is_a: CL:0011115 ! precursor cell
+relationship: develops_from CL:0000547 ! proerythroblast
+
+[Term]
+id: CL:0000766
+name: myeloid leukocyte
+is_a: CL:0000738 ! leukocyte
+is_a: CL:0000763 ! myeloid cell
+relationship: develops_from CL:0000049 ! common myeloid progenitor
+
+[Term]
+id: CL:0000767
+name: basophil
+is_a: CL:0000094 ! granulocyte
+
+[Term]
+id: CL:0000771
+name: eosinophil
+is_a: CL:0000094 ! granulocyte
+
+[Term]
+id: CL:0000775
+name: neutrophil
+is_a: CL:0000094 ! granulocyte
+
+[Term]
+id: CL:0000782
+name: myeloid dendritic cell
+is_a: CL:0000766 ! myeloid leukocyte
+is_a: CL:0000990 ! conventional dendritic cell
+relationship: develops_from CL:0000576 ! monocyte
+relationship: develops_from CL:0000763 ! myeloid cell
+
+[Term]
+id: CL:0000783
+name: multinucleated phagocyte
+is_a: CL:0000228 ! multinucleate cell
+is_a: CL:0000518 ! phagocyte (sensu Vertebrata)
+
+[Term]
+id: CL:0000784
+name: plasmacytoid dendritic cell
+is_a: CL:0000451 ! dendritic cell
+relationship: develops_from CL:0000037 ! hematopoietic stem cell
+
+[Term]
+id: CL:0000785
+name: mature B cell
+is_a: CL:0000236 ! B cell
+relationship: develops_from CL:0000818 ! transitional stage B cell
+
+[Term]
+id: CL:0000786
+name: plasma cell
+is_a: CL:0000946 ! antibody secreting cell
+relationship: develops_from CL:0000980 ! plasmablast
+
+[Term]
+id: CL:0000787
+name: memory B cell
+is_a: CL:0000785 ! mature B cell
+
+[Term]
+id: CL:0000788
+name: naive B cell
+is_a: CL:0000785 ! mature B cell
+relationship: develops_from CL:0000818 ! transitional stage B cell
+
+[Term]
+id: CL:0000789
+name: alpha-beta T cell
+is_a: CL:0000084 ! T cell
+
+[Term]
+id: CL:0000790
+name: immature alpha-beta T cell
+is_a: CL:0000789 ! alpha-beta T cell
+is_a: CL:0002420 ! immature T cell
+
+[Term]
+id: CL:0000791
+name: mature alpha-beta T cell
+is_a: CL:0000789 ! alpha-beta T cell
+is_a: CL:0002419 ! mature T cell
+relationship: develops_from CL:0000790 ! immature alpha-beta T cell
+
+[Term]
+id: CL:0000792
+name: CD4-positive, CD25-positive, alpha-beta regulatory T cell
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+is_a: CL:0000815 ! regulatory T cell
+
+[Term]
+id: CL:0000793
+name: CD4-positive, alpha-beta intraepithelial T cell
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+is_a: CL:0000797 ! alpha-beta intraepithelial T cell
+relationship: develops_from CL:0000810 ! CD4-positive, alpha-beta thymocyte
+
+[Term]
+id: CL:0000794
+name: CD8-positive, alpha-beta cytotoxic T cell
+is_a: CL:0000625 ! CD8-positive, alpha-beta T cell
+is_a: CL:0000910 ! cytotoxic T cell
+relationship: develops_from CL:0000906 ! activated CD8-positive, alpha-beta T cell
+
+[Term]
+id: CL:0000795
+name: CD8-positive, alpha-beta regulatory T cell
+is_a: CL:0000625 ! CD8-positive, alpha-beta T cell
+is_a: CL:0000815 ! regulatory T cell
+
+[Term]
+id: CL:0000796
+name: CD8-alpha-beta-positive, alpha-beta intraepithelial T cell
+is_a: CL:0000797 ! alpha-beta intraepithelial T cell
+
+[Term]
+id: CL:0000797
+name: alpha-beta intraepithelial T cell
+is_a: CL:0000791 ! mature alpha-beta T cell
+is_a: CL:0002496 ! intraepithelial lymphocyte
+
+[Term]
+id: CL:0000798
+name: gamma-delta T cell
+is_a: CL:0000084 ! T cell
+
+[Term]
+id: CL:0000799
+name: immature gamma-delta T cell
+is_a: CL:0000798 ! gamma-delta T cell
+is_a: CL:0002420 ! immature T cell
+relationship: develops_from CL:0000807 ! DN3 thymocyte
+
+[Term]
+id: CL:0000800
+name: mature gamma-delta T cell
+is_a: CL:0000798 ! gamma-delta T cell
+is_a: CL:0002419 ! mature T cell
+relationship: develops_from CL:0000799 ! immature gamma-delta T cell
+
+[Term]
+id: CL:0000801
+name: gamma-delta intraepithelial T cell
+is_a: CL:0000800 ! mature gamma-delta T cell
+is_a: CL:0002496 ! intraepithelial lymphocyte
+
+[Term]
+id: CL:0000802
+name: CD8-alpha alpha positive, gamma-delta intraepithelial T cell
+is_a: CL:0000801 ! gamma-delta intraepithelial T cell
+
+[Term]
+id: CL:0000803
+name: CD4-negative CD8-negative gamma-delta intraepithelial T cell
+is_a: CL:0000801 ! gamma-delta intraepithelial T cell
+
+[Term]
+id: CL:0000805
+name: immature single positive thymocyte
+is_a: CL:0000893 ! thymocyte
+relationship: develops_from CL:0000808 ! DN4 thymocyte
+
+[Term]
+id: CL:0000806
+name: DN2 thymocyte
+is_a: CL:0002489 ! double negative thymocyte
+relationship: develops_from CL:0000894 ! DN1 thymic pro-T cell
+
+[Term]
+id: CL:0000807
+name: DN3 thymocyte
+is_a: CL:0002489 ! double negative thymocyte
+relationship: develops_from CL:0000806 ! DN2 thymocyte
+
+[Term]
+id: CL:0000808
+name: DN4 thymocyte
+is_a: CL:0002489 ! double negative thymocyte
+relationship: develops_from CL:0000807 ! DN3 thymocyte
+
+[Term]
+id: CL:0000809
+name: double-positive, alpha-beta thymocyte
+is_a: CL:0000790 ! immature alpha-beta T cell
+is_a: CL:0000893 ! thymocyte
+relationship: develops_from CL:0000805 ! immature single positive thymocyte
+
+[Term]
+id: CL:0000810
+name: CD4-positive, alpha-beta thymocyte
+is_a: CL:0000790 ! immature alpha-beta T cell
+is_a: CL:0000893 ! thymocyte
+relationship: develops_from CL:0000809 ! double-positive, alpha-beta thymocyte
+
+[Term]
+id: CL:0000811
+name: CD8-positive, alpha-beta thymocyte
+is_a: CL:0000790 ! immature alpha-beta T cell
+is_a: CL:0000893 ! thymocyte
+relationship: develops_from CL:0000809 ! double-positive, alpha-beta thymocyte
+
+[Term]
+id: CL:0000813
+name: memory T cell
+is_a: CL:0002419 ! mature T cell
+
+[Term]
+id: CL:0000815
+name: regulatory T cell
+is_a: CL:0002419 ! mature T cell
+
+[Term]
+id: CL:0000816
+name: immature B cell
+is_a: CL:0000236 ! B cell
+relationship: develops_from CL:0000954 ! small pre-B-II cell
+
+[Term]
+id: CL:0000817
+name: precursor B cell
+is_a: CL:0000236 ! B cell
+
+[Term]
+id: CL:0000818
+name: transitional stage B cell
+is_a: CL:0000236 ! B cell
+relationship: develops_from CL:0000816 ! immature B cell
+
+[Term]
+id: CL:0000819
+name: B-1 B cell
+is_a: CL:0000785 ! mature B cell
+
+[Term]
+id: CL:0000820
+name: B-1a B cell
+is_a: CL:0000819 ! B-1 B cell
+
+[Term]
+id: CL:0000821
+name: B-1b B cell
+is_a: CL:0000819 ! B-1 B cell
+
+[Term]
+id: CL:0000822
+name: B-2 B cell
+is_a: CL:0000785 ! mature B cell
+
+[Term]
+id: CL:0000825
+name: pro-NK cell
+is_a: CL:0000838 ! lymphoid lineage restricted progenitor cell
+relationship: develops_from CL:0000051 ! common lymphoid progenitor
+
+[Term]
+id: CL:0000826
+name: pro-B cell
+is_a: CL:0000838 ! lymphoid lineage restricted progenitor cell
+relationship: develops_from CL:0000051 ! common lymphoid progenitor
+
+[Term]
+id: CL:0000827
+name: pro-T cell
+is_a: CL:0000838 ! lymphoid lineage restricted progenitor cell
+relationship: develops_from CL:0000051 ! common lymphoid progenitor
+
+[Term]
+id: CL:0000828
+name: thromboblast
+is_a: CL:0000226 ! single nucleate cell
+is_a: CL:0000763 ! myeloid cell
+is_a: CL:0000839 ! myeloid lineage restricted progenitor cell
+relationship: develops_from CL:0000050 ! megakaryocyte-erythroid progenitor cell
+
+[Term]
+id: CL:0000831
+name: mast cell progenitor
+is_a: CL:0000763 ! myeloid cell
+is_a: CL:0000839 ! myeloid lineage restricted progenitor cell
+relationship: develops_from CL:0002028 ! basophil mast progenitor cell
+
+[Term]
+id: CL:0000835
+name: myeloblast
+is_a: CL:0000763 ! myeloid cell
+is_a: CL:0002191 ! granulocytopoietic cell
+is_a: CL:0002242 ! nucleate cell
+relationship: develops_from CL:0000557 ! granulocyte monocyte progenitor cell
+
+[Term]
+id: CL:0000837
+name: hematopoietic multipotent progenitor cell
+is_a: CL:0008001 ! hematopoietic precursor cell
+relationship: develops_from CL:0000037 ! hematopoietic stem cell
+
+[Term]
+id: CL:0000838
+name: lymphoid lineage restricted progenitor cell
+is_a: CL:0002031 ! hematopoietic lineage restricted progenitor cell
+is_a: CL:0011115 ! precursor cell
+
+[Term]
+id: CL:0000839
+name: myeloid lineage restricted progenitor cell
+is_a: CL:0002031 ! hematopoietic lineage restricted progenitor cell
+is_a: CL:0011115 ! precursor cell
+
+[Term]
+id: CL:0000843
+name: follicular B cell
+is_a: CL:0000822 ! B-2 B cell
+
+[Term]
+id: CL:0000844
+name: germinal center B cell
+is_a: CL:0000785 ! mature B cell
+relationship: develops_from CL:0000843 ! follicular B cell
+
+[Term]
+id: CL:0000845
+name: marginal zone B cell
+is_a: CL:0000785 ! mature B cell
+is_a: CL:2000074 ! splenocyte
+
+[Term]
+id: CL:0000846
+name: vestibular dark cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0000850
+name: serotonergic neuron
+is_a: CL:0000381 ! neurosecretory neuron
+is_a: CL:0000458 ! serotonin secreting cell
+
+[Term]
+id: CL:0000855
+name: sensory hair cell
+is_a: CL:0000199 ! mechanoreceptor cell
+
+[Term]
+id: CL:0000857
+name: slow muscle myoblast
+is_a: CL:0000515 ! skeletal muscle myoblast
+
+[Term]
+id: CL:0000858
+name: fast muscle myoblast
+is_a: CL:0000515 ! skeletal muscle myoblast
+
+[Term]
+id: CL:0000864
+name: tissue-resident macrophage
+is_a: CL:0000235 ! macrophage
+
+[Term]
+id: CL:0000867
+name: secondary lymphoid organ macrophage
+is_a: CL:0000864 ! tissue-resident macrophage
+
+[Term]
+id: CL:0000871
+name: splenic macrophage
+is_a: CL:0000867 ! secondary lymphoid organ macrophage
+is_a: CL:2000074 ! splenocyte
+
+[Term]
+id: CL:0000872
+name: splenic marginal zone macrophage
+is_a: CL:0000871 ! splenic macrophage
+
+[Term]
+id: CL:0000878
+name: central nervous system macrophage
+is_a: CL:0000864 ! tissue-resident macrophage
+is_a: CL:0002319 ! neural cell
+
+[Term]
+id: CL:0000881
+name: perivascular macrophage
+is_a: CL:0000878 ! central nervous system macrophage
+
+[Term]
+id: CL:0000893
+name: thymocyte
+is_a: CL:0002420 ! immature T cell
+
+[Term]
+id: CL:0000894
+name: DN1 thymic pro-T cell
+is_a: CL:0000827 ! pro-T cell
+relationship: develops_from CL:0002425 ! early T lineage precursor
+
+[Term]
+id: CL:0000895
+name: naive thymus-derived CD4-positive, alpha-beta T cell
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+is_a: CL:0000898 ! naive T cell
+relationship: develops_from CL:0002436 ! mature CD4 single-positive thymocyte
+
+[Term]
+id: CL:0000896
+name: activated CD4-positive, alpha-beta T cell
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+relationship: develops_from CL:0000895 ! naive thymus-derived CD4-positive, alpha-beta T cell
+
+[Term]
+id: CL:0000898
+name: naive T cell
+is_a: CL:0002419 ! mature T cell
+
+[Term]
+id: CL:0000900
+name: naive thymus-derived CD8-positive, alpha-beta T cell
+is_a: CL:0000625 ! CD8-positive, alpha-beta T cell
+is_a: CL:0000898 ! naive T cell
+relationship: develops_from CL:0002437 ! mature CD8 single-positive thymocyte
+
+[Term]
+id: CL:0000906
+name: activated CD8-positive, alpha-beta T cell
+is_a: CL:0000625 ! CD8-positive, alpha-beta T cell
+relationship: develops_from CL:0000900 ! naive thymus-derived CD8-positive, alpha-beta T cell
+
+[Term]
+id: CL:0000910
+name: cytotoxic T cell
+is_a: CL:0000911 ! effector T cell
+
+[Term]
+id: CL:0000911
+name: effector T cell
+is_a: CL:0002419 ! mature T cell
+
+[Term]
+id: CL:0000912
+name: helper T cell
+is_a: CL:0000911 ! effector T cell
+
+[Term]
+id: CL:0000919
+name: CD8-positive, CD25-positive, alpha-beta regulatory T cell
+is_a: CL:0000795 ! CD8-positive, alpha-beta regulatory T cell
+relationship: develops_from CL:0000906 ! activated CD8-positive, alpha-beta T cell
+
+[Term]
+id: CL:0000935
+name: CD4-negative, CD8-negative, alpha-beta intraepithelial T cell
+is_a: CL:0000797 ! alpha-beta intraepithelial T cell
+
+[Term]
+id: CL:0000945
+name: lymphocyte of B lineage
+is_a: CL:0000542 ! lymphocyte
+relationship: develops_from CL:0000826 ! pro-B cell
+
+[Term]
+id: CL:0000946
+name: antibody secreting cell
+is_a: CL:0000945 ! lymphocyte of B lineage
+
+[Term]
+id: CL:0000954
+name: small pre-B-II cell
+is_a: CL:0000955 ! pre-B-II cell
+
+[Term]
+id: CL:0000955
+name: pre-B-II cell
+is_a: CL:0000817 ! precursor B cell
+relationship: develops_from CL:0000826 ! pro-B cell
+
+[Term]
+id: CL:0000958
+name: T1 B cell
+is_a: CL:0000818 ! transitional stage B cell
+
+[Term]
+id: CL:0000959
+name: T2 B cell
+is_a: CL:0000818 ! transitional stage B cell
+relationship: develops_from CL:0000958 ! T1 B cell
+
+[Term]
+id: CL:0000960
+name: T3 B cell
+is_a: CL:0000818 ! transitional stage B cell
+relationship: develops_from CL:0000959 ! T2 B cell
+
+[Term]
+id: CL:0000974
+name: long lived plasma cell
+is_a: CL:0000786 ! plasma cell
+relationship: develops_from CL:0000975 ! short lived plasma cell
+
+[Term]
+id: CL:0000975
+name: short lived plasma cell
+is_a: CL:0000786 ! plasma cell
+relationship: develops_from CL:0000980 ! plasmablast
+
+[Term]
+id: CL:0000980
+name: plasmablast
+is_a: CL:0000785 ! mature B cell
+is_a: CL:0000946 ! antibody secreting cell
+relationship: develops_from CL:0000785 ! mature B cell
+
+[Term]
+id: CL:0000988
+name: hematopoietic cell
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0000990
+name: conventional dendritic cell
+is_a: CL:0000451 ! dendritic cell
+
+[Term]
+id: CL:0001012
+name: CD7-negative lymphoid progenitor OR granulocyte monocyte progenitor
+is_a: CL:0001060 ! hematopoietic oligopotent progenitor cell, lineage-negative
+
+[Term]
+id: CL:0001031
+name: cerebellar granule cell
+is_a: CL:0000120 ! granule cell
+is_a: CL:1001611 ! cerebellar neuron
+
+[Term]
+id: CL:0001035
+name: bone cell
+is_a: CL:0000548 ! animal cell
+
+[Term]
+id: CL:0001040
+name: non-terminally differentiated osteoblast
+is_a: CL:0000062 ! osteoblast
+is_a: CL:0001035 ! bone cell
+
+[Term]
+id: CL:0001051
+name: CD4-positive, CXCR3-negative, CCR6-negative, alpha-beta T cell
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+
+[Term]
+id: CL:0001060
+name: hematopoietic oligopotent progenitor cell, lineage-negative
+is_a: CL:0002032 ! hematopoietic oligopotent progenitor cell
+relationship: develops_from CL:0000837 ! hematopoietic multipotent progenitor cell
+
+[Term]
+id: CL:0002009
+name: macrophage dendritic cell progenitor
+is_a: CL:0000763 ! myeloid cell
+is_a: CL:0002032 ! hematopoietic oligopotent progenitor cell
+is_a: CL:0011115 ! precursor cell
+relationship: develops_from CL:0000557 ! granulocyte monocyte progenitor cell
+
+[Term]
+id: CL:0002028
+name: basophil mast progenitor cell
+is_a: CL:0000763 ! myeloid cell
+is_a: CL:0002191 ! granulocytopoietic cell
+relationship: develops_from CL:0000557 ! granulocyte monocyte progenitor cell
+
+[Term]
+id: CL:0002031
+name: hematopoietic lineage restricted progenitor cell
+is_a: CL:0008001 ! hematopoietic precursor cell
+relationship: develops_from CL:0002032 ! hematopoietic oligopotent progenitor cell
+
+[Term]
+id: CL:0002032
+name: hematopoietic oligopotent progenitor cell
+is_a: CL:0008001 ! hematopoietic precursor cell
+relationship: develops_from CL:0000837 ! hematopoietic multipotent progenitor cell
+
+[Term]
+id: CL:0002046
+name: early pro-B cell
+is_a: CL:0000826 ! pro-B cell
+
+[Term]
+id: CL:0002048
+name: late pro-B cell
+is_a: CL:0000817 ! precursor B cell
+relationship: develops_from CL:0002046 ! early pro-B cell
+
+[Term]
+id: CL:0002062
+name: type I pneumocyte
+is_a: CL:0000322 ! pneumocyte
+
+[Term]
+id: CL:0002063
+name: type II pneumocyte
+is_a: CL:0000157 ! surfactant secreting cell
+is_a: CL:0000322 ! pneumocyte
+is_a: CL:1000272 ! lung secretory cell
+
+[Term]
+id: CL:0002067
+name: type A enterocrine cell
+is_a: CL:0000164 ! enteroendocrine cell
+is_a: CL:0000170 ! glucagon secreting cell
+
+[Term]
+id: CL:0002068
+name: Purkinje myocyte
+is_a: CL:0002086 ! specialized cardiac myocyte
+
+[Term]
+id: CL:0002072
+name: nodal myocyte
+is_a: CL:0002086 ! specialized cardiac myocyte
+
+[Term]
+id: CL:0002076
+name: endo-epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
+relationship: develops_from CL:0000223 ! endodermal cell
+
+[Term]
+id: CL:0002077
+name: ecto-epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
+relationship: develops_from CL:0000221 ! ectodermal cell
+
+[Term]
+id: CL:0002078
+name: meso-epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
+relationship: develops_from CL:0000222 ! mesodermal cell
+
+[Term]
+id: CL:0002086
+name: specialized cardiac myocyte
+is_a: CL:0000746 ! cardiac muscle cell
+
+[Term]
+id: CL:0002087
+name: nongranular leukocyte
+is_a: CL:0000738 ! leukocyte
+
+[Term]
+id: CL:0002092
+name: bone marrow cell
+is_a: CL:0001035 ! bone cell
+
+[Term]
+id: CL:0002097
+name: cortical cell of adrenal gland
+is_a: CL:0000174 ! steroid hormone secreting cell
+is_a: CL:0002078 ! meso-epithelial cell
+is_a: CL:1001601 ! adrenal gland glandular cell
+
+[Term]
+id: CL:0002098
+name: regular cardiac myocyte
+is_a: CL:0000746 ! cardiac muscle cell
+
+[Term]
+id: CL:0002129
+name: regular atrial cardiac myocyte
+is_a: CL:0002098 ! regular cardiac myocyte
+
+[Term]
+id: CL:0002131
+name: regular ventricular cardiac myocyte
+is_a: CL:0002098 ! regular cardiac myocyte
+
+[Term]
+id: CL:0002139
+name: endothelial cell of vascular tree
+is_a: CL:0000115 ! endothelial cell
+
+[Term]
+id: CL:0002159
+name: general ecto-epithelial cell
+is_a: CL:0002077 ! ecto-epithelial cell
+
+[Term]
+id: CL:0002165
+name: phalangeal cell
+is_a: CL:0002490 ! organ of Corti supporting cell
+
+[Term]
+id: CL:0002172
+name: interdental cell of cochlea
+is_a: CL:0002315 ! supporting cell of cochlea
+
+[Term]
+id: CL:0002191
+name: granulocytopoietic cell
+is_a: CL:0000839 ! myeloid lineage restricted progenitor cell
+
+[Term]
+id: CL:0002194
+name: monopoietic cell
+is_a: CL:0000839 ! myeloid lineage restricted progenitor cell
+
+[Term]
+id: CL:0002202
+name: epithelial cell of tracheobronchial tree
+is_a: CL:0002632 ! epithelial cell of lower respiratory tract
+
+[Term]
+id: CL:0002210
+name: red muscle cell
+is_a: CL:0008002 ! skeletal muscle fiber
+
+[Term]
+id: CL:0002211
+name: type I muscle cell
+is_a: CL:0000189 ! slow muscle cell
+is_a: CL:0002210 ! red muscle cell
+
+[Term]
+id: CL:0002212
+name: type II muscle cell
+is_a: CL:0000190 ! fast muscle cell
+
+[Term]
+id: CL:0002213
+name: white muscle cell
+is_a: CL:0000190 ! fast muscle cell
+
+[Term]
+id: CL:0002214
+name: type IIa muscle cell
+is_a: CL:0002210 ! red muscle cell
+is_a: CL:0002212 ! type II muscle cell
+
+[Term]
+id: CL:0002215
+name: type IIb muscle cell
+is_a: CL:0002212 ! type II muscle cell
+is_a: CL:0002213 ! white muscle cell
+
+[Term]
+id: CL:0002222
+name: vertebrate lens cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0000306 ! crystallin accumulating cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0002223
+name: anterior lens cell
+is_a: CL:0002224 ! lens epithelial cell
+
+[Term]
+id: CL:0002224
+name: lens epithelial cell
+is_a: CL:0000075 ! columnar/cuboidal epithelial cell
+is_a: CL:0002222 ! vertebrate lens cell
+
+[Term]
+id: CL:0002225
+name: secondary lens fiber
+is_a: CL:0011004 ! lens fiber cell
+relationship: develops_from CL:0002228 ! primary lens fiber
+
+[Term]
+id: CL:0002228
+name: primary lens fiber
+is_a: CL:0011004 ! lens fiber cell
+relationship: develops_from CL:0002223 ! anterior lens cell
+
+[Term]
+id: CL:0002242
+name: nucleate cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0002251
+name: epithelial cell of alimentary canal
+is_a: CL:0002076 ! endo-epithelial cell
+
+[Term]
+id: CL:0002260
+name: epithelial cell of parathyroid gland
+is_a: CL:0002076 ! endo-epithelial cell
+is_a: CL:1001593 ! parathyroid glandular cell
+
+[Term]
+id: CL:0002274
+name: histamine secreting cell
+is_a: CL:0000457 ! biogenic amine secreting cell
+
+[Term]
+id: CL:0002315
+name: supporting cell of cochlea
+is_a: CL:0001035 ! bone cell
+is_a: CL:0005014 ! auditory epithelial support cell
+
+[Term]
+id: CL:0002319
+name: neural cell
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0002320
+name: connective tissue cell
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0002321
+name: embryonic cell
+is_a: CL:0000548 ! animal cell
+
+[Term]
+id: CL:0002328
+name: bronchial epithelial cell
+is_a: CL:0002202 ! epithelial cell of tracheobronchial tree
+
+[Term]
+id: CL:0002334
+name: preadipocyte
+is_a: CL:0000057 ! fibroblast
+
+[Term]
+id: CL:0002335
+name: brown preadipocyte
+is_a: CL:0002334 ! preadipocyte
+
+[Term]
+id: CL:0002351
+name: progenitor cell of endocrine pancreas
+is_a: CL:0000048 ! multi fate stem cell
+
+[Term]
+id: CL:0002352
+name: gestational hematopoietic stem cell
+is_a: CL:0000037 ! hematopoietic stem cell
+
+[Term]
+id: CL:0002354
+name: yolk sac hematopoietic stem cell
+is_a: CL:0000349 ! extraembryonic cell
+is_a: CL:0002352 ! gestational hematopoietic stem cell
+
+[Term]
+id: CL:0002355
+name: primitive red blood cell
+is_a: CL:0002417 ! primitive erythroid lineage cell
+relationship: develops_from CL:0002361 ! primitive erythroid progenitor
+
+[Term]
+id: CL:0002361
+name: primitive erythroid progenitor
+is_a: CL:0002417 ! primitive erythroid lineage cell
+relationship: develops_from CL:0002418 ! hemangioblast
+
+[Term]
+id: CL:0002368
+name: respiratory epithelial cell
+is_a: CL:0002076 ! endo-epithelial cell
+
+[Term]
+id: CL:0002370
+name: respiratory goblet cell
+is_a: CL:0000160 ! goblet cell
+
+[Term]
+id: CL:0002371
+name: somatic cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0002372
+name: myotube
+is_a: CL:0000228 ! multinucleate cell
+is_a: CL:0000737 ! striated muscle cell
+
+[Term]
+id: CL:0002374
+name: ear hair cell
+is_a: CL:0000855 ! sensory hair cell
+
+[Term]
+id: CL:0002375
+name: Schwann cell precursor
+is_a: CL:0000030 ! glioblast
+relationship: develops_from CL:0000333 ! migratory neural crest cell
+
+[Term]
+id: CL:0002377
+name: immature Schwann cell
+is_a: CL:0002573 ! Schwann cell
+relationship: develops_from CL:0002375 ! Schwann cell precursor
+
+[Term]
+id: CL:0002417
+name: primitive erythroid lineage cell
+is_a: CL:0000764 ! erythroid lineage cell
+
+[Term]
+id: CL:0002418
+name: hemangioblast
+is_a: CL:0000222 ! mesodermal cell
+relationship: develops_from CL:0002354 ! yolk sac hematopoietic stem cell
+
+[Term]
+id: CL:0002419
+name: mature T cell
+is_a: CL:0000084 ! T cell
+
+[Term]
+id: CL:0002420
+name: immature T cell
+is_a: CL:0000084 ! T cell
+
+[Term]
+id: CL:0002425
+name: early T lineage precursor
+is_a: CL:0000827 ! pro-T cell
+
+[Term]
+id: CL:0002427
+name: resting double-positive thymocyte
+is_a: CL:0000809 ! double-positive, alpha-beta thymocyte
+
+[Term]
+id: CL:0002428
+name: double-positive blast
+is_a: CL:0000809 ! double-positive, alpha-beta thymocyte
+relationship: develops_from CL:0002427 ! resting double-positive thymocyte
+
+[Term]
+id: CL:0002429
+name: CD69-positive double-positive thymocyte
+is_a: CL:0000809 ! double-positive, alpha-beta thymocyte
+relationship: develops_from CL:0002428 ! double-positive blast
+
+[Term]
+id: CL:0002430
+name: CD4-intermediate, CD8-positive double-positive thymocyte
+is_a: CL:0000809 ! double-positive, alpha-beta thymocyte
+relationship: develops_from CL:0002429 ! CD69-positive double-positive thymocyte
+
+[Term]
+id: CL:0002431
+name: CD4-positive, CD8-intermediate double-positive thymocyte
+is_a: CL:0000809 ! double-positive, alpha-beta thymocyte
+relationship: develops_from CL:0002429 ! CD69-positive double-positive thymocyte
+
+[Term]
+id: CL:0002432
+name: CD24-positive, CD4 single-positive thymocyte
+is_a: CL:0000810 ! CD4-positive, alpha-beta thymocyte
+relationship: develops_from CL:0002433 ! CD69-positive, CD4-positive single-positive thymocyte
+
+[Term]
+id: CL:0002433
+name: CD69-positive, CD4-positive single-positive thymocyte
+is_a: CL:0000810 ! CD4-positive, alpha-beta thymocyte
+relationship: develops_from CL:0002431 ! CD4-positive, CD8-intermediate double-positive thymocyte
+
+[Term]
+id: CL:0002434
+name: CD24-positive, CD8 single-positive thymocyte
+is_a: CL:0000811 ! CD8-positive, alpha-beta thymocyte
+relationship: develops_from CL:0002435 ! CD69-positive, CD8-positive single-positive thymocyte
+
+[Term]
+id: CL:0002435
+name: CD69-positive, CD8-positive single-positive thymocyte
+is_a: CL:0000811 ! CD8-positive, alpha-beta thymocyte
+relationship: develops_from CL:0002430 ! CD4-intermediate, CD8-positive double-positive thymocyte
+
+[Term]
+id: CL:0002436
+name: mature CD4 single-positive thymocyte
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+relationship: develops_from CL:0002432 ! CD24-positive, CD4 single-positive thymocyte
+
+[Term]
+id: CL:0002437
+name: mature CD8 single-positive thymocyte
+is_a: CL:0000625 ! CD8-positive, alpha-beta T cell
+relationship: develops_from CL:0002434 ! CD24-positive, CD8 single-positive thymocyte
+
+[Term]
+id: CL:0002453
+name: oligodendrocyte precursor cell
+is_a: CL:0000123 ! neuron associated cell (sensu Vertebrata)
+relationship: develops_from CL:0000339 ! glioblast (sensu Vertebrata)
+
+[Term]
+id: CL:0002480
+name: nasal mucosa goblet cell
+is_a: CL:0002370 ! respiratory goblet cell
+
+[Term]
+id: CL:0002484
+name: epithelial melanocyte
+is_a: CL:0000148 ! melanocyte
+
+[Term]
+id: CL:0002486
+name: strial intermediate cell
+is_a: CL:0000710 ! neurecto-epithelial cell
+is_a: CL:0002484 ! epithelial melanocyte
+is_a: CL:0002491 ! auditory epithelial cell
+
+[Term]
+id: CL:0002488
+name: trophoblast giant cell
+is_a: CL:0000351 ! trophoblast cell
+
+[Term]
+id: CL:0002489
+name: double negative thymocyte
+is_a: CL:0000893 ! thymocyte
+
+[Term]
+id: CL:0002490
+name: organ of Corti supporting cell
+is_a: CL:0002315 ! supporting cell of cochlea
+
+[Term]
+id: CL:0002491
+name: auditory epithelial cell
+is_a: CL:0000098 ! sensory epithelial cell
+
+[Term]
+id: CL:0002492
+name: strial marginal cell
+is_a: CL:0002491 ! auditory epithelial cell
+
+[Term]
+id: CL:0002493
+name: strial basal cell
+is_a: CL:0002491 ! auditory epithelial cell
+
+[Term]
+id: CL:0002494
+name: cardiocyte
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0002496
+name: intraepithelial lymphocyte
+is_a: CL:0002419 ! mature T cell
+
+[Term]
+id: CL:0002518
+name: kidney epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:1000497 ! kidney cell
+
+[Term]
+id: CL:0002522
+name: renal filtration cell
+is_a: CL:0000424 ! excretory cell
+
+[Term]
+id: CL:0002546
+name: embryonic blood vessel endothelial progenitor cell
+is_a: CL:0000222 ! mesodermal cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0002563
+name: intestinal epithelial cell
+is_a: CL:0002251 ! epithelial cell of alimentary canal
+
+[Term]
+id: CL:0002573
+name: Schwann cell
+is_a: CL:0000243 ! glial cell (sensu Vertebrata)
+
+[Term]
+id: CL:0002584
+name: renal cortical epithelial cell
+is_a: CL:0002518 ! kidney epithelial cell
+is_a: CL:0002681 ! kidney cortical cell
+
+[Term]
+id: CL:0002607
+name: migratory enteric neural crest cell
+is_a: CL:0000333 ! migratory neural crest cell
+
+[Term]
+id: CL:0002608
+name: hippocampal neuron
+is_a: CL:0002609 ! neuron of cerebral cortex
+
+[Term]
+id: CL:0002609
+name: neuron of cerebral cortex
+is_a: CL:0010012 ! cerebral cortex neuron
+is_a: CL:0012001 ! neuron of the forebrain
+
+[Term]
+id: CL:0002625
+name: seminiferous tubule epithelial cell
+is_a: CL:0000068 ! duct epithelial cell
+is_a: CL:0000077 ! mesothelial cell
+
+[Term]
+id: CL:0002632
+name: epithelial cell of lower respiratory tract
+is_a: CL:0002368 ! respiratory epithelial cell
+
+[Term]
+id: CL:0002665
+name: otic fibrocyte
+is_a: CL:0000135 ! fibrocyte
+
+[Term]
+id: CL:0002666
+name: type 2 otic fibrocyte
+is_a: CL:0002665 ! otic fibrocyte
+
+[Term]
+id: CL:0002668
+name: type 4 otic fibrocyte
+is_a: CL:0002665 ! otic fibrocyte
+
+[Term]
+id: CL:0002669
+name: type 3 otic fibrocyte
+is_a: CL:0002665 ! otic fibrocyte
+
+[Term]
+id: CL:0002670
+name: type 1 otic fibrocyte
+is_a: CL:0002665 ! otic fibrocyte
+
+[Term]
+id: CL:0002672
+name: retinal progenitor cell
+is_a: CL:0000048 ! multi fate stem cell
+relationship: develops_from CL:0000133 ! neurectodermal cell
+
+[Term]
+id: CL:0002676
+name: neural crest derived neuroblast
+is_a: CL:0000337 ! neuroblast (sensu Vertebrata)
+relationship: develops_from CL:0000333 ! migratory neural crest cell
+
+[Term]
+id: CL:0002681
+name: kidney cortical cell
+is_a: CL:1000497 ! kidney cell
+
+[Term]
+id: CL:0005000
+name: spinal cord interneuron
+is_a: CL:0000402 ! CNS interneuron
+
+[Term]
+id: CL:0005014
+name: auditory epithelial support cell
+is_a: CL:0000630 ! supportive cell
+is_a: CL:0000710 ! neurecto-epithelial cell
+is_a: CL:0002491 ! auditory epithelial cell
+
+[Term]
+id: CL:0005026
+name: hepatoblast
+is_a: CL:0000048 ! multi fate stem cell
+
+[Term]
+id: CL:0007004
+name: premigratory neural crest cell
+is_a: CL:0000003 ! native cell
+relationship: develops_from CL:0000133 ! neurectodermal cell
+
+[Term]
+id: CL:0007009
+name: prechondroblast
+is_a: CL:0000055 ! non-terminally differentiated cell
+
+[Term]
+id: CL:0007010
+name: preosteoblast
+is_a: CL:0000055 ! non-terminally differentiated cell
+relationship: develops_from CL:0000222 ! mesodermal cell
+relationship: develops_from CL:0000333 ! migratory neural crest cell
+
+[Term]
+id: CL:0007011
+name: enteric neuron
+is_a: CL:0000029 ! neuron neural crest derived
+is_a: CL:0000107 ! autonomic neuron
+relationship: develops_from CL:0002607 ! migratory enteric neural crest cell
+
+[Term]
+id: CL:0008001
+name: hematopoietic precursor cell
+is_a: CL:0000988 ! hematopoietic cell
+
+[Term]
+id: CL:0008002
+name: skeletal muscle fiber
+is_a: CL:0000188 ! cell of skeletal muscle
+is_a: CL:0002372 ! myotube
+relationship: develops_from CL:0000515 ! skeletal muscle myoblast
+
+[Term]
+id: CL:0008024
+name: pancreatic endocrine cell
+is_a: CL:0000163 ! endocrine cell
+
+[Term]
+id: CL:0009004
+name: retinal cell
+is_a: CL:0002319 ! neural cell
+
+[Term]
+id: CL:0010003
+name: epithelial cell of alveolus of lung
+is_a: CL:0000082 ! epithelial cell of lung
+
+[Term]
+id: CL:0010009
+name: camera-type eye photoreceptor cell
+is_a: CL:0000287 ! eye photoreceptor cell
+is_a: CL:0009004 ! retinal cell
+
+[Term]
+id: CL:0010012
+name: cerebral cortex neuron
+is_a: CL:2000029 ! central nervous system neuron
+
+[Term]
+id: CL:0010021
+name: cardiac myoblast
+is_a: CL:0000056 ! myoblast
+
+[Term]
+id: CL:0011004
+name: lens fiber cell
+is_a: CL:0002222 ! vertebrate lens cell
+
+[Term]
+id: CL:0011115
+name: precursor cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0012001
+name: neuron of the forebrain
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
+
+[Term]
+id: CL:1000191
+name: pillar cell
+is_a: CL:0002490 ! organ of Corti supporting cell
+
+[Term]
+id: CL:1000272
+name: lung secretory cell
+is_a: CL:0000151 ! secretory cell
+
+[Term]
+id: CL:1000409
+name: myocyte of sinoatrial node
+is_a: CL:0002072 ! nodal myocyte
+
+[Term]
+id: CL:1000410
+name: myocyte of atrioventricular node
+is_a: CL:0002072 ! nodal myocyte
+is_a: CL:2000022 ! cardiac septum native cell
+
+[Term]
+id: CL:1000449
+name: epithelial cell of nephron
+is_a: CL:0002518 ! kidney epithelial cell
+
+[Term]
+id: CL:1000450
+name: epithelial cell of glomerular capsule
+is_a: CL:1000510 ! kidney glomerular epithelial cell
+
+[Term]
+id: CL:1000451
+name: epithelial cell of visceral layer of glomerular capsule
+is_a: CL:1000450 ! epithelial cell of glomerular capsule
+
+[Term]
+id: CL:1000497
+name: kidney cell
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:1000504
+name: kidney medulla cell
+is_a: CL:1000497 ! kidney cell
+
+[Term]
+id: CL:1000510
+name: kidney glomerular epithelial cell
+is_a: CL:1000746 ! glomerular cell
+
+[Term]
+id: CL:1000612
+name: kidney corpuscule cell
+is_a: CL:0002584 ! renal cortical epithelial cell
+is_a: CL:1000449 ! epithelial cell of nephron
+
+[Term]
+id: CL:1000746
+name: glomerular cell
+is_a: CL:1000612 ! kidney corpuscule cell
+
+[Term]
+id: CL:1001451
+name: sensory neuron of dorsal root ganglion
+is_a: CL:0000101 ! sensory neuron
+
+[Term]
+id: CL:1001571
+name: hippocampal pyramidal neuron
+is_a: CL:0002608 ! hippocampal neuron
+is_a: CL:2000056 ! Meynert cell
+
+[Term]
+id: CL:1001593
+name: parathyroid glandular cell
+is_a: CL:0000150 ! glandular epithelial cell
+
+[Term]
+id: CL:1001601
+name: adrenal gland glandular cell
+is_a: CL:0000150 ! glandular epithelial cell
+
+[Term]
+id: CL:1001610
+name: bone marrow hematopoietic cell
+is_a: CL:0000988 ! hematopoietic cell
+is_a: CL:0002092 ! bone marrow cell
+
+[Term]
+id: CL:1001611
+name: cerebellar neuron
+is_a: CL:2000029 ! central nervous system neuron
+
+[Term]
+id: CL:2000022
+name: cardiac septum native cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:2000029
+name: central nervous system neuron
+is_a: CL:0000540 ! neuron
+
+[Term]
+id: CL:2000032
+name: peripheral nervous system neuron
+is_a: CL:0000540 ! neuron
+
+[Term]
+id: CL:2000056
+name: Meynert cell
+is_a: CL:0000598 ! pyramidal cell
+is_a: CL:0002609 ! neuron of cerebral cortex
+
+[Term]
+id: CL:2000074
+name: splenocyte
+is_a: CL:0000738 ! leukocyte
+
+[Typedef]
+id: develops_from
+name: develops_from
+xref: RO:0002202
+
