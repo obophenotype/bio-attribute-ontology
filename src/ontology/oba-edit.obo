@@ -171,10 +171,8 @@ intersection_of: affects_quality PATO:0000276 ! brood size
 
 [Term]
 id: OBA:0000038
-name: bundle of His cardiac muscle cell action potential
-is_a: OBA:0000044 ! cardiac muscle cell action potential
-intersection_of: OBA:0000044 ! cardiac muscle cell action potential
-intersection_of: occurs_in UBERON:0002353 ! atrioventricular bundle
+name: obsolete bundle of His cardiac muscle cell action potential
+is_obsolete: true
 
 [Term]
 id: OBA:0000039
