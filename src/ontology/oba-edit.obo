@@ -20,11 +20,8 @@ relationship: affects_quality PATO:0000001 ! quality
 
 [Term]
 id: OBA:0000002
-name: AV node cardiac muscle cell action potential
-is_a: OBA:0000044 ! cardiac muscle cell action potential
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0001463 ! action potential
-intersection_of: attribute_of CL:1000410 ! myocyte of atrioventricular node
+name: obsolete AV node cardiac muscle cell action potential
+is_obsolete: true
 
 [Term]
 id: OBA:0000003
@@ -58,11 +55,8 @@ intersection_of: attribute_of UBERON:0001054 ! Malpighian tubule
 
 [Term]
 id: OBA:0000008
-name: Purkinje myocyte action potential
-is_a: OBA:0000044 ! cardiac muscle cell action potential
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0001463 ! action potential
-intersection_of: attribute_of CL:0002068 ! Purkinje myocyte
+name: obsolete Purkinje myocyte action potential
+is_obsolete: true
 
 [Term]
 id: OBA:0000009
@@ -72,11 +66,8 @@ intersection_of: attribute_of SO:0000356
 
 [Term]
 id: OBA:0000010
-name: SA node cardiac muscle cell action potential
-is_a: OBA:0000044 ! cardiac muscle cell action potential
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0001463 ! action potential
-intersection_of: attribute_of CL:1000409 ! myocyte of sinoatrial node
+name: obsolete SA node cardiac muscle cell action potential
+is_obsolete: true
 
 [Term]
 id: OBA:0000011
@@ -121,10 +112,8 @@ intersection_of: attribute_of NBO:0000235
 
 [Term]
 id: OBA:0000019
-name: atrial cardiac muscle cell action potential
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0001463 ! action potential
-intersection_of: attribute_of CL:0002129 ! regular atrial cardiac myocyte
+name: obsolete atrial cardiac muscle cell action potential
+is_obsolete: true
 
 [Term]
 id: OBA:0000020
@@ -771,10 +760,8 @@ intersection_of: attribute_of UBERON:0000055 ! vessel
 
 [Term]
 id: OBA:0000178
-name: ventricular cardiac muscle cell action potential
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0001463 ! action potential
-intersection_of: attribute_of CL:0002131 ! regular ventricular cardiac myocyte
+name: obsolete ventricular cardiac muscle cell action potential
+is_obsolete: true
 
 [Term]
 id: OBA:0000179
