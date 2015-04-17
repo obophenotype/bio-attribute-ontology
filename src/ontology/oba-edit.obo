@@ -88,18 +88,13 @@ intersection_of: attribute_of GO:0005884 ! actin filament
 
 [Term]
 id: OBA:0000012
-name: action potential
-is_a: OBA:0000099 ! membrane potential
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0001463 ! action potential
+name: obsolete action potential
+is_obsolete: true
 
 [Term]
 id: OBA:0000013
-name: action potential in neuron
-is_a: OBA:0000012 ! action potential
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0001463 ! action potential
-intersection_of: attribute_of CL:0000540 ! neuron
+name: obsolete action potential in neuron
+is_obsolete: true
 
 [Term]
 id: OBA:0000015
@@ -208,29 +203,18 @@ intersection_of: attribute_of CHEBI:39124
 
 [Term]
 id: OBA:0000041
-name: calcium ion concentration in cytosol
-is_a: OBA:0000040 ! calcium ion concentration
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
-intersection_of: attribute_of CHEBI:39124
-intersection_of: occurs_in GO:0005829 ! cytosol
+name: obsolete calcium ion concentration in cytosol
+is_obsolete: true
 
 [Term]
 id: OBA:0000042
-name: calcium ion concentration in mitochondria
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
-intersection_of: attribute_of CHEBI:39124
-intersection_of: occurs_in GO:0005739 ! mitochondrion
+name: obsolete calcium ion concentration in mitochondria
+is_obsolete: true
 
 [Term]
 id: OBA:0000043
-name: calcium ion concentration in smooth ER
-is_a: OBA:0000003 ! ER calcium ion concentration
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000033 ! concentration of
-intersection_of: attribute_of CHEBI:39124
-intersection_of: occurs_in GO:0005790 ! smooth endoplasmic reticulum
+name: obsolete calcium ion concentration in smooth ER
+is_obsolete: true
 
 [Term]
 id: OBA:0000044
