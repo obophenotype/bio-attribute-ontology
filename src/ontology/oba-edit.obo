@@ -205,12 +205,8 @@ is_obsolete: true
 
 [Term]
 id: OBA:0000044
-name: cardiac muscle cell action potential
-is_a: OBA:0000012 ! action potential
-is_a: OBA:0000046 ! cardiac muscle cell membrane potential
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0001463 ! action potential
-intersection_of: attribute_of CL:0000746 ! cardiac muscle cell
+name: obsolete cardiac muscle cell action potential
+is_obsolete: true
 
 [Term]
 id: OBA:0000046
