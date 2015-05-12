@@ -13,6 +13,10 @@ TARGETS = oba.obo oba.owl imports
 oba.owl: oba-edit.obo
 	ontology-release-runner $(USECAT) --ignore-selected-equivalent-pairs 'CL:0000000' --ignoreLock --skip-release-folder --skip-format owx --no-subsets --outdir . --allow-overwrite --asserted --simple --reasoner elk oba-edit.obo
 
+oba-simple.obo: oba.owl
+
+subsets/oba-basic.obo: oba-simple.obo
+	owltools $< --set-ontology-id $(OBO)/oba/$@ -o -f obo $@
 
 # ----------------------------------------
 # OBA
