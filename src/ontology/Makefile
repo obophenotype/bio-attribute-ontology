@@ -2,7 +2,7 @@ OBO=http://purl.obolibrary.org/obo
 USECAT= --catalog-xml catalog-v001.xml
 SRC=oba-edit.obo
 
-all: oba.owl
+all: oba.owl all_subsets
 
 #release: all copy-release
 
@@ -14,6 +14,8 @@ oba.owl: oba-edit.obo
 	ontology-release-runner $(USECAT) --ignore-selected-equivalent-pairs 'CL:0000000' --ignoreLock --skip-release-folder --skip-format owx --no-subsets --outdir . --allow-overwrite --asserted --simple --reasoner elk oba-edit.obo
 
 oba-simple.obo: oba.owl
+
+all_subsets: subsets/oba-basic.obo
 
 subsets/oba-basic.obo: oba-simple.obo
 	owltools $< --set-ontology-id $(OBO)/oba/$@ -o -f obo $@
