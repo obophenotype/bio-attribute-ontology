@@ -4,18 +4,26 @@ SRC=oba-edit.obo
 
 all: oba.owl all_subsets
 
-#release: all copy-release
+release: all copy-release
 
 TARGETS = oba.obo oba.owl imports
-#copy-release:
-#	cp -pr $(TARGETS) ../.. && cd ../.. && git add imports/*
 
-oba.owl: oba-edit.obo
-	ontology-release-runner $(USECAT) --ignore-selected-equivalent-pairs 'CL:0000000' --ignoreLock --skip-release-folder --skip-format owx --no-subsets --outdir . --allow-overwrite --asserted --simple --reasoner elk oba-edit.obo
+copy-release:
+	cp -pr $(TARGETS) ../.. && cd ../.. && git add imports/*
+
+oba-edit-x.obo: oba-edit.obo
+	./util/fix-ext-ids.pl $< > $@
+.PRECIOUS: oba-edit-x.obo
+
+oba.owl: oba-edit-x.obo
+	ontology-release-runner $(USECAT) --ignore-selected-equivalent-pairs 'CL:0000000'  --ignoreLock --skip-release-folder --skip-format owx --no-subsets --outdir . --allow-overwrite --asserted --simple --reasoner elk $<
 
 oba-simple.obo: oba.owl
 
 all_subsets: subsets/oba-basic.obo
+
+#subsets/oba-basic.obo: oba.obo
+#	owltools  $(USECAT) $< --extract-module -d OBA:0000001 --remove-dangling --make-subset-by-properties //  --set-ontology-id $(OBO)/oba/$@ -o -f obo $@
 
 subsets/oba-basic.obo: oba-simple.obo
 	owltools $< --set-ontology-id $(OBO)/oba/$@ -o -f obo $@

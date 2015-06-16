@@ -14481,11 +14481,6 @@ created_by: mshimoyama
 creation_date: 2011-06-22T04:12:42Z
 
 [Term]
-id: VT:0000001
-name: Trait
-def: "Any measurable or observable characteristic of an organism." [VTO:CP]
-
-[Term]
 id: VT:0000002
 name: head size trait
 def: "Any measurable or observable characteristic related to the physical magnitude of the portion of the body containing the brain and organs of sight, hearing, taste, and smell." [ISBN:0-683-40008-8, MP:0011496]
@@ -43111,7 +43106,6 @@ creation_date: 2010-07-07T12:44:13Z
 [Term]
 id: VT:0010454
 name: organism trait
-is_a: VT:0000001 ! Trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: occurs_in UBERON:0000468 ! multicellular organism
 created_by: caripark
@@ -44474,7 +44468,6 @@ name: organ system trait
 def: "Any measurable or observable characteristic of an anatomical group that has as its parts distinct anatomical structures interconnected by anatomical structures at a lower level of granularity." [MGI:smb, TAO:0001439]
 xref: CARO:0000011
 xref: TAO:0001439
-is_a: VT:0000001 ! Trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: occurs_in UBERON:0000467 ! anatomical system
 created_by: smb
@@ -44835,7 +44828,6 @@ id: VT:0100003
 name: organism subdivision trait
 def: "Any measurable or observable characteristic of an anatomical structure which is a subpart of the whole organism; the mereological sum of these is the whole organism." [MGI:smb, TAO:0001308]
 xref: TAO:0001308
-is_a: VT:0000001 ! Trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: attribute_of UBERON:0000475 ! organism subdivision
 created_by: caripark
