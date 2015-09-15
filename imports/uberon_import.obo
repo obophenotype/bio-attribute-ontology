@@ -18,8 +18,8 @@ is_a: UBERON:0000161 ! orifice
 
 [Term]
 id: UBERON:0000004
-name: olfactory apparatus
-is_a: UBERON:0002268 ! main olfactory organ
+name: nose
+is_a: UBERON:0002268 ! olfactory organ
 is_a: UBERON:0004121 ! ectoderm-derived structure
 
 [Term]
@@ -146,7 +146,7 @@ is_a: UBERON:0010313 ! neural crest-derived structure
 [Term]
 id: UBERON:0000045
 name: ganglion
-is_a: UBERON:0034922 ! cell cluster
+is_a: UBERON:0010001 ! cell cluster organ
 
 [Term]
 id: UBERON:0000052
@@ -358,8 +358,8 @@ is_a: UBERON:0004111 ! anatomical conduit
 [Term]
 id: UBERON:0000162
 name: cloaca
-is_a: UBERON:0000481 ! multi-tissue structure
 is_a: UBERON:0004120 ! mesoderm-derived structure
+is_a: UBERON:0013522 ! subdivision of tube
 
 [Term]
 id: UBERON:0000165
@@ -528,7 +528,7 @@ is_a: UBERON:0008784 ! lower limb segment
 [Term]
 id: UBERON:0000378
 name: tongue muscle
-is_a: UBERON:0000078 ! mixed ectoderm/mesoderm/endoderm-derived structure
+is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:0010959 ! craniocervical muscle
 is_a: UBERON:0013765 ! digestive system element
 union_of: UBERON:0001575 ! extrinsic muscle of tongue
@@ -547,7 +547,7 @@ is_a: UBERON:0004228 ! urinary bladder smooth muscle
 [Term]
 id: UBERON:0000383
 name: musculature of body
-is_a: UBERON:0000467 ! anatomical system
+is_a: UBERON:0011216 ! organ system subdivision
 
 [Term]
 id: UBERON:0000388
@@ -992,11 +992,6 @@ name: nerve
 is_a: UBERON:0000122 ! neuron projection bundle
 
 [Term]
-id: UBERON:0001029
-name: neuromuscular junction
-is_a: UBERON:0000470 ! cell part
-
-[Term]
 id: UBERON:0001032
 name: sensory system
 is_a: UBERON:0000467 ! anatomical system
@@ -1017,7 +1012,11 @@ is_a: UBERON:0010314 ! structure with developmental contribution from neural cre
 id: UBERON:0001040
 name: yolk sac
 is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
+is_a: UBERON:0005292 ! extraembryonic tissue
 is_a: UBERON:0005631 ! extraembryonic membrane
+is_a: UBERON:0005911 ! endo-epithelium
+is_a: UBERON:0007499 ! epithelial sac
+is_a: UBERON:0012275 ! meso-epithelium
 
 [Term]
 id: UBERON:0001041
@@ -1048,16 +1047,10 @@ name: neural glomerulus
 is_a: UBERON:0002606 ! neuropil
 
 [Term]
-id: UBERON:0001048
-name: primordium
-is_a: UBERON:0005423 ! developing anatomical structure
-
-[Term]
 id: UBERON:0001049
 name: neural tube
 is_a: UBERON:0003914 ! epithelial tube
 is_a: UBERON:0005291 ! embryonic tissue
-is_a: UBERON:0007497 ! developing epithelial placode
 is_a: UBERON:0010371 ! ecto-epithelium
 is_a: UBERON:0016879 ! future central nervous system
 
@@ -1247,7 +1240,7 @@ is_a: UBERON:0004120 ! mesoderm-derived structure
 [Term]
 id: UBERON:0001229
 name: renal corpuscle
-is_a: UBERON:0000481 ! multi-tissue structure
+is_a: UBERON:0000063 ! organ subunit
 
 [Term]
 id: UBERON:0001230
@@ -1323,7 +1316,6 @@ id: UBERON:0001273
 name: ilium
 is_a: UBERON:0002513 ! endochondral bone
 is_a: UBERON:0007830 ! pelvic girdle bone/zone
-is_a: UBERON:0008202 ! bone of hip region
 is_a: UBERON:0015054 ! iliac endochondral element
 is_a: UBERON:0015212 ! lateral structure
 
@@ -1521,6 +1513,7 @@ is_a: UBERON:0000014 ! zone of skin
 id: UBERON:0001421
 name: pectoral girdle region
 is_a: UBERON:0007823 ! appendage girdle region
+is_a: UBERON:0015212 ! lateral structure
 
 [Term]
 id: UBERON:0001423
@@ -1652,12 +1645,12 @@ is_a: UBERON:0003831 ! respiratory system muscle
 [Term]
 id: UBERON:0001575
 name: extrinsic muscle of tongue
-is_a: UBERON:0001576 ! intrinsic muscle of tongue
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+is_a: UBERON:0000378 ! tongue muscle
 
 [Term]
 id: UBERON:0001576
 name: intrinsic muscle of tongue
+is_a: UBERON:0000078 ! mixed ectoderm/mesoderm/endoderm-derived structure
 is_a: UBERON:0000378 ! tongue muscle
 
 [Term]
@@ -1839,30 +1832,28 @@ is_a: UBERON:0010314 ! structure with developmental contribution from neural cre
 
 [Term]
 id: UBERON:0001686
-name: auditory ossicle
+name: auditory ossicle bone
 is_a: UBERON:0003457 ! head bone
-is_a: UBERON:0004119 ! endoderm-derived structure
-is_a: UBERON:0008001 ! irregular bone
-is_a: UBERON:0010313 ! neural crest-derived structure
+is_a: UBERON:0035130 ! auditory ossicle endochondral element
 
 [Term]
 id: UBERON:0001687
 name: stapes bone
-is_a: UBERON:0001686 ! auditory ossicle
+is_a: UBERON:0001686 ! auditory ossicle bone
 is_a: UBERON:0002513 ! endochondral bone
 is_a: UBERON:0015016 ! stapes endochondral element
 
 [Term]
 id: UBERON:0001688
 name: incus bone
-is_a: UBERON:0001686 ! auditory ossicle
+is_a: UBERON:0001686 ! auditory ossicle bone
 is_a: UBERON:0002513 ! endochondral bone
 is_a: UBERON:0015017 ! incus endochondral element
 
 [Term]
 id: UBERON:0001689
 name: malleus bone
-is_a: UBERON:0001686 ! auditory ossicle
+is_a: UBERON:0001686 ! auditory ossicle bone
 is_a: UBERON:0002513 ! endochondral bone
 is_a: UBERON:0015018 ! malleus endochondral element
 
@@ -2133,10 +2124,12 @@ is_a: UBERON:0001825 ! paranasal sinus
 
 [Term]
 id: UBERON:0001762
-name: nasal concha
-is_a: UBERON:0004120 ! mesoderm-derived structure
+name: turbinate bone
+is_a: UBERON:0002513 ! endochondral bone
 is_a: UBERON:0005913 ! zone of bone organ
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+is_a: UBERON:0011164 ! neurocranium bone
+is_a: UBERON:0035612 ! nasal turbinal
 
 [Term]
 id: UBERON:0001764
@@ -2881,7 +2874,6 @@ id: UBERON:0001997
 name: olfactory epithelium
 is_a: UBERON:0005384 ! nasal cavity epithelium
 is_a: UBERON:0006934 ! sensory epithelium
-is_a: UBERON:0010499 ! pseudostratified ciliated columnar epithelium
 
 [Term]
 id: UBERON:0002005
@@ -2918,7 +2910,7 @@ is_a: UBERON:0013768 ! great vessel of heart
 [Term]
 id: UBERON:0002019
 name: accessory XI nerve
-is_a: UBERON:0001021 ! nerve
+is_a: UBERON:0035642 ! laryngeal nerve
 
 [Term]
 id: UBERON:0002020
@@ -3008,6 +3000,7 @@ id: UBERON:0002059
 name: submandibular ganglion
 is_a: UBERON:0001808 ! parasympathetic ganglion
 is_a: UBERON:0004119 ! endoderm-derived structure
+is_a: UBERON:0013765 ! digestive system element
 
 [Term]
 id: UBERON:0002062
@@ -3050,7 +3043,7 @@ is_a: UBERON:0013754 ! integumentary system layer
 [Term]
 id: UBERON:0002073
 name: hair follicle
-is_a: UBERON:0000064 ! organ part
+is_a: UBERON:0000063 ! organ subunit
 is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 
@@ -3084,19 +3077,19 @@ is_a: UBERON:0010314 ! structure with developmental contribution from neural cre
 id: UBERON:0002078
 name: right cardiac atrium
 is_a: UBERON:0002081 ! cardiac atrium
-is_a: UBERON:0015212 ! lateral structure
+is_a: UBERON:0035554 ! right cardiac chamber
 
 [Term]
 id: UBERON:0002079
 name: left cardiac atrium
 is_a: UBERON:0002081 ! cardiac atrium
-is_a: UBERON:0015212 ! lateral structure
+is_a: UBERON:0035553 ! left cardiac chamber
 
 [Term]
 id: UBERON:0002080
 name: heart right ventricle
 is_a: UBERON:0002082 ! cardiac ventricle
-is_a: UBERON:0015212 ! lateral structure
+is_a: UBERON:0035554 ! right cardiac chamber
 
 [Term]
 id: UBERON:0002081
@@ -3112,7 +3105,7 @@ is_a: UBERON:0004151 ! cardiac chamber
 id: UBERON:0002084
 name: heart left ventricle
 is_a: UBERON:0002082 ! cardiac ventricle
-is_a: UBERON:0015212 ! lateral structure
+is_a: UBERON:0035553 ! left cardiac chamber
 
 [Term]
 id: UBERON:0002085
@@ -3571,7 +3564,7 @@ is_a: UBERON:0007702 ! tract of brain
 
 [Term]
 id: UBERON:0002268
-name: main olfactory organ
+name: olfactory organ
 is_a: UBERON:0000020 ! sense organ
 
 [Term]
@@ -4207,7 +4200,6 @@ is_a: UBERON:0010313 ! neural crest-derived structure
 id: UBERON:0002497
 name: acromion
 is_a: UBERON:0004530 ! bony projection
-is_a: UBERON:4100000 ! skeletal element projection
 
 [Term]
 id: UBERON:0002498
@@ -4420,6 +4412,8 @@ id: UBERON:0002824
 name: vestibular ganglion
 is_a: UBERON:0001714 ! cranial ganglion
 is_a: UBERON:0001800 ! sensory ganglion
+is_a: UBERON:0003338 ! ganglion of peripheral nervous system
+is_a: UBERON:0006585 ! vestibular organ
 is_a: UBERON:0010313 ! neural crest-derived structure
 
 [Term]
@@ -4507,7 +4501,6 @@ id: UBERON:0003051
 name: ear vesicle
 is_a: UBERON:0005291 ! embryonic tissue
 is_a: UBERON:0006598 ! presumptive structure
-is_a: UBERON:0007497 ! developing epithelial placode
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0010371 ! ecto-epithelium
 
@@ -4562,7 +4555,6 @@ is_a: UBERON:0009201 ! nephric duct
 id: UBERON:0003075
 name: neural plate
 is_a: UBERON:0005291 ! embryonic tissue
-is_a: UBERON:0007497 ! developing epithelial placode
 is_a: UBERON:0010371 ! ecto-epithelium
 is_a: UBERON:0016879 ! future central nervous system
 
@@ -5411,7 +5403,6 @@ name: styloid process of temporal bone
 is_a: UBERON:0004119 ! endoderm-derived structure
 is_a: UBERON:0004530 ! bony projection
 is_a: UBERON:0010313 ! neural crest-derived structure
-is_a: UBERON:4100000 ! skeletal element projection
 
 [Term]
 id: UBERON:0003964
@@ -5819,9 +5810,9 @@ is_a: UBERON:0005631 ! extraembryonic membrane
 [Term]
 id: UBERON:0004341
 name: primitive streak
+is_a: UBERON:0000485 ! simple columnar epithelium
 is_a: UBERON:0005291 ! embryonic tissue
 is_a: UBERON:0006598 ! presumptive structure
-is_a: UBERON:0007497 ! developing epithelial placode
 
 [Term]
 id: UBERON:0004345
@@ -5967,7 +5958,7 @@ is_a: UBERON:0034768 ! morphological feature
 [Term]
 id: UBERON:0004530
 name: bony projection
-is_a: UBERON:0004529 ! anatomical projection
+is_a: UBERON:4100000 ! skeletal element projection
 
 [Term]
 id: UBERON:0004535
@@ -6163,6 +6154,7 @@ id: UBERON:0004802
 name: respiratory tract epithelium
 is_a: UBERON:0004807 ! respiratory system epithelium
 is_a: UBERON:0005911 ! endo-epithelium
+is_a: UBERON:0010499 ! pseudostratified ciliated columnar epithelium
 
 [Term]
 id: UBERON:0004804
@@ -6804,8 +6796,9 @@ is_a: UBERON:0017650 ! developing mesenchymal structure
 id: UBERON:0006234
 name: femur pre-cartilage condensation
 is_a: UBERON:0005254 ! upper leg mesenchyme
+is_a: UBERON:0005866 ! pre-cartilage condensation
 is_a: UBERON:0010882 ! limb bone pre-cartilage condensation
-is_a: UBERON:0010886 ! hindlimb bone pre-cartilage condensation
+is_a: UBERON:0010886 ! hindlimb pre-cartilage condensation
 is_a: UBERON:0015052 ! femur endochondral element
 is_a: UBERON:0017650 ! developing mesenchymal structure
 
@@ -6821,7 +6814,7 @@ is_a: UBERON:0015053 ! humerus endochondral element
 id: UBERON:0006246
 name: humerus pre-cartilage condensation
 is_a: UBERON:0005258 ! upper arm mesenchyme
-is_a: UBERON:0010882 ! limb bone pre-cartilage condensation
+is_a: UBERON:0005866 ! pre-cartilage condensation
 is_a: UBERON:0010884 ! forelimb bone pre-cartilage condensation
 is_a: UBERON:0015053 ! humerus endochondral element
 is_a: UBERON:0017650 ! developing mesenchymal structure
@@ -6829,6 +6822,7 @@ is_a: UBERON:0017650 ! developing mesenchymal structure
 [Term]
 id: UBERON:0006247
 name: iliac pre-cartilage condensation
+is_a: UBERON:0005256 ! trunk mesenchyme
 is_a: UBERON:0005866 ! pre-cartilage condensation
 is_a: UBERON:0010377 ! mesenchyme from somatopleure
 is_a: UBERON:0015054 ! iliac endochondral element
@@ -6837,9 +6831,8 @@ is_a: UBERON:0017650 ! developing mesenchymal structure
 [Term]
 id: UBERON:0006248
 name: incus pre-cartilage condensation
-is_a: UBERON:0005866 ! pre-cartilage condensation
 is_a: UBERON:0015017 ! incus endochondral element
-is_a: UBERON:0017650 ! developing mesenchymal structure
+is_a: UBERON:0035132 ! auditory ossicle pre-cartilage element
 
 [Term]
 id: UBERON:0006254
@@ -6851,6 +6844,7 @@ is_a: UBERON:0015056 ! ischial endochondral element
 [Term]
 id: UBERON:0006255
 name: ischial pre-cartilage condensation
+is_a: UBERON:0005256 ! trunk mesenchyme
 is_a: UBERON:0005866 ! pre-cartilage condensation
 is_a: UBERON:0010377 ! mesenchyme from somatopleure
 is_a: UBERON:0015056 ! ischial endochondral element
@@ -6859,14 +6853,13 @@ is_a: UBERON:0017650 ! developing mesenchymal structure
 [Term]
 id: UBERON:0006262
 name: malleus pre-cartilage condensation
-is_a: UBERON:0005866 ! pre-cartilage condensation
-is_a: UBERON:0014387 ! mesenchyme derived from neural crest
 is_a: UBERON:0015018 ! malleus endochondral element
-is_a: UBERON:0017650 ! developing mesenchymal structure
+is_a: UBERON:0035132 ! auditory ossicle pre-cartilage element
 
 [Term]
 id: UBERON:0006285
 name: pubic pre-cartilage condensation
+is_a: UBERON:0005256 ! trunk mesenchyme
 is_a: UBERON:0005866 ! pre-cartilage condensation
 is_a: UBERON:0010377 ! mesenchyme from somatopleure
 is_a: UBERON:0015055 ! pubic endochondral element
@@ -6897,11 +6890,8 @@ is_a: UBERON:0017650 ! developing mesenchymal structure
 [Term]
 id: UBERON:0006294
 name: stapes pre-cartilage condensation
-is_a: UBERON:0005866 ! pre-cartilage condensation
-is_a: UBERON:0007213 ! mesenchyme derived from head neural crest
-is_a: UBERON:0009506 ! mesenchyme of middle ear
 is_a: UBERON:0015016 ! stapes endochondral element
-is_a: UBERON:0017650 ! developing mesenchymal structure
+is_a: UBERON:0035132 ! auditory ossicle pre-cartilage element
 
 [Term]
 id: UBERON:0006306
@@ -7171,7 +7161,6 @@ is_a: UBERON:0010304 ! non-keratinized stratified squamous epithelium
 id: UBERON:0006924
 name: stomach glandular epithelium
 is_a: UBERON:0001276 ! epithelium of stomach
-is_a: UBERON:0006799 ! glandular epithelium
 is_a: UBERON:0006929 ! glandular columnar epithelium
 
 [Term]
@@ -7184,6 +7173,7 @@ is_a: UBERON:0013765 ! digestive system element
 id: UBERON:0006929
 name: glandular columnar epithelium
 is_a: UBERON:0000485 ! simple columnar epithelium
+is_a: UBERON:0006799 ! glandular epithelium
 
 [Term]
 id: UBERON:0006932
@@ -7237,6 +7227,7 @@ is_a: UBERON:0015228 ! circulatory organ
 id: UBERON:0007134
 name: trunk ganglion
 is_a: UBERON:0000045 ! ganglion
+is_a: UBERON:0005177 ! trunk region element
 
 [Term]
 id: UBERON:0007213
@@ -7289,9 +7280,8 @@ is_a: UBERON:0009034 ! stomach region
 [Term]
 id: UBERON:0007374
 name: incus cartilage element
-is_a: UBERON:0005863 ! cartilaginous condensation
-is_a: UBERON:0011004 ! pharyngeal arch cartilage
 is_a: UBERON:0015017 ! incus endochondral element
+is_a: UBERON:0035131 ! auditory ossicle cartilage element
 
 [Term]
 id: UBERON:0007375
@@ -7303,12 +7293,6 @@ id: UBERON:0007376
 name: outer epithelium
 is_a: UBERON:0003102 ! surface structure
 is_a: UBERON:0010371 ! ecto-epithelium
-
-[Term]
-id: UBERON:0007497
-name: developing epithelial placode
-is_a: UBERON:0000485 ! simple columnar epithelium
-is_a: UBERON:0001048 ! primordium
 
 [Term]
 id: UBERON:0007499
@@ -7382,7 +7366,7 @@ is_a: UBERON:0001018 ! axon tract
 [Term]
 id: UBERON:0007770
 name: osphradium
-is_a: UBERON:0002268 ! main olfactory organ
+is_a: UBERON:0002268 ! olfactory organ
 
 [Term]
 id: UBERON:0007771
@@ -7419,7 +7403,9 @@ is_a: UBERON:0010741 ! bone of pectoral complex
 [Term]
 id: UBERON:0007830
 name: pelvic girdle bone/zone
+is_a: UBERON:0003828 ! abdominal segment bone
 is_a: UBERON:0004120 ! mesoderm-derived structure
+is_a: UBERON:0005179 ! pelvic region element
 is_a: UBERON:0005913 ! zone of bone organ
 is_a: UBERON:0007828 ! girdle bone/zone
 is_a: UBERON:0010742 ! bone of pelvic complex
@@ -7720,13 +7706,6 @@ name: parapodium
 is_a: UBERON:0000026 ! appendage
 
 [Term]
-id: UBERON:0009506
-name: mesenchyme of middle ear
-is_a: UBERON:0005253 ! head mesenchyme
-is_a: UBERON:0007524 ! dense mesenchyme tissue
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
-
-[Term]
 id: UBERON:0009564
 name: distal limb integumentary appendage
 is_a: UBERON:0004121 ! ectoderm-derived structure
@@ -7831,17 +7810,15 @@ is_a: UBERON:0004121 ! ectoderm-derived structure
 [Term]
 id: UBERON:0010054
 name: malleus cartilage element
-is_a: UBERON:0005863 ! cartilaginous condensation
-is_a: UBERON:0011004 ! pharyngeal arch cartilage
-is_a: UBERON:0014387 ! mesenchyme derived from neural crest
 is_a: UBERON:0015018 ! malleus endochondral element
+is_a: UBERON:0035131 ! auditory ossicle cartilage element
 
 [Term]
 id: UBERON:0010055
 name: stapes cartilage element
-is_a: UBERON:0010313 ! neural crest-derived structure
 is_a: UBERON:0011607 ! hyomandibular cartilage
 is_a: UBERON:0015016 ! stapes endochondral element
+is_a: UBERON:0035131 ! auditory ossicle cartilage element
 
 [Term]
 id: UBERON:0010077
@@ -7853,6 +7830,7 @@ id: UBERON:0010129
 name: femur cartilage element
 is_a: UBERON:0005254 ! upper leg mesenchyme
 is_a: UBERON:0005863 ! cartilaginous condensation
+is_a: UBERON:0010881 ! limb cartilage element
 is_a: UBERON:0010885 ! hindlimb cartilage element
 is_a: UBERON:0015052 ! femur endochondral element
 
@@ -8177,8 +8155,8 @@ is_a: UBERON:0010758 ! subdivision of organism along appendicular axis
 id: UBERON:0010540
 name: tarsus pre-cartilage condensation
 is_a: UBERON:0003328 ! mesenchyme of footplate
+is_a: UBERON:0005866 ! pre-cartilage condensation
 is_a: UBERON:0010695 ! mesenchyme of tarsal region
-is_a: UBERON:0010886 ! hindlimb bone pre-cartilage condensation
 is_a: UBERON:0015050 ! tarsus endochondral element
 
 [Term]
@@ -8223,8 +8201,10 @@ is_a: UBERON:0015045 ! manual digit 3 metacarpus endochondral element
 [Term]
 id: UBERON:0010687
 name: pedal digit metatarsal pre-cartilage condensation
+is_a: UBERON:0003860 ! hindlimb mesenchyme
+is_a: UBERON:0005866 ! pre-cartilage condensation
 is_a: UBERON:0010882 ! limb bone pre-cartilage condensation
-is_a: UBERON:0010886 ! hindlimb bone pre-cartilage condensation
+is_a: UBERON:0010886 ! hindlimb pre-cartilage condensation
 is_a: UBERON:0015036 ! pedal digit metatarsal endochondral element
 is_a: UBERON:0017650 ! developing mesenchymal structure
 
@@ -8236,22 +8216,20 @@ is_a: UBERON:0003860 ! hindlimb mesenchyme
 [Term]
 id: UBERON:0010697
 name: pedal digit metatarsal cartilage element
-is_a: UBERON:0010885 ! hindlimb cartilage element
 is_a: UBERON:0015036 ! pedal digit metatarsal endochondral element
-is_a: UBERON:0015064 ! autopod cartilage
+is_a: UBERON:0035129 ! pes cartilage element
 
 [Term]
 id: UBERON:0010698
 name: manual digit metacarpus pre-cartilage condensation
-is_a: UBERON:0010882 ! limb bone pre-cartilage condensation
+is_a: UBERON:0010884 ! forelimb bone pre-cartilage condensation
 is_a: UBERON:0015042 ! manual digit metacarpus endochondral element
 
 [Term]
 id: UBERON:0010699
 name: manual digit metacarpus cartilage element
-is_a: UBERON:0010883 ! forelimb cartilage element
 is_a: UBERON:0015042 ! manual digit metacarpus endochondral element
-is_a: UBERON:0015064 ! autopod cartilage
+is_a: UBERON:0035128 ! manus cartilage element
 
 [Term]
 id: UBERON:0010700
@@ -8372,19 +8350,20 @@ is_a: UBERON:0000475 ! organism subdivision
 id: UBERON:0010846
 name: radius pre-cartilage condensation
 is_a: UBERON:0003327 ! mesenchyme of forearm
-is_a: UBERON:0010884 ! forelimb bone pre-cartilage condensation
+is_a: UBERON:0005866 ! pre-cartilage condensation
 is_a: UBERON:0015001 ! radius endochondral element
 
 [Term]
 id: UBERON:0010847
 name: ulna pre-cartilage condensation
 is_a: UBERON:0003327 ! mesenchyme of forearm
-is_a: UBERON:0010884 ! forelimb bone pre-cartilage condensation
+is_a: UBERON:0005866 ! pre-cartilage condensation
 is_a: UBERON:0015003 ! ulna endochondral element
 
 [Term]
 id: UBERON:0010849
 name: tibia cartilage element
+is_a: UBERON:0010881 ! limb cartilage element
 is_a: UBERON:0010885 ! hindlimb cartilage element
 is_a: UBERON:0015004 ! tibia endochondral element
 
@@ -8392,12 +8371,13 @@ is_a: UBERON:0015004 ! tibia endochondral element
 id: UBERON:0010850
 name: tibia pre-cartilage condensation
 is_a: UBERON:0005259 ! lower leg mesenchyme
-is_a: UBERON:0010886 ! hindlimb bone pre-cartilage condensation
+is_a: UBERON:0005866 ! pre-cartilage condensation
 is_a: UBERON:0015004 ! tibia endochondral element
 
 [Term]
 id: UBERON:0010851
 name: fibula cartilage element
+is_a: UBERON:0010881 ! limb cartilage element
 is_a: UBERON:0010885 ! hindlimb cartilage element
 is_a: UBERON:0015013 ! fibula endochondral element
 
@@ -8405,7 +8385,7 @@ is_a: UBERON:0015013 ! fibula endochondral element
 id: UBERON:0010852
 name: fibula pre-cartilage condensation
 is_a: UBERON:0005259 ! lower leg mesenchyme
-is_a: UBERON:0010886 ! hindlimb bone pre-cartilage condensation
+is_a: UBERON:0005866 ! pre-cartilage condensation
 is_a: UBERON:0015013 ! fibula endochondral element
 
 [Term]
@@ -8428,21 +8408,18 @@ is_a: UBERON:0015021 ! forelimb endochondral element
 [Term]
 id: UBERON:0010884
 name: forelimb bone pre-cartilage condensation
-is_a: UBERON:0003859 ! forelimb mesenchyme
-is_a: UBERON:0005866 ! pre-cartilage condensation
+is_a: UBERON:0010882 ! limb bone pre-cartilage condensation
 is_a: UBERON:0015021 ! forelimb endochondral element
 
 [Term]
 id: UBERON:0010885
 name: hindlimb cartilage element
-is_a: UBERON:0010881 ! limb cartilage element
+is_a: UBERON:0007844 ! cartilage element
 is_a: UBERON:0015022 ! hindlimb endochondral element
 
 [Term]
 id: UBERON:0010886
-name: hindlimb bone pre-cartilage condensation
-is_a: UBERON:0003860 ! hindlimb mesenchyme
-is_a: UBERON:0005866 ! pre-cartilage condensation
+name: hindlimb pre-cartilage condensation
 is_a: UBERON:0015022 ! hindlimb endochondral element
 
 [Term]
@@ -8585,7 +8562,7 @@ is_a: UBERON:0034929 ! external soft tissue zone
 [Term]
 id: UBERON:0011510
 name: cloacal bursa
-is_a: UBERON:0000064 ! organ part
+is_a: UBERON:0000063 ! organ subunit
 is_a: UBERON:0004120 ! mesoderm-derived structure
 
 [Term]
@@ -8909,6 +8886,12 @@ name: molariform tooth
 is_a: UBERON:0001091 ! calcareous tooth
 
 [Term]
+id: UBERON:0013204
+name: epipubic bone
+is_a: UBERON:0007830 ! pelvic girdle bone/zone
+is_a: UBERON:0015212 ! lateral structure
+
+[Term]
 id: UBERON:0013216
 name: udder
 is_a: UBERON:0000481 ! multi-tissue structure
@@ -9087,17 +9070,13 @@ is_a: UBERON:0002558 ! organ cavity
 
 [Term]
 id: UBERON:0013771
-name: intermammary line
+name: line connecting laterally paired nipples
 is_a: UBERON:0006800 ! anatomical line
 
 [Term]
 id: UBERON:0014371
 name: future telencephalon
-is_a: UBERON:0000481 ! multi-tissue structure
-is_a: UBERON:0002050 ! embryonic structure
-is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:0006598 ! presumptive structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 
 [Term]
 id: UBERON:0014387
@@ -9196,6 +9175,7 @@ union_of: UBERON:0010847 ! ulna pre-cartilage condensation
 id: UBERON:0015004
 name: tibia endochondral element
 is_a: UBERON:0015022 ! hindlimb endochondral element
+is_a: UBERON:0015061 ! limb endochondral element
 union_of: UBERON:0000979 ! tibia
 union_of: UBERON:0010849 ! tibia cartilage element
 union_of: UBERON:0010850 ! tibia pre-cartilage condensation
@@ -9242,6 +9222,7 @@ union_of: UBERON:0013510 ! lumbar vertebra pre-cartilage condensation
 id: UBERON:0015013
 name: fibula endochondral element
 is_a: UBERON:0015022 ! hindlimb endochondral element
+is_a: UBERON:0015061 ! limb endochondral element
 union_of: UBERON:0001446 ! fibula
 union_of: UBERON:0010851 ! fibula cartilage element
 union_of: UBERON:0010852 ! fibula pre-cartilage condensation
@@ -9258,9 +9239,7 @@ union_of: UBERON:0011163 ! supraoccipital pre-cartilage condensation
 [Term]
 id: UBERON:0015016
 name: stapes endochondral element
-is_a: UBERON:0004119 ! endoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
-is_a: UBERON:0010363 ! endochondral element
+is_a: UBERON:0035130 ! auditory ossicle endochondral element
 union_of: UBERON:0001687 ! stapes bone
 union_of: UBERON:0006294 ! stapes pre-cartilage condensation
 union_of: UBERON:0010055 ! stapes cartilage element
@@ -9268,9 +9247,7 @@ union_of: UBERON:0010055 ! stapes cartilage element
 [Term]
 id: UBERON:0015017
 name: incus endochondral element
-is_a: UBERON:0004119 ! endoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
-is_a: UBERON:0010363 ! endochondral element
+is_a: UBERON:0035130 ! auditory ossicle endochondral element
 union_of: UBERON:0001688 ! incus bone
 union_of: UBERON:0006248 ! incus pre-cartilage condensation
 union_of: UBERON:0007374 ! incus cartilage element
@@ -9278,9 +9255,7 @@ union_of: UBERON:0007374 ! incus cartilage element
 [Term]
 id: UBERON:0015018
 name: malleus endochondral element
-is_a: UBERON:0004119 ! endoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
-is_a: UBERON:0010363 ! endochondral element
+is_a: UBERON:0035130 ! auditory ossicle endochondral element
 union_of: UBERON:0001689 ! malleus bone
 union_of: UBERON:0006262 ! malleus pre-cartilage condensation
 union_of: UBERON:0010054 ! malleus cartilage element
@@ -9304,10 +9279,11 @@ union_of: UBERON:0010884 ! forelimb bone pre-cartilage condensation
 [Term]
 id: UBERON:0015022
 name: hindlimb endochondral element
-is_a: UBERON:0015061 ! limb endochondral element
+is_a: UBERON:0004120 ! mesoderm-derived structure
+is_a: UBERON:0004765 ! skeletal element
 union_of: UBERON:0003464 ! hindlimb bone
 union_of: UBERON:0010885 ! hindlimb cartilage element
-union_of: UBERON:0010886 ! hindlimb bone pre-cartilage condensation
+union_of: UBERON:0010886 ! hindlimb pre-cartilage condensation
 
 [Term]
 id: UBERON:0015023
@@ -9374,6 +9350,7 @@ union_of: UBERON:0010752 ! exoccipital cartilage element
 id: UBERON:0015052
 name: femur endochondral element
 is_a: UBERON:0015022 ! hindlimb endochondral element
+is_a: UBERON:0015061 ! limb endochondral element
 union_of: UBERON:0000981 ! femur
 union_of: UBERON:0006234 ! femur pre-cartilage condensation
 union_of: UBERON:0010129 ! femur cartilage element
@@ -9390,6 +9367,7 @@ union_of: UBERON:0006246 ! humerus pre-cartilage condensation
 id: UBERON:0015054
 name: iliac endochondral element
 is_a: UBERON:0004120 ! mesoderm-derived structure
+is_a: UBERON:0005179 ! pelvic region element
 is_a: UBERON:0010363 ! endochondral element
 union_of: UBERON:0001273 ! ilium
 union_of: UBERON:0006247 ! iliac pre-cartilage condensation
@@ -9399,6 +9377,7 @@ union_of: UBERON:0010714 ! iliac cartilage element
 id: UBERON:0015055
 name: pubic endochondral element
 is_a: UBERON:0004120 ! mesoderm-derived structure
+is_a: UBERON:0005179 ! pelvic region element
 is_a: UBERON:0010363 ! endochondral element
 union_of: UBERON:0001275 ! pubis
 union_of: UBERON:0006285 ! pubic pre-cartilage condensation
@@ -9408,6 +9387,7 @@ union_of: UBERON:0010718 ! pubic cartilage element
 id: UBERON:0015056
 name: ischial endochondral element
 is_a: UBERON:0004120 ! mesoderm-derived structure
+is_a: UBERON:0005179 ! pelvic region element
 is_a: UBERON:0010363 ! endochondral element
 union_of: UBERON:0001274 ! ischium
 union_of: UBERON:0006254 ! ischial cartilage element
@@ -9685,7 +9665,6 @@ is_a: UBERON:0000483 ! epithelium
 [Term]
 id: UBERON:0019306
 name: nose epithelium
-is_a: UBERON:0004807 ! respiratory system epithelium
 is_a: UBERON:0010371 ! ecto-epithelium
 is_a: UBERON:0019304 ! sensory organ epithelium
 
@@ -9776,6 +9755,59 @@ is_a: UBERON:0034978 ! paraganglion (generic)
 id: UBERON:0035014
 name: functional part of brain
 is_a: UBERON:0002616 ! regional part of brain
+
+[Term]
+id: UBERON:0035128
+name: manus cartilage element
+is_a: UBERON:0010883 ! forelimb cartilage element
+is_a: UBERON:0015064 ! autopod cartilage
+
+[Term]
+id: UBERON:0035129
+name: pes cartilage element
+is_a: UBERON:0010885 ! hindlimb cartilage element
+is_a: UBERON:0015064 ! autopod cartilage
+
+[Term]
+id: UBERON:0035130
+name: auditory ossicle endochondral element
+is_a: UBERON:0004119 ! endoderm-derived structure
+is_a: UBERON:0010313 ! neural crest-derived structure
+is_a: UBERON:0010363 ! endochondral element
+
+[Term]
+id: UBERON:0035131
+name: auditory ossicle cartilage element
+is_a: UBERON:0011004 ! pharyngeal arch cartilage
+is_a: UBERON:0035130 ! auditory ossicle endochondral element
+
+[Term]
+id: UBERON:0035132
+name: auditory ossicle pre-cartilage element
+is_a: UBERON:0035130 ! auditory ossicle endochondral element
+
+[Term]
+id: UBERON:0035553
+name: left cardiac chamber
+is_a: UBERON:0004151 ! cardiac chamber
+is_a: UBERON:0015212 ! lateral structure
+
+[Term]
+id: UBERON:0035554
+name: right cardiac chamber
+is_a: UBERON:0004151 ! cardiac chamber
+is_a: UBERON:0015212 ! lateral structure
+
+[Term]
+id: UBERON:0035612
+name: nasal turbinal
+is_a: UBERON:0004120 ! mesoderm-derived structure
+is_a: UBERON:0010363 ! endochondral element
+
+[Term]
+id: UBERON:0035642
+name: laryngeal nerve
+is_a: UBERON:0001021 ! nerve
 
 [Term]
 id: UBERON:1000021

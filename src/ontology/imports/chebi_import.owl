@@ -193,8 +193,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16330">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17beta-hydroxy-5alpha-androstan-3-one</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35343"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47788"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_85278"/>
     </owl:Class>
     
 
@@ -532,6 +531,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18230">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chlorophyll a</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25248"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28966"/>
     </owl:Class>
     
@@ -1467,6 +1467,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25248">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methyl ester</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33308"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25354 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25354">
@@ -1922,7 +1931,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26469">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quaternary nitrogen compound</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
     </owl:Class>
     
 
@@ -3647,7 +3656,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35350">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydroxy steroid</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30879"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33822"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35341"/>
     </owl:Class>
     
@@ -3787,6 +3796,15 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aromatic ether</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25698"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33659"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35681">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary alcohol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30879"/>
     </owl:Class>
     
 
@@ -4108,6 +4126,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36836">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3beta-hydroxy steroid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35681"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36834"/>
     </owl:Class>
     
@@ -5487,6 +5506,16 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-proteinogenic alpha-amino acid</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33704"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_83820"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_85278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_85278">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17beta-hydroxyandrostan-3-one</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35343"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47788"/>
     </owl:Class>
     
 

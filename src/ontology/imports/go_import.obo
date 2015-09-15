@@ -92,8 +92,6 @@ is_a: GO:0048513 ! organ development
 [Term]
 id: GO:0001889
 name: liver development
-is_a: GO:0044767 ! single-organism developmental process
-is_a: GO:0048513 ! organ development
 is_a: GO:0048732 ! gland development
 
 [Term]
@@ -491,14 +489,9 @@ is_a: GO:0043231 ! intracellular membrane-bounded organelle
 is_a: GO:0044444 ! cytoplasmic part
 
 [Term]
-id: GO:0005770
-name: late endosome
-is_a: GO:0005768 ! endosome
-
-[Term]
 id: GO:0005771
 name: multivesicular body
-is_a: GO:0005770 ! late endosome
+is_a: GO:0005768 ! endosome
 
 [Term]
 id: GO:0005773
@@ -509,7 +502,6 @@ is_a: GO:0044444 ! cytoplasmic part
 [Term]
 id: GO:0005774
 name: vacuolar membrane
-is_a: GO:0031090 ! organelle membrane
 is_a: GO:0044437 ! vacuolar part
 is_a: GO:0098588 ! bounding membrane of organelle
 is_a: GO:0098805 ! whole membrane
@@ -703,7 +695,14 @@ is_a: GO:0006259 ! DNA metabolic process
 id: GO:0006412
 name: translation
 is_a: GO:0034645 ! cellular macromolecule biosynthetic process
+is_a: GO:0043043 ! peptide biosynthetic process
 is_a: GO:0044267 ! cellular protein metabolic process
+
+[Term]
+id: GO:0006518
+name: peptide metabolic process
+is_a: GO:0043603 ! cellular amide metabolic process
+is_a: GO:1901564 ! organonitrogen compound metabolic process
 
 [Term]
 id: GO:0006629
@@ -809,7 +808,6 @@ is_a: GO:0050896 ! response to stimulus
 [Term]
 id: GO:0006996
 name: organelle organization
-is_a: GO:0009987 ! cellular process
 is_a: GO:0016043 ! cellular component organization
 
 [Term]
@@ -855,7 +853,6 @@ is_a: GO:0044700 ! single organism signaling
 id: GO:0007268
 name: synaptic transmission
 is_a: GO:0007267 ! cell-cell signaling
-is_a: GO:0023052 ! signaling
 
 [Term]
 id: GO:0007269
@@ -901,7 +898,6 @@ is_a: GO:0007276 ! gamete generation
 [Term]
 id: GO:0007369
 name: gastrulation
-is_a: GO:0009653 ! anatomical structure morphogenesis
 is_a: GO:0048598 ! embryonic morphogenesis
 
 [Term]
@@ -1105,7 +1101,6 @@ is_a: GO:0048608 ! reproductive structure development
 [Term]
 id: GO:0008544
 name: epidermis development
-is_a: GO:0009888 ! tissue development
 is_a: GO:0060429 ! epithelium development
 
 [Term]
@@ -2049,7 +2044,6 @@ is_a: GO:0035933 ! glucocorticoid secretion
 [Term]
 id: GO:0036035
 name: osteoclast development
-is_a: GO:0048468 ! cell development
 is_a: GO:0061515 ! myeloid cell development
 is_a: GO:0098751 ! bone cell development
 
@@ -2202,6 +2196,13 @@ is_a: GO:0042995 ! cell projection
 is_a: GO:0097458 ! neuron part
 
 [Term]
+id: GO:0043043
+name: peptide biosynthetic process
+is_a: GO:0006518 ! peptide metabolic process
+is_a: GO:0043604 ! amide biosynthetic process
+is_a: GO:1901566 ! organonitrogen compound biosynthetic process
+
+[Term]
 id: GO:0043170
 name: macromolecule metabolic process
 is_a: GO:0071704 ! organic substance metabolic process
@@ -2299,6 +2300,17 @@ name: skin development
 is_a: GO:0048513 ! organ development
 
 [Term]
+id: GO:0043603
+name: cellular amide metabolic process
+is_a: GO:0034641 ! cellular nitrogen compound metabolic process
+
+[Term]
+id: GO:0043604
+name: amide biosynthetic process
+is_a: GO:0043603 ! cellular amide metabolic process
+is_a: GO:0044271 ! cellular nitrogen compound biosynthetic process
+
+[Term]
 id: GO:0043679
 name: axon terminus
 is_a: GO:0033267 ! axon part
@@ -2370,6 +2382,12 @@ id: GO:0044267
 name: cellular protein metabolic process
 is_a: GO:0019538 ! protein metabolic process
 is_a: GO:0044260 ! cellular macromolecule metabolic process
+
+[Term]
+id: GO:0044271
+name: cellular nitrogen compound biosynthetic process
+is_a: GO:0034641 ! cellular nitrogen compound metabolic process
+is_a: GO:0044249 ! cellular biosynthetic process
 
 [Term]
 id: GO:0044275
@@ -2584,7 +2602,6 @@ is_a: GO:0044699 ! single-organism process
 id: GO:0044765
 name: single-organism transport
 is_a: GO:0006810 ! transport
-is_a: GO:0044699 ! single-organism process
 is_a: GO:1902578 ! single-organism localization
 
 [Term]
@@ -2705,7 +2722,6 @@ is_a: GO:0048771 ! tissue remodeling
 [Term]
 id: GO:0046879
 name: hormone secretion
-is_a: GO:0008150 ! biological_process
 is_a: GO:0009914 ! hormone transport
 is_a: GO:0023061 ! signal release
 
@@ -3274,7 +3290,6 @@ id: GO:0060348
 name: bone development
 is_a: GO:0044767 ! single-organism developmental process
 is_a: GO:0048513 ! organ development
-is_a: GO:0048856 ! anatomical structure development
 
 [Term]
 id: GO:0060384
@@ -3318,12 +3333,10 @@ id: GO:0061009
 name: common bile duct development
 is_a: GO:0035295 ! tube development
 is_a: GO:0044767 ! single-organism developmental process
-is_a: GO:0048856 ! anatomical structure development
 
 [Term]
 id: GO:0061053
 name: somite development
-is_a: GO:0048856 ! anatomical structure development
 is_a: GO:0060429 ! epithelium development
 
 [Term]
@@ -3594,7 +3607,7 @@ is_a: GO:0043170 ! macromolecule metabolic process
 id: GO:0097060
 name: synaptic membrane
 is_a: GO:0044456 ! synapse part
-is_a: GO:0044459 ! plasma membrane part
+is_a: GO:0098590 ! plasma membrane region
 
 [Term]
 id: GO:0097205
@@ -3704,6 +3717,18 @@ name: bounding membrane of organelle
 is_a: GO:0031090 ! organelle membrane
 
 [Term]
+id: GO:0098589
+name: membrane region
+is_a: GO:0016020 ! membrane
+is_a: GO:0044425 ! membrane part
+
+[Term]
+id: GO:0098590
+name: plasma membrane region
+is_a: GO:0044459 ! plasma membrane part
+is_a: GO:0098589 ! membrane region
+
+[Term]
 id: GO:0098602
 name: single organism cell adhesion
 is_a: GO:0007155 ! cell adhesion
@@ -3733,6 +3758,18 @@ is_a: GO:0016020 ! membrane
 id: GO:1901360
 name: organic cyclic compound metabolic process
 is_a: GO:0071704 ! organic substance metabolic process
+
+[Term]
+id: GO:1901564
+name: organonitrogen compound metabolic process
+is_a: GO:0006807 ! nitrogen compound metabolic process
+is_a: GO:0071704 ! organic substance metabolic process
+
+[Term]
+id: GO:1901566
+name: organonitrogen compound biosynthetic process
+is_a: GO:1901564 ! organonitrogen compound metabolic process
+is_a: GO:1901576 ! organic substance biosynthetic process
 
 [Term]
 id: GO:1901575

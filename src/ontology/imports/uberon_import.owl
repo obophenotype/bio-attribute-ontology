@@ -50,7 +50,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000004">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory apparatus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nose</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002268"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
     </owl:Class>
@@ -270,7 +270,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000045">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ganglion</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0034922"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010001"/>
     </owl:Class>
     
 
@@ -634,8 +634,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000162">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cloaca</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000481"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013522"/>
     </owl:Class>
     
 
@@ -936,7 +936,7 @@
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010959"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
     </owl:Class>
@@ -965,7 +965,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000383">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">musculature of body</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011216"/>
     </owl:Class>
     
 
@@ -1740,15 +1740,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001029 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001029">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuromuscular junction</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000470"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0001032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001032">
@@ -1783,7 +1774,11 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001040">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yolk sac</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000077"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005292"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005631"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005911"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007499"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0012275"/>
     </owl:Class>
     
 
@@ -1836,22 +1831,12 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001048 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001048">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primordium</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005423"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0001049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001049">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural tube</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003914"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005291"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007497"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010371"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0016879"/>
     </owl:Class>
@@ -2177,7 +2162,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001229">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">renal corpuscle</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000481"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000063"/>
     </owl:Class>
     
 
@@ -2305,7 +2290,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ilium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002513"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007830"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008202"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015054"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
     </owl:Class>
@@ -2635,6 +2619,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001421">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pectoral girdle region</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007823"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
     </owl:Class>
     
 
@@ -2858,8 +2843,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001575">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extrinsic muscle of tongue</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001576"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000378"/>
     </owl:Class>
     
 
@@ -2868,6 +2852,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001576">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intrinsic muscle of tongue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000078"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000378"/>
     </owl:Class>
     
@@ -3169,11 +3154,9 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001686 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001686">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory ossicle</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory ossicle bone</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003457"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010313"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035130"/>
     </owl:Class>
     
 
@@ -3655,10 +3638,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001762 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001762">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nasal concha</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">turbinate bone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002513"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011164"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035612"/>
     </owl:Class>
     
 
@@ -4915,7 +4900,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory epithelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005384"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006934"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010499"/>
     </owl:Class>
     
 
@@ -4976,7 +4960,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002019">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accessory XI nerve</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001021"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035642"/>
     </owl:Class>
     
 
@@ -5126,6 +5110,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submandibular ganglion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001808"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013765"/>
     </owl:Class>
     
 
@@ -5196,7 +5181,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002073">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hair follicle</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000063"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
     </owl:Class>
@@ -5250,7 +5235,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002078">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">right cardiac atrium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002081"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035554"/>
     </owl:Class>
     
 
@@ -5260,7 +5245,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002079">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">left cardiac atrium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002081"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035553"/>
     </owl:Class>
     
 
@@ -5270,7 +5255,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002080">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart right ventricle</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002082"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035554"/>
     </owl:Class>
     
 
@@ -5298,7 +5283,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002084">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart left ventricle</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002082"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035553"/>
     </owl:Class>
     
 
@@ -6073,7 +6058,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002268 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002268">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main olfactory organ</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory organ</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000020"/>
     </owl:Class>
     
@@ -7133,7 +7118,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002497">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acromion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004530"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_4100000"/>
     </owl:Class>
     
 
@@ -7494,6 +7478,8 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vestibular ganglion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001714"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001800"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003338"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006585"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010313"/>
     </owl:Class>
     
@@ -7645,7 +7631,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ear vesicle</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005291"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006598"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007497"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010371"/>
     </owl:Class>
@@ -7736,7 +7721,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003075">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural plate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005291"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007497"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010371"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0016879"/>
     </owl:Class>
@@ -9195,7 +9179,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004530"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010313"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_4100000"/>
     </owl:Class>
     
 
@@ -9899,9 +9882,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004341">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primitive streak</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000485"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005291"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006598"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007497"/>
     </owl:Class>
     
 
@@ -10155,7 +10138,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004530">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bony projection</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004529"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_4100000"/>
     </owl:Class>
     
 
@@ -10487,6 +10470,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory tract epithelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004807"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005911"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010499"/>
     </owl:Class>
     
 
@@ -11594,6 +11578,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006234">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femur pre-cartilage condensation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005254"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010882"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010886"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015052"/>
@@ -11619,7 +11604,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006246">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">humerus pre-cartilage condensation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005258"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010882"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010884"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015053"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0017650"/>
@@ -11631,6 +11616,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006247">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iliac pre-cartilage condensation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005256"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010377"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015054"/>
@@ -11643,9 +11629,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006248">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incus pre-cartilage condensation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015017"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0017650"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035132"/>
     </owl:Class>
     
 
@@ -11665,6 +11650,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006255">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ischial pre-cartilage condensation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005256"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010377"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015056"/>
@@ -11677,10 +11663,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006262">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malleus pre-cartilage condensation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0014387"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015018"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0017650"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035132"/>
     </owl:Class>
     
 
@@ -11689,6 +11673,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006285">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pubic pre-cartilage condensation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005256"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010377"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015055"/>
@@ -11735,11 +11720,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006294">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stapes pre-cartilage condensation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007213"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009506"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015016"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0017650"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035132"/>
     </owl:Class>
     
 
@@ -12201,7 +12183,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006924">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stomach glandular epithelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001276"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006799"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006929"/>
     </owl:Class>
     
@@ -12222,6 +12203,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006929">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glandular columnar epithelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000485"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006799"/>
     </owl:Class>
     
 
@@ -12315,6 +12297,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007134">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trunk ganglion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000045"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005177"/>
     </owl:Class>
     
 
@@ -12403,9 +12386,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007374">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incus cartilage element</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005863"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015017"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035131"/>
     </owl:Class>
     
 
@@ -12425,16 +12407,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outer epithelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003102"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010371"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0007497 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007497">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developing epithelial placode</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000485"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001048"/>
     </owl:Class>
     
 
@@ -12629,7 +12601,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007830">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pelvic girdle bone/zone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003828"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005913"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007828"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010742"/>
@@ -13150,17 +13124,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0009506 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0009506">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesenchyme of middle ear</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005253"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007524"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0009564 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0009564">
@@ -13343,10 +13306,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010054">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malleus cartilage element</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005863"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011004"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0014387"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035131"/>
     </owl:Class>
     
 
@@ -13355,9 +13316,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010055">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stapes cartilage element</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010313"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011607"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035131"/>
     </owl:Class>
     
 
@@ -13377,6 +13338,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femur cartilage element</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005254"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005863"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010881"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010885"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015052"/>
     </owl:Class>
@@ -13937,8 +13899,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010540">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tarsus pre-cartilage condensation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003328"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010695"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010886"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015050"/>
     </owl:Class>
     
@@ -14011,6 +13973,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010687">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedal digit metatarsal pre-cartilage condensation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003860"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010882"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010886"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015036"/>
@@ -14032,9 +13996,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010697">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pedal digit metatarsal cartilage element</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010885"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015036"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035129"/>
     </owl:Class>
     
 
@@ -14043,7 +14006,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010698">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manual digit metacarpus pre-cartilage condensation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010882"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010884"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015042"/>
     </owl:Class>
     
@@ -14053,9 +14016,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010699">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manual digit metacarpus cartilage element</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010883"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015042"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035128"/>
     </owl:Class>
     
 
@@ -14248,7 +14210,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010846">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radius pre-cartilage condensation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003327"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010884"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015001"/>
     </owl:Class>
     
@@ -14259,7 +14221,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010847">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ulna pre-cartilage condensation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003327"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010884"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015003"/>
     </owl:Class>
     
@@ -14269,6 +14231,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010849">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tibia cartilage element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010881"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010885"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015004"/>
     </owl:Class>
@@ -14280,7 +14243,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010850">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tibia pre-cartilage condensation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005259"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010886"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015004"/>
     </owl:Class>
     
@@ -14290,6 +14253,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010851">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibula cartilage element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010881"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010885"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015013"/>
     </owl:Class>
@@ -14301,7 +14265,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010852">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibula pre-cartilage condensation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005259"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010886"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015013"/>
     </owl:Class>
     
@@ -14340,8 +14304,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010884">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forelimb bone pre-cartilage condensation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003859"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010882"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015021"/>
     </owl:Class>
     
@@ -14351,7 +14314,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010885">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb cartilage element</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010881"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007844"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015022"/>
     </owl:Class>
     
@@ -14360,9 +14323,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0010886 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010886">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb bone pre-cartilage condensation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003860"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb pre-cartilage condensation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015022"/>
     </owl:Class>
     
@@ -14605,7 +14566,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011510">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cloacal bursa</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000063"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
     </owl:Class>
     
@@ -15167,6 +15128,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0013204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013204">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epipubic bone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007830"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0013216 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013216">
@@ -15475,7 +15446,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0013771 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013771">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intermammary line</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">line connecting laterally paired nipples</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006800"/>
     </owl:Class>
     
@@ -15485,11 +15456,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0014371">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">future telencephalon</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000481"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002050"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006598"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
     </owl:Class>
     
 
@@ -15677,6 +15644,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015022"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015061"/>
     </owl:Class>
     
 
@@ -15773,6 +15741,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015022"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015061"/>
     </owl:Class>
     
 
@@ -15809,9 +15778,7 @@
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010363"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035130"/>
     </owl:Class>
     
 
@@ -15829,9 +15796,7 @@
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010363"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035130"/>
     </owl:Class>
     
 
@@ -15849,9 +15814,7 @@
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010363"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035130"/>
     </owl:Class>
     
 
@@ -15905,7 +15868,8 @@
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015061"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004765"/>
     </owl:Class>
     
 
@@ -16055,6 +16019,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015022"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015061"/>
     </owl:Class>
     
 
@@ -16091,6 +16056,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010363"/>
     </owl:Class>
     
@@ -16110,6 +16076,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010363"/>
     </owl:Class>
     
@@ -16129,6 +16096,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010363"/>
     </owl:Class>
     
@@ -16625,7 +16593,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0019306">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nose epithelium</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004807"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010371"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0019304"/>
     </owl:Class>
@@ -16788,6 +16755,95 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035128">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manus cartilage element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010883"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015064"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035129">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pes cartilage element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010885"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015064"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035130">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory ossicle endochondral element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010313"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010363"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035131">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory ossicle cartilage element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035130"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035132">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory ossicle pre-cartilage element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035130"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035553">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">left cardiac chamber</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035554">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">right cardiac chamber</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035612">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nasal turbinal</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010363"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035642">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">laryngeal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001021"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_1000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_1000021">
@@ -16841,6 +16897,20 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skeletal element projection</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004529"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001029">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete neuromuscular junction</rdfs:label>
+    </rdf:Description>
 </rdf:RDF>
 
 

@@ -105,8 +105,7 @@ is_a: CHEBI:37734 ! phosphoric ester
 [Term]
 id: CHEBI:16330
 name: 17beta-hydroxy-5alpha-androstan-3-one
-is_a: CHEBI:35343 ! 17beta-hydroxy steroid
-is_a: CHEBI:47788 ! 3-oxo steroid
+is_a: CHEBI:85278 ! 17beta-hydroxyandrostan-3-one
 
 [Term]
 id: CHEBI:16411
@@ -308,6 +307,7 @@ is_a: CHEBI:33694 ! biomacromolecule
 [Term]
 id: CHEBI:18230
 name: chlorophyll a
+is_a: CHEBI:25248 ! methyl ester
 is_a: CHEBI:28966 ! chlorophyll
 
 [Term]
@@ -845,6 +845,11 @@ is_a: CHEBI:33240 ! coordination entity
 is_a: CHEBI:33909 ! metallotetrapyrrole
 
 [Term]
+id: CHEBI:25248
+name: methyl ester
+is_a: CHEBI:33308 ! carboxylic ester
+
+[Term]
 id: CHEBI:25354
 name: mineralocorticoid
 is_a: CHEBI:36699 ! corticosteroid hormone
@@ -1106,7 +1111,7 @@ is_a: CHEBI:35875 ! imidazopyrimidine
 [Term]
 id: CHEBI:26469
 name: quaternary nitrogen compound
-is_a: CHEBI:51143 ! nitrogen molecular entity
+is_a: CHEBI:35352 ! organonitrogen compound
 
 [Term]
 id: CHEBI:26523
@@ -2099,7 +2104,7 @@ is_a: CHEBI:36836 ! 3beta-hydroxy steroid
 [Term]
 id: CHEBI:35350
 name: hydroxy steroid
-is_a: CHEBI:30879 ! alcohol
+is_a: CHEBI:33822 ! organic hydroxy compound
 is_a: CHEBI:35341 ! steroid
 
 [Term]
@@ -2183,6 +2188,11 @@ id: CHEBI:35618
 name: aromatic ether
 is_a: CHEBI:25698 ! ether
 is_a: CHEBI:33659 ! organic aromatic compound
+
+[Term]
+id: CHEBI:35681
+name: secondary alcohol
+is_a: CHEBI:30879 ! alcohol
 
 [Term]
 id: CHEBI:35692
@@ -2368,6 +2378,7 @@ is_a: CHEBI:35350 ! hydroxy steroid
 [Term]
 id: CHEBI:36836
 name: 3beta-hydroxy steroid
+is_a: CHEBI:35681 ! secondary alcohol
 is_a: CHEBI:36834 ! 3-hydroxy steroid
 
 [Term]
@@ -3159,6 +3170,12 @@ id: CHEBI:83925
 name: non-proteinogenic alpha-amino acid
 is_a: CHEBI:33704 ! alpha-amino acid
 is_a: CHEBI:83820 ! non-proteinogenic amino acid
+
+[Term]
+id: CHEBI:85278
+name: 17beta-hydroxyandrostan-3-one
+is_a: CHEBI:35343 ! 17beta-hydroxy steroid
+is_a: CHEBI:47788 ! 3-oxo steroid
 
 [Term]
 id: CHEBI:9171

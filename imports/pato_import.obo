@@ -524,6 +524,16 @@ name: glutinous
 is_a: PATO:0001539 ! amylose composition
 
 [Term]
+id: PATO:0001543
+name: flexibility
+is_a: PATO:0001546 ! quality of a solid
+
+[Term]
+id: PATO:0001546
+name: quality of a solid
+is_a: PATO:0002198 ! quality of a substance
+
+[Term]
 id: PATO:0001548
 name: quality of a liquid
 is_a: PATO:0002198 ! quality of a substance

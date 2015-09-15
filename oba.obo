@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2015-06-15
+data-version: releases/2015-09-15
 date: 14:04:2015 15:11
 saved-by: cjmungall
 auto-generated-by: TermGenie 1.0
@@ -2875,7 +2875,7 @@ id: OBA:1000135
 name: dinoflagellate apical horn shape
 def: "Any measurable or observable characteristic related to the shape of a dinoflagellate apical horn." [GOC:TermGenie]
 synonym: "dinoflagellate apical horn shape trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 ! biological attribute
+is_a: OBA:1000133 ! dinoflagellate apex shape
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052
 intersection_of: attribute_of GO:0097686
@@ -2889,7 +2889,7 @@ id: OBA:1000136
 name: dinoflagellate antapical horn shape
 def: "Any measurable or observable characteristic related to the shape of a dinoflagellate antapical horn." [GOC:TermGenie]
 synonym: "dinoflagellate antapical horn shape trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 ! biological attribute
+is_a: OBA:1000134 ! dinoflagellate antapex shape
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052
 intersection_of: attribute_of GO:0097687
@@ -25548,6 +25548,7 @@ synonym: "T-cell maturation" EXACT []
 synonym: "thymocyte development trait" EXACT []
 xref: MGI:2173605
 is_a: OBA:VT0002401 ! lymphopoiesis trait
+is_a: OBA:VT0003628 ! leukocyte adhesion trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: attribute_of GO:0030217
 relationship: attribute_of GO:0030217
@@ -32045,7 +32046,6 @@ relationship: attribute_of UBERON:0000395
 id: OBA:VT0003704
 name: hair follicle development trait
 def: "Any measurable or observable characteristic related to the morphology or physiology during formation or differentiation of the tubular invaginations of the epidermis from which the hair shaft develops." [ISBN:0-683-40008-8, MGI:monikat]
-is_a: OBA:VT0001225 ! epidermis development trait
 is_a: OBA:VT0010008 ! skin adnexa development trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: attribute_of GO:0001942
