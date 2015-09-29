@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:04:2015 15:11
+date: 29:09:2015 08:40
 saved-by: cjmungall
 auto-generated-by: TermGenie 1.0
 default-namespace: oba
@@ -131,7 +131,7 @@ name: autophagic vacuole size
 is_a: OBA:0000057 ! cellular component size
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
-intersection_of: attribute_of GO:0005776 ! autophagic vacuole
+intersection_of: attribute_of GO:0005776 ! autophagosome
 
 [Term]
 id: OBA:0000023
@@ -807,7 +807,7 @@ def: "Any measurable or observable characteristic related to the length of an in
 synonym: "intermammary line length trait" EXACT [GOC:TermGenie]
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
-intersection_of: attribute_of UBERON:0013771 ! intermammary line
+intersection_of: attribute_of UBERON:0013771 ! line connecting laterally paired nipples
 created_by: cjmungall
 creation_date: 2013-05-15T00:42:06Z
 
@@ -2400,6 +2400,20 @@ relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
 relationship: attribute_of UBERON:0001473 {is_inferred="true"} ! lymphatic vessel
 created_by: cjmungall
 creation_date: 2015-04-14T22:09:58Z
+
+[Term]
+id: OBA:1000146
+name: endoplasmic reticulum membrane permeability
+def: "Any measurable or observable characteristic related to the permeability of an endoplasmic reticulum membrane." [GOC:TermGenie]
+synonym: "endoplasmic reticulum membrane permeability trait" EXACT [GOC:TermGenie]
+is_a: OBA:1000028 {is_inferred="true"} ! membrane permeability
+intersection_of: OBA:0000001 ! biological attribute
+intersection_of: affects_quality PATO:0000970 ! permeability
+intersection_of: attribute_of GO:0005789 ! endoplasmic reticulum membrane
+relationship: affects_quality PATO:0000970 {is_inferred="true"} ! permeability
+relationship: attribute_of GO:0005789 {is_inferred="true"} ! endoplasmic reticulum membrane
+created_by: cjmungall
+creation_date: 2015-09-29T15:36:19Z
 
 [Term]
 id: TO:0000001
@@ -19552,7 +19566,7 @@ is_a: VT:0001051 ! somatic motor system morphology trait
 is_a: VT:0015110 ! synapse morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0001029 ! neuromuscular junction
+intersection_of: attribute_of UBERON:0001029 ! obsolete neuromuscular junction
 
 [Term]
 id: VT:0001056
@@ -22895,7 +22909,7 @@ is_a: VT:0003743 ! facial morphology trait
 is_a: VT:0015066 ! surface structure morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0000004 ! olfactory apparatus
+intersection_of: attribute_of UBERON:0000004 ! nose
 
 [Term]
 id: VT:0002234
@@ -23003,7 +23017,7 @@ is_a: VT:0002233 ! nose morphology trait
 is_a: VT:0005274 ! viscerocranium morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0001762 ! nasal concha
+intersection_of: attribute_of UBERON:0001762 ! turbinate bone
 
 [Term]
 id: VT:0002245
@@ -23831,7 +23845,7 @@ def: "Any measurable or observable characteristic related to the shape, structur
 is_a: VT:0000696 ! Peyer's patch morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0010386 ! peyer's patch follicle
+intersection_of: attribute_of UBERON:0010386 ! Peyer's patch follicle
 
 [Term]
 id: VT:0002391
@@ -28318,7 +28332,7 @@ synonym: "middle ear ossicle size trait" EXACT []
 is_a: VT:0005105 ! auditory ossicle morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
-intersection_of: attribute_of UBERON:0001686 ! auditory ossicle
+intersection_of: attribute_of UBERON:0001686 ! auditory ossicle bone
 
 [Term]
 id: VT:0003743
@@ -32170,7 +32184,7 @@ is_a: VT:0000049 ! middle ear morphology trait
 is_a: VT:0002114 ! axial skeleton morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0001686 ! auditory ossicle
+intersection_of: attribute_of UBERON:0001686 ! auditory ossicle bone
 
 [Term]
 id: VT:0005106
