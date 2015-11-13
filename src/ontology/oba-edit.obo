@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:09:2015 08:40
+date: 13:11:2015 10:21
 saved-by: cjmungall
 auto-generated-by: TermGenie 1.0
 default-namespace: oba
@@ -2414,6 +2414,16 @@ relationship: affects_quality PATO:0000970 {is_inferred="true"} ! permeability
 relationship: attribute_of GO:0005789 {is_inferred="true"} ! endoplasmic reticulum membrane
 created_by: cjmungall
 creation_date: 2015-09-29T15:36:19Z
+
+[Term]
+id: OBA:1000164
+name: cotyledon weight
+def: "OBSOLETE. Any measurable or observable characteristic related to the weight of a cotyledon." [GOC:TermGenie]
+comment: This term was obsoleted at the TermGenie Gatekeeper stage.
+synonym: "cotyledon weight trait" EXACT [GOC:TermGenie]
+is_obsolete: true
+created_by: cjmungall
+creation_date: 2015-11-13T18:16:42Z
 
 [Term]
 id: TO:0000001
