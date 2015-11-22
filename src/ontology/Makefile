@@ -4,6 +4,8 @@ SRC=oba-edit.obo
 
 all: oba.owl all_subsets
 
+test: all
+
 release: all copy-release
 
 TARGETS = oba.obo oba.owl imports subsets
@@ -50,6 +52,16 @@ legacy-sync:
 	cp $(HOME)/repos/go/ontology/extensions/bio-attributes.obo oba-edit.obo
 
 
+# ----------------------------------------
+# TO
+# ----------------------------------------
+oba-to.obo: oba-edit.obo
+	obo-grep.pl -r 'id: TO' $< > $@
+
+oba-to-xp.obo: oba-to.obo
+	obo-grep.pl -r intersection_of $< | obo-filter-tags.pl -t id -t name -t intersection_of > $@
+oba-to-noxp.obo: oba-to.obo
+	obo-grep.pl --neg -r intersection_of $< | obo-grep.pl --neg -r is_obsolete -  > $@
 
 # ----------------------------------------
 # Regenerate imports
@@ -109,3 +121,13 @@ mirror/ncbitaxon.owl: ncbitaxon.obo
 
 mirror/pco.owl: imports/pco_basic.obo
 	OWLTOOLS_MEMORY=12G owltools $< --set-ontology-id $(OBO)/pco.owl -o $@
+
+# See: https://github.com/Planteome/plant-trait-ontology/issues/302
+reports/pato-viol.tsv: oba-edit.obo
+	blip-findall  -i $< -r pato "subclass(X,Y),P=affects_quality,differentium(X,P,XQ),differentium(Y,P,YQ),\+subclassRT(XQ,YQ)" -select "x(X,Y,XQ,YQ)" -label -no_pred > $@
+
+reports/po-viol.tsv: oba-edit.obo
+	blip-findall  -i $< -r PO "subclass(X,Y),P=attribute_of,differentium(X,P,XQ),id_idspace(XQ,'PO'),differentium(Y,P,YQ),id_idspace(YQ,'PO'),\+parentRT(XQ,YQ)" -select "x(X,Y,XQ,YQ)" -label -no_pred > $@
+
+reports/po-sc-viol.tsv: oba-edit.obo
+	blip-findall  -i $< -r PO "subclass(X,Y),P=attribute_of,differentium(X,P,XQ),id_idspace(XQ,'PO'),differentium(Y,P,YQ),id_idspace(YQ,'PO'),\+subclassRT(XQ,YQ)" -select "x(X,Y,XQ,YQ)" -label -no_pred > $@
