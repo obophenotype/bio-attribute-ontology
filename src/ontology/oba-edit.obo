@@ -15545,7 +15545,7 @@ def: "The distance between the exterior surface and the interior surface of the 
 is_a: VT:0000017 ! outer ear size trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000915 ! thickness
-intersection_of: attribute_of UBERON:0001690 ! ear
+intersection_of: attribute_of UBERON:0001691 ! external ear
 
 [Term]
 id: VT:0000149
@@ -17999,7 +17999,7 @@ is_a: VT:0000801 ! temporal lobe morphology trait
 is_a: VT:0004166 ! limbic system morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0001954 ! Ammon's horn
+intersection_of: attribute_of UBERON:0002421 ! hippocampal formation
 
 [Term]
 id: VT:0000808
@@ -18040,7 +18040,7 @@ synonym: "hippocampus proper morphology trait" EXACT []
 is_a: VT:0000807 ! hippocampus morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0004165
+intersection_of: attribute_of UBERON:0001954 ! Ammon's horn
 
 [Term]
 id: VT:0000816
@@ -19756,7 +19756,7 @@ synonym: "cranial ganglia morphology trait" EXACT []
 is_a: VT:0002752 ! somatic nervous system morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0003213
+intersection_of: attribute_of UBERON:0001714 ! cranial ganglion
 
 [Term]
 id: VT:0001082
@@ -23380,7 +23380,7 @@ synonym: "gestational length" EXACT []
 xref: ATOL:0002292
 is_a: VT:0003699 ! female reproductive system physiology trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000122 ! length
+intersection_of: affects_quality PATO:0001309 ! duration
 intersection_of: attribute_of GO:0007565 ! female pregnancy
 
 [Term]
@@ -40523,7 +40523,7 @@ xref: ATOL:0000578
 is_a: VT:0000462 ! gastrointestinal system morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0008827 ! murine forestomach
+intersection_of: attribute_of UBERON:0007359 ! ruminant forestomach
 created_by: caripark
 creation_date: 2010-05-18T02:21:33Z
 
@@ -40536,7 +40536,7 @@ xref: ATOL:0000568
 is_a: VT:0010235 ! forestomach morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000918 ! volume
-intersection_of: attribute_of UBERON:0008827 ! murine forestomach
+intersection_of: attribute_of UBERON:0007359 ! ruminant forestomach
 created_by: caripark
 creation_date: 2010-05-18T02:23:08Z
 
@@ -40550,7 +40550,7 @@ xref: ATOL:0000579
 is_a: VT:0010235 ! forestomach morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000125 ! mass
-intersection_of: attribute_of UBERON:0008827 ! murine forestomach
+intersection_of: attribute_of UBERON:0007359 ! ruminant forestomach
 created_by: caripark
 creation_date: 2010-05-18T02:24:09Z
 
