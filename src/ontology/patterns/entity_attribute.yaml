@@ -1,0 +1,38 @@
+pattern_name: oba/patterns/entity_attribute
+classes: []
+
+relations:
+  inheres in: RO:0000052
+  inheres in part of: RO:0002314
+    
+vars: 
+  attribute: "'Thing'"
+  entity: "'Thing'"
+
+name:
+  text: "%s of %s"
+  vars:
+    - attribute
+    - entity
+    
+def: 
+  text: "The %s of a %s."
+  vars:
+    - attribute
+    - entity
+    
+equivalentTo: 
+  text: "%s and 'inheres in' some %s"
+  vars:
+    - attribute
+    - entity
+
+# TODO: this is currently incomplete, due to manchester
+# https://github.com/obophenotype/bio-attribute-ontology/issues/8
+subClassOf: 
+  text: "%s and 'inheres in part of' some %s"
+  vars:
+    - attribute
+    - entity
+    
+

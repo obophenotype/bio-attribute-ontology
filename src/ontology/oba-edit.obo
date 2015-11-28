@@ -2584,7 +2584,7 @@ def: "Any measurable or observable characteristic related to the shape, structur
 is_a: VT:0007082 ! ventricle septum morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0004143
+intersection_of: attribute_of UBERON:0004666 ! interventricular septum membranous part
 
 [Term]
 id: VT:0000019
@@ -3486,7 +3486,7 @@ synonym: "shoulder blade morphology trait" EXACT []
 is_a: VT:0010089 ! shoulder girdle morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0001124
+intersection_of: attribute_of UBERON:0006849 ! scapula
 
 [Term]
 id: VT:0000150
@@ -7169,7 +7169,7 @@ synonym: "rod morphology trait" EXACT []
 is_a: VT:0001004 ! retinal photoreceptor morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of PR:000009431
+intersection_of: attribute_of CL:0000604 ! retinal rod cell
 
 [Term]
 id: VT:0001006
@@ -7296,7 +7296,7 @@ synonym: "L5 sympathetic ganglion morphology trait" RELATED []
 is_a: VT:0015054 ! lumbar dorsal root ganglion morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0003944
+intersection_of: attribute_of UBERON:0002859 ! fifth lumbar dorsal root ganglion
 
 [Term]
 id: VT:0001023
@@ -13534,7 +13534,7 @@ synonym: "pyramidal tract morphology trait" EXACT []
 is_a: VT:0000778 ! nervous system tract morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0004095
+intersection_of: attribute_of UBERON:0002707 ! corticospinal tract
 
 [Term]
 id: VT:0002882
@@ -18189,7 +18189,7 @@ def: "Any measurable or observable characteristic related to the physical magnit
 is_a: VT:0005203 ! trabecular meshwork morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
-intersection_of: attribute_of UBERON:0004028
+intersection_of: attribute_of UBERON:0005969 ! eye trabecular meshwork
 
 [Term]
 id: VT:0004226
@@ -18905,7 +18905,7 @@ def: "The distance from point to point along the longest axis of either or both 
 is_a: VT:0004343 ! scapula size trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000122 ! length
-intersection_of: attribute_of UBERON:0001124
+intersection_of: attribute_of UBERON:0006849 ! scapula
 
 [Term]
 id: VT:0004343
@@ -18914,7 +18914,7 @@ def: "Any measurable or observable characteristic related to the physical magnit
 is_a: VT:0000149 ! scapula morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
-intersection_of: attribute_of UBERON:0001124
+intersection_of: attribute_of UBERON:0006849 ! scapula
 
 [Term]
 id: VT:0004344
@@ -20470,7 +20470,7 @@ def: "Any measurable or observable characteristic related to the shape, structur
 is_a: VT:0004221 ! iridocorneal angle morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0004028
+intersection_of: attribute_of UBERON:0005969 ! eye trabecular meshwork
 
 [Term]
 id: VT:0005204
@@ -21029,7 +21029,7 @@ def: "Any measurable or observable characteristic related to the function of or 
 synonym: "urinary bladder dysfunction" EXACT []
 is_a: VT:0005502 ! urinary system physiology trait
 intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0001641
+intersection_of: affects_quality PATO:0001509 ! functionality
 intersection_of: attribute_of UBERON:0001255 ! urinary bladder
 
 [Term]
@@ -24359,7 +24359,8 @@ synonym: "splenic B cell follicle morphology trait" EXACT []
 is_a: VT:0002357 ! spleen white pulp morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0003969
+intersection_of: attribute_of CL:0000236 ! B cell
+intersection_of: occurs_in UBERON:0002106 ! spleen
 
 [Term]
 id: VT:0008471

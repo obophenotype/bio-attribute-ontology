@@ -122,6 +122,18 @@ mirror/ncbitaxon.owl: ncbitaxon.obo
 mirror/pco.owl: imports/pco_basic.obo
 	OWLTOOLS_MEMORY=12G owltools $< --set-ontology-id $(OBO)/pco.owl -o $@
 
+
+# ----------------------------------------
+# DESIGN PATTERNS AND TEMPLATES
+# ----------------------------------------
+all_modules: modules/entity_attribute.owl
+
+modules/%.owl: patterns/%_fillers.tsv patterns/%.yaml
+	apply-pattern.py -b http://purl.obolibrary.org/obo/ -i $< -p patterns/$*.yaml
+
+# ----------------------------------------
+# REPORTS
+# ----------------------------------------
 # See: https://github.com/Planteome/plant-trait-ontology/issues/302
 
 reports/vt-viol.tsv: oba-edit.obo
@@ -135,3 +147,6 @@ reports/po-viol.tsv: oba-edit.obo
 
 reports/po-sc-viol.tsv: oba-edit.obo
 	blip-findall  -i $< -r PO "subclass(X,Y),P=attribute_of,differentium(X,P,XQ),id_idspace(XQ,'PO'),differentium(Y,P,YQ),id_idspace(YQ,'PO'),\+subclassRT(XQ,YQ)" -select "x(X,Y,XQ,YQ)" -label -no_pred > $@
+
+reports/eq.tsv: oba-edit.obo
+	blip-findall -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eq/3 -no_pred -label -use_tabs > $@
