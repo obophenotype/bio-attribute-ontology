@@ -31,6 +31,12 @@ subsets/oba-basic.obo: oba-simple.obo
 	owltools $< --set-ontology-id $(OBO)/oba/$@ -o -f obo $@
 
 # ----------------------------------------
+# VT
+# ----------------------------------------
+vt.obo:
+	wget $(OBO)/vt.obo -O $@
+
+# ----------------------------------------
 # OBA
 # ----------------------------------------
 # See: http://wiki.geneontology.org/index.php/Extensions/x-attribute
@@ -101,22 +107,22 @@ imports/%_import.obo: imports/%_import.owl
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.owl: $(SRC)
-	owltools $(OBO)/$*.owl --remove-annotation-assertions -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
+	owltools $(OBO)/$*.owl --remove-annotation-assertions -r -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
 .PRECIOUS: mirror/%.owl
 mirror/ro.owl: $(SRC)
 	owltools $(OBO)/ro.owl --merge-imports-closure -o $@
 .PRECIOUS: mirror/%.owl
 mirror/uberon.owl: $(SRC)
-	owltools $(OBO)/uberon/basic.owl --remove-annotation-assertions -l -s -d --remove-axiom-annotations --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(OBO)/uberon.owl -o $@
+	owltools $(OBO)/uberon/basic.owl --remove-annotation-assertions -r -l -s -d --remove-axiom-annotations --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(OBO)/uberon.owl -o $@
 .PRECIOUS: mirror/%.owl
 mirror/po.owl: $(SRC)
-	owltools $(OBO)/po.owl --remove-annotation-assertions -l -s -d --remove-axiom-annotations --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(OBO)/po.owl -o $@
+	owltools $(OBO)/po.owl --remove-annotation-assertions -r -l -s -d --remove-axiom-annotations --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(OBO)/po.owl -o $@
 .PRECIOUS: mirror/%.owl
 ncbitaxon.obo:
 	wget -N $(OBO)/ncbitaxon.obo
 .PRECIOUS: ncbitaxon.obo
 mirror/ncbitaxon.owl: ncbitaxon.obo
-	OWLTOOLS_MEMORY=12G owltools $< --remove-annotation-assertions -l -s -d --remove-axiom-annotations --remove-dangling-annotations  --set-ontology-id $(OBO)/ncbitaxon.owl -o $@
+	OWLTOOLS_MEMORY=12G owltools $< --remove-annotation-assertions -r -l -s -d --remove-axiom-annotations --remove-dangling-annotations  --set-ontology-id $(OBO)/ncbitaxon.owl -o $@
 .PRECIOUS: mirror/ncbitaxon.owl
 
 mirror/pco.owl: imports/pco_basic.obo
@@ -126,12 +132,28 @@ mirror/pco.owl: imports/pco_basic.obo
 # ----------------------------------------
 # DESIGN PATTERNS AND TEMPLATES
 # ----------------------------------------
-all_modules: modules/entity_attribute.owl
+MODS = entity_attribute entity_attribute_location has_part
 
-modules/%.owl: modules/%.tsv patterns/%.yaml
-	apply-pattern.py -b http://purl.obolibrary.org/obo/ -i $< -p patterns/$*.yaml > $@.tmp && mv $@.tmp $@
+all_modules: $(patsubst %, modules/%.owl, $(MODS))
+
+modules/%-main.owl: modules/%.tsv patterns/%.yaml
+	apply-pattern.py -b http://purl.obolibrary.org/obo/ -i $< -p patterns/$*.yaml -G modules/$*-gci.owl > $@.tmp && mv $@.tmp $@
+modules/%.owl: modules/%-main.owl modules/%-gci.owl
+	owltools $^ --merge-support-ontologies -o -f ofn $@
+
 modules/%.obo: modules/%.owl
-	owltools $< -o -f obo $@
+	owltools $< -o -f obo $@.tmp && grep -v ^owl-axioms $@.tmp > $@
+
+# VT is isolated to prevent isa-poisoning
+modules/has_part.tsv: modules/entity_attribute.tsv
+	./util/make-vt-equiv-tsv.pl $< > $@
+
+
+oba-merged.owl: oba-edit.obo modules/entity_attribute.owl
+	owltools --use-catalog $^ --merge-support-ontologies -o $@
+
+svfs.owl:
+	owltools modules/entity_attribute.owl imports/*owl --merge-support-ontologies --reasoner elk --silence-elk --materialize-gcis -o $@
 
 # ----------------------------------------
 # REPORTS
@@ -152,3 +174,12 @@ reports/po-sc-viol.tsv: oba-edit.obo
 
 reports/eq.tsv: oba-edit.obo
 	blip-findall -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eq/3 -no_pred -label -use_tabs > $@
+reports/eq_root.tsv: oba-edit.obo
+	blip-findall -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eq_root/3 -no_pred -label -use_tabs > $@.tmp && ./util/fix-ids.pl $@.tmp > $@
+reports/eq_eroot.tsv: oba-edit.obo
+	blip-findall -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eq_eroot/3 -no_pred -label -use_tabs > $@.tmp && ./util/fix-ids.pl $@.tmp > $@
+reports/eqw.tsv: oba-edit.obo
+	blip-findall -r chebi -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eqw/4 -no_pred -label -use_tabs > $@.tmp && ./util/fix-ids.pl $@.tmp > $@
+
+reports/patterns.tsv: oba-edit.obo
+	blip-findall -i $< -consult util/patterns.pro idspace_pattern/3 -no_pred > $@

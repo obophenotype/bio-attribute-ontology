@@ -11355,10 +11355,6 @@ name: blood gas amount
 def: "The proportion, quantity, or volume of oxygen and carbon dioxide in whole blood, serum, or plasma." [MGI:cwg]
 synonym: "blood gas level" RELATED []
 is_a: VT:0015078 ! blood homeostasis trait
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
-intersection_of: attribute_of GO:0034005 ! germacrene-A synthase activity
-intersection_of: occurs_in UBERON:0000178 ! blood
 
 [Term]
 id: VT:0002332
@@ -16892,10 +16888,6 @@ name: aorta elastin amount
 def: "The proportion, quantity, or volume of elastin in the aorta." [RGD:ms]
 synonym: "aortic elastin content" RELATED []
 is_a: VT:0007048 ! aorta elastic tissue molecular composition trait
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
-intersection_of: attribute_of GO:0030023 ! extracellular matrix constituent conferring elasticity
-intersection_of: occurs_in UBERON:0000947 ! aorta
 
 [Term]
 id: VT:0003920
@@ -20246,10 +20238,6 @@ synonym: "serum levels of PRL" RELATED []
 synonym: "serum levels of prolactin" RELATED []
 is_a: VT:0003361 ! blood gonadotropin amount
 is_a: VT:0005116 ! blood pituitary hormone amount
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
-intersection_of: attribute_of GO:0005148 ! prolactin receptor binding
-intersection_of: occurs_in UBERON:0000178 ! blood
 
 [Term]
 id: VT:0005144
@@ -24526,10 +24514,6 @@ synonym: "circulating IFN-gamma level" RELATED []
 synonym: "circulating interferon type II level" RELATED []
 synonym: "circulating interferon-gamma level" RELATED []
 is_a: VT:0008548 ! blood interferon amount
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
-intersection_of: attribute_of GO:0005133 ! interferon-gamma receptor binding
-intersection_of: occurs_in UBERON:0000178 ! blood
 
 [Term]
 id: VT:0008552
@@ -24544,10 +24528,6 @@ synonym: "circulating tumor necrosis factor alpha level" RELATED []
 synonym: "circulating tumor necrosis factor level" RELATED []
 is_a: VT:0005416 ! blood protein amount
 is_a: VT:0008752 ! tumor necrosis factor amount
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
-intersection_of: attribute_of GO:0005164 ! tumor necrosis factor receptor binding
-intersection_of: occurs_in UBERON:0000178 ! blood
 
 [Term]
 id: VT:0008555
@@ -28725,10 +28705,6 @@ name: colostrum immunoglobulin amount
 def: "The proportion, quantity, or volume of proteins that function as a primary mechanism for protection against disease present in the first secretion of the mammary gland before milk production." [VTO:CP, VTO:INRA]
 xref: ATOL:0000591
 is_a: VT:0010256 ! colostrum trait
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
-intersection_of: attribute_of GO:0003823 ! antigen binding
-intersection_of: occurs_in UBERON:0001914 ! colostrum
 created_by: caripark
 creation_date: 2010-05-19T03:47:57Z
 
@@ -28771,10 +28747,6 @@ def: "Any measurable or observable characteristic related to the proportion, qua
 synonym: "milk fat content" EXACT []
 xref: ATOL:0001520
 is_a: VT:0004047 ! milk trait
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
-intersection_of: attribute_of PR:000001905 ! platelet glycoprotein 4
-intersection_of: occurs_in UBERON:0001913 ! milk
 created_by: caripark
 creation_date: 2010-05-19T04:15:04Z
 
@@ -28910,10 +28882,6 @@ def: "The proportion, quantity, or volume in colostrum of the hormone that stimu
 synonym: "colostrum prolactin concentration" RELATED []
 xref: ATOL:0000604
 is_a: VT:0010269 ! colostrum hormone amount
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
-intersection_of: attribute_of GO:0005148 ! prolactin receptor binding
-intersection_of: occurs_in UBERON:0001914 ! colostrum
 created_by: caripark
 creation_date: 2010-05-21T09:59:08Z
 
@@ -28992,10 +28960,6 @@ synonym: "milk prolactin concentration" RELATED []
 synonym: "milk prolactin content" EXACT []
 xref: ATOL:0000610
 is_a: VT:0010275 ! milk hormone amount
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
-intersection_of: attribute_of GO:0005148 ! prolactin receptor binding
-intersection_of: occurs_in UBERON:0001913 ! milk
 created_by: caripark
 creation_date: 2010-05-21T11:26:27Z
 
@@ -31295,10 +31259,6 @@ id: VT:0010479
 name: blood insulin-like growth factor amount
 def: "The proportion, quantity, or volume in whole blood, serum, or plasma of this protein hormone, which is similar in molecular structure to insulin and plays a role in childhood growth and anabolic effects in adults." [MGI:mb]
 is_a: VT:0005418 ! blood hormone amount
-intersection_of: OBA:0000001 ! biological attribute
-intersection_of: affects_quality PATO:0000070 ! amount
-intersection_of: attribute_of GO:0005159 ! insulin-like growth factor receptor binding
-intersection_of: occurs_in UBERON:0000178 ! blood
 created_by: caripark
 creation_date: 2012-11-28T03:07:01Z
 
