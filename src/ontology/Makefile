@@ -123,6 +123,10 @@ mirror/pco.owl: imports/pco_basic.obo
 	OWLTOOLS_MEMORY=12G owltools $< --set-ontology-id $(OBO)/pco.owl -o $@
 
 # See: https://github.com/Planteome/plant-trait-ontology/issues/302
+
+reports/vt-viol.tsv: oba-edit.obo
+	blip-findall  -i $< -r uberons "subclass(X,Y),P=attribute_of,differentium(X,P,XQ),id_idspace(XQ,'UBERON'),differentium(Y,P,YQ),id_idspace(YQ,'UBERON'),\+parentRT(XQ,YQ)" -select "x(X,Y,XQ,YQ)" -label -no_pred > $@
+
 reports/pato-viol.tsv: oba-edit.obo
 	blip-findall  -i $< -r pato "subclass(X,Y),P=affects_quality,differentium(X,P,XQ),differentium(Y,P,YQ),\+subclassRT(XQ,YQ)" -select "x(X,Y,XQ,YQ)" -label -no_pred > $@
 
