@@ -130,6 +130,8 @@ all_modules: modules/entity_attribute.owl
 
 modules/%.owl: modules/%.tsv patterns/%.yaml
 	apply-pattern.py -b http://purl.obolibrary.org/obo/ -i $< -p patterns/$*.yaml > $@.tmp && mv $@.tmp $@
+modules/%.obo: modules/%.owl
+	owltools $< -o -f obo $@
 
 # ----------------------------------------
 # REPORTS

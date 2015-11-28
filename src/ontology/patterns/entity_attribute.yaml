@@ -14,7 +14,14 @@ name:
   vars:
     - attribute
     - entity
-    
+
+annotations: 
+  - property: oio:hasExactSynonym
+    text: "%s %s."
+    vars:
+      - entity
+      - attribute
+
 def: 
   text: "The %s of a %s."
   vars:
@@ -27,12 +34,15 @@ equivalentTo:
     - attribute
     - entity
 
-# TODO: this is currently incomplete, due to manchester
+# (Q and inheres_in some part-of some W) SubClassOf part-of some (Q and inheres-in some W)
 # https://github.com/obophenotype/bio-attribute-ontology/issues/8
-subClassOf: 
-  text: "%s and 'inheres in part of' some %s"
-  vars:
-    - attribute
-    - entity
+axioms: 
+  - syntax: ofn
+    text: "SubClassOf(ObjectIntersectionOf(%s ObjectSomeValuesFrom('inheres in' ObjectSomeValuesFrom('part of' %s))) ObjectSomeValuesFrom(%s ObjectIntersectionOf(%s ObjectSomeValuesFrom('inheres in' %s))))" 
+    vars:
+      - attribute
+      - entity
+      - attribute
+      - entity
     
 
