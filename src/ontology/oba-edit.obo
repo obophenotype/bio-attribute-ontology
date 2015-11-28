@@ -20585,7 +20585,7 @@ def: "Any measurable or observable characteristic related to the location or arr
 is_a: VT:0002092 ! eye morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000133 ! orientation
-intersection_of: attribute_of UBERON:0000970 ! eye
+intersection_of: attribute_of UBERON:0000019 ! camera-type eye
 
 [Term]
 id: VT:0001300
@@ -22312,7 +22312,7 @@ is_a: VT:0003743 ! facial morphology trait
 is_a: VT:0015066 ! surface structure morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000051 ! morphology
-intersection_of: attribute_of UBERON:0000970 ! eye
+intersection_of: attribute_of UBERON:0000019 ! camera-type eye
 
 [Term]
 id: VT:0002093
@@ -24913,7 +24913,7 @@ def: "Any measurable or observable characteristic related to the physical magnit
 is_a: VT:0002092 ! eye morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000117 ! size
-intersection_of: attribute_of UBERON:0000970 ! eye
+intersection_of: attribute_of UBERON:0000019 ! camera-type eye
 
 [Term]
 id: VT:0002698
@@ -29647,7 +29647,7 @@ def: "Any measurable or observable characteristic related to the physical form o
 is_a: VT:0002092 ! eye morphology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0000052 ! shape
-intersection_of: attribute_of UBERON:0000970 ! eye
+intersection_of: attribute_of UBERON:0000019 ! camera-type eye
 
 [Term]
 id: VT:0004107
@@ -32879,7 +32879,7 @@ is_a: VT:0005391 ! vision system trait
 is_a: VT:0015027 ! craniofacial physiology trait
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001509 ! functionality
-intersection_of: attribute_of UBERON:0000970 ! eye
+intersection_of: attribute_of UBERON:0000019 ! camera-type eye
 
 [Term]
 id: VT:0005254
@@ -38032,8 +38032,9 @@ id: VT:0010009
 name: femur mass
 def: "The amount of matter in the long bone of the thigh." [ISBN:0-683-40008-8]
 is_a: VT:1000369 ! femur size trait
-intersection_of: VT:0002308
-intersection_of: attribute_of UBERON:0001913 ! milk
+intersection_of: OBA:0000001 ! biological attribute
+intersection_of: affects_quality PATO:0000125 ! mass
+intersection_of: attribute_of UBERON:0000981 ! femur
 created_by: caripark
 creation_date: 2011-10-18T10:14:44Z
 
