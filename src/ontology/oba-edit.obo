@@ -547,7 +547,6 @@ id: OBA:0000121
 name: pH
 intersection_of: OBA:0000001 ! biological attribute
 intersection_of: affects_quality PATO:0001842 ! acidity
-intersection_of: attribute_of CARO:0000000
 
 [Term]
 id: OBA:0000122

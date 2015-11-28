@@ -2,8 +2,8 @@ pattern_name: oba/patterns/entity_attribute
 classes: []
 
 relations:
-  inheres in: RO:0000052
-  inheres in part of: RO:0002314
+  inheres in: RO_0000052
+  inheres in part of: RO_0002314
     
 vars: 
   attribute: "'Thing'"

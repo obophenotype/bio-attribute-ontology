@@ -128,8 +128,8 @@ mirror/pco.owl: imports/pco_basic.obo
 # ----------------------------------------
 all_modules: modules/entity_attribute.owl
 
-modules/%.owl: patterns/%_fillers.tsv patterns/%.yaml
-	apply-pattern.py -b http://purl.obolibrary.org/obo/ -i $< -p patterns/$*.yaml
+modules/%.owl: modules/%.tsv patterns/%.yaml
+	apply-pattern.py -b http://purl.obolibrary.org/obo/ -i $< -p patterns/$*.yaml > $@.tmp && mv $@.tmp $@
 
 # ----------------------------------------
 # REPORTS
