@@ -9,5 +9,7 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/pato_import.owl" uri="imports/pato_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/ro_import.owl" uri="imports/ro_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/modules/entity_attribute.owl" uri="modules/entity_attribute.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/modules/entity_attribute_location.owl" uri="modules/entity_attribute_location.owl"/>
     <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
 </catalog>

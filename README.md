@@ -7,10 +7,15 @@ This repository contains source files for OBA (Ontology of Biological Attributes
 
 # useful links
 
- * [OBA TermGenie](http://oba.termgenie.org)
  * [issues](https://github.com/obophenotype/bio-attribute-ontology/)
- * [OBA in OntoBee](http://www.ontobee.org/browser/index.php?o=OBA)
+ * [OBO Library Homepage](http://obofoundry.org/ontology/oba.html)
  * [Editors guide](src/ontology/README-editors.md)
+
+# TermGenie
+
+ * [OBA TermGenie](http://oba.termgenie.org)
+
+Note that TG for OBA is currently inactive
 
 # construction
 

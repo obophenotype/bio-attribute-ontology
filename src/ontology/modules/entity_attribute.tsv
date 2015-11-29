@@ -2011,232 +2011,312 @@ OBA_VT4000011	endocrine pancreas morphology trait	UBERON_0000016	endocrine pancr
 OBA_VT4000012	mucous gland morphology trait	UBERON_0000414	mucous gland	PATO_0000051	morphology
 OBA_0000018	appetite	NBO_0000235		PATO_0000001	quality
 OBA_0000139	synapse structure and activity	GO_0045202	synapse	PATO_0000001	quality
-VT_0000057	ossification trait	GO_0001503	ossification	PATO_0000001	quality
-VT_0000059	osteoclast development trait	GO_0036035	osteoclast development	PATO_0000001	quality
-VT_0000116	tooth development trait	GO_0042476	odontogenesis	PATO_0000001	quality
-VT_0000119	tooth eruption trait	GO_0044691	tooth eruption	PATO_0000001	quality
-VT_0000121	cardiovascular system development trait	GO_0072358	cardiovascular system development	PATO_0000001	quality
-VT_0000122	blood vessel development trait	GO_0001568	blood vessel development	PATO_0000001	quality
-VT_0000164	cartilage development trait	GO_0051216	cartilage development	PATO_0000001	quality
-VT_0000197	vasodilation trait	GO_0042311	vasodilation	PATO_0000001	quality
-VT_0000198	vasoconstriction trait	GO_0042310	vasoconstriction	PATO_0000001	quality
-VT_0000229	megakaryocyte development trait	GO_0035855	megakaryocyte development	PATO_0000001	quality
-VT_0000245	erythropoiesis trait	GO_0030218	erythrocyte differentiation	PATO_0000001	quality
-VT_0000260	hemostasis trait	GO_0007599	hemostasis	PATO_0000001	quality
-VT_0000267	heart development trait	GO_0007507	heart development	PATO_0000001	quality
-VT_0000427	hair cycle trait	GO_0042633	hair cycle	PATO_0000001	quality
-VT_0000527	kidney development trait	GO_0001822	kidney development	PATO_0000001	quality
-VT_0000596	liver development trait	GO_0001889	liver development	PATO_0000001	quality
-VT_0000623	salivation trait	GO_0046541	saliva secretion	PATO_0000001	quality
-VT_0000628	mammary gland development trait	GO_0030879	mammary gland development	PATO_0000001	quality
-VT_0000704	thymus development trait	GO_0048538	thymus development	PATO_0000001	quality
-VT_0000712	vestibular hair cell development trait	GO_0060118	vestibular receptor cell development	PATO_0000001	quality
-VT_0000737	myotome development trait	GO_0061055	myotome development	PATO_0000001	quality
-VT_0000808	hippocampus development trait	GO_0021766	hippocampus development	PATO_0000001	quality
-VT_0000854	cerebellum development trait	GO_0021549	cerebellum development	PATO_0000001	quality
-VT_0000913	brain development trait	GO_0007420	brain development	PATO_0000001	quality
-VT_0000920	myelination trait	GO_0042552	myelination	PATO_0000001	quality
-VT_0000934	telencephalon development trait	GO_0021537	telencephalon development	PATO_0000001	quality
-VT_0001156	spermatogenesis trait	GO_0007283	spermatogenesis	PATO_0000001	quality
-VT_0001176	lung development trait	GO_0030324	lung development	PATO_0000001	quality
-VT_0001225	epidermis development trait	GO_0008544	epidermis development	PATO_0000001	quality
-VT_0001286	eye development trait	GO_0001654	eye development	PATO_0000001	quality
-VT_0001324	eye pigmentation trait	GO_0048069	eye pigmentation	PATO_0000001	quality
-VT_0001422	drinking behavior trait	GO_0042756	drinking behavior	PATO_0000001	quality
-VT_0001431	eating behavior trait	GO_0042755	eating behavior	PATO_0000001	quality
-VT_0001440	grooming behavior trait	GO_0007625	grooming behavior	PATO_0000001	quality
-VT_0001525	balance trait	PATO_0000185	balance	PATO_0000001	quality
-VT_0001529	vocalization trait	GO_0071625	vocalization behavior	PATO_0000001	quality
-VT_0001601	myelopoiesis trait	GO_0061515	myeloid cell development	PATO_0000001	quality
-VT_0001664	digestion trait	GO_0007586	digestion	PATO_0000001	quality
-VT_0001675	ectoderm development trait	GO_0007398	ectoderm development	PATO_0000001	quality
-VT_0001680	mesoderm development trait	GO_0007498	mesoderm development	PATO_0000001	quality
-VT_0001685	endoderm development trait	GO_0007492	endoderm development	PATO_0000001	quality
-VT_0001688	somite development trait	GO_0061053	somite development	PATO_0000001	quality
-VT_0001695	gastrulation trait	GO_0007369	gastrulation	PATO_0000001	quality
-VT_0001712	placenta development trait	GO_0001890	placenta development	PATO_0000001	quality
-VT_0001727	embryo implantation trait	GO_0007566	embryo implantation	PATO_0000001	quality
-VT_0001740	epinephrine secretion trait	GO_0048242	epinephrine secretion	PATO_0000001	quality
-VT_0001744	corticosterone secretion trait	GO_0035934	corticosterone secretion	PATO_0000001	quality
-VT_0001764	homeostasis trait	GO_0042592	homeostatic process	PATO_0000001	quality
-VT_0001765	ion homeostasis trait	GO_0050801	ion homeostasis	PATO_0000001	quality
-VT_0001784	fluid regulation trait	GO_0050878	regulation of body fluid levels	PATO_0000001	quality
-VT_0001835	antigen presentation trait	GO_0019882	antigen processing and presentation	PATO_0000001	quality
-VT_0001882	lactation trait	GO_0007595	lactation	PATO_0000001	quality
-VT_0001923	female fertility trait	PATO_0000277	female fertility	PATO_0000001	quality
-VT_0001928	ovulation trait	GO_0030728	ovulation	PATO_0000001	quality
-VT_0001930	meiosis trait	GO_0007126	meiotic nuclear division	PATO_0000001	quality
-VT_0001931	oogenesis trait	GO_0048477	oogenesis	PATO_0000001	quality
-VT_0001932	spermiogenesis trait	GO_0007286	spermatid development	PATO_0000001	quality
-VT_0001961	reflex trait	GO_0060004	reflex	PATO_0000001	quality
-VT_0001984	olfaction trait	GO_0007608	sensory perception of smell	PATO_0000001	quality
-VT_0002068	parental behavior trait	GO_0060746	parental behavior	PATO_0000001	quality
-VT_0002090	vision trait	GO_0007601	visual perception	PATO_0000001	quality
-VT_0002118	lipid homeostasis trait	GO_0055088	lipid homeostasis	PATO_0000001	quality
-VT_0002121	metabolism trait	GO_0008152	metabolic process	PATO_0000001	quality
-VT_0002123	hematopoiesis trait	GO_0030097	hemopoiesis	PATO_0000001	quality
-VT_0002144	B cell development trait	GO_0030183	B cell differentiation	PATO_0000001	quality
-VT_0002145	T cell development trait	GO_0030217	T cell differentiation	PATO_0000001	quality
-VT_0002210	sex determination trait	GO_0007530	sex determination	PATO_0000001	quality
-VT_0002211	primary sex determination trait	GO_0008406	gonad development	PATO_0000001	quality
-VT_0002419	innate immune response trait	GO_0045087	innate immune response	PATO_0000001	quality
-VT_0002551	blood coagulation trait	GO_0007596	blood coagulation	PATO_0000001	quality
-VT_0002656	keratinocyte development trait	GO_0003334	keratinocyte development	PATO_0000001	quality
-VT_0002658	liver regeneration trait	GO_0097421	liver regeneration	PATO_0000001	quality
-VT_0002674	sperm motility trait	GO_0030317	sperm motility	PATO_0000001	quality
-VT_0002713	glycogen catabolism trait	GO_0005980	glycogen catabolic process	PATO_0000001	quality
-VT_0002733	thermal nociception trait	GO_0050965	detection of temperature stimulus involved in sensory perception of pain	PATO_0000001	quality
-VT_0002734	mechanical nociception trait	GO_0050966	detection of mechanical stimulus involved in sensory perception of pain	PATO_0000001	quality
-VT_0002735	chemical nociception trait	GO_0050968	detection of chemical stimulus involved in sensory perception of pain	PATO_0000001	quality
-VT_0002739	olfactory bulb development trait	GO_0021772	olfactory bulb development	PATO_0000001	quality
-VT_0002796	skin barrier function trait	GO_0033561	regulation of water loss via skin	PATO_0000001	quality
-VT_0002817	tooth mineralization trait	GO_0034505	tooth mineralization	PATO_0000001	quality
-VT_0002896	bone mineralization trait	GO_0030282	bone mineralization	PATO_0000001	quality
-VT_0002907	parturition trait	GO_0007567	parturition	PATO_0000001	quality
-VT_0002929	bile duct development trait	GO_0061009	common bile duct development	PATO_0000001	quality
-VT_0002949	neural crest cell development trait	GO_0014032	neural crest cell development	PATO_0000001	quality
-VT_0002950	neural crest cell migration trait	GO_0001755	neural crest cell migration	PATO_0000001	quality
-VT_0002961	axon guidance trait	GO_0007411	axon guidance	PATO_0000001	quality
-VT_0002982	germ cell migration trait	GO_0008354	germ cell migration	PATO_0000001	quality
-VT_0002998	bone remodeling trait	GO_0046849	bone remodeling	PATO_0000001	quality
-VT_0003009	cytokine secretion trait	GO_0050663	cytokine secretion	PATO_0000001	quality
-VT_0003088	prepulse inhibition trait	GO_0060134	prepulse inhibition	PATO_0000001	quality
-VT_0003115	respiratory system development trait	GO_0060541	respiratory system development	PATO_0000001	quality
-VT_0003156	leukocyte migration trait	GO_0050900	leukocyte migration	PATO_0000001	quality
-VT_0003232	forebrain development trait	GO_0030900	forebrain development	PATO_0000001	quality
-VT_0003356	luteinization trait	GO_0001553	luteinization	PATO_0000001	quality
-VT_0003357	granulosa cell differentiation trait	GO_0060014	granulosa cell differentiation	PATO_0000001	quality
-VT_0003383	gluconeogenesis trait	GO_0006094	gluconeogenesis	PATO_0000001	quality
-VT_0003396	embryonic hematopoiesis trait	GO_0035162	embryonic hemopoiesis	PATO_0000001	quality
-VT_0003421	thyroid gland development trait	GO_0030878	thyroid gland development	PATO_0000001	quality
-VT_0003444	neurotransmitter uptake trait	GO_0001504	neurotransmitter uptake	PATO_0000001	quality
-VT_0003501	iodide oxidation trait	GO_0070277	iodide oxidation	PATO_0000001	quality
-VT_0003506	growth hormone secretion trait	GO_0030252	growth hormone secretion	PATO_0000001	quality
-VT_0003531	vagina development trait	GO_0060068	vagina development	PATO_0000001	quality
-VT_0003564	insulin secretion trait	GO_0030073	insulin secretion	PATO_0000001	quality
-VT_0003565	glucagon secretion trait	GO_0070091	glucagon secretion	PATO_0000001	quality
-VT_0003572	uterus development trait	GO_0060065	uterus development	PATO_0000001	quality
-VT_0003627	leukocyte tethering or rolling trait	GO_0050901	leukocyte tethering or rolling	PATO_0000001	quality
-VT_0003628	leukocyte adhesion trait	GO_0007159	leukocyte cell-cell adhesion	PATO_0000001	quality
-VT_0003635	synaptic transmission trait	GO_0007268	synaptic transmission	PATO_0000001	quality
-VT_0003666	sperm capacitation trait	GO_0048240	sperm capacitation	PATO_0000001	quality
-VT_0003672	ureter development trait	GO_0072189	ureter development	PATO_0000001	quality
-VT_0003704	hair follicle development trait	GO_0001942	hair follicle development	PATO_0000001	quality
-VT_0003806	nucleotide metabolism trait	GO_0009117	nucleotide metabolic process	PATO_0000001	quality
-VT_0003816	pituitary gland development trait	GO_0021983	pituitary gland development	PATO_0000001	quality
-VT_0003861	nervous system development trait	GO_0007399	nervous system development	PATO_0000001	quality
-VT_0003864	midbrain development trait	GO_0030901	midbrain development	PATO_0000001	quality
-VT_0003893	hepatocyte proliferation trait	GO_0072574	hepatocyte proliferation	PATO_0000001	quality
-VT_0003934	pancreas development trait	GO_0031016	pancreas development	PATO_0000001	quality
-VT_0003936	reproductive system development trait	GO_0061458	reproductive system development	PATO_0000001	quality
-VT_0003938	ear development trait	GO_0043583	ear development	PATO_0000001	quality
-VT_0003941	skin development trait	GO_0043588	skin development	PATO_0000001	quality
-VT_0003943	hepatobiliary system development trait	GO_0061008	hepaticobiliary system development	PATO_0000001	quality
-VT_0004043	pH regulation trait	GO_0006885	regulation of pH	PATO_0000001	quality
-VT_0004096	midbrain-hindbrain boundary development trait	GO_0030917	midbrain-hindbrain boundary development	PATO_0000001	quality
-VT_0004109	Sertoli cell development trait	GO_0060009	Sertoli cell development	PATO_0000001	quality
-VT_0004171	pallium development trait	GO_0021543	pallium development	PATO_0000001	quality
-VT_0004172	subpallium development trait	GO_0021544	subpallium development	PATO_0000001	quality
-VT_0004209	sweet taste sensitivity trait	GO_0050916	sensory perception of sweet taste	PATO_0000001	quality
-VT_0004210	bitter taste sensitivity trait	GO_0050913	sensory perception of bitter taste	PATO_0000001	quality
-VT_0004211	sour taste sensitivity trait	GO_0050915	sensory perception of sour taste	PATO_0000001	quality
-VT_0004212	salty taste sensitivity trait	GO_0050914	sensory perception of salty taste	PATO_0000001	quality
-VT_0004213	umami taste sensitivity trait	GO_0050917	sensory perception of umami taste	PATO_0000001	quality
-VT_0004816	class switch recombination trait	GO_0045190	isotype switching	PATO_0000001	quality
-VT_0004917	T cell selection trait	GO_0045058	T cell selection	PATO_0000001	quality
-VT_0004918	negative T cell selection trait	GO_0043383	negative T cell selection	PATO_0000001	quality
-VT_0004919	positive T cell selection trait	GO_0043368	positive T cell selection	PATO_0000001	quality
-VT_0004942	B cell selection trait	GO_0002339	B cell selection	PATO_0000001	quality
-VT_0004943	B cell positive selection trait	GO_0002346	B cell positive selection	PATO_0000001	quality
-VT_0004944	B cell negative selection trait	GO_0002352	B cell negative selection	PATO_0000001	quality
-VT_0005004	lymphocyte anergy trait	GO_0002249	lymphocyte anergy	PATO_0000001	quality
-VT_0005008	osteoblast development trait	GO_0002076	osteoblast development	PATO_0000001	quality
-VT_0005153	B cell proliferation trait	GO_0042100	B cell proliferation	PATO_0000001	quality
-VT_0005278	cholesterol homeostasis trait	GO_0042632	cholesterol homeostasis	PATO_0000001	quality
-VT_0005316	tactition trait	GO_0050975	sensory perception of touch	PATO_0000001	quality
-VT_0005380	embryonic development trait	GO_0009790	embryo development	PATO_0000001	quality
-VT_0005382	head trait	UBERON_0000033	head	PATO_0000001	quality
-VT_0005402	action potential trait	PATO_0001463	action potential	PATO_0000001	quality
-VT_0005410	fertilization trait	GO_0009566	fertilization	PATO_0000001	quality
-VT_0005443	ethanol metabolism trait	GO_0006067	ethanol metabolic process	PATO_0000001	quality
-VT_0005444	retinol metabolism trait	GO_0042572	retinol metabolic process	PATO_0000001	quality
-VT_0005445	neurotransmitter release trait	GO_0007269	neurotransmitter secretion	PATO_0000001	quality
-VT_0005545	lens development trait	GO_0002088	lens development in camera-type eye	PATO_0000001	quality
-VT_0005584	enzyme/coenzyme activity trait	GO_0003824	catalytic activity	PATO_0000001	quality
-VT_0006008	neurogenesis trait	GO_0022008	neurogenesis	PATO_0000001	quality
-VT_0006009	neuronal migration trait	GO_0001764	neuron migration	PATO_0000001	quality
-VT_0006108	hindbrain development trait	GO_0030902	hindbrain development	PATO_0000001	quality
-VT_0006279	limb development trait	GO_0060173	limb development	PATO_0000001	quality
-VT_0008088	T-helper 1 cell differentiation trait	GO_0045063	T-helper 1 cell differentiation	PATO_0000001	quality
-VT_0008092	T-helper 2 cell differentiation trait	GO_0045064	T-helper 2 cell differentiation	PATO_0000001	quality
-VT_0008557	interferon-alpha secretion trait	GO_0072642	interferon-alpha secretion	PATO_0000001	quality
-VT_0008558	interferon-beta secretion trait	GO_0035546	interferon-beta secretion	PATO_0000001	quality
-VT_0008559	interferon-gamma secretion trait	GO_0072643	interferon-gamma secretion	PATO_0000001	quality
-VT_0008650	interleukin-1 secretion trait	GO_0050701	interleukin-1 secretion	PATO_0000001	quality
-VT_0008653	interleukin-1 alpha secretion trait	GO_0050703	interleukin-1 alpha secretion	PATO_0000001	quality
-VT_0008656	interleukin-1 beta secretion trait	GO_0050702	interleukin-1 beta secretion	PATO_0000001	quality
-VT_0008659	interleukin-10 secretion trait	GO_0072608	interleukin-10 secretion	PATO_0000001	quality
-VT_0008662	interleukin-12 secretion trait	GO_0072610	interleukin-12 secretion	PATO_0000001	quality
-VT_0008671	interleukin-13 secretion trait	GO_0072611	interleukin-13 secretion	PATO_0000001	quality
-VT_0008674	interleukin-15 secretion trait	GO_0072613	interleukin-15 secretion	PATO_0000001	quality
-VT_0008677	interleukin-16 secretion trait	GO_0072614	interleukin-16 secretion	PATO_0000001	quality
-VT_0008680	interleukin-17 secretion trait	GO_0072615	interleukin-17 secretion	PATO_0000001	quality
-VT_0008683	interleukin-18 secretion trait	GO_0072616	interleukin-18 secretion	PATO_0000001	quality
-VT_0008686	interleukin-2 secretion trait	GO_0070970	interleukin-2 secretion	PATO_0000001	quality
-VT_0008689	interleukin-23 secretion trait	GO_0072621	interleukin-23 secretion	PATO_0000001	quality
-VT_0008695	interleukin-3 secretion trait	GO_0072601	interleukin-3 secretion	PATO_0000001	quality
-VT_0008698	interleukin-4 secretion trait	GO_0072602	interleukin-4 secretion	PATO_0000001	quality
-VT_0008701	interleukin-5 secretion trait	GO_0072603	interleukin-5 secretion	PATO_0000001	quality
-VT_0008704	interleukin-6 secretion trait	GO_0072604	interleukin-6 secretion	PATO_0000001	quality
-VT_0008707	interleukin-7 secretion trait	GO_0072605	interleukin-7 secretion	PATO_0000001	quality
-VT_0008710	interleukin-9 secretion trait	GO_0072607	interleukin-9 secretion	PATO_0000001	quality
-VT_0008724	eosinophil migration trait	GO_0072677	eosinophil migration	PATO_0000001	quality
-VT_0008744	B cell anergy trait	GO_0002515	B cell anergy	PATO_0000001	quality
-VT_0008745	central B cell anergy trait	GO_0002341	central B cell anergy	PATO_0000001	quality
-VT_0008747	T cell anergy trait	GO_0002870	T cell anergy	PATO_0000001	quality
-VT_0008754	T cell receptor V(D)J recombination trait	GO_0033153	T cell receptor V(D)J recombination	PATO_0000001	quality
-VT_0008755	immunoglobulin V(D)J recombination trait	GO_0033152	immunoglobulin V(D)J recombination	PATO_0000001	quality
-VT_0008761	immunoglobulin light chain V-J recombination trait	GO_0071708	immunoglobulin light chain V-J recombination	PATO_0000001	quality
-VT_0008766	B cell receptor editing trait	GO_0002452	B cell receptor editing	PATO_0000001	quality
-VT_0008778	lymphangiogenesis trait	GO_0001946	lymphangiogenesis	PATO_0000001	quality
-VT_0009056	interleukin-21 secretion trait	GO_0072619	interleukin-21 secretion	PATO_0000001	quality
-VT_0009323	spleen development trait	GO_0048536	spleen development	PATO_0000001	quality
-VT_0009858	cellular extravasation trait	GO_0045123	cellular extravasation	PATO_0000001	quality
-VT_0010005	bone development trait	GO_0060348	bone development	PATO_0000001	quality
-VT_0010032	chemokine secretion trait	GO_0090195	chemokine secretion	PATO_0000001	quality
-VT_0010065	connective tissue development trait	GO_0061448	connective tissue development	PATO_0000001	quality
-VT_0010139	immune response trait	GO_0006955	immune response	PATO_0000001	quality
-VT_0010179	immune system development trait	GO_0002520	immune system development	PATO_0000001	quality
-VT_0010184	lymphocyte proliferation trait	GO_0046651	lymphocyte proliferation	PATO_0000001	quality
-VT_0010413	luteinizing hormone secretion trait	GO_0032275	luteinizing hormone secretion	PATO_0000001	quality
-VT_0010414	follicle-stimulating hormone secretion trait	GO_0046884	follicle-stimulating hormone secretion	PATO_0000001	quality
-VT_0010415	prolactin secretion trait	GO_0070459	prolactin secretion	PATO_0000001	quality
-VT_0010417	leukocyte proliferation trait	GO_0070661	leukocyte proliferation	PATO_0000001	quality
-VT_0010442	behavior trait	GO_0007610	behavior	PATO_0000001	quality
-VT_0010455	rhythmic behavior trait	GO_0007622	rhythmic behavior	PATO_0000001	quality
-VT_0010464	fertility trait	PATO_0000274	fertility	PATO_0000001	quality
-VT_0010471	exploratory behavior trait	GO_0035640	exploration behavior	PATO_0000001	quality
-VT_0010487	response to xenobiotic stimulus trait	GO_0009410	response to xenobiotic stimulus	PATO_0000001	quality
-VT_0010489	response to alcohol trait	GO_0097305	response to alcohol	PATO_0000001	quality
-VT_0010527	associative learning trait	GO_0008306	associative learning	PATO_0000001	quality
-VT_0015037	gland development trait	GO_0048732	gland development	PATO_0000001	quality
-VT_0015047	head development trait	GO_0060322	head development	PATO_0000001	quality
-VT_0015052	surface structure trait	UBERON_0003102	surface structure	PATO_0000001	quality
-VT_0015059	thorax trait	UBERON_0000915	thoracic segment of trunk	PATO_0000001	quality
-VT_0015069	appendage development trait	GO_0048736	appendage development	PATO_0000001	quality
-VT_0015073	fin regeneration trait	GO_0031101	fin regeneration	PATO_0000001	quality
-VT_0015077	molecule homeostasis trait	GO_0048878	chemical homeostasis	PATO_0000001	quality
-VT_0015079	sterol homeostasis trait	GO_0055092	sterol homeostasis	PATO_0000001	quality
-VT_0015087	vitamin metabolism trait	GO_0006766	vitamin metabolic process	PATO_0000001	quality
-VT_0015088	glucose metabolism trait	GO_0006006	glucose metabolic process	PATO_0000001	quality
-VT_0015089	alcohol metabolism trait	GO_0006066	alcohol metabolic process	PATO_0000001	quality
-VT_0015095	sensory trait	GO_0007600	sensory perception	PATO_0000001	quality
-VT_0015097	equilibrioception system physiology trait	GO_0050957	equilibrioception	PATO_0000001	quality
-VT_0015100	nociception system physiology trait	GO_0019233	sensory perception of pain	PATO_0000001	quality
-VT_0015111	inner ear development trait	GO_0048839	inner ear development	PATO_0000001	quality
-VT_0100002	connective tissue trait	UBERON_0002384	connective tissue	PATO_0000001	quality
-VT_0100003	organism subdivision trait	UBERON_0000475	organism subdivision	PATO_0000001	quality
-VT_0100007	growth trait	GO_0040007	growth	PATO_0000001	quality
-VT_0100015	circulatory system development trait	GO_0072359	circulatory system development	PATO_0000001	quality
-VT_3000001	platelet activation trait	GO_0030168	platelet activation	PATO_0000001	quality
-VT_3000002	platelet aggregation trait	GO_0070527	platelet aggregation	PATO_0000001	quality
+OBA_VT0000057	ossification trait	GO_0001503	ossification	PATO_0000001	quality
+OBA_VT0000059	osteoclast development trait	GO_0036035	osteoclast development	PATO_0000001	quality
+OBA_VT0000116	tooth development trait	GO_0042476	odontogenesis	PATO_0000001	quality
+OBA_VT0000119	tooth eruption trait	GO_0044691	tooth eruption	PATO_0000001	quality
+OBA_VT0000121	cardiovascular system development trait	GO_0072358	cardiovascular system development	PATO_0000001	quality
+OBA_VT0000122	blood vessel development trait	GO_0001568	blood vessel development	PATO_0000001	quality
+OBA_VT0000164	cartilage development trait	GO_0051216	cartilage development	PATO_0000001	quality
+OBA_VT0000197	vasodilation trait	GO_0042311	vasodilation	PATO_0000001	quality
+OBA_VT0000198	vasoconstriction trait	GO_0042310	vasoconstriction	PATO_0000001	quality
+OBA_VT0000229	megakaryocyte development trait	GO_0035855	megakaryocyte development	PATO_0000001	quality
+OBA_VT0000245	erythropoiesis trait	GO_0030218	erythrocyte differentiation	PATO_0000001	quality
+OBA_VT0000260	hemostasis trait	GO_0007599	hemostasis	PATO_0000001	quality
+OBA_VT0000267	heart development trait	GO_0007507	heart development	PATO_0000001	quality
+OBA_VT0000427	hair cycle trait	GO_0042633	hair cycle	PATO_0000001	quality
+OBA_VT0000527	kidney development trait	GO_0001822	kidney development	PATO_0000001	quality
+OBA_VT0000596	liver development trait	GO_0001889	liver development	PATO_0000001	quality
+OBA_VT0000623	salivation trait	GO_0046541	saliva secretion	PATO_0000001	quality
+OBA_VT0000628	mammary gland development trait	GO_0030879	mammary gland development	PATO_0000001	quality
+OBA_VT0000704	thymus development trait	GO_0048538	thymus development	PATO_0000001	quality
+OBA_VT0000712	vestibular hair cell development trait	GO_0060118	vestibular receptor cell development	PATO_0000001	quality
+OBA_VT0000737	myotome development trait	GO_0061055	myotome development	PATO_0000001	quality
+OBA_VT0000808	hippocampus development trait	GO_0021766	hippocampus development	PATO_0000001	quality
+OBA_VT0000854	cerebellum development trait	GO_0021549	cerebellum development	PATO_0000001	quality
+OBA_VT0000913	brain development trait	GO_0007420	brain development	PATO_0000001	quality
+OBA_VT0000920	myelination trait	GO_0042552	myelination	PATO_0000001	quality
+OBA_VT0000934	telencephalon development trait	GO_0021537	telencephalon development	PATO_0000001	quality
+OBA_VT0001156	spermatogenesis trait	GO_0007283	spermatogenesis	PATO_0000001	quality
+OBA_VT0001176	lung development trait	GO_0030324	lung development	PATO_0000001	quality
+OBA_VT0001225	epidermis development trait	GO_0008544	epidermis development	PATO_0000001	quality
+OBA_VT0001286	eye development trait	GO_0001654	eye development	PATO_0000001	quality
+OBA_VT0001324	eye pigmentation trait	GO_0048069	eye pigmentation	PATO_0000001	quality
+OBA_VT0001422	drinking behavior trait	GO_0042756	drinking behavior	PATO_0000001	quality
+OBA_VT0001431	eating behavior trait	GO_0042755	eating behavior	PATO_0000001	quality
+OBA_VT0001440	grooming behavior trait	GO_0007625	grooming behavior	PATO_0000001	quality
+OBA_VT0001525	balance trait	PATO_0000185	balance	PATO_0000001	quality
+OBA_VT0001529	vocalization trait	GO_0071625	vocalization behavior	PATO_0000001	quality
+OBA_VT0001601	myelopoiesis trait	GO_0061515	myeloid cell development	PATO_0000001	quality
+OBA_VT0001664	digestion trait	GO_0007586	digestion	PATO_0000001	quality
+OBA_VT0001675	ectoderm development trait	GO_0007398	ectoderm development	PATO_0000001	quality
+OBA_VT0001680	mesoderm development trait	GO_0007498	mesoderm development	PATO_0000001	quality
+OBA_VT0001685	endoderm development trait	GO_0007492	endoderm development	PATO_0000001	quality
+OBA_VT0001688	somite development trait	GO_0061053	somite development	PATO_0000001	quality
+OBA_VT0001695	gastrulation trait	GO_0007369	gastrulation	PATO_0000001	quality
+OBA_VT0001712	placenta development trait	GO_0001890	placenta development	PATO_0000001	quality
+OBA_VT0001727	embryo implantation trait	GO_0007566	embryo implantation	PATO_0000001	quality
+OBA_VT0001740	epinephrine secretion trait	GO_0048242	epinephrine secretion	PATO_0000001	quality
+OBA_VT0001744	corticosterone secretion trait	GO_0035934	corticosterone secretion	PATO_0000001	quality
+OBA_VT0001764	homeostasis trait	GO_0042592	homeostatic process	PATO_0000001	quality
+OBA_VT0001765	ion homeostasis trait	GO_0050801	ion homeostasis	PATO_0000001	quality
+OBA_VT0001784	fluid regulation trait	GO_0050878	regulation of body fluid levels	PATO_0000001	quality
+OBA_VT0001835	antigen presentation trait	GO_0019882	antigen processing and presentation	PATO_0000001	quality
+OBA_VT0001882	lactation trait	GO_0007595	lactation	PATO_0000001	quality
+OBA_VT0001923	female fertility trait	PATO_0000277	female fertility	PATO_0000001	quality
+OBA_VT0001928	ovulation trait	GO_0030728	ovulation	PATO_0000001	quality
+OBA_VT0001930	meiosis trait	GO_0007126	meiotic nuclear division	PATO_0000001	quality
+OBA_VT0001931	oogenesis trait	GO_0048477	oogenesis	PATO_0000001	quality
+OBA_VT0001932	spermiogenesis trait	GO_0007286	spermatid development	PATO_0000001	quality
+OBA_VT0001961	reflex trait	GO_0060004	reflex	PATO_0000001	quality
+OBA_VT0001984	olfaction trait	GO_0007608	sensory perception of smell	PATO_0000001	quality
+OBA_VT0002068	parental behavior trait	GO_0060746	parental behavior	PATO_0000001	quality
+OBA_VT0002090	vision trait	GO_0007601	visual perception	PATO_0000001	quality
+OBA_VT0002118	lipid homeostasis trait	GO_0055088	lipid homeostasis	PATO_0000001	quality
+OBA_VT0002121	metabolism trait	GO_0008152	metabolic process	PATO_0000001	quality
+OBA_VT0002123	hematopoiesis trait	GO_0030097	hemopoiesis	PATO_0000001	quality
+OBA_VT0002144	B cell development trait	GO_0030183	B cell differentiation	PATO_0000001	quality
+OBA_VT0002145	T cell development trait	GO_0030217	T cell differentiation	PATO_0000001	quality
+OBA_VT0002210	sex determination trait	GO_0007530	sex determination	PATO_0000001	quality
+OBA_VT0002211	primary sex determination trait	GO_0008406	gonad development	PATO_0000001	quality
+OBA_VT0002419	innate immune response trait	GO_0045087	innate immune response	PATO_0000001	quality
+OBA_VT0002551	blood coagulation trait	GO_0007596	blood coagulation	PATO_0000001	quality
+OBA_VT0002656	keratinocyte development trait	GO_0003334	keratinocyte development	PATO_0000001	quality
+OBA_VT0002658	liver regeneration trait	GO_0097421	liver regeneration	PATO_0000001	quality
+OBA_VT0002674	sperm motility trait	GO_0030317	sperm motility	PATO_0000001	quality
+OBA_VT0002713	glycogen catabolism trait	GO_0005980	glycogen catabolic process	PATO_0000001	quality
+OBA_VT0002733	thermal nociception trait	GO_0050965	detection of temperature stimulus involved in sensory perception of pain	PATO_0000001	quality
+OBA_VT0002734	mechanical nociception trait	GO_0050966	detection of mechanical stimulus involved in sensory perception of pain	PATO_0000001	quality
+OBA_VT0002735	chemical nociception trait	GO_0050968	detection of chemical stimulus involved in sensory perception of pain	PATO_0000001	quality
+OBA_VT0002739	olfactory bulb development trait	GO_0021772	olfactory bulb development	PATO_0000001	quality
+OBA_VT0002796	skin barrier function trait	GO_0033561	regulation of water loss via skin	PATO_0000001	quality
+OBA_VT0002817	tooth mineralization trait	GO_0034505	tooth mineralization	PATO_0000001	quality
+OBA_VT0002896	bone mineralization trait	GO_0030282	bone mineralization	PATO_0000001	quality
+OBA_VT0002907	parturition trait	GO_0007567	parturition	PATO_0000001	quality
+OBA_VT0002929	bile duct development trait	GO_0061009	common bile duct development	PATO_0000001	quality
+OBA_VT0002949	neural crest cell development trait	GO_0014032	neural crest cell development	PATO_0000001	quality
+OBA_VT0002950	neural crest cell migration trait	GO_0001755	neural crest cell migration	PATO_0000001	quality
+OBA_VT0002961	axon guidance trait	GO_0007411	axon guidance	PATO_0000001	quality
+OBA_VT0002982	germ cell migration trait	GO_0008354	germ cell migration	PATO_0000001	quality
+OBA_VT0002998	bone remodeling trait	GO_0046849	bone remodeling	PATO_0000001	quality
+OBA_VT0003009	cytokine secretion trait	GO_0050663	cytokine secretion	PATO_0000001	quality
+OBA_VT0003088	prepulse inhibition trait	GO_0060134	prepulse inhibition	PATO_0000001	quality
+OBA_VT0003115	respiratory system development trait	GO_0060541	respiratory system development	PATO_0000001	quality
+OBA_VT0003156	leukocyte migration trait	GO_0050900	leukocyte migration	PATO_0000001	quality
+OBA_VT0003232	forebrain development trait	GO_0030900	forebrain development	PATO_0000001	quality
+OBA_VT0003356	luteinization trait	GO_0001553	luteinization	PATO_0000001	quality
+OBA_VT0003357	granulosa cell differentiation trait	GO_0060014	granulosa cell differentiation	PATO_0000001	quality
+OBA_VT0003383	gluconeogenesis trait	GO_0006094	gluconeogenesis	PATO_0000001	quality
+OBA_VT0003396	embryonic hematopoiesis trait	GO_0035162	embryonic hemopoiesis	PATO_0000001	quality
+OBA_VT0003421	thyroid gland development trait	GO_0030878	thyroid gland development	PATO_0000001	quality
+OBA_VT0003444	neurotransmitter uptake trait	GO_0001504	neurotransmitter uptake	PATO_0000001	quality
+OBA_VT0003501	iodide oxidation trait	GO_0070277	iodide oxidation	PATO_0000001	quality
+OBA_VT0003506	growth hormone secretion trait	GO_0030252	growth hormone secretion	PATO_0000001	quality
+OBA_VT0003531	vagina development trait	GO_0060068	vagina development	PATO_0000001	quality
+OBA_VT0003564	insulin secretion trait	GO_0030073	insulin secretion	PATO_0000001	quality
+OBA_VT0003565	glucagon secretion trait	GO_0070091	glucagon secretion	PATO_0000001	quality
+OBA_VT0003572	uterus development trait	GO_0060065	uterus development	PATO_0000001	quality
+OBA_VT0003627	leukocyte tethering or rolling trait	GO_0050901	leukocyte tethering or rolling	PATO_0000001	quality
+OBA_VT0003628	leukocyte adhesion trait	GO_0007159	leukocyte cell-cell adhesion	PATO_0000001	quality
+OBA_VT0003635	synaptic transmission trait	GO_0007268	synaptic transmission	PATO_0000001	quality
+OBA_VT0003666	sperm capacitation trait	GO_0048240	sperm capacitation	PATO_0000001	quality
+OBA_VT0003672	ureter development trait	GO_0072189	ureter development	PATO_0000001	quality
+OBA_VT0003704	hair follicle development trait	GO_0001942	hair follicle development	PATO_0000001	quality
+OBA_VT0003806	nucleotide metabolism trait	GO_0009117	nucleotide metabolic process	PATO_0000001	quality
+OBA_VT0003816	pituitary gland development trait	GO_0021983	pituitary gland development	PATO_0000001	quality
+OBA_VT0003861	nervous system development trait	GO_0007399	nervous system development	PATO_0000001	quality
+OBA_VT0003864	midbrain development trait	GO_0030901	midbrain development	PATO_0000001	quality
+OBA_VT0003893	hepatocyte proliferation trait	GO_0072574	hepatocyte proliferation	PATO_0000001	quality
+OBA_VT0003934	pancreas development trait	GO_0031016	pancreas development	PATO_0000001	quality
+OBA_VT0003936	reproductive system development trait	GO_0061458	reproductive system development	PATO_0000001	quality
+OBA_VT0003938	ear development trait	GO_0043583	ear development	PATO_0000001	quality
+OBA_VT0003941	skin development trait	GO_0043588	skin development	PATO_0000001	quality
+OBA_VT0003943	hepatobiliary system development trait	GO_0061008	hepaticobiliary system development	PATO_0000001	quality
+OBA_VT0004043	pH regulation trait	GO_0006885	regulation of pH	PATO_0000001	quality
+OBA_VT0004096	midbrain-hindbrain boundary development trait	GO_0030917	midbrain-hindbrain boundary development	PATO_0000001	quality
+OBA_VT0004109	Sertoli cell development trait	GO_0060009	Sertoli cell development	PATO_0000001	quality
+OBA_VT0004171	pallium development trait	GO_0021543	pallium development	PATO_0000001	quality
+OBA_VT0004172	subpallium development trait	GO_0021544	subpallium development	PATO_0000001	quality
+OBA_VT0004209	sweet taste sensitivity trait	GO_0050916	sensory perception of sweet taste	PATO_0000001	quality
+OBA_VT0004210	bitter taste sensitivity trait	GO_0050913	sensory perception of bitter taste	PATO_0000001	quality
+OBA_VT0004211	sour taste sensitivity trait	GO_0050915	sensory perception of sour taste	PATO_0000001	quality
+OBA_VT0004212	salty taste sensitivity trait	GO_0050914	sensory perception of salty taste	PATO_0000001	quality
+OBA_VT0004213	umami taste sensitivity trait	GO_0050917	sensory perception of umami taste	PATO_0000001	quality
+OBA_VT0004816	class switch recombination trait	GO_0045190	isotype switching	PATO_0000001	quality
+OBA_VT0004917	T cell selection trait	GO_0045058	T cell selection	PATO_0000001	quality
+OBA_VT0004918	negative T cell selection trait	GO_0043383	negative T cell selection	PATO_0000001	quality
+OBA_VT0004919	positive T cell selection trait	GO_0043368	positive T cell selection	PATO_0000001	quality
+OBA_VT0004942	B cell selection trait	GO_0002339	B cell selection	PATO_0000001	quality
+OBA_VT0004943	B cell positive selection trait	GO_0002346	B cell positive selection	PATO_0000001	quality
+OBA_VT0004944	B cell negative selection trait	GO_0002352	B cell negative selection	PATO_0000001	quality
+OBA_VT0005004	lymphocyte anergy trait	GO_0002249	lymphocyte anergy	PATO_0000001	quality
+OBA_VT0005008	osteoblast development trait	GO_0002076	osteoblast development	PATO_0000001	quality
+OBA_VT0005153	B cell proliferation trait	GO_0042100	B cell proliferation	PATO_0000001	quality
+OBA_VT0005278	cholesterol homeostasis trait	GO_0042632	cholesterol homeostasis	PATO_0000001	quality
+OBA_VT0005316	tactition trait	GO_0050975	sensory perception of touch	PATO_0000001	quality
+OBA_VT0005380	embryonic development trait	GO_0009790	embryo development	PATO_0000001	quality
+OBA_VT0005382	head trait	UBERON_0000033	head	PATO_0000001	quality
+OBA_VT0005402	action potential trait	PATO_0001463	action potential	PATO_0000001	quality
+OBA_VT0005410	fertilization trait	GO_0009566	fertilization	PATO_0000001	quality
+OBA_VT0005443	ethanol metabolism trait	GO_0006067	ethanol metabolic process	PATO_0000001	quality
+OBA_VT0005444	retinol metabolism trait	GO_0042572	retinol metabolic process	PATO_0000001	quality
+OBA_VT0005445	neurotransmitter release trait	GO_0007269	neurotransmitter secretion	PATO_0000001	quality
+OBA_VT0005545	lens development trait	GO_0002088	lens development in camera-type eye	PATO_0000001	quality
+OBA_VT0005584	enzyme/coenzyme activity trait	GO_0003824	catalytic activity	PATO_0000001	quality
+OBA_VT0006008	neurogenesis trait	GO_0022008	neurogenesis	PATO_0000001	quality
+OBA_VT0006009	neuronal migration trait	GO_0001764	neuron migration	PATO_0000001	quality
+OBA_VT0006108	hindbrain development trait	GO_0030902	hindbrain development	PATO_0000001	quality
+OBA_VT0006279	limb development trait	GO_0060173	limb development	PATO_0000001	quality
+OBA_VT0008088	T-helper 1 cell differentiation trait	GO_0045063	T-helper 1 cell differentiation	PATO_0000001	quality
+OBA_VT0008092	T-helper 2 cell differentiation trait	GO_0045064	T-helper 2 cell differentiation	PATO_0000001	quality
+OBA_VT0008557	interferon-alpha secretion trait	GO_0072642	interferon-alpha secretion	PATO_0000001	quality
+OBA_VT0008558	interferon-beta secretion trait	GO_0035546	interferon-beta secretion	PATO_0000001	quality
+OBA_VT0008559	interferon-gamma secretion trait	GO_0072643	interferon-gamma secretion	PATO_0000001	quality
+OBA_VT0008650	interleukin-1 secretion trait	GO_0050701	interleukin-1 secretion	PATO_0000001	quality
+OBA_VT0008653	interleukin-1 alpha secretion trait	GO_0050703	interleukin-1 alpha secretion	PATO_0000001	quality
+OBA_VT0008656	interleukin-1 beta secretion trait	GO_0050702	interleukin-1 beta secretion	PATO_0000001	quality
+OBA_VT0008659	interleukin-10 secretion trait	GO_0072608	interleukin-10 secretion	PATO_0000001	quality
+OBA_VT0008662	interleukin-12 secretion trait	GO_0072610	interleukin-12 secretion	PATO_0000001	quality
+OBA_VT0008671	interleukin-13 secretion trait	GO_0072611	interleukin-13 secretion	PATO_0000001	quality
+OBA_VT0008674	interleukin-15 secretion trait	GO_0072613	interleukin-15 secretion	PATO_0000001	quality
+OBA_VT0008677	interleukin-16 secretion trait	GO_0072614	interleukin-16 secretion	PATO_0000001	quality
+OBA_VT0008680	interleukin-17 secretion trait	GO_0072615	interleukin-17 secretion	PATO_0000001	quality
+OBA_VT0008683	interleukin-18 secretion trait	GO_0072616	interleukin-18 secretion	PATO_0000001	quality
+OBA_VT0008686	interleukin-2 secretion trait	GO_0070970	interleukin-2 secretion	PATO_0000001	quality
+OBA_VT0008689	interleukin-23 secretion trait	GO_0072621	interleukin-23 secretion	PATO_0000001	quality
+OBA_VT0008695	interleukin-3 secretion trait	GO_0072601	interleukin-3 secretion	PATO_0000001	quality
+OBA_VT0008698	interleukin-4 secretion trait	GO_0072602	interleukin-4 secretion	PATO_0000001	quality
+OBA_VT0008701	interleukin-5 secretion trait	GO_0072603	interleukin-5 secretion	PATO_0000001	quality
+OBA_VT0008704	interleukin-6 secretion trait	GO_0072604	interleukin-6 secretion	PATO_0000001	quality
+OBA_VT0008707	interleukin-7 secretion trait	GO_0072605	interleukin-7 secretion	PATO_0000001	quality
+OBA_VT0008710	interleukin-9 secretion trait	GO_0072607	interleukin-9 secretion	PATO_0000001	quality
+OBA_VT0008724	eosinophil migration trait	GO_0072677	eosinophil migration	PATO_0000001	quality
+OBA_VT0008744	B cell anergy trait	GO_0002515	B cell anergy	PATO_0000001	quality
+OBA_VT0008745	central B cell anergy trait	GO_0002341	central B cell anergy	PATO_0000001	quality
+OBA_VT0008747	T cell anergy trait	GO_0002870	T cell anergy	PATO_0000001	quality
+OBA_VT0008754	T cell receptor V(D)J recombination trait	GO_0033153	T cell receptor V(D)J recombination	PATO_0000001	quality
+OBA_VT0008755	immunoglobulin V(D)J recombination trait	GO_0033152	immunoglobulin V(D)J recombination	PATO_0000001	quality
+OBA_VT0008761	immunoglobulin light chain V-J recombination trait	GO_0071708	immunoglobulin light chain V-J recombination	PATO_0000001	quality
+OBA_VT0008766	B cell receptor editing trait	GO_0002452	B cell receptor editing	PATO_0000001	quality
+OBA_VT0008778	lymphangiogenesis trait	GO_0001946	lymphangiogenesis	PATO_0000001	quality
+OBA_VT0009056	interleukin-21 secretion trait	GO_0072619	interleukin-21 secretion	PATO_0000001	quality
+OBA_VT0009323	spleen development trait	GO_0048536	spleen development	PATO_0000001	quality
+OBA_VT0009858	cellular extravasation trait	GO_0045123	cellular extravasation	PATO_0000001	quality
+OBA_VT0010005	bone development trait	GO_0060348	bone development	PATO_0000001	quality
+OBA_VT0010032	chemokine secretion trait	GO_0090195	chemokine secretion	PATO_0000001	quality
+OBA_VT0010065	connective tissue development trait	GO_0061448	connective tissue development	PATO_0000001	quality
+OBA_VT0010139	immune response trait	GO_0006955	immune response	PATO_0000001	quality
+OBA_VT0010179	immune system development trait	GO_0002520	immune system development	PATO_0000001	quality
+OBA_VT0010184	lymphocyte proliferation trait	GO_0046651	lymphocyte proliferation	PATO_0000001	quality
+OBA_VT0010413	luteinizing hormone secretion trait	GO_0032275	luteinizing hormone secretion	PATO_0000001	quality
+OBA_VT0010414	follicle-stimulating hormone secretion trait	GO_0046884	follicle-stimulating hormone secretion	PATO_0000001	quality
+OBA_VT0010415	prolactin secretion trait	GO_0070459	prolactin secretion	PATO_0000001	quality
+OBA_VT0010417	leukocyte proliferation trait	GO_0070661	leukocyte proliferation	PATO_0000001	quality
+OBA_VT0010442	behavior trait	GO_0007610	behavior	PATO_0000001	quality
+OBA_VT0010455	rhythmic behavior trait	GO_0007622	rhythmic behavior	PATO_0000001	quality
+OBA_VT0010464	fertility trait	PATO_0000274	fertility	PATO_0000001	quality
+OBA_VT0010471	exploratory behavior trait	GO_0035640	exploration behavior	PATO_0000001	quality
+OBA_VT0010487	response to xenobiotic stimulus trait	GO_0009410	response to xenobiotic stimulus	PATO_0000001	quality
+OBA_VT0010489	response to alcohol trait	GO_0097305	response to alcohol	PATO_0000001	quality
+OBA_VT0010527	associative learning trait	GO_0008306	associative learning	PATO_0000001	quality
+OBA_VT0015037	gland development trait	GO_0048732	gland development	PATO_0000001	quality
+OBA_VT0015047	head development trait	GO_0060322	head development	PATO_0000001	quality
+OBA_VT0015052	surface structure trait	UBERON_0003102	surface structure	PATO_0000001	quality
+OBA_VT0015059	thorax trait	UBERON_0000915	thoracic segment of trunk	PATO_0000001	quality
+OBA_VT0015069	appendage development trait	GO_0048736	appendage development	PATO_0000001	quality
+OBA_VT0015073	fin regeneration trait	GO_0031101	fin regeneration	PATO_0000001	quality
+OBA_VT0015077	molecule homeostasis trait	GO_0048878	chemical homeostasis	PATO_0000001	quality
+OBA_VT0015079	sterol homeostasis trait	GO_0055092	sterol homeostasis	PATO_0000001	quality
+OBA_VT0015087	vitamin metabolism trait	GO_0006766	vitamin metabolic process	PATO_0000001	quality
+OBA_VT0015088	glucose metabolism trait	GO_0006006	glucose metabolic process	PATO_0000001	quality
+OBA_VT0015089	alcohol metabolism trait	GO_0006066	alcohol metabolic process	PATO_0000001	quality
+OBA_VT0015095	sensory trait	GO_0007600	sensory perception	PATO_0000001	quality
+OBA_VT0015097	equilibrioception system physiology trait	GO_0050957	equilibrioception	PATO_0000001	quality
+OBA_VT0015100	nociception system physiology trait	GO_0019233	sensory perception of pain	PATO_0000001	quality
+OBA_VT0015111	inner ear development trait	GO_0048839	inner ear development	PATO_0000001	quality
+OBA_VT0100002	connective tissue trait	UBERON_0002384	connective tissue	PATO_0000001	quality
+OBA_VT0100003	organism subdivision trait	UBERON_0000475	organism subdivision	PATO_0000001	quality
+OBA_VT0100007	growth trait	GO_0040007	growth	PATO_0000001	quality
+OBA_VT0100015	circulatory system development trait	GO_0072359	circulatory system development	PATO_0000001	quality
+OBA_VT3000001	platelet activation trait	GO_0030168	platelet activation	PATO_0000001	quality
+OBA_VT3000002	platelet aggregation trait	GO_0070527	platelet aggregation	PATO_0000001	quality
+OBA_VT0000067	blood morphology	UBERON_0000178	blood	PATO_0000051	morphology
+OBA_VT0000666	prostate duct quantity	UBERON_0002485	prostate duct	PATO_0000819	quantity
+OBA_VT0000971	thermoreceptor morphology	UBERON_0035018	thermoreceptor	PATO_0000051	morphology
+OBA_VT0001001	chemoreceptor morphology	UBERON_0018391	chemoreceptor	PATO_0000051	morphology
+OBA_VT0001100	vagus ganglion morphology	UBERON_0005362	vagus X ganglion	PATO_0000051	morphology
+OBA_VT0002342	lymph node trabecula morphology	UBERON_0002195	trabecula of lymph node	PATO_0000051	morphology
+OBA_VT0002370	thymus trabecula morphology	UBERON_0004791	thymus trabecula	PATO_0000051	morphology
+OBA_VT0003092	corneal stroma thickness	UBERON_0001777	substantia propria of cornea	PATO_0000915	thickness
+OBA_VT0003384	ventral body wall morphology	UBERON_0017648	ventral body wall	PATO_0000051	morphology
+OBA_VT0003407	central nervous system regeneration	UBERON_0001017	central nervous system	PATO_0000220	regeneration
+OBA_VT0003713	ear rotation	UBERON_0001690	ear	PATO_0001599	rotated
+OBA_VT0003796	cortical bone morphology	UBERON_0001439	compact bone tissue	PATO_0000051	morphology
+OBA_VT0004164	neurohypophysis morphology	UBERON_0002198	neurohypophysis	PATO_0000051	morphology
+OBA_VT0004220	peripheral nervous system regeneration	UBERON_0000010	peripheral nervous system	PATO_0000220	regeneration
+OBA_VT0004313	vestibulocochlear ganglion size	UBERON_0002827	vestibulocochlear ganglion	PATO_0000117	size
+OBA_VT0006260	gustatory papillae taste bud morphology	UBERON_0014451	tongue taste bud	PATO_0000051	morphology
+OBA_VT0008470	splenic B cell follicle morphology	UBERON_0001249	spleen lymphoid follicle	PATO_0000051	morphology
+OBA_VT0010020	seminiferous tubule diameter	UBERON_0001343	seminiferous tubule of testis	PATO_0001334	diameter
+OBA_VT0010082	zygomatic process of maxilla morphology	UBERON_0016477	zygomatic process of maxilla	PATO_0000051	morphology
+OBA_VT0010143	nerve fiber quantity	UBERON_0006134	nerve fiber	PATO_0000819	quantity
+OBA_VT0010422	femoral fat pad mass	UBERON_0012283	femoral fat pad	PATO_0000125	mass
+OBA_VT0010427	mesenteric fat pad mass	UBERON_0015143	mesenteric fat pad	PATO_0000125	mass
+OBA_VT0010429	renal fat pad mass	UBERON_0014464	renal fat pad	PATO_0000125	mass
+OBA_VT0010536	rostral migratory stream morphology	UBERON_0008881	rostral migratory stream	PATO_0000051	morphology
+OBA_VT0010537	lateral septum morphology	UBERON_0002667	lateral septal nucleus	PATO_0000051	morphology
+OBA_VT0010538	lateral septum size	UBERON_0002667	lateral septal nucleus	PATO_0000117	size
+OBA_VT0010542	enamel thickness	UBERON_0001752	enamel	PATO_0000915	thickness
+OBA_VT0010567	thoracic aorta morphology	UBERON_0001515	thoracic aorta	PATO_0000051	morphology
+OBA_VT0010569	quadriceps morphology	UBERON_0001377	quadriceps femoris	PATO_0000051	morphology
+OBA_VT0010570	lumbar vertebra area	UBERON_0002414	lumbar vertebra	PATO_0001323	area
+OBA_VT0010573	vertebra strength	UBERON_0002412	vertebra	PATO_0001230	strength
+OBA_VT0010574	lumbar vertebra strength	UBERON_0002414	lumbar vertebra	PATO_0001230	strength
+OBA_VT0010608	thyroid gland mass	UBERON_0002046	thyroid gland	PATO_0000125	mass
+OBA_VT0010609	areola morphology	UBERON_0002032	areola	PATO_0000051	morphology
+OBA_VT0010610	areola quantity	UBERON_0002032	areola	PATO_0000819	quantity
+OBA_VT0010611	uterus mass	UBERON_0000995	uterus	PATO_0000125	mass
+OBA_VT0010612	cranium morphology	UBERON_0003128	cranium	PATO_0000051	morphology
+OBA_VT0010613	cranium size	UBERON_0003128	cranium	PATO_0000117	size
+OBA_VT0010614	cranium mass	UBERON_0003128	cranium	PATO_0000125	mass
+OBA_VT0010629	bulbourethral gland mass	UBERON_0002366	bulbo-urethral gland	PATO_0000125	mass
+OBA_VT0010641	renal artery morphology	UBERON_0001184	renal artery	PATO_0000051	morphology
+OBA_VT0010643	iliac artery morphology	UBERON_0005609	iliac artery	PATO_0000051	morphology
+OBA_VT0010645	biceps brachii mass	UBERON_0001507	biceps brachii	PATO_0000125	mass
+OBA_VT0010646	biceps femoris muscle mass	UBERON_0001374	biceps femoris	PATO_0000125	mass
+OBA_VT0010647	forelimb muscle morphology	UBERON_0003662	forelimb muscle	PATO_0000051	morphology
+OBA_VT0010655	feather length	UBERON_0000022	feather	PATO_0000122	length
+OBA_VT0010656	comb morphology	UBERON_0012176	comb	PATO_0000051	morphology
+OBA_VT0010657	comb size	UBERON_0012176	comb	PATO_0000117	size
+OBA_VT0010658	comb shape	UBERON_0012176	comb	PATO_0000052	shape
+OBA_VT0010659	feather tract morphology	UBERON_0013512	row of feathers	PATO_0000051	morphology
+OBA_VT0010660	feather tract width	UBERON_0013512	row of feathers	PATO_0000921	width
+OBA_VT0010664	semimembranosus mass	UBERON_0001381	semimembranosus muscle	PATO_0000125	mass
+OBA_VT0010665	gluteus medius mass	UBERON_0001371	gluteus medius	PATO_0000125	mass
+OBA_VT0010669	longissimus thoracis width	UBERON_0001401	longissimus thoracis muscle	PATO_0000921	width
+OBA_VT0010671	tarsometatarsus morphology	UBERON_0008195	tarsometatarsus	PATO_0000051	morphology
+OBA_VT0010672	tarsometatarsus mass	UBERON_0008195	tarsometatarsus	PATO_0000125	mass
+OBA_VT0010673	tarsometatarsus length	UBERON_0008195	tarsometatarsus	PATO_0000122	length
+OBA_VT0010674	tarsometatarsus circumference	UBERON_0008195	tarsometatarsus	PATO_0001648	circumference
+OBA_VT0010675	semimembranosus size	UBERON_0001381	semimembranosus muscle	PATO_0000117	size
+OBA_VT0010676	semimembranosus width	UBERON_0001381	semimembranosus muscle	PATO_0000921	width
+OBA_VT0010679	tarsometatarsus diameter	UBERON_0008195	tarsometatarsus	PATO_0001334	diameter
+OBA_VT0010684	peritoneum morphology	UBERON_0002358	peritoneum	PATO_0000051	morphology
+OBA_VT0010693	longissimus muscle morphology	UBERON_0000392	longissimus muscle	PATO_0000051	morphology
+OBA_VT0015004	mesenteric fat pad morphology	UBERON_0015143	mesenteric fat pad	PATO_0000051	morphology
+OBA_VT0015048	limb regeneration	UBERON_0002101	limb	PATO_0000220	regeneration
+OBA_VT0015049	tail regeneration	UBERON_0002415	tail	PATO_0000220	regeneration
+OBA_VT0015053	opercular flap morphology	UBERON_2000555	opercular flap	PATO_0000051	morphology
+OBA_VT1000733	heel depth	UBERON_0015875	heel	PATO_0001595	depth
+OBA_0000003	ER calcium ion concentration	GO_0005783	endoplasmic reticulum	OBA_0000040	calcium ion concentration
+OBA_0000005	Golgi calcium ion concentration	GO_0005794	Golgi apparatus	OBA_0000040	calcium ion concentration
+OBA_0000009	RNA stability	SO_0000356	RNA	OBA_0001001	macromolecular stability
+OBA_0000046	cardiac muscle cell membrane potential	CL_0000746	cardiac muscle cell	OBA_0000099	membrane potential
+OBA_0000050	cell pH	GO_0005623	cell	OBA_0000121	pH
+OBA_0000072	follicle cell microvillus length	CL_0000477	follicle cell	OBA_0000102	microvillus length
+OBA_0000093	mRNA stability	SO_0000234	mRNA	OBA_0001001	macromolecular stability
+OBA_0000105	mitochondrial membrane potential	GO_0031966	mitochondrial membrane	OBA_0000099	membrane potential
+OBA_0000114	neuronal synaptic plasticity	CL_0000540	neuron	OBA_0000141	synaptic plasticity
+OBA_0000125	post-synaptic membrane potential	GO_0045211	postsynaptic membrane	OBA_0000099	membrane potential
+OBA_0000128	protein stability	PR_000000001	protein	OBA_0001001	macromolecular stability
+OBA_0000129	rRNA stability	SO_0000252	rRNA	OBA_0001001	macromolecular stability
