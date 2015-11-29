@@ -318,9 +318,6 @@ is_a: OBA:0000098 ! membrane lipid distribution
 [Term]
 id: OBA:0000124
 name: post-lysosomal vacuole size
-is_a: OBA:1000142 {is_inferred="true"} ! vesicle size
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of GO:0032195 {is_inferred="true"} ! post-lysosomal vacuole
 
 [Term]
 id: OBA:0000125
@@ -1413,9 +1410,6 @@ creation_date: 2015-03-03T00:34:47Z
 id: OBA:1000139
 name: skeletal joint flexibility
 synonym: "skeletal joint flexibility trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
-relationship: affects_quality PATO:0001543 {is_inferred="true"} ! flexibility
-relationship: attribute_of UBERON:0000982 {is_inferred="true"} ! skeletal joint
 created_by: cjmungall
 creation_date: 2015-03-03T16:41:59Z
 
@@ -1423,9 +1417,6 @@ creation_date: 2015-03-03T16:41:59Z
 id: OBA:1000140
 name: epipubic bone size
 synonym: "epipubic bone size trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000138 {is_inferred="true"} ! bone element size
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0013204 {is_inferred="true"} ! epipubic bone
 created_by: cjmungall
 creation_date: 2015-03-03T23:14:23Z
 
@@ -1433,9 +1424,6 @@ creation_date: 2015-03-03T23:14:23Z
 id: OBA:1000141
 name: epipubic bone mass density
 synonym: "epipubic bone mass density trait" EXACT [GOC:TermGenie]
-is_a: VT:0005007 {is_inferred="true"} ! bone mineral mass
-relationship: affects_quality PATO:0001019 {is_inferred="true"} ! mass density
-relationship: attribute_of UBERON:0013204 {is_inferred="true"} ! epipubic bone
 created_by: cjmungall
 creation_date: 2015-03-03T23:14:26Z
 
@@ -1443,10 +1431,6 @@ creation_date: 2015-03-03T23:14:26Z
 id: OBA:1000142
 name: vesicle size
 synonym: "vesicle size trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000057 {is_inferred="true"} ! cellular component size
-is_a: OBA:1000078 {is_inferred="true"} ! organelle attribute
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of GO:0031982 {is_inferred="true"} ! vesicle
 created_by: cjmungall
 creation_date: 2015-04-14T22:09:46Z
 
@@ -1454,10 +1438,6 @@ creation_date: 2015-04-14T22:09:46Z
 id: OBA:1000143
 name: lymphatic vessel size
 synonym: "lymphatic vessel size trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000015 {is_inferred="true"} ! anatomical structure size
-is_a: VT:0001879 {is_inferred="true"} ! lymphatic vessel morphology trait
-relationship: affects_quality PATO:0000117 {is_inferred="true"} ! size
-relationship: attribute_of UBERON:0001473 {is_inferred="true"} ! lymphatic vessel
 created_by: cjmungall
 creation_date: 2015-04-14T22:09:50Z
 
@@ -1465,10 +1445,6 @@ creation_date: 2015-04-14T22:09:50Z
 id: OBA:1000144
 name: lymphatic vessel permeability
 synonym: "lymphatic vessel permeability trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000174 {is_inferred="true"} ! vascular permeability
-is_a: VT:0001879 {is_inferred="true"} ! lymphatic vessel morphology trait
-relationship: affects_quality PATO:0000970 {is_inferred="true"} ! permeability
-relationship: attribute_of UBERON:0001473 {is_inferred="true"} ! lymphatic vessel
 created_by: cjmungall
 creation_date: 2015-04-14T22:09:54Z
 
@@ -1476,9 +1452,6 @@ creation_date: 2015-04-14T22:09:54Z
 id: OBA:1000145
 name: lymphatic vessel quality
 synonym: "lymphatic vessel quality trait" EXACT [GOC:TermGenie]
-is_a: OBA:0000001 {is_inferred="true"} ! biological attribute
-relationship: affects_quality PATO:0000001 {is_inferred="true"} ! quality
-relationship: attribute_of UBERON:0001473 {is_inferred="true"} ! lymphatic vessel
 created_by: cjmungall
 creation_date: 2015-04-14T22:09:58Z
 
@@ -1486,9 +1459,6 @@ creation_date: 2015-04-14T22:09:58Z
 id: OBA:1000146
 name: endoplasmic reticulum membrane permeability
 synonym: "endoplasmic reticulum membrane permeability trait" EXACT [GOC:TermGenie]
-is_a: OBA:1000028 {is_inferred="true"} ! membrane permeability
-relationship: affects_quality PATO:0000970 {is_inferred="true"} ! permeability
-relationship: attribute_of GO:0005789 {is_inferred="true"} ! endoplasmic reticulum membrane
 created_by: cjmungall
 creation_date: 2015-09-29T15:36:19Z
 
