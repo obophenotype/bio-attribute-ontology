@@ -2,11 +2,6 @@ format-version: 1.2
 ontology: oba/imports/chebi_import
 
 [Term]
-id: CHEBI:10362
-name: beta-cryptoxanthin
-is_a: CHEBI:23045 ! carotenol
-
-[Term]
 id: CHEBI:15377
 name: water
 is_a: CHEBI:33693 ! oxygen hydride
@@ -49,11 +44,6 @@ name: long-chain fatty acid
 is_a: CHEBI:35366 ! fatty acid
 
 [Term]
-id: CHEBI:15948
-name: lycopene
-is_a: CHEBI:35162 ! acyclic carotene
-
-[Term]
 id: CHEBI:16042
 name: halide anion
 is_a: CHEBI:33429 ! monoatomic monoanion
@@ -79,21 +69,10 @@ is_a: CHEBI:48154 ! sulfur oxide
 is_a: CHEBI:79388 ! divalent inorganic anion
 
 [Term]
-id: CHEBI:16196
-name: oleic acid
-is_a: CHEBI:36021 ! octadec-9-enoic acid
-
-[Term]
 id: CHEBI:16199
 name: urea
 is_a: CHEBI:29347 ! monocarboxylic acid amide
 is_a: CHEBI:64708 ! one-carbon compound
-
-[Term]
-id: CHEBI:16240
-name: hydrogen peroxide
-is_a: CHEBI:24837 ! inorganic peroxide
-is_a: CHEBI:26523 ! reactive oxygen species
 
 [Term]
 id: CHEBI:16247
@@ -106,18 +85,6 @@ is_a: CHEBI:37734 ! phosphoric ester
 id: CHEBI:16330
 name: 17beta-hydroxy-5alpha-androstan-3-one
 is_a: CHEBI:85278 ! 17beta-hydroxyandrostan-3-one
-
-[Term]
-id: CHEBI:16411
-name: indole-3-acetic acid
-is_a: CHEBI:24803 ! indole-3-acetic acids
-is_a: CHEBI:25384 ! monocarboxylic acid
-
-[Term]
-id: CHEBI:16634
-name: raffinose
-is_a: CHEBI:27150 ! trisaccharide
-is_a: CHEBI:74961 ! raffinose family oligosaccharide
 
 [Term]
 id: CHEBI:16646
@@ -195,12 +162,6 @@ is_a: CHEBI:47788 ! 3-oxo steroid
 is_a: CHEBI:50402 ! androstanoid
 
 [Term]
-id: CHEBI:17351
-name: linoleic acid
-is_a: CHEBI:25627 ! octadecadienoic acid
-is_a: CHEBI:36009 ! omega-6 fatty acid
-
-[Term]
 id: CHEBI:17408
 name: monoglyceride
 is_a: CHEBI:47778 ! glyceride
@@ -220,18 +181,6 @@ is_a: CHEBI:35604 ! carbon oxoanion
 id: CHEBI:17579
 name: beta-carotene
 is_a: CHEBI:35163 ! cyclic carotene
-
-[Term]
-id: CHEBI:17620
-name: ferulic acid
-is_a: CHEBI:24031 ! ferulic acids
-
-[Term]
-id: CHEBI:17632
-name: nitrate
-is_a: CHEBI:33458 ! nitrogen oxoanion
-is_a: CHEBI:62764 ! reactive nitrogen species
-is_a: CHEBI:79389 ! monovalent inorganic anion
 
 [Term]
 id: CHEBI:17650
@@ -259,11 +208,6 @@ is_a: CHEBI:27136 ! triol
 id: CHEBI:17855
 name: triglyceride
 is_a: CHEBI:47778 ! glyceride
-
-[Term]
-id: CHEBI:17992
-name: sucrose
-is_a: CHEBI:24407 ! glycosyl glycoside
 
 [Term]
 id: CHEBI:17996
@@ -294,21 +238,10 @@ name: hexose
 is_a: CHEBI:35381 ! monosaccharide
 
 [Term]
-id: CHEBI:18153
-name: ethene
-is_a: CHEBI:32878 ! alkene
-
-[Term]
 id: CHEBI:18154
 name: polysaccharide
 is_a: CHEBI:16646 ! carbohydrate
 is_a: CHEBI:33694 ! biomacromolecule
-
-[Term]
-id: CHEBI:18230
-name: chlorophyll a
-is_a: CHEBI:25248 ! methyl ester
-is_a: CHEBI:28966 ! chlorophyll
 
 [Term]
 id: CHEBI:18243
@@ -328,29 +261,9 @@ is_a: CHEBI:24864 ! iodothyronine
 is_a: CHEBI:53291 ! 2-halophenol
 
 [Term]
-id: CHEBI:18291
-name: manganese atom
-is_a: CHEBI:33352 ! manganese group element atom
-
-[Term]
-id: CHEBI:18292
-name: jasmonic acid
-is_a: CHEBI:35871 ! oxo monocarboxylic acid
-
-[Term]
 id: CHEBI:18357
 name: (R)-noradrenaline
 is_a: CHEBI:33569 ! noradrenaline
-
-[Term]
-id: CHEBI:20432
-name: imidazolone
-is_a: CHEBI:24780 ! imidazoles
-
-[Term]
-id: CHEBI:22152
-name: 2-cis-abscisic acid
-is_a: CHEBI:62431 ! abscisic acids
 
 [Term]
 id: CHEBI:22313
@@ -372,11 +285,6 @@ name: anion
 is_a: CHEBI:24870 ! ion
 
 [Term]
-id: CHEBI:22676
-name: auxin
-is_a: CHEBI:37848 ! plant hormone
-
-[Term]
 id: CHEBI:22728
 name: benzopyrrole
 is_a: CHEBI:27171 ! organic heterobicyclic compound
@@ -387,16 +295,6 @@ is_a: CHEBI:38180 ! polycyclic heteroarene
 id: CHEBI:22860
 name: amino-acid betaine
 is_a: CHEBI:35284 ! ammonium betaine
-
-[Term]
-id: CHEBI:22921
-name: brassinosteroid
-is_a: CHEBI:26124 ! phytosteroid
-
-[Term]
-id: CHEBI:22977
-name: cadmium atom
-is_a: CHEBI:33340 ! zinc group element atom
 
 [Term]
 id: CHEBI:22984
@@ -414,36 +312,9 @@ name: carotene
 is_a: CHEBI:35193 ! tetraterpene
 
 [Term]
-id: CHEBI:23043
-name: epoxycarotenoid
-is_a: CHEBI:27325 ! xanthophyll
-is_a: CHEBI:32955 ! epoxide
-
-[Term]
-id: CHEBI:23044
-name: carotenoid
-is_a: CHEBI:26935 ! tetraterpenoid
-
-[Term]
-id: CHEBI:23045
-name: carotenol
-is_a: CHEBI:27325 ! xanthophyll
-
-[Term]
-id: CHEBI:23116
-name: chlorine atom
-is_a: CHEBI:24473 ! halogen
-
-[Term]
 id: CHEBI:23117
 name: chlorine molecular entity
 is_a: CHEBI:24471 ! halogen molecular entity
-
-[Term]
-id: CHEBI:23252
-name: cinnamic acids
-is_a: CHEBI:78840 ! olefinic compound
-is_a: CHEBI:79020 ! alpha,beta-unsaturated monocarboxylic acid
 
 [Term]
 id: CHEBI:23367
@@ -469,16 +340,6 @@ is_a: CHEBI:16670 ! peptide
 id: CHEBI:23509
 name: cysteine derivative
 is_a: CHEBI:83821 ! amino acid derivative
-
-[Term]
-id: CHEBI:23530
-name: cytokinin
-is_a: CHEBI:37848 ! plant hormone
-
-[Term]
-id: CHEBI:23677
-name: diazole
-is_a: CHEBI:68452 ! azole
 
 [Term]
 id: CHEBI:23849
@@ -516,18 +377,6 @@ is_a: CHEBI:36834 ! 3-hydroxy steroid
 is_a: CHEBI:36838 ! 17-hydroxy steroid
 
 [Term]
-id: CHEBI:24031
-name: ferulic acids
-is_a: CHEBI:24688 ! monohydroxycinnamic acid
-is_a: CHEBI:33853 ! phenols
-is_a: CHEBI:35618 ! aromatic ether
-
-[Term]
-id: CHEBI:24061
-name: fluorine atom
-is_a: CHEBI:24473 ! halogen
-
-[Term]
 id: CHEBI:24129
 name: furans
 is_a: CHEBI:25693 ! organic heteromonocyclic compound
@@ -539,33 +388,13 @@ name: glucocorticoid
 is_a: CHEBI:36699 ! corticosteroid hormone
 
 [Term]
-id: CHEBI:24271
-name: glucosamines
-is_a: CHEBI:24586 ! hexosamine
-
-[Term]
-id: CHEBI:24373
-name: glycine derivative
-is_a: CHEBI:83811 ! proteinogenic amino acid derivative
-
-[Term]
 id: CHEBI:24384
 name: glycogens
 is_a: CHEBI:37163 ! glucan
 
 [Term]
-id: CHEBI:24400
-name: glycoside
-is_a: CHEBI:63161 ! glycosyl compound
-
-[Term]
 id: CHEBI:24405
 name: glycosylglucose
-is_a: CHEBI:36233 ! disaccharide
-
-[Term]
-id: CHEBI:24407
-name: glycosyl glycoside
 is_a: CHEBI:36233 ! disaccharide
 
 [Term]
@@ -588,17 +417,6 @@ name: halogen molecular entity
 is_a: CHEBI:33675 ! p-block molecular entity
 
 [Term]
-id: CHEBI:24473
-name: halogen
-is_a: CHEBI:25585 ! nonmetal atom
-is_a: CHEBI:33560 ! p-block element atom
-
-[Term]
-id: CHEBI:24527
-name: herbicide
-is_a: CHEBI:25944 ! pesticide
-
-[Term]
 id: CHEBI:24532
 name: organic heterocyclic compound
 is_a: CHEBI:33285 ! heteroorganic entity
@@ -609,11 +427,6 @@ is_a: CHEBI:5686 ! heterocyclic compound
 id: CHEBI:24533
 name: heterodetic cyclic peptide
 is_a: CHEBI:23449 ! cyclic peptide
-
-[Term]
-id: CHEBI:24586
-name: hexosamine
-is_a: CHEBI:60926 ! amino monosaccharide
 
 [Term]
 id: CHEBI:24610
@@ -651,36 +464,6 @@ is_a: CHEBI:33575 ! carboxylic acid
 is_a: CHEBI:33822 ! organic hydroxy compound
 
 [Term]
-id: CHEBI:24688
-name: monohydroxycinnamic acid
-is_a: CHEBI:24689 ! hydroxycinnamic acid
-
-[Term]
-id: CHEBI:24689
-name: hydroxycinnamic acid
-is_a: CHEBI:23252 ! cinnamic acids
-
-[Term]
-id: CHEBI:24780
-name: imidazoles
-is_a: CHEBI:23677 ! diazole
-
-[Term]
-id: CHEBI:24781
-name: imidazolinone
-is_a: CHEBI:20432 ! imidazolone
-
-[Term]
-id: CHEBI:24803
-name: indole-3-acetic acids
-is_a: CHEBI:24810 ! indol-3-yl carboxylic acid
-
-[Term]
-id: CHEBI:24810
-name: indol-3-yl carboxylic acid
-is_a: CHEBI:46867 ! indolyl carboxylic acid
-
-[Term]
 id: CHEBI:24828
 name: indoles
 is_a: CHEBI:22728 ! benzopyrrole
@@ -708,22 +491,6 @@ is_a: CHEBI:24835 ! inorganic molecular entity
 is_a: CHEBI:25741 ! oxide
 
 [Term]
-id: CHEBI:24837
-name: inorganic peroxide
-is_a: CHEBI:24836 ! inorganic oxide
-is_a: CHEBI:25940 ! peroxides
-
-[Term]
-id: CHEBI:24852
-name: insecticide
-is_a: CHEBI:25944 ! pesticide
-
-[Term]
-id: CHEBI:24859
-name: iodine atom
-is_a: CHEBI:24473 ! halogen
-
-[Term]
 id: CHEBI:24860
 name: iodine molecular entity
 is_a: CHEBI:24471 ! halogen molecular entity
@@ -747,11 +514,6 @@ is_a: CHEBI:24862 ! iodoamino acid
 is_a: CHEBI:33853 ! phenols
 
 [Term]
-id: CHEBI:24866
-name: salt
-is_a: CHEBI:37577 ! heteroatomic molecular entity
-
-[Term]
 id: CHEBI:24867
 name: monoatomic ion
 is_a: CHEBI:24870 ! ion
@@ -768,17 +530,6 @@ name: isoprenoid
 is_a: CHEBI:18059 ! lipid
 
 [Term]
-id: CHEBI:24973
-name: ketohexose
-is_a: CHEBI:18133 ! hexose
-is_a: CHEBI:24978 ! ketose
-
-[Term]
-id: CHEBI:24978
-name: ketose
-is_a: CHEBI:35381 ! monosaccharide
-
-[Term]
 id: CHEBI:24995
 name: lactam
 is_a: CHEBI:23443 ! cyclic amide
@@ -788,12 +539,6 @@ is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
 id: CHEBI:24996
 name: lactate
 is_a: CHEBI:36059 ! hydroxy monocarboxylic acid anion
-
-[Term]
-id: CHEBI:25000
-name: lactone
-is_a: CHEBI:33308 ! carboxylic ester
-is_a: CHEBI:38104 ! oxacycle
 
 [Term]
 id: CHEBI:25029
@@ -806,48 +551,15 @@ name: linear tetrapyrrole
 is_a: CHEBI:26932 ! tetrapyrrole
 
 [Term]
-id: CHEBI:25048
-name: linolenic acid
-is_a: CHEBI:25633 ! octadecatrienoic acid
-
-[Term]
 id: CHEBI:25107
 name: magnesium atom
 is_a: CHEBI:22313 ! alkaline earth metal atom
-
-[Term]
-id: CHEBI:25108
-name: magnesium molecular entity
-is_a: CHEBI:33299 ! alkaline earth molecular entity
-
-[Term]
-id: CHEBI:25111
-name: magnesium porphyrin
-is_a: CHEBI:25216 ! metalloporphyrin
-is_a: CHEBI:38251 ! magnesium tetrapyrrole
-
-[Term]
-id: CHEBI:25212
-name: metabolite
-is_a: CHEBI:52206 ! biochemical role
 
 [Term]
 id: CHEBI:25213
 name: metal cation
 is_a: CHEBI:23906 ! monoatomic cation
 is_a: CHEBI:36915 ! inorganic cation
-
-[Term]
-id: CHEBI:25216
-name: metalloporphyrin
-is_a: CHEBI:26214 ! porphyrins
-is_a: CHEBI:33240 ! coordination entity
-is_a: CHEBI:33909 ! metallotetrapyrrole
-
-[Term]
-id: CHEBI:25248
-name: methyl ester
-is_a: CHEBI:33308 ! carboxylic ester
 
 [Term]
 id: CHEBI:25354
@@ -886,27 +598,9 @@ name: monoatomic monocation
 is_a: CHEBI:23906 ! monoatomic cation
 
 [Term]
-id: CHEBI:25442
-name: mycotoxin
-is_a: CHEBI:27026 ! toxin
-is_a: CHEBI:76946 ! fungal metabolite
-
-[Term]
-id: CHEBI:25501
-name: neoxanthin
-is_a: CHEBI:35307 ! epoxycarotenol
-is_a: CHEBI:37602 ! allenes
-
-[Term]
 id: CHEBI:25512
 name: neurotransmitter
 is_a: CHEBI:33280 ! molecular messenger
-
-[Term]
-id: CHEBI:25555
-name: nitrogen atom
-is_a: CHEBI:25585 ! nonmetal atom
-is_a: CHEBI:33300 ! pnictogen
 
 [Term]
 id: CHEBI:25585
@@ -920,20 +614,6 @@ is_a: CHEBI:15904 ! long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
 is_a: CHEBI:53339 ! olefinic fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
-
-[Term]
-id: CHEBI:25633
-name: octadecatrienoic acid
-is_a: CHEBI:15904 ! long-chain fatty acid
-is_a: CHEBI:59202 ! straight-chain fatty acid
-is_a: CHEBI:73155 ! trienoic fatty acid
-
-[Term]
-id: CHEBI:25634
-name: octadecenoic acid
-is_a: CHEBI:15904 ! long-chain fatty acid
-is_a: CHEBI:25413 ! monounsaturated fatty acid
-is_a: CHEBI:53339 ! olefinic fatty acid
 
 [Term]
 id: CHEBI:25676
@@ -956,11 +636,6 @@ id: CHEBI:25696
 name: organic anion
 is_a: CHEBI:22563 ! anion
 is_a: CHEBI:25699 ! organic ion
-
-[Term]
-id: CHEBI:25698
-name: ether
-is_a: CHEBI:36963 ! organooxygen compound
 
 [Term]
 id: CHEBI:25699
@@ -987,17 +662,6 @@ is_a: CHEBI:25806 ! oxygen molecular entity
 is_a: CHEBI:37577 ! heteroatomic molecular entity
 
 [Term]
-id: CHEBI:25754
-name: oxo carboxylic acid
-is_a: CHEBI:33575 ! carboxylic acid
-
-[Term]
-id: CHEBI:25805
-name: oxygen atom
-is_a: CHEBI:25585 ! nonmetal atom
-is_a: CHEBI:33303 ! chalcogen
-
-[Term]
 id: CHEBI:25806
 name: oxygen molecular entity
 is_a: CHEBI:33304 ! chalcogen molecular entity
@@ -1013,16 +677,6 @@ name: peptide hormone
 is_a: CHEBI:16670 ! peptide
 
 [Term]
-id: CHEBI:25940
-name: peroxides
-is_a: CHEBI:25741 ! oxide
-
-[Term]
-id: CHEBI:25944
-name: pesticide
-is_a: CHEBI:33232 ! application
-
-[Term]
 id: CHEBI:25985
 name: phenylalanine derivative
 is_a: CHEBI:83821 ! amino acid derivative
@@ -1033,16 +687,6 @@ name: phosphate
 is_a: CHEBI:26079 ! phosphoric acid derivative
 
 [Term]
-id: CHEBI:26044
-name: phosphinic acids
-is_a: CHEBI:36360 ! phosphorus oxoacids and derivatives
-
-[Term]
-id: CHEBI:26069
-name: phosphonic acids
-is_a: CHEBI:36360 ! phosphorus oxoacids and derivatives
-
-[Term]
 id: CHEBI:26079
 name: phosphoric acid derivative
 is_a: CHEBI:36359 ! phosphorus oxoacid derivative
@@ -1051,21 +695,6 @@ is_a: CHEBI:36359 ! phosphorus oxoacid derivative
 id: CHEBI:26082
 name: phosphorus molecular entity
 is_a: CHEBI:33302 ! pnictogen molecular entity
-
-[Term]
-id: CHEBI:26124
-name: phytosteroid
-is_a: CHEBI:35350 ! hydroxy steroid
-
-[Term]
-id: CHEBI:26130
-name: biological pigment
-is_a: CHEBI:52208 ! biophysical role
-
-[Term]
-id: CHEBI:26155
-name: plant growth regulator
-is_a: CHEBI:39317 ! growth regulator
 
 [Term]
 id: CHEBI:26191
@@ -1098,12 +727,6 @@ name: potassium molecular entity
 is_a: CHEBI:33296 ! alkali metal molecular entity
 
 [Term]
-id: CHEBI:26271
-name: proline
-is_a: CHEBI:33704 ! alpha-amino acid
-is_a: CHEBI:38260 ! pyrrolidines
-
-[Term]
 id: CHEBI:26401
 name: purines
 is_a: CHEBI:35875 ! imidazopyrimidine
@@ -1112,11 +735,6 @@ is_a: CHEBI:35875 ! imidazopyrimidine
 id: CHEBI:26469
 name: quaternary nitrogen compound
 is_a: CHEBI:35352 ! organonitrogen compound
-
-[Term]
-id: CHEBI:26523
-name: reactive oxygen species
-is_a: CHEBI:25806 ! oxygen molecular entity
 
 [Term]
 id: CHEBI:26537
@@ -1129,11 +747,6 @@ name: saturated fatty acid
 is_a: CHEBI:35366 ! fatty acid
 
 [Term]
-id: CHEBI:26658
-name: sesquiterpenoid
-is_a: CHEBI:26873 ! terpenoid
-
-[Term]
 id: CHEBI:26708
 name: sodium atom
 is_a: CHEBI:22314 ! alkali metal atom
@@ -1142,12 +755,6 @@ is_a: CHEBI:22314 ! alkali metal atom
 id: CHEBI:26764
 name: steroid hormone
 is_a: CHEBI:35341 ! steroid
-
-[Term]
-id: CHEBI:26833
-name: sulfur atom
-is_a: CHEBI:25585 ! nonmetal atom
-is_a: CHEBI:33303 ! chalcogen
 
 [Term]
 id: CHEBI:26834
@@ -1166,26 +773,10 @@ name: terpenoid
 is_a: CHEBI:24913 ! isoprenoid
 
 [Term]
-id: CHEBI:26878
-name: tertiary alcohol
-is_a: CHEBI:30879 ! alcohol
-
-[Term]
 id: CHEBI:26932
 name: tetrapyrrole
 is_a: CHEBI:33833 ! heteroarene
 is_a: CHEBI:38077 ! polypyrrole
-
-[Term]
-id: CHEBI:26935
-name: tetraterpenoid
-is_a: CHEBI:26873 ! terpenoid
-
-[Term]
-id: CHEBI:27026
-name: toxin
-is_a: CHEBI:25212 ! metabolite
-is_a: CHEBI:64909 ! poison
 
 [Term]
 id: CHEBI:27081
@@ -1196,11 +787,6 @@ is_a: CHEBI:33521 ! metal atom
 id: CHEBI:27136
 name: triol
 is_a: CHEBI:26191 ! polyol
-
-[Term]
-id: CHEBI:27150
-name: trisaccharide
-is_a: CHEBI:50699 ! oligosaccharide
 
 [Term]
 id: CHEBI:27162
@@ -1224,58 +810,15 @@ name: uric acid
 is_a: CHEBI:25810 ! oxopurine
 
 [Term]
-id: CHEBI:27295
-name: violaxanthin
-is_a: CHEBI:35307 ! epoxycarotenol
-
-[Term]
-id: CHEBI:27325
-name: xanthophyll
-is_a: CHEBI:23044 ! carotenoid
-
-[Term]
-id: CHEBI:27363
-name: zinc atom
-is_a: CHEBI:33340 ! zinc group element atom
-
-[Term]
 id: CHEBI:27369
 name: zwitterion
 is_a: CHEBI:51151 ! dipolar compound
-
-[Term]
-id: CHEBI:27432
-name: alpha-linolenic acid
-is_a: CHEBI:25048 ! linolenic acid
-is_a: CHEBI:25681 ! omega-3 fatty acid
-
-[Term]
-id: CHEBI:27547
-name: zeaxanthin
-is_a: CHEBI:23045 ! carotenol
-
-[Term]
-id: CHEBI:27560
-name: boron atom
-is_a: CHEBI:25585 ! nonmetal atom
-is_a: CHEBI:33317 ! boron group element atom
-
-[Term]
-id: CHEBI:27563
-name: arsenic atom
-is_a: CHEBI:33300 ! pnictogen
 
 [Term]
 id: CHEBI:27568
 name: selenium atom
 is_a: CHEBI:25585 ! nonmetal atom
 is_a: CHEBI:33303 ! chalcogen
-
-[Term]
-id: CHEBI:27573
-name: silicon atom
-is_a: CHEBI:25585 ! nonmetal atom
-is_a: CHEBI:33306 ! carbon group element atom
 
 [Term]
 id: CHEBI:27584
@@ -1289,79 +832,15 @@ is_a: CHEBI:47788 ! 3-oxo steroid
 is_a: CHEBI:64600 ! C21-steroid hormone
 
 [Term]
-id: CHEBI:27594
-name: carbon atom
-is_a: CHEBI:25585 ! nonmetal atom
-is_a: CHEBI:33306 ! carbon group element atom
-
-[Term]
-id: CHEBI:27638
-name: cobalt atom
-is_a: CHEBI:33358 ! cobalt group element atom
-
-[Term]
-id: CHEBI:27744
-name: glyphosate
-is_a: CHEBI:24373 ! glycine derivative
-is_a: CHEBI:44976 ! phosphonic acid
-
-[Term]
-id: CHEBI:27888
-name: chlorophyll b
-is_a: CHEBI:28966 ! chlorophyll
-
-[Term]
-id: CHEBI:27897
-name: tryptophan
-is_a: CHEBI:33704 ! alpha-amino acid
-is_a: CHEBI:33856 ! aromatic amino acid
-is_a: CHEBI:38631 ! aminoalkylindole
-
-[Term]
-id: CHEBI:28017
-name: starch
-is_a: CHEBI:37163 ! glucan
-
-[Term]
-id: CHEBI:28057
-name: amylopectin
-is_a: CHEBI:65212 ! polysaccharide derivative
-
-[Term]
-id: CHEBI:28073
-name: chromium atom
-is_a: CHEBI:33350 ! chromium group element atom
-
-[Term]
 id: CHEBI:28087
 name: glycogen
 is_a: CHEBI:24384 ! glycogens
-
-[Term]
-id: CHEBI:28102
-name: amylose
-is_a: CHEBI:37163 ! glucan
 
 [Term]
 id: CHEBI:28659
 name: phosphorus atom
 is_a: CHEBI:25585 ! nonmetal atom
 is_a: CHEBI:33300 ! pnictogen
-
-[Term]
-id: CHEBI:28685
-name: molybdenum atom
-is_a: CHEBI:33350 ! chromium group element atom
-
-[Term]
-id: CHEBI:28694
-name: copper atom
-is_a: CHEBI:33366 ! copper group element atom
-
-[Term]
-id: CHEBI:28757
-name: fructose
-is_a: CHEBI:24973 ! ketohexose
 
 [Term]
 id: CHEBI:28790
@@ -1378,42 +857,15 @@ is_a: CHEBI:15904 ! long-chain fatty acid
 is_a: CHEBI:39418 ! straight-chain saturated fatty acid
 
 [Term]
-id: CHEBI:28838
-name: lutein
-is_a: CHEBI:23045 ! carotenol
-
-[Term]
-id: CHEBI:28842
-name: stearic acid
-is_a: CHEBI:15904 ! long-chain fatty acid
-is_a: CHEBI:39418 ! straight-chain saturated fatty acid
-
-[Term]
 id: CHEBI:28918
 name: (R)-adrenaline
 is_a: CHEBI:33568 ! adrenaline
-
-[Term]
-id: CHEBI:28963
-name: amino sugar
-is_a: CHEBI:63299 ! carbohydrate derivative
 
 [Term]
 id: CHEBI:28965
 name: dicarboxylic acid dianion
 is_a: CHEBI:35693 ! dicarboxylic acid anion
 is_a: CHEBI:38716 ! carboxylic acid dianion
-
-[Term]
-id: CHEBI:28966
-name: chlorophyll
-is_a: CHEBI:25111 ! magnesium porphyrin
-
-[Term]
-id: CHEBI:28984
-name: aluminium atom
-is_a: CHEBI:33317 ! boron group element atom
-is_a: CHEBI:33521 ! metal atom
 
 [Term]
 id: CHEBI:29067
@@ -1445,11 +897,6 @@ name: copper(0)
 is_a: CHEBI:37404 ! elemental copper
 
 [Term]
-id: CHEBI:30145
-name: lithium atom
-is_a: CHEBI:22314 ! alkali metal atom
-
-[Term]
 id: CHEBI:30660
 name: thyroxine
 is_a: CHEBI:24863 ! iodophenol
@@ -1469,34 +916,14 @@ name: alcohol
 is_a: CHEBI:33822 ! organic hydroxy compound
 
 [Term]
-id: CHEBI:32878
-name: alkene
-is_a: CHEBI:33645 ! acyclic olefin
-
-[Term]
-id: CHEBI:32955
-name: epoxide
-is_a: CHEBI:37407 ! cyclic ether
-
-[Term]
 id: CHEBI:32988
 name: amide
 is_a: CHEBI:51143 ! nitrogen molecular entity
 
 [Term]
-id: CHEBI:33232
-name: application
-is_a: CHEBI:50906 ! role
-
-[Term]
 id: CHEBI:33238
 name: monoatomic entity
 is_a: CHEBI:33259 ! elemental molecular entity
-
-[Term]
-id: CHEBI:33240
-name: coordination entity
-is_a: CHEBI:37577 ! heteroatomic molecular entity
 
 [Term]
 id: CHEBI:33241
@@ -1599,20 +1026,10 @@ name: chalcogen molecular entity
 is_a: CHEBI:33675 ! p-block molecular entity
 
 [Term]
-id: CHEBI:33306
-name: carbon group element atom
-is_a: CHEBI:33560 ! p-block element atom
-
-[Term]
 id: CHEBI:33308
 name: carboxylic ester
 is_a: CHEBI:35701 ! ester
 is_a: CHEBI:36586 ! carbonyl compound
-
-[Term]
-id: CHEBI:33317
-name: boron group element atom
-is_a: CHEBI:33560 ! p-block element atom
 
 [Term]
 id: CHEBI:33318
@@ -1620,40 +1037,9 @@ name: main group element atom
 is_a: CHEBI:33250 ! atom
 
 [Term]
-id: CHEBI:33340
-name: zinc group element atom
-is_a: CHEBI:33561 ! d-block element atom
-
-[Term]
-id: CHEBI:33350
-name: chromium group element atom
-is_a: CHEBI:33561 ! d-block element atom
-
-[Term]
-id: CHEBI:33352
-name: manganese group element atom
-is_a: CHEBI:33561 ! d-block element atom
-
-[Term]
 id: CHEBI:33356
 name: iron group element atom
 is_a: CHEBI:33561 ! d-block element atom
-
-[Term]
-id: CHEBI:33358
-name: cobalt group element atom
-is_a: CHEBI:33561 ! d-block element atom
-
-[Term]
-id: CHEBI:33366
-name: copper group element atom
-is_a: CHEBI:33561 ! d-block element atom
-
-[Term]
-id: CHEBI:33408
-name: pnictogen oxoacid
-is_a: CHEBI:24833 ! oxoacid
-is_a: CHEBI:33302 ! pnictogen molecular entity
 
 [Term]
 id: CHEBI:33429
@@ -1682,24 +1068,6 @@ is_a: CHEBI:33238 ! monoatomic entity
 id: CHEBI:33434
 name: elemental halogen
 is_a: CHEBI:33259 ! elemental molecular entity
-
-[Term]
-id: CHEBI:33457
-name: phosphorus oxoacid
-is_a: CHEBI:33408 ! pnictogen oxoacid
-is_a: CHEBI:36360 ! phosphorus oxoacids and derivatives
-
-[Term]
-id: CHEBI:33458
-name: nitrogen oxoanion
-is_a: CHEBI:33459 ! pnictogen oxoanion
-is_a: CHEBI:51143 ! nitrogen molecular entity
-
-[Term]
-id: CHEBI:33459
-name: pnictogen oxoanion
-is_a: CHEBI:33302 ! pnictogen molecular entity
-is_a: CHEBI:35406 ! oxoanion
 
 [Term]
 id: CHEBI:33465
@@ -1824,17 +1192,6 @@ name: ortho-fused compound
 is_a: CHEBI:35293 ! fused compound
 
 [Term]
-id: CHEBI:33641
-name: olefin
-is_a: CHEBI:24632 ! hydrocarbon
-is_a: CHEBI:78840 ! olefinic compound
-
-[Term]
-id: CHEBI:33645
-name: acyclic olefin
-is_a: CHEBI:33641 ! olefin
-
-[Term]
 id: CHEBI:33655
 name: aromatic compound
 is_a: CHEBI:33595 ! cyclic compound
@@ -1956,27 +1313,10 @@ is_a: CHEBI:33659 ! organic aromatic compound
 is_a: CHEBI:33822 ! organic hydroxy compound
 
 [Term]
-id: CHEBI:33856
-name: aromatic amino acid
-is_a: CHEBI:33659 ! organic aromatic compound
-is_a: CHEBI:33709 ! amino acid
-
-[Term]
-id: CHEBI:33909
-name: metallotetrapyrrole
-is_a: CHEBI:36309 ! cyclic tetrapyrrole
-
-[Term]
 id: CHEBI:33917
 name: aldohexose
 is_a: CHEBI:15693 ! aldose
 is_a: CHEBI:18133 ! hexose
-
-[Term]
-id: CHEBI:33976
-name: magnesium coordination entity
-is_a: CHEBI:25108 ! magnesium molecular entity
-is_a: CHEBI:35217 ! alkaline earth coordination entity
 
 [Term]
 id: CHEBI:35106
@@ -2015,11 +1355,6 @@ name: elemental calcium
 is_a: CHEBI:22985 ! calcium molecular entity
 
 [Term]
-id: CHEBI:35162
-name: acyclic carotene
-is_a: CHEBI:23042 ! carotene
-
-[Term]
 id: CHEBI:35163
 name: cyclic carotene
 is_a: CHEBI:23042 ! carotene
@@ -2036,18 +1371,6 @@ name: tetraterpene
 is_a: CHEBI:35186 ! terpene
 
 [Term]
-id: CHEBI:35217
-name: alkaline earth coordination entity
-is_a: CHEBI:33299 ! alkaline earth molecular entity
-is_a: CHEBI:36562 ! main-group coordination entity
-
-[Term]
-id: CHEBI:35218
-name: anthocyanin cation
-is_a: CHEBI:24400 ! glycoside
-is_a: CHEBI:47916 ! flavonoid
-
-[Term]
 id: CHEBI:35281
 name: onium betaine
 is_a: CHEBI:27369 ! zwitterion
@@ -2062,12 +1385,6 @@ is_a: CHEBI:35281 ! onium betaine
 id: CHEBI:35293
 name: fused compound
 is_a: CHEBI:33635 ! polycyclic compound
-
-[Term]
-id: CHEBI:35307
-name: epoxycarotenol
-is_a: CHEBI:23043 ! epoxycarotenoid
-is_a: CHEBI:23045 ! carotenol
 
 [Term]
 id: CHEBI:35341
@@ -2184,12 +1501,6 @@ is_a: CHEBI:24833 ! oxoacid
 is_a: CHEBI:36963 ! organooxygen compound
 
 [Term]
-id: CHEBI:35618
-name: aromatic ether
-is_a: CHEBI:25698 ! ether
-is_a: CHEBI:33659 ! organic aromatic compound
-
-[Term]
 id: CHEBI:35681
 name: secondary alcohol
 is_a: CHEBI:30879 ! alcohol
@@ -2239,12 +1550,6 @@ is_a: CHEBI:24669 ! hydroxy carboxylic acid
 is_a: CHEBI:25384 ! monocarboxylic acid
 
 [Term]
-id: CHEBI:35871
-name: oxo monocarboxylic acid
-is_a: CHEBI:25384 ! monocarboxylic acid
-is_a: CHEBI:25754 ! oxo carboxylic acid
-
-[Term]
 id: CHEBI:35875
 name: imidazopyrimidine
 is_a: CHEBI:27171 ! organic heterobicyclic compound
@@ -2266,11 +1571,6 @@ is_a: CHEBI:35868 ! hydroxy monocarboxylic acid
 id: CHEBI:36009
 name: omega-6 fatty acid
 is_a: CHEBI:59549 ! essential fatty acid
-
-[Term]
-id: CHEBI:36021
-name: octadec-9-enoic acid
-is_a: CHEBI:25634 ! octadecenoic acid
 
 [Term]
 id: CHEBI:36059
@@ -2321,12 +1621,6 @@ name: phosphorus oxoacids and derivatives
 is_a: CHEBI:26082 ! phosphorus molecular entity
 
 [Term]
-id: CHEBI:36562
-name: main-group coordination entity
-is_a: CHEBI:33240 ! coordination entity
-is_a: CHEBI:33579 ! main group molecular entity
-
-[Term]
 id: CHEBI:36586
 name: carbonyl compound
 is_a: CHEBI:36587 ! organic oxo compound
@@ -2353,12 +1647,6 @@ is_a: CHEBI:50858 ! corticosteroid
 id: CHEBI:36735
 name: biladienes
 is_a: CHEBI:25046 ! linear tetrapyrrole
-
-[Term]
-id: CHEBI:36758
-name: apo carotenoid sesquiterpenoid
-is_a: CHEBI:26658 ! sesquiterpenoid
-is_a: CHEBI:53183 ! apo carotenoid
 
 [Term]
 id: CHEBI:36820
@@ -2473,17 +1761,6 @@ name: elemental copper
 is_a: CHEBI:23377 ! copper molecular entity
 
 [Term]
-id: CHEBI:37407
-name: cyclic ether
-is_a: CHEBI:25698 ! ether
-is_a: CHEBI:38104 ! oxacycle
-
-[Term]
-id: CHEBI:37527
-name: acid
-is_a: CHEBI:51086 ! chemical role
-
-[Term]
 id: CHEBI:37577
 name: heteroatomic molecular entity
 is_a: CHEBI:36357 ! polyatomic entity
@@ -2495,22 +1772,11 @@ is_a: CHEBI:24471 ! halogen molecular entity
 is_a: CHEBI:37577 ! heteroatomic molecular entity
 
 [Term]
-id: CHEBI:37602
-name: allenes
-is_a: CHEBI:50860 ! organic molecular entity
-
-[Term]
 id: CHEBI:37622
 name: carboxamide
 is_a: CHEBI:33256 ! primary amide
 is_a: CHEBI:35352 ! organonitrogen compound
 is_a: CHEBI:36963 ! organooxygen compound
-
-[Term]
-id: CHEBI:37668
-name: terpene lactone
-is_a: CHEBI:25000 ! lactone
-is_a: CHEBI:26873 ! terpenoid
 
 [Term]
 id: CHEBI:37734
@@ -2522,12 +1788,6 @@ is_a: CHEBI:35701 ! ester
 id: CHEBI:37845
 name: growth hormone
 is_a: CHEBI:24621 ! hormone
-
-[Term]
-id: CHEBI:37848
-name: plant hormone
-is_a: CHEBI:24621 ! hormone
-is_a: CHEBI:26155 ! plant growth regulator
 
 [Term]
 id: CHEBI:37894
@@ -2559,26 +1819,9 @@ is_a: CHEBI:24532 ! organic heterocyclic compound
 is_a: CHEBI:33671 ! heteropolycyclic compound
 
 [Term]
-id: CHEBI:38179
-name: monocyclic heteroarene
-is_a: CHEBI:33833 ! heteroarene
-
-[Term]
 id: CHEBI:38180
 name: polycyclic heteroarene
 is_a: CHEBI:33833 ! heteroarene
-
-[Term]
-id: CHEBI:38251
-name: magnesium tetrapyrrole
-is_a: CHEBI:33909 ! metallotetrapyrrole
-is_a: CHEBI:33976 ! magnesium coordination entity
-
-[Term]
-id: CHEBI:38260
-name: pyrrolidines
-is_a: CHEBI:25693 ! organic heteromonocyclic compound
-is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
 
 [Term]
 id: CHEBI:38261
@@ -2594,11 +1837,6 @@ is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
 [Term]
 id: CHEBI:38460
 name: methylindole
-is_a: CHEBI:24828 ! indoles
-
-[Term]
-id: CHEBI:38631
-name: aminoalkylindole
 is_a: CHEBI:24828 ! indoles
 
 [Term]
@@ -2626,11 +1864,6 @@ is_a: CHEBI:25213 ! metal cation
 is_a: CHEBI:35155 ! elemental calcium
 
 [Term]
-id: CHEBI:39317
-name: growth regulator
-is_a: CHEBI:24432 ! biological role
-
-[Term]
 id: CHEBI:39418
 name: straight-chain saturated fatty acid
 is_a: CHEBI:26607 ! saturated fatty acid
@@ -2643,21 +1876,9 @@ is_a: CHEBI:15904 ! long-chain fatty acid
 is_a: CHEBI:39418 ! straight-chain saturated fatty acid
 
 [Term]
-id: CHEBI:44976
-name: phosphonic acid
-is_a: CHEBI:26069 ! phosphonic acids
-is_a: CHEBI:33457 ! phosphorus oxoacid
-
-[Term]
 id: CHEBI:46662
 name: mineral
 is_a: CHEBI:59999 ! chemical substance
-
-[Term]
-id: CHEBI:46867
-name: indolyl carboxylic acid
-is_a: CHEBI:24828 ! indoles
-is_a: CHEBI:33575 ! carboxylic acid
 
 [Term]
 id: CHEBI:47773
@@ -2696,11 +1917,6 @@ is_a: CHEBI:47788 ! 3-oxo steroid
 is_a: CHEBI:51689 ! enone
 
 [Term]
-id: CHEBI:47916
-name: flavonoid
-is_a: CHEBI:72544 ! flavonoids
-
-[Term]
 id: CHEBI:47923
 name: tripeptide
 is_a: CHEBI:25676 ! oligopeptide
@@ -2715,30 +1931,6 @@ is_a: CHEBI:26835 ! sulfur molecular entity
 id: CHEBI:48705
 name: agonist
 is_a: CHEBI:52210 ! pharmacological role
-
-[Term]
-id: CHEBI:49191
-name: momilactone A
-is_a: CHEBI:49192 ! pimarane diterpenoid
-is_a: CHEBI:49193 ! diterpene lactone
-
-[Term]
-id: CHEBI:49192
-name: pimarane diterpenoid
-is_a: CHEBI:23849 ! diterpenoid
-
-[Term]
-id: CHEBI:49193
-name: diterpene lactone
-is_a: CHEBI:23849 ! diterpenoid
-is_a: CHEBI:37668 ! terpene lactone
-
-[Term]
-id: CHEBI:49637
-name: hydrogen atom
-is_a: CHEBI:24835 ! inorganic molecular entity
-is_a: CHEBI:25585 ! nonmetal atom
-is_a: CHEBI:33559 ! s-block element atom
 
 [Term]
 id: CHEBI:50047
@@ -2817,11 +2009,6 @@ name: primary amino compound
 is_a: CHEBI:50047 ! organic amino compound
 
 [Term]
-id: CHEBI:51086
-name: chemical role
-is_a: CHEBI:50906 ! role
-
-[Term]
 id: CHEBI:51143
 name: nitrogen molecular entity
 is_a: CHEBI:33302 ! pnictogen molecular entity
@@ -2849,21 +2036,6 @@ is_a: CHEBI:33635 ! polycyclic compound
 is_a: CHEBI:33832 ! organic cyclic compound
 
 [Term]
-id: CHEBI:52136
-name: phosphinothricin
-is_a: CHEBI:26044 ! phosphinic acids
-
-[Term]
-id: CHEBI:52206
-name: biochemical role
-is_a: CHEBI:24432 ! biological role
-
-[Term]
-id: CHEBI:52208
-name: biophysical role
-is_a: CHEBI:24432 ! biological role
-
-[Term]
 id: CHEBI:52210
 name: pharmacological role
 is_a: CHEBI:24432 ! biological role
@@ -2886,11 +2058,6 @@ is_a: CHEBI:24651 ! hydroxides
 is_a: CHEBI:24835 ! inorganic molecular entity
 
 [Term]
-id: CHEBI:53183
-name: apo carotenoid
-is_a: CHEBI:24913 ! isoprenoid
-
-[Term]
 id: CHEBI:53291
 name: 2-halophenol
 is_a: CHEBI:38856 ! halophenol
@@ -2910,11 +2077,6 @@ is_a: CHEBI:35137 ! hemoprotein
 id: CHEBI:5391
 name: glucagon
 is_a: CHEBI:25905 ! peptide hormone
-
-[Term]
-id: CHEBI:5417
-name: glucosamine
-is_a: CHEBI:24271 ! glucosamines
 
 [Term]
 id: CHEBI:55370
@@ -2964,11 +2126,6 @@ name: thyroid hormone
 is_a: CHEBI:24621 ! hormone
 
 [Term]
-id: CHEBI:60926
-name: amino monosaccharide
-is_a: CHEBI:28963 ! amino sugar
-
-[Term]
 id: CHEBI:61159
 name: conjugated linoleic acid
 is_a: CHEBI:25627 ! octadecadienoic acid
@@ -2989,31 +2146,9 @@ name: fatty acid derivative
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
-id: CHEBI:62431
-name: abscisic acids
-is_a: CHEBI:26878 ! tertiary alcohol
-is_a: CHEBI:36758 ! apo carotenoid sesquiterpenoid
-is_a: CHEBI:79020 ! alpha,beta-unsaturated monocarboxylic acid
-
-[Term]
 id: CHEBI:62761
 name: tyrosine derivative
 is_a: CHEBI:25985 ! phenylalanine derivative
-
-[Term]
-id: CHEBI:62764
-name: reactive nitrogen species
-is_a: CHEBI:51143 ! nitrogen molecular entity
-
-[Term]
-id: CHEBI:63161
-name: glycosyl compound
-is_a: CHEBI:63299 ! carbohydrate derivative
-
-[Term]
-id: CHEBI:63299
-name: carbohydrate derivative
-is_a: CHEBI:78616 ! carbohydrates and carbohydrate derivatives
 
 [Term]
 id: CHEBI:63534
@@ -3042,17 +2177,6 @@ name: organic acid
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
-id: CHEBI:64909
-name: poison
-is_a: CHEBI:24432 ! biological role
-
-[Term]
-id: CHEBI:65212
-name: polysaccharide derivative
-is_a: CHEBI:33694 ! biomacromolecule
-is_a: CHEBI:63299 ! carbohydrate derivative
-
-[Term]
 id: CHEBI:65311
 name: corticotropin-releasing hormone
 is_a: CHEBI:15841 ! polypeptide
@@ -3060,21 +2184,9 @@ is_a: CHEBI:25905 ! peptide hormone
 is_a: CHEBI:33694 ! biomacromolecule
 
 [Term]
-id: CHEBI:68452
-name: azole
-is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
-is_a: CHEBI:38179 ! monocyclic heteroarene
-
-[Term]
 id: CHEBI:7044
 name: myoglobin
 is_a: CHEBI:5386 ! globin
-
-[Term]
-id: CHEBI:72544
-name: flavonoids
-is_a: CHEBI:25806 ! oxygen molecular entity
-is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:72695
@@ -3083,30 +2195,9 @@ is_a: CHEBI:25367 ! molecule
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
-id: CHEBI:73155
-name: trienoic fatty acid
-is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:53339 ! olefinic fatty acid
-
-[Term]
-id: CHEBI:74961
-name: raffinose family oligosaccharide
-is_a: CHEBI:50699 ! oligosaccharide
-
-[Term]
-id: CHEBI:75763
-name: eukaryotic metabolite
-is_a: CHEBI:25212 ! metabolite
-
-[Term]
 id: CHEBI:76578
 name: disubstituted glycerol
 is_a: CHEBI:18059 ! lipid
-
-[Term]
-id: CHEBI:76946
-name: fungal metabolite
-is_a: CHEBI:75763 ! eukaryotic metabolite
 
 [Term]
 id: CHEBI:78295
@@ -3122,11 +2213,6 @@ is_a: CHEBI:36963 ! organooxygen compound
 id: CHEBI:78840
 name: olefinic compound
 is_a: CHEBI:50860 ! organic molecular entity
-
-[Term]
-id: CHEBI:79020
-name: alpha,beta-unsaturated monocarboxylic acid
-is_a: CHEBI:25384 ! monocarboxylic acid
 
 [Term]
 id: CHEBI:79388
