@@ -571,7 +571,7 @@ OBA_VT0001045	enteric ganglion morphology trait	UBERON_0001809	enteric ganglion	
 OBA_VT0001046	enteric neuron morphology trait	CL_0007011	enteric neuron	PATO_0000051	morphology
 OBA_VT0001048	enteric neuron quantity	CL_0007011	enteric neuron	PATO_0000070	amount
 OBA_VT0001051	somatic motor system morphology trait	UBERON_0003945	somatic motor system	PATO_0000051	morphology
-OBA_VT0001053	neuromuscular synapse morphology trait	UBERON_0001029	obsolete neuromuscular junction	PATO_0000051	morphology
+OBA_VT0001053	neuromuscular synapse morphology trait	GO_0031594	neuromuscular junction	PATO_0000051	morphology
 OBA_VT0001056	cranial nerve morphology trait	UBERON_0001785	cranial nerve	PATO_0000051	morphology
 OBA_VT0001059	optic nerve size trait	UBERON_0004904	neuron projection bundle connecting eye with brain	PATO_0000117	size
 OBA_VT0001061	oculomotor nerve morphology trait	UBERON_0001643	oculomotor nerve	PATO_0000051	morphology

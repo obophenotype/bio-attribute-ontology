@@ -5,9 +5,8 @@ SRC=oba-edit.obo
 MODS = entity_attribute entity_attribute_location attribute_location
 
 all: oba.owl all_subsets
-
+all_subsets: subsets/oba-basic.obo
 test: all
-
 release: all copy-release
 
 TARGETS = oba.obo oba.owl imports subsets
@@ -33,22 +32,17 @@ subsets/oba-basic.owl: oba-core-inferred.owl
 subsets/oba-basic.obo: subsets/oba-basic.owl
 	owltools $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 
-oba.owl: oba-core-inferred.owl modules/vt.obo
-	owltools $(USECAT) $^ --merge-support-ontologies -o $@
+oba.owl: oba-core-inferred.owl
+	owltools $(USECAT) $< --set-ontology-id $(OBO)/$@ -o $@
+
+#oba.owl: oba-core-inferred.owl modules/vt.obo
+#	owltools $(USECAT) $^ --merge-support-ontologies -o $@
 oba.obo: oba.owl
 	owltools $(USECAT) $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
-oba-simple.obo: oba.owl
 
-oort:
+oort: oba-core.owl
 	ontology-release-runner $(USECAT) --ignore-selected-equivalent-pairs 'CL:0000000'  --ignoreLock --skip-release-folder --skip-format owx --skip-format obo --no-subsets --outdir target --allow-overwrite --asserted --simple --reasoner elk $<
 
-all_subsets: subsets/oba-basic.obo
-
-#subsets/oba-basic.obo: oba.obo
-#	owltools  $(USECAT) $< --extract-module -d OBA:0000001 --remove-dangling --make-subset-by-properties //  --set-ontology-id $(OBO)/oba/$@ -o -f obo $@
-
-#subsets/oba-basic.obo: oba-simple.obo
-#	owltools $< --set-ontology-id $(OBO)/oba/$@ -o -f obo $@
 
 # ----------------------------------------
 # VT
