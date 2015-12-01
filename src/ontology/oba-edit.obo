@@ -9,13 +9,35 @@ import: http://purl.obolibrary.org/obo/oba/imports/go_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/pato_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/po_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl
+import: http://purl.obolibrary.org/obo/oba/imports/pr_import.owl
+import: http://purl.obolibrary.org/obo/oba/imports/so_import.owl
 ontology: oba
 property-value: foaf-homepage \"http://wiki.geneontology.org/index.php/Extensions/x-attribute\" xsd:anyURL
 
 [Term]
-id: OBA:0000001
+id: OBA:0100001
+name: cellular component attribute
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+
+[Term]
+id: OBA:0100002
+name: biological process quality
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+
+[Term]
+id: OBA:0100003
+name: anatomical entity quality
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+
+[Term]
+id: OBA:0100004 ! chemical entity quality
+name: chemical entity quality
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+
+[Term]
+id: OBA:0000001 ! biological attribute
 name: biological attribute
-relationship: affects_quality PATO:0000001 ! quality
+is_a: PATO:0000001 ! quality
 
 [Term]
 id: OBA:0000003
@@ -59,6 +81,7 @@ is_a: OBA:0000079 ! hormone levels
 [Term]
 id: OBA:0000018
 name: appetite
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
 id: OBA:0000022
@@ -196,6 +219,7 @@ is_a: OBA:0000125 ! post-synaptic membrane potential
 [Term]
 id: OBA:0000088
 name: liquid surface tension
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
 id: OBA:0000089
@@ -205,7 +229,6 @@ is_a: OBA:0000114 ! neuronal synaptic plasticity
 [Term]
 id: OBA:0000090
 name: lung blood pressure
-is_a: VT:0000183 ! blood pressure trait
 
 [Term]
 id: OBA:0000091
@@ -267,7 +290,6 @@ is_a: OBA:0000068 ! endosome size
 [Term]
 id: OBA:0000110
 name: muscle filament sliding speed
-relationship: attribute_of GO:0030016 ! myofibril
 
 [Term]
 id: OBA:0000112
@@ -284,16 +306,15 @@ name: neuronal synaptic plasticity
 [Term]
 id: OBA:0000116
 name: neurotransmitter levels
+is_a: OBA:0100004 {is_asserted="true"} ! chemical entity quality
 
 [Term]
 id: OBA:0000117
 name: nuclear size
-is_a: OBA:0000057 ! cellular component size
 
 [Term]
 id: OBA:0000119
 name: nucleosome density
-is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000120
@@ -340,7 +361,6 @@ comment: See http://code.google.com/p/pato/issues/detail?id=1
 [Term]
 id: OBA:0000129
 name: rRNA stability
-is_a: OBA:0000009 ! RNA stability
 
 [Term]
 id: OBA:0000134
@@ -372,7 +392,6 @@ id: OBA:0000141
 name: synaptic plasticity
 comment: http://code.google.com/p/pato/issues/detail?id=2
 is_a: OBA:0000001 ! biological attribute
-relationship: attribute_of GO:0045202 ! synapse
 
 [Term]
 id: OBA:0000143
@@ -404,7 +423,6 @@ name: tracheal tube diameter
 [Term]
 id: OBA:0000167
 name: tracheal tube length
-is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000168
@@ -420,7 +438,6 @@ is_a: OBA:0000001 ! biological attribute
 [Term]
 id: OBA:0000171
 name: tube diameter
-is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000172
@@ -1463,23 +1480,11 @@ created_by: cjmungall
 creation_date: 2015-09-29T15:36:19Z
 
 [Typedef]
-id: affects_quality
-name: has quality
-comment: well be added to RO
-
-[Typedef]
-id: attribute_of
-name: attribute of
-comment: well be added to RO
-
-[Typedef]
 id: has_part
-name: has_part
+name: has part
 xref: BFO:0000051
 is_transitive: true
 inverse_of: part_of ! part_of
-created_by: cooperl
-creation_date: 2013-01-28T17:48:27Z
 
 [Typedef]
 id: occurs_in
@@ -1489,7 +1494,20 @@ transitive_over: part_of ! part_of
 
 [Typedef]
 id: part_of
-name: part_of
+name: part of
 xref: BFO:0000050
 is_transitive: true
+
+[Typedef]
+id: inheres_in_part_of
+name: inheres in part -of
+xref: RO:0002314 ! inheres in part of
+holds_over_chain: inheres_in part_of
+
+[Typedef]
+id: inheres_in
+name: inheres in
+is_a: inheres_in_part_of
+xref: RO:0000052 ! inheres in
+
 

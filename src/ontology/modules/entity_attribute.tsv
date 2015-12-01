@@ -1,4 +1,9 @@
 iri	iri label	entity	entity label	attribute	attribute label
+OBA_0100001	cellular component attribute	GO_0005575	cellular_component	PATO_0000001	quality
+OBA_0100002	biological process attribute	GO_0008150	biological_process	PATO_0000001	quality
+OBA_0100003	anatomical entity attribute	UBERON_0001062	anatomical entity	PATO_0000001	quality
+OBA_0100004	chemical entity attribute	CHEBI_24431	chemical entity	PATO_0000001	quality
+OBA_0100005	protein attribute	PR_000000001	protein	PATO_0000001	quality
 OBA_0000006	Malpighian tubule diameter	UBERON_0001054	Malpighian tubule	PATO_0001334	diameter
 OBA_0000007	Malpighian tubule size	UBERON_0001054	Malpighian tubule	PATO_0000117	size
 OBA_0000011	actin filament length	GO_0005884	actin filament	PATO_0000122	length
@@ -30,7 +35,7 @@ OBA_0000104	mitochondrial membrane permeability	GO_0031966	mitochondrial membran
 OBA_0000107	multivesicular body size	GO_0005771	multivesicular body	PATO_0000117	size
 OBA_0000112	myofibril number	GO_0030016	myofibril	PATO_0000070	amount
 OBA_0000113	myofibril size	GO_0030016	myofibril	PATO_0000117	size
-OBA_0000116	neurotransmitter levels	CHEBI_25512	neurotransmitter	PATO_0000070	amount
+OBA_0000116	neurotransmitter levels	GOCHE_25512	neurotransmitter	PATO_0000070	amount
 OBA_0000117	nuclear size	GO_0005634	nucleus	PATO_0000117	size
 OBA_0000119	nucleosome density	GO_0000786	nucleosome	PATO_0000070	amount
 OBA_0000120	osmotic pressure	CHEBI_15377	water	PATO_0000070	amount
@@ -123,9 +128,9 @@ OBA_1000072	coat color pattern	UBERON_0010166	coat of hair	PATO_0000019	color pa
 OBA_1000073	coat spatial pattern	UBERON_0010166	coat of hair	PATO_0000060	spatial pattern
 OBA_1000074	antenna size	UBERON_0000972	antenna	PATO_0000117	size
 OBA_1000075	cytosol color	GO_0005829	cytosol	PATO_0000014	color
-OBA_1000076	cell attribute	GO_0005623	cell	PATO_0000001	quality
-OBA_1000077	cytosol attribute	GO_0005829	cytosol	PATO_0000001	quality
-OBA_1000078	organelle attribute	GO_0043226	organelle	PATO_0000001	quality
+OBA_1000076	attribute of cell	GO_0005623	cell	PATO_0000001	quality
+OBA_1000077	attribute of cytosol	GO_0005829	cytosol	PATO_0000001	quality
+OBA_1000078	attribute of organelle	GO_0043226	organelle	PATO_0000001	quality
 OBA_1000079	muscle organ strength	UBERON_0001630	muscle organ	PATO_0001230	strength
 OBA_1000080	skeletal muscle organ strength	UBERON_0014892	skeletal muscle organ	PATO_0001230	strength
 OBA_1000081	forelimb muscle strength	UBERON_0003662	forelimb muscle	PATO_0001230	strength
@@ -1490,7 +1495,7 @@ OBA_VT0005355	thyroid gland size trait	UBERON_0002046	thyroid gland	PATO_0000117
 OBA_VT0005358	incisor morphology trait	UBERON_0001098	incisor tooth	PATO_0000051	morphology
 OBA_VT0005361	pituitary gland size trait	UBERON_0000007	pituitary gland	PATO_0000117	size
 OBA_VT0005362	Langerhans cell physiology trait	CL_0000453	Langerhans cell	PATO_0001509	functionality
-OBA_VT0005372	life span trait	UBERON_0000104	life cycle	PATO_0001629	aggregated
+OBA_VT0005372	life span trait	UBERON_0000104	life cycle	PATO_0000001	quality
 OBA_VT0005404	axon morphology trait	GO_0030424	axon	PATO_0000051	morphology
 OBA_VT0005406	heart size trait	UBERON_0000948	heart	PATO_0000117	size
 OBA_VT0005423	somatic nervous system physiology trait	UBERON_0000012	somatic nervous system	PATO_0001509	functionality
@@ -1781,7 +1786,6 @@ OBA_VT0010120	protein amount	PR_000000001	protein	PATO_0000070	amount
 OBA_VT0010122	somite morphology trait	UBERON_0002329	somite	PATO_0000051	morphology
 OBA_VT0010125	celiac lymph node size trait	UBERON_0002508	celiac lymph node	PATO_0000117	size
 OBA_VT0010127	bursa of Fabricius size trait	UBERON_0003903	bursa of Fabricius	PATO_0000117	size
-OBA_VT0010128	sensory nerve fiber quantity	UBERON_0002106	spleen	PATO_0001992	cellularity
 OBA_VT0010129	esophagus mass	UBERON_0001043	esophagus	PATO_0000125	mass
 OBA_VT0010130	DN1 thymic pro-T cell quantity	CL_0000894	DN1 thymic pro-T cell	PATO_0001555	has number of
 OBA_VT0010131	cecum mass	UBERON_0001153	caecum	PATO_0000125	mass
@@ -1789,11 +1793,9 @@ OBA_VT0010132	DN2 thymocyte quantity	CL_0000806	DN2 thymocyte	PATO_0001555	has n
 OBA_VT0010133	gizzard capacity	UBERON_0005052	gizzard	PATO_0000918	volume
 OBA_VT0010134	DN3 thymocyte quantity	CL_0000807	DN3 thymocyte	PATO_0001555	has number of
 OBA_VT0010136	DN4 thymocyte quantity	CL_0000808	DN4 thymocyte	PATO_0001555	has number of
-OBA_VT0010137	sensory nerve fiber organization trait	UBERON_0002370	thymus	PATO_0001992	cellularity
 OBA_VT0010140	small intestine mass	UBERON_0002108	small intestine	PATO_0000125	mass
 OBA_VT0010144	pancreas mass	UBERON_0001264	pancreas	PATO_0000125	mass
 OBA_VT0010145	rectum mass	UBERON_0001052	rectum	PATO_0000125	mass
-OBA_VT0010155	cochlear inner hair cell afferent nerve fiber organization trait	CHEBI_15647	leukotriene B4	PATO_0001509	functionality
 OBA_VT0010162	interleukin-10 physiology trait	PR_000001471	interleukin-10	PATO_0001509	functionality
 OBA_VT0010183	platelet morphology trait	CL_0000762	nucleated thrombocyte	PATO_0000051	morphology
 OBA_VT0010192	CD4-negative, CD8-negative, alpha-beta intraepithelial T cell morphology trait	CL_0000935	CD4-negative, CD8-negative, alpha-beta intraepithelial T cell	PATO_0000051	morphology
@@ -2045,7 +2047,7 @@ OBA_VT0001324	eye pigmentation trait	GO_0048069	eye pigmentation	PATO_0000001	qu
 OBA_VT0001422	drinking behavior trait	GO_0042756	drinking behavior	PATO_0000001	quality
 OBA_VT0001431	eating behavior trait	GO_0042755	eating behavior	PATO_0000001	quality
 OBA_VT0001440	grooming behavior trait	GO_0007625	grooming behavior	PATO_0000001	quality
-OBA_VT0001525	balance trait	PATO_0000185	balance	PATO_0000001	quality
+OBA_VT0001525	balance trait	UBERON_0000468	multicellular organism	PATO_0000185	balance
 OBA_VT0001529	vocalization trait	GO_0071625	vocalization behavior	PATO_0000001	quality
 OBA_VT0001601	myelopoiesis trait	GO_0061515	myeloid cell development	PATO_0000001	quality
 OBA_VT0001664	digestion trait	GO_0007586	digestion	PATO_0000001	quality
@@ -2241,7 +2243,7 @@ OBA_VT0100015	circulatory system development trait	GO_0072359	circulatory system
 OBA_VT3000001	platelet activation trait	GO_0030168	platelet activation	PATO_0000001	quality
 OBA_VT3000002	platelet aggregation trait	GO_0070527	platelet aggregation	PATO_0000001	quality
 OBA_VT0000067	blood morphology	UBERON_0000178	blood	PATO_0000051	morphology
-OBA_VT0000666	prostate duct quantity	UBERON_0002485	prostate duct	PATO_0000819	quantity
+OBA_VT0000666	prostate duct quantity	UBERON_0002485	prostate duct	PATO_0000070	amount
 OBA_VT0000971	thermoreceptor morphology	UBERON_0035018	thermoreceptor	PATO_0000051	morphology
 OBA_VT0001001	chemoreceptor morphology	UBERON_0018391	chemoreceptor	PATO_0000051	morphology
 OBA_VT0001100	vagus ganglion morphology	UBERON_0005362	vagus X ganglion	PATO_0000051	morphology
@@ -2249,17 +2251,15 @@ OBA_VT0002342	lymph node trabecula morphology	UBERON_0002195	trabecula of lymph 
 OBA_VT0002370	thymus trabecula morphology	UBERON_0004791	thymus trabecula	PATO_0000051	morphology
 OBA_VT0003092	corneal stroma thickness	UBERON_0001777	substantia propria of cornea	PATO_0000915	thickness
 OBA_VT0003384	ventral body wall morphology	UBERON_0017648	ventral body wall	PATO_0000051	morphology
-OBA_VT0003407	central nervous system regeneration	UBERON_0001017	central nervous system	PATO_0000220	regeneration
 OBA_VT0003713	ear rotation	UBERON_0001690	ear	PATO_0001599	rotated
 OBA_VT0003796	cortical bone morphology	UBERON_0001439	compact bone tissue	PATO_0000051	morphology
 OBA_VT0004164	neurohypophysis morphology	UBERON_0002198	neurohypophysis	PATO_0000051	morphology
-OBA_VT0004220	peripheral nervous system regeneration	UBERON_0000010	peripheral nervous system	PATO_0000220	regeneration
 OBA_VT0004313	vestibulocochlear ganglion size	UBERON_0002827	vestibulocochlear ganglion	PATO_0000117	size
 OBA_VT0006260	gustatory papillae taste bud morphology	UBERON_0014451	tongue taste bud	PATO_0000051	morphology
 OBA_VT0008470	splenic B cell follicle morphology	UBERON_0001249	spleen lymphoid follicle	PATO_0000051	morphology
 OBA_VT0010020	seminiferous tubule diameter	UBERON_0001343	seminiferous tubule of testis	PATO_0001334	diameter
 OBA_VT0010082	zygomatic process of maxilla morphology	UBERON_0016477	zygomatic process of maxilla	PATO_0000051	morphology
-OBA_VT0010143	nerve fiber quantity	UBERON_0006134	nerve fiber	PATO_0000819	quantity
+OBA_VT0010143	nerve fiber quantity	UBERON_0006134	nerve fiber	PATO_0000070	amount
 OBA_VT0010422	femoral fat pad mass	UBERON_0012283	femoral fat pad	PATO_0000125	mass
 OBA_VT0010427	mesenteric fat pad mass	UBERON_0015143	mesenteric fat pad	PATO_0000125	mass
 OBA_VT0010429	renal fat pad mass	UBERON_0014464	renal fat pad	PATO_0000125	mass
@@ -2274,7 +2274,7 @@ OBA_VT0010573	vertebra strength	UBERON_0002412	vertebra	PATO_0001230	strength
 OBA_VT0010574	lumbar vertebra strength	UBERON_0002414	lumbar vertebra	PATO_0001230	strength
 OBA_VT0010608	thyroid gland mass	UBERON_0002046	thyroid gland	PATO_0000125	mass
 OBA_VT0010609	areola morphology	UBERON_0002032	areola	PATO_0000051	morphology
-OBA_VT0010610	areola quantity	UBERON_0002032	areola	PATO_0000819	quantity
+OBA_VT0010610	areola quantity	UBERON_0002032	areola	PATO_0000070	amount
 OBA_VT0010611	uterus mass	UBERON_0000995	uterus	PATO_0000125	mass
 OBA_VT0010612	cranium morphology	UBERON_0003128	cranium	PATO_0000051	morphology
 OBA_VT0010613	cranium size	UBERON_0003128	cranium	PATO_0000117	size
@@ -2304,14 +2304,13 @@ OBA_VT0010679	tarsometatarsus diameter	UBERON_0008195	tarsometatarsus	PATO_00013
 OBA_VT0010684	peritoneum morphology	UBERON_0002358	peritoneum	PATO_0000051	morphology
 OBA_VT0010693	longissimus muscle morphology	UBERON_0000392	longissimus muscle	PATO_0000051	morphology
 OBA_VT0015004	mesenteric fat pad morphology	UBERON_0015143	mesenteric fat pad	PATO_0000051	morphology
-OBA_VT0015048	limb regeneration	UBERON_0002101	limb	PATO_0000220	regeneration
-OBA_VT0015049	tail regeneration	UBERON_0002415	tail	PATO_0000220	regeneration
 OBA_VT0015053	opercular flap morphology	UBERON_2000555	opercular flap	PATO_0000051	morphology
 OBA_VT1000733	heel depth	UBERON_0015875	heel	PATO_0001595	depth
 OBA_0000003	ER calcium ion concentration	GO_0005783	endoplasmic reticulum	OBA_0000040	calcium ion concentration
 OBA_0000005	Golgi calcium ion concentration	GO_0005794	Golgi apparatus	OBA_0000040	calcium ion concentration
 OBA_0000009	RNA stability	SO_0000356	RNA	OBA_0001001	macromolecular stability
 OBA_0000046	cardiac muscle cell membrane potential	CL_0000746	cardiac muscle cell	OBA_0000099	membrane potential
+OBA_0000100	photoreceptor cell membrane potential	CL_0000210	photoreceptor cell	OBA_0000099	membrane potential
 OBA_0000050	cell pH	GO_0005623	cell	OBA_0000121	pH
 OBA_0000072	follicle cell microvillus length	CL_0000477	follicle cell	OBA_0000102	microvillus length
 OBA_0000093	mRNA stability	SO_0000234	mRNA	OBA_0001001	macromolecular stability
@@ -2320,3 +2319,4 @@ OBA_0000114	neuronal synaptic plasticity	CL_0000540	neuron	OBA_0000141	synaptic 
 OBA_0000125	post-synaptic membrane potential	GO_0045211	postsynaptic membrane	OBA_0000099	membrane potential
 OBA_0000128	protein stability	PR_000000001	protein	OBA_0001001	macromolecular stability
 OBA_0000129	rRNA stability	SO_0000252	rRNA	OBA_0001001	macromolecular stability
+OBA_0000110	muscle filament sliding speed	GO_0030049	muscle filament sliding	PATO_0000008	speed

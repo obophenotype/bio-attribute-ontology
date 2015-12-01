@@ -132,9 +132,7 @@ OBA_VT0010385	milk diacylglycerol amount	CHEBI_18035	diglyceride	PATO_0000070	am
 OBA_VT0010386	milk monoacylglycerol amount	CHEBI_17408	monoglyceride	PATO_0000070	amount	UBERON_0001913	milk
 OBA_VT0010387	milk phospholipid amount	CHEBI_16247	phospholipid	PATO_0000070	amount	UBERON_0001913	milk
 OBA_VT0010388	milk polyphenol amount	CHEBI_26195	polyphenol	PATO_0000070	amount	UBERON_0001913	milk
-OBA_VT0010389	milk butyrophilin amount	PR_000001848		PATO_0000070	amount	UBERON_0001913	milk
-OBA_VT0010391	milk adipophilin amount	PR_000003766		PATO_0000070	amount	UBERON_0001913	milk
-OBA_VT0010396	milk stomatin amount	PR_000015763		PATO_0000070	amount	UBERON_0001913	milk
+OBA_VT0010389	milk butyrophilin amount	PR_000001848	butyrophilin	PATO_0000070	amount	UBERON_0001913	milk
 OBA_VT0010399	milk urea amount	CHEBI_16199	urea	PATO_0000070	amount	UBERON_0001913	milk
 OBA_VT0010400	milk ammonia amount	CHEBI_16134	ammonia	PATO_0000070	amount	UBERON_0001913	milk
 OBA_VT0010456	cerebrospinal fluid mineral amount	CHEBI_46662	mineral	PATO_0000070	amount	UBERON_0001359	cerebrospinal fluid
@@ -185,3 +183,5 @@ OBA_0000036	body fluid levels	UBERON_0001062	anatomical entity	PATO_0000918	volu
 OBA_0000058	cellular pH	UBERON_0001062	anatomical entity	PATO_0001842	acidity	GO_0005623	cell
 OBA_VT0004368	stria vascularis blood vessel morphology trait	UBERON_0001981	blood vessel	PATO_0000051	morphology	UBERON_0002282	stria vascularis of cochlear duct
 OBA_VT0004271	paw/hand/foot/hoof morphology trait	UBERON_0001062	anatomical entity	PATO_0000051	morphology	UBERON_0002470	autopod region
+OBA_0000103	mitochondrial mRNA stability	SO_0000234	mRNA	OBA_0001001	macromolecular stability	GO_0005739	mitochondrion
+OBA_0000106	mitochondrial rRNA stability	SO_0000252	rRNA	OBA_0001001	macromolecular stability	GO_0005739	mitochondrion

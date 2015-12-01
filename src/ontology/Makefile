@@ -17,26 +17,38 @@ ALL_MODS_OWL = $(patsubst %, modules/%.owl, $(MODS))
 copy-release:
 	cp -pr $(TARGETS) ../.. && cd ../.. && git add imports/*
 
-oba-combined.owl: oba-edit.obo $(ALL_MODS_OWL)
+# CORE is the edited source plus compiled modules
+oba-core.owl: oba-edit.obo $(ALL_MODS_OWL)
 	owltools $(USECAT) $^ --merge-support-ontologies -o -f ofn $@
+oba-core.obo: oba-core.owl
+	owltools $(USECAT) $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 
 #oba-combined-plus-eg.owl: oba-combined.owl modules/existential-graph.owl
 #	owltools $(USECAT) $^ --merge-support-ontologies -o $@
 #oba.owl: oba-combined-plus-eg.owl
-oba.owl: oba-combined.owl
-	ontology-release-runner $(USECAT) --ignore-selected-equivalent-pairs 'CL:0000000'  --ignoreLock --skip-release-folder --skip-format owx --skip-format obo --no-subsets --outdir . --allow-overwrite --asserted --simple --reasoner elk $<
+oba-core-inferred.owl: oba-core.owl modules/existential-graph.owl
+	owltools $(USECAT) $^ --merge-support-ontologies --assert-inferred-subclass-axioms --allowEquivalencies --always-assert-super-classes --markIsInferred   -o $@
+subsets/oba-basic.owl: oba-core-inferred.owl
+	owltools $(USECAT) $< --remove-imports-declarations --make-subset-by-properties -f BFO:0000050 --remove-dangling --remove-axioms -t EquivalentClasses --set-ontology-id $(OBO)/oba/$@ -o $@
+subsets/oba-basic.obo: subsets/oba-basic.owl
+	owltools $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 
+oba.owl: oba-core-inferred.owl modules/vt.obo
+	owltools $(USECAT) $^ --merge-support-ontologies -o $@
 oba.obo: oba.owl
 	owltools $(USECAT) $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 oba-simple.obo: oba.owl
+
+oort:
+	ontology-release-runner $(USECAT) --ignore-selected-equivalent-pairs 'CL:0000000'  --ignoreLock --skip-release-folder --skip-format owx --skip-format obo --no-subsets --outdir target --allow-overwrite --asserted --simple --reasoner elk $<
 
 all_subsets: subsets/oba-basic.obo
 
 #subsets/oba-basic.obo: oba.obo
 #	owltools  $(USECAT) $< --extract-module -d OBA:0000001 --remove-dangling --make-subset-by-properties //  --set-ontology-id $(OBO)/oba/$@ -o -f obo $@
 
-subsets/oba-basic.obo: oba-simple.obo
-	owltools $< --set-ontology-id $(OBO)/oba/$@ -o -f obo $@
+#subsets/oba-basic.obo: oba-simple.obo
+#	owltools $< --set-ontology-id $(OBO)/oba/$@ -o -f obo $@
 
 # ----------------------------------------
 # VT
@@ -64,7 +76,7 @@ vt.obo:
 
 # Ontology dependencies
 # We don't include clo, as this is currently not working
-IMPORTS = pato uberon chebi po go cl
+IMPORTS = pato uberon chebi po go cl so pr
 
 # Make this target to regenerate ALL
 all_imports_owl: $(patsubst %, imports/%_import.owl,$(IMPORTS))
@@ -74,8 +86,8 @@ all_imports: all_imports_owl all_imports_obo
 KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of
 
 # File used to seed module extraction
-imports/seed.tsv:
-	owltools $(USECAT) oba-combined.owl --merge-support-ontologies --export-table $@.tmp && cut -f1 $@.tmp > $@
+imports/seed.tsv: oba-core.owl
+	owltools $(USECAT) $< --merge-support-ontologies --export-table $@.tmp && cut -f1 $@.tmp > $@
 
 imports/%_import.owl: $(SRC) mirror/%.owl imports/seed.tsv
 	robot extract -i mirror/$*.owl -T imports/seed.tsv -m BOT -O $(OBO)/oba/$@ -o $@
@@ -83,17 +95,22 @@ imports/%_import.owl: $(SRC) mirror/%.owl imports/seed.tsv
 imports/%_import.obo: imports/%_import.owl
 	owltools $(USECAT) $< -o -f obo $@
 
+
 # clone remote ontology locally, perfoming some excision of relations and annotations
-mirror/%.owl: $(SRC)
-	owltools $(OBO)/$*.obo --remove-annotation-assertions -r -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
+mirror/%.obo:
+	wget --no-check-certificate $(OBO)/$*.obo -O $@
+.PRECIOUS: mirror/%.obo
+
+mirror/%.owl: mirror/%.obo
+	owltools $< --remove-annotation-assertions -r -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
 .PRECIOUS: mirror/%.owl
-mirror/ro.owl: $(SRC)
+mirror/ro.owl:
 	owltools $(OBO)/ro.owl --merge-imports-closure -o $@
 .PRECIOUS: mirror/%.owl
-mirror/uberon.owl: $(SRC)
+mirror/uberon.owl:
 	owltools $(OBO)/uberon/basic.owl --remove-annotation-assertions -r -l -s -d --remove-axiom-annotations --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(OBO)/uberon.owl -o $@
 .PRECIOUS: mirror/%.owl
-mirror/po.owl: $(SRC)
+mirror/po.owl:
 	owltools $(OBO)/po.owl --remove-annotation-assertions -r -l -s -d --remove-axiom-annotations --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(OBO)/po.owl -o $@
 .PRECIOUS: mirror/%.owl
 ncbitaxon.obo:
@@ -129,8 +146,8 @@ modules/has_part.tsv: modules/entity_attribute.tsv modules/entity_attribute_loca
 	./util/make-vt-equiv-tsv.pl $^ > $@
 
 
-modules/existential-graph.owl: oba-combined.owl
-	owltools $(USECAT) $< --merge-support-ontologies --reasoner elk --silence-elk --materialize-gcis --remove-redundant-inferred-svfs --set-ontology-id $(OBO)/oba/$@ -o $@
+modules/existential-graph.owl: oba-core.owl
+	owltools $(USECAT) $< --merge-support-ontologies --reasoner elk --silence-elk --materialize-gcis --reasoner mexr --remove-redundant-inferred-svfs --reasoner elk --remove-redundant-svfs  --set-ontology-id $(OBO)/oba/$@ -o $@
 #modules/existential-graph.obo: oba-combined.owl
 #	owltools $(USECAT) $< --merge-support-ontologies --reasoner elk --silence-elk --materialize-gcis --set-ontology-id $(OBO)/oba/$@ -o -f obo $@
 
