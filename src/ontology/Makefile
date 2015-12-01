@@ -2,7 +2,7 @@ OBO=http://purl.obolibrary.org/obo
 USECAT= --catalog-xml catalog-v001.xml
 SRC=oba-edit.obo
 
-MODS = entity_attribute entity_attribute_location
+MODS = entity_attribute entity_attribute_location attribute_location
 
 all: oba.owl all_subsets
 
@@ -27,7 +27,7 @@ oba-core.obo: oba-core.owl
 #	owltools $(USECAT) $^ --merge-support-ontologies -o $@
 #oba.owl: oba-combined-plus-eg.owl
 oba-core-inferred.owl: oba-core.owl modules/existential-graph.owl
-	owltools $(USECAT) $^ --merge-support-ontologies --assert-inferred-subclass-axioms --allowEquivalencies --always-assert-super-classes --markIsInferred   -o $@
+	owltools $(USECAT) $^ --merge-support-ontologies --assert-inferred-subclass-axioms --allowEquivalencies --always-assert-super-classes --markIsInferred --reasoner mexr --remove-redundant-inferred-svfs  -o $@
 subsets/oba-basic.owl: oba-core-inferred.owl
 	owltools $(USECAT) $< --remove-imports-declarations --make-subset-by-properties -f BFO:0000050 --remove-dangling --remove-axioms -t EquivalentClasses --set-ontology-id $(OBO)/oba/$@ -o $@
 subsets/oba-basic.obo: subsets/oba-basic.owl
@@ -142,7 +142,7 @@ modules/%.obo: modules/%.owl
 	owltools $< -o -f obo $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 
 # VT is isolated to prevent isa-poisoning
-modules/has_part.tsv: modules/entity_attribute.tsv modules/entity_attribute_location.tsv
+modules/has_part.tsv:  $(patsubst %, modules/%.tsv, $(MODS))
 	./util/make-vt-equiv-tsv.pl $^ > $@
 
 
