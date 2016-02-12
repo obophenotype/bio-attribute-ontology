@@ -39,7 +39,7 @@ equivalentTo:
 # https://github.com/obophenotype/bio-attribute-ontology/issues/8
 axioms: 
   - syntax: ofn
-    text: "SubClassOf(ObjectIntersectionOf(:%s ObjectSomeValuesFrom(:'inheres in' ObjectSomeValuesFrom(:'part of' :%s))) ObjectSomeValuesFrom(:'part of' ObjectIntersectionOf(:%s ObjectSomeValuesFrom(:'inheres in' :%s))))" 
+    text: "SubClassOf(ObjectIntersectionOf(%s ObjectSomeValuesFrom(:'inheres in' ObjectSomeValuesFrom(:'part of' %s))) ObjectSomeValuesFrom(:'part of' ObjectIntersectionOf(%s ObjectSomeValuesFrom(:'inheres in' %s))))" 
     vars:
       - attribute
       - entity
