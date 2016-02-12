@@ -128,7 +128,7 @@ all_modules_owl: $(patsubst %, modules/%.owl, $(MODS))
 all_modules_obo: $(patsubst %, modules/%.obo, $(MODS))
 
 modules/%-main.owl: modules/%.tsv patterns/%.yaml
-	apply-pattern.py -b http://purl.obolibrary.org/obo/ -i $< -p patterns/$*.yaml -G modules/$*-gci.owl > $@.tmp && mv $@.tmp $@
+	apply-pattern.py -P curie_map.yaml -b http://purl.obolibrary.org/obo/ -i $< -p patterns/$*.yaml -G modules/$*-gci.owl > $@.tmp && mv $@.tmp $@
 modules/%.owl: modules/%-main.owl modules/%-gci.owl
 	owltools $^ --merge-support-ontologies --set-ontology-id $(OBO)/oba/$@ -o -f ofn $@
 
@@ -172,6 +172,9 @@ reports/po-viol.tsv: oba-edit.obo
 
 reports/po-sc-viol.tsv: oba-edit.obo
 	blip-findall  -i $< -r PO "subclass(X,Y),P=attribute_of,differentium(X,P,XQ),id_idspace(XQ,'PO'),differentium(Y,P,YQ),id_idspace(YQ,'PO'),\+subclassRT(XQ,YQ)" -select "x(X,Y,XQ,YQ)" -label -no_pred > $@
+
+reports/eq_hp.tsv: hp-ldefs.obo
+	blip-findall -r go -r uberonp -r pato -r pato -r CL -i $< -consult util/patterns.pro eq_pheno/3 -no_pred -label -use_tabs > $@
 
 reports/eq.tsv: oba-edit.obo
 	blip-findall -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eq/3 -no_pred -label -use_tabs > $@
