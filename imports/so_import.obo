@@ -1,0 +1,67 @@
+format-version: 1.2
+ontology: oba/imports/so_import
+
+[Term]
+id: SO:0000001
+name: region
+is_a: SO:0000110 ! sequence_feature
+
+[Term]
+id: SO:0000110
+name: sequence_feature
+disjoint_from: SO:0000400 ! sequence_attribute
+
+[Term]
+id: SO:0000233
+name: mature_transcript
+is_a: SO:0000673 ! transcript
+
+[Term]
+id: SO:0000234
+name: mRNA
+is_a: SO:0000233 ! mature_transcript
+
+[Term]
+id: SO:0000252
+name: rRNA
+is_a: SO:0000655 ! ncRNA
+
+[Term]
+id: SO:0000348
+name: nucleic_acid
+is_a: SO:0000443 ! polymer_attribute
+
+[Term]
+id: SO:0000356
+name: RNA
+is_a: SO:0000348 ! nucleic_acid
+
+[Term]
+id: SO:0000400
+name: sequence_attribute
+
+[Term]
+id: SO:0000443
+name: polymer_attribute
+is_a: SO:0000400 ! sequence_attribute
+
+[Term]
+id: SO:0000655
+name: ncRNA
+is_a: SO:0000233 ! mature_transcript
+
+[Term]
+id: SO:0000673
+name: transcript
+is_a: SO:0000831 ! gene_member_region
+
+[Term]
+id: SO:0000831
+name: gene_member_region
+is_a: SO:0001411 ! biological_region
+
+[Term]
+id: SO:0001411
+name: biological_region
+is_a: SO:0000001 ! region
+

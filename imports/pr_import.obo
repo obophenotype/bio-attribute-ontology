@@ -1,0 +1,216 @@
+format-version: 1.2
+ontology: oba/imports/pr_import
+
+[Term]
+id: BFO:0000030
+name: object
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: BFO:0000040
+name: material entity
+
+[Term]
+id: CHEBI:23367
+name: molecular entity
+is_a: BFO:0000030 ! object
+
+[Term]
+id: GO:0005575
+name: cellular_component
+is_a: BFO:0000030 ! object
+
+[Term]
+id: GO:0005886
+name: plasma membrane
+is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: PR:000000001
+name: protein
+is_a: PR:000018263 ! amino acid chain
+
+[Term]
+id: PR:000001091
+name: interleukin-1
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001092
+name: interleukin-17
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001135
+name: interleukin-1 alpha
+is_a: PR:000001091 ! interleukin-1
+
+[Term]
+id: PR:000001136
+name: interleukin-1 beta
+is_a: PR:000001091 ! interleukin-1
+
+[Term]
+id: PR:000001317
+name: interleukin-7
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001335
+name: class 2 cytokine, IL-10 type
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001370
+name: interleukin-13
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001373
+name: interleukin-15
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001374
+name: interleukin-16
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001376
+name: interleukin-18
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001379
+name: interleukin-2
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001382
+name: interleukin-21
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001387
+name: interleukin-3
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001391
+name: interleukin-4
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001392
+name: interleukin-5
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001393
+name: interleukin-6
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001396
+name: interleukin-9
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001471
+name: interleukin-10
+is_a: PR:000001335 ! class 2 cytokine, IL-10 type
+
+[Term]
+id: PR:000001848
+name: butyrophilin
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000003766
+name: perilipin-2
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000005940
+name: alpha-S1-casein
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000005941
+name: beta-casein
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000005942
+name: kappa-casein
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007581
+name: fibronectin
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000009649
+name: alpha-lactalbumin
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000009758
+name: leptin
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000009978
+name: lactotransferrin
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000011374
+name: atrial natriuretic factor
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000013429
+name: parathyroid hormone
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000013883
+name: renin
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000015763
+name: erythrocyte band 7 integral membrane protein
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000016261
+name: serotransferrin
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000017467
+name: whey acidic protein
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000018263
+name: amino acid chain
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: PR:000018932
+name: angiotensinogen proteolytic cleavage product
+
+[Term]
+id: PR:000023540
+name: alkaline phosphatase
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000036009
+name: angiotensin II
+is_a: PR:000018932 ! angiotensinogen proteolytic cleavage product
+
