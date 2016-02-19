@@ -15,34 +15,30 @@ ontology: oba
 property-value: foaf-homepage \"http://wiki.geneontology.org/index.php/Extensions/x-attribute\" xsd:anyURL
 
 [Term]
-id: OBA:0100001
-name: cellular component attribute
-is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
-
-[Term]
-id: OBA:0100002
-name: biological process quality
-is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
-
-[Term]
-id: OBA:0100003
-name: anatomical entity quality
-is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
-
-[Term]
-id: OBA:0100004 ! chemical entity quality
-name: chemical entity quality
-is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
-
-[Term]
 id: OBA:0000001 ! biological attribute
 name: biological attribute
 is_a: PATO:0000001 ! quality
 
 [Term]
+id: OBA:0100001 ! cellular component attribute
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+
+[Term]
+id: OBA:0100002 ! biological process quality
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+
+[Term]
+id: OBA:0100003 ! anatomical entity quality
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+
+[Term]
+id: OBA:0100004 ! chemical entity quality
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+
+[Term]
 id: OBA:0000003
 name: ER calcium ion concentration
-is_a: OBA:0000040 ! calcium ion concentration
+is_a: OBA:0000040 {is_check="true"} ! calcium ion concentration
 
 [Term]
 id: OBA:0000005

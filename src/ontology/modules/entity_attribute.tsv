@@ -2306,17 +2306,15 @@ OBA:VT0010693	longissimus muscle morphology	UBERON:0000392	longissimus muscle	PA
 OBA:VT0015004	mesenteric fat pad morphology	UBERON:0015143	mesenteric fat pad	PATO:0000051	morphology
 OBA:VT0015053	opercular flap morphology	UBERON:2000555	opercular flap	PATO:0000051	morphology
 OBA:VT1000733	heel depth	UBERON:0015875	heel	PATO:0001595	depth
-OBA:0000003	ER calcium ion concentration	GO:0005783	endoplasmic reticulum	OBA:0000040	calcium ion concentration
-OBA:0000005	Golgi calcium ion concentration	GO:0005794	Golgi apparatus	OBA:0000040	calcium ion concentration
 OBA:0000009	RNA stability	SO:0000356	RNA	OBA:0001001	macromolecular stability
 OBA:0000046	cardiac muscle cell membrane potential	CL:0000746	cardiac muscle cell	OBA:0000099	membrane potential
 OBA:0000100	photoreceptor cell membrane potential	CL:0000210	photoreceptor cell	OBA:0000099	membrane potential
 OBA:0000050	cell pH	GO:0005623	cell	OBA:0000121	pH
 OBA:0000072	follicle cell microvillus length	CL:0000477	follicle cell	OBA:0000102	microvillus length
 OBA:0000093	mRNA stability	SO:0000234	mRNA	OBA:0001001	macromolecular stability
-OBA:0000105	mitochondrial membrane potential	GO:0031966	mitochondrial membrane	OBA:0000099	membrane potential
+OBA:0000105	mitochondrial membrane potential	GO:0031966	mitochondrial membrane	PATO:0001462	membrane potential
 OBA:0000114	neuronal synaptic plasticity	CL:0000540	neuron	OBA:0000141	synaptic plasticity
-OBA:0000125	post-synaptic membrane potential	GO:0045211	postsynaptic membrane	OBA:0000099	membrane potential
+OBA:0000125	post-synaptic membrane potential	GO:0045211	postsynaptic membrane	PATO:0001462	membrane potential
 OBA:0000128	protein stability	PR:000000001	protein	OBA:0001001	macromolecular stability
 OBA:0000129	rRNA stability	SO:0000252	rRNA	OBA:0001001	macromolecular stability
 OBA:0000110	muscle filament sliding speed	GO:0030049	muscle filament sliding	PATO:0000008	speed

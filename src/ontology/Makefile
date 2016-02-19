@@ -149,10 +149,15 @@ modules/existential-graph.owl: oba-core.owl
 # OBOL
 # ----------------------------------------
 vocab/vt.tsv:
-	blip-findall  -i modules/vt.obo entity_label_or_exact_synonym/2 -no_pred | perl -npe 's@ trait$$@@' > vocab/vt.tsv
+	blip-findall  -i modules/vt.obo entity_label_or_exact_synonym/2 -no_pred | perl -npe 's@ trait$$@@' > $@
+vocab/q.tsv:
+	blip-findall  -r pato entity_label_or_exact_synonym/2 -no_pred > $@
 
 vt-new.tsv:
-	obo-split-terms.pl vocab/vt.tsv vocab/e.tsv vocab/q.tsv | perl -npe 's@VT:@OBA:VT@;s@:@_@g;' | sort -u > $@
+	obo-split-terms.pl vocab/vt.tsv vocab/e.tsv vocab/q.tsv | perl -npe 's@VT:@OBA:VT@' | sort -u > $@
+
+vt-loc-new.tsv:
+	obo-split-terms.pl vocab/vt.tsv vocab/e.tsv vocab/e.tsv vocab/q.tsv | perl -npe 's@VT:@OBA:VT@' | sort -u > $@
 
 # merge-pattern-tsv.pl vt-new.tsv modules/entity_attribute.tsv
 

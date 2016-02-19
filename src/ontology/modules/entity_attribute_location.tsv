@@ -185,3 +185,5 @@ OBA:VT0004368	stria vascularis blood vessel morphology trait	UBERON:0001981	bloo
 OBA:VT0004271	paw/hand/foot/hoof morphology trait	UBERON:0001062	anatomical entity	PATO:0000051	morphology	UBERON:0002470	autopod region
 OBA:0000103	mitochondrial mRNA stability	SO:0000234	mRNA	OBA:0001001	macromolecular stability	GO:0005739	mitochondrion
 OBA:0000106	mitochondrial rRNA stability	SO:0000252	rRNA	OBA:0001001	macromolecular stability	GO:0005739	mitochondrion
+OBA:0000003	ER calcium ion concentration	CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005783	endoplasmic reticulum
+OBA:0000005	Golgi calcium ion concentration	CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005794	Golgi apparatus
