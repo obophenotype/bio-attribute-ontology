@@ -11,17 +11,17 @@ vars:
   entity: "'Thing'"
 
 name:
-  text: "%s of %s"
+  text: "%s %s"
   vars:
-    - attribute
     - entity
+    - attribute
 
 annotations: 
   - property: oio:hasExactSynonym
-    text: "%s %s"
+    text: "%s of %s"
     vars:
-      - entity
       - attribute
+      - entity
 
 def: 
   text: "The %s of a %s."

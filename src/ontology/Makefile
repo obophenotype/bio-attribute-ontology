@@ -4,7 +4,7 @@ SRC=oba-edit.obo
 
 MODS = entity_attribute entity_attribute_location attribute_location
 
-all: oba.owl all_subsets
+all: oba.owl oba.obo all_subsets
 all_subsets: subsets/oba-basic.obo
 test: all
 release: all copy-release
@@ -25,8 +25,8 @@ oba-core.obo: oba-core.owl
 #oba-combined-plus-eg.owl: oba-combined.owl modules/existential-graph.owl
 #	owltools $(USECAT) $^ --merge-support-ontologies -o $@
 #oba.owl: oba-combined-plus-eg.owl
-oba-core-inferred.owl: oba-core.owl modules/existential-graph.owl
-	owltools $(USECAT) $^ --merge-support-ontologies --assert-inferred-subclass-axioms --allowEquivalencies --always-assert-super-classes --markIsInferred --reasoner mexr --remove-redundant-inferred-svfs  -o $@
+oba-core-inferred.owl: oba-core.owl modules/existential-graph.owl all_imports
+	owltools $(USECAT) $< modules/existential-graph.owl --merge-support-ontologies --assert-inferred-subclass-axioms --allowEquivalencies --always-assert-super-classes --markIsInferred --reasoner mexr --remove-redundant-inferred-svfs  -o $@
 subsets/oba-basic.owl: oba-core-inferred.owl
 	owltools $(USECAT) $< --remove-imports-declarations --make-subset-by-properties -f BFO:0000050 --remove-dangling --remove-axioms -t EquivalentClasses --set-ontology-id $(OBO)/oba/$@ -o $@
 subsets/oba-basic.obo: subsets/oba-basic.owl

@@ -1702,6 +1702,12 @@ is_a: CL:0000413 ! haploid cell
 relationship: RO:0002202 CL:0000656 ! develops_from primary spermatocyte
 
 [Term]
+id: CL:0000666
+name: fenestrated cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
 id: CL:0000667
 name: collagen secreting cell
 is_a: CL:0000327 ! extracellular matrix secreting cell
@@ -2274,6 +2280,11 @@ intersection_of: BFO:0000050 UBERON:0001961 ! part_of mucosa-associated lymphoid
 relationship: BFO:0000050 UBERON:0001961 ! part_of mucosa-associated lymphoid tissue
 
 [Term]
+id: CL:0000891
+name: foam cell
+is_a: CL:0000003 ! native cell
+
+[Term]
 id: CL:0000893
 name: thymocyte
 is_a: CL:0002420 {is_inferred="true"} ! immature T cell
@@ -2748,6 +2759,15 @@ is_a: CL:0002178 ! epithelial cell of stomach
 intersection_of: CL:0000048 ! multi fate stem cell
 intersection_of: BFO:0000050 UBERON:0000325 ! part_of gastric gland
 relationship: BFO:0000050 UBERON:0000325 ! part_of gastric gland
+
+[Term]
+id: CL:0002188
+name: glomerular endothelial cell
+is_a: CL:0000115 {is_inferred="true"} ! endothelial cell
+is_a: CL:0000666 ! fenestrated cell
+intersection_of: CL:0000115 ! endothelial cell
+intersection_of: BFO:0000050 UBERON:0000074 ! part_of renal glomerulus
+relationship: BFO:0000050 UBERON:0000074 ! part_of renal glomerulus
 
 [Term]
 id: CL:0002191
@@ -3602,6 +3622,22 @@ intersection_of: BFO:0000050 UBERON:0001811 ! part_of conjunctiva
 relationship: BFO:0000050 UBERON:0001811 ! part_of conjunctiva
 
 [Term]
+id: CL:0002551
+name: fibroblast of dermis
+is_a: CL:0002620 {is_inferred="true"} ! skin fibroblast
+intersection_of: CL:0002620 ! skin fibroblast
+intersection_of: BFO:0000050 UBERON:0002067 ! part_of dermis
+relationship: BFO:0000050 UBERON:0002067 ! part_of dermis
+
+[Term]
+id: CL:0002552
+name: fibroblast of gingiva
+is_a: CL:0000057 {is_inferred="true"} ! fibroblast
+intersection_of: CL:0000057 ! fibroblast
+intersection_of: BFO:0000050 UBERON:0001828 ! part_of gingiva
+relationship: BFO:0000050 UBERON:0001828 ! part_of gingiva
+
+[Term]
 id: CL:0002553
 name: fibroblast of lung
 is_a: CL:0000057 {is_inferred="true"} ! fibroblast
@@ -3657,6 +3693,14 @@ intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0000160 ! part_of intestine
 relationship: BFO:0000050 UBERON:0000160 ! part_of intestine
 relationship: BFO:0000050 UBERON:0001277 ! part_of intestinal epithelium
+
+[Term]
+id: CL:0002564
+name: nucleus pulposus cell of intervertebral disc
+is_a: CL:0002320 ! connective tissue cell
+intersection_of: CL:0002320 ! connective tissue cell
+intersection_of: BFO:0000050 UBERON:0002242 ! part_of nucleus pulposus
+relationship: BFO:0000050 UBERON:0002242 ! part_of nucleus pulposus
 
 [Term]
 id: CL:0002570
@@ -3851,6 +3895,14 @@ intersection_of: BFO:0000050 UBERON:0000310 ! part_of breast
 relationship: BFO:0000050 UBERON:0000310 ! part_of breast
 
 [Term]
+id: CL:0002620
+name: skin fibroblast
+is_a: CL:0000057 {is_inferred="true"} ! fibroblast
+intersection_of: CL:0000057 ! fibroblast
+intersection_of: BFO:0000050 UBERON:0002097 ! part_of skin of body
+relationship: BFO:0000050 UBERON:0002097 ! part_of skin of body
+
+[Term]
 id: CL:0002622
 name: prostate stromal cell
 is_a: CL:0000499 {is_inferred="true"} ! stromal cell
@@ -3875,6 +3927,24 @@ is_a: CL:0002368 {is_inferred="true"} ! respiratory epithelial cell
 intersection_of: CL:0002368 ! respiratory epithelial cell
 intersection_of: BFO:0000050 UBERON:0001558 ! part_of lower respiratory tract
 relationship: BFO:0000050 UBERON:0001558 ! part_of lower respiratory tract
+
+[Term]
+id: CL:0002634
+name: epithelial cell of anal column
+is_a: CL:0000066 {is_inferred="true"} ! epithelial cell
+is_a: CL:0002371 {is_inferred="true"} ! somatic cell
+intersection_of: CL:0000066 ! epithelial cell
+intersection_of: BFO:0000050 UBERON:0009882 ! part_of anal column
+relationship: BFO:0000050 UBERON:0009882 ! part_of anal column
+
+[Term]
+id: CL:0002637
+name: keratinized epithelial cell of the anal canal
+is_a: CL:0000237 ! keratinizing barrier epithelial cell
+is_a: CL:0002634 ! epithelial cell of anal column
+intersection_of: CL:0000237 ! keratinizing barrier epithelial cell
+intersection_of: BFO:0000050 UBERON:0000159 ! part_of anal canal
+relationship: BFO:0000050 UBERON:0000159 ! part_of anal canal
 
 [Term]
 id: CL:0002656
@@ -4273,6 +4343,14 @@ intersection_of: BFO:0000050 UBERON:0000057 ! part_of urethra
 relationship: BFO:0000050 UBERON:0000057 ! part_of urethra
 
 [Term]
+id: CL:1000302
+name: fibroblast of papillary layer of dermis
+is_a: CL:0002551 {is_inferred="true"} ! fibroblast of dermis
+intersection_of: CL:0002551 ! fibroblast of dermis
+intersection_of: BFO:0000050 UBERON:0001992 ! part_of papillary layer of dermis
+relationship: BFO:0000050 UBERON:0001992 ! part_of papillary layer of dermis
+
+[Term]
 id: CL:1000307
 name: fibroblast of dense regular elastic tissue
 is_a: CL:0000057 ! fibroblast
@@ -4509,6 +4587,14 @@ intersection_of: BFO:0000050 UBERON:0005751 ! part_of visceral layer of glomerul
 relationship: BFO:0000050 UBERON:0005751 ! part_of visceral layer of glomerular capsule
 
 [Term]
+id: CL:1000458
+name: melanocyte of skin
+is_a: CL:0000148 {is_inferred="true"} ! melanocyte
+intersection_of: CL:0000148 ! melanocyte
+intersection_of: BFO:0000050 UBERON:0002097 ! part_of skin of body
+relationship: BFO:0000050 UBERON:0002097 ! part_of skin of body
+
+[Term]
 id: CL:1000490
 name: mesothelial cell of peritoneum
 is_a: CL:0000077 {is_inferred="true"} ! mesothelial cell
@@ -4584,6 +4670,14 @@ intersection_of: BFO:0000050 UBERON:0004188 ! part_of glomerular epithelium
 relationship: BFO:0000050 UBERON:0004188 ! part_of glomerular epithelium
 
 [Term]
+id: CL:1000600
+name: lower urinary tract cell
+is_a: CL:0000548 {is_inferred="true"} ! animal cell
+intersection_of: CL:0000548 ! animal cell
+intersection_of: BFO:0000050 UBERON:0001556 ! part_of lower urinary tract
+relationship: BFO:0000050 UBERON:0001556 ! part_of lower urinary tract
+
+[Term]
 id: CL:1000601
 name: ureteral cell
 is_a: CL:0000548 {is_inferred="true"} ! animal cell
@@ -4625,6 +4719,14 @@ is_a: CL:0002681 {is_inferred="true"} ! kidney cortical cell
 intersection_of: CL:0002681 ! kidney cortical cell
 intersection_of: BFO:0000050 UBERON:0002303 ! part_of juxtaglomerular apparatus
 relationship: BFO:0000050 UBERON:0002303 ! part_of juxtaglomerular apparatus
+
+[Term]
+id: CL:1000746
+name: glomerular cell
+is_a: CL:1000612 {is_inferred="true"} ! kidney corpuscule cell
+intersection_of: CL:1000612 ! kidney corpuscule cell
+intersection_of: BFO:0000050 UBERON:0000074 ! part_of renal glomerulus
+relationship: BFO:0000050 UBERON:0000074 ! part_of renal glomerulus
 
 [Term]
 id: CL:1000854
@@ -4963,6 +5065,14 @@ id: CL:1001606
 name: foreskin keratinocyte
 is_a: CL:0000312 ! keratinocyte
 intersection_of: CL:0000312 ! keratinocyte
+intersection_of: BFO:0000050 UBERON:0001332 ! part_of prepuce of penis
+relationship: BFO:0000050 UBERON:0001332 ! part_of prepuce of penis
+
+[Term]
+id: CL:1001608
+name: foreskin fibroblast
+is_a: CL:0002620 ! skin fibroblast
+intersection_of: CL:0002620 ! skin fibroblast
 intersection_of: BFO:0000050 UBERON:0001332 ! part_of prepuce of penis
 relationship: BFO:0000050 UBERON:0001332 ! part_of prepuce of penis
 
@@ -5319,6 +5429,14 @@ intersection_of: BFO:0000050 UBERON:0000981 ! part_of femur
 relationship: BFO:0000050 UBERON:0000981 ! part_of femur
 
 [Term]
+id: CL:2000080
+name: mesenchymal stem cell of abdominal adipose
+is_a: CL:0002570 ! mesenchymal stem cell of adipose
+intersection_of: CL:0002570 ! mesenchymal stem cell of adipose
+intersection_of: BFO:0000050 UBERON:0000916 ! part_of abdomen
+relationship: BFO:0000050 UBERON:0000916 ! part_of abdomen
+
+[Term]
 id: CL:2000084
 name: conjunctiva goblet cell
 is_a: CL:0000160 ! goblet cell
@@ -5425,6 +5543,11 @@ is_a: GO:0065008 ! regulation of biological quality
 id: GO:0001775
 name: cell activation
 is_a: GO:0044763 ! single-organism cellular process
+
+[Term]
+id: GO:0001894
+name: tissue homeostasis
+is_a: GO:0060249 ! anatomical structure homeostasis
 
 [Term]
 id: GO:0002200
@@ -5626,6 +5749,11 @@ name: DNA recombination
 is_a: GO:0006259 ! DNA metabolic process
 
 [Term]
+id: GO:0006323
+name: DNA packaging
+is_a: GO:0071103 ! DNA conformation change
+
+[Term]
 id: GO:0006725
 name: cellular aromatic compound metabolic process
 is_a: GO:0044237 ! cellular metabolic process
@@ -5659,6 +5787,11 @@ is_a: GO:0050896 ! response to stimulus
 id: GO:0006952
 name: defense response
 is_a: GO:0006950 ! response to stress
+
+[Term]
+id: GO:0006954
+name: inflammatory response
+is_a: GO:0006952 ! defense response
 
 [Term]
 id: GO:0006955
@@ -5718,6 +5851,11 @@ is_a: GO:0048232 ! male gamete generation
 id: GO:0007292
 name: female gamete generation
 is_a: GO:0007276 ! gamete generation
+
+[Term]
+id: GO:0007585
+name: respiratory gaseous exchange
+is_a: GO:0044707 ! single-multicellular organism process
 
 [Term]
 id: GO:0007596
@@ -5967,6 +6105,12 @@ is_a: GO:0030099 ! myeloid cell differentiation
 id: GO:0030252
 name: growth hormone secretion
 is_a: GO:0030072 ! peptide hormone secretion
+
+[Term]
+id: GO:0030261
+name: chromosome condensation
+is_a: GO:0006323 ! DNA packaging
+is_a: GO:1902589 ! single-organism organelle organization
 
 [Term]
 id: GO:0030317
@@ -6308,6 +6452,11 @@ is_a: GO:0001775 ! cell activation
 is_a: GO:0002376 ! immune system process
 
 [Term]
+id: GO:0045453
+name: bone resorption
+is_a: GO:0001894 ! tissue homeostasis
+
+[Term]
 id: GO:0046483
 name: heterocycle metabolic process
 is_a: GO:0044237 ! cellular metabolic process
@@ -6454,6 +6603,11 @@ name: establishment of localization
 is_a: GO:0051179 ! localization
 
 [Term]
+id: GO:0051276
+name: chromosome organization
+is_a: GO:0006996 ! organelle organization
+
+[Term]
 id: GO:0051649
 name: establishment of localization in cell
 is_a: GO:0051234 ! establishment of localization
@@ -6468,6 +6622,11 @@ is_a: GO:0015850 ! organic hydroxy compound transport
 id: GO:0060047
 name: heart contraction
 is_a: GO:0003015 ! heart process
+
+[Term]
+id: GO:0060249
+name: anatomical structure homeostasis
+is_a: GO:0042592 ! homeostatic process
 
 [Term]
 id: GO:0060986
@@ -6511,6 +6670,11 @@ is_a: GO:0071593 ! lymphocyte aggregation
 id: GO:0070661
 name: leukocyte proliferation
 is_a: GO:0008283 ! cell proliferation
+
+[Term]
+id: GO:0071103
+name: DNA conformation change
+is_a: GO:0051276 ! chromosome organization
 
 [Term]
 id: GO:0071593
@@ -6625,6 +6789,26 @@ is_a: PATO:0000001 ! quality
 [Term]
 id: PATO:0001591
 name: curvature
+is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0001925
+name: surface feature shape
+is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0002005
+name: concavity
+is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0002007
+name: convex 3-D shape
+is_a: PATO:0002266 ! 3-D shape
+
+[Term]
+id: PATO:0002266
+name: 3-D shape
 is_a: PATO:0000052 ! shape
 
 [Term]
@@ -6919,6 +7103,12 @@ name: regional part of nervous system
 is_a: UBERON:0000481 ! multi-tissue structure
 
 [Term]
+id: UBERON:0000074
+name: renal glomerulus
+is_a: UBERON:0000064 ! organ part
+is_a: UBERON:0004120 ! mesoderm-derived structure
+
+[Term]
 id: UBERON:0000075
 name: subdivision of skeletal system
 is_a: UBERON:0011216 ! organ system subdivision
@@ -6987,6 +7177,12 @@ is_a: UBERON:0011215 ! central nervous system cell part cluster
 id: UBERON:0000158
 name: membranous layer
 is_a: UBERON:0004923 ! organ component layer
+
+[Term]
+id: UBERON:0000159
+name: anal canal
+is_a: UBERON:0004111 ! anatomical conduit
+is_a: UBERON:0004121 ! ectoderm-derived structure
 
 [Term]
 id: UBERON:0000160
@@ -7222,6 +7418,11 @@ is_a: UBERON:0003103 ! compound organ
 id: UBERON:0000490
 name: unilaminar epithelium
 is_a: UBERON:0000483 ! epithelium
+
+[Term]
+id: UBERON:0000916
+name: abdomen
+is_a: UBERON:0009569 ! subdivision of trunk
 
 [Term]
 id: UBERON:0000922
@@ -7692,6 +7893,12 @@ disjoint_from: UBERON:0005090 ! muscle structure
 disjoint_from: UBERON:0010538 ! paired limb/fin segment
 
 [Term]
+id: UBERON:0001485
+name: knee joint
+is_a: UBERON:0003840 ! hindlimb joint
+is_a: UBERON:0011139 ! synovial limb joint
+
+[Term]
 id: UBERON:0001515
 name: thoracic aorta
 is_a: UBERON:0005800 ! section of aorta
@@ -7700,6 +7907,11 @@ is_a: UBERON:0005800 ! section of aorta
 id: UBERON:0001555
 name: digestive tract
 is_a: UBERON:0000025 ! tube
+
+[Term]
+id: UBERON:0001556
+name: lower urinary tract
+is_a: UBERON:0000477 ! anatomical cluster
 
 [Term]
 id: UBERON:0001558
@@ -7893,11 +8105,22 @@ is_a: UBERON:0004119 ! endoderm-derived structure
 is_a: UBERON:0004121 ! ectoderm-derived structure
 
 [Term]
+id: UBERON:0001828
+name: gingiva
+is_a: UBERON:0003729 ! mouth mucosa
+
+[Term]
 id: UBERON:0001844
 name: cochlea
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0010313 ! neural crest-derived structure
 is_a: UBERON:0034921 ! multi organ part structure
+
+[Term]
+id: UBERON:0001850
+name: lacrimal drainage system
+is_a: UBERON:0000062 ! organ
+is_a: UBERON:0004121 ! ectoderm-derived structure
 
 [Term]
 id: UBERON:0001851
@@ -8227,6 +8450,12 @@ name: interventricular septum
 is_a: UBERON:0002099 ! cardiac septum
 
 [Term]
+id: UBERON:0002097
+name: skin of body
+is_a: UBERON:0000062 ! organ
+is_a: UBERON:0004121 ! ectoderm-derived structure
+
+[Term]
 id: UBERON:0002099
 name: cardiac septum
 is_a: UBERON:0003037 ! septum
@@ -8377,6 +8606,13 @@ is_a: UBERON:0000489 ! cavitated compound organ
 is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:0005174 ! dorsal region element
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+
+[Term]
+id: UBERON:0002242
+name: nucleus pulposus
+is_a: UBERON:0002384 ! connective tissue
+is_a: UBERON:0004120 ! mesoderm-derived structure
+is_a: UBERON:0004121 ! ectoderm-derived structure
 
 [Term]
 id: UBERON:0002255
@@ -8566,6 +8802,14 @@ id: UBERON:0002385
 name: muscle tissue
 is_a: UBERON:0000479 ! tissue
 is_a: UBERON:0004120 ! mesoderm-derived structure
+
+[Term]
+id: UBERON:0002392
+name: nasolacrimal duct
+is_a: UBERON:0000058 ! duct
+is_a: UBERON:0004119 ! endoderm-derived structure
+is_a: UBERON:0004121 ! ectoderm-derived structure
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 
 [Term]
 id: UBERON:0002394
@@ -8866,6 +9110,11 @@ is_a: UBERON:0003464 ! hindlimb bone
 is_a: UBERON:0003606 ! limb long bone
 
 [Term]
+id: UBERON:0003657
+name: limb joint
+is_a: UBERON:0000982 ! skeletal joint
+
+[Term]
 id: UBERON:0003729
 name: mouth mucosa
 is_a: UBERON:0000344 ! mucosa
@@ -8885,6 +9134,11 @@ is_a: UBERON:0003513 ! trunk blood vessel
 id: UBERON:0003835
 name: abdominal segment blood vessel
 is_a: UBERON:0003513 ! trunk blood vessel
+
+[Term]
+id: UBERON:0003840
+name: hindlimb joint
+is_a: UBERON:0003657 ! limb joint
 
 [Term]
 id: UBERON:0003860
@@ -9691,6 +9945,11 @@ name: stomach region
 is_a: UBERON:0000064 ! organ part
 
 [Term]
+id: UBERON:0009569
+name: subdivision of trunk
+is_a: UBERON:0000475 ! organism subdivision
+
+[Term]
 id: UBERON:0009661
 name: midbrain nucleus
 is_a: UBERON:0002308 ! nucleus of brain
@@ -9722,6 +9981,12 @@ is_a: UBERON:0009856 ! sac
 id: UBERON:0009856
 name: sac
 is_a: UBERON:0000061 ! anatomical structure
+
+[Term]
+id: UBERON:0009882
+name: anal column
+is_a: UBERON:0004121 ! ectoderm-derived structure
+is_a: UBERON:0034944 ! zone of organ
 
 [Term]
 id: UBERON:0009970
@@ -9908,6 +10173,12 @@ is_a: UBERON:0015005 ! vertebra endochondral element
 id: UBERON:0011134
 name: nonsynovial joint
 is_a: UBERON:0000982 ! skeletal joint
+
+[Term]
+id: UBERON:0011139
+name: synovial limb joint
+is_a: UBERON:0002217 ! synovial joint
+is_a: UBERON:0003657 ! limb joint
 
 [Term]
 id: UBERON:0011197

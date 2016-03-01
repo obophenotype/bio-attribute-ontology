@@ -126,11 +126,6 @@ name: butyrophilin
 is_a: PR:000000001 ! protein
 
 [Term]
-id: PR:000003766
-name: perilipin-2
-is_a: PR:000000001 ! protein
-
-[Term]
 id: PR:000005940
 name: alpha-S1-casein
 is_a: PR:000000001 ! protein
@@ -178,11 +173,6 @@ is_a: PR:000000001 ! protein
 [Term]
 id: PR:000013883
 name: renin
-is_a: PR:000000001 ! protein
-
-[Term]
-id: PR:000015763
-name: erythrocyte band 7 integral membrane protein
 is_a: PR:000000001 ! protein
 
 [Term]

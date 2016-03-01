@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/oba/imports/go_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/oba/imports/go_import.owl"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oba/imports/go_import.owl"/>
     
 
@@ -140,13 +140,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042645"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005739"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005739"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042645"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -295,13 +295,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005737"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0000229"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0000229"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005737"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -331,6 +331,17 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000819 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000819">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sister chromatid segregation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051276"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098813"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1902589"/>
     </owl:Class>
     
 
@@ -593,6 +604,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0001659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001659">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature homeostasis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048871"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0001660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001660">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fever generation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006953"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031649"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0001667 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001667">
@@ -783,13 +813,28 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001890"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001701"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001701"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001890"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0001894 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001894">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue homeostasis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0060249"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048871"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1011,6 +1056,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0002246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002246">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wound healing involved in inflammatory response</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042060"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042060"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0090594"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0002249 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002249">
@@ -1069,6 +1146,32 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002269">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukocyte activation involved in inflammatory response</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045321"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045321"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1428,13 +1531,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006955"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0002367"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0002367"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006955"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1645,6 +1748,109 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0002523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002523">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukocyte migration involved in inflammatory response</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050900"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050900"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002526">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute inflammatory response</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002527 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002527">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vasodilation involved in acute inflammatory response</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042311"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0002526"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042311"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0002526"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002532">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">production of molecular mediator involved in inflammatory response</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044707"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002534">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytokine production involved in inflammatory response</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0001816"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001816"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002532"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0002562 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002562">
@@ -1848,7 +2054,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0003007"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0035050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1860,7 +2066,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0035050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0003007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1886,9 +2092,35 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0003007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060419"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0003278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003278">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apoptotic process involved in heart morphogenesis</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006915"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0003007"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0060561"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1931,6 +2163,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0003676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003676">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleic acid binding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0097159"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901363"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0003677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003677">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA binding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003676"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0003824 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003824">
@@ -1942,6 +2193,80 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0004031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aldehyde oxidase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016623"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0004095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004095">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carnitine O-palmitoyltransferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016406"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016416"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0004096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004096">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catalase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0004601"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0004347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004347">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucose-6-phosphate isomerase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016861"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0004601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004601">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peroxidase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016209"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016684"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0004658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004658">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">propionyl-CoA carboxylase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016421"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0004736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004736">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyruvate carboxylase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016885"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0004854 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004854">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xanthine dehydrogenase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016726"/>
     </owl:Class>
     
 
@@ -2120,6 +2445,76 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial envelope</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031967"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044429"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005743">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial inner membrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019866"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031966"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005746">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial respiratory chain</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0070469"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005743"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044455"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0070469"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005743"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005753">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial proton-transporting ATP synthase complex</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045259"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005739"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045259"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098800"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005739"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005743"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -2597,10 +2992,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0006000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fructose metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019318"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0006006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006006">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucose metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019318"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006012">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galactose metabolic process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019318"/>
     </owl:Class>
     
@@ -2631,6 +3044,40 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular glucan metabolic process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044042"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044264"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006081">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular aldehyde metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044710"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071704"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006082">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic acid metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044281"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071704"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006089">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactate metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032787"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901615"/>
     </owl:Class>
     
 
@@ -2691,6 +3138,21 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006310">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA recombination</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006259"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006323">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA packaging</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071103"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008301"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -2883,6 +3345,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0006915 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006915">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apoptotic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0012501"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0006928 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006928">
@@ -2943,6 +3414,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0006953 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006953">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute-phase response</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002526"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006954 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006954">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory response</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006952"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0006955 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006955">
@@ -2958,6 +3447,21 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006996">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organelle organization</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016043"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007009">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma membrane organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044802"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0010256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -2985,6 +3489,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007049">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell cycle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007059">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromosome segregation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
     </owl:Class>
     
@@ -3096,6 +3609,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0007274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007274">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuromuscular synaptic transmission</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007268"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0007275 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007275">
@@ -3195,13 +3717,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001706"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001707"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001707"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001706"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3315,6 +3837,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0007422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007422">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral nervous system development</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048731"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007399"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0007423 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007423">
@@ -3418,11 +3955,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0007585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007585">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory gaseous exchange</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044707"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0007586 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007586">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digestion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044707"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007588">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">excretion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003008"/>
     </owl:Class>
     
 
@@ -3552,6 +4107,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0007618 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007618">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044703"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019953"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007620">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007618"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0007622 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007622">
@@ -3616,11 +4195,49 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0008194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008194">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UDP-glycosyltransferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016757"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008202">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">steroid metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006629"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901360"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008219">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell death</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016265"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0008283 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008283">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell proliferation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044699"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008301">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA binding, bending</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003677"/>
     </owl:Class>
     
 
@@ -3659,6 +4276,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0008374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008374">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O-acyltransferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016747"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008375">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetylglucosaminyltransferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008194"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016758"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0008406 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008406">
@@ -3673,6 +4309,15 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045137"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008455 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008455">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-1,6-mannosylglycoprotein 2-beta-N-acetylglucosaminyltransferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008375"/>
     </owl:Class>
     
 
@@ -3754,6 +4399,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0009112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009112">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleobase metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0055086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901564"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0009117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009117">
@@ -3810,6 +4465,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0009438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009438">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methylglyoxal metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006081"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042180"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0009507 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009507">
@@ -3839,13 +4504,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042646"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009536"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009536"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042646"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3857,6 +4522,75 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009532">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plastid stroma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044435"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009533 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009533">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chloroplast stromal thylakoid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009534"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009570"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009534"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009570"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009534">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chloroplast thylakoid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009579"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009507"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031976"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044434"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009507"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009535">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chloroplast thylakoid membrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044434"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0055035"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009534"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -3892,6 +4626,15 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chloroplast stroma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009532"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044434"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009579">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thylakoid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044424"/>
     </owl:Class>
     
 
@@ -3964,6 +4707,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009628">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to abiotic stimulus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050896"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009636">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to toxic substance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042221"/>
     </owl:Class>
     
 
@@ -4113,11 +4865,62 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0010001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glial cell differentiation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030154"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042063"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0010032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010032">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meiotic chromosome condensation</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030261"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051321"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030261"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0070192"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051321"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0010033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010033">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">response to organic substance</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042221"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0010256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010256">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endomembrane system organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016043"/>
     </owl:Class>
     
 
@@ -4159,6 +4962,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0010623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010623">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developmental programmed cell death</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0012501"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048468"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0012501"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048869"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048468"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0010817 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010817">
@@ -4173,6 +5003,50 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010876">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipid localization</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0033036"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0010927 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010927">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular component assembly involved in morphogenesis</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0022607"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009653"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022607"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044767"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048646"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0032989"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009653"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0012501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0012501">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">programmed cell death</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008219"/>
     </owl:Class>
     
 
@@ -4192,6 +5066,21 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005773"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0014003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0014003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oligodendrocyte development</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0021782"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048709"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4233,6 +5122,36 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0014033">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neural crest cell differentiation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048762"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0014037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0014037">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schwann cell differentiation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0010001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007422"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0014044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0014044">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schwann cell development</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0021782"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0014037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -4406,6 +5325,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0016053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016053">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic acid biosynthetic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006082"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044249"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044283"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901576"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0016064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016064">
@@ -4424,12 +5355,73 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0016209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016209">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antioxidant activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0098869"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016265">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">death</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044699"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0016337 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016337">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single organismal cell-cell adhesion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098602"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098609"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016406">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carnitine O-acyltransferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008374"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016409">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">palmitoyltransferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016747"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016416">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O-palmitoyltransferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008374"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016409"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016421">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoA carboxylase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016885"/>
     </owl:Class>
     
 
@@ -4468,11 +5460,35 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0016469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016469">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proton-transporting two-sector ATPase complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098796"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0016477 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016477">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell migration</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048870"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016491">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidoreductase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003824"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0055114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -4501,12 +5517,258 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0016623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016623">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidoreductase activity, acting on the aldehyde or oxo group of donors, oxygen as acceptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016903"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016627">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidoreductase activity, acting on the CH-CH group of donors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016491"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016628 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016628">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016627"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016684">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidoreductase activity, acting on peroxide as acceptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016491"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016725">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidoreductase activity, acting on CH or CH2 groups</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016491"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016726">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidoreductase activity, acting on CH or CH2 groups, NAD or NADP as acceptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016725"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016740">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003824"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016746">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transferase activity, transferring acyl groups</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016740"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016747">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transferase activity, transferring acyl groups other than amino-acyl groups</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016746"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016757">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transferase activity, transferring glycosyl groups</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016740"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016758 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016758">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transferase activity, transferring hexosyl groups</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016757"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016787">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrolase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003824"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016810 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016810">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016787"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016812">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amides</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016810"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016829 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016829">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lyase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003824"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016835">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon-oxygen lyase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016829"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016836 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016836">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydro-lyase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016835"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016853 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016853">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isomerase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003824"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016860 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016860">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intramolecular oxidoreductase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016853"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016861 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016861">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intramolecular oxidoreductase activity, interconverting aldoses and ketoses</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016860"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016874">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ligase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003824"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016885 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016885">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ligase activity, forming carbon-carbon bonds</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016874"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016903">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidoreductase activity, acting on the aldehyde or oxo group of donors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016491"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0017113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0017113">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydropyrimidine dehydrogenase (NADP+) activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016628"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0017168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0017168">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-oxoprolinase (ATP-hydrolyzing) activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016812"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0019098 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019098">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproductive behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022414"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019172">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glyoxalase III activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016836"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019249"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061727"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -4520,11 +5782,37 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0019230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019230">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proprioception</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050884"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0019233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019233">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensory perception of pain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019249">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactate biosynthetic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006089"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0072330"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901617"/>
     </owl:Class>
     
 
@@ -4578,11 +5866,36 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0019752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019752">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxylic acid metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043436"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0019814 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019814">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunoglobulin complex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043234"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019866 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019866">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organelle inner membrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031090"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044424"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031967"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -4776,6 +6089,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0021782 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0021782">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glial cell development</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048468"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0010001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0021903 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0021903">
@@ -4801,13 +6129,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007399"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043009"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007399"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4866,6 +6194,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0022010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022010">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central nervous system myelination</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032291"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042552"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0014003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0022011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022011">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myelination in peripheral nervous system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032292"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042552"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0014044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0022037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022037">
@@ -4904,6 +6264,15 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0022403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022403">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell cycle phase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044848"/>
     </owl:Class>
     
 
@@ -5018,6 +6387,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0022601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022601">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">menstrual cycle phase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044848"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0022602 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022602">
@@ -5039,6 +6417,21 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042698"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0022607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022607">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular component assembly</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0044085"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -5134,12 +6527,46 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0030029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030029">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">actin filament-based process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0030030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030030">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell projection organization</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016043"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030048">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">actin filament-based movement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006928"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030029"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030049">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle filament sliding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0033275"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006936"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -5333,6 +6760,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0030258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030258">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipid modification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044255"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030261">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromosome condensation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006323"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1902589"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0030282 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030282">
@@ -5386,15 +6832,24 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030323"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060541"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060541"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030323"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030421">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">defecation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007588"/>
     </owl:Class>
     
 
@@ -5568,13 +7023,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0021903"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007420"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007420"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0021903"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -5765,6 +7220,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0031594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031594">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuromuscular junction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045202"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0031649 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031649">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heat generation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001659"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0031672 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031672">
@@ -5845,6 +7318,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0031976 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031976">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plastid thylakoid</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009579"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009536"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009579"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031984"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044435"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009536"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0031981 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031981">
@@ -5860,6 +7361,21 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031982">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vesicle</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043226"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0031984 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031984">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organelle subcompartment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044446"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043227"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -6002,6 +7518,84 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0032286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032286">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">central nervous system myelin maintenance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043217"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0022010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032287">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral nervous system myelin maintenance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043217"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0022011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032288">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myelin assembly</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0010927"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042552"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032290">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral nervous system myelin formation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032288"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0022011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032291">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">axon ensheathment in central nervous system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008366"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032292">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral nervous system axon ensheathment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008366"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0032432 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032432">
@@ -6009,14 +7603,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044430"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005884"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0015629"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0015629"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005884"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -6269,6 +7863,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0032787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032787">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocarboxylic acid metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019752"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0032813 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032813">
@@ -6422,6 +8025,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0033275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0033275">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">actin-myosin filament sliding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0070252"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0033561 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0033561">
@@ -6464,6 +8076,50 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034308">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary alcohol metabolic process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006066"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0034357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034357">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photosynthetic membrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044436"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009579"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0034433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034433">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">steroid esterification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008202"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030258"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0034434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034434">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sterol esterification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034433"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0034435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034435">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholesterol esterification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034434"/>
     </owl:Class>
     
 
@@ -6534,7 +8190,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048568"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009790"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6546,7 +8202,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009790"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -6656,6 +8312,32 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0032608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0035630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0035630">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone mineralization involved in bone maturation</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030282"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043931"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030282"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043931"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -6867,6 +8549,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0042063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042063">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gliogenesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022008"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0042074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042074">
@@ -6965,6 +8656,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0042180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042180">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular ketone metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044281"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071704"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042182">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ketone catabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042180"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044248"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044282"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901575"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0042221 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042221">
@@ -7052,6 +8767,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0042465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042465">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kinesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009605"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042475">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">odontogenesis of dentin-containing tooth</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042476"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0042476 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042476">
@@ -7127,6 +8860,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0042640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042640">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anagen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044851"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048820"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0042644 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042644">
@@ -7147,13 +8895,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009507"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009570"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009507"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -7261,6 +9009,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0042651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042651">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thylakoid membrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034357"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042695">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thelarche</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046543"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030879"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042696">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">menarche</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022601"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0042698 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042698">
@@ -7268,6 +9049,15 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044702"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048511"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048609"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042703">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">menstruation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022601"/>
     </owl:Class>
     
 
@@ -7354,6 +9144,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0043084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043084">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penile erection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044702"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048609"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007620"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0043143 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043143">
@@ -7399,6 +9205,21 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005764"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043217">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myelin maintenance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042552"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -7573,6 +9394,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0043436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043436">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxoacid metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006082"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0043473 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043473">
@@ -7629,6 +9459,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0043931 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043931">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ossification involved in bone maturation</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0001503"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0070977"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001503"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0070977"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0043932 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043932">
@@ -7660,6 +9516,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044042">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucan metabolic process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005976"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044085">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular component biogenesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071840"/>
     </owl:Class>
     
 
@@ -7792,6 +9657,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044281">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small molecule metabolic process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044710"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044282">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small molecule catabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044281"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044712"/>
     </owl:Class>
     
 
@@ -8203,6 +10078,32 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009536"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044436">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thylakoid part</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005575"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009579"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044424"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009579"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -8801,6 +10702,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0044802 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044802">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-organism membrane organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0061024"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0044815 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044815">
@@ -8821,6 +10732,15 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0051179"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0051704"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0071840"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044851">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hair cycle phase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044848"/>
     </owl:Class>
     
 
@@ -8889,6 +10809,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0045132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045132">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meiotic chromosome segregation</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0098813"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007126"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098813"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1903046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045136">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">development of secondary sexual characteristics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003006"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0045137 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045137">
@@ -8897,13 +10853,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007548"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007275"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007275"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007548"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -8960,12 +10916,109 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0045259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045259">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proton-transporting ATP synthase complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016469"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044424"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045260">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma membrane proton-transporting ATP synthase complex</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045259"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005886"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045259"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098797"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005886"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045320">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chloroplast proton-transporting ATP synthase complex</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045259"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009507"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045259"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098807"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009507"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009535"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0045321 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045321">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukocyte activation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001775"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002376"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045453">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone resorption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001894"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0046849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0046185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046185">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aldehyde catabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006081"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044248"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044712"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901575"/>
     </owl:Class>
     
 
@@ -8977,6 +11030,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005996"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016051"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044283"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0046394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046394">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxylic acid biosynthetic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016053"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019752"/>
     </owl:Class>
     
 
@@ -9023,6 +11086,30 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007589"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022600"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032941"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0046543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046543">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">development of secondary female sexual characteristics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045136"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0046544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046544">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">development of secondary male sexual characteristics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045136"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0046661"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -9158,6 +11245,30 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046903">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secretion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044765"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0046950 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046950">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular ketone body metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044281"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044763"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0046951 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046951">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ketone body biosynthetic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044249"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044283"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046950"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901576"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1902224"/>
     </owl:Class>
     
 
@@ -9312,6 +11423,22 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048731"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0048514 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048514">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood vessel morphogenesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009653"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044767"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001568"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -9536,13 +11663,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030182"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048666"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030182"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -9554,6 +11681,21 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048699">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">generation of neurons</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0048709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048709">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oligodendrocyte differentiation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0010001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007417"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -9639,6 +11781,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0048799 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048799">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ maturation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071695"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048513"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0048806 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048806">
@@ -9673,6 +11830,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0048820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048820">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hair follicle maturation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022405"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071695"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001942"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0048839 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048839">
@@ -9683,6 +11856,21 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043583"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0048845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048845">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">venous blood vessel morphogenesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048514"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060841"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -9956,6 +12144,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050881">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">musculoskeletal movement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050879"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0050884 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050884">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuromuscular process controlling posture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050905"/>
     </owl:Class>
     
 
@@ -10295,13 +12492,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050951"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050951"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -10432,13 +12629,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050954"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050954"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -10549,6 +12746,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0051276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051276">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromosome organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006996"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051319">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2 phase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022403"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051325"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0051321 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051321">
@@ -10582,6 +12803,41 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0051325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051325">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interphase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022403"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051355">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proprioception involved in equilibrioception</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019230"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050957"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019230"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050957"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0051356 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051356">
@@ -10604,6 +12860,17 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050957"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051596">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methylglyoxal catabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009438"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042182"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046185"/>
     </owl:Class>
     
 
@@ -10679,6 +12946,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0055035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0055035">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plastid thylakoid membrane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042651"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044435"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031976"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0055067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0055067">
@@ -10732,6 +13015,21 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0055114">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidation-reduction process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044710"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0055127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0055127">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vibrational conductance of sound to the inner ear</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044707"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007605"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -10820,6 +13118,42 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060068">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vagina development</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030540"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0060073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060073">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micturition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007588"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0060084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060084">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synaptic transmission involved in micturition</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007268"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060073"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007274"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060073"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -10918,6 +13252,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009792"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -10925,12 +13265,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007565"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009790"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -10960,6 +13294,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060209">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estrus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0060206"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0060249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060249">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical structure homeostasis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042592"/>
     </owl:Class>
     
 
@@ -11007,13 +13350,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048870"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060285"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060285"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048870"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -11026,6 +13369,32 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head development</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044767"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048856"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0060327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060327">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytoplasmic actin-based contraction involved in cell motility</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0070252"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048870"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0070252"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048870"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -11188,6 +13557,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0060561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060561">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apoptotic process involved in morphogenesis</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006915"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009653"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0010623"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1902742"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009653"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0060562 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060562">
@@ -11244,13 +13640,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060711"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001892"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001892"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060711"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -11393,6 +13789,15 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030879"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0060841 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060841">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">venous blood vessel development</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001568"/>
     </owl:Class>
     
 
@@ -11573,6 +13978,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0061024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0061024">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016043"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0061053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0061053">
@@ -11600,6 +14014,15 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061053"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0061116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0061116">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ductus venosus closure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048845"/>
     </owl:Class>
     
 
@@ -11650,13 +14073,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007507"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061307"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061307"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007507"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -11772,6 +14195,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0061727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0061727">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methylglyoxal catabolic process to lactate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006089"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051596"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0065007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0065007">
@@ -11809,6 +14242,67 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0070166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070166">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enamel mineralization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034505"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0097186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0070192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070192">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromosome organization involved in meiotic cell cycle</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0051276"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051321"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051276"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1902589"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1903046"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051321"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0070227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070227">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphocyte apoptotic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071887"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0070252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070252">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">actin-mediated cell contraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030048"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0070276 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070276">
@@ -11834,6 +14328,15 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prolactin secretion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009306"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0030072"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0070469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070469">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory chain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044425"/>
     </owl:Class>
     
 
@@ -11907,6 +14410,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0070977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070977">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone maturation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048799"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060348"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0071103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0071103">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA conformation change</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051276"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0071593 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0071593">
@@ -11921,6 +14448,21 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0071625">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vocalization behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044708"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0071695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0071695">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical structure maturation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0021700"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048856"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -11966,6 +14508,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0071840">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular component organization or biogenesis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0071887 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0071887">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukocyte apoptotic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0097285"/>
     </owl:Class>
     
 
@@ -12123,6 +14674,16 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0072001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0072330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0072330">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocarboxylic acid biosynthetic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032787"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046394"/>
     </owl:Class>
     
 
@@ -12532,12 +15093,41 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0090594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0090594">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory response to wounding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006954"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009611"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0097060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0097060">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synaptic membrane</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044456"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098590"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0097159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0097159">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic cyclic compound binding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005488"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0097186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0097186">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amelogenesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042475"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048646"/>
     </owl:Class>
     
 
@@ -12556,6 +15146,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0097223">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sperm part</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044464"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0097285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0097285">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell-type specific apoptotic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006915"/>
     </owl:Class>
     
 
@@ -12606,13 +15205,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048812"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006935"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006935"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048812"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -12895,6 +15494,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0098754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098754">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detoxification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0098771 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098771">
@@ -12913,6 +15527,33 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043588"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0098791 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098791">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Golgi subcompartment</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0031984"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005794"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031984"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044431"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005794"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -13016,11 +15657,93 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0098800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098800">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inner mitochondrial membrane protein complex</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005743"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044455"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098796"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098798"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005743"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0098803 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098803">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory chain complex</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0070469"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098796"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0070469"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0098805 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098805">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whole membrane</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0098807 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098807">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chloroplast thylakoid membrane protein complex</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009535"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044434"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044436"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098796"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009535"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -13045,6 +15768,49 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007268"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0098813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098813">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear chromosome segregation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007059"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022402"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0098827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098827">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endoplasmic reticulum subcompartment</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0031984"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005783"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031984"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044432"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -13102,6 +15868,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0098869 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098869">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular oxidant detoxification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1990748"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0099738 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0099738">
@@ -13134,6 +15909,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1901360">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic cyclic compound metabolic process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071704"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_1901363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1901363">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic compound binding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005488"/>
     </owl:Class>
     
 
@@ -13215,6 +15999,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_1901617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1901617">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic hydroxy compound biosynthetic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901576"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901615"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_1901700 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1901700">
@@ -13246,6 +16040,15 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060348"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_1902224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1902224">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ketone body metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071704"/>
     </owl:Class>
     
 
@@ -13290,6 +16093,32 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048538"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_1902742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1902742">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apoptotic process involved in development</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006915"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048856"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006915"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0048856"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -13382,6 +16211,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1990413">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eyespot apparatus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043229"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_1990748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1990748">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular detoxification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009987"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098754"/>
     </owl:Class>
     
 

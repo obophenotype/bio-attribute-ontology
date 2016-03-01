@@ -9,15 +9,6 @@ is_a: CHEBI:37176 ! mononuclear parent hydride
 is_a: CHEBI:52625 ! inorganic hydroxy compound
 
 [Term]
-id: CHEBI:15647
-name: leukotriene B4
-is_a: CHEBI:15904 ! long-chain fatty acid
-is_a: CHEBI:24654 ! hydroxy fatty acid
-is_a: CHEBI:25029 ! leukotriene
-is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:35972 ! dihydroxy monocarboxylic acid
-
-[Term]
 id: CHEBI:15693
 name: aldose
 is_a: CHEBI:35381 ! monosaccharide
@@ -354,11 +345,6 @@ is_a: CHEBI:59202 ! straight-chain fatty acid
 is_a: CHEBI:59554 ! medium-chain fatty acid
 
 [Term]
-id: CHEBI:23899
-name: icosanoid
-is_a: CHEBI:61697 ! fatty acid derivative
-
-[Term]
 id: CHEBI:23905
 name: monoatomic anion
 is_a: CHEBI:22563 ! anion
@@ -452,18 +438,6 @@ is_a: CHEBI:33608 ! hydrogen molecular entity
 is_a: CHEBI:37577 ! heteroatomic molecular entity
 
 [Term]
-id: CHEBI:24654
-name: hydroxy fatty acid
-is_a: CHEBI:35366 ! fatty acid
-is_a: CHEBI:35868 ! hydroxy monocarboxylic acid
-
-[Term]
-id: CHEBI:24669
-name: hydroxy carboxylic acid
-is_a: CHEBI:33575 ! carboxylic acid
-is_a: CHEBI:33822 ! organic hydroxy compound
-
-[Term]
 id: CHEBI:24828
 name: indoles
 is_a: CHEBI:22728 ! benzopyrrole
@@ -541,11 +515,6 @@ name: lactate
 is_a: CHEBI:36059 ! hydroxy monocarboxylic acid anion
 
 [Term]
-id: CHEBI:25029
-name: leukotriene
-is_a: CHEBI:23899 ! icosanoid
-
-[Term]
 id: CHEBI:25046
 name: linear tetrapyrrole
 is_a: CHEBI:26932 ! tetrapyrrole
@@ -596,11 +565,6 @@ is_a: CHEBI:27208 ! unsaturated fatty acid
 id: CHEBI:25414
 name: monoatomic monocation
 is_a: CHEBI:23906 ! monoatomic cation
-
-[Term]
-id: CHEBI:25512
-name: neurotransmitter
-is_a: CHEBI:33280 ! molecular messenger
 
 [Term]
 id: CHEBI:25585
@@ -1544,12 +1508,6 @@ is_a: CHEBI:26932 ! tetrapyrrole
 is_a: CHEBI:35507 ! natural product fundamental parent
 
 [Term]
-id: CHEBI:35868
-name: hydroxy monocarboxylic acid
-is_a: CHEBI:24669 ! hydroxy carboxylic acid
-is_a: CHEBI:25384 ! monocarboxylic acid
-
-[Term]
 id: CHEBI:35875
 name: imidazopyrimidine
 is_a: CHEBI:27171 ! organic heterobicyclic compound
@@ -1561,11 +1519,6 @@ id: CHEBI:35881
 name: pnictogen hydride
 is_a: CHEBI:33242 ! inorganic hydride
 is_a: CHEBI:33302 ! pnictogen molecular entity
-
-[Term]
-id: CHEBI:35972
-name: dihydroxy monocarboxylic acid
-is_a: CHEBI:35868 ! hydroxy monocarboxylic acid
 
 [Term]
 id: CHEBI:36009
@@ -2139,11 +2092,6 @@ is_a: CHEBI:35341 ! steroid
 id: CHEBI:61336
 name: C4-dicarboxylate
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
-
-[Term]
-id: CHEBI:61697
-name: fatty acid derivative
-is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:62761

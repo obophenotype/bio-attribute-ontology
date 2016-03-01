@@ -107,6 +107,13 @@ intersection_of: BFO:0000050 GO:0005634 ! part of nucleus
 relationship: BFO:0000050 GO:0005634 ! part of nucleus
 
 [Term]
+id: GO:0000819
+name: sister chromatid segregation
+is_a: GO:0051276 ! chromosome organization
+is_a: GO:0098813 ! nuclear chromosome segregation
+is_a: GO:1902589 ! single-organism organelle organization
+
+[Term]
 id: GO:0000902
 name: cell morphogenesis
 is_a: GO:0032989 ! cellular component morphogenesis
@@ -212,6 +219,17 @@ name: urogenital system development
 is_a: GO:0048731 ! system development
 
 [Term]
+id: GO:0001659
+name: temperature homeostasis
+is_a: GO:0048871 ! multicellular organismal homeostasis
+
+[Term]
+id: GO:0001660
+name: fever generation
+is_a: GO:0006953 ! acute-phase response
+is_a: GO:0031649 ! heat generation
+
+[Term]
 id: GO:0001667
 name: ameboidal-type cell migration
 is_a: GO:0016477 ! cell migration
@@ -303,6 +321,12 @@ is_a: GO:0044702 ! single organism reproductive process
 is_a: GO:0048568 ! embryonic organ development
 relationship: BFO:0000050 GO:0001701 ! part of in utero embryonic development
 relationship: BFO:0000050 GO:0001890 ! part of placenta development
+
+[Term]
+id: GO:0001894
+name: tissue homeostasis
+is_a: GO:0060249 ! anatomical structure homeostasis
+relationship: BFO:0000050 GO:0048871 ! part of multicellular organismal homeostasis
 
 [Term]
 id: GO:0001917
@@ -400,6 +424,15 @@ is_a: GO:0030154 ! cell differentiation
 relationship: BFO:0000050 GO:0030097 ! part of hemopoiesis
 
 [Term]
+id: GO:0002246
+name: wound healing involved in inflammatory response
+is_a: GO:0042060 ! wound healing
+intersection_of: GO:0042060 ! wound healing
+intersection_of: BFO:0000050 GO:0006954 ! part of inflammatory response
+relationship: BFO:0000050 GO:0006954 ! part of inflammatory response
+relationship: BFO:0000050 GO:0090594 ! part of inflammatory response to wounding
+
+[Term]
 id: GO:0002249
 name: lymphocyte anergy
 is_a: GO:0002507 ! tolerance induction
@@ -428,6 +461,14 @@ is_a: GO:0002252 ! immune effector process
 intersection_of: GO:0001775 ! cell activation
 intersection_of: BFO:0000050 GO:0006955 ! part of immune response
 relationship: BFO:0000050 GO:0006955 ! part of immune response
+
+[Term]
+id: GO:0002269
+name: leukocyte activation involved in inflammatory response
+is_a: GO:0045321 ! leukocyte activation
+intersection_of: GO:0045321 ! leukocyte activation
+intersection_of: BFO:0000050 GO:0006954 ! part of inflammatory response
+relationship: BFO:0000050 GO:0006954 ! part of inflammatory response
 
 [Term]
 id: GO:0002285
@@ -656,6 +697,42 @@ intersection_of: BFO:0000050 GO:0006955 ! part of immune response
 relationship: BFO:0000050 GO:0006955 ! part of immune response
 
 [Term]
+id: GO:0002523
+name: leukocyte migration involved in inflammatory response
+is_a: GO:0050900 ! leukocyte migration
+intersection_of: GO:0050900 ! leukocyte migration
+intersection_of: BFO:0000050 GO:0006954 ! part of inflammatory response
+relationship: BFO:0000050 GO:0006954 ! part of inflammatory response
+
+[Term]
+id: GO:0002526
+name: acute inflammatory response
+is_a: GO:0006954 ! inflammatory response
+
+[Term]
+id: GO:0002527
+name: vasodilation involved in acute inflammatory response
+is_a: GO:0042311 ! vasodilation
+intersection_of: GO:0042311 ! vasodilation
+intersection_of: BFO:0000050 GO:0002526 ! part of acute inflammatory response
+relationship: BFO:0000050 GO:0002526 ! part of acute inflammatory response
+
+[Term]
+id: GO:0002532
+name: production of molecular mediator involved in inflammatory response
+is_a: GO:0044707 ! single-multicellular organism process
+relationship: BFO:0000050 GO:0006954 ! part of inflammatory response
+
+[Term]
+id: GO:0002534
+name: cytokine production involved in inflammatory response
+is_a: GO:0001816 ! cytokine production
+is_a: GO:0002532 ! production of molecular mediator involved in inflammatory response
+intersection_of: GO:0001816 ! cytokine production
+intersection_of: BFO:0000050 GO:0006954 ! part of inflammatory response
+relationship: BFO:0000050 GO:0006954 ! part of inflammatory response
+
+[Term]
 id: GO:0002562
 name: somatic diversification of immune receptors via germline recombination within a single locus
 is_a: GO:0002200 ! somatic diversification of immune receptors
@@ -771,6 +848,14 @@ relationship: BFO:0000050 GO:0003007 ! part of heart morphogenesis
 relationship: BFO:0000050 GO:0060419 ! part of heart growth
 
 [Term]
+id: GO:0003278
+name: apoptotic process involved in heart morphogenesis
+is_a: GO:0060561 ! apoptotic process involved in morphogenesis
+intersection_of: GO:0006915 ! apoptotic process
+intersection_of: BFO:0000050 GO:0003007 ! part of heart morphogenesis
+relationship: BFO:0000050 GO:0003007 ! part of heart morphogenesis
+
+[Term]
 id: GO:0003334
 name: keratinocyte development
 is_a: GO:0002064 ! epithelial cell development
@@ -786,10 +871,63 @@ id: GO:0003674
 name: molecular_function
 
 [Term]
+id: GO:0003676
+name: nucleic acid binding
+is_a: GO:0097159 ! organic cyclic compound binding
+is_a: GO:1901363 ! heterocyclic compound binding
+
+[Term]
+id: GO:0003677
+name: DNA binding
+is_a: GO:0003676 ! nucleic acid binding
+
+[Term]
 id: GO:0003824
 name: catalytic activity
 is_a: GO:0003674 ! molecular_function
 relationship: BFO:0000050 GO:0008152 ! part of metabolic process
+
+[Term]
+id: GO:0004031
+name: aldehyde oxidase activity
+is_a: GO:0016623 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors, oxygen as acceptor
+
+[Term]
+id: GO:0004095
+name: carnitine O-palmitoyltransferase activity
+is_a: GO:0016406 ! carnitine O-acyltransferase activity
+is_a: GO:0016416 ! O-palmitoyltransferase activity
+
+[Term]
+id: GO:0004096
+name: catalase activity
+is_a: GO:0004601 ! peroxidase activity
+
+[Term]
+id: GO:0004347
+name: glucose-6-phosphate isomerase activity
+is_a: GO:0016861 ! intramolecular oxidoreductase activity, interconverting aldoses and ketoses
+
+[Term]
+id: GO:0004601
+name: peroxidase activity
+is_a: GO:0016209 ! antioxidant activity
+is_a: GO:0016684 ! oxidoreductase activity, acting on peroxide as acceptor
+
+[Term]
+id: GO:0004658
+name: propionyl-CoA carboxylase activity
+is_a: GO:0016421 ! CoA carboxylase activity
+
+[Term]
+id: GO:0004736
+name: pyruvate carboxylase activity
+is_a: GO:0016885 ! ligase activity, forming carbon-carbon bonds
+
+[Term]
+id: GO:0004854
+name: xanthine dehydrogenase activity
+is_a: GO:0016726 ! oxidoreductase activity, acting on CH or CH2 groups, NAD or NADP as acceptor
 
 [Term]
 id: GO:0005102
@@ -886,6 +1024,31 @@ id: GO:0005740
 name: mitochondrial envelope
 is_a: GO:0031967 ! organelle envelope
 is_a: GO:0044429 ! mitochondrial part
+
+[Term]
+id: GO:0005743
+name: mitochondrial inner membrane
+is_a: GO:0019866 ! organelle inner membrane
+is_a: GO:0031966 ! mitochondrial membrane
+
+[Term]
+id: GO:0005746
+name: mitochondrial respiratory chain
+is_a: GO:0044455 ! mitochondrial membrane part
+is_a: GO:0070469 ! respiratory chain
+intersection_of: GO:0070469 ! respiratory chain
+intersection_of: BFO:0000050 GO:0005743 ! part of mitochondrial inner membrane
+relationship: BFO:0000050 GO:0005743 ! part of mitochondrial inner membrane
+
+[Term]
+id: GO:0005753
+name: mitochondrial proton-transporting ATP synthase complex
+is_a: GO:0045259 ! proton-transporting ATP synthase complex
+is_a: GO:0098800 ! inner mitochondrial membrane protein complex
+intersection_of: GO:0045259 ! proton-transporting ATP synthase complex
+intersection_of: BFO:0000050 GO:0005739 ! part of mitochondrion
+relationship: BFO:0000050 GO:0005739 ! part of mitochondrion
+relationship: BFO:0000050 GO:0005743 ! part of mitochondrial inner membrane
 
 [Term]
 id: GO:0005759
@@ -1109,8 +1272,18 @@ is_a: GO:0044281 ! small molecule metabolic process
 is_a: GO:0044723 ! single-organism carbohydrate metabolic process
 
 [Term]
+id: GO:0006000
+name: fructose metabolic process
+is_a: GO:0019318 ! hexose metabolic process
+
+[Term]
 id: GO:0006006
 name: glucose metabolic process
+is_a: GO:0019318 ! hexose metabolic process
+
+[Term]
+id: GO:0006012
+name: galactose metabolic process
 is_a: GO:0019318 ! hexose metabolic process
 
 [Term]
@@ -1129,6 +1302,28 @@ id: GO:0006073
 name: cellular glucan metabolic process
 is_a: GO:0044042 ! glucan metabolic process
 is_a: GO:0044264 ! cellular polysaccharide metabolic process
+
+[Term]
+id: GO:0006081
+name: cellular aldehyde metabolic process
+is_a: GO:0044237 ! cellular metabolic process
+is_a: GO:0044710 ! single-organism metabolic process
+is_a: GO:0044763 ! single-organism cellular process
+is_a: GO:0071704 ! organic substance metabolic process
+
+[Term]
+id: GO:0006082
+name: organic acid metabolic process
+is_a: GO:0044237 ! cellular metabolic process
+is_a: GO:0044281 ! small molecule metabolic process
+is_a: GO:0044763 ! single-organism cellular process
+is_a: GO:0071704 ! organic substance metabolic process
+
+[Term]
+id: GO:0006089
+name: lactate metabolic process
+is_a: GO:0032787 ! monocarboxylic acid metabolic process
+is_a: GO:1901615 ! organic hydroxy compound metabolic process
 
 [Term]
 id: GO:0006091
@@ -1165,6 +1360,12 @@ is_a: GO:0090304 ! nucleic acid metabolic process
 id: GO:0006310
 name: DNA recombination
 is_a: GO:0006259 ! DNA metabolic process
+
+[Term]
+id: GO:0006323
+name: DNA packaging
+is_a: GO:0071103 ! DNA conformation change
+relationship: BFO:0000051 GO:0008301 ! has_part DNA binding, bending
 
 [Term]
 id: GO:0006412
@@ -1267,6 +1468,11 @@ name: regulation of pH
 is_a: GO:0055067 ! monovalent inorganic cation homeostasis
 
 [Term]
+id: GO:0006915
+name: apoptotic process
+is_a: GO:0012501 ! programmed cell death
+
+[Term]
 id: GO:0006928
 name: movement of cell or subcellular component
 is_a: GO:0044763 ! single-organism cellular process
@@ -1298,6 +1504,16 @@ name: defense response
 is_a: GO:0006950 ! response to stress
 
 [Term]
+id: GO:0006953
+name: acute-phase response
+is_a: GO:0002526 ! acute inflammatory response
+
+[Term]
+id: GO:0006954
+name: inflammatory response
+is_a: GO:0006952 ! defense response
+
+[Term]
 id: GO:0006955
 name: immune response
 is_a: GO:0002376 ! immune system process
@@ -1307,6 +1523,12 @@ is_a: GO:0050896 ! response to stimulus
 id: GO:0006996
 name: organelle organization
 is_a: GO:0016043 ! cellular component organization
+
+[Term]
+id: GO:0007009
+name: plasma membrane organization
+is_a: GO:0044802 ! single-organism membrane organization
+relationship: BFO:0000050 GO:0010256 ! part of endomembrane system organization
 
 [Term]
 id: GO:0007017
@@ -1322,6 +1544,11 @@ is_a: GO:0007017 ! microtubule-based process
 [Term]
 id: GO:0007049
 name: cell cycle
+is_a: GO:0044763 ! single-organism cellular process
+
+[Term]
+id: GO:0007059
+name: chromosome segregation
 is_a: GO:0044763 ! single-organism cellular process
 
 [Term]
@@ -1373,6 +1600,11 @@ id: GO:0007272
 name: ensheathment of neurons
 is_a: GO:0044763 ! single-organism cellular process
 relationship: BFO:0000050 GO:0007399 ! part of nervous system development
+
+[Term]
+id: GO:0007274
+name: neuromuscular synaptic transmission
+is_a: GO:0007268 ! synaptic transmission
 
 [Term]
 id: GO:0007275
@@ -1469,6 +1701,12 @@ relationship: BFO:0000050 GO:0007417 ! part of central nervous system developmen
 relationship: BFO:0000050 GO:0060322 ! part of head development
 
 [Term]
+id: GO:0007422
+name: peripheral nervous system development
+is_a: GO:0048731 ! system development
+relationship: BFO:0000050 GO:0007399 ! part of nervous system development
+
+[Term]
 id: GO:0007423
 name: sensory organ development
 is_a: GO:0044767 ! single-organism developmental process
@@ -1521,9 +1759,19 @@ is_a: GO:0044703 ! multi-organism reproductive process
 is_a: GO:0044706 ! multi-multicellular organism process
 
 [Term]
+id: GO:0007585
+name: respiratory gaseous exchange
+is_a: GO:0044707 ! single-multicellular organism process
+
+[Term]
 id: GO:0007586
 name: digestion
 is_a: GO:0044707 ! single-multicellular organism process
+
+[Term]
+id: GO:0007588
+name: excretion
+is_a: GO:0003008 ! system process
 
 [Term]
 id: GO:0007589
@@ -1593,6 +1841,17 @@ name: learning
 is_a: GO:0007611 ! learning or memory
 
 [Term]
+id: GO:0007618
+name: mating
+is_a: GO:0044703 ! multi-organism reproductive process
+relationship: BFO:0000050 GO:0019953 ! part of sexual reproduction
+
+[Term]
+id: GO:0007620
+name: copulation
+is_a: GO:0007618 ! mating
+
+[Term]
 id: GO:0007622
 name: rhythmic behavior
 is_a: GO:0007610 ! behavior
@@ -1629,9 +1888,31 @@ is_a: GO:0008150 ! biological_process
 disjoint_from: GO:0044848 ! biological phase
 
 [Term]
+id: GO:0008194
+name: UDP-glycosyltransferase activity
+is_a: GO:0016757 ! transferase activity, transferring glycosyl groups
+
+[Term]
+id: GO:0008202
+name: steroid metabolic process
+is_a: GO:0006629 ! lipid metabolic process
+is_a: GO:1901360 ! organic cyclic compound metabolic process
+
+[Term]
+id: GO:0008219
+name: cell death
+is_a: GO:0016265 ! death
+is_a: GO:0044763 ! single-organism cellular process
+
+[Term]
 id: GO:0008283
 name: cell proliferation
 is_a: GO:0044699 ! single-organism process
+
+[Term]
+id: GO:0008301
+name: DNA binding, bending
+is_a: GO:0003677 ! DNA binding
 
 [Term]
 id: GO:0008306
@@ -1651,6 +1932,17 @@ name: axon ensheathment
 is_a: GO:0007272 ! ensheathment of neurons
 
 [Term]
+id: GO:0008374
+name: O-acyltransferase activity
+is_a: GO:0016747 ! transferase activity, transferring acyl groups other than amino-acyl groups
+
+[Term]
+id: GO:0008375
+name: acetylglucosaminyltransferase activity
+is_a: GO:0008194 ! UDP-glycosyltransferase activity
+is_a: GO:0016758 ! transferase activity, transferring hexosyl groups
+
+[Term]
 id: GO:0008406
 name: gonad development
 is_a: GO:0044702 ! single organism reproductive process
@@ -1658,6 +1950,11 @@ is_a: GO:0044767 ! single-organism developmental process
 is_a: GO:0048513 ! organ development
 is_a: GO:0048608 ! reproductive structure development
 relationship: BFO:0000050 GO:0045137 ! part of development of primary sexual characteristics
+
+[Term]
+id: GO:0008455
+name: alpha-1,6-mannosylglycoprotein 2-beta-N-acetylglucosaminyltransferase activity
+is_a: GO:0008375 ! acetylglucosaminyltransferase activity
 
 [Term]
 id: GO:0008544
@@ -1699,6 +1996,12 @@ is_a: GO:0043170 ! macromolecule metabolic process
 is_a: GO:1901576 ! organic substance biosynthetic process
 
 [Term]
+id: GO:0009112
+name: nucleobase metabolic process
+is_a: GO:0055086 ! nucleobase-containing small molecule metabolic process
+is_a: GO:1901564 ! organonitrogen compound metabolic process
+
+[Term]
 id: GO:0009117
 name: nucleotide metabolic process
 is_a: GO:0006753 ! nucleoside phosphate metabolic process
@@ -1731,6 +2034,12 @@ name: response to xenobiotic stimulus
 is_a: GO:0042221 ! response to chemical
 
 [Term]
+id: GO:0009438
+name: methylglyoxal metabolic process
+is_a: GO:0006081 ! cellular aldehyde metabolic process
+is_a: GO:0042180 ! cellular ketone metabolic process
+
+[Term]
 id: GO:0009507
 name: chloroplast
 is_a: GO:0009536 ! plastid
@@ -1751,6 +2060,30 @@ name: plastid stroma
 is_a: GO:0044435 ! plastid part
 
 [Term]
+id: GO:0009533
+name: chloroplast stromal thylakoid
+is_a: GO:0009534 ! chloroplast thylakoid
+intersection_of: GO:0009534 ! chloroplast thylakoid
+intersection_of: BFO:0000050 GO:0009570 ! part of chloroplast stroma
+relationship: BFO:0000050 GO:0009570 ! part of chloroplast stroma
+
+[Term]
+id: GO:0009534
+name: chloroplast thylakoid
+is_a: GO:0031976 ! plastid thylakoid
+is_a: GO:0044434 ! chloroplast part
+intersection_of: GO:0009579 ! thylakoid
+intersection_of: BFO:0000050 GO:0009507 ! part of chloroplast
+relationship: BFO:0000050 GO:0009507 ! part of chloroplast
+
+[Term]
+id: GO:0009535
+name: chloroplast thylakoid membrane
+is_a: GO:0044434 ! chloroplast part
+is_a: GO:0055035 ! plastid thylakoid membrane
+relationship: BFO:0000050 GO:0009534 ! part of chloroplast thylakoid
+
+[Term]
 id: GO:0009536
 name: plastid
 is_a: GO:0043231 ! intracellular membrane-bounded organelle
@@ -1767,6 +2100,11 @@ id: GO:0009570
 name: chloroplast stroma
 is_a: GO:0009532 ! plastid stroma
 is_a: GO:0044434 ! chloroplast part
+
+[Term]
+id: GO:0009579
+name: thylakoid
+is_a: GO:0044424 ! intracellular part
 
 [Term]
 id: GO:0009581
@@ -1806,6 +2144,11 @@ is_a: GO:0009628 ! response to abiotic stimulus
 id: GO:0009628
 name: response to abiotic stimulus
 is_a: GO:0050896 ! response to stimulus
+
+[Term]
+id: GO:0009636
+name: response to toxic substance
+is_a: GO:0042221 ! response to chemical
 
 [Term]
 id: GO:0009653
@@ -1881,9 +2224,29 @@ is_a: GO:0008150 ! biological_process
 disjoint_from: GO:0044848 ! biological phase
 
 [Term]
+id: GO:0010001
+name: glial cell differentiation
+is_a: GO:0030154 ! cell differentiation
+relationship: BFO:0000050 GO:0042063 ! part of gliogenesis
+
+[Term]
+id: GO:0010032
+name: meiotic chromosome condensation
+is_a: GO:0030261 ! chromosome condensation
+is_a: GO:0070192 ! chromosome organization involved in meiotic cell cycle
+intersection_of: GO:0030261 ! chromosome condensation
+intersection_of: BFO:0000050 GO:0051321 ! part of meiotic cell cycle
+relationship: BFO:0000050 GO:0051321 ! part of meiotic cell cycle
+
+[Term]
 id: GO:0010033
 name: response to organic substance
 is_a: GO:0042221 ! response to chemical
+
+[Term]
+id: GO:0010256
+name: endomembrane system organization
+is_a: GO:0016043 ! cellular component organization
 
 [Term]
 id: GO:0010467
@@ -1907,6 +2270,15 @@ name: posttranscriptional regulation of gene expression
 is_a: GO:0010468 ! regulation of gene expression
 
 [Term]
+id: GO:0010623
+name: developmental programmed cell death
+is_a: GO:0012501 ! programmed cell death
+is_a: GO:0048869 ! cellular developmental process
+intersection_of: GO:0012501 ! programmed cell death
+intersection_of: BFO:0000050 GO:0048468 ! part of cell development
+relationship: BFO:0000050 GO:0048468 ! part of cell development
+
+[Term]
 id: GO:0010817
 name: regulation of hormone levels
 is_a: GO:0065008 ! regulation of biological quality
@@ -1917,11 +2289,34 @@ name: lipid localization
 is_a: GO:0033036 ! macromolecule localization
 
 [Term]
+id: GO:0010927
+name: cellular component assembly involved in morphogenesis
+is_a: GO:0022607 ! cellular component assembly
+is_a: GO:0044763 ! single-organism cellular process
+is_a: GO:0044767 ! single-organism developmental process
+is_a: GO:0048646 ! anatomical structure formation involved in morphogenesis
+intersection_of: GO:0022607 ! cellular component assembly
+intersection_of: BFO:0000050 GO:0009653 ! part of anatomical structure morphogenesis
+relationship: BFO:0000050 GO:0009653 ! part of anatomical structure morphogenesis
+relationship: BFO:0000050 GO:0032989 ! part of cellular component morphogenesis
+
+[Term]
+id: GO:0012501
+name: programmed cell death
+is_a: GO:0008219 ! cell death
+
+[Term]
 id: GO:0012505
 name: endomembrane system
 is_a: GO:0044464 ! cell part
 relationship: BFO:0000051 GO:0005773 ! has_part vacuole
 relationship: BFO:0000051 GO:0005886 ! has_part plasma membrane
+
+[Term]
+id: GO:0014003
+name: oligodendrocyte development
+is_a: GO:0021782 ! glial cell development
+relationship: BFO:0000050 GO:0048709 ! part of oligodendrocyte differentiation
 
 [Term]
 id: GO:0014031
@@ -1939,6 +2334,18 @@ relationship: BFO:0000050 GO:0014033 ! part of neural crest cell differentiation
 id: GO:0014033
 name: neural crest cell differentiation
 is_a: GO:0048762 ! mesenchymal cell differentiation
+
+[Term]
+id: GO:0014037
+name: Schwann cell differentiation
+is_a: GO:0010001 ! glial cell differentiation
+relationship: BFO:0000050 GO:0007422 ! part of peripheral nervous system development
+
+[Term]
+id: GO:0014044
+name: Schwann cell development
+is_a: GO:0021782 ! glial cell development
+relationship: BFO:0000050 GO:0014037 ! part of Schwann cell differentiation
 
 [Term]
 id: GO:0014704
@@ -2036,6 +2443,14 @@ is_a: GO:0005975 ! carbohydrate metabolic process
 is_a: GO:1901575 ! organic substance catabolic process
 
 [Term]
+id: GO:0016053
+name: organic acid biosynthetic process
+is_a: GO:0006082 ! organic acid metabolic process
+is_a: GO:0044249 ! cellular biosynthetic process
+is_a: GO:0044283 ! small molecule biosynthetic process
+is_a: GO:1901576 ! organic substance biosynthetic process
+
+[Term]
 id: GO:0016064
 name: immunoglobulin mediated immune response
 is_a: GO:0019724 ! B cell mediated immunity
@@ -2046,10 +2461,42 @@ name: diterpenoid metabolic process
 is_a: GO:0006721 ! terpenoid metabolic process
 
 [Term]
+id: GO:0016209
+name: antioxidant activity
+is_a: GO:0003674 ! molecular_function
+relationship: BFO:0000050 GO:0098869 ! part of cellular oxidant detoxification
+
+[Term]
+id: GO:0016265
+name: death
+is_a: GO:0044699 ! single-organism process
+
+[Term]
 id: GO:0016337
 name: single organismal cell-cell adhesion
 is_a: GO:0098602 ! single organism cell adhesion
 is_a: GO:0098609 ! cell-cell adhesion
+
+[Term]
+id: GO:0016406
+name: carnitine O-acyltransferase activity
+is_a: GO:0008374 ! O-acyltransferase activity
+
+[Term]
+id: GO:0016409
+name: palmitoyltransferase activity
+is_a: GO:0016747 ! transferase activity, transferring acyl groups other than amino-acyl groups
+
+[Term]
+id: GO:0016416
+name: O-palmitoyltransferase activity
+is_a: GO:0008374 ! O-acyltransferase activity
+is_a: GO:0016409 ! palmitoyltransferase activity
+
+[Term]
+id: GO:0016421
+name: CoA carboxylase activity
+is_a: GO:0016885 ! ligase activity, forming carbon-carbon bonds
 
 [Term]
 id: GO:0016444
@@ -2069,9 +2516,20 @@ is_a: GO:0002562 ! somatic diversification of immune receptors via germline reco
 is_a: GO:0016445 ! somatic diversification of immunoglobulins
 
 [Term]
+id: GO:0016469
+name: proton-transporting two-sector ATPase complex
+is_a: GO:0098796 ! membrane protein complex
+
+[Term]
 id: GO:0016477
 name: cell migration
 is_a: GO:0048870 ! cell motility
+
+[Term]
+id: GO:0016491
+name: oxidoreductase activity
+is_a: GO:0003824 ! catalytic activity
+relationship: BFO:0000050 GO:0055114 ! part of oxidation-reduction process
 
 [Term]
 id: GO:0016528
@@ -2085,10 +2543,142 @@ is_a: GO:0005783 ! endoplasmic reticulum
 relationship: BFO:0000050 GO:0016528 ! part of sarcoplasm
 
 [Term]
+id: GO:0016623
+name: oxidoreductase activity, acting on the aldehyde or oxo group of donors, oxygen as acceptor
+is_a: GO:0016903 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors
+
+[Term]
+id: GO:0016627
+name: oxidoreductase activity, acting on the CH-CH group of donors
+is_a: GO:0016491 ! oxidoreductase activity
+
+[Term]
+id: GO:0016628
+name: oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor
+is_a: GO:0016627 ! oxidoreductase activity, acting on the CH-CH group of donors
+
+[Term]
+id: GO:0016684
+name: oxidoreductase activity, acting on peroxide as acceptor
+is_a: GO:0016491 ! oxidoreductase activity
+
+[Term]
+id: GO:0016725
+name: oxidoreductase activity, acting on CH or CH2 groups
+is_a: GO:0016491 ! oxidoreductase activity
+
+[Term]
+id: GO:0016726
+name: oxidoreductase activity, acting on CH or CH2 groups, NAD or NADP as acceptor
+is_a: GO:0016725 ! oxidoreductase activity, acting on CH or CH2 groups
+
+[Term]
+id: GO:0016740
+name: transferase activity
+is_a: GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:0016746
+name: transferase activity, transferring acyl groups
+is_a: GO:0016740 ! transferase activity
+
+[Term]
+id: GO:0016747
+name: transferase activity, transferring acyl groups other than amino-acyl groups
+is_a: GO:0016746 ! transferase activity, transferring acyl groups
+
+[Term]
+id: GO:0016757
+name: transferase activity, transferring glycosyl groups
+is_a: GO:0016740 ! transferase activity
+
+[Term]
+id: GO:0016758
+name: transferase activity, transferring hexosyl groups
+is_a: GO:0016757 ! transferase activity, transferring glycosyl groups
+
+[Term]
+id: GO:0016787
+name: hydrolase activity
+is_a: GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:0016810
+name: hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds
+is_a: GO:0016787 ! hydrolase activity
+
+[Term]
+id: GO:0016812
+name: hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amides
+is_a: GO:0016810 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds
+
+[Term]
+id: GO:0016829
+name: lyase activity
+is_a: GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:0016835
+name: carbon-oxygen lyase activity
+is_a: GO:0016829 ! lyase activity
+
+[Term]
+id: GO:0016836
+name: hydro-lyase activity
+is_a: GO:0016835 ! carbon-oxygen lyase activity
+
+[Term]
+id: GO:0016853
+name: isomerase activity
+is_a: GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:0016860
+name: intramolecular oxidoreductase activity
+is_a: GO:0016853 ! isomerase activity
+
+[Term]
+id: GO:0016861
+name: intramolecular oxidoreductase activity, interconverting aldoses and ketoses
+is_a: GO:0016860 ! intramolecular oxidoreductase activity
+
+[Term]
+id: GO:0016874
+name: ligase activity
+is_a: GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:0016885
+name: ligase activity, forming carbon-carbon bonds
+is_a: GO:0016874 ! ligase activity
+
+[Term]
+id: GO:0016903
+name: oxidoreductase activity, acting on the aldehyde or oxo group of donors
+is_a: GO:0016491 ! oxidoreductase activity
+
+[Term]
+id: GO:0017113
+name: dihydropyrimidine dehydrogenase (NADP+) activity
+is_a: GO:0016628 ! oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor
+
+[Term]
+id: GO:0017168
+name: 5-oxoprolinase (ATP-hydrolyzing) activity
+is_a: GO:0016812 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amides
+
+[Term]
 id: GO:0019098
 name: reproductive behavior
 is_a: GO:0007610 ! behavior
 is_a: GO:0022414 ! reproductive process
+
+[Term]
+id: GO:0019172
+name: glyoxalase III activity
+is_a: GO:0016836 ! hydro-lyase activity
+relationship: BFO:0000050 GO:0019249 ! part of lactate biosynthetic process
+relationship: BFO:0000050 GO:0061727 ! part of methylglyoxal catabolic process to lactate
 
 [Term]
 id: GO:0019222
@@ -2096,9 +2686,22 @@ name: regulation of metabolic process
 is_a: GO:0050789 ! regulation of biological process
 
 [Term]
+id: GO:0019230
+name: proprioception
+is_a: GO:0007600 ! sensory perception
+relationship: BFO:0000050 GO:0050884 ! part of neuromuscular process controlling posture
+
+[Term]
 id: GO:0019233
 name: sensory perception of pain
 is_a: GO:0007600 ! sensory perception
+
+[Term]
+id: GO:0019249
+name: lactate biosynthetic process
+is_a: GO:0006089 ! lactate metabolic process
+is_a: GO:0072330 ! monocarboxylic acid biosynthetic process
+is_a: GO:1901617 ! organic hydroxy compound biosynthetic process
 
 [Term]
 id: GO:0019318
@@ -2130,9 +2733,21 @@ is_a: GO:0002449 ! lymphocyte mediated immunity
 is_a: GO:0002460 ! adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains
 
 [Term]
+id: GO:0019752
+name: carboxylic acid metabolic process
+is_a: GO:0043436 ! oxoacid metabolic process
+
+[Term]
 id: GO:0019814
 name: immunoglobulin complex
 is_a: GO:0043234 ! protein complex
+
+[Term]
+id: GO:0019866
+name: organelle inner membrane
+is_a: GO:0031090 ! organelle membrane
+is_a: GO:0044424 ! intracellular part
+relationship: BFO:0000050 GO:0031967 ! part of organelle envelope
 
 [Term]
 id: GO:0019882
@@ -2217,6 +2832,12 @@ is_a: GO:0048856 ! anatomical structure development
 relationship: BFO:0000050 GO:0021988 ! part of olfactory lobe development
 
 [Term]
+id: GO:0021782
+name: glial cell development
+is_a: GO:0048468 ! cell development
+relationship: BFO:0000050 GO:0010001 ! part of glial cell differentiation
+
+[Term]
 id: GO:0021903
 name: rostrocaudal neural tube patterning
 is_a: GO:0009952 ! anterior/posterior pattern specification
@@ -2252,6 +2873,20 @@ is_a: GO:0030154 ! cell differentiation
 relationship: BFO:0000050 GO:0007399 ! part of nervous system development
 
 [Term]
+id: GO:0022010
+name: central nervous system myelination
+is_a: GO:0032291 ! axon ensheathment in central nervous system
+is_a: GO:0042552 ! myelination
+relationship: BFO:0000050 GO:0014003 ! part of oligodendrocyte development
+
+[Term]
+id: GO:0022011
+name: myelination in peripheral nervous system
+is_a: GO:0032292 ! peripheral nervous system axon ensheathment
+is_a: GO:0042552 ! myelination
+relationship: BFO:0000050 GO:0014044 ! part of Schwann cell development
+
+[Term]
 id: GO:0022037
 name: metencephalon development
 is_a: GO:0044767 ! single-organism developmental process
@@ -2265,6 +2900,11 @@ is_a: GO:0044763 ! single-organism cellular process
 intersection_of: GO:0009987 ! cellular process
 intersection_of: BFO:0000050 GO:0007049 ! part of cell cycle
 relationship: BFO:0000050 GO:0007049 ! part of cell cycle
+
+[Term]
+id: GO:0022403
+name: cell cycle phase
+is_a: GO:0044848 ! biological phase
 
 [Term]
 id: GO:0022404
@@ -2305,6 +2945,11 @@ intersection_of: BFO:0000050 GO:0007586 ! part of digestion
 relationship: BFO:0000050 GO:0007586 ! part of digestion
 
 [Term]
+id: GO:0022601
+name: menstrual cycle phase
+is_a: GO:0044848 ! biological phase
+
+[Term]
 id: GO:0022602
 name: ovulation cycle process
 is_a: GO:0044702 ! single organism reproductive process
@@ -2312,6 +2957,12 @@ is_a: GO:0048511 ! rhythmic process
 intersection_of: GO:0044699 ! single-organism process
 intersection_of: BFO:0000050 GO:0042698 ! part of ovulation cycle
 relationship: BFO:0000050 GO:0042698 ! part of ovulation cycle
+
+[Term]
+id: GO:0022607
+name: cellular component assembly
+is_a: GO:0016043 ! cellular component organization
+relationship: BFO:0000050 GO:0044085 ! part of cellular component biogenesis
 
 [Term]
 id: GO:0022610
@@ -2355,10 +3006,27 @@ is_a: GO:0044449 ! contractile fiber part
 relationship: BFO:0000050 GO:0031674 ! part of I band
 
 [Term]
+id: GO:0030029
+name: actin filament-based process
+is_a: GO:0044763 ! single-organism cellular process
+
+[Term]
 id: GO:0030030
 name: cell projection organization
 is_a: GO:0016043 ! cellular component organization
 is_a: GO:0044763 ! single-organism cellular process
+
+[Term]
+id: GO:0030048
+name: actin filament-based movement
+is_a: GO:0006928 ! movement of cell or subcellular component
+is_a: GO:0030029 ! actin filament-based process
+
+[Term]
+id: GO:0030049
+name: muscle filament sliding
+is_a: GO:0033275 ! actin-myosin filament sliding
+relationship: BFO:0000050 GO:0006936 ! part of muscle contraction
 
 [Term]
 id: GO:0030054
@@ -2457,6 +3125,17 @@ name: growth hormone secretion
 is_a: GO:0030072 ! peptide hormone secretion
 
 [Term]
+id: GO:0030258
+name: lipid modification
+is_a: GO:0044255 ! cellular lipid metabolic process
+
+[Term]
+id: GO:0030261
+name: chromosome condensation
+is_a: GO:0006323 ! DNA packaging
+is_a: GO:1902589 ! single-organism organelle organization
+
+[Term]
 id: GO:0030282
 name: bone mineralization
 is_a: GO:0031214 ! biomineral tissue development
@@ -2486,6 +3165,11 @@ is_a: GO:0044767 ! single-organism developmental process
 is_a: GO:0048513 ! organ development
 relationship: BFO:0000050 GO:0030323 ! part of respiratory tube development
 relationship: BFO:0000050 GO:0060541 ! part of respiratory system development
+
+[Term]
+id: GO:0030421
+name: defecation
+is_a: GO:0007588 ! excretion
 
 [Term]
 id: GO:0030424
@@ -2658,6 +3342,16 @@ name: motile cilium
 is_a: GO:0005929 ! cilium
 
 [Term]
+id: GO:0031594
+name: neuromuscular junction
+is_a: GO:0045202 ! synapse
+
+[Term]
+id: GO:0031649
+name: heat generation
+is_a: GO:0001659 ! temperature homeostasis
+
+[Term]
 id: GO:0031672
 name: A band
 is_a: GO:0044449 ! contractile fiber part
@@ -2694,6 +3388,16 @@ name: envelope
 is_a: GO:0044464 ! cell part
 
 [Term]
+id: GO:0031976
+name: plastid thylakoid
+is_a: GO:0009579 ! thylakoid
+is_a: GO:0031984 ! organelle subcompartment
+is_a: GO:0044435 ! plastid part
+intersection_of: GO:0009579 ! thylakoid
+intersection_of: BFO:0000050 GO:0009536 ! part of plastid
+relationship: BFO:0000050 GO:0009536 ! part of plastid
+
+[Term]
 id: GO:0031981
 name: nuclear lumen
 is_a: GO:0044428 ! nuclear part
@@ -2703,6 +3407,12 @@ is_a: GO:0070013 ! intracellular organelle lumen
 id: GO:0031982
 name: vesicle
 is_a: GO:0043226 ! organelle
+
+[Term]
+id: GO:0031984
+name: organelle subcompartment
+is_a: GO:0044446 ! intracellular organelle part
+relationship: BFO:0000050 GO:0043227 ! part of membrane-bounded organelle
 
 [Term]
 id: GO:0031988
@@ -2769,6 +3479,40 @@ is_a: GO:0060986 ! endocrine hormone secretion
 id: GO:0032275
 name: luteinizing hormone secretion
 is_a: GO:0032274 ! gonadotropin secretion
+
+[Term]
+id: GO:0032286
+name: central nervous system myelin maintenance
+is_a: GO:0043217 ! myelin maintenance
+relationship: BFO:0000050 GO:0022010 ! part of central nervous system myelination
+
+[Term]
+id: GO:0032287
+name: peripheral nervous system myelin maintenance
+is_a: GO:0043217 ! myelin maintenance
+relationship: BFO:0000050 GO:0022011 ! part of myelination in peripheral nervous system
+
+[Term]
+id: GO:0032288
+name: myelin assembly
+is_a: GO:0010927 ! cellular component assembly involved in morphogenesis
+relationship: BFO:0000050 GO:0042552 ! part of myelination
+
+[Term]
+id: GO:0032290
+name: peripheral nervous system myelin formation
+is_a: GO:0032288 ! myelin assembly
+relationship: BFO:0000050 GO:0022011 ! part of myelination in peripheral nervous system
+
+[Term]
+id: GO:0032291
+name: axon ensheathment in central nervous system
+is_a: GO:0008366 ! axon ensheathment
+
+[Term]
+id: GO:0032292
+name: peripheral nervous system axon ensheathment
+is_a: GO:0008366 ! axon ensheathment
 
 [Term]
 id: GO:0032432
@@ -2916,6 +3660,11 @@ name: interleukin-9 production
 is_a: GO:0001816 ! cytokine production
 
 [Term]
+id: GO:0032787
+name: monocarboxylic acid metabolic process
+is_a: GO:0019752 ! carboxylic acid metabolic process
+
+[Term]
 id: GO:0032813
 name: tumor necrosis factor receptor superfamily binding
 is_a: GO:0005126 ! cytokine receptor binding
@@ -2999,6 +3748,11 @@ intersection_of: BFO:0000050 GO:0030424 ! part of axon
 relationship: BFO:0000050 GO:0030424 ! part of axon
 
 [Term]
+id: GO:0033275
+name: actin-myosin filament sliding
+is_a: GO:0070252 ! actin-mediated cell contraction
+
+[Term]
 id: GO:0033561
 name: regulation of water loss via skin
 is_a: GO:0050891 ! multicellular organismal water homeostasis
@@ -3023,6 +3777,29 @@ is_a: GO:0051171 ! regulation of nitrogen compound metabolic process
 id: GO:0034308
 name: primary alcohol metabolic process
 is_a: GO:0006066 ! alcohol metabolic process
+
+[Term]
+id: GO:0034357
+name: photosynthetic membrane
+is_a: GO:0016020 ! membrane
+is_a: GO:0044436 ! thylakoid part
+relationship: BFO:0000050 GO:0009579 ! part of thylakoid
+
+[Term]
+id: GO:0034433
+name: steroid esterification
+is_a: GO:0008202 ! steroid metabolic process
+is_a: GO:0030258 ! lipid modification
+
+[Term]
+id: GO:0034434
+name: sterol esterification
+is_a: GO:0034433 ! steroid esterification
+
+[Term]
+id: GO:0034435
+name: cholesterol esterification
+is_a: GO:0034434 ! sterol esterification
 
 [Term]
 id: GO:0034505
@@ -3117,6 +3894,14 @@ id: GO:0035546
 name: interferon-beta secretion
 is_a: GO:0072641 ! type I interferon secretion
 relationship: BFO:0000050 GO:0032608 ! part of interferon-beta production
+
+[Term]
+id: GO:0035630
+name: bone mineralization involved in bone maturation
+is_a: GO:0030282 ! bone mineralization
+intersection_of: GO:0030282 ! bone mineralization
+intersection_of: BFO:0000050 GO:0043931 ! part of ossification involved in bone maturation
+relationship: BFO:0000050 GO:0043931 ! part of ossification involved in bone maturation
 
 [Term]
 id: GO:0035640
@@ -3217,6 +4002,11 @@ name: wound healing
 is_a: GO:0009611 ! response to wounding
 
 [Term]
+id: GO:0042063
+name: gliogenesis
+is_a: GO:0022008 ! neurogenesis
+
+[Term]
 id: GO:0042074
 name: cell migration involved in gastrulation
 is_a: GO:0001667 ! ameboidal-type cell migration
@@ -3264,6 +4054,22 @@ is_a: GO:0044464 ! cell part
 relationship: BFO:0000050 GO:0012505 ! part of endomembrane system
 
 [Term]
+id: GO:0042180
+name: cellular ketone metabolic process
+is_a: GO:0044237 ! cellular metabolic process
+is_a: GO:0044281 ! small molecule metabolic process
+is_a: GO:0044763 ! single-organism cellular process
+is_a: GO:0071704 ! organic substance metabolic process
+
+[Term]
+id: GO:0042182
+name: ketone catabolic process
+is_a: GO:0042180 ! cellular ketone metabolic process
+is_a: GO:0044248 ! cellular catabolic process
+is_a: GO:0044282 ! small molecule catabolic process
+is_a: GO:1901575 ! organic substance catabolic process
+
+[Term]
 id: GO:0042221
 name: response to chemical
 is_a: GO:0050896 ! response to stimulus
@@ -3309,6 +4115,16 @@ is_a: GO:0008152 ! metabolic process
 is_a: GO:0010817 ! regulation of hormone levels
 
 [Term]
+id: GO:0042465
+name: kinesis
+is_a: GO:0009605 ! response to external stimulus
+
+[Term]
+id: GO:0042475
+name: odontogenesis of dentin-containing tooth
+is_a: GO:0042476 ! odontogenesis
+
+[Term]
 id: GO:0042476
 name: odontogenesis
 is_a: GO:0009887 ! organ morphogenesis
@@ -3350,6 +4166,12 @@ is_a: GO:0055092 ! sterol homeostasis
 id: GO:0042633
 name: hair cycle
 is_a: GO:0042303 ! molting cycle
+
+[Term]
+id: GO:0042640
+name: anagen
+is_a: GO:0044851 ! hair cycle phase
+relationship: BFO:0000050 GO:0048820 ! part of hair follicle maturation
 
 [Term]
 id: GO:0042644
@@ -3394,11 +4216,32 @@ relationship: BFO:0000050 GO:0009507 ! part of chloroplast
 relationship: BFO:0000050 GO:0042644 ! part of chloroplast nucleoid
 
 [Term]
+id: GO:0042651
+name: thylakoid membrane
+is_a: GO:0034357 ! photosynthetic membrane
+
+[Term]
+id: GO:0042695
+name: thelarche
+is_a: GO:0046543 ! development of secondary female sexual characteristics
+relationship: BFO:0000050 GO:0030879 ! part of mammary gland development
+
+[Term]
+id: GO:0042696
+name: menarche
+is_a: GO:0022601 ! menstrual cycle phase
+
+[Term]
 id: GO:0042698
 name: ovulation cycle
 is_a: GO:0044702 ! single organism reproductive process
 is_a: GO:0048511 ! rhythmic process
 is_a: GO:0048609 ! multicellular organismal reproductive process
+
+[Term]
+id: GO:0042703
+name: menstruation
+is_a: GO:0022601 ! menstrual cycle phase
 
 [Term]
 id: GO:0042755
@@ -3446,6 +4289,13 @@ is_a: GO:0043604 ! amide biosynthetic process
 is_a: GO:1901566 ! organonitrogen compound biosynthetic process
 
 [Term]
+id: GO:0043084
+name: penile erection
+is_a: GO:0044702 ! single organism reproductive process
+is_a: GO:0048609 ! multicellular organismal reproductive process
+relationship: BFO:0000050 GO:0007620 ! part of copulation
+
+[Term]
 id: GO:0043143
 name: regulation of translation by machinery localization
 is_a: GO:0006417 ! regulation of translation
@@ -3464,6 +4314,12 @@ id: GO:0043202
 name: lysosomal lumen
 is_a: GO:0005775 ! vacuolar lumen
 relationship: BFO:0000050 GO:0005764 ! part of lysosome
+
+[Term]
+id: GO:0043217
+name: myelin maintenance
+is_a: GO:0007009 ! plasma membrane organization
+relationship: BFO:0000050 GO:0042552 ! part of myelination
 
 [Term]
 id: GO:0043226
@@ -3550,6 +4406,11 @@ name: negative T cell selection
 is_a: GO:0045058 ! T cell selection
 
 [Term]
+id: GO:0043436
+name: oxoacid metabolic process
+is_a: GO:0006082 ! organic acid metabolic process
+
+[Term]
 id: GO:0043473
 name: pigmentation
 is_a: GO:0044699 ! single-organism process
@@ -3582,6 +4443,14 @@ is_a: GO:0033267 ! axon part
 is_a: GO:0044306 ! neuron projection terminus
 
 [Term]
+id: GO:0043931
+name: ossification involved in bone maturation
+is_a: GO:0001503 ! ossification
+intersection_of: GO:0001503 ! ossification
+intersection_of: BFO:0000050 GO:0070977 ! part of bone maturation
+relationship: BFO:0000050 GO:0070977 ! part of bone maturation
+
+[Term]
 id: GO:0043932
 name: ossification involved in bone remodeling
 is_a: GO:0001503 ! ossification
@@ -3593,6 +4462,11 @@ relationship: BFO:0000050 GO:0046849 ! part of bone remodeling
 id: GO:0044042
 name: glucan metabolic process
 is_a: GO:0005976 ! polysaccharide metabolic process
+
+[Term]
+id: GO:0044085
+name: cellular component biogenesis
+is_a: GO:0071840 ! cellular component organization or biogenesis
 
 [Term]
 id: GO:0044237
@@ -3673,6 +4547,12 @@ is_a: GO:0044262 ! cellular carbohydrate metabolic process
 id: GO:0044281
 name: small molecule metabolic process
 is_a: GO:0044710 ! single-organism metabolic process
+
+[Term]
+id: GO:0044282
+name: small molecule catabolic process
+is_a: GO:0044281 ! small molecule metabolic process
+is_a: GO:0044712 ! single-organism catabolic process
 
 [Term]
 id: GO:0044283
@@ -3813,6 +4693,14 @@ is_a: GO:0044446 ! intracellular organelle part
 intersection_of: GO:0005575 ! cellular_component
 intersection_of: BFO:0000050 GO:0009536 ! part of plastid
 relationship: BFO:0000050 GO:0009536 ! part of plastid
+
+[Term]
+id: GO:0044436
+name: thylakoid part
+is_a: GO:0044424 ! intracellular part
+intersection_of: GO:0005575 ! cellular_component
+intersection_of: BFO:0000050 GO:0009579 ! part of thylakoid
+relationship: BFO:0000050 GO:0009579 ! part of thylakoid
 
 [Term]
 id: GO:0044437
@@ -4055,6 +4943,12 @@ is_a: GO:0032502 ! developmental process
 is_a: GO:0044699 ! single-organism process
 
 [Term]
+id: GO:0044802
+name: single-organism membrane organization
+is_a: GO:0044763 ! single-organism cellular process
+is_a: GO:0061024 ! membrane organization
+
+[Term]
 id: GO:0044815
 name: DNA packaging complex
 is_a: GO:0043234 ! protein complex
@@ -4069,6 +4963,11 @@ disjoint_from: GO:0050896 ! response to stimulus
 disjoint_from: GO:0051179 ! localization
 disjoint_from: GO:0051704 ! multi-organism process
 disjoint_from: GO:0071840 ! cellular component organization or biogenesis
+
+[Term]
+id: GO:0044851
+name: hair cycle phase
+is_a: GO:0044848 ! biological phase
 
 [Term]
 id: GO:0045058
@@ -4098,6 +4997,20 @@ is_a: GO:0006955 ! immune response
 id: GO:0045123
 name: cellular extravasation
 is_a: GO:0050900 ! leukocyte migration
+
+[Term]
+id: GO:0045132
+name: meiotic chromosome segregation
+is_a: GO:0098813 ! nuclear chromosome segregation
+is_a: GO:1903046 ! meiotic cell cycle process
+intersection_of: GO:0098813 ! nuclear chromosome segregation
+intersection_of: BFO:0000050 GO:0007126 ! part of meiotic nuclear division
+relationship: BFO:0000050 GO:0007126 ! part of meiotic nuclear division
+
+[Term]
+id: GO:0045136
+name: development of secondary sexual characteristics
+is_a: GO:0003006 ! developmental process involved in reproduction
 
 [Term]
 id: GO:0045137
@@ -4131,10 +5044,49 @@ is_a: GO:0097060 ! synaptic membrane
 relationship: BFO:0000050 GO:0098794 ! part of postsynapse
 
 [Term]
+id: GO:0045259
+name: proton-transporting ATP synthase complex
+is_a: GO:0016469 ! proton-transporting two-sector ATPase complex
+is_a: GO:0044424 ! intracellular part
+
+[Term]
+id: GO:0045260
+name: plasma membrane proton-transporting ATP synthase complex
+is_a: GO:0045259 ! proton-transporting ATP synthase complex
+is_a: GO:0098797 ! plasma membrane protein complex
+intersection_of: GO:0045259 ! proton-transporting ATP synthase complex
+intersection_of: BFO:0000050 GO:0005886 ! part of plasma membrane
+relationship: BFO:0000050 GO:0005886 ! part of plasma membrane
+
+[Term]
+id: GO:0045320
+name: chloroplast proton-transporting ATP synthase complex
+is_a: GO:0045259 ! proton-transporting ATP synthase complex
+is_a: GO:0098807 ! chloroplast thylakoid membrane protein complex
+intersection_of: GO:0045259 ! proton-transporting ATP synthase complex
+intersection_of: BFO:0000050 GO:0009507 ! part of chloroplast
+relationship: BFO:0000050 GO:0009507 ! part of chloroplast
+relationship: BFO:0000050 GO:0009535 ! part of chloroplast thylakoid membrane
+
+[Term]
 id: GO:0045321
 name: leukocyte activation
 is_a: GO:0001775 ! cell activation
 is_a: GO:0002376 ! immune system process
+
+[Term]
+id: GO:0045453
+name: bone resorption
+is_a: GO:0001894 ! tissue homeostasis
+relationship: BFO:0000050 GO:0046849 ! part of bone remodeling
+
+[Term]
+id: GO:0046185
+name: aldehyde catabolic process
+is_a: GO:0006081 ! cellular aldehyde metabolic process
+is_a: GO:0044248 ! cellular catabolic process
+is_a: GO:0044712 ! single-organism catabolic process
+is_a: GO:1901575 ! organic substance catabolic process
 
 [Term]
 id: GO:0046364
@@ -4142,6 +5094,12 @@ name: monosaccharide biosynthetic process
 is_a: GO:0005996 ! monosaccharide metabolic process
 is_a: GO:0016051 ! carbohydrate biosynthetic process
 is_a: GO:0044283 ! small molecule biosynthetic process
+
+[Term]
+id: GO:0046394
+name: carboxylic acid biosynthetic process
+is_a: GO:0016053 ! organic acid biosynthetic process
+is_a: GO:0019752 ! carboxylic acid metabolic process
 
 [Term]
 id: GO:0046483
@@ -4162,6 +5120,17 @@ name: saliva secretion
 is_a: GO:0007589 ! body fluid secretion
 is_a: GO:0022600 ! digestive system process
 is_a: GO:0032941 ! secretion by tissue
+
+[Term]
+id: GO:0046543
+name: development of secondary female sexual characteristics
+is_a: GO:0045136 ! development of secondary sexual characteristics
+
+[Term]
+id: GO:0046544
+name: development of secondary male sexual characteristics
+is_a: GO:0045136 ! development of secondary sexual characteristics
+relationship: BFO:0000050 GO:0046661 ! part of male sex differentiation
 
 [Term]
 id: GO:0046545
@@ -4229,6 +5198,22 @@ is_a: GO:0032274 ! gonadotropin secretion
 id: GO:0046903
 name: secretion
 is_a: GO:0044765 ! single-organism transport
+
+[Term]
+id: GO:0046950
+name: cellular ketone body metabolic process
+is_a: GO:0044237 ! cellular metabolic process
+is_a: GO:0044281 ! small molecule metabolic process
+is_a: GO:0044763 ! single-organism cellular process
+
+[Term]
+id: GO:0046951
+name: ketone body biosynthetic process
+is_a: GO:0044249 ! cellular biosynthetic process
+is_a: GO:0044283 ! small molecule biosynthetic process
+is_a: GO:0046950 ! cellular ketone body metabolic process
+is_a: GO:1901576 ! organic substance biosynthetic process
+is_a: GO:1902224 ! ketone body metabolic process
 
 [Term]
 id: GO:0048066
@@ -4308,6 +5293,13 @@ id: GO:0048513
 name: organ development
 is_a: GO:0048856 ! anatomical structure development
 relationship: BFO:0000050 GO:0048731 ! part of system development
+
+[Term]
+id: GO:0048514
+name: blood vessel morphogenesis
+is_a: GO:0009653 ! anatomical structure morphogenesis
+is_a: GO:0044767 ! single-organism developmental process
+relationship: BFO:0000050 GO:0001568 ! part of blood vessel development
 
 [Term]
 id: GO:0048515
@@ -4418,6 +5410,12 @@ name: generation of neurons
 is_a: GO:0022008 ! neurogenesis
 
 [Term]
+id: GO:0048709
+name: oligodendrocyte differentiation
+is_a: GO:0010001 ! glial cell differentiation
+relationship: BFO:0000050 GO:0007417 ! part of central nervous system development
+
+[Term]
 id: GO:0048729
 name: tissue morphogenesis
 is_a: GO:0009653 ! anatomical structure morphogenesis
@@ -4455,6 +5453,12 @@ name: tissue remodeling
 is_a: GO:0044707 ! single-multicellular organism process
 
 [Term]
+id: GO:0048799
+name: organ maturation
+is_a: GO:0071695 ! anatomical structure maturation
+relationship: BFO:0000050 GO:0048513 ! part of organ development
+
+[Term]
 id: GO:0048806
 name: genitalia development
 is_a: GO:0044702 ! single organism reproductive process
@@ -4471,11 +5475,24 @@ is_a: GO:0048858 ! cell projection morphogenesis
 relationship: BFO:0000050 GO:0031175 ! part of neuron projection development
 
 [Term]
+id: GO:0048820
+name: hair follicle maturation
+is_a: GO:0022405 ! hair cycle process
+is_a: GO:0071695 ! anatomical structure maturation
+relationship: BFO:0000050 GO:0001942 ! part of hair follicle development
+
+[Term]
 id: GO:0048839
 name: inner ear development
 is_a: GO:0044767 ! single-organism developmental process
 is_a: GO:0048856 ! anatomical structure development
 relationship: BFO:0000050 GO:0043583 ! part of ear development
+
+[Term]
+id: GO:0048845
+name: venous blood vessel morphogenesis
+is_a: GO:0048514 ! blood vessel morphogenesis
+relationship: BFO:0000050 GO:0060841 ! part of venous blood vessel development
 
 [Term]
 id: GO:0048856
@@ -4611,6 +5628,11 @@ relationship: BFO:0000050 GO:0008015 ! part of blood circulation
 id: GO:0050881
 name: musculoskeletal movement
 is_a: GO:0050879 ! multicellular organismal movement
+
+[Term]
+id: GO:0050884
+name: neuromuscular process controlling posture
+is_a: GO:0050905 ! neuromuscular process
 
 [Term]
 id: GO:0050885
@@ -4851,6 +5873,17 @@ is_a: GO:0060255 ! regulation of macromolecule metabolic process
 is_a: GO:0080090 ! regulation of primary metabolic process
 
 [Term]
+id: GO:0051276
+name: chromosome organization
+is_a: GO:0006996 ! organelle organization
+
+[Term]
+id: GO:0051319
+name: G2 phase
+is_a: GO:0022403 ! cell cycle phase
+relationship: BFO:0000050 GO:0051325 ! part of interphase
+
+[Term]
 id: GO:0051321
 name: meiotic cell cycle
 is_a: GO:0007049 ! cell cycle
@@ -4861,12 +5894,32 @@ relationship: BFO:0000050 GO:0000003 ! part of reproduction
 relationship: BFO:0000051 GO:0007126 ! has_part meiotic nuclear division
 
 [Term]
+id: GO:0051325
+name: interphase
+is_a: GO:0022403 ! cell cycle phase
+
+[Term]
+id: GO:0051355
+name: proprioception involved in equilibrioception
+is_a: GO:0019230 ! proprioception
+intersection_of: GO:0019230 ! proprioception
+intersection_of: BFO:0000050 GO:0050957 ! part of equilibrioception
+relationship: BFO:0000050 GO:0050957 ! part of equilibrioception
+
+[Term]
 id: GO:0051356
 name: visual perception involved in equilibrioception
 is_a: GO:0007601 ! visual perception
 intersection_of: GO:0007601 ! visual perception
 intersection_of: BFO:0000050 GO:0050957 ! part of equilibrioception
 relationship: BFO:0000050 GO:0050957 ! part of equilibrioception
+
+[Term]
+id: GO:0051596
+name: methylglyoxal catabolic process
+is_a: GO:0009438 ! methylglyoxal metabolic process
+is_a: GO:0042182 ! ketone catabolic process
+is_a: GO:0046185 ! aldehyde catabolic process
 
 [Term]
 id: GO:0051606
@@ -4907,6 +5960,13 @@ is_a: GO:0015844 ! monoamine transport
 is_a: GO:0015850 ! organic hydroxy compound transport
 
 [Term]
+id: GO:0055035
+name: plastid thylakoid membrane
+is_a: GO:0042651 ! thylakoid membrane
+is_a: GO:0044435 ! plastid part
+relationship: BFO:0000050 GO:0031976 ! part of plastid thylakoid
+
+[Term]
 id: GO:0055067
 name: monovalent inorganic cation homeostasis
 is_a: GO:0055080 ! cation homeostasis
@@ -4938,6 +5998,12 @@ is_a: GO:0055088 ! lipid homeostasis
 id: GO:0055114
 name: oxidation-reduction process
 is_a: GO:0044710 ! single-organism metabolic process
+
+[Term]
+id: GO:0055127
+name: vibrational conductance of sound to the inner ear
+is_a: GO:0044707 ! single-multicellular organism process
+relationship: BFO:0000050 GO:0007605 ! part of sensory perception of sound
 
 [Term]
 id: GO:0060004
@@ -4983,6 +6049,20 @@ is_a: GO:0048608 ! reproductive structure development
 id: GO:0060068
 name: vagina development
 is_a: GO:0030540 ! female genitalia development
+
+[Term]
+id: GO:0060073
+name: micturition
+is_a: GO:0003014 ! renal system process
+is_a: GO:0007588 ! excretion
+
+[Term]
+id: GO:0060084
+name: synaptic transmission involved in micturition
+is_a: GO:0007274 ! neuromuscular synaptic transmission
+intersection_of: GO:0007268 ! synaptic transmission
+intersection_of: BFO:0000050 GO:0060073 ! part of micturition
+relationship: BFO:0000050 GO:0060073 ! part of micturition
 
 [Term]
 id: GO:0060113
@@ -5042,6 +6122,11 @@ name: estrus
 is_a: GO:0060206 ! estrous cycle phase
 
 [Term]
+id: GO:0060249
+name: anatomical structure homeostasis
+is_a: GO:0042592 ! homeostatic process
+
+[Term]
 id: GO:0060255
 name: regulation of macromolecule metabolic process
 is_a: GO:0019222 ! regulation of metabolic process
@@ -5066,6 +6151,14 @@ id: GO:0060322
 name: head development
 is_a: GO:0044767 ! single-organism developmental process
 is_a: GO:0048856 ! anatomical structure development
+
+[Term]
+id: GO:0060327
+name: cytoplasmic actin-based contraction involved in cell motility
+is_a: GO:0070252 ! actin-mediated cell contraction
+intersection_of: GO:0070252 ! actin-mediated cell contraction
+intersection_of: BFO:0000050 GO:0048870 ! part of cell motility
+relationship: BFO:0000050 GO:0048870 ! part of cell motility
 
 [Term]
 id: GO:0060348
@@ -5124,6 +6217,15 @@ id: GO:0060560
 name: developmental growth involved in morphogenesis
 is_a: GO:0048589 ! developmental growth
 intersection_of: GO:0048589 ! developmental growth
+intersection_of: BFO:0000050 GO:0009653 ! part of anatomical structure morphogenesis
+relationship: BFO:0000050 GO:0009653 ! part of anatomical structure morphogenesis
+
+[Term]
+id: GO:0060561
+name: apoptotic process involved in morphogenesis
+is_a: GO:0010623 ! developmental programmed cell death
+is_a: GO:1902742 ! apoptotic process involved in development
+intersection_of: GO:0006915 ! apoptotic process
 intersection_of: BFO:0000050 GO:0009653 ! part of anatomical structure morphogenesis
 relationship: BFO:0000050 GO:0009653 ! part of anatomical structure morphogenesis
 
@@ -5202,6 +6304,11 @@ intersection_of: BFO:0000050 GO:0030879 ! part of mammary gland development
 relationship: BFO:0000050 GO:0030879 ! part of mammary gland development
 
 [Term]
+id: GO:0060841
+name: venous blood vessel development
+is_a: GO:0001568 ! blood vessel development
+
+[Term]
 id: GO:0060915
 name: mesenchymal cell differentiation involved in lung development
 is_a: GO:0048762 ! mesenchymal cell differentiation
@@ -5261,6 +6368,11 @@ is_a: GO:0044767 ! single-organism developmental process
 relationship: BFO:0000050 GO:0061008 ! part of hepaticobiliary system development
 
 [Term]
+id: GO:0061024
+name: membrane organization
+is_a: GO:0016043 ! cellular component organization
+
+[Term]
 id: GO:0061053
 name: somite development
 is_a: GO:0060429 ! epithelium development
@@ -5272,6 +6384,11 @@ name: myotome development
 is_a: GO:0044767 ! single-organism developmental process
 is_a: GO:0048856 ! anatomical structure development
 relationship: BFO:0000050 GO:0061053 ! part of somite development
+
+[Term]
+id: GO:0061116
+name: ductus venosus closure
+is_a: GO:0048845 ! venous blood vessel morphogenesis
 
 [Term]
 id: GO:0061307
@@ -5335,6 +6452,12 @@ name: axon development
 is_a: GO:0031175 ! neuron projection development
 
 [Term]
+id: GO:0061727
+name: methylglyoxal catabolic process to lactate
+is_a: GO:0006089 ! lactate metabolic process
+is_a: GO:0051596 ! methylglyoxal catabolic process
+
+[Term]
 id: GO:0065007
 name: biological regulation
 is_a: GO:0008150 ! biological_process
@@ -5356,6 +6479,32 @@ name: glucagon secretion
 is_a: GO:0030072 ! peptide hormone secretion
 
 [Term]
+id: GO:0070166
+name: enamel mineralization
+is_a: GO:0034505 ! tooth mineralization
+relationship: BFO:0000050 GO:0097186 ! part of amelogenesis
+
+[Term]
+id: GO:0070192
+name: chromosome organization involved in meiotic cell cycle
+is_a: GO:0051276 ! chromosome organization
+is_a: GO:1902589 ! single-organism organelle organization
+is_a: GO:1903046 ! meiotic cell cycle process
+intersection_of: GO:0051276 ! chromosome organization
+intersection_of: BFO:0000050 GO:0051321 ! part of meiotic cell cycle
+relationship: BFO:0000050 GO:0051321 ! part of meiotic cell cycle
+
+[Term]
+id: GO:0070227
+name: lymphocyte apoptotic process
+is_a: GO:0071887 ! leukocyte apoptotic process
+
+[Term]
+id: GO:0070252
+name: actin-mediated cell contraction
+is_a: GO:0030048 ! actin filament-based movement
+
+[Term]
 id: GO:0070276
 name: halogen metabolic process
 is_a: GO:0044281 ! small molecule metabolic process
@@ -5371,6 +6520,11 @@ id: GO:0070459
 name: prolactin secretion
 is_a: GO:0009306 ! protein secretion
 is_a: GO:0030072 ! peptide hormone secretion
+
+[Term]
+id: GO:0070469
+name: respiratory chain
+is_a: GO:0044425 ! membrane part
 
 [Term]
 id: GO:0070486
@@ -5408,6 +6562,17 @@ is_a: GO:0050663 ! cytokine secretion
 relationship: BFO:0000050 GO:0032623 ! part of interleukin-2 production
 
 [Term]
+id: GO:0070977
+name: bone maturation
+is_a: GO:0048799 ! organ maturation
+relationship: BFO:0000050 GO:0060348 ! part of bone development
+
+[Term]
+id: GO:0071103
+name: DNA conformation change
+is_a: GO:0051276 ! chromosome organization
+
+[Term]
 id: GO:0071593
 name: lymphocyte aggregation
 is_a: GO:0070486 ! leukocyte aggregation
@@ -5416,6 +6581,12 @@ is_a: GO:0070486 ! leukocyte aggregation
 id: GO:0071625
 name: vocalization behavior
 is_a: GO:0044708 ! single-organism behavior
+
+[Term]
+id: GO:0071695
+name: anatomical structure maturation
+is_a: GO:0021700 ! developmental maturation
+relationship: BFO:0000050 GO:0048856 ! part of anatomical structure development
 
 [Term]
 id: GO:0071702
@@ -5441,6 +6612,11 @@ is_a: GO:0033152 ! immunoglobulin V(D)J recombination
 id: GO:0071840
 name: cellular component organization or biogenesis
 is_a: GO:0008150 ! biological_process
+
+[Term]
+id: GO:0071887
+name: leukocyte apoptotic process
+is_a: GO:0097285 ! cell-type specific apoptotic process
 
 [Term]
 id: GO:0071944
@@ -5499,6 +6675,12 @@ is_a: GO:0035295 ! tube development
 is_a: GO:0044767 ! single-organism developmental process
 is_a: GO:0048513 ! organ development
 relationship: BFO:0000050 GO:0072001 ! part of renal system development
+
+[Term]
+id: GO:0072330
+name: monocarboxylic acid biosynthetic process
+is_a: GO:0032787 ! monocarboxylic acid metabolic process
+is_a: GO:0046394 ! carboxylic acid biosynthetic process
 
 [Term]
 id: GO:0072358
@@ -5671,10 +6853,27 @@ is_a: GO:0006139 ! nucleobase-containing compound metabolic process
 is_a: GO:0043170 ! macromolecule metabolic process
 
 [Term]
+id: GO:0090594
+name: inflammatory response to wounding
+is_a: GO:0006954 ! inflammatory response
+is_a: GO:0009611 ! response to wounding
+
+[Term]
 id: GO:0097060
 name: synaptic membrane
 is_a: GO:0044456 ! synapse part
 is_a: GO:0098590 ! plasma membrane region
+
+[Term]
+id: GO:0097159
+name: organic cyclic compound binding
+is_a: GO:0005488 ! binding
+
+[Term]
+id: GO:0097186
+name: amelogenesis
+is_a: GO:0042475 ! odontogenesis of dentin-containing tooth
+is_a: GO:0048646 ! anatomical structure formation involved in morphogenesis
 
 [Term]
 id: GO:0097205
@@ -5685,6 +6884,11 @@ is_a: GO:0003014 ! renal system process
 id: GO:0097223
 name: sperm part
 is_a: GO:0044464 ! cell part
+
+[Term]
+id: GO:0097285
+name: cell-type specific apoptotic process
+is_a: GO:0006915 ! apoptotic process
 
 [Term]
 id: GO:0097305
@@ -5836,6 +7040,12 @@ is_a: GO:0048468 ! cell development
 relationship: BFO:0000050 GO:0060348 ! part of bone development
 
 [Term]
+id: GO:0098754
+name: detoxification
+is_a: GO:0008150 ! biological_process
+relationship: BFO:0000050 GO:0009636 ! part of response to toxic substance
+
+[Term]
 id: GO:0098771
 name: inorganic ion homeostasis
 is_a: GO:0050801 ! ion homeostasis
@@ -5845,6 +7055,15 @@ id: GO:0098773
 name: skin epidermis development
 is_a: GO:0008544 ! epidermis development
 relationship: BFO:0000050 GO:0043588 ! part of skin development
+
+[Term]
+id: GO:0098791
+name: Golgi subcompartment
+is_a: GO:0031984 ! organelle subcompartment
+is_a: GO:0044431 ! Golgi apparatus part
+intersection_of: GO:0031984 ! organelle subcompartment
+intersection_of: BFO:0000050 GO:0005794 ! part of Golgi apparatus
+relationship: BFO:0000050 GO:0005794 ! part of Golgi apparatus
 
 [Term]
 id: GO:0098794
@@ -5881,9 +7100,37 @@ intersection_of: BFO:0000050 GO:0005739 ! part of mitochondrion
 relationship: BFO:0000050 GO:0005739 ! part of mitochondrion
 
 [Term]
+id: GO:0098800
+name: inner mitochondrial membrane protein complex
+is_a: GO:0044455 ! mitochondrial membrane part
+is_a: GO:0098796 ! membrane protein complex
+is_a: GO:0098798 ! mitochondrial protein complex
+intersection_of: GO:0043234 ! protein complex
+intersection_of: BFO:0000050 GO:0005743 ! part of mitochondrial inner membrane
+relationship: BFO:0000050 GO:0005743 ! part of mitochondrial inner membrane
+
+[Term]
+id: GO:0098803
+name: respiratory chain complex
+is_a: GO:0098796 ! membrane protein complex
+intersection_of: GO:0043234 ! protein complex
+intersection_of: BFO:0000050 GO:0070469 ! part of respiratory chain
+relationship: BFO:0000050 GO:0070469 ! part of respiratory chain
+
+[Term]
 id: GO:0098805
 name: whole membrane
 is_a: GO:0016020 ! membrane
+
+[Term]
+id: GO:0098807
+name: chloroplast thylakoid membrane protein complex
+is_a: GO:0044434 ! chloroplast part
+is_a: GO:0044436 ! thylakoid part
+is_a: GO:0098796 ! membrane protein complex
+intersection_of: GO:0043234 ! protein complex
+intersection_of: BFO:0000050 GO:0009535 ! part of chloroplast thylakoid membrane
+relationship: BFO:0000050 GO:0009535 ! part of chloroplast thylakoid membrane
 
 [Term]
 id: GO:0098810
@@ -5892,6 +7139,22 @@ is_a: GO:0001504 ! neurotransmitter uptake
 intersection_of: GO:0001504 ! neurotransmitter uptake
 intersection_of: BFO:0000050 GO:0007268 ! part of synaptic transmission
 relationship: BFO:0000050 GO:0007268 ! part of synaptic transmission
+
+[Term]
+id: GO:0098813
+name: nuclear chromosome segregation
+is_a: GO:0007059 ! chromosome segregation
+is_a: GO:0022402 ! cell cycle process
+relationship: BFO:0000050 GO:0007049 ! part of cell cycle
+
+[Term]
+id: GO:0098827
+name: endoplasmic reticulum subcompartment
+is_a: GO:0031984 ! organelle subcompartment
+is_a: GO:0044432 ! endoplasmic reticulum part
+intersection_of: GO:0031984 ! organelle subcompartment
+intersection_of: BFO:0000050 GO:0005783 ! part of endoplasmic reticulum
+relationship: BFO:0000050 GO:0005783 ! part of endoplasmic reticulum
 
 [Term]
 id: GO:0098845
@@ -5914,6 +7177,11 @@ is_a: GO:0042995 ! cell projection
 relationship: BFO:0000051 GO:0005884 ! has_part actin filament
 
 [Term]
+id: GO:0098869
+name: cellular oxidant detoxification
+is_a: GO:1990748 ! cellular detoxification
+
+[Term]
 id: GO:0099738
 name: cell cortex region
 is_a: GO:0005938 ! cell cortex
@@ -5926,6 +7194,11 @@ relationship: BFO:0000050 GO:0005938 ! part of cell cortex
 id: GO:1901360
 name: organic cyclic compound metabolic process
 is_a: GO:0071704 ! organic substance metabolic process
+
+[Term]
+id: GO:1901363
+name: heterocyclic compound binding
+is_a: GO:0005488 ! binding
 
 [Term]
 id: GO:1901564
@@ -5967,6 +7240,12 @@ name: organic hydroxy compound metabolic process
 is_a: GO:0071704 ! organic substance metabolic process
 
 [Term]
+id: GO:1901617
+name: organic hydroxy compound biosynthetic process
+is_a: GO:1901576 ! organic substance biosynthetic process
+is_a: GO:1901615 ! organic hydroxy compound metabolic process
+
+[Term]
 id: GO:1901700
 name: response to oxygen-containing compound
 is_a: GO:0042221 ! response to chemical
@@ -5978,6 +7257,11 @@ is_a: GO:0048762 ! mesenchymal cell differentiation
 intersection_of: GO:0048762 ! mesenchymal cell differentiation
 intersection_of: BFO:0000050 GO:0060348 ! part of bone development
 relationship: BFO:0000050 GO:0060348 ! part of bone development
+
+[Term]
+id: GO:1902224
+name: ketone body metabolic process
+is_a: GO:0071704 ! organic substance metabolic process
 
 [Term]
 id: GO:1902578
@@ -5998,6 +7282,14 @@ is_a: GO:0014033 ! neural crest cell differentiation
 intersection_of: GO:0014033 ! neural crest cell differentiation
 intersection_of: BFO:0000050 GO:0048538 ! part of thymus development
 relationship: BFO:0000050 GO:0048538 ! part of thymus development
+
+[Term]
+id: GO:1902742
+name: apoptotic process involved in development
+is_a: GO:0006915 ! apoptotic process
+intersection_of: GO:0006915 ! apoptotic process
+intersection_of: BFO:0000050 GO:0048856 ! part of anatomical structure development
+relationship: BFO:0000050 GO:0048856 ! part of anatomical structure development
 
 [Term]
 id: GO:1903046
@@ -6030,6 +7322,12 @@ relationship: BFO:0000050 GO:0030424 ! part of axon
 id: GO:1990413
 name: eyespot apparatus
 is_a: GO:0043229 ! intracellular organelle
+
+[Term]
+id: GO:1990748
+name: cellular detoxification
+is_a: GO:0009987 ! cellular process
+is_a: GO:0098754 ! detoxification
 
 [Term]
 id: GO:2000112

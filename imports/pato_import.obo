@@ -6,6 +6,11 @@ id: PATO:0000001
 name: quality
 
 [Term]
+id: PATO:0000004
+name: mobility
+is_a: PATO:0001018 ! physical quality
+
+[Term]
 id: PATO:0000008
 name: speed
 is_a: PATO:0001906 ! movement quality
@@ -14,6 +19,16 @@ is_a: PATO:0001906 ! movement quality
 id: PATO:0000014
 name: color
 is_a: PATO:0001300 ! optical quality
+
+[Term]
+id: PATO:0000016
+name: color brightness
+is_a: PATO:0001300 ! optical quality
+
+[Term]
+id: PATO:0000017
+name: color saturation
+is_a: PATO:0001301 ! chromatic property
 
 [Term]
 id: PATO:0000019
@@ -46,6 +61,11 @@ name: biological sex
 is_a: PATO:0001995 ! organismal quality
 
 [Term]
+id: PATO:0000048
+name: hardness
+is_a: PATO:0001546 ! quality of a solid
+
+[Term]
 id: PATO:0000049
 name: intensity
 is_a: PATO:0000068 ! qualitative
@@ -59,6 +79,11 @@ is_a: PATO:0001241 ! physical object quality
 id: PATO:0000052
 name: shape
 is_a: PATO:0000051 ! morphology
+
+[Term]
+id: PATO:0000057
+name: occurrence
+is_a: PATO:0002323 ! temporal distribution quality
 
 [Term]
 id: PATO:0000060
@@ -79,6 +104,16 @@ is_a: PATO:0000068 ! qualitative
 id: PATO:0000070
 name: amount
 is_a: PATO:0000068 ! qualitative
+
+[Term]
+id: PATO:0000078
+name: rhythm quality
+is_a: PATO:0002323 ! temporal distribution quality
+
+[Term]
+id: PATO:0000082
+name: persistence
+is_a: PATO:0000078 ! rhythm quality
 
 [Term]
 id: PATO:0000085
@@ -156,11 +191,6 @@ name: behavioral quality
 is_a: PATO:0001995 ! organismal quality
 
 [Term]
-id: PATO:0000220
-name: regeneration
-is_obsolete: true
-
-[Term]
 id: PATO:0000274
 name: fertility
 is_a: PATO:0001434 ! reproductive quality
@@ -211,11 +241,6 @@ name: oriented
 is_a: PATO:0000440 ! regular spatial pattern
 
 [Term]
-id: PATO:0000819
-name: quantity
-is_obsolete: true
-
-[Term]
 id: PATO:0000915
 name: thickness
 is_a: PATO:0001708 ! 1-D extent
@@ -229,6 +254,16 @@ is_a: PATO:0001710 ! 3-D extent
 id: PATO:0000921
 name: width
 is_a: PATO:0001708 ! 1-D extent
+
+[Term]
+id: PATO:0000927
+name: photosensitivity
+is_a: PATO:0000085 ! sensitivity toward
+
+[Term]
+id: PATO:0000944
+name: sharpness
+is_a: PATO:0000052 ! shape
 
 [Term]
 id: PATO:0000952
@@ -264,6 +299,11 @@ is_a: PATO:0001241 ! physical object quality
 id: PATO:0001019
 name: mass density
 is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0001020
+name: damage
+is_a: PATO:0000141 ! structure
 
 [Term]
 id: PATO:0001021
@@ -311,6 +351,16 @@ name: optical quality
 is_a: PATO:0001291 ! electromagnetic (EM) radiation quality
 
 [Term]
+id: PATO:0001301
+name: chromatic property
+is_a: PATO:0001300 ! optical quality
+
+[Term]
+id: PATO:0001303
+name: variability
+is_a: PATO:0001236 ! process quality
+
+[Term]
 id: PATO:0001309
 name: duration
 is_a: PATO:0002062 ! physical quality of a process
@@ -331,6 +381,16 @@ name: volumetric density
 is_a: PATO:0001019 ! mass density
 
 [Term]
+id: PATO:0001396
+name: cellular quality
+is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0001433
+name: growth quality of occurrent
+is_a: PATO:0001236 ! process quality
+
+[Term]
 id: PATO:0001434
 name: reproductive quality
 is_a: PATO:0001995 ! organismal quality
@@ -341,9 +401,24 @@ name: tonicity
 is_a: PATO:0001579 ! contractility
 
 [Term]
+id: PATO:0001442
+name: wholeness
+is_a: PATO:0000141 ! structure
+
+[Term]
+id: PATO:0001457
+name: sensitivity of a process
+is_a: PATO:0002062 ! physical quality of a process
+
+[Term]
 id: PATO:0001461
 name: surface tension
 is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0001462
+name: membrane potential
+is_a: PATO:0001464 ! electric potential
 
 [Term]
 id: PATO:0001463
@@ -359,6 +434,11 @@ is_a: PATO:0001018 ! physical quality
 id: PATO:0001470
 name: proportionality to
 is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0001488
+name: cellular motility
+is_a: PATO:0001396 ! cellular quality
 
 [Term]
 id: PATO:0001492
@@ -431,6 +511,11 @@ name: turgor
 is_a: PATO:0000141 ! structure
 
 [Term]
+id: PATO:0001626
+name: sufficiency
+is_a: PATO:0001509 ! functionality
+
+[Term]
 id: PATO:0001629
 name: aggregated
 is_a: PATO:0000330 ! irregular spatial pattern
@@ -441,9 +526,20 @@ name: circumference
 is_a: PATO:0001711 ! perimeter
 
 [Term]
+id: PATO:0001652
+name: alignment
+is_a: PATO:0000140 ! position
+relationship: BFO:0000051 PATO:0000133 ! has_part orientation
+
+[Term]
 id: PATO:0001655
 name: osmolarity
 is_a: PATO:0000033 ! concentration of
+
+[Term]
+id: PATO:0001662
+name: fragility
+is_a: PATO:0000141 ! structure
 
 [Term]
 id: PATO:0001708
@@ -476,9 +572,24 @@ name: radiation quality
 is_a: PATO:0001018 ! physical quality
 
 [Term]
+id: PATO:0001794
+name: coiling
+is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0001800
+name: water composition
+is_a: PATO:0000025 ! composition
+
+[Term]
 id: PATO:0001815
 name: fatigability
 is_a: PATO:0001230 ! strength
+
+[Term]
+id: PATO:0001822
+name: wetness
+is_a: PATO:0001018 ! physical quality
 
 [Term]
 id: PATO:0001842
@@ -496,9 +607,14 @@ name: movement quality
 is_a: PATO:0001018 ! physical quality
 
 [Term]
-id: PATO:0001992
-name: cellularity
-is_a: PATO:0001995 ! organismal quality
+id: PATO:0001925
+name: surface feature shape
+is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0001956
+name: variability of size
+is_a: PATO:0001303 ! variability
 
 [Term]
 id: PATO:0001995
@@ -512,6 +628,21 @@ is_a: PATO:0000467 ! present
 is_a: PATO:0002301 ! decreased quality
 
 [Term]
+id: PATO:0002005
+name: concavity
+is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0002006
+name: 2-D shape
+is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0002007
+name: convex 3-D shape
+is_a: PATO:0002266 ! 3-D shape
+
+[Term]
 id: PATO:0002009
 name: branchiness
 is_a: PATO:0000052 ! shape
@@ -520,6 +651,11 @@ is_a: PATO:0000052 ! shape
 id: PATO:0002036
 name: axial to
 is_a: PATO:0000140 ! position
+
+[Term]
+id: PATO:0002037
+name: degeneration
+is_a: PATO:0000141 ! structure
 
 [Term]
 id: PATO:0002045
@@ -532,8 +668,28 @@ name: physical quality of a process
 is_a: PATO:0001236 ! process quality
 
 [Term]
+id: PATO:0002076
+name: movement behavioral quality
+is_a: PATO:0000186 ! behavioral quality
+
+[Term]
+id: PATO:0002083
+name: altered number of
+is_a: PATO:0001555 ! has number of
+
+[Term]
 id: PATO:0002107
 name: peripheral
+is_a: PATO:0000140 ! position
+
+[Term]
+id: PATO:0002175
+name: deviation
+is_a: PATO:0000060 ! spatial pattern
+
+[Term]
+id: PATO:0002181
+name: displaced
 is_a: PATO:0000140 ! position
 
 [Term]
@@ -562,12 +718,36 @@ name: located in
 is_a: PATO:0000140 ! position
 
 [Term]
+id: PATO:0002265
+name: behavioural activity
+is_a: PATO:0000186 ! behavioral quality
+
+[Term]
+id: PATO:0002266
+name: 3-D shape
+is_a: PATO:0000052 ! shape
+
+[Term]
 id: PATO:0002301
 name: decreased quality
 is_a: PATO:0000069 ! deviation(from_normal)
 
 [Term]
+id: PATO:0002323
+name: temporal distribution quality
+is_a: PATO:0002062 ! physical quality of a process
+
+[Term]
+id: PATO:0002325
+name: onset quality
+is_a: PATO:0002323 ! temporal distribution quality
+
+[Term]
 id: PATO:0002326
 name: angle
 is_a: PATO:0000133 ! orientation
+
+[Typedef]
+id: BFO:0000051
+name: has_part
 
