@@ -46,6 +46,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0002185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002185">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">creatine kinase complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043234"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0005575 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005575">
@@ -60,6 +69,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005886">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma membrane</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032991">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecular complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043234">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
     </owl:Class>
     
 

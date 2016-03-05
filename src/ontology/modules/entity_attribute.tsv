@@ -4252,7 +4252,6 @@ OBA:0003931		UBERON:0006861	diaphysis proper	PATO:0000051	morphology
 OBA:0003932		CL:0000746	cardiac muscle cell	PATO:0001509	functionality
 OBA:0003933		UBERON:0006206	iridocorneal angle	PATO:0000069	deviation(from_normal)
 OBA:0003934		UBERON:0005969	eye trabecular meshwork	PATO:0000070	amount
-OBA:0003935		MP:0005204	abnormal canal of Schlemm morphology	PATO:0000070	amount
 OBA:0003936		UBERON:0006720	pterygoid muscle	PATO:0000070	amount
 OBA:0003937		UBERON:0008778	epaxial musculature	PATO:0000051	morphology
 OBA:0003938		GO:0001947	heart looping	PATO:0000070	amount
@@ -4364,7 +4363,6 @@ OBA:0004043		UBERON:0006430	xiphoid cartilage	PATO:0000141	structure
 OBA:0004044		UBERON:0006430	xiphoid cartilage	PATO:0000117	size
 OBA:0004045		UBERON:0001066	intervertebral disk	PATO:0000117	size
 OBA:0004046		UBERON:0005305	thyroid follicle	PATO:0000051	morphology
-OBA:0004047		MP:0001967	deafness	PATO:0000060	spatial pattern
 OBA:0004048		UBERON:0002414	lumbar vertebra	PATO:0000122	length
 OBA:0004049		UBERON:0002413	cervical vertebra	PATO:0002037	degeneration
 OBA:0004050		UBERON:0002328	notochord	PATO:0000117	size
@@ -4882,7 +4880,6 @@ OBA:0004561		UBERON:0000178	blood	PATO:0002027	osmolality
 OBA:0004562		UBERON:0001245	anus	PATO:0000070	amount
 OBA:0004563		UBERON:0001153	caecum	PATO:0000070	amount
 OBA:0004564		UBERON:0011933	vibrissa unit	PATO:0000070	amount
-OBA:0004565		MP:0000414	alopecia	PATO:0000057	occurrence
 OBA:0004566		UBERON:0003467	sesamoid bone of gastrocnemius	PATO:0000051	morphology
 OBA:0004567		GO:0042698	ovulation cycle	PATO:0001309	duration
 OBA:0004568		GO:0060209	estrus	PATO:0002325	onset quality
@@ -5645,7 +5642,6 @@ OBA:0005324		UBERON:0002190	subcutaneous adipose tissue	PATO:0000051	morphology
 OBA:0005325		UBERON:0008876	hypodermis skeletal muscle layer	PATO:0000051	morphology
 OBA:0005326		UBERON:0008876	hypodermis skeletal muscle layer	PATO:0000070	amount
 OBA:0005327		UBERON:0008877	epidermal-dermal junction	PATO:0000051	morphology
-OBA:0005328		MP:0003828	pulmonary edema	PATO:0000128	weight
 OBA:0005329		UBERON:0008854	root of molar tooth	PATO:0000070	amount
 OBA:0005330		UBERON:0006273	otic pit	PATO:0000051	morphology
 OBA:0005331		UBERON:0003069	otic placode	PATO:0000051	morphology

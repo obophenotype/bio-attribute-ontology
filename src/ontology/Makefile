@@ -160,6 +160,7 @@ vt-loc-new.tsv:
 	obo-split-terms.pl vocab/vt.tsv vocab/e.tsv vocab/e.tsv vocab/q.tsv | perl -npe 's@VT:@OBA:VT@' | sort -u > $@
 
 # merge-pattern-tsv.pl vt-new.tsv modules/entity_attribute.tsv
+# merge-pattern-tsv.pl -s -b 2 -u 9999 -l 1999 -m -n -k 3,5 reports/eq_mp.tsv modules/entity_attribute.tsv modules/attribute_location.tsv modules/entity_attribute_location.tsv
 
 # ----------------------------------------
 # REPORTS
@@ -180,6 +181,8 @@ reports/po-sc-viol.tsv: oba-edit.obo
 
 reports/eq_hp.tsv: hp-ldefs.obo
 	blip-findall -r go -r uberonp -r pato -r pato -r CL -i $< -consult util/patterns.pro eq_pheno/3 -no_pred -label -use_tabs > $@
+reports/eq_mp.tsv: mp-ldefs.obo
+	blip-findall -r go -r uberonp -r pato  -r CL -i $< -consult util/patterns.pro eq_pheno/3 -no_pred -label -use_tabs > $@
 
 reports/eq.tsv: oba-edit.obo
 	blip-findall -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eq/3 -no_pred -label -use_tabs > $@

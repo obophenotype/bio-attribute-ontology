@@ -16,6 +16,11 @@ name: molecular entity
 is_a: BFO:0000030 ! object
 
 [Term]
+id: GO:0002185
+name: creatine kinase complex
+is_a: GO:0043234 ! protein complex
+
+[Term]
 id: GO:0005575
 name: cellular_component
 is_a: BFO:0000030 ! object
@@ -24,6 +29,16 @@ is_a: BFO:0000030 ! object
 id: GO:0005886
 name: plasma membrane
 is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: GO:0032991
+name: macromolecular complex
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: GO:0043234
+name: protein complex
+is_a: GO:0032991 ! macromolecular complex
 
 [Term]
 id: PR:000000001
