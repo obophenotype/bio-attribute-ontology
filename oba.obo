@@ -5,7 +5,7 @@ auto-generated-by: TermGenie 1.0
 default-namespace: oba
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/oba/modules/attribute_location.owl>))) [Axioms: 125 Logical Axioms: 23]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/oba/modules/entity_attribute.owl>))) [Axioms: 41386 Logical Axioms: 12704]
-remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/oba/modules/entity_attribute_location.owl>))) [Axioms: 1129 Logical Axioms: 189]
+remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/oba/modules/entity_attribute_location.owl>))) [Axioms: 1135 Logical Axioms: 190]
 remark: Includes Ontology(OntologyID(OntologyIRI(<http://purl.obolibrary.org/obo/oba/modules/existential-graph.owl>))) [Axioms: 19307 Logical Axioms: 14936]
 import: http://purl.obolibrary.org/obo/oba/imports/chebi_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/cl_import.owl
@@ -48150,6 +48150,13 @@ def: "The concentration of of a calcium ion when measured in cytosol." []
 synonym: "cytosol calcium ion concentration of" EXACT []
 is_a: OBA:0000040 {is_inferred="true"} ! calcium ion concentration
 relationship: part_of OBA:1000077 ! attribute of cytosol
+
+[Term]
+id: OBA:0006039
+name: concentration of of calcium ion in postsynaptic cytosol
+def: "The concentration of of a calcium ion when measured in postsynaptic cytosol." []
+synonym: "postsynaptic cytosol calcium ion concentration of" EXACT []
+is_a: OBA:0000040 {is_inferred="true"} ! calcium ion concentration
 
 [Term]
 id: OBA:0100001

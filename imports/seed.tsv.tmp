@@ -7430,6 +7430,7 @@ http://purl.obolibrary.org/obo/OBA_VT0001562	blood calcium amount	The amount of 
 http://purl.obolibrary.org/obo/OBA_VT0002896	bone mineralization trait	The quality of a bone mineralization.
 http://purl.obolibrary.org/obo/OBA_VT0002895	otolithic membrane morphology trait	The morphology of a otolithic part of statoconial membrane.
 http://purl.obolibrary.org/obo/OBA_VT0001565	blood phosphate amount	The amount of a phosphate when measured in blood.
+http://purl.obolibrary.org/obo/OBA_0006039	concentration of of calcium ion in postsynaptic cytosol	The concentration of of a calcium ion when measured in postsynaptic cytosol.
 http://purl.obolibrary.org/obo/OBA_VT0000237	blood cell quantity	The has number of of a hematopoietic cell.
 http://purl.obolibrary.org/obo/OBA_VT0001569	blood bilirubin amount	The amount of a bilirubin when measured in blood.
 http://purl.obolibrary.org/obo/UBERON_0012333	ovarian bursa	A pouch formed by the mesosalpinx and the mesovarium that encloses the infundibulum of the uterine tube and the ovary
@@ -9104,6 +9105,7 @@ http://purl.obolibrary.org/obo/OBA_VT0005445	neurotransmitter release trait	The 
 http://purl.obolibrary.org/obo/UBERON_0000965	lens of camera-type eye	Transparent part of camera-type eye that helps to refract light to be focused on the retina.
 http://purl.obolibrary.org/obo/OBA_VT0004113	aortic arch morphology trait	The morphology of a pharyngeal arch artery.
 http://purl.obolibrary.org/obo/GO_0051546	keratinocyte migration	null
+http://purl.obolibrary.org/obo/GO_0099524	null	null
 http://purl.obolibrary.org/obo/UBERON_0000964	cornea	the transparent anterior portion of the fibrous coat of the eye that serves as the chief refractory structure
 http://purl.obolibrary.org/obo/OBA_VT0005443	ethanol metabolism trait	The quality of a ethanol metabolic process.
 http://purl.obolibrary.org/obo/OBA_VT0004115	sinoatrial node morphology trait	The morphology of a sinoatrial node.
@@ -9490,15 +9492,15 @@ http://purl.obolibrary.org/obo/CHEBI_50459	2,5-diphenylfuran	null
 http://purl.obolibrary.org/obo/UBERON_0010155	parietomastoid suture	unites the mastoid process of the temporal with the region of the mastoid angle of the parietal[WP:Squamosal_suture].
 http://purl.obolibrary.org/obo/OBA_0002913	manual digit 4 length	The length of a manual digit 4.
 http://purl.obolibrary.org/obo/OBA_0002912	manual digit 4 deviation	The deviation of a manual digit 4.
-http://purl.obolibrary.org/obo/OBA_0002915	distal phalanx of manual digit 4 curvature	The curvature of a distal phalanx of manual digit 4.
 http://purl.obolibrary.org/obo/UBERON_0010157	sphenoparietal suture	The Sphenoparietal suture is the cranial suture between the sphenoid bone and the parietal bone.
+http://purl.obolibrary.org/obo/OBA_0002915	distal phalanx of manual digit 4 curvature	The curvature of a distal phalanx of manual digit 4.
 http://purl.obolibrary.org/obo/OBA_VT0010030	udder height	The height of a udder.
 http://purl.obolibrary.org/obo/OBA_0002914	manual digit 4 phalanx curvature	The curvature of a manual digit 4 phalanx.
 http://purl.obolibrary.org/obo/UBERON_0010156	sphenofrontal suture	The Sphenofrontal suture is the cranial suture between the sphenoid bone and the frontal bone.
 http://purl.obolibrary.org/obo/UBERON_0010159	occipitomastoid suture	The occipitomastoid suture is the cranial suture between the occipital bone and the mastoid portion of the temporal bone. It is continuous with the lambdoidal suture.
 http://purl.obolibrary.org/obo/OBA_0005193	fundus of stomach morphology	The morphology of a fundus of stomach.
-http://purl.obolibrary.org/obo/OBA_0005194	stomach muscularis externa morphology	The morphology of a stomach muscularis externa.
 http://purl.obolibrary.org/obo/UBERON_0010158	sphenozygomatic suture	The Sphenozygomatic suture is the cranial suture between the sphenoid bone and the zygomatic bone.
+http://purl.obolibrary.org/obo/OBA_0005194	stomach muscularis externa morphology	The morphology of a stomach muscularis externa.
 http://purl.obolibrary.org/obo/CL_0000681	radial glial cell	null
 http://purl.obolibrary.org/obo/OBA_0005191	placenta metrial gland morphology	The morphology of a placenta metrial gland.
 http://purl.obolibrary.org/obo/CL_0000680	muscle precursor cell	null
