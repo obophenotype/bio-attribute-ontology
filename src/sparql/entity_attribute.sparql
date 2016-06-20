@@ -1,0 +1,23 @@
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix part_of: <http://purl.obolibrary.org/obo/BFO_0000050>
+prefix inheres_in: <http://purl.obolibrary.org/obo/RO_0000052>
+
+select distinct ?term ?attribute ?entity ?location where {
+
+  ?term owl:equivalentClass ?desc .
+  ?desc owl:intersectionOf/rdf:rest*/rdf:first ?attribute .
+  ?desc owl:intersectionOf/rdf:rest*/rdf:first ?diff .
+  ?desc owl:intersectionOf/rdf:rest/rdf:rest rdf:nil .
+  ?diff owl:onProperty inheres_in: .
+  ?diff owl:someValuesFrom ?filler .
+  ?filler owl:intersectionOf/rdf:rest*/rdf:first ?entity .
+  ?filler owl:intersectionOf/rdf:rest*/rdf:first ?diff2 .
+  ?filler owl:intersectionOf/rdf:rest/rdf:rest rdf:nil .
+  ?diff2 owl:onProperty part_of: .
+  ?diff2 owl:someValuesFrom ?location .
+  FILTER(?attribute != ?diff)
+  FILTER(?entity != ?diff2)
+
+}
+
