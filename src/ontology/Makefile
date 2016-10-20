@@ -162,8 +162,16 @@ vt-loc-new.tsv:
 # merge-pattern-tsv.pl vt-new.tsv modules/entity_attribute.tsv
 # merge-pattern-tsv.pl -s -b 2 -u 9999 -l 1999 -m -n -k 3,5 reports/eq_mp.tsv modules/entity_attribute.tsv modules/attribute_location.tsv modules/entity_attribute_location.tsv
 
+
 # ----------------------------------------
-# REPORTS
+# SPARQL REPORTS
+# ----------------------------------------
+
+reports/oba-%.csv: oba.owl ../sparql/%.sparql
+	arq --data $< --query ../sparql/$*.sparql --results csv > $@.tmp && ./util/curiefy-purls.pl $@.tmp > $@ && rm $@.tmp
+
+# ----------------------------------------
+# AD-HOC BLIP REPORTS
 # ----------------------------------------
 # See: https://github.com/Planteome/plant-trait-ontology/issues/302
 

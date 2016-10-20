@@ -3,6 +3,7 @@
      xml:base="http://purl.obolibrary.org/obo/oba/imports/so_import.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oba/imports/so_import.owl"/>
@@ -23,8 +24,8 @@
     <!-- http://purl.obolibrary.org/obo/SO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">region</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">region</rdfs:label>
     </owl:Class>
     
 
@@ -33,7 +34,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence_feature</rdfs:label>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/SO_0000400"/>
     </owl:Class>
     
 
@@ -41,8 +41,8 @@
     <!-- http://purl.obolibrary.org/obo/SO_0000233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000233">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature_transcript</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mature_transcript</rdfs:label>
     </owl:Class>
     
 
@@ -50,8 +50,8 @@
     <!-- http://purl.obolibrary.org/obo/SO_0000234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000234">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mRNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000233"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mRNA</rdfs:label>
     </owl:Class>
     
 
@@ -59,43 +59,8 @@
     <!-- http://purl.obolibrary.org/obo/SO_0000252 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000252">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rRNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SO_0000348 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000348">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleic_acid</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000443"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SO_0000356 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000356">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000348"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SO_0000400 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000400">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence_attribute</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SO_0000443 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000443">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polymer_attribute</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000400"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rRNA</rdfs:label>
     </owl:Class>
     
 
@@ -103,8 +68,8 @@
     <!-- http://purl.obolibrary.org/obo/SO_0000655 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000655">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncRNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000233"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncRNA</rdfs:label>
     </owl:Class>
     
 
@@ -112,8 +77,8 @@
     <!-- http://purl.obolibrary.org/obo/SO_0000673 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000673">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcript</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000831"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcript</rdfs:label>
     </owl:Class>
     
 
@@ -121,8 +86,8 @@
     <!-- http://purl.obolibrary.org/obo/SO_0000831 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000831">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene_member_region</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene_member_region</rdfs:label>
     </owl:Class>
     
 
@@ -130,12 +95,12 @@
     <!-- http://purl.obolibrary.org/obo/SO_0001411 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001411">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_region</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_region</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 0.0.1-SNAPSHOT) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 0.0.1-SNAPSHOT) https://github.com/owlcs/owlapi -->
 
