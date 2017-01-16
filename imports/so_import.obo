@@ -9,6 +9,7 @@ is_a: SO:0000110 ! sequence_feature
 [Term]
 id: SO:0000110
 name: sequence_feature
+disjoint_from: SO:0000400 ! sequence_attribute
 
 [Term]
 id: SO:0000233
@@ -24,6 +25,25 @@ is_a: SO:0000233 ! mature_transcript
 id: SO:0000252
 name: rRNA
 is_a: SO:0000655 ! ncRNA
+
+[Term]
+id: SO:0000348
+name: nucleic_acid
+is_a: SO:0000443 ! polymer_attribute
+
+[Term]
+id: SO:0000356
+name: RNA
+is_a: SO:0000348 ! nucleic_acid
+
+[Term]
+id: SO:0000400
+name: sequence_attribute
+
+[Term]
+id: SO:0000443
+name: polymer_attribute
+is_a: SO:0000400 ! sequence_attribute
 
 [Term]
 id: SO:0000655
