@@ -6,7 +6,6 @@ MODS = entity_attribute entity_attribute_location attribute_location
 
 all: oba.owl oba.obo all_subsets
 all_subsets: subsets/oba-basic.obo
-test: all
 release: all copy-release
 
 TARGETS = oba.obo oba.owl imports subsets
@@ -22,11 +21,13 @@ oba-core.owl: oba-edit.obo $(ALL_MODS_OWL)
 oba-core.obo: oba-core.owl
 	owltools $(USECAT) $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 
-#oba-combined-plus-eg.owl: oba-combined.owl modules/existential-graph.owl
-#	owltools $(USECAT) $^ --merge-support-ontologies -o $@
-#oba.owl: oba-combined-plus-eg.owl
-oba-core-inferred.owl: oba-core.owl modules/existential-graph.owl all_imports
+test: oba-core.owl
+	robot reason -i $< 
+
+# perform inference on source+modules
+oba-core-inferred.owl: oba-core.owl all_imports modules/existential-graph.owl 
 	owltools $(USECAT) $< modules/existential-graph.owl --merge-support-ontologies --assert-inferred-subclass-axioms --allowEquivalencies --always-assert-super-classes --markIsInferred --reasoner mexr --remove-redundant-inferred-svfs  -o $@
+
 subsets/oba-basic.owl: oba-core-inferred.owl
 	owltools $(USECAT) $< --remove-imports-declarations --make-subset-by-properties -f BFO:0000050 --remove-dangling --remove-axioms -t EquivalentClasses --set-ontology-id $(OBO)/oba/$@ -o $@
 subsets/oba-basic.obo: subsets/oba-basic.owl
@@ -139,11 +140,9 @@ modules/%.obo: modules/%.owl
 modules/has_part.tsv:  $(patsubst %, modules/%.tsv, $(MODS))
 	./util/make-vt-equiv-tsv.pl $^ > $@
 
-
+# uses expression-materializing reasoner to infer superclasses and super parent expressions;
 modules/existential-graph.owl: oba-core.owl
 	owltools $(USECAT) $< --merge-support-ontologies --reasoner elk --silence-elk --materialize-gcis --reasoner mexr --remove-redundant-inferred-svfs --reasoner elk --remove-redundant-svfs  --set-ontology-id $(OBO)/oba/$@ -o $@
-#modules/existential-graph.obo: oba-combined.owl
-#	owltools $(USECAT) $< --merge-support-ontologies --reasoner elk --silence-elk --materialize-gcis --set-ontology-id $(OBO)/oba/$@ -o -f obo $@
 
 # ----------------------------------------
 # OBOL
