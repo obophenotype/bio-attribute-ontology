@@ -32,6 +32,11 @@ name: nucleic_acid
 is_a: SO:0000443 ! polymer_attribute
 
 [Term]
+id: SO:0000352
+name: DNA
+is_a: SO:0000348 ! nucleic_acid
+
+[Term]
 id: SO:0000356
 name: RNA
 is_a: SO:0000348 ! nucleic_acid
