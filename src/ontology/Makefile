@@ -25,12 +25,16 @@ test: oba-core.owl
 	robot reason -i $< 
 
 ROBOT_JAVA_ARGS = -Xmx12G
-# perform inference on source+modules
+# perform materialization.
+# Note we use robot materialize plus a subset of properties, see https://github.com/obophenotype/bio-attribute-ontology/issues/8
 oba-materialized.owl: oba-core.owl all_imports basic_properties.txt
-	ROBOT_JAVA_ARGS=$(ROBOT_JAVA_ARGS) robot -vv materialize -T basic_properties.txt -i $< relax reduce  -o $@.tmp.owl && mv $@.tmp.owl $@
+	ROBOT_JAVA_ARGS=$(ROBOT_JAVA_ARGS) robot -vv materialize -T basic_properties.txt -i $<  -o $@.tmp.owl && mv $@.tmp.owl $@
 .PRECIOUS: oba-materialized.owl
-#oba-materialized.owl: oba-core.owl all_imports modules/existential-graph.owl 
-#	owltools $(USECAT) $< modules/existential-graph.owl --merge-support-ontologies --assert-inferred-subclass-axioms --allowEquivalencies --always-assert-super-classes --markIsInferred --reasoner mexr --remove-redundant-inferred-svfs  -o $@
+
+# Materialization generates redundant links - perform reduction
+oba-reduced.owl: oba-materialized.owl
+	ROBOT_JAVA_ARGS=$(ROBOT_JAVA_ARGS) robot -vv relax -i $< reduce  -o $@.tmp.owl && mv $@.tmp.owl $@
+.PRECIOUS: oba-materialized.owl
 
 subsets/oba-basic.owl: oba.owl
 	owltools $(USECAT) $< --remove-imports-declarations --make-subset-by-properties -f BFO:0000050 --remove-dangling --remove-axioms -t EquivalentClasses --set-ontology-id $(OBO)/oba/$@ -o $@
@@ -38,7 +42,7 @@ subsets/oba-basic.obo: subsets/oba-basic.owl
 	owltools $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 
 # TODO: fold into previous set
-oba.owl: oba-materialized.owl
+oba.owl: oba-reduced.owl
 	owltools  $(USECAT) $< --remove-import-declaration $(OBO)/oba/imports/reasoner_axioms.owl --set-ontology-id $(OBO)/$@ -o $@
 
 oba.obo: oba.owl
@@ -99,7 +103,7 @@ imports/%_import.obo: imports/%_import.owl
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.obo:
-	wget --no-check-certificate $(OBO)/$*.obo -O $@
+	wget --no-check-certificate $(OBO)/$*.obo -O $@ && touch $@
 .PRECIOUS: mirror/%.obo
 
 mirror/%.owl: mirror/%.obo
