@@ -31,9 +31,15 @@ oba-materialized.owl: oba-core.owl all_imports basic_properties.txt
 	ROBOT_JAVA_ARGS=$(ROBOT_JAVA_ARGS) robot -vv materialize -T basic_properties.txt -i $<  -o $@.tmp.owl && mv $@.tmp.owl $@
 .PRECIOUS: oba-materialized.owl
 
+REFL_ONT = $(OBO)/oba/imports/reasoner_axioms.owl
+oba-materialized-spiked.owl: oba-materialized.owl 
+	owltools $< --add-imports-declarations $(REFL_ONT) -o $@
+
 # Materialization generates redundant links - perform reduction
-oba-reduced.owl: oba-materialized.owl
-	ROBOT_JAVA_ARGS=$(ROBOT_JAVA_ARGS) robot -vv relax -i $< reduce  -o $@.tmp.owl && mv $@.tmp.owl $@
+# TODO: GO/CL
+ALLOW_EQUIVS=true
+oba-reduced.owl: oba-materialized-spiked.owl
+	ROBOT_JAVA_ARGS=$(ROBOT_JAVA_ARGS) robot -vv reason -r elk -e $(ALLOW_EQUIVS) -i $< relax reduce  -o $@.tmp.owl && mv $@.tmp.owl $@
 .PRECIOUS: oba-materialized.owl
 
 subsets/oba-basic.owl: oba.owl
@@ -43,7 +49,7 @@ subsets/oba-basic.obo: subsets/oba-basic.owl
 
 # TODO: fold into previous set
 oba.owl: oba-reduced.owl
-	owltools  $(USECAT) $< --remove-import-declaration $(OBO)/oba/imports/reasoner_axioms.owl --set-ontology-id $(OBO)/$@ -o $@
+	owltools  $(USECAT) $< --remove-import-declaration $(REFL_ONT) --set-ontology-id $(OBO)/$@ -o $@
 
 oba.obo: oba.owl
 	owltools $(USECAT) $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
@@ -110,7 +116,7 @@ mirror/%.owl: mirror/%.obo
 	owltools $< --remove-annotation-assertions -r -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
 .PRECIOUS: mirror/%.owl
 mirror/go.owl: mirror/go.obo
-	owltools $< --remove-annotation-assertions -r -l --remove-dangling-annotations --remove-axioms -t DisjointWith --make-subset-by-properties -f $(KEEPRELS)  -o $@
+	owltools $< --remove-annotation-assertions -r -l --remove-dangling-annotations --remove-disjoints --make-subset-by-properties -f $(KEEPRELS)  -o $@
 mirror/ro.owl:
 	owltools $(OBO)/ro.owl --merge-imports-closure -o $@
 .PRECIOUS: mirror/%.owl

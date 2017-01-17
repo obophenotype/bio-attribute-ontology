@@ -4201,7 +4201,6 @@ OBA:0003880		GO:0043209	myelin sheath	PATO:0000051	morphology
 OBA:0003881		UBERON:0002539	pharyngeal arch	PATO:0000117	size
 OBA:0003882		UBERON:0002539	pharyngeal arch	PATO:0000070	amount
 OBA:0003883		GO:0072574	hepatocyte proliferation	PATO:0000161	rate
-OBA:0003884		CL:0000000	cell	PATO:0000125	mass
 OBA:0003885		UBERON:0001103	diaphragm	PATO:0000140	position
 OBA:0003886		GO:0046323	glucose import	PATO:0000161	rate
 OBA:0003887		GO:0046323	glucose import	PATO:0000070	amount
@@ -4478,7 +4477,6 @@ OBA:0004159		GO:0007585	respiratory gaseous exchange	PATO:0000044	frequency
 OBA:0004160		UBERON:0003107	Meckel's cartilage	PATO:0000051	morphology
 OBA:0004161		UBERON:0004237	blood vessel smooth muscle	PATO:0001509	functionality
 OBA:0004162		UBERON:0001630	muscle organ	PATO:0001579	contractility
-OBA:0004163		CL:0000000	cell	PATO:0001509	functionality
 OBA:0004164		UBERON:0002080	heart right ventricle	PATO:0002037	degeneration
 OBA:0004165		UBERON:0003855	gonad mesenchyme	PATO:0000051	morphology
 OBA:0004166		UBERON:0001013	adipose tissue	PATO:0001509	functionality
@@ -6356,11 +6354,9 @@ OBA:0006101		UBERON:0007719	bone of reproductive structure	PATO:0000051	morpholo
 OBA:0006102		UBERON:0007719	bone of reproductive structure	PATO:0000052	shape
 OBA:0006103		UBERON:0007719	bone of reproductive structure	PATO:0000921	width
 OBA:0006104		UBERON:0007719	bone of reproductive structure	PATO:0000122	length
-OBA:0006111		UBERON:0006435	os penis	PATO:0000051	morphology
 OBA:0006112		UBERON:0006435	os penis	PATO:0000052	shape
 OBA:0006113		UBERON:0006435	os penis	PATO:0000921	width
 OBA:0006114		UBERON:0006435	os penis	PATO:0000122	length
-OBA:0006121		UBERON:0006440	os clitoris	PATO:0000051	morphology
 OBA:0006122		UBERON:0006440	os clitoris	PATO:0000052	shape
 OBA:0006123		UBERON:0006440	os clitoris	PATO:0000921	width
 OBA:0006124		UBERON:0006440	os clitoris	PATO:0000122	length

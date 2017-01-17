@@ -452,7 +452,7 @@ http://purl.obolibrary.org/obo/UBERON_0006060	conotruncus	The distal portion of 
 http://purl.obolibrary.org/obo/OBA_VT0010202	stomach epithelium thickness	The thickness of a epithelium of stomach.
 http://purl.obolibrary.org/obo/OBA_VT0010201	stomach muscle thickness	The thickness of a stomach smooth muscle.
 http://purl.obolibrary.org/obo/GO_0007269	neurotransmitter secretion	null
-http://purl.obolibrary.org/obo/GO_0007268	synaptic transmission	null
+http://purl.obolibrary.org/obo/GO_0007268	chemical synaptic transmission	null
 http://purl.obolibrary.org/obo/PATO_0001488	cellular motility	null
 http://purl.obolibrary.org/obo/UBERON_0006059	falx cerebri	The falx cerebri, also known as the cerebral falx, so named from its sickle-like form, is a strong, arched fold of dura mater which descends vertically in the longitudinal fissure between the cerebral hemispheres. It is narrow in front, where it is attached to the crista galli of the ethmoid; and broad behind, where it is connected with the upper surface of the tentorium cerebelli. Its upper margin is convex, and attached to the inner surface of the skull in the middle line, as far back as the internal occipital protuberance; it contains the superior sagittal sinus. Its lower margin is free and concave, and contains the inferior sagittal sinus. The falx cerebri is known to calcify with age.
 http://purl.obolibrary.org/obo/PATO_0000152	threshold	null
@@ -1214,8 +1214,8 @@ http://purl.obolibrary.org/obo/OBA_0004465	interleukin-1 secretion rate	The rate
 http://purl.obolibrary.org/obo/OBA_VT0000960	sensory ganglion morphology trait	The morphology of a sensory ganglion.
 http://purl.obolibrary.org/obo/OBA_0005796	pharyngeal arch 3 size	The size of a pharyngeal arch 3.
 http://purl.obolibrary.org/obo/OBA_0003134	middle phalanx of pedal digit 2 2-D shape	The 2-D shape of a middle phalanx of pedal digit 2.
-http://purl.obolibrary.org/obo/OBA_0004464	photoreceptor outer segment length	The length of a photoreceptor outer segment.
 http://purl.obolibrary.org/obo/OBA_0005795	pharyngeal pouch 4 amount	The amount of a pharyngeal pouch 4.
+http://purl.obolibrary.org/obo/OBA_0004464	photoreceptor outer segment length	The length of a photoreceptor outer segment.
 http://purl.obolibrary.org/obo/CHEBI_16856	glutathione	null
 http://purl.obolibrary.org/obo/UBERON_0007250	lingual tonsil	the lymph tissue on the floor of the oropharyngeal passage, near the root of the tongue
 http://purl.obolibrary.org/obo/GO_0007126	meiotic nuclear division	null
@@ -5631,7 +5631,7 @@ http://purl.obolibrary.org/obo/OBA_0005055	hepatic vein morphology	The morpholog
 http://purl.obolibrary.org/obo/OBA_0005054	pulmonary vein structure	The structure of a pulmonary vein.
 http://purl.obolibrary.org/obo/OBA_0005053	coronary sinus amount	The amount of a coronary sinus.
 http://purl.obolibrary.org/obo/OBA_0005052	coronary sinus morphology	The morphology of a coronary sinus.
-http://purl.obolibrary.org/obo/GO_0072372	primary cilium	null
+http://purl.obolibrary.org/obo/GO_0072372	null	null
 http://purl.obolibrary.org/obo/OBA_0005051	interventricular septum amount	The amount of a interventricular septum.
 http://purl.obolibrary.org/obo/OBA_0005050	outflow part of left ventricle morphology	The morphology of a outflow part of left ventricle.
 http://purl.obolibrary.org/obo/OBA_VT0008745	central B cell anergy trait	The quality of a central B cell anergy.
@@ -5734,7 +5734,7 @@ http://purl.obolibrary.org/obo/OBA_0005083	aorta closure	The closure of a aorta.
 http://purl.obolibrary.org/obo/OBA_VT0008778	lymphangiogenesis trait	The quality of a lymphangiogenesis.
 http://purl.obolibrary.org/obo/OBA_0002810	tarsal bone morphology	The morphology of a tarsal bone.
 http://purl.obolibrary.org/obo/OBA_VT0006113	heart septum morphology trait	The morphology of a cardiac septum.
-http://purl.obolibrary.org/obo/GO_0016265	death	null
+http://purl.obolibrary.org/obo/GO_0016265	obsolete death	null
 http://purl.obolibrary.org/obo/UBERON_0004294	glomerular capillary endothelium	An endothelium that is part of a glomerular capillary.
 http://purl.obolibrary.org/obo/OBA_0005071	myocardium of atrium morphology	The morphology of a myocardium of atrium.
 http://purl.obolibrary.org/obo/OBA_0005070	endocardium of atrium morphology	The morphology of a endocardium of atrium.
@@ -6898,7 +6898,7 @@ http://purl.obolibrary.org/obo/UBERON_0004061	neural tube mantle layer	The layer
 http://purl.obolibrary.org/obo/UBERON_0004062	neural tube marginal layer	The outermost layer of the neural tube that consists of axons from the developing mantle layer and will form the white matter
 http://purl.obolibrary.org/obo/UBERON_0005391	cortical layer II	Layer of neocortex lying just deep to molecular layer characterized by numerous small cell bodies.
 http://purl.obolibrary.org/obo/UBERON_0004060	neural tube ventricular layer	The layer of undifferentiated, proliferating cells that line the neural tube lumen that is the immediate transformation of the germinal neuroepithelium
-http://purl.obolibrary.org/obo/GO_0060156	milk ejection	null
+http://purl.obolibrary.org/obo/GO_0060156	milk ejection reflex	null
 http://purl.obolibrary.org/obo/UBERON_0004058	biliary ductule	One of the fine terminal elements of the bile duct system, leaving the portal canal, and pursuing a course at the periphery of a lobule of the liver[BTO]. the excretory ducts of the liver that connect the interlobular ductules to the right or left hepatic duct[MP]
 http://purl.obolibrary.org/obo/UBERON_0004059	spinal cord medial motor column	The subclasses of motor neurons which project their axons to axial muscles that lie close to the vertebral column; motor neurons in the lateral subdivision of the MMC project their axons to body wall muscles
 http://purl.obolibrary.org/obo/UBERON_0004056	primitive groove	The shallow valley that extends along the length of the primitive streak[MP]
@@ -6956,7 +6956,6 @@ http://purl.obolibrary.org/obo/UBERON_0004090	periorbital region	.
 http://purl.obolibrary.org/obo/OBA_0006124	os clitoris length	The length of a os clitoris.
 http://purl.obolibrary.org/obo/OBA_0006123	os clitoris width	The width of a os clitoris.
 http://purl.obolibrary.org/obo/OBA_0006122	os clitoris shape	The shape of a os clitoris.
-http://purl.obolibrary.org/obo/OBA_0006121	os clitoris morphology	The morphology of a os clitoris.
 http://purl.obolibrary.org/obo/UBERON_0004089	midface	The middle of the face including the nose and its associated bony structures[MW].
 http://purl.obolibrary.org/obo/UBERON_0004087	vena cava	Any of the veins that carries deoxygenated blood from a part of the body into the right atrium of the heart.
 http://purl.obolibrary.org/obo/UBERON_0001812	palpebral conjunctiva	The part of the conjunctiva, a thin transparent mucous membrane, that covers the posterior surface of the eyelids.
@@ -7040,7 +7039,7 @@ http://purl.obolibrary.org/obo/PATO_0015007	null	null
 http://purl.obolibrary.org/obo/UBERON_0005373	spinal cord dorsal column	the wedge-shaped fiber bundle of white matter in the dorsomedial side of the spinal cord that is made up of the fasciculus gracilis and fasciculus cuneatus; it is part of the ascending posterior column-medial lemniscus pathway that is important for well-localized fine touch and conscious proprioception
 http://purl.obolibrary.org/obo/UBERON_0004041	spleen primary B follicle	The nodules of small undifferentiated B lymphocytes and follicular dendritic cells located in the spleen white pulp
 http://purl.obolibrary.org/obo/UBERON_0005372	hippocampus stratum radiatum	The layer located immediately above the pyramidal cell layer in CA2 and CA1 and superficial to the stratum lucidum in CA3. Suprapyramidal region in which CA3 to CA3 associational connections and CA3 to CA1 Schaffer collateral connections are located.
-http://purl.obolibrary.org/obo/GO_0030317	sperm motility	null
+http://purl.obolibrary.org/obo/GO_0030317	flagellated sperm motility	null
 http://purl.obolibrary.org/obo/UBERON_0004042	spleen secondary B follicle	The nodules of antigen-activated, differentiating B cells, follicular dendritic cells, antigen-presenting T cells and macrophages in the spleen white pulp
 http://purl.obolibrary.org/obo/UBERON_0005371	hippocampus stratum oriens	Layer that is part of the CA fields of the hippocampus consisting of a narrow relatively cell free layer located deep to the pyramidal cell layer extending through areas CA1, CA2 and CA3. (adapted from Paxinos The rat central nervous system, 2nd ed, Academic Press, San Diego, 1995)
 http://purl.obolibrary.org/obo/UBERON_0005370	hippocampus stratum lacunosum	null
@@ -7144,7 +7143,6 @@ http://purl.obolibrary.org/obo/UBERON_0001828	gingiva	The fibrous investing tiss
 http://purl.obolibrary.org/obo/OBA_VT0002847	glomerular filtration trait	The proportionality to of a glomerular filtration.
 http://purl.obolibrary.org/obo/OBA_0006113	os penis width	The width of a os penis.
 http://purl.obolibrary.org/obo/OBA_0006112	os penis shape	The shape of a os penis.
-http://purl.obolibrary.org/obo/OBA_0006111	os penis morphology	The morphology of a os penis.
 http://purl.obolibrary.org/obo/UBERON_0004099	joint space of elbow	Joint cavity shared by all the joints of the elbow. The elbow joint is a compound joint that actually comprises three separate joints: the joints connecting the upper and lower arm: 1) Articulatio humero-ulnaris and 2) Articulatio humero-radialis as well as the proximal joint connecting the forarm bones: 3) Articulatio radio-ulnaris proximalis. All three share a joint cavity which is highly sinuated/scalloped/coved. Joint spaces of the elbow summarizes the joint cavity shared by all three adjoining joints of the elbow joint.
 http://purl.obolibrary.org/obo/UBERON_0001823	nasal cartilage	One of the cartilage structures in the nose that provide form and support[WP].
 http://purl.obolibrary.org/obo/UBERON_0001825	paranasal sinus	the paired air-filled cavities surrounded by the bones of the face that are lined by mucous membranes and are continuous with the nasal cavity
@@ -7408,7 +7406,6 @@ http://purl.obolibrary.org/obo/OBA_0003886	glucose import rate	The rate of a glu
 http://purl.obolibrary.org/obo/OBA_0002555	lumbar vertebra 2 structure	The structure of a lumbar vertebra 2.
 http://purl.obolibrary.org/obo/OBA_0003883	hepatocyte proliferation rate	The rate of a hepatocyte proliferation.
 http://purl.obolibrary.org/obo/OBA_0002552	cervical vertebral arch joint structure	The structure of a cervical vertebral arch joint.
-http://purl.obolibrary.org/obo/OBA_0003884	cell mass	The mass of a cell.
 http://purl.obolibrary.org/obo/OBA_0002553	bony vertebral centrum spatial pattern	The spatial pattern of a bony vertebral centrum.
 http://purl.obolibrary.org/obo/OBA_0003881	pharyngeal arch size	The size of a pharyngeal arch.
 http://purl.obolibrary.org/obo/OBA_0002550	vertebral column mass density	The mass density of a vertebral column.
@@ -7564,7 +7561,7 @@ http://purl.obolibrary.org/obo/UBERON_0006558	lymphatic part of lymphoid system	
 http://purl.obolibrary.org/obo/OBA_VT0005160	urine protein amount	The amount of a protein when measured in urine.
 http://purl.obolibrary.org/obo/GO_0031514	motile cilium	null
 http://purl.obolibrary.org/obo/CL_0002038	T follicular helper cell	null
-http://purl.obolibrary.org/obo/GO_0031513	nonmotile primary cilium	null
+http://purl.obolibrary.org/obo/GO_0031513	null	null
 http://purl.obolibrary.org/obo/OBA_VT0005169	male meiosis trait	The male of a meiotic nuclear division.
 http://purl.obolibrary.org/obo/UBERON_0018551	central incisor tooth	null
 http://purl.obolibrary.org/obo/OBA_0003800	bile duct amount	The amount of a bile duct.
@@ -7615,7 +7612,7 @@ http://purl.obolibrary.org/obo/UBERON_0001750	lacrimal apparatus	A network of or
 http://purl.obolibrary.org/obo/OBA_VT0005198	aqueous drainage system morphology trait	The morphology of a aqueous drainage system.
 http://purl.obolibrary.org/obo/OBA_VT0005197	uvea morphology trait	The morphology of a uvea.
 http://purl.obolibrary.org/obo/OBA_VT0005195	posterior eye segment morphology trait	The morphology of a posterior segment of eyeball.
-http://purl.obolibrary.org/obo/SO_0000352	null	null
+http://purl.obolibrary.org/obo/SO_0000352	DNA	null
 http://purl.obolibrary.org/obo/UBERON_0001757	pinna	The part of the ear that projects from the head, connecting to the external acoustic meatus.
 http://purl.obolibrary.org/obo/UBERON_0001756	middle ear	The middle ear is the air-filled cavity within the skull of vertebrates that lies between the outer ear and the inner ear. It is linked to the pharynx (and therefore to outside air) via the Eustachian tube and in mammals contains the three ear ossicles, which transmit auditory vibrations from the outer ear (via the tympanum) to the inner ear (via the oval window)[GO].
 http://purl.obolibrary.org/obo/UBERON_0001759	vagus nerve	Cranial nerve that branches into the lateral (to body sense organs) and the intestino-accessorial (to the skin, muscles of shoulder, hyoid, larynx, gut, lungs, and heart).
@@ -7907,7 +7904,7 @@ http://purl.obolibrary.org/obo/UBERON_0002033	arrector muscle of hair	A tiny smo
 http://purl.obolibrary.org/obo/UBERON_0004693	Peyer's patch epithelium	the specialized epithelium of the Peyer's patch
 http://purl.obolibrary.org/obo/UBERON_0002032	areola	Subdivision of breast which consists of skin, connective tissue and smooth muscle bundle and modified sebaceous glands and which surrounds the nipple.
 http://purl.obolibrary.org/obo/UBERON_0002038	substantia nigra	Predominantly gray matter midbrain structure lying dorsal to the crus cerebri and ventral to the midbrain tegmentum. It is divided into a dorsal, cellularly compact region known as the pars compacta and a more ventrally located, containing more loosely packed cells, the pars reticulata. The most lateral region of the reticulata is identified as the pars lateralis (MM).
-http://purl.obolibrary.org/obo/GO_0001569	patterning of blood vessels	null
+http://purl.obolibrary.org/obo/GO_0001569	branching involved in blood vessel morphogenesis	null
 http://purl.obolibrary.org/obo/GO_0001568	blood vessel development	null
 http://purl.obolibrary.org/obo/UBERON_0002051	epithelium of bronchiole	An epithelium that is part of a bronchiole [Automatically generated definition].
 http://purl.obolibrary.org/obo/UBERON_0002046	thyroid gland	A two-lobed endocrine gland found in all vertebrates, located in front of and on either side of the trachea in humans, and producing various hormones, such as triiodothyronine and calcitonin[BTO].
@@ -8236,7 +8233,6 @@ http://purl.obolibrary.org/obo/OBA_0004165	gonad mesenchyme morphology	The morph
 http://purl.obolibrary.org/obo/OBA_0005496	mitochondrial inner membrane morphology	The morphology of a mitochondrial inner membrane.
 http://purl.obolibrary.org/obo/OBA_0004166	adipose tissue functionality	The functionality of a adipose tissue.
 http://purl.obolibrary.org/obo/OBA_0005495	mitochondrion size	The size of a mitochondrion.
-http://purl.obolibrary.org/obo/OBA_0004163	cell functionality	The functionality of a cell.
 http://purl.obolibrary.org/obo/OBA_0005494	aging rate	The rate of a aging.
 http://purl.obolibrary.org/obo/OBA_0004164	heart right ventricle degeneration	The degeneration of a heart right ventricle.
 http://purl.obolibrary.org/obo/GO_0030017	sarcomere	null
@@ -9572,7 +9568,7 @@ http://purl.obolibrary.org/obo/OBA_VT0004252	heart tube looping direction	The di
 http://purl.obolibrary.org/obo/OBA_0005161	optic canal morphology	The morphology of a optic canal.
 http://purl.obolibrary.org/obo/OBA_0005160	vertebral bone 2 branchiness	The branchiness of a vertebral bone 2.
 http://purl.obolibrary.org/obo/GO_0051546	keratinocyte migration	null
-http://purl.obolibrary.org/obo/GO_0099524	null	null
+http://purl.obolibrary.org/obo/GO_0099524	postsynaptic cytosol	null
 http://purl.obolibrary.org/obo/OBA_VT0004256	placenta maternal decidual layer morphology trait	The morphology of a decidua.
 http://purl.obolibrary.org/obo/OBA_VT0005584	enzyme/coenzyme activity trait	The quality of a catalytic activity.
 http://purl.obolibrary.org/obo/OBA_VT0004257	placenta mass	The weight of a placenta.
