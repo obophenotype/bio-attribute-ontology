@@ -105,6 +105,8 @@ mirror/%.obo:
 mirror/%.owl: mirror/%.obo
 	owltools $< --remove-annotation-assertions -r -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
 .PRECIOUS: mirror/%.owl
+mirror/go.owl: mirror/go.obo
+	owltools $< --remove-annotation-assertions -r -l --remove-dangling-annotations --remove-axioms -t DisjointWith --make-subset-by-properties -f $(KEEPRELS)  -o $@
 mirror/ro.owl:
 	owltools $(OBO)/ro.owl --merge-imports-closure -o $@
 .PRECIOUS: mirror/%.owl
