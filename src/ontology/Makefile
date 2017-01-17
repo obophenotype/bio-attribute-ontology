@@ -24,20 +24,23 @@ oba-core.obo: oba-core.owl
 test: oba-core.owl
 	robot reason -i $< 
 
+ROBOT_JAVA_ARGS = -Xmx12G
 # perform inference on source+modules
-oba-core-inferred.owl: oba-core.owl all_imports modules/existential-graph.owl 
-	owltools $(USECAT) $< modules/existential-graph.owl --merge-support-ontologies --assert-inferred-subclass-axioms --allowEquivalencies --always-assert-super-classes --markIsInferred --reasoner mexr --remove-redundant-inferred-svfs  -o $@
+oba-materialized.owl: oba-core.owl all_imports basic_properties.txt
+	ROBOT_JAVA_ARGS=$(ROBOT_JAVA_ARGS) robot -vv materialize -T basic_properties.txt -i $< relax reduce  -o $@.tmp.owl && mv $@.tmp.owl $@
+.PRECIOUS: oba-materialized.owl
+#oba-materialized.owl: oba-core.owl all_imports modules/existential-graph.owl 
+#	owltools $(USECAT) $< modules/existential-graph.owl --merge-support-ontologies --assert-inferred-subclass-axioms --allowEquivalencies --always-assert-super-classes --markIsInferred --reasoner mexr --remove-redundant-inferred-svfs  -o $@
 
-subsets/oba-basic.owl: oba-core-inferred.owl
+subsets/oba-basic.owl: oba.owl
 	owltools $(USECAT) $< --remove-imports-declarations --make-subset-by-properties -f BFO:0000050 --remove-dangling --remove-axioms -t EquivalentClasses --set-ontology-id $(OBO)/oba/$@ -o $@
 subsets/oba-basic.obo: subsets/oba-basic.owl
 	owltools $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 
-oba.owl: oba-core-inferred.owl
-	owltools $(USECAT) $< --set-ontology-id $(OBO)/$@ -o $@
+# TODO: fold into previous set
+oba.owl: oba-materialized.owl
+	owltools  $(USECAT) $< --remove-import-declaration $(OBO)/oba/imports/reasoner_axioms.owl --set-ontology-id $(OBO)/$@ -o $@
 
-#oba.owl: oba-core-inferred.owl modules/vt.obo
-#	owltools $(USECAT) $^ --merge-support-ontologies -o $@
 oba.obo: oba.owl
 	owltools $(USECAT) $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 
@@ -75,8 +78,11 @@ IMPORTS = pato uberon chebi po go cl so pr
 
 # Make this target to regenerate ALL
 all_imports_owl: $(patsubst %, imports/%_import.owl,$(IMPORTS))
+	touch $@
 all_imports_obo: $(patsubst %, imports/%_import.obo,$(IMPORTS))
+	touch $@
 all_imports: all_imports_owl all_imports_obo
+	touch $@
 
 KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of
 
