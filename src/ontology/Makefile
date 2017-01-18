@@ -24,20 +24,33 @@ oba-core.obo: oba-core.owl
 test: oba-core.owl
 	robot reason -i $< 
 
-# perform inference on source+modules
-oba-core-inferred.owl: oba-core.owl all_imports modules/existential-graph.owl 
-	owltools $(USECAT) $< modules/existential-graph.owl --merge-support-ontologies --assert-inferred-subclass-axioms --allowEquivalencies --always-assert-super-classes --markIsInferred --reasoner mexr --remove-redundant-inferred-svfs  -o $@
+ROBOT_JAVA_ARGS = -Xmx12G
+# perform materialization.
+# Note we use robot materialize plus a subset of properties, see https://github.com/obophenotype/bio-attribute-ontology/issues/8
+oba-materialized.owl: oba-core.owl all_imports basic_properties.txt
+	ROBOT_JAVA_ARGS=$(ROBOT_JAVA_ARGS) robot -vv materialize -T basic_properties.txt -i $<  -o $@.tmp.owl && mv $@.tmp.owl $@
+.PRECIOUS: oba-materialized.owl
 
-subsets/oba-basic.owl: oba-core-inferred.owl
+REFL_ONT = $(OBO)/oba/imports/reasoner_axioms.owl
+oba-materialized-spiked.owl: oba-materialized.owl 
+	owltools $< --add-imports-declarations $(REFL_ONT) -o $@
+
+# Materialization generates redundant links - perform reduction
+# TODO: GO/CL
+ALLOW_EQUIVS=true
+oba-reduced.owl: oba-materialized-spiked.owl
+	ROBOT_JAVA_ARGS=$(ROBOT_JAVA_ARGS) robot -vv reason -r elk -e $(ALLOW_EQUIVS) -i $< relax reduce  -o $@.tmp.owl && mv $@.tmp.owl $@
+.PRECIOUS: oba-materialized.owl
+
+subsets/oba-basic.owl: oba.owl
 	owltools $(USECAT) $< --remove-imports-declarations --make-subset-by-properties -f BFO:0000050 --remove-dangling --remove-axioms -t EquivalentClasses --set-ontology-id $(OBO)/oba/$@ -o $@
 subsets/oba-basic.obo: subsets/oba-basic.owl
 	owltools $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 
-oba.owl: oba-core-inferred.owl
-	owltools $(USECAT) $< --set-ontology-id $(OBO)/$@ -o $@
+# TODO: fold into previous set
+oba.owl: oba-reduced.owl
+	owltools  $(USECAT) $< --remove-import-declaration $(REFL_ONT) --set-ontology-id $(OBO)/$@ -o $@
 
-#oba.owl: oba-core-inferred.owl modules/vt.obo
-#	owltools $(USECAT) $^ --merge-support-ontologies -o $@
 oba.obo: oba.owl
 	owltools $(USECAT) $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 
@@ -75,8 +88,11 @@ IMPORTS = pato uberon chebi po go cl so pr
 
 # Make this target to regenerate ALL
 all_imports_owl: $(patsubst %, imports/%_import.owl,$(IMPORTS))
+	touch $@
 all_imports_obo: $(patsubst %, imports/%_import.obo,$(IMPORTS))
+	touch $@
 all_imports: all_imports_owl all_imports_obo
+	touch $@
 
 KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of
 
@@ -93,12 +109,14 @@ imports/%_import.obo: imports/%_import.owl
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.obo:
-	wget --no-check-certificate $(OBO)/$*.obo -O $@
+	wget --no-check-certificate $(OBO)/$*.obo -O $@ && touch $@
 .PRECIOUS: mirror/%.obo
 
 mirror/%.owl: mirror/%.obo
 	owltools $< --remove-annotation-assertions -r -l --remove-dangling-annotations --make-subset-by-properties -f $(KEEPRELS)  -o $@
 .PRECIOUS: mirror/%.owl
+mirror/go.owl: mirror/go.obo
+	owltools $< --remove-annotation-assertions -r -l --remove-dangling-annotations --remove-disjoints --make-subset-by-properties -f $(KEEPRELS)  -o $@
 mirror/ro.owl:
 	owltools $(OBO)/ro.owl --merge-imports-closure -o $@
 .PRECIOUS: mirror/%.owl
