@@ -377,7 +377,7 @@ http://purl.obolibrary.org/obo/OBA_0003265	neurohypophysis structure	The structu
 http://purl.obolibrary.org/obo/OBA_0003266	neurohypophysis displaced	The displaced of a neurohypophysis.
 http://purl.obolibrary.org/obo/OBA_0004596	internal anal sphincter morphology	The morphology of a internal anal sphincter.
 http://purl.obolibrary.org/obo/OBA_VT0000830	diencephalon morphology trait	The morphology of a diencephalon.
-http://purl.obolibrary.org/obo/OBA_VT0015094	equilibrioception system trait	The quality of a anatomical entity when measured in vestibular system.
+http://purl.obolibrary.org/obo/OBA_VT0015094	equilibrioception system trait	The quality when measured in vestibular system.
 http://purl.obolibrary.org/obo/OBA_VT0000832	thalamus morphology trait	The morphology of a dorsal plus ventral thalamus.
 http://purl.obolibrary.org/obo/OBA_VT0015096	equilibrioception system morphology trait	The morphology of a vestibular system.
 http://purl.obolibrary.org/obo/OBA_VT0000834	subthalamus morphology trait	The morphology of a ventral thalamus.
@@ -592,7 +592,7 @@ http://purl.obolibrary.org/obo/OBA_0005837	conjunctival fornix morphology	The mo
 http://purl.obolibrary.org/obo/OBA_0004506	supraoptic nucleus morphology	The morphology of a supraoptic nucleus.
 http://purl.obolibrary.org/obo/OBA_0005836	eccrine sweat gland amount	The amount of a eccrine sweat gland.
 http://purl.obolibrary.org/obo/OBA_0004505	paraventricular nucleus of hypothalamus morphology	The morphology of a paraventricular nucleus of hypothalamus.
-http://purl.obolibrary.org/obo/OBA_VT0010248	hemolymphoid system trait	The quality of a anatomical entity when measured in hemolymphoid system.
+http://purl.obolibrary.org/obo/OBA_VT0010248	hemolymphoid system trait	The quality when measured in hemolymphoid system.
 http://purl.obolibrary.org/obo/OBA_VT0010247	omasum mass	The mass of a omasum.
 http://purl.obolibrary.org/obo/OBA_VT0010246	omasum capacity	The volume of a omasum.
 http://purl.obolibrary.org/obo/OBA_VT0010245	omasum morphology trait	The morphology of a omasum.
@@ -2557,7 +2557,7 @@ http://purl.obolibrary.org/obo/UBERON_0002206	mammillary body	One of two hemisph
 http://purl.obolibrary.org/obo/UBERON_0002205	manubrium of sternum	The cranial most segment of the sternum. Located ventrally with a quadrangular shape, wider superiorly and narrower inferiorly, it articulates with the clavicles and the first two ribs[MP,WP].
 http://purl.obolibrary.org/obo/OBA_VT1000777	urinary system trait	The quality when measured in renal system.
 http://purl.obolibrary.org/obo/OBA_VT1000776	alimentary system trait	The quality when measured in digestive system.
-http://purl.obolibrary.org/obo/OBA_VT1000775	integumentary system trait	The quality of a anatomical entity when measured in integumental system.
+http://purl.obolibrary.org/obo/OBA_VT1000775	integumentary system trait	The quality when measured in integumental system.
 http://purl.obolibrary.org/obo/GO_0045211	postsynaptic membrane	null
 http://purl.obolibrary.org/obo/GO_0046543	development of secondary female sexual characteristics	null
 http://purl.obolibrary.org/obo/GO_0046544	development of secondary male sexual characteristics	null
@@ -4190,6 +4190,7 @@ http://purl.obolibrary.org/obo/GO_0005789	endoplasmic reticulum membrane	null
 http://purl.obolibrary.org/obo/CL_0002354	yolk sac hematopoietic stem cell	null
 http://purl.obolibrary.org/obo/CL_0002353	fetal liver hematopoietic progenitor cell	null
 http://purl.obolibrary.org/obo/CL_0002355	primitive red blood cell	null
+http://purl.obolibrary.org/obo/OBA_0007000	DNA stability	The macromolecular stability of a DNA.
 http://purl.obolibrary.org/obo/GO_0016446	somatic hypermutation of immunoglobulin genes	null
 http://purl.obolibrary.org/obo/UBERON_0006250	infundibular recess of 3rd ventricle	A funnel-shaped diverticulum that extends downward from the anterior aspect of the floor of the third ventricle into the infundibulum of the hypophysis; the embryonic structure gives rise the neural component of the pituitary (pas nervosa).
 http://purl.obolibrary.org/obo/GO_0030728	ovulation	null
@@ -6131,7 +6132,7 @@ http://purl.obolibrary.org/obo/OBA_VT0000051	testes physiology trait	The functio
 http://purl.obolibrary.org/obo/OBA_0002730	proximal epiphysis of tibia mass density	The mass density of a proximal epiphysis of tibia.
 http://purl.obolibrary.org/obo/OBA_0002731	incisor tooth amount	The amount of a incisor tooth.
 http://purl.obolibrary.org/obo/OBA_VT0001387	spiral ligament size trait	The size of a spiral ligament.
-http://purl.obolibrary.org/obo/OBA_VT0000056	urine trait	The quality of a anatomical entity when measured in urine.
+http://purl.obolibrary.org/obo/OBA_VT0000056	urine trait	The quality when measured in urine.
 http://purl.obolibrary.org/obo/UBERON_0004117	pharyngeal pouch	An internal pocketing of pharyngeal endoderm that contacts a region of ectoderm (a pharyngeal cleft) and interdigitates in the anterior and posterior directions with the pharyngeal arches.
 http://purl.obolibrary.org/obo/OBA_VT0000058	heart muscle compact layer morphology trait	The morphology of a myocardial compact layer.
 http://purl.obolibrary.org/obo/OBA_VT0000057	ossification trait	The quality of a ossification.
@@ -6472,7 +6473,7 @@ http://purl.obolibrary.org/obo/OBA_1000025	breast size	The size of a breast.
 http://purl.obolibrary.org/obo/OBA_1000024	subcutaneous adipose tissue proportionality to	The proportionality to of a subcutaneous adipose tissue.
 http://purl.obolibrary.org/obo/CL_0000974	long lived plasma cell	null
 http://purl.obolibrary.org/obo/OBA_1000023	subcutaneous adipose tissue quality	The quality of a subcutaneous adipose tissue.
-http://purl.obolibrary.org/obo/OBA_0000058	cellular pH	The acidity of a anatomical entity when measured in cell.
+http://purl.obolibrary.org/obo/OBA_0000058	cellular pH	The acidity when measured in cell.
 http://purl.obolibrary.org/obo/OBA_0000057	cellular component size	The size of a cellular_component.
 http://purl.obolibrary.org/obo/OBA_VT0001440	grooming behavior trait	The quality of a grooming behavior.
 http://purl.obolibrary.org/obo/OBA_0000056	cell volume	The volume of a cell.
@@ -6514,7 +6515,7 @@ http://purl.obolibrary.org/obo/OBA_1000004	distance between ears	The length of a
 http://purl.obolibrary.org/obo/OBA_1000003	inter-canthal distance	The length of a anatomical line between inner canthi.
 http://purl.obolibrary.org/obo/OBA_1000002	intermammary line length	The length of a line connecting laterally paired nipples.
 http://purl.obolibrary.org/obo/OBA_1000001	blood brain barrier permeability	The permeability of a blood brain barrier.
-http://purl.obolibrary.org/obo/OBA_0000036	body fluid levels	The volume of a anatomical entity when measured in multicellular organism.
+http://purl.obolibrary.org/obo/OBA_0000036	body fluid levels	The volume when measured in multicellular organism.
 http://purl.obolibrary.org/obo/OBA_0002699	enamel mineralization rate	The rate of a enamel mineralization.
 http://purl.obolibrary.org/obo/OBA_0002697	proximal interphalangeal joint structure	The structure of a proximal interphalangeal joint.
 http://purl.obolibrary.org/obo/OBA_0000037	brood size	null
@@ -6574,7 +6575,7 @@ http://purl.obolibrary.org/obo/OBA_1000069	epiplastron mass	The mass of a epipla
 http://purl.obolibrary.org/obo/OBA_1000068	epiplastron size	The size of a epiplastron.
 http://purl.obolibrary.org/obo/OBA_0000092	lysosomal membrane permeability	The permeability of a lysosomal membrane.
 http://purl.obolibrary.org/obo/OBA_1000067	endochondral bone quality	The quality of a endochondral bone.
-http://purl.obolibrary.org/obo/OBA_0000091	lysosomal lumen pH	The acidity of a anatomical entity when measured in lysosomal lumen.
+http://purl.obolibrary.org/obo/OBA_0000091	lysosomal lumen pH	The acidity when measured in lysosomal lumen.
 http://purl.obolibrary.org/obo/OBA_VT0000150	rib morphology trait	The morphology of a rib.
 http://purl.obolibrary.org/obo/OBA_VT0000152	proximal rib morphology trait	The morphology of a proximal segment of rib.
 http://purl.obolibrary.org/obo/OBA_1000062	trophosome quality	The quality of a trophosome.
@@ -7506,7 +7507,7 @@ http://purl.obolibrary.org/obo/UBERON_0018594	upper lateral primary incisor toot
 http://purl.obolibrary.org/obo/UBERON_0018595	lower central primary incisor tooth	A lower primary incisor tooth that is in_the_central_side_of a dentition.
 http://purl.obolibrary.org/obo/UBERON_0018593	upper central primary incisor tooth	A upper primary canine tooth that is in_the_central_side_of a dentition.
 http://purl.obolibrary.org/obo/OBA_0006039	concentration of of calcium ion in postsynaptic cytosol	The concentration of of a calcium ion when measured in postsynaptic cytosol.
-http://purl.obolibrary.org/obo/OBA_0006038	DNA stability	The concentration of of a calcium ion when measured in cytosol.
+http://purl.obolibrary.org/obo/OBA_0006038	concentration of of calcium ion in cytosol	The concentration of of a calcium ion when measured in cytosol.
 http://purl.obolibrary.org/obo/OBA_0006037	lacrimal sac morphology	The morphology of a lacrimal sac.
 http://purl.obolibrary.org/obo/OBA_VT0005109	talus morphology trait	The morphology of a talus.
 http://purl.obolibrary.org/obo/OBA_VT0005108	ulna morphology trait	The morphology of a ulna.
@@ -8487,7 +8488,7 @@ http://purl.obolibrary.org/obo/OBA_0004094	epididymis size	The size of a epididy
 http://purl.obolibrary.org/obo/OBA_VT0004035	sublingual gland morphology trait	The morphology of a sublingual gland.
 http://purl.obolibrary.org/obo/GO_0007608	sensory perception of smell	null
 http://purl.obolibrary.org/obo/GO_0007605	sensory perception of sound	null
-http://purl.obolibrary.org/obo/OBA_VT0005369	muscular system trait	The quality of a anatomical entity when measured in musculature of body.
+http://purl.obolibrary.org/obo/OBA_VT0005369	muscular system trait	The quality when measured in musculature of body.
 http://purl.obolibrary.org/obo/OBA_0004080	collecting duct of renal tubule size	The size of a collecting duct of renal tubule.
 http://purl.obolibrary.org/obo/OBA_0004081	spiral ligament degeneration	The degeneration of a spiral ligament.
 http://purl.obolibrary.org/obo/GO_0007610	behavior	null
@@ -8567,15 +8568,15 @@ http://purl.obolibrary.org/obo/OBA_VT0004077	striatum morphology trait	The morph
 http://purl.obolibrary.org/obo/OBA_VT0004078	caudate nucleus morphology trait	The morphology of a caudate nucleus.
 http://purl.obolibrary.org/obo/UBERON_0003299	roof plate of midbrain	the mesencephalic roof plate, including the caudal and rostral part of the midbrain roof
 http://purl.obolibrary.org/obo/OBA_VT0004062	right atrium capacity	The volume of a right cardiac atrium.
-http://purl.obolibrary.org/obo/OBA_VT0005394	olfactory system trait	The quality of a anatomical entity when measured in olfactory system.
+http://purl.obolibrary.org/obo/OBA_VT0005394	olfactory system trait	The quality when measured in olfactory system.
 http://purl.obolibrary.org/obo/OBA_VT0004063	left atrium capacity	The volume of a left cardiac atrium.
 http://purl.obolibrary.org/obo/OBA_VT0004069	muscle spindle morphology trait	The morphology of a muscle spindle.
 http://purl.obolibrary.org/obo/OBA_VT0004066	primitive node morphology trait	The morphology of a primitive knot.
 http://purl.obolibrary.org/obo/OBA_VT0005380	embryonic development trait	The quality of a embryo development.
 http://purl.obolibrary.org/obo/OBA_VT0004054	periocular mesenchyme morphology trait	The morphology of a periocular mesenchyme.
 http://purl.obolibrary.org/obo/OBA_VT0005382	head trait	The quality of a head.
-http://purl.obolibrary.org/obo/OBA_VT0005389	reproductive system trait	The quality of a anatomical entity when measured in reproductive system.
-http://purl.obolibrary.org/obo/OBA_VT0005388	respiratory system trait	The quality of a anatomical entity when measured in respiratory system.
+http://purl.obolibrary.org/obo/OBA_VT0005389	reproductive system trait	The quality when measured in reproductive system.
+http://purl.obolibrary.org/obo/OBA_VT0005388	respiratory system trait	The quality when measured in respiratory system.
 http://purl.obolibrary.org/obo/OBA_VT0004043	pH regulation trait	The quality of a regulation of pH.
 http://purl.obolibrary.org/obo/OBA_VT0005372	life span trait	The quality of a life cycle.
 http://purl.obolibrary.org/obo/OBA_VT0004047	milk trait	The composition of a milk.
@@ -9530,7 +9531,7 @@ http://purl.obolibrary.org/obo/OBA_0005185	hematopoietic stem cell functionality
 http://purl.obolibrary.org/obo/OBA_VT0004274	embryonic/fetal subventricular zone morphology trait	The morphology of a ganglionic eminence.
 http://purl.obolibrary.org/obo/UBERON_0003089	sclerotome	Ventral somitic compartment that is a precursor of the axial skeleton[XAO]. Sclerotomes eventually differentiate into the vertebrae and most of the skull. The caudal (posterior) half of one sclerotome fuses with the rostral (anterior) half of the adjacent one to form each vertebra. From their initial location within the somite, the sclerotome cells migrate medially towards the notochord. These cells meet the sclerotome cells from the other side to form the vertebral body. From this vertebral body, sclerotome cells move dorsally and surround the developing spinal cord, forming the vertebral arch[WP].
 http://purl.obolibrary.org/obo/OBA_0005184	tooth enamel organ morphology	The morphology of a tooth enamel organ.
-http://purl.obolibrary.org/obo/OBA_VT0004271	paw/hand/foot/hoof morphology trait	The morphology of a anatomical entity when measured in autopod region.
+http://purl.obolibrary.org/obo/OBA_VT0004271	paw/hand/foot/hoof morphology trait	The morphology when measured in autopod region.
 http://purl.obolibrary.org/obo/OBA_0005183	pre-Botzinger complex functionality	The functionality of a pre-Botzinger complex.
 http://purl.obolibrary.org/obo/OBA_0005182	pre-Botzinger complex morphology	The morphology of a pre-Botzinger complex.
 http://purl.obolibrary.org/obo/OBA_VT0004272	basement membrane morphology trait	The morphology of a basement membrane.

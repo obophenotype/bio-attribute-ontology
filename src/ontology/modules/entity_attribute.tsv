@@ -6349,7 +6349,6 @@ OBA:0006034		UBERON:0004734	gastrula	PATO:0000051	morphology
 OBA:0006035		UBERON:0013475	gustatory gland	PATO:0000051	morphology
 OBA:0006036		UBERON:0010207	nictitating membrane	PATO:0000051	morphology
 OBA:0006037		UBERON:0001351	lacrimal sac	PATO:0000051	morphology
-OBA:0006038	DNA stability	SO:0000352	DNA	OBA:0001001	macromolecular stability
 OBA:0006101		UBERON:0007719	bone of reproductive structure	PATO:0000051	morphology
 OBA:0006102		UBERON:0007719	bone of reproductive structure	PATO:0000052	shape
 OBA:0006103		UBERON:0007719	bone of reproductive structure	PATO:0000921	width
@@ -6360,3 +6359,4 @@ OBA:0006114		UBERON:0006435	os penis	PATO:0000122	length
 OBA:0006122		UBERON:0006440	os clitoris	PATO:0000052	shape
 OBA:0006123		UBERON:0006440	os clitoris	PATO:0000921	width
 OBA:0006124		UBERON:0006440	os clitoris	PATO:0000122	length
+OBA:0007000	DNA stability	SO:0000352	DNA	OBA:0001001	macromolecular stability

@@ -158,31 +158,8 @@ OBA:VT1000479	muscle lipid amount	CHEBI:18059	lipid	PATO:0000070	amount	UBERON:0
 OBA:VT1000670	blood cortisol amount	CHEBI:17650	cortisol	PATO:0000070	amount	UBERON:0000178	blood
 OBA:VT1000761	muscle nitrogen amount	CHEBI:17997	dinitrogen	PATO:0000070	amount	UBERON:0001630	muscle organ
 OBA:VT1000764	muscle myoglobin amount	CHEBI:7044	myoglobin	PATO:0000070	amount	UBERON:0001630	muscle organ
-OBA:0000091	lysosomal lumen pH	UBERON:0001062	anatomical entity	PATO:0001842	acidity	GO:0043202	lysosomal lumen
-OBA:VT0000056	urine trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0001088	urine
-OBA:VT0000069	embryo trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0000922	embryo
-OBA:VT0005369	muscular system trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0000383	musculature of body
-OBA:VT0005388	respiratory system trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0001004	respiratory system
-OBA:VT0005389	reproductive system trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0000990	reproductive system
-OBA:VT0005394	olfactory system trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0005725	olfactory system
-OBA:VT0010248	hemolymphoid system trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0002193	hemolymphoid system
-OBA:VT0010256	colostrum trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0001914	colostrum
-OBA:VT0010454	organism trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0000468	multicellular organism
-OBA:VT0015060	rump trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0005473	sacral region
-OBA:VT0015065	gustatory system trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0001033	gustatory system
-OBA:VT0015074	organ system trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0000467	anatomical system
-OBA:VT0015094	equilibrioception system trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0004681	vestibular system
-OBA:VT1000775	integumentary system trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0002416	integumental system
-OBA:VT1000776	alimentary system trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0001007	digestive system
-OBA:VT1000777	urinary system trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0001008	renal system
-OBA:VT1000781	nervous/sensory system trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0001016	nervous system
-OBA:VT1000783	immune system trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0002405	immune system
-OBA:VT1000784	circulatory system trait	UBERON:0001062	anatomical entity	PATO:0000001	quality	UBERON:0001009	circulatory system
 OBA:VT0002455	dendritic cell antigen presentation trait	GO:0019882	antigen processing and presentation	PATO:0002045	dendritic	GO:0005623	cell
-OBA:0000036	body fluid levels	UBERON:0001062	anatomical entity	PATO:0000918	volume	UBERON:0000468	multicellular organism
-OBA:0000058	cellular pH	UBERON:0001062	anatomical entity	PATO:0001842	acidity	GO:0005623	cell
 OBA:VT0004368	stria vascularis blood vessel morphology trait	UBERON:0001981	blood vessel	PATO:0000051	morphology	UBERON:0002282	stria vascularis of cochlear duct
-OBA:VT0004271	paw/hand/foot/hoof morphology trait	UBERON:0001062	anatomical entity	PATO:0000051	morphology	UBERON:0002470	autopod region
 OBA:0000103	mitochondrial mRNA stability	SO:0000234	mRNA	OBA:0001001	macromolecular stability	GO:0005739	mitochondrion
 OBA:0000106	mitochondrial rRNA stability	SO:0000252	rRNA	OBA:0001001	macromolecular stability	GO:0005739	mitochondrion
 OBA:0000003	ER calcium ion concentration	CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005783	endoplasmic reticulum
