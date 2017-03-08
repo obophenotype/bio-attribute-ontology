@@ -162,23 +162,6 @@ modules/has_part.csv:  $(patsubst %, modules/%.csv, $(MODS))
 modules/existential-graph.owl: oba-core.owl
 	owltools $(USECAT) $< --merge-support-ontologies --reasoner elk --silence-elk --materialize-gcis --reasoner mexr --remove-redundant-inferred-svfs --reasoner elk --remove-redundant-svfs  --set-ontology-id $(OBO)/oba/$@ -o $@
 
-# ----------------------------------------
-# OBOL
-# ----------------------------------------
-vocab/vt.tsv:
-	blip-findall  -i modules/vt.obo entity_label_or_exact_synonym/2 -no_pred | perl -npe 's@ trait$$@@' > $@
-vocab/q.tsv:
-	blip-findall  -r pato entity_label_or_exact_synonym/2 -no_pred > $@
-
-vt-new.tsv:
-	obo-split-terms.pl vocab/vt.tsv vocab/e.tsv vocab/q.tsv | perl -npe 's@VT:@OBA:VT@' | sort -u > $@
-
-vt-loc-new.tsv:
-	obo-split-terms.pl vocab/vt.tsv vocab/e.tsv vocab/e.tsv vocab/q.tsv | perl -npe 's@VT:@OBA:VT@' | sort -u > $@
-
-# merge-pattern-tsv.pl vt-new.tsv modules/entity_attribute.tsv
-# merge-pattern-tsv.pl -s -b 2 -u 9999 -l 1999 -m -n -k 3,5 reports/eq_mp.tsv modules/entity_attribute.tsv modules/attribute_location.tsv modules/entity_attribute_location.tsv
-
 
 # ----------------------------------------
 # SPARQL REPORTS
@@ -187,44 +170,3 @@ vt-loc-new.tsv:
 reports/oba-%.csv: oba.owl ../sparql/%.sparql
 	arq --data $< --query ../sparql/$*.sparql --results csv > $@.tmp && ./util/curiefy-purls.pl $@.tmp > $@ && rm $@.tmp
 
-# ----------------------------------------
-# AD-HOC BLIP REPORTS
-# ----------------------------------------
-# See: https://github.com/Planteome/plant-trait-ontology/issues/302
-
-reports/vt-viol.tsv: oba-edit.obo
-	blip-findall  -i $< -r uberons "subclass(X,Y),P=attribute_of,differentium(X,P,XQ),id_idspace(XQ,'UBERON'),differentium(Y,P,YQ),id_idspace(YQ,'UBERON'),\+parentRT(XQ,YQ)" -select "x(X,Y,XQ,YQ)" -label -no_pred > $@
-
-reports/pato-viol.tsv: oba-edit.obo
-	blip-findall  -i $< -r pato "subclass(X,Y),P=affects_quality,differentium(X,P,XQ),differentium(Y,P,YQ),\+subclassRT(XQ,YQ)" -select "x(X,Y,XQ,YQ)" -label -no_pred > $@
-
-reports/po-viol.tsv: oba-edit.obo
-	blip-findall  -i $< -r PO "subclass(X,Y),P=attribute_of,differentium(X,P,XQ),id_idspace(XQ,'PO'),differentium(Y,P,YQ),id_idspace(YQ,'PO'),\+parentRT(XQ,YQ)" -select "x(X,Y,XQ,YQ)" -label -no_pred > $@
-
-reports/po-sc-viol.tsv: oba-edit.obo
-	blip-findall  -i $< -r PO "subclass(X,Y),P=attribute_of,differentium(X,P,XQ),id_idspace(XQ,'PO'),differentium(Y,P,YQ),id_idspace(YQ,'PO'),\+subclassRT(XQ,YQ)" -select "x(X,Y,XQ,YQ)" -label -no_pred > $@
-
-reports/eq_hp.tsv: hp-ldefs.obo
-	blip-findall -r go -r uberonp -r pato -r pato -r CL -i $< -consult util/patterns.pro eq_pheno/3 -no_pred -label -use_tabs > $@
-reports/eq_mp.tsv: mp-ldefs.obo
-	blip-findall -r go -r uberonp -r pato  -r CL -i $< -consult util/patterns.pro eq_pheno/3 -no_pred -label -use_tabs > $@
-
-reports/eq.tsv: oba-edit.obo
-	blip-findall -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eq/3 -no_pred -label -use_tabs > $@
-reports/eq_root.tsv: oba-edit.obo
-	blip-findall -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eq_root/3 -no_pred -label -use_tabs > $@.tmp && ./util/fix-ids.pl $@.tmp > $@
-reports/eq_eroot.tsv: oba-edit.obo
-	blip-findall -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eq_eroot/3 -no_pred -label -use_tabs > $@.tmp && ./util/fix-ids.pl $@.tmp > $@
-reports/eqw.tsv: oba-edit.obo
-	blip-findall -r chebi -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eqw/4 -no_pred -label -use_tabs > $@.tmp && ./util/fix-ids.pl $@.tmp > $@
-reports/eqw2.tsv: oba-edit.obo
-	blip-findall -r chebi -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eqw2/4 -no_pred -label -use_tabs > $@.tmp && ./util/fix-ids.pl $@.tmp > $@
-reports/eqw_root.tsv: oba-edit.obo
-	blip-findall -r chebi -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eqw_root/4 -no_pred -label -use_tabs > $@.tmp && ./util/fix-ids.pl $@.tmp > $@
-reports/eqw_root2.tsv: oba-edit.obo
-	blip-findall -r chebi -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eqw_root2/4 -no_pred -label -use_tabs > $@.tmp && ./util/fix-ids.pl $@.tmp > $@
-reports/eq_oba.tsv: oba-edit.obo
-	blip-findall -r go  -r pato -r uberonp -r pato -r CL -i $< -consult util/patterns.pro eq_oba/3 -no_pred -label -use_tabs > $@
-
-reports/patterns.tsv: oba-edit.obo
-	blip-findall -i $< -consult util/patterns.pro idspace_pattern/3 -no_pred > $@
