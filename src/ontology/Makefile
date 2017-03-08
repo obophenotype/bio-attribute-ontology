@@ -146,7 +146,7 @@ all_modules: all_modules_owl all_modules_obo modules/has_part.owl
 all_modules_owl: $(patsubst %, modules/%.owl, $(MODS))
 all_modules_obo: $(patsubst %, modules/%.obo, $(MODS))
 
-modules/%-main.owl: modules/%.tsv patterns/%.yaml
+modules/%-main.owl: modules/%.csv patterns/%.yaml
 	apply-pattern.py -P curie_map.yaml -b http://purl.obolibrary.org/obo/ -i $< -p patterns/$*.yaml -G modules/$*-gci.owl > $@.tmp && mv $@.tmp $@
 modules/%.owl: modules/%-main.owl modules/%-gci.owl
 	owltools $^ --merge-support-ontologies --set-ontology-id $(OBO)/oba/$@ -o -f ofn $@
@@ -155,7 +155,7 @@ modules/%.obo: modules/%.owl
 	owltools $< -o -f obo $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 
 # VT is isolated to prevent isa-poisoning
-modules/has_part.tsv:  $(patsubst %, modules/%.tsv, $(MODS))
+modules/has_part.csv:  $(patsubst %, modules/%.csv, $(MODS))
 	./util/make-vt-equiv-tsv.pl $^ > $@
 
 # uses expression-materializing reasoner to infer superclasses and super parent expressions;
