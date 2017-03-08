@@ -687,6 +687,7 @@ creation_date: 2013-06-17T17:53:39Z
 id: OBA:1000034
 name: cell surface area
 synonym: "cell surface area trait" EXACT [GOC:TermGenie]
+property_value: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-08-06T20:05:54Z
 
@@ -703,6 +704,7 @@ creation_date: 2013-09-25T23:32:06Z
 id: OBA:1000036
 name: cell mass
 synonym: "cell mass trait" EXACT [GOC:TermGenie]
+property_value: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-09-30T20:01:39Z
 
@@ -710,6 +712,7 @@ creation_date: 2013-09-30T20:01:39Z
 id: OBA:1000037
 name: adult organism mass
 synonym: "adult organism mass trait" EXACT [GOC:TermGenie]
+property_value: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-10-08T20:29:11Z
 
@@ -717,6 +720,7 @@ creation_date: 2013-10-08T20:29:11Z
 id: OBA:1000038
 name: mollusc shell height
 synonym: "mollusc shell height trait" EXACT [GOC:TermGenie]
+property_value: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-10-08T21:19:32Z
 
@@ -724,6 +728,7 @@ creation_date: 2013-10-08T21:19:32Z
 id: OBA:1000039
 name: mollusc shell length
 synonym: "mollusc shell length trait" EXACT [GOC:TermGenie]
+property_value: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-10-08T21:21:38Z
 
@@ -1506,4 +1511,12 @@ name: inheres in
 is_a: inheres_in_part_of
 xref: RO:0000052 ! inheres in
 
+[Typedef]
+id: http://purl.org/pav/providedBy
+name: provided by
+is_metadata_tag: true
 
+[Typedef]
+id: http://purl.org/dc/elements/1.1/contributor
+name: contributor
+is_metadata_tag: true
