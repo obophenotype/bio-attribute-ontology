@@ -381,8 +381,8 @@ EquivalentClasses(:OBA_0000005 ObjectIntersectionOf(:PATO_0000033 ObjectSomeValu
 
 # Class: :OBA_0000016 (angiotensin levels in blood)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0000016 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_0000016 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_0000016 "The amount of a angiotensin II when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_0000016 "blood angiotensin II amount")
 AnnotationAssertion(rdfs:label :OBA_0000016 "angiotensin levels in blood")
 EquivalentClasses(:OBA_0000016 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000036009 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
@@ -479,8 +479,8 @@ EquivalentClasses(:OBA_VT0000188 ObjectIntersectionOf(:PATO_0000070 ObjectSomeVa
 
 # Class: :OBA_VT0000202 (blood alkaline phosphatase amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0000202 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0000202 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0000202 "The amount of a alkaline phosphatase when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0000202 "blood alkaline phosphatase amount")
 AnnotationAssertion(rdfs:label :OBA_VT0000202 "blood alkaline phosphatase amount")
 EquivalentClasses(:OBA_VT0000202 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000023540 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
@@ -619,8 +619,8 @@ EquivalentClasses(:OBA_VT0002900 ObjectIntersectionOf(:PATO_0000070 ObjectSomeVa
 
 # Class: :OBA_VT0002903 (blood parathyroid hormone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0002903 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0002903 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0002903 "The amount of a parathyroid hormone when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0002903 "blood parathyroid hormone amount")
 AnnotationAssertion(rdfs:label :OBA_VT0002903 "blood parathyroid hormone amount")
 EquivalentClasses(:OBA_VT0002903 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000013429 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
@@ -654,8 +654,8 @@ EquivalentClasses(:OBA_VT0003311 ObjectIntersectionOf(:PATO_0000070 ObjectSomeVa
 
 # Class: :OBA_VT0003349 (blood renin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0003349 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0003349 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0003349 "The amount of a renin when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0003349 "blood renin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0003349 "blood renin amount")
 EquivalentClasses(:OBA_VT0003349 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000013883 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
@@ -864,8 +864,8 @@ EquivalentClasses(:OBA_VT0005476 ObjectIntersectionOf(:PATO_0000070 ObjectSomeVa
 
 # Class: :OBA_VT0005521 (blood atrial natriuretic factor amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005521 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005521 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0005521 "The amount of a atrial natriuretic factor when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005521 "blood atrial natriuretic factor amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005521 "blood atrial natriuretic factor amount")
 EquivalentClasses(:OBA_VT0005521 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000011374 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
@@ -892,8 +892,8 @@ EquivalentClasses(:OBA_VT0005663 ObjectIntersectionOf(:PATO_0000070 ObjectSomeVa
 
 # Class: :OBA_VT0005667 (blood leptin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005667 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005667 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0005667 "The amount of a leptin when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005667 "blood leptin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005667 "blood leptin amount")
 EquivalentClasses(:OBA_VT0005667 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000009758 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
@@ -927,113 +927,113 @@ EquivalentClasses(:OBA_VT0006274 ObjectIntersectionOf(:PATO_0000070 ObjectSomeVa
 
 # Class: :OBA_VT0008589 (blood interleukin-1 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008589 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008589 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008589 "The amount of a interleukin-1 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008589 "blood interleukin-1 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008589 "blood interleukin-1 amount")
 EquivalentClasses(:OBA_VT0008589 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001091 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008590 (blood interleukin-10 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008590 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008590 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008590 "The amount of a interleukin-10 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008590 "blood interleukin-10 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008590 "blood interleukin-10 amount")
 EquivalentClasses(:OBA_VT0008590 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001471 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008595 (blood interleukin-6 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008595 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008595 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008595 "The amount of a interleukin-6 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008595 "blood interleukin-6 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008595 "blood interleukin-6 amount")
 EquivalentClasses(:OBA_VT0008595 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001393 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008598 (blood interleukin-2 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008598 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008598 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008598 "The amount of a interleukin-2 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008598 "blood interleukin-2 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008598 "blood interleukin-2 amount")
 EquivalentClasses(:OBA_VT0008598 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001379 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008601 (blood interleukin-4 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008601 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008601 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008601 "The amount of a interleukin-4 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008601 "blood interleukin-4 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008601 "blood interleukin-4 amount")
 EquivalentClasses(:OBA_VT0008601 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001391 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008604 (blood interleukin-7 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008604 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008604 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008604 "The amount of a interleukin-7 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008604 "blood interleukin-7 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008604 "blood interleukin-7 amount")
 EquivalentClasses(:OBA_VT0008604 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001317 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008607 (blood interleukin-13 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008607 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008607 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008607 "The amount of a interleukin-13 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008607 "blood interleukin-13 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008607 "blood interleukin-13 amount")
 EquivalentClasses(:OBA_VT0008607 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001370 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008610 (blood interleukin-15 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008610 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008610 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008610 "The amount of a interleukin-15 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008610 "blood interleukin-15 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008610 "blood interleukin-15 amount")
 EquivalentClasses(:OBA_VT0008610 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001373 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008613 (blood interleukin-17 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008613 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008613 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008613 "The amount of a interleukin-17 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008613 "blood interleukin-17 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008613 "blood interleukin-17 amount")
 EquivalentClasses(:OBA_VT0008613 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001092 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008622 (blood interleukin-3 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008622 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008622 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008622 "The amount of a interleukin-3 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008622 "blood interleukin-3 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008622 "blood interleukin-3 amount")
 EquivalentClasses(:OBA_VT0008622 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001387 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008625 (blood interleukin-5 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008625 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008625 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008625 "The amount of a interleukin-5 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008625 "blood interleukin-5 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008625 "blood interleukin-5 amount")
 EquivalentClasses(:OBA_VT0008625 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001392 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008628 (blood interleukin-9 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008628 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008628 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008628 "The amount of a interleukin-9 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008628 "blood interleukin-9 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008628 "blood interleukin-9 amount")
 EquivalentClasses(:OBA_VT0008628 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001396 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008631 (blood interleukin-16 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008631 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008631 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008631 "The amount of a interleukin-16 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008631 "blood interleukin-16 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008631 "blood interleukin-16 amount")
 EquivalentClasses(:OBA_VT0008631 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001374 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008634 (blood interleukin-18 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008634 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008634 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008634 "The amount of a interleukin-18 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008634 "blood interleukin-18 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008634 "blood interleukin-18 amount")
 EquivalentClasses(:OBA_VT0008634 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001376 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008637 (blood interleukin-1 alpha amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008637 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008637 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008637 "The amount of a interleukin-1 alpha when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008637 "blood interleukin-1 alpha amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008637 "blood interleukin-1 alpha amount")
 EquivalentClasses(:OBA_VT0008637 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001135 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008640 (blood interleukin-1 beta amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008640 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008640 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0008640 "The amount of a interleukin-1 beta when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008640 "blood interleukin-1 beta amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008640 "blood interleukin-1 beta amount")
 EquivalentClasses(:OBA_VT0008640 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001136 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
@@ -1046,8 +1046,8 @@ EquivalentClasses(:OBA_VT0008739 ObjectIntersectionOf(:PATO_0000070 ObjectSomeVa
 
 # Class: :OBA_VT0009059 (blood interleukin-21 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0009059 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0009059 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0009059 "The amount of a interleukin-21 when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0009059 "blood interleukin-21 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0009059 "blood interleukin-21 amount")
 EquivalentClasses(:OBA_VT0009059 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001382 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
@@ -1067,8 +1067,8 @@ EquivalentClasses(:OBA_VT0010026 ObjectIntersectionOf(:PATO_0000070 ObjectSomeVa
 
 # Class: :OBA_VT0010029 (milk alpha-lactalbumin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010029 "The amount of a  when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010029 "milk  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0010029 "The amount of a alpha-lactalbumin when measured in milk.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010029 "milk alpha-lactalbumin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010029 "milk alpha-lactalbumin amount")
 EquivalentClasses(:OBA_VT0010029 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000009649 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
@@ -1095,8 +1095,8 @@ EquivalentClasses(:OBA_VT0010191 ObjectIntersectionOf(:PATO_0001555 ObjectSomeVa
 
 # Class: :OBA_VT0010267 (milk whey acidic protein amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010267 "The amount of a  when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010267 "milk  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0010267 "The amount of a whey acidic protein when measured in milk.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010267 "milk whey acidic protein amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010267 "milk whey acidic protein amount")
 EquivalentClasses(:OBA_VT0010267 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000017467 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
@@ -1123,8 +1123,8 @@ EquivalentClasses(:OBA_VT0010270 ObjectIntersectionOf(:PATO_0000070 ObjectSomeVa
 
 # Class: :OBA_VT0010271 (colostrum leptin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010271 "The amount of a  when measured in colostrum.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010271 "colostrum  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0010271 "The amount of a leptin when measured in colostrum.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010271 "colostrum leptin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010271 "colostrum leptin amount")
 EquivalentClasses(:OBA_VT0010271 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000009758 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001914)))))
 
@@ -1144,29 +1144,29 @@ EquivalentClasses(:OBA_VT0010276 ObjectIntersectionOf(:PATO_0000070 ObjectSomeVa
 
 # Class: :OBA_VT0010277 (milk leptin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010277 "The amount of a  when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010277 "milk  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0010277 "The amount of a leptin when measured in milk.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010277 "milk leptin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010277 "milk leptin amount")
 EquivalentClasses(:OBA_VT0010277 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000009758 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010281 (milk alpha-S1-casein amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010281 "The amount of a  when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010281 "milk  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0010281 "The amount of a alpha-S1-casein when measured in milk.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010281 "milk alpha-S1-casein amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010281 "milk alpha-S1-casein amount")
 EquivalentClasses(:OBA_VT0010281 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000005940 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010283 (milk kappa-casein amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010283 "The amount of a  when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010283 "milk  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0010283 "The amount of a kappa-casein when measured in milk.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010283 "milk kappa-casein amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010283 "milk kappa-casein amount")
 EquivalentClasses(:OBA_VT0010283 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000005942 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010284 (milk beta-casein amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010284 "The amount of a  when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010284 "milk  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0010284 "The amount of a beta-casein when measured in milk.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010284 "milk beta-casein amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010284 "milk beta-casein amount")
 EquivalentClasses(:OBA_VT0010284 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000005941 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
@@ -1410,15 +1410,15 @@ EquivalentClasses(:OBA_VT0010502 ObjectIntersectionOf(:PATO_0000070 ObjectSomeVa
 
 # Class: :OBA_VT0010514 (blood transferrin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010514 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010514 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0010514 "The amount of a serotransferrin when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010514 "blood serotransferrin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010514 "blood transferrin amount")
 EquivalentClasses(:OBA_VT0010514 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000016261 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0010515 (blood fibronectin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010515 "The amount of a  when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010515 "blood  amount")
+AnnotationAssertion(:IAO_0000115 :OBA_VT0010515 "The amount of a fibronectin when measured in blood.")
+AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010515 "blood fibronectin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010515 "blood fibronectin amount")
 EquivalentClasses(:OBA_VT0010515 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000007581 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
