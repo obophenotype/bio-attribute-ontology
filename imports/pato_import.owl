@@ -462,6 +462,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001496"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brood size</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000277 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000277">
@@ -944,6 +953,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001492">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001496">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001434"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brood quality</rdfs:label>
     </owl:Class>
     
 

@@ -101,6 +101,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGF-beta-like cystine-knot cytokine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor, TNF-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGF-beta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000033"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor alpha</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000001091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001091">
@@ -272,6 +308,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000003777 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003777">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adiponectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000003809 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003809">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-fetoprotein</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000005940 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005940">
@@ -299,11 +353,47 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000007141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythropoietin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000007581 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007581">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibronectin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007785 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007785">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamate decarboxylase 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin-like growth factor I</rdfs:label>
     </owl:Class>
     
 
@@ -344,6 +434,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000013246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000029968"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prolactin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000013429 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013429">
@@ -362,11 +461,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000015665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015665">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatostatin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000016261 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016261">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serotransferrin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">von Willebrand factor</rdfs:label>
     </owl:Class>
     
 
@@ -402,6 +519,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000023540">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaline phosphatase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000025853 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000025853">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primate-type serum amyloid A-2 protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000029968 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000029968">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatotropin hormone family member</rdfs:label>
     </owl:Class>
     
 

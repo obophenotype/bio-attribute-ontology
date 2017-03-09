@@ -46,6 +46,26 @@ name: protein
 is_a: PR:000018263 ! amino acid chain
 
 [Term]
+id: PR:000000008
+name: TGF-beta-like cystine-knot cytokine
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000000033
+name: tumor necrosis factor, TNF-like
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000000046
+name: TGF-beta
+is_a: PR:000000008 ! TGF-beta-like cystine-knot cytokine
+
+[Term]
+id: PR:000000134
+name: tumor necrosis factor alpha
+is_a: PR:000000033 ! tumor necrosis factor, TNF-like
+
+[Term]
 id: PR:000001091
 name: interleukin-1
 is_a: PR:000000001 ! protein
@@ -141,6 +161,16 @@ name: butyrophilin
 is_a: PR:000000001 ! protein
 
 [Term]
+id: PR:000003777
+name: adiponectin
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000003809
+name: alpha-fetoprotein
+is_a: PR:000000001 ! protein
+
+[Term]
 id: PR:000005940
 name: alpha-S1-casein
 is_a: PR:000000001 ! protein
@@ -156,8 +186,28 @@ name: kappa-casein
 is_a: PR:000000001 ! protein
 
 [Term]
+id: PR:000007141
+name: erythropoietin
+is_a: PR:000000001 ! protein
+
+[Term]
 id: PR:000007581
 name: fibronectin
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007785
+name: glutamate decarboxylase 1
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000009054
+name: insulin
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000009182
+name: insulin-like growth factor I
 is_a: PR:000000001 ! protein
 
 [Term]
@@ -181,6 +231,11 @@ name: atrial natriuretic factor
 is_a: PR:000000001 ! protein
 
 [Term]
+id: PR:000013246
+name: prolactin
+is_a: PR:000029968 ! somatotropin hormone family member
+
+[Term]
 id: PR:000013429
 name: parathyroid hormone
 is_a: PR:000000001 ! protein
@@ -191,8 +246,18 @@ name: renin
 is_a: PR:000000001 ! protein
 
 [Term]
+id: PR:000015665
+name: somatostatin
+is_a: PR:000000001 ! protein
+
+[Term]
 id: PR:000016261
 name: serotransferrin
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000017364
+name: von Willebrand factor
 is_a: PR:000000001 ! protein
 
 [Term]
@@ -212,6 +277,16 @@ name: angiotensinogen proteolytic cleavage product
 [Term]
 id: PR:000023540
 name: alkaline phosphatase
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000025853
+name: primate-type serum amyloid A-2 protein
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000029968
+name: somatotropin hormone family member
 is_a: PR:000000001 ! protein
 
 [Term]

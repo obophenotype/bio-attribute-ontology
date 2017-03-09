@@ -236,6 +236,11 @@ name: fertility
 is_a: PATO:0001434 ! reproductive quality
 
 [Term]
+id: PATO:0000276
+name: brood size
+is_a: PATO:0001496 ! brood quality
+
+[Term]
 id: PATO:0000277
 name: female fertility
 is_a: PATO:0000274 ! fertility
@@ -504,6 +509,11 @@ is_a: PATO:0001396 ! cellular quality
 id: PATO:0001492
 name: growth rate
 is_a: PATO:0000161 ! rate
+
+[Term]
+id: PATO:0001496
+name: brood quality
+is_a: PATO:0001434 ! reproductive quality
 
 [Term]
 id: PATO:0001509

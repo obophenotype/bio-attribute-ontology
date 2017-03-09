@@ -33,6 +33,11 @@ is_a: CHEBI:33608 ! hydrogen molecular entity
 is_a: CHEBI:37577 ! heteroatomic molecular entity
 
 [Term]
+id: CHEBI:25179
+name: melanin
+is_a: CHEBI:26195 ! polyphenol
+
+[Term]
 id: CHEBI:25367
 name: molecule
 is_a: CHEBI:36357 ! polyatomic entity
@@ -1460,6 +1465,11 @@ name: follicular dendritic cell
 is_a: CL:0000473 ! defensive cell
 
 [Term]
+id: CL:0000443
+name: calcitonin secreting cell
+is_a: CL:0000167 ! peptide hormone secreting cell
+
+[Term]
 id: CL:0000446
 name: chief cell of parathyroid gland
 is_a: CL:0000167 ! peptide hormone secreting cell
@@ -1490,6 +1500,11 @@ name: dendritic cell
 is_a: CL:0000738 {is_inferred="true"} ! leukocyte
 disjoint_from: CL:0000542 ! lymphocyte
 relationship: BFO:0000051 GO:0042613 ! has_part MHC class II protein complex
+
+[Term]
+id: CL:0000452
+name: thyroid hormone secreting cell
+is_a: CL:0000163 ! endocrine cell
 
 [Term]
 id: CL:0000453
@@ -1797,6 +1812,15 @@ is_a: CL:0000198 ! pain receptor cell
 id: CL:0000568
 name: APUD cell
 is_a: CL:0000165 ! neuroendocrine cell
+
+[Term]
+id: CL:0000570
+name: parafollicular cell
+is_a: CL:0000443 {is_inferred="true"} ! calcitonin secreting cell
+is_a: CL:0000458 ! serotonin secreting cell
+is_a: CL:0000710 {is_inferred="true"} ! neurecto-epithelial cell
+relationship: BFO:0000050 UBERON:0001747 ! part_of parenchyma of thyroid gland
+relationship: RO:0002202 CL:0000333 ! develops_from migratory neural crest cell
 
 [Term]
 id: CL:0000573
@@ -3030,6 +3054,12 @@ is_a: CL:0002032 ! hematopoietic oligopotent progenitor cell
 relationship: RO:0002202 CL:0000837 ! develops_from hematopoietic multipotent progenitor cell
 
 [Term]
+id: CL:0001070
+name: beige adipocyte
+is_a: CL:0000136 ! fat cell
+relationship: BFO:0000050 UBERON:0001347 ! part_of white adipose tissue
+
+[Term]
 id: CL:0002009
 name: macrophage dendritic cell progenitor
 is_a: CL:0002032 {is_inferred="true"} ! hematopoietic oligopotent progenitor cell
@@ -3110,6 +3140,16 @@ id: CL:0002048
 name: late pro-B cell
 is_a: CL:0000817 {is_inferred="true"} ! precursor B cell
 relationship: RO:0002202 CL:0002046 ! develops_from early pro-B cell
+
+[Term]
+id: CL:0002060
+name: melanophage
+is_a: CL:0000864 {is_inferred="true"} ! tissue-resident macrophage
+intersection_of: CL:0000864 ! tissue-resident macrophage
+intersection_of: BFO:0000050 UBERON:0002097 ! part_of skin of body
+intersection_of: BFO:0000051 CHEBI:25179 ! has_part melanin
+relationship: BFO:0000050 UBERON:0002097 ! part_of skin of body
+relationship: BFO:0000051 CHEBI:25179 ! has_part melanin
 
 [Term]
 id: CL:0002062
@@ -4643,6 +4683,14 @@ intersection_of: BFO:0000050 UBERON:0001987 ! part_of placenta
 relationship: BFO:0000050 UBERON:0001987 ! part_of placenta
 
 [Term]
+id: CL:0002578
+name: mesenteric preadipocyte
+is_a: CL:0002334 {is_inferred="true"} ! preadipocyte
+intersection_of: CL:0002334 ! preadipocyte
+intersection_of: BFO:0000050 UBERON:0002095 ! part_of mesentery
+relationship: BFO:0000050 UBERON:0002095 ! part_of mesentery
+
+[Term]
 id: CL:0002580
 name: preadipocyte of the breast
 is_a: CL:0002334 {is_inferred="true"} ! preadipocyte
@@ -4927,6 +4975,14 @@ intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0001343 ! part_of seminiferous tubule of testis
 relationship: BFO:0000050 UBERON:0001343 ! part_of seminiferous tubule of testis
 relationship: BFO:0000050 UBERON:0004813 ! part_of seminiferous tubule epithelium
+
+[Term]
+id: CL:0002631
+name: epithelial cell of upper respiratory tract
+is_a: CL:0002368 {is_inferred="true"} ! respiratory epithelial cell
+intersection_of: CL:0002368 ! respiratory epithelial cell
+intersection_of: BFO:0000050 UBERON:0001557 ! part_of upper respiratory tract
+relationship: BFO:0000050 UBERON:0001557 ! part_of upper respiratory tract
 
 [Term]
 id: CL:0002632
@@ -5568,6 +5624,14 @@ is_a: CL:1001320 ! urethra cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0000057 ! part_of urethra
 relationship: BFO:0000050 UBERON:0000057 ! part_of urethra
+
+[Term]
+id: CL:1000298
+name: mesothelial cell of dura mater
+is_a: CL:0000077 {is_inferred="true"} ! mesothelial cell
+intersection_of: CL:0000077 ! mesothelial cell
+intersection_of: BFO:0000050 UBERON:0002363 ! part_of dura mater
+relationship: BFO:0000050 UBERON:0002363 ! part_of dura mater
 
 [Term]
 id: CL:1000302
@@ -7948,6 +8012,21 @@ is_a: GO:0042995 ! cell projection
 is_a: GO:0043226 ! organelle
 
 [Term]
+id: GO:0006022
+name: aminoglycan metabolic process
+is_a: GO:0043170 ! macromolecule metabolic process
+is_a: GO:1901135 ! carbohydrate derivative metabolic process
+is_a: GO:1901564 ! organonitrogen compound metabolic process
+
+[Term]
+id: GO:0006082
+name: organic acid metabolic process
+is_a: GO:0044237 ! cellular metabolic process
+is_a: GO:0044281 ! small molecule metabolic process
+is_a: GO:0044763 ! single-organism cellular process
+is_a: GO:0071704 ! organic substance metabolic process
+
+[Term]
 id: GO:0006139
 name: nucleobase-containing compound metabolic process
 is_a: GO:0006725 ! cellular aromatic compound metabolic process
@@ -7976,6 +8055,11 @@ is_a: GO:0071103 ! DNA conformation change
 id: GO:0006725
 name: cellular aromatic compound metabolic process
 is_a: GO:0044237 ! cellular metabolic process
+
+[Term]
+id: GO:0006801
+name: superoxide metabolic process
+is_a: GO:0072593 ! reactive oxygen species metabolic process
 
 [Term]
 id: GO:0006807
@@ -8050,6 +8134,11 @@ name: organelle organization
 is_a: GO:0016043 ! cellular component organization
 
 [Term]
+id: GO:0007049
+name: cell cycle
+is_a: GO:0044763 ! single-organism cellular process
+
+[Term]
 id: GO:0007126
 name: meiotic nuclear division
 is_a: GO:0000280 ! nuclear division
@@ -8059,6 +8148,11 @@ is_a: GO:1903046 ! meiotic cell cycle process
 [Term]
 id: GO:0007140
 name: male meiosis
+is_a: GO:0007126 ! meiotic nuclear division
+
+[Term]
+id: GO:0007143
+name: female meiotic division
 is_a: GO:0007126 ! meiotic nuclear division
 
 [Term]
@@ -8149,9 +8243,24 @@ is_a: GO:0015031 ! protein transport
 is_a: GO:0032940 ! secretion by cell
 
 [Term]
+id: GO:0009314
+name: response to radiation
+is_a: GO:0009628 ! response to abiotic stimulus
+
+[Term]
+id: GO:0009416
+name: response to light stimulus
+is_a: GO:0009314 ! response to radiation
+
+[Term]
 id: GO:0009566
 name: fertilization
 is_a: GO:0044702 ! single organism reproductive process
+
+[Term]
+id: GO:0009628
+name: response to abiotic stimulus
+is_a: GO:0050896 ! response to stimulus
 
 [Term]
 id: GO:0009653
@@ -8288,6 +8397,11 @@ name: cell migration
 is_a: GO:0048870 ! cell motility
 
 [Term]
+id: GO:0019752
+name: carboxylic acid metabolic process
+is_a: GO:0043436 ! oxoacid metabolic process
+
+[Term]
 id: GO:0019814
 name: immunoglobulin complex
 is_a: GO:0043234 ! protein complex
@@ -8382,6 +8496,11 @@ is_a: GO:0030098 ! lymphocyte differentiation
 is_a: GO:0042113 ! B cell activation
 
 [Term]
+id: GO:0030203
+name: glycosaminoglycan metabolic process
+is_a: GO:0006022 ! aminoglycan metabolic process
+
+[Term]
 id: GO:0030217
 name: T cell differentiation
 is_a: GO:0030098 ! lymphocyte differentiation
@@ -8470,6 +8589,11 @@ is_a: GO:0008150 ! biological_process
 id: GO:0032502
 name: developmental process
 is_a: GO:0008150 ! biological_process
+
+[Term]
+id: GO:0032787
+name: monocarboxylic acid metabolic process
+is_a: GO:0019752 ! carboxylic acid metabolic process
 
 [Term]
 id: GO:0032940
@@ -8639,6 +8763,11 @@ name: positive T cell selection
 is_a: GO:0045058 ! T cell selection
 
 [Term]
+id: GO:0043436
+name: oxoacid metabolic process
+is_a: GO:0006082 ! organic acid metabolic process
+
+[Term]
 id: GO:0044237
 name: cellular metabolic process
 is_a: GO:0008152 ! metabolic process
@@ -8654,6 +8783,11 @@ id: GO:0044260
 name: cellular macromolecule metabolic process
 is_a: GO:0043170 ! macromolecule metabolic process
 is_a: GO:0044237 ! cellular metabolic process
+
+[Term]
+id: GO:0044281
+name: small molecule metabolic process
+is_a: GO:0044710 ! single-organism metabolic process
 
 [Term]
 id: GO:0044291
@@ -9073,6 +9207,11 @@ name: cellular component organization or biogenesis
 is_a: GO:0008150 ! biological_process
 
 [Term]
+id: GO:0072593
+name: reactive oxygen species metabolic process
+is_a: GO:0044237 ! cellular metabolic process
+
+[Term]
 id: GO:0090304
 name: nucleic acid metabolic process
 is_a: GO:0006139 ! nucleobase-containing compound metabolic process
@@ -9117,8 +9256,19 @@ name: actin-based cell projection
 is_a: GO:0042995 ! cell projection
 
 [Term]
+id: GO:1901135
+name: carbohydrate derivative metabolic process
+is_a: GO:0071704 ! organic substance metabolic process
+
+[Term]
 id: GO:1901360
 name: organic cyclic compound metabolic process
+is_a: GO:0071704 ! organic substance metabolic process
+
+[Term]
+id: GO:1901564
+name: organonitrogen compound metabolic process
+is_a: GO:0006807 ! nitrogen compound metabolic process
 is_a: GO:0071704 ! organic substance metabolic process
 
 [Term]
@@ -9137,6 +9287,11 @@ is_a: GO:0044763 ! single-organism cellular process
 id: GO:1903046
 name: meiotic cell cycle process
 is_a: GO:0022402 ! cell cycle process
+
+[Term]
+id: GO:1903510
+name: mucopolysaccharide metabolic process
+is_a: GO:0030203 ! glycosaminoglycan metabolic process
 
 [Term]
 id: PATO:0000001
@@ -9692,6 +9847,12 @@ is_a: UBERON:0003408 ! gland of gut
 id: UBERON:0000344
 name: mucosa
 is_a: UBERON:0004923 ! organ component layer
+
+[Term]
+id: UBERON:0000353
+name: parenchyma
+is_a: UBERON:0000064 ! organ part
+disjoint_from: UBERON:0003891 ! stroma
 
 [Term]
 id: UBERON:0000358
@@ -10500,6 +10661,11 @@ name: lower urinary tract
 is_a: UBERON:0000477 ! anatomical cluster
 
 [Term]
+id: UBERON:0001557
+name: upper respiratory tract
+is_a: UBERON:0000072 ! proximo-distal subdivision of respiratory tract
+
+[Term]
 id: UBERON:0001558
 name: lower respiratory tract
 is_a: UBERON:0000072 ! proximo-distal subdivision of respiratory tract
@@ -10567,6 +10733,13 @@ is_a: UBERON:0034769 ! lymphomyeloid tissue
 id: UBERON:0001745
 name: secondary nodular lymphoid tissue
 is_a: UBERON:0000444 ! lymphoid follicle
+
+[Term]
+id: UBERON:0001747
+name: parenchyma of thyroid gland
+is_a: UBERON:0000353 ! parenchyma
+is_a: UBERON:0004119 ! endoderm-derived structure
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 
 [Term]
 id: UBERON:0001751
@@ -11106,6 +11279,11 @@ name: interventricular septum
 is_a: UBERON:0002099 ! cardiac septum
 
 [Term]
+id: UBERON:0002095
+name: mesentery
+is_a: UBERON:0000042 ! serous membrane
+
+[Term]
 id: UBERON:0002097
 name: skin of body
 is_a: UBERON:0000062 ! organ
@@ -11435,6 +11613,12 @@ name: meninx
 is_a: UBERON:0000094 ! membrane organ
 is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+
+[Term]
+id: UBERON:0002363
+name: dura mater
+is_a: UBERON:0002360 ! meninx
+is_a: UBERON:0004120 ! mesoderm-derived structure
 
 [Term]
 id: UBERON:0002364
@@ -11879,6 +12063,11 @@ is_a: UBERON:0003513 ! trunk blood vessel
 id: UBERON:0003840
 name: hindlimb joint
 is_a: UBERON:0003657 ! limb joint
+
+[Term]
+id: UBERON:0003856
+name: odontogenic mesenchyme
+is_a: UBERON:0007213 ! mesenchyme derived from head neural crest
 
 [Term]
 id: UBERON:0003860
@@ -12765,6 +12954,11 @@ name: presumptive structure
 is_a: UBERON:0005423 ! developing anatomical structure
 
 [Term]
+id: UBERON:0006615
+name: venous sinus
+is_a: UBERON:0003920 ! venous blood vessel
+
+[Term]
 id: UBERON:0006725
 name: spiral ligament
 is_a: UBERON:0004121 ! ectoderm-derived structure
@@ -12847,6 +13041,12 @@ id: UBERON:0007196
 name: tracheobronchial tree
 is_a: UBERON:0000062 ! organ
 is_a: UBERON:0004119 ! endoderm-derived structure
+
+[Term]
+id: UBERON:0007213
+name: mesenchyme derived from head neural crest
+is_a: UBERON:0005253 ! head mesenchyme
+is_a: UBERON:0014387 ! mesenchyme derived from neural crest
 
 [Term]
 id: UBERON:0007329

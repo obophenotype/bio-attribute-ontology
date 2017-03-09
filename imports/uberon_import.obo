@@ -2337,6 +2337,18 @@ intersection_of: BFO:0000050 UBERON:0002005 ! part_of enteric nervous system
 relationship: BFO:0000050 UBERON:0002005 ! part_of enteric nervous system
 
 [Term]
+id: UBERON:0000439
+name: arachnoid trabecula
+def: "The arachnoid trabeculae are delicate strands of connective tissue that loosely connect the two innermost layers of the meninges -- the arachnoid mater and the pia mater. They are found within the subarachnoid space where cerebrospinal fluid is also found. Embryologically, the trabeculae are the remnants of the common precursor that forms both the arachnoid and pial layers of the meninges." []
+synonym: "arachnoid trabeculae" RELATED []
+synonym: "trabecula arachnoideum" RELATED []
+is_a: UBERON:0000440 ! trabecula
+is_a: UBERON:0010313 ! neural crest-derived structure
+intersection_of: UBERON:0000440 ! trabecula
+intersection_of: BFO:0000050 UBERON:0002362 ! part_of arachnoid mater
+relationship: BFO:0000050 UBERON:0002362 ! part_of arachnoid mater
+
+[Term]
 id: UBERON:0000440
 name: trabecula
 def: "A small, often microscopic, tissue element in the form of a small beam, strut or rod, generally having a mechanical function, and usually but not necessarily composed of dense collagenous tissue. On histological section, a trabecula can look like a septum, but in three dimensions they are topologically distinct, with trabeculae being roughly rod or pillar-shaped and septa being sheet-like. Trabeculae are usually composed of dense fibrous tissue, i.e. mainly of collagen, and in most cases provide mechanical strengthening or stiffening to a soft solid organ, such as the spleen. They can be composed of other materials, such as bone or muscle[WP]." []
@@ -4094,6 +4106,24 @@ is_a: UBERON:0006061 ! process of vertebra
 relationship: BFO:0000050 UBERON:0003861 ! part_of neural arch
 
 [Term]
+id: UBERON:0001080
+name: postzygapophysis
+def: "Paired processes at the caudal end of the neural arch. The articular facets of the postzygapophyses face lateroventrally and articulate with the dorsomedially facing facets of the prezygapophyses of the succeeding vertebra." []
+synonym: "caudal articular process of vertebra" EXACT []
+synonym: "inferior articular process of vertebra" EXACT []
+synonym: "neural postzygapophyses" RELATED []
+synonym: "neural postzygapophysis" NARROW []
+synonym: "neural postzygopophyses" RELATED []
+synonym: "neural postzygopophysis" EXACT []
+synonym: "postzygapophysis" EXACT []
+synonym: "processus articularis inferior" EXACT []
+synonym: "processus articularis inferior vertebrae" EXACT []
+synonym: "processus obliquus posterior" RELATED []
+synonym: "vertebra caudal articular process" EXACT []
+synonym: "zygapophysis inferior" EXACT []
+is_a: UBERON:0006062 ! zygapophysis
+
+[Term]
 id: UBERON:0001081
 name: endocardium of ventricle
 def: "Endocardium that is part of the cardiac ventricle." []
@@ -4813,6 +4843,15 @@ def: "An artery that supplies an ovary." []
 synonym: "arteria ovarica" RELATED []
 synonym: "ovarian arterial tree" EXACT []
 is_a: UBERON:0001637 ! artery
+
+[Term]
+id: UBERON:0001191
+name: common iliac artery
+def: "The common iliac arteries are two large arteries, about 4cm long in adults but more than a centimetre in diameter, that originate from the aortic bifurcation. The arteries run inferolaterally, along the medial border of the psoas muscles to the pelvic brim, where they bifurcate into the external iliac artery and internal iliac artery. The common iliac artery, and all of its branches, exist as paired structures (that is to say, there is one on the left side and one on the right). The distribution of the common iliac artery is basically the pelvis and lower limb on the corresponding side. Both common iliac arteries are accompanied along their course by common iliac veins. [WP,unvetted]." []
+synonym: "arteria iliaca communis" RELATED []
+synonym: "common iliac arterial tree" EXACT []
+is_a: UBERON:0005609 ! iliac artery
+is_a: UBERON:0012254 ! abdominal aorta artery
 
 [Term]
 id: UBERON:0001199
@@ -6567,6 +6606,16 @@ is_a: UBERON:0007779 ! transduate
 relationship: RO:0002202 UBERON:0002307 ! develops_from choroid plexus of lateral ventricle
 
 [Term]
+id: UBERON:0001365
+name: sacro-iliac joint
+def: "The joint in the bony pelvis between the sacrum and the ilium of the pelvis, which are joined by strong ligaments." []
+synonym: "articulatio sacro-iliaca" EXACT []
+synonym: "sacroiliac joint" EXACT []
+is_a: UBERON:0011107 ! synovial joint of pelvic girdle
+is_a: UBERON:0015212 ! lateral structure
+relationship: BFO:0000050 UBERON:0001270 ! part_of bony pelvis
+
+[Term]
 id: UBERON:0001366
 name: parietal peritoneum
 def: "The outer layer of peritoneum that is attached to the abdominal and pelvic walls." []
@@ -8236,6 +8285,33 @@ synonym: "organ neck" EXACT []
 is_a: UBERON:0034944 ! zone of organ
 
 [Term]
+id: UBERON:0001564
+name: mylohyoid muscle
+def: "The mylohyoid is a pharyngeal arch I muscle that participates in oral/pharyngeal behaviors and is innervated by the nerve to mylohyoid and attaches to the midline raphe linking right and left mylohyoid and the mandible." []
+synonym: "musculus mylohyoideus" EXACT []
+synonym: "musculus mylohyoideus" RELATED []
+synonym: "mylohyoid" EXACT []
+synonym: "mylohyoideus" EXACT []
+synonym: "mylohyoideus muscle" EXACT []
+is_a: UBERON:0008571 ! suprahyoid muscle
+is_a: UBERON:0018544 ! trigeminal nerve muscle
+relationship: RO:0002202 UBERON:0000926 ! develops_from mesoderm
+
+[Term]
+id: UBERON:0001565
+name: geniohyoid muscle
+def: "The geniohyoid is a muscle that attaches to the mandible and the hyoid apparatus and is innervated by the first cervical nerve (C1)." []
+synonym: "genio-hyoideus" EXACT []
+synonym: "genio-hyoideus muscle" EXACT []
+synonym: "geniohyoid" EXACT []
+synonym: "geniohyoideus" EXACT []
+synonym: "geniohyoideus muscle" EXACT []
+synonym: "m. geniohyoideus" EXACT []
+synonym: "musculus geniohyoideus" RELATED []
+is_a: UBERON:0008571 ! suprahyoid muscle
+is_a: UBERON:0011151 ! jaw depressor muscle
+
+[Term]
 id: UBERON:0001567
 name: cheek
 def: "A fleshy subdivision of one side of the face bounded by an eye, ear and the nose." []
@@ -8262,6 +8338,43 @@ intersection_of: UBERON:0014892 ! skeletal muscle organ
 intersection_of: BFO:0000050 UBERON:0001737 ! part_of larynx
 relationship: BFO:0000050 UBERON:0001737 ! part_of larynx
 relationship: BFO:0000050 UBERON:0004478 ! part_of musculature of larynx
+
+[Term]
+id: UBERON:0001571
+name: genioglossus muscle
+def: "Either of a pair of lingual muscles with origin in the mandible, with insertion to the lingual fascia below the mucous membrane and epiglottis, with nerve supply from the hypoglossal nerve, and whose action depresses and protrudes the tongue." []
+synonym: "genioglossus" EXACT []
+synonym: "m. genioglossus" EXACT []
+synonym: "musculus genioglossus" EXACT []
+is_a: UBERON:0001575 ! extrinsic muscle of tongue
+relationship: RO:0002202 UBERON:0010059 ! develops_from hypoglossal cord
+
+[Term]
+id: UBERON:0001572
+name: hyoglossus muscle
+def: "A muscle that attaches to the hyopid bone and to the tongue and is innervated by cranial nerve XII" []
+synonym: "hyoglossus" EXACT []
+synonym: "m. hyoglossus" EXACT []
+is_a: UBERON:0001575 ! extrinsic muscle of tongue
+
+[Term]
+id: UBERON:0001573
+name: styloglossus
+def: "The Styloglossus, the shortest and smallest of the three styloid muscles, arises from the anterior and lateral surfaces of the styloid process, near its apex, and from the stylomandibular ligament. Passing downward and forward between the internal and external carotid arteries, it divides upon the side of the tongue near its dorsal surface, blending with the fibers of the Longitudinalis inferior in front of the Hyoglossus; the other, oblique, overlaps the Hyoglossus and decussates with its fibers. [WP,unvetted]." []
+synonym: "musculus styloglossus" RELATED []
+synonym: "syloglossus muscle" EXACT []
+is_a: UBERON:0001575 ! extrinsic muscle of tongue
+
+[Term]
+id: UBERON:0001574
+name: palatoglossus muscle
+def: "The palatoglossus, glossopalatinus, or palatoglossal muscle is a small fleshy fasciculus, narrower in the middle than at either end, forming, with the mucous membrane covering its surface, the glossopalatine arch. It arises from the anterior surface of the soft palate, where it is continuous with the muscle of the opposite side, and passing downward, forward, and lateralward in front of the palatine tonsil, is inserted into the side of the tongue, some of its fibers spreading over the dorsum, and others passing deeply into the substance of the organ to intermingle with the Transversus linguæ. [WP,unvetted]." []
+synonym: "musculus palatoglossus" RELATED []
+synonym: "palatoglossal" EXACT []
+synonym: "palatoglossal muscle" EXACT []
+synonym: "palatoglossus" EXACT []
+is_a: UBERON:0000378 ! tongue muscle
+is_a: UBERON:0003682 ! palatal muscle
 
 [Term]
 id: UBERON:0001575
@@ -8340,6 +8453,31 @@ is_a: UBERON:0001785 ! cranial nerve
 relationship: RO:0002202 UBERON:0003050 ! develops_from olfactory placode
 
 [Term]
+id: UBERON:0001580
+name: levator labii superioris
+def: "The levator labii superioris (or quadratus labii superioris) is a broad sheet, the origin of which extends from the side of the nose to the zygomatic bone. Its medial fibers form the angular head, which arises by a pointed extremity from the upper part of the frontal process of the maxilla and passing obliquely downward and lateralward divides into two slips. One of these is inserted into the greater alar cartilage and skin of the nose; the other is prolonged into the lateral part of the upper lip, blending with the infraorbital head and with the Orbicularis oris. The intermediate portion or infraorbital head arises from the lower margin of the orbit immediately above the infraorbital foramen, some of its fibers being attached to the maxilla, others to the zygomatic bone. Its fibers converge, to be inserted into the muscular substance of the upper lip between the angular head and the Caninus. The lateral fibers, forming the zygomatic head, arise from the malar surface of the zygomatic bone immediately behind the zygomaticomaxillary suture and pass downward and medialward to the upper lip. [WP,unvetted]." []
+synonym: "musculus levator labii superioris" RELATED []
+is_a: UBERON:0001577 ! facial muscle
+
+[Term]
+id: UBERON:0001581
+name: depressor labii inferioris
+def: "A muscle of facial expression, innervated by the facial nerve, attached to the skin of the lower lip, orbicularis oris muscle, and mandible, and superficial and lateral to the mentalis muscle. See Diogo et al., 2009; Burrows et al., 2011)" []
+is_a: UBERON:0001577 ! facial muscle
+is_a: UBERON:0015212 ! lateral structure
+
+[Term]
+id: UBERON:0001582
+name: buccinator muscle
+def: "The buccinator is a muscle that is attached to the mandible, skin, pterygomandibular raphe and maxilla, and is innervated by Cranial Nerve VII and participates in oropharyngeal behavior." []
+synonym: "buccinator" EXACT []
+synonym: "buccinatorius" RELATED []
+synonym: "musculus buccinator" EXACT []
+synonym: "musculus buccinator" RELATED []
+synonym: "trumpeters muscle" NARROW []
+is_a: UBERON:0001577 ! facial muscle
+
+[Term]
 id: UBERON:0001584
 name: left subclavian artery
 def: "The subclavian artery that supplies the left pectoral appendage" []
@@ -8358,6 +8496,15 @@ synonym: "superior vena cava" EXACT []
 synonym: "vena cava superior" RELATED []
 synonym: "vena maxima" RELATED []
 is_a: UBERON:0004087 ! vena cava
+
+[Term]
+id: UBERON:0001586
+name: internal jugular vein
+def: "One of two jugular veins that collect the blood from the brain, the superficial parts of the face, and the neck. [WP,unvetted]." []
+synonym: "internal jugular" EXACT []
+synonym: "internal jugular venous tree" EXACT []
+synonym: "vena jugularis interna" RELATED []
+is_a: UBERON:0004711 ! jugular vein
 
 [Term]
 id: UBERON:0001594
@@ -8485,6 +8632,24 @@ relationship: BFO:0000050 UBERON:0001769 ! part_of iris
 relationship: RO:0002202 UBERON:0002346 ! develops_from neurectoderm
 
 [Term]
+id: UBERON:0001610
+name: lingual artery
+def: "The lingual artery arises from the external carotid between the superior thyroid and facial artery[WP]." []
+synonym: "arteria lingualis" RELATED []
+synonym: "lingual branch of external carotid artery" EXACT []
+is_a: UBERON:0003496 ! head blood vessel
+is_a: UBERON:0015212 ! lateral structure
+is_a: UBERON:0035398 ! branch of external carotid artery
+
+[Term]
+id: UBERON:0001612
+name: facial artery
+def: "A branch of the external carotid artery that supplies structures of the face. [WP,unvetted]." []
+synonym: "arteria maxillaris externa" RELATED []
+synonym: "external maxillary artery" RELATED []
+is_a: UBERON:0035398 ! branch of external carotid artery
+
+[Term]
 id: UBERON:0001619
 name: ophthalmic artery
 def: "The ophthalmic artery is a branch of the internal carotid artery which supplies branches to supply the eye and other structures in the orbit. It enters the orbit together with the Optic nerve through the Optic canal. [WP,unvetted]." []
@@ -8496,6 +8661,21 @@ is_a: UBERON:0004573 ! systemic artery
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 
 [Term]
+id: UBERON:0001620
+name: central retinal artery
+def: "The central retinal artery (retinal artery) branches off the ophthalmic artery, running inferior to the optic nerve within its dural sheath to the eyeball. [WP,unvetted]." []
+synonym: "arteria centralis retinae" RELATED []
+synonym: "central artery of retina" EXACT []
+synonym: "central artery of the retina" RELATED []
+synonym: "retinal artery" EXACT []
+synonym: "Zinn's artery" EXACT []
+is_a: UBERON:0000078 ! mixed ectoderm/mesoderm/endoderm-derived structure
+is_a: UBERON:0003496 ! head blood vessel
+is_a: UBERON:0004573 ! systemic artery
+is_a: UBERON:0010313 ! neural crest-derived structure
+relationship: BFO:0000050 UBERON:0000019 ! part_of camera-type eye
+
+[Term]
 id: UBERON:0001621
 name: coronary artery
 def: "An artery that supplies the myocardium." []
@@ -8504,6 +8684,25 @@ synonym: "coronary vessel" RELATED []
 is_a: UBERON:0003498 ! heart blood vessel
 is_a: UBERON:0004573 ! systemic artery
 relationship: BFO:0000050 UBERON:0000948 ! part_of heart
+
+[Term]
+id: UBERON:0001622
+name: lacrimal artery
+def: "The lacrimal artery arises close to the optic foramen, and is one of the largest branches derived from the ophthalmic artery: not infrequently it is given off before the artery enters the orbit. It accompanies the lacrimal nerve along the upper border of the Lateral Rectus, supplies the lacrimal gland. [WP,unvetted]." []
+synonym: "a. lacrimalis" RELATED []
+is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
+is_a: UBERON:0003496 ! head blood vessel
+is_a: UBERON:0004573 ! systemic artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+
+[Term]
+id: UBERON:0001623
+name: dorsal nasal artery
+def: "The dorsal nasal artery (nasal artery) is an artery of the head. It is one of the two terminal branches of the ophthalmic artery. [WP,unvetted]." []
+synonym: "arteria dorsalis nasi" RELATED []
+synonym: "dorsal nasal branch of ophthalmic artery" EXACT []
+synonym: "external nasal artery" EXACT []
+is_a: UBERON:0015156 ! terminal branch of ophthalmic artery
 
 [Term]
 id: UBERON:0001629
@@ -8774,6 +8973,30 @@ synonym: "nervus hypoglossus" RELATED []
 synonym: "nervus hypoglossus [xii]" EXACT []
 synonym: "twelfth cranial nerve" EXACT []
 is_a: UBERON:0001785 ! cranial nerve
+
+[Term]
+id: UBERON:0001653
+name: facial vein
+def: "The anterior facial vein (facial vein) commences at the side of the root of the nose, and is a direct continuation of the angular vein where it also receives a small nasal branch. It lies behind the facial artery and follows a less tortuous course. It receives blood from the external palatine vein before it either joins the anterior branch of the retromandibular vein to form the common facial vein, or drains directly into the internal jugular vein. [WP,unvetted]." []
+synonym: "anterior facial vein" RELATED []
+synonym: "face vein" EXACT []
+synonym: "vein of face" EXACT []
+synonym: "vena facialis anterior" RELATED []
+is_a: UBERON:0003496 ! head blood vessel
+is_a: UBERON:0003502 ! neck blood vessel
+is_a: UBERON:0009141 ! craniocervical region vein
+relationship: BFO:0000050 UBERON:0001456 ! part_of face
+
+[Term]
+id: UBERON:0001663
+name: cerebral vein
+def: "The cerebral veins are divisible into external and internal groups according to the outer surfaces or the inner parts of the hemispheres they drain into. The external veins are the superior cerebral veins, inferior cerebral veins, and middle cerebral vein. [WP,unvetted]." []
+synonym: "venae cerebri" RELATED []
+synonym: "venae encephali" RELATED []
+is_a: UBERON:0001638 ! vein
+is_a: UBERON:0003499 ! brain blood vessel
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+relationship: BFO:0000050 UBERON:0001893 ! part_of telencephalon
 
 [Term]
 id: UBERON:0001665
@@ -10573,6 +10796,14 @@ synonym: "plexus of spinal nerves" EXACT []
 synonym: "somatic nerve plexus" EXACT []
 synonym: "spinal nerve plexus" EXACT []
 is_a: UBERON:0001810 ! nerve plexus
+
+[Term]
+id: UBERON:0001814
+name: brachial nerve plexus
+def: "An arrangement of nerve fibers, running from the spine where it proceeds through the neck then the axilla and into the arm where it innervates skin and muscle. [WP,modified]." []
+synonym: "brachial plexus" EXACT []
+synonym: "plexus brachialis" RELATED []
+is_a: UBERON:0001813 ! spinal nerve plexus
 
 [Term]
 id: UBERON:0001815
@@ -12654,6 +12885,20 @@ relationship: BFO:0000050 UBERON:0000012 ! part_of somatic nervous system
 relationship: BFO:0000050 UBERON:0005386 ! part_of olfactory segment of nasal mucosa
 
 [Term]
+id: UBERON:0001998
+name: sternocostal joint
+def: "Arthrodial joints, with the exception of the first, in which the cartilage is directly united with the sternum, and which is, therefore, a synarthrodial articulation." []
+synonym: "articulatio sternocostalis" EXACT []
+synonym: "articulationes sternocostales" RELATED []
+synonym: "costo sternal joint" EXACT []
+synonym: "costosternal joint" EXACT []
+synonym: "sternochondral joint" EXACT []
+synonym: "sternocostal synovial joint" EXACT []
+synonym: "synovial sternocostal joint" EXACT []
+is_a: UBERON:0002001 ! joint of rib
+is_a: UBERON:0002217 ! synovial joint
+
+[Term]
 id: UBERON:0002000
 name: gluteal muscle
 def: "On of the muscles that make up the buttocks: the gluteus maximus muscle, gluteus medius muscle and gluteus minimus muscle." []
@@ -13188,6 +13433,7 @@ synonym: "venarum" RELATED []
 synonym: "venarum sinus" RELATED []
 synonym: "venosus" RELATED []
 is_a: UBERON:0004151 ! cardiac chamber
+disjoint_from: UBERON:0006615 ! venous sinus
 relationship: BFO:0000050 UBERON:0002350 ! part_of conducting system of heart
 
 [Term]
@@ -15476,6 +15722,18 @@ relationship: BFO:0000050 UBERON:0005281 ! part_of ventricular system of central
 relationship: RO:0002202 UBERON:0001049 ! develops_from neural tube
 
 [Term]
+id: UBERON:0002292
+name: costovertebral joint
+def: "The costovertebral joints are the articulations that connect the heads of the ribs with the bodies of the thoracic vertebrae. Joining of ribs to the vertebrae occurs at two places, the head and the tubercle of the rib. Two convex facets from the head attach to two adjacent vertebrae. This forms a trochoid joint, which is strengthened by the ligament of the head and the intercapital ligament. Articulation of the tubercle is to the transverse process of the adjacent vertebrae. This articulation is reinforced by the dorsal costotransverse ligament. [WP,unvetted]." []
+synonym: "costal head joint" RELATED []
+synonym: "costocorporeal joint" RELATED []
+synonym: "costovertebral synovial joint" EXACT []
+synonym: "joint of costal head" RELATED []
+synonym: "joint of head of rib" RELATED []
+is_a: UBERON:0002001 ! joint of rib
+is_a: UBERON:0002217 ! synovial joint
+
+[Term]
 id: UBERON:0002293
 name: costochondral joint
 def: "A bars of hyaline cartilage located between the distal part of a rib and a costal cartilage, connecting the ribs to the sternum ." []
@@ -16263,6 +16521,16 @@ def: "The innermost layer of the leptomeninges, consisting of a delicate membran
 synonym: "pia" RELATED []
 synonym: "pia mater of neuraxis" EXACT []
 synonym: "pial membrane" EXACT []
+is_a: UBERON:0000391 ! leptomeninx
+
+[Term]
+id: UBERON:0002362
+name: arachnoid mater
+def: "A think avascular meningeal layer, between the pia mater and the dural mater. It is separated from the pia mater by the subarachnoid space." []
+synonym: "arachnoid" EXACT []
+synonym: "arachnoid mater of neuraxis" EXACT []
+synonym: "arachnoid membrane" EXACT []
+synonym: "arachnoidea mater" RELATED []
 is_a: UBERON:0000391 ! leptomeninx
 
 [Term]
@@ -22640,6 +22908,16 @@ intersection_of: BFO:0000050 UBERON:0001467 ! part_of shoulder
 relationship: BFO:0000050 UBERON:0001467 ! part_of shoulder
 
 [Term]
+id: UBERON:0003437
+name: eyelid nerve
+def: "A nerve that innervates an eyelid." []
+synonym: "blepharon nerve" EXACT []
+synonym: "nerve of blepharon" EXACT []
+synonym: "nerve of eyelid" EXACT []
+synonym: "palpebral nerve" EXACT []
+is_a: UBERON:0001021 ! nerve
+
+[Term]
 id: UBERON:0003439
 name: nerve of trunk region
 def: "A nerve that is part of the trunk region of the body (not to be confused with a nerve trunk)." []
@@ -23274,6 +23552,22 @@ is_a: UBERON:0003643 ! respiratory system arterial blood vessel
 intersection_of: UBERON:0001637 ! artery
 intersection_of: BFO:0000050 UBERON:0001004 ! part_of respiratory system
 relationship: BFO:0000050 UBERON:0001004 ! part_of respiratory system
+
+[Term]
+id: UBERON:0003471
+name: artery of lower lip
+def: "The Iinferior labial artery (inferior labial branch of facial artery) arises near the angle of the mouth; it passes upward and forward beneath the Triangularis and, penetrating the Orbicularis oris, runs in a tortuous course along the edge of the lower lip between this muscle and the mucous membrane. It supplies the labial glands, the mucous membrane, and the muscles of the lower lip; and anastomoses with the artery of the opposite side, and with the mental branch of the inferior alveolar artery." []
+synonym: "arteria labialis inferior" EXACT []
+synonym: "inferior labial artery" EXACT []
+synonym: "inferior labial branch of facial artery" EXACT []
+synonym: "ramus labialis inferior (arteria facialis)" EXACT []
+synonym: "ramus labialis inferior arteriae facialis" EXACT []
+is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
+is_a: UBERON:0003496 ! head blood vessel
+is_a: UBERON:0004573 ! systemic artery
+is_a: UBERON:0009657 ! artery of lip
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+relationship: BFO:0000050 UBERON:0000033 ! part_of head
 
 [Term]
 id: UBERON:0003475
@@ -24423,6 +24717,101 @@ synonym: "spinal cord pia mater of neuraxis" EXACT []
 is_a: UBERON:0002361 ! pia mater
 is_a: UBERON:0003292 ! meninx of spinal cord
 intersection_of: UBERON:0002361 ! pia mater
+intersection_of: BFO:0000050 UBERON:0002240 ! part_of spinal cord
+relationship: BFO:0000050 UBERON:0002240 ! part_of spinal cord
+
+[Term]
+id: UBERON:0003556
+name: forebrain arachnoid mater
+def: "An arachnoid mater that is part of a forebrain [Automatically generated definition]." []
+synonym: "arachnoid mater of forebrain" EXACT []
+synonym: "arachnoid mater of neuraxis of forebrain" EXACT []
+synonym: "arachnoid of forebrain" EXACT []
+synonym: "forebrain arachnoid" EXACT []
+synonym: "forebrain arachnoid mater of neuraxis" EXACT []
+is_a: UBERON:0002362 ! arachnoid mater
+is_a: UBERON:0003548 ! forebrain meninges
+intersection_of: UBERON:0002362 ! arachnoid mater
+intersection_of: BFO:0000050 UBERON:0001890 ! part_of forebrain
+relationship: BFO:0000050 UBERON:0001890 ! part_of forebrain
+
+[Term]
+id: UBERON:0003557
+name: midbrain arachnoid mater
+def: "An arachnoid mater that is part of a midbrain [Automatically generated definition]." []
+synonym: "arachnoid mater of midbrain" EXACT []
+synonym: "arachnoid mater of neuraxis of midbrain" EXACT []
+synonym: "arachnoid of midbrain" EXACT []
+synonym: "mesencephalon arachnoid mater" RELATED []
+synonym: "midbrain arachnoid" EXACT []
+synonym: "midbrain arachnoid mater of neuraxis" EXACT []
+is_a: UBERON:0002362 ! arachnoid mater
+is_a: UBERON:0003288 ! meninx of midbrain
+intersection_of: UBERON:0002362 ! arachnoid mater
+intersection_of: BFO:0000050 UBERON:0001891 ! part_of midbrain
+relationship: BFO:0000050 UBERON:0001891 ! part_of midbrain
+
+[Term]
+id: UBERON:0003558
+name: diencephalon arachnoid mater
+def: "An arachnoid mater that is part of a diencephalon [Automatically generated definition]." []
+synonym: "arachnoid mater of between brain" EXACT []
+synonym: "arachnoid mater of diencephalon" EXACT []
+synonym: "arachnoid mater of interbrain" EXACT []
+synonym: "arachnoid mater of mature diencephalon" EXACT []
+synonym: "arachnoid mater of neuraxis of between brain" EXACT []
+synonym: "arachnoid mater of neuraxis of diencephalon" EXACT []
+synonym: "arachnoid mater of neuraxis of interbrain" EXACT []
+synonym: "arachnoid mater of neuraxis of mature diencephalon" EXACT []
+synonym: "arachnoid of between brain" EXACT []
+synonym: "arachnoid of diencephalon" EXACT []
+synonym: "arachnoid of interbrain" EXACT []
+synonym: "arachnoid of mature diencephalon" EXACT []
+synonym: "between brain arachnoid" EXACT []
+synonym: "between brain arachnoid mater" EXACT []
+synonym: "between brain arachnoid mater of neuraxis" EXACT []
+synonym: "diencephalon arachnoid" EXACT []
+synonym: "diencephalon arachnoid mater of neuraxis" EXACT []
+synonym: "interbrain arachnoid" EXACT []
+synonym: "interbrain arachnoid mater" EXACT []
+synonym: "interbrain arachnoid mater of neuraxis" EXACT []
+synonym: "mature diencephalon arachnoid" EXACT []
+synonym: "mature diencephalon arachnoid mater" EXACT []
+synonym: "mature diencephalon arachnoid mater of neuraxis" EXACT []
+is_a: UBERON:0003290 ! meninx of diencephalon
+is_a: UBERON:0003556 ! forebrain arachnoid mater
+intersection_of: UBERON:0002362 ! arachnoid mater
+intersection_of: BFO:0000050 UBERON:0001894 ! part_of diencephalon
+relationship: BFO:0000050 UBERON:0001894 ! part_of diencephalon
+
+[Term]
+id: UBERON:0003559
+name: hindbrain arachnoid mater
+def: "An arachnoid mater that is part of a hindbrain [Automatically generated definition]." []
+synonym: "arachnoid mater of hindbrain" EXACT []
+synonym: "arachnoid mater of neuraxis of hindbrain" EXACT []
+synonym: "arachnoid of hindbrain" EXACT []
+synonym: "hindbrain arachnoid" EXACT []
+synonym: "hindbrain arachnoid mater of neuraxis" EXACT []
+synonym: "rhombencephalon arachnoid mater" RELATED []
+is_a: UBERON:0002362 ! arachnoid mater
+is_a: UBERON:0003291 ! meninx of hindbrain
+intersection_of: UBERON:0002362 ! arachnoid mater
+intersection_of: BFO:0000050 UBERON:0002028 ! part_of hindbrain
+relationship: BFO:0000050 UBERON:0002028 ! part_of hindbrain
+
+[Term]
+id: UBERON:0003560
+name: spinal cord arachnoid mater
+def: "An arachnoid mater that is part of a spinal cord [Automatically generated definition]." []
+synonym: "arachnoid mater of neuraxis of spinal cord" EXACT []
+synonym: "arachnoid mater of spinal cord" EXACT []
+synonym: "arachnoid of spinal cord" EXACT []
+synonym: "spinal cord arachnoid" EXACT []
+synonym: "spinal cord arachnoid mater of neuraxis" EXACT []
+is_a: UBERON:0002362 ! arachnoid mater
+is_a: UBERON:0003292 ! meninx of spinal cord
+intersection_of: UBERON:0002362 ! arachnoid mater
 intersection_of: BFO:0000050 UBERON:0002240 ! part_of spinal cord
 relationship: BFO:0000050 UBERON:0002240 ! part_of spinal cord
 
@@ -26776,6 +27165,15 @@ is_a: UBERON:0012449 ! mechanoreceptor
 relationship: BFO:0000050 UBERON:0002067 ! part_of dermis
 
 [Term]
+id: UBERON:0003721
+name: lingual nerve
+def: "The lingual nerve is a branch of the mandibular nerve (CN V3), itself a branch of the trigeminal nerve, which supplies sensory innervation to the tongue. It also carries fibers from the facial nerve, which return taste information from the anterior two thirds of the tongue." []
+synonym: "lingual branch of trigeminal nerve" EXACT []
+synonym: "trigeminal nerve lingual branch" EXACT []
+synonym: "trigeminal V nerve lingual branch" EXACT []
+is_a: UBERON:0011779 ! nerve of head region
+
+[Term]
 id: UBERON:0003723
 name: vestibular nerve
 def: "The vestibular nerve is one of the two branches of the Vestibulocochlear nerve (the cochlear nerve being the other). It goes to the semicircular canals via the vestibular ganglion. It receives positional information. Axons of the vestibular nerve synapse in the vestibular nucleus on the lateral floor and wall of the fourth ventricle in the pons and medulla. It arises from bipolar cells in the vestibular ganglion, ganglion of Scarpa, which is situated in the upper part of the outer end of the internal auditory meatus. [WP,unvetted]." []
@@ -26789,6 +27187,24 @@ synonym: "vestibulocochlear nerve vestibular root" RELATED []
 synonym: "vestibulocochlear VIII nerve vestibular component" EXACT []
 is_a: UBERON:0011779 ! nerve of head region
 relationship: BFO:0000050 UBERON:0004681 ! part_of vestibular system
+
+[Term]
+id: UBERON:0003725
+name: cervical nerve plexus
+def: "An arrangement of nerve fibers, running from the spine that travels to the head and neck where it innervates skin and muscle." []
+synonym: "cervical nerve plexus" EXACT []
+synonym: "cervical plexus" EXACT []
+synonym: "plexus cervicalis" EXACT []
+synonym: "plexus cervicalis" RELATED []
+is_a: UBERON:0001813 ! spinal nerve plexus
+
+[Term]
+id: UBERON:0003728
+name: mediastinum
+def: "The central part of the thoracic cavity enclosed by the left and right pleurae." []
+synonym: "mediastinal part of chest" EXACT []
+is_a: UBERON:0002553 ! anatomical cavity
+relationship: BFO:0000050 UBERON:0002224 ! part_of thoracic cavity
 
 [Term]
 id: UBERON:0003729
@@ -29634,6 +30050,13 @@ is_a: UBERON:0034921 ! multi organ part structure
 relationship: BFO:0000050 UBERON:0001456 ! part_of face
 
 [Term]
+id: UBERON:0004092
+name: hypothalamus-pituitary axis
+def: "." []
+is_a: UBERON:0000015 ! anatomical boundary
+relationship: BFO:0000050 UBERON:0000949 ! part_of endocrine system
+
+[Term]
 id: UBERON:0004096
 name: odontoid process of cervical vertebra 2
 def: "The toothlike process on the upper surface of the axis, which articulates with the atlas above[GAID]." []
@@ -29649,6 +30072,14 @@ synonym: "odontoid process of axis" EXACT []
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0004530 ! bony projection
 relationship: BFO:0000050 UBERON:0001093 ! part_of vertebral bone 2
+
+[Term]
+id: UBERON:0004098
+name: tibial plateaux
+def: "." []
+is_a: UBERON:0004120 ! mesoderm-derived structure
+is_a: UBERON:0005055 ! zone of long bone
+relationship: BFO:0000050 UBERON:0000979 ! part_of tibia
 
 [Term]
 id: UBERON:0004099
@@ -29669,6 +30100,14 @@ is_a: UBERON:0000467 ! anatomical system
 relationship: BFO:0000050 UBERON:0002113 ! part_of kidney
 
 [Term]
+id: UBERON:0004101
+name: nasolabial region
+def: "." []
+is_a: UBERON:0001444 ! subdivision of head
+is_a: UBERON:0004121 ! ectoderm-derived structure
+relationship: BFO:0000050 UBERON:0000004 ! part_of nose
+
+[Term]
 id: UBERON:0004103
 name: alveolar ridge
 def: "one of the two jaw ridges either on the roof of the mouth between the upper teeth and the hard palate or on the bottom of the mouth behind the lower teeth[WP]. The alveolar ridges contain the sockets (alveoli) of the teeth[HP]." []
@@ -29680,6 +30119,13 @@ synonym: "margo alveolaris" EXACT []
 is_a: UBERON:0005913 ! zone of bone organ
 is_a: UBERON:0010313 ! neural crest-derived structure
 relationship: BFO:0000050 UBERON:0001708 ! part_of jaw skeleton
+
+[Term]
+id: UBERON:0004104
+name: hairline
+def: "Anatomical line demarcating the boundary between forehead and scalp." []
+is_a: UBERON:0006800 ! anatomical line
+relationship: BFO:0000050 UBERON:0000033 ! part_of head
 
 [Term]
 id: UBERON:0004105
@@ -34377,6 +34823,17 @@ intersection_of: BFO:0000050 UBERON:0001507 ! part_of biceps brachii
 relationship: BFO:0000050 UBERON:0001507 ! part_of biceps brachii
 
 [Term]
+id: UBERON:0004504
+name: skeletal muscle tissue of mylohyoid
+def: "A portion of skeletal muscle tissue that is part of a mylohyoid [Automatically generated definition]." []
+is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
+is_a: UBERON:0001134 ! skeletal muscle tissue
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+intersection_of: UBERON:0001134 ! skeletal muscle tissue
+intersection_of: BFO:0000050 UBERON:0001564 ! part_of mylohyoid muscle
+relationship: BFO:0000050 UBERON:0001564 ! part_of mylohyoid muscle
+
+[Term]
 id: UBERON:0004505
 name: skeletal muscle tissue of orbicularis oculi
 def: "A portion of skeletal muscle tissue that is part of a orbicularis oculi [Automatically generated definition]." []
@@ -34679,6 +35136,16 @@ intersection_of: BFO:0000050 UBERON:0001301 ! part_of epididymis
 relationship: BFO:0000050 UBERON:0001301 ! part_of epididymis
 
 [Term]
+id: UBERON:0004545
+name: external capsule of telencephalon
+def: "External capsule is an organ subdivision of the telencephalon which is made up primarily of myelinated axonal neural tissue (white matter). The external capsule is a sheet-like fiber bundle located lateral to the to the putamen and globus pallidus which projects dorsally to the white matter underlying the cerebral cortex[FMA]." []
+synonym: "capsula externa" RELATED []
+synonym: "corpus callosum external capsule" RELATED []
+synonym: "external capsule" EXACT []
+is_a: UBERON:0002437 ! cerebral hemisphere white matter
+relationship: BFO:0000050 UBERON:0002437 ! part_of cerebral hemisphere white matter
+
+[Term]
 id: UBERON:0004547
 name: decidua capsularis
 def: "The layer of uterine endometrium overlying the implanted chorionic vesicle and facing the uterine cavity" []
@@ -34969,6 +35436,16 @@ intersection_of: UBERON:0000365 ! urothelium
 intersection_of: BFO:0000050 UBERON:0001255 ! part_of urinary bladder
 relationship: BFO:0000050 UBERON:0001255 ! part_of urinary bladder
 relationship: BFO:0000050 UBERON:0001259 ! part_of mucosa of urinary bladder
+
+[Term]
+id: UBERON:0004646
+name: infraorbital artery
+def: "The infraorbital artery is an artery in the head that runs in the maxilla, emerging through the infraorbital foramen, just under the orbit of the eye. [WP,unvetted]." []
+synonym: "a. infraorbitalis" RELATED []
+synonym: "infra-orbital artery" EXACT []
+is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
+is_a: UBERON:0001637 ! artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 
 [Term]
 id: UBERON:0004647
@@ -35452,6 +35929,25 @@ synonym: "vena jugularis" RELATED []
 is_a: UBERON:0003502 ! neck blood vessel
 is_a: UBERON:0009141 ! craniocervical region vein
 relationship: BFO:0000050 UBERON:0000974 ! part_of neck
+
+[Term]
+id: UBERON:0004713
+name: corpus cavernosum penis
+def: "One of the columns of erectile tissue forming the dorsum and sides of the penis." []
+synonym: "cavernous body of penis" RELATED []
+synonym: "corpus cavernosum" BROAD []
+synonym: "corpus cavernosum of penis" EXACT []
+synonym: "corpus cavernosum penis" RELATED []
+synonym: "corpus spongiosum penis" RELATED []
+synonym: "penile corpus cavernosum" RELATED []
+synonym: "penis erectile tissue" BROAD []
+synonym: "spongy body of male urethra" RELATED []
+synonym: "spongy body of penis" RELATED []
+is_a: UBERON:0005156 ! reproductive structure
+is_a: UBERON:0006609 ! corpus cavernosum
+intersection_of: UBERON:0006609 ! corpus cavernosum
+intersection_of: BFO:0000050 UBERON:0000989 ! part_of penis
+relationship: BFO:0000050 UBERON:0000989 ! part_of penis
 
 [Term]
 id: UBERON:0004714
@@ -38969,6 +39465,16 @@ union_of: UBERON:0005071 ! posterior neuropore
 relationship: BFO:0000050 UBERON:0001049 ! part_of neural tube
 
 [Term]
+id: UBERON:0005078
+name: lamina terminalis of neural tube
+def: "The anterior-most (rostral) portion of the wall of the neural tube, formed by closure of the anterior neuropore; the median strip of the anterior wall of the prosencephalon, which persists in a relatively unchanged state as the cerebral hemispheres grow out forward beyond the original anterior end of the prosencephalon." []
+synonym: "lamina terminalis" BROAD []
+is_a: UBERON:0005291 ! embryonic tissue
+is_a: UBERON:0010371 ! ecto-epithelium
+relationship: BFO:0000050 UBERON:0006222 ! part_of future diencephalon
+relationship: RO:0002202 UBERON:0005070 ! develops_from anterior neuropore
+
+[Term]
 id: UBERON:0005080
 name: metanephric ureteric bud
 def: "The portion of the ureteric bud tube that contributes to the morphogenesis of the metanephros[GO]." []
@@ -39599,6 +40105,19 @@ intersection_of: BFO:0000050 UBERON:0000362 ! part_of renal medulla
 intersection_of: BFO:0000050 UBERON:0001232 ! part_of collecting duct of renal tubule
 relationship: BFO:0000050 UBERON:0000362 ! part_of renal medulla
 relationship: BFO:0000050 UBERON:0001232 ! part_of collecting duct of renal tubule
+
+[Term]
+id: UBERON:0005193
+name: ethmoidal artery
+def: "One of: anterior or posterior ethmoidal arteries." []
+synonym: "ethmoid artery" EXACT []
+is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
+is_a: UBERON:0003496 ! head blood vessel
+is_a: UBERON:0004573 ! systemic artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+union_of: UBERON:0012318 ! anterior ethmoidal artery
+union_of: UBERON:0012319 ! posterior ethmoidal artery
+relationship: BFO:0000050 UBERON:0000033 ! part_of head
 
 [Term]
 id: UBERON:0005194
@@ -41090,6 +41609,12 @@ is_a: UBERON:0016526 ! lobe of cerebral hemisphere
 relationship: BFO:0000050 UBERON:0001893 ! part_of telencephalon
 
 [Term]
+id: UBERON:0005367
+name: hippocampus granule cell layer
+synonym: "hippocampus granular layer" RELATED []
+is_a: UBERON:0002305 ! layer of hippocampus
+
+[Term]
 id: UBERON:0005368
 name: hippocampus molecular layer
 def: "A cytoarchitectural region of the hippocampus consisting of a composite of the two outermost layers of the hippocampus, the Stratum lacunosum-moleculare and the Stratum radiatum (Carpenter-83). In CA3, there is an additional layer lying above the pyramidal cell layer, the stratum lucidum, which is also included here." []
@@ -41362,6 +41887,17 @@ intersection_of: BFO:0000050 UBERON:0000079 ! part_of male reproductive system
 relationship: BFO:0000050 UBERON:0000079 ! part_of male reproductive system
 
 [Term]
+id: UBERON:0005400
+name: telencephalon arachnoid mater
+def: "An arachnoid mater that is part of a telencephalon." []
+synonym: "telencephalon arachnoid matter" EXACT []
+is_a: UBERON:0003289 ! meninx of telencephalon
+is_a: UBERON:0003556 ! forebrain arachnoid mater
+intersection_of: UBERON:0002362 ! arachnoid mater
+intersection_of: BFO:0000050 UBERON:0001893 ! part_of telencephalon
+relationship: BFO:0000050 UBERON:0001893 ! part_of telencephalon
+
+[Term]
 id: UBERON:0005401
 name: cerebral hemisphere gray matter
 def: "A gray matter that is part of a cerebral hemisphere." []
@@ -41469,6 +42005,13 @@ synonym: "ventral choroidal fissure" RELATED []
 is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:0006846 ! surface groove
 relationship: BFO:0000050 UBERON:0016855 ! part_of ventral part of optic cup
+
+[Term]
+id: UBERON:0005413
+name: spinocerebellar tract
+def: "This tract conveys interoceptive, proprioceptive, and exteroceptive information from the body's internal organs, and from the trunk, extremities, and neck region to the Cerebellum." []
+is_a: UBERON:0001018 ! axon tract
+relationship: BFO:0000050 UBERON:0002316 ! part_of white matter
 
 [Term]
 id: UBERON:0005414
@@ -41781,6 +42324,19 @@ relationship: BFO:0000050 UBERON:0001137 ! part_of dorsum
 relationship: BFO:0000050 UBERON:0002417 ! part_of abdominal segment of trunk
 
 [Term]
+id: UBERON:0005467
+name: platysma
+def: "The platysma is a pharyngeal arch 2 muscle and a superficial facial muscle that participates in oral/pharyngeal behaviors and is innervated by the cervical branch of the facial nerve. It attaches to the mandible and it attaches to the skin of the head, neck, and thoracic region where it is found superficial to the clavicle. Burrows et al. (2011) argue that in hylobatids (and, presumably, other primates) the platysma in the region of the modiolus represents both the cervicale and myoides muscles." []
+synonym: "neck platysma muscle" RELATED []
+synonym: "platysma cervicale" NARROW []
+synonym: "platysma muscle" EXACT []
+synonym: "platysma myoides" NARROW []
+is_a: UBERON:0001577 ! facial muscle
+is_a: UBERON:0008876 ! hypodermis skeletal muscle layer
+relationship: BFO:0000050 UBERON:0008876 ! part_of hypodermis skeletal muscle layer
+relationship: RO:0002202 UBERON:0003066 ! develops_from pharyngeal arch 2
+
+[Term]
 id: UBERON:0005473
 name: sacral region
 def: "A subdivision of an organism along the anterior-posterior axis in the pelvic region immediately posterior to the lumbar region and anterior to the caudal region. Sometimes an intermediate region is defined between the sacral and caudal." []
@@ -41873,6 +42429,17 @@ synonym: "hyaloid vessels" EXACT []
 is_a: UBERON:0003496 ! head blood vessel
 is_a: UBERON:0010313 ! neural crest-derived structure
 relationship: BFO:0000050 UBERON:0002203 ! part_of vasculature of eye
+
+[Term]
+id: UBERON:0005493
+name: hyoid muscle
+def: "One of a group of muscles used in mastication and swallowing. These muscles are attached to the hyoid bone, which is suspended in the neck and forms the base of the tongue and larynx. The muscles are divided into suprahyoid (superior) or infrahyoid (inferior) groups relative to the bone[WP, generalized]." []
+synonym: "hyoid muscles" EXACT []
+is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
+is_a: UBERON:0000933 ! pharyngeal muscle
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+relationship: BFO:0000050 UBERON:0004467 ! part_of musculature of pharynx
+relationship: RO:0002202 UBERON:0010348 ! develops_from hyoid pre-muscle mass
 
 [Term]
 id: UBERON:0005496
@@ -44614,6 +45181,20 @@ is_a: UBERON:4100000 ! skeletal element projection
 relationship: BFO:0000050 UBERON:0002412 ! part_of vertebra
 
 [Term]
+id: UBERON:0006062
+name: zygapophysis
+def: "Paired processes at the cephalic and caudal ends of the neural arch. They function as interlocking structures between adjacent vertebrae, and limit dorsoventral flexion and lateral movement of the column in the trunk region[AAO]. The articular processes or zygapophyses of a vertebra, in human anatomy contain two superior and two inferior, spring from the junctions of the pedicles and laminae. These stick out of an end of a vertebra to lock with a zygapophysis on the next vertebra, to make the backbone more stable. The superior processes project upward from a lower vertebra, and their articular surfaces are directed more or less backward. The inferior processes project downward from a higher vertebra, and their articular surfaces are directed more or less forward and outward. The articular surfaces are coated with hyaline cartilage." []
+synonym: "articular process" BROAD []
+synonym: "articular process of vertebra" EXACT []
+synonym: "intercalarium articulating process" RELATED []
+synonym: "p. articularis vertebrae" RELATED []
+synonym: "processus articularis (zygapophysis)" EXACT []
+synonym: "processus articularis vertebrae" RELATED []
+synonym: "zygapophysis" EXACT []
+is_a: UBERON:0006061 ! process of vertebra
+is_a: UBERON:0015212 ! lateral structure
+
+[Term]
 id: UBERON:0006063
 name: cartilaginous neural arch
 def: "One of the cartilaginous structures surrounding the embryonic spinal cord, formed by the dorsal growth of the dorsolateral arcualia; it is the primordium of the vertebral arch." []
@@ -45012,6 +45593,18 @@ relationship: BFO:0000050 UBERON:0002028 ! part_of hindbrain
 relationship: BFO:0000050 UBERON:0010092 ! part_of future metencephalon
 
 [Term]
+id: UBERON:0006216
+name: cervical sinus of His
+def: "A temporary depression caudal to the second pharyngeal arch, containing the succeeding pharyngeal arches; it is overgrown by the second pharyngeal arch and closes off as the cervical vesicle. This sinus is bounded in front by the hyoid arch, and behind by the thoracic wall." []
+synonym: "cervical sinus" EXACT []
+synonym: "retro-hyoid depression" RELATED []
+synonym: "sinus cervicalis" EXACT []
+synonym: "sinus cervicalis" RELATED []
+is_a: UBERON:0016566 ! pit
+relationship: BFO:0000050 UBERON:0000922 ! part_of embryo
+relationship: BFO:0000050 UBERON:0008814 ! part_of pharyngeal arch system
+
+[Term]
 id: UBERON:0006217
 name: cloacal membrane
 def: "The membrane that covers the embryonic cloaca, formed by the union of proctodeal (anal pit) ectoderm and cloacal endoderm, with no intervening mesoderm; the urorectal septum joins the cloacal membrane and divides it into an anal membrane and a urogenital membrane; the point where the urorectal septum intersects the cloacal membrane is the future site of the perineal body; proliferation of mesoderm and ectoderm around the cloacal membrane produces primordial tissues of the external genitalia in both sexes: the genital tubercle, genital folds, and genital swellings." []
@@ -45315,6 +45908,15 @@ is_a: UBERON:0007651 ! anatomical junction
 relationship: BFO:0000050 UBERON:0001555 ! part_of digestive tract
 
 [Term]
+id: UBERON:0006265
+name: mural trophectoderm
+def: "Trophectoderm that surrounds blastocyst cavity." []
+synonym: "mural trophoblast" RELATED []
+is_a: UBERON:0016888 ! transitional anatomical structure
+relationship: BFO:0000050 UBERON:0004345 ! part_of trophectoderm
+relationship: BFO:0000050 UBERON:0016887 ! part_of entire extraembryonic component
+
+[Term]
 id: UBERON:0006266
 name: nasolacrimal groove
 def: "Groove between maxillary prominence and lateral nasal process." []
@@ -45367,6 +45969,27 @@ def: "the pair of depressions of thickened otic placode epithelium, that further
 synonym: "otic cup" EXACT []
 is_a: UBERON:0016566 ! pit
 relationship: BFO:0000050 UBERON:0003069 ! part_of otic placode
+
+[Term]
+id: UBERON:0006278
+name: pleuropericardial folds
+def: "Each of the folds that grow out from the lateral part of the body wall. They fuse and meet with the dorsal and ventral mesentery of the foregut, separating the pleural cavities from the pericardial cavity." []
+synonym: "pleuro-pericardial folds" EXACT []
+synonym: "pleuropericardial membrane" RELATED []
+synonym: "pleuropericardial membranes" RELATED []
+is_a: UBERON:0005423 ! developing anatomical structure
+relationship: BFO:0000050 UBERON:0000922 ! part_of embryo
+relationship: RO:0002202 UBERON:0006210 ! develops_from body-wall mesenchyme
+
+[Term]
+id: UBERON:0006280
+name: polar trophectoderm
+def: "Trophectoderm that surrounds the inner cell mass (ICM)." []
+synonym: "polar trophoblast" RELATED []
+is_a: UBERON:0016888 ! transitional anatomical structure
+relationship: BFO:0000050 UBERON:0004345 ! part_of trophectoderm
+relationship: BFO:0000050 UBERON:0016887 ! part_of entire extraembryonic component
+relationship: RO:0002202 UBERON:0004345 ! develops_from trophectoderm
 
 [Term]
 id: UBERON:0006284
@@ -45552,6 +46175,36 @@ synonym: "fluid" BROAD []
 is_a: UBERON:0000463 ! organism substance
 
 [Term]
+id: UBERON:0006320
+name: inferior oblique extraocular muscle
+def: "thin, narrow muscle placed near the anterior margin of the floor of the orbit." []
+synonym: "inferior oblique" EXACT []
+synonym: "inferior oblique muscle" EXACT []
+synonym: "m. obliquus inferior" EXACT []
+synonym: "musculus obliquus inferior" EXACT []
+synonym: "musculus obliquus inferior bulbi" EXACT []
+synonym: "musculus obliquus inferior bulbi" RELATED []
+synonym: "obliquus inferior" EXACT []
+synonym: "obliquus oculi inferior" EXACT []
+synonym: "ventral oblique extraocular muscle" EXACT []
+synonym: "ventral oblique extraocular muscles" RELATED []
+is_a: UBERON:0006532 ! oblique extraocular muscle
+
+[Term]
+id: UBERON:0006322
+name: inferior rectus extraocular muscle
+def: "A muscle in the orbit that depresses, adducts, and helps extort (rotate laterally) the eye. The inferior rectus muscle is the only muscle that is capable of depressing the pupil when it is in a fully abducted position." []
+synonym: "inferior rectus" EXACT []
+synonym: "inferior rectus muscle" EXACT []
+synonym: "m. rectus inferior" EXACT []
+synonym: "musculus rectus inferior" EXACT []
+synonym: "musculus rectus inferior bulbi" RELATED []
+synonym: "ventral recti" RELATED []
+synonym: "ventral rectus" RELATED []
+synonym: "ventral rectus extraocular muscle" EXACT []
+is_a: UBERON:0006533 ! rectus extraocular muscle
+
+[Term]
 id: UBERON:0006323
 name: superior rectus extraocular muscle
 def: "The superior rectus muscle is a muscle in the orbit. It is one of the extraocular muscles. It is innervated by the superior division of the oculomotor nerve (Cranial Nerve III). In the primary position (looking straight ahead), the superior rectus muscle's primary function is elevation, although it also contributes to intorsion and adduction." []
@@ -45564,6 +46217,14 @@ synonym: "musculus rectus superior bulbi" RELATED []
 synonym: "superior rectus" EXACT []
 synonym: "superior rectus muscle" EXACT []
 is_a: UBERON:0006533 ! rectus extraocular muscle
+
+[Term]
+id: UBERON:0006328
+name: laryngeal intrinsic muscle
+synonym: "intrinsic laryneal muscles" RELATED []
+synonym: "intrinsic laryngeal muscle" EXACT []
+synonym: "intrinsic muscle of larynx" EXACT []
+is_a: UBERON:0001568 ! muscle of larynx
 
 [Term]
 id: UBERON:0006330
@@ -45896,6 +46557,11 @@ def: "The muscles that move the eye. Included in this group are the medial rectu
 is_a: UBERON:0001601 ! extra-ocular muscle
 
 [Term]
+id: UBERON:0006532
+name: oblique extraocular muscle
+is_a: UBERON:0006531 ! oculomotor muscle
+
+[Term]
 id: UBERON:0006533
 name: rectus extraocular muscle
 is_a: UBERON:0006531 ! oculomotor muscle
@@ -46140,6 +46806,27 @@ is_a: UBERON:0010314 ! structure with developmental contribution from neural cre
 relationship: BFO:0000050 UBERON:0001710 ! part_of lower jaw region
 
 [Term]
+id: UBERON:0006608
+name: corpus cavernosum clitoridis
+def: "The corpus cavernosum clitoridis is one of a pair of sponge-like regions of erectile tissue which contain most of the blood in the clitoris during clitoral erection. This is homologous to the corpus cavernosum penis in the male; the body of the clitoris contains erectile tissue in a pair of corpora cavernosa (literally 'cave-like bodies'), with a recognisably similar structure." []
+synonym: "cavernous body of clitoris" RELATED []
+synonym: "clitoral corpus cavernosum" RELATED []
+synonym: "corpus cavernosum" RELATED []
+synonym: "corpus cavernosum clitoridis" RELATED []
+synonym: "corpus cavernosum of clitoris" EXACT []
+is_a: UBERON:0005156 ! reproductive structure
+is_a: UBERON:0006609 ! corpus cavernosum
+intersection_of: UBERON:0006609 ! corpus cavernosum
+intersection_of: BFO:0000050 UBERON:0002411 ! part_of clitoris
+relationship: BFO:0000050 UBERON:0002411 ! part_of clitoris
+
+[Term]
+id: UBERON:0006609
+name: corpus cavernosum
+def: "." []
+is_a: UBERON:0008324 ! erectile tissue
+
+[Term]
 id: UBERON:0006610
 name: tunica albuginea
 def: "Denser fibrous covering over one of: penis, testicles or ovaries." []
@@ -46155,6 +46842,13 @@ name: shell
 def: "A rigid covering that envelops an object." []
 is_a: UBERON:0000477 ! anatomical cluster
 relationship: BFO:0000050 UBERON:0002416 ! part_of integumental system
+
+[Term]
+id: UBERON:0006615
+name: venous sinus
+def: "A large vein or channel for the circulation of venous blood" []
+synonym: "blood sinus" RELATED []
+is_a: UBERON:0003920 ! venous blood vessel
 
 [Term]
 id: UBERON:0006618
@@ -46400,6 +47094,16 @@ synonym: "tunica muscularis" RELATED []
 is_a: UBERON:0018260 ! layer of muscle tissue
 
 [Term]
+id: UBERON:0006664
+name: greater palatine artery
+def: "The greater palatine artery is a terminal branch of the maxillary artery. It branches off of the maxillary artery in the pterygopalatine fossa and descends through the greater palatine foramen along with the greater palatine nerve and supplies the hard palate. It also anastomosis through the incisive canal with the sphenopalatine artery to supply the nasal cavity." []
+synonym: "arteria palatina major" RELATED []
+synonym: "major palatine artery" EXACT []
+is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
+is_a: UBERON:0001637 ! artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+
+[Term]
 id: UBERON:0006670
 name: central tendon of diaphragm
 def: "the three-lobed cloverleaf-shaped aponeurosis situated at the center of the diaphragm; the central tendon is fused with the fibrous pericardium that provides attachment for the muscle fibers" []
@@ -46569,6 +47273,43 @@ is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0010712 ! limb skeleton subdivision
 relationship: BFO:0000050 UBERON:0002470 ! part_of autopod region
 relationship: BFO:0000050 UBERON:0004381 ! part_of skeleton of limb
+
+[Term]
+id: UBERON:0006718
+name: medial pterygoid muscle
+def: "The medial pterygoid is a pharyngeal arch 1 muscle that participates in oral/pharyngeal behaviors and is innervated by the nerve to the medial pterygoid and attaches to the cranial base and the medial side of the mandibular angle." []
+synonym: "internal pterygoid" RELATED []
+synonym: "internal pterygoid muscle" RELATED []
+synonym: "medial pterygoid" RELATED []
+synonym: "musculus pterygoideus internus" EXACT []
+synonym: "musculus pterygoideus medialis" EXACT []
+synonym: "pterygoid medialis" EXACT []
+synonym: "pterygoidei internus" RELATED []
+synonym: "pterygoideus internus" RELATED []
+synonym: "pterygoideus medial" EXACT []
+synonym: "pterygoideus medialis" EXACT []
+is_a: UBERON:0006720 ! pterygoid muscle
+disjoint_from: UBERON:0006719 ! lateral pterygoid muscle
+
+[Term]
+id: UBERON:0006719
+name: lateral pterygoid muscle
+def: "Pharyngeal arch 1 muscle that participates in oral/pharyngeal behaviors, is innervated by the lateral pterygoid nerve branches, and attaches to the condylar process of the mandible and temporomandibular joint (TMJ) capsule, and the cranial base." []
+synonym: "external pterygoid muscle" EXACT []
+synonym: "lateral pteregoid" EXACT []
+synonym: "lateral pteregoid muscle" EXACT []
+synonym: "lateral pterygoid" EXACT []
+synonym: "m. pterygoideus externus" EXACT []
+synonym: "m. pterygoideus lateralis" EXACT []
+synonym: "musculus pterygoides lateralis" EXACT []
+synonym: "musculus pterygoideus externus" EXACT []
+synonym: "musculus pterygoideus lateralis" EXACT []
+synonym: "pterygoid lateralis" BROAD []
+synonym: "pterygoideus externus" EXACT []
+synonym: "pterygoideus externus muscle" EXACT []
+synonym: "pterygoideus lateral" EXACT []
+synonym: "pterygoideus lateral muscle" EXACT []
+is_a: UBERON:0006720 ! pterygoid muscle
 
 [Term]
 id: UBERON:0006720
@@ -47730,6 +48471,14 @@ is_a: UBERON:0011741 ! cardiac valve leaflet
 intersection_of: UBERON:0011741 ! cardiac valve leaflet
 intersection_of: BFO:0000050 UBERON:0002135 ! part_of mitral valve
 relationship: BFO:0000050 UBERON:0002135 ! part_of mitral valve
+
+[Term]
+id: UBERON:0007156
+name: inferior thyroid vein
+def: "The inferior thyroid veins two, frequently three or four, in number, arise in the venous plexus on the thyroid gland, communicating with the middle and superior thyroid veins. They form a plexus in front of the trachea, behind the Sternothyreoidei. From this plexus, a left vein descends and joins the left innominate trunk, and a right vein passes obliquely downward and to the right across the innominate artery to open into the right innominate vein, just at its junction with the superior vena cava; sometimes the right and left veins open by a common trunk in the latter situation. These veins receive esophageal tracheal, and inferior laryngeal veins, and are provided with valves at their terminations in the innominate veins." []
+synonym: "inferior thyroid venous tree" EXACT []
+synonym: "vena thyroidea inferioris" EXACT []
+is_a: UBERON:0018246 ! thyroid vein
 
 [Term]
 id: UBERON:0007177
@@ -49933,6 +50682,41 @@ intersection_of: BFO:0000050 UBERON:0002347 ! part_of thoracic vertebra
 relationship: BFO:0000050 UBERON:0002347 ! part_of thoracic vertebra
 
 [Term]
+id: UBERON:0008461
+name: postzygapophysis of lumbar vertebra
+def: "An postzygapophysis that is part of a lumbar vertebra." []
+synonym: "caudal articular process of lumbar vertebra" EXACT []
+synonym: "inferior articular process of lumbar vertebra" EXACT []
+is_a: UBERON:0001080 ! postzygapophysis
+intersection_of: UBERON:0001080 ! postzygapophysis
+intersection_of: BFO:0000050 UBERON:0002414 ! part_of lumbar vertebra
+relationship: BFO:0000050 UBERON:0002414 ! part_of lumbar vertebra
+
+[Term]
+id: UBERON:0008462
+name: postzygapophysis of cervical vertebra
+def: "An postzygapophysis that is part of a cervical vertebra." []
+synonym: "inferior articular process of cervical vertebra" EXACT []
+is_a: UBERON:0001080 ! postzygapophysis
+intersection_of: UBERON:0001080 ! postzygapophysis
+intersection_of: BFO:0000050 UBERON:0002413 ! part_of cervical vertebra
+relationship: BFO:0000050 UBERON:0002413 ! part_of cervical vertebra
+
+[Term]
+id: UBERON:0008463
+name: postzygapophysis of thoracic vertebra
+def: "An postzygapophysis that is part of a thoracic vertebra." []
+synonym: "caudal articular process of thoracic vertebra" EXACT []
+synonym: "inferior apophyseal process" EXACT []
+synonym: "inferior articular process of thoracic vertebra" EXACT []
+synonym: "inferior zygapophysis" EXACT []
+synonym: "processus articularis (zygapophysis) thoracicus inferior" EXACT []
+is_a: UBERON:0001080 ! postzygapophysis
+intersection_of: UBERON:0001080 ! postzygapophysis
+intersection_of: BFO:0000050 UBERON:0002347 ! part_of thoracic vertebra
+relationship: BFO:0000050 UBERON:0002347 ! part_of thoracic vertebra
+
+[Term]
 id: UBERON:0008488
 name: cremaster muscle
 def: "A thin layer of skeletal muscle that envelops the spermatic cord and testis of most male mammals in a series of loops; it is a continuation of the obliquus internus, arising from the inguinal ligament and inserting into the crest of the pubis and into the sheath of the rectus abdominis; it is innervated by the genital branch of the genitofemoral nerve and functions to draw the testis up toward the superficial inguinal ring in response to cold or to stimulation of the nerve;" []
@@ -49957,6 +50741,112 @@ is_a: UBERON:0001577 ! facial muscle
 intersection_of: UBERON:0001630 ! muscle organ
 intersection_of: BFO:0000050 UBERON:0000004 ! part_of nose
 relationship: BFO:0000050 UBERON:0000004 ! part_of nose
+
+[Term]
+id: UBERON:0008571
+name: suprahyoid muscle
+def: "The term suprahyoid refers to the region above (superior to) the hyoid bone in the neck. The suprahyoid muscles include digastric, stylohyoid, geniohyoid, and mylohyoid." []
+synonym: "musculi suprahyoidei" RELATED []
+synonym: "suprahyoid" RELATED []
+synonym: "suprahyoidala" RELATED []
+is_a: UBERON:0005493 ! hyoid muscle
+
+[Term]
+id: UBERON:0008573
+name: lateral crico-arytenoid
+def: "The lateral cricoarytenoid (also anterior cricoarytenoid) muscles extend from the lateral cricoid cartilage to the ipsilateral arytenoid cartilage. By rotating the arytenoid cartilages medially, these muscles adduct the vocal cords and thereby close the rima glottidis, protecting the airway. (Their action is antagonistic to that of the posterior cricoarytenoid muscles. ) The lateral cricoarytenoid muscles receive innervation from the recurrent laryngeal branch of the vagus nerve (CN X)." []
+synonym: "cricoarytaenoideus lateralis" RELATED []
+synonym: "cricoarytaenoideus lateralis muscle" RELATED []
+synonym: "cricoarytænoideus lateralis" RELATED []
+synonym: "cricoarytænoideus lateralis muscle" RELATED []
+synonym: "lateral cricoarytenoid" EXACT []
+synonym: "lateral cricoarytenoid muscle" EXACT []
+synonym: "lateral cricoarytenoideus" EXACT []
+synonym: "musculus cricoarytenoideus lateralis" RELATED []
+is_a: UBERON:0010932 ! crico-arytenoid muscle
+
+[Term]
+id: UBERON:0008585
+name: levator veli palatini
+def: "The levator veli palatini is the elevator muscle of the velum palatinum in the human body. During swallowing, it contracts, elevating the soft palate to help prevent food from entering the nasopharynx. It is innervated via the pharyngeal plexus, primarily by the vagus nerve (CN X). The levator veli palatini (Levator palati) is a thick, rounded muscle situated lateral to the choanC&. It arises from the under surface of the apex of the petrous part of the temporal bone and from the medial lamina of the cartilage of the auditory tube. After passing above the upper concave margin of the Constrictor pharyngis superior it spreads out in the palatine velum, its fibers extending obliquely downward and medially to the middle line, where they blend with those of the opposite side." []
+synonym: "levator palati" RELATED []
+synonym: "levator veli" RELATED []
+synonym: "levator veli palatini muscle" RELATED []
+synonym: "levator velum palatini muscle" RELATED []
+synonym: "musculus levator veli palatini" RELATED []
+is_a: UBERON:0003682 ! palatal muscle
+
+[Term]
+id: UBERON:0008588
+name: procerus
+def: "The Procerus is a small pyramidal slip of muscle deep to the superior orbital nerve, artery and vein." []
+synonym: "depressor glabellae" RELATED []
+synonym: "musculus procerus glabellae" RELATED []
+synonym: "procerus muscle" RELATED []
+synonym: "pyramidalis nasi" RELATED []
+is_a: UBERON:0008522 ! nasal muscle
+
+[Term]
+id: UBERON:0008593
+name: zygomaticus major muscle
+def: "Facial muscle attached to the modiolus, corner (angle) of the mouth, and zygomatic bone. See Diogo 2008; Diogo et al., 2009; Burrows et al.., 2011., also DuBrul, 1980." []
+synonym: "auriculolabialis superior" RELATED []
+synonym: "musculus zygomaticus major" RELATED []
+synonym: "zygomatic major" RELATED []
+synonym: "zygomatic major muscle" RELATED []
+synonym: "zygomatic muscle" EXACT []
+synonym: "zygomaticcus major" RELATED []
+synonym: "zygomaticus major" RELATED []
+is_a: UBERON:0010437 ! zygomaticus muscle
+
+[Term]
+id: UBERON:0008594
+name: zygomaticus minor muscle
+def: "Facial muscle attached to the modiolus, corner (angle) of the mouth, and zygomatic bone. This muscle is ventral to the zygomaticus minor and dorsal to the platysma muscle. In many mammals this muscle also has an attachment to the cartilage of the external ear, in which case it is called the auriculolabialis inferior. See Diogo 2008; Diogo et al., 2009; Burrows et al.., 2011., also DuBrul, 1980." []
+synonym: "auriculolabialis superior" NARROW []
+synonym: "auriculolabialis superior" RELATED []
+synonym: "musculus quadratus labii superioris, zygomatic head" EXACT []
+synonym: "musculus zygomaticus minor" EXACT []
+synonym: "square muscle of the upper lip, zygomatic head" EXACT []
+is_a: UBERON:0010437 ! zygomaticus muscle
+
+[Term]
+id: UBERON:0008595
+name: levator anguli oris
+def: "The levator anguli oris (caninus) is a facial muscle of the mouth arising from the canine fossa, immediately below the infraorbital foramen. Its fibers are inserted into the angle of the mouth, intermingling with those of the Zygomaticus, Triangularis, and Orbicularis oris." []
+synonym: "caninus" RELATED []
+synonym: "caninus muscle" RELATED []
+synonym: "levator anguli oris" RELATED []
+synonym: "levator anguli oris muscle" EXACT []
+synonym: "musculus levator anguli oris" RELATED []
+is_a: UBERON:0001577 ! facial muscle
+
+[Term]
+id: UBERON:0008596
+name: mentalis muscle
+def: "A muscle of facial expression, innervated by the facial nerve, attached to the skin of the lower lip and inferior to the lower lip (in humans this region is called the chin or mental region), the orbicularis oris muscle, and the mandible in the symphyseal region. See Diogo et al., 2009; Burrows et al., 2011)" []
+synonym: "mentalis" EXACT []
+synonym: "musculus mentalis" EXACT []
+is_a: UBERON:0001577 ! facial muscle
+is_a: UBERON:0015212 ! lateral structure
+
+[Term]
+id: UBERON:0008597
+name: depressor anguli oris muscle
+def: "The Depressor anguli oris (Triangularis) arises from the oblique line of the mandible, whence its fibers converge, to be inserted, by a narrow fasciculus, into the angle of the mouth." []
+synonym: "depressor anguli oris" RELATED []
+synonym: "musculus depressor anguli oris" RELATED []
+synonym: "triangularis" RELATED []
+synonym: "triangularis muscle" RELATED []
+is_a: UBERON:0001577 ! facial muscle
+
+[Term]
+id: UBERON:0008598
+name: risorius muscle
+def: "Facial muscle that attaches to the fascia of the masseter muscle and the facia of the skin in the region of the corner (angle) of the mouth. Even in species in which this muscle is present, it is highly variable. A true risorius muscle may only be present in Hominins (humans and great apes). See Diogo 2008; Diogo et al., 2009; Burrows et al.., 2011., also DuBrul, 1980." []
+synonym: "musculus risorius" EXACT []
+synonym: "risorius" EXACT []
+is_a: UBERON:0001577 ! facial muscle
 
 [Term]
 id: UBERON:0008713
@@ -50312,6 +51202,15 @@ synonym: "granule cell layer" BROAD []
 synonym: "granule layer" BROAD []
 synonym: "outer granular layer of cerebellar cortex" EXACT []
 is_a: UBERON:0002956 ! granular layer of cerebellar cortex
+
+[Term]
+id: UBERON:0008833
+name: great auricular nerve
+def: "A nerve arising from the second and third cervical nerves from the cervical plexus and innervating the skin over the parotid gland, the skin of part of the ear, the adjacent portion of the scalp, cheek, and angle of the jaw." []
+synonym: "great auricular" RELATED []
+synonym: "greater auricular nerve" RELATED []
+synonym: "nervus auricularis magnus" EXACT []
+is_a: UBERON:0035648 ! nerve innervating pinna
 
 [Term]
 id: UBERON:0008834
@@ -50939,6 +51838,14 @@ is_a: UBERON:0002365 ! exocrine gland
 disjoint_from: UBERON:0010243 ! merocrine gland
 
 [Term]
+id: UBERON:0008982
+name: fascia
+def: "A dense regular connective tissue that that connects muscles together[WP, modified]." []
+synonym: "fascia cluster" EXACT []
+is_a: UBERON:0007846 ! dense regular connective tissue
+relationship: BFO:0000050 UBERON:0002204 ! part_of musculoskeletal system
+
+[Term]
 id: UBERON:0008987
 name: renal parenchyma
 def: "The functional tissue of the kidney, consisting of the nephrons." []
@@ -50996,6 +51903,17 @@ synonym: "cerebrovascular system" EXACT []
 synonym: "intracerebral vasculature" EXACT []
 is_a: UBERON:0006876 ! vasculature of organ
 relationship: BFO:0000050 UBERON:0000955 ! part_of brain
+
+[Term]
+id: UBERON:0009002
+name: placental membrane
+def: "The membrane separating the fetal from the maternal blood in the placenta." []
+synonym: "placental barrier" RELATED []
+is_a: UBERON:0000158 ! membranous layer
+is_a: UBERON:0000478 ! extraembryonic structure
+is_a: UBERON:0005156 ! reproductive structure
+relationship: BFO:0000050 UBERON:0001987 ! part_of placenta
+relationship: BFO:0000050 UBERON:0005292 ! part_of extraembryonic tissue
 
 [Term]
 id: UBERON:0009014
@@ -52035,6 +52953,22 @@ intersection_of: BFO:0000050 UBERON:0003126 ! part_of trachea
 relationship: BFO:0000050 UBERON:0001901 ! part_of epithelium of trachea
 relationship: BFO:0000050 UBERON:0003126 ! part_of trachea
 relationship: BFO:0000050 UBERON:0009644 ! part_of trachea non-cartilage connective tissue
+
+[Term]
+id: UBERON:0009654
+name: alveolar artery
+def: "A branch of the maxillary artery that is found in the gingiva, premolars, and molars." []
+is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
+is_a: UBERON:0001637 ! artery
+is_a: UBERON:0003496 ! head blood vessel
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+relationship: BFO:0000050 UBERON:0011595 ! part_of jaw region
+
+[Term]
+id: UBERON:0009657
+name: artery of lip
+synonym: "labial artery" EXACT []
+is_a: UBERON:0001637 ! artery
 
 [Term]
 id: UBERON:0009661
@@ -53613,6 +54547,32 @@ relationship: BFO:0000050 UBERON:0002046 ! part_of thyroid gland
 relationship: RO:0002202 UBERON:0002342 ! develops_from neural crest
 
 [Term]
+id: UBERON:0010234
+name: palatopharyngeus muscle
+def: "The palatopharyngeus or palatopharyngeal or pharyngopalatinus muscle is a long, fleshy fasciculus, narrower in the middle than at either end, forming, with the mucous membrane covering its surface, the palatopharyngeal arch." []
+synonym: "musculus palatopharyngeus" RELATED []
+synonym: "palatopharyngeal muscle" EXACT []
+synonym: "palatopharyngeus" EXACT []
+synonym: "pharyngopalatinus" RELATED []
+synonym: "pharyngopalatinus muscle" EXACT []
+is_a: UBERON:0000933 ! pharyngeal muscle
+is_a: UBERON:0003682 ! palatal muscle
+is_a: UBERON:0003831 ! respiratory system muscle
+is_a: UBERON:0015212 ! lateral structure
+
+[Term]
+id: UBERON:0010235
+name: uvular muscle
+def: "The musculus uvulae (azygos uvulae) is a muscle of the soft palate. It arises from the posterior nasal spine of the palatine bones and from the palatine aponeurosis. It descends to be inserted into the uvula and functions to move and shape it. It is innervated by the pharyngeal branch of the vagus nerve via the pharyngeal plexus[WP]." []
+synonym: "azygos uvulae" RELATED []
+synonym: "m. uvulae" RELATED []
+synonym: "musculus uvulae" RELATED []
+synonym: "musculus uvulae muscle" RELATED []
+synonym: "uvulae muscle" RELATED []
+synonym: "uvular muscle" EXACT []
+is_a: UBERON:0003682 ! palatal muscle
+
+[Term]
 id: UBERON:0010242
 name: anterior buccal gland
 def: "the racemose, mucous or serous glands in the submucous tissue of the cheeks" []
@@ -54225,6 +55185,15 @@ relationship: BFO:0000050 UBERON:0010031 ! part_of 6th arch mesenchyme
 relationship: RO:0002202 UBERON:0006904 ! develops_from head mesenchyme from mesoderm
 
 [Term]
+id: UBERON:0010348
+name: hyoid pre-muscle mass
+synonym: "hyoid muscle plate" RELATED []
+is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
+is_a: UBERON:0005865 ! pre-muscle condensation
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+relationship: RO:0002202 UBERON:0010343 ! develops_from 2nd arch mesenchyme from head mesenchyme
+
+[Term]
 id: UBERON:0010349
 name: otic capsule pre-cartilage condensation
 def: "A otic capsule endochondral element that is composed primarily of a pre-cartilage condensation." []
@@ -54638,6 +55607,15 @@ def: "nerve fibers that utilize acetylcholine as a neurotransmitter to the intes
 is_a: UBERON:0010380 ! enteric nerve
 
 [Term]
+id: UBERON:0010408
+name: ocular angle artery
+def: "The angular artery is the terminal part of the facial artery; it ascends to the medial angle of the eye's orbit, imbedded in the fibers of the angular head of the Quadratus labii superioris, and accompanied by the angular vein." []
+synonym: "angular artery" EXACT []
+is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
+is_a: UBERON:0004573 ! systemic artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+
+[Term]
 id: UBERON:0010409
 name: ocular surface region
 def: "The integrated unit (of the eye) that consists of the conjunctiva, the corneal surface, and the ocular mucosal adnexa including the lid margins and the meibomian gland openings, the lacrimal glands and the lacrimal drainage system, all which are critical to maintain ocular surface integrity and provide protection from external antigens and pathogenic microorganisms." []
@@ -54847,6 +55825,18 @@ name: flat bone
 def: "A bone that is shaped as a broad flat plate and composed of two thin layers of compact tissue enclosing between them a variable quantity of cancellous tissue, which is the location of red bone marrow." []
 synonym: "os planum" RELATED []
 is_a: UBERON:0001474 ! bone element
+
+[Term]
+id: UBERON:0010437
+name: zygomaticus muscle
+def: "One of: zygomaticus major, zygomaticus minor" []
+synonym: "m. levator nasii" RELATED []
+synonym: "m. zygomaticus" EXACT []
+synonym: "zygomaticus" EXACT []
+is_a: UBERON:0001577 ! facial muscle
+union_of: UBERON:0008593 ! zygomaticus major muscle
+union_of: UBERON:0008594 ! zygomaticus minor muscle
+relationship: BFO:0000050 UBERON:0001456 ! part_of face
 
 [Term]
 id: UBERON:0010498
@@ -56401,6 +57391,29 @@ relationship: BFO:0000050 UBERON:0001130 ! part_of vertebral column
 relationship: RO:0002202 UBERON:0003089 ! develops_from sclerotome
 
 [Term]
+id: UBERON:0010932
+name: crico-arytenoid muscle
+def: "Cricoarytenoid muscles are muscles that connect the cricoid cartilage and arytenoid cartilage. More specifically, it can refer to: Posterior cricoarytenoid muscle Lateral cricoarytenoid muscle" []
+synonym: "crico-arytenoid" EXACT []
+synonym: "cricoarytenoid" EXACT []
+synonym: "cricoarytenoid muscle" EXACT []
+synonym: "cricoarytenoideus" EXACT []
+is_a: UBERON:0006328 ! laryngeal intrinsic muscle
+relationship: BFO:0000050 UBERON:0001737 ! part_of larynx
+
+[Term]
+id: UBERON:0010933
+name: orbicularis oris muscle
+def: "The orbicularis oris is a superficial facial muscle with fibers that encircle the opening of the oral cavity that attaches to the maxilla, mandible, skin and modiolus, and that participates in oral/pharyngeal behaviors, and is innervated by the facial nerve (CN VII)." []
+synonym: "incisivii labii inferioris" RELATED []
+synonym: "incisivii labii superioris" RELATED []
+synonym: "musculus orbicularis oris" RELATED []
+synonym: "nasolabialis muscle" RELATED []
+synonym: "orbicularis oris" EXACT []
+synonym: "orbicularis oris" RELATED []
+is_a: UBERON:0001577 ! facial muscle
+
+[Term]
 id: UBERON:0010938
 name: muscle belly
 synonym: "belly" BROAD []
@@ -56435,6 +57448,18 @@ synonym: "venter frontalis musculi occipitofrontalis" RELATED []
 synonym: "venter frontalis musculus occipitofrontalis" EXACT []
 is_a: UBERON:0010938 ! muscle belly
 relationship: BFO:0000050 UBERON:0010946 ! part_of occipitofrontalis muscle
+
+[Term]
+id: UBERON:0010953
+name: nasalis muscle
+def: "The nasalis (compressor naris) is a sphincter-like muscle of the nose whose function is to compress the nasal cartilage. It consists of two parts, transverse and alar: The transverse part arises from the maxilla, above and lateral to the incisive fossa; its fibers proceed upward and medially, expanding into a thin aponeurosis which is continuous on the bridge of the nose with that of the muscle of the opposite side, and with the aponeurosis of the Procerus. The alar part is attached at one end to the greater alar cartilage, and at the other to the integument at the point of the nose. Other sources divide it into 'Compressor nasalis' and 'Dilator nasalis'." []
+synonym: "compressor naris" RELATED []
+synonym: "compressor narium minor" RELATED []
+synonym: "compressor nasi" RELATED []
+synonym: "musculus nasalis" RELATED []
+synonym: "nasalis" EXACT []
+is_a: UBERON:0008522 ! nasal muscle
+is_a: UBERON:0015212 ! lateral structure
 
 [Term]
 id: UBERON:0010959
@@ -56646,6 +57671,25 @@ intersection_of: BFO:0000050 UBERON:0001421 ! part_of pectoral girdle region
 relationship: BFO:0000050 UBERON:0001421 ! part_of pectoral girdle region
 
 [Term]
+id: UBERON:0011110
+name: humeroulnar joint
+def: "The humeroulnar joint, is part of the elbow-joint or the Olecron Joint, between the ulna and humerus bones is the simple hinge-joint, which allows for movements of flexion, extension and circumduction. The Humero-Ulnar Joint is the junction of trochlear notch of the ulna and the trochlea of the humerus. Owing to the obliquity of the trochlea of the humerus, this movement does not take place in the antero-posterior plane of the body of the humerus. When the forearm is extended and supinated, the axis of the arm and forearm are not in the same line; the arm forms an obtuse angle with the forearm. During flexion, however, the forearm and the hand tend to approach the middle line of the body, and thus enable the hand to be easily carried to the face. The accurate adaptation of the trochlea of the humerus, with its prominences and depressions, to the semilunar notch of the ulna, prevents any lateral movement. Flexion is produced by the action of the Biceps brachii and Brachialis, assisted by the Brachioradialis, with a tiny contribution from the muscles arising from the medial epicondyle of the humerus. Extension is produced by the Triceps brachii and AnconC&us, with a tiny contribution from the muscles arising from the lateral epicondyle of the humerus, such as the Extensor digitorum communis." []
+synonym: "articulatio humeroulnaris" EXACT []
+synonym: "humero-ulnar joint" EXACT []
+is_a: UBERON:0003839 ! forelimb joint
+is_a: UBERON:0011139 ! synovial limb joint
+relationship: BFO:0000050 UBERON:0001490 ! part_of elbow joint
+
+[Term]
+id: UBERON:0011111
+name: humeroradial joint
+def: "A hinge joint between the head of the radius and the capitulum of the humerus." []
+synonym: "articulatio humeroradialis" EXACT []
+synonym: "humero-radial joint" EXACT []
+is_a: UBERON:0003839 ! forelimb joint
+relationship: BFO:0000050 UBERON:0001490 ! part_of elbow joint
+
+[Term]
 id: UBERON:0011130
 name: temporomandibular joint primordium
 synonym: "temporo-mandibular joint primordium" EXACT []
@@ -56728,6 +57772,20 @@ id: UBERON:0011148
 name: submucosal gland
 def: "Gland of the lamina epithelialis mucosae which perforate the lamina muscularis, with their adenomeres located in the submucosal connective tissue." []
 is_a: UBERON:0000414 ! mucous gland
+
+[Term]
+id: UBERON:0011151
+name: jaw depressor muscle
+def: "A muscle whose action is to depress the lower jaw." []
+synonym: "branchiomandibularis" NARROW []
+synonym: "coracomandibularis" NARROW []
+synonym: "depressor gnathalis" NARROW []
+synonym: "geniohyoideus" NARROW []
+synonym: "geniohyoideus muscle" NARROW []
+synonym: "geniothoracis" NARROW []
+synonym: "protractor hyoidei" NARROW []
+synonym: "protractor hyoideus" NARROW []
+is_a: UBERON:0005493 ! hyoid muscle
 
 [Term]
 id: UBERON:0011152
@@ -58359,6 +59417,14 @@ intersection_of: BFO:0000050 UBERON:0001486 ! part_of hip joint
 relationship: BFO:0000050 UBERON:0001486 ! part_of hip joint
 
 [Term]
+id: UBERON:0011967
+name: costotransverse joint
+def: "The facet of the tubercle of the rib forms an articulation with the adjacent transverse process of a thoracic vertebra. This is a plane type synovial joint called the costotransverse joint. This articulation is present in all but the eleventh and twelfth ribs. Ribs 1 to 10 have two joints in close proximity posteriorly; the costovertebral joints and the costotranseverse joints. This arrangement restrains the motion of the ribs allowing them to work in a parallel fashion during breathing. If a typical rib had only one joint posteriorly the resultant swivel action would allow a rib to be non-parallel with respect to the neighboring ribs making for a very inefficient respiratory mechanism. The ventral rami innervate the costotransverse joints. Therefore, therapeutic medial branch blocks are ineffectual. The ligaments of the joint are: Articular capsule Posterior costotransverse Anterior costotransverse Ligament of the neck of the rib Ligament of the tubercle of the rib" []
+synonym: "costotransverse articulation" RELATED []
+is_a: UBERON:0002292 ! costovertebral joint
+relationship: BFO:0000050 UBERON:0003252 ! part_of thoracic rib cage
+
+[Term]
 id: UBERON:0011973
 name: epiphysis of phalanx of pes
 def: "An epiphysis that is part of a phalanx of a pes [Automatically generated definition]." []
@@ -59114,6 +60180,27 @@ is_a: UBERON:0005156 ! reproductive structure
 intersection_of: UBERON:0000161 ! orifice
 intersection_of: BFO:0000050 UBERON:0000996 ! part_of vagina
 relationship: BFO:0000050 UBERON:0000996 ! part_of vagina
+
+[Term]
+id: UBERON:0012318
+name: anterior ethmoidal artery
+def: "The anterior ethmoidal artery, also anterior ethmoid artery is an artery of the head. Once branching from the ophthalmic artery, it accompanies the nasociliary nerve through the anterior ethmoidal canal to supply the anterior and middle ethmoidal cells, frontal sinus, and anterosuperior aspect of the lateral nasal wall[WP]" []
+synonym: "a. ethmoidalis anterior" EXACT []
+synonym: "anterior ethmoid artery" RELATED []
+synonym: "anterior meningeal arteries" RELATED []
+synonym: "anterior meningeal artery" RELATED []
+synonym: "arteria ethmoidalis anterior" EXACT []
+is_a: UBERON:0005193 ! ethmoidal artery
+disjoint_from: UBERON:0012319 ! posterior ethmoidal artery
+
+[Term]
+id: UBERON:0012319
+name: posterior ethmoidal artery
+def: "The posterior ethmoidal artery is an artery of the head. It is smaller than the anterior ethmoidal artery, branches off from the ophthalmic artery when it reaches the medial wall of the orbit." []
+synonym: "a. ethmoidalis posterior" EXACT []
+synonym: "arteria ethmoidalis posterior" EXACT []
+synonym: "posterior ethmoidal vessel" RELATED []
+is_a: UBERON:0005193 ! ethmoidal artery
 
 [Term]
 id: UBERON:0012320
@@ -60365,6 +61452,29 @@ intersection_of: UBERON:0001983 ! crypt of Lieberkuhn
 intersection_of: BFO:0000050 UBERON:0001155 ! part_of colon
 relationship: BFO:0000050 UBERON:0000317 ! part_of colonic mucosa
 relationship: BFO:0000050 UBERON:0001155 ! part_of colon
+
+[Term]
+id: UBERON:0013491
+name: cervical fascia
+def: "Any fascia tissue that is part of the neck region." []
+synonym: "fascia of neck" EXACT []
+is_a: UBERON:0003568 ! neck connective tissue
+is_a: UBERON:0008982 ! fascia
+intersection_of: UBERON:0008982 ! fascia
+intersection_of: BFO:0000050 UBERON:0000974 ! part_of neck
+relationship: BFO:0000050 UBERON:0000974 ! part_of neck
+
+[Term]
+id: UBERON:0013493
+name: abdominal fascia
+def: "A fascia that is part of a abdomen." []
+synonym: "endo-abdominopelvic fascia" EXACT []
+synonym: "fascia of abdomen" EXACT []
+is_a: UBERON:0003567 ! abdomen connective tissue
+is_a: UBERON:0008982 ! fascia
+intersection_of: UBERON:0008982 ! fascia
+intersection_of: BFO:0000050 UBERON:0000916 ! part_of abdomen
+relationship: BFO:0000050 UBERON:0000916 ! part_of abdomen
 
 [Term]
 id: UBERON:0013501
@@ -62374,6 +63484,11 @@ intersection_of: BFO:0000050 UBERON:0001871 ! part_of temporal lobe
 relationship: BFO:0000050 UBERON:0001871 ! part_of temporal lobe
 
 [Term]
+id: UBERON:0014693
+name: inferior alveolar artery
+is_a: UBERON:0009654 ! alveolar artery
+
+[Term]
 id: UBERON:0014702
 name: frontonasal process epithelium
 def: "A epithelium that is part of a frontonasal prominence." []
@@ -62573,6 +63688,24 @@ relationship: BFO:0000050 UBERON:0004709 ! part_of pelvic appendage
 relationship: BFO:0000050 UBERON:0007270 ! part_of pelvic appendage musculature
 
 [Term]
+id: UBERON:0014796
+name: common tendinous ring
+def: "A ring of fibrous tissue surrounding the optic nerve at its entrance at the apex of the orbit." []
+synonym: "annulus of Zinn" RELATED []
+synonym: "annulus tendineus communis" RELATED []
+synonym: "anulus of Zinn" EXACT []
+synonym: "anulus tendineus" RELATED []
+synonym: "anulus tendineus communis" EXACT []
+synonym: "anulus tendineus communis" RELATED []
+synonym: "common annular tendon" EXACT []
+synonym: "common anular tendon" EXACT []
+synonym: "common tendinous ring" RELATED []
+synonym: "ligament of Zinn" RELATED []
+synonym: "tendon of Zinn" RELATED []
+is_a: UBERON:0000481 ! multi-tissue structure
+relationship: BFO:0000050 UBERON:0004088 ! part_of orbital region
+
+[Term]
 id: UBERON:0014847
 name: vastus intermedius
 def: "The Vastus intermedius (Cruraeus) arises from the front and lateral surfaces of the body of the femur in its upper two-thirds, sitting under Rectus Femoris and from the lower part of the lateral intermuscular septum. Its fibers end in a superficial aponeurosis, which forms the deep part of the Quadriceps femoris tendon. The Vastus medialis and Vastus intermedius appear to be inseparably united, but when the Rectus femoris has been reflected a narrow interval will be observed extending upward from the medial border of the patella between the two muscles, and the separation may be continued as far as the lower part of the intertrochanteric line, where, however, the two muscles are frequently continuous." []
@@ -62585,6 +63718,13 @@ synonym: "vastus intermedialis" RELATED []
 synonym: "vastus intermedius" RELATED []
 is_a: UBERON:0001377 ! quadriceps femoris
 relationship: BFO:0000050 UBERON:0001377 ! part_of quadriceps femoris
+
+[Term]
+id: UBERON:0014849
+name: hemotrichorial placental membrane
+def: "A placental membrane that consists of three trophoblast cell layers." []
+synonym: "placenta hemotrichorial membrane" EXACT []
+is_a: UBERON:0009002 ! placental membrane
 
 [Term]
 id: UBERON:0014851
@@ -64093,6 +65233,15 @@ synonym: "lateral orbital gland" EXACT []
 is_a: UBERON:0015152 ! gland of ocular region
 
 [Term]
+id: UBERON:0015156
+name: terminal branch of ophthalmic artery
+def: "The two terminal branches of the ophthalmic artery in humans are the dorsal nasal artery and the supratrochlear artery" []
+is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
+is_a: UBERON:0003496 ! head blood vessel
+is_a: UBERON:0004573 ! systemic artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+
+[Term]
 id: UBERON:0015171
 name: uterine spiral artery
 def: "A corkscrew-like artery in premenstrual or progestational endometrium; uterine spiral arteries play a vital role in supplying nutrients to the placenta and fetus, and are thus remodeled into highly dilated inelastic vessels by the action of invading trophoblast (physiological change)" []
@@ -64320,6 +65469,16 @@ is_a: UBERON:0003916 ! fat pad
 intersection_of: UBERON:0003916 ! fat pad
 intersection_of: BFO:0000050 UBERON:0001264 ! part_of pancreas
 relationship: BFO:0000050 UBERON:0001264 ! part_of pancreas
+
+[Term]
+id: UBERON:0015458
+name: mediastinal fat pad
+def: "A fat pad that is part of a mediastinum." []
+is_a: UBERON:0003837 ! thoracic segment connective tissue
+is_a: UBERON:0003916 ! fat pad
+intersection_of: UBERON:0003916 ! fat pad
+intersection_of: BFO:0000050 UBERON:0003728 ! part_of mediastinum
+relationship: BFO:0000050 UBERON:0003728 ! part_of mediastinum
 
 [Term]
 id: UBERON:0015474
@@ -64954,6 +66113,16 @@ is_a: UBERON:1000021 ! skin of face
 intersection_of: UBERON:0000014 ! zone of skin
 intersection_of: BFO:0000050 UBERON:0004090 ! part_of periorbital region
 relationship: BFO:0000050 UBERON:0004090 ! part_of periorbital region
+
+[Term]
+id: UBERON:0016464
+name: dorsum of nose
+def: "The midline prominence of the nose, extending from the nasal root to the tip." []
+synonym: "nasal dorsum" EXACT []
+synonym: "nasal ridge" RELATED []
+is_a: UBERON:0000064 ! organ part
+is_a: UBERON:0004121 ! ectoderm-derived structure
+relationship: BFO:0000050 UBERON:0007827 ! part_of external nose
 
 [Term]
 id: UBERON:0016466
@@ -66042,6 +67211,16 @@ intersection_of: BFO:0000050 UBERON:0001264 ! part_of pancreas
 relationship: BFO:0000050 UBERON:0001264 ! part_of pancreas
 
 [Term]
+id: UBERON:0018239
+name: rhombomere boundary
+def: "A boundary delimiting a rhombomere." []
+synonym: "rhombomere junction" EXACT []
+is_a: UBERON:0002050 ! embryonic structure
+is_a: UBERON:0004121 ! ectoderm-derived structure
+is_a: UBERON:0007651 ! anatomical junction
+relationship: BFO:0000050 UBERON:0007277 ! part_of presumptive hindbrain
+
+[Term]
 id: UBERON:0018242
 name: palatine bone horizontal plate
 def: "The part of the palatine bone that forms the posterior part (approximately one third) of the bony palate.(Stedmans)" []
@@ -66055,6 +67234,12 @@ is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0005913 ! zone of bone organ
 is_a: UBERON:0010313 ! neural crest-derived structure
 relationship: BFO:0000050 UBERON:0001682 ! part_of palatine bone
+
+[Term]
+id: UBERON:0018246
+name: thyroid vein
+def: "A vein that drains a thyroid gland." []
+is_a: UBERON:0001638 ! vein
 
 [Term]
 id: UBERON:0018254
@@ -66141,6 +67326,22 @@ id: UBERON:0018391
 name: chemoreceptor
 def: "A sensory receptor that detects chemical stimulus within the body." []
 is_a: UBERON:0018389 ! interoceptor
+
+[Term]
+id: UBERON:0018405
+name: inferior alveolar nerve
+synonym: "inferior dental nerve" EXACT []
+is_a: UBERON:0011779 ! nerve of head region
+
+[Term]
+id: UBERON:0018408
+name: infra-orbital nerve
+def: "A branch of the maxillary nerve that enters the infraorbital canal and innervates the lower eyelid, upper lip, the nasal vestibule, the upper incisors, canines, premolars, upper gums, lower eyelid and conjunctiva, and part of the nose." []
+synonym: "infra-orbital nerve" RELATED []
+synonym: "infraorbital nerve" EXACT []
+synonym: "infraorbital portion" RELATED []
+is_a: UBERON:0011779 ! nerve of head region
+is_a: UBERON:0022298 ! lower eyelid nerve
 
 [Term]
 id: UBERON:0018411
@@ -67325,6 +68526,12 @@ intersection_of: BFO:0000050 UBERON:0002106 ! part_of spleen
 relationship: BFO:0000050 UBERON:0002106 ! part_of spleen
 
 [Term]
+id: UBERON:0022298
+name: lower eyelid nerve
+def: "A nerve that innervates a lower eyelid." []
+is_a: UBERON:0003437 ! eyelid nerve
+
+[Term]
 id: UBERON:0022303
 name: nervous system cell part layer
 def: "Single layer of a laminar structure, identified by different density, arrangement or size of cells and processes arranged in flattened layers or lamina[CUMBO]." []
@@ -68052,6 +69259,15 @@ intersection_of: BFO:0000050 UBERON:0001831 ! part_of parotid gland
 relationship: BFO:0000050 UBERON:0001831 ! part_of parotid gland
 
 [Term]
+id: UBERON:0035096
+name: fascia of tail
+is_a: UBERON:0003599 ! tail connective tissue
+is_a: UBERON:0008982 ! fascia
+intersection_of: UBERON:0008982 ! fascia
+intersection_of: BFO:0000050 UBERON:0007812 ! part_of post-anal tail
+relationship: BFO:0000050 UBERON:0007812 ! part_of post-anal tail
+
+[Term]
 id: UBERON:0035102
 name: transverse process of caudal vertebra
 def: "A transverse process that is part of a caudal vertebra" []
@@ -68232,6 +69448,15 @@ intersection_of: BFO:0000050 UBERON:0002367 ! part_of prostate gland
 relationship: BFO:0000050 UBERON:0002367 ! part_of prostate gland
 
 [Term]
+id: UBERON:0035398
+name: branch of external carotid artery
+synonym: "external carotid arterial subdivision" EXACT []
+synonym: "subdivision of external carotid artery" EXACT []
+is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
+is_a: UBERON:0004573 ! systemic artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+
+[Term]
 id: UBERON:0035549
 name: superficial vasculature
 def: "The part of the circulatory system that lies within the subcutaneous tissue layers close to the surface of the skin." []
@@ -68329,6 +69554,13 @@ id: UBERON:0035642
 name: laryngeal nerve
 def: "Any nerve that innervates the larynx." []
 is_a: UBERON:0001021 ! nerve
+
+[Term]
+id: UBERON:0035648
+name: nerve innervating pinna
+def: "Any nerve that innervates the pinna." []
+synonym: "auricular nerve" EXACT []
+is_a: UBERON:0011779 ! nerve of head region
 
 [Term]
 id: UBERON:0035651
