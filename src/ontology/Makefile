@@ -173,6 +173,9 @@ oba-edit.csv: oba-edit.obo
 fill: oba-edit.csv
 	fill-col1-ids.pl $(ALL_MODS_CSV)
 
+labelfill:
+	fill-missing-labels.py -r $(ALL_MODS_CSV)
+
 # ----------------------------------------
 # SPARQL REPORTS
 # ----------------------------------------
