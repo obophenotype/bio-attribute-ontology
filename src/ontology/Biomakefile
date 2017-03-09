@@ -13,10 +13,23 @@ target/%-ALL.tsv: target/%-hp.tsv target/%-mp.tsv
 target/$(DP)-$(SP).tsv: 
 	wget --no-check-certificate https://build.berkeleybop.org/job/query-pheno-patterns/lastSuccessfulBuild/artifact/upheno/src/patterns/$(DP).$(SP).tsv -O $@.tmp && grep -v ^? $@.tmp | ./util/curiefy-purls.pl > $@
 
-
 prolog
-foo(x).
+dp(abnormal,2,'PATO:0000001',quality).
+dp(morphology,2,'PATO:0000051',morphology).
+dp(level,2,'PATO:0000070',amount).
+
+dp_pos(P,Pos) :- dp(P,Pos,_,_).
+dp_v(P,V) :- dp(P,_,V,_).
+dp_vn(P,VN) :- dp(P,_,_,VN).
 endprolog
+
+nu-all: $(patsubst %,nu-%,$(bagof X,dp(X,_,_,_)))
+
+nu-$(DP): target/$(DP)-ALL.tsv
+	./util/suggester.pl modules/entity_attribute.csv $(bagof X,dp_pos(DP,X)) $(bagof X,dp_v(DP,X)) $(bagof X,dp_vn(DP,X)) target/$(DP)-ALL.tsv ;
+	echo $(bagof X,foo(X))
+
+
 
 
 #https://build.berkeleybop.org/job/query-pheno-patterns/lastSuccessfulBuild/artifact/upheno/src/patterns/abnormal.hp.tsv
