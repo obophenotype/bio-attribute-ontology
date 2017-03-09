@@ -13,19 +13,9 @@ target/%-ALL.tsv: target/%-hp.tsv target/%-mp.tsv
 target/$(DP)-$(SP).tsv: 
 	wget --no-check-certificate https://build.berkeleybop.org/job/query-pheno-patterns/lastSuccessfulBuild/artifact/upheno/src/patterns/$(DP).$(SP).tsv -O $@.tmp && grep -v ^? $@.tmp | ./util/curiefy-purls.pl > $@
 
-prolog
-dp(abnormal,2,'PATO:0000001',quality).
-dp(morphology,0,'PATO:0000051',morphology).
-dp(abnormalLevel,2,'PATO:0000070',amount).
+DPS = abnormal morphology abnormalLevel decreasedWeight
 
-dp_pos(P,Pos) :- dp(P,Pos,_,_).
-dp_v(P,V) :- dp(P,_,V,_).
-dp_vn(P,VN) :- dp(P,_,_,VN).
-
-dp_all(A) :- findall(X,dp(X,_,_,_),Xs),concat_atom(Xs,' ',A).
-endprolog
-
-nu-all: $(patsubst %,target/seed-%.csv,$(bagof X,dp_all(X)))
+sugg: $(patsubst %,target/seed-%.csv,$(DPS))
 
 test-$(A):
 	echo $(bagof X,X=TARGET)
