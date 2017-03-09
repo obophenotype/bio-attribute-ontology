@@ -15,19 +15,24 @@ target/$(DP)-$(SP).tsv:
 
 prolog
 dp(abnormal,2,'PATO:0000001',quality).
-dp(morphology,2,'PATO:0000051',morphology).
-dp(level,2,'PATO:0000070',amount).
+dp(morphology,0,'PATO:0000051',morphology).
+dp(abnormalLevel,2,'PATO:0000070',amount).
 
 dp_pos(P,Pos) :- dp(P,Pos,_,_).
 dp_v(P,V) :- dp(P,_,V,_).
 dp_vn(P,VN) :- dp(P,_,_,VN).
+
+dp_all(A) :- findall(X,dp(X,_,_,_),Xs),concat_atom(Xs,' ',A).
 endprolog
 
-nu-all: $(patsubst %,nu-%,$(bagof X,dp(X,_,_,_)))
+nu-all: $(patsubst %,target/seed-%.csv,$(bagof X,dp_all(X)))
 
-nu-$(DP): target/$(DP)-ALL.tsv
-	./util/suggester.pl modules/entity_attribute.csv $(bagof X,dp_pos(DP,X)) $(bagof X,dp_v(DP,X)) $(bagof X,dp_vn(DP,X)) target/$(DP)-ALL.tsv ;
-	echo $(bagof X,foo(X))
+test-$(A):
+	echo $(bagof X,X=TARGET)
+
+target/seed-$(DP).csv: target/$(DP)-ALL.tsv
+	./util/suggester.pl modules/entity_attribute.csv  target/$(DP)-ALL.tsv > $@.tmp && mv $@.tmp $@
+
 
 
 
