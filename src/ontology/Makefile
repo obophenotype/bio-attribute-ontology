@@ -170,3 +170,20 @@ modules/existential-graph.owl: oba-core.owl
 reports/oba-%.csv: oba.owl ../sparql/%.sparql
 	arq --data $< --query ../sparql/$*.sparql --results csv > $@.tmp && ./util/curiefy-purls.pl $@.tmp > $@ && rm $@.tmp
 
+
+# ----------------------------------------
+# GROUPING
+# ----------------------------------------
+
+# EXPERIMENTAL
+# BIOMAKE REQUIRED
+
+target/%-ALL.tsv: target/%-hp.tsv target/%-mp.tsv
+	cat $^ > $@.tmp && mv $@.tmp $@
+
+target/$(DP)-$(SP).tsv: 
+	wget --no-check-certificate https://build.berkeleybop.org/job/query-pheno-patterns/lastSuccessfulBuild/artifact/upheno/src/patterns/$(DP).$(SP).tsv -O $@.tmp && grep -v ^? $@.tmp > $@
+
+
+
+#https://build.berkeleybop.org/job/query-pheno-patterns/lastSuccessfulBuild/artifact/upheno/src/patterns/abnormal.hp.tsv
