@@ -11,6 +11,7 @@ release: all copy-release
 TARGETS = oba.obo oba.owl imports subsets
 
 ALL_MODS_OWL = $(patsubst %, modules/%.owl, $(MODS))
+ALL_MODS_CSV = $(patsubst %,modules/%.csv,$(MODS))
 
 copy-release:
 	cp -pr $(TARGETS) ../.. && cd ../.. && git add imports/*
@@ -162,6 +163,12 @@ modules/has_part.csv:  $(patsubst %, modules/%.csv, $(MODS))
 modules/existential-graph.owl: oba-core.owl
 	owltools $(USECAT) $< --merge-support-ontologies --reasoner elk --silence-elk --materialize-gcis --reasoner mexr --remove-redundant-inferred-svfs --reasoner elk --remove-redundant-svfs  --set-ontology-id $(OBO)/oba/$@ -o $@
 
+# ----------------------------------------
+# QC REPORTS
+# ----------------------------------------
+
+fill: oba-edit.csv
+	fill-col1-ids.pl $(ALL_MODS_CSV)
 
 # ----------------------------------------
 # SPARQL REPORTS
@@ -182,7 +189,7 @@ target/%-ALL.tsv: target/%-hp.tsv target/%-mp.tsv
 	cat $^ > $@.tmp && mv $@.tmp $@
 
 target/$(DP)-$(SP).tsv: 
-	wget --no-check-certificate https://build.berkeleybop.org/job/query-pheno-patterns/lastSuccessfulBuild/artifact/upheno/src/patterns/$(DP).$(SP).tsv -O $@.tmp && grep -v ^? $@.tmp > $@
+	wget --no-check-certificate https://build.berkeleybop.org/job/query-pheno-patterns/lastSuccessfulBuild/artifact/upheno/src/patterns/$(DP).$(SP).tsv -O $@.tmp && grep -v ^? $@.tmp | ./util/curiefy-purls.pl > $@
 
 
 
