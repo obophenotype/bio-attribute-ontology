@@ -4175,7 +4175,7 @@ OBA:0003854,,GO:0001835,blastocyst hatching,PATO:0002325,onset quality
 OBA:0003855,,UBERON:0000086,zona pellucida,PATO:0000070,amount
 OBA:0003856,,GO:0005694,chromosome,PATO:0000051,morphology
 OBA:0003857,,GO:0005634,nucleus,PATO:0000070,amount
-OBA:0003858,,CL:0000000,cell,PATO:0001404,nucleate quality
+OBA:0003858,,GO:0005623,cell,PATO:0001404,nucleate quality
 OBA:0003859,,GO:0001974,blood vessel remodeling,PATO:0000069,deviation(from_normal)
 OBA:0003860,,UBERON:0001691,external ear,PATO:0000060,spatial pattern
 OBA:0003861,,CL:0000669,pericyte cell,PATO:0000051,morphology
@@ -6360,3 +6360,940 @@ OBA:0006122,,UBERON:0006440,os clitoris,PATO:0000052,shape
 OBA:0006123,,UBERON:0006440,os clitoris,PATO:0000921,width
 OBA:0006124,,UBERON:0006440,os clitoris,PATO:0000122,length
 OBA:0007000,DNA stability,SO:0000352,DNA,OBA:0001001,macromolecular stability
+,,UBERON:0004105,subungual region,PATO:0000001,quality
+,,UBERON:0008772,proximal epiphysis of tibia,PATO:0000001,quality
+,,UBERON:0005409,gastrointestinal system,PATO:0000001,quality
+,,UBERON:0004331,proximal phalanx of manual digit 5,PATO:0000001,quality
+,,GO:1903509,liposaccharide metabolic process,PATO:0000001,quality
+,,GO:0006206,pyrimidine nucleobase metabolic process,PATO:0000001,quality
+,,GO:0006568,tryptophan metabolic process,PATO:0000001,quality
+,,GO:0006591,ornithine metabolic process,PATO:0000001,quality
+,,GO:0006631,fatty acid metabolic process,PATO:0000001,quality
+,,UBERON:0002203,vasculature of eye,PATO:0000001,quality
+,,UBERON:0002085,interatrial septum,PATO:0000001,quality
+,,UBERON:0003638,manual digit 4 phalanx,PATO:0000001,quality
+,,UBERON:0014411,greater sciatic notch,PATO:0000001,quality
+,,UBERON:0013767,frontal process of maxilla,PATO:0000001,quality
+,,UBERON:0003640,pedal digit 1 phalanx,PATO:0000001,quality
+,,UBERON:0001724,sphenoidal sinus,PATO:0000001,quality
+,,UBERON:0005402,philtrum,PATO:0000001,quality
+,,UBERON:0004467,musculature of pharynx,PATO:0000001,quality
+,,GO:1903511,orotic acid metabolic process,PATO:0000001,quality
+,,UBERON:0001359,cerebrospinal fluid,PATO:0000001,quality
+,,GO:0006544,glycine metabolic process,PATO:0000001,quality
+,,UBERON:0004449,cerebral artery,PATO:0000001,quality
+,,UBERON:0001225,cortex of kidney,PATO:0000001,quality
+,,UBERON:0004333,proximal phalanx of pedal digit 2,PATO:0000001,quality
+,,UBERON:0003822,forelimb stylopod,PATO:0000001,quality
+,,UBERON:0001825,paranasal sinus,PATO:0000001,quality
+,,UBERON:0008598,risorius muscle,PATO:0000001,quality
+,,UBERON:0000002,uterine cervix,PATO:0000001,quality
+,,UBERON:0004327,middle phalanx of pedal digit 5,PATO:0000001,quality
+,,UBERON:0001640,celiac artery,PATO:0000001,quality
+,,UBERON:0001273,ilium,PATO:0000001,quality
+,,UBERON:0004329,proximal phalanx of manual digit 3,PATO:0000001,quality
+,,CL:0000097,mast cell,PATO:0000001,quality
+,,UBERON:0004406,distal epiphysis of femur,PATO:0000001,quality
+,,UBERON:0008573,lateral crico-arytenoid,PATO:0000001,quality
+,,CL:0000178,Leydig cell,PATO:0000001,quality
+,,UBERON:0004387,epiphysis of phalanx of manus,PATO:0000001,quality
+,,UBERON:0001173,biliary tree,PATO:0000001,quality
+,,UBERON:0002435,striatum,PATO:0000001,quality
+,,UBERON:0001689,malleus bone,PATO:0000001,quality
+,,UBERON:0004084,genital labium,PATO:0000001,quality
+,,UBERON:0001828,gingiva,PATO:0000001,quality
+,,UBERON:0001451,navicular bone of pes,PATO:0000001,quality
+,,UBERON:0003865,distal phalanx of manus,PATO:0000001,quality
+,,UBERON:0003632,pedal digit 2,PATO:0000001,quality
+,,UBERON:0002515,periosteum,PATO:0000001,quality
+,,UBERON:0000012,somatic nervous system,PATO:0000001,quality
+,,GO:0009064,glutamine family amino acid metabolic process,PATO:0000001,quality
+,,UBERON:0001985,corneal endothelium,PATO:0000001,quality
+,,UBERON:0004405,distal epiphysis of tibia,PATO:0000001,quality
+,,NBO:0000444,eye movement,PATO:0000001,quality
+,,UBERON:0003723,vestibular nerve,PATO:0000001,quality
+,,PR:000017364,von Willebrand factor,PATO:0000001,quality
+,,UBERON:0001653,facial vein,PATO:0000001,quality
+,,GO:0005746,mitochondrial respiratory chain,PATO:0000001,quality
+,,UBERON:0001867,cartilage of external ear,PATO:0000001,quality
+,,UBERON:0001714,cranial ganglion,PATO:0000001,quality
+,,UBERON:0004330,proximal phalanx of manual digit 4,PATO:0000001,quality
+,,UBERON:0002217,synovial joint,PATO:0000001,quality
+,,UBERON:0002132,dentate nucleus,PATO:0000001,quality
+,,UBERON:0008585,levator veli palatini,PATO:0000001,quality
+,,UBERON:0004322,middle phalanx of manual digit 4,PATO:0000001,quality
+,,UBERON:0005373,spinal cord dorsal column,PATO:0000001,quality
+,,UBERON:0004312,distal phalanx of manual digit 3,PATO:0000001,quality
+,,UBERON:0003685,cranial suture,PATO:0000001,quality
+,,UBERON:0003868,proximal phalanx of pes,PATO:0000001,quality
+,,UBERON:0000474,female reproductive system,PATO:0000001,quality
+,,UBERON:0001574,palatoglossus muscle,PATO:0000001,quality
+,,UBERON:0004335,proximal phalanx of pedal digit 4,PATO:0000001,quality
+,,UBERON:0003695,metacarpophalangeal joint,PATO:0000001,quality
+,,UBERON:0001581,depressor labii inferioris,PATO:0000001,quality
+,,UBERON:0011931,nasal hair,PATO:0000001,quality
+,,NBO:0000129,agitation behavior,PATO:0000001,quality
+,,GO:0009069,serine family amino acid metabolic process,PATO:0000001,quality
+,,UBERON:0004389,epiphysis of metatarsal bone,PATO:0000001,quality
+,,UBERON:0008596,mentalis muscle,PATO:0000001,quality
+,,GO:1903510,mucopolysaccharide metabolic process,PATO:0000001,quality
+,,UBERON:0006059,falx cerebri,PATO:0000001,quality
+,,NBO:0000018,fear/anxiety related behavior,PATO:0000001,quality
+,,UBERON:0000010,peripheral nervous system,PATO:0000001,quality
+,,UBERON:0000965,lens of camera-type eye,PATO:0000001,quality
+,,UBERON:0004328,proximal phalanx of manual digit 2,PATO:0000001,quality
+,,UBERON:0002084,heart left ventricle,PATO:0000001,quality
+,,UBERON:0003471,artery of lower lip,PATO:0000001,quality
+,,GO:0050667,homocysteine metabolic process,PATO:0000001,quality
+,,GO:0006520,cellular amino acid metabolic process,PATO:0000001,quality
+,,UBERON:0001565,geniohyoid muscle,PATO:0000001,quality
+,,UBERON:0001688,incus bone,PATO:0000001,quality
+,,UBERON:0004096,odontoid process of cervical vertebra 2,PATO:0000001,quality
+,,CL:0000125,glial cell,PATO:0000001,quality
+,,UBERON:0004099,joint space of elbow,PATO:0000001,quality
+,,CL:0000128,oligodendrocyte,PATO:0000001,quality
+,,UBERON:0013698,strand of pubic hair,PATO:0000001,quality
+,,UBERON:0004336,proximal phalanx of pedal digit 5,PATO:0000001,quality
+,,UBERON:0001766,anterior chamber of eyeball,PATO:0000001,quality
+,,UBERON:0001004,respiratory system,PATO:0000001,quality
+,,CL:0000766,myeloid leukocyte,PATO:0000001,quality
+,,UBERON:0002372,tonsil,PATO:0000001,quality
+,,UBERON:0001647,facial nerve,PATO:0000001,quality
+,,UBERON:0003502,neck blood vessel,PATO:0000001,quality
+,,GO:0005976,polysaccharide metabolic process,PATO:0000001,quality
+,,UBERON:0010953,nasalis muscle,PATO:0000001,quality
+,,UBERON:0002517,basicranium,PATO:0000001,quality
+,,UBERON:0004106,crus of ear,PATO:0000001,quality
+,,UBERON:0002099,cardiac septum,PATO:0000001,quality
+,,UBERON:0004711,jugular vein,PATO:0000001,quality
+,,UBERON:0001037,strand of hair,PATO:0000001,quality
+,,UBERON:0003654,metatarsal bone of digit 5,PATO:0000001,quality
+,,UBERON:0002363,dura mater,PATO:0000001,quality
+,,GO:0006541,glutamine metabolic process,PATO:0000001,quality
+,,GO:0006144,purine nucleobase metabolic process,PATO:0000001,quality
+,,GO:0008015,blood circulation,PATO:0000001,quality
+,,GO:0006573,valine metabolic process,PATO:0000001,quality
+,,UBERON:0010365,odontoid tissue,PATO:0000001,quality
+,,UBERON:0000378,tongue muscle,PATO:0000001,quality
+,,UBERON:0006664,greater palatine artery,PATO:0000001,quality
+,,UBERON:0000173,amniotic fluid,PATO:0000001,quality
+,,GO:0006486,protein glycosylation,PATO:0000001,quality
+,,UBERON:0001686,auditory ossicle,PATO:0000001,quality
+,,UBERON:0001772,corneal epithelium,PATO:0000001,quality
+,,UBERON:0003292,meninx of spinal cord,PATO:0000001,quality
+,,GO:0007049,cell cycle,PATO:0000001,quality
+,,UBERON:0003634,pedal digit 4,PATO:0000001,quality
+,,GO:0001573,ganglioside metabolic process,PATO:0000001,quality
+,,UBERON:0004314,distal phalanx of manual digit 5,PATO:0000001,quality
+,,UBERON:0002498,deltopectoral crest,PATO:0000001,quality
+,,UBERON:0008788,posterior cranial fossa,PATO:0000001,quality
+,,UBERON:0004108,clivus of occipital bone,PATO:0000001,quality
+,,UBERON:0001556,lower urinary tract,PATO:0000001,quality
+,,UBERON:0001576,intrinsic muscle of tongue,PATO:0000001,quality
+,,UBERON:0001707,nasal cavity,PATO:0000001,quality
+,,NBO:0000604,social inhibition,PATO:0000001,quality
+,,UBERON:0011575,styloid process of ulna,PATO:0000001,quality
+,,UBERON:0002080,heart right ventricle,PATO:0000001,quality
+,,UBERON:0003951,ocular fundus,PATO:0000001,quality
+,,UBERON:0011143,upper urinary tract,PATO:0000001,quality
+,,UBERON:0004319,distal phalanx of pedal digit 5,PATO:0000001,quality
+,,CL:0000518,phagocyte (sensu Vertebrata),PATO:0000001,quality
+,,UBERON:0004086,brain ventricle,PATO:0000001,quality
+,,UBERON:0001575,extrinsic muscle of tongue,PATO:0000001,quality
+,,UBERON:0001070,external carotid artery,PATO:0000001,quality
+,,UBERON:0001351,lacrimal sac,PATO:0000001,quality
+,,UBERON:0016413,medullary cavity of long bone,PATO:0000001,quality
+,,UBERON:0003889,fallopian tube,PATO:0000001,quality
+,,UBERON:0004313,distal phalanx of manual digit 4,PATO:0000001,quality
+,,UBERON:0001638,vein,PATO:0000001,quality
+,,UBERON:0000401,mandibular ramus,PATO:0000001,quality
+,,GO:0070085,glycosylation,PATO:0000001,quality
+,,UBERON:0001648,vestibulocochlear nerve,PATO:0000001,quality
+,,UBERON:0004408,distal epiphysis of ulna,PATO:0000001,quality
+,,UBERON:0003635,pedal digit 5,PATO:0000001,quality
+,,UBERON:0006073,thoracic region of vertebral column,PATO:0000001,quality
+,,UBERON:0004326,middle phalanx of pedal digit 4,PATO:0000001,quality
+,,UBERON:0001424,ulna,PATO:0000001,quality
+,,UBERON:0003496,head blood vessel,PATO:0000001,quality
+,,GO:1901052,sarcosine metabolic process,PATO:0000001,quality
+,,UBERON:0002196,adenohypophysis,PATO:0000001,quality
+,,UBERON:0004413,proximal epiphysis of radius,PATO:0000001,quality
+,,GO:0046110,xanthine metabolic process,PATO:0000001,quality
+,,UBERON:0008833,great auricular nerve,PATO:0000001,quality
+,,UBERON:0001732,pharyngeal tonsil,PATO:0000001,quality
+,,UBERON:0003728,mediastinum,PATO:0000001,quality
+,,NBO:0000416,vestibulo-ocular reflex,PATO:0000001,quality
+,,UBERON:0002411,clitoris,PATO:0000001,quality
+,,GO:0030261,chromosome condensation,PATO:0000001,quality
+,,GO:0042359,vitamin D metabolic process,PATO:0000001,quality
+,,UBERON:0008588,procerus,PATO:0000001,quality
+,,UBERON:0001466,pedal digit,PATO:0000001,quality
+,,GO:0006525,arginine metabolic process,PATO:0000001,quality
+,,UBERON:0001683,jugal bone,PATO:0000001,quality
+,,GO:0006551,leucine metabolic process,PATO:0000001,quality
+,,UBERON:0001815,lumbosacral nerve plexus,PATO:0000001,quality
+,,UBERON:0001649,glossopharyngeal nerve,PATO:0000001,quality
+,,UBERON:0018226,pulmonary part of lymphatic system,PATO:0000001,quality
+,,UBERON:0001645,trigeminal nerve,PATO:0000001,quality
+,,UBERON:0003681,masticatory muscle,PATO:0000001,quality
+,,GO:0072507,divalent inorganic cation homeostasis,PATO:0000001,quality
+,,GO:0022010,central nervous system myelination,PATO:0000001,quality
+,,UBERON:0004311,distal phalanx of manual digit 2,PATO:0000001,quality
+,,UBERON:0000976,humerus,PATO:0000001,quality
+,,UBERON:0001224,renal pelvis,PATO:0000001,quality
+,,UBERON:0004317,distal phalanx of pedal digit 3,PATO:0000001,quality
+,,UBERON:0003863,pedal digit 5 phalanx,PATO:0000001,quality
+,,UBERON:0001235,adrenal cortex,PATO:0000001,quality
+,,UBERON:0004388,epiphysis of fibula,PATO:0000001,quality
+,,UBERON:0004200,kidney pyramid,PATO:0000001,quality
+,,UBERON:0008593,zygomaticus major muscle,PATO:0000001,quality
+,,UBERON:0001269,acetabular part of hip bone,PATO:0000001,quality
+,,UBERON:0003674,cuspid,PATO:0000001,quality
+,,UBERON:0003721,lingual nerve,PATO:0000001,quality
+,,UBERON:0001733,soft palate,PATO:0000001,quality
+,,GO:0009078,pyruvate family amino acid metabolic process,PATO:0000001,quality
+,,UBERON:0001332,prepuce of penis,PATO:0000001,quality
+,,UBERON:0000979,tibia,PATO:0000001,quality
+,,UBERON:0003840,hindlimb joint,PATO:0000001,quality
+,,UBERON:0004104,hairline,PATO:0000001,quality
+,,GO:0006664,glycolipid metabolic process,PATO:0000001,quality
+,,UBERON:0004014,labium minora,PATO:0000001,quality
+,,NBO:0000417,physiologic nystagmus,PATO:0000001,quality
+,,UBERON:0001486,hip joint,PATO:0000001,quality
+,,UBERON:0019246,palmar skin crease,PATO:0000001,quality
+,,GO:0009072,aromatic amino acid family metabolic process,PATO:0000001,quality
+,,GO:0006776,vitamin A metabolic process,PATO:0000001,quality
+,,UBERON:0002221,fontanelle,PATO:0000001,quality
+,,UBERON:0001580,levator labii superioris,PATO:0000001,quality
+,,UBERON:0004657,mandible condylar process,PATO:0000001,quality
+,,UBERON:0003641,pedal digit 2 phalanx,PATO:0000001,quality
+,,GO:0006553,lysine metabolic process,PATO:0000001,quality
+,,UBERON:0007250,lingual tonsil,PATO:0000001,quality
+,,GO:0001659,temperature homeostasis,PATO:0000001,quality
+,,UBERON:0002488,helix,PATO:0000001,quality
+,,GO:0007597,"blood coagulation, intrinsic pathway",PATO:0000001,quality
+,,GO:0006555,methionine metabolic process,PATO:0000001,quality
+,,UBERON:0001650,hypoglossal nerve,PATO:0000001,quality
+,,UBERON:0004101,nasolabial region,PATO:0000001,quality
+,,GO:0006099,tricarboxylic acid cycle,PATO:0000001,quality
+,,UBERON:0001760,frontal sinus,PATO:0000001,quality
+,,UBERON:0002286,third ventricle,PATO:0000001,quality
+,,UBERON:0002038,substantia nigra,PATO:0000001,quality
+,,GO:0006693,prostaglandin metabolic process,PATO:0000001,quality
+,,GO:0043648,dicarboxylic acid metabolic process,PATO:0000001,quality
+,,GO:0060073,micturition,PATO:0000001,quality
+,,NBO:0000313,behavior process,PATO:0000001,quality
+,,UBERON:0004646,infraorbital artery,PATO:0000001,quality
+,,UBERON:0004660,mandible coronoid process,PATO:0000001,quality
+,,NBO:0000054,suckling behavior,PATO:0000001,quality
+,,GO:0042133,neurotransmitter metabolic process,PATO:0000001,quality
+,,UBERON:0001532,internal carotid artery,PATO:0000001,quality
+,,UBERON:0003823,hindlimb zeugopod,PATO:0000001,quality
+,,NBO:0000015,aggressive behavior,PATO:0000001,quality
+,,UBERON:0002244,premaxilla,PATO:0000001,quality
+,,UBERON:0003642,pedal digit 3 phalanx,PATO:0000001,quality
+,,UBERON:0003407,cartilage of nasal septum,PATO:0000001,quality
+,,UBERON:0001028,diaphysis of radius,PATO:0000001,quality
+,,CL:0000127,astrocyte,PATO:0000001,quality
+,,UBERON:0003864,middle phalanx of manus,PATO:0000001,quality
+,,GO:0006534,cysteine metabolic process,PATO:0000001,quality
+,,NBO:0000092,anxiety-related behavior,PATO:0000001,quality
+,,UBERON:0001769,iris,PATO:0000001,quality
+,,UBERON:0018408,infra-orbital nerve,PATO:0000001,quality
+,,UBERON:0008982,fascia,PATO:0000001,quality
+,,UBERON:0008595,levator anguli oris,PATO:0000001,quality
+,,UBERON:0004324,middle phalanx of pedal digit 2,PATO:0000001,quality
+,,UBERON:0001801,anterior segment of eyeball,PATO:0000001,quality
+,,GO:0007598,"blood coagulation, extrinsic pathway",PATO:0000001,quality
+,,GO:0001676,long-chain fatty acid metabolic process,PATO:0000001,quality
+,,UBERON:0001603,lateral rectus extra-ocular muscle,PATO:0000001,quality
+,,UBERON:0004411,proximal epiphysis of humerus,PATO:0000001,quality
+,,GO:0006566,threonine metabolic process,PATO:0000001,quality
+,,UBERON:0001771,pupil,PATO:0000001,quality
+,,UBERON:0011110,humeroulnar joint,PATO:0000001,quality
+,,UBERON:0004465,musculature of neck,PATO:0000001,quality
+,,UBERON:0004410,distal epiphysis of fibula,PATO:0000001,quality
+,,NBO:0000128,irritability behavior,PATO:0000001,quality
+,,UBERON:0003729,mouth mucosa,PATO:0000001,quality
+,,UBERON:0011220,mastoid process of temporal bone,PATO:0000001,quality
+,,UBERON:0001847,lobule of pinna,PATO:0000001,quality
+,,GO:0006029,proteoglycan metabolic process,PATO:0000001,quality
+,,UBERON:0016446,hair of head,PATO:0000001,quality
+,,UBERON:0001895,metencephalon,PATO:0000001,quality
+,,NBO:0000011,social behavior,PATO:0000001,quality
+,,UBERON:0007709,superior cerebellar peduncle of pons,PATO:0000001,quality
+,,UBERON:0006657,glenoid fossa,PATO:0000001,quality
+,,UBERON:0010746,iliac blade,PATO:0000001,quality
+,,UBERON:0010234,palatopharyngeus muscle,PATO:0000001,quality
+,,UBERON:0001894,diencephalon,PATO:0000001,quality
+,,UBERON:0003652,metatarsal bone of digit 3,PATO:0000001,quality
+,,UBERON:0010260,umbilical blood vessel,PATO:0000001,quality
+,,GO:0006281,DNA repair,PATO:0000001,quality
+,,UBERON:0001274,ischium,PATO:0000001,quality
+,,UBERON:0003700,temporomandibular joint,PATO:0000001,quality
+,,CL:0000084,T cell,PATO:0000001,quality
+,,UBERON:0004325,middle phalanx of pedal digit 3,PATO:0000001,quality
+,,UBERON:0018405,inferior alveolar nerve,PATO:0000001,quality
+,,GO:0031052,chromosome breakage,PATO:0000001,quality
+,,UBERON:0004334,proximal phalanx of pedal digit 3,PATO:0000001,quality
+,,UBERON:0009552,distal segment of manual digit,PATO:0000001,quality
+,,UBERON:0010284,lacrimal punctum,PATO:0000001,quality
+,,UBERON:0011648,jaw muscle,PATO:0000001,quality
+,,UBERON:0002198,neurohypophysis,PATO:0000001,quality
+,,UBERON:0004316,distal phalanx of pedal digit 2,PATO:0000001,quality
+,,GO:0006558,L-phenylalanine metabolic process,PATO:0000001,quality
+,,UBERON:0003129,skull,PATO:0000001,quality
+,,UBERON:0001597,masseter muscle,PATO:0000001,quality
+,,UBERON:0004727,cochlear nerve,PATO:0000001,quality
+,,UBERON:0001586,internal jugular vein,PATO:0000001,quality
+,,UBERON:0006719,lateral pterygoid muscle,PATO:0000001,quality
+,,GO:0055064,chloride ion homeostasis,PATO:0000001,quality
+,,UBERON:0002360,meninx,PATO:0000001,quality
+,,UBERON:0003655,molar tooth,PATO:0000001,quality
+,,UBERON:0001817,lacrimal gland,PATO:0000001,quality
+,,UBERON:0003704,intrahepatic bile duct,PATO:0000001,quality
+,,UBERON:0004367,Descemet's membrane,PATO:0000001,quality
+,,UBERON:0007722,interphalangeal joint of manus,PATO:0000001,quality
+,,UBERON:0000990,reproductive system,PATO:0000001,quality
+,,UBERON:0007416,cerebellar peduncle,PATO:0000001,quality
+,,NBO:0000120,physical aggression behavior,PATO:0000001,quality
+,,UBERON:0005956,outflow part of left ventricle,PATO:0000001,quality
+,,UBERON:0004098,tibial plateaux,PATO:0000001,quality
+,,UBERON:0003633,pedal digit 3,PATO:0000001,quality
+,,UBERON:0008338,plantar part of pes,PATO:0000001,quality
+,,GO:0004035,alkaline phosphatase activity,PATO:0000001,quality
+,,UBERON:0002395,talus,PATO:0000001,quality
+,,UBERON:0011156,facial skeleton,PATO:0000001,quality
+,,UBERON:0002058,ciliary ganglion,PATO:0000001,quality
+,,GO:0005975,carbohydrate metabolic process,PATO:0000001,quality
+,,UBERON:0011859,internal acoustic meatus,PATO:0000001,quality
+,,UBERON:0001681,nasal bone,PATO:0000001,quality
+,,GO:0055069,zinc ion homeostasis,PATO:0000001,quality
+,,UBERON:0006609,corpus cavernosum,PATO:0000001,quality
+,,UBERON:0008594,zygomaticus minor muscle,PATO:0000001,quality
+,,UBERON:0004256,hindlimb zeugopod muscle,PATO:0000001,quality
+,,UBERON:0002097,skin of body,PATO:0000001,quality
+,,UBERON:0004118,vasculature of iris,PATO:0000001,quality
+,,UBERON:0004332,proximal phalanx of pedal digit 1,PATO:0000001,quality
+,,UBERON:0003216,hard palate,PATO:0000001,quality
+,,UBERON:0001508,arch of aorta,PATO:0000001,quality
+,,NBO:0000119,impulsive behavior,PATO:0000001,quality
+,,UBERON:0001557,upper respiratory tract,PATO:0000001,quality
+,,GO:0006687,glycosphingolipid metabolic process,PATO:0000001,quality
+,,UBERON:0002422,fourth ventricle,PATO:0000001,quality
+,,UBERON:0004318,distal phalanx of pedal digit 4,PATO:0000001,quality
+,,UBERON:0001582,buccinator muscle,PATO:0000001,quality
+,,UBERON:0001528,radio-ulnar joint,PATO:0000001,quality
+,,UBERON:0001021,nerve,PATO:0000001,quality
+,,GO:0006547,histidine metabolic process,PATO:0000001,quality
+,,GO:0042703,menstruation,PATO:0000001,quality
+,,UBERON:0001833,lip,PATO:0000001,quality
+,,UBERON:0010952,frontalis muscle belly,PATO:0000001,quality
+,,UBERON:0014693,inferior alveolar artery,PATO:0000001,quality
+,,UBERON:0001811,conjunctiva,PATO:0000001,quality
+,,GO:0009081,branched-chain amino acid metabolic process,PATO:0000001,quality
+,,UBERON:0014386,vertebral endplate,PATO:0000001,quality
+,,GO:0019852,L-ascorbic acid metabolic process,PATO:0000001,quality
+,,UBERON:0009002,placental membrane,PATO:0000001,quality
+,,CL:0000218,Schwann cell,PATO:0000001,quality
+,,UBERON:0001619,ophthalmic artery,PATO:0000001,quality
+,,UBERON:0011111,humeroradial joint,PATO:0000001,quality
+,,UBERON:0002016,pulmonary vein,PATO:0000001,quality
+,,UBERON:0003677,tooth root,PATO:0000001,quality
+,,UBERON:0008878,palmar part of manus,PATO:0000001,quality
+,,GO:0055074,calcium ion homeostasis,PATO:0000001,quality
+,,UBERON:0001620,central retinal artery,PATO:0000001,quality
+,,UBERON:0002707,corticospinal tract,PATO:0000001,quality
+,,UBERON:0003651,metatarsal bone of digit 2,PATO:0000001,quality
+,,UBERON:0003866,middle phalanx of pes,PATO:0000001,quality
+,,NBO:0000446,visual pursuit,PATO:0000001,quality
+,,GO:0006493,protein O-linked glycosylation,PATO:0000001,quality
+,,UBERON:0003709,circle of Willis,PATO:0000001,quality
+,,UBERON:0004089,midface,PATO:0000001,quality
+,,UBERON:0005467,platysma,PATO:0000001,quality
+,,GO:0006570,tyrosine metabolic process,PATO:0000001,quality
+,,GO:0000096,sulfur amino acid metabolic process,PATO:0000001,quality
+,,GO:0055067,monovalent inorganic cation homeostasis,PATO:0000001,quality
+,,UBERON:0001449,phalanx of pes,PATO:0000001,quality
+,,GO:0006549,isoleucine metabolic process,PATO:0000001,quality
+,,UBERON:0001572,hyoglossus muscle,PATO:0000001,quality
+,,UBERON:0001598,temporalis muscle,PATO:0000001,quality
+,,GO:0003014,renal system process,PATO:0000001,quality
+,,UBERON:0006558,lymphatic part of lymphoid system,PATO:0000001,quality
+,,UBERON:0001612,facial artery,PATO:0000001,quality
+,,UBERON:0001447,tarsal bone,PATO:0000001,quality
+,,UBERON:0004864,vasculature of retina,PATO:0000001,quality
+,,UBERON:0004320,middle phalanx of manual digit 2,PATO:0000001,quality
+,,UBERON:0002500,zygomatic arch,PATO:0000001,quality
+,,UBERON:0002453,ethmoid sinus,PATO:0000001,quality
+,,UBERON:0012318,anterior ethmoidal artery,PATO:0000001,quality
+,,UBERON:0006689,frenulum of tongue,PATO:0000001,quality
+,,GO:0042373,vitamin K metabolic process,PATO:0000001,quality
+,,UBERON:0006322,inferior rectus extraocular muscle,PATO:0000001,quality
+,,UBERON:0005438,coronary sinus,PATO:0000001,quality
+,,UBERON:0000007,pituitary gland,PATO:0000001,quality
+,,GO:0006560,proline metabolic process,PATO:0000001,quality
+,,UBERON:0000210,tetrapod parietal bone,PATO:0000001,quality
+,,UBERON:0000079,male reproductive system,PATO:0000001,quality
+,,GO:0006563,L-serine metabolic process,PATO:0000001,quality
+,,UBERON:0001174,common bile duct,PATO:0000001,quality
+,,UBERON:0004087,vena cava,PATO:0000001,quality
+,,UBERON:0001896,medulla oblongata,PATO:0000001,quality
+,,UBERON:0004321,middle phalanx of manual digit 3,PATO:0000001,quality
+,,UBERON:0007156,inferior thyroid vein,PATO:0000001,quality
+,,GO:0042593,glucose homeostasis,PATO:0000001,quality
+,,UBERON:0000045,ganglion,PATO:0000001,quality
+,,UBERON:0001535,vertebral artery,PATO:0000001,quality
+,,UBERON:0003338,ganglion of peripheral nervous system,PATO:0000001,quality
+,,UBERON:0001573,styloglossus,PATO:0000001,quality
+,,UBERON:0004085,labium majora,PATO:0000001,quality
+,,UBERON:0002228,rib,PATO:0000001,quality
+,,UBERON:0001365,sacro-iliac joint,PATO:0000001,quality
+,,UBERON:0000964,cornea,PATO:0000001,quality
+,,UBERON:0010946,occipitofrontalis muscle,PATO:0000001,quality
+,,GO:0010960,magnesium ion homeostasis,PATO:0000001,quality
+,,NBO:0000605,sexual inhibition,PATO:0000001,quality
+,,UBERON:0001623,dorsal nasal artery,PATO:0000001,quality
+,,UBERON:0006074,lumbar region of vertebral column,PATO:0000001,quality
+,,GO:0009235,cobalamin metabolic process,PATO:0000001,quality
+,,UBERON:0010235,uvular muscle,PATO:0000001,quality
+,,NBO:0000403,voluntary movement behavior,PATO:0000001,quality
+,,UBERON:0000992,female gonad,PATO:0000001,quality
+,,UBERON:0001295,endometrium,PATO:0000001,quality
+,,UBERON:0001802,posterior segment of eyeball,PATO:0000001,quality
+,,UBERON:0001646,abducens nerve,PATO:0000001,quality
+,,UBERON:0013699,strand of axillary hair,PATO:0000001,quality
+,,GO:0042360,vitamin E metabolic process,PATO:0000001,quality
+,,UBERON:0001777,substantia propria of cornea,PATO:0000001,quality
+,,UBERON:0004769,diaphysis,PATO:0000001,quality
+,,GO:0036066,protein O-linked fucosylation,PATO:0000001,quality
+,,UBERON:0004571,systemic arterial system,PATO:0000001,quality
+,,UBERON:0004323,middle phalanx of manual digit 5,PATO:0000001,quality
+,,UBERON:0016464,dorsum of nose,PATO:0000001,quality
+,,UBERON:0001610,lingual artery,PATO:0000001,quality
+,,GO:0022011,myelination in peripheral nervous system,PATO:0000001,quality
+,,CL:0000623,natural killer cell,PATO:0000001,quality
+,,UBERON:0008775,proximal epiphysis of fibula,PATO:0000001,quality
+,,UBERON:0003697,abdominal wall,PATO:0000001,quality
+,,UBERON:0016440,glabella region of bone,PATO:0000001,quality
+,,UBERON:0001663,cerebral vein,PATO:0000001,quality
+,,CL:0000129,microglial cell,PATO:0000001,quality
+,,UBERON:0001571,genioglossus muscle,PATO:0000001,quality
+,,UBERON:0004090,periorbital region,PATO:0000001,quality
+,,UBERON:0002019,accessory XI nerve,PATO:0000001,quality
+,,UBERON:0004404,distal epiphysis of humerus,PATO:0000001,quality
+,,UBERON:0001564,mylohyoid muscle,PATO:0000001,quality
+,,UBERON:0001051,hypopharynx,PATO:0000001,quality
+,,UBERON:0004315,distal phalanx of pedal digit 1,PATO:0000001,quality
+,,UBERON:0001446,fibula,PATO:0000001,quality
+,,GO:0055062,phosphate ion homeostasis,PATO:0000001,quality
+,,CL:0000236,B cell,PATO:0000001,quality
+,,UBERON:0003862,pedal digit 4 phalanx,PATO:0000001,quality
+,,GO:0033559,unsaturated fatty acid metabolic process,PATO:0000001,quality
+,,UBERON:0002544,digit,PATO:0000001,quality
+,,UBERON:0001098,incisor tooth,PATO:0000001,quality
+,,GO:0000052,citrulline metabolic process,PATO:0000001,quality
+,,UBERON:0001814,brachial nerve plexus,PATO:0000001,quality
+,,UBERON:0001850,lacrimal drainage system,PATO:0000001,quality
+,,GO:0009437,carnitine metabolic process,PATO:0000001,quality
+,,GO:0019752,carboxylic acid metabolic process,PATO:0000001,quality
+,,UBERON:0001016,nervous system,PATO:0000001,quality
+,,GO:0006801,superoxide metabolic process,PATO:0000001,quality
+,,UBERON:0002375,cricoid cartilage,PATO:0000001,quality
+,,UBERON:0004100,renal collecting system,PATO:0000001,quality
+,,NBO:0000617,laughing behavior,PATO:0000001,quality
+,,GO:0006600,creatine metabolic process,PATO:0000001,quality
+,,UBERON:0004395,epiphysis of first metatarsal bone,PATO:0000001,quality
+,,UBERON:0001423,radius bone,PATO:0000001,quality
+,,UBERON:0001076,neural spine,PATO:0000001,quality
+,,UBERON:0007120,premolar tooth,PATO:0000001,quality
+,,UBERON:0002207,xiphoid process,PATO:0000001,quality
+,,UBERON:0006822,proximal epiphysis of ulna,PATO:0000001,quality
+,,GO:0009066,aspartate family amino acid metabolic process,PATO:0000001,quality
+,,UBERON:0003650,metatarsal bone of digit 1,PATO:0000001,quality
+,,UBERON:0002293,costochondral joint,PATO:0000001,quality
+,,UBERON:0005413,spinocerebellar tract,PATO:0000001,quality
+,,UBERON:0004407,distal epiphysis of radius,PATO:0000001,quality
+,,UBERON:0006718,medial pterygoid muscle,PATO:0000001,quality
+,,GO:0001843,neural tube closure,PATO:0000001,quality
+,,NBO:0000003,emotional behavior,PATO:0000001,quality
+,,GO:0032787,monocarboxylic acid metabolic process,PATO:0000001,quality
+,,UBERON:0002362,arachnoid mater,PATO:0000001,quality
+,,UBERON:0000323,late embryo,PATO:0000001,quality
+,,UBERON:0006320,inferior oblique extraocular muscle,PATO:0000001,quality
+,,UBERON:0010230,eyeball of camera-type eye,PATO:0000001,quality
+,,GO:0070293,renal absorption,PATO:0000001,quality
+,,UBERON:0002234,proximal phalanx of manus,PATO:0000001,quality
+,,UBERON:0003653,metatarsal bone of digit 4,PATO:0000001,quality
+,,GO:0003010,voluntary skeletal muscle contraction,PATO:0000001,quality
+,,UBERON:0003725,cervical plexus,PATO:0000001,quality
+,,UBERON:0002343,abdomen musculature,PATO:0000001,quality
+,,UBERON:0001697,orbit of skull,PATO:0000001,quality
+,,GO:0006522,alanine metabolic process,PATO:0000001,quality
+,,UBERON:0002390,hematopoietic system,PATO:0000001,quality
+,,UBERON:0001676,occipital bone,PATO:0000001,quality
+,,GO:0006487,protein N-linked glycosylation,PATO:0000001,quality
+,,UBERON:0001987,placenta,PATO:0000001,quality
+,,UBERON:0000981,femur,PATO:0000001,quality
+,,UBERON:0001622,lacrimal artery,PATO:0000001,quality
+,,UBERON:0002224,thoracic cavity,PATO:0000001,quality
+,,GO:0042713,sperm ejaculation,PATO:0000001,quality
+,,UBERON:0000916,abdomen,PATO:0000001,quality
+,,UBERON:0002331,umbilical cord,PATO:0000001,quality
+,,UBERON:0010408,ocular angle artery,PATO:0000001,quality
+,,UBERON:0003867,distal phalanx of pes,PATO:0000001,quality
+,,UBERON:0004092,hypothalamus-pituitary axis,PATO:0000001,quality
+,,GO:0055080,cation homeostasis,PATO:0000001,quality
+,,UBERON:0001764,maxillary sinus,PATO:0000001,quality
+,,UBERON:0001436,phalanx of manus,PATO:0000001,quality
+,,GO:0006783,heme biosynthetic process,PATO:0000001,quality
+,,GO:0060464,lung lobe formation,PATO:0000001,quality
+,,UBERON:0002107,liver,PATO:0000001,quality
+,,UBERON:0010933,orbicularis oris muscle,PATO:0000001,quality
+,,UBERON:0001604,levator palpebrae superioris,PATO:0000001,quality
+,,UBERON:0001813,somatic nerve plexus,PATO:0000001,quality
+,,UBERON:0002094,interventricular septum,PATO:0000001,quality
+,,UBERON:0004703,dorsal thalamus,PATO:0000001,quality
+,,GO:0072377,"blood coagulation, common pathway",PATO:0000001,quality
+,,GO:0050892,intestinal absorption,PATO:0000001,quality
+,,UBERON:0001753,cementum,PATO:0000001,quality
+,,UBERON:0002000,gluteal muscle,PATO:0000001,quality
+,,UBERON:0008597,depressor anguli oris muscle,PATO:0000001,quality
+,,UBERON:0005810,cervical vertebra 1 anterior tubercle,PATO:0000001,quality
+,,NBO:0000171,associative learning behavior,PATO:0000001,quality
+,,NBO:0000333,chemical nociceptive behavior,PATO:0000001,quality
+,,GO:0042640,anagen,PATO:0000001,quality
+,,GO:0004096,catalase activity,PATO:0000001,quality
+,,GO:0001806,type IV hypersensitivity,PATO:0000001,quality
+,,NBO:0000555,spatial working memory,PATO:0000001,quality
+,,UBERON:0006430,xiphoid cartilage,PATO:0000001,quality
+,,NBO:0000136,saccharin consumption,PATO:0000001,quality
+,,GO:0004585,ornithine carbamoyltransferase activity,PATO:0000001,quality
+,,NBO:0000450,social grooming,PATO:0000001,quality
+,,NBO:0000098,response to novel object,PATO:0000001,quality
+,,GO:0004104,cholinesterase activity,PATO:0000001,quality
+,,UBERON:0002974,molecular layer of cerebellar cortex,PATO:0000001,quality
+,,UBERON:0004451,trunk or cervical vertebra,PATO:0000001,quality
+,,UBERON:0002443,choroidal blood vessel,PATO:0000001,quality
+,,GO:0004511,tyrosine 3-monooxygenase activity,PATO:0000001,quality
+,,CL:0000650,mesangial cell,PATO:0000001,quality
+,,NBO:0000560,barbering behavior,PATO:0000001,quality
+,,UBERON:0010510,strand of auchene hair,PATO:0000001,quality
+,,UBERON:0014451,tongue taste bud,PATO:0000001,quality
+,,GO:0004111,creatine kinase activity,PATO:0000001,quality
+,,NBO:0001571,behavioral response to light,PATO:0000001,quality
+,,GO:0001658,branching involved in ureteric bud morphogenesis,PATO:0000001,quality
+,,GO:0001957,intramembranous ossification,PATO:0000001,quality
+,,UBERON:0010753,lymph node secondary follicle,PATO:0000001,quality
+,,GO:0032402,melanosome transport,PATO:0000001,quality
+,,GO:0050885,neuromuscular process controlling balance,PATO:0000001,quality
+,,UBERON:0010511,strand of awl hair,PATO:0000001,quality
+,,UBERON:0001077,transverse process of vertebra,PATO:0000001,quality
+,,GO:1903709,uterine gland development,PATO:0000001,quality
+,,UBERON:0001839,bony labyrinth,PATO:0000001,quality
+,,NBO:0000001,body part movement,PATO:0000001,quality
+,,NBO:0001915,cocaine consumption,PATO:0000001,quality
+,,GO:0033878,hormone-sensitive lipase activity,PATO:0000001,quality
+,,NBO:0000570,head bobbing,PATO:0000001,quality
+,,UBERON:0005367,hippocampus granule cell layer,PATO:0000001,quality
+,,GO:0045136,development of secondary sexual characteristics,PATO:0000001,quality
+,,NBO:0000013,locomotory behavior,PATO:0000001,quality
+,,NBO:0000211,conditioned taste aversion,PATO:0000001,quality
+,,UBERON:0001798,vitreous body,PATO:0000001,quality
+,,NBO:0000152,maternal nurturing behavior,PATO:0000001,quality
+,,GO:0001802,type III hypersensitivity,PATO:0000001,quality
+,,GO:0004031,aldehyde oxidase activity,PATO:0000001,quality
+,,NBO:0000134,food consumption,PATO:0000001,quality
+,,NBO:0000166,circadian rhythm,PATO:0000001,quality
+,,GO:0004656,procollagen-proline 4-dioxygenase activity,PATO:0000001,quality
+,,NBO:0000334,mechanical nociceptive behavior,PATO:0000001,quality
+,,UBERON:0006615,venous sinus,PATO:0000001,quality
+,,UBERON:0002215,synchondrosis,PATO:0000001,quality
+,,GO:0048341,paraxial mesoderm formation,PATO:0000001,quality
+,,UBERON:0001862,vestibular labyrinth,PATO:0000001,quality
+,,UBERON:0004872,splanchnic layer of lateral plate mesoderm,PATO:0000001,quality
+,,UBERON:0006658,interphalangeal joint,PATO:0000001,quality
+,,GO:0072001,renal system development,PATO:0000001,quality
+,,GO:0030018,Z disc,PATO:0000001,quality
+,,GO:1903699,tarsal gland development,PATO:0000001,quality
+,,GO:0004731,purine-nucleoside phosphorylase activity,PATO:0000001,quality
+,,UBERON:0001352,external acoustic meatus,PATO:0000001,quality
+,,GO:0097009,energy homeostasis,PATO:0000001,quality
+,,GO:0004418,hydroxymethylbilane synthase activity,PATO:0000001,quality
+,,NBO:0000103,coping behavior,PATO:0000001,quality
+,,NBO:0000584,clutching reflex,PATO:0000001,quality
+,,GO:0042730,fibrinolysis,PATO:0000001,quality
+,,UBERON:0002195,trabecula of lymph node,PATO:0000001,quality
+,,NBO:0000336,chemically-elicited antinociceptive behavior,PATO:0000001,quality
+,,NBO:0000447,locomotor activation behavior,PATO:0000001,quality
+,,NBO:0000330,cutaneous sensation behavior,PATO:0000001,quality
+,,GO:0004601,peroxidase activity,PATO:0000001,quality
+,,GO:0060235,lens induction in camera-type eye,PATO:0000001,quality
+,,GO:0003870,5-aminolevulinate synthase activity,PATO:0000001,quality
+,,NBO:0001728,behavioral response to addictive substance,PATO:0000001,quality
+,,NBO:0000574,optokinetic reflex,PATO:0000001,quality
+,,GO:0007143,female meiotic division,PATO:0000001,quality
+,,GO:0060384,innervation,PATO:0000001,quality
+,,GO:0042637,catagen,PATO:0000001,quality
+,,CL:0000300,gamete,PATO:0000001,quality
+,,NBO:0000172,olfactory learning behavior,PATO:0000001,quality
+,,NBO:0001679,behavioral response to xenobiotics,PATO:0000001,quality
+,,UBERON:0006946,efferent duct,PATO:0000001,quality
+,,NBO:0000020,head movement,PATO:0000001,quality
+,,GO:0050879,multicellular organismal movement,PATO:0000001,quality
+,,GO:0004743,pyruvate kinase activity,PATO:0000001,quality
+,,NBO:0000552,long term object recognition memory,PATO:0000001,quality
+,,UBERON:0002006,cortex of lymph node,PATO:0000001,quality
+,,NBO:0000157,nest building behavior,PATO:0000001,quality
+,,GO:0004340,glucokinase activity,PATO:0000001,quality
+,,NBO:0000097,response to novel environment,PATO:0000001,quality
+,,GO:0007140,male meiosis,PATO:0000001,quality
+,,NBO:0000023,head shaking,PATO:0000001,quality
+,,UBERON:0010417,lymph node T cell domain,PATO:0000001,quality
+,,NBO:0000576,pinna reflex,PATO:0000001,quality
+,,UBERON:0000052,fornix of brain,PATO:0000001,quality
+,,NBO:0000146,mating receptivity,PATO:0000001,quality
+,,UBERON:0002393,pharyngotympanic tube,PATO:0000001,quality
+,,NBO:0000389,reflexive behavior,PATO:0000001,quality
+,,GO:0033484,nitric oxide homeostasis,PATO:0000001,quality
+,,GO:0009416,response to light stimulus,PATO:0000001,quality
+,,GO:0004351,glutamate decarboxylase activity,PATO:0000001,quality
+,,UBERON:0001310,umbilical artery,PATO:0000001,quality
+,,NBO:0000331,nociceptive behavior,PATO:0000001,quality
+,,NBO:0000559,maternal grooming,PATO:0000001,quality
+,,NBO:0000079,feeding behavior,PATO:0000001,quality
+,,UBERON:0002468,foliate papilla,PATO:0000001,quality
+,,GO:0097283,keratinocyte apoptotic process,PATO:0000001,quality
+,,GO:0042060,wound healing,PATO:0000001,quality
+,,GO:0060208,proestrus,PATO:0000001,quality
+,,NBO:0000150,maternal behavior,PATO:0000001,quality
+,,UBERON:0002226,basilar membrane of cochlea,PATO:0000001,quality
+,,UBERON:0000086,zona pellucida,PATO:0000001,quality
+,,GO:0001958,endochondral ossification,PATO:0000001,quality
+,,NBO:0000355,posture,PATO:0000001,quality
+,,UBERON:0005356,Rathke's pouch,PATO:0000001,quality
+,,UBERON:0002127,inferior olivary complex,PATO:0000001,quality
+,,NBO:0000125,submissive behavior towards male mice,PATO:0000001,quality
+,,UBERON:0000325,gastric gland,PATO:0000001,quality
+,,GO:0045161,neuronal ion channel clustering,PATO:0000001,quality
+,,GO:0001750,photoreceptor outer segment,PATO:0000001,quality
+,,CL:0002092,bone marrow cell,PATO:0000001,quality
+,,NBO:0000537,circadian regulation of systemic arterial blood pressure,PATO:0000001,quality
+,,GO:0016206,catechol O-methyltransferase activity,PATO:0000001,quality
+,,NBO:0000085,depression behavior,PATO:0000001,quality
+,,NBO:0000217,active avoidance learning behavior,PATO:0000001,quality
+,,GO:0060207,diestrus,PATO:0000001,quality
+,,GO:0008474,palmitoyl-(protein) hydrolase activity,PATO:0000001,quality
+,,NBO:0000571,mutlidirectional head movement,PATO:0000001,quality
+,,GO:0036342,post-anal tail morphogenesis,PATO:0000001,quality
+,,GO:0003336,corneocyte desquamation,PATO:0000001,quality
+,,NBO:0000581,vestibulocollic reflex,PATO:0000001,quality
+,,NBO:0000339,motor coordination,PATO:0000001,quality
+,,GO:0004102,choline O-acetyltransferase activity,PATO:0000001,quality
+,,UBERON:0005184,hair medulla,PATO:0000001,quality
+,,UBERON:0010412,epididymal fat pad,PATO:0000001,quality
+,,NBO:0000641,discrimination learning,PATO:0000001,quality
+,,UBERON:0001842,posterior semicircular canal,PATO:0000001,quality
+,,GO:0008088,axo-dendritic transport,PATO:0000001,quality
+,,UBERON:0002518,otolith organ,PATO:0000001,quality
+,,UBERON:0002979,Purkinje cell layer of cerebellar cortex,PATO:0000001,quality
+,,NBO:0000357,limb posture,PATO:0000001,quality
+,,UBERON:0001080,postzygapophysis,PATO:0000001,quality
+,,NBO:0000599,long-term spatial memory,PATO:0000001,quality
+,,UBERON:0010395,lymph node primary follicle,PATO:0000001,quality
+,,NBO:0000224,cued conditioning behavior,PATO:0000001,quality
+,,GO:0004365,glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity,PATO:0000001,quality
+,,UBERON:0001322,sciatic nerve,PATO:0000001,quality
+,,NBO:0000044,parental behavior,PATO:0000001,quality
+,,UBERON:0004374,vitelline vasculature,PATO:0000001,quality
+,,NBO:0000412,pupillary light reflex,PATO:0000001,quality
+,,GO:0043084,penile erection,PATO:0000001,quality
+,,UBERON:0004871,somatic layer of lateral plate mesoderm,PATO:0000001,quality
+,,GO:0035844,cloaca development,PATO:0000001,quality
+,,GO:0004602,glutathione peroxidase activity,PATO:0000001,quality
+,,UBERON:0003614,blood vessel elastic tissue,PATO:0000001,quality
+,,NBO:0002362,behavioral response to anesthetic,PATO:0000001,quality
+,,GO:0008119,thiopurine S-methyltransferase activity,PATO:0000001,quality
+,,UBERON:0000396,vallate papilla,PATO:0000001,quality
+,,UBERON:0001841,anterior semicircular canal,PATO:0000001,quality
+,,NBO:0000027,grooming behavior,PATO:0000001,quality
+,,NBO:0000175,spatial learning,PATO:0000001,quality
+,,GO:0007585,respiratory gaseous exchange,PATO:0000001,quality
+,,CL:0000835,myeloblast,PATO:0000001,quality
+,,GO:0060156,milk ejection,PATO:0000001,quality
+,,UBERON:0002289,midbrain cerebral aqueduct,PATO:0000001,quality
+,,NBO:0000014,mating behavior,PATO:0000001,quality
+,,UBERON:0001945,superior colliculus,PATO:0000001,quality
+,,GO:0097621,monoamine oxidase activity,PATO:0000001,quality
+,,UBERON:0000412,dermal papilla,PATO:0000001,quality
+,,UBERON:0010513,strand of zigzag hair,PATO:0000001,quality
+,,GO:0072028,nephron morphogenesis,PATO:0000001,quality
+,,GO:1903374,subarachnoid space development,PATO:0000001,quality
+,,GO:0048665,neuron fate specification,PATO:0000001,quality
+,,NBO:0000222,conditioned place preference behavior,PATO:0000001,quality
+,,UBERON:0003517,kidney blood vessel,PATO:0000001,quality
+,,NBO:0000415,corneal reflex,PATO:0000001,quality
+,,GO:0021502,neural fold elevation formation,PATO:0000001,quality
+,,NBO:0000358,resting posture,PATO:0000001,quality
+,,UBERON:0010416,lymph node B cell domain,PATO:0000001,quality
+,,GO:0016068,type I hypersensitivity,PATO:0000001,quality
+,,UBERON:0002956,granular layer of cerebellar cortex,PATO:0000001,quality
+,,GO:0001542,ovulation from ovarian follicle,PATO:0000001,quality
+,,UBERON:0006216,cervical sinus of His,PATO:0000001,quality
+,,GO:0021588,cerebellum formation,PATO:0000001,quality
+,,GO:0001842,neural fold formation,PATO:0000001,quality
+,,CL:0000452,thyroid hormone secreting cell,PATO:0000001,quality
+,,NBO:0000227,eye blink conditioning behavior,PATO:0000001,quality
+,,UBERON:0002519,otolithic part of statoconial membrane,PATO:0000001,quality
+,,UBERON:0005620,primary palate,PATO:0000001,quality
+,,GO:0048320,axial mesoderm formation,PATO:0000001,quality
+,,GO:0060017,parathyroid gland development,PATO:0000001,quality
+,,UBERON:0001843,lateral semicircular canal,PATO:0000001,quality
+,,UBERON:0002007,medulla of lymph node,PATO:0000001,quality
+,,NBO:0000578,righting reflex,PATO:0000001,quality
+,,NBO:0000335,thermal nociceptive behavior,PATO:0000001,quality
+,,NBO:0000583,vibrissae reflex,PATO:0000001,quality
+,,NBO:0000131,alcohol consumption,PATO:0000001,quality
+,,GO:0002445,type II hypersensitivity,PATO:0000001,quality
+,,UBERON:0001849,membranous labyrinth,PATO:0000001,quality
+,,GO:0001501,skeletal system development,PATO:0000001,quality
+,,CL:0000653,glomerular visceral epithelial cell,PATO:0000001,quality
+,,NBO:0000210,avoidance learning behavior,PATO:0000001,quality
+,,GO:0033483,gas homeostasis,PATO:0000001,quality
+,,GO:0070547,L-tyrosine aminotransferase activity,PATO:0000001,quality
+,,GO:0072134,nephrogenic mesenchyme morphogenesis,PATO:0000001,quality
+,,GO:0004465,lipoprotein lipase activity,PATO:0000001,quality
+,,GO:0060659,nipple sheath formation,PATO:0000001,quality
+,,UBERON:0002282,stria vascularis of cochlear duct,PATO:0000001,quality
+,,CL:0000570,parafollicular cell,PATO:0000001,quality
+,,GO:0007538,primary sex determination,PATO:0000001,quality
+,,GO:0097205,renal filtration,PATO:0000001,quality
+,,GO:0060117,auditory receptor cell development,PATO:0000001,quality
+,,NBO:0000557,short term spatial memory,PATO:0000001,quality
+,,GO:0051699,proline oxidase activity,PATO:0000001,quality
+,,NBO:0000556,spatial memory,PATO:0000001,quality
+,,PATO:0000276,brood size,PATO:0000001,quality
+,,GO:0033316,meiotic spindle assembly checkpoint,PATO:0000001,quality
+,,NBO:0000223,contextual conditioning behavior,PATO:0000001,quality
+,,NBO:0000551,visual object recognition,PATO:0000001,quality
+,,GO:1903700,caecum development,PATO:0000001,quality
+,,GO:0003403,optic vesicle formation,PATO:0000001,quality
+,,NBO:0000052,huddling behavior,PATO:0000001,quality
+,,CL:0000081,blood cell,PATO:0000001,quality
+,,UBERON:0002077,cortex of hair,PATO:0000001,quality
+,,GO:0060210,metestrus,PATO:0000001,quality
+,,NBO:0000361,gait,PATO:0000001,quality
+,,NBO:0000037,vocalization behavior,PATO:0000001,quality
+,,NBO:0000577,postural reflex,PATO:0000001,quality
+,,GO:0033327,Leydig cell differentiation,PATO:0000001,quality
+,,CL:0000243,glial cell (sensu Vertebrata),PATO:0000001,quality
+,,NBO:0000218,passive avoidance learning behavior,PATO:0000001,quality
+,,GO:1903701,substantia propria of cornea development,PATO:0000001,quality
+,,UBERON:0001845,perilymph,PATO:0000001,quality
+,,UBERON:0004527,alveolar process of maxilla,PATO:0000001,quality
+,,UBERON:0001726,papilla of tongue,PATO:0000001,quality
+,,NBO:0000212,operant conditioning behavior,PATO:0000001,quality
+,,UBERON:0012352,mesangial matrix,PATO:0000001,quality
+,,UBERON:0010514,strand of duvet hair,PATO:0000001,quality
+,,GO:0031430,M band,PATO:0000001,quality
+,,GO:0000795,synaptonemal complex,PATO:0000001,quality
+,,GO:0033501,galactose homeostasis,PATO:0000001,quality
+,,NBO:0000388,involuntary movement behavior,PATO:0000001,quality
+,,CL:0000806,DN2 thymocyte,PATO:0000001,quality
+,,UBERON:0002279,vestibular aqueduct,PATO:0000001,quality
+,,GO:0003094,glomerular filtration,PATO:0000001,quality
+,,UBERON:0000365,urothelium,PATO:0000001,quality
+,,NBO:0000174,motor learning,PATO:0000001,quality
+,,NBO:0000086,novelty response behavior,PATO:0000001,quality
+,,GO:0050955,thermoception,PATO:0000001,quality
+,,NBO:0000575,pilomotor reflex,PATO:0000001,quality
+,,GO:0008112,nicotinamide N-methyltransferase activity,PATO:0000001,quality
+,,NBO:0000180,short-term memory,PATO:0000001,quality
+,,GO:0070384,Harderian gland development,PATO:0000001,quality
+,,UBERON:0001946,inferior colliculus,PATO:0000001,quality
+,,GO:0050174,phenylalanine decarboxylase activity,PATO:0000001,quality
+,,GO:0060745,mammary gland branching involved in pregnancy,PATO:0000001,quality
+,,GO:0045453,bone resorption,PATO:0000001,quality
+,,GO:0060438,trachea development,PATO:0000001,quality
+,,GO:0001550,ovarian cumulus expansion,PATO:0000001,quality
+,,NBO:0000561,hetero-barbering,PATO:0000001,quality
+,,GO:0004607,phosphatidylcholine-sterol O-acyltransferase activity,PATO:0000001,quality
+,,NBO:0000024,sleeping behavior,PATO:0000001,quality
+,,GO:0072092,ureteric bud invasion,PATO:0000001,quality
+,,GO:0042438,melanin biosynthetic process,PATO:0000001,quality
+,,UBERON:0001992,papillary layer of dermis,PATO:0000001,quality
+,,GO:0004806,triglyceride lipase activity,PATO:0000001,quality
+,,GO:0060209,estrus,PATO:0000001,quality
+,,UBERON:0002448,fungiform papilla,PATO:0000001,quality
+,,NBO:0000538,circadian temperature homeostasis,PATO:0000001,quality
+,,GO:0001570,vasculogenesis,PATO:0000001,quality
+,,UBERON:0002310,hippocampus fimbria,PATO:0000001,quality
+,,GO:0032808,lacrimal gland development,PATO:0000001,quality
+,,UBERON:0006606,mandibular symphysis,PATO:0000001,quality
+,,GO:0001917,photoreceptor inner segment,PATO:0000001,quality
+,,NBO:0000391,startle reflex,PATO:0000001,quality
+,,NBO:0000073,chewing,PATO:0000001,quality
+,,GO:0060677,ureteric bud elongation,PATO:0000001,quality
+,,UBERON:0002467,filiform papilla,PATO:0000001,quality
+,,CL:0000120,granule cell,PATO:0000001,quality
+,,NBO:0000155,offspring retrieval,PATO:0000001,quality
+,,NBO:0000445,tail movement,PATO:0000001,quality
+,,GO:0060055,angiogenesis involved in wound healing,PATO:0000001,quality
+,,GO:0003990,acetylcholinesterase activity,PATO:0000001,quality
+,,UBERON:0001305,ovarian follicle,PATO:0000001,quality
+,,NBO:0000148,social investigation,PATO:0000001,quality
+,,UBERON:0001783,optic disc,PATO:0000001,quality
+,,UBERON:0002303,juxtaglomerular apparatus,PATO:0000001,quality
+,,GO:0007605,sensory perception of sound,PATO:0000001,quality
+,,UBERON:0002076,cuticle of hair,PATO:0000001,quality
+,,NBO:0000553,short term object recognition memory,PATO:0000001,quality
+,,UBERON:0010512,strand of guard hair,PATO:0000001,quality
+,,NBO:0000099,response to novel odor,PATO:0000001,quality
+,,GO:0060197,cloacal septation,PATO:0000001,quality
+,,NBO:0000091,fear-related behavior,PATO:0000001,quality
+,,NBO:0000332,touch related behavior,PATO:0000001,quality
+,,GO:0030916,otic vesicle formation,PATO:0000001,quality
+,,CHEBI:24867,monoatomic ion,PATO:0000070,amount
+,,PR:000009054,insulin,PATO:0000070,amount
+,,PR:000003809,alpha-fetoprotein,PATO:0000070,amount
+,,CHEBI:28694,copper,PATO:0000070,amount
+,,CHEBI:25500,neopterins,PATO:0000070,amount
+,,CHEBI:22881,biopterins,PATO:0000070,amount
+,,CHEBI:24875,iron cation,PATO:0000070,amount
+,,CHEBI:51143,nitrogen molecular entity,PATO:0000070,amount
+,,CHEBI:29103,potassium(1+),PATO:0000070,amount
+,,CHEBI:29101,sodium(1+),PATO:0000070,amount
+,,CHEBI:36477,sulfoglycosphingolipid,PATO:0000070,amount
+,,CHEBI:17761,ceramide,PATO:0000070,amount
+,,PR:000013246,prolactin,PATO:0000070,amount
+,,CHEBI:3165,bradykinin,PATO:0000070,amount
+,,CHEBI:26271,proline,PATO:0000070,amount
+,,CHEBI:33234,Vitamin E,PATO:0000070,amount
+,,PR:000015665,somatostatin,PATO:0000070,amount
+,,CHEBI:16526,carbon dioxide,PATO:0000070,amount
+,,CHEBI:33568,adrenaline,PATO:0000070,amount
+,,CHEBI:17996,chloride,PATO:0000070,amount
+,,CHEBI:18258,"3,3',5-triiodo-L-thyronine",PATO:0000070,amount
+,,CHEBI:64611,ether lipid,PATO:0000070,amount
+,,CHEBI:15373,biopterin,PATO:0000070,amount
+,,CHEBI:26333,prostaglandin,PATO:0000070,amount
+,,CHEBI:17347,Testosterone,PATO:0000070,amount
+,,CHEBI:26739,sphingolipid,PATO:0000070,amount
+,,CHEBI:17754,Glycerin,PATO:0000070,amount
+,,PR:000003777,adiponectin,PATO:0000070,amount
+,,CHEBI:27300,vitamin D,PATO:0000070,amount
+,,PR:000009182,insulin-like growth factor I,PATO:0000070,amount
+,,CHEBI:16393,sphingosine,PATO:0000070,amount
+,,CHEBI:18085,glycosaminoglycan,PATO:0000070,amount
+,,CHEBI:60311,thyroid hormone,PATO:0000070,amount
+,,CHEBI:15889,sterol,PATO:0000070,amount
+,,CHEBI:36526,acidic glycosphingolipid,PATO:0000070,amount
+,,CHEBI:29073,L-ascorbic acid,PATO:0000070,amount
+,,CHEBI:24020,fat-soluble vitamin,PATO:0000070,amount
+,,CHEBI:28790,serotonin,PATO:0000070,amount
+,,PR:000000046,TGF-beta,PATO:0000070,amount
+,,CL:0000681,radial glial cell,PATO:0000070,amount
+,,CHEBI:25029,leukotriene,PATO:0000070,amount
+,,CHEBI:25805,Oxygen,PATO:0000070,amount
+,,CHEBI:33229,vitamin,PATO:0000070,amount
+,,CHEBI:81567,Thyroid stimulating hormone,PATO:0000070,amount
+,,CHEBI:33567,catecholamine,PATO:0000070,amount
+,,CHEBI:33569,noradrenaline,PATO:0000070,amount
+,,CHEBI:26948,Thiamine,PATO:0000070,amount
+,,CHEBI:24402,glycosphingolipid,PATO:0000070,amount
+,,CHEBI:3892,corticotropin,PATO:0000070,amount
+,,CHEBI:39015,apolipoprotein,PATO:0000070,amount
+,,CHEBI:27584,aldosterone,PATO:0000070,amount
+,,CHEBI:26995,thromboxane,PATO:0000070,amount
+,,CHEBI:81569,Follicle stimulating hormone,PATO:0000070,amount
+,,CHEBI:25512,neurotransmitter,PATO:0000070,amount
+,,CHEBI:17026,Progesterone,PATO:0000070,amount
+,,CHEBI:50211,retinol,PATO:0000070,amount
+,,CHEBI:12777,vitamin A,PATO:0000070,amount
+,,CHEBI:61384,sulfolipid,PATO:0000070,amount
+,,CHEBI:22868,bile salt,PATO:0000070,amount
+,,CHEBI:16827,corticosterone,PATO:0000070,amount
+,,PR:000007141,erythropoietin,PATO:0000070,amount
+,,CHEBI:33709,amino acid,PATO:0000070,amount
+,,PR:000025853,primate-type serum amyloid A-2 protein,PATO:0000070,amount
+,,CHEBI:5254,galactolipid,PATO:0000070,amount
+,,CHEBI:37845,growth hormone,PATO:0000070,amount
+,,CHEBI:16919,creatine,PATO:0000070,amount
+,,PR:000007785,glutamate decarboxylase 1,PATO:0000070,amount
+,,CHEBI:16856,glutathione,PATO:0000070,amount
+,,CHEBI:26125,phytosterols,PATO:0000070,amount
+,,CHEBI:81568,Luteinizing hormone,PATO:0000070,amount
+,,CHEBI:30660,thyroxine,PATO:0000070,amount
+,,CHEBI:16247,phospholipid,PATO:0000070,amount
+,,CHEBI:28670,neopterin,PATO:0000070,amount
+,,PR:000000134,tumor necrosis factor alpha,PATO:0000070,amount
+,,CHEBI:64583,sphingomyelin,PATO:0000070,amount
+,,CHEBI:27470,folic acid,PATO:0000070,amount
+,,CHEBI:36080,protein,PATO:0000070,amount
+,,CHEBI:6495,lipoprotein,PATO:0000070,amount
+,,UBERON:0000468,multicellular organism,PATO:0000125,mass
+,,UBERON:0000996,vagina,PATO:0000125,mass
+,,UBERON:0000948,heart,PATO:0000125,mass
+,,UBERON:0010414,omental fat pad,PATO:0000125,mass
+,,UBERON:0000323,late embryo,PATO:0000125,mass
+,,UBERON:0001386,extensor digitorum longus,PATO:0000125,mass
+,,UBERON:0002048,lung,PATO:0000125,mass
+,,UBERON:0002113,kidney,PATO:0000125,mass
+,,UBERON:0002078,right cardiac atrium,PATO:0000125,mass
+,,UBERON:0001389,soleus muscle,PATO:0000125,mass
+,,UBERON:0000992,female gonad,PATO:0000125,mass
+,,UBERON:0000955,brain,PATO:0000125,mass
+,,UBERON:0003916,fat pad,PATO:0000125,mass
+,,UBERON:0001987,placenta,PATO:0000125,mass
+,,UBERON:0002106,spleen,PATO:0000125,mass
+,,UBERON:0000922,embryo,PATO:0000125,mass
+,,UBERON:0001388,gastrocnemius,PATO:0000125,mass
+,,UBERON:0002080,heart right ventricle,PATO:0000125,mass
+,,UBERON:0003427,abdominal fat pad,PATO:0000125,mass
+,,UBERON:0001377,quadriceps femoris,PATO:0000125,mass
+,,UBERON:0001255,urinary bladder,PATO:0000125,mass
+,,UBERON:0002107,liver,PATO:0000125,mass
+,,UBERON:0002370,thymus,PATO:0000125,mass
+,,UBERON:0002079,left cardiac atrium,PATO:0000125,mass
+,,UBERON:0001723,tongue,PATO:0000125,mass
+,,UBERON:0003889,fallopian tube,PATO:0000125,mass
+,,UBERON:0002084,heart left ventricle,PATO:0000125,mass
+,,UBERON:0002095,mesentery,PATO:0000051,morphology
+,,UBERON:0035639,ocular adnexa,PATO:0000051,morphology
+,,UBERON:0014796,common tendinous ring,PATO:0000051,morphology
+,,UBERON:0001191,common iliac artery,PATO:0000051,morphology
+,,UBERON:0004545,external capsule of telencephalon,PATO:0000051,morphology
+,,UBERON:0000924,ectoderm,PATO:0000051,morphology
+,,UBERON:0006265,mural trophectoderm,PATO:0000051,morphology
+,,UBERON:0001998,sternocostal joint,PATO:0000051,morphology
+,,UBERON:0006278,pleuropericardial folds,PATO:0000051,morphology
+,,UBERON:0001049,neural tube,PATO:0000051,morphology
+,,UBERON:0001778,ciliary epithelium,PATO:0000051,morphology
+,,UBERON:0012292,embryonic cloacal fold,PATO:0000051,morphology
+,,UBERON:0035076,parotid gland myoepithelium,PATO:0000051,morphology
+,,GO:0060076,excitatory synapse,PATO:0000051,morphology
+,,UBERON:0006280,polar trophectoderm,PATO:0000051,morphology
+,,UBERON:0000923,germ layer,PATO:0000051,morphology
+,,UBERON:0000926,mesoderm,PATO:0000051,morphology
+,,UBERON:0014849,hemotrichorial placental membrane,PATO:0000051,morphology
+,,GO:0031091,platelet alpha granule,PATO:0000051,morphology
+,,UBERON:0005728,extraembryonic mesoderm,PATO:0000051,morphology
+,,GO:0005623,cell,PATO:0000051,morphology
+,,CL:0002060,melanophage,PATO:0000051,morphology
+,,UBERON:0011967,costotransverse joint,PATO:0000051,morphology
+,,MPATH:218,neoplasm,PATO:0000051,morphology
+,,GO:0032280,symmetric synapse,PATO:0000051,morphology
+,,UBERON:0018239,rhombomere boundary,PATO:0000051,morphology
+,,GO:0032279,asymmetric synapse,PATO:0000051,morphology
+,,GO:0097470,ribbon synapse,PATO:0000051,morphology
+,,UBERON:0002068,urachus,PATO:0000051,morphology
+,,UBERON:0000925,endoderm,PATO:0000051,morphology
+,,UBERON:0003856,odontogenic mesenchyme,PATO:0000051,morphology
+,,UBERON:0000922,embryo,PATO:0000051,morphology
+,,UBERON:0005078,lamina terminalis of neural tube,PATO:0000051,morphology
+,,CL:0001070,beige adipocyte,PATO:0000051,morphology
+,,GO:0060077,inhibitory synapse,PATO:0000051,morphology
+,,UBERON:0002001,joint of rib,PATO:0000051,morphology
+,,UBERON:0000358,blastocyst,PATO:0000051,morphology
+,,UBERON:0002292,costovertebral joint,PATO:0000051,morphology
+,,UBERON:0003709,circle of Willis,PATO:0000051,morphology
