@@ -7,8 +7,8 @@ relations:
   inheres in part of: RO_0002314
     
 vars: 
-  attribute: "'Thing'"
   entity: "'Thing'"
+  attribute: "'Thing'"
 
 name:
   text: "%s %s"
