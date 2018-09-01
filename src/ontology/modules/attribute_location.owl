@@ -80,8 +80,10 @@ Declaration(ObjectProperty(:RO_0000052))
 Declaration(ObjectProperty(:RO_0002314))
 Declaration(AnnotationProperty(DOSDP:applies-pattern))
 Declaration(AnnotationProperty(:IAO_0000115))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/oba/patterns/entity_location/attribute>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/oba/patterns/entity_location/location>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/oba/patterns/attribute_location/attribute>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/oba/patterns/attribute_location/location>))
+Declaration(AnnotationProperty(oio:hasDbXref))
+Declaration(AnnotationProperty(oio:hasExactSynonym))
 Declaration(AnnotationProperty(oio:hasRelatedSynonym))
 
 
@@ -92,141 +94,164 @@ Declaration(AnnotationProperty(oio:hasRelatedSynonym))
 
 # Class: :OBA_0000036 (body fluid levels)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0000036 "The volume when measured in multicellular organism.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_0000036 "The volume when measured in multicellular organism.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_0000036 "multicellular organism volume")
 AnnotationAssertion(rdfs:label :OBA_0000036 "body fluid levels")
-EquivalentClasses(:OBA_0000036 ObjectIntersectionOf(:PATO_0000918 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0000468)))
+EquivalentClasses(:OBA_0000036 ObjectIntersectionOf(:PATO_0000918 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0000468)))
 
 # Class: :OBA_0000058 (cellular pH)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0000058 "The acidity when measured in cell.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_0000058 "The acidity when measured in cell.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_0000058 "cell acidity")
 AnnotationAssertion(rdfs:label :OBA_0000058 "cellular pH")
-EquivalentClasses(:OBA_0000058 ObjectIntersectionOf(:PATO_0001842 ObjectSomeValuesFrom(:RO_0002314 :GO_0005623)))
+EquivalentClasses(:OBA_0000058 ObjectIntersectionOf(:PATO_0001842 ObjectSomeValuesFrom(:RO_0000052 :GO_0005623)))
 
 # Class: :OBA_0000091 (lysosomal lumen pH)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0000091 "The acidity when measured in lysosomal lumen.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_0000091 "The acidity when measured in lysosomal lumen.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_0000091 "lysosomal lumen acidity")
 AnnotationAssertion(rdfs:label :OBA_0000091 "lysosomal lumen pH")
-EquivalentClasses(:OBA_0000091 ObjectIntersectionOf(:PATO_0001842 ObjectSomeValuesFrom(:RO_0002314 :GO_0043202)))
+EquivalentClasses(:OBA_0000091 ObjectIntersectionOf(:PATO_0001842 ObjectSomeValuesFrom(:RO_0000052 :GO_0043202)))
 
 # Class: :OBA_VT0000056 (urine trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0000056 "The quality when measured in urine.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT0000056 "The quality when measured in urine.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT0000056 "urine quality")
 AnnotationAssertion(rdfs:label :OBA_VT0000056 "urine trait")
-EquivalentClasses(:OBA_VT0000056 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0001088)))
+EquivalentClasses(:OBA_VT0000056 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0001088)))
 
 # Class: :OBA_VT0000069 (embryo trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0000069 "The quality when measured in embryo.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT0000069 "The quality when measured in embryo.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT0000069 "embryo quality")
 AnnotationAssertion(rdfs:label :OBA_VT0000069 "embryo trait")
-EquivalentClasses(:OBA_VT0000069 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0000922)))
+EquivalentClasses(:OBA_VT0000069 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0000922)))
 
 # Class: :OBA_VT0004271 (paw/hand/foot/hoof morphology trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0004271 "The morphology when measured in autopod region.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT0004271 "The morphology when measured in autopod region.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT0004271 "autopod region morphology")
 AnnotationAssertion(rdfs:label :OBA_VT0004271 "paw/hand/foot/hoof morphology trait")
-EquivalentClasses(:OBA_VT0004271 ObjectIntersectionOf(:PATO_0000051 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0002470)))
+EquivalentClasses(:OBA_VT0004271 ObjectIntersectionOf(:PATO_0000051 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0002470)))
 
 # Class: :OBA_VT0005369 (muscular system trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005369 "The quality when measured in musculature of body.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT0005369 "The quality when measured in musculature of body.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT0005369 "musculature of body quality")
 AnnotationAssertion(rdfs:label :OBA_VT0005369 "muscular system trait")
-EquivalentClasses(:OBA_VT0005369 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0000383)))
+EquivalentClasses(:OBA_VT0005369 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0000383)))
 
 # Class: :OBA_VT0005388 (respiratory system trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005388 "The quality when measured in respiratory system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT0005388 "The quality when measured in respiratory system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT0005388 "respiratory system quality")
 AnnotationAssertion(rdfs:label :OBA_VT0005388 "respiratory system trait")
-EquivalentClasses(:OBA_VT0005388 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0001004)))
+EquivalentClasses(:OBA_VT0005388 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0001004)))
 
 # Class: :OBA_VT0005389 (reproductive system trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005389 "The quality when measured in reproductive system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT0005389 "The quality when measured in reproductive system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT0005389 "reproductive system quality")
 AnnotationAssertion(rdfs:label :OBA_VT0005389 "reproductive system trait")
-EquivalentClasses(:OBA_VT0005389 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0000990)))
+EquivalentClasses(:OBA_VT0005389 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0000990)))
 
 # Class: :OBA_VT0005394 (olfactory system trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005394 "The quality when measured in olfactory system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT0005394 "The quality when measured in olfactory system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT0005394 "olfactory system quality")
 AnnotationAssertion(rdfs:label :OBA_VT0005394 "olfactory system trait")
-EquivalentClasses(:OBA_VT0005394 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0005725)))
+EquivalentClasses(:OBA_VT0005394 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0005725)))
 
 # Class: :OBA_VT0010248 (hemolymphoid system trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010248 "The quality when measured in hemolymphoid system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT0010248 "The quality when measured in hemolymphoid system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT0010248 "hemolymphoid system quality")
 AnnotationAssertion(rdfs:label :OBA_VT0010248 "hemolymphoid system trait")
-EquivalentClasses(:OBA_VT0010248 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0002193)))
+EquivalentClasses(:OBA_VT0010248 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0002193)))
 
 # Class: :OBA_VT0010256 (colostrum trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010256 "The quality when measured in colostrum.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT0010256 "The quality when measured in colostrum.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT0010256 "colostrum quality")
 AnnotationAssertion(rdfs:label :OBA_VT0010256 "colostrum trait")
-EquivalentClasses(:OBA_VT0010256 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0001914)))
+EquivalentClasses(:OBA_VT0010256 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0001914)))
 
 # Class: :OBA_VT0010454 (organism trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010454 "The quality when measured in multicellular organism.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT0010454 "The quality when measured in multicellular organism.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT0010454 "multicellular organism quality")
 AnnotationAssertion(rdfs:label :OBA_VT0010454 "organism trait")
-EquivalentClasses(:OBA_VT0010454 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0000468)))
+EquivalentClasses(:OBA_VT0010454 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0000468)))
 
 # Class: :OBA_VT0015060 (rump trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0015060 "The quality when measured in sacral region.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT0015060 "The quality when measured in sacral region.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT0015060 "sacral region quality")
 AnnotationAssertion(rdfs:label :OBA_VT0015060 "rump trait")
-EquivalentClasses(:OBA_VT0015060 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0005473)))
+EquivalentClasses(:OBA_VT0015060 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0005473)))
 
 # Class: :OBA_VT0015065 (gustatory system trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0015065 "The quality when measured in gustatory system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT0015065 "The quality when measured in gustatory system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT0015065 "gustatory system quality")
 AnnotationAssertion(rdfs:label :OBA_VT0015065 "gustatory system trait")
-EquivalentClasses(:OBA_VT0015065 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0001033)))
+EquivalentClasses(:OBA_VT0015065 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0001033)))
 
 # Class: :OBA_VT0015074 (organ system trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0015074 "The quality when measured in anatomical system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT0015074 "The quality when measured in anatomical system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT0015074 "anatomical system quality")
 AnnotationAssertion(rdfs:label :OBA_VT0015074 "organ system trait")
-EquivalentClasses(:OBA_VT0015074 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0000467)))
+EquivalentClasses(:OBA_VT0015074 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0000467)))
 
 # Class: :OBA_VT0015094 (equilibrioception system trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0015094 "The quality when measured in vestibular system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT0015094 "The quality when measured in vestibular system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT0015094 "vestibular system quality")
 AnnotationAssertion(rdfs:label :OBA_VT0015094 "equilibrioception system trait")
-EquivalentClasses(:OBA_VT0015094 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0004681)))
+EquivalentClasses(:OBA_VT0015094 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0004681)))
 
 # Class: :OBA_VT1000775 (integumentary system trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000775 "The quality when measured in integumental system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT1000775 "The quality when measured in integumental system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT1000775 "integumental system quality")
 AnnotationAssertion(rdfs:label :OBA_VT1000775 "integumentary system trait")
-EquivalentClasses(:OBA_VT1000775 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0002416)))
+EquivalentClasses(:OBA_VT1000775 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0002416)))
 
 # Class: :OBA_VT1000776 (alimentary system trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000776 "The quality when measured in digestive system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT1000776 "The quality when measured in digestive system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT1000776 "digestive system quality")
 AnnotationAssertion(rdfs:label :OBA_VT1000776 "alimentary system trait")
-EquivalentClasses(:OBA_VT1000776 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0001007)))
+EquivalentClasses(:OBA_VT1000776 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0001007)))
 
 # Class: :OBA_VT1000777 (urinary system trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000777 "The quality when measured in renal system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT1000777 "The quality when measured in renal system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT1000777 "renal system quality")
 AnnotationAssertion(rdfs:label :OBA_VT1000777 "urinary system trait")
-EquivalentClasses(:OBA_VT1000777 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0001008)))
+EquivalentClasses(:OBA_VT1000777 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0001008)))
 
 # Class: :OBA_VT1000781 (nervous/sensory system trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000781 "The quality when measured in nervous system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT1000781 "The quality when measured in nervous system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT1000781 "nervous system quality")
 AnnotationAssertion(rdfs:label :OBA_VT1000781 "nervous/sensory system trait")
-EquivalentClasses(:OBA_VT1000781 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0001016)))
+EquivalentClasses(:OBA_VT1000781 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0001016)))
 
 # Class: :OBA_VT1000783 (immune system trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000783 "The quality when measured in immune system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT1000783 "The quality when measured in immune system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT1000783 "immune system quality")
 AnnotationAssertion(rdfs:label :OBA_VT1000783 "immune system trait")
-EquivalentClasses(:OBA_VT1000783 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0002405)))
+EquivalentClasses(:OBA_VT1000783 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0002405)))
 
 # Class: :OBA_VT1000784 (circulatory system trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000784 "The quality when measured in circulatory system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") :IAO_0000115 :OBA_VT1000784 "The quality when measured in circulatory system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/attribute_location") oio:hasExactSynonym :OBA_VT1000784 "circulatory system quality")
 AnnotationAssertion(rdfs:label :OBA_VT1000784 "circulatory system trait")
-EquivalentClasses(:OBA_VT1000784 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0002314 :UBERON_0001009)))
+EquivalentClasses(:OBA_VT1000784 ObjectIntersectionOf(:PATO_0000001 ObjectSomeValuesFrom(:RO_0000052 :UBERON_0001009)))
 
 
 )

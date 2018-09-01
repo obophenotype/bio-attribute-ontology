@@ -356,6 +356,7 @@ Declaration(AnnotationProperty(:IAO_0000115))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/oba/patterns/entity_attribute/attribute>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/oba/patterns/entity_attribute/entity>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/oba/patterns/entity_attribute/location>))
+Declaration(AnnotationProperty(oio:hasDbXref))
 Declaration(AnnotationProperty(oio:hasExactSynonym))
 Declaration(AnnotationProperty(oio:hasRelatedSynonym))
 
@@ -367,1170 +368,1170 @@ Declaration(AnnotationProperty(oio:hasRelatedSynonym))
 
 # Class: :OBA_0000003 (ER calcium ion concentration)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0000003 "The concentration of of a calcium ion when measured in endoplasmic reticulum.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_0000003 "endoplasmic reticulum calcium ion concentration of")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_0000003 "The concentration of of a calcium ion when measured in endoplasmic reticulum.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_0000003 "endoplasmic reticulum calcium ion concentration of")
 AnnotationAssertion(rdfs:label :OBA_0000003 "ER calcium ion concentration")
 EquivalentClasses(:OBA_0000003 ObjectIntersectionOf(:PATO_0000033 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_39124 ObjectSomeValuesFrom(:BFO_0000050 :GO_0005783)))))
 
 # Class: :OBA_0000005 (Golgi calcium ion concentration)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0000005 "The concentration of of a calcium ion when measured in Golgi apparatus.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_0000005 "Golgi apparatus calcium ion concentration of")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_0000005 "The concentration of of a calcium ion when measured in Golgi apparatus.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_0000005 "Golgi apparatus calcium ion concentration of")
 AnnotationAssertion(rdfs:label :OBA_0000005 "Golgi calcium ion concentration")
 EquivalentClasses(:OBA_0000005 ObjectIntersectionOf(:PATO_0000033 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_39124 ObjectSomeValuesFrom(:BFO_0000050 :GO_0005794)))))
 
 # Class: :OBA_0000016 (angiotensin levels in blood)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0000016 "The amount of a angiotensin II when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_0000016 "blood angiotensin II amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_0000016 "The amount of a angiotensin II when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_0000016 "blood angiotensin II amount")
 AnnotationAssertion(rdfs:label :OBA_0000016 "angiotensin levels in blood")
 EquivalentClasses(:OBA_0000016 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000036009 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_0000090 (lung blood pressure)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0000090 "The pressure of a blood when measured in lung.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_0000090 "lung blood pressure")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_0000090 "The pressure of a blood when measured in lung.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_0000090 "lung blood pressure")
 AnnotationAssertion(rdfs:label :OBA_0000090 "lung blood pressure")
 EquivalentClasses(:OBA_0000090 ObjectIntersectionOf(:PATO_0001025 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:UBERON_0000178 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0002048)))))
 
 # Class: :OBA_0000098 (membrane lipid distribution)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0000098 "The spatial pattern of a lipid when measured in membrane.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_0000098 "membrane lipid spatial pattern")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_0000098 "The spatial pattern of a lipid when measured in membrane.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_0000098 "membrane lipid spatial pattern")
 AnnotationAssertion(rdfs:label :OBA_0000098 "membrane lipid distribution")
 EquivalentClasses(:OBA_0000098 ObjectIntersectionOf(:PATO_0000060 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_18059 ObjectSomeValuesFrom(:BFO_0000050 :GO_0016020)))))
 
 # Class: :OBA_0000103 (mitochondrial mRNA stability)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0000103 "The macromolecular stability of a mRNA when measured in mitochondrion.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_0000103 "mitochondrion mRNA macromolecular stability")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_0000103 "The macromolecular stability of a mRNA when measured in mitochondrion.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_0000103 "mitochondrion mRNA macromolecular stability")
 AnnotationAssertion(rdfs:label :OBA_0000103 "mitochondrial mRNA stability")
 EquivalentClasses(:OBA_0000103 ObjectIntersectionOf(:OBA_0001001 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:SO_0000234 ObjectSomeValuesFrom(:BFO_0000050 :GO_0005739)))))
 
 # Class: :OBA_0000106 (mitochondrial rRNA stability)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0000106 "The macromolecular stability of a rRNA when measured in mitochondrion.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_0000106 "mitochondrion rRNA macromolecular stability")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_0000106 "The macromolecular stability of a rRNA when measured in mitochondrion.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_0000106 "mitochondrion rRNA macromolecular stability")
 AnnotationAssertion(rdfs:label :OBA_0000106 "mitochondrial rRNA stability")
 EquivalentClasses(:OBA_0000106 ObjectIntersectionOf(:OBA_0001001 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:SO_0000252 ObjectSomeValuesFrom(:BFO_0000050 :GO_0005739)))))
 
 # Class: :OBA_0000123 (plasma membrane sterol distribution)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0000123 "The spatial pattern of a sterol when measured in plasma membrane.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_0000123 "plasma membrane sterol spatial pattern")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_0000123 "The spatial pattern of a sterol when measured in plasma membrane.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_0000123 "plasma membrane sterol spatial pattern")
 AnnotationAssertion(rdfs:label :OBA_0000123 "plasma membrane sterol distribution")
 EquivalentClasses(:OBA_0000123 ObjectIntersectionOf(:PATO_0000060 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_15889 ObjectSomeValuesFrom(:BFO_0000050 :GO_0005886)))))
 
 # Class: :OBA_0000143 (systemic arterial blood pressure)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0000143 "The pressure of a blood when measured in systemic artery.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_0000143 "systemic artery blood pressure")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_0000143 "The pressure of a blood when measured in systemic artery.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_0000143 "systemic artery blood pressure")
 AnnotationAssertion(rdfs:label :OBA_0000143 "systemic arterial blood pressure")
 EquivalentClasses(:OBA_0000143 ObjectIntersectionOf(:PATO_0001025 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:UBERON_0000178 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0004573)))))
 
 # Class: :OBA_0006038 (concentration of of calcium ion in cytosol)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0006038 "The concentration of of a calcium ion when measured in cytosol.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_0006038 "cytosol calcium ion concentration of")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_0006038 "The concentration of of a calcium ion when measured in cytosol.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_0006038 "cytosol calcium ion concentration of")
 AnnotationAssertion(rdfs:label :OBA_0006038 "concentration of of calcium ion in cytosol")
 EquivalentClasses(:OBA_0006038 ObjectIntersectionOf(:PATO_0000033 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_39124 ObjectSomeValuesFrom(:BFO_0000050 :GO_0005829)))))
 
 # Class: :OBA_0006039 (concentration of of calcium ion in postsynaptic cytosol)
 
-AnnotationAssertion(:IAO_0000115 :OBA_0006039 "The concentration of of a calcium ion when measured in postsynaptic cytosol.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_0006039 "postsynaptic cytosol calcium ion concentration of")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_0006039 "The concentration of of a calcium ion when measured in postsynaptic cytosol.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_0006039 "postsynaptic cytosol calcium ion concentration of")
 AnnotationAssertion(rdfs:label :OBA_0006039 "concentration of of calcium ion in postsynaptic cytosol")
 EquivalentClasses(:OBA_0006039 ObjectIntersectionOf(:PATO_0000033 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_39124 ObjectSomeValuesFrom(:BFO_0000050 :GO_0099524)))))
 
 # Class: :OBA_VT0000068 (blood mineral amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0000068 "The amount of a mineral when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0000068 "blood mineral amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0000068 "The amount of a mineral when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0000068 "blood mineral amount")
 AnnotationAssertion(rdfs:label :OBA_VT0000068 "blood mineral amount")
 EquivalentClasses(:OBA_VT0000068 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_46662 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0000180 (blood cholesterol amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0000180 "The amount of a cholesterol when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0000180 "blood cholesterol amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0000180 "The amount of a cholesterol when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0000180 "blood cholesterol amount")
 AnnotationAssertion(rdfs:label :OBA_VT0000180 "blood cholesterol amount")
 EquivalentClasses(:OBA_VT0000180 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16113 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0000181 (blood LDL cholesterol amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0000181 "The amount of a low-density lipoprotein cholesterol when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0000181 "blood low-density lipoprotein cholesterol amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0000181 "The amount of a low-density lipoprotein cholesterol when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0000181 "blood low-density lipoprotein cholesterol amount")
 AnnotationAssertion(rdfs:label :OBA_VT0000181 "blood LDL cholesterol amount")
 EquivalentClasses(:OBA_VT0000181 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_47774 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0000184 (blood HDL cholesterol amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0000184 "The amount of a high-density lipoprotein cholesterol when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0000184 "blood high-density lipoprotein cholesterol amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0000184 "The amount of a high-density lipoprotein cholesterol when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0000184 "blood high-density lipoprotein cholesterol amount")
 AnnotationAssertion(rdfs:label :OBA_VT0000184 "blood HDL cholesterol amount")
 EquivalentClasses(:OBA_VT0000184 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_47775 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0000188 (blood glucose amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0000188 "The amount of a glucose when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0000188 "blood glucose amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0000188 "The amount of a glucose when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0000188 "blood glucose amount")
 AnnotationAssertion(rdfs:label :OBA_VT0000188 "blood glucose amount")
 EquivalentClasses(:OBA_VT0000188 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17234 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0000202 (blood alkaline phosphatase amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0000202 "The amount of a alkaline phosphatase when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0000202 "blood alkaline phosphatase amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0000202 "The amount of a alkaline phosphatase when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0000202 "blood alkaline phosphatase amount")
 AnnotationAssertion(rdfs:label :OBA_VT0000202 "blood alkaline phosphatase amount")
 EquivalentClasses(:OBA_VT0000202 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000023540 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0000315 (urine hemoglobin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0000315 "The amount of a hemoglobin when measured in urine.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0000315 "urine hemoglobin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0000315 "The amount of a hemoglobin when measured in urine.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0000315 "urine hemoglobin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0000315 "urine hemoglobin amount")
 EquivalentClasses(:OBA_VT0000315 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_35143 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001088)))))
 
 # Class: :OBA_VT0000716 (immune system cell morphology trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0000716 "The morphology of a cell when measured in immune system.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0000716 "immune system cell morphology")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0000716 "The morphology of a cell when measured in immune system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0000716 "immune system cell morphology")
 AnnotationAssertion(rdfs:label :OBA_VT0000716 "immune system cell morphology trait")
 EquivalentClasses(:OBA_VT0000716 ObjectIntersectionOf(:PATO_0000051 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CL_0000000 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0002405)))))
 
 # Class: :OBA_VT0001105 (peripheral nervous system glial cell morphology trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0001105 "The morphology of a glial cell when measured in peripheral nervous system.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0001105 "peripheral nervous system glial cell morphology")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0001105 "The morphology of a glial cell when measured in peripheral nervous system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0001105 "peripheral nervous system glial cell morphology")
 AnnotationAssertion(rdfs:label :OBA_VT0001105 "peripheral nervous system glial cell morphology trait")
 EquivalentClasses(:OBA_VT0001105 ObjectIntersectionOf(:PATO_0000051 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CL_0000125 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000010)))))
 
 # Class: :OBA_VT0001560 (blood insulin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0001560 "The amount of a insulin (human) when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0001560 "blood insulin (human) amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0001560 "The amount of a insulin (human) when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0001560 "blood insulin (human) amount")
 AnnotationAssertion(rdfs:label :OBA_VT0001560 "blood insulin amount")
 EquivalentClasses(:OBA_VT0001560 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_5931 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0001562 (blood calcium amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0001562 "The amount of a calcium atom when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0001562 "blood calcium atom amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0001562 "The amount of a calcium atom when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0001562 "blood calcium atom amount")
 AnnotationAssertion(rdfs:label :OBA_VT0001562 "blood calcium amount")
 EquivalentClasses(:OBA_VT0001562 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_22984 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0001565 (blood phosphate amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0001565 "The amount of a phosphate when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0001565 "blood phosphate amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0001565 "The amount of a phosphate when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0001565 "blood phosphate amount")
 AnnotationAssertion(rdfs:label :OBA_VT0001565 "blood phosphate amount")
 EquivalentClasses(:OBA_VT0001565 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_26020 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0001569 (blood bilirubin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0001569 "The amount of a bilirubin when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0001569 "blood bilirubin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0001569 "The amount of a bilirubin when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0001569 "blood bilirubin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0001569 "blood bilirubin amount")
 EquivalentClasses(:OBA_VT0001569 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16990 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0001754 (blood corticotropin-releasing hormone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0001754 "The amount of a corticotropin-releasing hormone when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0001754 "blood corticotropin-releasing hormone amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0001754 "The amount of a corticotropin-releasing hormone when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0001754 "blood corticotropin-releasing hormone amount")
 AnnotationAssertion(rdfs:label :OBA_VT0001754 "blood corticotropin-releasing hormone amount")
 EquivalentClasses(:OBA_VT0001754 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_65311 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0001758 (urine glucose amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0001758 "The amount of a glucose when measured in urine.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0001758 "urine glucose amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0001758 "The amount of a glucose when measured in urine.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0001758 "urine glucose amount")
 AnnotationAssertion(rdfs:label :OBA_VT0001758 "urine glucose amount")
 EquivalentClasses(:OBA_VT0001758 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17234 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001088)))))
 
 # Class: :OBA_VT0001771 (blood magnesium amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0001771 "The amount of a magnesium atom when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0001771 "blood magnesium atom amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0001771 "The amount of a magnesium atom when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0001771 "blood magnesium atom amount")
 AnnotationAssertion(rdfs:label :OBA_VT0001771 "blood magnesium amount")
 EquivalentClasses(:OBA_VT0001771 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_25107 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0001776 (blood sodium amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0001776 "The amount of a sodium atom when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0001776 "blood sodium atom amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0001776 "The amount of a sodium atom when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0001776 "blood sodium atom amount")
 AnnotationAssertion(rdfs:label :OBA_VT0001776 "blood sodium amount")
 EquivalentClasses(:OBA_VT0001776 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_26708 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0002181 (brain cell morphology trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0002181 "The morphology of a cell when measured in brain.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0002181 "brain cell morphology")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0002181 "The morphology of a cell when measured in brain.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0002181 "brain cell morphology")
 AnnotationAssertion(rdfs:label :OBA_VT0002181 "brain cell morphology trait")
 EquivalentClasses(:OBA_VT0002181 ObjectIntersectionOf(:PATO_0000051 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:GO_0005623 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000955)))))
 
 # Class: :OBA_VT0002455 (dendritic cell antigen presentation trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0002455 "The dendritic of a antigen processing and presentation when measured in cell.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0002455 "cell antigen processing and presentation dendritic")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0002455 "The dendritic of a antigen processing and presentation when measured in cell.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0002455 "cell antigen processing and presentation dendritic")
 AnnotationAssertion(rdfs:label :OBA_VT0002455 "dendritic cell antigen presentation trait")
 EquivalentClasses(:OBA_VT0002455 ObjectIntersectionOf(:PATO_0002045 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:GO_0019882 ObjectSomeValuesFrom(:BFO_0000050 :GO_0005623)))))
 
 # Class: :OBA_VT0002644 (blood triglyceride amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0002644 "The amount of a triglyceride when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0002644 "blood triglyceride amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0002644 "The amount of a triglyceride when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0002644 "blood triglyceride amount")
 AnnotationAssertion(rdfs:label :OBA_VT0002644 "blood triglyceride amount")
 EquivalentClasses(:OBA_VT0002644 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17855 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0002664 (blood adrenocorticotropin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0002664 "The amount of a corticotropin when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0002664 "blood corticotropin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0002664 "The amount of a corticotropin when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0002664 "blood corticotropin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0002664 "blood adrenocorticotropin amount")
 EquivalentClasses(:OBA_VT0002664 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_3892 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0002668 (blood potassium amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0002668 "The amount of a potassium atom when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0002668 "blood potassium atom amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0002668 "The amount of a potassium atom when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0002668 "blood potassium atom amount")
 AnnotationAssertion(rdfs:label :OBA_VT0002668 "blood potassium amount")
 EquivalentClasses(:OBA_VT0002668 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_26216 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0002695 (blood glucagon amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0002695 "The amount of a glucagon when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0002695 "blood glucagon amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0002695 "The amount of a glucagon when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0002695 "blood glucagon amount")
 AnnotationAssertion(rdfs:label :OBA_VT0002695 "blood glucagon amount")
 EquivalentClasses(:OBA_VT0002695 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_5391 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0002851 (blood sulfate amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0002851 "The amount of a sulfate when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0002851 "blood sulfate amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0002851 "The amount of a sulfate when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0002851 "blood sulfate amount")
 AnnotationAssertion(rdfs:label :OBA_VT0002851 "blood sulfate amount")
 EquivalentClasses(:OBA_VT0002851 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16189 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0002900 (urine phosphate amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0002900 "The amount of a phosphate when measured in urine.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0002900 "urine phosphate amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0002900 "The amount of a phosphate when measured in urine.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0002900 "urine phosphate amount")
 AnnotationAssertion(rdfs:label :OBA_VT0002900 "urine phosphate amount")
 EquivalentClasses(:OBA_VT0002900 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_26020 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001088)))))
 
 # Class: :OBA_VT0002903 (blood parathyroid hormone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0002903 "The amount of a parathyroid hormone when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0002903 "blood parathyroid hormone amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0002903 "The amount of a parathyroid hormone when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0002903 "blood parathyroid hormone amount")
 AnnotationAssertion(rdfs:label :OBA_VT0002903 "blood parathyroid hormone amount")
 EquivalentClasses(:OBA_VT0002903 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000013429 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0002985 (urine calcium amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0002985 "The amount of a calcium atom when measured in urine.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0002985 "urine calcium atom amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0002985 "The amount of a calcium atom when measured in urine.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0002985 "urine calcium atom amount")
 AnnotationAssertion(rdfs:label :OBA_VT0002985 "urine calcium amount")
 EquivalentClasses(:OBA_VT0002985 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_22984 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001088)))))
 
 # Class: :OBA_VT0003015 (blood bicarbonate amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0003015 "The amount of a hydrogencarbonate when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0003015 "blood hydrogencarbonate amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0003015 "The amount of a hydrogencarbonate when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0003015 "blood hydrogencarbonate amount")
 AnnotationAssertion(rdfs:label :OBA_VT0003015 "blood bicarbonate amount")
 EquivalentClasses(:OBA_VT0003015 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17544 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0003018 (blood chloride amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0003018 "The amount of a chloride when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0003018 "blood chloride amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0003018 "The amount of a chloride when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0003018 "blood chloride amount")
 AnnotationAssertion(rdfs:label :OBA_VT0003018 "blood chloride amount")
 EquivalentClasses(:OBA_VT0003018 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17996 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0003311 (urine amino acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0003311 "The amount of a amino acid when measured in urine.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0003311 "urine amino acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0003311 "The amount of a amino acid when measured in urine.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0003311 "urine amino acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0003311 "urine amino acid amount")
 EquivalentClasses(:OBA_VT0003311 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_33709 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001088)))))
 
 # Class: :OBA_VT0003349 (blood renin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0003349 "The amount of a renin when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0003349 "blood renin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0003349 "The amount of a renin when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0003349 "blood renin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0003349 "blood renin amount")
 EquivalentClasses(:OBA_VT0003349 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000013883 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0003351 (blood thyroid hormone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0003351 "The amount of a thyroid hormone when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0003351 "blood thyroid hormone amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0003351 "The amount of a thyroid hormone when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0003351 "blood thyroid hormone amount")
 AnnotationAssertion(rdfs:label :OBA_VT0003351 "blood thyroid hormone amount")
 EquivalentClasses(:OBA_VT0003351 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_60311 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0003366 (blood glucocorticoid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0003366 "The amount of a glucocorticoid when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0003366 "blood glucocorticoid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0003366 "The amount of a glucocorticoid when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0003366 "blood glucocorticoid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0003366 "blood glucocorticoid amount")
 EquivalentClasses(:OBA_VT0003366 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_24261 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0003369 (blood estrogen amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0003369 "The amount of a estrogen when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0003369 "blood estrogen amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0003369 "The amount of a estrogen when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0003369 "blood estrogen amount")
 AnnotationAssertion(rdfs:label :OBA_VT0003369 "blood estrogen amount")
 EquivalentClasses(:OBA_VT0003369 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_50114 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0003442 (blood glycerol amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0003442 "The amount of a glycerol when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0003442 "blood glycerol amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0003442 "The amount of a glycerol when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0003442 "blood glycerol amount")
 AnnotationAssertion(rdfs:label :OBA_VT0003442 "blood glycerol amount")
 EquivalentClasses(:OBA_VT0003442 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17754 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0003508 (blood dihydrotestosterone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0003508 "The amount of a 17beta-hydroxy-5alpha-androstan-3-one when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0003508 "blood 17beta-hydroxy-5alpha-androstan-3-one amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0003508 "The amount of a 17beta-hydroxy-5alpha-androstan-3-one when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0003508 "blood 17beta-hydroxy-5alpha-androstan-3-one amount")
 AnnotationAssertion(rdfs:label :OBA_VT0003508 "blood dihydrotestosterone amount")
 EquivalentClasses(:OBA_VT0003508 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16330 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0003853 (skin water amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0003853 "The amount of a water when measured in zone of skin.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0003853 "zone of skin water amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0003853 "The amount of a water when measured in zone of skin.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0003853 "zone of skin water amount")
 AnnotationAssertion(rdfs:label :OBA_VT0003853 "skin water amount")
 EquivalentClasses(:OBA_VT0003853 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_15377 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000014)))))
 
 # Class: :OBA_VT0003949 (blood lipid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0003949 "The amount of a lipid when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0003949 "blood lipid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0003949 "The amount of a lipid when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0003949 "blood lipid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0003949 "blood lipid amount")
 EquivalentClasses(:OBA_VT0003949 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_18059 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0003977 (blood carnitine amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0003977 "The amount of a carnitine when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0003977 "blood carnitine amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0003977 "The amount of a carnitine when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0003977 "blood carnitine amount")
 AnnotationAssertion(rdfs:label :OBA_VT0003977 "blood carnitine amount")
 EquivalentClasses(:OBA_VT0003977 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17126 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0004101 (brain interneuron morphology trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0004101 "The morphology of a interneuron when measured in brain.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0004101 "brain interneuron morphology")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0004101 "The morphology of a interneuron when measured in brain.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0004101 "brain interneuron morphology")
 AnnotationAssertion(rdfs:label :OBA_VT0004101 "brain interneuron morphology trait")
 EquivalentClasses(:OBA_VT0004101 ObjectIntersectionOf(:PATO_0000051 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CL_0000099 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000955)))))
 
 # Class: :OBA_VT0004152 (blood iron amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0004152 "The amount of a iron atom when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0004152 "blood iron atom amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0004152 "The amount of a iron atom when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0004152 "blood iron atom amount")
 AnnotationAssertion(rdfs:label :OBA_VT0004152 "blood iron amount")
 EquivalentClasses(:OBA_VT0004152 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_18248 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0004368 (stria vascularis blood vessel morphology trait)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0004368 "The morphology of a blood vessel when measured in stria vascularis of cochlear duct.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0004368 "stria vascularis of cochlear duct blood vessel morphology")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0004368 "The morphology of a blood vessel when measured in stria vascularis of cochlear duct.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0004368 "stria vascularis of cochlear duct blood vessel morphology")
 AnnotationAssertion(rdfs:label :OBA_VT0004368 "stria vascularis blood vessel morphology trait")
 EquivalentClasses(:OBA_VT0004368 ObjectIntersectionOf(:PATO_0000051 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:UBERON_0001981 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0002282)))))
 
 # Class: :OBA_VT0005120 (blood growth hormone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005120 "The amount of a growth hormone when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005120 "blood growth hormone amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005120 "The amount of a growth hormone when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005120 "blood growth hormone amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005120 "blood growth hormone amount")
 EquivalentClasses(:OBA_VT0005120 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_37845 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005144 (blood VLDL cholesterol amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005144 "The amount of a very-low-density lipoprotein cholesterol when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005144 "blood very-low-density lipoprotein cholesterol amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005144 "The amount of a very-low-density lipoprotein cholesterol when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005144 "blood very-low-density lipoprotein cholesterol amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005144 "blood VLDL cholesterol amount")
 EquivalentClasses(:OBA_VT0005144 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_47773 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005160 (urine protein amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005160 "The amount of a protein when measured in urine.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005160 "urine protein amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005160 "The amount of a protein when measured in urine.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005160 "urine protein amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005160 "urine protein amount")
 EquivalentClasses(:OBA_VT0005160 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_36080 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001088)))))
 
 # Class: :OBA_VT0005180 (blood testosterone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005180 "The amount of a testosterone when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005180 "blood testosterone amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005180 "The amount of a testosterone when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005180 "blood testosterone amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005180 "blood testosterone amount")
 EquivalentClasses(:OBA_VT0005180 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17347 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005183 (blood estradiol amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005183 "The amount of a estradiol when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005183 "blood estradiol amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005183 "The amount of a estradiol when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005183 "blood estradiol amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005183 "blood estradiol amount")
 EquivalentClasses(:OBA_VT0005183 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_23965 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005184 (blood progesterone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005184 "The amount of a progesterone when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005184 "blood progesterone amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005184 "The amount of a progesterone when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005184 "blood progesterone amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005184 "blood progesterone amount")
 EquivalentClasses(:OBA_VT0005184 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17026 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005280 (adipose fatty acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005280 "The amount of a fatty acid when measured in adipose tissue.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005280 "adipose tissue fatty acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005280 "The amount of a fatty acid when measured in adipose tissue.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005280 "adipose tissue fatty acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005280 "adipose fatty acid amount")
 EquivalentClasses(:OBA_VT0005280 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_35366 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001013)))))
 
 # Class: :OBA_VT0005285 (adipose unsaturated fatty acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005285 "The amount of a unsaturated fatty acid when measured in adipose tissue.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005285 "adipose tissue unsaturated fatty acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005285 "The amount of a unsaturated fatty acid when measured in adipose tissue.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005285 "adipose tissue unsaturated fatty acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005285 "adipose unsaturated fatty acid amount")
 EquivalentClasses(:OBA_VT0005285 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_27208 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001013)))))
 
 # Class: :OBA_VT0005286 (adipose saturated fatty acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005286 "The amount of a saturated fatty acid when measured in adipose tissue.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005286 "adipose tissue saturated fatty acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005286 "The amount of a saturated fatty acid when measured in adipose tissue.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005286 "adipose tissue saturated fatty acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005286 "adipose saturated fatty acid amount")
 EquivalentClasses(:OBA_VT0005286 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_26607 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001013)))))
 
 # Class: :OBA_VT0005308 (blood ammonia amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005308 "The amount of a ammonia when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005308 "blood ammonia amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005308 "The amount of a ammonia when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005308 "blood ammonia amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005308 "blood ammonia amount")
 EquivalentClasses(:OBA_VT0005308 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16134 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005311 (blood amino acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005311 "The amount of a amino acid when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005311 "blood amino acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005311 "The amount of a amino acid when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005311 "blood amino acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005311 "blood amino acid amount")
 EquivalentClasses(:OBA_VT0005311 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_33709 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005328 (blood creatinine amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005328 "The amount of a creatinine when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005328 "blood creatinine amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005328 "The amount of a creatinine when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005328 "blood creatinine amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005328 "blood creatinine amount")
 EquivalentClasses(:OBA_VT0005328 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16737 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005345 (blood corticosterone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005345 "The amount of a corticosterone when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005345 "blood corticosterone amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005345 "The amount of a corticosterone when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005345 "blood corticosterone amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005345 "blood corticosterone amount")
 EquivalentClasses(:OBA_VT0005345 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16827 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005346 (blood aldosterone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005346 "The amount of a aldosterone when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005346 "blood aldosterone amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005346 "The amount of a aldosterone when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005346 "blood aldosterone amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005346 "blood aldosterone amount")
 EquivalentClasses(:OBA_VT0005346 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_27584 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005416 (blood protein amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005416 "The amount of a protein when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005416 "blood protein amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005416 "The amount of a protein when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005416 "blood protein amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005416 "blood protein amount")
 EquivalentClasses(:OBA_VT0005416 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_36080 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005418 (blood hormone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005418 "The amount of a hormone when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005418 "blood hormone amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005418 "The amount of a hormone when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005418 "blood hormone amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005418 "blood hormone amount")
 EquivalentClasses(:OBA_VT0005418 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_24621 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005475 (blood thyroxine amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005475 "The amount of a thyroxine when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005475 "blood thyroxine amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005475 "The amount of a thyroxine when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005475 "blood thyroxine amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005475 "blood thyroxine amount")
 EquivalentClasses(:OBA_VT0005475 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_30660 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005476 (blood triiodothyronine amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005476 "The amount of a 3,3',5-triiodo-L-thyronine when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005476 "blood 3,3',5-triiodo-L-thyronine amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005476 "The amount of a 3,3',5-triiodo-L-thyronine when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005476 "blood 3,3',5-triiodo-L-thyronine amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005476 "blood triiodothyronine amount")
 EquivalentClasses(:OBA_VT0005476 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_18258 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005521 (blood atrial natriuretic factor amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005521 "The amount of a atrial natriuretic factor when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005521 "blood atrial natriuretic factor amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005521 "The amount of a atrial natriuretic factor when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005521 "blood atrial natriuretic factor amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005521 "blood atrial natriuretic factor amount")
 EquivalentClasses(:OBA_VT0005521 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000011374 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005609 (blood antidiuretic hormone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005609 "The amount of a vasopressin when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005609 "blood vasopressin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005609 "The amount of a vasopressin when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005609 "blood vasopressin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005609 "blood antidiuretic hormone amount")
 EquivalentClasses(:OBA_VT0005609 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_9937 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005660 (blood epinephrine amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005660 "The amount of a (R)-adrenaline when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005660 "blood (R)-adrenaline amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005660 "The amount of a (R)-adrenaline when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005660 "blood (R)-adrenaline amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005660 "blood epinephrine amount")
 EquivalentClasses(:OBA_VT0005660 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_28918 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005663 (blood norepinephrine amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005663 "The amount of a (R)-noradrenaline when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005663 "blood (R)-noradrenaline amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005663 "The amount of a (R)-noradrenaline when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005663 "blood (R)-noradrenaline amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005663 "blood norepinephrine amount")
 EquivalentClasses(:OBA_VT0005663 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_18357 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0005667 (blood leptin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0005667 "The amount of a leptin when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0005667 "blood leptin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0005667 "The amount of a leptin when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0005667 "blood leptin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0005667 "blood leptin amount")
 EquivalentClasses(:OBA_VT0005667 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000009758 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0006034 (urine myoglobin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0006034 "The amount of a myoglobin when measured in urine.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0006034 "urine myoglobin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0006034 "The amount of a myoglobin when measured in urine.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0006034 "urine myoglobin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0006034 "urine myoglobin amount")
 EquivalentClasses(:OBA_VT0006034 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_7044 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001088)))))
 
 # Class: :OBA_VT0006076 (blood homocysteine amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0006076 "The amount of a homocysteine when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0006076 "blood homocysteine amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0006076 "The amount of a homocysteine when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0006076 "blood homocysteine amount")
 AnnotationAssertion(rdfs:label :OBA_VT0006076 "blood homocysteine amount")
 EquivalentClasses(:OBA_VT0006076 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17230 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0006084 (blood phospholipid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0006084 "The amount of a phospholipid when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0006084 "blood phospholipid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0006084 "The amount of a phospholipid when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0006084 "blood phospholipid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0006084 "blood phospholipid amount")
 EquivalentClasses(:OBA_VT0006084 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16247 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0006274 (urine sodium amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0006274 "The amount of a sodium atom when measured in urine.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0006274 "urine sodium atom amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0006274 "The amount of a sodium atom when measured in urine.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0006274 "urine sodium atom amount")
 AnnotationAssertion(rdfs:label :OBA_VT0006274 "urine sodium amount")
 EquivalentClasses(:OBA_VT0006274 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_26708 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001088)))))
 
 # Class: :OBA_VT0008589 (blood interleukin-1 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008589 "The amount of a interleukin-1 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008589 "blood interleukin-1 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008589 "The amount of a interleukin-1 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008589 "blood interleukin-1 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008589 "blood interleukin-1 amount")
 EquivalentClasses(:OBA_VT0008589 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001091 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008590 (blood interleukin-10 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008590 "The amount of a interleukin-10 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008590 "blood interleukin-10 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008590 "The amount of a interleukin-10 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008590 "blood interleukin-10 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008590 "blood interleukin-10 amount")
 EquivalentClasses(:OBA_VT0008590 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001471 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008595 (blood interleukin-6 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008595 "The amount of a interleukin-6 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008595 "blood interleukin-6 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008595 "The amount of a interleukin-6 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008595 "blood interleukin-6 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008595 "blood interleukin-6 amount")
 EquivalentClasses(:OBA_VT0008595 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001393 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008598 (blood interleukin-2 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008598 "The amount of a interleukin-2 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008598 "blood interleukin-2 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008598 "The amount of a interleukin-2 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008598 "blood interleukin-2 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008598 "blood interleukin-2 amount")
 EquivalentClasses(:OBA_VT0008598 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001379 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008601 (blood interleukin-4 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008601 "The amount of a interleukin-4 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008601 "blood interleukin-4 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008601 "The amount of a interleukin-4 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008601 "blood interleukin-4 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008601 "blood interleukin-4 amount")
 EquivalentClasses(:OBA_VT0008601 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001391 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008604 (blood interleukin-7 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008604 "The amount of a interleukin-7 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008604 "blood interleukin-7 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008604 "The amount of a interleukin-7 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008604 "blood interleukin-7 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008604 "blood interleukin-7 amount")
 EquivalentClasses(:OBA_VT0008604 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001317 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008607 (blood interleukin-13 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008607 "The amount of a interleukin-13 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008607 "blood interleukin-13 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008607 "The amount of a interleukin-13 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008607 "blood interleukin-13 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008607 "blood interleukin-13 amount")
 EquivalentClasses(:OBA_VT0008607 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001370 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008610 (blood interleukin-15 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008610 "The amount of a interleukin-15 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008610 "blood interleukin-15 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008610 "The amount of a interleukin-15 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008610 "blood interleukin-15 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008610 "blood interleukin-15 amount")
 EquivalentClasses(:OBA_VT0008610 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001373 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008613 (blood interleukin-17 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008613 "The amount of a interleukin-17 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008613 "blood interleukin-17 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008613 "The amount of a interleukin-17 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008613 "blood interleukin-17 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008613 "blood interleukin-17 amount")
 EquivalentClasses(:OBA_VT0008613 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001092 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008622 (blood interleukin-3 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008622 "The amount of a interleukin-3 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008622 "blood interleukin-3 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008622 "The amount of a interleukin-3 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008622 "blood interleukin-3 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008622 "blood interleukin-3 amount")
 EquivalentClasses(:OBA_VT0008622 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001387 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008625 (blood interleukin-5 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008625 "The amount of a interleukin-5 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008625 "blood interleukin-5 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008625 "The amount of a interleukin-5 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008625 "blood interleukin-5 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008625 "blood interleukin-5 amount")
 EquivalentClasses(:OBA_VT0008625 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001392 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008628 (blood interleukin-9 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008628 "The amount of a interleukin-9 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008628 "blood interleukin-9 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008628 "The amount of a interleukin-9 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008628 "blood interleukin-9 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008628 "blood interleukin-9 amount")
 EquivalentClasses(:OBA_VT0008628 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001396 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008631 (blood interleukin-16 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008631 "The amount of a interleukin-16 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008631 "blood interleukin-16 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008631 "The amount of a interleukin-16 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008631 "blood interleukin-16 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008631 "blood interleukin-16 amount")
 EquivalentClasses(:OBA_VT0008631 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001374 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008634 (blood interleukin-18 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008634 "The amount of a interleukin-18 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008634 "blood interleukin-18 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008634 "The amount of a interleukin-18 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008634 "blood interleukin-18 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008634 "blood interleukin-18 amount")
 EquivalentClasses(:OBA_VT0008634 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001376 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008637 (blood interleukin-1 alpha amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008637 "The amount of a interleukin-1 alpha when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008637 "blood interleukin-1 alpha amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008637 "The amount of a interleukin-1 alpha when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008637 "blood interleukin-1 alpha amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008637 "blood interleukin-1 alpha amount")
 EquivalentClasses(:OBA_VT0008637 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001135 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008640 (blood interleukin-1 beta amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008640 "The amount of a interleukin-1 beta when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008640 "blood interleukin-1 beta amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008640 "The amount of a interleukin-1 beta when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008640 "blood interleukin-1 beta amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008640 "blood interleukin-1 beta amount")
 EquivalentClasses(:OBA_VT0008640 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001136 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0008739 (spleen iron amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0008739 "The amount of a iron atom when measured in spleen.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0008739 "spleen iron atom amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0008739 "The amount of a iron atom when measured in spleen.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0008739 "spleen iron atom amount")
 AnnotationAssertion(rdfs:label :OBA_VT0008739 "spleen iron amount")
 EquivalentClasses(:OBA_VT0008739 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_18248 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0002106)))))
 
 # Class: :OBA_VT0009059 (blood interleukin-21 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0009059 "The amount of a interleukin-21 when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0009059 "blood interleukin-21 amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0009059 "The amount of a interleukin-21 when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0009059 "blood interleukin-21 amount")
 AnnotationAssertion(rdfs:label :OBA_VT0009059 "blood interleukin-21 amount")
 EquivalentClasses(:OBA_VT0009059 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001382 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0010025 (milk fatty acid C12:1(n-3) amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010025 "The amount of a dodecenoic acid when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010025 "milk dodecenoic acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010025 "The amount of a dodecenoic acid when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010025 "milk dodecenoic acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010025 "milk fatty acid C12:1(n-3) amount")
 EquivalentClasses(:OBA_VT0010025 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_23867 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010026 (milk fatty acid C15:0 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010026 "The amount of a pentadecanoic acid when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010026 "milk pentadecanoic acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010026 "The amount of a pentadecanoic acid when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010026 "milk pentadecanoic acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010026 "milk fatty acid C15:0 amount")
 EquivalentClasses(:OBA_VT0010026 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_42504 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010029 (milk alpha-lactalbumin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010029 "The amount of a alpha-lactalbumin when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010029 "milk alpha-lactalbumin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010029 "The amount of a alpha-lactalbumin when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010029 "milk alpha-lactalbumin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010029 "milk alpha-lactalbumin amount")
 EquivalentClasses(:OBA_VT0010029 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000009649 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010048 (muscle saturated fatty acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010048 "The amount of a saturated fatty acid when measured in muscle organ.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010048 "muscle organ saturated fatty acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010048 "The amount of a saturated fatty acid when measured in muscle organ.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010048 "muscle organ saturated fatty acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010048 "muscle saturated fatty acid amount")
 EquivalentClasses(:OBA_VT0010048 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_26607 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001630)))))
 
 # Class: :OBA_VT0010049 (muscle unsaturated fatty acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010049 "The amount of a unsaturated fatty acid when measured in muscle organ.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010049 "muscle organ unsaturated fatty acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010049 "The amount of a unsaturated fatty acid when measured in muscle organ.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010049 "muscle organ unsaturated fatty acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010049 "muscle unsaturated fatty acid amount")
 EquivalentClasses(:OBA_VT0010049 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_27208 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001630)))))
 
 # Class: :OBA_VT0010191 (immune system cell quantity)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010191 "The has number of of a leukocyte when measured in immune system.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010191 "immune system leukocyte has number of")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010191 "The has number of of a leukocyte when measured in immune system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010191 "immune system leukocyte has number of")
 AnnotationAssertion(rdfs:label :OBA_VT0010191 "immune system cell quantity")
 EquivalentClasses(:OBA_VT0010191 ObjectIntersectionOf(:PATO_0001555 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CL_0000738 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0002405)))))
 
 # Class: :OBA_VT0010267 (milk whey acidic protein amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010267 "The amount of a whey acidic protein when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010267 "milk whey acidic protein amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010267 "The amount of a whey acidic protein when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010267 "milk whey acidic protein amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010267 "milk whey acidic protein amount")
 EquivalentClasses(:OBA_VT0010267 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000017467 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010268 (milk lactoferrin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010268 "The amount of a lactotransferrin when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010268 "milk lactotransferrin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010268 "The amount of a lactotransferrin when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010268 "milk lactotransferrin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010268 "milk lactoferrin amount")
 EquivalentClasses(:OBA_VT0010268 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000009978 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010269 (colostrum hormone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010269 "The amount of a hormone when measured in colostrum.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010269 "colostrum hormone amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010269 "The amount of a hormone when measured in colostrum.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010269 "colostrum hormone amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010269 "colostrum hormone amount")
 EquivalentClasses(:OBA_VT0010269 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_24621 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001914)))))
 
 # Class: :OBA_VT0010270 (colostrum steroid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010270 "The amount of a steroid when measured in colostrum.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010270 "colostrum steroid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010270 "The amount of a steroid when measured in colostrum.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010270 "colostrum steroid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010270 "colostrum steroid amount")
 EquivalentClasses(:OBA_VT0010270 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_35341 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001914)))))
 
 # Class: :OBA_VT0010271 (colostrum leptin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010271 "The amount of a leptin when measured in colostrum.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010271 "colostrum leptin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010271 "The amount of a leptin when measured in colostrum.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010271 "colostrum leptin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010271 "colostrum leptin amount")
 EquivalentClasses(:OBA_VT0010271 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000009758 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001914)))))
 
 # Class: :OBA_VT0010275 (milk hormone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010275 "The amount of a hormone when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010275 "milk hormone amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010275 "The amount of a hormone when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010275 "milk hormone amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010275 "milk hormone amount")
 EquivalentClasses(:OBA_VT0010275 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_24621 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010276 (milk steroid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010276 "The amount of a steroid when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010276 "milk steroid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010276 "The amount of a steroid when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010276 "milk steroid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010276 "milk steroid amount")
 EquivalentClasses(:OBA_VT0010276 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_35341 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010277 (milk leptin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010277 "The amount of a leptin when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010277 "milk leptin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010277 "The amount of a leptin when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010277 "milk leptin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010277 "milk leptin amount")
 EquivalentClasses(:OBA_VT0010277 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000009758 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010281 (milk alpha-S1-casein amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010281 "The amount of a alpha-S1-casein when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010281 "milk alpha-S1-casein amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010281 "The amount of a alpha-S1-casein when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010281 "milk alpha-S1-casein amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010281 "milk alpha-S1-casein amount")
 EquivalentClasses(:OBA_VT0010281 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000005940 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010283 (milk kappa-casein amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010283 "The amount of a kappa-casein when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010283 "milk kappa-casein amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010283 "The amount of a kappa-casein when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010283 "milk kappa-casein amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010283 "milk kappa-casein amount")
 EquivalentClasses(:OBA_VT0010283 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000005942 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010284 (milk beta-casein amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010284 "The amount of a beta-casein when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010284 "milk beta-casein amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010284 "The amount of a beta-casein when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010284 "milk beta-casein amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010284 "milk beta-casein amount")
 EquivalentClasses(:OBA_VT0010284 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000005941 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010287 (milk lactose amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010287 "The amount of a lactose when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010287 "milk lactose amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010287 "The amount of a lactose when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010287 "milk lactose amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010287 "milk lactose amount")
 EquivalentClasses(:OBA_VT0010287 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17716 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010288 (milk mineral amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010288 "The amount of a mineral when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010288 "milk mineral amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010288 "The amount of a mineral when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010288 "milk mineral amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010288 "milk mineral amount")
 EquivalentClasses(:OBA_VT0010288 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_46662 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010290 (milk calcium amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010290 "The amount of a calcium atom when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010290 "milk calcium atom amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010290 "The amount of a calcium atom when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010290 "milk calcium atom amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010290 "milk calcium amount")
 EquivalentClasses(:OBA_VT0010290 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_22984 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010291 (milk potassium amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010291 "The amount of a potassium atom when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010291 "milk potassium atom amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010291 "The amount of a potassium atom when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010291 "milk potassium atom amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010291 "milk potassium amount")
 EquivalentClasses(:OBA_VT0010291 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_26216 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010292 (milk sodium amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010292 "The amount of a sodium atom when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010292 "milk sodium atom amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010292 "The amount of a sodium atom when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010292 "milk sodium atom amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010292 "milk sodium amount")
 EquivalentClasses(:OBA_VT0010292 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_26708 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010293 (milk phosphorus amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010293 "The amount of a phosphorus atom when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010293 "milk phosphorus atom amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010293 "The amount of a phosphorus atom when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010293 "milk phosphorus atom amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010293 "milk phosphorus amount")
 EquivalentClasses(:OBA_VT0010293 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_28659 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010294 (milk chloride amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010294 "The amount of a chloride when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010294 "milk chloride amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010294 "The amount of a chloride when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010294 "milk chloride amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010294 "milk chloride amount")
 EquivalentClasses(:OBA_VT0010294 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17996 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010295 (milk magnesium amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010295 "The amount of a magnesium atom when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010295 "milk magnesium atom amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010295 "The amount of a magnesium atom when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010295 "milk magnesium atom amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010295 "milk magnesium amount")
 EquivalentClasses(:OBA_VT0010295 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_25107 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010302 (blood uric acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010302 "The amount of a uric acid when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010302 "blood uric acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010302 "The amount of a uric acid when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010302 "blood uric acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010302 "blood uric acid amount")
 EquivalentClasses(:OBA_VT0010302 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_27226 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0010303 (milk fatty acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010303 "The amount of a fatty acid when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010303 "milk fatty acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010303 "The amount of a fatty acid when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010303 "milk fatty acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010303 "milk fatty acid amount")
 EquivalentClasses(:OBA_VT0010303 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_35366 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010304 (milk saturated fatty acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010304 "The amount of a saturated fatty acid when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010304 "milk saturated fatty acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010304 "The amount of a saturated fatty acid when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010304 "milk saturated fatty acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010304 "milk saturated fatty acid amount")
 EquivalentClasses(:OBA_VT0010304 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_26607 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010305 (milk unsaturated fatty acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010305 "The amount of a unsaturated fatty acid when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010305 "milk unsaturated fatty acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010305 "The amount of a unsaturated fatty acid when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010305 "milk unsaturated fatty acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010305 "milk unsaturated fatty acid amount")
 EquivalentClasses(:OBA_VT0010305 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_27208 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010319 (milk fatty acid C20:0 amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010319 "The amount of a arachidic acid when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010319 "milk arachidic acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010319 "The amount of a arachidic acid when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010319 "milk arachidic acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010319 "milk fatty acid C20:0 amount")
 EquivalentClasses(:OBA_VT0010319 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_28822 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010322 (milk omega-3 fatty acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010322 "The amount of a omega-3 fatty acid when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010322 "milk omega-3 fatty acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010322 "The amount of a omega-3 fatty acid when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010322 "milk omega-3 fatty acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010322 "milk omega-3 fatty acid amount")
 EquivalentClasses(:OBA_VT0010322 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_25681 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010323 (milk omega-6 fatty acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010323 "The amount of a omega-6 fatty acid when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010323 "milk omega-6 fatty acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010323 "The amount of a omega-6 fatty acid when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010323 "milk omega-6 fatty acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010323 "milk omega-6 fatty acid amount")
 EquivalentClasses(:OBA_VT0010323 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_36009 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010324 (milk conjugated linoleic acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010324 "The amount of a conjugated linoleic acid when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010324 "milk conjugated linoleic acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010324 "The amount of a conjugated linoleic acid when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010324 "milk conjugated linoleic acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010324 "milk conjugated linoleic acid amount")
 EquivalentClasses(:OBA_VT0010324 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_61159 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010373 (milk monounsaturated fatty acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010373 "The amount of a monounsaturated fatty acid when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010373 "milk monounsaturated fatty acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010373 "The amount of a monounsaturated fatty acid when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010373 "milk monounsaturated fatty acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010373 "milk monounsaturated fatty acid amount")
 EquivalentClasses(:OBA_VT0010373 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_25413 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010374 (milk polyunsaturated fatty acid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010374 "The amount of a polyunsaturated fatty acid when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010374 "milk polyunsaturated fatty acid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010374 "The amount of a polyunsaturated fatty acid when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010374 "milk polyunsaturated fatty acid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010374 "milk polyunsaturated fatty acid amount")
 EquivalentClasses(:OBA_VT0010374 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_26208 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010380 (milk beta-carotene amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010380 "The amount of a beta-carotene when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010380 "milk beta-carotene amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010380 "The amount of a beta-carotene when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010380 "milk beta-carotene amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010380 "milk beta-carotene amount")
 EquivalentClasses(:OBA_VT0010380 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17579 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010381 (milk retinol amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010381 "The amount of a retinol when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010381 "milk retinol amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010381 "The amount of a retinol when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010381 "milk retinol amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010381 "milk retinol amount")
 EquivalentClasses(:OBA_VT0010381 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_50211 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010382 (milk triglyceride amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010382 "The amount of a triglyceride when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010382 "milk triglyceride amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010382 "The amount of a triglyceride when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010382 "milk triglyceride amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010382 "milk triglyceride amount")
 EquivalentClasses(:OBA_VT0010382 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17855 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010383 (milk cholesterol amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010383 "The amount of a cholesterol when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010383 "milk cholesterol amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010383 "The amount of a cholesterol when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010383 "milk cholesterol amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010383 "milk cholesterol amount")
 EquivalentClasses(:OBA_VT0010383 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16113 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010385 (milk diacylglycerol amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010385 "The amount of a diglyceride when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010385 "milk diglyceride amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010385 "The amount of a diglyceride when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010385 "milk diglyceride amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010385 "milk diacylglycerol amount")
 EquivalentClasses(:OBA_VT0010385 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_18035 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010386 (milk monoacylglycerol amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010386 "The amount of a monoglyceride when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010386 "milk monoglyceride amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010386 "The amount of a monoglyceride when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010386 "milk monoglyceride amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010386 "milk monoacylglycerol amount")
 EquivalentClasses(:OBA_VT0010386 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17408 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010387 (milk phospholipid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010387 "The amount of a phospholipid when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010387 "milk phospholipid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010387 "The amount of a phospholipid when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010387 "milk phospholipid amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010387 "milk phospholipid amount")
 EquivalentClasses(:OBA_VT0010387 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16247 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010388 (milk polyphenol amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010388 "The amount of a polyphenol when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010388 "milk polyphenol amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010388 "The amount of a polyphenol when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010388 "milk polyphenol amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010388 "milk polyphenol amount")
 EquivalentClasses(:OBA_VT0010388 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_26195 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010389 (milk butyrophilin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010389 "The amount of a butyrophilin when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010389 "milk butyrophilin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010389 "The amount of a butyrophilin when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010389 "milk butyrophilin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010389 "milk butyrophilin amount")
 EquivalentClasses(:OBA_VT0010389 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000001848 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010399 (milk urea amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010399 "The amount of a urea when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010399 "milk urea amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010399 "The amount of a urea when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010399 "milk urea amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010399 "milk urea amount")
 EquivalentClasses(:OBA_VT0010399 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16199 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010400 (milk ammonia amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010400 "The amount of a ammonia when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010400 "milk ammonia amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010400 "The amount of a ammonia when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010400 "milk ammonia amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010400 "milk ammonia amount")
 EquivalentClasses(:OBA_VT0010400 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16134 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT0010456 (cerebrospinal fluid mineral amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010456 "The amount of a mineral when measured in cerebrospinal fluid.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010456 "cerebrospinal fluid mineral amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010456 "The amount of a mineral when measured in cerebrospinal fluid.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010456 "cerebrospinal fluid mineral amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010456 "cerebrospinal fluid mineral amount")
 EquivalentClasses(:OBA_VT0010456 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_46662 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001359)))))
 
 # Class: :OBA_VT0010470 (pancreas insulin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010470 "The amount of a insulin (human) when measured in pancreas.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010470 "pancreas insulin (human) amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010470 "The amount of a insulin (human) when measured in pancreas.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010470 "pancreas insulin (human) amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010470 "pancreas insulin amount")
 EquivalentClasses(:OBA_VT0010470 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_5931 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001264)))))
 
 # Class: :OBA_VT0010484 (nervous system serotonin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010484 "The amount of a serotonin when measured in nervous system.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010484 "nervous system serotonin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010484 "The amount of a serotonin when measured in nervous system.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010484 "nervous system serotonin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010484 "nervous system serotonin amount")
 EquivalentClasses(:OBA_VT0010484 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_28790 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001016)))))
 
 # Class: :OBA_VT0010498 (liver cholesterol amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010498 "The amount of a cholesterol when measured in liver.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010498 "liver cholesterol amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010498 "The amount of a cholesterol when measured in liver.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010498 "liver cholesterol amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010498 "liver cholesterol amount")
 EquivalentClasses(:OBA_VT0010498 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16113 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0002107)))))
 
 # Class: :OBA_VT0010502 (urine catecholamine amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010502 "The amount of a catecholamine when measured in urine.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010502 "urine catecholamine amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010502 "The amount of a catecholamine when measured in urine.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010502 "urine catecholamine amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010502 "urine catecholamine amount")
 EquivalentClasses(:OBA_VT0010502 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_33567 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001088)))))
 
 # Class: :OBA_VT0010514 (blood transferrin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010514 "The amount of a serotransferrin when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010514 "blood serotransferrin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010514 "The amount of a serotransferrin when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010514 "blood serotransferrin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010514 "blood transferrin amount")
 EquivalentClasses(:OBA_VT0010514 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000016261 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0010515 (blood fibronectin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010515 "The amount of a fibronectin when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010515 "blood fibronectin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010515 "The amount of a fibronectin when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010515 "blood fibronectin amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010515 "blood fibronectin amount")
 EquivalentClasses(:OBA_VT0010515 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:PR_000007581 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0010516 (blood glutathione amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010516 "The amount of a glutathione when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010516 "blood glutathione amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010516 "The amount of a glutathione when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010516 "blood glutathione amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010516 "blood glutathione amount")
 EquivalentClasses(:OBA_VT0010516 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16856 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT0010519 (liver triglyceride amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0010519 "The amount of a triglyceride when measured in liver.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0010519 "liver triglyceride amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0010519 "The amount of a triglyceride when measured in liver.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0010519 "liver triglyceride amount")
 AnnotationAssertion(rdfs:label :OBA_VT0010519 "liver triglyceride amount")
 EquivalentClasses(:OBA_VT0010519 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17855 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0002107)))))
 
 # Class: :OBA_VT0015086 (urine mineral amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT0015086 "The amount of a mineral when measured in urine.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT0015086 "urine mineral amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT0015086 "The amount of a mineral when measured in urine.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT0015086 "urine mineral amount")
 AnnotationAssertion(rdfs:label :OBA_VT0015086 "urine mineral amount")
 EquivalentClasses(:OBA_VT0015086 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_46662 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001088)))))
 
 # Class: :OBA_VT1000165 (milk protein amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000165 "The amount of a protein when measured in milk.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT1000165 "milk protein amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT1000165 "The amount of a protein when measured in milk.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT1000165 "milk protein amount")
 AnnotationAssertion(rdfs:label :OBA_VT1000165 "milk protein amount")
 EquivalentClasses(:OBA_VT1000165 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_36080 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001913)))))
 
 # Class: :OBA_VT1000401 (muscle androstenone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000401 "The amount of a 5alpha-androst-16-en-3-one when measured in muscle organ.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT1000401 "muscle organ 5alpha-androst-16-en-3-one amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT1000401 "The amount of a 5alpha-androst-16-en-3-one when measured in muscle organ.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT1000401 "muscle organ 5alpha-androst-16-en-3-one amount")
 AnnotationAssertion(rdfs:label :OBA_VT1000401 "muscle androstenone amount")
 EquivalentClasses(:OBA_VT1000401 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_37894 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001630)))))
 
 # Class: :OBA_VT1000429 (muscle lactate amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000429 "The amount of a lactate when measured in muscle organ.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT1000429 "muscle organ lactate amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT1000429 "The amount of a lactate when measured in muscle organ.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT1000429 "muscle organ lactate amount")
 AnnotationAssertion(rdfs:label :OBA_VT1000429 "muscle lactate amount")
 EquivalentClasses(:OBA_VT1000429 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_24996 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001630)))))
 
 # Class: :OBA_VT1000430 (muscle cholesterol amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000430 "The amount of a cholesterol when measured in muscle organ.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT1000430 "muscle organ cholesterol amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT1000430 "The amount of a cholesterol when measured in muscle organ.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT1000430 "muscle organ cholesterol amount")
 AnnotationAssertion(rdfs:label :OBA_VT1000430 "muscle cholesterol amount")
 EquivalentClasses(:OBA_VT1000430 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_16113 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001630)))))
 
 # Class: :OBA_VT1000431 (muscle indole amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000431 "The amount of a indole when measured in muscle organ.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT1000431 "muscle organ indole amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT1000431 "The amount of a indole when measured in muscle organ.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT1000431 "muscle organ indole amount")
 AnnotationAssertion(rdfs:label :OBA_VT1000431 "muscle indole amount")
 EquivalentClasses(:OBA_VT1000431 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_35581 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001630)))))
 
 # Class: :OBA_VT1000432 (muscle water amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000432 "The amount of a water when measured in muscle organ.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT1000432 "muscle organ water amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT1000432 "The amount of a water when measured in muscle organ.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT1000432 "muscle organ water amount")
 AnnotationAssertion(rdfs:label :OBA_VT1000432 "muscle water amount")
 EquivalentClasses(:OBA_VT1000432 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_15377 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001630)))))
 
 # Class: :OBA_VT1000433 (muscle protein amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000433 "The amount of a protein when measured in muscle organ.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT1000433 "muscle organ protein amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT1000433 "The amount of a protein when measured in muscle organ.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT1000433 "muscle organ protein amount")
 AnnotationAssertion(rdfs:label :OBA_VT1000433 "muscle protein amount")
 EquivalentClasses(:OBA_VT1000433 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_36080 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001630)))))
 
 # Class: :OBA_VT1000434 (muscle skatole amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000434 "The amount of a skatole when measured in muscle organ.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT1000434 "muscle organ skatole amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT1000434 "The amount of a skatole when measured in muscle organ.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT1000434 "muscle organ skatole amount")
 AnnotationAssertion(rdfs:label :OBA_VT1000434 "muscle skatole amount")
 EquivalentClasses(:OBA_VT1000434 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_9171 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001630)))))
 
 # Class: :OBA_VT1000444 (adipose androstenone amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000444 "The amount of a 5alpha-androst-16-en-3-one when measured in adipose tissue.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT1000444 "adipose tissue 5alpha-androst-16-en-3-one amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT1000444 "The amount of a 5alpha-androst-16-en-3-one when measured in adipose tissue.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT1000444 "adipose tissue 5alpha-androst-16-en-3-one amount")
 AnnotationAssertion(rdfs:label :OBA_VT1000444 "adipose androstenone amount")
 EquivalentClasses(:OBA_VT1000444 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_37894 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001013)))))
 
 # Class: :OBA_VT1000479 (muscle lipid amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000479 "The amount of a lipid when measured in muscle organ.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT1000479 "muscle organ lipid amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT1000479 "The amount of a lipid when measured in muscle organ.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT1000479 "muscle organ lipid amount")
 AnnotationAssertion(rdfs:label :OBA_VT1000479 "muscle lipid amount")
 EquivalentClasses(:OBA_VT1000479 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_18059 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001630)))))
 
 # Class: :OBA_VT1000670 (blood cortisol amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000670 "The amount of a cortisol when measured in blood.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT1000670 "blood cortisol amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT1000670 "The amount of a cortisol when measured in blood.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT1000670 "blood cortisol amount")
 AnnotationAssertion(rdfs:label :OBA_VT1000670 "blood cortisol amount")
 EquivalentClasses(:OBA_VT1000670 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17650 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0000178)))))
 
 # Class: :OBA_VT1000761 (muscle nitrogen amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000761 "The amount of a dinitrogen when measured in muscle organ.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT1000761 "muscle organ dinitrogen amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT1000761 "The amount of a dinitrogen when measured in muscle organ.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT1000761 "muscle organ dinitrogen amount")
 AnnotationAssertion(rdfs:label :OBA_VT1000761 "muscle nitrogen amount")
 EquivalentClasses(:OBA_VT1000761 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_17997 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001630)))))
 
 # Class: :OBA_VT1000764 (muscle myoglobin amount)
 
-AnnotationAssertion(:IAO_0000115 :OBA_VT1000764 "The amount of a myoglobin when measured in muscle organ.")
-AnnotationAssertion(oio:hasExactSynonym :OBA_VT1000764 "muscle organ myoglobin amount")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") :IAO_0000115 :OBA_VT1000764 "The amount of a myoglobin when measured in muscle organ.")
+AnnotationAssertion(Annotation(oio:hasDbXref "AUTO:patterns/patterns/entity_attribute_location") oio:hasExactSynonym :OBA_VT1000764 "muscle organ myoglobin amount")
 AnnotationAssertion(rdfs:label :OBA_VT1000764 "muscle myoglobin amount")
 EquivalentClasses(:OBA_VT1000764 ObjectIntersectionOf(:PATO_0000070 ObjectSomeValuesFrom(:RO_0000052 ObjectIntersectionOf(:CHEBI_7044 ObjectSomeValuesFrom(:BFO_0000050 :UBERON_0001630)))))
 
