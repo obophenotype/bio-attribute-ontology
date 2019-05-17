@@ -1269,6 +1269,12 @@ synonym: "endoplasmic reticulum membrane permeability trait" EXACT [GOC:TermGeni
 created_by: cjmungall
 creation_date: 2015-09-29T15:36:19Z
 
+[Term]
+id:OBA:1001088
+name: obsolete race
+is_obsolete: true
+
+
 [Typedef]
 id: has_part ! has part
 xref: BFO:0000051
