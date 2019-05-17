@@ -1,3 +1,4 @@
+
 format-version: 1.2
 date: 13:11:2015 10:21
 saved-by: cjmungall
@@ -15,8 +16,7 @@ ontology: oba
 property-value: foaf-homepage \"http://wiki.geneontology.org/index.php/Extensions/x-attribute\" xsd:anyURL
 
 [Term]
-id: OBA:0000001 ! biological attribute
-name: biological attribute
+id: OBA:0000001 ! biological attribute ! biological attribute
 is_a: PATO:0000001 ! quality
 
 [Term]
@@ -36,664 +36,541 @@ id: OBA:0100004 ! chemical entity quality
 is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
-id: OBA:0000003
-name: ER calcium ion concentration
+id: OBA:0000003 ! ER calcium ion concentration
 is_a: OBA:0000040 {is_check="true"} ! calcium ion concentration
 
 [Term]
-id: OBA:0000005
-name: Golgi calcium ion concentration
+id: OBA:0000005 ! Golgi calcium ion concentration
 is_a: OBA:0000040 ! calcium ion concentration
 
 [Term]
-id: OBA:0000006
-name: Malpighian tubule diameter
+id: OBA:0000006 ! Malpighian tubule diameter
 is_a: OBA:0000171 ! tube diameter
 
 [Term]
-id: OBA:0000007
-name: Malpighian tubule size
+id: OBA:0000007 ! Malpighian tubule size
 is_a: OBA:0000172 ! tube size
 
 [Term]
-id: OBA:0000009
-name: RNA stability
+id: OBA:0000009 ! RNA stability
 
 [Term]
-id: OBA:0000011
-name: actin filament length
+id: OBA:0000011 ! actin filament length
 is_a: OBA:0000057 ! cellular component size
 
 [Term]
-id: OBA:0000015
-name: anatomical structure size
+id: OBA:0000015 ! anatomical structure size
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000016
-name: angiotensin levels in blood
+id: OBA:0000016 ! angiotensin levels in blood
 is_a: OBA:0000079 ! hormone levels
 
 [Term]
-id: OBA:0000018
-name: appetite
+id: OBA:0000018 ! appetite
 is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
-id: OBA:0000022
-name: autophagic vacuole size
+id: OBA:0000022 ! autophagic vacuole size
 is_a: OBA:0000057 ! cellular component size
 
 [Term]
-id: OBA:0000023
-name: axon diameter
+id: OBA:0000023 ! axon diameter
 
 [Term]
-id: OBA:0000032
-name: blood vessel size
+id: OBA:0000032 ! blood vessel size
 is_a: OBA:0000172 ! tube size
 
 [Term]
-id: OBA:0000036
-name: body fluid levels
+id: OBA:0000036 ! body fluid levels
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000037
-name: brood size
+id: OBA:0000037 ! brood size
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000039
-name: buoyancy
+id: OBA:0000039 ! buoyancy
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000040
-name: calcium ion concentration
+id: OBA:0000040 ! calcium ion concentration
 
 [Term]
-id: OBA:0000046
-name: cardiac muscle cell membrane potential
+id: OBA:0000046 ! cardiac muscle cell membrane potential
 is_a: OBA:0000099 ! membrane potential
 
 [Term]
-id: OBA:0000048
-name: cell diameter
+id: OBA:0000048 ! cell diameter
 is_a: OBA:0000055 ! cell size
 
 [Term]
-id: OBA:0000050
-name: cell pH
+id: OBA:0000050 ! cell pH
 is_a: OBA:0000058 ! cellular pH
 
 [Term]
-id: OBA:0000051
-name: cell projection size
+id: OBA:0000051 ! cell projection size
 is_a: OBA:0000057 ! cellular component size
 
 [Term]
-id: OBA:0000052
-name: cell shape
+id: OBA:0000052 ! cell shape
 
 [Term]
-id: OBA:0000055
-name: cell size
+id: OBA:0000055 ! cell size
 is_a: OBA:0000057 ! cellular component size
 
 [Term]
-id: OBA:0000056
-name: cell volume
+id: OBA:0000056 ! cell volume
 
 [Term]
-id: OBA:0000057
-name: cellular component size
+id: OBA:0000057 ! cellular component size
 is_a: OBA:0000015 ! anatomical structure size
 
 [Term]
-id: OBA:0000058
-name: cellular pH
+id: OBA:0000058 ! cellular pH
 is_a: OBA:0000121 ! pH
 
 [Term]
-id: OBA:0000060
-name: cilium beat frequency
+id: OBA:0000060 ! cilium beat frequency
 comment: check this
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000061
-name: circulating fibrinogen levels
+id: OBA:0000061 ! circulating fibrinogen levels
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000066
-name: direction of cell growth
+id: OBA:0000066 ! direction of cell growth
 is_a: OBA:0000052 ! cell shape
 
 [Term]
-id: OBA:0000067
-name: embryonic cell shape
+id: OBA:0000067 ! embryonic cell shape
 is_a: OBA:0000052 ! cell shape
 
 [Term]
-id: OBA:0000068
-name: endosome size
+id: OBA:0000068 ! endosome size
 is_a: OBA:0000057 ! cellular component size
 
 [Term]
-id: OBA:0000069
-name: excitatory post-synaptic membrane potential
+id: OBA:0000069 ! excitatory post-synaptic membrane potential
 is_a: OBA:0000125 ! post-synaptic membrane potential
 
 [Term]
-id: OBA:0000072
-name: follicle cell microvillus length
+id: OBA:0000072 ! follicle cell microvillus length
 is_a: OBA:0000102 ! microvillus length
 
 [Term]
-id: OBA:0000074
-name: heart contraction rate
+id: OBA:0000074 ! heart contraction rate
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000079
-name: hormone levels
+id: OBA:0000079 ! hormone levels
 comment: TODO - unify levels vs amount
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000084
-name: imaginal disc-derived wing size
+id: OBA:0000084 ! imaginal disc-derived wing size
 is_a: OBA:0000015 ! anatomical structure size
 
 [Term]
-id: OBA:0000085
-name: inhibitory post-synaptic membrane potential
+id: OBA:0000085 ! inhibitory post-synaptic membrane potential
 is_a: OBA:0000125 ! post-synaptic membrane potential
 
 [Term]
-id: OBA:0000088
-name: liquid surface tension
+id: OBA:0000088 ! liquid surface tension
 is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
-id: OBA:0000089
-name: long-term neuronal synaptic plasticity
+id: OBA:0000089 ! long-term neuronal synaptic plasticity
 is_a: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
-id: OBA:0000090
-name: lung blood pressure
+id: OBA:0000090 ! lung blood pressure
 
 [Term]
-id: OBA:0000091
-name: lysosomal lumen pH
+id: OBA:0000091 ! lysosomal lumen pH
 is_a: OBA:0000050 ! cell pH
 
 [Term]
-id: OBA:0000092
-name: lysosomal membrane permeability
+id: OBA:0000092 ! lysosomal membrane permeability
 
 [Term]
-id: OBA:0000093
-name: mRNA stability
+id: OBA:0000093 ! mRNA stability
 is_a: OBA:0000009 ! RNA stability
 
 [Term]
-id: OBA:0000098
-name: membrane lipid distribution
+id: OBA:0000098 ! membrane lipid distribution
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000099
-name: membrane potential
+id: OBA:0000099 ! membrane potential
 
 [Term]
-id: OBA:0000100
-name: membrane potential in photoreceptor cell
+id: OBA:0000100 ! membrane potential in photoreceptor cell
 
 [Term]
-id: OBA:0000101
-name: metanephric kidney size
+id: OBA:0000101 ! metanephric kidney size
 
 [Term]
-id: OBA:0000102
-name: microvillus length
+id: OBA:0000102 ! microvillus length
 is_a: OBA:0000051 ! cell projection size
 
 [Term]
-id: OBA:0000103
-name: mitochondrial mRNA stability
+id: OBA:0000103 ! mitochondrial mRNA stability
 
 [Term]
-id: OBA:0000104
-name: mitochondrial membrane permeability
+id: OBA:0000104 ! mitochondrial membrane permeability
 
 [Term]
-id: OBA:0000105
-name: mitochondrial membrane potential
+id: OBA:0000105 ! mitochondrial membrane potential
 
 [Term]
-id: OBA:0000106
-name: mitochondrial rRNA stability
+id: OBA:0000106 ! mitochondrial rRNA stability
 
 [Term]
-id: OBA:0000107
-name: multivesicular body size
+id: OBA:0000107 ! multivesicular body size
 is_a: OBA:0000068 ! endosome size
 
 [Term]
-id: OBA:0000110
-name: muscle filament sliding speed
+id: OBA:0000110 ! muscle filament sliding speed
 
 [Term]
-id: OBA:0000112
-name: myofibril number
+id: OBA:0000112 ! myofibril number
 
 [Term]
-id: OBA:0000113
-name: myofibril size
+id: OBA:0000113 ! myofibril size
 
 [Term]
-id: OBA:0000114
-name: neuronal synaptic plasticity
+id: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
-id: OBA:0000116
-name: neurotransmitter levels
+id: OBA:0000116 ! neurotransmitter levels
 is_a: OBA:0100004 {is_asserted="true"} ! chemical entity quality
 
 [Term]
-id: OBA:0000117
-name: nuclear size
+id: OBA:0000117 ! nuclear size
 
 [Term]
-id: OBA:0000119
-name: nucleosome density
+id: OBA:0000119 ! nucleosome density
 
 [Term]
-id: OBA:0000120
-name: osmotic pressure
+id: OBA:0000120 ! osmotic pressure
 comment: Check this
 xref: Wikipedia:Osmotic_pressure
 
 [Term]
-id: OBA:0000121
-name: pH
+id: OBA:0000121 ! pH
 
 [Term]
-id: OBA:0000122
-name: peroxisome size
+id: OBA:0000122 ! peroxisome size
 is_a: OBA:0000057 ! cellular component size
 
 [Term]
-id: OBA:0000123
-name: plasma membrane sterol distribution
+id: OBA:0000123 ! plasma membrane sterol distribution
 is_a: OBA:0000098 ! membrane lipid distribution
 
 [Term]
-id: OBA:0000124
-name: post-lysosomal vacuole size
+id: OBA:0000124 ! post-lysosomal vacuole size
 
 [Term]
-id: OBA:0000125
-name: post-synaptic membrane potential
+id: OBA:0000125 ! post-synaptic membrane potential
 is_a: OBA:0000099 ! membrane potential
 
 [Term]
-id: OBA:0000126
-name: potassium ion concentration
+id: OBA:0000126 ! potassium ion concentration
 
 [Term]
-id: OBA:0000127
-name: pronephric kidney size
+id: OBA:0000127 ! pronephric kidney size
 
 [Term]
-id: OBA:0000128
-name: protein stability
+id: OBA:0000128 ! protein stability
 comment: See http://code.google.com/p/pato/issues/detail?id=1
 
 [Term]
-id: OBA:0000129
-name: rRNA stability
+id: OBA:0000129 ! rRNA stability
 
 [Term]
-id: OBA:0000134
-name: resting membrane potential
+id: OBA:0000134 ! resting membrane potential
 is_a: OBA:0000099 ! membrane potential
 
 [Term]
-id: OBA:0000136
-name: short-term neuronal synaptic plasticity
+id: OBA:0000136 ! short-term neuronal synaptic plasticity
 is_a: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
-id: OBA:0000138
-name: spindle density
+id: OBA:0000138 ! spindle density
 
 [Term]
-id: OBA:0000139
-name: synapse structure and activity
+id: OBA:0000139 ! synapse structure and activity
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000140
-name: synaptic metaplasticity
+id: OBA:0000140 ! synaptic metaplasticity
 comment: http://code.google.com/p/pato/issues/detail?id=2
 is_a: OBA:0000141 ! synaptic plasticity
 
 [Term]
-id: OBA:0000141
-name: synaptic plasticity
+id: OBA:0000141 ! synaptic plasticity
 comment: http://code.google.com/p/pato/issues/detail?id=2
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000143
-name: systemic arterial blood pressure
+id: OBA:0000143 ! systemic arterial blood pressure
 
 [Term]
-id: OBA:0000160
-name: thalamus size
+id: OBA:0000160 ! thalamus size
 is_a: OBA:0000015 ! anatomical structure size
 
 [Term]
-id: OBA:0000161
-name: force of heart contraction
+id: OBA:0000161 ! force of heart contraction
 synonym: "the force of heart contraction" EXACT []
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000164
-name: velocity of shortening of skeletal muscle modulating contraction
+id: OBA:0000164 ! velocity of shortening of skeletal muscle modulating contraction
 comment: check this
 synonym: "the velocity of shortening of skeletal muscle modulating contraction" EXACT []
 synonym: "velocity of shortening of skeletal muscle" RELATED []
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000166
-name: tracheal tube diameter
+id: OBA:0000166 ! tracheal tube diameter
 
 [Term]
-id: OBA:0000167
-name: tracheal tube length
+id: OBA:0000167 ! tracheal tube length
 
 [Term]
-id: OBA:0000168
-name: tracheal tube size
+id: OBA:0000168 ! tracheal tube size
 is_a: OBA:0000172 ! tube size
 
 [Term]
-id: OBA:0000169
-name: translational accuracy
+id: OBA:0000169 ! translational accuracy
 synonym: "translational fidelity" EXACT [GO:0006450]
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000171
-name: tube diameter
+id: OBA:0000171 ! tube diameter
 
 [Term]
-id: OBA:0000172
-name: tube size
+id: OBA:0000172 ! tube size
 is_a: OBA:0000015 ! anatomical structure size
 
 [Term]
-id: OBA:0000173
-name: urinary volume
+id: OBA:0000173 ! urinary volume
 is_a: OBA:0000036 ! body fluid levels
 
 [Term]
-id: OBA:0000174
-name: vascular permeability
+id: OBA:0000174 ! vascular permeability
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000181
-name: viral protein levels
+id: OBA:0000181 ! viral protein levels
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000182
-name: nutrient level
+id: OBA:0000182 ! nutrient level
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0001001
-name: macromolecular stability
+id: OBA:0001001 ! macromolecular stability
 comment: See http://code.google.com/p/pato/issues/detail?id=1
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:1000001
-name: blood brain barrier permeability
+id: OBA:1000001 ! blood brain barrier permeability
 synonym: "blood brain barrier permeability trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T00:36:22Z
 
 [Term]
-id: OBA:1000002
-name: intermammary line length
+id: OBA:1000002 ! intermammary line length
 synonym: "intermammary line length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T00:42:06Z
 
 [Term]
-id: OBA:1000003
-name: inter-canthal distance
+id: OBA:1000003 ! inter-canthal distance
 synonym: "anatomical line between inner canthi length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T00:42:08Z
 
 [Term]
-id: OBA:1000004
-name: distance between ears
+id: OBA:1000004 ! distance between ears
 synonym: "anatomical line between outer ears length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T00:42:11Z
 
 [Term]
-id: OBA:1000005
-name: inter-pupillar distance
+id: OBA:1000005 ! inter-pupillar distance
 synonym: "anatomical line between pupils length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T00:42:13Z
 
 [Term]
-id: OBA:1000006
-name: cilium length
+id: OBA:1000006 ! cilium length
 synonym: "cilium length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T00:55:27Z
 
 [Term]
-id: OBA:1000007
-name: dendrite length
+id: OBA:1000007 ! dendrite length
 synonym: "dendrite length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T00:55:30Z
 
 [Term]
-id: OBA:1000008
-name: microtubule length
+id: OBA:1000008 ! microtubule length
 synonym: "microtubule length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T05:48:55Z
 
 [Term]
-id: OBA:1000009
-name: mitochondrial nucleoid size
+id: OBA:1000009 ! mitochondrial nucleoid size
 synonym: "mitochondrial nucleoid size trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T05:48:58Z
 
 [Term]
-id: OBA:1000010
-name: spindle length
+id: OBA:1000010 ! spindle length
 synonym: "spindle length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T05:49:01Z
 
 [Term]
-id: OBA:1000011
-name: Golgi apparatus morphology
+id: OBA:1000011 ! Golgi apparatus morphology
 synonym: "Golgi apparatus morphology trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T05:49:03Z
 
 [Term]
-id: OBA:1000012
-name: germ tube septin ring length
+id: OBA:1000012 ! germ tube septin ring length
 synonym: "germ tube septin ring length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T05:49:06Z
 
 [Term]
-id: OBA:1000013
-name: cytoskeleton morphology
+id: OBA:1000013 ! cytoskeleton morphology
 synonym: "cytoskeleton morphology trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T05:53:18Z
 
 [Term]
-id: OBA:1000014
-name: endomembrane system morphology
+id: OBA:1000014 ! endomembrane system morphology
 synonym: "endomembrane system morphology trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T05:53:21Z
 
 [Term]
-id: OBA:1000015
-name: lipid particle morphology
+id: OBA:1000015 ! lipid particle morphology
 synonym: "lipid particle morphology trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T05:53:24Z
 
 [Term]
-id: OBA:1000016
-name: mating projection morphology
+id: OBA:1000016 ! mating projection morphology
 synonym: "mating projection morphology trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T05:53:26Z
 
 [Term]
-id: OBA:1000017
-name: mating projection tip length
+id: OBA:1000017 ! mating projection tip length
 synonym: "mating projection tip length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T05:53:29Z
 
 [Term]
-id: OBA:1000018
-name: nucleus shape
+id: OBA:1000018 ! nucleus shape
 synonym: "nucleus shape trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T05:55:08Z
 
 [Term]
-id: OBA:1000019
-name: nucleus morphology
+id: OBA:1000019 ! nucleus morphology
 synonym: "nucleus morphology trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T05:56:08Z
 
 [Term]
-id: OBA:1000021
-name: cotyledon size
+id: OBA:1000021 ! cotyledon size
 synonym: "cotyledon size trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-05-15T17:27:00Z
 
 [Term]
-id: OBA:1000023
-name: subcutaneous adipose tissue quality
+id: OBA:1000023 ! subcutaneous adipose tissue quality
 synonym: "subcutaneous adipose tissue quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-06-05T19:18:57Z
 
 [Term]
-id: OBA:1000024
-name: subcutaneous adipose tissue proportionality to
+id: OBA:1000024 ! subcutaneous adipose tissue proportionality to
 synonym: "subcutaneous adipose tissue proportionality to trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-06-05T19:19:33Z
 
 [Term]
-id: OBA:1000025
-name: breast size
+id: OBA:1000025 ! breast size
 synonym: "breast size trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-06-05T19:22:16Z
 
 [Term]
-id: OBA:1000026
-name: intervertebral disk of lumbar vertebra morphology
+id: OBA:1000026 ! intervertebral disk of lumbar vertebra morphology
 synonym: "intervertebral disk of lumbar vertebra morphology trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-06-05T19:26:27Z
 
 [Term]
-id: OBA:1000027
-name: thyroid gland volume
+id: OBA:1000027 ! thyroid gland volume
 synonym: "thyroid gland volume trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-06-05T19:26:29Z
 
 [Term]
-id: OBA:1000028
-name: membrane permeability
+id: OBA:1000028 ! membrane permeability
 synonym: "membrane permeability trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-06-11T07:21:47Z
 
 [Term]
-id: OBA:1000029
-name: cerebellum shape
+id: OBA:1000029 ! cerebellum shape
 synonym: "cerebellum shape trait" EXACT [GOC:TermGenie]
 created_by: vasilevs
 creation_date: 2013-06-12T22:46:08Z
 
 [Term]
-id: OBA:1000030
-name: upper arm circumference
+id: OBA:1000030 ! upper arm circumference
 synonym: "forelimb stylopod circumference trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-06-17T17:53:31Z
 
 [Term]
-id: OBA:1000031
-name: neck circumference
+id: OBA:1000031 ! neck circumference
 synonym: "neck circumference trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-06-17T17:53:34Z
 
 [Term]
-id: OBA:1000032
-name: hip circumference
+id: OBA:1000032 ! hip circumference
 synonym: "hip circumference trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-06-17T17:53:37Z
 
 [Term]
-id: OBA:1000033
-name: upper leg circumference
+id: OBA:1000033 ! upper leg circumference
 synonym: "hindlimb stylopod circumference trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-06-17T17:53:39Z
 
 [Term]
-id: OBA:1000034
-name: cell surface area
+id: OBA:1000034 ! cell surface area
 synonym: "cell surface area trait" EXACT [GOC:TermGenie]
 property_value: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-08-06T20:05:54Z
 
 [Term]
-id: OBA:1000035
-name: lens of camera-type eye opacity
+id: OBA:1000035 ! lens of camera-type eye opacity
 synonym: "lens of camera-type eye opacity trait" EXACT [GOC:TermGenie]
 synonym: "lens opacity" BROAD []
 synonym: "lens transparency" BROAD []
@@ -701,68 +578,59 @@ created_by: cjmungall
 creation_date: 2013-09-25T23:32:06Z
 
 [Term]
-id: OBA:1000036
-name: cell mass
+id: OBA:1000036 ! cell mass
 synonym: "cell mass trait" EXACT [GOC:TermGenie]
 property_value: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-09-30T20:01:39Z
 
 [Term]
-id: OBA:1000037
-name: adult organism mass
+id: OBA:1000037 ! adult organism mass
 synonym: "adult organism mass trait" EXACT [GOC:TermGenie]
 property_value: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-10-08T20:29:11Z
 
 [Term]
-id: OBA:1000038
-name: mollusc shell height
+id: OBA:1000038 ! mollusc shell height
 synonym: "mollusc shell height trait" EXACT [GOC:TermGenie]
 property_value: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-10-08T21:19:32Z
 
 [Term]
-id: OBA:1000039
-name: mollusc shell length
+id: OBA:1000039 ! mollusc shell length
 synonym: "mollusc shell length trait" EXACT [GOC:TermGenie]
 property_value: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-10-08T21:21:38Z
 
 [Term]
-id: OBA:1000040
-name: secondary xylem volumetric density
+id: OBA:1000040 ! secondary xylem volumetric density
 synonym: "secondary xylem volumetric density trait" EXACT [GOC:TermGenie]
 created_by: eolspecies
 creation_date: 2013-10-22T16:26:19Z
 
 [Term]
-id: OBA:1000041
-name: cotyledonary node color
+id: OBA:1000041 ! cotyledonary node color
 synonym: "cotyledonary node color trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-10-29T21:11:53Z
 
 [Term]
-id: OBA:1000042
-name: scutellar node color
+id: OBA:1000042 ! scutellar node color
 synonym: "scutellar node color trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-10-29T21:11:59Z
 
 [Term]
-id: OBA:1000043
-name: shoot node color
+id: OBA:1000043 ! shoot node color
 synonym: "shoot node color trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-10-29T21:15:42Z
 
 [Term]
-id: OBA:1000045
-name: iris color
+id: OBA:1000045 ! iris color
 synonym: "coloration of irides" RELATED []
 synonym: "eye color" BROAD []
 synonym: "iris color trait" EXACT [GOC:TermGenie]
@@ -770,775 +638,667 @@ created_by: cjmungall
 creation_date: 2014-01-21T22:46:17Z
 
 [Term]
-id: OBA:1000046
-name: philtrum length
+id: OBA:1000046 ! philtrum length
 synonym: "philtrum length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-01-27T23:37:06Z
 
 [Term]
-id: OBA:1000047
-name: palpebral fissure length
+id: OBA:1000047 ! palpebral fissure length
 synonym: "palpebral fissure length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-01-27T23:50:54Z
 
 [Term]
-id: OBA:1000048
-name: manus length
+id: OBA:1000048 ! manus length
 synonym: "hand length" EXACT []
 synonym: "manus length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-01-27T23:51:00Z
 
 [Term]
-id: OBA:1000049
-name: pes length
+id: OBA:1000049 ! pes length
 synonym: "foot length" EXACT []
 synonym: "pes length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-01-27T23:51:06Z
 
 [Term]
-id: OBA:1000050
-name: palmar part of manus length
+id: OBA:1000050 ! palmar part of manus length
 synonym: "palm length" EXACT []
 synonym: "palmar part of manus length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-01-27T23:51:13Z
 
 [Term]
-id: OBA:1000051
-name: mollusc shell quality
+id: OBA:1000051 ! mollusc shell quality
 synonym: "mollusc shell quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:01Z
 
 [Term]
-id: OBA:1000052
-name: columnella quality
+id: OBA:1000052 ! columnella quality
 synonym: "columnella quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:08Z
 
 [Term]
-id: OBA:1000053
-name: albumen gland quality
+id: OBA:1000053 ! albumen gland quality
 synonym: "albumen gland quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:14Z
 
 [Term]
-id: OBA:1000054
-name: headfoot quality
+id: OBA:1000054 ! headfoot quality
 synonym: "headfoot quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:20Z
 
 [Term]
-id: OBA:1000055
-name: osphradium quality
+id: OBA:1000055 ! osphradium quality
 synonym: "osphradium quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:26Z
 
 [Term]
-id: OBA:1000056
-name: nacre quality
+id: OBA:1000056 ! nacre quality
 synonym: "nacre quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:32Z
 
 [Term]
-id: OBA:1000057
-name: gland quality
+id: OBA:1000057 ! gland quality
 synonym: "gland quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:38Z
 
 [Term]
-id: OBA:1000058
-name: visceral hump quality
+id: OBA:1000058 ! visceral hump quality
 synonym: "visceral hump quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-02T00:49:45Z
 
 [Term]
-id: OBA:1000059
-name: parapodium quality
+id: OBA:1000059 ! parapodium quality
 synonym: "parapodium quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-02T01:20:31Z
 
 [Term]
-id: OBA:1000060
-name: prostomium quality
+id: OBA:1000060 ! prostomium quality
 synonym: "prostomium quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-02T01:20:37Z
 
 [Term]
-id: OBA:1000061
-name: vestimentum muscle quality
+id: OBA:1000061 ! vestimentum muscle quality
 synonym: "vestimentum muscle quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-02T01:20:43Z
 
 [Term]
-id: OBA:1000062
-name: trophosome quality
+id: OBA:1000062 ! trophosome quality
 synonym: "trophosome quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-02T01:20:49Z
 
 [Term]
-id: OBA:1000063
-name: opisthosome quality
+id: OBA:1000063 ! opisthosome quality
 synonym: "opisthosome quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-02T01:20:55Z
 
 [Term]
-id: OBA:1000064
-name: dermal bone quality
+id: OBA:1000064 ! dermal bone quality
 synonym: "dermal bone quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-22T16:19:16Z
 
 [Term]
-id: OBA:1000065
-name: dermal bone morphology
+id: OBA:1000065 ! dermal bone morphology
 synonym: "dermal bone morphology trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-22T16:24:50Z
 
 [Term]
-id: OBA:1000066
-name: endochondral bone morphology
+id: OBA:1000066 ! endochondral bone morphology
 synonym: "endochondral bone morphology trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-22T16:24:56Z
 
 [Term]
-id: OBA:1000067
-name: endochondral bone quality
+id: OBA:1000067 ! endochondral bone quality
 synonym: "endochondral bone quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-22T16:25:02Z
 
 [Term]
-id: OBA:1000068
-name: epiplastron size
+id: OBA:1000068 ! epiplastron size
 synonym: "epiplastron size trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-22T16:56:12Z
 
 [Term]
-id: OBA:1000069
-name: epiplastron mass
+id: OBA:1000069 ! epiplastron mass
 synonym: "epiplastron mass trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-22T16:56:18Z
 
 [Term]
-id: OBA:1000070
-name: xiphiplastron size
+id: OBA:1000070 ! xiphiplastron size
 synonym: "xiphiplastron size trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-02-22T16:56:25Z
 
 [Term]
-id: OBA:1000071
-name: coat color
+id: OBA:1000071 ! coat color
 synonym: "coat of hair color trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-03-06T04:45:10Z
 
 [Term]
-id: OBA:1000072
-name: coat color pattern
+id: OBA:1000072 ! coat color pattern
 synonym: "coat of hair color pattern trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-03-06T04:45:14Z
 
 [Term]
-id: OBA:1000073
-name: coat spatial pattern
+id: OBA:1000073 ! coat spatial pattern
 synonym: "coat of hair spatial pattern trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-03-06T04:45:18Z
 
 [Term]
-id: OBA:1000074
-name: antenna size
+id: OBA:1000074 ! antenna size
 created_by: caripark
 creation_date: 2014-04-11T18:52:34Z
 
 [Term]
-id: OBA:1000075
-name: cytosol color
+id: OBA:1000075 ! cytosol color
 synonym: "cytosol color trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-06-04T18:58:27Z
 
 [Term]
-id: OBA:1000076
-name: cell attribute
+id: OBA:1000076 ! cell attribute
 synonym: "cell quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-04T19:24:06Z
 
 [Term]
-id: OBA:1000077
-name: cytosol attribute
+id: OBA:1000077 ! cytosol attribute
 synonym: "cytosol quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-04T19:24:09Z
 
 [Term]
-id: OBA:1000078
-name: organelle attribute
+id: OBA:1000078 ! organelle attribute
 synonym: "organelle quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-04T19:24:13Z
 
 [Term]
-id: OBA:1000079
-name: muscle organ strength
+id: OBA:1000079 ! muscle organ strength
 synonym: "muscle organ strength trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-04T19:27:04Z
 
 [Term]
-id: OBA:1000080
-name: skeletal muscle organ strength
+id: OBA:1000080 ! skeletal muscle organ strength
 synonym: "skeletal muscle organ strength trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-04T19:27:08Z
 
 [Term]
-id: OBA:1000081
-name: forelimb muscle strength
+id: OBA:1000081 ! forelimb muscle strength
 synonym: "forelimb muscle strength trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-04T19:27:11Z
 
 [Term]
-id: OBA:1000082
-name: hindlimb muscle strength
+id: OBA:1000082 ! hindlimb muscle strength
 synonym: "hindlimb muscle strength trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-04T19:27:15Z
 
 [Term]
-id: OBA:1000083
-name: nucleus length
+id: OBA:1000083 ! nucleus length
 synonym: "nucleus length trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-06-04T19:31:50Z
 
 [Term]
-id: OBA:1000084
-name: cell surface texture
+id: OBA:1000084 ! cell surface texture
 synonym: "cell surface texture trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-06-04T19:42:11Z
 
 [Term]
-id: OBA:1000085
-name: nucleus width
+id: OBA:1000085 ! nucleus width
 synonym: "nucleus width trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-06-04T20:31:38Z
 
 [Term]
-id: OBA:1000086
-name: cell surface quality
+id: OBA:1000086 ! cell surface quality
 synonym: "cell surface quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-06T16:11:26Z
 
 [Term]
-id: OBA:1000087
-name: cell surface morphology
+id: OBA:1000087 ! cell surface morphology
 synonym: "cell surface morphology trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-06T16:11:30Z
 
 [Term]
-id: OBA:1000088
-name: plasma membrane quality
+id: OBA:1000088 ! plasma membrane quality
 synonym: "plasma membrane quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-06T16:11:34Z
 
 [Term]
-id: OBA:1000089
-name: plasma membrane morphology
+id: OBA:1000089 ! plasma membrane morphology
 synonym: "plasma membrane morphology trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-06T16:11:38Z
 
 [Term]
-id: OBA:1000090
-name: membrane quality
+id: OBA:1000090 ! membrane quality
 synonym: "membrane quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-06T16:11:41Z
 
 [Term]
-id: OBA:1000091
-name: membrane morphology
+id: OBA:1000091 ! membrane morphology
 synonym: "membrane morphology trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-06T16:11:45Z
 
 [Term]
-id: OBA:1000092
-name: dinoflagellate cingulum shape
+id: OBA:1000092 ! dinoflagellate cingulum shape
 synonym: "dinoflagellate cingulum shape trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-06-25T00:10:46Z
 
 [Term]
-id: OBA:1000093
-name: dinoflagellate sulcus shape
+id: OBA:1000093 ! dinoflagellate sulcus shape
 synonym: "dinoflagellate sulcus shape trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-06-27T17:49:26Z
 
 [Term]
-id: OBA:1000094
-name: chloroplast shape
+id: OBA:1000094 ! chloroplast shape
 synonym: "chloroplast shape trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-07-01T14:09:53Z
 
 [Term]
-id: OBA:1000095
-name: chloroplast spatial pattern
+id: OBA:1000095 ! chloroplast spatial pattern
 synonym: "chloroplast spatial pattern trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-07-01T14:46:16Z
 
 [Term]
-id: OBA:1000096
-name: chloroplast color
+id: OBA:1000096 ! chloroplast color
 synonym: "chloroplast color trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-07-01T15:18:01Z
 
 [Term]
-id: OBA:1000097
-name: chloroplast size
+id: OBA:1000097 ! chloroplast size
 synonym: "chloroplast size trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-07-01T17:59:40Z
 
 [Term]
-id: OBA:1000098
-name: dinoflagellate sulcus width
+id: OBA:1000098 ! dinoflagellate sulcus width
 synonym: "dinoflagellate sulcus width trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-07-01T20:43:17Z
 
 [Term]
-id: OBA:1000099
-name: appendage trait
+id: OBA:1000099 ! appendage trait
 synonym: "appendage quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-07T02:17:51Z
 
 [Term]
-id: OBA:1000100
-name: paired fin trait
+id: OBA:1000100 ! paired fin trait
 synonym: "paired fin quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-07T02:17:54Z
 
 [Term]
-id: OBA:1000101
-name: axial skeleton plus cranial skeleton length
+id: OBA:1000101 ! axial skeleton plus cranial skeleton length
 synonym: "axial skeleton plus cranial skeleton length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-07T02:21:22Z
 
 [Term]
-id: OBA:1000102
-name: vertebral column length
+id: OBA:1000102 ! vertebral column length
 synonym: "vertebral column length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-07T02:21:25Z
 
 [Term]
-id: OBA:1000103
-name: cervical region of vertebral column length
+id: OBA:1000103 ! cervical region of vertebral column length
 synonym: "cervical region of vertebral column length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-07T02:21:29Z
 
 [Term]
-id: OBA:1000104
-name: subdivision of vertebral column length
+id: OBA:1000104 ! subdivision of vertebral column length
 synonym: "subdivision of vertebral column length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-07T02:21:32Z
 
 [Term]
-id: OBA:1000105
-name: tissue composition
+id: OBA:1000105 ! tissue composition
 synonym: "tissue composition trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-12T22:00:01Z
 
 [Term]
-id: OBA:1000106
-name: skeletal tissue composition
+id: OBA:1000106 ! skeletal tissue composition
 synonym: "skeletal tissue composition trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-12T22:00:04Z
 
 [Term]
-id: OBA:1000107
-name: testis position
+id: OBA:1000107 ! testis position
 synonym: "testis position trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-15T22:55:29Z
 
 [Term]
-id: OBA:1000108
-name: hoof trait
+id: OBA:1000108 ! hoof trait
 synonym: "hoof quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-18T16:52:08Z
 
 [Term]
-id: OBA:1000109
-name: anatomical pigmentation
+id: OBA:1000109 ! anatomical pigmentation
 synonym: "anatomical structure degree of pigmentation trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-18T16:52:11Z
 
 [Term]
-id: OBA:1000110
-name: bone density
+id: OBA:1000110 ! bone density
 synonym: "bone tissue mass density trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-25T16:15:45Z
 
 [Term]
-id: OBA:1000111
-name: adrenal gland size
+id: OBA:1000111 ! adrenal gland size
 synonym: "adrenal gland size trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-27T01:19:14Z
 
 [Term]
-id: OBA:1000112
-name: tooth size
+id: OBA:1000112 ! tooth size
 synonym: "calcareous tooth size trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-27T01:19:07Z
 
 [Term]
-id: OBA:1000113
-name: incisor size
+id: OBA:1000113 ! incisor size
 synonym: "incisor tooth size trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-27T01:19:11Z
 
 [Term]
-id: OBA:1000114
-name: axon terminus orientation
+id: OBA:1000114 ! axon terminus orientation
 synonym: "axon terminus orientation trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-29T01:00:41Z
 
 [Term]
-id: OBA:1000115
-name: axon length
+id: OBA:1000115 ! axon length
 synonym: "axon length trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-29T01:00:44Z
 
 [Term]
-id: OBA:1000116
-name: axon located in
+id: OBA:1000116 ! axon located in
 synonym: "axon located in trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-29T01:00:47Z
 
 [Term]
-id: OBA:1000117
-name: axon shape
+id: OBA:1000117 ! axon shape
 synonym: "axon shape trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-29T01:00:50Z
 
 [Term]
-id: OBA:1000118
-name: dendrite count
+id: OBA:1000118 ! dendrite count
 synonym: "dendrite count trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-29T01:00:53Z
 
 [Term]
-id: OBA:1000119
-name: dendrite thickness
+id: OBA:1000119 ! dendrite thickness
 synonym: "dendrite thickness trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-29T01:00:56Z
 
 [Term]
-id: OBA:1000120
-name: axon orientation
+id: OBA:1000120 ! axon orientation
 synonym: "axon orientation trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-29T01:00:59Z
 
 [Term]
-id: OBA:1000121
-name: dendrite orientation
+id: OBA:1000121 ! dendrite orientation
 synonym: "dendrite orientation trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-29T01:01:02Z
 
 [Term]
-id: OBA:1000122
-name: dendrite shape
+id: OBA:1000122 ! dendrite shape
 synonym: "dendrite shape trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-29T01:01:05Z
 
 [Term]
-id: OBA:1000123
-name: dendrite size
+id: OBA:1000123 ! dendrite size
 synonym: "dendrite size trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-29T01:01:08Z
 
 [Term]
-id: OBA:1000124
-name: blue iris 
+id: OBA:1000124 ! blue iris 
 synonym: "blue eyes" RELATED [GOC:NV]
 synonym: "blue iris trait" EXACT [GOC:TermGenie]
 created_by: vasilevs
 creation_date: 2014-10-07T20:39:39Z
 
 [Term]
-id: OBA:1000125
-name: brown strand of hair 
+id: OBA:1000125 ! brown strand of hair 
 synonym: "brown hair" RELATED [GOC:NV]
 synonym: "brown strand of hair  trait" EXACT [GOC:TermGenie]
 created_by: vasilevs
 creation_date: 2014-10-07T20:41:50Z
 
 [Term]
-id: OBA:1000126
-name: dinoflagellate epicone length
+id: OBA:1000126 ! dinoflagellate epicone length
 synonym: "dinoflagellate epicone length trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-02T18:49:09Z
 
 [Term]
-id: OBA:1000127
-name: dinoflagellate hypocone length
+id: OBA:1000127 ! dinoflagellate hypocone length
 synonym: "dinoflagellate hypocone length trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-02T18:53:16Z
 
 [Term]
-id: OBA:1000128
-name: eyespot apparatus color
+id: OBA:1000128 ! eyespot apparatus color
 synonym: "eyespot apparatus color trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-02T19:04:56Z
 
 [Term]
-id: OBA:1000129
-name: cell color
+id: OBA:1000129 ! cell color
 synonym: "cell color trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-02T19:42:39Z
 
 [Term]
-id: OBA:1000130
-name: nucleus diameter
+id: OBA:1000130 ! nucleus diameter
 synonym: "nucleus diameter trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-02T19:49:17Z
 
 [Term]
-id: OBA:1000131
-name: eyespot apparatus located in
+id: OBA:1000131 ! eyespot apparatus located in
 synonym: "eyespot apparatus located in trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-04T14:56:06Z
 
 [Term]
-id: OBA:1000132
-name: dinoflagellate sulcal notch shape
+id: OBA:1000132 ! dinoflagellate sulcal notch shape
 synonym: "dinoflagellate sulcal notch shape trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-10T15:43:23Z
 
 [Term]
-id: OBA:1000133
-name: dinoflagellate apex shape
+id: OBA:1000133 ! dinoflagellate apex shape
 synonym: "dinoflagellate apex shape trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-19T19:29:50Z
 
 [Term]
-id: OBA:1000134
-name: dinoflagellate antapex shape
+id: OBA:1000134 ! dinoflagellate antapex shape
 synonym: "dinoflagellate antapex shape trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-19T19:31:27Z
 
 [Term]
-id: OBA:1000135
-name: dinoflagellate apical horn shape
+id: OBA:1000135 ! dinoflagellate apical horn shape
 synonym: "dinoflagellate apical horn shape trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-22T19:25:15Z
 
 [Term]
-id: OBA:1000136
-name: dinoflagellate antapical horn shape
+id: OBA:1000136 ! dinoflagellate antapical horn shape
 synonym: "dinoflagellate antapical horn shape trait" EXACT [GOC:TermGenie]
 created_by: annethessen
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-22T20:37:23Z
 
 [Term]
-id: OBA:1000137
-name: endolymph volume
+id: OBA:1000137 ! endolymph volume
 synonym: "endolymph volume trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2015-01-11T01:04:32Z
 
 [Term]
-id: OBA:1000138
-name: bone element size
+id: OBA:1000138 ! bone element size
 synonym: "bone element size trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2015-03-03T00:34:47Z
 
 [Term]
-id: OBA:1000139
-name: skeletal joint flexibility
+id: OBA:1000139 ! skeletal joint flexibility
 synonym: "skeletal joint flexibility trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2015-03-03T16:41:59Z
 
 [Term]
-id: OBA:1000140
-name: epipubic bone size
+id: OBA:1000140 ! epipubic bone size
 synonym: "epipubic bone size trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2015-03-03T23:14:23Z
 
 [Term]
-id: OBA:1000141
-name: epipubic bone mass density
+id: OBA:1000141 ! epipubic bone mass density
 synonym: "epipubic bone mass density trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2015-03-03T23:14:26Z
 
 [Term]
-id: OBA:1000142
-name: vesicle size
+id: OBA:1000142 ! vesicle size
 synonym: "vesicle size trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2015-04-14T22:09:46Z
 
 [Term]
-id: OBA:1000143
-name: lymphatic vessel size
+id: OBA:1000143 ! lymphatic vessel size
 synonym: "lymphatic vessel size trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2015-04-14T22:09:50Z
 
 [Term]
-id: OBA:1000144
-name: lymphatic vessel permeability
+id: OBA:1000144 ! lymphatic vessel permeability
 synonym: "lymphatic vessel permeability trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2015-04-14T22:09:54Z
 
 [Term]
-id: OBA:1000145
-name: lymphatic vessel quality
+id: OBA:1000145 ! lymphatic vessel quality
 synonym: "lymphatic vessel quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2015-04-14T22:09:58Z
 
 [Term]
-id: OBA:1000146
-name: endoplasmic reticulum membrane permeability
+id: OBA:1000146 ! endoplasmic reticulum membrane permeability
 synonym: "endoplasmic reticulum membrane permeability trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2015-09-29T15:36:19Z
 
 [Typedef]
-id: has_part
-name: has part
+id: has_part ! has part
 xref: BFO:0000051
 is_transitive: true
 inverse_of: part_of ! part_of
 
 [Typedef]
-id: occurs_in
-name: occurs in
+id: occurs_in ! occurs in
 xref: BFO:0000066
 transitive_over: part_of ! part_of
 
 [Typedef]
-id: part_of
-name: part of
+id: part_of ! part of
 xref: BFO:0000050
 is_transitive: true
 
 [Typedef]
-id: inheres_in_part_of
-name: inheres in part -of
+id: inheres_in_part_of ! inheres in part -of
 xref: RO:0002314 ! inheres in part of
 holds_over_chain: inheres_in part_of
 
 [Typedef]
-id: inheres_in
-name: inheres in
+id: inheres_in ! inheres in
 is_a: inheres_in_part_of
 xref: RO:0000052 ! inheres in
 
 [Typedef]
-id: http://purl.org/pav/providedBy
-name: provided by
+id: http://purl.org/pav/providedBy ! provided by
 is_metadata_tag: true
 
 [Typedef]
-id: http://purl.org/dc/elements/1.1/contributor
-name: contributor
+id: http://purl.org/dc/elements/1.1/contributor ! contributor
 is_metadata_tag: true
