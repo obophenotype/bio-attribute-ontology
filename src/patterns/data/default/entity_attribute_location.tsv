@@ -1,0 +1,168 @@
+iri	iri label	entity	entity label	attribute	attribute label	location	location label
+OBA:0000016	angiotensin levels in blood	PR:000036009	angiotensin II	PATO:0000070	amount	UBERON:0000178	blood
+OBA:0000090	lung blood pressure	UBERON:0000178	blood	PATO:0001025	pressure	UBERON:0002048	lung
+OBA:0000098	membrane lipid distribution	CHEBI:18059	lipid	PATO:0000060	spatial pattern	GO:0016020	membrane
+OBA:0000123	plasma membrane sterol distribution	CHEBI:15889	sterol	PATO:0000060	spatial pattern	GO:0005886	plasma membrane
+OBA:0000143	systemic arterial blood pressure	UBERON:0000178	blood	PATO:0001025	pressure	UBERON:0004573	systemic artery
+OBA:VT0000068	blood mineral amount	CHEBI:46662	mineral	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0000180	blood cholesterol amount	CHEBI:16113	cholesterol	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0000181	blood LDL cholesterol amount	CHEBI:47774	low-density lipoprotein cholesterol	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0000184	blood HDL cholesterol amount	CHEBI:47775	high-density lipoprotein cholesterol	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0000188	blood glucose amount	CHEBI:17234	glucose	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0000202	blood alkaline phosphatase amount	PR:000023540	alkaline phosphatase	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0000315	urine hemoglobin amount	CHEBI:35143	hemoglobin	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT0000716	immune system cell morphology trait	CL:0000000	cell	PATO:0000051	morphology	UBERON:0002405	immune system
+OBA:VT0001105	peripheral nervous system glial cell morphology trait	CL:0000125	glial cell	PATO:0000051	morphology	UBERON:0000010	peripheral nervous system
+OBA:VT0001560	blood insulin amount	CHEBI:5931	insulin (human)	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0001562	blood calcium amount	CHEBI:22984	calcium atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0001565	blood phosphate amount	CHEBI:26020	phosphate	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0001569	blood bilirubin amount	CHEBI:16990	bilirubin	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0001754	blood corticotropin-releasing hormone amount	CHEBI:65311	corticotropin-releasing hormone	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0001758	urine glucose amount	CHEBI:17234	glucose	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT0001771	blood magnesium amount	CHEBI:25107	magnesium atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0001776	blood sodium amount	CHEBI:26708	sodium atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0002181	brain cell morphology trait	GO:0005623	cell	PATO:0000051	morphology	UBERON:0000955	brain
+OBA:VT0002644	blood triglyceride amount	CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0002664	blood adrenocorticotropin amount	CHEBI:3892	corticotropin	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0002668	blood potassium amount	CHEBI:26216	potassium atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0002695	blood glucagon amount	CHEBI:5391	glucagon	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0002851	blood sulfate amount	CHEBI:16189	sulfate	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0002900	urine phosphate amount	CHEBI:26020	phosphate	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT0002903	blood parathyroid hormone amount	PR:000013429	parathyroid hormone	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0002985	urine calcium amount	CHEBI:22984	calcium atom	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT0003015	blood bicarbonate amount	CHEBI:17544	hydrogencarbonate	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0003018	blood chloride amount	CHEBI:17996	chloride	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0003311	urine amino acid amount	CHEBI:33709	amino acid	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT0003349	blood renin amount	PR:000013883	renin	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0003351	blood thyroid hormone amount	CHEBI:60311	thyroid hormone	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0003366	blood glucocorticoid amount	CHEBI:24261	glucocorticoid	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0003369	blood estrogen amount	CHEBI:50114	estrogen	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0003442	blood glycerol amount	CHEBI:17754	glycerol	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0003508	blood dihydrotestosterone amount	CHEBI:16330	17beta-hydroxy-5alpha-androstan-3-one	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0003853	skin water amount	CHEBI:15377	water	PATO:0000070	amount	UBERON:0000014	zone of skin
+OBA:VT0003949	blood lipid amount	CHEBI:18059	lipid	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0003977	blood carnitine amount	CHEBI:17126	carnitine	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0004101	brain interneuron morphology trait	CL:0000099	interneuron	PATO:0000051	morphology	UBERON:0000955	brain
+OBA:VT0004152	blood iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005120	blood growth hormone amount	CHEBI:37845	growth hormone	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005144	blood VLDL cholesterol amount	CHEBI:47773	very-low-density lipoprotein cholesterol	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005160	urine protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT0005180	blood testosterone amount	CHEBI:17347	testosterone	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005183	blood estradiol amount	CHEBI:23965	estradiol	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005184	blood progesterone amount	CHEBI:17026	progesterone	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005280	adipose fatty acid amount	CHEBI:35366	fatty acid	PATO:0000070	amount	UBERON:0001013	adipose tissue
+OBA:VT0005285	adipose unsaturated fatty acid amount	CHEBI:27208	unsaturated fatty acid	PATO:0000070	amount	UBERON:0001013	adipose tissue
+OBA:VT0005286	adipose saturated fatty acid amount	CHEBI:26607	saturated fatty acid	PATO:0000070	amount	UBERON:0001013	adipose tissue
+OBA:VT0005308	blood ammonia amount	CHEBI:16134	ammonia	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005311	blood amino acid amount	CHEBI:33709	amino acid	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005328	blood creatinine amount	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005345	blood corticosterone amount	CHEBI:16827	corticosterone	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005346	blood aldosterone amount	CHEBI:27584	aldosterone	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005416	blood protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005418	blood hormone amount	CHEBI:24621	hormone	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005475	blood thyroxine amount	CHEBI:30660	thyroxine	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005476	blood triiodothyronine amount	CHEBI:18258	"3,3',5-triiodo-L-thyronine"	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005521	blood atrial natriuretic factor amount	PR:000011374	atrial natriuretic factor	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005609	blood antidiuretic hormone amount	CHEBI:9937	vasopressin	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005660	blood epinephrine amount	CHEBI:28918	(R)-adrenaline	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005663	blood norepinephrine amount	CHEBI:18357	(R)-noradrenaline	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005667	blood leptin amount	PR:000009758	leptin	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0006034	urine myoglobin amount	CHEBI:7044	myoglobin	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT0006076	blood homocysteine amount	CHEBI:17230	homocysteine	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0006084	blood phospholipid amount	CHEBI:16247	phospholipid	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0006274	urine sodium amount	CHEBI:26708	sodium atom	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT0008589	blood interleukin-1 amount	PR:000001091	interleukin-1	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008590	blood interleukin-10 amount	PR:000001471	interleukin-10	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008595	blood interleukin-6 amount	PR:000001393	interleukin-6	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008598	blood interleukin-2 amount	PR:000001379	interleukin-2	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008601	blood interleukin-4 amount	PR:000001391	interleukin-4	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008604	blood interleukin-7 amount	PR:000001317	interleukin-7	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008607	blood interleukin-13 amount	PR:000001370	interleukin-13	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008610	blood interleukin-15 amount	PR:000001373	interleukin-15	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008613	blood interleukin-17 amount	PR:000001092	interleukin-17	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008622	blood interleukin-3 amount	PR:000001387	interleukin-3	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008625	blood interleukin-5 amount	PR:000001392	interleukin-5	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008628	blood interleukin-9 amount	PR:000001396	interleukin-9	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008631	blood interleukin-16 amount	PR:000001374	interleukin-16	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008634	blood interleukin-18 amount	PR:000001376	interleukin-18	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008637	blood interleukin-1 alpha amount	PR:000001135	interleukin-1 alpha	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008640	blood interleukin-1 beta amount	PR:000001136	interleukin-1 beta	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008739	spleen iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0002106	spleen
+OBA:VT0009059	blood interleukin-21 amount	PR:000001382	interleukin-21	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010025	milk fatty acid C12:1(n-3) amount	CHEBI:23867	dodecenoic acid	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010026	milk fatty acid C15:0 amount	CHEBI:42504	pentadecanoic acid	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010029	milk alpha-lactalbumin amount	PR:000009649	alpha-lactalbumin	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010048	muscle saturated fatty acid amount	CHEBI:26607	saturated fatty acid	PATO:0000070	amount	UBERON:0001630	muscle organ
+OBA:VT0010049	muscle unsaturated fatty acid amount	CHEBI:27208	unsaturated fatty acid	PATO:0000070	amount	UBERON:0001630	muscle organ
+OBA:VT0010191	immune system cell quantity	CL:0000738	leukocyte	PATO:0001555	has number of	UBERON:0002405	immune system
+OBA:VT0010267	milk whey acidic protein amount	PR:000017467	whey acidic protein	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010268	milk lactoferrin amount	PR:000009978	lactotransferrin	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010269	colostrum hormone amount	CHEBI:24621	hormone	PATO:0000070	amount	UBERON:0001914	colostrum
+OBA:VT0010270	colostrum steroid amount	CHEBI:35341	steroid	PATO:0000070	amount	UBERON:0001914	colostrum
+OBA:VT0010271	colostrum leptin amount	PR:000009758	leptin	PATO:0000070	amount	UBERON:0001914	colostrum
+OBA:VT0010275	milk hormone amount	CHEBI:24621	hormone	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010276	milk steroid amount	CHEBI:35341	steroid	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010277	milk leptin amount	PR:000009758	leptin	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010281	milk alpha-S1-casein amount	PR:000005940	alpha-S1-casein	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010283	milk kappa-casein amount	PR:000005942	kappa-casein	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010284	milk beta-casein amount	PR:000005941	beta-casein	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010287	milk lactose amount	CHEBI:17716	lactose	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010288	milk mineral amount	CHEBI:46662	mineral	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010290	milk calcium amount	CHEBI:22984	calcium atom	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010291	milk potassium amount	CHEBI:26216	potassium atom	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010292	milk sodium amount	CHEBI:26708	sodium atom	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010293	milk phosphorus amount	CHEBI:28659	phosphorus atom	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010294	milk chloride amount	CHEBI:17996	chloride	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010295	milk magnesium amount	CHEBI:25107	magnesium atom	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010302	blood uric acid amount	CHEBI:27226	uric acid	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010303	milk fatty acid amount	CHEBI:35366	fatty acid	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010304	milk saturated fatty acid amount	CHEBI:26607	saturated fatty acid	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010305	milk unsaturated fatty acid amount	CHEBI:27208	unsaturated fatty acid	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010319	milk fatty acid C20:0 amount	CHEBI:28822	arachidic acid	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010322	milk omega-3 fatty acid amount	CHEBI:25681	omega-3 fatty acid	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010323	milk omega-6 fatty acid amount	CHEBI:36009	omega-6 fatty acid	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010324	milk conjugated linoleic acid amount	CHEBI:61159	conjugated linoleic acid	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010373	milk monounsaturated fatty acid amount	CHEBI:25413	monounsaturated fatty acid	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010374	milk polyunsaturated fatty acid amount	CHEBI:26208	polyunsaturated fatty acid	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010380	milk beta-carotene amount	CHEBI:17579	beta-carotene	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010381	milk retinol amount	CHEBI:50211	retinol	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010382	milk triglyceride amount	CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010383	milk cholesterol amount	CHEBI:16113	cholesterol	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010385	milk diacylglycerol amount	CHEBI:18035	diglyceride	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010386	milk monoacylglycerol amount	CHEBI:17408	monoglyceride	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010387	milk phospholipid amount	CHEBI:16247	phospholipid	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010388	milk polyphenol amount	CHEBI:26195	polyphenol	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010389	milk butyrophilin amount	PR:000001848	butyrophilin	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010399	milk urea amount	CHEBI:16199	urea	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010400	milk ammonia amount	CHEBI:16134	ammonia	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010456	cerebrospinal fluid mineral amount	CHEBI:46662	mineral	PATO:0000070	amount	UBERON:0001359	cerebrospinal fluid
+OBA:VT0010470	pancreas insulin amount	CHEBI:5931	insulin (human)	PATO:0000070	amount	UBERON:0001264	pancreas
+OBA:VT0010484	nervous system serotonin amount	CHEBI:28790	serotonin	PATO:0000070	amount	UBERON:0001016	nervous system
+OBA:VT0010498	liver cholesterol amount	CHEBI:16113	cholesterol	PATO:0000070	amount	UBERON:0002107	liver
+OBA:VT0010502	urine catecholamine amount	CHEBI:33567	catecholamine	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT0010514	blood transferrin amount	PR:000016261	serotransferrin	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010515	blood fibronectin amount	PR:000007581	fibronectin	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010516	blood glutathione amount	CHEBI:16856	glutathione	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010519	liver triglyceride amount	CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0002107	liver
+OBA:VT0015086	urine mineral amount	CHEBI:46662	mineral	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT1000165	milk protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT1000401	muscle androstenone amount	CHEBI:37894	5alpha-androst-16-en-3-one	PATO:0000070	amount	UBERON:0001630	muscle organ
+OBA:VT1000429	muscle lactate amount	CHEBI:24996	lactate	PATO:0000070	amount	UBERON:0001630	muscle organ
+OBA:VT1000430	muscle cholesterol amount	CHEBI:16113	cholesterol	PATO:0000070	amount	UBERON:0001630	muscle organ
+OBA:VT1000431	muscle indole amount	CHEBI:35581	indole	PATO:0000070	amount	UBERON:0001630	muscle organ
+OBA:VT1000432	muscle water amount	CHEBI:15377	water	PATO:0000070	amount	UBERON:0001630	muscle organ
+OBA:VT1000433	muscle protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0001630	muscle organ
+OBA:VT1000434	muscle skatole amount	CHEBI:9171	skatole	PATO:0000070	amount	UBERON:0001630	muscle organ
+OBA:VT1000444	adipose androstenone amount	CHEBI:37894	5alpha-androst-16-en-3-one	PATO:0000070	amount	UBERON:0001013	adipose tissue
+OBA:VT1000479	muscle lipid amount	CHEBI:18059	lipid	PATO:0000070	amount	UBERON:0001630	muscle organ
+OBA:VT1000670	blood cortisol amount	CHEBI:17650	cortisol	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT1000761	muscle nitrogen amount	CHEBI:17997	dinitrogen	PATO:0000070	amount	UBERON:0001630	muscle organ
+OBA:VT1000764	muscle myoglobin amount	CHEBI:7044	myoglobin	PATO:0000070	amount	UBERON:0001630	muscle organ
+OBA:VT0002455	dendritic cell antigen presentation trait	GO:0019882	antigen processing and presentation	PATO:0002045	dendritic	GO:0005623	cell
+OBA:VT0004368	stria vascularis blood vessel morphology trait	UBERON:0001981	blood vessel	PATO:0000051	morphology	UBERON:0002282	stria vascularis of cochlear duct
+OBA:0000103	mitochondrial mRNA stability	SO:0000234	mRNA	OBA:0001001	macromolecular stability	GO:0005739	mitochondrion
+OBA:0000106	mitochondrial rRNA stability	SO:0000252	rRNA	OBA:0001001	macromolecular stability	GO:0005739	mitochondrion
+OBA:0000003	ER calcium ion concentration	CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005783	endoplasmic reticulum
+OBA:0000005	Golgi calcium ion concentration	CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005794	Golgi apparatus
+OBA:0006038		CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005829	cytosol
+OBA:0006039		CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0099524	postsynaptic cytosol

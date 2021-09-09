@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/obophenotype/bio-attribute-ontology.svg?branch=master)](https://travis-ci.org/obophenotype/bio-attribute-ontology)
+![Build Status](https://github.com/obophenotype/bio-attribute-ontology/workflows/CI/badge.svg)
 [![DOI](https://zenodo.org/badge/13996/obophenotype/bio-attribute-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/obophenotype/bio-attribute-ontology)
 
 # OBA: Ontology of Biological Attributes

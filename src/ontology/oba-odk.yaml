@@ -4,6 +4,7 @@ github_org: obophenotype
 repo: bio-attribute-ontology
 report_fail_on: ERROR
 edit_format: obo
+use_dosdps: TRUE
 export_formats:
   - owl
   - obo
