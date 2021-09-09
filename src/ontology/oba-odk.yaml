@@ -1,0 +1,28 @@
+id: oba
+title: "Ontology of Biological Attributes (OBA)"
+github_org: obophenotype
+repo: bio-attribute-ontology
+report_fail_on: ERROR
+edit_format: obo
+export_formats:
+  - owl
+  - obo
+  - json
+release_artefacts:
+  - base
+  - full
+primary_release: full
+import_group:
+  products:
+    - id: ro
+    - id: chebi
+      mirror_from: http://purl.obolibrary.org/obo/chebi.owl.gz
+    - id: go
+    - id: pato
+    - id: omo
+    - id: uberon
+    - id: cl
+    - id: pr
+    - id: so
+    - id: po
+robot_java_args: '-Xmx8G'

@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/oba
+
+idspace: OBA
+base_url: /obo/oba
+
+products:
+- oba.owl: https://raw.githubusercontent.com/obophenotype/bio-attribute-ontology/main/oba.owl
+- oba.obo: https://raw.githubusercontent.com/obophenotype/bio-attribute-ontology/main/oba.obo
+
+term_browser: ontobee
+example_terms:
+- OBA_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/obophenotype/bio-attribute-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/obophenotype/bio-attribute-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/OBA?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/obophenotype/bio-attribute-ontology/main/
