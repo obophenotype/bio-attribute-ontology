@@ -1,0 +1,43 @@
+pattern_name: disease age of onset
+
+pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml
+
+description: 'Age at which disease manifestations firts appear.'
+
+contributors:
+- https://orcid.org/0000-0002-5460-8025
+- https://orcid.org/0000-0002-7073-9172
+
+classes:
+  disease: MONDO:0000001
+  onset: HP:0011007 #age at onset - despite being an HP term this is not a phenotype
+
+relations:
+  inheres in: RO:0000052
+
+vars:
+  disease: "'disease'"
+
+name:
+  text: age of onset of %s
+  vars:
+  - disease
+
+generated_synonyms:
+  - text: age %s symptoms begin
+    vars:
+      - disease
+
+  - text: age at onset of %s
+    vars:
+      - disease
+
+def:
+  text: "The age at which %s manifestations first appear."
+  vars:
+  - disease
+
+equivalentTo:
+  text: "'onset' and 'inheres in' some %s"
+  vars:
+  - disease
