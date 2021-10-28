@@ -8,6 +8,7 @@ import: http://purl.obolibrary.org/obo/oba/imports/cl_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/go_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/pato_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/po_import.owl
+import: http://purl.obolibrary.org/obo/oba/imports/nbo_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/pr_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/so_import.owl
@@ -1273,7 +1274,7 @@ created_by: cjmungall
 creation_date: 2015-09-29T15:36:19Z
 
 [Term]
-id:OBA:1001088
+id: OBA:1001088
 name: obsolete race
 is_obsolete: true
 

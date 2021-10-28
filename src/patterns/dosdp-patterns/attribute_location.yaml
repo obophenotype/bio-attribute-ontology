@@ -1,14 +1,29 @@
-pattern_name: oba/patterns/attribute_location
-classes: []
+pattern_name: attribute_location
+
+pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml
+
+description: '
+
+  Basic pattern for traits that captures a quality, such as size or rate which is a 
+  characteristic of an entity which is part of something, such as a OBA:VT0005369 muscular system trait.'
+
+classes:
+  quality: PATO:0000001
+  thing: owl:Thing
 
 relations:
-  part of: BFO_0000050
-  inheres in: RO_0000052
-  inheres in part of: RO_0002314
-    
+  part_of: BFO:0000050
+  characteristic_of: RO:0000052
+  characteristic_of_part_of: RO:0002314
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+  xref: oio:hasDbXref
+
 vars: 
-  attribute: "'Thing'"
-  location: "'Thing'"
+  attribute: "'quality'"
+  location: "'thing'"
 
 name:
   text: "%s in %s"
@@ -17,20 +32,26 @@ name:
     - attribute   
 
 annotations: 
-  - property: oio:hasExactSynonym
+  - annotationProperty: exact_synonym
     text: "%s %s"
     vars:
       - location
       - attribute
+    annotations:
+      - annotationProperty: xref
+        text: "AUTO:patterns/patterns/attribute_location"
 
 def: 
   text: "The %s when measured in %s."
   vars:
     - attribute
     - location
+  annotations:
+    - annotationProperty: xref
+      text: "AUTO:patterns/patterns/attribute_location"
     
 equivalentTo: 
-  text: "%s and 'inheres in' some %s"
+  text: "%s and 'characteristic_of' some %s"
   vars:
     - attribute
     - location

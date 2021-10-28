@@ -17,13 +17,17 @@ import_group:
   products:
     - id: ro
     - id: chebi
-      mirror_from: http://purl.obolibrary.org/obo/chebi.owl.gz
+      is_large: TRUE
+      use_gzip: TRUE
     - id: go
     - id: pato
     - id: omo
     - id: uberon
     - id: cl
+    - id: nbo
     - id: pr
+      is_large: TRUE
+      use_gzip: TRUE
     - id: so
     - id: po
 robot_java_args: '-Xmx8G'

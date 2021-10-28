@@ -1,4 +1,4 @@
-iri	iri label	entity	entity label	attribute	attribute label
+defined_class	defined_class_name	entity	entity_name	attribute	attribute_name
 OBA:0100001	cellular component attribute	GO:0005575	cellular_component	PATO:0000001	quality
 OBA:0100002	biological process attribute	GO:0008150	biological_process	PATO:0000001	quality
 OBA:0100003	anatomical entity attribute	UBERON:0001062	anatomical entity	PATO:0000001	quality
@@ -7297,10 +7297,9 @@ OBA:1001081		UBERON:0000358	blastocyst	PATO:0000051	morphology
 OBA:1001082		UBERON:0002292	costovertebral joint	PATO:0000051	morphology
 OBA:1001083		UBERON:0003709	circle of Willis	PATO:0000051	morphology
 OBA:1001084		UBERON:0001988	feces	PATO:0002027	osmolality
-OBA:1001085	waist circumference	PATO:0001648	circumference	UBERON:0002417	abdominal section of trunk
-OBA:1001086	QRS duration	PATO:0001309	duration	EFO:0005054	QRS complex
-OBA:1001087	heart rate	PATO:0000161	rate	GO:0060047	heart contraction
-OBA:1001089	multicellulare organism sex	PATO:0000047	UBERON:0000468	multicellular organism
+OBA:1001085	waist circumference	UBERON:0002417	abdominal section of trunk	PATO:0001648	circumference
+OBA:1001086	QRS duration	EFO:0005054	QRS complex	PATO:0001309	duration
+OBA:1001087	heart rate	GO:0060047	heart contraction	PATO:0000161	rate
 OBA:1001089	multicellular organism sex	UBERON:0000468	multicellular organism	PATO:0000047	sex
 OBA:1001090	feather color	UBERON:0000022	feather	PATO:0000014	color
 OBA:1001091	egg shell trait	UBERON:0005079	eggshell	PATO:0000001	quality

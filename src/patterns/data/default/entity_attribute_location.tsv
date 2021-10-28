@@ -1,4 +1,4 @@
-iri	iri label	entity	entity label	attribute	attribute label	location	location label
+defined_class	defined_class_name	entity	entity_name	attribute	attribute_name	location	location_name
 OBA:0000016	angiotensin levels in blood	PR:000036009	angiotensin II	PATO:0000070	amount	UBERON:0000178	blood
 OBA:0000090	lung blood pressure	UBERON:0000178	blood	PATO:0001025	pressure	UBERON:0002048	lung
 OBA:0000098	membrane lipid distribution	CHEBI:18059	lipid	PATO:0000060	spatial pattern	GO:0016020	membrane

@@ -1,14 +1,29 @@
-pattern_name: oba/patterns/entity_attribute
-classes: []
+pattern_name: entity_attribute
+
+pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/entity_attribute.yaml
+
+description: '
+
+  Basic pattern for traits that captures a quality, such as size or rate which is a 
+  characteristic of an entity, such as an anatomical entity or a biological process.'
+
+classes:
+  quality: PATO:0000001
+  thing: owl:Thing
 
 relations:
-  part of: BFO_0000050
-  inheres in: RO_0000052
-  inheres in part of: RO_0002314
-    
+  part_of: BFO:0000050
+  characteristic_of: RO:0000052
+  characteristic_of_part_of: RO:0002314
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+  xref: oio:hasDbXref
+
 vars: 
-  entity: "'Thing'"
-  attribute: "'Thing'"
+  attribute: "'quality'"
+  entity: "'thing'"
 
 name:
   text: "%s %s"
@@ -17,33 +32,38 @@ name:
     - attribute
 
 annotations: 
-  - property: oio:hasExactSynonym
+  - annotationProperty: exact_synonym
     text: "%s of %s"
     vars:
       - attribute
       - entity
+    annotations:
+      - annotationProperty: xref
+        text: "AUTO:patterns/patterns/entity_attribute"
 
 def: 
   text: "The %s of a %s."
   vars:
     - attribute
     - entity
-    
+  annotations:
+    - annotationProperty: xref
+      text: "AUTO:patterns/patterns/entity_attribute"
+
 equivalentTo: 
-  text: "%s and 'inheres in' some %s"
+  text: "%s and 'characteristic_of' some %s"
   vars:
     - attribute
     - entity
 
-# (Q and inheres_in some part-of some W) SubClassOf part-of some (Q and inheres-in some W)
+# (Q and characteristic_of some part-of some W) SubClassOf part-of some (Q and characteristic_of-in some W)
 # https://github.com/obophenotype/bio-attribute-ontology/issues/8
-axioms: 
-  - syntax: ofn
-    text: "SubClassOf(ObjectIntersectionOf(%s ObjectSomeValuesFrom(:'inheres in' ObjectSomeValuesFrom(:'part of' %s))) ObjectSomeValuesFrom(:'part of' ObjectIntersectionOf(%s ObjectSomeValuesFrom(:'inheres in' %s))))" 
+logical_axioms:
+  - axiom_type: GCI
+    text: "%s and ('characteristic_of' some ('part_of' some %s)) SubClassOf 'part_of' some (%s and 'characteristic_of' some %s)" 
     vars:
       - attribute
       - entity
       - attribute
       - entity
-    
 
