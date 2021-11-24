@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: oba/releases/2021-10-28/oba-base.owl
+data-version: oba/releases/2021-11-24/oba-base.owl
 date: 13:11:2015 10:21
 saved-by: cjmungall
 auto-generated-by: TermGenie 1.0
@@ -9,7 +9,7 @@ property_value: http://purl.org/dc/elements/1.1/description "A collection of bio
 property_value: http://purl.org/dc/elements/1.1/title "Ontology of Biological Attributes (OBA)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2021-10-28" xsd:string
+property_value: owl:versionInfo "2021-11-24" xsd:string
 property_value: property-value "foaf-homepage \"http://wiki.geneontology.org/index.php/Extensions/x-attribute\" xsd:anyURL" xsd:string
 
 [Term]
