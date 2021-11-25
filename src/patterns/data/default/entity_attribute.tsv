@@ -2170,27 +2170,27 @@ OBA:VT0006108	hindbrain development trait	GO:0030902	hindbrain development	PATO:
 OBA:VT0006279	limb development trait	GO:0060173	limb development	PATO:0000001	quality
 OBA:VT0008088	T-helper 1 cell differentiation trait	GO:0045063	T-helper 1 cell differentiation	PATO:0000001	quality
 OBA:VT0008092	T-helper 2 cell differentiation trait	GO:0045064	T-helper 2 cell differentiation	PATO:0000001	quality
-OBA:VT0008557	interferon-alpha secretion trait	GO:0072642	interferon-alpha secretion	PATO:0000001	quality
-OBA:VT0008558	interferon-beta secretion trait	GO:0035546	interferon-beta secretion	PATO:0000001	quality
-OBA:VT0008559	interferon-gamma secretion trait	GO:0072643	interferon-gamma secretion	PATO:0000001	quality
-OBA:VT0008650	interleukin-1 secretion trait	GO:0050701	interleukin-1 secretion	PATO:0000001	quality
-OBA:VT0008653	interleukin-1 alpha secretion trait	GO:0050703	interleukin-1 alpha secretion	PATO:0000001	quality
-OBA:VT0008656	interleukin-1 beta secretion trait	GO:0050702	interleukin-1 beta secretion	PATO:0000001	quality
-OBA:VT0008659	interleukin-10 secretion trait	GO:0072608	interleukin-10 secretion	PATO:0000001	quality
-OBA:VT0008662	interleukin-12 secretion trait	GO:0072610	interleukin-12 secretion	PATO:0000001	quality
-OBA:VT0008671	interleukin-13 secretion trait	GO:0072611	interleukin-13 secretion	PATO:0000001	quality
-OBA:VT0008674	interleukin-15 secretion trait	GO:0072613	interleukin-15 secretion	PATO:0000001	quality
-OBA:VT0008677	interleukin-16 secretion trait	GO:0072614	interleukin-16 secretion	PATO:0000001	quality
-OBA:VT0008680	interleukin-17 secretion trait	GO:0072615	interleukin-17 secretion	PATO:0000001	quality
-OBA:VT0008683	interleukin-18 secretion trait	GO:0072616	interleukin-18 secretion	PATO:0000001	quality
-OBA:VT0008686	interleukin-2 secretion trait	GO:0070970	interleukin-2 secretion	PATO:0000001	quality
-OBA:VT0008689	interleukin-23 secretion trait	GO:0072621	interleukin-23 secretion	PATO:0000001	quality
-OBA:VT0008695	interleukin-3 secretion trait	GO:0072601	interleukin-3 secretion	PATO:0000001	quality
-OBA:VT0008698	interleukin-4 secretion trait	GO:0072602	interleukin-4 secretion	PATO:0000001	quality
-OBA:VT0008701	interleukin-5 secretion trait	GO:0072603	interleukin-5 secretion	PATO:0000001	quality
-OBA:VT0008704	interleukin-6 secretion trait	GO:0072604	interleukin-6 secretion	PATO:0000001	quality
-OBA:VT0008707	interleukin-7 secretion trait	GO:0072605	interleukin-7 secretion	PATO:0000001	quality
-OBA:VT0008710	interleukin-9 secretion trait	GO:0072607	interleukin-9 secretion	PATO:0000001	quality
+OBA:VT0008557	interferon-alpha secretion trait	GO:0032607	interferon-alpha production	PATO:0000001	quality
+OBA:VT0008558	interferon-beta secretion trait	GO:0032608	interferon-beta production	PATO:0000001	quality
+OBA:VT0008559	interferon-gamma secretion trait	GO:0032609	interferon-gamma production	PATO:0000001	quality
+OBA:VT0008650	interleukin-1 secretion trait	GO:0032612	interleukin-1 production	PATO:0000001	quality
+OBA:VT0008653	interleukin-1 alpha secretion trait	GO:0032610	interleukin-1 alpha production	PATO:0000001	quality
+OBA:VT0008656	interleukin-1 beta secretion trait	GO:0032611	interleukin-1 beta production	PATO:0000001	quality
+OBA:VT0008659	interleukin-10 secretion trait	GO:0032613	interleukin-10 production	PATO:0000001	quality
+OBA:VT0008662	interleukin-12 secretion trait	GO:0032615	interleukin-12 production	PATO:0000001	quality
+OBA:VT0008671	interleukin-13 secretion trait	GO:0032616	interleukin-13 production	PATO:0000001	quality
+OBA:VT0008674	interleukin-15 secretion trait	GO:0032618	interleukin-15 production	PATO:0000001	quality
+OBA:VT0008677	interleukin-16 secretion trait	GO:0032619	interleukin-16 production	PATO:0000001	quality
+OBA:VT0008680	interleukin-17 secretion trait	GO:0032620	interleukin-17 production	PATO:0000001	quality
+OBA:VT0008683	interleukin-18 secretion trait	GO:0032621	interleukin-18 production	PATO:0000001	quality
+OBA:VT0008686	interleukin-2 secretion trait	GO:0032623	interleukin-2 production	PATO:0000001	quality
+OBA:VT0008689	interleukin-23 secretion trait	GO:0032627	interleukin-23 production	PATO:0000001	quality
+OBA:VT0008695	interleukin-3 secretion trait	GO:0032632	interleukin-3 production	PATO:0000001	quality
+OBA:VT0008698	interleukin-4 secretion trait	GO:0032633	interleukin-4 production	PATO:0000001	quality
+OBA:VT0008701	interleukin-5 secretion trait	GO:0032634	interleukin-5 production	PATO:0000001	quality
+OBA:VT0008704	interleukin-6 secretion trait	GO:0032635	interleukin-6 production	PATO:0000001	quality
+OBA:VT0008707	interleukin-7 secretion trait	GO:0032636	interleukin-7 production	PATO:0000001	quality
+OBA:VT0008710	interleukin-9 secretion trait	GO:0032638	interleukin-9 production	PATO:0000001	quality
 OBA:VT0008724	eosinophil migration trait	GO:0072677	eosinophil migration	PATO:0000001	quality
 OBA:VT0008744	B cell anergy trait	GO:0002515	B cell anergy	PATO:0000001	quality
 OBA:VT0008745	central B cell anergy trait	GO:0002341	central B cell anergy	PATO:0000001	quality
@@ -2200,7 +2200,7 @@ OBA:VT0008755	immunoglobulin V(D)J recombination trait	GO:0033152	immunoglobulin
 OBA:VT0008761	immunoglobulin light chain V-J recombination trait	GO:0071708	immunoglobulin light chain V-J recombination	PATO:0000001	quality
 OBA:VT0008766	B cell receptor editing trait	GO:0002452	B cell receptor editing	PATO:0000001	quality
 OBA:VT0008778	lymphangiogenesis trait	GO:0001946	lymphangiogenesis	PATO:0000001	quality
-OBA:VT0009056	interleukin-21 secretion trait	GO:0072619	interleukin-21 secretion	PATO:0000001	quality
+OBA:VT0009056	interleukin-21 secretion trait	GO:0032625	interleukin-21 production	PATO:0000001	quality
 OBA:VT0009323	spleen development trait	GO:0048536	spleen development	PATO:0000001	quality
 OBA:VT0009858	cellular extravasation trait	GO:0045123	cellular extravasation	PATO:0000001	quality
 OBA:VT0010005	bone development trait	GO:0060348	bone development	PATO:0000001	quality
@@ -4257,7 +4257,7 @@ OBA:0003939		UBERON:0006618	atrium auricular region	PATO:0002005	concavity
 OBA:0003940		UBERON:0004021	spongiotrophoblast layer	PATO:0000051	morphology
 OBA:0003941		UBERON:0000468	multicellular organism	PATO:0001230	strength
 OBA:0003942		UBERON:0001987	placenta	PATO:0000017	color saturation
-OBA:0003943		GO:0005605	basal lamina	PATO:0000051	morphology
+OBA:0003943		GO:0005604	basement membrane	PATO:0000051	morphology
 OBA:0003944		UBERON:0010404	lateral ventricle subependymal layer	PATO:0000051	morphology
 OBA:0003945		UBERON:0004367	Descemet's membrane	PATO:0000070	amount
 OBA:0003946		UBERON:0002824	vestibular ganglion	PATO:0002037	degeneration
@@ -4765,9 +4765,9 @@ OBA:0004449		UBERON:0004044	anterior visceral endoderm	PATO:0000051	morphology
 OBA:0004450		UBERON:0001869	cerebral hemisphere	PATO:0000051	morphology
 OBA:0004451		GO:0007608	sensory perception of smell	PATO:0000161	rate
 OBA:0004452		GO:0036126	sperm flagellum	PATO:0000070	amount
-OBA:0004453		GO:0072642	interferon-alpha secretion	PATO:0000161	rate
-OBA:0004454		GO:0035546	interferon-beta secretion	PATO:0000161	rate
-OBA:0004455		GO:0072643	interferon-gamma secretion	PATO:0000161	rate
+OBA:0004453		GO:0032607	interferon-alpha production	PATO:0000161	rate
+OBA:0004454		GO:0032608	interferon-beta production	PATO:0000161	rate
+OBA:0004455		GO:0032609	interferon-gamma production	PATO:0000161	rate
 OBA:0004456		GO:0043195	terminal bouton	PATO:0000051	morphology
 OBA:0004457		GO:0001917	photoreceptor inner segment	PATO:0002037	degeneration
 OBA:0004458		GO:0001917	photoreceptor inner segment	PATO:0002264	organization quality
@@ -4777,24 +4777,24 @@ OBA:0004461		GO:0001750	photoreceptor outer segment	PATO:0002037	degeneration
 OBA:0004462		GO:0001750	photoreceptor outer segment	PATO:0000070	amount
 OBA:0004463		GO:0001750	photoreceptor outer segment	PATO:0002264	organization quality
 OBA:0004464		GO:0001750	photoreceptor outer segment	PATO:0000122	length
-OBA:0004465		GO:0050701	interleukin-1 secretion	PATO:0000161	rate
-OBA:0004466		GO:0050703	interleukin-1 alpha secretion	PATO:0000161	rate
-OBA:0004467		GO:0050702	interleukin-1 beta secretion	PATO:0000161	rate
-OBA:0004468		GO:0072608	interleukin-10 secretion	PATO:0000161	rate
-OBA:0004469		GO:0072610	interleukin-12 secretion	PATO:0000161	rate
-OBA:0004470		GO:0072611	interleukin-13 secretion	PATO:0000161	rate
-OBA:0004471		GO:0072613	interleukin-15 secretion	PATO:0000161	rate
-OBA:0004472		GO:0072614	interleukin-16 secretion	PATO:0000161	rate
-OBA:0004473		GO:0072615	interleukin-17 secretion	PATO:0000161	rate
-OBA:0004474		GO:0072616	interleukin-18 secretion	PATO:0000161	rate
-OBA:0004475		GO:0070970	interleukin-2 secretion	PATO:0000161	rate
-OBA:0004476		GO:0072621	interleukin-23 secretion	PATO:0000161	rate
-OBA:0004477		GO:0072601	interleukin-3 secretion	PATO:0000161	rate
-OBA:0004478		GO:0072602	interleukin-4 secretion	PATO:0000161	rate
-OBA:0004479		GO:0072603	interleukin-5 secretion	PATO:0000161	rate
-OBA:0004480		GO:0072604	interleukin-6 secretion	PATO:0000161	rate
-OBA:0004481		GO:0072605	interleukin-7 secretion	PATO:0000161	rate
-OBA:0004482		GO:0072607	interleukin-9 secretion	PATO:0000161	rate
+OBA:0004465		GO:0032612	interleukin-1 production	PATO:0000161	rate
+OBA:0004466		GO:0032610	interleukin-1 alpha production	PATO:0000161	rate
+OBA:0004467		GO:0032611	interleukin-1 beta production	PATO:0000161	rate
+OBA:0004468		GO:0032613	interleukin-10 production	PATO:0000161	rate
+OBA:0004469		GO:0032615	interleukin-12 production	PATO:0000161	rate
+OBA:0004470		GO:0032616	interleukin-13 production	PATO:0000161	rate
+OBA:0004471		GO:0032618	interleukin-15 production	PATO:0000161	rate
+OBA:0004472		GO:0032619	interleukin-16 production	PATO:0000161	rate
+OBA:0004473		GO:0032620	interleukin-17 production	PATO:0000161	rate
+OBA:0004474		GO:0032621	interleukin-18 production	PATO:0000161	rate
+OBA:0004475		GO:0032623	interleukin-2 production	PATO:0000161	rate
+OBA:0004476		GO:0032627	interleukin-23 production	PATO:0000161	rate
+OBA:0004477		GO:0032632	interleukin-3 production	PATO:0000161	rate
+OBA:0004478		GO:0032633	interleukin-4 production	PATO:0000161	rate
+OBA:0004479		GO:0032634	interleukin-5 production	PATO:0000161	rate
+OBA:0004480		GO:0032635	interleukin-6 production	PATO:0000161	rate
+OBA:0004481		GO:0032636	interleukin-7 production	PATO:0000161	rate
+OBA:0004482		GO:0032638	interleukin-9 production	PATO:0000161	rate
 OBA:0004483		GO:0030593	neutrophil chemotaxis	PATO:0000161	rate
 OBA:0004484		GO:0048245	eosinophil chemotaxis	PATO:0000161	rate
 OBA:0004485		GO:0002870	T cell anergy	PATO:0000140	position
@@ -4908,7 +4908,7 @@ OBA:0004593		UBERON:0001287	proximal convoluted tubule	PATO:0000117	size
 OBA:0004594		UBERON:0001292	distal convoluted tubule	PATO:0000117	size
 OBA:0004595		UBERON:0000159	anal canal	PATO:0000051	morphology
 OBA:0004596		UBERON:0001244	internal anal sphincter	PATO:0000051	morphology
-OBA:0004597		GO:0072619	interleukin-21 secretion	PATO:0000161	rate
+OBA:0004597		GO:0032625	interleukin-21 production	PATO:0000161	rate
 OBA:0004598		UBERON:0003889	fallopian tube	PATO:0000128	weight
 OBA:0004599		UBERON:0003974	upper part of vagina	PATO:0000070	amount
 OBA:0004600		UBERON:0003074	mesonephric duct	PATO:0000070	amount
@@ -5836,7 +5836,7 @@ OBA:0005522		GO:0010761	fibroblast migration	PATO:0000057	occurrence
 OBA:0005523		GO:0010761	fibroblast migration	PATO:0000161	rate
 OBA:0005524		GO:0001649	osteoblast differentiation	PATO:0000161	rate
 OBA:0005525		GO:0001649	osteoblast differentiation	PATO:0000070	amount
-OBA:0005526		GO:0072606	interleukin-8 secretion	PATO:0000161	rate
+OBA:0005526		GO:0032637	interleukin-8 production	PATO:0000161	rate
 OBA:0005527		CL:0000540	neuron	PATO:0002181	displaced
 OBA:0005528		CL:0002609	neuron of cerebral cortex	PATO:0002181	displaced
 OBA:0005529		CL:0000695	Cajal-Retzius cell	PATO:0002181	displaced
@@ -6077,14 +6077,14 @@ OBA:0005763		UBERON:0001821	sebaceous gland	PATO:0000070	amount
 OBA:0005764		UBERON:0005253	head mesenchyme	PATO:0000070	amount
 OBA:0005765		UBERON:0005253	head mesenchyme	PATO:0000117	size
 OBA:0005766		GO:0005929	cilium	PATO:0000051	morphology
-OBA:0005767		GO:0072372	primary cilium	PATO:0000051	morphology
-OBA:0005768		GO:0031513	nonmotile primary cilium	PATO:0000051	morphology
+OBA:0005767		GO:0005929	cilium	PATO:0000051	morphology
+OBA:0005768		GO:0097730	non-motile cilium	PATO:0000051	morphology
 OBA:0005769		GO:0031514	motile cilium	PATO:0000051	morphology
 OBA:0005770		UBERON:0000925	endoderm	PATO:0000070	amount
 OBA:0005771		GO:0005929	cilium	PATO:0001509	functionality
 OBA:0005772		GO:0031514	motile cilium	PATO:0001509	functionality
-OBA:0005773		GO:0072372	primary cilium	PATO:0001509	functionality
-OBA:0005774		GO:0031513	nonmotile primary cilium	PATO:0001509	functionality
+OBA:0005773		GO:0005929	cilium	PATO:0001509	functionality
+OBA:0005774		GO:0097730	non-motile cilium	PATO:0001509	functionality
 OBA:0005775		UBERON:0000924	ectoderm	PATO:0000070	amount
 OBA:0005776		UBERON:0001966	substantia nigra pars reticulata	PATO:0000051	morphology
 OBA:0005777		UBERON:0001965	substantia nigra pars compacta	PATO:0000051	morphology
