@@ -361,7 +361,7 @@ mirror/uberon.owl: mirror/uberon.trigger
 mirror/cl.trigger: $(SRC)
 
 mirror/cl.owl: mirror/cl.trigger
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/cl.owl --create-dirs -o mirror/cl.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/cl.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I http://purl.obolibrary.org/obo/cl/cl-basic.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: mirror/cl.owl
 
 
