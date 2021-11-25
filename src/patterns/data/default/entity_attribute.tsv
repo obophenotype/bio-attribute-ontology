@@ -23,7 +23,6 @@ OBA:0000061	circulating fibrinogen levels	GO:0005577	fibrinogen complex	PATO:000
 OBA:0000066	direction of cell growth	GO:0016049	cell growth	PATO:0000039	direction
 OBA:0000067	embryonic cell shape	CL:0002321	embryonic cell	PATO:0000052	shape
 OBA:0000068	endosome size	GO:0005768	endosome	PATO:0000117	size
-OBA:0000074	heart contraction rate	GO:0060047	heart contraction	PATO:0000161	rate
 OBA:0000079	hormone levels	CHEBI:24621	hormone	PATO:0000070	amount
 OBA:0000084	imaginal disc-derived wing size	UBERON:0000984	imaginal disc-derived wing	PATO:0000117	size
 OBA:0000088	liquid surface tension	PATO:0001735	liquid configuration	PATO:0001461	surface tension
@@ -4424,7 +4423,7 @@ OBA:0004106		UBERON:0004819	kidney epithelium	PATO:0000117	size
 OBA:0004107		UBERON:0002113	kidney	PATO:0000017	color saturation
 OBA:0004108		CL:0000815	regulatory T cell	PATO:0000070	amount
 OBA:0004109		CL:0000819	B-1 B cell	PATO:0000070	amount
-OBA:0004110		CL:0000337	neuroblast (sensu Vertebrata)	PATO:0000070	amount
+OBA:0004110		CL:0000031	neuroblast (sensu Vertebrata)	PATO:0000070	amount
 OBA:0004111		CL:0000092	osteoclast	PATO:0000070	amount
 OBA:0004112		CL:0000062	osteoblast	PATO:0000070	amount
 OBA:0004113		UBERON:0002058	main ciliary ganglion	PATO:0000051	morphology
@@ -6455,7 +6454,6 @@ OBA:1000238		CL:0000128	oligodendrocyte	PATO:0000001	quality
 OBA:1000239		UBERON:0013698	strand of pubic hair	PATO:0000001	quality
 OBA:1000240		UBERON:0004336	proximal phalanx of pedal digit 5	PATO:0000001	quality
 OBA:1000241		UBERON:0001766	anterior chamber of eyeball	PATO:0000001	quality
-OBA:1000242		UBERON:0001004	respiratory system	PATO:0000001	quality
 OBA:1000243		CL:0000766	myeloid leukocyte	PATO:0000001	quality
 OBA:1000244		UBERON:0002372	tonsil	PATO:0000001	quality
 OBA:1000245		UBERON:0001647	facial nerve	PATO:0000001	quality
@@ -6654,7 +6652,6 @@ OBA:1000437		UBERON:0001817	lacrimal gland	PATO:0000001	quality
 OBA:1000438		UBERON:0003704	intrahepatic bile duct	PATO:0000001	quality
 OBA:1000439		UBERON:0004367	Descemet's membrane	PATO:0000001	quality
 OBA:1000440		UBERON:0007722	interphalangeal joint of manus	PATO:0000001	quality
-OBA:1000441		UBERON:0000990	reproductive system	PATO:0000001	quality
 OBA:1000442		UBERON:0007416	cerebellar peduncle	PATO:0000001	quality
 OBA:1000443		NBO:0000120	physical aggression behavior	PATO:0000001	quality
 OBA:1000444		UBERON:0005956	outflow part of left ventricle	PATO:0000001	quality
@@ -6797,7 +6794,6 @@ OBA:1000580		UBERON:0001814	brachial nerve plexus	PATO:0000001	quality
 OBA:1000581		UBERON:0001850	lacrimal drainage system	PATO:0000001	quality
 OBA:1000582		GO:0009437	carnitine metabolic process	PATO:0000001	quality
 OBA:1000583		GO:0019752	carboxylic acid metabolic process	PATO:0000001	quality
-OBA:1000584		UBERON:0001016	nervous system	PATO:0000001	quality
 OBA:1000585		GO:0006801	superoxide metabolic process	PATO:0000001	quality
 OBA:1000586		UBERON:0002375	cricoid cartilage	PATO:0000001	quality
 OBA:1000587		UBERON:0004100	renal collecting system	PATO:0000001	quality

@@ -12,6 +12,7 @@ export_formats:
 release_artefacts:
   - base
   - full
+  - basic
 primary_release: full
 import_group:
   products:
@@ -23,6 +24,7 @@ import_group:
     - id: pato
     - id: omo
     - id: uberon
+      mirror_from: http://purl.obolibrary.org/obo/uberon/basic.owl
     - id: cl
     - id: nbo
     - id: pr
@@ -30,4 +32,16 @@ import_group:
       use_gzip: TRUE
     - id: so
     - id: po
+#Not an offical component, so we should not merge it along with the rest
+components:
+  products:
+    - filename: obsoletes.owl
+#    - filename: reasoner_axioms.owl
+subset_group:
+  products:
+    - id: obo-basic
+robotemplate_group:
+  products:
+    - id: obsoletes.owl
 robot_java_args: '-Xmx8G'
+allow_equivalents: all

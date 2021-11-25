@@ -1,0 +1,7 @@
+Ontology ID	Type	Label	Obsolete	Replacement Term
+ID	TYPE	A rdfs:label	AT owl:deprecated^^xsd:boolean	AI IAO:0100001
+http://purl.obolibrary.org/obo/OBA_1000584	owl:Class	obsolete nervous system quality	TRUE	http://purl.obolibrary.org/obo/OBA_VT1000781
+http://purl.obolibrary.org/obo/OBA_0000074	owl:Class	obsolete heart contraction rate	TRUE	http://purl.obolibrary.org/obo/OBA_1001087
+http://purl.obolibrary.org/obo/OBA_1000441	owl:Class	obsolete reproductive system quality	TRUE	http://purl.obolibrary.org/obo/OBA_VT0005389
+http://purl.obolibrary.org/obo/OBA_1000242	owl:Class	obsolete respiratory system quality	TRUE	http://purl.obolibrary.org/obo/OBA_VT0005388
+http://purl.obolibrary.org/obo/OBA_VT0004271	owl:Class	obsolete paw/hand/foot/hoof morphology trait	TRUE	http://purl.obolibrary.org/obo/OBA_OBA_VT0000572

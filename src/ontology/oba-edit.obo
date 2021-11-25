@@ -12,6 +12,8 @@ import: http://purl.obolibrary.org/obo/oba/imports/nbo_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/pr_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/so_import.owl
+import: http://purl.obolibrary.org/obo/oba/components/definitions.owl
+import: http://purl.obolibrary.org/obo/oba/components/obsoletes.owl
 ontology: oba
 
 property_value: http://purl.org/dc/elements/1.1/description "A collection of biological attributes (traits) covering all kingdoms of life. Interoperable with VT (vertebrate trait ontology) and TO (plant trait ontology). Extends PATO." xsd:string
