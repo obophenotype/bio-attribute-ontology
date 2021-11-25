@@ -8,8 +8,11 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<urn:unnamed:ontology#ont1>
 
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0011007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/entity_attribute.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/entity_attribute_location.yaml>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
@@ -32,6 +35,15 @@ AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/attribute_location"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> "'thing' 'quality'"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> "'thing' in 'quality'"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> owl:Thing)))
+
+# Class: <http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> (age of onset of 'disease')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> "The age at which 'disease' manifestations first appear."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> "disease age of onset"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> "age 'disease' symptoms begin"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> "age at onset of 'disease'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> "age of onset of 'disease'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HP_0011007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/MONDO_0000001>)))
 
 # Class: <http://purl.obolibrary.org/obo/oba/patterns/entity_attribute.yaml> ('thing' 'quality')
 

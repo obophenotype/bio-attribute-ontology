@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: oba/releases/2021-11-24/oba-base.owl
+data-version: oba/releases/2021-11-25/oba-base.owl
 date: 13:11:2015 10:21
 saved-by: cjmungall
 auto-generated-by: TermGenie 1.0
@@ -9,7 +9,7 @@ property_value: http://purl.org/dc/elements/1.1/description "A collection of bio
 property_value: http://purl.org/dc/elements/1.1/title "Ontology of Biological Attributes (OBA)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2021-11-24" xsd:string
+property_value: owl:versionInfo "2021-11-25" xsd:string
 property_value: property-value "foaf-homepage \"http://wiki.geneontology.org/index.php/Extensions/x-attribute\" xsd:anyURL" xsd:string
 
 [Term]
@@ -144,8 +144,8 @@ intersection_of: inheres_in CHEBI:39124
 [Term]
 id: OBA:0000046
 name: cardiac muscle cell membrane potential
-def: "The http://purl.obolibrary.org/obo/OBA_0000099 of a cardiac muscle cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0000099 of cardiac muscle cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The membrane potential of a cardiac muscle cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "membrane potential of cardiac muscle cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000099 ! membrane potential
 intersection_of: OBA:0000099 ! membrane potential
 intersection_of: inheres_in CL:0000746
@@ -273,20 +273,17 @@ is_a: OBA:0000125 ! post-synaptic membrane potential
 [Term]
 id: OBA:0000072
 name: follicle cell microvillus length
-def: "The http://purl.obolibrary.org/obo/OBA_0000102 of a ovarian follicle cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0000102 of ovarian follicle cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The microvillus length of a ovarian follicle cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "microvillus length of ovarian follicle cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000102 ! microvillus length
 intersection_of: OBA:0000102 ! microvillus length
 intersection_of: inheres_in CL:0000477
 
 [Term]
 id: OBA:0000074
-name: heart contraction rate
-def: "The rate of a heart contraction." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of heart contraction" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: obsolete heart contraction rate
 is_a: OBA:0000001
-intersection_of: PATO:0000161
-intersection_of: inheres_in GO:0060047
+replaced_by: OBA:1001087
 
 [Term]
 id: OBA:0000079
@@ -374,8 +371,8 @@ intersection_of: inheres_in GO:0016020
 [Term]
 id: OBA:0000100
 name: photoreceptor cell membrane potential
-def: "The http://purl.obolibrary.org/obo/OBA_0000099 of a photoreceptor cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0000099 of photoreceptor cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The membrane potential of a photoreceptor cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "membrane potential of photoreceptor cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: OBA:0000099 ! membrane potential
 intersection_of: inheres_in CL:0000210
 
@@ -12203,9 +12200,9 @@ intersection_of: inheres_in UBERON:0001691
 
 [Term]
 id: OBA:0003434
-name: external ear http://purl.obolibrary.org/obo/PATO_0015007
-def: "The http://purl.obolibrary.org/obo/PATO_0015007 of a external ear." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/PATO_0015007 of external ear" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: external ear prominence
+def: "The prominence of a external ear." [AUTO:patterns/patterns/entity_attribute]
+synonym: "prominence of external ear" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0015007
 intersection_of: inheres_in UBERON:0001691
 
@@ -13171,9 +13168,9 @@ intersection_of: inheres_in UBERON:0001898
 
 [Term]
 id: OBA:0003556
-name: pontine flexure deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a pontine flexure." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of pontine flexure" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: pontine flexure deviation (from_normal)
+def: "The deviation (from_normal) of a pontine flexure." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of pontine flexure" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in UBERON:0005820
 
@@ -15499,9 +15496,9 @@ intersection_of: inheres_in UBERON:0002224
 
 [Term]
 id: OBA:0003847
-name: long bone epiphyseal plate proliferative zone deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a long bone epiphyseal plate proliferative zone." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of long bone epiphyseal plate proliferative zone" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: long bone epiphyseal plate proliferative zone deviation (from_normal)
+def: "The deviation (from_normal) of a long bone epiphyseal plate proliferative zone." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of long bone epiphyseal plate proliferative zone" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in UBERON:0006771
 
@@ -15531,9 +15528,9 @@ intersection_of: inheres_in UBERON:0001847
 
 [Term]
 id: OBA:0003851
-name: lobule of pinna http://purl.obolibrary.org/obo/PATO_0015007
-def: "The http://purl.obolibrary.org/obo/PATO_0015007 of a lobule of pinna." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/PATO_0015007 of lobule of pinna" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: lobule of pinna prominence
+def: "The prominence of a lobule of pinna." [AUTO:patterns/patterns/entity_attribute]
+synonym: "prominence of lobule of pinna" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0015007
 intersection_of: inheres_in UBERON:0001847
 
@@ -15595,9 +15592,9 @@ intersection_of: inheres_in GO:0005623
 
 [Term]
 id: OBA:0003859
-name: blood vessel remodeling deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a blood vessel remodeling." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of blood vessel remodeling" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: blood vessel remodeling deviation (from_normal)
+def: "The deviation (from_normal) of a blood vessel remodeling." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of blood vessel remodeling" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in GO:0001974
 
@@ -15619,9 +15616,9 @@ intersection_of: inheres_in CL:0000669
 
 [Term]
 id: OBA:0003862
-name: photoreceptor layer of retina deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a photoreceptor layer of retina." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of photoreceptor layer of retina" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: photoreceptor layer of retina deviation (from_normal)
+def: "The deviation (from_normal) of a photoreceptor layer of retina." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of photoreceptor layer of retina" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in UBERON:0001787
 
@@ -15923,9 +15920,9 @@ intersection_of: inheres_in GO:0005623
 
 [Term]
 id: OBA:0003901
-name: interventricular groove deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a interventricular groove." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of interventricular groove" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interventricular groove deviation (from_normal)
+def: "The deviation (from_normal) of a interventricular groove." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of interventricular groove" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in UBERON:0005455
 
@@ -16155,9 +16152,9 @@ intersection_of: inheres_in UBERON:0000323
 
 [Term]
 id: OBA:0003930
-name: cephalic midbrain flexure deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a cephalic midbrain flexure." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of cephalic midbrain flexure" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cephalic midbrain flexure deviation (from_normal)
+def: "The deviation (from_normal) of a cephalic midbrain flexure." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of cephalic midbrain flexure" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in UBERON:0005818
 
@@ -16179,9 +16176,9 @@ intersection_of: inheres_in CL:0000746
 
 [Term]
 id: OBA:0003933
-name: iridocorneal angle deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a iridocorneal angle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of iridocorneal angle" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: iridocorneal angle deviation (from_normal)
+def: "The deviation (from_normal) of a iridocorneal angle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of iridocorneal angle" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in UBERON:0006206
 
@@ -16667,9 +16664,9 @@ intersection_of: inheres_in UBERON:0001762
 
 [Term]
 id: OBA:0003995
-name: epithelium of conjunctiva deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a epithelium of conjunctiva." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of epithelium of conjunctiva" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: epithelium of conjunctiva deviation (from_normal)
+def: "The deviation (from_normal) of a epithelium of conjunctiva." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of epithelium of conjunctiva" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in UBERON:0006763
 
@@ -16747,9 +16744,9 @@ intersection_of: inheres_in UBERON:0018242
 
 [Term]
 id: OBA:0004005
-name: palatine process of maxilla deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a palatine process of maxilla." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of palatine process of maxilla" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: palatine process of maxilla deviation (from_normal)
+def: "The deviation (from_normal) of a palatine process of maxilla." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of palatine process of maxilla" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in UBERON:0005871
 
@@ -17579,11 +17576,11 @@ intersection_of: inheres_in CL:0000819
 
 [Term]
 id: OBA:0004110
-name: http://purl.obolibrary.org/obo/CL_0000337 amount
-def: "The amount of a http://purl.obolibrary.org/obo/CL_0000337." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of http://purl.obolibrary.org/obo/CL_0000337" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: neuroblast (sensu Vertebrata) amount
+def: "The amount of a neuroblast (sensu Vertebrata)." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of neuroblast (sensu Vertebrata)" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000070
-intersection_of: inheres_in CL:0000337
+intersection_of: inheres_in CL:0000031
 
 [Term]
 id: OBA:0004111
@@ -17643,9 +17640,9 @@ intersection_of: inheres_in CL:0000625
 
 [Term]
 id: OBA:0004118
-name: late pro-B cell deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a late pro-B cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of late pro-B cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: late pro-B cell deviation (from_normal)
+def: "The deviation (from_normal) of a late pro-B cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of late pro-B cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in CL:0002048
 
@@ -17763,9 +17760,9 @@ intersection_of: inheres_in UBERON:0000160
 
 [Term]
 id: OBA:0004133
-name: establishment of blood-brain barrier deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a establishment of blood-brain barrier." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of establishment of blood-brain barrier" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: establishment of blood-brain barrier deviation (from_normal)
+def: "The deviation (from_normal) of a establishment of blood-brain barrier." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of establishment of blood-brain barrier" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in GO:0060856
 
@@ -19363,9 +19360,9 @@ intersection_of: inheres_in UBERON:0000935
 
 [Term]
 id: OBA:0004334
-name: habenular commissure deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a habenular commissure." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of habenular commissure" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: habenular commissure deviation (from_normal)
+def: "The deviation (from_normal) of a habenular commissure." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of habenular commissure" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in UBERON:0001909
 
@@ -20107,9 +20104,9 @@ intersection_of: inheres_in CL:1001451
 
 [Term]
 id: OBA:0004427
-name: spleen follicular dendritic cell network deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a spleen follicular dendritic cell network." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of spleen follicular dendritic cell network" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: spleen follicular dendritic cell network deviation (from_normal)
+def: "The deviation (from_normal) of a spleen follicular dendritic cell network." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of spleen follicular dendritic cell network" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in UBERON:0010756
 
@@ -23459,17 +23456,17 @@ intersection_of: inheres_in UBERON:0005975
 
 [Term]
 id: OBA:0004847
-name: mitotic spindle deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a mitotic spindle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of mitotic spindle" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: mitotic spindle deviation (from_normal)
+def: "The deviation (from_normal) of a mitotic spindle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of mitotic spindle" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in GO:0072686
 
 [Term]
 id: OBA:0004848
-name: meiotic spindle deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a meiotic spindle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of meiotic spindle" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: meiotic spindle deviation (from_normal)
+def: "The deviation (from_normal) of a meiotic spindle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of meiotic spindle" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in GO:0072687
 
@@ -24867,9 +24864,9 @@ intersection_of: inheres_in GO:0000781
 
 [Term]
 id: OBA:0005023
-name: mandible http://purl.obolibrary.org/obo/PATO_0015007
-def: "The http://purl.obolibrary.org/obo/PATO_0015007 of a mandible." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/PATO_0015007 of mandible" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: mandible prominence
+def: "The prominence of a mandible." [AUTO:patterns/patterns/entity_attribute]
+synonym: "prominence of mandible" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0015007
 intersection_of: inheres_in UBERON:0001684
 
@@ -26131,9 +26128,9 @@ intersection_of: inheres_in CL:0002573
 
 [Term]
 id: OBA:0005181
-name: cervical flexure deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a cervical flexure." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of cervical flexure" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cervical flexure deviation (from_normal)
+def: "The deviation (from_normal) of a cervical flexure." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of cervical flexure" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in UBERON:0005819
 
@@ -26179,9 +26176,9 @@ intersection_of: inheres_in GO:0071621
 
 [Term]
 id: OBA:0005187
-name: life span deviation (from_normal)deviation(from_normal)
-def: "The deviation (from_normal)deviation(from_normal) of a life span." [AUTO:patterns/patterns/entity_attribute]
-synonym: "deviation (from_normal)deviation(from_normal) of life span" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: life span deviation (from_normal)
+def: "The deviation (from_normal) of a life span." [AUTO:patterns/patterns/entity_attribute]
+synonym: "deviation (from_normal) of life span" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000069
 intersection_of: inheres_in PATO:0000050
 
@@ -35491,11 +35488,8 @@ intersection_of: inheres_in UBERON:0001766
 
 [Term]
 id: OBA:1000242
-name: respiratory system quality
-def: "The quality of a respiratory system." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of respiratory system" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000001
-intersection_of: inheres_in UBERON:0001004
+name: obsolete respiratory system quality
+replaced_by: OBA:VT0005388
 
 [Term]
 id: OBA:1000243
@@ -37083,11 +37077,8 @@ intersection_of: inheres_in UBERON:0007722
 
 [Term]
 id: OBA:1000441
-name: reproductive system quality
-def: "The quality of a reproductive system." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of reproductive system" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000001
-intersection_of: inheres_in UBERON:0000990
+name: obsolete reproductive system quality
+replaced_by: OBA:VT0005389
 
 [Term]
 id: OBA:1000442
@@ -38227,11 +38218,8 @@ intersection_of: inheres_in GO:0019752
 
 [Term]
 id: OBA:1000584
-name: nervous system quality
-def: "The quality of a nervous system." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of nervous system" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000001
-intersection_of: inheres_in UBERON:0001016
+name: obsolete nervous system quality
+replaced_by: OBA:VT1000781
 
 [Term]
 id: OBA:1000585
@@ -52438,11 +52426,8 @@ intersection_of: inheres_in UBERON:0003072
 
 [Term]
 id: OBA:VT0004271
-name: paw/hand/foot/hoof morphology trait
-def: "The morphology when measured in autopod region." [AUTO:patterns/patterns/attribute_location]
-synonym: "autopod region morphology" EXACT [AUTO:patterns/patterns/attribute_location]
-intersection_of: PATO:0000051
-intersection_of: inheres_in UBERON:0002470
+name: obsolete paw/hand/foot/hoof morphology trait
+replaced_by: http://purl.obolibrary.org/obo/OBA_OBA_VT0000572
 
 [Term]
 id: OBA:VT0004272
