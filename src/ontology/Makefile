@@ -118,7 +118,7 @@ all_imports: $(IMPORT_FILES)
 ## Note we also include TSV as a format
 
 
-SUBSETS =  obo-basic
+SUBSETS =  oba-basic
 
 SUBSET_ROOTS = $(patsubst %, subsets/%, $(SUBSETS))
 SUBSET_FILES = $(foreach n,$(SUBSET_ROOTS), $(foreach f,$(FORMATS_INCL_TSV), $(n).$(f)))
