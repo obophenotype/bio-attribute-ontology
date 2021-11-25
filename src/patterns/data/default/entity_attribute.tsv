@@ -867,7 +867,7 @@ OBA:VT0002429	blood cell morphology trait	CL:0000081	blood cell	PATO:0000051	mor
 OBA:VT0002433	T-helper 1 cell morphology trait	CL:0000545	T-helper 1 cell	PATO:0000051	morphology
 OBA:VT0002434	T-helper 2 cell morphology trait	CL:0000546	T-helper 2 cell	PATO:0000051	morphology
 OBA:VT0002435	effector T cell morphology trait	CL:0000911	effector T cell	PATO:0000051	morphology
-OBA:VT0002436	"CD8-positive, alpha-beta cytotoxic T cell morphology trait"	CL:0000794	"CD8-positive, alpha-beta cytotoxic T cell"	PATO:0000051	morphology
+OBA:VT0002436	CD8-positive, alpha-beta cytotoxic T cell morphology trait	CL:0000794	CD8-positive, alpha-beta cytotoxic T cell	PATO:0000051	morphology
 OBA:VT0002439	plasma cell morphology trait	CL:0000786	plasma cell	PATO:0000051	morphology
 OBA:VT0002440	memory B cell morphology trait	CL:0000787	memory B cell	PATO:0000051	morphology
 OBA:VT0002441	granulocyte morphology trait	CL:0000094	granulocyte	PATO:0000051	morphology
@@ -968,7 +968,7 @@ OBA:VT0002882	neuron morphology trait	CL:0000540	neuron	PATO:0000051	morphology
 OBA:VT0002894	otolith morphology trait	UBERON:0002280	otolith	PATO:0000051	morphology
 OBA:VT0002895	otolithic membrane morphology trait	UBERON:0002519	otolithic part of statoconial membrane	PATO:0000051	morphology
 OBA:VT0002909	adrenal gland physiology trait	UBERON:0002369	adrenal gland	PATO:0001509	functionality
-OBA:VT0002918	paired-pulse facilitation trait	CHEBI:50459	"2,5-diphenylfuran"	PATO:0001629	aggregated
+OBA:VT0002918	paired-pulse facilitation trait	CHEBI:50459	2,5-diphenylfuran	PATO:0001629	aggregated
 OBA:VT0002928	bile duct morphology trait	UBERON:0002394	bile duct	PATO:0000051	morphology
 OBA:VT0002932	joint morphology trait	UBERON:0004905	articulation	PATO:0000051	morphology
 OBA:VT0002970	white adipose morphology trait	UBERON:0001347	white adipose tissue	PATO:0000051	morphology
@@ -1678,13 +1678,13 @@ OBA:VT0008345	gamma-delta T cell quantity	CL:0000798	gamma-delta T cell	PATO:000
 OBA:VT0008349	gamma-delta intraepithelial T cell morphology trait	CL:0000801	gamma-delta intraepithelial T cell	PATO:0000051	morphology
 OBA:VT0008351	gamma-delta intraepithelial T cell quantity	CL:0000801	gamma-delta intraepithelial T cell	PATO:0001555	has number of
 OBA:VT0008354	mature gamma-delta T cell quantity	CL:0000800	mature gamma-delta T cell	PATO:0001555	has number of
-OBA:VT0008357	"CD4-positive, gamma-delta intraepithelial T cell morphology trait"	CL:0000803	CD4-negative CD8-negative gamma-delta intraepithelial T cell	PATO:0000051	morphology
-OBA:VT0008361	"CD8-positive, gamma-delta intraepithelial T cell morphology trait"	CL:0000802	"CD8-alpha alpha positive, gamma-delta intraepithelial T cell"	PATO:0000051	morphology
-OBA:VT0008397	"CD4-positive, CD25-positive, alpha-beta regulatory T cell morphology trait"	CL:0000792	"CD4-positive, CD25-positive, alpha-beta regulatory T cell"	PATO:0000051	morphology
-OBA:VT0008398	"CD8-positive, alpha-beta regulatory T cell morphology trait"	CL:0000795	"CD8-positive, alpha-beta regulatory T cell"	PATO:0000051	morphology
+OBA:VT0008357	CD4-positive, gamma-delta intraepithelial T cell morphology trait	CL:0000803	CD4-negative CD8-negative gamma-delta intraepithelial T cell	PATO:0000051	morphology
+OBA:VT0008361	CD8-positive, gamma-delta intraepithelial T cell morphology trait	CL:0000802	CD8-alpha alpha positive, gamma-delta intraepithelial T cell	PATO:0000051	morphology
+OBA:VT0008397	CD4-positive, CD25-positive, alpha-beta regulatory T cell morphology trait	CL:0000792	CD4-positive, CD25-positive, alpha-beta regulatory T cell	PATO:0000051	morphology
+OBA:VT0008398	CD8-positive, alpha-beta regulatory T cell morphology trait	CL:0000795	CD8-positive, alpha-beta regulatory T cell	PATO:0000051	morphology
 OBA:VT0008399	alpha-beta intraepithelial T cell morphology trait	CL:0000797	alpha-beta intraepithelial T cell	PATO:0000051	morphology
-OBA:VT0008400	"CD4-positive, alpha-beta intraepithelial T cell morphology trait"	CL:0000793	"CD4-positive, alpha-beta intraepithelial T cell"	PATO:0000051	morphology
-OBA:VT0008401	"CD8-positive, alpha-beta intraepithelial T cell morphology trait"	CL:0000796	"CD8-alpha-beta-positive, alpha-beta intraepithelial T cell"	PATO:0000051	morphology
+OBA:VT0008400	CD4-positive, alpha-beta intraepithelial T cell morphology trait	CL:0000793	CD4-positive, alpha-beta intraepithelial T cell	PATO:0000051	morphology
+OBA:VT0008401	CD8-positive, alpha-beta intraepithelial T cell morphology trait	CL:0000796	CD8-alpha-beta-positive, alpha-beta intraepithelial T cell	PATO:0000051	morphology
 OBA:VT0008463	peripheral lymph node morphology trait	UBERON:0003968	peripheral lymph node	PATO:0000051	morphology
 OBA:VT0008466	mesenteric lymph node size trait	UBERON:0002509	mesenteric lymph node	PATO:0000117	size
 OBA:VT0008471	spleen primary B follicle morphology trait	UBERON:0004041	spleen primary B follicle	PATO:0000051	morphology
@@ -1700,7 +1700,7 @@ OBA:VT0008749	peripheral T cell anergy trait	GO:0002870	T cell anergy	PATO:00021
 OBA:VT0008752	tumor necrosis factor amount	GO:0005164	tumor necrosis factor receptor binding	PATO:0000070	amount
 OBA:VT0008769	plasmacytoid dendritic cell physiology trait	CL:0000784	plasmacytoid dendritic cell	PATO:0001509	functionality
 OBA:VT0008894	intraepithelial T cell morphology trait	CL:0002496	intraepithelial lymphocyte	PATO:0000051	morphology
-OBA:VT0008895	intraepithelial T cell quantity	CL:0000793	"CD4-positive, alpha-beta intraepithelial T cell"	PATO:0000070	amount
+OBA:VT0008895	intraepithelial T cell quantity	CL:0000793	CD4-positive, alpha-beta intraepithelial T cell	PATO:0000070	amount
 OBA:VT0009539	Hassall's corpuscle morphology trait	UBERON:0003987	Hassall's corpuscle	PATO:0000051	morphology
 OBA:VT0009543	thymus corticomedullary boundary morphology trait	UBERON:0003988	thymus corticomedullary boundary	PATO:0000051	morphology
 OBA:VT0009544	thymus epithelium morphology trait	UBERON:0003846	thymus epithelium	PATO:0000051	morphology
@@ -1797,7 +1797,7 @@ OBA:VT0010144	pancreas mass	UBERON:0001264	pancreas	PATO:0000125	mass
 OBA:VT0010145	rectum mass	UBERON:0001052	rectum	PATO:0000125	mass
 OBA:VT0010162	interleukin-10 physiology trait	PR:000001471	interleukin-10	PATO:0001509	functionality
 OBA:VT0010183	platelet morphology trait	CL:0000762	nucleated thrombocyte	PATO:0000051	morphology
-OBA:VT0010192	"CD4-negative, CD8-negative, alpha-beta intraepithelial T cell morphology trait"	CL:0000935	"CD4-negative, CD8-negative, alpha-beta intraepithelial T cell"	PATO:0000051	morphology
+OBA:VT0010192	CD4-negative, CD8-negative, alpha-beta intraepithelial T cell morphology trait	CL:0000935	CD4-negative, CD8-negative, alpha-beta intraepithelial T cell	PATO:0000051	morphology
 OBA:VT0010193	colon length	UBERON:0001155	colon	PATO:0000122	length
 OBA:VT0010194	colon mass	UBERON:0001155	colon	PATO:0000125	mass
 OBA:VT0010195	intestine length	UBERON:0000160	intestine	PATO:0000122	length
@@ -1851,7 +1851,7 @@ OBA:VT0010402	corpus luteum size trait	UBERON:0002512	corpus luteum	PATO:0000117
 OBA:VT0010403	cervical opening shape trait	UBERON:0013758	cervical os	PATO:0000052	shape
 OBA:VT0010405	sperm size trait	CL:0000019	sperm	PATO:0000117	size
 OBA:VT0010406	sperm flagellum size trait	GO:0036126	sperm flagellum	PATO:0000117	size
-OBA:VT0010418	"CD8-positive, CD25-positive, alpha-beta regulatory T cell morphology trait"	CL:0000919	"CD8-positive, CD25-positive, alpha-beta regulatory T cell"	PATO:0000051	morphology
+OBA:VT0010418	CD8-positive, CD25-positive, alpha-beta regulatory T cell morphology trait	CL:0000919	CD8-positive, CD25-positive, alpha-beta regulatory T cell	PATO:0000051	morphology
 OBA:VT0010420	adrenal gland mass	UBERON:0002369	adrenal gland	PATO:0000125	mass
 OBA:VT0010421	epididymal fat pad mass	UBERON:0010412	epididymal fat pad	PATO:0000125	mass
 OBA:VT0010423	gonadal fat pad mass	UBERON:0003428	gonadal fat pad	PATO:0000125	mass
@@ -1985,7 +1985,7 @@ OBA:VT1000686	paw/hand/foot/hoof mass	UBERON:0002470	autopod region	PATO:0000125
 OBA:VT1000687	forelimb mass	UBERON:0002102	forelimb	PATO:0000128	weight
 OBA:VT1000688	metatarsus mass	UBERON:0001448	metatarsal bone	PATO:0000128	weight
 OBA:VT1000689	hindlimb mass	UBERON:0002103	hindlimb	PATO:0000128	weight
-OBA:VT1000703	"udder height, floor to tarsal joint"	UBERON:0013216	udder	PATO:0001595	depth
+OBA:VT1000703	udder height, floor to tarsal joint	UBERON:0013216	udder	PATO:0001595	depth
 OBA:VT1000704	mammary gland length	UBERON:0001911	mammary gland	PATO:0000119	height
 OBA:VT1000705	mammary gland width	UBERON:0001911	mammary gland	PATO:0000921	width
 OBA:VT1000706	longissimus dorsi morphology trait	UBERON:0001401	longissimus thoracis muscle	PATO:0000051	morphology
@@ -2763,7 +2763,7 @@ OBA:0002442		CL:0000188	cell of skeletal muscle	PATO:0001956	variability of size
 OBA:0002443		GO:0004347	glucose-6-phosphate isomerase activity	PATO:0000161	rate
 OBA:0002444		CL:0000891	foam cell	PATO:0000070	amount
 OBA:0002445		GO:0017113	dihydropyrimidine dehydrogenase (NADP+) activity	PATO:0000161	rate
-OBA:0002446		GO:0008455	"alpha-1,6-mannosylglycoprotein 2-beta-N-acetylglucosaminyltransferase activity"	PATO:0000161	rate
+OBA:0002446		GO:0008455	alpha-1,6-mannosylglycoprotein 2-beta-N-acetylglucosaminyltransferase activity	PATO:0000161	rate
 OBA:0002447		UBERON:0004471	musculature of pectoral girdle	PATO:0000117	size
 OBA:0002448		UBERON:0001377	quadriceps femoris	PATO:0001230	strength
 OBA:0002449		UBERON:0004252	hindlimb stylopod muscle	PATO:0000117	size
@@ -2955,7 +2955,7 @@ OBA:0002634		GO:0042113	B cell activation	PATO:0001509	functionality
 OBA:0002635		CL:0000775	neutrophil	PATO:0001488	cellular motility
 OBA:0002636		CL:0000084	T cell	PATO:0000070	amount
 OBA:0002637		CL:0000492	CD4-positive helper T cell	PATO:0000070	amount
-OBA:0002638		CL:0000795	"CD8-positive, alpha-beta regulatory T cell"	PATO:0000070	amount
+OBA:0002638		CL:0000795	CD8-positive, alpha-beta regulatory T cell	PATO:0000070	amount
 OBA:0002639		UBERON:0002489	coronal suture	PATO:0000136	closure
 OBA:0002640		UBERON:0008788	posterior cranial fossa	PATO:0000117	size
 OBA:0002641		UBERON:0002453	ethmoid sinus	PATO:0000070	amount
@@ -4024,15 +4024,15 @@ OBA:0003704		CL:0000451	dendritic cell	PATO:0001509	functionality
 OBA:0003705		UBERON:0002372	tonsil	PATO:0000051	morphology
 OBA:0003706		UBERON:0010387	Peyer's patch T cell area	PATO:0000051	morphology
 OBA:0003707		UBERON:0002371	bone marrow	PATO:0000051	morphology
-OBA:0003708		CL:0000809	"double-positive, alpha-beta thymocyte"	PATO:0000051	morphology
+OBA:0003708		CL:0000809	double-positive, alpha-beta thymocyte	PATO:0000051	morphology
 OBA:0003709		CL:0000553	megakaryocyte progenitor cell	PATO:0000051	morphology
 OBA:0003710		CL:0000547	proerythroblast	PATO:0000051	morphology
 OBA:0003711		CL:0000556	megakaryocyte	PATO:0000051	morphology
 OBA:0003712		UBERON:0007833	osseus semicircular canal	PATO:0000051	morphology
-OBA:0003713		CL:0000624	"CD4-positive, alpha-beta T cell"	PATO:0000051	morphology
+OBA:0003713		CL:0000624	CD4-positive, alpha-beta T cell	PATO:0000051	morphology
 OBA:0003714		CL:0000145	professional antigen presenting cell	PATO:0001509	functionality
-OBA:0003715		GO:0006957	"complement activation, alternative pathway"	PATO:0000161	rate
-OBA:0003716		GO:0006958	"complement activation, classical pathway"	PATO:0000161	rate
+OBA:0003715		GO:0006957	complement activation, alternative pathway	PATO:0000161	rate
+OBA:0003716		GO:0006958	complement activation, classical pathway	PATO:0000161	rate
 OBA:0003717		UBERON:0000478	extraembryonic structure	PATO:0002264	organization quality
 OBA:0003718		UBERON:0004366	extraembryonic ectoderm	PATO:0000070	amount
 OBA:0003719		UBERON:0004364	ectoplacental cone	PATO:0000117	size
@@ -4100,7 +4100,7 @@ OBA:0003780		UBERON:0002349	myocardium	PATO:0001585	conductivity
 OBA:0003781		UBERON:0001757	pinna	PATO:0000070	amount
 OBA:0003782		UBERON:0000395	cochlear ganglion	PATO:0000070	amount
 OBA:0003783		UBERON:0005972	tunnel of Corti	PATO:0000070	amount
-OBA:0003784		GO:0000781	"chromosome, telomeric region"	PATO:0000122	length
+OBA:0003784		GO:0000781	chromosome, telomeric region	PATO:0000122	length
 OBA:0003785		GO:0090075	relaxation of muscle	PATO:0000161	rate
 OBA:0003786		UBERON:0001843	lateral semicircular canal	PATO:0000070	amount
 OBA:0003787		UBERON:0001842	posterior semicircular canal	PATO:0000070	amount
@@ -4282,7 +4282,7 @@ OBA:0003964		UBERON:0000209	tetrapod frontal bone	PATO:0000141	structure
 OBA:0003965		UBERON:0000209	tetrapod frontal bone	PATO:0000122	length
 OBA:0003966		UBERON:0002229	interparietal bone	PATO:0000117	size
 OBA:0003967		UBERON:0003063	prechordal plate	PATO:0000070	amount
-OBA:0003968		CL:0000625	"CD8-positive, alpha-beta T cell"	PATO:0001509	functionality
+OBA:0003968		CL:0000625	CD8-positive, alpha-beta T cell	PATO:0001509	functionality
 OBA:0003969		CL:0000589	cochlear inner hair cell	PATO:0000070	amount
 OBA:0003970		CL:0000589	cochlear inner hair cell	PATO:0002037	degeneration
 OBA:0003971		CL:0000601	outer hair cell	PATO:0000070	amount
@@ -4430,7 +4430,7 @@ OBA:0004113		UBERON:0002058	main ciliary ganglion	PATO:0000051	morphology
 OBA:0004114		GO:0045453	bone resorption	PATO:0000161	rate
 OBA:0004115		GO:0007416	synapse assembly	PATO:0000161	rate
 OBA:0004116		GO:0002249	lymphocyte anergy	PATO:0000161	rate
-OBA:0004117		CL:0000625	"CD8-positive, alpha-beta T cell"	PATO:0000051	morphology
+OBA:0004117		CL:0000625	CD8-positive, alpha-beta T cell	PATO:0000051	morphology
 OBA:0004118		CL:0002048	late pro-B cell	PATO:0000069	deviation(from_normal)
 OBA:0004119		UBERON:0000305	amnion	PATO:0000070	amount
 OBA:0004120		GO:0042613	MHC class II protein complex	PATO:0000070	amount
@@ -4438,9 +4438,9 @@ OBA:0004121		UBERON:0001959	white pulp of spleen	PATO:0002083	altered number of
 OBA:0004122		GO:0005764	lysosome	PATO:0000051	morphology
 OBA:0004123		GO:0042267	natural killer cell mediated cytotoxicity	PATO:0000161	rate
 OBA:0004124		GO:0042470	melanosome	PATO:0000051	morphology
-OBA:0004125		CL:0000794	"CD8-positive, alpha-beta cytotoxic T cell"	PATO:0001509	functionality
+OBA:0004125		CL:0000794	CD8-positive, alpha-beta cytotoxic T cell	PATO:0001509	functionality
 OBA:0004126		GO:0002526	acute inflammatory response	PATO:0000161	rate
-OBA:0004127		CL:0000809	"double-positive, alpha-beta thymocyte"	PATO:0000070	amount
+OBA:0004127		CL:0000809	double-positive, alpha-beta thymocyte	PATO:0000070	amount
 OBA:0004128		GO:0042100	B cell proliferation	PATO:0000161	rate
 OBA:0004129		GO:0042098	T cell proliferation	PATO:0000161	rate
 OBA:0004130		GO:0060048	cardiac muscle contraction	PATO:0000161	rate
@@ -4461,7 +4461,7 @@ OBA:0004144		UBERON:0010166	coat of hair	PATO:0001611	variability of color
 OBA:0004145		GO:0009566	fertilization	PATO:0002325	onset quality
 OBA:0004146		CL:0000023	oocyte	PATO:0000070	amount
 OBA:0004147		UBERON:0000468	multicellular organism	PATO:0000025	composition
-OBA:0004148		CL:0000624	"CD4-positive, alpha-beta T cell"	PATO:0001509	functionality
+OBA:0004148		CL:0000624	CD4-positive, alpha-beta T cell	PATO:0001509	functionality
 OBA:0004149		CL:0000545	T-helper 1 cell	PATO:0001509	functionality
 OBA:0004150		CL:0000546	T-helper 2 cell	PATO:0001509	functionality
 OBA:0004151		CL:0000158	Clara cell	PATO:0000117	size
@@ -4606,8 +4606,8 @@ OBA:0004290		UBERON:0004032	podocyte slit diaphragm	PATO:0000070	amount
 OBA:0004291		UBERON:0004033	podocyte slit junction	PATO:0000051	morphology
 OBA:0004292		UBERON:0001860	endolymphatic duct	PATO:0000052	shape
 OBA:0004293		CL:0000740	retinal ganglion cell	PATO:0002037	degeneration
-OBA:0004294		CL:0000624	"CD4-positive, alpha-beta T cell"	PATO:0000070	amount
-OBA:0004295		CL:0000625	"CD8-positive, alpha-beta T cell"	PATO:0000070	amount
+OBA:0004294		CL:0000624	CD4-positive, alpha-beta T cell	PATO:0000070	amount
+OBA:0004295		CL:0000625	CD8-positive, alpha-beta T cell	PATO:0000070	amount
 OBA:0004296		CL:0000545	T-helper 1 cell	PATO:0000070	amount
 OBA:0004297		CL:0000546	T-helper 2 cell	PATO:0000070	amount
 OBA:0004298		CL:0000787	memory B cell	PATO:0000070	amount
@@ -4696,7 +4696,7 @@ OBA:0004380		CL:0000798	gamma-delta T cell	PATO:0000070	amount
 OBA:0004381		CL:0000801	gamma-delta intraepithelial T cell	PATO:0000070	amount
 OBA:0004382		CL:0000800	mature gamma-delta T cell	PATO:0000070	amount
 OBA:0004383		CL:0000803	CD4-negative CD8-negative gamma-delta intraepithelial T cell	PATO:0000070	amount
-OBA:0004384		CL:0000802	"CD8-alpha alpha positive, gamma-delta intraepithelial T cell"	PATO:0000070	amount
+OBA:0004384		CL:0000802	CD8-alpha alpha positive, gamma-delta intraepithelial T cell	PATO:0000070	amount
 OBA:0004385		UBERON:0002432	pars intermedia of adenohypophysis	PATO:0000117	size
 OBA:0004386		UBERON:0001689	malleus bone	PATO:0000122	length
 OBA:0004387		UBERON:0006722	manubrium of malleus	PATO:0000051	morphology
@@ -5320,7 +5320,7 @@ OBA:0005005		UBERON:0004550	gastroesophageal sphincter	PATO:0000051	morphology
 OBA:0005006		UBERON:0004550	gastroesophageal sphincter	PATO:0001509	functionality
 OBA:0005007		UBERON:0000160	intestine	PATO:0001509	functionality
 OBA:0005008		UBERON:0001241	crypt of Lieberkuhn of small intestine	PATO:0001509	functionality
-OBA:0005009		CL:0000792	"CD4-positive, CD25-positive, alpha-beta regulatory T cell"	PATO:0000070	amount
+OBA:0005009		CL:0000792	CD4-positive, CD25-positive, alpha-beta regulatory T cell	PATO:0000070	amount
 OBA:0005010		CL:0002080	pancreatic centro-acinar cell	PATO:0000051	morphology
 OBA:0005011		UBERON:0003244	epithelium of mammary gland	PATO:0001509	functionality
 OBA:0005012		GO:0033598	mammary gland epithelial cell proliferation	PATO:0000161	rate
@@ -5333,7 +5333,7 @@ OBA:0005018		CL:0002485	retinal melanocyte	PATO:0000051	morphology
 OBA:0005019		UBERON:0001473	lymphatic vessel	PATO:0000070	amount
 OBA:0005020		UBERON:0002042	lymphatic vessel endothelium	PATO:0000051	morphology
 OBA:0005021		UBERON:0004232	lymphatic vessel smooth muscle	PATO:0000051	morphology
-OBA:0005022		GO:0000781	"chromosome, telomeric region"	PATO:0000051	morphology
+OBA:0005022		GO:0000781	chromosome, telomeric region	PATO:0000051	morphology
 OBA:0005023		UBERON:0001684	mandible	PATO:0015007	prominence
 OBA:0005024		CL:0000899	T-helper 17 cell	PATO:0000051	morphology
 OBA:0005025		CL:0000899	T-helper 17 cell	PATO:0000070	amount
@@ -5542,18 +5542,18 @@ OBA:0005227		UBERON:0000116	lung saccule	PATO:0000070	amount
 OBA:0005228		UBERON:0000116	lung saccule	PATO:0000117	size
 OBA:0005229		CL:0002638	bronchioalveolar stem cell	PATO:0000051	morphology
 OBA:0005230		CL:0002638	bronchioalveolar stem cell	PATO:0000070	amount
-OBA:0005231		CL:0000897	"CD4-positive, alpha-beta memory T cell"	PATO:0000051	morphology
-OBA:0005232		CL:0000897	"CD4-positive, alpha-beta memory T cell"	PATO:0000070	amount
-OBA:0005233		CL:0000909	"CD8-positive, alpha-beta memory T cell"	PATO:0000051	morphology
-OBA:0005234		CL:0000909	"CD8-positive, alpha-beta memory T cell"	PATO:0000070	amount
-OBA:0005235		CL:0000904	"central memory CD4-positive, alpha-beta T cell"	PATO:0000051	morphology
-OBA:0005236		CL:0000904	"central memory CD4-positive, alpha-beta T cell"	PATO:0000070	amount
-OBA:0005237		CL:0000905	"effector memory CD4-positive, alpha-beta T cell"	PATO:0000051	morphology
-OBA:0005238		CL:0000905	"effector memory CD4-positive, alpha-beta T cell"	PATO:0000070	amount
-OBA:0005239		CL:0000907	"central memory CD8-positive, alpha-beta T cell"	PATO:0000051	morphology
-OBA:0005240		CL:0000907	"central memory CD8-positive, alpha-beta T cell"	PATO:0000070	amount
-OBA:0005241		CL:0000913	"effector memory CD8-positive, alpha-beta T cell"	PATO:0000051	morphology
-OBA:0005242		CL:0000913	"effector memory CD8-positive, alpha-beta T cell"	PATO:0000070	amount
+OBA:0005231		CL:0000897	CD4-positive, alpha-beta memory T cell	PATO:0000051	morphology
+OBA:0005232		CL:0000897	CD4-positive, alpha-beta memory T cell	PATO:0000070	amount
+OBA:0005233		CL:0000909	CD8-positive, alpha-beta memory T cell	PATO:0000051	morphology
+OBA:0005234		CL:0000909	CD8-positive, alpha-beta memory T cell	PATO:0000070	amount
+OBA:0005235		CL:0000904	central memory CD4-positive, alpha-beta T cell	PATO:0000051	morphology
+OBA:0005236		CL:0000904	central memory CD4-positive, alpha-beta T cell	PATO:0000070	amount
+OBA:0005237		CL:0000905	effector memory CD4-positive, alpha-beta T cell	PATO:0000051	morphology
+OBA:0005238		CL:0000905	effector memory CD4-positive, alpha-beta T cell	PATO:0000070	amount
+OBA:0005239		CL:0000907	central memory CD8-positive, alpha-beta T cell	PATO:0000051	morphology
+OBA:0005240		CL:0000907	central memory CD8-positive, alpha-beta T cell	PATO:0000070	amount
+OBA:0005241		CL:0000913	effector memory CD8-positive, alpha-beta T cell	PATO:0000051	morphology
+OBA:0005242		CL:0000913	effector memory CD8-positive, alpha-beta T cell	PATO:0000070	amount
 OBA:0005243		UBERON:0003039	anterior commissure anterior part	PATO:0000051	morphology
 OBA:0005244		UBERON:0003043	posterior part of anterior commissure	PATO:0000051	morphology
 OBA:0005245		CL:0002370	respiratory goblet cell	PATO:0000070	amount
@@ -6142,7 +6142,7 @@ OBA:0005828		UBERON:0018233	gland of Zeis	PATO:0000051	morphology
 OBA:0005829		UBERON:0010306	bulbar conjunctiva	PATO:0000051	morphology
 OBA:0005830		CL:0000916	dendritic epidermal T cell	PATO:0000051	morphology
 OBA:0005831		CL:0000916	dendritic epidermal T cell	PATO:0000070	amount
-OBA:0005832		CL:0000900	"naive thymus-derived CD8-positive, alpha-beta T cell"	PATO:0000070	amount
+OBA:0005832		CL:0000900	naive thymus-derived CD8-positive, alpha-beta T cell	PATO:0000070	amount
 OBA:0005833		UBERON:0004187	Harderian gland	PATO:0000117	size
 OBA:0005834		UBERON:0001750	lacrimal apparatus	PATO:0001509	functionality
 OBA:0005835		UBERON:0002392	nasolacrimal duct	PATO:0000136	closure
@@ -6569,7 +6569,7 @@ OBA:1000354		GO:0006553	lysine metabolic process	PATO:0000001	quality
 OBA:1000355		UBERON:0007250	lingual tonsil	PATO:0000001	quality
 OBA:1000356		GO:0001659	temperature homeostasis	PATO:0000001	quality
 OBA:1000357		UBERON:0002488	helix	PATO:0000001	quality
-OBA:1000358		GO:0007597	"blood coagulation, intrinsic pathway"	PATO:0000001	quality
+OBA:1000358		GO:0007597	blood coagulation, intrinsic pathway	PATO:0000001	quality
 OBA:1000359		GO:0006555	methionine metabolic process	PATO:0000001	quality
 OBA:1000360		UBERON:0001650	hypoglossal nerve	PATO:0000001	quality
 OBA:1000361		UBERON:0004101	nasolabial region	PATO:0000001	quality
@@ -6602,7 +6602,7 @@ OBA:1000387		UBERON:0008982	fascia	PATO:0000001	quality
 OBA:1000388		UBERON:0008595	levator anguli oris	PATO:0000001	quality
 OBA:1000389		UBERON:0004324	middle phalanx of pedal digit 2	PATO:0000001	quality
 OBA:1000390		UBERON:0001801	anterior segment of eyeball	PATO:0000001	quality
-OBA:1000391		GO:0007598	"blood coagulation, extrinsic pathway"	PATO:0000001	quality
+OBA:1000391		GO:0007598	blood coagulation, extrinsic pathway	PATO:0000001	quality
 OBA:1000392		GO:0001676	long-chain fatty acid metabolic process	PATO:0000001	quality
 OBA:1000393		UBERON:0001603	lateral rectus extra-ocular muscle	PATO:0000001	quality
 OBA:1000394		UBERON:0004411	proximal epiphysis of humerus	PATO:0000001	quality
@@ -6850,7 +6850,7 @@ OBA:1000637		UBERON:0001604	levator palpebrae superioris	PATO:0000001	quality
 OBA:1000638		UBERON:0001813	somatic nerve plexus	PATO:0000001	quality
 OBA:1000639		UBERON:0002094	interventricular septum	PATO:0000001	quality
 OBA:1000640		UBERON:0004703	dorsal thalamus	PATO:0000001	quality
-OBA:1000641		GO:0072377	"blood coagulation, common pathway"	PATO:0000001	quality
+OBA:1000641		GO:0072377	blood coagulation, common pathway	PATO:0000001	quality
 OBA:1000642		GO:0050892	intestinal absorption	PATO:0000001	quality
 OBA:1000643		UBERON:0001753	cementum	PATO:0000001	quality
 OBA:1000644		UBERON:0002000	gluteal muscle	PATO:0000001	quality
@@ -7169,7 +7169,7 @@ OBA:1000956		PR:000015665	somatostatin	PATO:0000070	amount
 OBA:1000957		CHEBI:16526	carbon dioxide	PATO:0000070	amount
 OBA:1000958		CHEBI:33568	adrenaline	PATO:0000070	amount
 OBA:1000959		CHEBI:17996	chloride	PATO:0000070	amount
-OBA:1000960		CHEBI:18258	"3,3',5-triiodo-L-thyronine"	PATO:0000070	amount
+OBA:1000960		CHEBI:18258	3,3',5-triiodo-L-thyronine	PATO:0000070	amount
 OBA:1000961		CHEBI:64611	ether lipid	PATO:0000070	amount
 OBA:1000962		CHEBI:15373	biopterin	PATO:0000070	amount
 OBA:1000963		CHEBI:26333	prostaglandin	PATO:0000070	amount
