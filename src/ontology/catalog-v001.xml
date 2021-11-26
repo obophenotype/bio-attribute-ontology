@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/oba/releases/2021-10-27/patterns/definitions.owl" uri="file:/Users/matentzn/ws/bio-attribute-ontology/src/patterns/definitions.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/components/reasoner_axioms.owl" uri="components/reasoner_axioms.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/components/definitions.owl" uri="../patterns/definitions.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/pco_import.owl" uri="imports/pco_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/po_import.owl" uri="imports/po_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/pr_import.owl" uri="imports/pr_import.owl"/>
