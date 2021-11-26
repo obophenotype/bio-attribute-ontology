@@ -12,7 +12,7 @@ import: http://purl.obolibrary.org/obo/oba/imports/nbo_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/pr_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/so_import.owl
-import: http://purl.obolibrary.org/obo/oba/components/definitions.owl
+import: http://purl.obolibrary.org/obo/oba/patterns/definitions.owl
 import: http://purl.obolibrary.org/obo/oba/components/obsoletes.owl
 ontology: oba
 
