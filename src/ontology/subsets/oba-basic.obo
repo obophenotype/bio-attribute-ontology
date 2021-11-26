@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: oba/releases/2021-11-25/oba-basic.owl
+data-version: oba/releases/2021-11-26/oba-basic.owl
 date: 13:11:2015 10:21
 saved-by: cjmungall
 auto-generated-by: TermGenie 1.0
@@ -8,7 +8,7 @@ ontology: oba/oba-basic
 property_value: http://purl.org/dc/elements/1.1/description "A collection of biological attributes (traits) covering all kingdoms of life. Interoperable with VT (vertebrate trait ontology) and TO (plant trait ontology). Extends PATO." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Ontology of Biological Attributes (OBA)" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2021-11-25" xsd:string
+property_value: owl:versionInfo "2021-11-26" xsd:string
 property_value: property-value "foaf-homepage \"http://wiki.geneontology.org/index.php/Extensions/x-attribute\" xsd:anyURL" xsd:string
 
 [Term]
@@ -14995,9 +14995,10 @@ is_a: OBA:1000620 ! placenta quality
 
 [Term]
 id: OBA:0003943
-name: http://purl.obolibrary.org/obo/GO_0005605 morphology
-def: "The morphology of a http://purl.obolibrary.org/obo/GO_0005605." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of http://purl.obolibrary.org/obo/GO_0005605" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: basement membrane morphology
+def: "The morphology of a basement membrane." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of basement membrane" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0005791 ! extracellular matrix morphology
 
 [Term]
 id: OBA:0003944
@@ -18624,23 +18625,23 @@ is_a: OBA:1000078 ! attribute of organelle
 
 [Term]
 id: OBA:0004453
-name: http://purl.obolibrary.org/obo/GO_0072642 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072642." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072642" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interferon-alpha production rate
+def: "The rate of a interferon-alpha production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interferon-alpha production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008557 ! interferon-alpha secretion trait
 
 [Term]
 id: OBA:0004454
-name: http://purl.obolibrary.org/obo/GO_0035546 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0035546." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0035546" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interferon-beta production rate
+def: "The rate of a interferon-beta production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interferon-beta production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008558 ! interferon-beta secretion trait
 
 [Term]
 id: OBA:0004455
-name: http://purl.obolibrary.org/obo/GO_0072643 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072643." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072643" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interferon-gamma production rate
+def: "The rate of a interferon-gamma production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interferon-gamma production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008559 ! interferon-gamma secretion trait
 
 [Term]
@@ -18710,128 +18711,130 @@ is_a: OBA:VT0003729 ! photoreceptor outer segment morphology trait
 
 [Term]
 id: OBA:0004465
-name: http://purl.obolibrary.org/obo/GO_0050701 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0050701." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0050701" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-1 production rate
+def: "The rate of a interleukin-1 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-1 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008650 ! interleukin-1 secretion trait
 
 [Term]
 id: OBA:0004466
-name: http://purl.obolibrary.org/obo/GO_0050703 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0050703." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0050703" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-1 alpha production rate
+def: "The rate of a interleukin-1 alpha production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-1 alpha production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0004465 ! interleukin-1 production rate
 is_a: OBA:VT0008653 ! interleukin-1 alpha secretion trait
 
 [Term]
 id: OBA:0004467
-name: http://purl.obolibrary.org/obo/GO_0050702 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0050702." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0050702" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-1 beta production rate
+def: "The rate of a interleukin-1 beta production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-1 beta production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0004465 ! interleukin-1 production rate
 is_a: OBA:VT0008656 ! interleukin-1 beta secretion trait
 
 [Term]
 id: OBA:0004468
-name: http://purl.obolibrary.org/obo/GO_0072608 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072608." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072608" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-10 production rate
+def: "The rate of a interleukin-10 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-10 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008659 ! interleukin-10 secretion trait
 
 [Term]
 id: OBA:0004469
-name: http://purl.obolibrary.org/obo/GO_0072610 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072610." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072610" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-12 production rate
+def: "The rate of a interleukin-12 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-12 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008662 ! interleukin-12 secretion trait
 
 [Term]
 id: OBA:0004470
-name: http://purl.obolibrary.org/obo/GO_0072611 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072611." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072611" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-13 production rate
+def: "The rate of a interleukin-13 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-13 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008671 ! interleukin-13 secretion trait
 
 [Term]
 id: OBA:0004471
-name: http://purl.obolibrary.org/obo/GO_0072613 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072613." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072613" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-15 production rate
+def: "The rate of a interleukin-15 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-15 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008674 ! interleukin-15 secretion trait
 
 [Term]
 id: OBA:0004472
-name: http://purl.obolibrary.org/obo/GO_0072614 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072614." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072614" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-16 production rate
+def: "The rate of a interleukin-16 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-16 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008677 ! interleukin-16 secretion trait
 
 [Term]
 id: OBA:0004473
-name: http://purl.obolibrary.org/obo/GO_0072615 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072615." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072615" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-17 production rate
+def: "The rate of a interleukin-17 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-17 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008680 ! interleukin-17 secretion trait
 
 [Term]
 id: OBA:0004474
-name: http://purl.obolibrary.org/obo/GO_0072616 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072616." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072616" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-18 production rate
+def: "The rate of a interleukin-18 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-18 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008683 ! interleukin-18 secretion trait
 
 [Term]
 id: OBA:0004475
-name: http://purl.obolibrary.org/obo/GO_0070970 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0070970." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0070970" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-2 production rate
+def: "The rate of a interleukin-2 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-2 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008686 ! interleukin-2 secretion trait
 
 [Term]
 id: OBA:0004476
-name: http://purl.obolibrary.org/obo/GO_0072621 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072621." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072621" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-23 production rate
+def: "The rate of a interleukin-23 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-23 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008689 ! interleukin-23 secretion trait
 
 [Term]
 id: OBA:0004477
-name: http://purl.obolibrary.org/obo/GO_0072601 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072601." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072601" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-3 production rate
+def: "The rate of a interleukin-3 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-3 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008695 ! interleukin-3 secretion trait
 
 [Term]
 id: OBA:0004478
-name: http://purl.obolibrary.org/obo/GO_0072602 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072602." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072602" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-4 production rate
+def: "The rate of a interleukin-4 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-4 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008698 ! interleukin-4 secretion trait
 
 [Term]
 id: OBA:0004479
-name: http://purl.obolibrary.org/obo/GO_0072603 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072603." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072603" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-5 production rate
+def: "The rate of a interleukin-5 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-5 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008701 ! interleukin-5 secretion trait
 
 [Term]
 id: OBA:0004480
-name: http://purl.obolibrary.org/obo/GO_0072604 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072604." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072604" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-6 production rate
+def: "The rate of a interleukin-6 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-6 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008704 ! interleukin-6 secretion trait
 
 [Term]
 id: OBA:0004481
-name: http://purl.obolibrary.org/obo/GO_0072605 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072605." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072605" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-7 production rate
+def: "The rate of a interleukin-7 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-7 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008707 ! interleukin-7 secretion trait
 
 [Term]
 id: OBA:0004482
-name: http://purl.obolibrary.org/obo/GO_0072607 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072607." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072607" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-9 production rate
+def: "The rate of a interleukin-9 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-9 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0008710 ! interleukin-9 secretion trait
 
 [Term]
@@ -19640,9 +19643,9 @@ is_a: OBA:VT0000767 ! smooth muscle morphology trait
 
 [Term]
 id: OBA:0004597
-name: http://purl.obolibrary.org/obo/GO_0072619 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072619." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072619" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-21 production rate
+def: "The rate of a interleukin-21 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-21 production" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0009056 ! interleukin-21 secretion trait
 
 [Term]
@@ -24660,7 +24663,7 @@ id: OBA:0005303
 name: kinocilium morphology
 def: "The morphology of a kinocilium." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of kinocilium" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0005766 ! cilium morphology
+is_a: OBA:0005768 ! non-motile cilium morphology
 is_a: OBA:VT0015108 ! neurite morphology trait
 
 [Term]
@@ -26243,9 +26246,10 @@ is_a: OBA:0100002 ! biological process attribute
 
 [Term]
 id: OBA:0005526
-name: http://purl.obolibrary.org/obo/GO_0072606 rate
-def: "The rate of a http://purl.obolibrary.org/obo/GO_0072606." [AUTO:patterns/patterns/entity_attribute]
-synonym: "rate of http://purl.obolibrary.org/obo/GO_0072606" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: interleukin-8 production rate
+def: "The rate of a interleukin-8 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of interleukin-8 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:0005527
@@ -27965,15 +27969,18 @@ is_a: OBA:1000078 ! attribute of organelle
 
 [Term]
 id: OBA:0005767
-name: http://purl.obolibrary.org/obo/GO_0072372 morphology
-def: "The morphology of a http://purl.obolibrary.org/obo/GO_0072372." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of http://purl.obolibrary.org/obo/GO_0072372" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cilium morphology
+def: "The morphology of a cilium." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000078 ! attribute of organelle
 
 [Term]
 id: OBA:0005768
-name: http://purl.obolibrary.org/obo/GO_0031513 morphology
-def: "The morphology of a http://purl.obolibrary.org/obo/GO_0031513." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of http://purl.obolibrary.org/obo/GO_0031513" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: non-motile cilium morphology
+def: "The morphology of a non-motile cilium." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of non-motile cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0005766 ! cilium morphology
+is_a: OBA:0005767 ! cilium morphology
 
 [Term]
 id: OBA:0005769
@@ -27981,6 +27988,7 @@ name: motile cilium morphology
 def: "The morphology of a motile cilium." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of motile cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0005766 ! cilium morphology
+is_a: OBA:0005767 ! cilium morphology
 
 [Term]
 id: OBA:0005770
@@ -28002,18 +28010,22 @@ name: motile cilium functionality
 def: "The functionality of a motile cilium." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of motile cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0005771 ! cilium functionality
+is_a: OBA:0005773 ! cilium functionality
 
 [Term]
 id: OBA:0005773
-name: http://purl.obolibrary.org/obo/GO_0072372 functionality
-def: "The functionality of a http://purl.obolibrary.org/obo/GO_0072372." [AUTO:patterns/patterns/entity_attribute]
-synonym: "functionality of http://purl.obolibrary.org/obo/GO_0072372" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cilium functionality
+def: "The functionality of a cilium." [AUTO:patterns/patterns/entity_attribute]
+synonym: "functionality of cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000078 ! attribute of organelle
 
 [Term]
 id: OBA:0005774
-name: http://purl.obolibrary.org/obo/GO_0031513 functionality
-def: "The functionality of a http://purl.obolibrary.org/obo/GO_0031513." [AUTO:patterns/patterns/entity_attribute]
-synonym: "functionality of http://purl.obolibrary.org/obo/GO_0031513" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: non-motile cilium functionality
+def: "The functionality of a non-motile cilium." [AUTO:patterns/patterns/entity_attribute]
+synonym: "functionality of non-motile cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0005771 ! cilium functionality
+is_a: OBA:0005773 ! cilium functionality
 
 [Term]
 id: OBA:0005775
@@ -30081,6 +30093,7 @@ synonym: "cilium length trait" EXACT [GOC:TermGenie]
 synonym: "length of cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000051 ! cell projection size
 is_a: OBA:0005766 ! cilium morphology
+is_a: OBA:0005767 ! cilium morphology
 created_by: cjmungall
 creation_date: 2013-05-15T00:55:27Z
 
@@ -42089,8 +42102,8 @@ is_a: OBA:0100004 ! chemical entity attribute
 [Term]
 id: OBA:VT0001569
 name: blood bilirubin amount
-def: "The amount of a bilirubin IXalphabilirubin when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "blood bilirubin IXalphabilirubin amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of a bilirubin when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "blood bilirubin amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:1000947 ! nitrogen molecular entity amount
 
 [Term]
@@ -50708,20 +50721,23 @@ is_a: OBA:VT0002351 ! cervical lymph node morphology trait
 [Term]
 id: OBA:VT0008557
 name: interferon-alpha secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072642." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072642" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interferon-alpha production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interferon-alpha production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008558
 name: interferon-beta secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0035546." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0035546" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interferon-beta production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interferon-beta production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008559
 name: interferon-gamma secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072643." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072643" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interferon-gamma production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interferon-gamma production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008589
@@ -50838,110 +50854,128 @@ is_a: OBA:VT0008589 ! blood interleukin-1 amount
 [Term]
 id: OBA:VT0008650
 name: interleukin-1 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0050701." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0050701" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-1 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-1 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008653
 name: interleukin-1 alpha secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0050703." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0050703" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-1 alpha production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-1 alpha production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0008650 ! interleukin-1 secretion trait
 
 [Term]
 id: OBA:VT0008656
 name: interleukin-1 beta secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0050702." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0050702" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-1 beta production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-1 beta production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0008650 ! interleukin-1 secretion trait
 
 [Term]
 id: OBA:VT0008659
 name: interleukin-10 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072608." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072608" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-10 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-10 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008662
 name: interleukin-12 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072610." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072610" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-12 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-12 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008671
 name: interleukin-13 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072611." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072611" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-13 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-13 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008674
 name: interleukin-15 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072613." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072613" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-15 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-15 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008677
 name: interleukin-16 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072614." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072614" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-16 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-16 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008680
 name: interleukin-17 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072615." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072615" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-17 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-17 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008683
 name: interleukin-18 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072616." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072616" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-18 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-18 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008686
 name: interleukin-2 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0070970." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0070970" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-2 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-2 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008689
 name: interleukin-23 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072621." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072621" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-23 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-23 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008695
 name: interleukin-3 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072601." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072601" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-3 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-3 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008698
 name: interleukin-4 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072602." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072602" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-4 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-4 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008701
 name: interleukin-5 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072603." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072603" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-5 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-5 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008704
 name: interleukin-6 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072604." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072604" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-6 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-6 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008707
 name: interleukin-7 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072605." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072605" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-7 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-7 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008710
 name: interleukin-9 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072607." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072607" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-9 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-9 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0008724
@@ -51065,8 +51099,9 @@ is_a: OBA:0004525 ! intraepithelial lymphocyte amount
 [Term]
 id: OBA:VT0009056
 name: interleukin-21 secretion trait
-def: "The quality of a http://purl.obolibrary.org/obo/GO_0072619." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of http://purl.obolibrary.org/obo/GO_0072619" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a interleukin-21 production." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of interleukin-21 production" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:VT0009059
