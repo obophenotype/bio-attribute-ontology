@@ -4,7 +4,7 @@ http://purl.obolibrary.org/obo/OBA_1000584	owl:Class	obsolete nervous system qua
 http://purl.obolibrary.org/obo/OBA_0000074	owl:Class	obsolete heart contraction rate	TRUE	http://purl.obolibrary.org/obo/OBA_1001087
 http://purl.obolibrary.org/obo/OBA_1000441	owl:Class	obsolete reproductive system quality	TRUE	http://purl.obolibrary.org/obo/OBA_VT0005389
 http://purl.obolibrary.org/obo/OBA_1000242	owl:Class	obsolete respiratory system quality	TRUE	http://purl.obolibrary.org/obo/OBA_VT0005388
-http://purl.obolibrary.org/obo/OBA_VT0004271	owl:Class	obsolete paw/hand/foot/hoof morphology trait	TRUE	http://purl.obolibrary.org/obo/OBA_OBA_VT0000572
+http://purl.obolibrary.org/obo/OBA_VT0004271	owl:Class	obsolete paw/hand/foot/hoof morphology trait	TRUE	http://purl.obolibrary.org/obo/OBA_VT0000572
 http://purl.obolibrary.org/obo/OBA_1000870	owl:Class	obsolete vocalization behavior quality	TRUE	http://purl.obolibrary.org/obo/OBA_VT0001529
 http://purl.obolibrary.org/obo/OBA_1000791	owl:Class	obsolete parental behavior quality	TRUE	http://purl.obolibrary.org/obo/OBA_VT0002068
 http://purl.obolibrary.org/obo/OBA_1000803	owl:Class	obsolete grooming behavior quality	TRUE	http://purl.obolibrary.org/obo/OBA_VT0001440
@@ -12,36 +12,17 @@ http://purl.obolibrary.org/obo/OBA_0005767	owl:Class	obsolete primary cilium mor
 http://purl.obolibrary.org/obo/OBA_0003943	owl:Class	obsolete basal lamina morphology	TRUE	http://purl.obolibrary.org/obo/OBA_VT0004272
 http://purl.obolibrary.org/obo/OBA_0005773	owl:Class	obsolete primary cilium functionality	TRUE	http://purl.obolibrary.org/obo/OBA_0005771
 http://purl.obolibrary.org/obo/OBA_1001016	owl:Class	obsolete protein amount	TRUE	http://purl.obolibrary.org/obo/OBA_VT0010120
-http://purl.obolibrary.org/obo/OBA_VT0004954	owl:Class	obsolete thymus mass	TRUE	http://purl.obolibrary.org/obo/OBA_1001040
-http://purl.obolibrary.org/obo/OBA_VT0004951	owl:Class	obsolete spleen mass	TRUE	http://purl.obolibrary.org/obo/OBA_1001032
-http://purl.obolibrary.org/obo/OBA_VT0004257	owl:Class	obsolete placenta mass	TRUE	http://purl.obolibrary.org/obo/OBA_1001031
-http://purl.obolibrary.org/obo/OBA_VT1000641	owl:Class	obsolete ovary mass	TRUE	http://purl.obolibrary.org/obo/OBA_1001028
-http://purl.obolibrary.org/obo/OBA_VT0005629	owl:Class	obsolete lung mass	TRUE	http://purl.obolibrary.org/obo/OBA_1001024
-http://purl.obolibrary.org/obo/OBA_VT0003402	owl:Class	obsolete liver mass	TRUE	http://purl.obolibrary.org/obo/OBA_1001039
-http://purl.obolibrary.org/obo/OBA_VT0002707	owl:Class	obsolete kidney mass	TRUE	http://purl.obolibrary.org/obo/OBA_1001025
-http://purl.obolibrary.org/obo/OBA_VT0007028	owl:Class	obsolete heart mass	TRUE	http://purl.obolibrary.org/obo/OBA_1001020
-http://purl.obolibrary.org/obo/OBA_1001029	owl:Class	obsolete brain mass	TRUE	http://purl.obolibrary.org/obo/OBA_VT0002176
-http://purl.obolibrary.org/obo/OBA_VT0002845	owl:Class	obsolete aorta mass	TRUE	http://purl.obolibrary.org/obo/OBA_0003746
-http://purl.obolibrary.org/obo/OBA_VT1000711	owl:Class	obsolete abdominal fat pad mass	TRUE	http://purl.obolibrary.org/obo/OBA_1001036
-http://purl.obolibrary.org/obo/GO_0005623	owl:Class	obsolete cell	TRUE	http://purl.obolibrary.org/obo/CL_0000000
-http://purl.obolibrary.org/obo/OBA_0002455	owl:Class	obsolete death onset quality	TRUE	
 http://purl.obolibrary.org/obo/OBA_1000242	owl:Class	obsolete respiratory system quality	TRUE	http://purl.obolibrary.org/obo/OBA_VT0005388
-http://purl.obolibrary.org/obo/OBA_VT0004271	owl:Class	obsolete paw/hand/foot/hoof morphology trait	TRUE	http://purl.obolibrary.org/obo/OBA_VT0000572
 http://purl.obolibrary.org/obo/OBA_1000441	owl:Class	obsolete reproductive system quality	TRUE	http://purl.obolibrary.org/obo/OBA_VT0005389
 http://purl.obolibrary.org/obo/OBA_1000584	owl:Class	obsolete nervous system quality	TRUE	http://purl.obolibrary.org/obo/OBA_VT1000781
-http://purl.obolibrary.org/obo/OBA_1000873	owl:Class	obsolete glial cell (sensu Vertebrata) quality	TRUE	
-http://purl.obolibrary.org/obo/UBERON_0004355	owl:Class	obsolete podocyte foot process	TRUE	http://purl.obolibrary.org/obo/GO_0098846
-http://purl.obolibrary.org/obo/CL_0011112	owl:Class	obsolete magnocellular neurosecretory cell	TRUE	http://purl.obolibrary.org/obo/CL_0011003
-http://purl.obolibrary.org/obo/OBA_0000001	owl:Class	biological attribute	FALSE	
-http://purl.obolibrary.org/obo/OBA_0000037	owl:Class	brood size	FALSE	
-http://purl.obolibrary.org/obo/OBA_0000039	owl:Class	buoyancy	FALSE	
-http://purl.obolibrary.org/obo/OBA_0000069	owl:Class	excitatory post-synaptic membrane potential	FALSE	
-http://purl.obolibrary.org/obo/OBA_0000085	owl:Class	inhibitory post-synaptic membrane potential	FALSE	
-http://purl.obolibrary.org/obo/OBA_0000089	owl:Class	long-term neuronal synaptic plasticity	FALSE	
-http://purl.obolibrary.org/obo/OBA_0000121	owl:Class	pH	FALSE	
-http://purl.obolibrary.org/obo/OBA_0000134	owl:Class	resting membrane potential	FALSE	
-http://purl.obolibrary.org/obo/OBA_0000136	owl:Class	short-term neuronal synaptic plasticity	FALSE	
-http://purl.obolibrary.org/obo/OBA_0000140	owl:Class	synaptic metaplasticity	FALSE	
-http://purl.obolibrary.org/obo/OBA_0000141	owl:Class	synaptic plasticity	FALSE	
-http://purl.obolibrary.org/obo/OBA_0000181	owl:Class	viral protein levels	FALSE	
-http://purl.obolibrary.org/obo/OBA_0001001	owl:Class	macromolecular stability	FALSE	
+http://purl.obolibrary.org/obo/OBA_1001040	owl:Class	obsolete thymus mass	TRUE	http://purl.obolibrary.org/obo/OBA_VT0004954
+http://purl.obolibrary.org/obo/OBA_1001032	owl:Class	obsolete spleen mass	TRUE	http://purl.obolibrary.org/obo/OBA_VT0004951
+http://purl.obolibrary.org/obo/OBA_1001031	owl:Class	obsolete placenta mass	TRUE	http://purl.obolibrary.org/obo/OBA_VT0004257
+http://purl.obolibrary.org/obo/OBA_1001028	owl:Class	obsolete ovary mass	TRUE	http://purl.obolibrary.org/obo/OBA_VT1000641
+http://purl.obolibrary.org/obo/OBA_1001024	owl:Class	obsolete lung mass	TRUE	http://purl.obolibrary.org/obo/OBA_VT0005629
+http://purl.obolibrary.org/obo/OBA_1001039	owl:Class	obsolete liver mass	TRUE	http://purl.obolibrary.org/obo/OBA_VT0003402
+http://purl.obolibrary.org/obo/OBA_1001025	owl:Class	obsolete kidney mass	TRUE	http://purl.obolibrary.org/obo/OBA_VT0002707
+http://purl.obolibrary.org/obo/OBA_1001020	owl:Class	obsolete heart mass	TRUE	http://purl.obolibrary.org/obo/OBA_VT0007028
+http://purl.obolibrary.org/obo/OBA_1001029	owl:Class	obsolete brain mass	TRUE	http://purl.obolibrary.org/obo/OBA_VT0002176
+http://purl.obolibrary.org/obo/OBA_0003746	owl:Class	obsolete aorta mass	TRUE	http://purl.obolibrary.org/obo/OBA_VT0002845
+http://purl.obolibrary.org/obo/OBA_1001036	owl:Class	obsolete abdominal fat pad mass	TRUE	http://purl.obolibrary.org/obo/OBA_VT1000711
