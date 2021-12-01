@@ -2308,7 +2308,7 @@ OBA:VT1000733	heel depth	UBERON:0015875	heel	PATO:0001595	depth
 OBA:0000009	RNA stability	SO:0000356	RNA	OBA:0001001	macromolecular stability
 OBA:0000046	cardiac muscle cell membrane potential	CL:0000746	cardiac muscle cell	OBA:0000099	membrane potential
 OBA:0000100	photoreceptor cell membrane potential	CL:0000210	photoreceptor cell	OBA:0000099	membrane potential
-OBA:0000050	cell pH	CL:0000000	cell	OBA:0000121	pH
+OBA:0000050	cell pH	CL:0000000	cell	PATO:0001842	acidity
 OBA:0000072	follicle cell microvillus length	CL:0000477	follicle cell	OBA:0000102	microvillus length
 OBA:0000093	mRNA stability	SO:0000234	mRNA	OBA:0001001	macromolecular stability
 OBA:0000105	mitochondrial membrane potential	GO:0031966	mitochondrial membrane	PATO:0001462	membrane potential

@@ -23,6 +23,7 @@ property-value: foaf-homepage \"http://wiki.geneontology.org/index.php/Extension
 
 [Term]
 id: OBA:0000001 ! biological attribute ! biological attribute
+name: biological attribute
 is_a: PATO:0000001 ! quality
 
 [Term]
@@ -93,10 +94,12 @@ is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000037 ! brood size
+name: obsolete brood size
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000039 ! buoyancy
+name: obsolete buoyancy
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -112,7 +115,6 @@ is_a: OBA:0000055 ! cell size
 
 [Term]
 id: OBA:0000050 ! cell pH
-is_a: OBA:0000058 ! cellular pH
 
 [Term]
 id: OBA:0000051 ! cell projection size
@@ -134,7 +136,6 @@ is_a: OBA:0000015 ! anatomical structure size
 
 [Term]
 id: OBA:0000058 ! cellular pH
-is_a: OBA:0000121 ! pH
 
 [Term]
 id: OBA:0000060 ! cilium beat frequency
@@ -159,6 +160,7 @@ is_a: OBA:0000057 ! cellular component size
 
 [Term]
 id: OBA:0000069 ! excitatory post-synaptic membrane potential
+name: excitatory post-synaptic membrane potential
 is_a: OBA:0000125 ! post-synaptic membrane potential
 
 [Term]
@@ -180,6 +182,7 @@ is_a: OBA:0000015 ! anatomical structure size
 
 [Term]
 id: OBA:0000085 ! inhibitory post-synaptic membrane potential
+name: inhibitory post-synaptic membrane potential
 is_a: OBA:0000125 ! post-synaptic membrane potential
 
 [Term]
@@ -188,6 +191,7 @@ is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
 id: OBA:0000089 ! long-term neuronal synaptic plasticity
+name: long-term neuronal synaptic plasticity
 is_a: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
@@ -195,7 +199,6 @@ id: OBA:0000090 ! lung blood pressure
 
 [Term]
 id: OBA:0000091 ! lysosomal lumen pH
-is_a: OBA:0000050 ! cell pH
 
 [Term]
 id: OBA:0000092 ! lysosomal membrane permeability
@@ -266,6 +269,7 @@ xref: Wikipedia:Osmotic_pressure
 
 [Term]
 id: OBA:0000121 ! pH
+name: obsolete pH
 
 [Term]
 id: OBA:0000122 ! peroxisome size
@@ -297,10 +301,12 @@ id: OBA:0000129 ! rRNA stability
 
 [Term]
 id: OBA:0000134 ! resting membrane potential
+name: resting membrane potential
 is_a: OBA:0000099 ! membrane potential
 
 [Term]
 id: OBA:0000136 ! short-term neuronal synaptic plasticity
+name: short-term neuronal synaptic plasticity
 is_a: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
@@ -312,11 +318,13 @@ is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000140 ! synaptic metaplasticity
+name: synaptic metaplasticity
 comment: http://code.google.com/p/pato/issues/detail?id=2
 is_a: OBA:0000141 ! synaptic plasticity
 
 [Term]
 id: OBA:0000141 ! synaptic plasticity
+name: synaptic plasticity
 comment: http://code.google.com/p/pato/issues/detail?id=2
 is_a: OBA:0000001 ! biological attribute
 
@@ -371,6 +379,7 @@ is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000181 ! viral protein levels
+name: viral protein levels
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -379,6 +388,7 @@ is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0001001 ! macromolecular stability
+name: macromolecular stability
 comment: See http://code.google.com/p/pato/issues/detail?id=1
 is_a: OBA:0000001 ! biological attribute
 
