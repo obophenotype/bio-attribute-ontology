@@ -1,73 +1,63 @@
-Ontology ID	Type	Obsolete	Replacement Term
-ID	TYPE	AT owl:deprecated^^xsd:boolean	AI IAO:0100001
-http://purl.obolibrary.org/obo/OBA_1000584	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT1000781
-http://purl.obolibrary.org/obo/OBA_0000074	owl:Class	true	http://purl.obolibrary.org/obo/OBA_1001087
-http://purl.obolibrary.org/obo/OBA_1000441	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0005389
-http://purl.obolibrary.org/obo/OBA_1000242	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0005388
-http://purl.obolibrary.org/obo/OBA_VT0004271	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0000572
-http://purl.obolibrary.org/obo/OBA_1000870	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0001529
-http://purl.obolibrary.org/obo/OBA_1000791	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0002068
-http://purl.obolibrary.org/obo/OBA_1000803	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0001440
-http://purl.obolibrary.org/obo/OBA_0005767	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0005766
-http://purl.obolibrary.org/obo/OBA_0003943	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0004272
-http://purl.obolibrary.org/obo/OBA_0005773	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0005771
-http://purl.obolibrary.org/obo/OBA_1001016	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010120
-http://purl.obolibrary.org/obo/OBA_1000242	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0005388
-http://purl.obolibrary.org/obo/OBA_1000441	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0005389
-http://purl.obolibrary.org/obo/OBA_1000584	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT1000781
-http://purl.obolibrary.org/obo/OBA_1001040	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0004954
-http://purl.obolibrary.org/obo/OBA_1001032	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0004951
-http://purl.obolibrary.org/obo/OBA_1001031	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0004257
-http://purl.obolibrary.org/obo/OBA_1001028	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT1000641
-http://purl.obolibrary.org/obo/OBA_1001024	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0005629
-http://purl.obolibrary.org/obo/OBA_1001039	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0003402
-http://purl.obolibrary.org/obo/OBA_1001025	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0002707
-http://purl.obolibrary.org/obo/OBA_0003746	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0002845
-http://purl.obolibrary.org/obo/OBA_0003813	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0002401
-http://purl.obolibrary.org/obo/OBA_0003898	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT1000111
-http://purl.obolibrary.org/obo/OBA_0004074	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT1000712
-http://purl.obolibrary.org/obo/OBA_0004079	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT1000644
-http://purl.obolibrary.org/obo/OBA_0004086	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010611
-http://purl.obolibrary.org/obo/OBA_0004087	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010524
-http://purl.obolibrary.org/obo/OBA_0004095	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010019
-http://purl.obolibrary.org/obo/OBA_0004101	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010466
-http://purl.obolibrary.org/obo/OBA_0004543	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010496
-http://purl.obolibrary.org/obo/OBA_0004614	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010144
-http://purl.obolibrary.org/obo/OBA_0004680	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010423
-http://purl.obolibrary.org/obo/OBA_0004681	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010421
-http://purl.obolibrary.org/obo/OBA_0004682	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010424
-http://purl.obolibrary.org/obo/OBA_0004683	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010428
-http://purl.obolibrary.org/obo/OBA_0004684	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010430
-http://purl.obolibrary.org/obo/OBA_0005707	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010420
-http://purl.obolibrary.org/obo/OBA_1000873	owl:Class	true	http://purl.obolibrary.org/obo/OBA_1000236
-http://purl.obolibrary.org/obo/OBA_1001018	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0001259
-http://purl.obolibrary.org/obo/OBA_1001019	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004552
-http://purl.obolibrary.org/obo/OBA_1001020	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0007028
-http://purl.obolibrary.org/obo/OBA_1001021	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004981
-http://purl.obolibrary.org/obo/OBA_1001022	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004726
-http://purl.obolibrary.org/obo/OBA_1001023	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004721
-http://purl.obolibrary.org/obo/OBA_1001024	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0005629
-http://purl.obolibrary.org/obo/OBA_1001025	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0002707
-http://purl.obolibrary.org/obo/OBA_1001026	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0007027
-http://purl.obolibrary.org/obo/OBA_1001027	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004722
-http://purl.obolibrary.org/obo/OBA_1001028	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT1000641
-http://purl.obolibrary.org/obo/OBA_1001029	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0002176
-http://purl.obolibrary.org/obo/OBA_1001030	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004528
-http://purl.obolibrary.org/obo/OBA_1001031	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0004257
-http://purl.obolibrary.org/obo/OBA_1001032	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0004951
-http://purl.obolibrary.org/obo/OBA_1001033	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004725
-http://purl.obolibrary.org/obo/OBA_1001034	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004720
-http://purl.obolibrary.org/obo/OBA_1001035	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0007033
-http://purl.obolibrary.org/obo/OBA_1001036	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT1000711
-http://purl.obolibrary.org/obo/OBA_1001037	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0005027
-http://purl.obolibrary.org/obo/OBA_1001038	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0005562
-http://purl.obolibrary.org/obo/OBA_1001039	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0003402
-http://purl.obolibrary.org/obo/OBA_1001040	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0004954
-http://purl.obolibrary.org/obo/OBA_1001041	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0007026
-http://purl.obolibrary.org/obo/OBA_1001042	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004724
-http://purl.obolibrary.org/obo/OBA_1001043	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004598
-http://purl.obolibrary.org/obo/OBA_1001044	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0007031
-http://purl.obolibrary.org/obo/OBA_0000050	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0000058
-http://purl.obolibrary.org/obo/OBA_0000121	owl:Class	true	http://purl.obolibrary.org/obo/PATO_0001842
-http://purl.obolibrary.org/obo/OBA_0000037	owl:Class	true	http://purl.obolibrary.org/obo/PATO_0000276
-http://purl.obolibrary.org/obo/OBA_0000039	owl:Class	true	http://purl.obolibrary.org/obo/PATO_0001420
+Ontology ID	Type	Obsolete	Replacement Term	label of obsolete class
+ID	TYPE	AT owl:deprecated^^xsd:boolean	AI IAO:0100001	
+http://purl.obolibrary.org/obo/OBA_0000037	owl:Class	true	http://purl.obolibrary.org/obo/PATO_0000276	brood size
+http://purl.obolibrary.org/obo/OBA_0000039	owl:Class	true	http://purl.obolibrary.org/obo/PATO_0001420	buoyancy
+http://purl.obolibrary.org/obo/OBA_0000050	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0000058	cell pH
+http://purl.obolibrary.org/obo/OBA_0000074	owl:Class	true	http://purl.obolibrary.org/obo/OBA_1001087	heart contraction rate
+http://purl.obolibrary.org/obo/OBA_0000121	owl:Class	true	http://purl.obolibrary.org/obo/PATO_0001842	pH
+http://purl.obolibrary.org/obo/OBA_0003746	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0002845	aorta mass
+http://purl.obolibrary.org/obo/OBA_0003813	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0002401	muscle organ weight
+http://purl.obolibrary.org/obo/OBA_0003898	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT1000111	bone element mass
+http://purl.obolibrary.org/obo/OBA_0003943	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0004272	basal lamina morphology
+http://purl.obolibrary.org/obo/OBA_0004074	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT1000712	skeletal muscle tissue mass
+http://purl.obolibrary.org/obo/OBA_0004079	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT1000644	testis weight
+http://purl.obolibrary.org/obo/OBA_0004086	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010611	uterus weight
+http://purl.obolibrary.org/obo/OBA_0004087	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010524	seminal vesicle weight
+http://purl.obolibrary.org/obo/OBA_0004095	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010019	epididymis weight
+http://purl.obolibrary.org/obo/OBA_0004101	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010466	prostate gland weight
+http://purl.obolibrary.org/obo/OBA_0004543	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010496	pituitary gland weight
+http://purl.obolibrary.org/obo/OBA_0004614	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010144	pancreas weight
+http://purl.obolibrary.org/obo/OBA_0004680	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010423	gonadal fat pad weight
+http://purl.obolibrary.org/obo/OBA_0004681	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010421	epididymal fat pad weight
+http://purl.obolibrary.org/obo/OBA_0004682	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010424	inguinal fat pad weight
+http://purl.obolibrary.org/obo/OBA_0004683	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010428	parametrial fat pad weight
+http://purl.obolibrary.org/obo/OBA_0004684	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010430	retroperitoneal fat pad weight
+http://purl.obolibrary.org/obo/OBA_0005707	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010420	adrenal gland weight
+http://purl.obolibrary.org/obo/OBA_0005767	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0005766	primary cilium morphology
+http://purl.obolibrary.org/obo/OBA_0005773	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0005771	primary cilium functionality
+http://purl.obolibrary.org/obo/OBA_1000242	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0005388	respiratory system quality
+http://purl.obolibrary.org/obo/OBA_1000441	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0005389	reproductive system quality
+http://purl.obolibrary.org/obo/OBA_1000584	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT1000781	nervous system quality
+http://purl.obolibrary.org/obo/OBA_1000791	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0002068	parental behavior quality
+http://purl.obolibrary.org/obo/OBA_1000803	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0001440	grooming behavior quality
+http://purl.obolibrary.org/obo/OBA_1000870	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0001529	vocalization behavior quality
+http://purl.obolibrary.org/obo/OBA_1000873	owl:Class	true	http://purl.obolibrary.org/obo/OBA_1000236	glial cell (sensu Vertebrata) quality
+http://purl.obolibrary.org/obo/OBA_1001016	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0010120	protein amount
+http://purl.obolibrary.org/obo/OBA_1001018	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0001259	multicellular organism mass
+http://purl.obolibrary.org/obo/OBA_1001019	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004552	vagina mass
+http://purl.obolibrary.org/obo/OBA_1001020	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0007028	heart mass
+http://purl.obolibrary.org/obo/OBA_1001021	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004981	omental fat pad mass
+http://purl.obolibrary.org/obo/OBA_1001022	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004726	late embryo mass
+http://purl.obolibrary.org/obo/OBA_1001023	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004721	extensor digitorum longus mass
+http://purl.obolibrary.org/obo/OBA_1001024	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0005629	lung mass
+http://purl.obolibrary.org/obo/OBA_1001025	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0002707	kidney mass
+http://purl.obolibrary.org/obo/OBA_1001026	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0007027	right cardiac atrium mass
+http://purl.obolibrary.org/obo/OBA_1001027	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004722	soleus muscle mass
+http://purl.obolibrary.org/obo/OBA_1001028	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT1000641	female gonad mass
+http://purl.obolibrary.org/obo/OBA_1001029	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0002176	brain mass
+http://purl.obolibrary.org/obo/OBA_1001030	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004528	fat pad mass
+http://purl.obolibrary.org/obo/OBA_1001031	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0004257	placenta mass
+http://purl.obolibrary.org/obo/OBA_1001032	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0004951	spleen mass
+http://purl.obolibrary.org/obo/OBA_1001033	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004725	embryo mass
+http://purl.obolibrary.org/obo/OBA_1001034	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004720	gastrocnemius mass
+http://purl.obolibrary.org/obo/OBA_1001035	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0007033	heart right ventricle mass
+http://purl.obolibrary.org/obo/OBA_1001036	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT1000711	abdominal fat pad mass
+http://purl.obolibrary.org/obo/OBA_1001037	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0005027	quadriceps femoris mass
+http://purl.obolibrary.org/obo/OBA_1001038	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0005562	urinary bladder mass
+http://purl.obolibrary.org/obo/OBA_1001039	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0003402	liver mass
+http://purl.obolibrary.org/obo/OBA_1001040	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0004954	thymus mass
+http://purl.obolibrary.org/obo/OBA_1001041	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0007026	left cardiac atrium mass
+http://purl.obolibrary.org/obo/OBA_1001042	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004724	tongue mass
+http://purl.obolibrary.org/obo/OBA_1001043	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0004598	fallopian tube mass
+http://purl.obolibrary.org/obo/OBA_1001044	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0007031	heart left ventricle mass
+http://purl.obolibrary.org/obo/OBA_VT0004271	owl:Class	true	http://purl.obolibrary.org/obo/OBA_VT0000572	paw/hand/foot/hoof morphology trait
