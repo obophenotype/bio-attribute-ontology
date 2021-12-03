@@ -2308,7 +2308,6 @@ OBA:VT1000733	heel depth	UBERON:0015875	heel	PATO:0001595	depth
 OBA:0000009	RNA stability	SO:0000356	RNA	OBA:0001001	macromolecular stability
 OBA:0000046	cardiac muscle cell membrane potential	CL:0000746	cardiac muscle cell	OBA:0000099	membrane potential
 OBA:0000100	photoreceptor cell membrane potential	CL:0000210	photoreceptor cell	OBA:0000099	membrane potential
-OBA:0000050	cell pH	CL:0000000	cell	PATO:0001842	acidity
 OBA:0000072	follicle cell microvillus length	CL:0000477	follicle cell	OBA:0000102	microvillus length
 OBA:0000093	mRNA stability	SO:0000234	mRNA	OBA:0001001	macromolecular stability
 OBA:0000105	mitochondrial membrane potential	GO:0031966	mitochondrial membrane	PATO:0001462	membrane potential
@@ -4062,7 +4061,6 @@ OBA:0003742		UBERON:0000467	anatomical system	PATO:0000140	position
 OBA:0003743		CL:0000216	Sertoli cell	PATO:0000117	size
 OBA:0003744		GO:0033561	regulation of water loss via skin	PATO:0000161	rate
 OBA:0003745		GO:0003009	skeletal muscle contraction	PATO:0000161	rate
-OBA:0003746		UBERON:0000947	aorta	PATO:0000125	mass
 OBA:0003747		GO:0003094	glomerular filtration	PATO:0000161	rate
 OBA:0003748		UBERON:0000395	cochlear ganglion	PATO:0002037	degeneration
 OBA:0003749		CL:0000148	melanocyte	PATO:0000051	morphology
@@ -4129,7 +4127,6 @@ OBA:0003809		UBERON:0008777	hypaxial musculature	PATO:0000117	size
 OBA:0003810		UBERON:0000309	body wall	PATO:0000140	position
 OBA:0003811		UBERON:0002407	pericardium	PATO:0000141	structure
 OBA:0003812		UBERON:0001533	subclavian artery	PATO:0000051	morphology
-OBA:0003813		UBERON:0001630	muscle organ	PATO:0000125	mass
 OBA:0003814		UBERON:0003946	placenta labyrinth	PATO:0000070	amount
 OBA:0003815		GO:0010070	zygote asymmetric cell division	PATO:0000070	amount
 OBA:0003816		UBERON:0002073	hair follicle	PATO:0002037	degeneration
@@ -4213,7 +4210,6 @@ OBA:0003894		GO:0035172	hemocyte proliferation	PATO:0000161	rate
 OBA:0003895		CL:0000071	blood vessel endothelial cell	PATO:0001509	functionality
 OBA:0003896		UBERON:0002083	ductus venosus	PATO:0000136	closure
 OBA:0003897		GO:0014827	intestine smooth muscle contraction	PATO:0000161	rate
-OBA:0003898		UBERON:0001474	bone element	PATO:0000125	mass
 OBA:0003899		GO:0005694	chromosome	PATO:0000070	amount
 OBA:0003900		CL:0000000	cell	PATO:0001374	ploidy
 OBA:0003901		UBERON:0005455	interventricular groove	PATO:0000069	deviation(from_normal)
@@ -4257,7 +4253,6 @@ OBA:0003939		UBERON:0006618	atrium auricular region	PATO:0002005	concavity
 OBA:0003940		UBERON:0004021	spongiotrophoblast layer	PATO:0000051	morphology
 OBA:0003941		UBERON:0000468	multicellular organism	PATO:0001230	strength
 OBA:0003942		UBERON:0001987	placenta	PATO:0000017	color saturation
-OBA:0003943		GO:0005604	basement membrane	PATO:0000051	morphology
 OBA:0003944		UBERON:0010404	lateral ventricle subependymal layer	PATO:0000051	morphology
 OBA:0003945		UBERON:0004367	Descemet's membrane	PATO:0000070	amount
 OBA:0003946		UBERON:0002824	vestibular ganglion	PATO:0002037	degeneration
@@ -4387,20 +4382,16 @@ OBA:0004070		CL:0000037	hematopoietic stem cell	PATO:0000051	morphology
 OBA:0004071		CL:0000037	hematopoietic stem cell	PATO:0000070	amount
 OBA:0004072		CL:0000540	neuron	PATO:0001509	functionality
 OBA:0004073		GO:0016446	somatic hypermutation of immunoglobulin genes	PATO:0000044	frequency
-OBA:0004074		UBERON:0001134	skeletal muscle tissue	PATO:0000125	mass
 OBA:0004075		UBERON:0001098	incisor tooth	PATO:0000122	length
 OBA:0004076		UBERON:0001241	crypt of Lieberkuhn of small intestine	PATO:0000051	morphology
 OBA:0004077		UBERON:0001984	crypt of Lieberkuhn of large intestine	PATO:0000051	morphology
 OBA:0004078		CL:0000510	paneth cell	PATO:0000051	morphology
-OBA:0004079		UBERON:0000473	testis	PATO:0000125	mass
 OBA:0004080		UBERON:0001232	collecting duct of renal tubule	PATO:0000117	size
 OBA:0004081		UBERON:0006725	spiral ligament	PATO:0002037	degeneration
 OBA:0004082		UBERON:0001706	nasal septum	PATO:0000070	amount
 OBA:0004083		UBERON:0001295	endometrium	PATO:0000051	morphology
 OBA:0004084		UBERON:0002500	zygomatic arch	PATO:0000070	amount
 OBA:0004085		CL:0000015	male germ cell	PATO:0000117	size
-OBA:0004086		UBERON:0000995	uterus	PATO:0000125	mass
-OBA:0004087		UBERON:0000998	seminal vesicle	PATO:0000125	mass
 OBA:0004088		UBERON:0004657	mandible condylar process	PATO:0000070	amount
 OBA:0004089		UBERON:0004660	mandible coronoid process	PATO:0000070	amount
 OBA:0004090		UBERON:0006959	mandible angular process	PATO:0000070	amount
@@ -4408,13 +4399,11 @@ OBA:0004091		UBERON:0003092	ultimobranchial body	PATO:0000070	amount
 OBA:0004092		UBERON:0004368	Reichert's cartilage	PATO:0000070	amount
 OBA:0004093		UBERON:0005600	crus commune	PATO:0000051	morphology
 OBA:0004094		UBERON:0001301	epididymis	PATO:0000117	size
-OBA:0004095		UBERON:0001301	epididymis	PATO:0000125	mass
 OBA:0004096		UBERON:0004544	epididymis epithelium	PATO:0000051	morphology
 OBA:0004097		UBERON:0004544	epididymis epithelium	PATO:0002037	degeneration
 OBA:0004098		UBERON:0001301	epididymis	PATO:0002037	degeneration
 OBA:0004099		GO:0001658	branching involved in ureteric bud morphogenesis	PATO:0001509	functionality
 OBA:0004100		GO:0001824	blastocyst development	PATO:0000051	morphology
-OBA:0004101		UBERON:0002367	prostate gland	PATO:0000125	mass
 OBA:0004102		UBERON:0000090	blastocele	PATO:0000051	morphology
 OBA:0004103		UBERON:0000087	inner cell mass	PATO:0000070	amount
 OBA:0004104		UBERON:0000087	inner cell mass	PATO:0002037	degeneration
@@ -4855,7 +4844,6 @@ OBA:0004539		UBERON:0001927	medial geniculate body	PATO:0000051	morphology
 OBA:0004540		UBERON:0001920	paraventricular nucleus of thalamus	PATO:0000051	morphology
 OBA:0004541		UBERON:0005291	embryonic tissue	PATO:0001509	functionality
 OBA:0004542		UBERON:0001886	choroid plexus	PATO:0000070	amount
-OBA:0004543		UBERON:0000007	pituitary gland	PATO:0000125	mass
 OBA:0004544		CL:0000502	type D enteroendocrine cell	PATO:0001509	functionality
 OBA:0004545		UBERON:0003972	placenta junctional zone	PATO:0000141	structure
 OBA:0004546		CL:0000326	glycogen accumulating cell	PATO:0000051	morphology
@@ -4925,7 +4913,6 @@ OBA:0004610		UBERON:0001299	glans penis	PATO:0000051	morphology
 OBA:0004611		UBERON:0006435	os penis	PATO:0000051	morphology
 OBA:0004612		UBERON:0006435	os penis	PATO:0000117	size
 OBA:0004613		UBERON:0000989	penis	PATO:0000140	position
-OBA:0004614		UBERON:0001264	pancreas	PATO:0000125	mass
 OBA:0004615		CL:0000169	type B pancreatic cell	PATO:0000125	mass
 OBA:0004616		CL:0000449	brown fat cell	PATO:0000117	size
 OBA:0004617		CL:0000449	brown fat cell	PATO:0000070	amount
@@ -4991,11 +4978,6 @@ OBA:0004676		UBERON:0003980	cerebellum fissure	PATO:0000051	morphology
 OBA:0004677		UBERON:0003980	cerebellum fissure	PATO:0000070	amount
 OBA:0004678		UBERON:0010512	strand of guard hair	PATO:0000122	length
 OBA:0004679		CL:0002092	bone marrow cell	PATO:0001509	functionality
-OBA:0004680		UBERON:0003428	gonadal fat pad	PATO:0000125	mass
-OBA:0004681		UBERON:0010412	epididymal fat pad	PATO:0000125	mass
-OBA:0004682		UBERON:0010410	inguinal fat pad	PATO:0000125	mass
-OBA:0004683		UBERON:0010413	parametrial fat pad	PATO:0000125	mass
-OBA:0004684		UBERON:0010411	retroperitoneal fat pad	PATO:0000125	mass
 OBA:0004685		UBERON:0002310	hippocampus fimbria	PATO:0000070	amount
 OBA:0004686		GO:0001947	heart looping	PATO:0002325	onset quality
 OBA:0004687		UBERON:0004055	primitive pit	PATO:0000051	morphology
@@ -6017,7 +5999,6 @@ OBA:0005703		GO:0097621	monoamine oxidase activity	PATO:0000161	rate
 OBA:0005704		GO:0003870	5-aminolevulinate synthase activity	PATO:0000161	rate
 OBA:0005705		UBERON:0004086	brain ventricle	PATO:0000141	structure
 OBA:0005706		UBERON:0002402	pleural cavity	PATO:0000051	morphology
-OBA:0005707		UBERON:0002369	adrenal gland	PATO:0000125	mass
 OBA:0005708		CL:0002418	hemangioblast	PATO:0000051	morphology
 OBA:0005709		CL:0002418	hemangioblast	PATO:0000070	amount
 OBA:0005710		UBERON:0000974	neck	PATO:0000051	morphology
@@ -6077,13 +6058,11 @@ OBA:0005763		UBERON:0001821	sebaceous gland	PATO:0000070	amount
 OBA:0005764		UBERON:0005253	head mesenchyme	PATO:0000070	amount
 OBA:0005765		UBERON:0005253	head mesenchyme	PATO:0000117	size
 OBA:0005766		GO:0005929	cilium	PATO:0000051	morphology
-OBA:0005767		GO:0005929	cilium	PATO:0000051	morphology
 OBA:0005768		GO:0097730	non-motile cilium	PATO:0000051	morphology
 OBA:0005769		GO:0031514	motile cilium	PATO:0000051	morphology
 OBA:0005770		UBERON:0000925	endoderm	PATO:0000070	amount
 OBA:0005771		GO:0005929	cilium	PATO:0001509	functionality
 OBA:0005772		GO:0031514	motile cilium	PATO:0001509	functionality
-OBA:0005773		GO:0005929	cilium	PATO:0001509	functionality
 OBA:0005774		GO:0097730	non-motile cilium	PATO:0001509	functionality
 OBA:0005775		UBERON:0000924	ectoderm	PATO:0000070	amount
 OBA:0005776		UBERON:0001966	substantia nigra pars reticulata	PATO:0000051	morphology
@@ -7000,7 +6979,6 @@ OBA:1000787		UBERON:0010395	lymph node primary follicle	PATO:0000001	quality
 OBA:1000788		NBO:0000224	cued conditioning behavior	PATO:0000001	quality
 OBA:1000789		GO:0004365	glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity	PATO:0000001	quality
 OBA:1000790		UBERON:0001322	sciatic nerve	PATO:0000001	quality
-OBA:1000791		NBO:0000044	parental behavior	PATO:0000001	quality
 OBA:1000792		UBERON:0004374	vitelline vasculature	PATO:0000001	quality
 OBA:1000793		NBO:0000412	pupillary light reflex	PATO:0000001	quality
 OBA:1000794		GO:0043084	penile erection	PATO:0000001	quality
@@ -7012,7 +6990,6 @@ OBA:1000799		NBO:0002362	behavioral response to anesthetic	PATO:0000001	quality
 OBA:1000800		GO:0008119	thiopurine S-methyltransferase activity	PATO:0000001	quality
 OBA:1000801		UBERON:0000396	vallate papilla	PATO:0000001	quality
 OBA:1000802		UBERON:0001841	anterior semicircular canal	PATO:0000001	quality
-OBA:1000803		NBO:0000027	grooming behavior	PATO:0000001	quality
 OBA:1000804		NBO:0000175	spatial learning	PATO:0000001	quality
 OBA:1000805		GO:0007585	respiratory gaseous exchange	PATO:0000001	quality
 OBA:1000806		CL:0000835	myeloblast	PATO:0000001	quality
@@ -7079,10 +7056,8 @@ OBA:1000866		CL:0000081	blood cell	PATO:0000001	quality
 OBA:1000867		UBERON:0002077	cortex of hair	PATO:0000001	quality
 OBA:1000868		GO:0060210	metestrus	PATO:0000001	quality
 OBA:1000869		NBO:0000361	gait	PATO:0000001	quality
-OBA:1000870		NBO:0000037	vocalization behavior	PATO:0000001	quality
 OBA:1000871		NBO:0000577	postural reflex	PATO:0000001	quality
 OBA:1000872		GO:0033327	Leydig cell differentiation	PATO:0000001	quality
-OBA:1000873		CL:0000125	glial cell	PATO:0000001	quality
 OBA:1000874		NBO:0000218	passive avoidance learning behavior	PATO:0000001	quality
 OBA:1000875		GO:1903701	substantia propria of cornea development	PATO:0000001	quality
 OBA:1000876		UBERON:0001845	perilymph	PATO:0000001	quality
@@ -7225,35 +7200,7 @@ OBA:1001012		CHEBI:28670	neopterin	PATO:0000070	amount
 OBA:1001013		PR:000000134	tumor necrosis factor alpha	PATO:0000070	amount
 OBA:1001014		CHEBI:64583	sphingomyelin	PATO:0000070	amount
 OBA:1001015		CHEBI:27470	folic acid	PATO:0000070	amount
-OBA:1001016		CHEBI:36080	protein	PATO:0000070	amount
 OBA:1001017		CHEBI:6495	lipoprotein	PATO:0000070	amount
-OBA:1001018		UBERON:0000468	multicellular organism	PATO:0000125	mass
-OBA:1001019		UBERON:0000996	vagina	PATO:0000125	mass
-OBA:1001020		UBERON:0000948	heart	PATO:0000125	mass
-OBA:1001021		UBERON:0010414	omental fat pad	PATO:0000125	mass
-OBA:1001022		UBERON:0000323	late embryo	PATO:0000125	mass
-OBA:1001023		UBERON:0001386	extensor digitorum longus	PATO:0000125	mass
-OBA:1001024		UBERON:0002048	lung	PATO:0000125	mass
-OBA:1001025		UBERON:0002113	kidney	PATO:0000125	mass
-OBA:1001026		UBERON:0002078	right cardiac atrium	PATO:0000125	mass
-OBA:1001027		UBERON:0001389	soleus muscle	PATO:0000125	mass
-OBA:1001028		UBERON:0000992	female gonad	PATO:0000125	mass
-OBA:1001029		UBERON:0000955	brain	PATO:0000125	mass
-OBA:1001030		UBERON:0003916	fat pad	PATO:0000125	mass
-OBA:1001031		UBERON:0001987	placenta	PATO:0000125	mass
-OBA:1001032		UBERON:0002106	spleen	PATO:0000125	mass
-OBA:1001033		UBERON:0000922	embryo	PATO:0000125	mass
-OBA:1001034		UBERON:0001388	gastrocnemius	PATO:0000125	mass
-OBA:1001035		UBERON:0002080	heart right ventricle	PATO:0000125	mass
-OBA:1001036		UBERON:0003427	abdominal fat pad	PATO:0000125	mass
-OBA:1001037		UBERON:0001377	quadriceps femoris	PATO:0000125	mass
-OBA:1001038		UBERON:0001255	urinary bladder	PATO:0000125	mass
-OBA:1001039		UBERON:0002107	liver	PATO:0000125	mass
-OBA:1001040		UBERON:0002370	thymus	PATO:0000125	mass
-OBA:1001041		UBERON:0002079	left cardiac atrium	PATO:0000125	mass
-OBA:1001042		UBERON:0001723	tongue	PATO:0000125	mass
-OBA:1001043		UBERON:0003889	fallopian tube	PATO:0000125	mass
-OBA:1001044		UBERON:0002084	heart left ventricle	PATO:0000125	mass
 OBA:1001045		UBERON:0002095	mesentery	PATO:0000051	morphology
 OBA:1001046		UBERON:0035639	ocular adnexa	PATO:0000051	morphology
 OBA:1001047		UBERON:0014796	common tendinous ring	PATO:0000051	morphology

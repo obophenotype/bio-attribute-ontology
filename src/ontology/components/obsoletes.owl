@@ -8,8 +8,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oba/components/obsoletes.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oba/releases/2021-11-26/components/obsoletes.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-11-26</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oba/releases/2021-12-03/components/obsoletes.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-03</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -42,12 +42,227 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000037">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000276"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000039">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PATO_0001420"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000050">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0000058"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_0000074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000074">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_1001087"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete heart contraction rate</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000121">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PATO_0001842"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0003746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003746">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002845"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0003813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003813">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0002401"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0003898 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003898">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000111"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0003943 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003943">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004272"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004074">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000712"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004079">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000644"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004086">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010611"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004087">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010524"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004095">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010019"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004101">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010466"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004543">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010496"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004614">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010144"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004680">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010423"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004681">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010421"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004682">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010424"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004683">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010428"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004684">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010430"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0005707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0005707">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010420"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0005767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0005767">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0005766"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0005773 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0005773">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0005771"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -56,8 +271,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000242">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005388"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete respiratory system quality</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -66,8 +280,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000441">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005389"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete reproductive system quality</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -76,8 +289,295 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000584">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000781"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete nervous system quality</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000791 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000791">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002068"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000803 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000803">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001440"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000870 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000870">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001529"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000873">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_1000236"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001016">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010120"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001018">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001259"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001019">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004552"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001020">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0007028"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001021">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004981"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001022">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004726"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001023">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004721"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001024">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005629"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001025">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002707"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001026">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0007027"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001027">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004722"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001028">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000641"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001029">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002176"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001030">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004528"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001031">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004257"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001032">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004951"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001033">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004725"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001034">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004720"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001035">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0007033"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001036">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000711"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001037">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0005027"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001038">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0005562"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001039">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0003402"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001040">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004954"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001041">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0007026"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001042">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004724"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001043">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004598"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001044">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0007031"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -85,9 +585,8 @@
     <!-- http://purl.obolibrary.org/obo/OBA_VT0004271 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004271">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_OBA_VT0000572"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete paw/hand/foot/hoof morphology trait</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000572"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
 </rdf:RDF>
 
