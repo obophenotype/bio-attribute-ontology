@@ -26,7 +26,6 @@ src/ontology/dosdp-tools.log
 src/ontology/ed_definitions_merged.owl
 src/ontology/ontologyterms.txt
 src/ontology/simple_seed.txt
-src/ontology/patterns
 src/ontology/merged-oba-edit.owl
 
 src/ontology/target/
@@ -39,3 +38,7 @@ src/patterns/data/**/*.ofn
 src/patterns/data/**/*.txt
 src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
+src/ontology/oba-materialized-spiked.owl
+src/ontology/oba-materialized.owl
+src/ontology/oba-reduced.owl
+src/ontology/oba-core.owl

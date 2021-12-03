@@ -1,0 +1,77 @@
+Prefix(:=<urn:unnamed:ontology#ont1>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:unnamed:ontology#ont1>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0011007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/entity_attribute.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/entity_attribute_location.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> ('thing' in 'quality')
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/attribute_location"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> "The 'quality' when measured in 'thing'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> "attribute_location"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/attribute_location"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> "'thing' 'quality'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> "'thing' in 'quality'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> owl:Thing)))
+
+# Class: <http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> (age of onset of 'disease')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> "The age at which 'disease' manifestations first appear."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> "disease age of onset"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> "age 'disease' symptoms begin"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> "age at onset of 'disease'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> "age of onset of 'disease'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HP_0011007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/MONDO_0000001>)))
+
+# Class: <http://purl.obolibrary.org/obo/oba/patterns/entity_attribute.yaml> ('thing' 'quality')
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/oba/patterns/entity_attribute.yaml> "The 'quality' of a 'thing'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/oba/patterns/entity_attribute.yaml> "entity_attribute"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/entity_attribute.yaml> "'quality' of 'thing'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/entity_attribute.yaml> "'thing' 'quality'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/entity_attribute.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> owl:Thing)))
+
+# Class: <http://purl.obolibrary.org/obo/oba/patterns/entity_attribute_location.yaml> ('quality' of 'thing' in 'thing')
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/oba/patterns/entity_attribute_location.yaml> "The 'quality' of a 'thing' when measured in 'thing'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/oba/patterns/entity_attribute_location.yaml> "entity_attribute_location"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/entity_attribute_location.yaml> "'thing' 'thing' 'quality'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/entity_attribute_location.yaml> "'quality' of 'thing' in 'thing'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/entity_attribute_location.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(owl:Thing ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing)))))
+
+# Class: <http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> ('quality' of 'process' in 'thing')
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/process_attribute_location"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> "The 'quality' of a 'process' when measured in 'thing'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> "process_attribute_location"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/process_attribute_location"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> "'thing' 'process' 'quality'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> "'quality' of 'process' in 'thing'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> owl:Thing)))))
+
+
+SubClassOf(ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> owl:Thing))))
+)

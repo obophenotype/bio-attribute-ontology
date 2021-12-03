@@ -4,6 +4,7 @@ github_org: obophenotype
 repo: bio-attribute-ontology
 report_fail_on: ERROR
 edit_format: obo
+use_dosdps: TRUE
 export_formats:
   - owl
   - obo
@@ -11,18 +12,37 @@ export_formats:
 release_artefacts:
   - base
   - full
+  - basic
 primary_release: full
 import_group:
   products:
     - id: ro
     - id: chebi
-      mirror_from: http://purl.obolibrary.org/obo/chebi.owl.gz
+      is_large: TRUE
+      use_gzip: TRUE
     - id: go
     - id: pato
     - id: omo
     - id: uberon
+      mirror_from: http://purl.obolibrary.org/obo/uberon/basic.owl
     - id: cl
+      mirror_from: http://purl.obolibrary.org/obo/cl/cl-basic.owl
+    - id: nbo
     - id: pr
+      is_large: TRUE
+      use_gzip: TRUE
     - id: so
     - id: po
+#Not an offical component, so we should not merge it along with the rest
+components:
+  products:
+    - filename: obsoletes.owl
+#    - filename: reasoner_axioms.owl
+subset_group:
+  products:
+    - id: oba-basic
+robotemplate_group:
+  products:
+    - id: obsoletes.owl
 robot_java_args: '-Xmx8G'
+allow_equivalents: all
