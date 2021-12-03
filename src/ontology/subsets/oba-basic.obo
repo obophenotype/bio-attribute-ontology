@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: oba/releases/2021-11-26/oba-basic.owl
+data-version: oba/releases/2021-12-03/oba-basic.owl
 date: 13:11:2015 10:21
 saved-by: cjmungall
 auto-generated-by: TermGenie 1.0
@@ -8,11 +8,12 @@ ontology: oba/oba-basic
 property_value: http://purl.org/dc/elements/1.1/description "A collection of biological attributes (traits) covering all kingdoms of life. Interoperable with VT (vertebrate trait ontology) and TO (plant trait ontology). Extends PATO." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Ontology of Biological Attributes (OBA)" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2021-11-26" xsd:string
+property_value: owl:versionInfo "2021-12-03" xsd:string
 property_value: property-value "foaf-homepage \"http://wiki.geneontology.org/index.php/Extensions/x-attribute\" xsd:anyURL" xsd:string
 
 [Term]
 id: OBA:0000001
+name: biological attribute
 
 [Term]
 id: OBA:0000003
@@ -46,9 +47,9 @@ is_a: OBA:0000172 ! tube size
 [Term]
 id: OBA:0000009
 name: RNA stability
-def: "The http://purl.obolibrary.org/obo/OBA_0001001 of a RNA." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0001001 of RNA" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0001001
+def: "The macromolecular stability of a RNA." [AUTO:patterns/patterns/entity_attribute]
+synonym: "macromolecular stability of RNA" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0001001 ! macromolecular stability
 
 [Term]
 id: OBA:0000011
@@ -110,11 +111,17 @@ is_a: OBA:VT0100005 ! body size trait
 
 [Term]
 id: OBA:0000037
-is_a: OBA:0000001
+name: obsolete brood size
+is_a: OBA:0000001 ! biological attribute
+is_obsolete: true
+replaced_by: PATO:0000276
 
 [Term]
 id: OBA:0000039
-is_a: OBA:0000001
+name: obsolete buoyancy
+is_a: OBA:0000001 ! biological attribute
+is_obsolete: true
+replaced_by: PATO:0001420
 
 [Term]
 id: OBA:0000040
@@ -129,21 +136,19 @@ name: cardiac muscle cell membrane potential
 def: "The membrane potential of a cardiac muscle cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "membrane potential of cardiac muscle cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000099 ! membrane potential
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0000048
 name: cell diameter
-def: "The diameter of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "diameter of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The diameter of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "diameter of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000055 ! cell size
 
 [Term]
 id: OBA:0000050
-name: cell pH
-def: "The http://purl.obolibrary.org/obo/OBA_0000121 of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0000121 of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000121
-is_a: OBA:1000076 ! attribute of cell
+is_obsolete: true
+replaced_by: OBA:0000058
 
 [Term]
 id: OBA:0000051
@@ -155,23 +160,23 @@ is_a: OBA:0000057 ! cellular component size
 [Term]
 id: OBA:0000052
 name: cell shape
-def: "The shape of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "shape of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001065 ! obsolete cell morphology
+def: "The shape of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "shape of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0000055
 name: cell size
-def: "The size of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "size of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The size of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000057 ! cellular component size
-is_a: OBA:1001065 ! obsolete cell morphology
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0000056
 name: cell volume
-def: "The volume of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "volume of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The volume of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "volume of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000055 ! cell size
 
 [Term]
@@ -185,9 +190,8 @@ is_a: OBA:0100001 ! cellular component attribute
 [Term]
 id: OBA:0000058
 name: cellular pH
-def: "The acidity when measured in obsolete cell." [AUTO:patterns/patterns/attribute_location]
-synonym: "obsolete cell acidity" EXACT [AUTO:patterns/patterns/attribute_location]
-is_a: OBA:0000121
+def: "The acidity when measured in cell." [AUTO:patterns/patterns/attribute_location]
+synonym: "cell acidity" EXACT [AUTO:patterns/patterns/attribute_location]
 is_a: OBA:1000076 ! attribute of cell
 
 [Term]
@@ -230,6 +234,7 @@ is_a: OBA:1000142 ! vesicle size
 
 [Term]
 id: OBA:0000069
+name: excitatory post-synaptic membrane potential
 is_a: OBA:0000125 ! post-synaptic membrane potential
 
 [Term]
@@ -237,12 +242,13 @@ id: OBA:0000072
 name: follicle cell microvillus length
 def: "The microvillus length of a ovarian follicle cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "microvillus length of ovarian follicle cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:0000102 ! microvillus length
 
 [Term]
 id: OBA:0000074
-name: obsolete heart contraction rate
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
+is_obsolete: true
 replaced_by: OBA:1001087
 
 [Term]
@@ -251,7 +257,7 @@ name: hormone levels
 def: "The amount of a hormone." [AUTO:patterns/patterns/entity_attribute]
 comment: TODO - unify levels vs amount
 synonym: "amount of hormone" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000084
@@ -263,6 +269,7 @@ is_a: OBA:VT0015071 ! appendage morphology trait
 
 [Term]
 id: OBA:0000085
+name: inhibitory post-synaptic membrane potential
 is_a: OBA:0000125 ! post-synaptic membrane potential
 
 [Term]
@@ -270,10 +277,11 @@ id: OBA:0000088
 name: liquid surface tension
 def: "The surface tension of a liquid configuration." [AUTO:patterns/patterns/entity_attribute]
 synonym: "surface tension of liquid configuration" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001 {is_asserted="true"}
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
 id: OBA:0000089
+name: long-term neuronal synaptic plasticity
 is_a: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
@@ -288,8 +296,6 @@ id: OBA:0000091
 name: lysosomal lumen pH
 def: "The acidity when measured in lysosomal lumen." [AUTO:patterns/patterns/attribute_location]
 synonym: "lysosomal lumen acidity" EXACT [AUTO:patterns/patterns/attribute_location]
-is_a: OBA:0000050 ! cell pH
-is_a: OBA:0000058 ! cellular pH
 is_a: OBA:0100001 ! cellular component attribute
 
 [Term]
@@ -302,8 +308,8 @@ is_a: OBA:1000028 ! membrane permeability
 [Term]
 id: OBA:0000093
 name: mRNA stability
-def: "The http://purl.obolibrary.org/obo/OBA_0001001 of a mRNA." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0001001 of mRNA" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The macromolecular stability of a mRNA." [AUTO:patterns/patterns/entity_attribute]
+synonym: "macromolecular stability of mRNA" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000009 ! RNA stability
 
 [Term]
@@ -326,6 +332,7 @@ name: photoreceptor cell membrane potential
 def: "The membrane potential of a photoreceptor cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "membrane potential of photoreceptor cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000099 ! membrane potential
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0000101
@@ -345,8 +352,8 @@ is_a: OBA:0000051 ! cell projection size
 [Term]
 id: OBA:0000103
 name: mitochondrial mRNA stability
-def: "The http://purl.obolibrary.org/obo/OBA_0001001 of a mRNA when measured in mitochondrion." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "mitochondrion mRNA http://purl.obolibrary.org/obo/OBA_0001001" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The macromolecular stability of a mRNA when measured in mitochondrion." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "mitochondrion mRNA macromolecular stability" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:0000093 ! mRNA stability
 
 [Term]
@@ -366,8 +373,8 @@ is_a: OBA:0000099 ! membrane potential
 [Term]
 id: OBA:0000106
 name: mitochondrial rRNA stability
-def: "The http://purl.obolibrary.org/obo/OBA_0001001 of a rRNA when measured in mitochondrion." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "mitochondrion rRNA http://purl.obolibrary.org/obo/OBA_0001001" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The macromolecular stability of a rRNA when measured in mitochondrion." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "mitochondrion rRNA macromolecular stability" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:0000129 ! rRNA stability
 
 [Term]
@@ -402,9 +409,10 @@ is_a: OBA:1000078 ! attribute of organelle
 [Term]
 id: OBA:0000114
 name: neuronal synaptic plasticity
-def: "The http://purl.obolibrary.org/obo/OBA_0000141 of a neuron." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0000141 of neuron" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000141
+def: "The synaptic plasticity of a neuron." [AUTO:patterns/patterns/entity_attribute]
+synonym: "synaptic plasticity of neuron" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000141 ! synaptic plasticity
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0000116
@@ -440,6 +448,9 @@ is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0000121
+name: obsolete pH
+is_obsolete: true
+replaced_by: PATO:0001842
 
 [Term]
 id: OBA:0000122
@@ -487,25 +498,27 @@ is_a: OBA:VT0002706 ! kidney size trait
 [Term]
 id: OBA:0000128
 name: protein stability
-def: "The http://purl.obolibrary.org/obo/OBA_0001001 of a protein." [AUTO:patterns/patterns/entity_attribute]
+def: "The macromolecular stability of a protein." [AUTO:patterns/patterns/entity_attribute]
 comment: See http://code.google.com/p/pato/issues/detail?id=1
-synonym: "http://purl.obolibrary.org/obo/OBA_0001001 of protein" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0001001
+synonym: "macromolecular stability of protein" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0001001 ! macromolecular stability
 is_a: OBA:0100005 ! protein attribute
 
 [Term]
 id: OBA:0000129
 name: rRNA stability
-def: "The http://purl.obolibrary.org/obo/OBA_0001001 of a rRNA." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0001001 of rRNA" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0001001
+def: "The macromolecular stability of a rRNA." [AUTO:patterns/patterns/entity_attribute]
+synonym: "macromolecular stability of rRNA" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0001001 ! macromolecular stability
 
 [Term]
 id: OBA:0000134
+name: resting membrane potential
 is_a: OBA:0000099 ! membrane potential
 
 [Term]
 id: OBA:0000136
+name: short-term neuronal synaptic plasticity
 is_a: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
@@ -524,13 +537,15 @@ is_a: OBA:0100001 ! cellular component attribute
 
 [Term]
 id: OBA:0000140
+name: synaptic metaplasticity
 comment: http://code.google.com/p/pato/issues/detail?id=2
-is_a: OBA:0000141
+is_a: OBA:0000141 ! synaptic plasticity
 
 [Term]
 id: OBA:0000141
+name: synaptic plasticity
 comment: http://code.google.com/p/pato/issues/detail?id=2
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000143
@@ -627,14 +642,15 @@ is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:0000181
-is_a: OBA:0000001
+name: viral protein levels
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000182
 name: nutrient level
 def: "The amount of a nutrient." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of nutrient" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000183
@@ -646,8 +662,9 @@ is_a: OBA:0000171 ! tube diameter
 
 [Term]
 id: OBA:0001001
+name: macromolecular stability
 comment: See http://code.google.com/p/pato/issues/detail?id=1
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0002000
@@ -2640,6 +2657,7 @@ id: OBA:0002273
 name: erythroid lineage cell mass
 def: "The mass of a erythroid lineage cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of erythroid lineage cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000036 ! cell mass
 
 [Term]
 id: OBA:0002274
@@ -2916,6 +2934,7 @@ id: OBA:0002311
 name: neural cell displaced
 def: "The displaced of a neural cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "displaced of neural cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0002312
@@ -3865,6 +3884,7 @@ id: OBA:0002442
 name: cell of skeletal muscle variability of size
 def: "The variability of size of a cell of skeletal muscle." [AUTO:patterns/patterns/entity_attribute]
 synonym: "variability of size of cell of skeletal muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0002443
@@ -3878,6 +3898,7 @@ id: OBA:0002444
 name: foam cell amount
 def: "The amount of a foam cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of foam cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0002445
@@ -3954,9 +3975,9 @@ is_a: OBA:0000015 ! anatomical structure size
 
 [Term]
 id: OBA:0002455
-name: obsolete death onset quality
-def: "The onset quality of a obsolete death." [AUTO:patterns/patterns/entity_attribute]
-synonym: "onset quality of obsolete death" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: death stage onset quality
+def: "The onset quality of a death stage." [AUTO:patterns/patterns/entity_attribute]
+synonym: "onset quality of death stage" EXACT [AUTO:patterns/patterns/entity_attribute]
 
 [Term]
 id: OBA:0002456
@@ -5769,6 +5790,7 @@ id: OBA:0002698
 name: type B pancreatic cell amount
 def: "The amount of a type B pancreatic cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of type B pancreatic cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0002699
@@ -9571,9 +9593,9 @@ is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:0003194
-name: obsolete cell functionality
-def: "The functionality of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "functionality of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cell functionality
+def: "The functionality of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "functionality of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000076 ! attribute of cell
 
 [Term]
@@ -10174,6 +10196,7 @@ id: OBA:0003277
 name: platelet volume
 def: "The volume of a platelet." [AUTO:patterns/patterns/entity_attribute]
 synonym: "volume of platelet" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000056 ! cell volume
 is_a: OBA:VT0010457 ! platelet size trait
 
 [Term]
@@ -11519,6 +11542,7 @@ id: OBA:0003457
 name: chondrocyte amount
 def: "The amount of a chondrocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of chondrocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0003458
@@ -11539,6 +11563,7 @@ id: OBA:0003460
 name: erythrocyte volume
 def: "The volume of a erythrocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "volume of erythrocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000056 ! cell volume
 is_a: OBA:VT0000248 ! erythrocyte size trait
 
 [Term]
@@ -11661,6 +11686,7 @@ id: OBA:0003477
 name: enterocyte amount
 def: "The amount of a enterocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of enterocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0003478
@@ -12032,6 +12058,7 @@ id: OBA:0003527
 name: hepatocyte amount
 def: "The amount of a hepatocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of hepatocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0003528
@@ -12075,6 +12102,7 @@ id: OBA:0003533
 name: cortical cell of adrenal gland size
 def: "The size of a cortical cell of adrenal gland." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of cortical cell of adrenal gland" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:VT0000646 ! adrenocortical cell morphology trait
 
 [Term]
@@ -12453,6 +12481,7 @@ id: OBA:0003585
 name: Merkel cell amount
 def: "The amount of a Merkel cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of Merkel cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0003586
@@ -12598,6 +12627,7 @@ id: OBA:0003605
 name: Leydig cell size
 def: "The size of a Leydig cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of Leydig cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:VT0002786 ! Leydig cell morphology trait
 
 [Term]
@@ -12998,6 +13028,7 @@ id: OBA:0003661
 name: trophoblast giant cell amount
 def: "The amount of a trophoblast giant cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of trophoblast giant cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0003662
@@ -13267,6 +13298,7 @@ id: OBA:0003699
 name: germ cell amount
 def: "The amount of a germ cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of germ cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0003700
@@ -13454,6 +13486,7 @@ id: OBA:0003725
 name: ameloblast morphology
 def: "The morphology of a ameloblast." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of ameloblast" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0003726
@@ -13585,6 +13618,7 @@ id: OBA:0003743
 name: Sertoli cell size
 def: "The size of a Sertoli cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of Sertoli cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:VT0002784 ! Sertoli cell morphology trait
 
 [Term]
@@ -13603,10 +13637,8 @@ is_a: OBA:0003544 ! muscle contraction rate
 
 [Term]
 id: OBA:0003746
-name: aorta mass
-def: "The mass of a aorta." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of aorta" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT0002845
 
 [Term]
 id: OBA:0003747
@@ -13628,6 +13660,7 @@ id: OBA:0003749
 name: melanocyte morphology
 def: "The morphology of a melanocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of melanocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0003750
@@ -14086,10 +14119,8 @@ is_a: OBA:0005507 ! systemic artery morphology
 
 [Term]
 id: OBA:0003813
-name: muscle organ weight
-def: "The weight of a muscle organ." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of muscle organ" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:0002401
 
 [Term]
 id: OBA:0003814
@@ -14168,6 +14199,7 @@ id: OBA:0003824
 name: keratinocyte functionality
 def: "The functionality of a keratinocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of keratinocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0003825
@@ -14403,9 +14435,9 @@ is_a: OBA:1000078 ! attribute of organelle
 
 [Term]
 id: OBA:0003858
-name: obsolete cell nucleate quality
-def: "The nucleate quality of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "nucleate quality of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cell nucleate quality
+def: "The nucleate quality of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "nucleate quality of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000076 ! attribute of cell
 
 [Term]
@@ -14427,6 +14459,7 @@ id: OBA:0003861
 name: pericyte cell morphology
 def: "The morphology of a pericyte cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of pericyte cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0003862
@@ -14666,6 +14699,7 @@ id: OBA:0003895
 name: blood vessel endothelial cell functionality
 def: "The functionality of a blood vessel endothelial cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of blood vessel endothelial cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0003896
@@ -14684,10 +14718,8 @@ is_a: OBA:0003545 ! smooth muscle contraction rate
 
 [Term]
 id: OBA:0003898
-name: bone element mass
-def: "The mass of a bone element." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of bone element" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT1000111
 
 [Term]
 id: OBA:0003899
@@ -14698,9 +14730,9 @@ is_a: OBA:1000078 ! attribute of organelle
 
 [Term]
 id: OBA:0003900
-name: obsolete cell ploidy
-def: "The ploidy of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "ploidy of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cell ploidy
+def: "The ploidy of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "ploidy of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000076 ! attribute of cell
 
 [Term]
@@ -14833,18 +14865,21 @@ id: OBA:0003918
 name: surface mucosal cell of stomach morphology
 def: "The morphology of a surface mucosal cell of stomach." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of surface mucosal cell of stomach" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0003919
 name: parietal cell morphology
 def: "The morphology of a parietal cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of parietal cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0003920
 name: peptic cell morphology
 def: "The morphology of a peptic cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of peptic cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0003921
@@ -14929,6 +14964,7 @@ id: OBA:0003932
 name: cardiac muscle cell functionality
 def: "The functionality of a cardiac muscle cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of cardiac muscle cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0003933
@@ -14995,10 +15031,8 @@ is_a: OBA:1000620 ! placenta quality
 
 [Term]
 id: OBA:0003943
-name: basement membrane morphology
-def: "The morphology of a basement membrane." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of basement membrane" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0005791 ! extracellular matrix morphology
+is_obsolete: true
+replaced_by: OBA:VT0004272
 
 [Term]
 id: OBA:0003944
@@ -15026,6 +15060,7 @@ id: OBA:0003947
 name: organ of Corti supporting cell amount
 def: "The amount of a organ of Corti supporting cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of organ of Corti supporting cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0003948
@@ -15390,6 +15425,7 @@ id: OBA:0003996
 name: interdental cell of cochlea amount
 def: "The amount of a interdental cell of cochlea." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of interdental cell of cochlea" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0003997
@@ -15466,6 +15502,7 @@ id: OBA:0004007
 name: sperm functionality
 def: "The functionality of a sperm." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of sperm" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 is_a: OBA:1000722 ! gamete quality
 
 [Term]
@@ -15510,6 +15547,7 @@ id: OBA:0004013
 name: cardiac muscle cell size
 def: "The size of a cardiac muscle cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of cardiac muscle cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:VT0000061 ! cardiomyocyte morphology trait
 
 [Term]
@@ -15524,6 +15562,7 @@ id: OBA:0004015
 name: cardiac muscle cell amount
 def: "The amount of a cardiac muscle cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of cardiac muscle cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004016
@@ -15935,6 +15974,7 @@ id: OBA:0004072
 name: neuron functionality
 def: "The functionality of a neuron." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of neuron" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0004073
@@ -15945,10 +15985,8 @@ is_a: OBA:0100002 ! biological process attribute
 
 [Term]
 id: OBA:0004074
-name: skeletal muscle tissue mass
-def: "The mass of a skeletal muscle tissue." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of skeletal muscle tissue" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT1000712
 
 [Term]
 id: OBA:0004075
@@ -15976,13 +16014,12 @@ id: OBA:0004078
 name: paneth cell morphology
 def: "The morphology of a paneth cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of paneth cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004079
-name: testis weight
-def: "The weight of a testis." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of testis" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT1000644
 
 [Term]
 id: OBA:0004080
@@ -16025,21 +16062,18 @@ id: OBA:0004085
 name: male germ cell size
 def: "The size of a male germ cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of male germ cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:0003333 ! male germ cell morphology
 
 [Term]
 id: OBA:0004086
-name: uterus weight
-def: "The weight of a uterus." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of uterus" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT0010611
 
 [Term]
 id: OBA:0004087
-name: seminal vesicle weight
-def: "The weight of a seminal vesicle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of seminal vesicle" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000057 ! gland quality
+is_obsolete: true
+replaced_by: OBA:VT0010524
 
 [Term]
 id: OBA:0004088
@@ -16093,10 +16127,8 @@ is_a: OBA:VT0002631 ! epididymis morphology trait
 
 [Term]
 id: OBA:0004095
-name: epididymis weight
-def: "The weight of a epididymis." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of epididymis" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT0010019
 
 [Term]
 id: OBA:0004096
@@ -16135,10 +16167,8 @@ is_a: OBA:0100002 ! biological process attribute
 
 [Term]
 id: OBA:0004101
-name: prostate gland weight
-def: "The weight of a prostate gland." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of prostate gland" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000057 ! gland quality
+is_obsolete: true
+replaced_by: OBA:VT0010466
 
 [Term]
 id: OBA:0004102
@@ -16202,6 +16232,7 @@ id: OBA:0004110
 name: neuroblast (sensu Vertebrata) amount
 def: "The amount of a neuroblast (sensu Vertebrata)." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of neuroblast (sensu Vertebrata)" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004111
@@ -16217,6 +16248,7 @@ id: OBA:0004112
 name: osteoblast amount
 def: "The amount of a osteoblast." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of osteoblast" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004113
@@ -16499,6 +16531,7 @@ id: OBA:0004151
 name: club cell size
 def: "The size of a club cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of club cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:0005218 ! club cell morphology
 
 [Term]
@@ -16506,6 +16539,7 @@ id: OBA:0004152
 name: acinar cell size
 def: "The size of a acinar cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of acinar cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 
 [Term]
 id: OBA:0004153
@@ -16618,6 +16652,7 @@ id: OBA:0004169
 name: strial intermediate cell altered number of
 def: "The altered number of of a strial intermediate cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of strial intermediate cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004170
@@ -16673,12 +16708,14 @@ id: OBA:0004177
 name: endothelial cell of vascular tree morphology
 def: "The morphology of a endothelial cell of vascular tree." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of endothelial cell of vascular tree" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004178
 name: endothelial cell of vascular tree amount
 def: "The amount of a endothelial cell of vascular tree." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of endothelial cell of vascular tree" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004179
@@ -16729,6 +16766,7 @@ id: OBA:0004185
 name: fat cell size
 def: "The size of a fat cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of fat cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:VT0004128 ! adipocyte morphology trait
 
 [Term]
@@ -17276,6 +17314,7 @@ id: OBA:0004261
 name: peritubular myoid cell morphology
 def: "The morphology of a peritubular myoid cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of peritubular myoid cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004262
@@ -17318,6 +17357,7 @@ id: OBA:0004267
 name: Sertoli cell displaced
 def: "The displaced of a Sertoli cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "displaced of Sertoli cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004268
@@ -17461,9 +17501,9 @@ is_a: OBA:VT0002882 ! neuron morphology trait
 
 [Term]
 id: OBA:0004288
-name: obsolete podocyte foot process morphology
-def: "The morphology of a obsolete podocyte foot process." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of obsolete podocyte foot process" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: http://purl.obolibrary.org/obo/GO_0098846 morphology
+def: "The morphology of a http://purl.obolibrary.org/obo/GO_0098846." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of http://purl.obolibrary.org/obo/GO_0098846" EXACT [AUTO:patterns/patterns/entity_attribute]
 
 [Term]
 id: OBA:0004289
@@ -17636,9 +17676,9 @@ is_a: OBA:VT0003446 ! kidney cell quantity
 
 [Term]
 id: OBA:0004312
-name: obsolete podocyte foot process amount
-def: "The amount of a obsolete podocyte foot process." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of obsolete podocyte foot process" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: http://purl.obolibrary.org/obo/GO_0098846 amount
+def: "The amount of a http://purl.obolibrary.org/obo/GO_0098846." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of http://purl.obolibrary.org/obo/GO_0098846" EXACT [AUTO:patterns/patterns/entity_attribute]
 
 [Term]
 id: OBA:0004313
@@ -17708,6 +17748,7 @@ id: OBA:0004322
 name: follicular dendritic cell amount
 def: "The amount of a follicular dendritic cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of follicular dendritic cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004323
@@ -17984,6 +18025,7 @@ id: OBA:0004361
 name: type II cell of adrenal medulla size
 def: "The size of a type II cell of adrenal medulla." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of type II cell of adrenal medulla" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:0003873 ! type II cell of adrenal medulla morphology
 
 [Term]
@@ -17991,6 +18033,7 @@ id: OBA:0004362
 name: organ of Corti supporting cell functionality
 def: "The functionality of a organ of Corti supporting cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of organ of Corti supporting cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0004363
@@ -18040,18 +18083,21 @@ id: OBA:0004369
 name: somatotropin secreting cell morphology
 def: "The morphology of a somatotropin secreting cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of somatotropin secreting cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004370
 name: prolactin secreting cell morphology
 def: "The morphology of a prolactin secreting cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of prolactin secreting cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004371
 name: melanocyte stimulating hormone secreting cell morphology
 def: "The morphology of a melanocyte stimulating hormone secreting cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of melanocyte stimulating hormone secreting cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004372
@@ -18072,36 +18118,42 @@ id: OBA:0004374
 name: adrenocorticotropic hormone secreting cell morphology
 def: "The morphology of a adrenocorticotropic hormone secreting cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of adrenocorticotropic hormone secreting cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004375
 name: somatotropin secreting cell amount
 def: "The amount of a somatotropin secreting cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of somatotropin secreting cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004376
 name: prolactin secreting cell amount
 def: "The amount of a prolactin secreting cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of prolactin secreting cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004377
 name: gonadtroph amount
 def: "The amount of a gonadtroph." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of gonadtroph" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004378
 name: thyrotroph amount
 def: "The amount of a thyrotroph." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of thyrotroph" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004379
 name: adrenocorticotropic hormone secreting cell amount
 def: "The amount of a adrenocorticotropic hormone secreting cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of adrenocorticotropic hormone secreting cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004380
@@ -18247,18 +18299,21 @@ id: OBA:0004399
 name: primordial germ cell morphology
 def: "The morphology of a primordial germ cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of primordial germ cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004400
 name: primordial germ cell amount
 def: "The amount of a primordial germ cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of primordial germ cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004401
 name: somatotropin secreting cell size
 def: "The size of a somatotropin secreting cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of somatotropin secreting cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:0004369 ! somatotropin secreting cell morphology
 
 [Term]
@@ -18280,6 +18335,7 @@ id: OBA:0004404
 name: thyrotroph size
 def: "The size of a thyrotroph." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of thyrotroph" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:0004373 ! thyrotroph morphology
 
 [Term]
@@ -18287,6 +18343,7 @@ id: OBA:0004405
 name: prolactin secreting cell size
 def: "The size of a prolactin secreting cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of prolactin secreting cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:0004370 ! prolactin secreting cell morphology
 
 [Term]
@@ -18294,6 +18351,7 @@ id: OBA:0004406
 name: gonadtroph size
 def: "The size of a gonadtroph." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of gonadtroph" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:0004372 ! gonadtroph morphology
 
 [Term]
@@ -18301,6 +18359,7 @@ id: OBA:0004407
 name: adrenocorticotropic hormone secreting cell size
 def: "The size of a adrenocorticotropic hormone secreting cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of adrenocorticotropic hormone secreting cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:0004374 ! adrenocorticotropic hormone secreting cell morphology
 
 [Term]
@@ -19057,6 +19116,7 @@ id: OBA:0004513
 name: granulosa cell morphology
 def: "The morphology of a granulosa cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of granulosa cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004514
@@ -19091,6 +19151,7 @@ id: OBA:0004518
 name: enterocyte functionality
 def: "The functionality of a enterocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of enterocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0004519
@@ -19158,9 +19219,9 @@ is_a: OBA:VT0005452 ! adipose amount
 
 [Term]
 id: OBA:0004528
-name: fat pad weight
-def: "The weight of a fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: fat pad mass
+def: "The mass of a fat pad." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0100002 ! connective tissue trait
 
 [Term]
@@ -19267,16 +19328,15 @@ is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:0004543
-name: pituitary gland weight
-def: "The weight of a pituitary gland." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of pituitary gland" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000518 ! pituitary gland quality
+is_obsolete: true
+replaced_by: OBA:VT0010496
 
 [Term]
 id: OBA:0004544
 name: type D enteroendocrine cell functionality
 def: "The functionality of a type D enteroendocrine cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of type D enteroendocrine cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0004545
@@ -19290,12 +19350,14 @@ id: OBA:0004546
 name: glycogen accumulating cell morphology
 def: "The morphology of a glycogen accumulating cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of glycogen accumulating cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004547
 name: spongiotrophoblast cell morphology
 def: "The morphology of a spongiotrophoblast cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of spongiotrophoblast cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004548
@@ -19328,9 +19390,9 @@ is_a: OBA:0003994 ! turbinate bone size
 
 [Term]
 id: OBA:0004552
-name: vagina weight
-def: "The weight of a vagina." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of vagina" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: vagina mass
+def: "The mass of a vagina." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of vagina" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
@@ -19367,6 +19429,7 @@ id: OBA:0004557
 name: hepatic stellate cell morphology
 def: "The morphology of a hepatic stellate cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of hepatic stellate cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004558
@@ -19650,9 +19713,9 @@ is_a: OBA:VT0009056 ! interleukin-21 secretion trait
 
 [Term]
 id: OBA:0004598
-name: fallopian tube weight
-def: "The weight of a fallopian tube." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of fallopian tube" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: fallopian tube mass
+def: "The mass of a fallopian tube." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of fallopian tube" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000290 ! fallopian tube quality
 
 [Term]
@@ -19765,16 +19828,15 @@ is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:0004614
-name: pancreas weight
-def: "The weight of a pancreas." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of pancreas" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT0010144
 
 [Term]
 id: OBA:0004615
 name: type B pancreatic cell mass
 def: "The mass of a type B pancreatic cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of type B pancreatic cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000036 ! cell mass
 
 [Term]
 id: OBA:0004616
@@ -19789,12 +19851,14 @@ id: OBA:0004617
 name: brown fat cell amount
 def: "The amount of a brown fat cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of brown fat cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004618
 name: white fat cell amount
 def: "The amount of a white fat cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of white fat cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004619
@@ -19845,6 +19909,7 @@ id: OBA:0004625
 name: pancreatic acinar cell functionality
 def: "The functionality of a pancreatic acinar cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of pancreatic acinar cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0004626
@@ -19873,12 +19938,14 @@ id: OBA:0004629
 name: pancreatic acinar cell displaced
 def: "The displaced of a pancreatic acinar cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "displaced of pancreatic acinar cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004630
 name: pancreatic acinar cell amount
 def: "The amount of a pancreatic acinar cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of pancreatic acinar cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004631
@@ -19899,6 +19966,7 @@ id: OBA:0004633
 name: pancreatic A cell amount
 def: "The amount of a pancreatic A cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of pancreatic A cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004634
@@ -19912,6 +19980,7 @@ id: OBA:0004635
 name: type D enteroendocrine cell amount
 def: "The amount of a type D enteroendocrine cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of type D enteroendocrine cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004636
@@ -19925,36 +19994,42 @@ id: OBA:0004637
 name: PP cell amount
 def: "The amount of a PP cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of PP cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004638
 name: pancreatic epsilon cell morphology
 def: "The morphology of a pancreatic epsilon cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of pancreatic epsilon cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004639
 name: pancreatic epsilon cell altered number of
 def: "The altered number of of a pancreatic epsilon cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of pancreatic epsilon cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004640
 name: pancreatic epsilon cell amount
 def: "The amount of a pancreatic epsilon cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of pancreatic epsilon cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004641
 name: pancreatic epsilon cell functionality
 def: "The functionality of a pancreatic epsilon cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of pancreatic epsilon cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0004642
 name: PP cell functionality
 def: "The functionality of a PP cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of PP cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0004643
@@ -20221,43 +20296,33 @@ id: OBA:0004679
 name: bone marrow cell functionality
 def: "The functionality of a bone marrow cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of bone marrow cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 is_a: OBA:1000764 ! bone marrow cell quality
 
 [Term]
 id: OBA:0004680
-name: gonadal fat pad weight
-def: "The weight of a gonadal fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of gonadal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0004528 ! fat pad weight
+is_obsolete: true
+replaced_by: OBA:VT0010423
 
 [Term]
 id: OBA:0004681
-name: epididymal fat pad weight
-def: "The weight of a epididymal fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of epididymal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0004528 ! fat pad weight
-is_a: OBA:1000778 ! epididymal fat pad quality
+is_obsolete: true
+replaced_by: OBA:VT0010421
 
 [Term]
 id: OBA:0004682
-name: inguinal fat pad weight
-def: "The weight of a inguinal fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of inguinal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0004528 ! fat pad weight
+is_obsolete: true
+replaced_by: OBA:VT0010424
 
 [Term]
 id: OBA:0004683
-name: parametrial fat pad weight
-def: "The weight of a parametrial fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of parametrial fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0004528 ! fat pad weight
+is_obsolete: true
+replaced_by: OBA:VT0010428
 
 [Term]
 id: OBA:0004684
-name: retroperitoneal fat pad weight
-def: "The weight of a retroperitoneal fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of retroperitoneal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:VT1000711 ! abdominal fat pad mass
+is_obsolete: true
+replaced_by: OBA:VT0010430
 
 [Term]
 id: OBA:0004685
@@ -20385,6 +20450,7 @@ id: OBA:0004702
 name: theca cell amount
 def: "The amount of a theca cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of theca cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004703
@@ -20462,6 +20528,7 @@ id: OBA:0004713
 name: cell of skeletal muscle amount
 def: "The amount of a cell of skeletal muscle." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of cell of skeletal muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004714
@@ -20507,56 +20574,56 @@ is_a: OBA:0000015 ! anatomical structure size
 
 [Term]
 id: OBA:0004720
-name: gastrocnemius weight
-def: "The weight of a gastrocnemius." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of gastrocnemius" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003813 ! muscle organ weight
+name: gastrocnemius mass
+def: "The mass of a gastrocnemius." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of gastrocnemius" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000458 ! hindlimb zeugopod muscle quality
+is_a: OBA:VT0010449 ! hindlimb muscle mass
 
 [Term]
 id: OBA:0004721
-name: extensor digitorum longus weight
-def: "The weight of a extensor digitorum longus." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of extensor digitorum longus" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003813 ! muscle organ weight
+name: extensor digitorum longus mass
+def: "The mass of a extensor digitorum longus." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of extensor digitorum longus" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0010449 ! hindlimb muscle mass
 
 [Term]
 id: OBA:0004722
-name: soleus muscle weight
-def: "The weight of a soleus muscle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of soleus muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003813 ! muscle organ weight
+name: soleus muscle mass
+def: "The mass of a soleus muscle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of soleus muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000458 ! hindlimb zeugopod muscle quality
+is_a: OBA:VT0010449 ! hindlimb muscle mass
 
 [Term]
 id: OBA:0004723
-name: tibialis anterior weight
-def: "The weight of a tibialis anterior." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of tibialis anterior" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003813 ! muscle organ weight
+name: tibialis anterior mass
+def: "The mass of a tibialis anterior." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of tibialis anterior" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000458 ! hindlimb zeugopod muscle quality
+is_a: OBA:VT0010449 ! hindlimb muscle mass
 
 [Term]
 id: OBA:0004724
-name: tongue weight
-def: "The weight of a tongue." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of tongue" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: tongue mass
+def: "The mass of a tongue." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of tongue" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:0004725
-name: embryo weight
-def: "The weight of a embryo." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of embryo" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: embryo mass
+def: "The mass of a embryo." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of embryo" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0000069 ! embryo trait
 is_a: OBA:VT0001259 ! body mass
 
 [Term]
 id: OBA:0004726
-name: late embryo weight
-def: "The weight of a late embryo." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of late embryo" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0004725 ! embryo weight
+name: late embryo mass
+def: "The mass of a late embryo." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of late embryo" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0004725 ! embryo mass
 is_a: OBA:1000606 ! late embryo quality
 
 [Term]
@@ -20596,16 +20663,15 @@ is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:0004732
-name: obsolete magnocellular neurosecretory cell morphology
-def: "The morphology of a obsolete magnocellular neurosecretory cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of obsolete magnocellular neurosecretory cell" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:VT0002882 ! neuron morphology trait
+name: http://purl.obolibrary.org/obo/CL_0011003 morphology
+def: "The morphology of a http://purl.obolibrary.org/obo/CL_0011003." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of http://purl.obolibrary.org/obo/CL_0011003" EXACT [AUTO:patterns/patterns/entity_attribute]
 
 [Term]
 id: OBA:0004733
-name: obsolete magnocellular neurosecretory cell altered number of
-def: "The altered number of of a obsolete magnocellular neurosecretory cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "altered number of of obsolete magnocellular neurosecretory cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: http://purl.obolibrary.org/obo/CL_0011003 altered number of
+def: "The altered number of of a http://purl.obolibrary.org/obo/CL_0011003." [AUTO:patterns/patterns/entity_attribute]
+synonym: "altered number of of http://purl.obolibrary.org/obo/CL_0011003" EXACT [AUTO:patterns/patterns/entity_attribute]
 
 [Term]
 id: OBA:0004734
@@ -20872,12 +20938,14 @@ id: OBA:0004770
 name: interstitial cell of Cajal morphology
 def: "The morphology of a interstitial cell of Cajal." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of interstitial cell of Cajal" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004771
 name: interstitial cell of Cajal size
 def: "The size of a interstitial cell of Cajal." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of interstitial cell of Cajal" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:0004770 ! interstitial cell of Cajal morphology
 
 [Term]
@@ -21453,6 +21521,7 @@ id: OBA:0004852
 name: chondrocyte functionality
 def: "The functionality of a chondrocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of chondrocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0004853
@@ -21466,6 +21535,7 @@ id: OBA:0004854
 name: melanoblast morphology
 def: "The morphology of a melanoblast." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of melanoblast" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004855
@@ -21585,12 +21655,14 @@ id: OBA:0004871
 name: foam cell morphology
 def: "The morphology of a foam cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of foam cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0004872
 name: foam cell altered number of
 def: "The altered number of of a foam cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of foam cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004873
@@ -22325,6 +22397,7 @@ id: OBA:0004975
 name: melanocyte displaced
 def: "The displaced of a melanocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "displaced of melanocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004976
@@ -22338,12 +22411,14 @@ id: OBA:0004977
 name: hepatic oval stem cell amount
 def: "The amount of a hepatic oval stem cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of hepatic oval stem cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0004978
 name: hepatic oval stem cell functionality
 def: "The functionality of a hepatic oval stem cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of hepatic oval stem cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0004979
@@ -22361,10 +22436,10 @@ is_a: OBA:VT0005337 ! retroperitoneal fat pad morphology trait
 
 [Term]
 id: OBA:0004981
-name: omental fat pad weight
-def: "The weight of a omental fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of omental fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0004684 ! retroperitoneal fat pad weight
+name: omental fat pad mass
+def: "The mass of a omental fat pad." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of omental fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0010430 ! retroperitoneal fat pad mass
 
 [Term]
 id: OBA:0004982
@@ -22399,6 +22474,7 @@ id: OBA:0004986
 name: hepatocyte functionality
 def: "The functionality of a hepatocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of hepatocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0004987
@@ -22569,6 +22645,7 @@ id: OBA:0005010
 name: pancreatic centro-acinar cell morphology
 def: "The morphology of a pancreatic centro-acinar cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of pancreatic centro-acinar cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005011
@@ -22684,10 +22761,10 @@ is_a: OBA:0004148 ! CD4-positive, alpha-beta T cell functionality
 
 [Term]
 id: OBA:0005027
-name: quadriceps femoris weight
-def: "The weight of a quadriceps femoris." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of quadriceps femoris" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003813 ! muscle organ weight
+name: quadriceps femoris mass
+def: "The mass of a quadriceps femoris." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of quadriceps femoris" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0010449 ! hindlimb muscle mass
 
 [Term]
 id: OBA:0005028
@@ -23823,6 +23900,7 @@ id: OBA:0005185
 name: hematopoietic stem cell functionality
 def: "The functionality of a hematopoietic stem cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of hematopoietic stem cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0005186
@@ -24057,12 +24135,14 @@ id: OBA:0005218
 name: club cell morphology
 def: "The morphology of a club cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of club cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005219
 name: type II pneumocyte amount
 def: "The amount of a type II pneumocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of type II pneumocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0005220
@@ -24076,6 +24156,7 @@ id: OBA:0005221
 name: type I pneumocyte amount
 def: "The amount of a type I pneumocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of type I pneumocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0005222
@@ -24249,6 +24330,7 @@ id: OBA:0005245
 name: respiratory goblet cell amount
 def: "The amount of a respiratory goblet cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of respiratory goblet cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0005246
@@ -24413,6 +24495,7 @@ id: OBA:0005268
 name: neuroendocrine cell morphology
 def: "The morphology of a neuroendocrine cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of neuroendocrine cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005269
@@ -24426,6 +24509,7 @@ id: OBA:0005270
 name: Feyrter cell amount
 def: "The amount of a Feyrter cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of Feyrter cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0005271
@@ -24637,12 +24721,14 @@ id: OBA:0005299
 name: stem cell of epidermis morphology
 def: "The morphology of a stem cell of epidermis." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of stem cell of epidermis" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005300
 name: stem cell of epidermis functionality
 def: "The functionality of a stem cell of epidermis." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of stem cell of epidermis" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0005301
@@ -24685,12 +24771,14 @@ id: OBA:0005306
 name: respiratory basal cell morphology
 def: "The morphology of a respiratory basal cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of respiratory basal cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005307
 name: respiratory basal cell amount
 def: "The amount of a respiratory basal cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of respiratory basal cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0005308
@@ -24732,6 +24820,7 @@ id: OBA:0005313
 name: lung endothelial cell functionality
 def: "The functionality of a lung endothelial cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of lung endothelial cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0005314
@@ -24866,6 +24955,7 @@ id: OBA:0005333
 name: hematopoietic cell amount
 def: "The amount of a hematopoietic cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of hematopoietic cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0005334
@@ -24886,6 +24976,7 @@ id: OBA:0005336
 name: pigmented ciliary epithelial cell amount
 def: "The amount of a pigmented ciliary epithelial cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of pigmented ciliary epithelial cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0005337
@@ -25676,6 +25767,7 @@ id: OBA:0005446
 name: mesangial cell size
 def: "The size of a mesangial cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of mesangial cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:VT0005327 ! mesangial cell morphology trait
 
 [Term]
@@ -25902,6 +25994,7 @@ id: OBA:0005477
 name: syncytiotrophoblast cell morphology
 def: "The morphology of a syncytiotrophoblast cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of syncytiotrophoblast cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005478
@@ -26166,12 +26259,14 @@ id: OBA:0005514
 name: stem cell of epidermis amount
 def: "The amount of a stem cell of epidermis." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of stem cell of epidermis" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0005515
 name: bronchioalveolar stem cells amount
 def: "The amount of a bronchioalveolar stem cells." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of bronchioalveolar stem cells" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0005516
@@ -26292,6 +26387,7 @@ id: OBA:0005532
 name: Boettcher cell morphology
 def: "The morphology of a Boettcher cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of Boettcher cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005533
@@ -26305,12 +26401,14 @@ id: OBA:0005534
 name: kidney collecting duct intercalated cell morphology
 def: "The morphology of a kidney collecting duct intercalated cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of kidney collecting duct intercalated cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005535
 name: kidney collecting duct principal cell morphology
 def: "The morphology of a kidney collecting duct principal cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of kidney collecting duct principal cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005536
@@ -26498,9 +26596,9 @@ is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:0005562
-name: urinary bladder weight
-def: "The weight of a urinary bladder." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of urinary bladder" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: urinary bladder mass
+def: "The mass of a urinary bladder." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of urinary bladder" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
@@ -26791,12 +26889,14 @@ id: OBA:0005603
 name: globose cell of olfactory epithelium morphology
 def: "The morphology of a globose cell of olfactory epithelium." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of globose cell of olfactory epithelium" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005604
 name: basal proper cell of olfactory epithelium morphology
 def: "The morphology of a basal proper cell of olfactory epithelium." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of basal proper cell of olfactory epithelium" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005605
@@ -26939,6 +27039,7 @@ id: OBA:0005624
 name: muscle precursor cell morphology
 def: "The morphology of a muscle precursor cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of muscle precursor cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005625
@@ -26994,6 +27095,7 @@ id: OBA:0005632
 name: cholangiocyte morphology
 def: "The morphology of a cholangiocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of cholangiocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005633
@@ -27007,6 +27109,7 @@ id: OBA:0005634
 name: hepatoblast amount
 def: "The amount of a hepatoblast." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of hepatoblast" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0005635
@@ -27535,22 +27638,22 @@ is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:0005707
-name: adrenal gland weight
-def: "The weight of a adrenal gland." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of adrenal gland" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000057 ! gland quality
+is_obsolete: true
+replaced_by: OBA:VT0010420
 
 [Term]
 id: OBA:0005708
 name: hemangioblast morphology
 def: "The morphology of a hemangioblast." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of hemangioblast" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005709
 name: hemangioblast amount
 def: "The amount of a hemangioblast." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of hemangioblast" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0005710
@@ -27969,10 +28072,8 @@ is_a: OBA:1000078 ! attribute of organelle
 
 [Term]
 id: OBA:0005767
-name: cilium morphology
-def: "The morphology of a cilium." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000078 ! attribute of organelle
+is_obsolete: true
+replaced_by: OBA:0005766
 
 [Term]
 id: OBA:0005768
@@ -27980,7 +28081,6 @@ name: non-motile cilium morphology
 def: "The morphology of a non-motile cilium." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of non-motile cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0005766 ! cilium morphology
-is_a: OBA:0005767 ! cilium morphology
 
 [Term]
 id: OBA:0005769
@@ -27988,7 +28088,6 @@ name: motile cilium morphology
 def: "The morphology of a motile cilium." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of motile cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0005766 ! cilium morphology
-is_a: OBA:0005767 ! cilium morphology
 
 [Term]
 id: OBA:0005770
@@ -28010,14 +28109,11 @@ name: motile cilium functionality
 def: "The functionality of a motile cilium." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of motile cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0005771 ! cilium functionality
-is_a: OBA:0005773 ! cilium functionality
 
 [Term]
 id: OBA:0005773
-name: cilium functionality
-def: "The functionality of a cilium." [AUTO:patterns/patterns/entity_attribute]
-synonym: "functionality of cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000078 ! attribute of organelle
+is_obsolete: true
+replaced_by: OBA:0005771
 
 [Term]
 id: OBA:0005774
@@ -28025,7 +28121,6 @@ name: non-motile cilium functionality
 def: "The functionality of a non-motile cilium." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of non-motile cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0005771 ! cilium functionality
-is_a: OBA:0005773 ! cilium functionality
 
 [Term]
 id: OBA:0005775
@@ -28319,6 +28414,7 @@ id: OBA:0005815
 name: folliculostellate cell morphology
 def: "The morphology of a folliculostellate cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of folliculostellate cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005816
@@ -28347,6 +28443,7 @@ id: OBA:0005819
 name: pinealocyte morphology
 def: "The morphology of a pinealocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of pinealocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005820
@@ -28368,12 +28465,14 @@ id: OBA:0005822
 name: acinar cell of sebaceous gland morphology
 def: "The morphology of a acinar cell of sebaceous gland." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of acinar cell of sebaceous gland" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005823
 name: acinar cell of sebaceous gland amount
 def: "The amount of a acinar cell of sebaceous gland." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of acinar cell of sebaceous gland" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0005824
@@ -28508,12 +28607,14 @@ id: OBA:0005842
 name: paneth cell amount
 def: "The amount of a paneth cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of paneth cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0005843
 name: paneth cell functionality
 def: "The functionality of a paneth cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of paneth cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0005844
@@ -28883,6 +28984,7 @@ id: OBA:0005895
 name: hematopoietic cell morphology
 def: "The morphology of a hematopoietic cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of hematopoietic cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005896
@@ -29198,12 +29300,14 @@ id: OBA:0005939
 name: small intestine goblet cell morphology
 def: "The morphology of a small intestine goblet cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of small intestine goblet cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005940
 name: large intestine goblet cell morphology
 def: "The morphology of a large intestine goblet cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of large intestine goblet cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:0005941
@@ -29649,6 +29753,7 @@ id: OBA:0006002
 name: acinar cell of sebaceous gland functionality
 def: "The functionality of a acinar cell of sebaceous gland." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of acinar cell of sebaceous gland" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:0006003
@@ -29662,6 +29767,7 @@ id: OBA:0006004
 name: paneth cell displaced
 def: "The displaced of a paneth cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "displaced of paneth cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0006005
@@ -29996,37 +30102,37 @@ is_a: OBA:0006104 ! bone of reproductive organ length
 [Term]
 id: OBA:0007000
 name: DNA stability
-def: "The http://purl.obolibrary.org/obo/OBA_0001001 of a DNA." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0001001 of DNA" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0001001
+def: "The macromolecular stability of a DNA." [AUTO:patterns/patterns/entity_attribute]
+synonym: "macromolecular stability of DNA" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0001001 ! macromolecular stability
 
 [Term]
 id: OBA:0100001
 name: cellular component attribute
 def: "The quality of a cellular_component." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of cellular_component" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001 {is_asserted="true"}
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
 id: OBA:0100002
 name: biological process attribute
 def: "The quality of a biological_process." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of biological_process" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001 {is_asserted="true"}
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
 id: OBA:0100003
 name: anatomical entity attribute
 def: "The quality of a anatomical entity." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of anatomical entity" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001 {is_asserted="true"}
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
 id: OBA:0100004
 name: chemical entity attribute
 def: "The quality of a chemical entity." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of chemical entity" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001 {is_asserted="true"}
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
 id: OBA:0100005
@@ -30093,7 +30199,6 @@ synonym: "cilium length trait" EXACT [GOC:TermGenie]
 synonym: "length of cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000051 ! cell projection size
 is_a: OBA:0005766 ! cilium morphology
-is_a: OBA:0005767 ! cilium morphology
 created_by: cjmungall
 creation_date: 2013-05-15T00:55:27Z
 
@@ -30379,9 +30484,9 @@ creation_date: 2013-09-25T23:32:06Z
 [Term]
 id: OBA:1000036
 name: cell mass
-def: "The mass of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "cell mass trait" EXACT [GOC:TermGenie]
-synonym: "mass of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000076 ! attribute of cell
 relationship: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
@@ -30393,7 +30498,7 @@ name: adult organism mass
 def: "The mass of a adult organism." [AUTO:patterns/patterns/entity_attribute]
 synonym: "adult organism mass trait" EXACT [GOC:TermGenie]
 synonym: "mass of adult organism" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001018 ! multicellular organism mass
+is_a: OBA:VT0001259 ! body mass
 relationship: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-10-08T20:29:11Z
@@ -30712,8 +30817,8 @@ name: epiplastron mass
 def: "The mass of a epiplastron." [AUTO:patterns/patterns/entity_attribute]
 synonym: "epiplastron mass trait" EXACT [GOC:TermGenie]
 synonym: "mass of epiplastron" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003898 ! bone element mass
 is_a: OBA:1000064 ! dermal bone quality
+is_a: OBA:VT1000111 ! bone mass
 created_by: cjmungall
 creation_date: 2014-02-22T16:56:18Z
 
@@ -30782,9 +30887,9 @@ creation_date: 2014-06-04T18:58:27Z
 [Term]
 id: OBA:1000076
 name: attribute of cell
-def: "The quality of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "cell quality trait" EXACT [GOC:TermGenie]
-synonym: "quality of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 created_by: cjmungall
 creation_date: 2014-06-04T19:24:06Z
 
@@ -31334,10 +31439,10 @@ creation_date: 2014-12-02T19:04:56Z
 [Term]
 id: OBA:1000129
 name: cell color
-def: "The color of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
+def: "The color of a cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "cell color trait" EXACT [GOC:TermGenie]
-synonym: "color of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001065 ! obsolete cell morphology
+synonym: "color of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 relationship: dc-contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
 creation_date: 2014-12-02T19:42:39Z
@@ -31775,6 +31880,7 @@ id: OBA:1000182
 name: Leydig cell quality
 def: "The quality of a Leydig cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of Leydig cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000183
@@ -32160,6 +32266,7 @@ id: OBA:1000236
 name: glial cell quality
 def: "The quality of a glial cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of glial cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000237
@@ -32199,7 +32306,7 @@ is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:1000242
-name: obsolete respiratory system quality
+is_obsolete: true
 replaced_by: OBA:VT0005388
 
 [Term]
@@ -32207,6 +32314,7 @@ id: OBA:1000243
 name: myeloid leukocyte quality
 def: "The quality of a myeloid leukocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of myeloid leukocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000244
@@ -32495,6 +32603,7 @@ id: OBA:1000284
 name: phagocyte (sensu Vertebrata) quality
 def: "The quality of a phagocyte (sensu Vertebrata)." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of phagocyte (sensu Vertebrata)" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000285
@@ -33439,6 +33548,7 @@ id: OBA:1000418
 name: T cell quality
 def: "The quality of a T cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of T cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000419
@@ -33599,7 +33709,7 @@ is_a: OBA:1000699 ! interphalangeal joint quality
 
 [Term]
 id: OBA:1000441
-name: obsolete reproductive system quality
+is_obsolete: true
 replaced_by: OBA:VT0005389
 
 [Term]
@@ -34433,6 +34543,7 @@ id: OBA:1000559
 name: natural killer cell quality
 def: "The quality of a natural killer cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of natural killer cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000560
@@ -34539,6 +34650,7 @@ id: OBA:1000574
 name: B cell quality
 def: "The quality of a B cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of B cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000575
@@ -34605,7 +34717,7 @@ is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:1000584
-name: obsolete nervous system quality
+is_obsolete: true
 replaced_by: OBA:VT1000781
 
 [Term]
@@ -35112,7 +35224,6 @@ name: social grooming quality
 def: "The quality of a social grooming." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of social grooming" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000407 ! social behavior quality
-is_a: OBA:1000803 ! grooming behavior quality
 
 [Term]
 id: OBA:1000657
@@ -35161,13 +35272,14 @@ id: OBA:1000663
 name: mesangial cell quality
 def: "The quality of a mesangial cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of mesangial cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000664
 name: barbering behavior quality
 def: "The quality of a barbering behavior." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of barbering behavior" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000803 ! grooming behavior quality
+is_a: OBA:1000369 ! behavior process quality
 
 [Term]
 id: OBA:1000665
@@ -35575,6 +35687,7 @@ id: OBA:1000722
 name: gamete quality
 def: "The quality of a gamete." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of gamete" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000723
@@ -35792,7 +35905,7 @@ id: OBA:1000753
 name: maternal behavior quality
 def: "The quality of a maternal behavior." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of maternal behavior" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000791 ! parental behavior quality
+is_a: OBA:1000407 ! social behavior quality
 
 [Term]
 id: OBA:1000754
@@ -35870,6 +35983,7 @@ id: OBA:1000764
 name: bone marrow cell quality
 def: "The quality of a bone marrow cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of bone marrow cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000765
@@ -36056,10 +36170,8 @@ is_a: OBA:1000471 ! nerve quality
 
 [Term]
 id: OBA:1000791
-name: parental behavior quality
-def: "The quality of a parental behavior." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of parental behavior" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000407 ! social behavior quality
+is_obsolete: true
+replaced_by: OBA:VT0002068
 
 [Term]
 id: OBA:1000792
@@ -36140,10 +36252,8 @@ is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:1000803
-name: grooming behavior quality
-def: "The quality of a grooming behavior." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of grooming behavior" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000369 ! behavior process quality
+is_obsolete: true
+replaced_by: OBA:VT0001440
 
 [Term]
 id: OBA:1000804
@@ -36164,6 +36274,7 @@ id: OBA:1000806
 name: myeloblast quality
 def: "The quality of a myeloblast." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of myeloblast" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000807
@@ -36325,6 +36436,7 @@ id: OBA:1000829
 name: thyroid hormone secreting cell quality
 def: "The quality of a thyroid hormone secreting cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of thyroid hormone secreting cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000830
@@ -36429,6 +36541,7 @@ id: OBA:1000844
 name: glomerular visceral epithelial cell quality
 def: "The quality of a glomerular visceral epithelial cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of glomerular visceral epithelial cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000845
@@ -36484,6 +36597,7 @@ id: OBA:1000852
 name: parafollicular cell quality
 def: "The quality of a parafollicular cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of parafollicular cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000853
@@ -36580,6 +36694,7 @@ id: OBA:1000866
 name: blood cell quality
 def: "The quality of a blood cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of blood cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000867
@@ -36604,10 +36719,8 @@ is_a: OBA:1000775 ! motor coordination quality
 
 [Term]
 id: OBA:1000870
-name: vocalization behavior quality
-def: "The quality of a vocalization behavior." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of vocalization behavior" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000369 ! behavior process quality
+is_obsolete: true
+replaced_by: OBA:VT0001529
 
 [Term]
 id: OBA:1000871
@@ -36625,9 +36738,8 @@ is_a: OBA:0100002 ! biological process attribute
 
 [Term]
 id: OBA:1000873
-name: obsolete glial cell (sensu Vertebrata) quality
-def: "The quality of a obsolete glial cell (sensu Vertebrata)." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of obsolete glial cell (sensu Vertebrata)" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_obsolete: true
+replaced_by: OBA:1000236
 
 [Term]
 id: OBA:1000874
@@ -36971,13 +37083,14 @@ id: OBA:1000922
 name: granule cell quality
 def: "The quality of a granule cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of granule cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1000923
 name: offspring retrieval quality
 def: "The quality of a offspring retrieval." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of offspring retrieval" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000791 ! parental behavior quality
+is_a: OBA:1000407 ! social behavior quality
 
 [Term]
 id: OBA:1000924
@@ -37440,7 +37553,7 @@ id: OBA:1000989
 name: apolipoprotein amount
 def: "The amount of a apolipoprotein." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of apolipoprotein" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001016 ! protein amount
+is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:1000990
@@ -37626,210 +37739,150 @@ is_a: OBA:1000947 ! nitrogen molecular entity amount
 
 [Term]
 id: OBA:1001016
-name: protein amount
-def: "The amount of a protein." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of protein" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT0010120
 
 [Term]
 id: OBA:1001017
 name: lipoprotein amount
 def: "The amount of a lipoprotein." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of lipoprotein" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001016 ! protein amount
+is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:1001018
-name: multicellular organism mass
-def: "The mass of a multicellular organism." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of multicellular organism" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:VT0010454 ! organism trait
+is_obsolete: true
+replaced_by: OBA:VT0001259
 
 [Term]
 id: OBA:1001019
-name: vagina mass
-def: "The mass of a vagina." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of vagina" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:0004552
 
 [Term]
 id: OBA:1001020
-name: heart mass
-def: "The mass of a heart." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of heart" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT0007028
 
 [Term]
 id: OBA:1001021
-name: omental fat pad mass
-def: "The mass of a omental fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of omental fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:VT0010430 ! retroperitoneal fat pad mass
+is_obsolete: true
+replaced_by: OBA:0004981
 
 [Term]
 id: OBA:1001022
-name: late embryo mass
-def: "The mass of a late embryo." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of late embryo" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000606 ! late embryo quality
-is_a: OBA:1001033 ! embryo mass
+is_obsolete: true
+replaced_by: OBA:0004726
 
 [Term]
 id: OBA:1001023
-name: extensor digitorum longus mass
-def: "The mass of a extensor digitorum longus." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of extensor digitorum longus" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:VT0010449 ! hindlimb muscle mass
+is_obsolete: true
+replaced_by: OBA:0004721
 
 [Term]
 id: OBA:1001024
-name: lung mass
-def: "The mass of a lung." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of lung" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT0005629
 
 [Term]
 id: OBA:1001025
-name: kidney mass
-def: "The mass of a kidney." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of kidney" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT0002707
 
 [Term]
 id: OBA:1001026
-name: right cardiac atrium mass
-def: "The mass of a right cardiac atrium." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of right cardiac atrium" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT0007027
 
 [Term]
 id: OBA:1001027
-name: soleus muscle mass
-def: "The mass of a soleus muscle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of soleus muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000458 ! hindlimb zeugopod muscle quality
-is_a: OBA:VT0010449 ! hindlimb muscle mass
+is_obsolete: true
+replaced_by: OBA:0004722
 
 [Term]
 id: OBA:1001028
-name: ovary mass
-def: "The mass of a ovary." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of ovary" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000545 ! ovary quality
+is_obsolete: true
+replaced_by: OBA:VT1000641
 
 [Term]
 id: OBA:1001029
-name: brain mass
-def: "The mass of a brain." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of brain" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT0002176
 
 [Term]
 id: OBA:1001030
-name: fat pad mass
-def: "The mass of a fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:VT0100002 ! connective tissue trait
+is_obsolete: true
+replaced_by: OBA:0004528
 
 [Term]
 id: OBA:1001031
-name: placenta mass
-def: "The mass of a placenta." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of placenta" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000620 ! placenta quality
+is_obsolete: true
+replaced_by: OBA:VT0004257
 
 [Term]
 id: OBA:1001032
-name: spleen mass
-def: "The mass of a spleen." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of spleen" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT0004951
 
 [Term]
 id: OBA:1001033
-name: embryo mass
-def: "The mass of a embryo." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of embryo" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001018 ! multicellular organism mass
-is_a: OBA:VT0000069 ! embryo trait
+is_obsolete: true
+replaced_by: OBA:0004725
 
 [Term]
 id: OBA:1001034
-name: gastrocnemius mass
-def: "The mass of a gastrocnemius." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of gastrocnemius" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000458 ! hindlimb zeugopod muscle quality
-is_a: OBA:VT0010449 ! hindlimb muscle mass
+is_obsolete: true
+replaced_by: OBA:0004720
 
 [Term]
 id: OBA:1001035
-name: heart right ventricle mass
-def: "The mass of a heart right ventricle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of heart right ventricle" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000280 ! heart right ventricle quality
+is_obsolete: true
+replaced_by: OBA:VT0007033
 
 [Term]
 id: OBA:1001036
-name: abdominal fat pad mass
-def: "The mass of a abdominal fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of abdominal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001030 ! fat pad mass
+is_obsolete: true
+replaced_by: OBA:VT1000711
 
 [Term]
 id: OBA:1001037
-name: quadriceps femoris mass
-def: "The mass of a quadriceps femoris." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of quadriceps femoris" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:VT0010449 ! hindlimb muscle mass
+is_obsolete: true
+replaced_by: OBA:0005027
 
 [Term]
 id: OBA:1001038
-name: urinary bladder mass
-def: "The mass of a urinary bladder." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of urinary bladder" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:0005562
 
 [Term]
 id: OBA:1001039
-name: liver mass
-def: "The mass of a liver." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of liver" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000635 ! liver quality
+is_obsolete: true
+replaced_by: OBA:VT0003402
 
 [Term]
 id: OBA:1001040
-name: thymus mass
-def: "The mass of a thymus." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of thymus" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000057 ! gland quality
+is_obsolete: true
+replaced_by: OBA:VT0004954
 
 [Term]
 id: OBA:1001041
-name: left cardiac atrium mass
-def: "The mass of a left cardiac atrium." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of left cardiac atrium" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:VT0007026
 
 [Term]
 id: OBA:1001042
-name: tongue mass
-def: "The mass of a tongue." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of tongue" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_obsolete: true
+replaced_by: OBA:0004724
 
 [Term]
 id: OBA:1001043
-name: fallopian tube mass
-def: "The mass of a fallopian tube." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of fallopian tube" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000290 ! fallopian tube quality
+is_obsolete: true
+replaced_by: OBA:0004598
 
 [Term]
 id: OBA:1001044
-name: heart left ventricle mass
-def: "The mass of a heart left ventricle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of heart left ventricle" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000229 ! heart left ventricle quality
+is_obsolete: true
+replaced_by: OBA:VT0007031
 
 [Term]
 id: OBA:1001045
@@ -37974,9 +38027,9 @@ is_a: OBA:0004221 ! mesenchyme morphology
 
 [Term]
 id: OBA:1001065
-name: obsolete cell morphology
-def: "The morphology of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cell morphology
+def: "The morphology of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000076 ! attribute of cell
 
 [Term]
@@ -38855,12 +38908,14 @@ id: OBA:VT0000166
 name: chondrocyte morphology trait
 def: "The morphology of a chondrocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of chondrocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0000167
 name: chondrocyte quantity
 def: "The has number of of a chondrocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of chondrocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0000170
@@ -39011,6 +39066,7 @@ id: OBA:VT0000237
 name: blood cell quantity
 def: "The has number of of a hematopoietic cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of hematopoietic cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0000240
@@ -39031,6 +39087,7 @@ id: OBA:VT0000248
 name: erythrocyte size trait
 def: "The size of a erythrocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of erythrocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:VT0002447 ! erythrocyte morphology trait
 
 [Term]
@@ -39421,12 +39478,14 @@ id: OBA:VT0000479
 name: intestinal cell morphology trait
 def: "The morphology of a enterocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of enterocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0000481
 name: intestinal cell quantity
 def: "The has number of of a enterocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of enterocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0000482
@@ -39740,12 +39799,14 @@ id: OBA:VT0000606
 name: hepatocyte quantity
 def: "The has number of of a hepatocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of hepatocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0000607
 name: hepatocyte morphology trait
 def: "The morphology of a hepatocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of hepatocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0000609
@@ -39840,6 +39901,7 @@ id: OBA:VT0000646
 name: adrenocortical cell morphology trait
 def: "The morphology of a cortical cell of adrenal gland." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of cortical cell of adrenal gland" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0000647
@@ -39993,6 +40055,7 @@ id: OBA:VT0000716
 name: immune system cell morphology trait
 def: "The morphology of a cell when measured in immune system." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "immune system cell morphology" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0000717
@@ -40600,6 +40663,7 @@ id: OBA:VT0000878
 name: Purkinje cell quanitity
 def: "The has number of of a Purkinje cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of Purkinje cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0000886
@@ -40781,6 +40845,7 @@ id: OBA:VT0000939
 name: motor neuron quantity
 def: "The has number of of a motor neuron." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of motor neuron" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0000953
@@ -41663,6 +41728,7 @@ id: OBA:VT0001237
 name: epidermis stratum spinosum cell size trait
 def: "The size of a prickle cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of prickle cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:VT0002655 ! keratinocyte morphology trait
 
 [Term]
@@ -41740,8 +41806,8 @@ is_a: OBA:VT0100005 ! body size trait
 [Term]
 id: OBA:VT0001259
 name: body mass
-def: "The weight of a multicellular organism." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of multicellular organism" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a multicellular organism." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of multicellular organism" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0010454 ! organism trait
 
 [Term]
@@ -41866,6 +41932,7 @@ id: OBA:VT0001329
 name: retina cell quantity
 def: "The amount of a retinal cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of retinal cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0001330
@@ -41924,6 +41991,7 @@ id: OBA:VT0001366
 name: pillar cell quantity
 def: "The has number of of a pillar cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of pillar cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0001387
@@ -41938,6 +42006,7 @@ id: OBA:VT0001416
 name: strial marginal cell quantity
 def: "The amount of a strial marginal cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of strial marginal cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0001418
@@ -41997,6 +42066,7 @@ id: OBA:VT0001457
 name: vestibular dark cell morphology trait
 def: "The morphology of a vestibular dark cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of vestibular dark cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0001459
@@ -42119,7 +42189,7 @@ id: OBA:VT0001588
 name: blood hemoglobin amount
 def: "The amount of a hemoglobin." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of hemoglobin" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001016 ! protein amount
+is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:VT0001601
@@ -42791,8 +42861,8 @@ is_a: OBA:1000057 ! gland quality
 [Term]
 id: OBA:VT0002176
 name: brain mass
-def: "The weight of a brain." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of brain" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a brain." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of brain" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
@@ -42805,9 +42875,9 @@ is_a: OBA:VT0100003 ! organism subdivision trait
 [Term]
 id: OBA:VT0002181
 name: brain cell morphology trait
-def: "The morphology of a obsolete cell when measured in brain." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "brain obsolete cell morphology" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:1001065 ! obsolete cell morphology
+def: "The morphology of a cell when measured in brain." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "brain cell morphology" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0002182
@@ -42858,12 +42928,14 @@ id: OBA:VT0002208
 name: germ cell morphology trait
 def: "The morphology of a germ cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of germ cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0002209
 name: germ cell quanitity
 def: "The has number of of a germ cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of germ cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0002210
@@ -43117,6 +43189,7 @@ id: OBA:VT0002262
 name: nasal mucosa goblet cell morphology trait
 def: "The morphology of a nasal mucosa goblet cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of nasal mucosa goblet cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0002263
@@ -43179,6 +43252,7 @@ id: OBA:VT0002273
 name: respiratory alveolar epithelial cell morphology trait
 def: "The morphology of a pneumocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of pneumocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0002274
@@ -43571,6 +43645,7 @@ id: OBA:VT0002400
 name: multipotent stem cell morphology trait
 def: "The morphology of a multi fate stem cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of multi fate stem cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0002407
@@ -43694,6 +43769,7 @@ id: OBA:VT0002442
 name: leukocyte physiology trait
 def: "The functionality of a leukocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of leukocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:VT0002444
@@ -43731,8 +43807,8 @@ is_a: OBA:1000243 ! myeloid leukocyte quality
 [Term]
 id: OBA:VT0002455
 name: dendritic cell antigen presentation trait
-def: "The dendritic of a antigen processing and presentation when measured in obsolete cell." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "obsolete cell antigen processing and presentation dendritic" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The dendritic of a antigen processing and presentation when measured in cell." [AUTO:patterns/patterns/process_attribute_location]
+synonym: "cell antigen processing and presentation dendritic" EXACT [AUTO:patterns/patterns/process_attribute_location]
 is_a: OBA:VT0001835 ! antigen presentation trait
 
 [Term]
@@ -43831,6 +43907,7 @@ id: OBA:VT0002579
 name: secondary lens fiber morphology trait
 def: "The morphology of a secondary lens fiber." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of secondary lens fiber" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0002581
@@ -43902,6 +43979,7 @@ id: OBA:VT0002641
 name: erythrocyte shape trait
 def: "The shape of a erythrocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "shape of erythrocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000052 ! cell shape
 is_a: OBA:VT0002447 ! erythrocyte morphology trait
 
 [Term]
@@ -43938,6 +44016,7 @@ id: OBA:VT0002655
 name: keratinocyte morphology trait
 def: "The morphology of a keratinocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of keratinocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0002656
@@ -44111,8 +44190,8 @@ is_a: OBA:VT0002135 ! kidney morphology trait
 [Term]
 id: OBA:VT0002707
 name: kidney mass
-def: "The weight of a kidney." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of kidney" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a kidney." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of kidney" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
@@ -44298,6 +44377,7 @@ id: OBA:VT0002784
 name: Sertoli cell morphology trait
 def: "The morphology of a Sertoli cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of Sertoli cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0002785
@@ -44312,6 +44392,7 @@ name: Leydig cell morphology trait
 def: "The morphology of a Leydig cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of Leydig cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000182 ! Leydig cell quality
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0002792
@@ -44420,8 +44501,8 @@ is_a: OBA:0100003 ! anatomical entity attribute
 [Term]
 id: OBA:VT0002845
 name: aorta mass
-def: "The weight of a aorta." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of aorta" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a aorta." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of aorta" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
@@ -44503,6 +44584,7 @@ id: OBA:VT0002882
 name: neuron morphology trait
 def: "The morphology of a neuron." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of neuron" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0002894
@@ -44636,6 +44718,7 @@ id: OBA:VT0002983
 name: retinal ganglion cell quantity
 def: "The has number of of a retinal ganglion cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of retinal ganglion cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0002985
@@ -44816,6 +44899,7 @@ id: OBA:VT0003084
 name: skeletal muscle fiber morphology trait
 def: "The morphology of a cell of skeletal muscle." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of cell of skeletal muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0003085
@@ -45118,6 +45202,7 @@ id: OBA:VT0003244
 name: dopaminergic neuron quantity
 def: "The has number of of a dopaminergic neuron." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of dopaminergic neuron" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0003252
@@ -45209,6 +45294,7 @@ id: OBA:VT0003339
 name: pancreatic beta cell quantity
 def: "The has number of of a type B pancreatic cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of type B pancreatic cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0003345
@@ -45315,6 +45401,7 @@ id: OBA:VT0003399
 name: skeletal muscle fiber size trait
 def: "The size of a cell of skeletal muscle." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of cell of skeletal muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:VT0003084 ! skeletal muscle fiber morphology trait
 
 [Term]
@@ -45327,8 +45414,8 @@ is_a: OBA:VT0002861 ! tail bud morphology trait
 [Term]
 id: OBA:VT0003402
 name: liver mass
-def: "The weight of a liver." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of liver" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a liver." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of liver" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000635 ! liver quality
 
 [Term]
@@ -45336,6 +45423,7 @@ id: OBA:VT0003405
 name: platelet shape trait
 def: "The shape of a platelet." [AUTO:patterns/patterns/entity_attribute]
 synonym: "shape of platelet" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000052 ! cell shape
 is_a: OBA:0003276 ! platelet morphology
 
 [Term]
@@ -45386,6 +45474,7 @@ id: OBA:VT0003446
 name: kidney cell quantity
 def: "The amount of a kidney cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of kidney cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0003450
@@ -45536,12 +45625,14 @@ id: OBA:VT0003562
 name: pancreatic beta cell physiology trait
 def: "The functionality of a type B pancreatic cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of type B pancreatic cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:VT0003563
 name: pancreatic alpha cell physiology trait
 def: "The functionality of a pancreatic A cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of pancreatic A cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:VT0003564
@@ -45707,6 +45798,7 @@ name: glial cell morphology trait
 def: "The morphology of a glial cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of glial cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000236 ! glial cell quality
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0003635
@@ -45763,6 +45855,7 @@ id: OBA:VT0003656
 name: erythrocyte physiology trait
 def: "The functionality of a erythrocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of erythrocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 is_a: OBA:1000866 ! blood cell quality
 
 [Term]
@@ -45856,6 +45949,7 @@ id: OBA:VT0003690
 name: glia physiology trait
 def: "The functionality of a glial cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of glial cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 is_a: OBA:1000236 ! glial cell quality
 
 [Term]
@@ -46655,12 +46749,14 @@ id: OBA:VT0004074
 name: Schwann cell precursor morphology trait
 def: "The morphology of a Schwann cell precursor." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of Schwann cell precursor" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004075
 name: Schwann cell precursor quantity
 def: "The amount of a Schwann cell precursor." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of Schwann cell precursor" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0004077
@@ -46709,6 +46805,7 @@ id: OBA:VT0004087
 name: muscle cell morphology trait
 def: "The morphology of a muscle cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of muscle cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004088
@@ -46793,6 +46890,7 @@ id: OBA:VT0004101
 name: brain interneuron morphology trait
 def: "The morphology of a interneuron when measured in brain." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "brain interneuron morphology" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+is_a: OBA:VT0002181 ! brain cell morphology trait
 is_a: OBA:VT0006004 ! interneuron morphology trait
 
 [Term]
@@ -46907,6 +47005,7 @@ id: OBA:VT0004128
 name: adipocyte morphology trait
 def: "The morphology of a fat cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of fat cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004134
@@ -46928,18 +47027,21 @@ id: OBA:VT0004138
 name: mucous neck cell morphology trait
 def: "The morphology of a mucous neck cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of mucous neck cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004140
 name: chief cell morphology trait
 def: "The morphology of a chief cell of parathyroid gland." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of chief cell of parathyroid gland" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004141
 name: enteroendocrine cell morphology trait
 def: "The morphology of a enteroendocrine cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of enteroendocrine cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004142
@@ -47297,8 +47399,8 @@ is_a: OBA:VT0002086 ! extraembryonic tissue morphology trait
 [Term]
 id: OBA:VT0004257
 name: placenta mass
-def: "The weight of a placenta." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of placenta" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a placenta." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of placenta" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000620 ! placenta quality
 
 [Term]
@@ -47353,8 +47455,8 @@ is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0004271
-name: obsolete paw/hand/foot/hoof morphology trait
-replaced_by: http://purl.obolibrary.org/obo/OBA_OBA_VT0000572
+is_obsolete: true
+replaced_by: OBA:VT0000572
 
 [Term]
 id: OBA:VT0004272
@@ -47466,24 +47568,28 @@ id: OBA:VT0004293
 name: type I spiral ligament fibrocyte morphology trait
 def: "The morphology of a type 1 otic fibrocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of type 1 otic fibrocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004294
 name: type II spiral ligament fibrocyte morphology trait
 def: "The morphology of a type 2 otic fibrocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of type 2 otic fibrocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004295
 name: type III spiral ligament fibrocyte morphology trait
 def: "The morphology of a type 3 otic fibrocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of type 3 otic fibrocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004296
 name: type IV spiral ligament fibrocyte morphology trait
 def: "The morphology of a type 4 otic fibrocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of type 4 otic fibrocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004297
@@ -47497,6 +47603,7 @@ id: OBA:VT0004300
 name: organ of Corti supporting cell morphology trait
 def: "The morphology of a organ of Corti supporting cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of organ of Corti supporting cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004302
@@ -47724,12 +47831,14 @@ id: OBA:VT0004365
 name: strial basal cell morphology trait
 def: "The morphology of a strial basal cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of strial basal cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004366
 name: strial marginal cell morphology trait
 def: "The morphology of a strial marginal cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of strial marginal cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004367
@@ -47894,6 +48003,7 @@ id: OBA:VT0004430
 name: Claudius cell morphology trait
 def: "The morphology of a Claudius cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of Claudius cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004432
@@ -47997,6 +48107,7 @@ id: OBA:VT0004482
 name: interdental cell morphology trait
 def: "The morphology of a interdental cell of cochlea." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of interdental cell of cochlea" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0004493
@@ -48087,15 +48198,15 @@ is_a: OBA:VT0002444 ! T cell physiology trait
 [Term]
 id: OBA:VT0004951
 name: spleen mass
-def: "The weight of a spleen." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of spleen" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a spleen." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of spleen" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0004954
 name: thymus mass
-def: "The weight of a thymus." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of thymus" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a thymus." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of thymus" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000057 ! gland quality
 
 [Term]
@@ -48124,6 +48235,7 @@ id: OBA:VT0005006
 name: osteoblast physiology trait
 def: "The functionality of a osteoblast." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of osteoblast" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:VT0005007
@@ -48193,6 +48305,7 @@ id: OBA:VT0005033
 name: trophoblast giant cell morphology trait
 def: "The morphology of a trophoblast giant cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of trophoblast giant cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0005034
@@ -48420,7 +48533,7 @@ id: OBA:VT0005160
 name: urine protein amount
 def: "The amount of a protein when measured in urine." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "urine protein amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:1001016 ! protein amount
+is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:VT0005168
@@ -48707,6 +48820,7 @@ id: OBA:VT0005250
 name: Sertoli cell quantity
 def: "The has number of of a Sertoli cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of Sertoli cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0005252
@@ -48918,6 +49032,7 @@ name: podocyte morphology trait
 def: "The morphology of a glomerular visceral epithelial cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of glomerular visceral epithelial cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000844 ! glomerular visceral epithelial cell quality
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0005327
@@ -49115,7 +49230,7 @@ id: OBA:VT0005416
 name: blood protein amount
 def: "The amount of a protein when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood protein amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:1001016 ! protein amount
+is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:VT0005418
@@ -49209,6 +49324,7 @@ id: OBA:VT0005464
 name: platelet physiology trait
 def: "The functionality of a platelet." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of platelet" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 is_a: OBA:1000866 ! blood cell quality
 
 [Term]
@@ -49232,12 +49348,14 @@ id: OBA:VT0005488
 name: bronchial epithelial cell quantity
 def: "The amount of a bronchial epithelial cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of bronchial epithelial cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0005490
 name: Clara cell quantity
 def: "The has number of of a club cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of club cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0005499
@@ -49350,6 +49468,7 @@ id: OBA:VT0005603
 name: neuron size trait
 def: "The size of a neuron." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of neuron" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:VT0002882 ! neuron morphology trait
 
 [Term]
@@ -49369,8 +49488,8 @@ is_a: OBA:1000435 ! meninx quality
 [Term]
 id: OBA:VT0005629
 name: lung mass
-def: "The weight of a lung." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of lung" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a lung." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of lung" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
@@ -49464,12 +49583,14 @@ id: OBA:VT0006005
 name: interneuron quantity
 def: "The has number of of a interneuron." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of interneuron" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0006006
 name: sensory neuron quantity
 def: "The has number of of a sensory neuron." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of sensory neuron" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0006007
@@ -49607,6 +49728,7 @@ id: OBA:VT0006057
 name: blood vessel endothelial cell quantity
 def: "The has number of of a blood vessel endothelial cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of blood vessel endothelial cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0006061
@@ -50052,26 +50174,27 @@ id: OBA:VT0007010
 name: cardiomyocyte quantity
 def: "The has number of of a cardiac muscle cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of cardiac muscle cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0007026
 name: left atrium mass
-def: "The weight of a left cardiac atrium." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of left cardiac atrium" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a left cardiac atrium." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of left cardiac atrium" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0007027
 name: right atrium mass
-def: "The weight of a right cardiac atrium." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of right cardiac atrium" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a right cardiac atrium." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of right cardiac atrium" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0007028
 name: heart mass
-def: "The weight of a heart." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of heart" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a heart." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of heart" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
@@ -50084,8 +50207,8 @@ is_a: OBA:VT0002753 ! left ventricle size trait
 [Term]
 id: OBA:VT0007031
 name: left ventricle mass
-def: "The weight of a heart left ventricle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of heart left ventricle" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a heart left ventricle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of heart left ventricle" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000229 ! heart left ventricle quality
 
 [Term]
@@ -50098,8 +50221,8 @@ is_a: OBA:VT0002754 ! right ventricle size trait
 [Term]
 id: OBA:VT0007033
 name: right ventricle mass
-def: "The weight of a heart right ventricle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of heart right ventricle" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a heart right ventricle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of heart right ventricle" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000280 ! heart right ventricle quality
 
 [Term]
@@ -50443,18 +50566,21 @@ id: OBA:VT0008196
 name: follicular dendritic cell morphology trait
 def: "The morphology of a follicular dendritic cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of follicular dendritic cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0008197
 name: follicular dendritic cell physiology trait
 def: "The functionality of a follicular dendritic cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of follicular dendritic cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 
 [Term]
 id: OBA:VT0008200
 name: follicular dendritic cell quantity
 def: "The has number of of a follicular dendritic cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of follicular dendritic cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0008207
@@ -50539,6 +50665,7 @@ id: OBA:VT0008251
 name: phagocyte morphology trait
 def: "The morphology of a phagocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of phagocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0008252
@@ -51266,8 +51393,8 @@ id: OBA:VT0010009
 name: femur mass
 def: "The mass of a femur." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of femur" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003898 ! bone element mass
 is_a: OBA:1000621 ! femur quality
+is_a: OBA:VT1000111 ! bone mass
 
 [Term]
 id: OBA:VT0010010
@@ -51290,8 +51417,8 @@ id: OBA:VT0010013
 name: humerus mass
 def: "The mass of a humerus." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of humerus" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003898 ! bone element mass
 is_a: OBA:1000326 ! humerus quality
+is_a: OBA:VT1000111 ! bone mass
 
 [Term]
 id: OBA:VT0010014
@@ -51305,8 +51432,8 @@ id: OBA:VT0010015
 name: tibia mass
 def: "The mass of a tibia." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of tibia" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003898 ! bone element mass
 is_a: OBA:1000340 ! tibia quality
+is_a: OBA:VT1000111 ! bone mass
 
 [Term]
 id: OBA:VT0010018
@@ -51645,6 +51772,7 @@ id: OBA:VT0010094
 name: osteoblast morphology trait
 def: "The morphology of a osteoblast." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of osteoblast" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0010095
@@ -51658,12 +51786,14 @@ id: OBA:VT0010096
 name: osteoblast quantity
 def: "The has number of of a osteoblast." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of osteoblast" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0010097
 name: osteocyte morphology trait
 def: "The morphology of a osteocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of osteocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1001065 ! cell morphology
 
 [Term]
 id: OBA:VT0010098
@@ -51678,6 +51808,7 @@ id: OBA:VT0010099
 name: enteric cholinergic nerve fiber organization trait
 def: "The functionality of a egg cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of egg cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003194 ! cell functionality
 is_a: OBA:1000722 ! gamete quality
 
 [Term]
@@ -52185,8 +52316,8 @@ is_a: OBA:VT0010240 ! reticulo-rumen morphology trait
 [Term]
 id: OBA:VT0010242
 name: reticulo-rumen mass
-def: "The weight of a reticulorumen." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of reticulorumen" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a reticulorumen." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of reticulorumen" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
@@ -52663,50 +52794,50 @@ id: OBA:VT0010421
 name: epididymal fat pad mass
 def: "The mass of a epididymal fat pad." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of epididymal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0004528 ! fat pad mass
 is_a: OBA:1000778 ! epididymal fat pad quality
-is_a: OBA:1001030 ! fat pad mass
 
 [Term]
 id: OBA:VT0010422
 name: femoral fat pad mass
 def: "The mass of a femoral fat pad." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of femoral fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001030 ! fat pad mass
+is_a: OBA:0004528 ! fat pad mass
 
 [Term]
 id: OBA:VT0010423
 name: gonadal fat pad mass
 def: "The mass of a gonadal fat pad." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of gonadal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001030 ! fat pad mass
+is_a: OBA:0004528 ! fat pad mass
 
 [Term]
 id: OBA:VT0010424
 name: inguinal fat pad mass
 def: "The mass of a inguinal fat pad." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of inguinal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001030 ! fat pad mass
+is_a: OBA:0004528 ! fat pad mass
 
 [Term]
 id: OBA:VT0010425
 name: interscapular fat pad mass
 def: "The mass of a interscapular fat pad." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of interscapular fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001030 ! fat pad mass
+is_a: OBA:0004528 ! fat pad mass
 
 [Term]
 id: OBA:VT0010426
 name: mammary fat pad mass
 def: "The mass of a mammary fat pad." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of mammary fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001030 ! fat pad mass
+is_a: OBA:0004528 ! fat pad mass
 
 [Term]
 id: OBA:VT0010427
 name: mesenteric fat pad mass
 def: "The mass of a mesenteric fat pad." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of mesenteric fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001030 ! fat pad mass
+is_a: OBA:0004528 ! fat pad mass
 
 [Term]
 id: OBA:VT0010428
@@ -52721,21 +52852,21 @@ id: OBA:VT0010429
 name: renal fat pad mass
 def: "The mass of a renal fat pad." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of renal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001036 ! abdominal fat pad mass
+is_a: OBA:VT1000711 ! abdominal fat pad mass
 
 [Term]
 id: OBA:VT0010430
 name: retroperitoneal fat pad mass
 def: "The mass of a retroperitoneal fat pad." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of retroperitoneal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001036 ! abdominal fat pad mass
+is_a: OBA:VT1000711 ! abdominal fat pad mass
 
 [Term]
 id: OBA:VT0010431
 name: uterine fat pad mass
 def: "The mass of a uterine fat pad." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of uterine fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1001030 ! fat pad mass
+is_a: OBA:0004528 ! fat pad mass
 
 [Term]
 id: OBA:VT0010442
@@ -52791,6 +52922,7 @@ id: OBA:VT0010457
 name: platelet size trait
 def: "The size of a platelet." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of platelet" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000055 ! cell size
 is_a: OBA:0003276 ! platelet morphology
 
 [Term]
@@ -52930,8 +53062,8 @@ id: OBA:VT0010510
 name: lumbar vertebra mass
 def: "The mass of a lumbar vertebra." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of lumbar vertebra" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003898 ! bone element mass
 is_a: OBA:1000067 ! endochondral bone quality
+is_a: OBA:VT1000111 ! bone mass
 
 [Term]
 id: OBA:VT0010514
@@ -53224,8 +53356,8 @@ id: OBA:VT0010672
 name: tarsometatarsus mass
 def: "The mass of a tarsometatarsus." [AUTO:patterns/patterns/entity_attribute]
 synonym: "mass of tarsometatarsus" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003898 ! bone element mass
 is_a: OBA:1000067 ! endochondral bone quality
+is_a: OBA:VT1000111 ! bone mass
 
 [Term]
 id: OBA:VT0010673
@@ -53358,6 +53490,7 @@ id: OBA:VT0015026
 name: neuron quantity
 def: "The amount of a neuron." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of neuron" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT0015035
@@ -53843,8 +53976,8 @@ is_a: OBA:VT0010002 ! mammary gland size trait
 [Term]
 id: OBA:VT0100034
 name: mammary gland mass
-def: "The weight of a mammary gland." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of mammary gland" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a mammary gland." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of mammary gland" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000057 ! gland quality
 
 [Term]
@@ -53887,8 +54020,8 @@ is_a: OBA:0100003 ! anatomical entity attribute
 [Term]
 id: OBA:VT1000111
 name: bone mass
-def: "The weight of a bone element." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of bone element" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a bone element." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of bone element" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
@@ -53923,23 +54056,23 @@ is_a: OBA:VT0000003 ! adipose morphology trait
 [Term]
 id: OBA:VT1000146
 name: longissimus dorsi mass
-def: "The weight of a longissimus thoracis muscle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of longissimus thoracis muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003813 ! muscle organ weight
+def: "The mass of a longissimus thoracis muscle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of longissimus thoracis muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0002401 ! muscle organ mass
 
 [Term]
 id: OBA:VT1000149
 name: intercostal muscle mass
-def: "The weight of a intercostal muscle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of intercostal muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003813 ! muscle organ weight
+def: "The mass of a intercostal muscle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of intercostal muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0002401 ! muscle organ mass
 
 [Term]
 id: OBA:VT1000165
 name: milk protein amount
 def: "The amount of a protein when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "milk protein amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:1001016 ! protein amount
+is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:VT1000190
@@ -53972,23 +54105,23 @@ is_a: OBA:VT0001150 ! scrotum size trait
 [Term]
 id: OBA:VT1000220
 name: abdominal adipose amount
-def: "The weight of a adipose tissue of abdominal region." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of adipose tissue of abdominal region" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a adipose tissue of abdominal region." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of adipose tissue of abdominal region" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0100002 ! connective tissue trait
 
 [Term]
 id: OBA:VT1000223
 name: pectoralis muscle mass
-def: "The weight of a pectoral muscle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of pectoral muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003813 ! muscle organ weight
+def: "The mass of a pectoral muscle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of pectoral muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0002401 ! muscle organ mass
 
 [Term]
 id: OBA:VT1000226
 name: gizzard mass
-def: "The weight of a gizzard." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of gizzard" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+def: "The mass of a gizzard." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of gizzard" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0010200 ! stomach mass
 
 [Term]
 id: OBA:VT1000276
@@ -54067,15 +54200,15 @@ is_a: OBA:VT1000479 ! muscle lipid amount
 [Term]
 id: OBA:VT1000414
 name: diaphragm mass
-def: "The weight of a diaphragm." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of diaphragm" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0003813 ! muscle organ weight
+def: "The mass of a diaphragm." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of diaphragm" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0002401 ! muscle organ mass
 
 [Term]
 id: OBA:VT1000420
 name: head mass
-def: "The weight of a head." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of head" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a head." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of head" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0005382 ! head trait
 
 [Term]
@@ -54088,8 +54221,8 @@ is_a: OBA:0002572 ! small intestine size
 [Term]
 id: OBA:VT1000425
 name: skin mass
-def: "The weight of a zone of skin." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of zone of skin" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a zone of skin." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of zone of skin" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
@@ -54126,7 +54259,7 @@ id: OBA:VT1000433
 name: muscle protein amount
 def: "The amount of a protein when measured in muscle organ." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "muscle organ protein amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:1001016 ! protein amount
+is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:VT1000434
@@ -54202,15 +54335,15 @@ is_a: OBA:0004605 ! uterine horn size
 [Term]
 id: OBA:VT1000640
 name: uterine horn mass
-def: "The weight of a uterine horn." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of uterine horn" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a uterine horn." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of uterine horn" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT1000641
 name: ovary mass
-def: "The weight of a ovary." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of ovary" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a ovary." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of ovary" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000545 ! ovary quality
 
 [Term]
@@ -54272,23 +54405,23 @@ is_a: OBA:VT0100003 ! organism subdivision trait
 [Term]
 id: OBA:VT1000687
 name: forelimb mass
-def: "The weight of a forelimb." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of forelimb" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a forelimb." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of forelimb" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000099 ! appendage trait
 
 [Term]
 id: OBA:VT1000688
 name: metatarsus mass
-def: "The weight of a metatarsal bone." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of metatarsal bone" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a metatarsal bone." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of metatarsal bone" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000067 ! endochondral bone quality
 is_a: OBA:VT1000111 ! bone mass
 
 [Term]
 id: OBA:VT1000689
 name: hindlimb mass
-def: "The weight of a hindlimb." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of hindlimb" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a hindlimb." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of hindlimb" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000099 ! appendage trait
 
 [Term]
@@ -54322,16 +54455,16 @@ is_a: OBA:VT0010693 ! longissimus muscle morphology
 [Term]
 id: OBA:VT1000711
 name: abdominal fat pad mass
-def: "The weight of a abdominal fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of abdominal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0004528 ! fat pad weight
+def: "The mass of a abdominal fat pad." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of abdominal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0004528 ! fat pad mass
 is_a: OBA:VT1000220 ! abdominal adipose amount
 
 [Term]
 id: OBA:VT1000712
 name: skeletal muscle mass
-def: "The weight of a skeletal muscle tissue." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of skeletal muscle tissue" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a skeletal muscle tissue." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of skeletal muscle tissue" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
@@ -54398,6 +54531,7 @@ id: OBA:VT1000743
 name: skeletal muscle fiber quantity
 def: "The has number of of a cell of skeletal muscle." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of cell of skeletal muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:VT1000747

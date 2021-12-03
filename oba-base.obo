@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: oba/releases/2021-11-26/oba-base.owl
+data-version: oba/releases/2021-12-03/oba-base.owl
 date: 13:11:2015 10:21
 saved-by: cjmungall
 auto-generated-by: TermGenie 1.0
@@ -9,11 +9,12 @@ property_value: http://purl.org/dc/elements/1.1/description "A collection of bio
 property_value: http://purl.org/dc/elements/1.1/title "Ontology of Biological Attributes (OBA)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2021-11-26" xsd:string
+property_value: owl:versionInfo "2021-12-03" xsd:string
 property_value: property-value "foaf-homepage \"http://wiki.geneontology.org/index.php/Extensions/x-attribute\" xsd:anyURL" xsd:string
 
 [Term]
 id: OBA:0000001
+name: biological attribute
 is_a: PATO:0000001
 
 [Term]
@@ -51,9 +52,9 @@ intersection_of: inheres_in UBERON:0001054
 [Term]
 id: OBA:0000009
 name: RNA stability
-def: "The http://purl.obolibrary.org/obo/OBA_0001001 of a RNA." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0001001 of RNA" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: OBA:0001001
+def: "The macromolecular stability of a RNA." [AUTO:patterns/patterns/entity_attribute]
+synonym: "macromolecular stability of RNA" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: OBA:0001001 ! macromolecular stability
 intersection_of: inheres_in SO:0000356
 
 [Term]
@@ -70,7 +71,7 @@ id: OBA:0000015
 name: anatomical structure size
 def: "The size of a anatomical structure." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of anatomical structure" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 intersection_of: PATO:0000117
 intersection_of: inheres_in UBERON:0000061
 
@@ -86,7 +87,7 @@ id: OBA:0000018
 name: appetite
 def: "The quality of a hunger motivation behavior." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of hunger motivation behavior" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001 {is_asserted="true"}
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 intersection_of: PATO:0000001
 intersection_of: inheres_in NBO:0000235
 
@@ -121,17 +122,23 @@ id: OBA:0000036
 name: body fluid levels
 def: "The volume when measured in multicellular organism." [AUTO:patterns/patterns/attribute_location]
 synonym: "multicellular organism volume" EXACT [AUTO:patterns/patterns/attribute_location]
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 intersection_of: PATO:0000918
 intersection_of: inheres_in UBERON:0000468
 
 [Term]
 id: OBA:0000037
-is_a: OBA:0000001
+name: obsolete brood size
+is_a: OBA:0000001 ! biological attribute
+is_obsolete: true
+replaced_by: PATO:0000276
 
 [Term]
 id: OBA:0000039
-is_a: OBA:0000001
+name: obsolete buoyancy
+is_a: OBA:0000001 ! biological attribute
+is_obsolete: true
+replaced_by: PATO:0001420
 
 [Term]
 id: OBA:0000040
@@ -153,20 +160,16 @@ intersection_of: inheres_in CL:0000746
 [Term]
 id: OBA:0000048
 name: cell diameter
-def: "The diameter of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "diameter of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The diameter of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "diameter of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000055 ! cell size
 intersection_of: PATO:0001334
-intersection_of: inheres_in GO:0005623
+intersection_of: inheres_in CL:0000000
 
 [Term]
 id: OBA:0000050
-name: cell pH
-def: "The http://purl.obolibrary.org/obo/OBA_0000121 of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0000121 of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000058 ! cellular pH
-intersection_of: OBA:0000121
-intersection_of: inheres_in GO:0005623
+is_obsolete: true
+replaced_by: OBA:0000058
 
 [Term]
 id: OBA:0000051
@@ -180,27 +183,27 @@ intersection_of: inheres_in GO:0042995
 [Term]
 id: OBA:0000052
 name: cell shape
-def: "The shape of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "shape of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The shape of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "shape of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000052
-intersection_of: inheres_in GO:0005623
+intersection_of: inheres_in CL:0000000
 
 [Term]
 id: OBA:0000055
 name: cell size
-def: "The size of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "size of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The size of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000057 ! cellular component size
 intersection_of: PATO:0000117
-intersection_of: inheres_in GO:0005623
+intersection_of: inheres_in CL:0000000
 
 [Term]
 id: OBA:0000056
 name: cell volume
-def: "The volume of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "volume of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The volume of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "volume of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000918
-intersection_of: inheres_in GO:0005623
+intersection_of: inheres_in CL:0000000
 
 [Term]
 id: OBA:0000057
@@ -214,11 +217,10 @@ intersection_of: inheres_in GO:0005575
 [Term]
 id: OBA:0000058
 name: cellular pH
-def: "The acidity when measured in obsolete cell." [AUTO:patterns/patterns/attribute_location]
-synonym: "obsolete cell acidity" EXACT [AUTO:patterns/patterns/attribute_location]
-is_a: OBA:0000121
+def: "The acidity when measured in cell." [AUTO:patterns/patterns/attribute_location]
+synonym: "cell acidity" EXACT [AUTO:patterns/patterns/attribute_location]
 intersection_of: PATO:0001842
-intersection_of: inheres_in GO:0005623
+intersection_of: inheres_in CL:0000000
 
 [Term]
 id: OBA:0000060
@@ -226,7 +228,7 @@ name: cilium beat frequency
 def: "The frequency of a cilium movement." [AUTO:patterns/patterns/entity_attribute]
 comment: check this
 synonym: "frequency of cilium movement" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 intersection_of: PATO:0000044
 intersection_of: inheres_in GO:0003341
 
@@ -235,7 +237,7 @@ id: OBA:0000061
 name: circulating fibrinogen levels
 def: "The amount of a fibrinogen complex." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of fibrinogen complex" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 intersection_of: PATO:0000070
 intersection_of: inheres_in GO:0005577
 
@@ -268,6 +270,7 @@ intersection_of: inheres_in GO:0005768
 
 [Term]
 id: OBA:0000069
+name: excitatory post-synaptic membrane potential
 is_a: OBA:0000125 ! post-synaptic membrane potential
 
 [Term]
@@ -281,8 +284,8 @@ intersection_of: inheres_in CL:0000477
 
 [Term]
 id: OBA:0000074
-name: obsolete heart contraction rate
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
+is_obsolete: true
 replaced_by: OBA:1001087
 
 [Term]
@@ -291,7 +294,7 @@ name: hormone levels
 def: "The amount of a hormone." [AUTO:patterns/patterns/entity_attribute]
 comment: TODO - unify levels vs amount
 synonym: "amount of hormone" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 intersection_of: PATO:0000070
 intersection_of: inheres_in CHEBI:24621
 
@@ -306,6 +309,7 @@ intersection_of: inheres_in UBERON:0000984
 
 [Term]
 id: OBA:0000085
+name: inhibitory post-synaptic membrane potential
 is_a: OBA:0000125 ! post-synaptic membrane potential
 
 [Term]
@@ -313,12 +317,13 @@ id: OBA:0000088
 name: liquid surface tension
 def: "The surface tension of a liquid configuration." [AUTO:patterns/patterns/entity_attribute]
 synonym: "surface tension of liquid configuration" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001 {is_asserted="true"}
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 intersection_of: PATO:0001461
 intersection_of: inheres_in PATO:0001735
 
 [Term]
 id: OBA:0000089
+name: long-term neuronal synaptic plasticity
 is_a: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
@@ -332,7 +337,6 @@ id: OBA:0000091
 name: lysosomal lumen pH
 def: "The acidity when measured in lysosomal lumen." [AUTO:patterns/patterns/attribute_location]
 synonym: "lysosomal lumen acidity" EXACT [AUTO:patterns/patterns/attribute_location]
-is_a: OBA:0000050 ! cell pH
 intersection_of: PATO:0001842
 intersection_of: inheres_in GO:0043202
 
@@ -347,10 +351,10 @@ intersection_of: inheres_in GO:0005765
 [Term]
 id: OBA:0000093
 name: mRNA stability
-def: "The http://purl.obolibrary.org/obo/OBA_0001001 of a mRNA." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0001001 of mRNA" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The macromolecular stability of a mRNA." [AUTO:patterns/patterns/entity_attribute]
+synonym: "macromolecular stability of mRNA" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000009 ! RNA stability
-intersection_of: OBA:0001001
+intersection_of: OBA:0001001 ! macromolecular stability
 intersection_of: inheres_in SO:0000234
 
 [Term]
@@ -358,7 +362,7 @@ id: OBA:0000098
 name: membrane lipid distribution
 def: "The spatial pattern of a lipid when measured in membrane." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "membrane lipid spatial pattern" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000099
@@ -396,8 +400,8 @@ intersection_of: inheres_in GO:0005902
 [Term]
 id: OBA:0000103
 name: mitochondrial mRNA stability
-def: "The http://purl.obolibrary.org/obo/OBA_0001001 of a mRNA when measured in mitochondrion." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "mitochondrion mRNA http://purl.obolibrary.org/obo/OBA_0001001" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The macromolecular stability of a mRNA when measured in mitochondrion." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "mitochondrion mRNA macromolecular stability" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 
 [Term]
 id: OBA:0000104
@@ -418,8 +422,8 @@ intersection_of: inheres_in GO:0031966
 [Term]
 id: OBA:0000106
 name: mitochondrial rRNA stability
-def: "The http://purl.obolibrary.org/obo/OBA_0001001 of a rRNA when measured in mitochondrion." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "mitochondrion rRNA http://purl.obolibrary.org/obo/OBA_0001001" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The macromolecular stability of a rRNA when measured in mitochondrion." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "mitochondrion rRNA macromolecular stability" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 
 [Term]
 id: OBA:0000107
@@ -457,9 +461,9 @@ intersection_of: inheres_in GO:0030016
 [Term]
 id: OBA:0000114
 name: neuronal synaptic plasticity
-def: "The http://purl.obolibrary.org/obo/OBA_0000141 of a neuron." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0000141 of neuron" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: OBA:0000141
+def: "The synaptic plasticity of a neuron." [AUTO:patterns/patterns/entity_attribute]
+synonym: "synaptic plasticity of neuron" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: OBA:0000141 ! synaptic plasticity
 intersection_of: inheres_in CL:0000540
 
 [Term]
@@ -499,6 +503,9 @@ intersection_of: inheres_in CHEBI:15377
 
 [Term]
 id: OBA:0000121
+name: obsolete pH
+is_obsolete: true
+replaced_by: PATO:0001842
 
 [Term]
 id: OBA:0000122
@@ -552,26 +559,28 @@ intersection_of: inheres_in UBERON:0002120
 [Term]
 id: OBA:0000128
 name: protein stability
-def: "The http://purl.obolibrary.org/obo/OBA_0001001 of a protein." [AUTO:patterns/patterns/entity_attribute]
+def: "The macromolecular stability of a protein." [AUTO:patterns/patterns/entity_attribute]
 comment: See http://code.google.com/p/pato/issues/detail?id=1
-synonym: "http://purl.obolibrary.org/obo/OBA_0001001 of protein" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: OBA:0001001
+synonym: "macromolecular stability of protein" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: OBA:0001001 ! macromolecular stability
 intersection_of: inheres_in PR:000000001
 
 [Term]
 id: OBA:0000129
 name: rRNA stability
-def: "The http://purl.obolibrary.org/obo/OBA_0001001 of a rRNA." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0001001 of rRNA" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: OBA:0001001
+def: "The macromolecular stability of a rRNA." [AUTO:patterns/patterns/entity_attribute]
+synonym: "macromolecular stability of rRNA" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: OBA:0001001 ! macromolecular stability
 intersection_of: inheres_in SO:0000252
 
 [Term]
 id: OBA:0000134
+name: resting membrane potential
 is_a: OBA:0000099 ! membrane potential
 
 [Term]
 id: OBA:0000136
+name: short-term neuronal synaptic plasticity
 is_a: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
@@ -587,19 +596,21 @@ id: OBA:0000139
 name: synapse structure and activity
 def: "The quality of a synapse." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of synapse" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 intersection_of: PATO:0000001
 intersection_of: inheres_in GO:0045202
 
 [Term]
 id: OBA:0000140
+name: synaptic metaplasticity
 comment: http://code.google.com/p/pato/issues/detail?id=2
-is_a: OBA:0000141
+is_a: OBA:0000141 ! synaptic plasticity
 
 [Term]
 id: OBA:0000141
+name: synaptic plasticity
 comment: http://code.google.com/p/pato/issues/detail?id=2
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000143
@@ -622,7 +633,7 @@ name: force of heart contraction
 def: "The force of a heart contraction." [AUTO:patterns/patterns/entity_attribute]
 synonym: "force of heart contraction" EXACT [AUTO:patterns/patterns/entity_attribute]
 synonym: "the force of heart contraction" EXACT []
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 intersection_of: PATO:0001035
 intersection_of: inheres_in GO:0060047
 
@@ -634,7 +645,7 @@ comment: check this
 synonym: "speed of skeletal muscle contraction" EXACT [AUTO:patterns/patterns/entity_attribute]
 synonym: "the velocity of shortening of skeletal muscle modulating contraction" EXACT []
 synonym: "velocity of shortening of skeletal muscle" RELATED []
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 intersection_of: PATO:0000008
 intersection_of: inheres_in GO:0003009
 
@@ -669,7 +680,7 @@ name: translational accuracy
 def: "The functionality of a translation." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of translation" EXACT [AUTO:patterns/patterns/entity_attribute]
 synonym: "translational fidelity" EXACT [GO:0006450]
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 intersection_of: PATO:0001509
 intersection_of: inheres_in GO:0006412
 
@@ -704,20 +715,21 @@ id: OBA:0000174
 name: vascular permeability
 def: "The permeability of a vessel." [AUTO:patterns/patterns/entity_attribute]
 synonym: "permeability of vessel" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 intersection_of: PATO:0000970
 intersection_of: inheres_in UBERON:0000055
 
 [Term]
 id: OBA:0000181
-is_a: OBA:0000001
+name: viral protein levels
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000182
 name: nutrient level
 def: "The amount of a nutrient." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of nutrient" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 intersection_of: PATO:0000070
 intersection_of: inheres_in CHEBI:33284
 
@@ -731,8 +743,9 @@ intersection_of: inheres_in UBERON:0001981
 
 [Term]
 id: OBA:0001001
+name: macromolecular stability
 comment: See http://code.google.com/p/pato/issues/detail?id=1
-is_a: OBA:0000001
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0002000
@@ -4368,11 +4381,11 @@ intersection_of: inheres_in UBERON:0004480
 
 [Term]
 id: OBA:0002455
-name: obsolete death onset quality
-def: "The onset quality of a obsolete death." [AUTO:patterns/patterns/entity_attribute]
-synonym: "onset quality of obsolete death" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: death stage onset quality
+def: "The onset quality of a death stage." [AUTO:patterns/patterns/entity_attribute]
+synonym: "onset quality of death stage" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0002325
-intersection_of: inheres_in GO:0016265
+intersection_of: inheres_in UBERON:0000071
 
 [Term]
 id: OBA:0002456
@@ -10280,11 +10293,11 @@ intersection_of: inheres_in UBERON:0001908
 
 [Term]
 id: OBA:0003194
-name: obsolete cell functionality
-def: "The functionality of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "functionality of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cell functionality
+def: "The functionality of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "functionality of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0001509
-intersection_of: inheres_in GO:0005623
+intersection_of: inheres_in CL:0000000
 
 [Term]
 id: OBA:0003195
@@ -14688,11 +14701,8 @@ intersection_of: inheres_in GO:0003009
 
 [Term]
 id: OBA:0003746
-name: aorta mass
-def: "The mass of a aorta." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of aorta" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0000947
+is_obsolete: true
+replaced_by: OBA:VT0002845
 
 [Term]
 id: OBA:0003747
@@ -15224,11 +15234,8 @@ intersection_of: inheres_in UBERON:0001533
 
 [Term]
 id: OBA:0003813
-name: muscle organ weight
-def: "The weight of a muscle organ." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of muscle organ" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
-intersection_of: inheres_in UBERON:0001630
+is_obsolete: true
+replaced_by: OBA:0002401
 
 [Term]
 id: OBA:0003814
@@ -15584,11 +15591,11 @@ intersection_of: inheres_in GO:0005634
 
 [Term]
 id: OBA:0003858
-name: obsolete cell nucleate quality
-def: "The nucleate quality of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "nucleate quality of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cell nucleate quality
+def: "The nucleate quality of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "nucleate quality of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0001404
-intersection_of: inheres_in GO:0005623
+intersection_of: inheres_in CL:0000000
 
 [Term]
 id: OBA:0003859
@@ -15896,11 +15903,8 @@ intersection_of: inheres_in GO:0014827
 
 [Term]
 id: OBA:0003898
-name: bone element mass
-def: "The mass of a bone element." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of bone element" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0001474
+is_obsolete: true
+replaced_by: OBA:VT1000111
 
 [Term]
 id: OBA:0003899
@@ -15912,11 +15916,11 @@ intersection_of: inheres_in GO:0005694
 
 [Term]
 id: OBA:0003900
-name: obsolete cell ploidy
-def: "The ploidy of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "ploidy of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cell ploidy
+def: "The ploidy of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "ploidy of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0001374
-intersection_of: inheres_in GO:0005623
+intersection_of: inheres_in CL:0000000
 
 [Term]
 id: OBA:0003901
@@ -16248,11 +16252,8 @@ intersection_of: inheres_in UBERON:0001987
 
 [Term]
 id: OBA:0003943
-name: basement membrane morphology
-def: "The morphology of a basement membrane." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of basement membrane" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000051
-intersection_of: inheres_in GO:0005604
+is_obsolete: true
+replaced_by: OBA:VT0004272
 
 [Term]
 id: OBA:0003944
@@ -17288,11 +17289,8 @@ intersection_of: inheres_in GO:0016446
 
 [Term]
 id: OBA:0004074
-name: skeletal muscle tissue mass
-def: "The mass of a skeletal muscle tissue." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of skeletal muscle tissue" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0001134
+is_obsolete: true
+replaced_by: OBA:VT1000712
 
 [Term]
 id: OBA:0004075
@@ -17328,11 +17326,8 @@ intersection_of: inheres_in CL:0000510
 
 [Term]
 id: OBA:0004079
-name: testis weight
-def: "The weight of a testis." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of testis" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
-intersection_of: inheres_in UBERON:0000473
+is_obsolete: true
+replaced_by: OBA:VT1000644
 
 [Term]
 id: OBA:0004080
@@ -17384,19 +17379,13 @@ intersection_of: inheres_in CL:0000015
 
 [Term]
 id: OBA:0004086
-name: uterus weight
-def: "The weight of a uterus." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of uterus" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
-intersection_of: inheres_in UBERON:0000995
+is_obsolete: true
+replaced_by: OBA:VT0010611
 
 [Term]
 id: OBA:0004087
-name: seminal vesicle weight
-def: "The weight of a seminal vesicle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of seminal vesicle" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
-intersection_of: inheres_in UBERON:0000998
+is_obsolete: true
+replaced_by: OBA:VT0010524
 
 [Term]
 id: OBA:0004088
@@ -17456,11 +17445,8 @@ intersection_of: inheres_in UBERON:0001301
 
 [Term]
 id: OBA:0004095
-name: epididymis weight
-def: "The weight of a epididymis." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of epididymis" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
-intersection_of: inheres_in UBERON:0001301
+is_obsolete: true
+replaced_by: OBA:VT0010019
 
 [Term]
 id: OBA:0004096
@@ -17504,11 +17490,8 @@ intersection_of: inheres_in GO:0001824
 
 [Term]
 id: OBA:0004101
-name: prostate gland weight
-def: "The weight of a prostate gland." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of prostate gland" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
-intersection_of: inheres_in UBERON:0002367
+is_obsolete: true
+replaced_by: OBA:VT0010466
 
 [Term]
 id: OBA:0004102
@@ -18992,11 +18975,11 @@ intersection_of: inheres_in CL:0000740
 
 [Term]
 id: OBA:0004288
-name: obsolete podocyte foot process morphology
-def: "The morphology of a obsolete podocyte foot process." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of obsolete podocyte foot process" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: http://purl.obolibrary.org/obo/GO_0098846 morphology
+def: "The morphology of a http://purl.obolibrary.org/obo/GO_0098846." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of http://purl.obolibrary.org/obo/GO_0098846" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000051
-intersection_of: inheres_in UBERON:0004355
+intersection_of: inheres_in GO:0098846
 
 [Term]
 id: OBA:0004289
@@ -19184,11 +19167,11 @@ intersection_of: inheres_in CL:0000653
 
 [Term]
 id: OBA:0004312
-name: obsolete podocyte foot process amount
-def: "The amount of a obsolete podocyte foot process." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of obsolete podocyte foot process" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: http://purl.obolibrary.org/obo/GO_0098846 amount
+def: "The amount of a http://purl.obolibrary.org/obo/GO_0098846." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of http://purl.obolibrary.org/obo/GO_0098846" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000070
-intersection_of: inheres_in UBERON:0004355
+intersection_of: inheres_in GO:0098846
 
 [Term]
 id: OBA:0004313
@@ -20912,10 +20895,10 @@ intersection_of: inheres_in UBERON:0010412
 
 [Term]
 id: OBA:0004528
-name: fat pad weight
-def: "The weight of a fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+name: fat pad mass
+def: "The mass of a fat pad." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0003916
 
 [Term]
@@ -21032,11 +21015,8 @@ intersection_of: inheres_in UBERON:0001886
 
 [Term]
 id: OBA:0004543
-name: pituitary gland weight
-def: "The weight of a pituitary gland." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of pituitary gland" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
-intersection_of: inheres_in UBERON:0000007
+is_obsolete: true
+replaced_by: OBA:VT0010496
 
 [Term]
 id: OBA:0004544
@@ -21104,10 +21084,10 @@ intersection_of: inheres_in UBERON:0003973
 
 [Term]
 id: OBA:0004552
-name: vagina weight
-def: "The weight of a vagina." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of vagina" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+name: vagina mass
+def: "The mass of a vagina." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of vagina" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0000996
 
 [Term]
@@ -21464,10 +21444,10 @@ intersection_of: inheres_in GO:0032625
 
 [Term]
 id: OBA:0004598
-name: fallopian tube weight
-def: "The weight of a fallopian tube." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of fallopian tube" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+name: fallopian tube mass
+def: "The mass of a fallopian tube." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of fallopian tube" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0003889
 
 [Term]
@@ -21592,11 +21572,8 @@ intersection_of: inheres_in UBERON:0000989
 
 [Term]
 id: OBA:0004614
-name: pancreas weight
-def: "The weight of a pancreas." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of pancreas" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
-intersection_of: inheres_in UBERON:0001264
+is_obsolete: true
+replaced_by: OBA:VT0010144
 
 [Term]
 id: OBA:0004615
@@ -22120,43 +22097,28 @@ intersection_of: inheres_in CL:0002092
 
 [Term]
 id: OBA:0004680
-name: gonadal fat pad weight
-def: "The weight of a gonadal fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of gonadal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
-intersection_of: inheres_in UBERON:0003428
+is_obsolete: true
+replaced_by: OBA:VT0010423
 
 [Term]
 id: OBA:0004681
-name: epididymal fat pad weight
-def: "The weight of a epididymal fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of epididymal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
-intersection_of: inheres_in UBERON:0010412
+is_obsolete: true
+replaced_by: OBA:VT0010421
 
 [Term]
 id: OBA:0004682
-name: inguinal fat pad weight
-def: "The weight of a inguinal fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of inguinal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
-intersection_of: inheres_in UBERON:0010410
+is_obsolete: true
+replaced_by: OBA:VT0010424
 
 [Term]
 id: OBA:0004683
-name: parametrial fat pad weight
-def: "The weight of a parametrial fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of parametrial fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
-intersection_of: inheres_in UBERON:0010413
+is_obsolete: true
+replaced_by: OBA:VT0010428
 
 [Term]
 id: OBA:0004684
-name: retroperitoneal fat pad weight
-def: "The weight of a retroperitoneal fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of retroperitoneal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
-intersection_of: inheres_in UBERON:0010411
+is_obsolete: true
+replaced_by: OBA:VT0010430
 
 [Term]
 id: OBA:0004685
@@ -22440,58 +22402,58 @@ intersection_of: inheres_in UBERON:0001133
 
 [Term]
 id: OBA:0004720
-name: gastrocnemius weight
-def: "The weight of a gastrocnemius." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of gastrocnemius" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+name: gastrocnemius mass
+def: "The mass of a gastrocnemius." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of gastrocnemius" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001388
 
 [Term]
 id: OBA:0004721
-name: extensor digitorum longus weight
-def: "The weight of a extensor digitorum longus." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of extensor digitorum longus" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+name: extensor digitorum longus mass
+def: "The mass of a extensor digitorum longus." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of extensor digitorum longus" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001386
 
 [Term]
 id: OBA:0004722
-name: soleus muscle weight
-def: "The weight of a soleus muscle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of soleus muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+name: soleus muscle mass
+def: "The mass of a soleus muscle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of soleus muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001389
 
 [Term]
 id: OBA:0004723
-name: tibialis anterior weight
-def: "The weight of a tibialis anterior." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of tibialis anterior" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+name: tibialis anterior mass
+def: "The mass of a tibialis anterior." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of tibialis anterior" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001385
 
 [Term]
 id: OBA:0004724
-name: tongue weight
-def: "The weight of a tongue." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of tongue" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+name: tongue mass
+def: "The mass of a tongue." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of tongue" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001723
 
 [Term]
 id: OBA:0004725
-name: embryo weight
-def: "The weight of a embryo." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of embryo" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+name: embryo mass
+def: "The mass of a embryo." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of embryo" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0000922
 
 [Term]
 id: OBA:0004726
-name: late embryo weight
-def: "The weight of a late embryo." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of late embryo" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+name: late embryo mass
+def: "The mass of a late embryo." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of late embryo" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0000323
 
 [Term]
@@ -22536,19 +22498,19 @@ intersection_of: inheres_in UBERON:0003984
 
 [Term]
 id: OBA:0004732
-name: obsolete magnocellular neurosecretory cell morphology
-def: "The morphology of a obsolete magnocellular neurosecretory cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of obsolete magnocellular neurosecretory cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: http://purl.obolibrary.org/obo/CL_0011003 morphology
+def: "The morphology of a http://purl.obolibrary.org/obo/CL_0011003." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of http://purl.obolibrary.org/obo/CL_0011003" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000051
-intersection_of: inheres_in CL:0011112
+intersection_of: inheres_in CL:0011003
 
 [Term]
 id: OBA:0004733
-name: obsolete magnocellular neurosecretory cell altered number of
-def: "The altered number of of a obsolete magnocellular neurosecretory cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "altered number of of obsolete magnocellular neurosecretory cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: http://purl.obolibrary.org/obo/CL_0011003 altered number of
+def: "The altered number of of a http://purl.obolibrary.org/obo/CL_0011003." [AUTO:patterns/patterns/entity_attribute]
+synonym: "altered number of of http://purl.obolibrary.org/obo/CL_0011003" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0002083
-intersection_of: inheres_in CL:0011112
+intersection_of: inheres_in CL:0011003
 
 [Term]
 id: OBA:0004734
@@ -24528,10 +24490,10 @@ intersection_of: inheres_in UBERON:0010414
 
 [Term]
 id: OBA:0004981
-name: omental fat pad weight
-def: "The weight of a omental fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of omental fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+name: omental fat pad mass
+def: "The mass of a omental fat pad." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of omental fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0010414
 
 [Term]
@@ -24896,10 +24858,10 @@ intersection_of: inheres_in CL:0000899
 
 [Term]
 id: OBA:0005027
-name: quadriceps femoris weight
-def: "The weight of a quadriceps femoris." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of quadriceps femoris" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+name: quadriceps femoris mass
+def: "The mass of a quadriceps femoris." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of quadriceps femoris" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001377
 
 [Term]
@@ -29168,10 +29130,10 @@ intersection_of: inheres_in UBERON:0012240
 
 [Term]
 id: OBA:0005562
-name: urinary bladder weight
-def: "The weight of a urinary bladder." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of urinary bladder" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+name: urinary bladder mass
+def: "The mass of a urinary bladder." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of urinary bladder" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001255
 
 [Term]
@@ -30328,11 +30290,8 @@ intersection_of: inheres_in UBERON:0002402
 
 [Term]
 id: OBA:0005707
-name: adrenal gland weight
-def: "The weight of a adrenal gland." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of adrenal gland" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
-intersection_of: inheres_in UBERON:0002369
+is_obsolete: true
+replaced_by: OBA:VT0010420
 
 [Term]
 id: OBA:0005708
@@ -30808,11 +30767,8 @@ intersection_of: inheres_in GO:0005929
 
 [Term]
 id: OBA:0005767
-name: cilium morphology
-def: "The morphology of a cilium." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000051
-intersection_of: inheres_in GO:0005929
+is_obsolete: true
+replaced_by: OBA:0005766
 
 [Term]
 id: OBA:0005768
@@ -30856,11 +30812,8 @@ intersection_of: inheres_in GO:0031514
 
 [Term]
 id: OBA:0005773
-name: cilium functionality
-def: "The functionality of a cilium." [AUTO:patterns/patterns/entity_attribute]
-synonym: "functionality of cilium" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0001509
-intersection_of: inheres_in GO:0005929
+is_obsolete: true
+replaced_by: OBA:0005771
 
 [Term]
 id: OBA:0005774
@@ -33069,9 +33022,9 @@ intersection_of: inheres_in UBERON:0006440
 [Term]
 id: OBA:0007000
 name: DNA stability
-def: "The http://purl.obolibrary.org/obo/OBA_0001001 of a DNA." [AUTO:patterns/patterns/entity_attribute]
-synonym: "http://purl.obolibrary.org/obo/OBA_0001001 of DNA" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: OBA:0001001
+def: "The macromolecular stability of a DNA." [AUTO:patterns/patterns/entity_attribute]
+synonym: "macromolecular stability of DNA" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: OBA:0001001 ! macromolecular stability
 intersection_of: inheres_in SO:0000352
 
 [Term]
@@ -33079,7 +33032,7 @@ id: OBA:0100001
 name: cellular component attribute
 def: "The quality of a cellular_component." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of cellular_component" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001 {is_asserted="true"}
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 intersection_of: PATO:0000001
 intersection_of: inheres_in GO:0005575
 
@@ -33088,7 +33041,7 @@ id: OBA:0100002
 name: biological process attribute
 def: "The quality of a biological_process." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of biological_process" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001 {is_asserted="true"}
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 intersection_of: PATO:0000001
 intersection_of: inheres_in GO:0008150
 
@@ -33097,7 +33050,7 @@ id: OBA:0100003
 name: anatomical entity attribute
 def: "The quality of a anatomical entity." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of anatomical entity" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001 {is_asserted="true"}
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 intersection_of: PATO:0000001
 intersection_of: inheres_in UBERON:0001062
 
@@ -33106,7 +33059,7 @@ id: OBA:0100004
 name: chemical entity attribute
 def: "The quality of a chemical entity." [AUTO:patterns/patterns/entity_attribute]
 synonym: "quality of chemical entity" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001 {is_asserted="true"}
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 intersection_of: PATO:0000001
 intersection_of: inheres_in CHEBI:24431
 
@@ -33487,11 +33440,11 @@ creation_date: 2013-09-25T23:32:06Z
 [Term]
 id: OBA:1000036
 name: cell mass
-def: "The mass of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
+def: "The mass of a cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "cell mass trait" EXACT [GOC:TermGenie]
-synonym: "mass of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000125
-intersection_of: inheres_in GO:0005623
+intersection_of: inheres_in CL:0000000
 relationship: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-09-30T20:01:39Z
@@ -33925,11 +33878,11 @@ creation_date: 2014-06-04T18:58:27Z
 [Term]
 id: OBA:1000076
 name: attribute of cell
-def: "The quality of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
+def: "The quality of a cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "cell quality trait" EXACT [GOC:TermGenie]
-synonym: "quality of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000001
-intersection_of: inheres_in GO:0005623
+intersection_of: inheres_in CL:0000000
 created_by: cjmungall
 creation_date: 2014-06-04T19:24:06Z
 
@@ -34523,11 +34476,11 @@ creation_date: 2014-12-02T19:04:56Z
 [Term]
 id: OBA:1000129
 name: cell color
-def: "The color of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
+def: "The color of a cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "cell color trait" EXACT [GOC:TermGenie]
-synonym: "color of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+synonym: "color of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000014
-intersection_of: inheres_in GO:0005623
+intersection_of: inheres_in CL:0000000
 relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
 creation_date: 2014-12-02T19:42:39Z
@@ -35488,7 +35441,7 @@ intersection_of: inheres_in UBERON:0001766
 
 [Term]
 id: OBA:1000242
-name: obsolete respiratory system quality
+is_obsolete: true
 replaced_by: OBA:VT0005388
 
 [Term]
@@ -37077,7 +37030,7 @@ intersection_of: inheres_in UBERON:0007722
 
 [Term]
 id: OBA:1000441
-name: obsolete reproductive system quality
+is_obsolete: true
 replaced_by: OBA:VT0005389
 
 [Term]
@@ -38218,7 +38171,7 @@ intersection_of: inheres_in GO:0019752
 
 [Term]
 id: OBA:1000584
-name: obsolete nervous system quality
+is_obsolete: true
 replaced_by: OBA:VT1000781
 
 [Term]
@@ -39871,11 +39824,8 @@ intersection_of: inheres_in UBERON:0001322
 
 [Term]
 id: OBA:1000791
-name: parental behavior quality
-def: "The quality of a parental behavior." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of parental behavior" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000001
-intersection_of: inheres_in NBO:0000044
+is_obsolete: true
+replaced_by: OBA:VT0002068
 
 [Term]
 id: OBA:1000792
@@ -39967,11 +39917,8 @@ intersection_of: inheres_in UBERON:0001841
 
 [Term]
 id: OBA:1000803
-name: grooming behavior quality
-def: "The quality of a grooming behavior." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of grooming behavior" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000001
-intersection_of: inheres_in NBO:0000027
+is_obsolete: true
+replaced_by: OBA:VT0001440
 
 [Term]
 id: OBA:1000804
@@ -40503,11 +40450,8 @@ intersection_of: inheres_in NBO:0000361
 
 [Term]
 id: OBA:1000870
-name: vocalization behavior quality
-def: "The quality of a vocalization behavior." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of vocalization behavior" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000001
-intersection_of: inheres_in NBO:0000037
+is_obsolete: true
+replaced_by: OBA:VT0001529
 
 [Term]
 id: OBA:1000871
@@ -40527,11 +40471,8 @@ intersection_of: inheres_in GO:0033327
 
 [Term]
 id: OBA:1000873
-name: obsolete glial cell (sensu Vertebrata) quality
-def: "The quality of a obsolete glial cell (sensu Vertebrata)." [AUTO:patterns/patterns/entity_attribute]
-synonym: "quality of obsolete glial cell (sensu Vertebrata)" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000001
-intersection_of: inheres_in CL:0000243
+is_obsolete: true
+replaced_by: OBA:1000236
 
 [Term]
 id: OBA:1000874
@@ -41671,11 +41612,8 @@ intersection_of: inheres_in CHEBI:27470
 
 [Term]
 id: OBA:1001016
-name: protein amount
-def: "The amount of a protein." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of protein" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000070
-intersection_of: inheres_in CHEBI:36080
+is_obsolete: true
+replaced_by: OBA:VT0010120
 
 [Term]
 id: OBA:1001017
@@ -41687,219 +41625,138 @@ intersection_of: inheres_in CHEBI:6495
 
 [Term]
 id: OBA:1001018
-name: multicellular organism mass
-def: "The mass of a multicellular organism." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of multicellular organism" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0000468
+is_obsolete: true
+replaced_by: OBA:VT0001259
 
 [Term]
 id: OBA:1001019
-name: vagina mass
-def: "The mass of a vagina." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of vagina" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0000996
+is_obsolete: true
+replaced_by: OBA:0004552
 
 [Term]
 id: OBA:1001020
-name: heart mass
-def: "The mass of a heart." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of heart" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0000948
+is_obsolete: true
+replaced_by: OBA:VT0007028
 
 [Term]
 id: OBA:1001021
-name: omental fat pad mass
-def: "The mass of a omental fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of omental fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0010414
+is_obsolete: true
+replaced_by: OBA:0004981
 
 [Term]
 id: OBA:1001022
-name: late embryo mass
-def: "The mass of a late embryo." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of late embryo" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0000323
+is_obsolete: true
+replaced_by: OBA:0004726
 
 [Term]
 id: OBA:1001023
-name: extensor digitorum longus mass
-def: "The mass of a extensor digitorum longus." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of extensor digitorum longus" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0001386
+is_obsolete: true
+replaced_by: OBA:0004721
 
 [Term]
 id: OBA:1001024
-name: lung mass
-def: "The mass of a lung." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of lung" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0002048
+is_obsolete: true
+replaced_by: OBA:VT0005629
 
 [Term]
 id: OBA:1001025
-name: kidney mass
-def: "The mass of a kidney." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of kidney" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0002113
+is_obsolete: true
+replaced_by: OBA:VT0002707
 
 [Term]
 id: OBA:1001026
-name: right cardiac atrium mass
-def: "The mass of a right cardiac atrium." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of right cardiac atrium" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0002078
+is_obsolete: true
+replaced_by: OBA:VT0007027
 
 [Term]
 id: OBA:1001027
-name: soleus muscle mass
-def: "The mass of a soleus muscle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of soleus muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0001389
+is_obsolete: true
+replaced_by: OBA:0004722
 
 [Term]
 id: OBA:1001028
-name: ovary mass
-def: "The mass of a ovary." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of ovary" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0000992
+is_obsolete: true
+replaced_by: OBA:VT1000641
 
 [Term]
 id: OBA:1001029
-name: brain mass
-def: "The mass of a brain." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of brain" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0000955
+is_obsolete: true
+replaced_by: OBA:VT0002176
 
 [Term]
 id: OBA:1001030
-name: fat pad mass
-def: "The mass of a fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0003916
+is_obsolete: true
+replaced_by: OBA:0004528
 
 [Term]
 id: OBA:1001031
-name: placenta mass
-def: "The mass of a placenta." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of placenta" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0001987
+is_obsolete: true
+replaced_by: OBA:VT0004257
 
 [Term]
 id: OBA:1001032
-name: spleen mass
-def: "The mass of a spleen." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of spleen" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0002106
+is_obsolete: true
+replaced_by: OBA:VT0004951
 
 [Term]
 id: OBA:1001033
-name: embryo mass
-def: "The mass of a embryo." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of embryo" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0000922
+is_obsolete: true
+replaced_by: OBA:0004725
 
 [Term]
 id: OBA:1001034
-name: gastrocnemius mass
-def: "The mass of a gastrocnemius." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of gastrocnemius" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0001388
+is_obsolete: true
+replaced_by: OBA:0004720
 
 [Term]
 id: OBA:1001035
-name: heart right ventricle mass
-def: "The mass of a heart right ventricle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of heart right ventricle" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0002080
+is_obsolete: true
+replaced_by: OBA:VT0007033
 
 [Term]
 id: OBA:1001036
-name: abdominal fat pad mass
-def: "The mass of a abdominal fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of abdominal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0003427
+is_obsolete: true
+replaced_by: OBA:VT1000711
 
 [Term]
 id: OBA:1001037
-name: quadriceps femoris mass
-def: "The mass of a quadriceps femoris." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of quadriceps femoris" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0001377
+is_obsolete: true
+replaced_by: OBA:0005027
 
 [Term]
 id: OBA:1001038
-name: urinary bladder mass
-def: "The mass of a urinary bladder." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of urinary bladder" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0001255
+is_obsolete: true
+replaced_by: OBA:0005562
 
 [Term]
 id: OBA:1001039
-name: liver mass
-def: "The mass of a liver." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of liver" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0002107
+is_obsolete: true
+replaced_by: OBA:VT0003402
 
 [Term]
 id: OBA:1001040
-name: thymus mass
-def: "The mass of a thymus." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of thymus" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0002370
+is_obsolete: true
+replaced_by: OBA:VT0004954
 
 [Term]
 id: OBA:1001041
-name: left cardiac atrium mass
-def: "The mass of a left cardiac atrium." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of left cardiac atrium" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0002079
+is_obsolete: true
+replaced_by: OBA:VT0007026
 
 [Term]
 id: OBA:1001042
-name: tongue mass
-def: "The mass of a tongue." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of tongue" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0001723
+is_obsolete: true
+replaced_by: OBA:0004724
 
 [Term]
 id: OBA:1001043
-name: fallopian tube mass
-def: "The mass of a fallopian tube." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of fallopian tube" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0003889
+is_obsolete: true
+replaced_by: OBA:0004598
 
 [Term]
 id: OBA:1001044
-name: heart left ventricle mass
-def: "The mass of a heart left ventricle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "mass of heart left ventricle" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000125
-intersection_of: inheres_in UBERON:0002084
+is_obsolete: true
+replaced_by: OBA:VT0007031
 
 [Term]
 id: OBA:1001045
@@ -42063,11 +41920,11 @@ intersection_of: inheres_in UBERON:0005728
 
 [Term]
 id: OBA:1001065
-name: obsolete cell morphology
-def: "The morphology of a obsolete cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of obsolete cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cell morphology
+def: "The morphology of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000051
-intersection_of: inheres_in GO:0005623
+intersection_of: inheres_in CL:0000000
 
 [Term]
 id: OBA:1001066
@@ -46219,9 +46076,9 @@ intersection_of: inheres_in UBERON:0000468
 [Term]
 id: OBA:VT0001259
 name: body mass
-def: "The weight of a multicellular organism." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of multicellular organism" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a multicellular organism." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of multicellular organism" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0000468
 
 [Term]
@@ -47387,9 +47244,9 @@ intersection_of: inheres_in UBERON:0002530
 [Term]
 id: OBA:VT0002176
 name: brain mass
-def: "The weight of a brain." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of brain" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a brain." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of brain" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0000955
 
 [Term]
@@ -47403,8 +47260,8 @@ intersection_of: inheres_in UBERON:0001757
 [Term]
 id: OBA:VT0002181
 name: brain cell morphology trait
-def: "The morphology of a obsolete cell when measured in brain." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "brain obsolete cell morphology" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The morphology of a cell when measured in brain." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "brain cell morphology" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 
 [Term]
 id: OBA:VT0002182
@@ -48433,8 +48290,8 @@ intersection_of: inheres_in CL:0000235
 [Term]
 id: OBA:VT0002455
 name: dendritic cell antigen presentation trait
-def: "The dendritic of a antigen processing and presentation when measured in obsolete cell." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "obsolete cell antigen processing and presentation dendritic" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The dendritic of a antigen processing and presentation when measured in cell." [AUTO:patterns/patterns/process_attribute_location]
+synonym: "cell antigen processing and presentation dendritic" EXACT [AUTO:patterns/patterns/process_attribute_location]
 
 [Term]
 id: OBA:VT0002458
@@ -48839,9 +48696,9 @@ intersection_of: inheres_in UBERON:0002113
 [Term]
 id: OBA:VT0002707
 name: kidney mass
-def: "The weight of a kidney." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of kidney" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a kidney." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of kidney" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0002113
 
 [Term]
@@ -49175,9 +49032,9 @@ intersection_of: inheres_in UBERON:0002444
 [Term]
 id: OBA:VT0002845
 name: aorta mass
-def: "The weight of a aorta." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of aorta" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a aorta." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of aorta" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0000947
 
 [Term]
@@ -50169,9 +50026,9 @@ intersection_of: inheres_in UBERON:0002533
 [Term]
 id: OBA:VT0003402
 name: liver mass
-def: "The weight of a liver." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of liver" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a liver." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of liver" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0002107
 
 [Term]
@@ -52363,9 +52220,9 @@ intersection_of: inheres_in UBERON:0002450
 [Term]
 id: OBA:VT0004257
 name: placenta mass
-def: "The weight of a placenta." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of placenta" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a placenta." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of placenta" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001987
 
 [Term]
@@ -52426,8 +52283,8 @@ intersection_of: inheres_in UBERON:0003072
 
 [Term]
 id: OBA:VT0004271
-name: obsolete paw/hand/foot/hoof morphology trait
-replaced_by: http://purl.obolibrary.org/obo/OBA_OBA_VT0000572
+is_obsolete: true
+replaced_by: OBA:VT0000572
 
 [Term]
 id: OBA:VT0004272
@@ -53230,17 +53087,17 @@ intersection_of: inheres_in CL:0000815
 [Term]
 id: OBA:VT0004951
 name: spleen mass
-def: "The weight of a spleen." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of spleen" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a spleen." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of spleen" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0002106
 
 [Term]
 id: OBA:VT0004954
 name: thymus mass
-def: "The weight of a thymus." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of thymus" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a thymus." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of thymus" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0002370
 
 [Term]
@@ -54614,9 +54471,9 @@ intersection_of: inheres_in UBERON:0002360
 [Term]
 id: OBA:VT0005629
 name: lung mass
-def: "The weight of a lung." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of lung" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a lung." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of lung" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0002048
 
 [Term]
@@ -55360,25 +55217,25 @@ intersection_of: inheres_in CL:0000746
 [Term]
 id: OBA:VT0007026
 name: left atrium mass
-def: "The weight of a left cardiac atrium." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of left cardiac atrium" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a left cardiac atrium." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of left cardiac atrium" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0002079
 
 [Term]
 id: OBA:VT0007027
 name: right atrium mass
-def: "The weight of a right cardiac atrium." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of right cardiac atrium" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a right cardiac atrium." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of right cardiac atrium" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0002078
 
 [Term]
 id: OBA:VT0007028
 name: heart mass
-def: "The weight of a heart." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of heart" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a heart." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of heart" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0000948
 
 [Term]
@@ -55392,9 +55249,9 @@ intersection_of: inheres_in UBERON:0002084
 [Term]
 id: OBA:VT0007031
 name: left ventricle mass
-def: "The weight of a heart left ventricle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of heart left ventricle" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a heart left ventricle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of heart left ventricle" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0002084
 
 [Term]
@@ -55408,9 +55265,9 @@ intersection_of: inheres_in UBERON:0002080
 [Term]
 id: OBA:VT0007033
 name: right ventricle mass
-def: "The weight of a heart right ventricle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of heart right ventricle" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a heart right ventricle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of heart right ventricle" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0002080
 
 [Term]
@@ -57680,9 +57537,9 @@ intersection_of: inheres_in UBERON:0007364
 [Term]
 id: OBA:VT0010242
 name: reticulo-rumen mass
-def: "The weight of a reticulorumen." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of reticulorumen" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a reticulorumen." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of reticulorumen" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0007364
 
 [Term]
@@ -59444,9 +59301,9 @@ intersection_of: inheres_in UBERON:0001911
 [Term]
 id: OBA:VT0100034
 name: mammary gland mass
-def: "The weight of a mammary gland." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of mammary gland" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a mammary gland." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of mammary gland" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001911
 
 [Term]
@@ -59492,9 +59349,9 @@ intersection_of: inheres_in UBERON:0013216
 [Term]
 id: OBA:VT1000111
 name: bone mass
-def: "The weight of a bone element." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of bone element" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a bone element." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of bone element" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001474
 
 [Term]
@@ -59532,17 +59389,17 @@ intersection_of: inheres_in UBERON:0001013
 [Term]
 id: OBA:VT1000146
 name: longissimus dorsi mass
-def: "The weight of a longissimus thoracis muscle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of longissimus thoracis muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a longissimus thoracis muscle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of longissimus thoracis muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001401
 
 [Term]
 id: OBA:VT1000149
 name: intercostal muscle mass
-def: "The weight of a intercostal muscle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of intercostal muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a intercostal muscle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of intercostal muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001111
 
 [Term]
@@ -59586,25 +59443,25 @@ intersection_of: inheres_in UBERON:0001300
 [Term]
 id: OBA:VT1000220
 name: abdominal adipose amount
-def: "The weight of a adipose tissue of abdominal region." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of adipose tissue of abdominal region" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a adipose tissue of abdominal region." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of adipose tissue of abdominal region" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0007808
 
 [Term]
 id: OBA:VT1000223
 name: pectoralis muscle mass
-def: "The weight of a pectoral muscle." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of pectoral muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a pectoral muscle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of pectoral muscle" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001495
 
 [Term]
 id: OBA:VT1000226
 name: gizzard mass
-def: "The weight of a gizzard." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of gizzard" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a gizzard." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of gizzard" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0005052
 
 [Term]
@@ -59688,17 +59545,17 @@ synonym: "muscle organ 5alpha-androst-16-en-3-one amount" EXACT [AUTO:patterns/p
 [Term]
 id: OBA:VT1000414
 name: diaphragm mass
-def: "The weight of a diaphragm." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of diaphragm" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a diaphragm." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of diaphragm" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001103
 
 [Term]
 id: OBA:VT1000420
 name: head mass
-def: "The weight of a head." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of head" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a head." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of head" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0000033
 
 [Term]
@@ -59712,9 +59569,9 @@ intersection_of: inheres_in UBERON:0002108
 [Term]
 id: OBA:VT1000425
 name: skin mass
-def: "The weight of a zone of skin." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of zone of skin" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a zone of skin." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of zone of skin" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0000014
 
 [Term]
@@ -59824,17 +59681,17 @@ intersection_of: inheres_in UBERON:0002247
 [Term]
 id: OBA:VT1000640
 name: uterine horn mass
-def: "The weight of a uterine horn." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of uterine horn" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a uterine horn." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of uterine horn" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0002247
 
 [Term]
 id: OBA:VT1000641
 name: ovary mass
-def: "The weight of a ovary." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of ovary" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a ovary." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of ovary" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0000992
 
 [Term]
@@ -59902,25 +59759,25 @@ intersection_of: inheres_in UBERON:0002470
 [Term]
 id: OBA:VT1000687
 name: forelimb mass
-def: "The weight of a forelimb." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of forelimb" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a forelimb." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of forelimb" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0002102
 
 [Term]
 id: OBA:VT1000688
 name: metatarsus mass
-def: "The weight of a metatarsal bone." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of metatarsal bone" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a metatarsal bone." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of metatarsal bone" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001448
 
 [Term]
 id: OBA:VT1000689
 name: hindlimb mass
-def: "The weight of a hindlimb." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of hindlimb" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a hindlimb." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of hindlimb" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0002103
 
 [Term]
@@ -59958,17 +59815,17 @@ intersection_of: inheres_in UBERON:0001401
 [Term]
 id: OBA:VT1000711
 name: abdominal fat pad mass
-def: "The weight of a abdominal fat pad." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of abdominal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a abdominal fat pad." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of abdominal fat pad" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0003427
 
 [Term]
 id: OBA:VT1000712
 name: skeletal muscle mass
-def: "The weight of a skeletal muscle tissue." [AUTO:patterns/patterns/entity_attribute]
-synonym: "weight of skeletal muscle tissue" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000128
+def: "The mass of a skeletal muscle tissue." [AUTO:patterns/patterns/entity_attribute]
+synonym: "mass of skeletal muscle tissue" EXACT [AUTO:patterns/patterns/entity_attribute]
+intersection_of: PATO:0000125
 intersection_of: inheres_in UBERON:0001134
 
 [Term]

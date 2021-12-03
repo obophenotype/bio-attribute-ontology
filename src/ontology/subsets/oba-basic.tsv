@@ -1,5 +1,5 @@
 ?x	?label
-<http://purl.obolibrary.org/obo/OBA_0000001>	
+<http://purl.obolibrary.org/obo/OBA_0000001>	"biological attribute"
 <http://purl.obolibrary.org/obo/OBA_0000003>	"ER calcium ion concentration"
 <http://purl.obolibrary.org/obo/OBA_0000005>	"Golgi calcium ion concentration"
 <http://purl.obolibrary.org/obo/OBA_0000006>	"Malpighian tubule diameter"
@@ -13,12 +13,12 @@
 <http://purl.obolibrary.org/obo/OBA_0000023>	"axon diameter"
 <http://purl.obolibrary.org/obo/OBA_0000032>	"blood vessel size"
 <http://purl.obolibrary.org/obo/OBA_0000036>	"body fluid levels"
-<http://purl.obolibrary.org/obo/OBA_0000037>	
-<http://purl.obolibrary.org/obo/OBA_0000039>	
+<http://purl.obolibrary.org/obo/OBA_0000037>	"obsolete brood size"
+<http://purl.obolibrary.org/obo/OBA_0000039>	"obsolete buoyancy"
 <http://purl.obolibrary.org/obo/OBA_0000040>	"calcium ion concentration"
 <http://purl.obolibrary.org/obo/OBA_0000046>	"cardiac muscle cell membrane potential"
 <http://purl.obolibrary.org/obo/OBA_0000048>	"cell diameter"
-<http://purl.obolibrary.org/obo/OBA_0000050>	"cell pH"
+<http://purl.obolibrary.org/obo/OBA_0000050>	
 <http://purl.obolibrary.org/obo/OBA_0000051>	"cell projection size"
 <http://purl.obolibrary.org/obo/OBA_0000052>	"cell shape"
 <http://purl.obolibrary.org/obo/OBA_0000055>	"cell size"
@@ -30,14 +30,14 @@
 <http://purl.obolibrary.org/obo/OBA_0000066>	"direction of cell growth"
 <http://purl.obolibrary.org/obo/OBA_0000067>	"embryonic cell shape"
 <http://purl.obolibrary.org/obo/OBA_0000068>	"endosome size"
-<http://purl.obolibrary.org/obo/OBA_0000069>	
+<http://purl.obolibrary.org/obo/OBA_0000069>	"excitatory post-synaptic membrane potential"
 <http://purl.obolibrary.org/obo/OBA_0000072>	"follicle cell microvillus length"
-<http://purl.obolibrary.org/obo/OBA_0000074>	"obsolete heart contraction rate"
+<http://purl.obolibrary.org/obo/OBA_0000074>	
 <http://purl.obolibrary.org/obo/OBA_0000079>	"hormone levels"
 <http://purl.obolibrary.org/obo/OBA_0000084>	"imaginal disc-derived wing size"
-<http://purl.obolibrary.org/obo/OBA_0000085>	
+<http://purl.obolibrary.org/obo/OBA_0000085>	"inhibitory post-synaptic membrane potential"
 <http://purl.obolibrary.org/obo/OBA_0000088>	"liquid surface tension"
-<http://purl.obolibrary.org/obo/OBA_0000089>	
+<http://purl.obolibrary.org/obo/OBA_0000089>	"long-term neuronal synaptic plasticity"
 <http://purl.obolibrary.org/obo/OBA_0000090>	"lung blood pressure"
 <http://purl.obolibrary.org/obo/OBA_0000091>	"lysosomal lumen pH"
 <http://purl.obolibrary.org/obo/OBA_0000092>	"lysosomal membrane permeability"
@@ -60,7 +60,7 @@
 <http://purl.obolibrary.org/obo/OBA_0000117>	"nuclear size"
 <http://purl.obolibrary.org/obo/OBA_0000119>	"nucleosome density"
 <http://purl.obolibrary.org/obo/OBA_0000120>	"osmotic pressure"
-<http://purl.obolibrary.org/obo/OBA_0000121>	
+<http://purl.obolibrary.org/obo/OBA_0000121>	"obsolete pH"
 <http://purl.obolibrary.org/obo/OBA_0000122>	"peroxisome size"
 <http://purl.obolibrary.org/obo/OBA_0000123>	"plasma membrane sterol distribution"
 <http://purl.obolibrary.org/obo/OBA_0000124>	"post-lysosomal vacuole size"
@@ -69,12 +69,12 @@
 <http://purl.obolibrary.org/obo/OBA_0000127>	"pronephric kidney size"
 <http://purl.obolibrary.org/obo/OBA_0000128>	"protein stability"
 <http://purl.obolibrary.org/obo/OBA_0000129>	"rRNA stability"
-<http://purl.obolibrary.org/obo/OBA_0000134>	
-<http://purl.obolibrary.org/obo/OBA_0000136>	
+<http://purl.obolibrary.org/obo/OBA_0000134>	"resting membrane potential"
+<http://purl.obolibrary.org/obo/OBA_0000136>	"short-term neuronal synaptic plasticity"
 <http://purl.obolibrary.org/obo/OBA_0000138>	"spindle density"
 <http://purl.obolibrary.org/obo/OBA_0000139>	"synapse structure and activity"
-<http://purl.obolibrary.org/obo/OBA_0000140>	
-<http://purl.obolibrary.org/obo/OBA_0000141>	
+<http://purl.obolibrary.org/obo/OBA_0000140>	"synaptic metaplasticity"
+<http://purl.obolibrary.org/obo/OBA_0000141>	"synaptic plasticity"
 <http://purl.obolibrary.org/obo/OBA_0000143>	"systemic arterial blood pressure"
 <http://purl.obolibrary.org/obo/OBA_0000160>	"thalamus size"
 <http://purl.obolibrary.org/obo/OBA_0000161>	"force of heart contraction"
@@ -87,10 +87,10 @@
 <http://purl.obolibrary.org/obo/OBA_0000172>	"tube size"
 <http://purl.obolibrary.org/obo/OBA_0000173>	"urinary volume"
 <http://purl.obolibrary.org/obo/OBA_0000174>	"vascular permeability"
-<http://purl.obolibrary.org/obo/OBA_0000181>	
+<http://purl.obolibrary.org/obo/OBA_0000181>	"viral protein levels"
 <http://purl.obolibrary.org/obo/OBA_0000182>	"nutrient level"
 <http://purl.obolibrary.org/obo/OBA_0000183>	"blood vessel diameter"
-<http://purl.obolibrary.org/obo/OBA_0001001>	
+<http://purl.obolibrary.org/obo/OBA_0001001>	"macromolecular stability"
 <http://purl.obolibrary.org/obo/OBA_0002000>	"kidney structure"
 <http://purl.obolibrary.org/obo/OBA_0002001>	"lower urinary tract size"
 <http://purl.obolibrary.org/obo/OBA_0002002>	"testis displaced"
@@ -545,7 +545,7 @@
 <http://purl.obolibrary.org/obo/OBA_0002452>	"middle phalanx of pes length"
 <http://purl.obolibrary.org/obo/OBA_0002453>	"iliac crest mass density"
 <http://purl.obolibrary.org/obo/OBA_0002454>	"musculature of limb size"
-<http://purl.obolibrary.org/obo/OBA_0002455>	"obsolete death onset quality"
+<http://purl.obolibrary.org/obo/OBA_0002455>	"death stage onset quality"
 <http://purl.obolibrary.org/obo/OBA_0002456>	"shoulder displaced"
 <http://purl.obolibrary.org/obo/OBA_0002457>	"humerus concavity"
 <http://purl.obolibrary.org/obo/OBA_0002458>	"humerus wholeness"
@@ -1284,7 +1284,7 @@
 <http://purl.obolibrary.org/obo/OBA_0003191>	"erythrocyte differentiation functionality"
 <http://purl.obolibrary.org/obo/OBA_0003192>	"cerebral subcortex morphology"
 <http://purl.obolibrary.org/obo/OBA_0003193>	"optic tract amount"
-<http://purl.obolibrary.org/obo/OBA_0003194>	"obsolete cell functionality"
+<http://purl.obolibrary.org/obo/OBA_0003194>	"cell functionality"
 <http://purl.obolibrary.org/obo/OBA_0003195>	"fructose metabolic process rate"
 <http://purl.obolibrary.org/obo/OBA_0003196>	"secondary dentition amount"
 <http://purl.obolibrary.org/obo/OBA_0003197>	"upper central secondary incisor tooth amount"
@@ -1835,7 +1835,7 @@
 <http://purl.obolibrary.org/obo/OBA_0003743>	"Sertoli cell size"
 <http://purl.obolibrary.org/obo/OBA_0003744>	"regulation of water loss via skin rate"
 <http://purl.obolibrary.org/obo/OBA_0003745>	"skeletal muscle contraction rate"
-<http://purl.obolibrary.org/obo/OBA_0003746>	"aorta mass"
+<http://purl.obolibrary.org/obo/OBA_0003746>	
 <http://purl.obolibrary.org/obo/OBA_0003747>	"glomerular filtration rate"
 <http://purl.obolibrary.org/obo/OBA_0003748>	"cochlear ganglion degeneration"
 <http://purl.obolibrary.org/obo/OBA_0003749>	"melanocyte morphology"
@@ -1902,7 +1902,7 @@
 <http://purl.obolibrary.org/obo/OBA_0003810>	"body wall position"
 <http://purl.obolibrary.org/obo/OBA_0003811>	"pericardium structure"
 <http://purl.obolibrary.org/obo/OBA_0003812>	"subclavian artery morphology"
-<http://purl.obolibrary.org/obo/OBA_0003813>	"muscle organ weight"
+<http://purl.obolibrary.org/obo/OBA_0003813>	
 <http://purl.obolibrary.org/obo/OBA_0003814>	"placenta labyrinth amount"
 <http://purl.obolibrary.org/obo/OBA_0003815>	"zygote asymmetric cell division amount"
 <http://purl.obolibrary.org/obo/OBA_0003816>	"hair follicle degeneration"
@@ -1947,7 +1947,7 @@
 <http://purl.obolibrary.org/obo/OBA_0003855>	"zona pellucida amount"
 <http://purl.obolibrary.org/obo/OBA_0003856>	"chromosome morphology"
 <http://purl.obolibrary.org/obo/OBA_0003857>	"nucleus amount"
-<http://purl.obolibrary.org/obo/OBA_0003858>	"obsolete cell nucleate quality"
+<http://purl.obolibrary.org/obo/OBA_0003858>	"cell nucleate quality"
 <http://purl.obolibrary.org/obo/OBA_0003859>	"blood vessel remodeling deviation (from_normal)"
 <http://purl.obolibrary.org/obo/OBA_0003860>	"external ear spatial pattern"
 <http://purl.obolibrary.org/obo/OBA_0003861>	"pericyte cell morphology"
@@ -1986,9 +1986,9 @@
 <http://purl.obolibrary.org/obo/OBA_0003895>	"blood vessel endothelial cell functionality"
 <http://purl.obolibrary.org/obo/OBA_0003896>	"ductus venosus closure"
 <http://purl.obolibrary.org/obo/OBA_0003897>	"intestine smooth muscle contraction rate"
-<http://purl.obolibrary.org/obo/OBA_0003898>	"bone element mass"
+<http://purl.obolibrary.org/obo/OBA_0003898>	
 <http://purl.obolibrary.org/obo/OBA_0003899>	"chromosome amount"
-<http://purl.obolibrary.org/obo/OBA_0003900>	"obsolete cell ploidy"
+<http://purl.obolibrary.org/obo/OBA_0003900>	"cell ploidy"
 <http://purl.obolibrary.org/obo/OBA_0003901>	"interventricular groove deviation (from_normal)"
 <http://purl.obolibrary.org/obo/OBA_0003902>	"relaxation of muscle amount"
 <http://purl.obolibrary.org/obo/OBA_0003903>	"aorta shape"
@@ -2030,7 +2030,7 @@
 <http://purl.obolibrary.org/obo/OBA_0003940>	"spongiotrophoblast layer morphology"
 <http://purl.obolibrary.org/obo/OBA_0003941>	"multicellular organism strength"
 <http://purl.obolibrary.org/obo/OBA_0003942>	"placenta color saturation"
-<http://purl.obolibrary.org/obo/OBA_0003943>	"basement membrane morphology"
+<http://purl.obolibrary.org/obo/OBA_0003943>	
 <http://purl.obolibrary.org/obo/OBA_0003944>	"lateral ventricle subependymal layer morphology"
 <http://purl.obolibrary.org/obo/OBA_0003945>	"Descemet's membrane amount"
 <http://purl.obolibrary.org/obo/OBA_0003946>	"vestibular ganglion degeneration"
@@ -2160,20 +2160,20 @@
 <http://purl.obolibrary.org/obo/OBA_0004071>	"hematopoietic stem cell amount"
 <http://purl.obolibrary.org/obo/OBA_0004072>	"neuron functionality"
 <http://purl.obolibrary.org/obo/OBA_0004073>	"somatic hypermutation of immunoglobulin genes frequency"
-<http://purl.obolibrary.org/obo/OBA_0004074>	"skeletal muscle tissue mass"
+<http://purl.obolibrary.org/obo/OBA_0004074>	
 <http://purl.obolibrary.org/obo/OBA_0004075>	"incisor tooth length"
 <http://purl.obolibrary.org/obo/OBA_0004076>	"crypt of Lieberkuhn of small intestine morphology"
 <http://purl.obolibrary.org/obo/OBA_0004077>	"crypt of Lieberkuhn of large intestine morphology"
 <http://purl.obolibrary.org/obo/OBA_0004078>	"paneth cell morphology"
-<http://purl.obolibrary.org/obo/OBA_0004079>	"testis weight"
+<http://purl.obolibrary.org/obo/OBA_0004079>	
 <http://purl.obolibrary.org/obo/OBA_0004080>	"collecting duct of renal tubule size"
 <http://purl.obolibrary.org/obo/OBA_0004081>	"spiral ligament degeneration"
 <http://purl.obolibrary.org/obo/OBA_0004082>	"nasal septum amount"
 <http://purl.obolibrary.org/obo/OBA_0004083>	"endometrium morphology"
 <http://purl.obolibrary.org/obo/OBA_0004084>	"zygomatic arch amount"
 <http://purl.obolibrary.org/obo/OBA_0004085>	"male germ cell size"
-<http://purl.obolibrary.org/obo/OBA_0004086>	"uterus weight"
-<http://purl.obolibrary.org/obo/OBA_0004087>	"seminal vesicle weight"
+<http://purl.obolibrary.org/obo/OBA_0004086>	
+<http://purl.obolibrary.org/obo/OBA_0004087>	
 <http://purl.obolibrary.org/obo/OBA_0004088>	"mandible condylar process amount"
 <http://purl.obolibrary.org/obo/OBA_0004089>	"mandible coronoid process amount"
 <http://purl.obolibrary.org/obo/OBA_0004090>	"mandible angular process amount"
@@ -2181,13 +2181,13 @@
 <http://purl.obolibrary.org/obo/OBA_0004092>	"Reichert's cartilage amount"
 <http://purl.obolibrary.org/obo/OBA_0004093>	"crus commune morphology"
 <http://purl.obolibrary.org/obo/OBA_0004094>	"epididymis size"
-<http://purl.obolibrary.org/obo/OBA_0004095>	"epididymis weight"
+<http://purl.obolibrary.org/obo/OBA_0004095>	
 <http://purl.obolibrary.org/obo/OBA_0004096>	"epididymis epithelium morphology"
 <http://purl.obolibrary.org/obo/OBA_0004097>	"epididymis epithelium degeneration"
 <http://purl.obolibrary.org/obo/OBA_0004098>	"epididymis degeneration"
 <http://purl.obolibrary.org/obo/OBA_0004099>	"branching involved in ureteric bud morphogenesis functionality"
 <http://purl.obolibrary.org/obo/OBA_0004100>	"blastocyst development morphology"
-<http://purl.obolibrary.org/obo/OBA_0004101>	"prostate gland weight"
+<http://purl.obolibrary.org/obo/OBA_0004101>	
 <http://purl.obolibrary.org/obo/OBA_0004102>	"blastocele morphology"
 <http://purl.obolibrary.org/obo/OBA_0004103>	"inner cell mass amount"
 <http://purl.obolibrary.org/obo/OBA_0004104>	"inner cell mass degeneration"
@@ -2373,7 +2373,7 @@
 <http://purl.obolibrary.org/obo/OBA_0004285>	"serous gland morphology"
 <http://purl.obolibrary.org/obo/OBA_0004286>	"decidual natural killer cell, human morphology"
 <http://purl.obolibrary.org/obo/OBA_0004287>	"retinal ganglion cell morphology"
-<http://purl.obolibrary.org/obo/OBA_0004288>	"obsolete podocyte foot process morphology"
+<http://purl.obolibrary.org/obo/OBA_0004288>	"http://purl.obolibrary.org/obo/GO_0098846 morphology"
 <http://purl.obolibrary.org/obo/OBA_0004289>	"podocyte slit diaphragm morphology"
 <http://purl.obolibrary.org/obo/OBA_0004290>	"podocyte slit diaphragm amount"
 <http://purl.obolibrary.org/obo/OBA_0004291>	"podocyte slit junction morphology"
@@ -2397,7 +2397,7 @@
 <http://purl.obolibrary.org/obo/OBA_0004309>	"pars intermedia of adenohypophysis morphology"
 <http://purl.obolibrary.org/obo/OBA_0004310>	"Peyer's patch amount"
 <http://purl.obolibrary.org/obo/OBA_0004311>	"glomerular visceral epithelial cell amount"
-<http://purl.obolibrary.org/obo/OBA_0004312>	"obsolete podocyte foot process amount"
+<http://purl.obolibrary.org/obo/OBA_0004312>	"http://purl.obolibrary.org/obo/GO_0098846 amount"
 <http://purl.obolibrary.org/obo/OBA_0004313>	"B-1a B cell amount"
 <http://purl.obolibrary.org/obo/OBA_0004314>	"B-1b B cell amount"
 <http://purl.obolibrary.org/obo/OBA_0004315>	"follicular B cell amount"
@@ -2613,7 +2613,7 @@
 <http://purl.obolibrary.org/obo/OBA_0004525>	"intraepithelial lymphocyte amount"
 <http://purl.obolibrary.org/obo/OBA_0004526>	"acrosomal vesicle morphology"
 <http://purl.obolibrary.org/obo/OBA_0004527>	"epididymal fat pad amount"
-<http://purl.obolibrary.org/obo/OBA_0004528>	"fat pad weight"
+<http://purl.obolibrary.org/obo/OBA_0004528>	"fat pad mass"
 <http://purl.obolibrary.org/obo/OBA_0004529>	"autopod region spatial pattern"
 <http://purl.obolibrary.org/obo/OBA_0004530>	"carpal bone structure"
 <http://purl.obolibrary.org/obo/OBA_0004531>	"astrocyte functionality"
@@ -2628,7 +2628,7 @@
 <http://purl.obolibrary.org/obo/OBA_0004540>	"paraventricular nucleus of thalamus morphology"
 <http://purl.obolibrary.org/obo/OBA_0004541>	"embryonic tissue functionality"
 <http://purl.obolibrary.org/obo/OBA_0004542>	"choroid plexus amount"
-<http://purl.obolibrary.org/obo/OBA_0004543>	"pituitary gland weight"
+<http://purl.obolibrary.org/obo/OBA_0004543>	
 <http://purl.obolibrary.org/obo/OBA_0004544>	"type D enteroendocrine cell functionality"
 <http://purl.obolibrary.org/obo/OBA_0004545>	"placenta junctional zone structure"
 <http://purl.obolibrary.org/obo/OBA_0004546>	"glycogen accumulating cell morphology"
@@ -2637,7 +2637,7 @@
 <http://purl.obolibrary.org/obo/OBA_0004549>	"nasolacrimal duct morphology"
 <http://purl.obolibrary.org/obo/OBA_0004550>	"nasal concha of ethmoid bone structure"
 <http://purl.obolibrary.org/obo/OBA_0004551>	"nasal concha of ethmoid bone size"
-<http://purl.obolibrary.org/obo/OBA_0004552>	"vagina weight"
+<http://purl.obolibrary.org/obo/OBA_0004552>	"vagina mass"
 <http://purl.obolibrary.org/obo/OBA_0004553>	"liver parenchyma morphology"
 <http://purl.obolibrary.org/obo/OBA_0004554>	"liver lobule morphology"
 <http://purl.obolibrary.org/obo/OBA_0004555>	"liver perisinusoidal space morphology"
@@ -2682,7 +2682,7 @@
 <http://purl.obolibrary.org/obo/OBA_0004595>	"anal canal morphology"
 <http://purl.obolibrary.org/obo/OBA_0004596>	"internal anal sphincter morphology"
 <http://purl.obolibrary.org/obo/OBA_0004597>	"interleukin-21 production rate"
-<http://purl.obolibrary.org/obo/OBA_0004598>	"fallopian tube weight"
+<http://purl.obolibrary.org/obo/OBA_0004598>	"fallopian tube mass"
 <http://purl.obolibrary.org/obo/OBA_0004599>	"upper part of vagina amount"
 <http://purl.obolibrary.org/obo/OBA_0004600>	"mesonephric duct amount"
 <http://purl.obolibrary.org/obo/OBA_0004601>	"mesonephric duct degeneration"
@@ -2698,7 +2698,7 @@
 <http://purl.obolibrary.org/obo/OBA_0004611>	"os penis morphology"
 <http://purl.obolibrary.org/obo/OBA_0004612>	"os penis size"
 <http://purl.obolibrary.org/obo/OBA_0004613>	"penis position"
-<http://purl.obolibrary.org/obo/OBA_0004614>	"pancreas weight"
+<http://purl.obolibrary.org/obo/OBA_0004614>	
 <http://purl.obolibrary.org/obo/OBA_0004615>	"type B pancreatic cell mass"
 <http://purl.obolibrary.org/obo/OBA_0004616>	"brown fat cell size"
 <http://purl.obolibrary.org/obo/OBA_0004617>	"brown fat cell amount"
@@ -2764,11 +2764,11 @@
 <http://purl.obolibrary.org/obo/OBA_0004677>	"cerebellum fissure amount"
 <http://purl.obolibrary.org/obo/OBA_0004678>	"strand of guard hair length"
 <http://purl.obolibrary.org/obo/OBA_0004679>	"bone marrow cell functionality"
-<http://purl.obolibrary.org/obo/OBA_0004680>	"gonadal fat pad weight"
-<http://purl.obolibrary.org/obo/OBA_0004681>	"epididymal fat pad weight"
-<http://purl.obolibrary.org/obo/OBA_0004682>	"inguinal fat pad weight"
-<http://purl.obolibrary.org/obo/OBA_0004683>	"parametrial fat pad weight"
-<http://purl.obolibrary.org/obo/OBA_0004684>	"retroperitoneal fat pad weight"
+<http://purl.obolibrary.org/obo/OBA_0004680>	
+<http://purl.obolibrary.org/obo/OBA_0004681>	
+<http://purl.obolibrary.org/obo/OBA_0004682>	
+<http://purl.obolibrary.org/obo/OBA_0004683>	
+<http://purl.obolibrary.org/obo/OBA_0004684>	
 <http://purl.obolibrary.org/obo/OBA_0004685>	"hippocampus fimbria amount"
 <http://purl.obolibrary.org/obo/OBA_0004686>	"heart looping onset quality"
 <http://purl.obolibrary.org/obo/OBA_0004687>	"primitive pit morphology"
@@ -2804,20 +2804,20 @@
 <http://purl.obolibrary.org/obo/OBA_0004717>	"skeletal muscle tissue degeneration"
 <http://purl.obolibrary.org/obo/OBA_0004718>	"myocardium degeneration"
 <http://purl.obolibrary.org/obo/OBA_0004719>	"cardiac muscle tissue size"
-<http://purl.obolibrary.org/obo/OBA_0004720>	"gastrocnemius weight"
-<http://purl.obolibrary.org/obo/OBA_0004721>	"extensor digitorum longus weight"
-<http://purl.obolibrary.org/obo/OBA_0004722>	"soleus muscle weight"
-<http://purl.obolibrary.org/obo/OBA_0004723>	"tibialis anterior weight"
-<http://purl.obolibrary.org/obo/OBA_0004724>	"tongue weight"
-<http://purl.obolibrary.org/obo/OBA_0004725>	"embryo weight"
-<http://purl.obolibrary.org/obo/OBA_0004726>	"late embryo weight"
+<http://purl.obolibrary.org/obo/OBA_0004720>	"gastrocnemius mass"
+<http://purl.obolibrary.org/obo/OBA_0004721>	"extensor digitorum longus mass"
+<http://purl.obolibrary.org/obo/OBA_0004722>	"soleus muscle mass"
+<http://purl.obolibrary.org/obo/OBA_0004723>	"tibialis anterior mass"
+<http://purl.obolibrary.org/obo/OBA_0004724>	"tongue mass"
+<http://purl.obolibrary.org/obo/OBA_0004725>	"embryo mass"
+<http://purl.obolibrary.org/obo/OBA_0004726>	"late embryo mass"
 <http://purl.obolibrary.org/obo/OBA_0004727>	"hindlimb strength"
 <http://purl.obolibrary.org/obo/OBA_0004728>	"platelet dense granule functionality"
 <http://purl.obolibrary.org/obo/OBA_0004729>	"pituitary stalk morphology"
 <http://purl.obolibrary.org/obo/OBA_0004730>	"infundibulum of gallbladder morphology"
 <http://purl.obolibrary.org/obo/OBA_0004731>	"uterine tube infundibulum morphology"
-<http://purl.obolibrary.org/obo/OBA_0004732>	"obsolete magnocellular neurosecretory cell morphology"
-<http://purl.obolibrary.org/obo/OBA_0004733>	"obsolete magnocellular neurosecretory cell altered number of"
+<http://purl.obolibrary.org/obo/OBA_0004732>	"http://purl.obolibrary.org/obo/CL_0011003 morphology"
+<http://purl.obolibrary.org/obo/OBA_0004733>	"http://purl.obolibrary.org/obo/CL_0011003 altered number of"
 <http://purl.obolibrary.org/obo/OBA_0004734>	"caecum size"
 <http://purl.obolibrary.org/obo/OBA_0004735>	"caecum coiling"
 <http://purl.obolibrary.org/obo/OBA_0004736>	"caecum structure"
@@ -3065,7 +3065,7 @@
 <http://purl.obolibrary.org/obo/OBA_0004978>	"hepatic oval stem cell functionality"
 <http://purl.obolibrary.org/obo/OBA_0004979>	"frontonasal suture morphology"
 <http://purl.obolibrary.org/obo/OBA_0004980>	"omental fat pad morphology"
-<http://purl.obolibrary.org/obo/OBA_0004981>	"omental fat pad weight"
+<http://purl.obolibrary.org/obo/OBA_0004981>	"omental fat pad mass"
 <http://purl.obolibrary.org/obo/OBA_0004982>	"axon convex 3-D shape"
 <http://purl.obolibrary.org/obo/OBA_0004983>	"sensory neuron functionality"
 <http://purl.obolibrary.org/obo/OBA_0004984>	"skeletal muscle tissue displaced"
@@ -3111,7 +3111,7 @@
 <http://purl.obolibrary.org/obo/OBA_0005024>	"T-helper 17 cell morphology"
 <http://purl.obolibrary.org/obo/OBA_0005025>	"T-helper 17 cell amount"
 <http://purl.obolibrary.org/obo/OBA_0005026>	"T-helper 17 cell functionality"
-<http://purl.obolibrary.org/obo/OBA_0005027>	"quadriceps femoris weight"
+<http://purl.obolibrary.org/obo/OBA_0005027>	"quadriceps femoris mass"
 <http://purl.obolibrary.org/obo/OBA_0005028>	"T3 B cell amount"
 <http://purl.obolibrary.org/obo/OBA_0005029>	"post-anal tail pilosity"
 <http://purl.obolibrary.org/obo/OBA_0005030>	"vibrissa follicle morphology"
@@ -3645,7 +3645,7 @@
 <http://purl.obolibrary.org/obo/OBA_0005559>	"paraurethral gland morphology"
 <http://purl.obolibrary.org/obo/OBA_0005560>	"male urethral gland morphology"
 <http://purl.obolibrary.org/obo/OBA_0005561>	"urethral meatus morphology"
-<http://purl.obolibrary.org/obo/OBA_0005562>	"urinary bladder weight"
+<http://purl.obolibrary.org/obo/OBA_0005562>	"urinary bladder mass"
 <http://purl.obolibrary.org/obo/OBA_0005563>	"cell migration rate"
 <http://purl.obolibrary.org/obo/OBA_0005564>	"cranium length"
 <http://purl.obolibrary.org/obo/OBA_0005565>	"Fraction A pre-pro B cell morphology"
@@ -3790,7 +3790,7 @@
 <http://purl.obolibrary.org/obo/OBA_0005704>	"5-aminolevulinate synthase activity rate"
 <http://purl.obolibrary.org/obo/OBA_0005705>	"brain ventricle structure"
 <http://purl.obolibrary.org/obo/OBA_0005706>	"pleural cavity morphology"
-<http://purl.obolibrary.org/obo/OBA_0005707>	"adrenal gland weight"
+<http://purl.obolibrary.org/obo/OBA_0005707>	
 <http://purl.obolibrary.org/obo/OBA_0005708>	"hemangioblast morphology"
 <http://purl.obolibrary.org/obo/OBA_0005709>	"hemangioblast amount"
 <http://purl.obolibrary.org/obo/OBA_0005710>	"neck morphology"
@@ -3850,13 +3850,13 @@
 <http://purl.obolibrary.org/obo/OBA_0005764>	"head mesenchyme amount"
 <http://purl.obolibrary.org/obo/OBA_0005765>	"head mesenchyme size"
 <http://purl.obolibrary.org/obo/OBA_0005766>	"cilium morphology"
-<http://purl.obolibrary.org/obo/OBA_0005767>	"cilium morphology"
+<http://purl.obolibrary.org/obo/OBA_0005767>	
 <http://purl.obolibrary.org/obo/OBA_0005768>	"non-motile cilium morphology"
 <http://purl.obolibrary.org/obo/OBA_0005769>	"motile cilium morphology"
 <http://purl.obolibrary.org/obo/OBA_0005770>	"endoderm amount"
 <http://purl.obolibrary.org/obo/OBA_0005771>	"cilium functionality"
 <http://purl.obolibrary.org/obo/OBA_0005772>	"motile cilium functionality"
-<http://purl.obolibrary.org/obo/OBA_0005773>	"cilium functionality"
+<http://purl.obolibrary.org/obo/OBA_0005773>	
 <http://purl.obolibrary.org/obo/OBA_0005774>	"non-motile cilium functionality"
 <http://purl.obolibrary.org/obo/OBA_0005775>	"ectoderm amount"
 <http://purl.obolibrary.org/obo/OBA_0005776>	"substantia nigra pars reticulata morphology"
@@ -4377,7 +4377,7 @@
 <http://purl.obolibrary.org/obo/OBA_1000239>	"strand of pubic hair quality"
 <http://purl.obolibrary.org/obo/OBA_1000240>	"proximal phalanx of pedal digit 5 quality"
 <http://purl.obolibrary.org/obo/OBA_1000241>	"anterior chamber of eyeball quality"
-<http://purl.obolibrary.org/obo/OBA_1000242>	"obsolete respiratory system quality"
+<http://purl.obolibrary.org/obo/OBA_1000242>	
 <http://purl.obolibrary.org/obo/OBA_1000243>	"myeloid leukocyte quality"
 <http://purl.obolibrary.org/obo/OBA_1000244>	"tonsil quality"
 <http://purl.obolibrary.org/obo/OBA_1000245>	"facial nerve quality"
@@ -4576,7 +4576,7 @@
 <http://purl.obolibrary.org/obo/OBA_1000438>	"intrahepatic bile duct quality"
 <http://purl.obolibrary.org/obo/OBA_1000439>	"Descemet's membrane quality"
 <http://purl.obolibrary.org/obo/OBA_1000440>	"interphalangeal joint of manus quality"
-<http://purl.obolibrary.org/obo/OBA_1000441>	"obsolete reproductive system quality"
+<http://purl.obolibrary.org/obo/OBA_1000441>	
 <http://purl.obolibrary.org/obo/OBA_1000442>	"cerebellar peduncle quality"
 <http://purl.obolibrary.org/obo/OBA_1000443>	"physical aggression behavior quality"
 <http://purl.obolibrary.org/obo/OBA_1000444>	"outflow part of left ventricle quality"
@@ -4719,7 +4719,7 @@
 <http://purl.obolibrary.org/obo/OBA_1000581>	"lacrimal drainage system quality"
 <http://purl.obolibrary.org/obo/OBA_1000582>	"carnitine metabolic process quality"
 <http://purl.obolibrary.org/obo/OBA_1000583>	"carboxylic acid metabolic process quality"
-<http://purl.obolibrary.org/obo/OBA_1000584>	"obsolete nervous system quality"
+<http://purl.obolibrary.org/obo/OBA_1000584>	
 <http://purl.obolibrary.org/obo/OBA_1000585>	"superoxide metabolic process quality"
 <http://purl.obolibrary.org/obo/OBA_1000586>	"cricoid cartilage quality"
 <http://purl.obolibrary.org/obo/OBA_1000587>	"renal collecting system quality"
@@ -4926,7 +4926,7 @@
 <http://purl.obolibrary.org/obo/OBA_1000788>	"cued conditioning behavior quality"
 <http://purl.obolibrary.org/obo/OBA_1000789>	"glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity quality"
 <http://purl.obolibrary.org/obo/OBA_1000790>	"sciatic nerve quality"
-<http://purl.obolibrary.org/obo/OBA_1000791>	"parental behavior quality"
+<http://purl.obolibrary.org/obo/OBA_1000791>	
 <http://purl.obolibrary.org/obo/OBA_1000792>	"vitelline vasculature quality"
 <http://purl.obolibrary.org/obo/OBA_1000793>	"pupillary light reflex quality"
 <http://purl.obolibrary.org/obo/OBA_1000794>	"penile erection quality"
@@ -4938,7 +4938,7 @@
 <http://purl.obolibrary.org/obo/OBA_1000800>	"thiopurine S-methyltransferase activity quality"
 <http://purl.obolibrary.org/obo/OBA_1000801>	"vallate papilla quality"
 <http://purl.obolibrary.org/obo/OBA_1000802>	"anterior semicircular canal quality"
-<http://purl.obolibrary.org/obo/OBA_1000803>	"grooming behavior quality"
+<http://purl.obolibrary.org/obo/OBA_1000803>	
 <http://purl.obolibrary.org/obo/OBA_1000804>	"spatial learning quality"
 <http://purl.obolibrary.org/obo/OBA_1000805>	"respiratory gaseous exchange by respiratory system quality"
 <http://purl.obolibrary.org/obo/OBA_1000806>	"myeloblast quality"
@@ -5005,10 +5005,10 @@
 <http://purl.obolibrary.org/obo/OBA_1000867>	"cortex of hair quality"
 <http://purl.obolibrary.org/obo/OBA_1000868>	"metestrus quality"
 <http://purl.obolibrary.org/obo/OBA_1000869>	"gait quality"
-<http://purl.obolibrary.org/obo/OBA_1000870>	"vocalization behavior quality"
+<http://purl.obolibrary.org/obo/OBA_1000870>	
 <http://purl.obolibrary.org/obo/OBA_1000871>	"postural reflex quality"
 <http://purl.obolibrary.org/obo/OBA_1000872>	"Leydig cell differentiation quality"
-<http://purl.obolibrary.org/obo/OBA_1000873>	"obsolete glial cell (sensu Vertebrata) quality"
+<http://purl.obolibrary.org/obo/OBA_1000873>	
 <http://purl.obolibrary.org/obo/OBA_1000874>	"passive avoidance learning behavior quality"
 <http://purl.obolibrary.org/obo/OBA_1000875>	"substantia propria of cornea development quality"
 <http://purl.obolibrary.org/obo/OBA_1000876>	"perilymph quality"
@@ -5151,35 +5151,35 @@
 <http://purl.obolibrary.org/obo/OBA_1001013>	"tumor necrosis factor alpha amount"
 <http://purl.obolibrary.org/obo/OBA_1001014>	"sphingomyelin amount"
 <http://purl.obolibrary.org/obo/OBA_1001015>	"folic acid amount"
-<http://purl.obolibrary.org/obo/OBA_1001016>	"protein amount"
+<http://purl.obolibrary.org/obo/OBA_1001016>	
 <http://purl.obolibrary.org/obo/OBA_1001017>	"lipoprotein amount"
-<http://purl.obolibrary.org/obo/OBA_1001018>	"multicellular organism mass"
-<http://purl.obolibrary.org/obo/OBA_1001019>	"vagina mass"
-<http://purl.obolibrary.org/obo/OBA_1001020>	"heart mass"
-<http://purl.obolibrary.org/obo/OBA_1001021>	"omental fat pad mass"
-<http://purl.obolibrary.org/obo/OBA_1001022>	"late embryo mass"
-<http://purl.obolibrary.org/obo/OBA_1001023>	"extensor digitorum longus mass"
-<http://purl.obolibrary.org/obo/OBA_1001024>	"lung mass"
-<http://purl.obolibrary.org/obo/OBA_1001025>	"kidney mass"
-<http://purl.obolibrary.org/obo/OBA_1001026>	"right cardiac atrium mass"
-<http://purl.obolibrary.org/obo/OBA_1001027>	"soleus muscle mass"
-<http://purl.obolibrary.org/obo/OBA_1001028>	"ovary mass"
-<http://purl.obolibrary.org/obo/OBA_1001029>	"brain mass"
-<http://purl.obolibrary.org/obo/OBA_1001030>	"fat pad mass"
-<http://purl.obolibrary.org/obo/OBA_1001031>	"placenta mass"
-<http://purl.obolibrary.org/obo/OBA_1001032>	"spleen mass"
-<http://purl.obolibrary.org/obo/OBA_1001033>	"embryo mass"
-<http://purl.obolibrary.org/obo/OBA_1001034>	"gastrocnemius mass"
-<http://purl.obolibrary.org/obo/OBA_1001035>	"heart right ventricle mass"
-<http://purl.obolibrary.org/obo/OBA_1001036>	"abdominal fat pad mass"
-<http://purl.obolibrary.org/obo/OBA_1001037>	"quadriceps femoris mass"
-<http://purl.obolibrary.org/obo/OBA_1001038>	"urinary bladder mass"
-<http://purl.obolibrary.org/obo/OBA_1001039>	"liver mass"
-<http://purl.obolibrary.org/obo/OBA_1001040>	"thymus mass"
-<http://purl.obolibrary.org/obo/OBA_1001041>	"left cardiac atrium mass"
-<http://purl.obolibrary.org/obo/OBA_1001042>	"tongue mass"
-<http://purl.obolibrary.org/obo/OBA_1001043>	"fallopian tube mass"
-<http://purl.obolibrary.org/obo/OBA_1001044>	"heart left ventricle mass"
+<http://purl.obolibrary.org/obo/OBA_1001018>	
+<http://purl.obolibrary.org/obo/OBA_1001019>	
+<http://purl.obolibrary.org/obo/OBA_1001020>	
+<http://purl.obolibrary.org/obo/OBA_1001021>	
+<http://purl.obolibrary.org/obo/OBA_1001022>	
+<http://purl.obolibrary.org/obo/OBA_1001023>	
+<http://purl.obolibrary.org/obo/OBA_1001024>	
+<http://purl.obolibrary.org/obo/OBA_1001025>	
+<http://purl.obolibrary.org/obo/OBA_1001026>	
+<http://purl.obolibrary.org/obo/OBA_1001027>	
+<http://purl.obolibrary.org/obo/OBA_1001028>	
+<http://purl.obolibrary.org/obo/OBA_1001029>	
+<http://purl.obolibrary.org/obo/OBA_1001030>	
+<http://purl.obolibrary.org/obo/OBA_1001031>	
+<http://purl.obolibrary.org/obo/OBA_1001032>	
+<http://purl.obolibrary.org/obo/OBA_1001033>	
+<http://purl.obolibrary.org/obo/OBA_1001034>	
+<http://purl.obolibrary.org/obo/OBA_1001035>	
+<http://purl.obolibrary.org/obo/OBA_1001036>	
+<http://purl.obolibrary.org/obo/OBA_1001037>	
+<http://purl.obolibrary.org/obo/OBA_1001038>	
+<http://purl.obolibrary.org/obo/OBA_1001039>	
+<http://purl.obolibrary.org/obo/OBA_1001040>	
+<http://purl.obolibrary.org/obo/OBA_1001041>	
+<http://purl.obolibrary.org/obo/OBA_1001042>	
+<http://purl.obolibrary.org/obo/OBA_1001043>	
+<http://purl.obolibrary.org/obo/OBA_1001044>	
 <http://purl.obolibrary.org/obo/OBA_1001045>	"mesentery morphology"
 <http://purl.obolibrary.org/obo/OBA_1001046>	"ocular adnexa morphology"
 <http://purl.obolibrary.org/obo/OBA_1001047>	"common tendinous ring morphology"
@@ -5200,7 +5200,7 @@
 <http://purl.obolibrary.org/obo/OBA_1001062>	"hemotrichorial placental membrane morphology"
 <http://purl.obolibrary.org/obo/OBA_1001063>	"platelet alpha granule morphology"
 <http://purl.obolibrary.org/obo/OBA_1001064>	"extraembryonic mesoderm morphology"
-<http://purl.obolibrary.org/obo/OBA_1001065>	"obsolete cell morphology"
+<http://purl.obolibrary.org/obo/OBA_1001065>	"cell morphology"
 <http://purl.obolibrary.org/obo/OBA_1001066>	"melanophage morphology"
 <http://purl.obolibrary.org/obo/OBA_1001067>	"costotransverse joint morphology"
 <http://purl.obolibrary.org/obo/OBA_1001069>	"symmetric synapse morphology"
@@ -6506,7 +6506,7 @@
 <http://purl.obolibrary.org/obo/OBA_VT0004267>	"optic tract morphology trait"
 <http://purl.obolibrary.org/obo/OBA_VT0004268>	"optic stalk morphology trait"
 <http://purl.obolibrary.org/obo/OBA_VT0004269>	"optic cup morphology trait"
-<http://purl.obolibrary.org/obo/OBA_VT0004271>	"obsolete paw/hand/foot/hoof morphology trait"
+<http://purl.obolibrary.org/obo/OBA_VT0004271>	
 <http://purl.obolibrary.org/obo/OBA_VT0004272>	"basement membrane morphology trait"
 <http://purl.obolibrary.org/obo/OBA_VT0004273>	"basal lamina morphology trait"
 <http://purl.obolibrary.org/obo/OBA_VT0004274>	"embryonic/fetal subventricular zone morphology trait"

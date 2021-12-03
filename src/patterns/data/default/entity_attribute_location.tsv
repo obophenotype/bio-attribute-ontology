@@ -158,7 +158,6 @@ OBA:VT1000479	muscle lipid amount	CHEBI:18059	lipid	PATO:0000070	amount	UBERON:0
 OBA:VT1000670	blood cortisol amount	CHEBI:17650	cortisol	PATO:0000070	amount	UBERON:0000178	blood
 OBA:VT1000761	muscle nitrogen amount	CHEBI:17997	dinitrogen	PATO:0000070	amount	UBERON:0001630	muscle organ
 OBA:VT1000764	muscle myoglobin amount	CHEBI:7044	myoglobin	PATO:0000070	amount	UBERON:0001630	muscle organ
-OBA:VT0002455	dendritic cell antigen presentation trait	GO:0019882	antigen processing and presentation	PATO:0002045	dendritic	CL:0000000	cell
 OBA:VT0004368	stria vascularis blood vessel morphology trait	UBERON:0001981	blood vessel	PATO:0000051	morphology	UBERON:0002282	stria vascularis of cochlear duct
 OBA:0000103	mitochondrial mRNA stability	SO:0000234	mRNA	OBA:0001001	macromolecular stability	GO:0005739	mitochondrion
 OBA:0000106	mitochondrial rRNA stability	SO:0000252	rRNA	OBA:0001001	macromolecular stability	GO:0005739	mitochondrion
