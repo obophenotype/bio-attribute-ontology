@@ -1,0 +1,65 @@
+pattern_name: chemical_role_attribute_location
+pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute_location.yaml
+
+description: '
+
+  Basic pattern for traits that captures a quality, such as concentration or level, which is a 
+  characteristic of a chemical entity with a role, such as hormone, in some location.'
+
+classes:
+  chemical entity: CHEBI:24431
+  role: CHEBI:50906
+  quality: PATO:0000001
+  thing: owl:Thing
+
+relations:
+  part_of: BFO:0000050
+  characteristic_of: RO:0000052
+  characteristic_of_part_of: RO:0002314
+  has_role: RO:0000087
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+  xref: oio:hasDbXref
+
+vars: 
+  attribute: "'quality'"
+  location: "'thing'"
+  role: "'role'"
+
+name:
+  text: "%s of %s in %s"
+  vars:
+    - attribute
+    - role
+    - location
+
+def: 
+  text: "The %s of %s when measured in %s."
+  vars:
+    - attribute
+    - role
+    - location
+  annotations:
+    - annotationProperty: xref
+      text: "AUTO:patterns/patterns/chemical_role_attribute_location"
+
+annotations: 
+  - annotationProperty: exact_synonym
+    text: "%s %s %s"
+    vars:
+      - location
+      - role
+      - attribute
+    annotations:
+      - annotationProperty: xref
+        text: "AUTO:patterns/patterns/chemical_role_attribute_location"
+
+
+equivalentTo: 
+  text: "%s and 'characteristic_of' some (('chemical entity' and ('has_role' some %s)) and 'part_of' some %s)"
+  vars:
+    - attribute
+    - role
+    - location
