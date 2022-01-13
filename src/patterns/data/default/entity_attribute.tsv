@@ -23,7 +23,6 @@ OBA:0000061	circulating fibrinogen levels	GO:0005577	fibrinogen complex	PATO:000
 OBA:0000066	direction of cell growth	GO:0016049	cell growth	PATO:0000039	direction
 OBA:0000067	embryonic cell shape	CL:0002321	embryonic cell	PATO:0000052	shape
 OBA:0000068	endosome size	GO:0005768	endosome	PATO:0000117	size
-OBA:0000079	hormone levels	CHEBI:24621	hormone	PATO:0000070	amount
 OBA:0000084	imaginal disc-derived wing size	UBERON:0000984	imaginal disc-derived wing	PATO:0000117	size
 OBA:0000088	liquid surface tension	PATO:0001735	liquid configuration	PATO:0001461	surface tension
 OBA:0000092	lysosomal membrane permeability	GO:0005765	lysosomal membrane	PATO:0000970	permeability
@@ -54,7 +53,6 @@ OBA:0000171	tube diameter	UBERON:0000025	tube	PATO:0001334	diameter
 OBA:0000172	tube size	UBERON:0000025	tube	PATO:0000117	size
 OBA:0000173	urinary volume	UBERON:0001088	urine	PATO:0000918	volume
 OBA:0000174	vascular permeability	UBERON:0000055	vessel	PATO:0000970	permeability
-OBA:0000182	nutrient level	CHEBI:33284	nutrient	PATO:0000070	amount
 OBA:1000001	blood brain barrier permeability	UBERON:0000120	blood brain barrier	PATO:0000970	permeability
 OBA:1000002	intermammary line length	UBERON:0013771	line connecting laterally paired nipples	PATO:0000122	length
 OBA:1000003	inter-canthal distance	UBERON:0013678	anatomical line between inner canthi	PATO:0000122	length
@@ -7156,7 +7154,6 @@ OBA:1000968		CHEBI:27300	vitamin D	PATO:0000070	amount
 OBA:1000969		PR:000009182	insulin-like growth factor I	PATO:0000070	amount
 OBA:1000970		CHEBI:16393	sphingosine	PATO:0000070	amount
 OBA:1000971		CHEBI:18085	glycosaminoglycan	PATO:0000070	amount
-OBA:1000972		CHEBI:60311	thyroid hormone	PATO:0000070	amount
 OBA:1000973		CHEBI:15889	sterol	PATO:0000070	amount
 OBA:1000974		CHEBI:36526	acidic glycosphingolipid	PATO:0000070	amount
 OBA:1000975		CHEBI:29073	L-ascorbic acid	PATO:0000070	amount
@@ -7166,7 +7163,6 @@ OBA:1000978		PR:000000046	TGF-beta	PATO:0000070	amount
 OBA:1000979		CL:0000681	radial glial cell	PATO:0000070	amount
 OBA:1000980		CHEBI:25029	leukotriene	PATO:0000070	amount
 OBA:1000981		CHEBI:25805	Oxygen	PATO:0000070	amount
-OBA:1000982		CHEBI:33229	vitamin	PATO:0000070	amount
 OBA:1000983		CHEBI:81567	Thyroid stimulating hormone	PATO:0000070	amount
 OBA:1000984		CHEBI:33567	catecholamine	PATO:0000070	amount
 OBA:1000985		CHEBI:33569	noradrenaline	PATO:0000070	amount
@@ -7177,7 +7173,6 @@ OBA:1000989		CHEBI:39015	apolipoprotein	PATO:0000070	amount
 OBA:1000990		CHEBI:27584	aldosterone	PATO:0000070	amount
 OBA:1000991		CHEBI:26995	thromboxane	PATO:0000070	amount
 OBA:1000992		CHEBI:81569	Follicle stimulating hormone	PATO:0000070	amount
-OBA:1000993		CHEBI:25512	neurotransmitter	PATO:0000070	amount
 OBA:1000994		CHEBI:17026	Progesterone	PATO:0000070	amount
 OBA:1000995		CHEBI:50211	retinol	PATO:0000070	amount
 OBA:1000996		CHEBI:12777	vitamin A	PATO:0000070	amount
@@ -7188,7 +7183,6 @@ OBA:1001000		PR:000007141	erythropoietin	PATO:0000070	amount
 OBA:1001001		CHEBI:33709	amino acid	PATO:0000070	amount
 OBA:1001002		PR:000025853	primate-type serum amyloid A-2 protein	PATO:0000070	amount
 OBA:1001003		CHEBI:5254	galactolipid	PATO:0000070	amount
-OBA:1001004		CHEBI:37845	growth hormone	PATO:0000070	amount
 OBA:1001005		CHEBI:16919	creatine	PATO:0000070	amount
 OBA:1001006		PR:000007785	glutamate decarboxylase 1	PATO:0000070	amount
 OBA:1001007		CHEBI:16856	glutathione	PATO:0000070	amount
