@@ -8,11 +8,15 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<urn:unnamed:ontology#ont1>
 
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50906>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0011007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute_location.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/entity_attribute.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/entity_attribute_location.yaml>))
@@ -20,6 +24,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/process_attribute
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000087>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
@@ -38,6 +43,22 @@ AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/attribute_location"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> "'thing' 'quality'"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> "'thing' in 'quality'"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> owl:Thing)))
+
+# Class: <http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute.yaml> ('role' 'quality')
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/chemical_role_attribute"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute.yaml> "The 'quality' of 'role'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute.yaml> "chemical_role_attribute"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/chemical_role_attribute"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute.yaml> "'quality' of 'role'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute.yaml> "'role' 'quality'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_50906>)))))
+
+# Class: <http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute_location.yaml> ('quality' of 'role' in 'thing')
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/chemical_role_attribute_location"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute_location.yaml> "The 'quality' of 'role' when measured in 'thing'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute_location.yaml> "chemical_role_attribute_location"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/chemical_role_attribute_location"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute_location.yaml> "'thing' 'role' 'quality'"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute_location.yaml> "'quality' of 'role' in 'thing'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute_location.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_50906>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing)))))
 
 # Class: <http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml> (age of onset of 'disease')
 

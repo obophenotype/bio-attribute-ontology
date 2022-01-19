@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: oba/releases/2021-12-03/oba-basic.owl
+data-version: oba/releases/2022-01-19/oba-basic.owl
 date: 13:11:2015 10:21
 saved-by: cjmungall
 auto-generated-by: TermGenie 1.0
@@ -8,7 +8,7 @@ ontology: oba/oba-basic
 property_value: http://purl.org/dc/elements/1.1/description "A collection of biological attributes (traits) covering all kingdoms of life. Interoperable with VT (vertebrate trait ontology) and TO (plant trait ontology). Extends PATO." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Ontology of Biological Attributes (OBA)" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2021-12-03" xsd:string
+property_value: owl:versionInfo "2022-01-19" xsd:string
 property_value: property-value "foaf-homepage \"http://wiki.geneontology.org/index.php/Extensions/x-attribute\" xsd:anyURL" xsd:string
 
 [Term]
@@ -71,6 +71,7 @@ name: angiotensin levels in blood
 def: "The amount of a angiotensin II when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood angiotensin II amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:0000079 ! hormone levels
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:0000018
@@ -208,7 +209,6 @@ name: circulating fibrinogen levels
 def: "The amount of a fibrinogen complex." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of fibrinogen complex" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100001 ! cellular component attribute
-is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0000066
@@ -254,10 +254,10 @@ replaced_by: OBA:1001087
 [Term]
 id: OBA:0000079
 name: hormone levels
-def: "The amount of a hormone." [AUTO:patterns/patterns/entity_attribute]
+def: "The amount of hormone." [AUTO:patterns/patterns/chemical_role_attribute]
 comment: TODO - unify levels vs amount
-synonym: "amount of hormone" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001 ! biological attribute
+synonym: "amount of hormone" EXACT [AUTO:patterns/patterns/chemical_role_attribute]
+is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0000084
@@ -435,7 +435,6 @@ name: nucleosome density
 def: "The amount of a nucleosome." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of nucleosome" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100001 ! cellular component attribute
-is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0000120
@@ -648,9 +647,9 @@ is_a: OBA:0000001 ! biological attribute
 [Term]
 id: OBA:0000182
 name: nutrient level
-def: "The amount of a nutrient." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of nutrient" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0000001 ! biological attribute
+def: "The amount of nutrient." [AUTO:patterns/patterns/chemical_role_attribute]
+synonym: "amount of nutrient" EXACT [AUTO:patterns/patterns/chemical_role_attribute]
+is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0000183
@@ -1709,7 +1708,6 @@ name: rib length
 def: "The length of a rib." [AUTO:patterns/patterns/entity_attribute]
 synonym: "length of rib" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0002150 ! rib size
-is_a: OBA:0002381 ! long bone length
 
 [Term]
 id: OBA:0002144
@@ -1760,7 +1758,7 @@ id: OBA:0002150
 name: rib size
 def: "The size of a rib." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of rib" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0002651 ! long bone size
+is_a: OBA:1000138 ! bone element size
 is_a: OBA:VT0000150 ! rib morphology trait
 
 [Term]
@@ -1804,7 +1802,6 @@ id: OBA:0002156
 name: rib curvature
 def: "The curvature of a rib." [AUTO:patterns/patterns/entity_attribute]
 synonym: "curvature of rib" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0002732 ! long bone curvature
 is_a: OBA:0003157 ! rib shape
 
 [Term]
@@ -1951,7 +1948,7 @@ name: subcutaneous adipose tissue altered number of
 def: "The altered number of of a subcutaneous adipose tissue." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of subcutaneous adipose tissue" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0002891 ! adipose tissue altered number of
-is_a: OBA:1000023 ! subcutaneous adipose tissue quality
+is_a: OBA:0005324 ! subcutaneous adipose tissue morphology
 
 [Term]
 id: OBA:0002177
@@ -7140,7 +7137,7 @@ id: OBA:0002883
 name: connective tissue altered number of
 def: "The altered number of of a connective tissue." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of connective tissue" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:VT0100002 ! connective tissue trait
+is_a: OBA:VT0001248 ! connective tissue morphology trait
 
 [Term]
 id: OBA:0002884
@@ -7201,6 +7198,7 @@ name: adipose tissue altered number of
 def: "The altered number of of a adipose tissue." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of adipose tissue" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0002883 ! connective tissue altered number of
+is_a: OBA:VT0000003 ! adipose morphology trait
 
 [Term]
 id: OBA:0002892
@@ -9328,7 +9326,6 @@ id: OBA:0003157
 name: rib shape
 def: "The shape of a rib." [AUTO:patterns/patterns/entity_attribute]
 synonym: "shape of rib" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0002163 ! long bone shape
 is_a: OBA:VT0000150 ! rib morphology trait
 
 [Term]
@@ -9451,7 +9448,7 @@ id: OBA:0003174
 name: retina altered number of
 def: "The altered number of of a retina." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of retina" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_a: OBA:VT0001325 ! retina morphology trait
 
 [Term]
 id: OBA:0003175
@@ -10180,7 +10177,7 @@ id: OBA:0003275
 name: platelet altered number of
 def: "The altered number of of a platelet." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of platelet" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000866 ! blood cell quality
+is_a: OBA:0003276 ! platelet morphology
 is_a: OBA:VT0000237 ! blood cell quantity
 
 [Term]
@@ -10213,7 +10210,6 @@ name: mitochondrial proton-transporting ATP synthase complex rate
 def: "The rate of a mitochondrial proton-transporting ATP synthase complex." [AUTO:patterns/patterns/entity_attribute]
 synonym: "rate of mitochondrial proton-transporting ATP synthase complex" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100001 ! cellular component attribute
-is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0003280
@@ -11114,6 +11110,7 @@ id: OBA:0003397
 name: oligodendrocyte altered number of
 def: "The altered number of of a oligodendrocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of oligodendrocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0000953 ! oligodendrocyte morphology trait
 is_a: OBA:VT0003647 ! oligodendrocyte quantity
 
 [Term]
@@ -11556,6 +11553,7 @@ id: OBA:0003459
 name: erythroid progenitor cell altered number of
 def: "The altered number of of a erythroid progenitor cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of erythroid progenitor cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0004495 ! erythroid progenitor cell morphology
 is_a: OBA:VT0000237 ! blood cell quantity
 
 [Term]
@@ -13050,7 +13048,7 @@ id: OBA:0003664
 name: vitelline blood vessel altered number of
 def: "The altered number of of a vitelline blood vessel." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of vitelline blood vessel" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_a: OBA:VT0001614 ! blood vessel morphology trait
 
 [Term]
 id: OBA:0003665
@@ -13170,7 +13168,6 @@ name: MHC class I protein complex amount
 def: "The amount of a MHC class I protein complex." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of MHC class I protein complex" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100001 ! cellular component attribute
-is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0003682
@@ -15232,16 +15229,16 @@ is_a: OBA:VT0004393 ! cochlear inner hair cell morphology trait
 
 [Term]
 id: OBA:0003971
-name: outer hair cell amount
-def: "The amount of a outer hair cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cochlear outer hair cell amount
+def: "The amount of a cochlear outer hair cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of cochlear outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0003973 ! auditory hair cell amount
 
 [Term]
 id: OBA:0003972
-name: outer hair cell degeneration
-def: "The degeneration of a outer hair cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "degeneration of outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cochlear outer hair cell degeneration
+def: "The degeneration of a cochlear outer hair cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "degeneration of cochlear outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0003961 ! auditory hair cell degeneration
 is_a: OBA:VT0004399 ! cochlear outer hair cell morphology trait
 
@@ -16307,14 +16304,13 @@ name: MHC class II protein complex amount
 def: "The amount of a MHC class II protein complex." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of MHC class II protein complex" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100001 ! cellular component attribute
-is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0004121
 name: white pulp of spleen altered number of
 def: "The altered number of of a white pulp of spleen." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of white pulp of spleen" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_a: OBA:VT0002357 ! spleen white pulp morphology trait
 
 [Term]
 id: OBA:0004122
@@ -16652,7 +16648,7 @@ id: OBA:0004169
 name: strial intermediate cell altered number of
 def: "The altered number of of a strial intermediate cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of strial intermediate cell" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000076 ! attribute of cell
+is_a: OBA:VT0004367 ! strial intermediate cell morphology trait
 
 [Term]
 id: OBA:0004170
@@ -17336,7 +17332,7 @@ id: OBA:0004264
 name: Mullerian duct altered number of
 def: "The altered number of of a Mullerian duct." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of Mullerian duct" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_a: OBA:VT0003826 ! Mullerian duct morphology trait
 
 [Term]
 id: OBA:0004265
@@ -17501,9 +17497,10 @@ is_a: OBA:VT0002882 ! neuron morphology trait
 
 [Term]
 id: OBA:0004288
-name: http://purl.obolibrary.org/obo/GO_0098846 morphology
-def: "The morphology of a http://purl.obolibrary.org/obo/GO_0098846." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of http://purl.obolibrary.org/obo/GO_0098846" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: podocyte foot morphology
+def: "The morphology of a podocyte foot." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of podocyte foot" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0100001 ! cellular component attribute
 
 [Term]
 id: OBA:0004289
@@ -17596,6 +17593,7 @@ id: OBA:0004301
 name: amacrine cell amount
 def: "The amount of a amacrine cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of amacrine cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0001329 ! retina cell quantity
 is_a: OBA:VT0015026 ! neuron quantity
 
 [Term]
@@ -17676,9 +17674,10 @@ is_a: OBA:VT0003446 ! kidney cell quantity
 
 [Term]
 id: OBA:0004312
-name: http://purl.obolibrary.org/obo/GO_0098846 amount
-def: "The amount of a http://purl.obolibrary.org/obo/GO_0098846." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of http://purl.obolibrary.org/obo/GO_0098846" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: podocyte foot amount
+def: "The amount of a podocyte foot." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of podocyte foot" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0100001 ! cellular component attribute
 
 [Term]
 id: OBA:0004313
@@ -19130,7 +19129,7 @@ id: OBA:0004515
 name: mature ovarian follicle altered number of
 def: "The altered number of of a mature ovarian follicle." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of mature ovarian follicle" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000927 ! ovarian follicle quality
+is_a: OBA:0004697 ! mature ovarian follicle morphology
 
 [Term]
 id: OBA:0004516
@@ -20008,7 +20007,7 @@ id: OBA:0004639
 name: pancreatic epsilon cell altered number of
 def: "The altered number of of a pancreatic epsilon cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of pancreatic epsilon cell" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000076 ! attribute of cell
+is_a: OBA:0004638 ! pancreatic epsilon cell morphology
 
 [Term]
 id: OBA:0004640
@@ -20663,15 +20662,17 @@ is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:0004732
-name: http://purl.obolibrary.org/obo/CL_0011003 morphology
-def: "The morphology of a http://purl.obolibrary.org/obo/CL_0011003." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of http://purl.obolibrary.org/obo/CL_0011003" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: magnocellular neurosecretory cell morphology
+def: "The morphology of a magnocellular neurosecretory cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of magnocellular neurosecretory cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0002882 ! neuron morphology trait
 
 [Term]
 id: OBA:0004733
-name: http://purl.obolibrary.org/obo/CL_0011003 altered number of
-def: "The altered number of of a http://purl.obolibrary.org/obo/CL_0011003." [AUTO:patterns/patterns/entity_attribute]
-synonym: "altered number of of http://purl.obolibrary.org/obo/CL_0011003" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: magnocellular neurosecretory cell altered number of
+def: "The altered number of of a magnocellular neurosecretory cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "altered number of of magnocellular neurosecretory cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0004732 ! magnocellular neurosecretory cell morphology
 
 [Term]
 id: OBA:0004734
@@ -21662,7 +21663,7 @@ id: OBA:0004872
 name: foam cell altered number of
 def: "The altered number of of a foam cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of foam cell" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000076 ! attribute of cell
+is_a: OBA:0004871 ! foam cell morphology
 
 [Term]
 id: OBA:0004873
@@ -21978,7 +21979,7 @@ name: hippocampal granule cell morphology
 def: "The morphology of a hippocampal granule cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of hippocampal granule cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000922 ! granule cell quality
-is_a: OBA:VT0015046 ! hippocampus neuron morphology trait
+is_a: OBA:VT0002882 ! neuron morphology trait
 
 [Term]
 id: OBA:0004917
@@ -22496,6 +22497,7 @@ id: OBA:0004989
 name: cervical vertebra altered number of
 def: "The altered number of of a cervical vertebra." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of cervical vertebra" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0003760 ! cervical vertebra morphology
 is_a: OBA:VT0000461 ! presacral vertebra quantity
 
 [Term]
@@ -22504,6 +22506,7 @@ name: caudal vertebra altered number of
 def: "The altered number of of a caudal vertebra." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of caudal vertebra" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0001539 ! caudal vertebra quantity
+is_a: OBA:VT0002759 ! caudal vertebra morphology trait
 
 [Term]
 id: OBA:0004991
@@ -25819,7 +25822,6 @@ name: glomerular endothelium fenestra morphology
 def: "The morphology of a glomerular endothelium fenestra." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of glomerular endothelium fenestra" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100001 ! cellular component attribute
-is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0005454
@@ -25827,7 +25829,6 @@ name: glomerular endothelium fenestra amount
 def: "The amount of a glomerular endothelium fenestra." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of glomerular endothelium fenestra" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100001 ! cellular component attribute
-is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0005455
@@ -26355,10 +26356,9 @@ is_a: OBA:0002311 ! neural cell displaced
 
 [Term]
 id: OBA:0005528
-name: neuron of cerebral cortex displaced
-def: "The displaced of a neuron of cerebral cortex." [AUTO:patterns/patterns/entity_attribute]
-synonym: "displaced of neuron of cerebral cortex" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0005527 ! neuron displaced
+name: obsolete neuron of cerebral cortex displaced
+def: "The displaced of a obsolete neuron of cerebral cortex." [AUTO:patterns/patterns/entity_attribute]
+synonym: "displaced of obsolete neuron of cerebral cortex" EXACT [AUTO:patterns/patterns/entity_attribute]
 
 [Term]
 id: OBA:0005529
@@ -26769,7 +26769,7 @@ id: OBA:0005586
 name: diaphragm altered number of
 def: "The altered number of of a diaphragm." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of diaphragm" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
+is_a: OBA:VT0002279 ! diaphragm morphology trait
 
 [Term]
 id: OBA:0005587
@@ -26875,7 +26875,7 @@ id: OBA:0005601
 name: astrocyte altered number of
 def: "The altered number of of a astrocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "altered number of of astrocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000381 ! astrocyte quality
+is_a: OBA:VT0002182 ! astrocyte morphology trait
 
 [Term]
 id: OBA:0005602
@@ -29925,7 +29925,6 @@ name: creatine kinase complex amount
 def: "The amount of a creatine kinase complex." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of creatine kinase complex" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100001 ! cellular component attribute
-is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0006027
@@ -37213,9 +37212,9 @@ is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:1000941
-name: insulin amount
-def: "The amount of a insulin." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of insulin" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: insulin gene translation product amount
+def: "The amount of a insulin gene translation product." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of insulin gene translation product" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0010120 ! protein amount
 
 [Term]
@@ -37230,7 +37229,7 @@ id: OBA:1000943
 name: copper atom amount
 def: "The amount of a copper atom." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of copper atom" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:0000182 ! nutrient level
 
 [Term]
 id: OBA:1000944
@@ -37315,7 +37314,7 @@ id: OBA:1000955
 name: vitamin E amount
 def: "The amount of a vitamin E." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of vitamin E" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:1000982 ! vitamin (role) amount
 
 [Term]
 id: OBA:1000956
@@ -37350,6 +37349,7 @@ id: OBA:1000960
 name: 3,3',5-triiodo-L-thyronine amount
 def: "The amount of a 3,3',5-triiodo-L-thyronine." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of 3,3',5-triiodo-L-thyronine" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000972 ! thyroid hormone amount
 is_a: OBA:1001001 ! amino acid amount
 
 [Term]
@@ -37371,13 +37371,14 @@ id: OBA:1000963
 name: prostaglandin amount
 def: "The amount of a prostaglandin." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of prostaglandin" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:VT0001547 ! lipid amount
 
 [Term]
 id: OBA:1000964
 name: testosterone amount
 def: "The amount of a testosterone." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of testosterone" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000079 ! hormone levels
 is_a: OBA:VT0001547 ! lipid amount
 
 [Term]
@@ -37407,6 +37408,7 @@ id: OBA:1000968
 name: vitamin D amount
 def: "The amount of a vitamin D." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of vitamin D" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000982 ! vitamin (role) amount
 is_a: OBA:VT0001547 ! lipid amount
 
 [Term]
@@ -37433,8 +37435,8 @@ is_a: OBA:1000947 ! nitrogen molecular entity amount
 [Term]
 id: OBA:1000972
 name: thyroid hormone amount
-def: "The amount of a thyroid hormone." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of thyroid hormone" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The amount of thyroid hormone." [AUTO:patterns/patterns/chemical_role_attribute]
+synonym: "amount of thyroid hormone" EXACT [AUTO:patterns/patterns/chemical_role_attribute]
 is_a: OBA:0000079 ! hormone levels
 
 [Term]
@@ -37456,14 +37458,13 @@ id: OBA:1000975
 name: L-ascorbic acid amount
 def: "The amount of a L-ascorbic acid." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of L-ascorbic acid" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:1000982 ! vitamin (role) amount
 
 [Term]
 id: OBA:1000976
-name: fat-soluble vitamin amount
-def: "The amount of a fat-soluble vitamin." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of fat-soluble vitamin" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:1000982 ! vitamin amount
+name: fat-soluble vitamin (role) amount
+def: "The amount of a fat-soluble vitamin (role)." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of fat-soluble vitamin (role)" EXACT [AUTO:patterns/patterns/entity_attribute]
 
 [Term]
 id: OBA:1000977
@@ -37471,6 +37472,7 @@ name: serotonin amount
 def: "The amount of a serotonin." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of serotonin" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000947 ! nitrogen molecular entity amount
+is_a: OBA:1000993 ! neurotransmitter amount
 
 [Term]
 id: OBA:1000978
@@ -37491,27 +37493,28 @@ id: OBA:1000980
 name: leukotriene amount
 def: "The amount of a leukotriene." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of leukotriene" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:VT0001547 ! lipid amount
 
 [Term]
 id: OBA:1000981
 name: oxygen atom amount
 def: "The amount of a oxygen atom." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of oxygen atom" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:0000182 ! nutrient level
 
 [Term]
 id: OBA:1000982
-name: vitamin amount
-def: "The amount of a vitamin." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of vitamin" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: vitamin (role) amount
+def: "The amount of vitamin (role)." [AUTO:patterns/patterns/chemical_role_attribute]
+synonym: "amount of vitamin (role)" EXACT [AUTO:patterns/patterns/chemical_role_attribute]
+is_a: OBA:0000182 ! nutrient level
 
 [Term]
 id: OBA:1000983
-name: Thyroid stimulating hormone amount
-def: "The amount of a Thyroid stimulating hormone." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of Thyroid stimulating hormone" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+name: thyroid stimulating hormone amount
+def: "The amount of a thyroid stimulating hormone." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of thyroid stimulating hormone" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0010120 ! protein amount
 
 [Term]
 id: OBA:1000984
@@ -37529,10 +37532,11 @@ is_a: OBA:1000984 ! catecholamine amount
 
 [Term]
 id: OBA:1000986
-name: thiamine amount
-def: "The amount of a thiamine." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of thiamine" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: vitamin B1 amount
+def: "The amount of a vitamin B1." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of vitamin B1" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000947 ! nitrogen molecular entity amount
+is_a: OBA:1000982 ! vitamin (role) amount
 
 [Term]
 id: OBA:1000987
@@ -37546,6 +37550,7 @@ id: OBA:1000988
 name: corticotropin amount
 def: "The amount of a corticotropin." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of corticotropin" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000079 ! hormone levels
 is_a: OBA:1000947 ! nitrogen molecular entity amount
 
 [Term]
@@ -37553,13 +37558,14 @@ id: OBA:1000989
 name: apolipoprotein amount
 def: "The amount of a apolipoprotein." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of apolipoprotein" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:VT0010120 ! protein amount
 
 [Term]
 id: OBA:1000990
 name: aldosterone amount
 def: "The amount of a aldosterone." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of aldosterone" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000079 ! hormone levels
 is_a: OBA:VT0001547 ! lipid amount
 
 [Term]
@@ -37567,7 +37573,7 @@ id: OBA:1000991
 name: thromboxane amount
 def: "The amount of a thromboxane." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of thromboxane" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:VT0001547 ! lipid amount
 
 [Term]
 id: OBA:1000992
@@ -37579,14 +37585,16 @@ is_a: OBA:0100004 ! chemical entity attribute
 [Term]
 id: OBA:1000993
 name: neurotransmitter amount
-def: "The amount of a neurotransmitter." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of neurotransmitter" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The amount of neurotransmitter." [AUTO:patterns/patterns/chemical_role_attribute]
+synonym: "amount of neurotransmitter" EXACT [AUTO:patterns/patterns/chemical_role_attribute]
+is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:1000994
 name: progesterone amount
 def: "The amount of a progesterone." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of progesterone" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000079 ! hormone levels
 is_a: OBA:VT0001547 ! lipid amount
 
 [Term]
@@ -37601,6 +37609,7 @@ id: OBA:1000996
 name: vitamin A amount
 def: "The amount of a vitamin A." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of vitamin A" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000982 ! vitamin (role) amount
 is_a: OBA:VT0001547 ! lipid amount
 
 [Term]
@@ -37622,6 +37631,7 @@ id: OBA:1000999
 name: corticosterone amount
 def: "The amount of a corticosterone." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of corticosterone" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000079 ! hormone levels
 is_a: OBA:VT0001547 ! lipid amount
 
 [Term]
@@ -37655,8 +37665,8 @@ is_a: OBA:VT0001547 ! lipid amount
 [Term]
 id: OBA:1001004
 name: growth hormone amount
-def: "The amount of a growth hormone." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of growth hormone" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The amount of growth hormone." [AUTO:patterns/patterns/chemical_role_attribute]
+synonym: "amount of growth hormone" EXACT [AUTO:patterns/patterns/chemical_role_attribute]
 is_a: OBA:0000079 ! hormone levels
 
 [Term]
@@ -37717,9 +37727,9 @@ is_a: OBA:1000944 ! neopterins amount
 
 [Term]
 id: OBA:1001013
-name: tumor necrosis factor alpha amount
-def: "The amount of a tumor necrosis factor alpha." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of tumor necrosis factor alpha" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: tumor necrosis factor amount
+def: "The amount of a tumor necrosis factor." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of tumor necrosis factor" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0010120 ! protein amount
 
 [Term]
@@ -37736,6 +37746,7 @@ name: folic acid amount
 def: "The amount of a folic acid." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of folic acid" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000947 ! nitrogen molecular entity amount
+is_a: OBA:1000982 ! vitamin (role) amount
 
 [Term]
 id: OBA:1001016
@@ -37747,7 +37758,7 @@ id: OBA:1001017
 name: lipoprotein amount
 def: "The amount of a lipoprotein." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of lipoprotein" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:VT0010120 ! protein amount
 
 [Term]
 id: OBA:1001018
@@ -38219,6 +38230,7 @@ id: OBA:VT0000000
 name: mammary gland secreted fluid morphology trait
 def: "The morphology of a mammary gland fluid/secretion." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of mammary gland fluid/secretion" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0000002
@@ -38859,7 +38871,6 @@ def: "The morphology of a rib." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of rib" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000066 ! endochondral bone morphology
 is_a: OBA:1000534 ! rib quality
-is_a: OBA:VT0003723 ! long bone morphology trait
 
 [Term]
 id: OBA:VT0000152
@@ -39029,7 +39040,7 @@ id: OBA:VT0000202
 name: blood alkaline phosphatase amount
 def: "The amount of a alkaline phosphatase when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood alkaline phosphatase amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0000217
@@ -39183,7 +39194,7 @@ def: "The has number of of a granulocyte." [AUTO:patterns/patterns/entity_attrib
 synonym: "has number of of granulocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000243 ! myeloid leukocyte quality
 is_a: OBA:1000866 ! blood cell quality
-is_a: OBA:VT0000237 ! blood cell quantity
+is_a: OBA:VT0010191 ! immune system cell quantity
 
 [Term]
 id: OBA:VT0000336
@@ -39191,7 +39202,7 @@ name: mast cell quantity
 def: "The has number of of a mast cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of mast cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000179 ! mast cell quality
-is_a: OBA:VT0000237 ! blood cell quantity
+is_a: OBA:VT0010191 ! immune system cell quantity
 
 [Term]
 id: OBA:VT0000340
@@ -40062,7 +40073,7 @@ id: OBA:VT0000717
 name: lymphocyte quantity
 def: "The has number of of a lymphocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of lymphocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:VT0000237 ! blood cell quantity
+is_a: OBA:VT0010191 ! immune system cell quantity
 
 [Term]
 id: OBA:VT0000737
@@ -42154,6 +42165,7 @@ name: blood insulin amount
 def: "The amount of a insulin (human) when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood insulin (human) amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:1000947 ! nitrogen molecular entity amount
+is_a: OBA:VT0005418 ! blood hormone amount
 
 [Term]
 id: OBA:VT0001562
@@ -42172,8 +42184,8 @@ is_a: OBA:0100004 ! chemical entity attribute
 [Term]
 id: OBA:VT0001569
 name: blood bilirubin amount
-def: "The amount of a bilirubin when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "blood bilirubin amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of a bilirubin IXalpha when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "blood bilirubin IXalpha amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:1000947 ! nitrogen molecular entity amount
 
 [Term]
@@ -42189,7 +42201,7 @@ id: OBA:VT0001588
 name: blood hemoglobin amount
 def: "The amount of a hemoglobin." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of hemoglobin" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:VT0010120 ! protein amount
 
 [Term]
 id: OBA:VT0001601
@@ -42382,6 +42394,8 @@ name: blood corticotropin-releasing hormone amount
 def: "The amount of a corticotropin-releasing hormone when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood corticotropin-releasing hormone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:1000947 ! nitrogen molecular entity amount
+is_a: OBA:1000993 ! neurotransmitter amount
+is_a: OBA:VT0005418 ! blood hormone amount
 
 [Term]
 id: OBA:VT0001758
@@ -42409,28 +42423,28 @@ id: OBA:VT0001770
 name: iron amount
 def: "The amount of a iron atom." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of iron atom" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:0000182 ! nutrient level
 
 [Term]
 id: OBA:VT0001771
 name: blood magnesium amount
 def: "The amount of a magnesium atom when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood magnesium atom amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:0000182 ! nutrient level
 
 [Term]
 id: OBA:VT0001775
 name: selenium amount
 def: "The amount of a selenium atom." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of selenium atom" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:0000182 ! nutrient level
 
 [Term]
 id: OBA:VT0001776
 name: blood sodium amount
 def: "The amount of a sodium atom when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood sodium atom amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:0000182 ! nutrient level
 
 [Term]
 id: OBA:VT0001778
@@ -43833,7 +43847,6 @@ name: blood immunoglobulin amount
 def: "The amount of a immunoglobulin complex." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of immunoglobulin complex" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100001 ! cellular component attribute
-is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:VT0002462
@@ -44059,13 +44072,14 @@ name: blood adrenocorticotropin amount
 def: "The amount of a corticotropin when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood corticotropin amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:1000988 ! corticotropin amount
+is_a: OBA:VT0005418 ! blood hormone amount
 
 [Term]
 id: OBA:VT0002668
 name: blood potassium amount
 def: "The amount of a potassium atom when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood potassium atom amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:0000182 ! nutrient level
 
 [Term]
 id: OBA:VT0002669
@@ -44139,6 +44153,7 @@ name: blood glucagon amount
 def: "The amount of a glucagon when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood glucagon amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:1000947 ! nitrogen molecular entity amount
+is_a: OBA:VT0005418 ! blood hormone amount
 
 [Term]
 id: OBA:VT0002697
@@ -44619,7 +44634,7 @@ id: OBA:VT0002903
 name: blood parathyroid hormone amount
 def: "The amount of a parathyroid hormone when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood parathyroid hormone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0002907
@@ -45315,13 +45330,13 @@ id: OBA:VT0003349
 name: blood renin amount
 def: "The amount of a renin when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood renin amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0003351
 name: blood thyroid hormone amount
-def: "The amount of a thyroid hormone when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "blood thyroid hormone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of thyroid hormone when measured in blood." [AUTO:patterns/patterns/chemical_role_attribute_location]
+synonym: "blood thyroid hormone amount" EXACT [AUTO:patterns/patterns/chemical_role_attribute_location]
 is_a: OBA:1000972 ! thyroid hormone amount
 is_a: OBA:VT0005418 ! blood hormone amount
 
@@ -45352,12 +45367,13 @@ name: blood glucocorticoid amount
 def: "The amount of a glucocorticoid when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood glucocorticoid amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:VT0003949 ! blood lipid amount
+is_a: OBA:VT0005418 ! blood hormone amount
 
 [Term]
 id: OBA:VT0003369
 name: blood estrogen amount
-def: "The amount of a estrogen when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "blood estrogen amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of estrogen when measured in blood." [AUTO:patterns/patterns/chemical_role_attribute_location]
+synonym: "blood estrogen amount" EXACT [AUTO:patterns/patterns/chemical_role_attribute_location]
 is_a: OBA:VT0005418 ! blood hormone amount
 
 [Term]
@@ -45527,6 +45543,7 @@ name: blood dihydrotestosterone amount
 def: "The amount of a 17beta-hydroxy-5alpha-androstan-3-one when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood 17beta-hydroxy-5alpha-androstan-3-one amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:VT0003949 ! blood lipid amount
+is_a: OBA:VT0005418 ! blood hormone amount
 
 [Term]
 id: OBA:VT0003511
@@ -46238,7 +46255,6 @@ id: OBA:VT0003809
 name: hair shaft morphology trait
 def: "The morphology of a hair shaft." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of hair shaft" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100003 ! anatomical entity attribute
 is_a: OBA:VT0010007 ! skin adnexa morphology trait
 
 [Term]
@@ -46708,6 +46724,7 @@ id: OBA:VT0004047
 name: milk trait
 def: "The composition of a milk." [AUTO:patterns/patterns/entity_attribute]
 synonym: "composition of milk" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0000000 ! mammary gland secreted fluid morphology trait
 
 [Term]
 id: OBA:VT0004054
@@ -47944,15 +47961,15 @@ is_a: OBA:VT0004406 ! cochlear hair cell quantity
 [Term]
 id: OBA:VT0004399
 name: cochlear outer hair cell morphology trait
-def: "The morphology of a outer hair cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The morphology of a cochlear outer hair cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of cochlear outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0002622 ! cochlear hair cell morphology trait
 
 [Term]
 id: OBA:VT0004400
 name: cochlear outer hair cell quantity
-def: "The has number of of a outer hair cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "has number of of outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The has number of of a cochlear outer hair cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "has number of of cochlear outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0004406 ! cochlear hair cell quantity
 
 [Term]
@@ -48022,8 +48039,8 @@ is_a: OBA:VT0004432 ! cochlear hair cell physiology trait
 [Term]
 id: OBA:VT0004434
 name: cochlear outer hair cell physiology trait
-def: "The functionality of a outer hair cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "functionality of outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The functionality of a cochlear outer hair cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "functionality of cochlear outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0004432 ! cochlear hair cell physiology trait
 
 [Term]
@@ -48068,8 +48085,8 @@ is_a: OBA:VT0002116 ! craniofacial bone morphology trait
 [Term]
 id: OBA:VT0004466
 name: cochlear outer hair cell length
-def: "The length of a outer hair cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "length of outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The length of a cochlear outer hair cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "length of cochlear outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0004399 ! cochlear outer hair cell morphology trait
 is_a: OBA:VT0005603 ! neuron size trait
 
@@ -48502,8 +48519,8 @@ is_a: OBA:VT0015026 ! neuron quantity
 [Term]
 id: OBA:VT0005120
 name: blood growth hormone amount
-def: "The amount of a growth hormone when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "blood growth hormone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of growth hormone when measured in blood." [AUTO:patterns/patterns/chemical_role_attribute_location]
+synonym: "blood growth hormone amount" EXACT [AUTO:patterns/patterns/chemical_role_attribute_location]
 is_a: OBA:1001004 ! growth hormone amount
 is_a: OBA:VT0005418 ! blood hormone amount
 
@@ -48533,7 +48550,7 @@ id: OBA:VT0005160
 name: urine protein amount
 def: "The amount of a protein when measured in urine." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "urine protein amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:VT0010120 ! protein amount
 
 [Term]
 id: OBA:VT0005168
@@ -48556,12 +48573,14 @@ def: "The amount of a testosterone when measured in blood." [AUTO:patterns/patte
 synonym: "blood testosterone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:1000964 ! testosterone amount
 is_a: OBA:VT0003949 ! blood lipid amount
+is_a: OBA:VT0005418 ! blood hormone amount
 
 [Term]
 id: OBA:VT0005183
 name: blood estradiol amount
 def: "The amount of a estradiol when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood estradiol amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+is_a: OBA:VT0003369 ! blood estrogen amount
 is_a: OBA:VT0003949 ! blood lipid amount
 
 [Term]
@@ -48571,6 +48590,7 @@ def: "The amount of a progesterone when measured in blood." [AUTO:patterns/patte
 synonym: "blood progesterone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:1000994 ! progesterone amount
 is_a: OBA:VT0003949 ! blood lipid amount
+is_a: OBA:VT0005418 ! blood hormone amount
 
 [Term]
 id: OBA:VT0005187
@@ -49099,6 +49119,7 @@ def: "The amount of a aldosterone when measured in blood." [AUTO:patterns/patter
 synonym: "blood aldosterone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:1000990 ! aldosterone amount
 is_a: OBA:VT0003949 ! blood lipid amount
+is_a: OBA:VT0005418 ! blood hormone amount
 
 [Term]
 id: OBA:VT0005353
@@ -49230,13 +49251,13 @@ id: OBA:VT0005416
 name: blood protein amount
 def: "The amount of a protein when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood protein amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:VT0010120 ! protein amount
 
 [Term]
 id: OBA:VT0005418
 name: blood hormone amount
-def: "The amount of a hormone when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "blood hormone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of hormone when measured in blood." [AUTO:patterns/patterns/chemical_role_attribute_location]
+synonym: "blood hormone amount" EXACT [AUTO:patterns/patterns/chemical_role_attribute_location]
 is_a: OBA:0000079 ! hormone levels
 
 [Term]
@@ -49341,6 +49362,7 @@ name: blood triiodothyronine amount
 def: "The amount of a 3,3',5-triiodo-L-thyronine when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood 3,3',5-triiodo-L-thyronine amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:1000960 ! 3,3',5-triiodo-L-thyronine amount
+is_a: OBA:VT0003351 ! blood thyroid hormone amount
 is_a: OBA:VT0005311 ! blood amino acid amount
 
 [Term]
@@ -49404,7 +49426,7 @@ id: OBA:VT0005521
 name: blood atrial natriuretic factor amount
 def: "The amount of a atrial natriuretic factor when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood atrial natriuretic factor amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0005535
@@ -49440,7 +49462,6 @@ id: OBA:VT0005547
 name: Muller cell morphology trait
 def: "The morphology of a Mueller cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of Mueller cell" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:VT0002182 ! astrocyte morphology trait
 is_a: OBA:VT0003648 ! radial glial cell morphology trait
 
 [Term]
@@ -49477,6 +49498,7 @@ name: blood antidiuretic hormone amount
 def: "The amount of a vasopressin when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood vasopressin amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:1000947 ! nitrogen molecular entity amount
+is_a: OBA:VT0005418 ! blood hormone amount
 
 [Term]
 id: OBA:VT0005623
@@ -49541,6 +49563,7 @@ name: blood epinephrine amount
 def: "The amount of a (R)-adrenaline when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood (R)-adrenaline amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:1000958 ! adrenaline amount
+is_a: OBA:VT0005418 ! blood hormone amount
 
 [Term]
 id: OBA:VT0005663
@@ -49548,13 +49571,14 @@ name: blood norepinephrine amount
 def: "The amount of a (R)-noradrenaline when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood (R)-noradrenaline amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:1000985 ! noradrenaline amount
+is_a: OBA:1000993 ! neurotransmitter amount
 
 [Term]
 id: OBA:VT0005667
 name: blood leptin amount
 def: "The amount of a leptin when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood leptin amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0005675
@@ -50094,7 +50118,7 @@ id: OBA:VT0006274
 name: urine sodium amount
 def: "The amount of a sodium atom when measured in urine." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "urine sodium atom amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:0000182 ! nutrient level
 
 [Term]
 id: OBA:VT0006276
@@ -50399,7 +50423,7 @@ id: OBA:VT0008125
 name: dendritic cell quantity
 def: "The has number of of a dendritic cell." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of dendritic cell" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:VT0000237 ! blood cell quantity
+is_a: OBA:VT0010191 ! immune system cell quantity
 
 [Term]
 id: OBA:VT0008131
@@ -50644,6 +50668,7 @@ name: leukocyte morphology trait
 def: "The morphology of a leukocyte." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of leukocyte" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0005895 ! hematopoietic cell morphology
+is_a: OBA:VT0000716 ! immune system cell morphology trait
 
 [Term]
 id: OBA:VT0008248
@@ -50871,98 +50896,98 @@ id: OBA:VT0008589
 name: blood interleukin-1 amount
 def: "The amount of a interleukin-1 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-1 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0008590
 name: blood interleukin-10 amount
 def: "The amount of a interleukin-10 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-10 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0008595
 name: blood interleukin-6 amount
 def: "The amount of a interleukin-6 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-6 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0008598
 name: blood interleukin-2 amount
 def: "The amount of a interleukin-2 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-2 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0008601
 name: blood interleukin-4 amount
 def: "The amount of a interleukin-4 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-4 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0008604
 name: blood interleukin-7 amount
 def: "The amount of a interleukin-7 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-7 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0008607
 name: blood interleukin-13 amount
 def: "The amount of a interleukin-13 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-13 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0008610
 name: blood interleukin-15 amount
 def: "The amount of a interleukin-15 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-15 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0008613
 name: blood interleukin-17 amount
 def: "The amount of a interleukin-17 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-17 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0008622
 name: blood interleukin-3 amount
 def: "The amount of a interleukin-3 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-3 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0008625
 name: blood interleukin-5 amount
 def: "The amount of a interleukin-5 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-5 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0008628
 name: blood interleukin-9 amount
 def: "The amount of a interleukin-9 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-9 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0008631
 name: blood interleukin-16 amount
 def: "The amount of a interleukin-16 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-16 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0008634
 name: blood interleukin-18 amount
 def: "The amount of a interleukin-18 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-18 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0008637
@@ -51235,7 +51260,7 @@ id: OBA:VT0009059
 name: blood interleukin-21 amount
 def: "The amount of a interleukin-21 when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood interleukin-21 amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0009323
@@ -51387,6 +51412,7 @@ id: OBA:VT0010007
 name: skin adnexa morphology trait
 def: "The morphology of a cutaneous appendage." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of cutaneous appendage" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0005148 ! integumentary adnexa morphology
 
 [Term]
 id: OBA:VT0010009
@@ -51500,7 +51526,7 @@ id: OBA:VT0010029
 name: milk alpha-lactalbumin amount
 def: "The amount of a alpha-lactalbumin when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "milk alpha-lactalbumin amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT1000165 ! milk protein amount
 
 [Term]
 id: OBA:VT0010030
@@ -51801,7 +51827,7 @@ name: osteoclast quantity
 def: "The has number of of a osteoclast." [AUTO:patterns/patterns/entity_attribute]
 synonym: "has number of of osteoclast" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000243 ! myeloid leukocyte quality
-is_a: OBA:VT0000237 ! blood cell quantity
+is_a: OBA:VT0010191 ! immune system cell quantity
 
 [Term]
 id: OBA:VT0010099
@@ -51844,7 +51870,7 @@ id: OBA:VT0010108
 name: hippocampus pyramidal cell morphology trait
 def: "The morphology of a hippocampal pyramidal neuron." [AUTO:patterns/patterns/entity_attribute]
 synonym: "morphology of hippocampal pyramidal neuron" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:VT0015046 ! hippocampus neuron morphology trait
+is_a: OBA:VT0002882 ! neuron morphology trait
 
 [Term]
 id: OBA:VT0010110
@@ -52375,6 +52401,7 @@ id: OBA:VT0010256
 name: colostrum trait
 def: "The quality when measured in colostrum." [AUTO:patterns/patterns/attribute_location]
 synonym: "colostrum quality" EXACT [AUTO:patterns/patterns/attribute_location]
+is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0010264
@@ -52389,20 +52416,20 @@ id: OBA:VT0010267
 name: milk whey acidic protein amount
 def: "The amount of a whey acidic protein when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "milk whey acidic protein amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT1000165 ! milk protein amount
 
 [Term]
 id: OBA:VT0010268
 name: milk lactoferrin amount
 def: "The amount of a lactotransferrin when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "milk lactotransferrin amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT1000165 ! milk protein amount
 
 [Term]
 id: OBA:VT0010269
 name: colostrum hormone amount
-def: "The amount of a hormone when measured in colostrum." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "colostrum hormone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of hormone when measured in colostrum." [AUTO:patterns/patterns/chemical_role_attribute_location]
+synonym: "colostrum hormone amount" EXACT [AUTO:patterns/patterns/chemical_role_attribute_location]
 is_a: OBA:0000079 ! hormone levels
 
 [Term]
@@ -52429,8 +52456,8 @@ is_a: OBA:0002074 ! ear position
 [Term]
 id: OBA:VT0010275
 name: milk hormone amount
-def: "The amount of a hormone when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "milk hormone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of hormone when measured in milk." [AUTO:patterns/patterns/chemical_role_attribute_location]
+synonym: "milk hormone amount" EXACT [AUTO:patterns/patterns/chemical_role_attribute_location]
 is_a: OBA:0000079 ! hormone levels
 
 [Term]
@@ -52445,28 +52472,28 @@ id: OBA:VT0010277
 name: milk leptin amount
 def: "The amount of a leptin when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "milk leptin amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT1000165 ! milk protein amount
 
 [Term]
 id: OBA:VT0010281
 name: milk alpha-S1-casein amount
 def: "The amount of a alpha-S1-casein when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "milk alpha-S1-casein amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT1000165 ! milk protein amount
 
 [Term]
 id: OBA:VT0010283
 name: milk kappa-casein amount
 def: "The amount of a kappa-casein when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "milk kappa-casein amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT1000165 ! milk protein amount
 
 [Term]
 id: OBA:VT0010284
 name: milk beta-casein amount
 def: "The amount of a beta-casein when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "milk beta-casein amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT1000165 ! milk protein amount
 
 [Term]
 id: OBA:VT0010287
@@ -52494,21 +52521,21 @@ id: OBA:VT0010291
 name: milk potassium amount
 def: "The amount of a potassium atom when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "milk potassium atom amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:0000182 ! nutrient level
 
 [Term]
 id: OBA:VT0010292
 name: milk sodium amount
 def: "The amount of a sodium atom when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "milk sodium atom amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:0000182 ! nutrient level
 
 [Term]
 id: OBA:VT0010293
 name: milk phosphorus amount
 def: "The amount of a phosphorus atom when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "milk phosphorus atom amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:0000182 ! nutrient level
 
 [Term]
 id: OBA:VT0010294
@@ -52522,7 +52549,7 @@ id: OBA:VT0010295
 name: milk magnesium amount
 def: "The amount of a magnesium atom when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "milk magnesium atom amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:0000182 ! nutrient level
 
 [Term]
 id: OBA:VT0010298
@@ -52563,8 +52590,8 @@ is_a: OBA:VT0010303 ! milk fatty acid amount
 [Term]
 id: OBA:VT0010319
 name: milk fatty acid C20:0 amount
-def: "The amount of a arachidic acid when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "milk arachidic acid amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of a icosanoic acid when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "milk icosanoic acid amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:VT0010304 ! milk saturated fatty acid amount
 
 [Term]
@@ -52655,8 +52682,8 @@ is_a: OBA:VT0001547 ! lipid amount
 [Term]
 id: OBA:VT0010386
 name: milk monoacylglycerol amount
-def: "The amount of a monoglyceride when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "milk monoglyceride amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of a monoacylglycerol when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "milk monoacylglycerol amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:VT0001547 ! lipid amount
 
 [Term]
@@ -52678,7 +52705,7 @@ id: OBA:VT0010389
 name: milk butyrophilin amount
 def: "The amount of a butyrophilin when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "milk butyrophilin amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT1000165 ! milk protein amount
 
 [Term]
 id: OBA:VT0010394
@@ -52964,6 +52991,7 @@ id: OBA:VT0010470
 name: pancreas insulin amount
 def: "The amount of a insulin (human) when measured in pancreas." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "pancreas insulin (human) amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+is_a: OBA:0000079 ! hormone levels
 is_a: OBA:1000947 ! nitrogen molecular entity amount
 
 [Term]
@@ -53041,7 +53069,7 @@ id: OBA:VT0010499
 name: calcium amount
 def: "The amount of a calcium atom." [AUTO:patterns/patterns/entity_attribute]
 synonym: "amount of calcium atom" EXACT [AUTO:patterns/patterns/entity_attribute]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:0000182 ! nutrient level
 
 [Term]
 id: OBA:VT0010502
@@ -53070,14 +53098,14 @@ id: OBA:VT0010514
 name: blood transferrin amount
 def: "The amount of a serotransferrin when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood serotransferrin amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0010515
 name: blood fibronectin amount
 def: "The amount of a fibronectin when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "blood fibronectin amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:VT0010120 ! protein amount
+is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:VT0010516
@@ -53284,6 +53312,7 @@ id: OBA:VT0010655
 name: feather length
 def: "The length of a feather." [AUTO:patterns/patterns/entity_attribute]
 synonym: "length of feather" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000015 ! anatomical structure size
 is_a: OBA:VT1000664 ! feather morphology trait
 
 [Term]
@@ -53298,6 +53327,7 @@ id: OBA:VT0010657
 name: comb size
 def: "The size of a comb." [AUTO:patterns/patterns/entity_attribute]
 synonym: "size of comb" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0000015 ! anatomical structure size
 is_a: OBA:VT0010656 ! comb morphology
 
 [Term]
@@ -53518,6 +53548,7 @@ id: OBA:VT0015043
 name: milk amount
 def: "The volume of a milk." [AUTO:patterns/patterns/entity_attribute]
 synonym: "volume of milk" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:VT0000000 ! mammary gland secreted fluid morphology trait
 
 [Term]
 id: OBA:VT0015044
@@ -54072,7 +54103,7 @@ id: OBA:VT1000165
 name: milk protein amount
 def: "The amount of a protein when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "milk protein amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:VT0010120 ! protein amount
 
 [Term]
 id: OBA:VT1000190
@@ -54259,7 +54290,7 @@ id: OBA:VT1000433
 name: muscle protein amount
 def: "The amount of a protein when measured in muscle organ." [AUTO:patterns/patterns/entity_attribute_location]
 synonym: "muscle organ protein amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
-is_a: OBA:0100004 ! chemical entity attribute
+is_a: OBA:VT0010120 ! protein amount
 
 [Term]
 id: OBA:VT1000434
@@ -54657,6 +54688,7 @@ id: OBA:VT4000007
 name: coat/hair physiology trait
 def: "The functionality of a strand of hair." [AUTO:patterns/patterns/entity_attribute]
 synonym: "functionality of strand of hair" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0005150 ! integumentary adnexa functionality
 is_a: OBA:1000253 ! strand of hair quality
 
 [Term]
@@ -54693,6 +54725,7 @@ name: has part
 name: has_part
 namespace: chebi_ontology
 namespace: external
+namespace: plant_ontology
 namespace: protein
 namespace: quality
 namespace: uberon
@@ -54704,22 +54737,13 @@ subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
 xref: BFO:0000051
 property_value: IAO:0000111 "has part" xsd:string
-property_value: IAO:0000111 "has part" xsd:string
-property_value: IAO:0000112 "my body has part my brain (continuant parthood, two material entities)" xsd:string
 property_value: IAO:0000112 "my body has part my brain (continuant parthood, two material entities)" xsd:string
 property_value: IAO:0000112 "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)" xsd:string
-property_value: IAO:0000112 "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)" xsd:string
-property_value: IAO:0000112 "this year has part this day (occurrent parthood)" xsd:string
 property_value: IAO:0000112 "this year has part this day (occurrent parthood)" xsd:string
 property_value: IAO:0000116 "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part." xsd:string
-property_value: IAO:0000116 "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part." xsd:string
-property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
 property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
 property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime" xsd:string
-property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime" xsd:string
 property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'." xsd:string
-property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'." xsd:string
-property_value: IAO:0000118 "has_part" xsd:string
 property_value: IAO:0000118 "has_part" xsd:string
 property_value: RO:0001900 RO:0001901
 is_cyclic: false
@@ -54734,6 +54758,7 @@ id: part_of
 name: part of
 name: part_of
 namespace: external
+namespace: plant_ontology
 namespace: protein
 namespace: quality
 namespace: uberon
