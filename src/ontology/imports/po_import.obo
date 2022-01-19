@@ -1,202 +1,395 @@
 format-version: 1.2
+data-version: oba/releases/2022-01-19/imports/po_import.owl
+subsetdef: Angiosperm ""
+subsetdef: Arabidopsis ""
+subsetdef: Citrus ""
+subsetdef: CL ""
+subsetdef: Gymnosperms ""
+subsetdef: Maize ""
+subsetdef: Musa ""
+subsetdef: Poaceae ""
+subsetdef: Potato ""
+subsetdef: Pteridophytes ""
+subsetdef: reference ""
+subsetdef: Rice ""
+subsetdef: Tomato ""
+subsetdef: TraitNet ""
 ontology: oba/imports/po_import
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/po/releases/2021-08-13/po.owl
+property_value: owl:versionInfo "2022-01-19" xsd:string
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0016301>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000056>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002013>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002014>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002015>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002018>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002025>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002131>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002180>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002211>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002212>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002213>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002327>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002331>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002333>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002352>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002404>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002411>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002418>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002447>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002448>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002449>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002450>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002481>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002566>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002578>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002629>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002630>))\nDeclaration(AnnotationProperty(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled>))\n\n\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)\n\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000003>))\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000003> (occurrent)\n\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000002>))\n\n# Class: <http://purl.obolibrary.org/obo/GO_0016301> (kinase activity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0016301> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0002481>))\n\n\nSubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/BFO_0000040>) ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>)))))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002448>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002233>) <http://purl.obolibrary.org/obo/RO_0002566>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002566>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002629> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002450>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002630> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002449>)\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002180> Variable(<urn:swrl#w>) Variable(<urn:swrl#p>)) ClassAtom(<http://purl.obolibrary.org/obo/BFO_0000015> Variable(<urn:swrl#w>)) ClassAtom(<http://purl.obolibrary.org/obo/BFO_0000015> Variable(<urn:swrl#p>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002018> Variable(<urn:swrl#w>) Variable(<urn:swrl#p>))))\nDLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> \"true\"^^xsd:boolean) Annotation(rdfs:comment \"MF(X)-directly_regulates->MF(Y)-enabled_by->GP(Z) => MF(Y)-has_input->GP(Y) e.g. if 'protein kinase activity'(X) directly_regulates 'protein binding activity (Y)and this is enabled by GP(Z) then X has_input Z\") Annotation(rdfs:label \"infer input from direct reg\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<http://purl.obolibrary.org/obo/ro.owl#z>) Variable(<http://purl.obolibrary.org/obo/ro.owl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<http://purl.obolibrary.org/obo/ro.owl#x>) Variable(<http://purl.obolibrary.org/obo/ro.owl#y>)) ClassAtom(<http://purl.obolibrary.org/obo/GO_0003674> Variable(<http://purl.obolibrary.org/obo/ro.owl#x>)) ClassAtom(<http://purl.obolibrary.org/obo/GO_0003674> Variable(<http://purl.obolibrary.org/obo/ro.owl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<http://purl.obolibrary.org/obo/ro.owl#x>) Variable(<http://purl.obolibrary.org/obo/ro.owl#z>))))\nDLSafeRule(Annotation(rdfs:comment \"GP(X)-enables->MF(Y)-has_part->MF(Z) => GP(X) enables MF(Z),\ne.g.  if GP X enables ATPase coupled transporter activity' and 'ATPase coupled transporter activity' has_part 'ATPase activity' then GP(X) enables 'ATPase activity'\") Annotation(rdfs:label \"enabling an MF enables its parts\") Body(ClassAtom(<http://purl.obolibrary.org/obo/GO_0003674> Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000051> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> \"true\"^^xsd:boolean) Annotation(rdfs:comment \"GP(X)-enables->MF(Y)-part_of->BP(Z) => GP(X) involved_in BP(Z) e.g. if X enables 'protein kinase activity' and Y 'part of' 'signal tranduction' then X involved in 'signal transduction'\") Annotation(rdfs:label \"involved in BP\") Body(ClassAtom(<http://purl.obolibrary.org/obo/GO_0008150> Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000050> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002331> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#a1>) Variable(<urn:swrl#a2>)) ClassAtom(<http://purl.obolibrary.org/obo/GO_0016301> Variable(<urn:swrl#a1>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#a1>) Variable(<urn:swrl#g1>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#a2>) Variable(<urn:swrl#g2>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002447> Variable(<urn:swrl#g1>) Variable(<urn:swrl#g2>))))\nDLSafeRule(Annotation(rdfs:comment \"This rule is dubious: added as a quick fix for expected inference in GO-CAM.  The problem is most acute for transmembrane proteins, such as receptors or cell adhesion molecules, which have some subfunctions inside the cell (e.g. kinase activity) and some subfunctions outside (e.g. ligand binding).  Correct annotation of where these functions occurs leads to incorrect inference about the location of the whole protein.  This should probably be weakened to \\\"... -> overlaps\\\"\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000066> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000050> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Annotation(rdfs:comment \"If a molecular function (X) has a regulatory subfunction, then any gene product which is an input to that subfunction has an activity that directly_regulates X.  Note:  this is intended for cases where the regaultory subfunction is protein binding, so it could be tightened with an additional clause to specify this.\") Annotation(rdfs:label \"inferring direct reg edge from input to regulatory subfunction\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002013> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))\nDLSafeRule(Annotation(rdfs:label \"inferring direct neg reg edge from input to regulatory subfunction\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002014> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))\nDLSafeRule(Annotation(rdfs:label \"inferring direct positive reg edge from input to regulatory subfunction\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002352> Variable(<urn:swrl#B>) Variable(<urn:swrl#C>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002333> Variable(<urn:swrl#A>) Variable(<urn:swrl#B>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002015> Variable(<urn:swrl#D>) Variable(<urn:swrl#C>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl#A>) Variable(<urn:swrl#D>))))\nDLSafeRule(Annotation(rdfs:label \"effector input is compound function input\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#eff>) Variable(<urn:swrl#in>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#mf>) Variable(<urn:swrl#in>))))\nDLSafeRule(Annotation(rdfs:label \"Input of effector is input of its parent MF\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#mf>) Variable(<urn:swrl#in>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002233> Variable(<urn:swrl#eff>) Variable(<urn:swrl#in>))))\nDLSafeRule(Annotation(rdfs:comment \"if effector directly regulates X,  its parent MF directly regulates X\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#mf>) Variable(<urn:swrl#mf2>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002578> Variable(<urn:swrl#eff>) Variable(<urn:swrl#mf2>))))\nDLSafeRule(Annotation(rdfs:comment \"if effector directly positively regulates X,  its parent MF directly positively regulates X\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl#mf>) Variable(<urn:swrl#mf2>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002629> Variable(<urn:swrl#eff>) Variable(<urn:swrl#mf2>))))\nDLSafeRule(Annotation(rdfs:label \"if effector directly negatively regulates X,  its parent MF directly negatively regulates X\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002025> Variable(<urn:swrl#mf>) Variable(<urn:swrl#eff>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl#mf>) Variable(<urn:swrl#mf2>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002630> Variable(<urn:swrl#eff>) Variable(<urn:swrl#mf2>))))\nDLSafeRule(Annotation(rdfs:label \"'causally downstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002404> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002131> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl#x>)) ClassAtom(owl:Nothing Variable(<urn:swrl#y>))))\nDLSafeRule(Annotation(rdfs:label \"'causally upstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).\") Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002411> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002131> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl#x>)) ClassAtom(owl:Nothing Variable(<urn:swrl#y>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\n)
+
+[Term]
+id: BFO:0000002
+name: continuant
+def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
+disjoint_from: BFO:0000003 ! occurrent
+relationship: part_of BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000003
+name: occurrent
+def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
+relationship: part_of BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000004
+name: independent continuant
+def: "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." []
+is_a: BFO:0000002 ! continuant
+relationship: part_of BFO:0000004 ! independent continuant
+
+[Term]
+id: BFO:0000015
+name: process
+def: "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t." []
+is_a: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000040
+name: material entity
+def: "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." []
+is_a: BFO:0000004 ! independent continuant
+
+[Term]
+id: CARO:0000000
+name: anatomical entity
+is_a: CARO:0030000 ! biological entity
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/caro.owl
+
+[Term]
+id: CARO:0001010
+name: organism or virus or viroid
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: CARO:0030000
+name: biological entity
+is_a: BFO:0000004 ! independent continuant
+
+[Term]
+id: GO:0003674
+name: molecular_function
+is_a: BFO:0000015 ! process
+property_value: IAO:0000589 "molecular process" xsd:string
+
+[Term]
+id: GO:0003824
+name: catalytic activity
+is_a: GO:0003674 ! molecular_function
+
+[Term]
+id: GO:0008150
+name: biological_process
+is_a: BFO:0000015 ! process
+
+[Term]
+id: GO:0016301
+name: kinase activity
+is_a: GO:0016772 ! transferase activity, transferring phosphorus-containing groups
+
+[Term]
+id: GO:0016740
+name: transferase activity
+is_a: GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:0016772
+name: transferase activity, transferring phosphorus-containing groups
+is_a: GO:0016740 ! transferase activity
+
+[Term]
+id: NCBITaxon:1
+name: root
+synonym: "all" RELATED synonym []
+
+[Term]
+id: NCBITaxon:131567
+name: cellular organisms
+synonym: "biota" RELATED synonym []
+is_a: NCBITaxon:1 ! root
+
+[Term]
+id: NCBITaxon:2759
+name: Eukaryota
+synonym: "Eucarya" RELATED synonym []
+synonym: "Eucaryotae" RELATED synonym []
+synonym: "eucaryotes" EXACT genbank_common_name []
+synonym: "Eukarya" RELATED synonym []
+synonym: "Eukaryotae" RELATED synonym []
+synonym: "eukaryotes" EXACT common_name []
+synonym: "eukaryotes" RELATED blast_name []
+is_a: NCBITaxon:131567 ! cellular organisms
+
+[Term]
+id: NCBITaxon:33090
+name: Viridiplantae
+synonym: "Chlorobionta" RELATED synonym []
+synonym: "Chlorophyta/Embryophyta group" RELATED synonym []
+synonym: "chlorophyte/embryophyte group" RELATED synonym []
+synonym: "green plants" EXACT common_name []
+synonym: "green plants" RELATED blast_name []
+is_a: NCBITaxon:2759 ! Eukaryota
 
 [Term]
 id: PO:0000003
 name: whole plant
-def: "A plant structure (PO:0005679) which is a whole organism." []
-synonym: "bush" NARROW []
-synonym: "clonal colony" RELATED []
-synonym: "colony" RELATED []
-synonym: "frutex" NARROW []
-synonym: "frutices" NARROW []
-synonym: "gametophyte" NARROW []
-synonym: "genet" BROAD []
-synonym: "herb" NARROW []
-synonym: "liana" NARROW []
-synonym: "planta entera (Spanish)" EXACT []
-synonym: "prothalli" NARROW []
-synonym: "prothallium" NARROW []
-synonym: "prothallus" NARROW []
-synonym: "ramet" BROAD []
-synonym: "seedling" NARROW []
-synonym: "shrub" NARROW []
-synonym: "sporophyte" NARROW []
-synonym: "suffrutex" NARROW []
-synonym: "suffrutices" NARROW []
-synonym: "tree" NARROW []
-synonym: "vine" NARROW []
-synonym: "woody clump" NARROW []
-synonym: "植物体全体 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A plant structure (PO:0005679) which is a whole organism." [POC:curators]
+comment: Examples include plant embryo (PO:0009009), megagametophyte (PO:0025279) and microgametophyte (PO:0025280).
+subset: reference
+subset: TraitNet
+synonym: "bush (narrow)" NARROW []
+synonym: "clonal colony (related)" RELATED []
+synonym: "colony (related)" RELATED []
+synonym: "frutex (narrow)" NARROW [FNA:e4dde193-57f7-4ab9-9d25-96b4ca0088ba]
+synonym: "frutices (narrow)" NARROW Plural [FNA:ec8c2064-2a67-43d7-8e14-aecfef5cf33b]
+synonym: "gametophyte (narrow)" NARROW []
+synonym: "genet (broad)" BROAD []
+synonym: "herb (narrow)" NARROW []
+synonym: "liana (narrow)" NARROW []
+synonym: "planta entera (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "prothalli (narrow)" NARROW Plural [FNA:4b610104-1bb0-4c6b-9bb9-e3cc61d11ac0]
+synonym: "prothallium (narrow)" NARROW []
+synonym: "prothallus (narrow)" NARROW [FNA:f8f31520-e4bc-4430-9274-8dd3cee7ffd8]
+synonym: "ramet (broad)" BROAD []
+synonym: "seedling (narrow)" NARROW []
+synonym: "shrub (narrow)" NARROW []
+synonym: "sporophyte (narrow)" NARROW []
+synonym: "suffrutex (narrow)" NARROW [FNA:99508f62-7116-4e2b-90c0-19ff55ebd967]
+synonym: "suffrutices (narrow)" NARROW Plural [FNA:ba1b1bd5-75bd-4195-b11c-3aba08da08c2]
+synonym: "tree (narrow)" NARROW []
+synonym: "vine (narrow)" NARROW []
+synonym: "woody clump (narrow)" NARROW [FNA:c1ccca7d-2a98-4a9d-8603-c34b551935e0]
+synonym: "植物体全体 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:538
+xref: PO_GIT:69
 is_a: PO:0009011 ! plant structure
 
 [Term]
 id: PO:0000015
 name: cotyledon primordium
-def: "A phyllome primordium (PO:0025128) that develops from a cotyledon anlagen (PO:0025432) and is part of a vegetative shoot apex (PO:0025223) and is committed to the development of a cotyledon (PO:0020030)." []
-synonym: "cotyledon primordia" EXACT []
-synonym: "portion of cotyledon primordium tissue" EXACT []
-synonym: "primordio de cotiled&#243n (Spanish)" EXACT []
-synonym: "子葉原基（可視的） (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A phyllome primordium (PO:0025128) that develops from a cotyledon anlagen (PO:0025432) and is part of a vegetative shoot apex (PO:0025223) and is committed to the development of a cotyledon (PO:0020030)." [POC:curators]
+synonym: "cotyledon primordia (exact, plural)" EXACT []
+synonym: "portion of cotyledon primordium tissue (exact)" EXACT []
+synonym: "primordio de cotiled&#243n (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "子葉原基（可視的）(Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:466
 is_a: PO:0025128 ! phyllome primordium
-relationship: BFO:0000050 PO:0025223 ! part_of vegetative shoot apex
-relationship: RO:0002202 PO:0025432 ! develops_from cotyledon anlagen
+relationship: develops_from PO:0025432 ! cotyledon anlagen
+relationship: part_of PO:0025223 ! vegetative shoot apex
 
 [Term]
 id: PO:0000017
 name: vascular leaf primordium
-def: "A phyllome primordium (PO:0025128) that develops from a vascular leaf anlagen (PO:0025431) and is part of a vegetative shoot apex (PO:0025223) and is committed to the development of a vascular leaf (PO:0009025)." []
-synonym: "leaf primordium" EXACT []
-synonym: "portion of vascular leaf primordium tissue" EXACT []
-synonym: "primordio de hoja (Spanish)" EXACT []
-synonym: "vascular leaf primordia" EXACT []
-synonym: "葉原基 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A phyllome primordium (PO:0025128) that develops from a vascular leaf anlagen (PO:0025431) and is part of a vegetative shoot apex (PO:0025223) and is committed to the development of a vascular leaf (PO:0009025)." [POC:curators, POC:Laurel_Cooper]
+synonym: "leaf primordium (exact)" EXACT []
+synonym: "portion of vascular leaf primordium tissue (exact)" EXACT []
+synonym: "primordio de hoja (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "vascular leaf primordia (exact, plural)" EXACT []
+synonym: "葉原基 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:466
 is_a: PO:0025128 ! phyllome primordium
-relationship: BFO:0000050 PO:0025223 ! part_of vegetative shoot apex
-relationship: RO:0002202 PO:0025431 ! develops_from vascular leaf anlagen
-
-[Term]
-id: PO:0000034
-name: vascular system
-def: "A maximal portion of vascular tissue (PO:0009015) in a whole plant (PO:0000003), collective plant structure (PO:0025497), multi-tissue plant structure (PO:0025496), or cardinal part of multi-tissue plant structure (PO:0025498)." []
-synonym: "sistema vascular (Spanish)" EXACT []
-synonym: "vasculature" EXACT []
-synonym: "維管束系 (Japanese)" EXACT []
-is_a: PO:0009007 ! portion of plant tissue
-disjoint_from: PO:0009002 ! plant cell
-disjoint_from: PO:0009008 ! plant organ
-disjoint_from: PO:0025001 ! cardinal organ part
-disjoint_from: PO:0025007 ! collective plant organ structure
-relationship: BFO:0000050 PO:0000003 ! part_of whole plant
+relationship: develops_from PO:0025431 ! vascular leaf anlagen
+relationship: part_of PO:0025223 ! vegetative shoot apex
 
 [Term]
 id: PO:0000037
-name: shoot apex
-def: "A shoot axis (PO:0025029) that is the most distal part of a shoot system (PO:0009006) and has as parts a shoot apical meristem (PO:0020148) and the youngest primordia (PO:0025127)." []
-synonym: "&#225pice del epiblasto (epiblastema) (Spanish)" EXACT []
-synonym: "シュート頂、茎頂 (Japanese)" EXACT []
+name: shoot axis apex
+namespace: plant_anatomy
+def: "A shoot axis (PO:0025029) that is the most distal part of a shoot system (PO:0009006) and has as parts a shoot apical meristem (PO:0020148) and the youngest primordia (PO:0025127)." [POC:curators]
+subset: reference
+synonym: "&#225pice del epiblasto (epiblastema) (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "シュート頂、茎頂 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:234
 is_a: PO:0025029 ! shoot axis
 
 [Term]
 id: PO:0000225
 name: peripheral zone
-def: "A portion of meristem tissue (PO:0009013) which is the organogenic region of the meristem, characterized by higher rates of cell division." []
-synonym: "peripheral meristem" RELATED []
-synonym: "zona perif&#233rica (Spanish)" EXACT []
-synonym: "周辺帯 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A portion of meristem tissue (PO:0009013) which is the organogenic region of the meristem, characterized by higher rates of cell division." [ISBN:0521288959, TAIR_curator:Leonore_Reiser]
+synonym: "peripheral meristem (related)" RELATED []
+synonym: "zona perif&#233rica (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "周辺帯 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
 is_a: PO:0009013 ! portion of meristem tissue
-relationship: BFO:0000050 PO:0020148 ! part_of shoot apical meristem
+relationship: part_of PO:0020148 ! shoot apical meristem
 
 [Term]
 id: PO:0004010
 name: meristematic cell
-def: "A native plant cell (PO:0025606) synthesizing protoplasm and producing new cells by division and with only a primary cell wall." []
-synonym: "c&#233lula meristem&#225tica (Spanish)" EXACT []
-synonym: "stem cell" EXACT []
-synonym: "分裂組織細胞 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A native plant cell (PO:0025606) synthesizing protoplasm and producing new cells by division and with only a primary cell wall." [ISBN:0471245208, POC:Laurel_Cooper]
+subset: CL
+synonym: "c&#233lula meristem&#225tica (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "stem cell (exact)" EXACT []
+synonym: "分裂組織細胞 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: CL:0000034
+xref: PO_GIT:272
 is_a: PO:0025606 ! native plant cell
 
 [Term]
 id: PO:0004708
 name: scutellar node
-def: "A stem node that is the part of an embryo axis directly above the radicle where the scutellum is attached." []
-synonym: "nodo escutelar (Spanish)" EXACT []
-synonym: "胚盤節 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A stem node (PO:0020141) that is part of a plant embryo axis (PO:0019018) where the scutellum (PO:0020110) is attached." [ISBN:0471244554, POC:Laurel_Cooper]
+comment: Found in grasses where no hypocotyl is present. The scutellar node may represent a reduction of the hypocotyl and cotyledonary node.
+synonym: "nodo escutelar (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "胚盤節 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:145
 is_a: PO:0020141 ! stem node
 is_a: PO:0025099 ! embryo plant structure
-relationship: BFO:0000050 PO:0019018 ! part_of plant embryo axis
+relationship: part_of PO:0019018 ! plant embryo axis
 
 [Term]
 id: PO:0005004
 name: shoot axis node
-def: "A cardinal organ part (PO:0025001) of a shoot axis (PO:0025029) where a bud (PO:0000055) may form and develop into a branch (PO:0025073), leaf (PO:0025034), flower (PO:0004541), inflorescence (PO:0009049) or nodal root (PO:0003005)." []
-synonym: "nodo del epiblasto (epiblastema) (Spanish)" EXACT []
-synonym: "シュート 節 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A cardinal organ part (PO:0025001) of a shoot axis (PO:0025029) where a bud (PO:0000055) may form and develop into a branch (PO:0025073), leaf (PO:0025034), flower (PO:0004541), inflorescence (PO:0009049) or nodal root (PO:0003005)." [Gramene:Pankaj_Jaiswal, POC:curators, POC:Laurel_Cooper]
+subset: reference
+subset: TraitNet
+synonym: "nodo del epiblasto (epiblastema) (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "シュート 節 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:145
 is_a: PO:0025001 ! cardinal organ part
-relationship: BFO:0000050 PO:0025029 ! part_of shoot axis
+relationship: part_of PO:0025029 ! shoot axis
 
 [Term]
 id: PO:0005352
 name: xylem
-def: "A portion of vascular tissue (PO:0009015) that has as part one or more tracheary elements (PO:0000290)." []
-synonym: "portion of xylem tissue" EXACT []
-synonym: "xilema (Spanish)" EXACT []
-synonym: "木質部 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A portion of vascular tissue (PO:0009015) that has as part one or more tracheary elements (PO:0000290)." [ISBN:0471245194]
+comment: Functions in the translocation of water and solutes from roots (PO:0009005) to the shoot system (PO:0009006) and in support. Tracheary elements have lignified cell walls with secondary thickening and are dead at maturity.
+subset: TraitNet
+synonym: "portion of xylem tissue (exact)" EXACT []
+synonym: "xilema (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "木質部 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:434
 is_a: PO:0009015 ! portion of vascular tissue
 
 [Term]
 id: PO:0005597
 name: cambium
-def: "A lateral meristem (PO:0020145) that has as part a single layer of cambial initial cells (PO:0000295) and their derivatives, arranged orderly in radial files." []
-synonym: "cambium (Spanish)" EXACT []
-synonym: "形成層 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A lateral meristem (PO:0020145) that has as part a single layer of cambial initial cells (PO:0000295) and their derivatives, arranged orderly in radial files." [ISBN:047125208]
+comment: This term is applied to only two types of meristems: vascular cambium (PO:0005598) and cork cambium/phellogen (PO:0005599).
+subset: TraitNet
+synonym: "cambium (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "形成層 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:437
 is_a: PO:0020145 ! lateral meristem
 
 [Term]
 id: PO:0005598
 name: vascular cambium
-def: "A cambium (PO:0005597) that is located between and gives rise to secondary xylem (PO:0005848) and secondary phloem (PO:0005043)." []
-synonym: "cambium vascular (Spanish)" EXACT []
-synonym: "維管束形成層 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A cambium (PO:0005597) that is located between and gives rise to secondary xylem (PO:0005848) and secondary phloem (PO:0005043)." [ISBN:047125208]
+comment: A vascular cambium produces cells in both directions, centrifugally and centrifically, leading to an increase in the cross-sectional area of a plant axis (PO:0025004).
+subset: TraitNet
+synonym: "cambium vascular (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "維管束形成層 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:437
 is_a: PO:0005597 ! cambium
 
 [Term]
 id: PO:0005848
 name: secondary xylem
-def: "A portion of xylem (PO:0005352) tissue that develops from a vascular cambium (PO:0005598)." []
-synonym: "portion of secondary xylem tissue" EXACT []
-synonym: "wood" EXACT []
-synonym: "xilema secundario (Spanish)" EXACT []
-synonym: "二次木部 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A portion of xylem (PO:0005352) tissue that develops from a vascular cambium (PO:0005598)." [ISBN:0471245194]
+comment: Secondary xylem develops as part of secondary growth (GO:0080117). Secondary xylem is the wood of gymnosperm and dicot angiosperm trees, shrubs, and lianas. May be organized into axial (PO:0025410) and ray (PO:0025411) systems. Secondary xylem is often part of a shoot axis (PO:0025029) or a root (PO:0009005) but may occur in other organs. Some monocots have a primary thickening meristem (PO:0005039), located near the shoot apical meristem (PO:0020148), that gives the appearance of secondary growth and may produce lignified tissue that appears woody but is not composed of secondary xylem. Tracheary elements in secondary xylem (PO:0000290) have lignified cell walls with secondary thickening and are dead at maturity.
+subset: TraitNet
+synonym: "portion of secondary xylem tissue (exact)" EXACT []
+synonym: "wood (exact)" EXACT []
+synonym: "xilema secundario (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "二次木部 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:164
+xref: PO_GIT:434
 is_a: PO:0005352 ! xylem
 is_a: PO:0025409 ! secondary vascular tissue
-relationship: RO:0002202 PO:0005598 ! develops_from vascular cambium
 
 [Term]
 id: PO:0006001
 name: phyllome
-def: "A lateral plant organ (PO:0009008) produced by a shoot apical meristem (PO:0020148)." []
-synonym: "filoma (Spanish)" EXACT []
-synonym: "フィロム、葉(的）器官 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A lateral plant organ (PO:0009008) produced by a shoot apical meristem (PO:0020148)." [POC:curators]
+subset: reference
+subset: TraitNet
+synonym: "filoma (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "フィロム、葉(的）器官 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
 is_a: PO:0009008 ! plant organ
-relationship: BFO:0000050 PO:0009006 ! part_of shoot system
-relationship: RO:0002202 PO:0025128 ! develops_from phyllome primordium
+relationship: develops_from PO:0025128 ! phyllome primordium
+relationship: part_of PO:0009006 ! shoot system
 
 [Term]
 id: PO:0006079
 name: shoot system meristem
-def: "A portion of meristem tissue (PO:0009013) that is part of a shoot system (PO:0009006)." []
-synonym: "meristema del epiblasto (epiblastema) (Spanish)" EXACT []
-synonym: "シュート分裂組織 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A portion of meristem tissue (PO:0009013) that is part of a shoot system (PO:0009006)." [Gramene:Pankaj_Jaiswal, POC:Laurel_Cooper]
+subset: TraitNet
+synonym: "meristema del epiblasto (epiblastema) (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "シュート分裂組織 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:472
+xref: PO_GIT:583
 is_a: PO:0009013 ! portion of meristem tissue
-relationship: BFO:0000050 PO:0009006 ! part_of shoot system
+relationship: part_of PO:0009006 ! shoot system
 
 [Term]
 id: PO:0006210
 name: protoderm
-def: "A portion of meristem tissue (PO:0009013) that is the outer layer of an apical meristem (PO:0020144), or the outer layer of a plant embryo proper (PO:0000001), and gives rise to a portion of epidermis (PO:0005679)." []
-synonym: "dermatogen cell" RELATED []
-synonym: "portion of protoderm tissue" EXACT []
-synonym: "protodermis (Spanish)" EXACT []
-synonym: "前表皮、原表皮 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A portion of meristem tissue (PO:0009013) that is the outer layer of an apical meristem (PO:0020144), or the outer layer of a plant embryo proper (PO:0000001), and gives rise to a portion of epidermis (PO:0005679)." [ISBN:0471245208, POC:Laurel_Cooper]
+comment: A protoderm may or may not arise from independent initial cells (PO:0004011). Some researchers also refer to it as an epidermis in a  meristematic state.
+synonym: "dermatogen cell (related)" RELATED []
+synonym: "portion of protoderm tissue (exact)" EXACT []
+synonym: "protodermis (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "前表皮、原表皮 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:125
 is_a: PO:0009013 ! portion of meristem tissue
+
+[Term]
+id: PO:0007033
+name: whole plant development stage
+namespace: plant_structure_development_stage
+def: "A plant structure development stage (PO:0009012) that has as primary participant a whole plant (PO:0000003)." [POC:curators]
+subset: TraitNet
+synonym: "cereal plant growth stage ontology (GRO:0007199) (related)" RELATED []
+synonym: "maize growth stage (GRO:0007002) (related)" RELATED []
+synonym: "plant growth stages in Arabidopsis (TAIR:0000021) (related)" RELATED []
+synonym: "rice growth stage (GRO:0007040) (related)" RELATED []
+synonym: "Solanaceae whole plant growth stages (SGN:0000001) (related)" RELATED []
+synonym: "sorghum growth stage (GRO:0007124) (related)" RELATED []
+synonym: "wheat, barley and oat growth stage (GRO:0007156) (related)" RELATED []
+xref: PO_GIT:390
+is_a: PO:0009012 ! plant structure development stage
+relationship: has_participant PO:0000003 ! whole plant
 
 [Term]
 id: PO:0008016
 name: vegetative shoot apical meristem
-def: "A shoot apical meristem (PO:0020148) that gives rise to the apical growth of vegetative tissues and organs." []
-synonym: "meristema vegetativo apical del epiblasto (epiblastema) (Spanish)" EXACT []
-synonym: "vegetative meristem" RELATED []
-synonym: "栄養シュート頂端分裂組織 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A shoot apical meristem (PO:0020148) that gives rise to the apical growth of vegetative tissues and organs." [Gramene:Chih-Wei_Tung]
+synonym: "meristema vegetativo apical del epiblasto (epiblastema) (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "vegetative meristem (related)" RELATED []
+synonym: "栄養シュート頂端分裂組織 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:36
 is_a: PO:0020148 ! shoot apical meristem
 
 [Term]
 id: PO:0009002
 name: plant cell
-def: "A cell which is a plant structure (PO:0009011)." []
-synonym: "c&#233lula vegetal (Spanish)" EXACT []
-synonym: "cell" BROAD []
-synonym: "植物細胞 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A cell which is a plant structure (PO:0009011)." [GO:0005623, POC:curators]
+comment: Applies to cells that are living or dead at maturity (e.g., fiber cell or tracheid) and includes any external encapsulating structures (if present) such as the plasma membrane and the plant-type cell wall. Definition of cell GO:0005623: "The basic structural and functional unit of all organisms. Includes the plasma membrane and any external encapsulating structures such as the cell wall and cell envelope". GO:0009505. Definition of plant-type cell wall (GO:0009505): A more or less rigid structure lying outside the cell membrane of a cell and composed of cellulose and pectin and other organic and inorganic substances, synonym; exact: cellulose and pectin-containing cell wall.
+subset: CL
+subset: reference
+subset: TraitNet
+synonym: "c&#233lula vegetal (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "cell (broad)" BROAD []
+synonym: "植物細胞 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: GO:0005623
+xref: PO_GIT:56
 is_a: PO:0009011 ! plant structure
 disjoint_from: PO:0009007 ! portion of plant tissue
 disjoint_from: PO:0009008 ! plant organ
@@ -206,25 +399,35 @@ disjoint_from: PO:0025007 ! collective plant organ structure
 [Term]
 id: PO:0009006
 name: shoot system
-def: "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them." []
-synonym: "Poaceae crown" RELATED []
-synonym: "shoot" RELATED []
-synonym: "sistema de epiblasto (epiblastema) (Spanish)" EXACT []
-synonym: "thalli" RELATED []
-synonym: "thallus" RELATED []
-synonym: "tree crown" NARROW []
-synonym: "シュート系、苗条系 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them." [POC:curators, POC:Laurel_Cooper]
+comment: The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system.
+subset: reference
+subset: TraitNet
+synonym: "Poaceae crown (related)" RELATED []
+synonym: "shoot (related)" RELATED []
+synonym: "sistema de epiblasto (epiblastema) (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "thalli (related)" RELATED Plural [FNA:d1431b5c-7b86-46a0-8d3c-bd426fe12c85]
+synonym: "thallus (related)" RELATED [FNA:02756ad4-a09c-48d7-8754-903254e557a9]
+synonym: "tree crown (narrow)" NARROW []
+synonym: "シュート系、苗条系 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:135
 is_a: PO:0025007 ! collective plant organ structure
 
 [Term]
 id: PO:0009007
 name: portion of plant tissue
-def: "A plant structure (PO:0009011) that consists predominantly of similarly specialized plant cells (PO:0009002) of one or more types." []
-synonym: "plant tissue" RELATED []
-synonym: "porci&#243n de un tejido vegetal (Spanish)" EXACT []
-synonym: "portion of tissue" BROAD []
-synonym: "tissue" BROAD []
-synonym: "植物組織の一部 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A plant structure (PO:0009011) that consists predominantly of similarly specialized plant cells (PO:0009002) of one or more types." [POC:curators, TAIR_curator:Leonore_Reiser]
+comment: A portion of plant tissue may contain one or several types of cells that are organized in a specific spatial arrangement into a structural unit (which includes a mass of callus) and may include an intercellular matrix. May include other types of isolated cells, such as idioblasts.
+subset: reference
+subset: TraitNet
+synonym: "plant tissue (related)" RELATED []
+synonym: "porci&#243n de un tejido vegetal (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "portion of tissue (broad)" BROAD []
+synonym: "tissue (broad)" BROAD []
+synonym: "植物組織の一部 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:59
 is_a: PO:0009011 ! plant structure
 disjoint_from: PO:0009008 ! plant organ
 disjoint_from: PO:0025001 ! cardinal organ part
@@ -233,389 +436,1429 @@ disjoint_from: PO:0025007 ! collective plant organ structure
 [Term]
 id: PO:0009008
 name: plant organ
-def: "A multi-tissue plant structure (PO:0025496) that is a functional unit, is a proper part of a whole plant (PO:0000003), and includes portions of plant tissue (PO:0009007) of at least two different types that derive from a common developmental path." []
-synonym: "&#243rgano vegetal (Spanish)" EXACT []
-synonym: "compound plant organ" RELATED []
-synonym: "organ" BROAD []
-synonym: "simple plant organ" RELATED []
-synonym: "植物 器官 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A multi-tissue plant structure (PO:0025496) that is a functional unit, is a proper part of a whole plant (PO:0000003), and includes portions of plant tissue (PO:0009007) of at least two different types that derive from a common developmental path." [POC:curators]
+comment: Examples include stem (PO:0009047), leaf (PO:0025034), and root (PO:0009005). May include individual plant cells (PO:0009002) that are not part of a portion of plant tissue (e.g., idioblasts, PO:0000283). A plant organ may have one or more different plant organs as parts, such as a sporophyll (PO:0009026) that may have as part a sporangium (PO:0025094) or a carpel (PO:0009030) that may have as part a plant ovule (PO:0020003).
+subset: TraitNet
+synonym: "&#243rgano vegetal (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "compound plant organ (related)" RELATED []
+synonym: "organ (broad)" BROAD []
+synonym: "simple plant organ (related)" RELATED [PATO:01503]
+synonym: "植物 器官 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:55
 is_a: PO:0025496 ! multi-tissue plant structure
 
 [Term]
 id: PO:0009009
 name: plant embryo
-def: "A whole plant (PO:0000003) that participates in the plant embryo stage (PO:0007631)." []
-synonym: "embri&#243n (Spanish)" EXACT []
-synonym: "embryo" BROAD []
-synonym: "germ" RELATED []
-synonym: "植物胚 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A whole plant (PO:0000003) that participates in the plant embryo stage (PO:0007631)." [POC:curators]
+comment: A plant embryo is generally formed after the first division of a plant zygote (PO:0000423), but in the case of a nucellar (adventitious) plant embryo (PO:0004537), somatic plant embryo (PO:0025302), microspore-derived cultured plant embryo (PO:0025305), and other embryos that arise through apogamy, it begins after the division of a single cell that is not a zygote. The end of the embryo stage varies among taxa; the beginning of a seed germination stage (PO:0007057) in seed plants, formation of the first vascular leaf (PO:0009025) in pteridophytes, the beginning of development of a sporangium (PO:0025094) in bryophytes, or the beginning of the formation of a plant organ (PO:0009008) such as a root (PO:0009005), shoot axis (PO:0025029), or vascular leaf (PO:0009025) in a cultured plant embryo (PO:0000010).
+synonym: "embri&#243n (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "embryo (broad)" BROAD []
+synonym: "germ (related)" RELATED []
+synonym: "植物胚 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:92
 is_a: PO:0000003 ! whole plant
 
 [Term]
 id: PO:0009011
 name: plant structure
-def: "An anatomical structure that is or was part of a plant, or was derived from a part of a plant." []
-synonym: "estructura vegetal (Spanish)" EXACT []
-synonym: "植物 構造 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A plant anatomical entity (PO:0025131) that is, or was, part of a plant, or was derived from a part of a plant." [CARO:0000003, POC:curators]
+comment: 'Part' includes both proper parts and the whole plant. CARO:0000003 'connected anatomical structure' is defined as: Material anatomical entity that is a single connected structure with inherent 3D shape, generated by coordinated expression of the organism's own genome. {xref="PO:cooperl"}
+subset: TraitNet
+synonym: "estructura vegetal (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "植物 構造 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:57
 is_a: PO:0025131 ! plant anatomical entity
+
+[Term]
+id: PO:0009012
+name: plant structure development stage
+namespace: plant_structure_development_stage
+alt_id: PO:0007021
+def: "A stage in the life of a plant structure (PO:0009011) during which the plant structure undergoes developmental processes." [BFO:0000003, GO:0032502, POC:curators]
+comment: Refers to GO:0032502 'developmental process', which includes growth, differentiation, and senescence, and BFO:0000003 'ocurrent'.
+subset: TraitNet
+synonym: "Arabidopsis growth (related)" RELATED [TAIR:0000205]
+synonym: "etapa de desarrollo de estructura vegetal (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "plant growth and development stage (exact)" EXACT []
+xref: PO_GIT:185
+is_a: BFO:0000015 ! process
 
 [Term]
 id: PO:0009013
 name: portion of meristem tissue
-def: "A portion of plant tissue (PO:0009007) in which plant cells (PO:0009002) have retained their embryonic characteristics, or have reverted to them secondarily, and that divide to produce new cells that can undergo differentiation to form mature tissues, i.e. they have a capacity for morphogenesis and growth." []
-synonym: "meristem" EXACT []
-synonym: "meristema (Spanish)" EXACT []
-synonym: "meristematic tissue" EXACT []
-synonym: "分裂組織 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A portion of plant tissue (PO:0009007) in which plant cells (PO:0009002) have retained their embryonic characteristics, or have reverted to them secondarily, and that divide to produce new cells that can undergo differentiation to form mature tissues, i.e. they have a capacity for morphogenesis and growth." [APweb:Glossary, Gramene:Pankaj_Jaiswal]
+subset: TraitNet
+synonym: "meristem (exact)" EXACT []
+synonym: "meristema (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "meristematic tissue (exact)" EXACT []
+synonym: "分裂組織 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:472
 is_a: PO:0009007 ! portion of plant tissue
-relationship: BFO:0000051 PO:0004010 ! has_part meristematic cell
+relationship: has_part PO:0004010 ! meristematic cell
 
 [Term]
 id: PO:0009015
 name: portion of vascular tissue
-def: "A portion of plant tissue (PO:0009007) that has as part one or more tracheary elements (PO:0000290) or sieve elements (PO:0025406)." []
-synonym: "porci&#243n de tejido vascular (Spanish)" EXACT []
-synonym: "vascular system" RELATED []
-synonym: "vascular tissue" EXACT []
-synonym: "維管束細胞の一部 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A portion of plant tissue (PO:0009007) that has as part one or more tracheary elements (PO:0000290) or sieve elements (PO:0025406)." [POC:curators]
+comment: Functions in conduction and support. In shoot axes (PO:0025029), vascular tissue is often found as part of a shoot axis stele (PO:0025198) or as scattered vascular bundles (PO:0005020). May include other types of tissues or cells, such as parenchyma (PO:0005421) or fiber cells (PO:0025407).
+subset: TraitNet
+synonym: "porci&#243n de tejido vascular (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "vascular system (related)" RELATED []
+synonym: "vascular tissue (exact)" EXACT []
+synonym: "維管束細胞の一部 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: BTO:0001432
+xref: PO_GIT:431
 is_a: PO:0009007 ! portion of plant tissue
-relationship: BFO:0000050 PO:0000034 ! part_of vascular system
 
 [Term]
 id: PO:0009025
 name: vascular leaf
-def: "A leaf (PO:0025034) in a vascular plant." []
-synonym: "ascidia" NARROW []
-synonym: "ascidium" NARROW []
-synonym: "crozier" RELATED []
-synonym: "fiddlehead" NARROW []
-synonym: "foliage leaf" EXACT []
-synonym: "frond" NARROW []
-synonym: "hoja vascular (Spanish)" EXACT []
-synonym: "leaf, vascular" EXACT []
-synonym: "macrophyll" RELATED []
-synonym: "megaphyll" RELATED []
-synonym: "needle-like leaf" NARROW []
-synonym: "pitcher" NARROW []
-synonym: "pitcher blade" NARROW []
-synonym: "pitcher-blade" NARROW []
-synonym: "scale-like leaf" NARROW []
-synonym: "sterile frond" NARROW []
-synonym: "trophophyll" NARROW []
-synonym: "vascular leaves" EXACT []
-synonym: "維管束のある葉, または維管束植物の葉 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A leaf (PO:0025034) in a vascular plant." [POC:curators]
+comment: Has vascular tissue. From APweb Glossary: In angiosperms, commonly thought of as one of the three basic parts of the seed plant body, a structure usually of determinate growth, without secondary thickening, and of superficial origin, often flattened and photosynthetic in part, and in the axil of which is found a bud. Occurs in the sporophytic phase of a plant life cycle.
+subset: Angiosperm
+subset: Arabidopsis
+subset: Citrus
+subset: Gymnosperms
+subset: Maize
+subset: Musa
+subset: Potato
+subset: Pteridophytes
+subset: reference
+subset: Rice
+subset: Tomato
+subset: TraitNet
+synonym: "ascidia (narrow)" NARROW [FNA:06544712-db97-4208-b188-c4b756a53c72]
+synonym: "ascidium (narrow)" NARROW [FNA:a97f1513-7684-49d4-92f5-934d1c8b3e1c]
+synonym: "crozier (related)" RELATED [FNA:87e7efa9-89d7-4249-be74-bc22a0466a05]
+synonym: "fiddlehead (narrow)" NARROW [FNA:d894ba18-4523-484c-abab-26d1cac75bc4]
+synonym: "foliage leaf (exact)" EXACT []
+synonym: "frond (narrow)" NARROW []
+synonym: "hoja vascular (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "leaf, vascular (exact)" EXACT []
+synonym: "macrophyll (related)" RELATED [FNA:c1142d9b-c42a-45e1-93ac-9cbe9575321e]
+synonym: "megaphyll (related)" RELATED [FNA:c26c826a-30d6-494e-a2f1-05540465c9fc]
+synonym: "needle-like leaf (narrow)" NARROW []
+synonym: "pitcher (narrow)" NARROW [FNA:30d8bef3-ad1a-44ed-a995-24c3e342aefd]
+synonym: "pitcher blade (narrow)" NARROW [FNA:d3928bf3-1d8a-4fe5-a728-95c13c3a0f90]
+synonym: "pitcher-blade (narrow)" NARROW [FNA:30c47c20-f459-4518-8657-feed7eb92fe4]
+synonym: "scale-like leaf (narrow)" NARROW []
+synonym: "sterile frond (narrow)" NARROW [FNA:a4dc40f4-92f9-4ba5-b616-a84564f63fed]
+synonym: "trophophyll (narrow)" NARROW [FNA:8654d268-1e4c-4edf-b937-82a965b4edef]
+synonym: "vascular leaves (exact, plural)" EXACT [FNA:c7d9d167-4121-43b0-b2fe-bb1ae9d6d3a6]
+synonym: "維管束のある葉, または維管束植物の葉 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:137
 is_a: PO:0025034 ! leaf
-relationship: RO:0002202 PO:0000017 ! develops_from vascular leaf primordium
+relationship: develops_from PO:0000017 ! vascular leaf primordium
+relationship: participates_in PO:0028002 ! sporophyte development stage
 
 [Term]
 id: PO:0009047
 name: stem
-def: "A shoot axis (PO:0025029) that is the primary axis of a plant." []
-synonym: "bole" NARROW []
-synonym: "ca&#241a (Spanish)" EXACT []
-synonym: "cane" NARROW []
-synonym: "caudex" NARROW []
-synonym: "caudices" NARROW []
-synonym: "culm" EXACT []
-synonym: "eje primario (Spanish)" EXACT []
-synonym: "primary axis" EXACT []
-synonym: "primary stem" EXACT []
-synonym: "primocane" NARROW []
-synonym: "scape" NARROW []
-synonym: "stalk" NARROW []
-synonym: "tallo (Spanish)" EXACT []
-synonym: "tronco (Spanish)" EXACT []
-synonym: "trunk" NARROW []
-synonym: "茎 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A shoot axis (PO:0025029) that is the primary axis of a plant." [POC:curators]
+comment: A stem often bears leaves and buds. It is usually above ground, and is more or less negatively geotropic.
+subset: reference
+subset: TraitNet
+synonym: "bole (narrow)" NARROW [FNA:a5ba9e16-e0af-4430-a3a0-7aeb052fbffd]
+synonym: "ca&#241a (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "cane (narrow)" NARROW []
+synonym: "caudex (narrow)" NARROW [FNA:cea24c10-d5ff-435f-aa40-db77dcbd27f0]
+synonym: "caudices (narrow)" NARROW Plural [FNA:3c0e37e8-e363-4962-847e-5f9f2906d0f8]
+synonym: "core (narrow)" NARROW []
+synonym: "culm (exact)" EXACT []
+synonym: "eje primario (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "primary axis (exact)" EXACT []
+synonym: "primary stem (exact)" EXACT [FNA:e3b142f6-37cf-4c1f-be07-b64a90feb131]
+synonym: "primocane (narrow)" NARROW [FNA:58fb080c-dd6b-4172-b564-737091c72980]
+synonym: "scape (narrow)" NARROW [FNA:201dbd71-51cd-4138-8f61-3c3fdd55d02d]
+synonym: "stalk (narrow)" NARROW []
+synonym: "tallo (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "tronco (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "trunk (narrow)" NARROW []
+synonym: "茎 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:52
+xref: PO_GIT:96
 is_a: PO:0025029 ! shoot axis
 
 [Term]
 id: PO:0019018
 name: plant embryo axis
-def: "A plant axis (PO:0025004) that is the axial part of a plant embryo (PO:0009009)." []
-synonym: "eje del embri&#243n (Spanish)" EXACT []
-synonym: "embryo axis" BROAD []
-synonym: "hypocotyl-root axis" EXACT []
-synonym: "zygotic plant embryo axis" NARROW []
-synonym: "植物胚軸 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A plant axis (PO:0025004) that is the axial part of a plant embryo (PO:0009009)." [ISBN:0471245208, POC:Ramona_Walls]
+comment: Has as parts a hypocotyl, a root meristem and a radicle, if any of these are present.
+synonym: "eje del embri&#243n (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "embryo axis (broad)" BROAD []
+synonym: "hypocotyl-root axis (exact)" EXACT []
+synonym: "zygotic plant embryo axis (narrow)" NARROW []
+synonym: "植物胚軸 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:339
 is_a: PO:0025004 ! plant axis
 is_a: PO:0025099 ! embryo plant structure
-relationship: BFO:0000050 PO:0009009 ! part_of plant embryo
 
 [Term]
 id: PO:0020030
 name: cotyledon
-def: "A vascular leaf (PO:0009025) formed at the first shoot node (PO:0005004) of a plant embryo (PO:0009009) or a seedling (PO:0000003)." []
-synonym: "cotiled&#243n (Spanish)" EXACT []
-synonym: "seed leaf" EXACT []
-synonym: "子葉 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A vascular leaf (PO:0009025) formed at the first shoot node (PO:0005004) of a plant embryo (PO:0009009) or a seedling (PO:0000003)." [Gramene:Pankaj_Jaiswal, ISBN:9780879015329, POC:curators]
+subset: reference
+subset: TraitNet
+synonym: "cotiled&#243n (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "seed leaf (exact)" EXACT [FNA:2e1fc560-4493-47fe-b363-500a1189b27d]
+synonym: "子葉 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:457
 is_a: PO:0009025 ! vascular leaf
-relationship: RO:0002202 PO:0000015 ! develops_from cotyledon primordium
+relationship: develops_from PO:0000015 ! cotyledon primordium
 
 [Term]
 id: PO:0020141
 name: stem node
-def: "A shoot node that is part of a stem." []
-synonym: "nodo del tallo (Spanish)" EXACT []
-synonym: "茎節 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A shoot axis node (PO:0005004) that is part of a stem (PO:0009047)." [APweb:Glossary, POC:Laurel_Cooper]
+synonym: "nodo del tallo (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "茎節 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:145
 is_a: PO:0005004 ! shoot axis node
-relationship: BFO:0000050 PO:0009047 ! part_of stem
+relationship: part_of PO:0009047 ! stem
 
 [Term]
 id: PO:0020144
 name: apical meristem
-def: "A maximal portion of meristem tissue (PO:0009013) located at a shoot apex (PO:0000037) or root tip (PO:0000025)." []
-synonym: "AM" EXACT []
-synonym: "meristema apical (Spanish)" EXACT []
-synonym: "primary meristem" RELATED []
-synonym: "promeristem" BROAD []
-synonym: "頂端分裂組織 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A maximal portion of meristem tissue (PO:0009013) located at a shoot apex (PO:0000037) or root tip (PO:0000025)." [Gramene:Pankaj_Jaiswal, POC:curators, POC:Laurel_Cooper]
+subset: TraitNet
+synonym: "AM (exact)" EXACT []
+synonym: "meristema apical (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "primary meristem (related)" RELATED []
+synonym: "promeristem (broad)" BROAD []
+synonym: "頂端分裂組織 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:579
 is_a: PO:0009013 ! portion of meristem tissue
-relationship: BFO:0000051 PO:0006210 ! has_part protoderm
+relationship: has_part PO:0006210 ! protoderm
 
 [Term]
 id: PO:0020145
 name: lateral meristem
-def: "A portion of meristem (PO:0009013) tissue located parallel to the sides of a shoot axis (PO:0025029) or root (PO:0009005) that participates in lateral growth." []
-synonym: "lateral growth meristem" EXACT []
-synonym: "meristema lateral (Spanish)" EXACT []
-synonym: "secondary meristem" RELATED []
-synonym: "側 分裂組織 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A portion of meristem (PO:0009013) tissue located parallel to the sides of a shoot axis (PO:0025029) or root (PO:0009005) that participates in lateral growth." [ISBN:047125208]
+comment: A term for lateral growth has been requested in GO. Lateral meristems contribute to an increase in the cross-sectional area of a shoot axis or root. Examples of lateral meristems are: cambium (PO:0005597) (includes cork cambium (PO:0005599) and vascular cambium (PO:0005598)), shoot lateral meristem (PO:0006344) (includes primary thickening meristem (PO:0005039)), root lateral meristem (PO:0006308), and secondary thickening meristem (PO:0025414). Contrasts with apical meristem (PO:0020144), phyllome marginal meristem (PO:0025404), or intercalary meristem (PO:0006073).
+subset: TraitNet
+synonym: "lateral growth meristem (exact)" EXACT []
+synonym: "meristema lateral (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "secondary meristem (related)" RELATED []
+synonym: "側 分裂組織 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:437
 is_a: PO:0009013 ! portion of meristem tissue
-relationship: BFO:0000050 PO:0025004 ! part_of plant axis
+relationship: part_of PO:0025004 ! plant axis
 
 [Term]
 id: PO:0020148
 name: shoot apical meristem
-def: "A shoot system meristem (PO:0006079) formed at the apex of the shoot axis (PO:0025029), including those originating from an axillary bud meristem (PO:0000232)." []
-synonym: "meristema apical del epiblasto (epiblastema) (Spanish)" EXACT []
-synonym: "primary shoot meristem" RELATED []
-synonym: "promeristem" BROAD []
-synonym: "SAM" EXACT []
-synonym: "茎頂分裂組織 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A shoot system meristem (PO:0006079) formed at the apex of the shoot axis (PO:0025029), including those originating from an axillary bud meristem (PO:0000232)." [POC:Laurel_Cooper, UMSL_curator:fz]
+subset: TraitNet
+synonym: "meristema apical del epiblasto (epiblastema) (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "primary shoot meristem (related)" RELATED []
+synonym: "promeristem (broad)" BROAD []
+synonym: "SAM (exact)" EXACT []
+synonym: "茎頂分裂組織 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:472
 is_a: PO:0006079 ! shoot system meristem
 is_a: PO:0020144 ! apical meristem
-relationship: BFO:0000050 PO:0000037 ! part_of shoot apex
+relationship: part_of PO:0000037 ! shoot axis apex
 
 [Term]
 id: PO:0025001
 name: cardinal organ part
-def: "A cardinal part of multi-tissue plant structure (PO:0025498) that is a proper part of a plant organ (PO:0009008) and includes portions of plant tissue (PO:0009007) of at least two different types." []
-synonym: "cardinal part of plant organ" EXACT []
-synonym: "parte de un &#243rgano cardinal (Spanish)" EXACT []
-synonym: "基本的な（主要な）器官部 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A cardinal part of multi-tissue plant structure (PO:0025498) that is a proper part of a plant organ (PO:0009008) and includes portions of plant tissue (PO:0009007) of at least two different types." [POC:curators]
+comment: Cardinal refers to the fact that these are biologically meaningful and not arbitrary parts. Examples include petiole (PO:0020038), lamina (PO:0025060), and leaflet (PO:0020049). See also collective organ part structure (PO:0025269), for plant structures composed of parts of multiple organs.
+subset: Arabidopsis
+subset: TraitNet
+synonym: "cardinal part of plant organ (exact)" EXACT []
+synonym: "parte de un &#243rgano cardinal (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "基本的な（主要な）器官部 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:52
+xref: PO_GIT:60
 is_a: PO:0025498 ! cardinal part of multi-tissue plant structure
 intersection_of: PO:0025498 ! cardinal part of multi-tissue plant structure
-intersection_of: BFO:0000050 PO:0009008 ! part_of plant organ
-relationship: BFO:0000050 PO:0009008 ! part_of plant organ
+intersection_of: part_of PO:0009008 ! plant organ
+relationship: part_of PO:0009008 ! plant organ
+created_by: rwalls
+creation_date: 2010-02-11T01:18:24Z
 
 [Term]
 id: PO:0025004
 name: plant axis
-def: "An axial plant organ (PO:0009008)." []
-synonym: "eje de la planta (Spanish)" EXACT []
-synonym: "plant axes" EXACT []
-synonym: "植物軸（軸柱） (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "An axial plant organ (PO:0009008)." [POC:curators]
+comment: Includes roots and shoots.
+subset: TraitNet
+synonym: "eje de la planta (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "plant axes (exact, plural)" EXACT [FNA:2355281f-ab10-4ae2-a3d8-672cace068a8]
+synonym: "植物軸（軸柱） (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
 is_a: PO:0009008 ! plant organ
+created_by: rwalls
+creation_date: 2010-07-01T03:44:41Z
 
 [Term]
 id: PO:0025007
 name: collective plant organ structure
-def: "A collective plant structure (PO:0025497) that is a proper part of a whole plant (PO:0000003), and is composed of two or more adjacent plant organs (PO:0009008) and the associated portions of plant tissue (PO:0009007)." []
-synonym: "estructura vegetal colectiva de &#243rgano (Spanish)" EXACT []
-synonym: "集合植物器官構造 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A collective plant structure (PO:0025497) that is a proper part of a whole plant (PO:0000003), and is composed of two or more adjacent plant organs (PO:0009008) and the associated portions of plant tissue (PO:0009007)." [POC:curators]
+comment: Organs can be of the same type or different types. Examples include flower (PO:0009046), perianth (PO:0009058), and inflorescence (PO:0009049). See also collective organ part structure (PO:0025269), for plant structures composed of parts of multiple organs, but no complete plant organs. This was formerly named collective plant structure.
+subset: TraitNet
+synonym: "estructura vegetal colectiva de &#243rgano (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "集合植物器官構造 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:63
 is_a: PO:0025497 ! collective plant structure
-relationship: BFO:0000051 PO:0009008 ! has_part plant organ
+relationship: has_part PO:0009008 ! plant organ
+created_by: rwalls
+creation_date: 2010-02-09T04:12:11Z
 
 [Term]
 id: PO:0025028
 name: embryo plant cell
-def: "A native plant cell (PO:0025606) that is part of a plant embryo (PO:0009009)." []
-synonym: "c&#233lula embri&#243nica vegetal (Spanish)" EXACT []
-synonym: "embryo cell" BROAD []
-synonym: "embryonic cell" BROAD []
-synonym: "embryonic plant cell" EXACT []
-synonym: "胚性植物細胞 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A native plant cell (PO:0025606) that is part of a plant embryo (PO:0009009)." [POC:curators, POC:Laurel_Cooper]
+synonym: "c&#233lula embri&#243nica vegetal (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "embryo cell (broad)" BROAD []
+synonym: "embryonic cell (broad)" BROAD []
+synonym: "embryonic plant cell (exact)" EXACT []
+synonym: "胚性植物細胞 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:281
 is_a: PO:0025099 ! embryo plant structure
 is_a: PO:0025606 ! native plant cell
 intersection_of: PO:0025606 ! native plant cell
-intersection_of: BFO:0000050 PO:0009009 ! part_of plant embryo
-relationship: BFO:0000050 PO:0009009 ! part_of plant embryo
+intersection_of: part_of PO:0009009 ! plant embryo
+created_by: rwalls
+creation_date: 2010-05-07T02:41:17Z
 
 [Term]
 id: PO:0025029
 name: shoot axis
-def: "A plant axis (PO:0025004) that is part of a shoot system (PO:0009006)." []
-synonym: "caullome" EXACT []
-synonym: "eje del epiblasto (epiblastema) (Spanish)" EXACT []
-synonym: "shoot" RELATED []
-synonym: "シュート軸 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A plant axis (PO:0025004) that is part of a shoot system (PO:0009006)." [POC:curators]
+comment: Often bears leaves and branches. In vascular plants, has at least one node and one internode.
+subset: Angiosperm
+subset: Arabidopsis
+subset: Maize
+subset: Poaceae
+subset: Rice
+subset: TraitNet
+synonym: "caullome (exact)" EXACT []
+synonym: "eje del epiblasto (epiblastema) (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "shoot (related)" RELATED []
+synonym: "シュート軸 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
 is_a: PO:0025004 ! plant axis
-relationship: BFO:0000050 PO:0009006 ! part_of shoot system
+relationship: part_of PO:0009006 ! shoot system
+created_by: rwalls
+creation_date: 2010-07-01T03:46:35Z
 
 [Term]
 id: PO:0025034
 name: leaf
-def: "A phyllome (PO:0006001) that is not associated with a reproductive structure." []
-synonym: "hoja (Spanish)" EXACT []
-synonym: "葉 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A phyllome (PO:0006001) that is not associated with a reproductive structure." [POC:curators]
+subset: TraitNet
+synonym: "hoja (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "葉 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:274
+xref: PO_GIT:301
 is_a: PO:0006001 ! phyllome
+created_by: rwalls
+creation_date: 2010-07-12T01:31:44Z
 
 [Term]
 id: PO:0025099
 name: embryo plant structure
-def: "A plant structure (PO:0009011) that is part of an plant embryo (PO:0009009)." []
-synonym: "embryonic plant structure" EXACT []
-synonym: "estructura vegetal embri&#243nica (Spanish)" EXACT []
-synonym: "胚性植物構造 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A plant structure (PO:0009011) that is part of an plant embryo (PO:0009009)." [POC:curators]
+comment: Includes plant structures that only occur in embryos (such as suspensor) as well as plant structures that are part of an embryo when a plant is in the embryonic phase (such as embryonic radicle).
+synonym: "embryonic plant structure (exact)" EXACT []
+synonym: "estructura vegetal embri&#243nica (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "胚性植物構造 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:245
+xref: PO_GIT:339
 is_a: PO:0009011 ! plant structure
 intersection_of: PO:0009011 ! plant structure
-intersection_of: BFO:0000050 PO:0009009 ! part_of plant embryo
-relationship: BFO:0000050 PO:0009009 ! part_of plant embryo
+intersection_of: part_of PO:0009009 ! plant embryo
+relationship: part_of PO:0009009 ! plant embryo
+created_by: rwalls
+creation_date: 2010-11-05T01:36:24Z
 
 [Term]
 id: PO:0025127
 name: primordium
-def: "A portion of meristem tissue (PO:0009013) that has as parts protoderm (PO:0006210) and sub-epidermal meristematic tissue and is committed to the development of a particular plant structure (PO:0009011)." []
-synonym: "portion of primordial tissue" EXACT []
-synonym: "portion of primordium tissue" EXACT []
-synonym: "primordia" EXACT []
-synonym: "primordio (Spanish)" EXACT []
-synonym: "原基（可視的）  (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A portion of meristem tissue (PO:0009013) that has as parts protoderm (PO:0006210) and sub-epidermal meristematic tissue and is committed to the development of a particular plant structure (PO:0009011)." [POC:curators]
+comment: A primordium appears as a protrusion and is the first distinct form of a plant organ (PO:0009008), cardinal organ part (PO:0025001), or collective plant organ structure (PO:0025007). The transition from a primordium to the plant structure it develops into is marked by the development of non-meristematic cells, although meristematic cells may be present after the transition.
+synonym: "portion of primordial tissue (exact)" EXACT []
+synonym: "portion of primordium tissue (exact)" EXACT []
+synonym: "primordia (exact, plural)" EXACT []
+synonym: "primordio (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "原基（可視的）  (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:186
 is_a: PO:0009013 ! portion of meristem tissue
+created_by: rwalls
+creation_date: 2010-11-15T09:10:22Z
 
 [Term]
 id: PO:0025128
 name: phyllome primordium
-def: "A primordium (PO:0025127) that develops from a phyllome anlagen (PO:0025430) and is part of a shoot apex (PO:0000037) and is committed to the development of a phyllome (PO:0006001)." []
-synonym: "phyllome primordia" EXACT []
-synonym: "portion of phyllome primordium tissue" EXACT []
-synonym: "primordio del filoma (Spanish)" EXACT []
-synonym: "フィロム原基（可視的）  (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A primordium (PO:0025127) that develops from a phyllome anlagen (PO:0025430) and is part of a shoot apex (PO:0000037) and is committed to the development of a phyllome (PO:0006001)." [PMID:11572953, POC:curators]
+comment: The transition from phyllome primordium to phyllome occurs when the first non-meristematic tissue develops begins to develop.
+synonym: "phyllome primordia (exact, plural)" EXACT []
+synonym: "portion of phyllome primordium tissue (exact)" EXACT []
+synonym: "primordio del filoma (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "フィロム原基（可視的）  (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:466
 is_a: PO:0025127 ! primordium
-relationship: BFO:0000050 PO:0000037 ! part_of shoot apex
-relationship: RO:0002202 PO:0025430 ! develops_from phyllome anlagen
+relationship: develops_from PO:0025430 ! phyllome anlagen
+relationship: part_of PO:0000037 ! shoot axis apex
+created_by: rwalls
+creation_date: 2010-11-15T09:27:11Z
 
 [Term]
 id: PO:0025131
 name: plant anatomical entity
-def: "An anatomical entity that is or was part of a plant." []
-synonym: "entidad anat&#243mica vegetal (Spanish)" EXACT []
-synonym: "植物 解剖学（形態）的実体 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "An anatomical entity that is or was part of a plant." [BFO:0000004, CARO:0000000, POC:curators]
+comment: Includes both material entities such as plant structures and immaterial entities such as plant anatomical spaces. CARO:0000000 'anatomical entity' is defined as: A part of a cellular organism that is either an immaterial entity or a material entity with granularity aboove the level of a protein complex.  Or, a substance produced by a cellular organism with granularity above the level of a protein complex.  Refers to BFO:0000004 'independent continuant'. {xref="CAROC:Brownsville2014"}
+synonym: "entidad anat&#243mica vegetal (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "植物 解剖学（形態）的実体 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:224
+is_a: BFO:0000040 ! material entity
+relationship: only_in_taxon NCBITaxon:33090 {source="cjm"} ! Viridiplantae
+created_by: rwalls
+creation_date: 2010-11-15T11:41:38Z
 
 [Term]
 id: PO:0025223
 name: vegetative shoot apex
-def: "A shoot apex PO:0000037) that has as part a vegetative shoot apical meristem (PO:0008016)." []
-synonym: "&#225pice vegetativo del epiblasto (epiblastema) (Spanish)" EXACT []
-synonym: "栄養シュート頂、栄養枝頂 (Japanese)" EXACT []
-is_a: PO:0000037 ! shoot apex
-relationship: BFO:0000051 PO:0008016 ! has_part vegetative shoot apical meristem
+namespace: plant_anatomy
+def: "A shoot apex PO:0000037) that has as part a vegetative shoot apical meristem (PO:0008016)." [POC:Laurel_Cooper, POC:Ramona_Walls]
+synonym: "&#225pice vegetativo del epiblasto (epiblastema) (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "栄養シュート頂、栄養枝頂 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:234
+is_a: PO:0000037 ! shoot axis apex
+relationship: has_part PO:0008016 ! vegetative shoot apical meristem
+created_by: rwalls
+creation_date: 2010-12-20T08:47:03Z
 
 [Term]
 id: PO:0025233
 name: portion of embryo plant tissue
-def: "A portion of plant tissue that is part of a plant embryo." []
-synonym: "portion of embryo tissue" BROAD []
-synonym: "portion of embryonic plant tissue" EXACT []
-synonym: "tejido embri&#243nico vegetal (Spanish)" EXACT []
-synonym: "植物胚性組織 の一部   (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A portion of plant tissue (PO:0009007) that is part of a plant embryo (PO:0009009)." [POC:curators]
+comment: This class is for tissues that only occur as part of an embryo.
+synonym: "portion of embryo tissue (broad)" BROAD []
+synonym: "portion of embryonic plant tissue (exact)" EXACT []
+synonym: "tejido embri&#243nico vegetal (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "植物胚性組織 の一部   (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:338
 is_a: PO:0009007 ! portion of plant tissue
 is_a: PO:0025099 ! embryo plant structure
 intersection_of: PO:0009007 ! portion of plant tissue
-intersection_of: BFO:0000050 PO:0009009 ! part_of plant embryo
-relationship: BFO:0000050 PO:0009009 ! part_of plant embryo
+intersection_of: part_of PO:0009009 ! plant embryo
+created_by: rwalls
+creation_date: 2010-12-20T12:27:10Z
 
 [Term]
 id: PO:0025321
 name: cotyledonary node
-def: "A stem node from which one or more cotyledons grow." []
-synonym: "nodo del cotiled&#243n (Spanish)" EXACT []
-synonym: "子葉節 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A stem node (PO:0020141) from which cotyledons (PO:0020030) may develop." [POC:Laurel_Cooper, POC:Ramona_Walls]
+synonym: "nodo del cotiled&#243n (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "子葉節 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:145
 is_a: PO:0020141 ! stem node
+created_by: rwalls
+creation_date: 2011-05-09T01:27:53Z
+
+[Term]
+id: PO:0025337
+name: life of whole plant stage
+namespace: plant_structure_development_stage
+def: "A maximal whole plant development stage." [POC:curators]
+comment: There are only two types of life of whole plant. Every life of a whole plant is either a maximal gametophyte stage or a maximal sporophyte stage.
+synonym: "vida de la planta entera (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "植物体の一生 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:230
+is_a: PO:0007033 ! whole plant development stage
+created_by: rwalls
+creation_date: 2011-10-19T10:54:37Z
 
 [Term]
 id: PO:0025409
 name: secondary vascular tissue
-def: "A portion of vascular tissue (PO:0009015) that develops from a vascular cambium (PO:0005598)." []
-synonym: "tejido vascular secundario (Spanish)" EXACT []
-synonym: "二次維管組織 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A portion of vascular tissue (PO:0009015) that develops from a vascular cambium (PO:0005598)." [ISBN:0471245208]
+comment: Forms as part of secondary growth (GO:0080117) in vascular plants. Often differentiated into the axial system (PO:0025410) and ray system (PO:0025411).
+synonym: "tejido vascular secundario (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "二次維管組織 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:432
 is_a: PO:0009015 ! portion of vascular tissue
 intersection_of: PO:0009015 ! portion of vascular tissue
-intersection_of: RO:0002202 PO:0005598 ! develops_from vascular cambium
-relationship: RO:0002202 PO:0005598 ! develops_from vascular cambium
+intersection_of: develops_from PO:0005598 ! vascular cambium
+relationship: develops_from PO:0005598 ! vascular cambium
+created_by: rwalls
+creation_date: 2012-02-01T10:53:46Z
 
 [Term]
 id: PO:0025430
 name: phyllome anlagen
-def: "A portion of meristem tissue (PO:0009013) that is part of a peripheral zone (PO:0000225) of a shoot apical meristem (PO:0020148) and will give rise to a phyllome primordium (PO:0025128)." []
-synonym: "phyllome meristem" BROAD []
-synonym: "フィロム原基 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A portion of meristem tissue (PO:0009013) that is part of a peripheral zone (PO:0000225) of a shoot apical meristem (PO:0020148) and will give rise to a phyllome primordium (PO:0025128)." [POC:curators, POC:Laurel_Cooper]
+comment: The phyllome anlagen is only detectable by gene expression, not morphology.
+synonym: "phyllome meristem (broad)" BROAD []
+synonym: "フィロム原基 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:427
 is_a: PO:0009013 ! portion of meristem tissue
-relationship: BFO:0000050 PO:0000225 ! part_of peripheral zone
+relationship: part_of PO:0000225 ! peripheral zone
+created_by: Laurel_Cooper
+creation_date: 2012-02-07T08:20:10Z
 
 [Term]
 id: PO:0025431
 name: vascular leaf anlagen
-def: "A phyllome anlagen (PO:0025430) that will give rise to a vascular leaf primordium (PO:0000017) and is part of a peripheral zone (PO:0000225) of a shoot apical meristem (PO:0020148)." []
-synonym: "leaf meristem" BROAD []
-synonym: "維管束系葉原基 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A phyllome anlagen (PO:0025430) that will give rise to a vascular leaf primordium (PO:0000017) and is part of a peripheral zone (PO:0000225) of a shoot apical meristem (PO:0020148)." [PMID:14732442, POC:Laurel_Cooper]
+comment: This is the region where you have the maximum concentration of auxin in the SAM (at least in a few species that have been studied).
+synonym: "leaf meristem (broad)" BROAD []
+synonym: "維管束系葉原基 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:407
 is_a: PO:0025430 ! phyllome anlagen
-relationship: BFO:0000050 PO:0008016 ! part_of vegetative shoot apical meristem
+relationship: part_of PO:0008016 ! vegetative shoot apical meristem
+created_by: Laurel_Cooper
+creation_date: 2012-02-07T08:40:37Z
 
 [Term]
 id: PO:0025432
 name: cotyledon anlagen
-def: "A phyllome anlagen (PO:0025430) that will give rise to a cotyledon primordium (PO:0000015) and is part of a peripheral zone (PO:000225) of an embryo shoot apical meristem (PO:0006362)." []
-synonym: "precursor de cotiled&#243n (Spanish)" EXACT []
-synonym: "子葉原基 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A phyllome anlagen (PO:0025430) that will give rise to a cotyledon primordium (PO:0000015) and is part of a peripheral zone (PO:000225) of an embryo shoot apical meristem (PO:0006362)." [POC:curators]
+synonym: "precursor de cotiled&#243n (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "子葉原基 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:407
 is_a: PO:0025233 ! portion of embryo plant tissue
 is_a: PO:0025430 ! phyllome anlagen
-relationship: BFO:0000050 PO:0009009 ! part_of plant embryo
+created_by: Laurel_Cooper
+creation_date: 2012-02-07T09:07:56Z
 
 [Term]
 id: PO:0025496
 name: multi-tissue plant structure
-def: "A plant structure (PO:0009011) that has as parts two or more portions of plant tissue (PO:0009007) of at least two different types and which through specific morphogenetic processes forms a single structural unit demarcated by primarily bona-fide boundaries from other structural units of different types." []
-synonym: "estructura vegetal con m&#250ltiples tejidos (Spanish)" EXACT []
-synonym: "複数の組織からなる植物構造 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A plant structure (PO:0009011) that has as parts two or more portions of plant tissue (PO:0009007) of at least two different types and which through specific morphogenetic processes forms a single structural unit demarcated by primarily bona-fide boundaries from other structural units of different types." [CARO:0000055, POC:curators]
+comment: Most multi-tissue plant structures have at least a small connection to other plant structures via a fiat boundary, such as where a leaf (PO:0025034) connects to a shoot axis (PO:0025029), a petal (PO:0009032) connects to a receptacle (PO:0009064), or a branch (PO:0025073) connects to a stem (PO:0009047).  Refers to CARO:0000055 multi-tissue structure, def'n: Anatomical structure that has as parts two or more portions of tissue of at least two different types, and which through specific morphogenetic processes, form a single distinct structural unit demarcated by bona-fide boundries from other structural units of differnt types.
+synonym: "estructura vegetal con m&#250ltiples tejidos (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "複数の組織からなる植物構造 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:480
 is_a: PO:0009011 ! plant structure
+created_by: Laurel_Cooper
+creation_date: 2012-06-11T14:57:00Z
 
 [Term]
 id: PO:0025497
 name: collective plant structure
-def: "A plant structure (PO:0009011) that is a proper part of a whole plant (PO:0000003) and includes two or more adjacent plant organs (PO:0009008) or adjacent cardinal organ parts (PO:0025001), along with any associated portions of plant tissue (PO:0009007)." []
-synonym: "estructura vegetal colectiva (Spanish)" EXACT []
-synonym: "集合的植物構造 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A plant structure (PO:0009011) that is a proper part of a whole plant (PO:0000003) and includes two or more adjacent plant organs (PO:0009008) or adjacent cardinal organ parts (PO:0025001), along with any associated portions of plant tissue (PO:0009007)." [POC:curators]
+comment: This is a parent term to describe both collective organ part structure (PO:0025269)  (e.g. septum), as well as collective plant organ structure (PO:0025007) (which was formerly named collective plant structure), for example shoot system (PO:0009006).
+synonym: "estructura vegetal colectiva (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "集合的植物構造 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:479
 is_a: PO:0009011 ! plant structure
+created_by: Laurel_Cooper
+creation_date: 2012-06-11T15:09:20Z
 
 [Term]
 id: PO:0025498
 name: cardinal part of multi-tissue plant structure
-def: "A plant structure (PO:0009011) that is a proper part of a multi-tissue plant structure (PO:0025496) and includes portions of plant tissues (PO:0009007) of at least two different types." []
-synonym: "parte cardinal de estructura vegetal con m&#250ltiples tejidos (Spanish)" EXACT []
-synonym: "複数の組織からなる植物構造の基本（主要）部分 (Japanese)" EXACT []
+namespace: plant_anatomy
+def: "A plant structure (PO:0009011) that is a proper part of a multi-tissue plant structure (PO:0025496) and includes portions of plant tissues (PO:0009007) of at least two different types." [POC:curators]
+comment: Includes cardinal parts of plant organs (PO:0025001) as well as parts of other multi-tissue plant structures. Cardinal refers to the fact that these are biologically meaningful and not arbitrary parts. Most cardinal parts of multi-tissue plant structures have both fiat and bona-fide boundaries, including parts with large fiat boundaries, such as leaf base (PO:0020040) or fruit distal end (PO:0008001), and parts with primarily bona-fide boundaries, such as leaflet (PO:0020049).
+synonym: "parte cardinal de estructura vegetal con m&#250ltiples tejidos (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "複数の組織からなる植物構造の基本（主要）部分 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:485
 is_a: PO:0009011 ! plant structure
-relationship: BFO:0000050 PO:0025496 ! part_of multi-tissue plant structure
+relationship: part_of PO:0025496 ! multi-tissue plant structure
+created_by: Laurel_Cooper
+creation_date: 2012-06-11T15:28:44Z
 
 [Term]
 id: PO:0025606
 name: native plant cell
-def: "A plant cell (PO:0009002) that is either part of a multicellular whole plant (PO:0000003) 'in vivo' or a unicellular organism 'in natura' (i.e. part of a natural environment)." []
+namespace: plant_anatomy
+def: "A plant cell (PO:0009002) that is either part of a multicellular whole plant (PO:0000003) 'in vivo' or a unicellular organism 'in natura' (i.e. part of a natural environment)." [POC:Laurel_Cooper]
+comment: A native plant cell is one that is not grown or maintained in vitro, nor part of an in vitro plant structure (PO:0000004).
+xref: PO_GIT:586
 is_a: PO:0009002 ! plant cell
+created_by: Laurel_Cooper
+creation_date: 2014-05-13T16:51:47Z
+
+[Term]
+id: PO:0028002
+name: sporophyte development stage
+namespace: plant_structure_development_stage
+def: "A whole plant development stage (PO:0007033) that has as primary participant a whole plant (PO:0000003) during the interval between fertilization (or apogamy) and death." [POC:curators]
+comment: A whole plant (PO:0000003) in the sporophyte development stage usually has twice the chromosome complement of a plant in the gametophytic phase, but may not in the case of apogamy. Examples of apogamy include both naturally occurring instances (such as sporophytes arising form haploid cells as in bryophytes or ferns) as well as in vitro instances (such as haploid embryo culture or in vitro fusion of non-gamete cells or protoplasts). During the sporophyte development stage, a plant may produce meiospores by meiosis.
+subset: TraitNet
+synonym: "fase esporof&#237tica (Spanish, exact)" EXACT Spanish [POC:Maria_Alejandra_Gandolfo]
+synonym: "sporophytic development stage (exact)" EXACT []
+synonym: "sporophytic phase (exact)" EXACT []
+synonym: "sporphyte phase (exact)" EXACT []
+synonym: "胞子体発生過程 (Japanese, exact)" EXACT Japanese [NIG:Yukiko_Yamazaki]
+xref: PO_GIT:139
+xref: PO_GIT:68
+is_a: PO:0007033 ! whole plant development stage
+relationship: part_of PO:0025337 ! life of whole plant stage
+created_by: rwalls
+creation_date: 2010-07-15T02:56:11Z
 
 [Typedef]
-id: BFO:0000050
-name: part_of
+id: BFO:0000066
+name: occurs in
+def: "b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
+comment: Paraphrase of definition: a relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant
+property_value: IAO:0000111 "occurs in" xsd:string
+property_value: IAO:0000118 "occurs_in" xsd:string
+property_value: IAO:0000118 "unfolds in" xsd:string
+property_value: IAO:0000118 "unfolds_in" xsd:string
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+domain: BFO:0000003 ! occurrent
+range: BFO:0000004 ! independent continuant
+holds_over_chain: part_of BFO:0000066
+inverse_of: BFO:0000067 ! contains process
+transitive_over: part_of ! part of
+
+[Typedef]
+id: BFO:0000067
+name: contains process
+def: "[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
+comment: Paraphrase of definition: a relation between an independent continuant and a process, in which the process takes place entirely within the independent continuant
+property_value: IAO:0000111 "site of" xsd:string
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
+[Typedef]
+id: RO:0002013
+name: has regulatory component activity
+def: "A 'has regulatory component activity' B if A and B are GO molecular functions (GO_0003674), A has_component B and A is regulated by B." []
+is_a: RO:0002017 ! has component activity
+is_a: RO:0002334 ! regulated by
+
+[Typedef]
+id: RO:0002014
+name: has negative regulatory component activity
+def: "A relationship that holds between a GO molecular function and a component of that molecular function that negatively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is negatively regulated by B." []
+is_a: RO:0002013 ! has regulatory component activity
+is_a: RO:0002335 ! negatively regulated by
+
+[Typedef]
+id: RO:0002015
+name: has positive regulatory component activity
+def: "A relationship that holds between a GO molecular function and a component of that molecular function that positively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is positively regulated by B." []
+is_a: RO:0002013 ! has regulatory component activity
+is_a: RO:0002336 ! positively regulated by
+
+[Typedef]
+id: RO:0002017
+name: has component activity
+is_a: RO:0002018 ! has component process
+
+[Typedef]
+id: RO:0002018
+name: has component process
+def: "w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+is_a: RO:0002180 ! has component
+
+[Typedef]
+id: RO:0002022
+name: directly regulated by
+is_a: RO:0002334 ! regulated by
+inverse_of: RO:0002578 ! directly regulates
+
+[Typedef]
+id: RO:0002023
+name: directly negatively regulated by
+def: "Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1." [GOC:dos]
+is_a: RO:0002022 ! directly regulated by
+inverse_of: RO:0002630 ! directly negatively regulates
+
+[Typedef]
+id: RO:0002024
+name: directly positively regulated by
+def: "Process(P2) is directly postively regulated by process(P1) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P2 is directly postively regulated by P1." [GOC:dos]
+is_a: RO:0002022 ! directly regulated by
+inverse_of: RO:0002629 ! directly positively regulates
+
+[Typedef]
+id: RO:0002025
+name: has effector activity
+def: "A 'has effector activity' B if A and B are GO molecular functions (GO_0003674),  A 'has component activity' B and B is the effector (output function) of B.  Each compound function has only one effector activity." [GOC:dos]
+is_functional: true
+is_a: RO:0002017 ! has component activity
+
+[Typedef]
+id: RO:0002086
+name: ends after
+comment: X ends_after Y iff: end(Y) before_or_simultaneous_with end(X)
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
 is_transitive: true
+is_a: RO:0002222 ! temporally related to
 
 [Typedef]
-id: BFO:0000051
-name: has_part
+id: RO:0002087
+name: immediately preceded by
+comment: X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000118 "starts_at_end_of" xsd:string
+is_a: preceded_by ! preceded_by
+inverse_of: RO:0002090 ! immediately precedes
+
+[Typedef]
+id: RO:0002090
+name: immediately precedes
+comment: X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000118 "ends_at_start_of" xsd:string
+property_value: IAO:0000118 "meets" xsd:string
+is_a: precedes ! precedes
+
+[Typedef]
+id: RO:0002131
+name: overlaps
+def: "x overlaps y if and only if there exists some z such that x has part z and z part of y" []
+holds_over_chain: has_part part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
+holds_over_chain: has_part RO:0002131
+holds_over_chain: part_of part_of
+is_a: RO:0002323 ! mereotopologically related to
+transitive_over: part_of ! part of
+
+[Typedef]
+id: RO:0002162
+name: in taxon
+def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
+range: CARO:0001010 ! organism or virus or viroid
+holds_over_chain: develops_from RO:0002162
+holds_over_chain: has_part RO:0002162
+holds_over_chain: part_of RO:0002162
+holds_over_chain: RO:0002215 RO:0002162
+holds_over_chain: RO:0002254 RO:0002162
+is_a: RO:0002320 ! evolutionarily related to
+
+[Typedef]
+id: RO:0002180
+name: has component
+def: "w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
+is_a: has_part ! has part
+
+[Typedef]
+id: RO:0002203
+name: develops into
+def: "inverse of develops from" []
 is_transitive: true
+is_a: RO:0002286 ! developmentally succeeded by
+is_a: RO:0002387 ! has potential to develop into
+is_a: RO:0002388 ! has potential to directly develop into
 
 [Typedef]
-id: RO:0002202
+id: RO:0002211
+name: regulates
+def: "process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2." []
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+holds_over_chain: RO:0002578 RO:0002578
+is_transitive: true
+is_a: RO:0002411 ! causally upstream of
+inverse_of: RO:0002334 ! regulated by
+transitive_over: RO:0002025 ! has effector activity
+
+[Typedef]
+id: RO:0002212
+name: negatively regulates
+def: "Process(P1) negatively regulates process(P2) iff: P1 terminates P2, or P1 descreases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
+is_a: RO:0002211 ! regulates
+is_a: RO:0002305 ! causally upstream of, negative effect
+inverse_of: RO:0002335 ! negatively regulated by
+
+[Typedef]
+id: RO:0002213
+name: positively regulates
+def: "Process(P1) postively regulates process(P2) iff: P1 initiates P2, or P1 increases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
+holds_over_chain: RO:0002212 RO:0002212
+is_transitive: true
+is_a: RO:0002211 ! regulates
+is_a: RO:0002304 ! causally upstream of, positive effect
+inverse_of: RO:0002336 ! positively regulated by
+
+[Typedef]
+id: RO:0002215
+name: capable of
+def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. " []
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000015 ! process
+is_a: RO:0002216 ! capable of part of
+
+[Typedef]
+id: RO:0002216
+name: capable of part of
+def: "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p." []
+holds_over_chain: RO:0002215 part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
+is_a: RO:0002328 ! functionally related to
+is_a: RO:0002500 ! causal agent in process
+
+[Typedef]
+id: RO:0002222
+name: temporally related to
+comment: A relation that holds between two occurrents. This is a grouping relation that collects together all the Allen relations.
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000119 https://en.wikipedia.org/wiki/Allen%27s_interval_algebra
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+
+[Typedef]
+id: RO:0002233
+name: has input
+def: "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
+domain: BFO:0000015 ! process
+range: BFO:0000040 ! material entity
+is_a: has_participant ! has participant
+inverse_of: RO:0002352 ! input of
+
+[Typedef]
+id: RO:0002254
+name: has developmental contribution from
+def: "x has developmental contribution from y iff x has some part z such that z develops from y" []
+domain: CARO:0000000 ! anatomical entity
+range: CARO:0000000 ! anatomical entity
+holds_over_chain: has_part develops_from
+is_a: developmentally_preceded_by ! developmentally preceded by
+inverse_of: RO:0002255 ! developmentally contributes to
+
+[Typedef]
+id: RO:0002255
+name: developmentally contributes to
+def: "inverse of has developmental contribution from" []
+holds_over_chain: RO:0002203 part_of
+is_a: RO:0002286 ! developmentally succeeded by
+is_a: RO:0002385 ! has potential to developmentally contribute to
+
+[Typedef]
+id: RO:0002263
+name: acts upstream of
+def: "c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes." []
+holds_over_chain: RO:0002327 RO:0002411
+is_a: RO:0002264 ! acts upstream of or within
+
+[Typedef]
+id: RO:0002264
+name: acts upstream of or within
+def: "c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process." []
+synonym: "affects" RELATED []
+holds_over_chain: RO:0002327 RO:0002418
+is_a: RO:0002500 ! causal agent in process
+
+[Typedef]
+id: RO:0002286
+name: developmentally succeeded by
+def: "Inverse of developmentally preceded by" []
+is_a: RO:0002384 ! has developmental potential involving
+
+[Typedef]
+id: RO:0002304
+name: causally upstream of, positive effect
+is_a: RO:0002411 ! causally upstream of
+is_a: RO:0004047 ! causally upstream of or within, positive effect
+
+[Typedef]
+id: RO:0002305
+name: causally upstream of, negative effect
+is_a: RO:0002411 ! causally upstream of
+is_a: RO:0004046 ! causally upstream of or within, negative effect
+
+[Typedef]
+id: RO:0002320
+name: evolutionarily related to
+def: "A relationship that holds via some environmental process" []
+
+[Typedef]
+id: RO:0002323
+name: mereotopologically related to
+def: "A mereological relationship or a topological relationship" []
+
+[Typedef]
+id: RO:0002324
+name: developmentally related to
+def: "A relationship that holds between entities participating in some developmental process (GO:0032502)" []
+
+[Typedef]
+id: RO:0002327
+name: enables
+is_a: RO:0002215 ! capable of
+inverse_of: RO:0002333 ! enabled by
+transitive_over: has_part ! has part
+transitive_over: RO:0002017 ! has component activity
+
+[Typedef]
+id: RO:0002328
+name: functionally related to
+def: "A grouping relationship for any relationship directly involving a function, or that holds because of a function of one of the related entities." []
+
+[Typedef]
+id: RO:0002329
+name: part of structure that is capable of
+def: "this relation holds between c and p when c is part of some c', and c' is capable of p." []
+holds_over_chain: part_of RO:0002215 {http://purl.obolibrary.org/obo/RO_0002581="true"}
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0002331
+name: involved in
+def: "c involved_in p if and only if c enables some process p', and p' is part of p" []
+holds_over_chain: RO:0002327 part_of
+is_a: participates_in ! participates_in
+is_a: RO:0002431 ! involved in or involved in regulation of
+transitive_over: part_of ! part of
+
+[Typedef]
+id: RO:0002333
+name: enabled by
+def: "inverse of enables" []
+is_a: has_participant ! has participant
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0002334
+name: regulated by
+def: "inverse of regulates" []
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+is_transitive: true
+is_a: RO:0002427 ! causally downstream of or within
+
+[Typedef]
+id: RO:0002335
+name: negatively regulated by
+def: "inverse of negatively regulates" []
+is_a: RO:0002334 ! regulated by
+
+[Typedef]
+id: RO:0002336
+name: positively regulated by
+def: "inverse of positively regulates" []
+is_a: RO:0002334 ! regulated by
+
+[Typedef]
+id: RO:0002352
+name: input of
+def: "inverse of has input" []
+is_a: participates_in ! participates_in
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0002384
+name: has developmental potential involving
+def: "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)." []
+domain: CARO:0000000 ! anatomical entity
+range: CARO:0000000 ! anatomical entity
+is_a: RO:0002324 ! developmentally related to
+
+[Typedef]
+id: RO:0002385
+name: has potential to developmentally contribute to
+def: "x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y" []
+is_a: RO:0002384 ! has developmental potential involving
+
+[Typedef]
+id: RO:0002387
+name: has potential to develop into
+def: "x has the potential to develop into y iff x develops into y or if x is capable of developing into y" []
+is_a: RO:0002384 ! has developmental potential involving
+
+[Typedef]
+id: RO:0002388
+name: has potential to directly develop into
+def: "x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y" []
+is_a: RO:0002387 ! has potential to develop into
+
+[Typedef]
+id: RO:0002404
+name: causally downstream of
+def: "inverse of upstream of" []
+is_a: preceded_by ! preceded_by
+is_a: RO:0002427 ! causally downstream of or within
+inverse_of: RO:0002411 ! causally upstream of
+
+[Typedef]
+id: RO:0002405
+name: immediately causally downstream of
+is_a: RO:0002087 ! immediately preceded by
+is_a: RO:0002404 ! causally downstream of
+inverse_of: RO:0002412 ! immediately causally upstream of
+
+[Typedef]
+id: RO:0002410
+name: causally related to
+def: "This relation groups causal relations between material entities and causal relations between processes" []
+
+[Typedef]
+id: RO:0002411
+name: causally upstream of
+def: "p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain" []
+is_transitive: true
+is_a: precedes ! precedes
+is_a: RO:0002418 ! causally upstream of or within
+
+[Typedef]
+id: RO:0002412
+name: immediately causally upstream of
+def: "p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q." []
+is_a: RO:0002090 ! immediately precedes
+is_a: RO:0002411 ! causally upstream of
+
+[Typedef]
+id: RO:0002418
+name: causally upstream of or within
+def: "p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q." []
+synonym: "affects" RELATED []
+is_transitive: true
+is_a: RO:0002501 ! causal relation between processes
+inverse_of: RO:0002427 ! causally downstream of or within
+
+[Typedef]
+id: RO:0002427
+name: causally downstream of or within
+def: "inverse of causally upstream of or within" []
+is_transitive: true
+is_a: RO:0002501 ! causal relation between processes
+
+[Typedef]
+id: RO:0002428
+name: involved in regulation of
+def: "c involved in regulation of p if c is involved in some p' and p' regulates some p" []
+holds_over_chain: RO:0002327 RO:0002211
+holds_over_chain: RO:0002331 RO:0002211
+is_a: RO:0002263 ! acts upstream of
+is_a: RO:0002431 ! involved in or involved in regulation of
+
+[Typedef]
+id: RO:0002429
+name: involved in positive regulation of
+def: "c involved in regulation of p if c is involved in some p' and p' positively regulates some p" []
+holds_over_chain: RO:0002327 RO:0002213
+holds_over_chain: RO:0002331 RO:0002213
+is_a: RO:0002428 ! involved in regulation of
+
+[Typedef]
+id: RO:0002430
+name: involved in negative regulation of
+def: "c involved in regulation of p if c is involved in some p' and p' negatively regulates some p" []
+holds_over_chain: RO:0002327 RO:0002212
+holds_over_chain: RO:0002331 RO:0002212
+is_a: RO:0002428 ! involved in regulation of
+
+[Typedef]
+id: RO:0002431
+name: involved in or involved in regulation of
+def: "c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p" []
+is_a: RO:0002264 ! acts upstream of or within
+is_a: RO:0002328 ! functionally related to
+is_a: RO:0002500 ! causal agent in process
+
+[Typedef]
+id: RO:0002432
+name: is active in
+def: "c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure." [GOC:cjm, GOC:dos]
+synonym: "enables activity in" EXACT []
+holds_over_chain: RO:0002327 BFO:0000066 {http://purl.obolibrary.org/obo/RO_0002581="true"}
+is_a: RO:0002131 ! overlaps
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0002434
+name: interacts with
+def: "A relationship that holds between two entities in which the processes executed by the two entities are causally connected." []
+synonym: "in pairwise interaction with" EXACT []
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_symmetric: true
+
+[Typedef]
+id: RO:0002436
+name: molecularly interacts with
+def: "An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other." []
+is_symmetric: true
+is_a: RO:0002434 ! interacts with
+
+[Typedef]
+id: RO:0002447
+name: phosphorylates
+is_a: RO:0002436 ! molecularly interacts with
+
+[Typedef]
+id: RO:0002448
+name: directly regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that regulates an activity performed by B. For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.\n\nA and B can be physically interacting but not necessarily. Immediately upstream means there are no intermediate entity between A and B." []
+synonym: "molecularly controls" EXACT []
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002436 ! molecularly interacts with
+is_a: RO:0011002 ! regulates activity of
+
+[Typedef]
+id: RO:0002449
+name: directly negatively regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that negatively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
+synonym: "molecularly decreases activity of" EXACT []
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002448 ! directly regulates activity of
+
+[Typedef]
+id: RO:0002450
+name: directly positively regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that positively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
+synonym: "molecularly increases activity of" EXACT []
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002448 ! directly regulates activity of
+
+[Typedef]
+id: RO:0002464
+name: helper property (not for use in curation)
+
+[Typedef]
+id: RO:0002479
+name: has part that occurs in
+def: "p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c." []
+domain: BFO:0000003 ! occurrent
+range: BFO:0000004 ! independent continuant
+holds_over_chain: has_part BFO:0000066 {http://purl.obolibrary.org/obo/RO_0002581="true"}
+
+[Typedef]
+id: RO:0002481
+name: is kinase activity
+is_a: RO:0002564 ! molecular interaction relation helper property
+
+[Typedef]
+id: RO:0002500
+name: causal agent in process
+def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process" []
+is_a: RO:0002595 ! causal relation between material entity and a process
+inverse_of: RO:0002608 ! process has causal agent
+
+[Typedef]
+id: RO:0002501
+name: causal relation between processes
+def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q." []
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002506
+name: causal relation between entities
+domain: BFO:0000002 ! continuant
+range: BFO:0000002 ! continuant
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002559
+name: causally influenced by
+is_a: RO:0002506 ! causal relation between entities
+inverse_of: RO:0002566 ! causally influences
+
+[Typedef]
+id: RO:0002563
+name: interaction relation helper property
+is_a: RO:0002464 ! helper property (not for use in curation)
+
+[Typedef]
+id: RO:0002564
+name: molecular interaction relation helper property
+is_a: RO:0002563 ! interaction relation helper property
+
+[Typedef]
+id: RO:0002566
+name: causally influences
+def: "The entity or characteristic A is causally upstream of the entity or characteristic B, A having an effect on B. An entity corresponds to any biological type of entity as long as a mass is measurable. A characteristic corresponds to a particular specificity of an entity (e.g., phenotype, shape, size)." []
+domain: BFO:0000002 ! continuant
+range: BFO:0000002 ! continuant
+is_a: RO:0002506 ! causal relation between entities
+
+[Typedef]
+id: RO:0002578
+name: directly regulates
+def: "Process(P1) directly regulates process(P2) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2." []
+is_a: RO:0002211 ! regulates
+is_a: RO:0002412 ! immediately causally upstream of
+
+[Typedef]
+id: RO:0002584
+name: has part structure that is capable of
+def: "s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p" []
+holds_over_chain: has_part RO:0002215
+is_a: RO:0002328 ! functionally related to
+is_a: RO:0002595 ! causal relation between material entity and a process
+
+[Typedef]
+id: RO:0002595
+name: causal relation between material entity and a process
+def: "A relationship that holds between a material entity and a process in which causality is involved, with either the material entity or some part of the material entity exerting some influence over the process, or the process influencing some aspect of the material entity." []
+domain: BFO:0000040 ! material entity
+range: BFO:0000015 ! process
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002596
+name: capable of regulating
+def: "Holds between c and p if and only if c is capable of some activity a, and a regulates p." []
+holds_over_chain: RO:0002215 RO:0002211
+is_a: RO:0002500 ! causal agent in process
+
+[Typedef]
+id: RO:0002597
+name: capable of negatively regulating
+def: "Holds between c and p if and only if c is capable of some activity a, and a negatively regulates p." []
+holds_over_chain: RO:0002215 RO:0002212
+is_a: RO:0002596 ! capable of regulating
+
+[Typedef]
+id: RO:0002598
+name: capable of positively regulating
+def: "Holds between c and p if and only if c is capable of some activity a, and a positively regulates p." []
+holds_over_chain: RO:0002215 RO:0002213
+is_a: RO:0002596 ! capable of regulating
+
+[Typedef]
+id: RO:0002608
+name: process has causal agent
+def: "Inverse of 'causal agent in process'" []
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002629
+name: directly positively regulates
+def: "Process(P1) directly postively regulates process(P2) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P1 directly positively regulates P2." []
+is_a: RO:0002213 ! positively regulates
+is_a: RO:0002578 ! directly regulates
+
+[Typedef]
+id: RO:0002630
+name: directly negatively regulates
+def: "Process(P1) directly negatively regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2." []
+is_a: RO:0002212 ! negatively regulates
+is_a: RO:0002578 ! directly regulates
+
+[Typedef]
+id: RO:0004031
+name: enables subfunction
+def: "Holds between an entity and an process P where the entity enables some larger compound process, and that larger process has-part P." []
+holds_over_chain: RO:0002327 has_part
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0004032
+name: acts upstream of or within, positive effect
+holds_over_chain: RO:0002327 RO:0004047
+is_a: RO:0002264 ! acts upstream of or within
+
+[Typedef]
+id: RO:0004033
+name: acts upstream of or within, negative effect
+holds_over_chain: RO:0002327 RO:0004046
+is_a: RO:0002264 ! acts upstream of or within
+
+[Typedef]
+id: RO:0004034
+name: acts upstream of, positive effect
+def: "c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive" []
+holds_over_chain: RO:0002327 RO:0002304
+is_a: RO:0002263 ! acts upstream of
+is_a: RO:0004032 ! acts upstream of or within, positive effect
+
+[Typedef]
+id: RO:0004035
+name: acts upstream of, negative effect
+def: "c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative" []
+holds_over_chain: RO:0002327 RO:0002305
+is_a: RO:0002263 ! acts upstream of
+is_a: RO:0004033 ! acts upstream of or within, negative effect
+
+[Typedef]
+id: RO:0004046
+name: causally upstream of or within, negative effect
+is_a: RO:0002418 ! causally upstream of or within
+
+[Typedef]
+id: RO:0004047
+name: causally upstream of or within, positive effect
+is_a: RO:0002418 ! causally upstream of or within
+
+[Typedef]
+id: RO:0011002
+name: regulates activity of
+def: "The entity A has an activity that regulates an activity of the entity B. For example, A and B are gene products where the catalytic activity of A regulates the kinase activity of B." []
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002566 ! causally influences
+
+[Typedef]
+id: developmentally_preceded_by
+name: developmentally preceded by
+name: developmentally_preceded_by
+namespace: plant_ontology
+def: "Candidate definition: x developmentally related to y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p" []
+def: "X developmentally related to y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p." [RO:0002258]
+xref: RO:0002258
+domain: BFO:0000002 ! continuant
+range: BFO:0000002 ! continuant
+is_a: RO:0002324 ! developmentally related to
+inverse_of: RO:0002286 ! developmentally succeeded by
+created_by: Laurel_Cooper
+creation_date: 2013-06-27T13:16:56Z
+
+[Typedef]
+id: develops_from
+name: develops from
 name: develops_from
+namespace: plant_ontology
+def: "x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y" []
+xref: RO:0002202
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000004 ! independent continuant
 is_transitive: true
+is_a: developmentally_preceded_by ! developmentally preceded by
+inverse_of: RO:0002203 ! develops into
+
+[Typedef]
+id: has_part
+name: has part
+name: has_part
+namespace: plant_ontology
+def: "a core relation that holds between a whole and its part" []
+xref: BFO:0000051
+property_value: IAO:0000111 "has part" xsd:string
+property_value: IAO:0000112 "my body has part my brain (continuant parthood, two material entities)" xsd:string
+property_value: IAO:0000112 "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)" xsd:string
+property_value: IAO:0000112 "this year has part this day (occurrent parthood)" xsd:string
+property_value: IAO:0000116 "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part." xsd:string
+property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime" xsd:string
+property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'." xsd:string
+property_value: IAO:0000118 "has_part" xsd:string
+property_value: RO:0001900 RO:0001901
+is_transitive: true
+is_a: RO:0002131 ! overlaps
+
+[Typedef]
+id: has_participant
+name: has participant
+name: has_participant
+namespace: plant_ontology
+def: "a relation between a process and a continuant, in which the continuant is somehow involved in the process" []
+xref: RO:0000057
+property_value: http://purl.org/dc/elements/1.1/source http://www.obofoundry.org/ro/#OBO_REL:has_participant xsd:string
+property_value: IAO:0000111 "has participant" xsd:string
+property_value: IAO:0000112 "this blood coagulation has participant this blood clot" xsd:string
+property_value: IAO:0000112 "this investigation has participant this investigator" xsd:string
+property_value: IAO:0000112 "this process has participant this input material (or this output material)" xsd:string
+property_value: IAO:0000116 "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time." xsd:string
+property_value: IAO:0000118 "has_participant" xsd:string
+domain: BFO:0000003 ! occurrent
+range: BFO:0000002 ! continuant
+holds_over_chain: has_part has_participant
+
+[Typedef]
+id: only_in_taxon
+name: only in taxon
+name: only_in_taxon
+namespace: plant_ontology
+def: "x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z." []
+xref: RO:0002160
+is_a: RO:0002162 ! in taxon
+
+[Typedef]
+id: part_of
+name: part of
+name: part_of
+namespace: plant_ontology
+def: "a core relation that holds between a part and its whole" []
+xref: BFO:0000050
+property_value: IAO:0000111 "is part of" xsd:string
+property_value: IAO:0000112 "my brain is part of my body (continuant parthood, two material entities)" xsd:string
+property_value: IAO:0000112 "my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)" xsd:string
+property_value: IAO:0000112 "this day is part of this year (occurrent parthood)" xsd:string
+property_value: IAO:0000116 "Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other." xsd:string
+property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime" xsd:string
+property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)\n\nA continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'." xsd:string
+property_value: IAO:0000118 "part_of" xsd:string
+property_value: RO:0001900 RO:0001901
+property_value: seeAlso http://www.obofoundry.org/ro/#OBO_REL:part_of xsd:string
+is_transitive: true
+is_a: RO:0002131 ! overlaps
+inverse_of: has_part ! has part
+
+[Typedef]
+id: participates_in
+name: participates in
+name: participates_in
+namespace: plant_ontology
+def: "a relation between a continuant and a process, in which the continuant is somehow involved in the process" []
+xref: RO:0000056
+property_value: IAO:0000111 "participates in" xsd:string
+property_value: IAO:0000112 "this blood clot participates in this blood coagulation" xsd:string
+property_value: IAO:0000112 "this input material (or this output material) participates in this process" xsd:string
+property_value: IAO:0000112 "this investigator participates in this investigation" xsd:string
+property_value: IAO:0000118 "participates_in" xsd:string
+domain: BFO:0000002 ! continuant
+range: BFO:0000003 ! occurrent
+inverse_of: has_participant ! has participant
+
+[Typedef]
+id: preceded_by
+name: preceded by
+name: preceded_by
+namespace: plant_ontology
+def: "The assertion P preceded_by P1 tells us something about Ps in general: that is, it tells us something about what happened earlier, given what we know about what happened later. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be succeeded by some instance of P." [POC:Laurel_Cooper]
+def: "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+comment: Note that an assertion to the effect that P preceded_by P1 is rather weak; it tells us little about the relations between the underlying instances in virtue of which the preceded_by relation obtains. Typically we will be interested in stronger relations, for example in the relation immediately_preceded_by, or in relations which combine preceded_by with a condition to the effect that the corresponding instances of P and P1 share participants, or that their participants are connected by relations of derivation, or (as a first step along the road to a treatment of causality) that the one process in some way affects (for example, initiates or regulates) the other.
+xref: BFO:0000062
+property_value: http://purl.org/dc/elements/1.1/source http://www.obofoundry.org/ro/#OBO_REL:preceded_by xsd:string
+property_value: IAO:0000111 "preceded by" xsd:string
+property_value: IAO:0000116 "An example is: translation preceded_by transcription; aging preceded_by development (not however death preceded_by aging). Where derives_from links classes of continuants, preceded_by links classes of processes. Clearly, however, these two relations are not independent of each other. Thus if cells of type C1 derive_from cells of type C, then any cell division involving an instance of C1 in a given lineage is preceded_by cellular processes involving an instance of C.    The assertion P preceded_by P1 tells us something about Ps in general: that is, it tells us something about what happened earlier, given what we know about what happened later. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be succeeded by some instance of P. Note that an assertion to the effect that P preceded_by P1 is rather weak; it tells us little about the relations between the underlying instances in virtue of which the preceded_by relation obtains. Typically we will be interested in stronger relations, for example in the relation immediately_preceded_by, or in relations which combine preceded_by with a condition to the effect that the corresponding instances of P and P1 share participants, or that their participants are connected by relations of derivation, or (as a first step along the road to a treatment of causality) that the one process in some way affects (for example, initiates or regulates) the other." xsd:string
+property_value: IAO:0000118 "is preceded by" xsd:string
+property_value: IAO:0000118 "preceded_by" xsd:string
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+holds_over_chain: part_of preceded_by
+is_transitive: true
+is_a: RO:0002086 ! ends after
+inverse_of: precedes ! precedes
+created_by: Laurel_Cooper
+creation_date: 2013-07-09T14:29:15Z
+
+[Typedef]
+id: precedes
+name: precedes
+namespace: plant_ontology
+def: "x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+xref: BFO:0000063
+property_value: IAO:0000111 "precedes" xsd:string
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+holds_over_chain: part_of precedes
+is_transitive: true
+is_a: RO:0002222 ! temporally related to
+created_by: Laurel_Cooper
+creation_date: 2015-06-04T17:18:40Z
 
