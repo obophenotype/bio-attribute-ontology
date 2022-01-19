@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: oba/releases/2021-12-03/oba-base.owl
+data-version: oba/releases/2022-01-19/oba-base.owl
 date: 13:11:2015 10:21
 saved-by: cjmungall
 auto-generated-by: TermGenie 1.0
@@ -9,7 +9,7 @@ property_value: http://purl.org/dc/elements/1.1/description "A collection of bio
 property_value: http://purl.org/dc/elements/1.1/title "Ontology of Biological Attributes (OBA)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2021-12-03" xsd:string
+property_value: owl:versionInfo "2022-01-19" xsd:string
 property_value: property-value "foaf-homepage \"http://wiki.geneontology.org/index.php/Extensions/x-attribute\" xsd:anyURL" xsd:string
 
 [Term]
@@ -291,12 +291,10 @@ replaced_by: OBA:1001087
 [Term]
 id: OBA:0000079
 name: hormone levels
-def: "The amount of a hormone." [AUTO:patterns/patterns/entity_attribute]
+def: "The amount of hormone." [AUTO:patterns/patterns/chemical_role_attribute]
 comment: TODO - unify levels vs amount
-synonym: "amount of hormone" EXACT [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of hormone" EXACT [AUTO:patterns/patterns/chemical_role_attribute]
 is_a: OBA:0000001 ! biological attribute
-intersection_of: PATO:0000070
-intersection_of: inheres_in CHEBI:24621
 
 [Term]
 id: OBA:0000084
@@ -727,11 +725,9 @@ is_a: OBA:0000001 ! biological attribute
 [Term]
 id: OBA:0000182
 name: nutrient level
-def: "The amount of a nutrient." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of nutrient" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The amount of nutrient." [AUTO:patterns/patterns/chemical_role_attribute]
+synonym: "amount of nutrient" EXACT [AUTO:patterns/patterns/chemical_role_attribute]
 is_a: OBA:0000001 ! biological attribute
-intersection_of: PATO:0000070
-intersection_of: inheres_in CHEBI:33284
 
 [Term]
 id: OBA:0000183
@@ -16473,17 +16469,17 @@ intersection_of: inheres_in CL:0000589
 
 [Term]
 id: OBA:0003971
-name: outer hair cell amount
-def: "The amount of a outer hair cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cochlear outer hair cell amount
+def: "The amount of a cochlear outer hair cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of cochlear outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000070
 intersection_of: inheres_in CL:0000601
 
 [Term]
 id: OBA:0003972
-name: outer hair cell degeneration
-def: "The degeneration of a outer hair cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "degeneration of outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: cochlear outer hair cell degeneration
+def: "The degeneration of a cochlear outer hair cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "degeneration of cochlear outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0002037
 intersection_of: inheres_in CL:0000601
 
@@ -18975,9 +18971,9 @@ intersection_of: inheres_in CL:0000740
 
 [Term]
 id: OBA:0004288
-name: http://purl.obolibrary.org/obo/GO_0098846 morphology
-def: "The morphology of a http://purl.obolibrary.org/obo/GO_0098846." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of http://purl.obolibrary.org/obo/GO_0098846" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: podocyte foot morphology
+def: "The morphology of a podocyte foot." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of podocyte foot" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000051
 intersection_of: inheres_in GO:0098846
 
@@ -19167,9 +19163,9 @@ intersection_of: inheres_in CL:0000653
 
 [Term]
 id: OBA:0004312
-name: http://purl.obolibrary.org/obo/GO_0098846 amount
-def: "The amount of a http://purl.obolibrary.org/obo/GO_0098846." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of http://purl.obolibrary.org/obo/GO_0098846" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: podocyte foot amount
+def: "The amount of a podocyte foot." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of podocyte foot" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000070
 intersection_of: inheres_in GO:0098846
 
@@ -22498,17 +22494,17 @@ intersection_of: inheres_in UBERON:0003984
 
 [Term]
 id: OBA:0004732
-name: http://purl.obolibrary.org/obo/CL_0011003 morphology
-def: "The morphology of a http://purl.obolibrary.org/obo/CL_0011003." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of http://purl.obolibrary.org/obo/CL_0011003" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: magnocellular neurosecretory cell morphology
+def: "The morphology of a magnocellular neurosecretory cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of magnocellular neurosecretory cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000051
 intersection_of: inheres_in CL:0011003
 
 [Term]
 id: OBA:0004733
-name: http://purl.obolibrary.org/obo/CL_0011003 altered number of
-def: "The altered number of of a http://purl.obolibrary.org/obo/CL_0011003." [AUTO:patterns/patterns/entity_attribute]
-synonym: "altered number of of http://purl.obolibrary.org/obo/CL_0011003" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: magnocellular neurosecretory cell altered number of
+def: "The altered number of of a magnocellular neurosecretory cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "altered number of of magnocellular neurosecretory cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0002083
 intersection_of: inheres_in CL:0011003
 
@@ -28858,9 +28854,9 @@ intersection_of: inheres_in CL:0000540
 
 [Term]
 id: OBA:0005528
-name: neuron of cerebral cortex displaced
-def: "The displaced of a neuron of cerebral cortex." [AUTO:patterns/patterns/entity_attribute]
-synonym: "displaced of neuron of cerebral cortex" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: obsolete neuron of cerebral cortex displaced
+def: "The displaced of a obsolete neuron of cerebral cortex." [AUTO:patterns/patterns/entity_attribute]
+synonym: "displaced of obsolete neuron of cerebral cortex" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0002181
 intersection_of: inheres_in CL:0002609
 
@@ -41012,9 +41008,9 @@ intersection_of: inheres_in CHEBI:24867
 
 [Term]
 id: OBA:1000941
-name: insulin amount
-def: "The amount of a insulin." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of insulin" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: insulin gene translation product amount
+def: "The amount of a insulin gene translation product." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of insulin gene translation product" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000070
 intersection_of: inheres_in PR:000009054
 
@@ -41261,10 +41257,8 @@ intersection_of: inheres_in CHEBI:18085
 [Term]
 id: OBA:1000972
 name: thyroid hormone amount
-def: "The amount of a thyroid hormone." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of thyroid hormone" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000070
-intersection_of: inheres_in CHEBI:60311
+def: "The amount of thyroid hormone." [AUTO:patterns/patterns/chemical_role_attribute]
+synonym: "amount of thyroid hormone" EXACT [AUTO:patterns/patterns/chemical_role_attribute]
 
 [Term]
 id: OBA:1000973
@@ -41292,9 +41286,9 @@ intersection_of: inheres_in CHEBI:29073
 
 [Term]
 id: OBA:1000976
-name: fat-soluble vitamin amount
-def: "The amount of a fat-soluble vitamin." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of fat-soluble vitamin" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: fat-soluble vitamin (role) amount
+def: "The amount of a fat-soluble vitamin (role)." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of fat-soluble vitamin (role)" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000070
 intersection_of: inheres_in CHEBI:24020
 
@@ -41340,17 +41334,15 @@ intersection_of: inheres_in CHEBI:25805
 
 [Term]
 id: OBA:1000982
-name: vitamin amount
-def: "The amount of a vitamin." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of vitamin" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000070
-intersection_of: inheres_in CHEBI:33229
+name: vitamin (role) amount
+def: "The amount of vitamin (role)." [AUTO:patterns/patterns/chemical_role_attribute]
+synonym: "amount of vitamin (role)" EXACT [AUTO:patterns/patterns/chemical_role_attribute]
 
 [Term]
 id: OBA:1000983
-name: Thyroid stimulating hormone amount
-def: "The amount of a Thyroid stimulating hormone." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of Thyroid stimulating hormone" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: thyroid stimulating hormone amount
+def: "The amount of a thyroid stimulating hormone." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of thyroid stimulating hormone" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000070
 intersection_of: inheres_in CHEBI:81567
 
@@ -41372,9 +41364,9 @@ intersection_of: inheres_in CHEBI:33569
 
 [Term]
 id: OBA:1000986
-name: thiamine amount
-def: "The amount of a thiamine." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of thiamine" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: vitamin B1 amount
+def: "The amount of a vitamin B1." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of vitamin B1" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000070
 intersection_of: inheres_in CHEBI:26948
 
@@ -41429,10 +41421,8 @@ intersection_of: inheres_in CHEBI:81569
 [Term]
 id: OBA:1000993
 name: neurotransmitter amount
-def: "The amount of a neurotransmitter." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of neurotransmitter" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000070
-intersection_of: inheres_in CHEBI:25512
+def: "The amount of neurotransmitter." [AUTO:patterns/patterns/chemical_role_attribute]
+synonym: "amount of neurotransmitter" EXACT [AUTO:patterns/patterns/chemical_role_attribute]
 
 [Term]
 id: OBA:1000994
@@ -41517,10 +41507,8 @@ intersection_of: inheres_in CHEBI:5254
 [Term]
 id: OBA:1001004
 name: growth hormone amount
-def: "The amount of a growth hormone." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of growth hormone" EXACT [AUTO:patterns/patterns/entity_attribute]
-intersection_of: PATO:0000070
-intersection_of: inheres_in CHEBI:37845
+def: "The amount of growth hormone." [AUTO:patterns/patterns/chemical_role_attribute]
+synonym: "amount of growth hormone" EXACT [AUTO:patterns/patterns/chemical_role_attribute]
 
 [Term]
 id: OBA:1001005
@@ -41588,9 +41576,9 @@ intersection_of: inheres_in CHEBI:28670
 
 [Term]
 id: OBA:1001013
-name: tumor necrosis factor alpha amount
-def: "The amount of a tumor necrosis factor alpha." [AUTO:patterns/patterns/entity_attribute]
-synonym: "amount of tumor necrosis factor alpha" EXACT [AUTO:patterns/patterns/entity_attribute]
+name: tumor necrosis factor amount
+def: "The amount of a tumor necrosis factor." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of tumor necrosis factor" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000070
 intersection_of: inheres_in PR:000000134
 
@@ -46470,8 +46458,8 @@ synonym: "blood phosphate amount" EXACT [AUTO:patterns/patterns/entity_attribute
 [Term]
 id: OBA:VT0001569
 name: blood bilirubin amount
-def: "The amount of a bilirubin when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "blood bilirubin amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of a bilirubin IXalpha when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "blood bilirubin IXalpha amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 
 [Term]
 id: OBA:VT0001586
@@ -49928,8 +49916,8 @@ synonym: "blood renin amount" EXACT [AUTO:patterns/patterns/entity_attribute_loc
 [Term]
 id: OBA:VT0003351
 name: blood thyroid hormone amount
-def: "The amount of a thyroid hormone when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "blood thyroid hormone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of thyroid hormone when measured in blood." [AUTO:patterns/patterns/chemical_role_attribute_location]
+synonym: "blood thyroid hormone amount" EXACT [AUTO:patterns/patterns/chemical_role_attribute_location]
 
 [Term]
 id: OBA:VT0003356
@@ -49964,8 +49952,8 @@ synonym: "blood glucocorticoid amount" EXACT [AUTO:patterns/patterns/entity_attr
 [Term]
 id: OBA:VT0003369
 name: blood estrogen amount
-def: "The amount of a estrogen when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "blood estrogen amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of estrogen when measured in blood." [AUTO:patterns/patterns/chemical_role_attribute_location]
+synonym: "blood estrogen amount" EXACT [AUTO:patterns/patterns/chemical_role_attribute_location]
 
 [Term]
 id: OBA:VT0003383
@@ -52807,16 +52795,16 @@ intersection_of: inheres_in CL:0000589
 [Term]
 id: OBA:VT0004399
 name: cochlear outer hair cell morphology trait
-def: "The morphology of a outer hair cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "morphology of outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The morphology of a cochlear outer hair cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of cochlear outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000051
 intersection_of: inheres_in CL:0000601
 
 [Term]
 id: OBA:VT0004400
 name: cochlear outer hair cell quantity
-def: "The has number of of a outer hair cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "has number of of outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The has number of of a cochlear outer hair cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "has number of of cochlear outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0001555
 intersection_of: inheres_in CL:0000601
 
@@ -52895,8 +52883,8 @@ intersection_of: inheres_in CL:0000589
 [Term]
 id: OBA:VT0004434
 name: cochlear outer hair cell physiology trait
-def: "The functionality of a outer hair cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "functionality of outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The functionality of a cochlear outer hair cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "functionality of cochlear outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0001509
 intersection_of: inheres_in CL:0000601
 
@@ -52943,8 +52931,8 @@ intersection_of: inheres_in UBERON:0002478
 [Term]
 id: OBA:VT0004466
 name: cochlear outer hair cell length
-def: "The length of a outer hair cell." [AUTO:patterns/patterns/entity_attribute]
-synonym: "length of outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
+def: "The length of a cochlear outer hair cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "length of cochlear outer hair cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 intersection_of: PATO:0000122
 intersection_of: inheres_in CL:0000601
 
@@ -53423,8 +53411,8 @@ intersection_of: inheres_in CL:0000100
 [Term]
 id: OBA:VT0005120
 name: blood growth hormone amount
-def: "The amount of a growth hormone when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "blood growth hormone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of growth hormone when measured in blood." [AUTO:patterns/patterns/chemical_role_attribute_location]
+synonym: "blood growth hormone amount" EXACT [AUTO:patterns/patterns/chemical_role_attribute_location]
 
 [Term]
 id: OBA:VT0005144
@@ -54201,8 +54189,8 @@ synonym: "blood protein amount" EXACT [AUTO:patterns/patterns/entity_attribute_l
 [Term]
 id: OBA:VT0005418
 name: blood hormone amount
-def: "The amount of a hormone when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "blood hormone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of hormone when measured in blood." [AUTO:patterns/patterns/chemical_role_attribute_location]
+synonym: "blood hormone amount" EXACT [AUTO:patterns/patterns/chemical_role_attribute_location]
 
 [Term]
 id: OBA:VT0005423
@@ -57629,8 +57617,8 @@ synonym: "milk lactotransferrin amount" EXACT [AUTO:patterns/patterns/entity_att
 [Term]
 id: OBA:VT0010269
 name: colostrum hormone amount
-def: "The amount of a hormone when measured in colostrum." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "colostrum hormone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of hormone when measured in colostrum." [AUTO:patterns/patterns/chemical_role_attribute_location]
+synonym: "colostrum hormone amount" EXACT [AUTO:patterns/patterns/chemical_role_attribute_location]
 
 [Term]
 id: OBA:VT0010270
@@ -57655,8 +57643,8 @@ intersection_of: inheres_in UBERON:0001690
 [Term]
 id: OBA:VT0010275
 name: milk hormone amount
-def: "The amount of a hormone when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "milk hormone amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of hormone when measured in milk." [AUTO:patterns/patterns/chemical_role_attribute_location]
+synonym: "milk hormone amount" EXACT [AUTO:patterns/patterns/chemical_role_attribute_location]
 
 [Term]
 id: OBA:VT0010276
@@ -57771,8 +57759,8 @@ synonym: "milk unsaturated fatty acid amount" EXACT [AUTO:patterns/patterns/enti
 [Term]
 id: OBA:VT0010319
 name: milk fatty acid C20:0 amount
-def: "The amount of a arachidic acid when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "milk arachidic acid amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of a icosanoic acid when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "milk icosanoic acid amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 
 [Term]
 id: OBA:VT0010322
@@ -57853,8 +57841,8 @@ synonym: "milk diglyceride amount" EXACT [AUTO:patterns/patterns/entity_attribut
 [Term]
 id: OBA:VT0010386
 name: milk monoacylglycerol amount
-def: "The amount of a monoglyceride when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
-synonym: "milk monoglyceride amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+def: "The amount of a monoacylglycerol when measured in milk." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "milk monoacylglycerol amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 
 [Term]
 id: OBA:VT0010387
