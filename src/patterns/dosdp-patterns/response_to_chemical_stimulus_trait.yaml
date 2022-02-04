@@ -17,28 +17,28 @@ classes:
 
 
 relations:
-  characteristic_of: RO:0000052
-  has_input: RO:0002233
+  characteristic of: RO:0000052
+  has input: RO:0002233
 
 vars:
   chemical: "'chemical entity'"
 
 name:
-  text: "trait in response to %chemical"
+  text: "trait in response to %s"
   vars:
     - chemical
 
 generated_synonyms:
-  text: "response to %chemical trait"
+  text: "response to %s trait"
   vars:
     - chemical
 
 def:
-  text: "A trait that affects to the response to a stimulus with %chemical."
+  text: "A trait that affects to the response to a stimulus with %s."
   vars:
     - chemical
 
 equivalentTo:
-  text: "'process quality' and characteristic_of some ('response to stimulus' and has_input some %chemical)"
+  text: "'process quality' and 'characteristic of' some ('response to stimulus' and 'has input' some %s)"
   vars:
     - chemical
