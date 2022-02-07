@@ -72,16 +72,6 @@ id: OBA:0000036 ! body fluid levels
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000037
-name: obsolete brood size
-is_a: OBA:0000001 ! biological attribute
-
-[Term]
-id: OBA:0000039
-name: obsolete buoyancy
-is_a: OBA:0000001 ! biological attribute
-
-[Term]
 id: OBA:0000040 ! calcium ion concentration
 
 [Term]
@@ -145,10 +135,6 @@ is_a: OBA:0000125 ! post-synaptic membrane potential
 [Term]
 id: OBA:0000072 ! follicle cell microvillus length
 is_a: OBA:0000102 ! microvillus length
-
-[Term]
-id: OBA:0000074
-is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000079 ! hormone levels

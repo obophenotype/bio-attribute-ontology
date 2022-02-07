@@ -68,3 +68,5 @@ $(TEMPLATESDIR)/%.owl: $(TEMPLATESDIR)/%.tsv $(SRC)
 
 $(COMPONENTSDIR)/obsoletes.owl: $(TEMPLATESDIR)/replaced.owl
 	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
+
+test: pattern_schema_checks
