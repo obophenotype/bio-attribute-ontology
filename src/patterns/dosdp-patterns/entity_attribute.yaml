@@ -2,10 +2,9 @@ pattern_name: entity_attribute
 
 pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/entity_attribute.yaml
 
-description: '
-
-  Basic pattern for traits that captures a quality, such as size or rate which is a 
-  characteristic of an entity, such as an anatomical entity or a biological process.'
+description: > 
+    Basic pattern for traits that captures a quality, such as size or rate which is a 
+    characteristic of an entity, such as an anatomical entity or a biological process.'
 
 classes:
   quality: PATO:0000001
@@ -24,6 +23,10 @@ annotationProperties:
 vars: 
   attribute: "'quality'"
   entity: "'thing'"
+  
+data_list_vars:
+  exact_synonyms: xsd:string
+  xrefs: xsd:string
 
 name:
   text: "%s %s"
@@ -49,6 +52,12 @@ def:
   annotations:
     - annotationProperty: xref
       text: "AUTO:patterns/patterns/entity_attribute"
+      
+exact_synonym:
+  value: exact_synonyms
+  
+xref:
+  value: xrefs
 
 equivalentTo: 
   text: "%s and 'characteristic_of' some %s"
