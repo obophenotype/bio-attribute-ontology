@@ -1,46 +1,25 @@
 format-version: 1.2
-date: 13:11:2015 10:21
-saved-by: cjmungall
-auto-generated-by: TermGenie 1.0
 default-namespace: oba
+import: http://purl.obolibrary.org/obo/oba/components/obsoletes.owl
 import: http://purl.obolibrary.org/obo/oba/imports/chebi_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/cl_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/go_import.owl
+import: http://purl.obolibrary.org/obo/oba/imports/nbo_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/pato_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/po_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/nbo_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/pr_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/so_import.owl
+import: http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl
 import: http://purl.obolibrary.org/obo/oba/patterns/definitions.owl
-import: http://purl.obolibrary.org/obo/oba/components/obsoletes.owl
 ontology: oba
-
 property_value: http://purl.org/dc/elements/1.1/description "A collection of biological attributes (traits) covering all kingdoms of life. Interoperable with VT (vertebrate trait ontology) and TO (plant trait ontology). Extends PATO." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Ontology of Biological Attributes (OBA)" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/publicdomain/zero/1.0/
-property-value: foaf-homepage \"http://wiki.geneontology.org/index.php/Extensions/x-attribute\" xsd:anyURL
 
 [Term]
-id: OBA:0000001 ! biological attribute ! biological attribute
+id: OBA:0000001
 name: biological attribute
 is_a: PATO:0000001 ! quality
-
-[Term]
-id: OBA:0100001 ! cellular component attribute
-is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
-
-[Term]
-id: OBA:0100002 ! biological process quality
-is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
-
-[Term]
-id: OBA:0100003 ! anatomical entity quality
-is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
-
-[Term]
-id: OBA:0100004 ! chemical entity quality
-is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
 id: OBA:0000003 ! ER calcium ion concentration
@@ -93,12 +72,12 @@ id: OBA:0000036 ! body fluid levels
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000037 ! brood size
+id: OBA:0000037
 name: obsolete brood size
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000039 ! buoyancy
+id: OBA:0000039
 name: obsolete buoyancy
 is_a: OBA:0000001 ! biological attribute
 
@@ -114,7 +93,7 @@ id: OBA:0000048 ! cell diameter
 is_a: OBA:0000055 ! cell size
 
 [Term]
-id: OBA:0000050 ! cell pH
+id: OBA:0000050
 
 [Term]
 id: OBA:0000051 ! cell projection size
@@ -159,7 +138,7 @@ id: OBA:0000068 ! endosome size
 is_a: OBA:0000057 ! cellular component size
 
 [Term]
-id: OBA:0000069 ! excitatory post-synaptic membrane potential
+id: OBA:0000069
 name: excitatory post-synaptic membrane potential
 is_a: OBA:0000125 ! post-synaptic membrane potential
 
@@ -168,7 +147,7 @@ id: OBA:0000072 ! follicle cell microvillus length
 is_a: OBA:0000102 ! microvillus length
 
 [Term]
-id: OBA:0000074 ! heart contraction rate
+id: OBA:0000074
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -181,7 +160,7 @@ id: OBA:0000084 ! imaginal disc-derived wing size
 is_a: OBA:0000015 ! anatomical structure size
 
 [Term]
-id: OBA:0000085 ! inhibitory post-synaptic membrane potential
+id: OBA:0000085
 name: inhibitory post-synaptic membrane potential
 is_a: OBA:0000125 ! post-synaptic membrane potential
 
@@ -190,7 +169,7 @@ id: OBA:0000088 ! liquid surface tension
 is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
-id: OBA:0000089 ! long-term neuronal synaptic plasticity
+id: OBA:0000089
 name: long-term neuronal synaptic plasticity
 is_a: OBA:0000114 ! neuronal synaptic plasticity
 
@@ -215,7 +194,7 @@ is_a: OBA:0000001 ! biological attribute
 id: OBA:0000099 ! membrane potential
 
 [Term]
-id: OBA:0000100 ! membrane potential in photoreceptor cell
+id: OBA:0000100 ! photoreceptor cell membrane potential
 
 [Term]
 id: OBA:0000101 ! metanephric kidney size
@@ -254,7 +233,7 @@ id: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
 id: OBA:0000116 ! neurotransmitter levels
-is_a: OBA:0100004 {is_asserted="true"} ! chemical entity quality
+is_a: OBA:0100004 {is_asserted="true"} ! chemical entity attribute
 
 [Term]
 id: OBA:0000117 ! nuclear size
@@ -268,7 +247,7 @@ comment: Check this
 xref: Wikipedia:Osmotic_pressure
 
 [Term]
-id: OBA:0000121 ! pH
+id: OBA:0000121
 name: obsolete pH
 
 [Term]
@@ -300,12 +279,12 @@ comment: See http://code.google.com/p/pato/issues/detail?id=1
 id: OBA:0000129 ! rRNA stability
 
 [Term]
-id: OBA:0000134 ! resting membrane potential
+id: OBA:0000134
 name: resting membrane potential
 is_a: OBA:0000099 ! membrane potential
 
 [Term]
-id: OBA:0000136 ! short-term neuronal synaptic plasticity
+id: OBA:0000136
 name: short-term neuronal synaptic plasticity
 is_a: OBA:0000114 ! neuronal synaptic plasticity
 
@@ -317,13 +296,13 @@ id: OBA:0000139 ! synapse structure and activity
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000140 ! synaptic metaplasticity
+id: OBA:0000140
 name: synaptic metaplasticity
 comment: http://code.google.com/p/pato/issues/detail?id=2
 is_a: OBA:0000141 ! synaptic plasticity
 
 [Term]
-id: OBA:0000141 ! synaptic plasticity
+id: OBA:0000141
 name: synaptic plasticity
 comment: http://code.google.com/p/pato/issues/detail?id=2
 is_a: OBA:0000001 ! biological attribute
@@ -378,7 +357,7 @@ id: OBA:0000174 ! vascular permeability
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000181 ! viral protein levels
+id: OBA:0000181
 name: viral protein levels
 is_a: OBA:0000001 ! biological attribute
 
@@ -387,10 +366,26 @@ id: OBA:0000182 ! nutrient level
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0001001 ! macromolecular stability
+id: OBA:0001001
 name: macromolecular stability
 comment: See http://code.google.com/p/pato/issues/detail?id=1
 is_a: OBA:0000001 ! biological attribute
+
+[Term]
+id: OBA:0100001 ! cellular component attribute
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+
+[Term]
+id: OBA:0100002 ! biological process attribute
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+
+[Term]
+id: OBA:0100003 ! anatomical entity attribute
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+
+[Term]
+id: OBA:0100004 ! chemical entity attribute
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
 id: OBA:1000001 ! blood brain barrier permeability
@@ -581,7 +576,7 @@ creation_date: 2013-06-17T17:53:39Z
 [Term]
 id: OBA:1000034 ! cell surface area
 synonym: "cell surface area trait" EXACT [GOC:TermGenie]
-property_value: http://purl.org/pav/providedBy http://eol.org
+relationship: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-08-06T20:05:54Z
 
@@ -596,28 +591,28 @@ creation_date: 2013-09-25T23:32:06Z
 [Term]
 id: OBA:1000036 ! cell mass
 synonym: "cell mass trait" EXACT [GOC:TermGenie]
-property_value: http://purl.org/pav/providedBy http://eol.org
+relationship: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-09-30T20:01:39Z
 
 [Term]
 id: OBA:1000037 ! adult organism mass
 synonym: "adult organism mass trait" EXACT [GOC:TermGenie]
-property_value: http://purl.org/pav/providedBy http://eol.org
+relationship: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-10-08T20:29:11Z
 
 [Term]
 id: OBA:1000038 ! mollusc shell height
 synonym: "mollusc shell height trait" EXACT [GOC:TermGenie]
-property_value: http://purl.org/pav/providedBy http://eol.org
+relationship: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-10-08T21:19:32Z
 
 [Term]
 id: OBA:1000039 ! mollusc shell length
 synonym: "mollusc shell length trait" EXACT [GOC:TermGenie]
-property_value: http://purl.org/pav/providedBy http://eol.org
+relationship: http://purl.org/pav/providedBy http://eol.org
 created_by: jen.hammock
 creation_date: 2013-10-08T21:21:38Z
 
@@ -832,24 +827,24 @@ creation_date: 2014-04-11T18:52:34Z
 [Term]
 id: OBA:1000075 ! cytosol color
 synonym: "cytosol color trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-06-04T18:58:27Z
 
 [Term]
-id: OBA:1000076 ! cell attribute
+id: OBA:1000076 ! attribute of cell
 synonym: "cell quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-04T19:24:06Z
 
 [Term]
-id: OBA:1000077 ! cytosol attribute
+id: OBA:1000077 ! attribute of cytosol
 synonym: "cytosol quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-04T19:24:09Z
 
 [Term]
-id: OBA:1000078 ! organelle attribute
+id: OBA:1000078 ! attribute of organelle
 synonym: "organelle quality trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-06-04T19:24:13Z
@@ -881,22 +876,22 @@ creation_date: 2014-06-04T19:27:15Z
 [Term]
 id: OBA:1000083 ! nucleus length
 synonym: "nucleus length trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-06-04T19:31:50Z
 
 [Term]
 id: OBA:1000084 ! cell surface texture
 synonym: "cell surface texture trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-06-04T19:42:11Z
 
 [Term]
 id: OBA:1000085 ! nucleus width
 synonym: "nucleus width trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-06-04T20:31:38Z
 
 [Term]
@@ -938,50 +933,50 @@ creation_date: 2014-06-06T16:11:45Z
 [Term]
 id: OBA:1000092 ! dinoflagellate cingulum shape
 synonym: "dinoflagellate cingulum shape trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-06-25T00:10:46Z
 
 [Term]
 id: OBA:1000093 ! dinoflagellate sulcus shape
 synonym: "dinoflagellate sulcus shape trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-06-27T17:49:26Z
 
 [Term]
 id: OBA:1000094 ! chloroplast shape
 synonym: "chloroplast shape trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-07-01T14:09:53Z
 
 [Term]
 id: OBA:1000095 ! chloroplast spatial pattern
 synonym: "chloroplast spatial pattern trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-07-01T14:46:16Z
 
 [Term]
 id: OBA:1000096 ! chloroplast color
 synonym: "chloroplast color trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-07-01T15:18:01Z
 
 [Term]
 id: OBA:1000097 ! chloroplast size
 synonym: "chloroplast size trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-07-01T17:59:40Z
 
 [Term]
 id: OBA:1000098 ! dinoflagellate sulcus width
 synonym: "dinoflagellate sulcus width trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-07-01T20:43:17Z
 
 [Term]
@@ -1135,14 +1130,14 @@ created_by: cjmungall
 creation_date: 2014-07-29T01:01:08Z
 
 [Term]
-id: OBA:1000124 ! blue iris 
+id: OBA:1000124 ! blue iris
 synonym: "blue eyes" RELATED [GOC:NV]
 synonym: "blue iris trait" EXACT [GOC:TermGenie]
 created_by: vasilevs
 creation_date: 2014-10-07T20:39:39Z
 
 [Term]
-id: OBA:1000125 ! brown strand of hair 
+id: OBA:1000125 ! brown strand of hair
 synonym: "brown hair" RELATED [GOC:NV]
 synonym: "brown strand of hair  trait" EXACT [GOC:TermGenie]
 created_by: vasilevs
@@ -1151,78 +1146,78 @@ creation_date: 2014-10-07T20:41:50Z
 [Term]
 id: OBA:1000126 ! dinoflagellate epicone length
 synonym: "dinoflagellate epicone length trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-02T18:49:09Z
 
 [Term]
 id: OBA:1000127 ! dinoflagellate hypocone length
 synonym: "dinoflagellate hypocone length trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-02T18:53:16Z
 
 [Term]
 id: OBA:1000128 ! eyespot apparatus color
 synonym: "eyespot apparatus color trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-02T19:04:56Z
 
 [Term]
 id: OBA:1000129 ! cell color
 synonym: "cell color trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-02T19:42:39Z
 
 [Term]
 id: OBA:1000130 ! nucleus diameter
 synonym: "nucleus diameter trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-02T19:49:17Z
 
 [Term]
 id: OBA:1000131 ! eyespot apparatus located in
 synonym: "eyespot apparatus located in trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-04T14:56:06Z
 
 [Term]
 id: OBA:1000132 ! dinoflagellate sulcal notch shape
 synonym: "dinoflagellate sulcal notch shape trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-10T15:43:23Z
 
 [Term]
 id: OBA:1000133 ! dinoflagellate apex shape
 synonym: "dinoflagellate apex shape trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-19T19:29:50Z
 
 [Term]
 id: OBA:1000134 ! dinoflagellate antapex shape
 synonym: "dinoflagellate antapex shape trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-19T19:31:27Z
 
 [Term]
 id: OBA:1000135 ! dinoflagellate apical horn shape
 synonym: "dinoflagellate apical horn shape trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-22T19:25:15Z
 
 [Term]
 id: OBA:1000136 ! dinoflagellate antapical horn shape
 synonym: "dinoflagellate antapical horn shape trait" EXACT [GOC:TermGenie]
+relationship: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 created_by: annethessen
-property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327
 creation_date: 2014-12-22T20:37:23Z
 
 [Term]
@@ -1290,37 +1285,11 @@ id: OBA:1001088
 name: obsolete race
 is_obsolete: true
 
-
-[Typedef]
-id: has_part ! has part
-xref: BFO:0000051
-is_transitive: true
-inverse_of: part_of ! part_of
-
-[Typedef]
-id: occurs_in ! occurs in
-xref: BFO:0000066
-transitive_over: part_of ! part_of
-
-[Typedef]
-id: part_of ! part of
-xref: BFO:0000050
-is_transitive: true
-
-[Typedef]
-id: inheres_in_part_of ! inheres in part -of
-xref: RO:0002314 ! inheres in part of
-holds_over_chain: inheres_in part_of
-
-[Typedef]
-id: inheres_in ! inheres in
-is_a: inheres_in_part_of
-xref: RO:0000052 ! inheres in
-
-[Typedef]
-id: http://purl.org/pav/providedBy ! provided by
-is_metadata_tag: true
-
 [Typedef]
 id: http://purl.org/dc/elements/1.1/contributor ! contributor
 is_metadata_tag: true
+
+[Typedef]
+id: http://purl.org/pav/providedBy
+is_metadata_tag: true
+
