@@ -2,7 +2,6 @@ id: oba
 title: "Ontology of Biological Attributes (OBA)"
 github_org: obophenotype
 repo: bio-attribute-ontology
-report_fail_on: ERROR
 edit_format: obo
 use_dosdps: TRUE
 export_formats:
@@ -45,4 +44,18 @@ robotemplate_group:
   products:
     - id: obsoletes.owl
 robot_java_args: '-Xmx8G'
-allow_equivalents: all
+allow_equivalents: asserted-only
+robot_report:
+  release_reports: False
+  fail_on : ERROR
+  use_labels : False
+  custom_profile : True
+  report_on :
+    - oba-base.owl
+  custom_sparql_checks :
+    - equivalent-classes
+    - owldef-self-reference
+    - missing-label
+    - illegal-annotation-property
+  custom_sparql_exports : 
+    - basic-report
