@@ -55,7 +55,6 @@ robot_report:
   custom_sparql_checks :
     - equivalent-classes
     - owldef-self-reference
-    - missing-label
     - illegal-annotation-property
   custom_sparql_exports : 
     - basic-report
