@@ -13,12 +13,14 @@ classes:
   chemical entity: CHEBI:24431
   process quality: PATO:0001236
   response to stimulus: GO:0050896
-#  response to chemical: GO:0042221
 
 
 relations:
   characteristic of: RO:0000052
   has input: RO:0002233
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
 
 vars:
   chemical: "'chemical entity'"
@@ -28,11 +30,12 @@ name:
   vars:
     - chemical
 
-generated_synonyms:
-  text: "response to %s trait"
-  vars:
-    - chemical
-
+annotations: 
+  - annotationProperty: exact_synonym
+    text: "response to %s trait"
+    vars:
+      - chemical
+      
 def:
   text: "A trait that affects to the response to a stimulus with %s."
   vars:
