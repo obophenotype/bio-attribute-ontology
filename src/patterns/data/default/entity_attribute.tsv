@@ -5818,7 +5818,7 @@ OBA:0005524		GO:0001649	osteoblast differentiation	PATO:0000161	rate
 OBA:0005525		GO:0001649	osteoblast differentiation	PATO:0000070	amount
 OBA:0005526		GO:0032637	interleukin-8 production	PATO:0000161	rate
 OBA:0005527		CL:0000540	neuron	PATO:0002181	displaced
-OBA:0005528		CL:0002609	neuron of cerebral cortex	PATO:0002181	displaced
+OBA:0005528		CL:0010012	neuron of cerebral cortex	PATO:0002181	displaced
 OBA:0005529		CL:0000695	Cajal-Retzius cell	PATO:0002181	displaced
 OBA:0005530		UBERON:0000992	female gonad	PATO:0002181	displaced
 OBA:0005531		GO:0043209	myelin sheath	PATO:0000117	size
@@ -7191,7 +7191,7 @@ OBA:1001009		CHEBI:81568	Luteinizing hormone	PATO:0000070	amount
 OBA:1001010		CHEBI:30660	thyroxine	PATO:0000070	amount
 OBA:1001011		CHEBI:16247	phospholipid	PATO:0000070	amount
 OBA:1001012		CHEBI:28670	neopterin	PATO:0000070	amount
-OBA:1001013		PR:000000134	tumor necrosis factor alpha	PATO:0000070	amount
+OBA:1001013	tumor necrosis factor alpha amount	PR:000000134	tumor necrosis factor alpha	PATO:0000070	amount
 OBA:1001014		CHEBI:64583	sphingomyelin	PATO:0000070	amount
 OBA:1001015		CHEBI:27470	folic acid	PATO:0000070	amount
 OBA:1001017		CHEBI:6495	lipoprotein	PATO:0000070	amount
