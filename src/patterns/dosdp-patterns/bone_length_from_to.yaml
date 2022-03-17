@@ -1,0 +1,81 @@
+---
+pattern_name: bone_length_from_to
+
+pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/bone_length_from_to.yaml
+
+description: 'A bone length trait that is the distance between two anatomical reference points measured in a straight line.'
+
+#  examples:
+#    - http://purl.obolibrary.org/obo/FOVT_0001070  # femur length from caput to lateral condyle
+#    - http://purl.obolibrary.org/obo/FOVT_0001077  # length of talus along the midline
+#    - http://purl.obolibrary.org/obo/FOVT_0000007  # femur length from caput to medial condyle
+
+contributors:
+  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
+  - https://orcid.org/0000-0003-2699-3066  # Meghan A. Balk
+
+classes:
+  skeletal_element: UBERON:0004765
+  anatomical_entity: UBERON:0001062
+  length: PATO:0000122
+  line: BFO:0000026  # one-dimensional spatial region
+  physical_object_quality: PATO:0001241
+
+relations:
+  connected_to: RO:0002170
+  characteristic_of: RO:0000052
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+  xref: oio:hasDbXref
+
+vars:
+  bone: "'skeletal_element'"
+  from: "'anatomical_entity'"
+  to: "'anatomical_entity'"
+  fovt: "'physical_object_quality'"
+
+name:
+  text: "%s length from %s to %s"
+  vars:
+    - bone
+    - from
+    - to
+
+annotations:
+  - annotationProperty: related_synonym
+    text: "%s length"
+    vars:
+      - bone
+
+  - annotationProperty: xref
+    text: "FOVT:%s"
+
+def:
+  text: "The length of a line of %s from %s of a femur to %s."
+  vars:
+    - bone
+    - from
+    - to
+
+
+subClassOf:
+  text: "'length' and 'characteristic_of' some %s"
+  vars:
+    - bone
+  multi_clause:
+  sep: ","
+  subClassOf:
+    text: "'characteristic_of' some ('line' and 'connected_to' some %s)"
+    vars:
+      - from
+    multi_clause:
+    sep: ","
+    subClassOf:
+      text: "'characteristic_of' some ('line' and 'connected_to' some %s)"
+      vars:
+        - to
+...
