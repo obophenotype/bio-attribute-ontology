@@ -61,21 +61,17 @@ def:
     - from
     - to
 
-
 subClassOf:
-  text: "'length' and 'characteristic_of' some %s"
-  vars:
-    - bone
   multi_clause:
-  sep: ","
-  subClassOf:
-    text: "'characteristic_of' some ('line' and 'connected_to' some %s)"
-    vars:
-      - from
-    multi_clause:
-    sep: ","
-    subClassOf:
-      text: "'characteristic_of' some ('line' and 'connected_to' some %s)"
-      vars:
-        - to
+    sep: ' and '
+    clauses:
+      - text: "'length' and 'characteristic_of' some %s"
+        vars:
+          - bone
+      - text: "'characteristic_of' some ('line' and 'connected_to' some %s)"
+        vars:
+          - from
+      - text: "'characteristic_of' some ('line' and 'connected_to' some %s)"
+        vars:
+          - to
 ...
