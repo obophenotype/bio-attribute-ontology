@@ -61,17 +61,17 @@ def:
     - from
     - to
 
-subClassOf:
-  multi_clause:
-    sep: ' and '
-    clauses:
-      - text: "'length' and 'characteristic_of' some %s"
-        vars:
-          - bone
-      - text: "'characteristic_of' some ('line' and 'connected_to' some %s)"
-        vars:
-          - from
-      - text: "'characteristic_of' some ('line' and 'connected_to' some %s)"
-        vars:
-          - to
+logical_axioms:
+  - axiom_type: subClassOf
+    text: "'length' and 'characteristic_of' some %s"
+    vars:
+      - bone
+  - axiom_type: subClassOf
+    text: "'characteristic_of' some ('line' and 'connected_to' some %s)"
+    vars:
+      - from
+  - axiom_type: subClassOf
+    text: "'characteristic_of' some ('line' and 'connected_to' some %s)"
+    vars:
+      - to
 ...
