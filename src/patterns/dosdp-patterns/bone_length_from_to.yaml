@@ -36,7 +36,7 @@ vars:
   bone: "'skeletal_element'"
   from: "'anatomical_entity'"
   to: "'anatomical_entity'"
-  fovt: "'physical_object_quality'"
+  fovt: "'physical_object_quality'"  # FOVT id
 
 name:
   text: "%s length from %s to %s"
@@ -52,7 +52,9 @@ annotations:
       - bone
 
   - annotationProperty: xref
-    text: "FOVT:%s"
+    text: "FOVT:%s"  # give FOVT id here
+    vars:
+      - fovt
 
 def:
   text: "The length of a line of %s from %s of a femur to %s."
