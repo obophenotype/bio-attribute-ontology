@@ -57,10 +57,10 @@ annotations:
       - fovt
 
 def:
-  text: "The length of a line of %s from %s of a femur to %s."
+  text: "The length of a line from %s of a %s to %s."
   vars:
-    - bone
     - from
+    - bone
     - to
 
 logical_axioms:
