@@ -7241,3 +7241,15 @@ OBA:1001089	multicellular organism sex	UBERON:0000468	multicellular organism	PAT
 OBA:1001090	feather color	UBERON:0000022	feather	PATO:0000014	color
 OBA:1001091	egg shell trait	UBERON:0005079	eggshell	PATO:0000001	quality
 OBA:1001092	egg shell color	UBERON:0005079	eggshell	PATO:0000014	color
+OBA:2040142	head width	PATO:0000921	width	UBERON:0000033	head
+OBA:2040143	metafemur length	PATO:0000122	length	HAO:0001140	metafemur
+OBA:2040144	beak length	PATO:0000122	length	UBERON:0005094	beak
+OBA:2040145	cell length	PATO:0000122	length	GO:0005623	cell
+OBA:2040146	cell width	PATO:0000921	width	GO:0005623	cell
+OBA:2040147	fore wing length	PATO:0000122	length	HAO:0000351	fore wing
+OBA:2040148	hind wing length	PATO:0000122	length	HAO:0000400	hind wing
+OBA:2040149	seed volume	PATO:0000918	volume	PO:0009010	seed
+OBA:2040150	testis position	PATO:0000140	position	UBERON:0000473	testis
+OBA:2040151	shelled egg length	PATO:0000122	length	UBERON:0007379	shelled egg
+OBA:2040152	shelled egg width	PATO:0000921	width	UBERON:0007379	shelled egg
+
