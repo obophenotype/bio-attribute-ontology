@@ -32,6 +32,8 @@ import_group:
       use_gzip: TRUE
     - id: so
     - id: po
+    - id: hao
+      mirror_from: https://raw.githubusercontent.com/hymao/hao/master/hao_base.owl
 #Not an offical component, so we should not merge it along with the rest
 components:
   products:
