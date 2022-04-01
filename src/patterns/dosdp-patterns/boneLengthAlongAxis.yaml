@@ -21,10 +21,10 @@ classes:
   line: BFO:0000026  # one-dimensional spatial region
   physical_object_quality: PATO:0001241
   anatomical_axis: 'BSPO:0000010'
-  NCBI_Taxon: 
+  NCBITaxon: 'OBI:0100026'
 
 relations:
-  characteristic_of: RO:0000052
+  characteristic_of: 'RO:0000052'
   follows_axis: 'BSPO:0015002'
 
 annotationProperties:
@@ -40,7 +40,7 @@ vars:
   axis: 'anatomical_axis'
   fovt: "'physical_object_quality'"  # FOVT id
   def_ref: "xsd:string"
-  taxa: "NCBI_Taxon"
+  taxa: "NCBITaxon"
 
 name:
   text: "%s length"
