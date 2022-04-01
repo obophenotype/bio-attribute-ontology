@@ -53,6 +53,11 @@ def:
   vars:
     - bone
     - axis
+  annotations:
+    - annotationProperty: xref
+      text: "%s"
+      vars:
+        - def_ref
 
 annotations:
   - annotationProperty: related_synonym
@@ -60,36 +65,25 @@ annotations:
     vars:
       - bone
       - axis
-annotations:
   - annotationProperty: broad_synonym
     text: "%s length %s"
     vars:
       - bone
       - axis
-
-annotations:
   - annotationProperty: exact_synonym
     text: "%s length %s"
     vars:
       - bone
       - axis
-
-annotationProperty: xref
-    text: %s
-    vars:
-      - def_ref
-
-annotationProperty: xref
+  - annotationProperty: xref
     text: "FOVT:%s"  # give FOVT id here
     vars:
       - fovt
-
-annotationProperty: measured_in_taxon
+  - annotationProperty: measured_in_taxon
     text: %s
     vars:
       - taxa
-
-annotationProperty: not_measured_in_taxon
+  - annotationProperty: not_measured_in_taxon
     text: %s
     vars:
       - taxa
