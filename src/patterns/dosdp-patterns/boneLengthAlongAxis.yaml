@@ -5,9 +5,8 @@ pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/boneLengthAlongAxis.yam
 description: "A bone length trait that is the line along an axis of a bone."
 
 #  examples:
-#    - example_IRI-1  # term name
-#    - example_IRI-2  # term name
-#    - example_IRI-3  # term name
+#    - http://purl.obolibrary.org/obo/FOVT_0001308  # canine tooth medial-lateral diameter
+#    - http://purl.obolibrary.org/obo/FOVT_0001080  # calcaneous proximal breadth (synonym: calcaneous proximal length medial-lateral)
 
 contributors:
   - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
@@ -22,6 +21,7 @@ classes:
   line: BFO:0000026  # one-dimensional spatial region
   physical_object_quality: PATO:0001241
   anatomical_axis: 'BSPO:0000010'
+  NCBI_Taxon: 
 
 relations:
   characteristic_of: RO:0000052
@@ -30,12 +30,17 @@ relations:
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
   related_synonym: oio:hasRelatedSynonym
+  broad_synonym: oio:hasBroadSynonym
   xref: oio:hasDbXref  #  measured_in_taxon #  not_measured_in_tax
+  measured_in_taxon: oio:measuredInTaxon
+  not_measured_in_taxon: oio:notMeasuredInTaxon
 
 vars:
   bone: 'skeletal element'
   axis: 'anatomical_axis'
   fovt: "'physical_object_quality'"  # FOVT id
+  def_ref: "xsd:string"
+  taxa: "NCBI_Taxon"
 
 name:
   text: "%s length"
@@ -55,12 +60,39 @@ annotations:
     vars:
       - bone
       - axis
+annotations:
+  - annotationProperty: broad_synonym
+    text: "%s length %s"
+    vars:
+      - bone
+      - axis
 
-  - annotationProperty: xref
+annotations:
+  - annotationProperty: exact_synonym
+    text: "%s length %s"
+    vars:
+      - bone
+      - axis
+
+annotationProperty: xref
+    text: %s
+    vars:
+      - def_ref
+
+annotationProperty: xref
     text: "FOVT:%s"  # give FOVT id here
     vars:
       - fovt
 
+annotationProperty: measured_in_taxon
+    text: %s
+    vars:
+      - taxa
+
+annotationProperty: not_measured_in_taxon
+    text: %s
+    vars:
+      - taxa
 
 logical_axioms:
   - axiom_type: subClassOf
