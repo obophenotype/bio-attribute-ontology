@@ -22,6 +22,7 @@ classes:
   length: PATO:0000122
   line: BFO:0000026  # one-dimensional spatial region
   physical_object_quality: PATO:0001241
+  NCBITaxon: OBI:0100026
 
 relations:
   connected_to: RO:0002170
@@ -30,7 +31,10 @@ relations:
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
   related_synonym: oio:hasRelatedSynonym
+  broad_synonym: oio:hasBroadSynonym
   xref: oio:hasDbXref
+  measured_in_taxon: oio:measuredInTaxon
+  not_measured_in_taxon: oio:notMeasuredInTaxon
 
 vars:
   bone: "'skeletal_element'"
@@ -38,16 +42,20 @@ vars:
   to: "'anatomical_entity'"
   fovt: "'physical_object_quality'"  # FOVT id
   def_ref: "xsd:string"
+  taxa: "NCBITaxon"
 
-name:
-  text: "%s length from %s to %s"
-  vars:
-    - bone
-    - from
-    - to
-
-annotations:
+name:annotations:
   - annotationProperty: related_synonym
+    text: "%s length"
+    vars:
+      - bone
+
+  - annotationProperty: exact_synonym
+    text: "%s length"
+    vars:
+      - bone
+
+  - annotationProperty: broad_synonym
     text: "%s length"
     vars:
       - bone
@@ -56,6 +64,16 @@ annotations:
     text: "%s"  # give FOVT IRI here
     vars:
       - fovt
+
+  - annotationProperty: measured_in_taxon
+    text: "%s"
+    vars:
+      - taxa
+
+  - annotationProperty: not_measured_in_taxon
+    text: "%s"
+    vars:
+      - taxa
 
 def:
   text: "The length of a line from %s of a %s to %s."
@@ -68,6 +86,13 @@ def:
       text: "%s"
       vars:
         - def_ref
+
+
+  text: "%s length from %s to %s"
+  vars:
+    - bone
+    - from
+    - to
 
 
 logical_axioms:
