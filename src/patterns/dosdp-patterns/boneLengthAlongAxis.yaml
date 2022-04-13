@@ -49,7 +49,7 @@ name:
     - axis
 
 def:
-  text: "The length of a %s along the %s axis."
+  text: "The length of a %s along the %s."
   vars:
     - bone
     - axis
