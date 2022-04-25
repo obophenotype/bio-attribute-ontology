@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/components/reasoner_axioms.owl" uri="components/reasoner_axioms.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/pco_import.owl" uri="imports/pco_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/po_import.owl" uri="imports/po_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/pr_import.owl" uri="imports/pr_import.owl"/>
@@ -14,8 +14,8 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/ro_import.owl" uri="imports/ro_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/so_import.owl" uri="imports/so_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/components/definitions.owl" uri="../patterns/definitions.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/components/obsoletes.owl" uri="components/obsoletes.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/modules/entity_attribute_location.owl" uri="modules/entity_attribute_location.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
-</group>
+    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
 </catalog>
