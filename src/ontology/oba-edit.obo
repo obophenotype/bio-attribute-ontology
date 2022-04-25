@@ -1279,3 +1279,15 @@ is_metadata_tag: true
 id: http://purl.org/pav/providedBy
 is_metadata_tag: true
 
+[Typedef]
+id: measured_in_taxon
+name: measured_in_taxon
+comment: Taxon in which a trait is usually measured.
+is_metadata_tag: true
+
+[Typedef]
+id: not_measured_in_taxon
+name: not_measured_in_taxon
+comment: Taxon in which a measurement is usually not taken.
+is_metadata_tag: true
+
