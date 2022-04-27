@@ -37,7 +37,7 @@ annotations:
       - chemical
       
 def:
-  text: "A trait that affects to the response to a stimulus with %s."
+  text: "A trait that affects the response to a stimulus with %s."
   vars:
     - chemical
 
