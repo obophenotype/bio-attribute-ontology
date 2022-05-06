@@ -70,3 +70,10 @@ $(COMPONENTSDIR)/obsoletes.owl: $(TEMPLATESDIR)/replaced.owl
 	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
 
 test: pattern_schema_checks
+
+RELEASE_ASSETS_RELEASE_DIR=$(foreach n,$(RELEASE_ASSETS), ../../$(n))
+
+deploy_release:
+	@test $(GHVERSION)
+	ls -alt $(RELEASE_ASSETS_RELEASE_DIR)
+	gh release create $(GHVERSION) --notes "TBD." --title "$(GHVERSION)" --draft $(RELEASE_ASSETS_RELEASE_DIR)  --generate-notes
