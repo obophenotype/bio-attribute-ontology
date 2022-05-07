@@ -38,9 +38,6 @@ components:
   products:
     - filename: obsoletes.owl
 #    - filename: reasoner_axioms.owl
-subset_group:
-  products:
-    - id: oba-basic
 robotemplate_group:
   products:
     - id: obsoletes.owl
