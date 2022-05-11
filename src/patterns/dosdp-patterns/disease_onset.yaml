@@ -10,7 +10,7 @@ contributors:
 
 classes:
   disease: MONDO:0000001
-  onset: HP:0011007 #age at onset - despite being an HP term this is not a phenotype
+  onset: HP:0003674 #age at onset - despite being an HP term this is not a phenotype
 
 relations:
   inheres in: RO:0000052

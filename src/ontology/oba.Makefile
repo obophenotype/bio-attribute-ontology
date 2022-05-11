@@ -69,6 +69,12 @@ $(TEMPLATESDIR)/%.owl: $(TEMPLATESDIR)/%.tsv $(SRC)
 $(COMPONENTSDIR)/obsoletes.owl: $(TEMPLATESDIR)/replaced.owl
 	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
 
+imports/hp_import.owl: $(TEMPLATESDIR)/external.owl
+	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
+
+mirror-hp:
+	echo "See oba.Makefile: No mirror needed, HPO generated from template."
+
 test: pattern_schema_checks
 
 RELEASE_ASSETS_RELEASE_DIR=$(foreach n,$(RELEASE_ASSETS), ../../$(n))
