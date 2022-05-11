@@ -101,7 +101,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  ro chebi go pato omo mondo uberon cl nbo pr so po
+IMPORTS =  ro chebi go pato omo hp mondo uberon cl nbo pr so po
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -287,6 +287,10 @@ $(IMPORTDIR)/chebi_import.owl: $(MIRRORDIR)/chebi.owl $(IMPORTDIR)/chebi_terms_c
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
 		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 
+## Module for ontology: hp
+
+$(IMPORTDIR)/hp_import.owl: $(MIRRORDIR)/hp.owl
+	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in oba.Makefile!" && false
 ## Module for ontology: pr
 
 $(IMPORTDIR)/pr_import.owl: $(MIRRORDIR)/pr.owl $(IMPORTDIR)/pr_terms_combined.txt
@@ -385,6 +389,13 @@ mirror-pato: | $(TMPDIR)
 .PRECIOUS: $(MIRRORDIR)/omo.owl
 mirror-omo: | $(TMPDIR)
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/omo.owl --create-dirs -o $(MIRRORDIR)/omo.owl --retry 4 --max-time 200 && $(ROBOT) convert -i $(MIRRORDIR)/omo.owl -o $@.tmp.owl && mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
+
+
+## ONTOLOGY: hp
+.PHONY: mirror-hp
+.PRECIOUS: $(MIRRORDIR)/hp.owl
+mirror-hp: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/hp.owl --create-dirs -o $(MIRRORDIR)/hp.owl --retry 4 --max-time 200 && $(ROBOT) convert -i $(MIRRORDIR)/hp.owl -o $@.tmp.owl && mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
 ## ONTOLOGY: mondo
