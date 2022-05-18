@@ -80,11 +80,11 @@ annotations:
     vars:
       - fovt
   - annotationProperty: measured_in_taxon
-    text: %s
+    text: "%s"
     vars:
       - taxa
   - annotationProperty: not_measured_in_taxon
-    text: %s
+    text: "%s"
     vars:
       - taxa
 
