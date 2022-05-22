@@ -72,6 +72,13 @@ $(COMPONENTSDIR)/obsoletes.owl: $(TEMPLATESDIR)/replaced.owl
 imports/hp_import.owl: $(TEMPLATESDIR)/external.owl
 	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
 
+$(IMPORTDIR)/mondo_import.owl: $(MIRRORDIR)/mondo.owl $(IMPORTDIR)/mondo_terms_combined.txt
+	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
+		extract -T $(IMPORTDIR)/mondo_terms_combined.txt --force true --copy-ontology-annotations true --individuals exclude --method BOT \
+		remove --select "<http://purl.obolibrary.org/obo/CP_*>" \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
+		annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+
 mirror-hp:
 	echo "See oba.Makefile: No mirror needed, HPO generated from template."
 
@@ -84,3 +91,53 @@ deploy_release:
 	ls -alt $(RELEASE_ASSETS_RELEASE_DIR)
 	gh auth login
 	gh release create $(GHVERSION) --notes "TBD." --title "$(GHVERSION)" --draft $(RELEASE_ASSETS_RELEASE_DIR)  --generate-notes
+
+#### Mappings
+
+OBA_EFO_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=1005741851&single=true&output=tsv
+OBA_VT_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=506793298&single=true&output=tsv
+OBA_EFO_EXCLUSIONS_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=698990842&single=true&output=tsv
+OBA_VT_EXCLUSIONS_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=2051840457&single=true&output=tsv
+
+../mappings/oba-efo.sssom.tsv:
+	wget "$(OBA_EFO_GS)" -O $@
+
+../mappings/oba-vt.sssom.tsv:
+	wget "$(OBA_VT_GS)" -O $@
+
+../mappings/oba-efo-mapping-exclusions.sssom.tsv:
+	wget "$(OBA_EFO_EXCLUSIONS_GS)" -O $@
+
+../mappings/oba-vt-mapping-exclusions.sssom.tsv:
+	wget "$(OBA_VT_EXCLUSIONS_GS)" -O $@
+
+sync_sssom_google_sheets:
+	$(MAKE) ../mappings/oba-efo.sssom.tsv -B
+	$(MAKE) ../mappings/oba-vt.sssom.tsv -B
+	$(MAKE) ../mappings/oba-efo-mapping-exclusions.sssom.tsv -B
+	$(MAKE) ../mappings/oba-vt-mapping-exclusions.sssom.tsv -B
+
+EFO=http://www.ebi.ac.uk/efo/efo.owl
+
+$(TMPDIR)/%.owl:
+	wget http://purl.obolibrary.org/obo/$*.owl -O $@
+.PRECIOUS: $(TMPDIR)/%.owl
+
+$(TMPDIR)/efo-dl.owl:
+	wget $(EFO) -O $@
+.PRECIOUS: $(TMPDIR)/efo-dl.owl
+
+$(TMPDIR)/efo.owl: $(TMPDIR)/efo-dl.owl
+	$(ROBOT) merge -i $< filter --term "http://www.ebi.ac.uk/efo/EFO_0001444" --select "self descendants" --trim false -o $@
+.PRECIOUS: $(TMPDIR)/efo.owl
+
+$(TMPDIR)/oba.owl: $(SRC)
+	$(ROBOT) merge -i $< -o $@
+.PRECIOUS: $(TMPDIR)/oba.owl
+
+$(REPORTDIR)/%.tsv: ../sparql/synonyms-exact.sparql #$(TMPDIR)/%.owl
+	$(ROBOT) query -i $(TMPDIR)/$*.owl --use-graphs true --query ../sparql/synonyms-exact.sparql $@
+.PRECIOUS: $(REPORTDIR)/%.tsv
+
+prepare_oba_alignment: $(REPORTDIR)/uberon.tsv $(REPORTDIR)/efo.tsv $(REPORTDIR)/pato.tsv $(REPORTDIR)/oba.tsv $(REPORTDIR)/vt.tsv $(REPORTDIR)/cl.tsv $(REPORTDIR)/go.tsv $(REPORTDIR)/chebi.tsv
+	echo "OK cool all tables prepared."

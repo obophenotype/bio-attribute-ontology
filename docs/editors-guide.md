@@ -1,0 +1,60 @@
+# Local development workflows with OBA
+
+<a id="edit-files"></a>
+
+## Edit files
+
+There are three kinds of files to edit in OBO explained in the following:
+
+- The normal OBA edit file (`src/ontology/obo-edit.obo`)
+- The OBA SSSOM mappings (`src/mappings/*`)
+- The OBA DOSDP pattern files (`src/patterns/data/default/*`)
+
+### The OBA edit file
+
+As opposed to other ontologies, the OBA edit file (`src/ontology/obo-edit.obo`) **is barely used**. Power curators will use the oba-edit.obo file occasionally to edit the class hierarchy, but as per OBA principles, the class hierarchy is mostly created by reasoning. Most of OBA editing happens by editing the DOSDP templates, see below.
+
+### The OBA SSSOM mappings 
+
+- [OBA-VT SSSOM Mapping](https://docs.google.com/spreadsheets/d/13qh7dLE38vMyz91oRqj6GzKjFohNazNKAJxKG6Plw1o/edit#gid=506793298): The official mappings between OBA and VT. Source of truth is on Google Sheets, not Github.
+- [OBA-EFO SSSOM Mapping](https://docs.google.com/spreadsheets/d/13qh7dLE38vMyz91oRqj6GzKjFohNazNKAJxKG6Plw1o/edit#gid=1005741851): The official mappings between OBA and EFO. Source of truth is on Google Sheets, not Github.
+- [OBA-EFO Excluded Mapping](https://docs.google.com/spreadsheets/d/13qh7dLE38vMyz91oRqj6GzKjFohNazNKAJxKG6Plw1o/edit#gid=1005741851): Terms from EFO that have been reviewed and deemed out of scope for OBA. Source of truth is on Google Sheets, not Github.
+- [OBA-VT Excluded Mapping](https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=2051840457&single=true&output=tsv): Terms from EFO that have been reviewed and deemed out of scope for OBA. Source of truth is on Google Sheets, not Github.
+
+## Updating SSSOM mapping files
+
+```
+cd src/ontology
+sh run.sh make sync_sssom_google_sheets
+```
+
+## Creating/updating terms
+
+<a id="alignment"></a>
+## Preparing alignment work
+
+1. Update the data required for the alignment: `sh run.sh make prepare_oba_alignment -B`. This will take a while, as a lot of ontologies are downloaded and syncronised.
+1. Start jupyter in your local environment
+1. Open `src/scripts/oba_alignment.ipynb` in your Jupyter environment and run all _over night_.
+1. While the above is running, read everything in the notebook carefully to get a sense what the notebook is doing. The methods section can be skipped during the first read through, but it will likely be necessary to review these in later stages of the alignment process.
+1. The notebook run will produce the following files:
+   * `src/mappings/oba-vt-unreviewed.sssom.tsv`: VT mappings identified by pipeline but not reviewed
+   * `src/mappings/oba-vt-missed.sssom.tsv`: VT mappings identified by looking at OBA IRIs (no need for review)
+   * `src/mappings/oba-vt-unmapped.sssom.tsv`: VT terms that have not been mapped so far (excluding reviewed and candidate mappings)
+   * `src/mappings/oba-vt-unreviewed.dosdp.tsv"`: VT terms with candidate DOSDP pattern fillings.
+   * `src/mappings/oba-efo-unreviewed.sssom.tsv`: see above vt analog
+   * `src/mappings/oba-efo-unmapped.sssom.tsv"`: see above vt analog
+   * `src/mappings/oba-efo-unreviewed.dosdp.tsv`: see above vt analog
+
+## Curating EFO alignment
+
+1. Follow the steps in the [preparing alignment workflow](#alignment)
+1. The central pieces for the EFO alignment, if of interest, can be found in the section starting with `EFO Analysis` in `src/scripts/oba_alignment.ipynb`.
+1. 
+
+## Curating VT alignment
+
+1. Follow the steps in the [preparing alignment workflow](#alignment)
+1. The central pieces for the EFO alignment, if of interest, can be found in the section starting with `EFO Analysis` in `src/scripts/oba_alignment.ipynb`.
+1. Review `src/mappings/oba-vt-missed.sssom.tsv`. This should ideally be empty - these are mappings that have not been factored into the official oba-vt mappings yet, but have the VT-style IRI (`OBA:VT0010108`) which suggests that the class was derived from the respective VT id. Add all mappings in `oba-vt-missed.sssom.tsv` to the official VT-OBA SSSOM mapping [curated on Google Sheets](#edit-files).
+1. Review `src/mappings/oba-vt-unreviewed.sssom.tsv`. These are the new mapping suggests as determined by the mapping pipeline. Review mappings 1 x 1 and copy them into the official VT-OBA SSSOM mapping [curated on Google Sheets](https://docs.google.com/spreadsheets/d/13qh7dLE38vMyz91oRqj6GzKjFohNazNKAJxKG6Plw1o/edit#gid=506793298).

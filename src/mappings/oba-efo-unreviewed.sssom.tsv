@@ -1,0 +1,3 @@
+subject_id	subject_label	predicate_id	object_id	object_label	match_type	subject_match_field	object_match_field	match_string
+EFO:0004884	breast size	skos:exactMatch	OBA:1000025	breast size	Lexical	rdfs:label	rdfs:label	breast size
+EFO:0006936	optic disc quality	skos:exactMatch	OBA:1000929	optic disc quality	Lexical	rdfs:label	rdfs:label	optic disc quality
