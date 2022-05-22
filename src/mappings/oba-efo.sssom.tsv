@@ -1,0 +1,4 @@
+subject_id	subject_label	subject_category	predicate_id	object_id	object_label	object_category	match_type	subject_source	object_source	confidence	mapping_date
+EFO:0004301	blood viscosity	measurement	skos:exactMatch	OBA:VT3000004	blood viscosity trait	quality	HumanCurated	EFO	OBA	1	2021-09-10
+EFO:0004325	blood pressure	measurement	skos:exactMatch	OBA:VT0000183	blood pressure trait	quality	HumanCurated	EFO	OBA	1	2021-09-10
+EFO:0004832	optic disc size measurement	measurement	skos:exactMatch	OBA:VT0006216	optic disc size trait	quality	HumanCurated	EFO	OBA	1	2021-09-10

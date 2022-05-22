@@ -1,6 +1,7 @@
 id: oba
 title: "Ontology of Biological Attributes (OBA)"
 github_org: obophenotype
+git_main_branch: master
 repo: bio-attribute-ontology
 edit_format: obo
 use_dosdps: TRUE
@@ -58,3 +59,5 @@ robot_report:
     - illegal-annotation-property
   custom_sparql_exports : 
     - basic-report
+documentation:
+  documentation_system: mkdocs
