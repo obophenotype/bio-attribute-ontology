@@ -46,13 +46,13 @@ sh run.sh make sync_sssom_google_sheets
 1. Open `src/scripts/oba_alignment.ipynb` in your Jupyter environment and run all _over night_.
 1. While the above is running, read everything in the notebook carefully to get a sense what the notebook is doing. The methods section can be skipped during the first read through, but it will likely be necessary to review these in later stages of the alignment process.
 1. The notebook run will produce the following files:
-   * `src/mappings/oba-vt-unreviewed.sssom.tsv`: VT mappings identified by pipeline but not reviewed
-   * `src/mappings/oba-vt-missed.sssom.tsv`: VT mappings identified by looking at OBA IRIs (no need for review)
-   * `src/mappings/oba-vt-unmapped.sssom.tsv`: VT terms that have not been mapped so far (excluding reviewed and candidate mappings)
-   * `src/mappings/oba-vt-unreviewed.dosdp.tsv`: VT terms with candidate DOSDP pattern fillings.
-   * `src/mappings/oba-efo-unreviewed.sssom.tsv`: see above vt analog
-   * `src/mappings/oba-efo-unmapped.sssom.tsv`: see above vt analog
-   * `src/mappings/oba-efo-unreviewed.dosdp.tsv`: see above vt analog
+    * `src/mappings/oba-vt-unreviewed.sssom.tsv`: VT mappings identified by pipeline but not reviewed
+    * `src/mappings/oba-vt-missed.sssom.tsv`: VT mappings identified by looking at OBA IRIs (no need for review)
+    * `src/mappings/oba-vt-unmapped.sssom.tsv`: VT terms that have not been mapped so far (excluding reviewed and candidate mappings)
+    * `src/mappings/oba-vt-unreviewed.dosdp.tsv`: VT terms with candidate DOSDP pattern fillings.
+    * `src/mappings/oba-efo-unreviewed.sssom.tsv`: see above vt analog
+    * `src/mappings/oba-efo-unmapped.sssom.tsv`: see above vt analog
+    * `src/mappings/oba-efo-unreviewed.dosdp.tsv`: see above vt analog
 
 ## Curating EFO alignment
 
