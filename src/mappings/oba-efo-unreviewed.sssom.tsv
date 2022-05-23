@@ -1,3 +1,34 @@
 subject_id	subject_label	predicate_id	object_id	object_label	match_type	subject_match_field	object_match_field	match_string
+EFO:0003923	bone density	skos:exactMatch	OBA:1000110	bone density	Lexical	rdfs:label	rdfs:label	bone density
+EFO:0004326	heart rate	skos:exactMatch	OBA:1001087	heart rate	Lexical	rdfs:label	rdfs:label	heart rate
+EFO:0004339	body height	skos:exactMatch	OBA:VT0001253	body height	Lexical	rdfs:label	rdfs:label	body height
+EFO:0004342	waist circumference	skos:exactMatch	OBA:1001085	waist circumference	Lexical	rdfs:label	rdfs:label	waist circumference
+EFO:0004589	upper arm circumference	skos:exactMatch	OBA:1000030	upper arm circumference	Lexical	oboInOwl:hasExactSynonym	rdfs:label	upper arm circumference
+EFO:0004629	von willebrand factor quality	skos:exactMatch	OBA:1000199	von Willebrand factor quality	Lexical	rdfs:label	rdfs:label	von willebrand factor quality
+EFO:0004742	renal system quality	skos:exactMatch	OBA:VT1000777	renal system quality	Lexical	rdfs:label	oboInOwl:hasExactSynonym	renal system quality
+EFO:0004766	subcutaneous adipose tissue quality	skos:exactMatch	OBA:1000023	subcutaneous adipose tissue quality	Lexical	rdfs:label	rdfs:label	subcutaneous adipose tissue quality
 EFO:0004884	breast size	skos:exactMatch	OBA:1000025	breast size	Lexical	rdfs:label	rdfs:label	breast size
+EFO:0005052	nervous system quality	skos:exactMatch	OBA:VT1000781	nervous system quality	Lexical	rdfs:label	oboInOwl:hasExactSynonym	nervous system quality
+EFO:0005055	qrs duration	skos:exactMatch	OBA:1001086	QRS duration	Lexical	rdfs:label	rdfs:label	qrs duration
+EFO:0005093	hip circumference	skos:exactMatch	OBA:1000032	hip circumference	Lexical	rdfs:label	rdfs:label	hip circumference
+EFO:0005114	head circumference	skos:exactMatch	OBA:VT0000047	head circumference	Lexical	rdfs:label	rdfs:label	head circumference
+EFO:0005208	glomerular filtration rate	skos:exactMatch	OBA:0003747	glomerular filtration rate	Lexical	rdfs:label	rdfs:label	glomerular filtration rate
+EFO:0006896	glucose homeostasis quality	skos:exactMatch	OBA:1000528	glucose homeostasis quality	Lexical	rdfs:label	rdfs:label	glucose homeostasis quality
+EFO:0006923	fertility quality	skos:exactMatch	OBA:VT0010464	fertility trait	Lexical	rdfs:label	rdfs:label	fertility quality
 EFO:0006936	optic disc quality	skos:exactMatch	OBA:1000929	optic disc quality	Lexical	rdfs:label	rdfs:label	optic disc quality
+EFO:0007680	gait quality	skos:exactMatch	OBA:1000869	gait quality	Lexical	rdfs:label	rdfs:label	gait quality
+EFO:0007699	eye movement quality	skos:exactMatch	OBA:1000197	eye movement quality	Lexical	rdfs:label	rdfs:label	eye movement quality
+EFO:0007841	facial morphology quality	skos:exactMatch	OBA:VT0003743	facial morphology trait	Lexical	rdfs:label	rdfs:label	facial morphology quality
+EFO:0007843	nose morphology quality	skos:exactMatch	OBA:VT0002233	nose morphology trait	Lexical	rdfs:label	rdfs:label	nose morphology quality
+EFO:0007845	lip morphology quality	skos:exactMatch	OBA:VT0003769	lip morphology trait	Lexical	rdfs:label	rdfs:label	lip morphology quality
+EFO:0007858	eye morphology quality	skos:exactMatch	OBA:VT0002092	eye morphology trait	Lexical	rdfs:label	rdfs:label	eye morphology quality
+EFO:0007878	alcohol consumption quality	skos:exactMatch	OBA:1000840	alcohol consumption quality	Lexical	rdfs:label	rdfs:label	alcohol consumption quality
+EFO:0007891	skin barrier function quality	skos:exactMatch	OBA:VT0002796	skin barrier function trait	Lexical	rdfs:label	rdfs:label	skin barrier function quality
+EFO:0007955	mouth morphology quality	skos:exactMatch	OBA:VT0000452	mouth morphology trait	Lexical	rdfs:label	rdfs:label	mouth morphology quality
+EFO:0008001	insulin secretion quality	skos:exactMatch	OBA:VT0003564	insulin secretion trait	Lexical	rdfs:label	rdfs:label	insulin secretion quality
+EFO:0008005	energy expenditure quality	skos:exactMatch	OBA:VT0005450	energy expenditure trait	Lexical	rdfs:label	rdfs:label	energy expenditure quality
+EFO:0008578	sperm motility quality	skos:exactMatch	OBA:VT0002674	sperm motility trait	Lexical	rdfs:label	rdfs:label	sperm motility quality
+EFO:0009287	interventricular septum thickness	skos:exactMatch	OBA:0006021	interventricular septum thickness	Lexical	rdfs:label	rdfs:label	interventricular septum thickness
+EFO:0009367	glucose metabolism quality	skos:exactMatch	OBA:VT0015088	glucose metabolism trait	Lexical	rdfs:label	rdfs:label	glucose metabolism quality
+EFO:0010074	trochanter size	skos:exactMatch	OBA:0002360	trochanter size	Lexical	rdfs:label	rdfs:label	trochanter size
+EFO:0011043	neck circumference	skos:exactMatch	OBA:1000031	neck circumference	Lexical	rdfs:label	rdfs:label	neck circumference
