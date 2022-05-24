@@ -21,21 +21,27 @@ relations:
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
+  created_by: oboInOwl:created_by
 
 vars:
   chemical: "'chemical entity'"
+
+data_list_vars:
+  dbxref: "xsd:string"
 
 name:
   text: "trait in response to %s"
   vars:
     - chemical
 
-annotations: 
+annotations:
   - annotationProperty: exact_synonym
     text: "response to %s trait"
     vars:
       - chemical
-      
+  - annotationProperty: created_by
+    value: dbxref
+
 def:
   text: "A trait that affects the response to a stimulus with %s."
   vars:
