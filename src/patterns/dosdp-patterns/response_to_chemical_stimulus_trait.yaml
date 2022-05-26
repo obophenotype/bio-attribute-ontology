@@ -6,8 +6,8 @@ pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_st
 description: 'A trait that affects the biological response to a chemical.'
 
 contributors:
-  - https://orcid.org/0000-0002-7073-9172
-  - https://orcid.org/0000-0001-8314-2140
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
 
 classes:
   chemical entity: CHEBI:24431
@@ -21,13 +21,16 @@ relations:
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
-  created_by: oboInOwl:created_by
+  contributor: dcterms:contributor
 
 vars:
   chemical: "'chemical entity'"
 
-data_list_vars:
-  dbxref: "xsd:string"
+data_vars:
+  orcid: xsd:string  # ORCID of contributor
+
+    #data_list_vars:
+    #  orcids: xsd:string
 
 name:
   text: "trait in response to %s"
@@ -39,8 +42,12 @@ annotations:
     text: "response to %s trait"
     vars:
       - chemical
-  - annotationProperty: created_by
-    value: dbxref
+  - annotationProperty: contributor
+    text: "%s"
+    vars:
+      - orcid
+        #  - annotationProperty: contributor
+        #    value: orcids
 
 def:
   text: "A trait that affects the response to a stimulus with %s."
