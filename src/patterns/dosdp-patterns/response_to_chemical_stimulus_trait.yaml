@@ -27,10 +27,7 @@ vars:
   chemical: "'chemical entity'"
 
 data_vars:
-  orcid: xsd:string  # ORCID of contributor
-
-    #data_list_vars:
-    #  orcids: xsd:string
+  orcid: "'contributor'"  # ORCID of contributor
 
 name:
   text: "trait in response to %s"
@@ -46,8 +43,7 @@ annotations:
     text: "%s"
     vars:
       - orcid
-        #  - annotationProperty: contributor
-        #    value: orcids
+
 
 def:
   text: "A trait that affects the response to a stimulus with %s."
