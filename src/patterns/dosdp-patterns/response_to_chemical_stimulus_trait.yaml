@@ -21,13 +21,13 @@ relations:
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
-  created_by: oio:created_by
+  contributor: dcterms:contributor
 
 vars:
   chemical: "'chemical entity'"
 
 data_vars:
-  orcid: "'created_by'"
+  orcid: "'contributor'"  # ORCID of contributor
 
 name:
   text: "trait in response to %s"
@@ -39,7 +39,7 @@ annotations:
     text: "response to %s trait"
     vars:
       - chemical
-  - annotationProperty: created_by
+  - annotationProperty: contributor
     text: "%s"
     vars:
       - orcid
