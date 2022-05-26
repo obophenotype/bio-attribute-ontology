@@ -44,7 +44,6 @@ annotations:
     vars:
       - orcid
 
-
 def:
   text: "A trait that affects the response to a stimulus with %s."
   vars:
