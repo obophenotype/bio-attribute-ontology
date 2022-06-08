@@ -1,8 +1,8 @@
 id: oba
 title: "Ontology of Biological Attributes (OBA)"
 github_org: obophenotype
+git_main_branch: master
 repo: bio-attribute-ontology
-report_fail_on: ERROR
 edit_format: obo
 use_dosdps: TRUE
 export_formats:
@@ -23,6 +23,9 @@ import_group:
     - id: go
     - id: pato
     - id: omo
+    - id: hp
+      module_type: custom
+    - id: mondo
     - id: uberon
       mirror_from: http://purl.obolibrary.org/obo/uberon/basic.owl
     - id: cl
@@ -38,11 +41,23 @@ components:
   products:
     - filename: obsoletes.owl
 #    - filename: reasoner_axioms.owl
-subset_group:
-  products:
-    - id: oba-basic
 robotemplate_group:
   products:
     - id: obsoletes.owl
 robot_java_args: '-Xmx8G'
-allow_equivalents: all
+allow_equivalents: asserted-only
+robot_report:
+  release_reports: False
+  fail_on : ERROR
+  use_labels : False
+  custom_profile : True
+  report_on :
+    - oba-base.owl
+  custom_sparql_checks :
+    - equivalent-classes
+    - owldef-self-reference
+    - illegal-annotation-property
+  custom_sparql_exports : 
+    - basic-report
+documentation:
+  documentation_system: mkdocs

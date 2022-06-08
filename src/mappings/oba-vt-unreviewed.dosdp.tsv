@@ -1,0 +1,1684 @@
+subject_id	subject_match_field	subject_label	match_type	quality	quality_label	attribute	attribute_label
+VT:0003477	rdfs:label	nerve fiber response quality	Lexical	PATO:0000001	quality	UBERON:0006134	nerve fiber
+VT:0003799	rdfs:label	macrophage migration quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+VT:0010765	rdfs:label	head and neck integrity quality	Lexical	PATO:0000001	quality	UBERON:0000974	neck
+VT:0010765	rdfs:label	head and neck integrity quality	Lexical	PATO:0000001	quality	UBERON:0000033	head
+VT:2000004	rdfs:label	coronary blood flow quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0000066	rdfs:label	pancreas/salivary gland physiology quality	Lexical	PATO:0000001	quality	UBERON:0002530	gland
+VT:0010557	rdfs:label	brain electrophysiology quality	Lexical	PATO:0000001	quality	UBERON:0000955	brain
+VT:0010723	rdfs:label	conditioned place preference behavior quality	Lexical	PATO:0000773	preference	GO:0007610	behavior
+VT:0001292	rdfs:label	lens vesicle development quality	Lexical	PATO:0000001	quality	UBERON:0005426	lens vesicle
+VT:0001037	rdfs:label	parasympathetic neuron morphology quality	Lexical	PATO:0000051	morphology	CL:0011102	parasympathetic neuron
+VT:0002625	rdfs:label	heart left ventricle cell size quality	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0002625	rdfs:label	heart left ventricle cell size quality	Lexical	PATO:0000366	left	CL:0000000	cell
+VT:0002625	rdfs:label	heart left ventricle cell size quality	Lexical	PATO:0000117	size	UBERON:0000948	heart
+VT:0002625	rdfs:label	heart left ventricle cell size quality	Lexical	PATO:0000117	size	CL:0000000	cell
+VT:0002650	rdfs:label	ameloblast development quality	Lexical	PATO:0000001	quality	CL:0000059	ameloblast
+VT:0001553	rdfs:label	blood free fatty acid amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0001553	rdfs:label	blood free fatty acid amount	Lexical	PATO:0002114	fatty	UBERON:0000178	blood
+VT:0010986	rdfs:label	blood l-citrulline amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010377	rdfs:label	milk free calcium amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0002281	rdfs:label	respiratory mucosa goblet cell morphology quality	Lexical	PATO:0010006	cell morphology	UBERON:0000344	mucosa
+VT:0002281	rdfs:label	respiratory mucosa goblet cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000160	goblet cell
+VT:0002281	rdfs:label	respiratory mucosa goblet cell morphology quality	Lexical	PATO:0000051	morphology	UBERON:0000344	mucosa
+VT:0002281	rdfs:label	respiratory mucosa goblet cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000160	goblet cell
+VT:0010871	rdfs:label	brain epinephrine amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0008756	rdfs:label	t cell receptor alpha chain v-j recombination quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0008756	rdfs:label	t cell receptor alpha chain v-j recombination quality	Lexical	PATO:0000001	quality	GO:0033151	V-J recombination
+VT:0010433	rdfs:label	milk fatty acid trans-16-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010433	rdfs:label	milk fatty acid trans-16-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010282	rdfs:label	milk alpha-s2-casein amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010716	rdfs:label	anxiety-related behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010826	rdfs:label	tongue length	Lexical	PATO:0000122	length	UBERON:0001723	tongue
+VT:0010979	rdfs:label	blood l-valine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0008198	rdfs:label	follicular dendritic cell antigen presentation quality	Lexical	PATO:0002045	dendritic	CL:0000000	cell
+VT:0000483	rdfs:label	sensorineural hearing physiology quality	Lexical	PATO:0000001	quality	GO:0007605	hearing
+VT:0006126	rdfs:label	outflow tract development quality	Lexical	PATO:0000001	quality	UBERON:0004145	outflow tract
+VT:0002403	rdfs:label	pre-b cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000000	cell
+VT:0002403	rdfs:label	pre-b cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0005442	rdfs:label	cerebral cortex pyramidal cell morphology quality	Lexical	PATO:0010006	cell morphology	UBERON:0000956	cerebral cortex
+VT:0005442	rdfs:label	cerebral cortex pyramidal cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000000	cell
+VT:0005442	rdfs:label	cerebral cortex pyramidal cell morphology quality	Lexical	PATO:0000051	morphology	UBERON:0000956	cerebral cortex
+VT:0005442	rdfs:label	cerebral cortex pyramidal cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0005442	rdfs:label	cerebral cortex pyramidal cell morphology quality	Lexical	PATO:0002336	pyramidal	UBERON:0000956	cerebral cortex
+VT:0005442	rdfs:label	cerebral cortex pyramidal cell morphology quality	Lexical	PATO:0002336	pyramidal	CL:0000000	cell
+VT:0005442	rdfs:label	cerebral cortex pyramidal cell morphology quality	Lexical	PATO:0070017	pyramidal cell morphology	UBERON:0000956	cerebral cortex
+VT:0005442	rdfs:label	cerebral cortex pyramidal cell morphology quality	Lexical	PATO:0070017	pyramidal cell morphology	CL:0000000	cell
+VT:0010729	rdfs:label	olfactory discrimination memory quality	Lexical	PATO:0000189	discrimination	GO:0007613	memory
+VT:0008112	rdfs:label	monocyte development quality	Lexical	PATO:0000001	quality	CL:0000576	monocyte
+VT:0003289	rdfs:label	intestinal peristalsis quality	Lexical	PATO:0000001	quality	GO:0030432	peristalsis
+VT:2000020	rdfs:label	heart muscle relaxation quality	Lexical	PATO:0000001	quality	UBERON:0000948	heart
+VT:0100025	rdfs:label	mammary gland cistern morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001911	mammary gland
+VT:0010549	rdfs:label	cerebrum integrity quality	Lexical	PATO:0000001	quality	UBERON:0001893	cerebrum
+VT:0005403	rdfs:label	nerve conduction quality	Lexical	PATO:0000001	quality	UBERON:0001021	nerve
+VT:0010598	rdfs:label	thoracic aorta cellular protein amount	Lexical	PATO:0000070	amount	UBERON:0001515	thoracic aorta
+VT:0006075	rdfs:label	retinal cone bipolar cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000000	cell
+VT:0006075	rdfs:label	retinal cone bipolar cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0002723	rdfs:label	immune serum protein activity quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+VT:0002572	rdfs:label	emotion/affect behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010251	rdfs:label	hemolymphoid system development quality	Lexical	PATO:0000001	quality	UBERON:0002193	hemolymphoid system
+VT:0000675	rdfs:label	palmar eccrine gland morphology quality	Lexical	PATO:0000051	morphology	UBERON:0002530	gland
+VT:0003905	rdfs:label	aorta elastin amount	Lexical	PATO:0000070	amount	UBERON:0000947	aorta
+VT:0010361	rdfs:label	milk fatty acid trans-11,trans-13-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010361	rdfs:label	milk fatty acid trans-11,trans-13-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0000060	rdfs:label	ossification initiation quality	Lexical	PATO:0000001	quality	GO:0001503	ossification
+VT:0010369	rdfs:label	milk fatty acid c18:3(n-3) amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010369	rdfs:label	milk fatty acid c18:3(n-3) amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0004428	rdfs:label	type i vestibular cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000000	cell
+VT:0004428	rdfs:label	type i vestibular cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0010472	rdfs:label	compulsivity behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0008555	rdfs:label	interferon secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010217	rdfs:label	jejunum crypt of lieberkuhn depth	Lexical	PATO:0001595	depth	UBERON:0002115	jejunum
+VT:0010217	rdfs:label	jejunum crypt of lieberkuhn depth	Lexical	PATO:0001595	depth	UBERON:0001983	crypt of Lieberkuhn
+VT:0000007	rdfs:label	mammary gland growth quality	Lexical	PATO:0000001	quality	UBERON:0001911	mammary gland
+VT:0000007	rdfs:label	mammary gland growth quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+VT:0010582	rdfs:label	blood sterol amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010980	rdfs:label	blood l-lysine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0008665	rdfs:label	interleukin-12a secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010327	rdfs:label	milk fatty acid cis-11-c16:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010327	rdfs:label	milk fatty acid cis-11-c16:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0002272	rdfs:label	nervous system electrophysiology quality	Lexical	PATO:0000001	quality	UBERON:0001016	nervous system
+VT:0008497	rdfs:label	blood immunoglobulin g2b amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0000944	rdfs:label	cochlear outer hair cell afferent innervation morphology quality	Lexical	PATO:0000051	morphology	CL:0000601	cochlear outer hair cell
+VT:0000944	rdfs:label	cochlear outer hair cell afferent innervation morphology quality	Lexical	PATO:0000051	morphology	GO:0060384	innervation
+VT:0010710	rdfs:label	milk copper amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0001323	rdfs:label	inner hair cell stereocilia size quality	Lexical	PATO:0000117	size	UBERON:0001037	hair
+VT:0001323	rdfs:label	inner hair cell stereocilia size quality	Lexical	PATO:0000117	size	CL:0000000	cell
+VT:0002230	rdfs:label	primitive streak development quality	Lexical	PATO:0000001	quality	UBERON:0004341	primitive streak
+VT:0010919	rdfs:label	feces bile acid amount	Lexical	PATO:0000070	amount	UBERON:0001988	feces
+VT:0010919	rdfs:label	feces bile acid amount	Lexical	PATO:0000070	amount	UBERON:0001970	bile
+VT:0003463	rdfs:label	single cell response quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+VT:0010820	rdfs:label	comb mass	Lexical	PATO:0000125	mass	UBERON:0012176	comb
+VT:0010973	rdfs:label	blood l-proline amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010190	rdfs:label	basophil development quality	Lexical	PATO:0000001	quality	CL:0000767	basophil
+VT:0009340	rdfs:label	splenocyte apoptosis quality	Lexical	PATO:0000001	quality	CL:2000074	splenocyte
+VT:0001028	rdfs:label	cochlear outer hair cell stereociliary bundle morphology quality	Lexical	PATO:0000051	morphology	CL:0000601	cochlear outer hair cell
+VT:0002871	rdfs:label	urine albumin amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0007084	rdfs:label	heart ventricle septum configuration quality	Lexical	PATO:0000001	quality	UBERON:0003037	septum
+VT:0007084	rdfs:label	heart ventricle septum configuration quality	Lexical	PATO:0000001	quality	UBERON:0002082	heart ventricle
+VT:0010530	rdfs:label	cued fear conditioning behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010749	rdfs:label	heart blood pressure quality	Lexical	PATO:0001025	pressure	UBERON:0000948	heart
+VT:0010749	rdfs:label	heart blood pressure quality	Lexical	PATO:0001025	pressure	UBERON:0000178	blood
+VT:0010640	rdfs:label	thoracic aorta integrity quality	Lexical	PATO:0000001	quality	UBERON:0001515	thoracic aorta
+VT:0010859	rdfs:label	forebrain norepinephrine amount	Lexical	PATO:0000070	amount	UBERON:0001890	forebrain
+VT:0010793	rdfs:label	kidney ribonucleic acid amount	Lexical	PATO:0000070	amount	UBERON:0002113	kidney
+VT:0003090	rdfs:label	muscle progenitor cell migration quality	Lexical	PATO:0000001	quality	CL:0011026	progenitor cell
+VT:0003090	rdfs:label	muscle progenitor cell migration quality	Lexical	PATO:0000001	quality	GO:0014812	muscle cell migration
+VT:1000643	rdfs:label	sperm production quality	Lexical	PATO:0000001	quality	CL:0000019	sperm
+VT:0010490	rdfs:label	aorta blood flow quality	Lexical	PATO:0000001	quality	UBERON:0000947	aorta
+VT:0010490	rdfs:label	aorta blood flow quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0010702	rdfs:label	blood lipoprotein particle size	Lexical	PATO:0000117	size	UBERON:0000178	blood
+VT:0010812	rdfs:label	heart left ventricle interstitial norepinephrine amount	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010812	rdfs:label	heart left ventricle interstitial norepinephrine amount	Lexical	PATO:0000070	amount	UBERON:0000948	heart
+VT:0010861	rdfs:label	medulla oblongata serotonin amount	Lexical	PATO:0000070	amount	UBERON:0001896	medulla oblongata
+VT:0010011	rdfs:label	femur mineral mass	Lexical	PATO:0000125	mass	UBERON:0000981	femur
+VT:0010904	rdfs:label	tissue oxygen amount	Lexical	PATO:0000070	amount	UBERON:0000479	tissue
+VT:0006227	rdfs:label	iris development quality	Lexical	PATO:0000001	quality	UBERON:0001769	iris
+VT:0006281	rdfs:label	tail development quality	Lexical	PATO:0000001	quality	UBERON:2001058	tail
+VT:0002174	rdfs:label	gastrulation movement quality	Lexical	PATO:0001906	movement quality	GO:0007369	gastrulation
+VT:0010764	rdfs:label	liver lipid amount	Lexical	PATO:0000070	amount	UBERON:0002107	liver
+VT:0002115	rdfs:label	skeleton extremities morphology quality	Lexical	PATO:0000051	morphology	UBERON:0004288	skeleton
+VT:0010632	rdfs:label	carbohydrate metabolism quality	Lexical	PATO:0000001	quality	GO:0008152	metabolism
+VT:0010211	rdfs:label	duodenum crypt of lieberkuhn width	Lexical	PATO:0000921	width	UBERON:0002114	duodenum
+VT:0010211	rdfs:label	duodenum crypt of lieberkuhn width	Lexical	PATO:0000921	width	UBERON:0001983	crypt of Lieberkuhn
+VT:0015101	rdfs:label	proprioception system quality	Lexical	PATO:0000001	quality	GO:0019230	proprioception
+VT:0010474	rdfs:label	blood non-hdl cholesterol amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010757	rdfs:label	heart integrity quality	Lexical	PATO:0000001	quality	UBERON:0000948	heart
+VT:0010584	rdfs:label	liver sterol amount	Lexical	PATO:0000070	amount	UBERON:0002107	liver
+VT:0008498	rdfs:label	blood immunoglobulin g3 amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010686	rdfs:label	blood calcidiol amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0000540	rdfs:label	urinary bladder epithelium morphology quality	Lexical	PATO:0000051	morphology	UBERON:0000483	epithelium
+VT:0000540	rdfs:label	urinary bladder epithelium morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001255	urinary bladder
+VT:0003830	rdfs:label	testis development quality	Lexical	PATO:0000001	quality	UBERON:0000473	testis
+VT:0010923	rdfs:label	cerebral cortex integrity quality	Lexical	PATO:0000001	quality	UBERON:0000956	cerebral cortex
+VT:0001328	rdfs:label	retinal layer organization quality	Lexical	PATO:0002264	organization quality	UBERON:0001781	retinal layer
+VT:0010314	rdfs:label	milk fatty acid c12:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010314	rdfs:label	milk fatty acid c12:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010840	rdfs:label	cervical spinal cord dihyroxyphenylacetic acid (dopac) amount	Lexical	PATO:0000070	amount	UBERON:0002726	cervical spinal cord
+VT:0001450	rdfs:label	vestibular hair bundle inter-stereocilial link morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001037	hair
+VT:0010577	rdfs:label	spinal cord molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0002240	spinal cord
+VT:1000684	rdfs:label	total heart ventricle mass	Lexical	PATO:0000125	mass	UBERON:0002082	heart ventricle
+VT:0010249	rdfs:label	blood cell physiology quality	Lexical	PATO:0000001	quality	CL:0000081	blood cell
+VT:0010249	rdfs:label	blood cell physiology quality	Lexical	PATO:0000001	quality	GO:0009987	cell physiology
+VT:0000501	rdfs:label	digestive secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010743	rdfs:label	blood cystatin c amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010027	rdfs:label	milk fatty acid c24:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010027	rdfs:label	milk fatty acid c24:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010853	rdfs:label	hypothalamus 5-hydroxyindoleacetic acid amount	Lexical	PATO:0000070	amount	UBERON:0001898	hypothalamus
+VT:0004771	rdfs:label	blood anti-single stranded dna antibody amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0004771	rdfs:label	blood anti-single stranded dna antibody amount	Lexical	PATO:0000070	amount	GO:0042571	antibody
+VT:0009332	rdfs:label	splenocyte morphology quality	Lexical	PATO:0000051	morphology	CL:2000074	splenocyte
+VT:0000154	rdfs:label	lymph circulatory physiology quality	Lexical	PATO:0000001	quality	UBERON:0002391	lymph
+VT:0000713	rdfs:label	reichert's cartilage development quality	Lexical	PATO:0000001	quality	UBERON:0004368	Reichert's cartilage
+VT:0004153	rdfs:label	kidney tubule apoptosis quality	Lexical	PATO:0000001	quality	UBERON:0001231	kidney tubule
+VT:0010397	rdfs:label	milk fat globule-egf factor 8 protein amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010695	rdfs:label	blood ghrelin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0000976	rdfs:label	hair guard cell innervation pattern quality	Lexical	PATO:0000001	quality	UBERON:0001037	hair
+VT:0000976	rdfs:label	hair guard cell innervation pattern quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+VT:0000976	rdfs:label	hair guard cell innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0004263	rdfs:label	limb posture quality	Lexical	PATO:0000001	quality	UBERON:0002101	limb
+VT:0010978	rdfs:label	blood l-leucine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010563	rdfs:label	hindlimb integrity quality	Lexical	PATO:0000001	quality	UBERON:0002103	hindlimb
+VT:0005275	rdfs:label	skin tensile strength quality	Lexical	PATO:0001230	strength	UBERON:0000014	skin
+VT:0000616	rdfs:label	palatine gland ductal branching morphology quality	Lexical	PATO:0000051	morphology	UBERON:0002447	palatine gland
+VT:0010306	rdfs:label	milk fatty acid c4:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010306	rdfs:label	milk fatty acid c4:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010355	rdfs:label	milk fatty acid trans-11,cis-13-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010355	rdfs:label	milk fatty acid trans-11,cis-13-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0001898	rdfs:label	long-term synaptic depression quality	Lexical	PATO:0000001	quality	GO:0060292	long-term synaptic depression
+VT:0010846	rdfs:label	medulla oblongata homovanillic acid amount	Lexical	PATO:0000070	amount	UBERON:0001896	medulla oblongata
+VT:0010260	rdfs:label	colostrum immunoglobulin m amount	Lexical	PATO:0000070	amount	UBERON:0001914	colostrum
+VT:0000050	rdfs:label	pancreas/salivary gland morphology quality	Lexical	PATO:0000051	morphology	UBERON:0002530	gland
+VT:0010370	rdfs:label	milk fatty acid c20:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010370	rdfs:label	milk fatty acid c20:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010790	rdfs:label	adrenal gland ribonucleic acid amount	Lexical	PATO:0000070	amount	UBERON:0002369	adrenal gland
+VT:0010804	rdfs:label	uterus molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0000995	uterus
+VT:0010631	rdfs:label	amino acid metabolism quality	Lexical	PATO:0000001	quality	GO:0008152	metabolism
+VT:0010258	rdfs:label	colostrum immunoglobulin a amount	Lexical	PATO:0000070	amount	UBERON:0001914	colostrum
+VT:0010462	rdfs:label	defecation behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010462	rdfs:label	defecation behavior quality	Lexical	PATO:0000001	quality	GO:0030421	defecation
+VT:0010784	rdfs:label	blood oxygen amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010798	rdfs:label	spleen molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0002106	spleen
+VT:0003095	rdfs:label	corneal stroma development quality	Lexical	PATO:0000001	quality	UBERON:0001777	corneal stroma
+VT:0010368	rdfs:label	milk fatty acid c22:6(n-3) amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010368	rdfs:label	milk fatty acid c22:6(n-3) amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010894	rdfs:label	colon molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0001155	colon
+VT:0010707	rdfs:label	kidney malondialdehyde amount	Lexical	PATO:0000070	amount	UBERON:0002113	kidney
+VT:0010817	rdfs:label	comb length	Lexical	PATO:0000122	length	UBERON:0012176	comb
+VT:0010141	rdfs:label	optic nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0010624	rdfs:label	blood superoxide dismutase amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010909	rdfs:label	blood ceruloplasmin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0005196	rdfs:label	posterior uvea morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001776	posterior uvea
+VT:0010887	rdfs:label	blood bradykinin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0001752	rdfs:label	secretion by hypothalamus quality	Lexical	PATO:0000001	quality	UBERON:0001898	hypothalamus
+VT:0001752	rdfs:label	secretion by hypothalamus quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:2000006	rdfs:label	renal blood flow quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0010637	rdfs:label	energy metabolism quality	Lexical	PATO:0001021	energy	GO:0008152	metabolism
+VT:0000195	rdfs:label	blood vessel reactivity quality	Lexical	PATO:0000001	quality	UBERON:0001981	blood vessel
+VT:0010243	rdfs:label	reticulo-rumen epithelium thickness	Lexical	PATO:0000915	thickness	UBERON:0000483	epithelium
+VT:0010748	rdfs:label	stereotypic behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0004762	rdfs:label	blood anti-double stranded dna antibody amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0004762	rdfs:label	blood anti-double stranded dna antibody amount	Lexical	PATO:0000070	amount	GO:0042571	antibody
+VT:0010347	rdfs:label	milk fatty acid trans-11,trans-15-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010347	rdfs:label	milk fatty acid trans-11,trans-15-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010616	rdfs:label	blood lactate amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010157	rdfs:label	cochlear inner hair cell efferent nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0010157	rdfs:label	cochlear inner hair cell efferent nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006798	efferent nerve
+VT:0010157	rdfs:label	cochlear inner hair cell efferent nerve fiber organization quality	Lexical	PATO:0002264	organization quality	CL:0000589	cochlear inner hair cell
+VT:0010560	rdfs:label	pancreas integrity quality	Lexical	PATO:0000001	quality	UBERON:0001264	pancreas
+VT:0010955	rdfs:label	pulmonary arteriole morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001980	arteriole
+VT:0008643	rdfs:label	blood interleukin-12a amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010818	rdfs:label	comb height	Lexical	PATO:0000119	height	UBERON:0012176	comb
+VT:0005100	rdfs:label	choroid pigmentation quality	Lexical	PATO:0000001	quality	UBERON:0001776	choroid
+VT:0005100	rdfs:label	choroid pigmentation quality	Lexical	PATO:0000001	quality	GO:0043473	pigmentation
+VT:0010568	rdfs:label	thoracic aorta molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0001515	thoracic aorta
+VT:0010913	rdfs:label	kidney tubule molecule reabsorption quality	Lexical	PATO:0000001	quality	UBERON:0001231	kidney tubule
+VT:0000263	rdfs:label	capillary blood flow quality	Lexical	PATO:0000001	quality	UBERON:0013757	capillary blood
+VT:0015015	rdfs:label	depression-related behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010408	rdfs:label	bulbourethral gland physiology quality	Lexical	PATO:0000001	quality	UBERON:0002366	bulbourethral gland
+VT:0003449	rdfs:label	intestinal goblet cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0019031	intestinal goblet cell
+VT:0003449	rdfs:label	intestinal goblet cell morphology quality	Lexical	PATO:0000051	morphology	CL:0019031	intestinal goblet cell
+VT:0010207	rdfs:label	duodenum muscle thickness	Lexical	PATO:0000915	thickness	UBERON:0002114	duodenum
+VT:0002443	rdfs:label	eosinophil development quality	Lexical	PATO:0000001	quality	CL:0000771	eosinophil
+VT:0010733	rdfs:label	trigeminal nerve integrity quality	Lexical	PATO:0000001	quality	UBERON:0001645	trigeminal nerve
+VT:0008760	rdfs:label	immunoglobulin heavy chain v(d)j recombination quality	Lexical	PATO:0000582	heavy	GO:0033151	V(D)J recombination
+VT:0001379	rdfs:label	penile erection physiology quality	Lexical	PATO:0000001	quality	GO:0043084	penile erection
+VT:0010837	rdfs:label	tissue norepinephrine amount	Lexical	PATO:0000070	amount	UBERON:0000479	tissue
+VT:0008719	rdfs:label	neutrophil recruitment quality	Lexical	PATO:0000001	quality	CL:0000775	neutrophil
+VT:0010881	rdfs:label	blood oxidized ldl amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010881	rdfs:label	blood oxidized ldl amount	Lexical	PATO:0002223	oxidized	UBERON:0000178	blood
+VT:0010929	rdfs:label	arteriole morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001980	arteriole
+VT:0010443	rdfs:label	cerebrospinal fluid homeostasis quality	Lexical	PATO:0000001	quality	UBERON:0001359	cerebrospinal fluid
+VT:0010443	rdfs:label	cerebrospinal fluid homeostasis quality	Lexical	PATO:0000001	quality	GO:0042592	homeostasis
+VT:0010553	rdfs:label	tongue integrity quality	Lexical	PATO:0000001	quality	UBERON:0001723	tongue
+VT:0004291	rdfs:label	conductive hearing physiology quality	Lexical	PATO:0000001	quality	GO:0007605	hearing
+VT:0015024	rdfs:label	allogrooming behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010996	rdfs:label	blood 3-hydroxybutyrate amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010739	rdfs:label	skin chloride amount	Lexical	PATO:0000070	amount	UBERON:0000014	skin
+VT:0004067	rdfs:label	heart ventricle trabeculae morphology quality	Lexical	PATO:0000051	morphology	UBERON:0000440	trabeculae
+VT:0004067	rdfs:label	heart ventricle trabeculae morphology quality	Lexical	PATO:0000051	morphology	UBERON:0002082	heart ventricle
+VT:0003202	rdfs:label	neuron apoptosis quality	Lexical	PATO:0000001	quality	CL:0000540	neuron
+VT:0010822	rdfs:label	blood inhibin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010822	rdfs:label	blood inhibin amount	Lexical	PATO:0000070	amount	GO:0016916	inhibin
+VT:0010559	rdfs:label	kidney renin amount	Lexical	PATO:0000070	amount	UBERON:0002113	kidney
+VT:0010562	rdfs:label	forelimb integrity quality	Lexical	PATO:0000001	quality	UBERON:0002102	forelimb
+VT:0006097	rdfs:label	cerebellum lobule development quality	Lexical	PATO:0000001	quality	UBERON:0009911	lobule
+VT:0006097	rdfs:label	cerebellum lobule development quality	Lexical	PATO:0000001	quality	UBERON:0004004	cerebellum lobule
+VT:0015056	rdfs:label	cloaca respiration quality	Lexical	PATO:0000001	quality	UBERON:0000162	cloaca
+VT:0010845	rdfs:label	cervical spinal cord homovanillic acid amount	Lexical	PATO:0000070	amount	UBERON:0002726	cervical spinal cord
+VT:0010725	rdfs:label	startle reflex quality	Lexical	PATO:0000001	quality	GO:0060004	reflex
+VT:0004255	rdfs:label	spongiotrophoblast layer morphology quality (sensu rodentia)	Lexical	PATO:0000051	morphology	CL:0002499	spongiotrophoblast
+VT:0000128	rdfs:label	molar growth quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+VT:0004135	rdfs:label	mammary gland embryonic development quality	Lexical	PATO:0000001	quality	UBERON:0001911	mammary gland
+VT:0000608	rdfs:label	hepatocyte organization quality	Lexical	PATO:0002264	organization quality	CL:0000182	hepatocyte
+VT:0010677	rdfs:label	glycated serum protein amount	Lexical	PATO:0000070	amount	UBERON:0001977	serum
+VT:1000278	rdfs:label	humerus mineral mass	Lexical	PATO:0000125	mass	UBERON:0000976	humerus
+VT:0010946	rdfs:label	aorta molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0000947	aorta
+VT:0010337	rdfs:label	milk fatty acid cis-11-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010337	rdfs:label	milk fatty acid cis-11-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0002445	rdfs:label	mononuclear leukocyte differentiation quality	Lexical	PATO:0000001	quality	CL:0000842	mononuclear leukocyte
+VT:0002241	rdfs:label	laryngeal mucosa goblet cell morphology quality	Lexical	PATO:0010006	cell morphology	UBERON:0001824	laryngeal mucosa
+VT:0002241	rdfs:label	laryngeal mucosa goblet cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000160	goblet cell
+VT:0002241	rdfs:label	laryngeal mucosa goblet cell morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001824	laryngeal mucosa
+VT:0002241	rdfs:label	laryngeal mucosa goblet cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000160	goblet cell
+VT:0006071	rdfs:label	retinal progenitor cell development quality	Lexical	PATO:0000001	quality	CL:0002672	retinal progenitor cell
+VT:0006071	rdfs:label	retinal progenitor cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0010503	rdfs:label	blood idl cholesterol amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0003210	rdfs:label	heart elastic fiber morphology quality	Lexical	PATO:0001171	elastic	UBERON:0000948	heart
+VT:0003210	rdfs:label	heart elastic fiber morphology quality	Lexical	PATO:0000051	morphology	UBERON:0000948	heart
+VT:0010497	rdfs:label	liver molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0002107	liver
+VT:0010390	rdfs:label	milk xanthine oxidoreductase amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0100024	rdfs:label	mammary gland fetal development quality	Lexical	PATO:0000001	quality	UBERON:0001911	mammary gland
+VT:0000857	rdfs:label	cerebellum foliation quality	Lexical	PATO:0000001	quality	UBERON:0002037	cerebellum
+VT:0010592	rdfs:label	brain sitosterol amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0010101	rdfs:label	medullary cavity development quality	Lexical	PATO:0000001	quality	UBERON:0002484	medullary cavity
+VT:0010606	rdfs:label	urine vanillylmandelic acid amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0009258	rdfs:label	thymocyte apoptosis quality	Lexical	PATO:0000001	quality	CL:0000893	thymocyte
+VT:0000414	rdfs:label	hair retention quality	Lexical	PATO:0000001	quality	UBERON:0001037	hair
+VT:0010872	rdfs:label	brain dihydroxyphenylacetic acid (dopac) amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0000940	rdfs:label	motor neuron innervation pattern quality	Lexical	PATO:0000001	quality	CL:0000100	motor neuron
+VT:0000940	rdfs:label	motor neuron innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0010297	rdfs:label	sympathetic nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0034729	sympathetic nerve
+VT:0010297	rdfs:label	sympathetic nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0008356	rdfs:label	gamma-delta t cell development quality	Lexical	PATO:0000001	quality	CL:0000798	gamma-delta T cell
+VT:0008356	rdfs:label	gamma-delta t cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0010915	rdfs:label	peritoneum integrity quality	Lexical	PATO:0000001	quality	UBERON:0002358	peritoneum
+VT:0010509	rdfs:label	neurocranium mineral mass	Lexical	PATO:0000125	mass	UBERON:0001703	neurocranium
+VT:0010558	rdfs:label	kidney molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0002113	kidney
+VT:0003467	rdfs:label	single cell response intensity	Lexical	PATO:0000049	intensity	CL:0000000	cell
+VT:0002067	rdfs:label	sensation behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010987	rdfs:label	blood dipeptide amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0003425	rdfs:label	optic vesicle development quality	Lexical	PATO:0000001	quality	UBERON:0004128	optic vesicle
+VT:0010329	rdfs:label	milk fatty acid trans-11-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010329	rdfs:label	milk fatty acid trans-11-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010378	rdfs:label	milk colloidal calcium amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010615	rdfs:label	cranium mineral mass	Lexical	PATO:0000125	mass	UBERON:0003128	cranium
+VT:0010940	rdfs:label	erythrocyte sodium amount	Lexical	PATO:0000070	amount	CL:0000232	erythrocyte
+VT:0010878	rdfs:label	blood bile acid amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010878	rdfs:label	blood bile acid amount	Lexical	PATO:0000070	amount	UBERON:0001970	bile
+VT:0010697	rdfs:label	blood chylomicron cholesterol amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010697	rdfs:label	blood chylomicron cholesterol amount	Lexical	PATO:0000070	amount	GO:0042627	chylomicron
+VT:0003887	rdfs:label	hepatocyte apoptosis quality	Lexical	PATO:0000001	quality	CL:0000182	hepatocyte
+VT:0010331	rdfs:label	milk fatty acid trans-5-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010331	rdfs:label	milk fatty acid trans-5-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010135	rdfs:label	gizzard muscle thickness	Lexical	PATO:0000915	thickness	UBERON:0005052	gizzard
+VT:0010040	rdfs:label	lymphatic system physiology quality	Lexical	PATO:0000001	quality	UBERON:0006558	lymphatic system
+VT:0010792	rdfs:label	heart ribonucleic acid amount	Lexical	PATO:0000070	amount	UBERON:0000948	heart
+VT:0010933	rdfs:label	nipple size quality	Lexical	PATO:0000117	size	UBERON:0002030	nipple
+VT:0010362	rdfs:label	milk fatty acid trans-12,trans-14-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010362	rdfs:label	milk fatty acid trans-12,trans-14-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0008113	rdfs:label	macrophage development quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+VT:0007086	rdfs:label	heart ventricle septum thickness	Lexical	PATO:0000915	thickness	UBERON:0003037	septum
+VT:0007086	rdfs:label	heart ventricle septum thickness	Lexical	PATO:0000915	thickness	UBERON:0002082	heart ventricle
+VT:2000021	rdfs:label	heart muscle contractile force	Lexical	PATO:0001690	contractile	UBERON:0000948	heart
+VT:2000021	rdfs:label	heart muscle contractile force	Lexical	PATO:0001035	force	UBERON:0000948	heart
+VT:0000185	rdfs:label	blood flow velocity	Lexical	PATO:0002242	velocity	UBERON:0000178	blood
+VT:0010148	rdfs:label	merkel's receptor nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0010148	rdfs:label	merkel's receptor nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0012456	Merkel's receptor
+VT:1000694	rdfs:label	muscle glycogen homeostasis quality	Lexical	PATO:0000001	quality	GO:0042592	homeostasis
+VT:0000008	rdfs:label	heart atrium appendage configuration quality	Lexical	PATO:0000001	quality	UBERON:0006618	atrium appendage
+VT:0000008	rdfs:label	heart atrium appendage configuration quality	Lexical	PATO:0000001	quality	UBERON:0002081	heart atrium
+VT:0010753	rdfs:label	urine urea amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0010809	rdfs:label	urine sorbital dehydrogenase amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0010863	rdfs:label	hypothalamus serotonin amount	Lexical	PATO:0000070	amount	UBERON:0001898	hypothalamus
+VT:0010711	rdfs:label	milk iron amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010310	rdfs:label	milk fatty acid c8:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010310	rdfs:label	milk fatty acid c8:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010821	rdfs:label	oviduct mass	Lexical	PATO:0000125	mass	UBERON:0000993	oviduct
+VT:0004429	rdfs:label	type ii vestibular cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000000	cell
+VT:0004429	rdfs:label	type ii vestibular cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0000883	rdfs:label	cochlear hair bundle tip links morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001037	hair
+VT:0010473	rdfs:label	impulsivity behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0004356	rdfs:label	radius cell quantity	Lexical	PATO:0002390	radius	CL:0000000	cell
+VT:0000179	rdfs:label	blood molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0000178	blood
+VT:0010583	rdfs:label	brain sterol amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0010981	rdfs:label	blood l-methionine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010724	rdfs:label	urine ketone body amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0010531	rdfs:label	operant conditioning behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010531	rdfs:label	operant conditioning behavior quality	Lexical	PATO:0000001	quality	GO:0035106	operant conditioning
+VT:0002779	rdfs:label	secretion by sex gland quality	Lexical	PATO:0000001	quality	UBERON:0003937	sex gland
+VT:0002779	rdfs:label	secretion by sex gland quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0003464	rdfs:label	single cell response threshold	Lexical	PATO:0000152	threshold	CL:0000000	cell
+VT:0010960	rdfs:label	sodium ion homeostasis quality	Lexical	PATO:0000001	quality	GO:0050801	ion homeostasis
+VT:0010974	rdfs:label	blood l-tyrosine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0003725	rdfs:label	blood autoantibody amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010827	rdfs:label	tongue mass	Lexical	PATO:0000125	mass	UBERON:0001723	tongue
+VT:0010800	rdfs:label	testis molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0000473	testis
+VT:0010254	rdfs:label	hematopoietic system physiology quality	Lexical	PATO:0000001	quality	UBERON:0002390	hematopoietic system
+VT:0010794	rdfs:label	liver ribonucleic acid amount	Lexical	PATO:0000070	amount	UBERON:0002107	liver
+VT:0010396	rdfs:label	milk stomatin amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010364	rdfs:label	milk fatty acid cis-11-c20:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010364	rdfs:label	milk fatty acid cis-11-c20:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010491	rdfs:label	heart left ventricle anterior wall thickness	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010491	rdfs:label	heart left ventricle anterior wall thickness	Lexical	PATO:0000915	thickness	UBERON:0000948	heart
+VT:0010209	rdfs:label	duodenum villi length	Lexical	PATO:0000122	length	UBERON:0002114	duodenum
+VT:0008550	rdfs:label	blood interferon-beta amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010703	rdfs:label	blood hdl particle size	Lexical	PATO:0000117	size	UBERON:0000178	blood
+VT:0010703	rdfs:label	blood hdl particle size	Lexical	PATO:0000117	size	GO:0034364	HDL particle
+VT:0010752	rdfs:label	blood angiotensin ii amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010813	rdfs:label	heart left ventricle interstitial bradykinin amount	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010813	rdfs:label	heart left ventricle interstitial bradykinin amount	Lexical	PATO:0000070	amount	UBERON:0000948	heart
+VT:0000981	rdfs:label	hair-down cell innervation pattern quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+VT:0000981	rdfs:label	hair-down cell innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0010620	rdfs:label	liver malondialdehyde amount	Lexical	PATO:0000070	amount	UBERON:0002107	liver
+VT:0010905	rdfs:label	brain oxygen amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0010357	rdfs:label	milk fatty acid trans-7,trans-9-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010357	rdfs:label	milk fatty acid trans-7,trans-9-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010924	rdfs:label	blood amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:1000161	rdfs:label	total milk fat amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010315	rdfs:label	milk fatty acid c14:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010315	rdfs:label	milk fatty acid c14:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010633	rdfs:label	lipid metabolism quality	Lexical	PATO:0000001	quality	GO:0008152	metabolism
+VT:0005229	rdfs:label	intervertebral disk development quality	Lexical	PATO:0000001	quality	UBERON:0001066	intervertebral disk
+VT:0015102	rdfs:label	parasympathetic cholinergic neuron morphology quality	Lexical	PATO:0000051	morphology	CL:0000108	cholinergic neuron
+VT:0010475	rdfs:label	blood amylase amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0008556	rdfs:label	tumor necrosis factor secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0008556	rdfs:label	tumor necrosis factor secretion quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+VT:0010218	rdfs:label	jejunum crypt of lieberkuhn width	Lexical	PATO:0000921	width	UBERON:0002115	jejunum
+VT:0010218	rdfs:label	jejunum crypt of lieberkuhn width	Lexical	PATO:0000921	width	UBERON:0001983	crypt of Lieberkuhn
+VT:0010744	rdfs:label	urine podocalyxin amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0010758	rdfs:label	heart left ventricle end-diastolic diameter	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010758	rdfs:label	heart left ventricle end-diastolic diameter	Lexical	PATO:0001334	diameter	UBERON:0000948	heart
+VT:0010585	rdfs:label	brain molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0000955	brain
+VT:0010328	rdfs:label	milk fatty acid cis-9-c17:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010328	rdfs:label	milk fatty acid cis-9-c17:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010854	rdfs:label	forebrain 5-hydroxyindoleacetic acid amount	Lexical	PATO:0000070	amount	UBERON:0001890	forebrain
+VT:0010868	rdfs:label	hypothalamus dopamine amount	Lexical	PATO:0000070	amount	UBERON:0001898	hypothalamus
+VT:0000231	rdfs:label	heart excitatory physiology quality	Lexical	PATO:0000001	quality	UBERON:0000948	heart
+VT:0001068	rdfs:label	mandibular nerve branching morphology quality	Lexical	PATO:0000051	morphology	UBERON:0000375	mandibular nerve
+VT:0010301	rdfs:label	heart physiology quality	Lexical	PATO:0000001	quality	UBERON:0000948	heart
+VT:0002453	rdfs:label	b cell antigen presentation quality	Lexical	PATO:0000001	quality	CL:0000236	B cell
+VT:0010564	rdfs:label	heart right ventricle dna amount	Lexical	PATO:0000367	right	UBERON:0000948	heart
+VT:0010564	rdfs:label	heart right ventricle dna amount	Lexical	PATO:0000070	amount	UBERON:0000948	heart
+VT:0001451	rdfs:label	vestibular hair bundle shaft connector morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001037	hair
+VT:0010578	rdfs:label	pituitary gland integrity quality	Lexical	PATO:0000001	quality	UBERON:0000007	pituitary gland
+VT:0010791	rdfs:label	brain ribonucleic acid amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0010028	rdfs:label	milk total protein amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0001947	rdfs:label	mucociliary clearance quality	Lexical	PATO:0000001	quality	GO:0120197	mucociliary clearance
+VT:0010799	rdfs:label	spleen ribonucleic acid amount	Lexical	PATO:0000070	amount	UBERON:0002106	spleen
+VT:0010398	rdfs:label	milk plasmin amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0000977	rdfs:label	hair-tylotrich neuron morphology quality	Lexical	PATO:0000051	morphology	CL:1001436	hair-tylotrich neuron
+VT:0003894	rdfs:label	purkinje cell innervation pattern quality	Lexical	PATO:0000001	quality	CL:0000121	Purkinje cell
+VT:0003894	rdfs:label	purkinje cell innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0010965	rdfs:label	blood glycine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010708	rdfs:label	sheltering behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010307	rdfs:label	milk fatty acid c5:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010307	rdfs:label	milk fatty acid c5:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010356	rdfs:label	milk fatty acid trans-12,cis-14-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010356	rdfs:label	milk fatty acid trans-12,cis-14-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0001091	rdfs:label	outer hair cell stereocilia size quality	Lexical	PATO:0000117	size	UBERON:0001037	hair
+VT:0001091	rdfs:label	outer hair cell stereocilia size quality	Lexical	PATO:0000117	size	CL:0000000	cell
+VT:0001753	rdfs:label	hypothalamus corticotropin-releasing hormone secretion quality	Lexical	PATO:0000001	quality	UBERON:0001898	hypothalamus
+VT:0001753	rdfs:label	hypothalamus corticotropin-releasing hormone secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010259	rdfs:label	colostrum immunoglobulin g amount	Lexical	PATO:0000070	amount	UBERON:0001914	colostrum
+VT:0010785	rdfs:label	blood carbon dioxide amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0000838	rdfs:label	cochlear hair cell inter-stereocilial links quality	Lexical	PATO:0000001	quality	CL:4023120	cochlear hair cell
+VT:0010528	rdfs:label	avoidance learning behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010528	rdfs:label	avoidance learning behavior quality	Lexical	PATO:0000001	quality	GO:0007612	learning
+VT:0010895	rdfs:label	gastrocnemius molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0001388	gastrocnemius
+VT:0000882	rdfs:label	cochlear hair bundle horizontal top connectors morphology quality	Lexical	PATO:0001855	horizontal	UBERON:0001037	hair
+VT:0000882	rdfs:label	cochlear hair bundle horizontal top connectors morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001037	hair
+VT:0010638	rdfs:label	xenobiotic metabolism quality	Lexical	PATO:0000001	quality	GO:0008152	metabolism
+VT:0010340	rdfs:label	milk fatty acid cis-15-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010340	rdfs:label	milk fatty acid cis-15-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010103	rdfs:label	parotid salivary gland cholinergic nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0010103	rdfs:label	parotid salivary gland cholinergic nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0001044	salivary gland
+VT:0010103	rdfs:label	parotid salivary gland cholinergic nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0001831	parotid
+VT:0015028	rdfs:label	organ of corti supporting cell differentiation quality	Lexical	PATO:0000001	quality	UBERON:0000062	organ
+VT:0015028	rdfs:label	organ of corti supporting cell differentiation quality	Lexical	PATO:0000001	quality	CL:0002490	organ of Corti supporting cell
+VT:0015028	rdfs:label	organ of corti supporting cell differentiation quality	Lexical	PATO:0000001	quality	GO:0030154	cell differentiation
+VT:0000729	rdfs:label	skeletal myogenesis quality	Lexical	PATO:0000001	quality	GO:0048740	myogenesis
+VT:0010880	rdfs:label	serum reactive oxygen metabolite amount	Lexical	PATO:0000070	amount	UBERON:0001977	serum
+VT:0010410	rdfs:label	gonadotropin-releasing hormone secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010348	rdfs:label	milk fatty acid cis-9,cis-11-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010348	rdfs:label	milk fatty acid cis-9,cis-11-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010950	rdfs:label	blood angiotensin i amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010888	rdfs:label	tissue protein amount	Lexical	PATO:0000070	amount	UBERON:0000479	tissue
+VT:0000043	rdfs:label	total urine molecular amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:1000738	rdfs:label	limb conformation quality	Lexical	PATO:0000001	quality	UBERON:0002101	limb
+VT:2000007	rdfs:label	pulmonary blood flow quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0008720	rdfs:label	neutrophil migration quality	Lexical	PATO:0000001	quality	CL:0000775	neutrophil
+VT:0003150	rdfs:label	tectorial membrane attachment quality	Lexical	PATO:0001435	attachment quality	UBERON:0002233	tectorial membrane
+VT:0010841	rdfs:label	medulla oblongata dihydroxyphenylacetic acid (dopac) amount	Lexical	PATO:0000070	amount	UBERON:0001896	medulla oblongata
+VT:0003229	rdfs:label	yolk sac vasculature morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001040	yolk sac
+VT:0003229	rdfs:label	yolk sac vasculature morphology quality	Lexical	PATO:0000051	morphology	UBERON:0002049	vasculature
+VT:0001041	rdfs:label	lacrimal gland cholinergic innervation pattern quality	Lexical	PATO:0000001	quality	UBERON:0001817	lacrimal gland
+VT:0001041	rdfs:label	lacrimal gland cholinergic innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0000478	rdfs:label	intestine development quality	Lexical	PATO:0000001	quality	UBERON:0000160	intestine
+VT:0010513	rdfs:label	blood ferritin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0001049	rdfs:label	enteric cholinergic innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0002486	rdfs:label	serum amyloid protein physiology quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+VT:0000861	rdfs:label	barrel cortex organization quality	Lexical	PATO:0002264	organization quality	UBERON:0010415	barrel cortex
+VT:0010617	rdfs:label	blood pyruvate amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0008619	rdfs:label	blood interleukin-23 amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010465	rdfs:label	adipocyte free fatty acid secretion quality	Lexical	PATO:0002114	fatty	CL:0000136	adipocyte
+VT:0010465	rdfs:label	adipocyte free fatty acid secretion quality	Lexical	PATO:0002114	fatty	GO:0046903	secretion
+VT:0010661	rdfs:label	hoof pigmentation quality	Lexical	PATO:0000001	quality	UBERON:0008963	hoof
+VT:0010661	rdfs:label	hoof pigmentation quality	Lexical	PATO:0000001	quality	GO:0043473	pigmentation
+VT:0010561	rdfs:label	heart left ventricle molecular composition quality	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010561	rdfs:label	heart left ventricle molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0000948	heart
+VT:0010956	rdfs:label	quinidine metabolism quality	Lexical	PATO:0000001	quality	GO:0008152	metabolism
+VT:0010819	rdfs:label	comb pigmentation quality	Lexical	PATO:0000001	quality	UBERON:0012176	comb
+VT:0010819	rdfs:label	comb pigmentation quality	Lexical	PATO:0000001	quality	GO:0043473	pigmentation
+VT:0010333	rdfs:label	milk fatty acid trans-9-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010333	rdfs:label	milk fatty acid trans-9-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0003514	rdfs:label	interlabial sulcus morphology quality	Lexical	PATO:0000051	morphology	UBERON:0000093	sulcus
+VT:0010914	rdfs:label	blood glucagon-like peptide amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0015061	rdfs:label	thorax development quality	Lexical	PATO:0000001	quality	UBERON:0000915	thorax
+VT:0010261	rdfs:label	milk fat amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0000330	rdfs:label	endolymph production quality	Lexical	PATO:0000001	quality	UBERON:0001852	endolymph
+VT:0010142	rdfs:label	nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0010371	rdfs:label	milk fatty acid cis-9-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010371	rdfs:label	milk fatty acid cis-9-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0003114	rdfs:label	parathyroid gland pigmentation quality	Lexical	PATO:0000001	quality	UBERON:0001132	parathyroid gland
+VT:0003114	rdfs:label	parathyroid gland pigmentation quality	Lexical	PATO:0000001	quality	GO:0043473	pigmentation
+VT:0010805	rdfs:label	uterus ribonucleic acid amount	Lexical	PATO:0000070	amount	UBERON:0000995	uterus
+VT:0003377	rdfs:label	menarche initiation quality	Lexical	PATO:0000001	quality	GO:0042696	menarche
+VT:0003096	rdfs:label	cornea light-scattering quality	Lexical	PATO:0000001	quality	UBERON:0000964	cornea
+VT:0010342	rdfs:label	milk fatty acid cis-9,trans-12-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010342	rdfs:label	milk fatty acid cis-9,trans-12-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:1000238	rdfs:label	feather development quality	Lexical	PATO:0000001	quality	UBERON:0000022	feather
+VT:0010882	rdfs:label	serum oxidized ldl amount	Lexical	PATO:0000070	amount	UBERON:0001977	serum
+VT:0010882	rdfs:label	serum oxidized ldl amount	Lexical	PATO:0002223	oxidized	UBERON:0001977	serum
+VT:0010625	rdfs:label	blood malondialdehyde amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0000935	rdfs:label	telencephalic vesicle development quality	Lexical	PATO:0000001	quality	GO:0031982	vesicle
+VT:0010444	rdfs:label	kinesthetic behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010554	rdfs:label	intestine integrity quality	Lexical	PATO:0000001	quality	UBERON:0000160	intestine
+VT:0004292	rdfs:label	spiral ligament fibrocyte morphology quality	Lexical	PATO:0000051	morphology	UBERON:0000211	ligament
+VT:0004292	rdfs:label	spiral ligament fibrocyte morphology quality	Lexical	PATO:0000051	morphology	CL:0000135	fibrocyte
+VT:0004292	rdfs:label	spiral ligament fibrocyte morphology quality	Lexical	PATO:0000404	spiral	UBERON:0000211	ligament
+VT:0004292	rdfs:label	spiral ligament fibrocyte morphology quality	Lexical	PATO:0000404	spiral	CL:0000135	fibrocyte
+VT:0001690	rdfs:label	somite differentiation initiation quality	Lexical	PATO:0000001	quality	UBERON:0002329	somite
+VT:0007022	rdfs:label	pulmonary valve configuration quality	Lexical	PATO:0000001	quality	UBERON:0002146	pulmonary valve
+VT:0004201	rdfs:label	fetal growth quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+VT:0010983	rdfs:label	blood l-threonine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010726	rdfs:label	wildness behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010160	rdfs:label	tumor necrosis factor-alpha physiology quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+VT:0002773	rdfs:label	blood luteinizing hormone amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0003794	rdfs:label	somite formation initation quality	Lexical	PATO:0000001	quality	UBERON:0002329	somite
+VT:0010874	rdfs:label	brain 5-hydroxyindoleacetic acid amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0000361	rdfs:label	mast cell protease storage quality	Lexical	PATO:0000001	quality	CL:0000097	mast cell
+VT:0008195	rdfs:label	antigen presenting cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000000	cell
+VT:0008195	rdfs:label	antigen presenting cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0001349	rdfs:label	tear production quality	Lexical	PATO:0000001	quality	UBERON:0001827	tear
+VT:0010832	rdfs:label	hypothalamus epinephrine amount	Lexical	PATO:0000070	amount	UBERON:0001898	hypothalamus
+VT:0009333	rdfs:label	splenocyte physiology quality	Lexical	PATO:0000001	quality	CL:2000074	splenocyte
+VT:0001674	rdfs:label	germ layer development quality	Lexical	PATO:0000001	quality	UBERON:0000923	germ layer
+VT:0002124	rdfs:label	red blood cell quality	Lexical	PATO:0000001	quality	CL:0000232	red blood cell
+VT:0001819	rdfs:label	immune system cell physiology quality	Lexical	PATO:0000001	quality	UBERON:0002405	immune system
+VT:0001819	rdfs:label	immune system cell physiology quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+VT:0001819	rdfs:label	immune system cell physiology quality	Lexical	PATO:0000001	quality	GO:0009987	cell physiology
+VT:0010372	rdfs:label	milk fatty acid cis-9-c16:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010372	rdfs:label	milk fatty acid cis-9-c16:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0004431	rdfs:label	hair cell mechanoelectric transduction quality	Lexical	PATO:0000001	quality	UBERON:0001037	hair
+VT:0004431	rdfs:label	hair cell mechanoelectric transduction quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+VT:0004431	rdfs:label	hair cell mechanoelectric transduction quality	Lexical	PATO:0000001	quality	GO:0009293	transduction
+VT:0015010	rdfs:label	white adipocyte lipid droplet size quality	Lexical	PATO:0000323	white	CL:0000136	adipocyte
+VT:0015010	rdfs:label	white adipocyte lipid droplet size quality	Lexical	PATO:0000117	size	CL:0000136	adipocyte
+VT:0010034	rdfs:label	immune serum protein amount	Lexical	PATO:0000070	amount	UBERON:0001977	serum
+VT:0010391	rdfs:label	milk adipophilin amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0000962	rdfs:label	dorsal root ganglion organization quality	Lexical	PATO:0002264	organization quality	UBERON:0000045	ganglion
+VT:0000962	rdfs:label	dorsal root ganglion organization quality	Lexical	PATO:0001233	dorsal	UBERON:0000045	ganglion
+VT:0010330	rdfs:label	milk fatty acid trans-4-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010330	rdfs:label	milk fatty acid trans-4-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010947	rdfs:label	liver adipose amount	Lexical	PATO:0000070	amount	UBERON:0002107	liver
+VT:0010666	rdfs:label	milk alpha-casein amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0000004	rdfs:label	forelimb conformation quality	Lexical	PATO:0000001	quality	UBERON:0002102	forelimb
+VT:0010228	rdfs:label	ileum villi length	Lexical	PATO:0000122	length	UBERON:0002116	ileum
+VT:0010409	rdfs:label	placenta physiology quality	Lexical	PATO:0000001	quality	UBERON:0001987	placenta
+VT:0000189	rdfs:label	blood vessel distensibility quality	Lexical	PATO:0015008	distensibility	UBERON:0001981	blood vessel
+VT:0010593	rdfs:label	liver phytosterol amount	Lexical	PATO:0000070	amount	UBERON:0002107	liver
+VT:0010991	rdfs:label	blood sarcosine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010338	rdfs:label	milk fatty acid cis-12-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010338	rdfs:label	milk fatty acid cis-12-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010102	rdfs:label	vertebral column development quality	Lexical	PATO:0000001	quality	UBERON:0001130	vertebral column
+VT:0015049	rdfs:label	tail regeneration quality	Lexical	PATO:0000001	quality	UBERON:2001058	tail
+VT:0015049	rdfs:label	tail regeneration quality	Lexical	PATO:0000001	quality	GO:0031099	regeneration
+VT:0010900	rdfs:label	leydig cell integrity quality	Lexical	PATO:0000001	quality	CL:0000178	Leydig cell
+VT:0010838	rdfs:label	tissue serotonin amount	Lexical	PATO:0000070	amount	UBERON:0000479	tissue
+VT:0015093	rdfs:label	hearing system quality	Lexical	PATO:0000001	quality	GO:0007605	hearing
+VT:0003847	rdfs:label	lens bow organization quality	Lexical	PATO:0002264	organization quality	UBERON:0000965	lens
+VT:0002415	rdfs:label	neutrophil development quality	Lexical	PATO:0000001	quality	CL:0000775	neutrophil
+VT:0002790	rdfs:label	blood follicle stimulating hormone amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0001445	rdfs:label	vestibular hair cell stereociliary bundle morphology quality	Lexical	PATO:0000051	morphology	CL:0000609	vestibular hair cell
+VT:0001039	rdfs:label	cholinergic innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0000968	rdfs:label	sensory neuron innervation pattern quality	Lexical	PATO:0000001	quality	CL:0000101	sensory neuron
+VT:0000968	rdfs:label	sensory neuron innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0002329	rdfs:label	blood gas amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010587	rdfs:label	blood phytosterol amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0001398	rdfs:label	strial basal cell tight junction morphology quality	Lexical	PATO:0001809	tight	CL:0002493	strial basal cell
+VT:0001398	rdfs:label	strial basal cell tight junction morphology quality	Lexical	PATO:0000051	morphology	CL:0002493	strial basal cell
+VT:0004130	rdfs:label	muscle cell glucose uptake quality	Lexical	PATO:0000001	quality	CL:0000187	muscle cell
+VT:0010873	rdfs:label	brain homovanillic acid amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0003818	rdfs:label	eye muscle development quality	Lexical	PATO:0000001	quality	UBERON:0004277	eye muscle
+VT:0010916	rdfs:label	blood gastric inhibitory polypeptide amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010713	rdfs:label	milk selenium amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010540	rdfs:label	urine creatinine amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0005010	rdfs:label	cd8-positive t cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000084	T cell
+VT:0005010	rdfs:label	cd8-positive t cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T cell
+VT:0010823	rdfs:label	milk lactoperoxidase amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0002582	rdfs:label	extraembryonic tissue organization quality	Lexical	PATO:0002264	organization quality	UBERON:0005292	extraembryonic tissue
+VT:0000021	rdfs:label	outer ear prominence	Lexical	PATO:0015007	prominence	UBERON:0001691	outer ear
+VT:0008748	rdfs:label	central t cell anergy quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0007087	rdfs:label	heart left ventricle posterior wall thickness	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0007087	rdfs:label	heart left ventricle posterior wall thickness	Lexical	PATO:0000915	thickness	UBERON:0000948	heart
+VT:0010941	rdfs:label	erythrocyte potassium amount	Lexical	PATO:0000070	amount	CL:0000232	erythrocyte
+VT:0010879	rdfs:label	blood reactive oxygen metabolite amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0004185	rdfs:label	adipocyte glucose uptake quality	Lexical	PATO:0000001	quality	CL:0000136	adipocyte
+VT:0000242	rdfs:label	heart electrical impulse generation quality	Lexical	PATO:0001022	impulse	UBERON:0000948	heart
+VT:0005391	rdfs:label	vision system quality	Lexical	PATO:0000001	quality	GO:0007601	vision
+VT:0010332	rdfs:label	milk fatty acid trans-6-8-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010332	rdfs:label	milk fatty acid trans-6-8-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010601	rdfs:label	brain ventricle integrity quality	Lexical	PATO:0000001	quality	UBERON:0004086	brain ventricle
+VT:0010595	rdfs:label	liver sitosterol amount	Lexical	PATO:0000070	amount	UBERON:0002107	liver
+VT:0010253	rdfs:label	hemolymphoid system physiology quality	Lexical	PATO:0000001	quality	UBERON:0002193	hemolymphoid system
+VT:0008217	rdfs:label	b cell activation quality	Lexical	PATO:0002353	activation quality	CL:0000236	B cell
+VT:0008217	rdfs:label	b cell activation quality	Lexical	PATO:0002353	activation quality	GO:0001775	cell activation
+VT:0010920	rdfs:label	cerebral artery morphology quality	Lexical	PATO:0000051	morphology	UBERON:0004449	cerebral artery
+VT:0008781	rdfs:label	b cell apoptosis quality	Lexical	PATO:0000001	quality	CL:0000236	B cell
+VT:0007007	rdfs:label	atrioventricular canal configuration quality	Lexical	PATO:0000001	quality	UBERON:0002087	atrioventricular canal
+VT:0010363	rdfs:label	milk fatty acid cis-8-c20:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010363	rdfs:label	milk fatty acid cis-8-c20:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010934	rdfs:label	adipocyte size quality	Lexical	PATO:0000117	size	CL:0000136	adipocyte
+VT:0010761	rdfs:label	kidney lipid peroxide amount	Lexical	PATO:0000070	amount	UBERON:0002113	kidney
+VT:0010504	rdfs:label	blood hdl phospholipid amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0003951	rdfs:label	copper homeostasis quality	Lexical	PATO:0000001	quality	GO:0042592	homeostasis
+VT:0010311	rdfs:label	milk fatty acid c9:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010311	rdfs:label	milk fatty acid c9:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010039	rdfs:label	adrenergic nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0000186	rdfs:label	blood shear quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0000884	rdfs:label	purkinje cell layer lamination integrity quality	Lexical	PATO:0000001	quality	UBERON:0000119	cell layer
+VT:0000884	rdfs:label	purkinje cell layer lamination integrity quality	Lexical	PATO:0000001	quality	CL:0000121	Purkinje cell
+VT:0002062	rdfs:label	conditioning behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010982	rdfs:label	blood l-phenylalanine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010214	rdfs:label	jejunum muscle thickness	Lexical	PATO:0000915	thickness	UBERON:0002115	jejunum
+VT:0010754	rdfs:label	kidney adrenomedullin amount	Lexical	PATO:0000070	amount	UBERON:0002113	kidney
+VT:0001392	rdfs:label	locomotor behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0002884	rdfs:label	branchial arch development quality	Lexical	PATO:0000001	quality	UBERON:0008896	branchial arch
+VT:0010850	rdfs:label	cervical spinal cord 5-hydroxyindoleacetic acid amount	Lexical	PATO:0000070	amount	UBERON:0002726	cervical spinal cord
+VT:0010864	rdfs:label	forebrain serotonin amount	Lexical	PATO:0000070	amount	UBERON:0001890	forebrain
+VT:0010607	rdfs:label	blood gamma-glutamyltransferase amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010712	rdfs:label	milk manganese amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0015098	rdfs:label	nociception system morphology quality	Lexical	PATO:0000051	morphology	GO:0019233	nociception
+VT:0000941	rdfs:label	motor neuron target finding quality	Lexical	PATO:0000001	quality	CL:0000100	motor neuron
+VT:0001805	rdfs:label	blood immunoglobulin g amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010975	rdfs:label	blood l-arginine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0005567	rdfs:label	blood total protein amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0008897	rdfs:label	blood immunoglobulin g2c amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0002946	rdfs:label	time of axon outgrowth	Lexical	PATO:0000165	time	GO:0030424	axon
+VT:0010317	rdfs:label	milk fatty acid c17:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010317	rdfs:label	milk fatty acid c17:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0001025	rdfs:label	sympathetic neuron morphology quality	Lexical	PATO:0000051	morphology	CL:0011103	sympathetic neuron
+VT:0010532	rdfs:label	active avoidance behavior quality	Lexical	PATO:0002354	active	GO:0007610	behavior
+VT:0001318	rdfs:label	pupil clarity quality	Lexical	PATO:0000001	quality	UBERON:0001771	pupil
+VT:0004415	rdfs:label	cochlear nerve compound action potential	Lexical	PATO:0001463	action potential	UBERON:0004727	cochlear nerve
+VT:0010988	rdfs:label	blood anserine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0000151	rdfs:label	atrioventricular canal partitioning quality	Lexical	PATO:0000001	quality	UBERON:0002087	atrioventricular canal
+VT:0010642	rdfs:label	renal artery integrity quality	Lexical	PATO:0000001	quality	UBERON:0001184	renal artery
+VT:0010795	rdfs:label	lung molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0002048	lung
+VT:0010690	rdfs:label	pericardial fat pad mass	Lexical	PATO:0000125	mass	UBERON:0035814	pericardial fat
+VT:0010961	rdfs:label	potassium ion homeostasis quality	Lexical	PATO:0000001	quality	GO:0050801	ion homeostasis
+VT:0000733	rdfs:label	muscular system development quality	Lexical	PATO:0000001	quality	UBERON:0000383	muscular system
+VT:0010704	rdfs:label	blood ldl particle size	Lexical	PATO:0000117	size	UBERON:0000178	blood
+VT:0010704	rdfs:label	blood ldl particle size	Lexical	PATO:0000117	size	GO:0034362	LDL particle
+VT:0010545	rdfs:label	blood adiponectin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010698	rdfs:label	blood hdl triglyceride amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010814	rdfs:label	heart left ventricle interstitial angiotensin ii amount	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010814	rdfs:label	heart left ventricle interstitial angiotensin ii amount	Lexical	PATO:0000070	amount	UBERON:0000948	heart
+VT:0010828	rdfs:label	tissue epinephrine amount	Lexical	PATO:0000070	amount	UBERON:0000479	tissue
+VT:0000386	rdfs:label	hair follicle root sheath morphology quality	Lexical	PATO:0000051	morphology	UBERON:0002073	hair follicle
+VT:0010906	rdfs:label	lung integrity quality	Lexical	PATO:0000001	quality	UBERON:0002048	lung
+VT:0008020	rdfs:label	dermis mast cell morphology quality	Lexical	PATO:0010006	cell morphology	UBERON:0002067	dermis
+VT:0008020	rdfs:label	dermis mast cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000097	mast cell
+VT:0008020	rdfs:label	dermis mast cell morphology quality	Lexical	PATO:0000051	morphology	UBERON:0002067	dermis
+VT:0008020	rdfs:label	dermis mast cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000097	mast cell
+VT:0015048	rdfs:label	limb regeneration quality	Lexical	PATO:0000001	quality	UBERON:0002101	limb
+VT:0015048	rdfs:label	limb regeneration quality	Lexical	PATO:0000001	quality	GO:0031099	regeneration
+VT:0010255	rdfs:label	hematopoietic system development quality	Lexical	PATO:0000001	quality	UBERON:0002390	hematopoietic system
+VT:0010041	rdfs:label	cholinergic nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0007009	rdfs:label	interatrial septum configuration quality	Lexical	PATO:0000001	quality	UBERON:0002085	interatrial septum
+VT:0010365	rdfs:label	milk fatty acid c20:4(n-6) amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010365	rdfs:label	milk fatty acid c20:4(n-6) amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0005116	rdfs:label	blood pituitary hormone amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0005116	rdfs:label	blood pituitary hormone amount	Lexical	PATO:0000070	amount	UBERON:0000007	pituitary
+VT:0010634	rdfs:label	peptide metabolism quality	Lexical	PATO:0000001	quality	GO:0008152	metabolism
+VT:0003160	rdfs:label	esophagus development quality	Lexical	PATO:0000001	quality	UBERON:0001043	esophagus
+VT:0008551	rdfs:label	blood interferon-gamma amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0015103	rdfs:label	sympathetic cholinergic neuron morphology quality	Lexical	PATO:0000051	morphology	CL:3000003	sympathetic cholinergic neuron
+VT:0010476	rdfs:label	blood glutamate dehydrogenase amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010350	rdfs:label	milk fatty acid cis-12,trans-14-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010350	rdfs:label	milk fatty acid cis-12,trans-14-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0008076	rdfs:label	cd4-positive t cell development quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0008076	rdfs:label	cd4-positive t cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0010967	rdfs:label	blood l-alanine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010759	rdfs:label	heart left ventricle end-systolic diameter	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010759	rdfs:label	heart left ventricle end-systolic diameter	Lexical	PATO:0001334	diameter	UBERON:0000948	heart
+VT:0001907	rdfs:label	cerebellum physiology quality	Lexical	PATO:0000001	quality	UBERON:0002037	cerebellum
+VT:0010586	rdfs:label	brain cholesterol amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0004995	rdfs:label	b cell clonal deletion quality	Lexical	PATO:0000001	quality	CL:0000236	B cell
+VT:0010358	rdfs:label	milk fatty acid trans-8,trans-10-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010358	rdfs:label	milk fatty acid trans-8,trans-10-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010869	rdfs:label	forebrain dopamine amount	Lexical	PATO:0000070	amount	UBERON:0001890	forebrain
+VT:0004794	rdfs:label	blood anti-nuclear antigen antibody amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0004794	rdfs:label	blood anti-nuclear antigen antibody amount	Lexical	PATO:0000070	amount	GO:0042571	antibody
+VT:0010925	rdfs:label	kidney glomerulus size quality	Lexical	PATO:0000117	size	UBERON:0002113	kidney
+VT:0003942	rdfs:label	urinary system development quality	Lexical	PATO:0000001	quality	UBERON:0001008	urinary system
+VT:0000881	rdfs:label	cochlear hair bundle ankle links morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001037	hair
+VT:0000881	rdfs:label	cochlear hair bundle ankle links morphology quality	Lexical	PATO:0000051	morphology	UBERON:0004454	ankle
+VT:0010571	rdfs:label	prostate integrity quality	Lexical	PATO:0000001	quality	UBERON:0002367	prostate
+VT:0010316	rdfs:label	milk fatty acid c16:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010316	rdfs:label	milk fatty acid c16:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0002937	rdfs:label	synovial blood flow quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0010579	rdfs:label	brain integrity quality	Lexical	PATO:0000001	quality	UBERON:0000955	brain
+VT:0010745	rdfs:label	heart left ventricle integrity quality	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0007047	rdfs:label	aorta configuration quality	Lexical	PATO:0000001	quality	UBERON:0000947	aorta
+VT:0010855	rdfs:label	cervical spinal cord norepinephrine amount	Lexical	PATO:0000070	amount	UBERON:0002726	cervical spinal cord
+VT:0003381	rdfs:label	vitreal fibrous tissue morphology quality	Lexical	PATO:0000051	morphology	UBERON:0000479	tissue
+VT:1000241	rdfs:label	fear/anxiety-related behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0002782	rdfs:label	secretion by testes quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0004265	rdfs:label	placental transport quality	Lexical	PATO:0000001	quality	GO:0006810	transport
+VT:0002454	rdfs:label	macrophage antigen presentation quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+VT:0003838	rdfs:label	milk secretion quality	Lexical	PATO:0000001	quality	UBERON:0001913	milk
+VT:0003838	rdfs:label	milk secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010565	rdfs:label	heart left ventricle dna amount	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010565	rdfs:label	heart left ventricle dna amount	Lexical	PATO:0000070	amount	UBERON:0000948	heart
+VT:0010308	rdfs:label	milk fatty acid c6:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010308	rdfs:label	milk fatty acid c6:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010910	rdfs:label	skeletal muscle capillary amount	Lexical	PATO:0000070	amount	UBERON:0001982	capillary
+VT:0010848	rdfs:label	hypothalamus homovanillic acid amount	Lexical	PATO:0000070	amount	UBERON:0001898	hypothalamus
+VT:0000203	rdfs:label	blood aspartate transaminase amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0004392	rdfs:label	cd8-positive t cell physiology quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0004392	rdfs:label	cd8-positive t cell physiology quality	Lexical	PATO:0000001	quality	GO:0009987	cell physiology
+VT:0010801	rdfs:label	testis ribonucleic acid amount	Lexical	PATO:0000070	amount	UBERON:0000473	testis
+VT:0003118	rdfs:label	tracheal-bronchial branching morphogenesis quality	Lexical	PATO:0000001	quality	GO:0001763	branching morphogenesis
+VT:0010939	rdfs:label	erythrocyte molecular composition quality	Lexical	PATO:0000025	composition	CL:0000232	erythrocyte
+VT:1000059	rdfs:label	total heart ventricle morphology quality	Lexical	PATO:0000051	morphology	UBERON:0002082	heart ventricle
+VT:0010008	rdfs:label	skin adnexa development quality	Lexical	PATO:0000001	quality	UBERON:0000014	skin
+VT:0000987	rdfs:label	merkel's receptor innervation pattern quality	Lexical	PATO:0000001	quality	UBERON:0012456	Merkel's receptor
+VT:0000987	rdfs:label	merkel's receptor innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0010621	rdfs:label	urine taurine amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0010529	rdfs:label	contextual fear conditioning behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0005073	rdfs:label	granulocyte migration quality	Lexical	PATO:0000001	quality	CL:0000094	granulocyte
+VT:0003762	rdfs:label	immune system organ physiology quality	Lexical	PATO:0000001	quality	UBERON:0002405	immune system
+VT:0003762	rdfs:label	immune system organ physiology quality	Lexical	PATO:0000001	quality	UBERON:0005057	immune system organ
+VT:0010639	rdfs:label	artery integrity quality	Lexical	PATO:0000001	quality	UBERON:0001637	artery
+VT:0001359	rdfs:label	organ of corti patterning quality	Lexical	PATO:0000001	quality	UBERON:0000062	organ
+VT:0010341	rdfs:label	milk fatty acid cis-9,trans-13-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010341	rdfs:label	milk fatty acid cis-9,trans-13-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0015029	rdfs:label	outer ear development quality	Lexical	PATO:0000001	quality	UBERON:0001691	outer ear
+VT:0100018	rdfs:label	integumentary system development quality	Lexical	PATO:0000001	quality	UBERON:0002416	integumentary system
+VT:0010411	rdfs:label	secretion by placenta quality	Lexical	PATO:0000001	quality	UBERON:0001987	placenta
+VT:0010411	rdfs:label	secretion by placenta quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010349	rdfs:label	milk fatty acid cis-9,trans-11-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010349	rdfs:label	milk fatty acid cis-9,trans-11-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0005594	rdfs:label	blood vessel smooth muscle dilation quality	Lexical	PATO:0000701	smooth	UBERON:0001981	blood vessel
+VT:0001332	rdfs:label	optic nerve innervation pattern quality	Lexical	PATO:0000001	quality	UBERON:0001021	nerve
+VT:0001332	rdfs:label	optic nerve innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0003582	rdfs:label	ovary development quality	Lexical	PATO:0000001	quality	UBERON:0000992	ovary
+VT:0010688	rdfs:label	milk osteopontin amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:1000243	rdfs:label	receiving feather pecking quality	Lexical	PATO:0000001	quality	UBERON:0000022	feather
+VT:0010957	rdfs:label	verapamil metabolism quality	Lexical	PATO:0000001	quality	GO:0008152	metabolism
+VT:0001746	rdfs:label	secretion by pituitary quality	Lexical	PATO:0000001	quality	UBERON:0000007	pituitary
+VT:0001746	rdfs:label	secretion by pituitary quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0006028	rdfs:label	bronchiole branching quality	Lexical	PATO:0000001	quality	UBERON:0002186	bronchiole
+VT:0002456	rdfs:label	langerhans cell antigen presentation quality	Lexical	PATO:0000001	quality	CL:0000453	Langerhans cell
+VT:0001042	rdfs:label	sublingual salivary gland cholinergic innervation pattern quality	Lexical	PATO:0000001	quality	UBERON:0001044	salivary gland
+VT:0001042	rdfs:label	sublingual salivary gland cholinergic innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0010031	rdfs:label	immune serum protein secretion quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+VT:0010031	rdfs:label	immune serum protein secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0005587	rdfs:label	meckel's cartilage development quality	Lexical	PATO:0000001	quality	UBERON:0003107	Meckel's cartilage
+VT:0010777	rdfs:label	serum alpha-fetoprotein amount	Lexical	PATO:0000070	amount	UBERON:0001977	serum
+VT:0004435	rdfs:label	cochlear outer hair cell electromotility quality	Lexical	PATO:0000001	quality	CL:0000601	cochlear outer hair cell
+VT:0010334	rdfs:label	milk fatty acid trans-10-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010334	rdfs:label	milk fatty acid trans-10-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0000978	rdfs:label	hair-tylotrich cell innervation pattern quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+VT:0000978	rdfs:label	hair-tylotrich cell innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0010966	rdfs:label	blood l-serine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0008241	rdfs:label	metallophilic macrophage morphology quality	Lexical	PATO:0000051	morphology	CL:0000235	macrophage
+VT:0010834	rdfs:label	tissue dihydroxyphenylacetic acid (dopac) amount	Lexical	PATO:0000070	amount	UBERON:0000479	tissue
+VT:0001731	rdfs:label	postnatal growth quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+VT:0000425	rdfs:label	eyelash retention quality	Lexical	PATO:0000001	quality	UBERON:0001702	eyelash
+VT:0010072	rdfs:label	lymphatic system development quality	Lexical	PATO:0000001	quality	UBERON:0006558	lymphatic system
+VT:1000419	rdfs:label	total foot mass	Lexical	PATO:0000125	mass	UBERON:0002387	foot
+VT:0010450	rdfs:label	cognitive behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010786	rdfs:label	mesenteric artery morphology quality	Lexical	PATO:0000051	morphology	UBERON:0005616	mesenteric artery
+VT:0010990	rdfs:label	blood carnosine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010896	rdfs:label	femur area	Lexical	PATO:0001323	area	UBERON:0000981	femur
+VT:0001828	rdfs:label	t cell activation quality	Lexical	PATO:0002353	activation quality	CL:0000084	T cell
+VT:0001828	rdfs:label	t cell activation quality	Lexical	PATO:0002353	activation quality	GO:0001775	cell activation
+VT:0010998	rdfs:label	blood electrolyte amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010343	rdfs:label	milk fatty acid trans-9,cis-12-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010343	rdfs:label	milk fatty acid trans-9,cis-12-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010626	rdfs:label	blood vitamin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0002756	rdfs:label	cerebral cortex pyramidal cell quantity	Lexical	PATO:0002336	pyramidal	UBERON:0000956	cerebral cortex
+VT:0002756	rdfs:label	cerebral cortex pyramidal cell quantity	Lexical	PATO:0002336	pyramidal	CL:0000000	cell
+VT:0010951	rdfs:label	heart right ventricle molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0000948	heart
+VT:0010951	rdfs:label	heart right ventricle molecular composition quality	Lexical	PATO:0000367	right	UBERON:0000948	heart
+VT:0010889	rdfs:label	tissue enzyme amount	Lexical	PATO:0000070	amount	UBERON:0000479	tissue
+VT:0010278	rdfs:label	milk prolactin amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:2000008	rdfs:label	lymph flow quality	Lexical	PATO:0000001	quality	UBERON:0002391	lymph
+VT:0010727	rdfs:label	spatial reference memory quality	Lexical	PATO:0000001	quality	GO:0007613	memory
+VT:0000895	rdfs:label	cochlear inner hair cell afferent innervation pattern quality	Lexical	PATO:0000001	quality	CL:0000589	cochlear inner hair cell
+VT:0000895	rdfs:label	cochlear inner hair cell afferent innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0008588	rdfs:label	blood interleukin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010263	rdfs:label	erythrocyte precursor morphology quality	Lexical	PATO:0000051	morphology	CL:0000232	erythrocyte
+VT:0010771	rdfs:label	retina integrity quality	Lexical	PATO:0000001	quality	UBERON:0000966	retina
+VT:0008099	rdfs:label	plasma cell development quality	Lexical	PATO:0000001	quality	CL:0000786	plasma cell
+VT:0008099	rdfs:label	plasma cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0004137	rdfs:label	gastric surface mucous cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000319	mucous cell
+VT:0004137	rdfs:label	gastric surface mucous cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000319	mucous cell
+VT:0002285	rdfs:label	tracheal ciliated epithelium morphology quality	Lexical	PATO:0000051	morphology	UBERON:0007601	ciliated epithelium
+VT:0010875	rdfs:label	brain norepinephrine amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0010618	rdfs:label	urine creatine amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0010667	rdfs:label	phagocytosis quality	Lexical	PATO:0000001	quality	GO:0006909	phagocytosis
+VT:0001968	rdfs:label	tactile sensory behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010547	rdfs:label	liver integrity quality	Lexical	PATO:0000001	quality	UBERON:0002107	liver
+VT:0000362	rdfs:label	mast cell histamine storage quality	Lexical	PATO:0000001	quality	CL:0000097	mast cell
+VT:0008549	rdfs:label	blood interferon-alpha amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010833	rdfs:label	forebrain epinephrine amount	Lexical	PATO:0000070	amount	UBERON:0001890	forebrain
+VT:0009334	rdfs:label	splenocyte proliferation quality	Lexical	PATO:0000001	quality	CL:2000074	splenocyte
+VT:0005102	rdfs:label	iris pigmentation quality	Lexical	PATO:0000001	quality	UBERON:0001769	iris
+VT:0005102	rdfs:label	iris pigmentation quality	Lexical	PATO:0000001	quality	GO:0043473	pigmentation
+VT:0003420	rdfs:label	intramembranous ossification initiation quality	Lexical	PATO:0000001	quality	GO:0001957	intramembranous ossification
+VT:0000638	rdfs:label	cochlear hair cell development quality	Lexical	PATO:0000001	quality	CL:4023120	cochlear hair cell
+VT:0000638	rdfs:label	cochlear hair cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0010500	rdfs:label	platelet calcium amount	Lexical	PATO:0000070	amount	CL:0000233	platelet
+VT:0004243	rdfs:label	motor nerve terminal sprouting quality	Lexical	PATO:0002476	terminal	UBERON:0001021	nerve
+VT:0002432	rdfs:label	cd4-positive t cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000084	T cell
+VT:0002432	rdfs:label	cd4-positive t cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T cell
+VT:0001335	rdfs:label	inner hair cell synaptic ribbon morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001037	hair
+VT:0001335	rdfs:label	inner hair cell synaptic ribbon morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0001335	rdfs:label	inner hair cell synaptic ribbon morphology quality	Lexical	PATO:0000051	morphology	GO:0098681	synaptic ribbon
+VT:0005636	rdfs:label	mineral homeostasis quality	Lexical	PATO:0000001	quality	GO:0042592	homeostasis
+VT:0005079	rdfs:label	cytotoxic t cell cytolysis quality	Lexical	PATO:0000001	quality	CL:0000910	cytotoxic T cell
+VT:0005079	rdfs:label	cytotoxic t cell cytolysis quality	Lexical	PATO:0000001	quality	GO:0019835	cytolysis
+VT:0010392	rdfs:label	milk mucin 1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0003372	rdfs:label	blood mineralcorticoid amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010594	rdfs:label	liver campesterol amount	Lexical	PATO:0000070	amount	UBERON:0002107	liver
+VT:0010992	rdfs:label	blood 3-methylhistidine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010735	rdfs:label	urination behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010735	rdfs:label	urination behavior quality	Lexical	PATO:0000001	quality	GO:0060073	urination
+VT:0010806	rdfs:label	quadriceps mass	Lexical	PATO:0000125	mass	UBERON:0001377	quadriceps
+VT:0001180	rdfs:label	inner hair cell stereociliary bundle morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001037	hair
+VT:0001180	rdfs:label	inner hair cell stereociliary bundle morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0008495	rdfs:label	blood immunoglobulin g1 amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010839	rdfs:label	tissue dopamine amount	Lexical	PATO:0000070	amount	UBERON:0000479	tissue
+VT:0010917	rdfs:label	bile acid amount	Lexical	PATO:0000070	amount	UBERON:0001970	bile
+VT:0008080	rdfs:label	cd8-positive t cell development quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0008080	rdfs:label	cd8-positive t cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0010971	rdfs:label	blood l-glutamic acid amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0005359	rdfs:label	incisor growth quality	Lexical	PATO:0000001	quality	UBERON:0001098	incisor
+VT:0005359	rdfs:label	incisor growth quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+VT:0001911	rdfs:label	cerebrospinal fluid production quality	Lexical	PATO:0000001	quality	UBERON:0001359	cerebrospinal fluid
+VT:0010555	rdfs:label	thymus integrity quality	Lexical	PATO:0000001	quality	UBERON:0002370	thymus
+VT:0002069	rdfs:label	consumption behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010984	rdfs:label	blood l-tryptophan amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0004131	rdfs:label	embryonic cilia morphology quality	Lexical	PATO:0000051	morphology	UBERON:0010168	cilia
+VT:0010109	rdfs:label	hippocampus pyramidal cell quantity	Lexical	PATO:0002336	pyramidal	CL:0000000	cell
+VT:0005524	rdfs:label	kidney plasma flow quality	Lexical	PATO:0000001	quality	UBERON:0002113	kidney
+VT:0010280	rdfs:label	milk casein amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010942	rdfs:label	erythrocyte atp amount	Lexical	PATO:0000070	amount	CL:0000232	erythrocyte
+VT:0004139	rdfs:label	gastric parietal cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000162	parietal cell
+VT:0004139	rdfs:label	gastric parietal cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000162	parietal cell
+VT:0010714	rdfs:label	milk zinc amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010810	rdfs:label	blood pyrophosphate amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010824	rdfs:label	milk iodine amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0001807	rdfs:label	blood immunoglobulin a amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0000892	rdfs:label	cochlear hair cell stereociliary bundle orientation quality	Lexical	PATO:0000133	orientation	CL:4023120	cochlear hair cell
+VT:0000117	rdfs:label	tooth primordium development quality	Lexical	PATO:0000001	quality	UBERON:0001091	tooth
+VT:0000117	rdfs:label	tooth primordium development quality	Lexical	PATO:0000001	quality	UBERON:0005087	tooth primordium
+VT:0002948	rdfs:label	neuron specification quality	Lexical	PATO:0000001	quality	CL:0000540	neuron
+VT:0004220	rdfs:label	peripheral nervous system regeneration quality	Lexical	PATO:0002107	peripheral	UBERON:0001016	nervous system
+VT:0004220	rdfs:label	peripheral nervous system regeneration quality	Lexical	PATO:0002107	peripheral	GO:0031099	regeneration
+VT:0010935	rdfs:label	urine ph quality	Lexical	PATO:0000001	quality	UBERON:0001088	urine
+VT:0001573	rdfs:label	blood alanine transaminase amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0007088	rdfs:label	heart right ventricle wall thickness	Lexical	PATO:0000367	right	UBERON:0000948	heart
+VT:0007088	rdfs:label	heart right ventricle wall thickness	Lexical	PATO:0000915	thickness	UBERON:0000948	heart
+VT:0010776	rdfs:label	blood alpha-fetoprotein amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0006414	rdfs:label	t cell apoptosis quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0010644	rdfs:label	iliac artery integrity quality	Lexical	PATO:0000001	quality	UBERON:0005609	iliac artery
+VT:0005392	rdfs:label	nociception system quality	Lexical	PATO:0000001	quality	GO:0019233	nociception
+VT:0010948	rdfs:label	tympanic cavity morphology quality	Lexical	PATO:0000051	morphology	UBERON:0004114	tympanic cavity
+VT:0003245	rdfs:label	gaba neuron morphology quality	Lexical	PATO:0000051	morphology	CL:0000540	neuron
+VT:0010602	rdfs:label	aorta integrity quality	Lexical	PATO:0000001	quality	UBERON:0000947	aorta
+VT:0010229	rdfs:label	ileum crypt of lieberkuhn depth	Lexical	PATO:0001595	depth	UBERON:0002116	ileum
+VT:0010229	rdfs:label	ileum crypt of lieberkuhn depth	Lexical	PATO:0001595	depth	UBERON:0001983	crypt of Lieberkuhn
+VT:0015107	rdfs:label	sympathetic neuron innervation pattern quality	Lexical	PATO:0000001	quality	CL:0011103	sympathetic neuron
+VT:0015107	rdfs:label	sympathetic neuron innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0010755	rdfs:label	heart molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0000948	heart
+VT:0010596	rdfs:label	heart left ventricle natriuretic peptide a amount	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010596	rdfs:label	heart left ventricle natriuretic peptide a amount	Lexical	PATO:0000070	amount	UBERON:0000948	heart
+VT:0010339	rdfs:label	milk fatty acid cis-13-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010339	rdfs:label	milk fatty acid cis-13-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010865	rdfs:label	cervical spinal cord dopamine amount	Lexical	PATO:0000070	amount	UBERON:0002726	cervical spinal cord
+VT:0006073	rdfs:label	retinal bipolar cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000000	cell
+VT:0006073	rdfs:label	retinal bipolar cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0010921	rdfs:label	cerebral artery size quality	Lexical	PATO:0000117	size	UBERON:0004449	cerebral artery
+VT:0010505	rdfs:label	blood ldl phospholipid amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010312	rdfs:label	milk fatty acid c10:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010312	rdfs:label	milk fatty acid c10:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0005495	rdfs:label	macrophage recruitment quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+VT:0010575	rdfs:label	uterus integrity quality	Lexical	PATO:0000001	quality	UBERON:0000995	uterus
+VT:0010741	rdfs:label	skin sodium amount	Lexical	PATO:0000070	amount	UBERON:0000014	skin
+VT:0010580	rdfs:label	kidney integrity quality	Lexical	PATO:0000001	quality	UBERON:0002113	kidney
+VT:0010325	rdfs:label	milk fatty acid cis-9,cis-12-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010325	rdfs:label	milk fatty acid cis-9,cis-12-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010121	rdfs:label	sublingual salivary gland cholinergic nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0010121	rdfs:label	sublingual salivary gland cholinergic nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0001044	salivary gland
+VT:0010851	rdfs:label	medulla oblongata 5-hydroxyindoleacetic acid amount	Lexical	PATO:0000070	amount	UBERON:0001896	medulla oblongata
+VT:0010478	rdfs:label	blood lipase amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010588	rdfs:label	blood campesterol amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0004190	rdfs:label	direction of embryo turning	Lexical	PATO:0000039	direction	UBERON:0000922	embryo
+VT:0000942	rdfs:label	motor neuron axon outgrowth quality	Lexical	PATO:0000001	quality	CL:0000100	motor neuron
+VT:0000942	rdfs:label	motor neuron axon outgrowth quality	Lexical	PATO:0000001	quality	GO:0030424	axon
+VT:0002450	rdfs:label	immune system organ development quality	Lexical	PATO:0000001	quality	UBERON:0002405	immune system
+VT:0002450	rdfs:label	immune system organ development quality	Lexical	PATO:0000001	quality	UBERON:0005057	immune system organ
+VT:0010285	rdfs:label	milk nitrogen amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0008036	rdfs:label	nk t cell morphology quality	Lexical	PATO:0010006	cell morphology	UBERON:3010310	NK cell
+VT:0008036	rdfs:label	nk t cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000084	T cell
+VT:0008036	rdfs:label	nk t cell morphology quality	Lexical	PATO:0000051	morphology	UBERON:3010310	NK cell
+VT:0008036	rdfs:label	nk t cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T cell
+VT:0010976	rdfs:label	blood l-hisitidine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0005224	rdfs:label	left-right axis somite development quality	Lexical	PATO:0000001	quality	UBERON:0002329	somite
+VT:0010546	rdfs:label	kidney glomerulus integrity quality	Lexical	PATO:0000001	quality	UBERON:0002113	kidney
+VT:0010318	rdfs:label	milk fatty acid c18:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010318	rdfs:label	milk fatty acid c18:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010829	rdfs:label	cervical spinal cord epinephrine amount	Lexical	PATO:0000070	amount	UBERON:0002726	cervical spinal cord
+VT:0000894	rdfs:label	cochlear hair cell stereocilia size quality	Lexical	PATO:0000117	size	CL:4023120	cochlear hair cell
+VT:0015078	rdfs:label	blood homeostasis quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0015078	rdfs:label	blood homeostasis quality	Lexical	PATO:0000001	quality	GO:0042592	homeostasis
+VT:0007016	rdfs:label	tricuspid valve configuration quality	Lexical	PATO:0002256	tricuspid	UBERON:0003978	valve
+VT:0010989	rdfs:label	blood balenine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0001289	rdfs:label	hyaloid capillary system development quality	Lexical	PATO:0000001	quality	UBERON:0001982	capillary
+VT:0001289	rdfs:label	hyaloid capillary system development quality	Lexical	PATO:0000001	quality	GO:0048731	system development
+VT:0010796	rdfs:label	lung ribonucleic acid amount	Lexical	PATO:0000070	amount	UBERON:0002048	lung
+VT:0010539	rdfs:label	urine potassium amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0010366	rdfs:label	milk fatty acid c20:5(n-3) amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010366	rdfs:label	milk fatty acid c20:5(n-3) amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010705	rdfs:label	blood vldl particle size	Lexical	PATO:0000117	size	UBERON:0000178	blood
+VT:0010705	rdfs:label	blood vldl particle size	Lexical	PATO:0000117	size	GO:0034361	VLDL particle
+VT:0005002	rdfs:label	t cell clonal deletion quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0010699	rdfs:label	blood ldl triglyceride amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010815	rdfs:label	urine hormone amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0010351	rdfs:label	milk fatty acid trans-7,cis-9-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010351	rdfs:label	milk fatty acid trans-7,cis-9-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0004491	rdfs:label	outer hair cell stereociliary bundle orientation quality	Lexical	PATO:0000133	orientation	UBERON:0001037	hair
+VT:0004491	rdfs:label	outer hair cell stereociliary bundle orientation quality	Lexical	PATO:0000133	orientation	CL:0000000	cell
+VT:0010968	rdfs:label	blood l-cysteine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0005265	rdfs:label	blood urea nitrogen amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0001908	rdfs:label	somatosensory cortex physiology quality	Lexical	PATO:0000001	quality	UBERON:0008930	somatosensory cortex
+VT:0008233	rdfs:label	pro-b cell development quality	Lexical	PATO:0000001	quality	CL:0000826	pro-B cell
+VT:0008233	rdfs:label	pro-b cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0010907	rdfs:label	blood copper amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0003247	rdfs:label	glutaminergic neuron morphology quality	Lexical	PATO:0000051	morphology	CL:0000540	neuron
+VT:0010359	rdfs:label	milk fatty acid trans-9,trans-11-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010359	rdfs:label	milk fatty acid trans-9,trans-11-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0002467	rdfs:label	neutrophil phagocytosis quality	Lexical	PATO:0000001	quality	CL:0000775	neutrophil
+VT:0002467	rdfs:label	neutrophil phagocytosis quality	Lexical	PATO:0000001	quality	GO:0006909	phagocytosis
+VT:0010137	rdfs:label	sensory nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0001027	sensory nerve
+VT:0010137	rdfs:label	sensory nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0010780	rdfs:label	cerebrovascular system morphology quality	Lexical	PATO:0000051	morphology	UBERON:0008998	cerebrovascular system
+VT:0010525	rdfs:label	blood vessel smooth muscle cell quantity	Lexical	PATO:0000701	smooth	UBERON:0001981	blood vessel
+VT:0010525	rdfs:label	blood vessel smooth muscle cell quantity	Lexical	PATO:0000701	smooth	CL:0000187	muscle cell
+VT:0010890	rdfs:label	intestine trypsin amount	Lexical	PATO:0000070	amount	UBERON:0000160	intestine
+VT:0010898	rdfs:label	leukocyte integrity quality	Lexical	PATO:0000001	quality	CL:0000738	leukocyte
+VT:0001052	rdfs:label	muscle innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:1000702	rdfs:label	udder cleft morphology quality	Lexical	PATO:0000403	cleft	UBERON:0013216	udder
+VT:1000702	rdfs:label	udder cleft morphology quality	Lexical	PATO:0000051	morphology	UBERON:0013216	udder
+VT:0010477	rdfs:label	blood lactate dehydrogenase amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:2000017	rdfs:label	heart electrical impulse conduction quality	Lexical	PATO:0001022	impulse	UBERON:0000948	heart
+VT:0008668	rdfs:label	interleukin-12b secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010345	rdfs:label	milk fatty acid trans-9,trans-14-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010345	rdfs:label	milk fatty acid trans-9,trans-14-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010628	rdfs:label	blood globulin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0002783	rdfs:label	secretion by ovary quality	Lexical	PATO:0000001	quality	UBERON:0000992	ovary
+VT:0002783	rdfs:label	secretion by ovary quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010572	rdfs:label	testis integrity quality	Lexical	PATO:0000001	quality	UBERON:0000473	testis
+VT:0010970	rdfs:label	blood l-asparagine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0001756	rdfs:label	urine production quality	Lexical	PATO:0000001	quality	UBERON:0001088	urine
+VT:0002924	rdfs:label	central nervous system synapse formation quality	Lexical	PATO:0000001	quality	UBERON:0001017	central nervous system
+VT:0002924	rdfs:label	central nervous system synapse formation quality	Lexical	PATO:0000001	quality	GO:0045202	synapse
+VT:0008723	rdfs:label	eosinophil recruitment quality	Lexical	PATO:0000001	quality	CL:0000771	eosinophil
+VT:0004108	rdfs:label	esophageal peristalsis quality	Lexical	PATO:0000001	quality	GO:0030432	peristalsis
+VT:0000261	rdfs:label	arterial blood flow quality	Lexical	PATO:0000001	quality	UBERON:0013755	arterial blood
+VT:0000199	rdfs:label	blood albumin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0002095	rdfs:label	skin pigmentation quality	Lexical	PATO:0000001	quality	UBERON:0000014	skin
+VT:0002095	rdfs:label	skin pigmentation quality	Lexical	PATO:0000001	quality	GO:0043473	pigmentation
+VT:0007048	rdfs:label	aorta elastic tissue molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0000479	tissue
+VT:0007048	rdfs:label	aorta elastic tissue molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0000947	aorta
+VT:0007048	rdfs:label	aorta elastic tissue molecular composition quality	Lexical	PATO:0001171	elastic	UBERON:0000479	tissue
+VT:0007048	rdfs:label	aorta elastic tissue molecular composition quality	Lexical	PATO:0001171	elastic	UBERON:0000947	aorta
+VT:0002151	rdfs:label	neural tube morphology/development quality	Lexical	PATO:0000001	quality	UBERON:0001049	neural tube
+VT:0010272	rdfs:label	colostrum prolactin amount	Lexical	PATO:0000070	amount	UBERON:0001914	colostrum
+VT:0010533	rdfs:label	passive avoidance behavior quality	Lexical	PATO:0000764	passive	GO:0007610	behavior
+VT:0005541	rdfs:label	iris stromal pigmentation quality	Lexical	PATO:0000001	quality	UBERON:0001769	iris
+VT:0005541	rdfs:label	iris stromal pigmentation quality	Lexical	PATO:0000001	quality	GO:0043473	pigmentation
+VT:1000242	rdfs:label	feather pecking quality	Lexical	PATO:0000001	quality	UBERON:0000022	feather
+VT:0008616	rdfs:label	blood interleukin-12 amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0003125	rdfs:label	cloaca septation quality	Lexical	PATO:0000001	quality	UBERON:0000162	cloaca
+VT:0005119	rdfs:label	blood thyroid-stimulating hormone amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010962	rdfs:label	soleus muscle mass	Lexical	PATO:0000125	mass	UBERON:0001389	soleus muscle
+VT:0002869	rdfs:label	blood anti-insulin autoantibody amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010309	rdfs:label	milk fatty acid c7:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010309	rdfs:label	milk fatty acid c7:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010353	rdfs:label	milk fatty acid trans-9,cis-11-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010353	rdfs:label	milk fatty acid trans-9,cis-11-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0001437	rdfs:label	swallowing reflex quality	Lexical	PATO:0000001	quality	GO:0060004	reflex
+VT:0006174	rdfs:label	isthmic organizer morphology quality	Lexical	PATO:0000051	morphology	UBERON:0003062	organizer
+VT:0002212	rdfs:label	secondary sex determination quality	Lexical	PATO:0002632	secondary	GO:0007530	sex determination
+VT:0010802	rdfs:label	thymus molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0002370	thymus
+VT:0010782	rdfs:label	pulmonary arterial blood pressure quality	Lexical	PATO:0001025	pressure	UBERON:0013755	arterial blood
+VT:0002322	rdfs:label	respiratory transport quality	Lexical	PATO:0000001	quality	GO:0006810	transport
+VT:0010892	rdfs:label	heart right ventricular blood pressure quality	Lexical	PATO:0001025	pressure	UBERON:0000948	heart
+VT:0010892	rdfs:label	heart right ventricular blood pressure quality	Lexical	PATO:0001025	pressure	UBERON:0000178	blood
+VT:0010892	rdfs:label	heart right ventricular blood pressure quality	Lexical	PATO:0000367	right	UBERON:0000948	heart
+VT:0010892	rdfs:label	heart right ventricular blood pressure quality	Lexical	PATO:0000367	right	UBERON:0000178	blood
+VT:0008054	rdfs:label	uterine natural killer cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000623	natural killer cell
+VT:0008054	rdfs:label	uterine natural killer cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000623	natural killer cell
+VT:0008552	rdfs:label	blood tumor necrosis factor amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0008552	rdfs:label	blood tumor necrosis factor amount	Lexical	PATO:0000070	amount	GO:0008220	necrosis
+VT:0010737	rdfs:label	skin molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0000014	skin
+VT:0010740	rdfs:label	skin potassium amount	Lexical	PATO:0000070	amount	UBERON:0000014	skin
+VT:0004206	rdfs:label	dermomyotome development quality	Lexical	PATO:0000001	quality	UBERON:0004290	dermomyotome
+VT:0002491	rdfs:label	blood immunoglobulin d amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010622	rdfs:label	blood xenobiotic amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0005595	rdfs:label	blood vessel smooth muscle physiology quality	Lexical	PATO:0000701	smooth	UBERON:0001981	blood vessel
+VT:0002399	rdfs:label	pluripotent precursor cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0011115	precursor cell
+VT:0002399	rdfs:label	pluripotent precursor cell morphology quality	Lexical	PATO:0001403	pluripotent	CL:0011115	precursor cell
+VT:0002399	rdfs:label	pluripotent precursor cell morphology quality	Lexical	PATO:0000051	morphology	CL:0011115	precursor cell
+VT:0010689	rdfs:label	pericardial fat pad morphology quality	Lexical	PATO:0000051	morphology	UBERON:0035814	pericardial fat
+VT:0010926	rdfs:label	blood plasminogen activator inhibitor 1 amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0005223	rdfs:label	rostral-caudal axis somite development quality	Lexical	PATO:0000001	quality	UBERON:0002329	somite
+VT:0010843	rdfs:label	hypothalamus dihydroxyphenylacetic acid (dopac) amount	Lexical	PATO:0000070	amount	UBERON:0001898	hypothalamus
+VT:0100011	rdfs:label	urine enzyme amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0000016	rdfs:label	hindlimb conformation quality	Lexical	PATO:0000001	quality	UBERON:0002103	hindlimb
+VT:0008095	rdfs:label	memory b cell development quality	Lexical	PATO:0000001	quality	CL:0000787	memory B cell
+VT:0008095	rdfs:label	memory b cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0003930	rdfs:label	tooth hard tissue morphology quality	Lexical	PATO:0000386	hard	UBERON:0000479	tissue
+VT:0003930	rdfs:label	tooth hard tissue morphology quality	Lexical	PATO:0000386	hard	UBERON:0001091	tooth
+VT:0003930	rdfs:label	tooth hard tissue morphology quality	Lexical	PATO:0000051	morphology	UBERON:0000479	tissue
+VT:0003930	rdfs:label	tooth hard tissue morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001091	tooth
+VT:0010746	rdfs:label	coronary artery integrity quality	Lexical	PATO:0000001	quality	UBERON:0001621	coronary artery
+VT:0010856	rdfs:label	medulla oblongata norepinephrine amount	Lexical	PATO:0000070	amount	UBERON:0001896	medulla oblongata
+VT:0000973	rdfs:label	cutaneous/subcutaneous mechanoreceptor morphology quality	Lexical	PATO:0000051	morphology	UBERON:0012449	mechanoreceptor
+VT:0010155	rdfs:label	cochlear inner hair cell afferent nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0010155	rdfs:label	cochlear inner hair cell afferent nerve fiber organization quality	Lexical	PATO:0002264	organization quality	CL:0000589	cochlear inner hair cell
+VT:0010180	rdfs:label	bone marrow cell development quality	Lexical	PATO:0000001	quality	CL:0002092	bone marrow cell
+VT:0010180	rdfs:label	bone marrow cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0010958	rdfs:label	digoxin metabolism quality	Lexical	PATO:0000001	quality	GO:0008152	metabolism
+VT:0001747	rdfs:label	adrenocorticotropin secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0001747	rdfs:label	adrenocorticotropin secretion quality	Lexical	PATO:0000001	quality	GO:0017043	adrenocorticotropin
+VT:0001018	rdfs:label	cochlear outer hair cell efferent innervation morphology quality	Lexical	PATO:0000051	morphology	CL:0000601	cochlear outer hair cell
+VT:0001018	rdfs:label	cochlear outer hair cell efferent innervation morphology quality	Lexical	PATO:0000051	morphology	GO:0060384	innervation
+VT:0010188	rdfs:label	meissner's corpuscle nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0012450	Meissner's corpuscle
+VT:0010188	rdfs:label	meissner's corpuscle nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0010230	rdfs:label	ileum crypt of lieberkuhn width	Lexical	PATO:0000921	width	UBERON:0002116	ileum
+VT:0010230	rdfs:label	ileum crypt of lieberkuhn width	Lexical	PATO:0000921	width	UBERON:0001983	crypt of Lieberkuhn
+VT:0010566	rdfs:label	nervous system integrity quality	Lexical	PATO:0000001	quality	UBERON:0001016	nervous system
+VT:0008649	rdfs:label	blood interleukin-23a amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010911	rdfs:label	glomerular capillary morphology quality	Lexical	PATO:0000051	morphology	UBERON:0004212	glomerular capillary
+VT:0001700	rdfs:label	embryo turning quality	Lexical	PATO:0000001	quality	UBERON:0000922	embryo
+VT:0010849	rdfs:label	forebrain homovanillic acid amount	Lexical	PATO:0000070	amount	UBERON:0001890	forebrain
+VT:0003419	rdfs:label	endochondral ossification initiation quality	Lexical	PATO:0000001	quality	GO:0001958	endochondral ossification
+VT:0000053	rdfs:label	total milk casein amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0008548	rdfs:label	blood interferon amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0003651	rdfs:label	axon outgrowth quality	Lexical	PATO:0000001	quality	GO:0030424	axon
+VT:0010590	rdfs:label	brain phytosterol amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0000979	rdfs:label	hair-down neuron morphology quality	Lexical	PATO:0000051	morphology	CL:1001437	hair-down neuron
+VT:0003119	rdfs:label	gastrointestinal system development quality	Lexical	PATO:0000001	quality	GO:0048731	system development
+VT:0010344	rdfs:label	milk fatty acid trans-9,trans-12-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010344	rdfs:label	milk fatty acid trans-9,trans-12-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010835	rdfs:label	tissue homovanillic acid amount	Lexical	PATO:0000070	amount	UBERON:0000479	tissue
+VT:0010884	rdfs:label	blood flavanone amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0003361	rdfs:label	blood gonadotropin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010627	rdfs:label	blood vitamin a amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010683	rdfs:label	abdominal wall integrity quality	Lexical	PATO:0000001	quality	UBERON:0003697	abdominal wall
+VT:0010507	rdfs:label	blood vldl phospholipid amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010507	rdfs:label	blood vldl phospholipid amount	Lexical	PATO:0000070	amount	GO:0005323	VLDL
+VT:0010927	rdfs:label	blood complement amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:2000003	rdfs:label	regional blood pressure quality	Lexical	PATO:0001025	pressure	UBERON:0000178	blood
+VT:0010551	rdfs:label	uvea integrity quality	Lexical	PATO:0000001	quality	UBERON:0001768	uvea
+VT:0010451	rdfs:label	stress-related behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0003479	rdfs:label	nerve fiber response intensity	Lexical	PATO:0000049	intensity	UBERON:0006134	nerve fiber
+VT:0100031	rdfs:label	mammary blood flow quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0000032	rdfs:label	total urine protein amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0007052	rdfs:label	aortic arch configuration quality	Lexical	PATO:0000001	quality	UBERON:0004363	aortic arch
+VT:0001455	rdfs:label	vestibular hair cell stereocilia size quality	Lexical	PATO:0000117	size	CL:0000609	vestibular hair cell
+VT:0010412	rdfs:label	chorionic gonadotropin secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010952	rdfs:label	adrenal gland renin amount	Lexical	PATO:0000070	amount	UBERON:0002369	adrenal gland
+VT:0010876	rdfs:label	brain serotonin amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0010279	rdfs:label	milk growth factor amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010279	rdfs:label	milk growth factor amount	Lexical	PATO:0000070	amount	GO:0040007	growth
+VT:0000528	rdfs:label	kidney development initiation quality	Lexical	PATO:0000001	quality	UBERON:0002113	kidney
+VT:0003328	rdfs:label	portal blood pressure	Lexical	PATO:0001025	pressure	UBERON:0000178	blood
+VT:0008758	rdfs:label	t cell receptor beta chain v(d)j recombination quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0008758	rdfs:label	t cell receptor beta chain v(d)j recombination quality	Lexical	PATO:0000001	quality	GO:0033151	V(D)J recombination
+VT:2000009	rdfs:label	heart pumping quality	Lexical	PATO:0000001	quality	UBERON:0000948	heart
+VT:0008646	rdfs:label	blood interleukin-12b amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0001676	rdfs:label	apical ectodermal ridge development quality	Lexical	PATO:0000001	quality	UBERON:0004356	apical ectodermal ridge
+VT:0000896	rdfs:label	cochlear inner hair cell efferent innervation pattern quality	Lexical	PATO:0000001	quality	CL:0000589	cochlear inner hair cell
+VT:0000896	rdfs:label	cochlear inner hair cell efferent innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0001043	rdfs:label	parotid salivary gland cholinergic innervation pattern quality	Lexical	PATO:0000001	quality	UBERON:0001044	salivary gland
+VT:0001043	rdfs:label	parotid salivary gland cholinergic innervation pattern quality	Lexical	PATO:0000001	quality	UBERON:0001831	parotid
+VT:0001043	rdfs:label	parotid salivary gland cholinergic innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0010931	rdfs:label	blood molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0000178	blood
+VT:0008111	rdfs:label	granulocyte development quality	Lexical	PATO:0000001	quality	CL:0000094	granulocyte
+VT:0010772	rdfs:label	central nervous system integrity quality	Lexical	PATO:0000001	quality	UBERON:0001017	central nervous system
+VT:0001304	rdfs:label	lens clarity quality	Lexical	PATO:0000001	quality	UBERON:0000965	lens
+VT:0010619	rdfs:label	liver glutathione amount	Lexical	PATO:0000070	amount	UBERON:0002107	liver
+VT:0003145	rdfs:label	otolithic membrane attachment quality	Lexical	PATO:0001435	attachment quality	GO:0016020	membrane
+VT:0008053	rdfs:label	natural killer cell development quality	Lexical	PATO:0000001	quality	CL:0000623	natural killer cell
+VT:0008053	rdfs:label	natural killer cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0002073	rdfs:label	hair physiology quality	Lexical	PATO:0000001	quality	UBERON:0001037	hair
+VT:0010993	rdfs:label	blood 1-methylhistidine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010807	rdfs:label	feather pigmentation quality	Lexical	PATO:0000001	quality	UBERON:0000022	feather
+VT:0010807	rdfs:label	feather pigmentation quality	Lexical	PATO:0000001	quality	GO:0043473	pigmentation
+VT:0010335	rdfs:label	milk fatty acid trans-13-14-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010335	rdfs:label	milk fatty acid trans-13-14-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0001927	rdfs:label	estrous cycle quality	Lexical	PATO:0000001	quality	GO:0044849	estrous cycle
+VT:0010902	rdfs:label	blood eicosanoid amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010501	rdfs:label	islet of langerhans physiology quality	Lexical	PATO:0000001	quality	UBERON:0000006	islet of Langerhans
+VT:0001336	rdfs:label	active-zone-anchored inner hair cell synaptic ribbon morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001037	hair
+VT:0001336	rdfs:label	active-zone-anchored inner hair cell synaptic ribbon morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0001336	rdfs:label	active-zone-anchored inner hair cell synaptic ribbon morphology quality	Lexical	PATO:0000051	morphology	GO:0098681	synaptic ribbon
+VT:0000952	rdfs:label	central nervous system glial cell morphology quality	Lexical	PATO:0010006	cell morphology	UBERON:0001017	central nervous system
+VT:0000952	rdfs:label	central nervous system glial cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000125	glial cell
+VT:0000952	rdfs:label	central nervous system glial cell morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001017	central nervous system
+VT:0000952	rdfs:label	central nervous system glial cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000125	glial cell
+VT:0005637	rdfs:label	iron homeostasis quality	Lexical	PATO:0000001	quality	GO:0042592	homeostasis
+VT:0010736	rdfs:label	wound healing quality	Lexical	PATO:0000001	quality	GO:0042060	wound healing
+VT:0000269	rdfs:label	heart tube looping morphogenesis quality	Lexical	PATO:0000001	quality	UBERON:0004141	heart tube
+VT:0000269	rdfs:label	heart tube looping morphogenesis quality	Lexical	PATO:0000001	quality	GO:0009653	morphogenesis
+VT:0010321	rdfs:label	milk trans fatty acid amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010321	rdfs:label	milk trans fatty acid amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010604	rdfs:label	urine chloride amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0008496	rdfs:label	blood immunoglobulin g2a amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0004797	rdfs:label	blood anti-erythrocyte antigen antibody amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0004797	rdfs:label	blood anti-erythrocyte antigen antibody amount	Lexical	PATO:0000070	amount	GO:0042571	antibody
+VT:0010870	rdfs:label	blood enzyme inhibitor amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010918	rdfs:label	liver bile acid amount	Lexical	PATO:0000070	amount	UBERON:0002107	liver
+VT:0010918	rdfs:label	liver bile acid amount	Lexical	PATO:0000070	amount	UBERON:0001970	bile
+VT:0010432	rdfs:label	milk fatty acid cis-14-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010432	rdfs:label	milk fatty acid cis-14-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0003613	rdfs:label	kidney medulla development quality	Lexical	PATO:0000001	quality	UBERON:0000958	medulla
+VT:0003613	rdfs:label	kidney medulla development quality	Lexical	PATO:0000001	quality	UBERON:0000362	kidney medulla
+VT:0010446	rdfs:label	nesting behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0005462	rdfs:label	mast cell development quality	Lexical	PATO:0000001	quality	CL:0000097	mast cell
+VT:0005462	rdfs:label	mast cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0010972	rdfs:label	blood l-glutamine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0003798	rdfs:label	harderian gland pigmentation quality	Lexical	PATO:0000001	quality	UBERON:0004187	Harderian gland
+VT:0003798	rdfs:label	harderian gland pigmentation quality	Lexical	PATO:0000001	quality	GO:0043473	pigmentation
+VT:0010715	rdfs:label	fear-related behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010556	rdfs:label	aorta elastic tissue integrity quality	Lexical	PATO:0001171	elastic	UBERON:0000479	tissue
+VT:0010556	rdfs:label	aorta elastic tissue integrity quality	Lexical	PATO:0001171	elastic	UBERON:0000947	aorta
+VT:0010825	rdfs:label	tongue size quality	Lexical	PATO:0000117	size	UBERON:0001723	tongue
+VT:0000255	rdfs:label	regional blood flow quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0000365	rdfs:label	hearing electrophysiology quality	Lexical	PATO:0000001	quality	GO:0007605	hearing
+VT:0007024	rdfs:label	heart left atrium configuration quality	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0007024	rdfs:label	heart left atrium configuration quality	Lexical	PATO:0000366	left	UBERON:0002081	atrium
+VT:0007012	rdfs:label	mitral valve configuration quality	Lexical	PATO:0000001	quality	UBERON:0002135	mitral valve
+VT:0010985	rdfs:label	blood l-taurine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010728	rdfs:label	discrimination learning quality	Lexical	PATO:0000189	discrimination	GO:0007612	learning
+VT:0010266	rdfs:label	milk beta-lactoglobulin amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0002128	rdfs:label	blood circulation quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0010535	rdfs:label	erythrocyte ion amount	Lexical	PATO:0000070	amount	CL:0000232	erythrocyte
+VT:0010376	rdfs:label	milk soluble calcium amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010376	rdfs:label	milk soluble calcium amount	Lexical	PATO:0001537	soluble	UBERON:0001913	milk
+VT:0010701	rdfs:label	blood chylomicron triglyceride amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010701	rdfs:label	blood chylomicron triglyceride amount	Lexical	PATO:0000070	amount	GO:0042627	chylomicron
+VT:0010811	rdfs:label	heart left ventricle interstitial epinephrine amount	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010811	rdfs:label	heart left ventricle interstitial epinephrine amount	Lexical	PATO:0000070	amount	UBERON:0000948	heart
+VT:0000736	rdfs:label	skeletal myogenesis initiation quality	Lexical	PATO:0000001	quality	GO:0048740	myogenesis
+VT:0010903	rdfs:label	blood carbohydrate or carbohydrate derivative amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010597	rdfs:label	blood murinoglobulin 1 amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0000665	rdfs:label	coagulating gland ductal branching quality	Lexical	PATO:0000001	quality	UBERON:0008807	coagulating gland
+VT:0001288	rdfs:label	lens induction quality	Lexical	PATO:0000001	quality	UBERON:0000965	lens
+VT:0010936	rdfs:label	head temperature quality	Lexical	PATO:0000146	temperature	UBERON:0000033	head
+VT:0010506	rdfs:label	blood idl phospholipid amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010360	rdfs:label	milk fatty acid trans-10,trans-12-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010360	rdfs:label	milk fatty acid trans-10,trans-12-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0004229	rdfs:label	embryonic erythropoiesis quality	Lexical	PATO:0000001	quality	GO:0030218	erythropoiesis
+VT:0002408	rdfs:label	double-positive t cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000084	T cell
+VT:0002408	rdfs:label	double-positive t cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T cell
+VT:0003478	rdfs:label	nerve fiber response threshold	Lexical	PATO:0000152	threshold	UBERON:0006134	nerve fiber
+VT:0001290	rdfs:label	time of eyelid opening	Lexical	PATO:0000165	time	UBERON:0001711	eyelid
+VT:0010393	rdfs:label	milk cd36 molecule amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0001502	rdfs:label	behavioral circadian rhythm quality	Lexical	PATO:0000078	rhythm quality	GO:0007623	circadian rhythm
+VT:0010949	rdfs:label	tympanic cavity integrity quality	Lexical	PATO:0000001	quality	UBERON:0004114	tympanic cavity
+VT:0010216	rdfs:label	jejunum villi length	Lexical	PATO:0000122	length	UBERON:0002115	jejunum
+VT:0003180	rdfs:label	pulmonary endothelial cell surface area	Lexical	PATO:0001323	area	CL:0000115	endothelial cell
+VT:0003180	rdfs:label	pulmonary endothelial cell surface area	Lexical	PATO:0001323	area	GO:0009986	cell surface
+VT:0008568	rdfs:label	interleukin secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010326	rdfs:label	milk fatty acid cis-9-c14:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010326	rdfs:label	milk fatty acid cis-9-c14:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010866	rdfs:label	medulla oblongata dopamine amount	Lexical	PATO:0000070	amount	UBERON:0001896	medulla oblongata
+VT:0006074	rdfs:label	retinal rod bipolar cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000751	rod bipolar cell
+VT:0006074	rdfs:label	retinal rod bipolar cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000751	rod bipolar cell
+VT:0005225	rdfs:label	vertebra development quality	Lexical	PATO:0000001	quality	UBERON:0002412	vertebra
+VT:0010576	rdfs:label	urine epinephrine amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0001027	rdfs:label	adrenergic innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0001447	rdfs:label	nest-building behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010479	rdfs:label	blood insulin-like growth factor amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010479	rdfs:label	blood insulin-like growth factor amount	Lexical	PATO:0000070	amount	GO:0040007	growth
+VT:0005121	rdfs:label	blood prolactin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010589	rdfs:label	blood sitosterol amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0003457	rdfs:label	blood ketone body amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010858	rdfs:label	hypothalamus norepinephrine amount	Lexical	PATO:0000070	amount	UBERON:0001898	hypothalamus
+VT:0003027	rdfs:label	blood ph regulation quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0001723	rdfs:label	yolk sac vascular plexus morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001040	yolk sac
+VT:0001723	rdfs:label	yolk sac vascular plexus morphology quality	Lexical	PATO:0000051	morphology	UBERON:0005629	vascular plexus
+VT:0010182	rdfs:label	blood cell development quality	Lexical	PATO:0000001	quality	CL:0000081	blood cell
+VT:0010182	rdfs:label	blood cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0010286	rdfs:label	motor nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0000990	rdfs:label	skeletal muscle mechanoreceptor morphology quality	Lexical	PATO:0000051	morphology	UBERON:0012449	mechanoreceptor
+VT:0010930	rdfs:label	kidney arteriole morphology quality	Lexical	PATO:0000051	morphology	UBERON:0002113	kidney
+VT:0010930	rdfs:label	kidney arteriole morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001980	arteriole
+VT:0010257	rdfs:label	colostrum immunoglobulin amount	Lexical	PATO:0000070	amount	UBERON:0001914	colostrum
+VT:0000055	rdfs:label	total milk mineral amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0006280	rdfs:label	digit development quality	Lexical	PATO:0000001	quality	UBERON:0002544	digit
+VT:0010367	rdfs:label	milk fatty acid c22:5(n-3) amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010367	rdfs:label	milk fatty acid c22:5(n-3) amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0005070	rdfs:label	natural killer cell cytolysis quality	Lexical	PATO:0000001	quality	CL:0000623	natural killer cell
+VT:0005070	rdfs:label	natural killer cell cytolysis quality	Lexical	PATO:0000001	quality	GO:0019835	cytolysis
+VT:0007089	rdfs:label	heart right ventricle posterior wall thickness	Lexical	PATO:0000367	right	UBERON:0000948	heart
+VT:0007089	rdfs:label	heart right ventricle posterior wall thickness	Lexical	PATO:0000915	thickness	UBERON:0000948	heart
+VT:1000283	rdfs:label	tibia mineral mass	Lexical	PATO:0000125	mass	UBERON:0000979	tibia
+VT:0010210	rdfs:label	duodenum crypt of lieberkuhn depth	Lexical	PATO:0001595	depth	UBERON:0002114	duodenum
+VT:0010210	rdfs:label	duodenum crypt of lieberkuhn depth	Lexical	PATO:0001595	depth	UBERON:0001983	crypt of Lieberkuhn
+VT:0000984	rdfs:label	meissner's corpuscle innervation pattern quality	Lexical	PATO:0000001	quality	UBERON:0012450	Meissner's corpuscle
+VT:0000984	rdfs:label	meissner's corpuscle innervation pattern quality	Lexical	PATO:0000001	quality	GO:0060384	innervation
+VT:0010352	rdfs:label	milk fatty acid trans-8,cis-10-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010352	rdfs:label	milk fatty acid trans-8,cis-10-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010750	rdfs:label	heart left ventricular blood pressure quality	Lexical	PATO:0001025	pressure	UBERON:0000948	heart
+VT:0010750	rdfs:label	heart left ventricular blood pressure quality	Lexical	PATO:0001025	pressure	UBERON:0000178	blood
+VT:0010750	rdfs:label	heart left ventricular blood pressure quality	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010750	rdfs:label	heart left ventricular blood pressure quality	Lexical	PATO:0000366	left	UBERON:0000178	blood
+VT:0004492	rdfs:label	inner hair cell stereociliary bundle orientation quality	Lexical	PATO:0000133	orientation	UBERON:0001037	hair
+VT:0004492	rdfs:label	inner hair cell stereociliary bundle orientation quality	Lexical	PATO:0000133	orientation	CL:0000000	cell
+VT:0003876	rdfs:label	cerebrum physiology quality	Lexical	PATO:0000001	quality	UBERON:0001893	cerebrum
+VT:0010969	rdfs:label	blood l-aspartic acid amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010320	rdfs:label	milk fatty acid c22:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010320	rdfs:label	milk fatty acid c22:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010860	rdfs:label	cervical spinal cord serotonin amount	Lexical	PATO:0000070	amount	UBERON:0002726	cervical spinal cord
+VT:0010603	rdfs:label	stomach integrity quality	Lexical	PATO:0000001	quality	UBERON:0000945	stomach
+VT:0004796	rdfs:label	blood anti-histone antibody amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0004796	rdfs:label	blood anti-histone antibody amount	Lexical	PATO:0000070	amount	GO:0042571	antibody
+VT:0010685	rdfs:label	peritoneum pigmentation quality	Lexical	PATO:0000001	quality	UBERON:0002358	peritoneum
+VT:0010685	rdfs:label	peritoneum pigmentation quality	Lexical	PATO:0000001	quality	GO:0043473	pigmentation
+VT:0010781	rdfs:label	cerebrovascular system integrity quality	Lexical	PATO:0000001	quality	UBERON:0008998	cerebrovascular system
+VT:0010922	rdfs:label	liver iron amount	Lexical	PATO:0000070	amount	UBERON:0002107	liver
+VT:0007075	rdfs:label	heart left ventricle wall thickness	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0007075	rdfs:label	heart left ventricle wall thickness	Lexical	PATO:0000915	thickness	UBERON:0000948	heart
+VT:0001757	rdfs:label	urine molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0001088	urine
+VT:0004829	rdfs:label	blood anti-chromatin antibody amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0004829	rdfs:label	blood anti-chromatin antibody amount	Lexical	PATO:0000070	amount	GO:0042571	antibody
+VT:0010891	rdfs:label	blood sorbital dehydrogenase amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0000064	rdfs:label	secondary bone resorption quality	Lexical	PATO:0002632	secondary	GO:0045453	bone resorption
+VT:3000000	rdfs:label	platelet adhesion quality	Lexical	PATO:0000001	quality	CL:0000233	platelet
+VT:0010789	rdfs:label	adrenal gland molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0002369	adrenal gland
+VT:0010313	rdfs:label	milk fatty acid c11:0 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010313	rdfs:label	milk fatty acid c11:0 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0005227	rdfs:label	vertebral body development quality	Lexical	PATO:0000001	quality	UBERON:0001075	vertebral body
+VT:0010899	rdfs:label	bone marrow cell integrity quality	Lexical	PATO:0000001	quality	CL:0002092	bone marrow cell
+VT:0000276	rdfs:label	heart right ventricle cell size quality	Lexical	PATO:0000367	right	UBERON:0000948	heart
+VT:0000276	rdfs:label	heart right ventricle cell size quality	Lexical	PATO:0000367	right	CL:0000000	cell
+VT:0000276	rdfs:label	heart right ventricle cell size quality	Lexical	PATO:0000117	size	UBERON:0000948	heart
+VT:0000276	rdfs:label	heart right ventricle cell size quality	Lexical	PATO:0000117	size	CL:0000000	cell
+VT:1000683	rdfs:label	total heart ventricle size quality	Lexical	PATO:0000117	size	UBERON:0002082	heart ventricle
+VT:0001314	rdfs:label	cornea clarity quality	Lexical	PATO:0000001	quality	UBERON:0000964	cornea
+VT:0010742	rdfs:label	blood cystatin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0002649	rdfs:label	enamel rod organization quality	Lexical	PATO:0002264	organization quality	UBERON:0001752	enamel
+VT:0010700	rdfs:label	blood vldl triglyceride amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010700	rdfs:label	blood vldl triglyceride amount	Lexical	PATO:0000070	amount	GO:0005323	VLDL
+VT:0010694	rdfs:label	blood fructosamine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0000816	rdfs:label	cochlear hair cell stereociliary bundle morphology quality	Lexical	PATO:0000051	morphology	CL:4023120	cochlear hair cell
+VT:0010977	rdfs:label	blood l-isoleucine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010273	rdfs:label	colostrum growth factor amount	Lexical	PATO:0000070	amount	UBERON:0001914	colostrum
+VT:0010273	rdfs:label	colostrum growth factor amount	Lexical	PATO:0000070	amount	GO:0040007	growth
+VT:0003701	rdfs:label	sister chromatid exchange quality	Lexical	PATO:0000001	quality	GO:0005695	chromatid
+VT:0010534	rdfs:label	erythrocyte ion transport quality	Lexical	PATO:0000001	quality	CL:0000232	erythrocyte
+VT:0010534	rdfs:label	erythrocyte ion transport quality	Lexical	PATO:0000001	quality	GO:0006811	ion transport
+VT:0010154	rdfs:label	purkinje cell nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0010154	rdfs:label	purkinje cell nerve fiber organization quality	Lexical	PATO:0002264	organization quality	CL:0000121	Purkinje cell
+VT:0010803	rdfs:label	thymus ribonucleic acid amount	Lexical	PATO:0000070	amount	UBERON:0002370	thymus
+VT:0010630	rdfs:label	blood glutathione peroxidase amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010461	rdfs:label	excretion behavior quality	Lexical	PATO:0000001	quality	GO:0007588	excretion
+VT:0010461	rdfs:label	excretion behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0000153	rdfs:label	blood circulatory physiology quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0010206	rdfs:label	proventriculus mucosa thickness	Lexical	PATO:0000915	thickness	UBERON:0007357	proventriculus
+VT:0010206	rdfs:label	proventriculus mucosa thickness	Lexical	PATO:0000915	thickness	UBERON:0000344	mucosa
+VT:0010469	rdfs:label	pancreas molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0001264	pancreas
+VT:0010963	rdfs:label	cd25-positive t cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000084	T cell
+VT:0010963	rdfs:label	cd25-positive t cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T cell
+VT:0010706	rdfs:label	kidney glutathione amount	Lexical	PATO:0000070	amount	UBERON:0002113	kidney
+VT:0001798	rdfs:label	macrophage phagocytosis quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+VT:0001798	rdfs:label	macrophage phagocytosis quality	Lexical	PATO:0000001	quality	GO:0006909	phagocytosis
+VT:0010816	rdfs:label	urine aldosterone amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0008692	rdfs:label	interleukin-23a secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010354	rdfs:label	milk fatty acid trans-10,cis-12-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010354	rdfs:label	milk fatty acid trans-10,cis-12-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010623	rdfs:label	blood acetaminophen amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010908	rdfs:label	urine copper amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0010783	rdfs:label	urinary system integrity quality	Lexical	PATO:0000001	quality	UBERON:0001008	urinary system
+VT:0010526	rdfs:label	aorta physiology quality	Lexical	PATO:0000001	quality	UBERON:0000947	aorta
+VT:0010893	rdfs:label	ovary molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0000992	ovary
+VT:0010636	rdfs:label	vitamin and cofactor metabolism quality	Lexical	PATO:0000001	quality	GO:0008152	metabolism
+VT:0010480	rdfs:label	blood osteocalcin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0000194	rdfs:label	blood vessel proliferation quality	Lexical	PATO:0000001	quality	UBERON:0001981	blood vessel
+VT:0010738	rdfs:label	skin mineral amount	Lexical	PATO:0000070	amount	UBERON:0000014	skin
+VT:0002893	rdfs:label	urine keto acid amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0002492	rdfs:label	blood immunoglobulin e amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010682	rdfs:label	inguinal canal integrity quality	Lexical	PATO:0000001	quality	UBERON:0003702	inguinal canal
+VT:0010346	rdfs:label	milk fatty acid trans-11,cis-15-c18:2 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010346	rdfs:label	milk fatty acid trans-11,cis-15-c18:2 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010550	rdfs:label	hypodermis integrity quality	Lexical	PATO:0000001	quality	UBERON:0002072	hypodermis
+VT:0015090	rdfs:label	artery molecular composition quality	Lexical	PATO:0000025	composition	UBERON:0001637	artery
+VT:0010886	rdfs:label	blood urotensin ii amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0003834	rdfs:label	adrenergic chromaffin cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000166	chromaffin cell
+VT:0003834	rdfs:label	adrenergic chromaffin cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000166	chromaffin cell
+VT:2000005	rdfs:label	cerebral blood flow quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0010844	rdfs:label	forebrain dihydroxyphenylacetic acid (dopac) amount	Lexical	PATO:0000070	amount	UBERON:0001890	forebrain
+VT:0000476	rdfs:label	cochlear nerve fiber response quality	Lexical	PATO:0000001	quality	UBERON:0004727	cochlear nerve
+VT:0000476	rdfs:label	cochlear nerve fiber response quality	Lexical	PATO:0000001	quality	UBERON:0006134	nerve fiber
+VT:0000262	rdfs:label	venous blood flow quality	Lexical	PATO:0000001	quality	UBERON:0013756	venous blood
+VT:0010511	rdfs:label	lumbar vertebra mineral mass	Lexical	PATO:0000125	mass	UBERON:0002414	lumbar vertebra
+VT:0010747	rdfs:label	heart left ventricle interstitial collagen amount	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010747	rdfs:label	heart left ventricle interstitial collagen amount	Lexical	PATO:0000366	left	GO:0005202	collagen
+VT:0010747	rdfs:label	heart left ventricle interstitial collagen amount	Lexical	PATO:0000070	amount	UBERON:0000948	heart
+VT:0010747	rdfs:label	heart left ventricle interstitial collagen amount	Lexical	PATO:0000070	amount	GO:0005202	collagen
+VT:0003044	rdfs:label	basement membrane development quality	Lexical	PATO:0000001	quality	GO:0005604	basement membrane
+VT:0001047	rdfs:label	enteric cholinergic neuron morphology quality	Lexical	PATO:0000051	morphology	CL:0000108	cholinergic neuron
+VT:0008757	rdfs:label	t cell receptor gamma chain v-j recombination quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0008757	rdfs:label	t cell receptor gamma chain v-j recombination quality	Lexical	PATO:0000001	quality	GO:0033151	V-J recombination
+VT:0010181	rdfs:label	myeloblast development quality	Lexical	PATO:0000001	quality	CL:0000835	myeloblast
+VT:0010407	rdfs:label	sperm head size quality	Lexical	PATO:0000117	size	UBERON:0000033	head
+VT:0010407	rdfs:label	sperm head size quality	Lexical	PATO:0000117	size	CL:0000019	sperm
+VT:0000571	rdfs:label	interdigital webbing quality	Lexical	PATO:0000001	quality	UBERON:0006015	interdigital webbing
+VT:0010463	rdfs:label	coat/hair pigmentation quality	Lexical	PATO:0000001	quality	GO:0043473	pigmentation
+VT:0010004	rdfs:label	milk flow quality	Lexical	PATO:0000001	quality	UBERON:0001913	milk
+VT:0010189	rdfs:label	muscle nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0010231	rdfs:label	colon muscle thickness	Lexical	PATO:0000915	thickness	UBERON:0001155	colon
+VT:0010912	rdfs:label	urine homeostasis quality	Lexical	PATO:0000001	quality	UBERON:0001088	urine
+VT:0010912	rdfs:label	urine homeostasis quality	Lexical	PATO:0000001	quality	GO:0042592	homeostasis
+VT:0010836	rdfs:label	tissue 5-hydroxyindoleacetic acid amount	Lexical	PATO:0000070	amount	UBERON:0000479	tissue
+VT:0010928	rdfs:label	bone marrow physiology quality	Lexical	PATO:0000001	quality	UBERON:0002371	bone marrow
+VT:0008042	rdfs:label	nk t cell physiology quality	Lexical	PATO:0000001	quality	UBERON:3010310	NK cell
+VT:0008042	rdfs:label	nk t cell physiology quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0008042	rdfs:label	nk t cell physiology quality	Lexical	PATO:0000001	quality	GO:0009987	cell physiology
+VT:0001094	rdfs:label	trigeminal ganglion cell size quality	Lexical	PATO:0000117	size	UBERON:0001675	trigeminal ganglion
+VT:0001094	rdfs:label	trigeminal ganglion cell size quality	Lexical	PATO:0000117	size	CL:0000000	cell
+VT:0003850	rdfs:label	thymocyte activation quality	Lexical	PATO:0002353	activation quality	CL:0000893	thymocyte
+VT:0015014	rdfs:label	aggression-related behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0010788	rdfs:label	blood alpha-n-acetylgalactosaminidase amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010732	rdfs:label	head movement quality	Lexical	PATO:0001906	movement quality	UBERON:0000033	head
+VT:1000047	rdfs:label	blood creatine kinase amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010995	rdfs:label	blood 4-hydroxyproline amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0002663	rdfs:label	blastocele development quality	Lexical	PATO:0000001	quality	UBERON:0000090	blastocele
+VT:0010953	rdfs:label	erythrocyte hemoglobin amount	Lexical	PATO:0000070	amount	CL:0000232	erythrocyte
+VT:0001739	rdfs:label	secretion by adrenal gland quality	Lexical	PATO:0000001	quality	UBERON:0002369	adrenal gland
+VT:0001739	rdfs:label	secretion by adrenal gland quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010552	rdfs:label	mammary gland integrity quality	Lexical	PATO:0000001	quality	UBERON:0001911	mammary gland
+VT:0000307	rdfs:label	blood-inner ear barrier physiology quality	Lexical	PATO:0000001	quality	UBERON:0005973	blood-inner ear barrier
+VT:0003693	rdfs:label	embryo hatching quality	Lexical	PATO:0000001	quality	UBERON:0000922	embryo
+VT:0003693	rdfs:label	embryo hatching quality	Lexical	PATO:0000001	quality	GO:0035188	hatching
+VT:0010773	rdfs:label	peripheral nervous system integrity quality	Lexical	PATO:0002107	peripheral	UBERON:0001016	nervous system
+VT:1000637	rdfs:label	functional nipple quantity	Lexical	PATO:0001510	functional	UBERON:0002030	nipple
+VT:0010877	rdfs:label	brain dopamine amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0000081	rdfs:label	cranial suture closure initiation quality	Lexical	PATO:0000136	closure	UBERON:0003685	cranial suture
+VT:0008759	rdfs:label	t cell receptor delta chain v(d)j recombination quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0008759	rdfs:label	t cell receptor delta chain v(d)j recombination quality	Lexical	PATO:0000001	quality	GO:0033151	V(D)J recombination
+VT:0000974	rdfs:label	hair guard neuron morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001037	hair
+VT:0000974	rdfs:label	hair guard neuron morphology quality	Lexical	PATO:0000051	morphology	CL:0000540	neuron
+VT:0010959	rdfs:label	urine integrity quality	Lexical	PATO:0000001	quality	UBERON:0001088	urine
+VT:0003407	rdfs:label	central nervous system regeneration quality	Lexical	PATO:0000001	quality	UBERON:0001017	central nervous system
+VT:0003407	rdfs:label	central nervous system regeneration quality	Lexical	PATO:0000001	quality	GO:0031099	regeneration
+VT:0002992	rdfs:label	sebaceous lipid secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010830	rdfs:label	medulla oblongata epinephrine amount	Lexical	PATO:0000070	amount	UBERON:0001896	medulla oblongata
+VT:0010233	rdfs:label	cecum muscle thickness	Lexical	PATO:0000915	thickness	UBERON:0001153	cecum
+VT:0010932	rdfs:label	blood arginine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0007019	rdfs:label	aortic valve configuration quality	Lexical	PATO:0000001	quality	UBERON:0002137	aortic valve
+VT:0001570	rdfs:label	blood enzyme amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010037	rdfs:label	serum amyloid protein amount	Lexical	PATO:0000070	amount	UBERON:0001977	serum
+VT:0010779	rdfs:label	blood integrity quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0010650	rdfs:label	blood haptoglobin amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010945	rdfs:label	cardiac muscle capillary amount	Lexical	PATO:0000070	amount	UBERON:0001982	capillary
+VT:0010945	rdfs:label	cardiac muscle capillary amount	Lexical	PATO:0000070	amount	UBERON:0001133	cardiac muscle
+VT:0010481	rdfs:label	blood immunoglobulin m amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010994	rdfs:label	blood l-ornithine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010226	rdfs:label	ileum muscle thickness	Lexical	PATO:0000915	thickness	UBERON:0002116	ileum
+VT:0010808	rdfs:label	milk sulfur amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010591	rdfs:label	brain campesterol amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0001133	rdfs:label	luteal cell differentiation quality	Lexical	PATO:0000001	quality	CL:0000175	luteal cell
+VT:0001133	rdfs:label	luteal cell differentiation quality	Lexical	PATO:0000001	quality	GO:0030154	cell differentiation
+VT:0010336	rdfs:label	milk fatty acid cis-14/trans-16-c18:1 amount	Lexical	PATO:0000070	amount	UBERON:0001913	milk
+VT:0010336	rdfs:label	milk fatty acid cis-14/trans-16-c18:1 amount	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0003885	rdfs:label	rostral-caudal body axis extension quality	Lexical	PATO:0000001	quality	UBERON:2000106	extension
+VT:0010100	rdfs:label	lacrimal gland cholinergic nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0001817	lacrimal gland
+VT:0010100	rdfs:label	lacrimal gland cholinergic nerve fiber organization quality	Lexical	PATO:0002264	organization quality	UBERON:0006134	nerve fiber
+VT:0010605	rdfs:label	urine norepinephrine amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0010599	rdfs:label	maternal behavior quality	Lexical	PATO:0000001	quality	GO:0042711	maternal behavior
+VT:0002295	rdfs:label	pulmonary blood flow quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:4000013	rdfs:label	neuroendocrine gland physiology quality	Lexical	PATO:0000001	quality	UBERON:0010133	neuroendocrine gland
+VT:0010885	rdfs:label	urine urotensin ii amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0010447	rdfs:label	emission behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+VT:0005463	rdfs:label	cd4-positive t cell physiology quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0005463	rdfs:label	cd4-positive t cell physiology quality	Lexical	PATO:0000001	quality	GO:0009987	cell physiology
+VT:0002650	oboInOwl:hasExactSynonym	enamel cell development quality	Lexical	PATO:0000001	quality	UBERON:0001752	enamel
+VT:0002650	oboInOwl:hasExactSynonym	enamel cell development quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+VT:0002650	oboInOwl:hasExactSynonym	enamel cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0010377	oboInOwl:hasExactSynonym	milk free calcium content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010377	oboInOwl:hasExactSynonym	milk ionic calcium concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010282	oboInOwl:hasExactSynonym	milk alpha-s2-casein content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0005442	oboInOwl:hasExactSynonym	cerebral cortex pyramidal neuron morphology quality	Lexical	PATO:0000051	morphology	UBERON:0000956	cerebral cortex
+VT:0005442	oboInOwl:hasExactSynonym	cerebral cortex pyramidal neuron morphology quality	Lexical	PATO:0000051	morphology	CL:0000540	neuron
+VT:0005442	oboInOwl:hasExactSynonym	cerebral cortex pyramidal neuron morphology quality	Lexical	PATO:0002336	pyramidal	UBERON:0000956	cerebral cortex
+VT:0005442	oboInOwl:hasExactSynonym	cerebral cortex pyramidal neuron morphology quality	Lexical	PATO:0002336	pyramidal	CL:0000540	neuron
+VT:0005442	oboInOwl:hasExactSynonym	cerebral cortex projection neuron morphology quality	Lexical	PATO:0000051	morphology	UBERON:0000956	cerebral cortex
+VT:0005442	oboInOwl:hasExactSynonym	cerebral cortex projection neuron morphology quality	Lexical	PATO:0000051	morphology	UBERON:0004529	projection
+VT:0005442	oboInOwl:hasExactSynonym	cerebral cortex projection neuron morphology quality	Lexical	PATO:0000051	morphology	CL:0000598	projection neuron
+VT:0010598	oboInOwl:hasExactSynonym	thoracic aorta intracellular protein amount	Lexical	PATO:0000070	amount	UBERON:0001515	thoracic aorta
+VT:0010598	oboInOwl:hasExactSynonym	thoracic aorta intracellular protein amount	Lexical	PATO:0000070	amount	GO:0005622	intracellular
+VT:0010251	oboInOwl:hasExactSynonym	hematolymphoid system development quality	Lexical	PATO:0000001	quality	UBERON:0002193	hematolymphoid system
+VT:0010251	oboInOwl:hasExactSynonym	hemolymphatic system development quality	Lexical	PATO:0000001	quality	GO:0048731	system development
+VT:0010251	oboInOwl:hasExactSynonym	haemolymphoid system development quality	Lexical	PATO:0000001	quality	GO:0048731	system development
+VT:0010369	oboInOwl:hasExactSynonym	milk fatty acid c18:3 n-3 concentration	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010369	oboInOwl:hasExactSynonym	milk fatty acid c18:3 n-3 concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010369	oboInOwl:hasExactSynonym	milk linolenic acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010217	oboInOwl:hasExactSynonym	jejunum glandular crypt depth	Lexical	PATO:0002117	glandular	UBERON:0002115	jejunum
+VT:0010217	oboInOwl:hasExactSynonym	jejunum glandular crypt depth	Lexical	PATO:0001595	depth	UBERON:0002115	jejunum
+VT:0010217	oboInOwl:hasExactSynonym	depth of the glandular crypts of the jejunum	Lexical	PATO:0002117	glandular	UBERON:0002115	jejunum
+VT:0010217	oboInOwl:hasExactSynonym	depth of the glandular crypts of the jejunum	Lexical	PATO:0001595	depth	UBERON:0002115	jejunum
+VT:0007084	oboInOwl:hasExactSynonym	interventricular septum configuration quality	Lexical	PATO:0000001	quality	UBERON:0002094	interventricular septum
+VT:0010490	oboInOwl:hasExactSynonym	aortic blood flow quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0010211	oboInOwl:hasExactSynonym	width of the glandular crypts of the duodenum	Lexical	PATO:0000921	width	UBERON:0002114	duodenum
+VT:0010211	oboInOwl:hasExactSynonym	width of the glandular crypts of the duodenum	Lexical	PATO:0002117	glandular	UBERON:0002114	duodenum
+VT:0010211	oboInOwl:hasExactSynonym	duodenum glandular crypt width	Lexical	PATO:0000921	width	UBERON:0002114	duodenum
+VT:0010211	oboInOwl:hasExactSynonym	duodenum glandular crypt width	Lexical	PATO:0002117	glandular	UBERON:0002114	duodenum
+VT:0010314	oboInOwl:hasExactSynonym	milk lauric acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0004771	oboInOwl:hasExactSynonym	circulating anti-single stranded dna antibody amount	Lexical	PATO:0000070	amount	GO:0042571	antibody
+VT:0009332	oboInOwl:hasExactSynonym	spleen cell morphology quality	Lexical	PATO:0010006	cell morphology	UBERON:0002106	spleen
+VT:0009332	oboInOwl:hasExactSynonym	spleen cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000000	cell
+VT:0009332	oboInOwl:hasExactSynonym	spleen cell morphology quality	Lexical	PATO:0000051	morphology	UBERON:0002106	spleen
+VT:0009332	oboInOwl:hasExactSynonym	spleen cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0010397	oboInOwl:hasExactSynonym	milk fat globule-egf factor 8 protein content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010397	oboInOwl:hasExactSynonym	milk lactadherin concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010306	oboInOwl:hasExactSynonym	milk butyric acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010846	oboInOwl:hasExactSynonym	medulla oblongata hva amount	Lexical	PATO:0000070	amount	UBERON:0001896	medulla oblongata
+VT:0010260	oboInOwl:hasExactSynonym	colostrum igm content	Lexical	PATO:0000025	content	UBERON:0001914	colostrum
+VT:0010260	oboInOwl:hasExactSynonym	colostrum immunoglobulin m concentration	Lexical	PATO:0000033	concentration	UBERON:0001914	colostrum
+VT:0010258	oboInOwl:hasExactSynonym	colostrum immunoglobulin a concentration	Lexical	PATO:0000033	concentration	UBERON:0001914	colostrum
+VT:0010784	oboInOwl:hasExactSynonym	blood o2 amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010368	oboInOwl:hasExactSynonym	milk fatty acid c22:6 n-3 concentration	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010368	oboInOwl:hasExactSynonym	milk fatty acid c22:6 n-3 concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:2000006	oboInOwl:hasExactSynonym	kidney blood flow quality	Lexical	PATO:0000001	quality	UBERON:0002113	kidney
+VT:2000006	oboInOwl:hasExactSynonym	kidney blood flow quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+VT:0010243	oboInOwl:hasExactSynonym	epithelium thickness of the reticulo-rumen	Lexical	PATO:0000915	thickness	UBERON:0000483	epithelium
+VT:0010243	oboInOwl:hasExactSynonym	reticulorumen epithelium thickness	Lexical	PATO:0000915	thickness	UBERON:0007364	reticulorumen
+VT:0010243	oboInOwl:hasExactSynonym	reticulorumen epithelium thickness	Lexical	PATO:0000915	thickness	UBERON:0000483	epithelium
+VT:0002913	oboInOwl:hasExactSynonym	peripheral nervous system synaptic transmission	Lexical	PATO:0002107	peripheral	UBERON:0001016	nervous system
+VT:0010207	oboInOwl:hasExactSynonym	muscle thickness of the duodenum	Lexical	PATO:0000915	thickness	UBERON:0002114	duodenum
+VT:0002443	oboInOwl:hasExactSynonym	eosinophilic leucocyte differentiation	Lexical	PATO:0002419	eosinophilic	CL:0000738	leucocyte
+VT:0002443	oboInOwl:hasExactSynonym	eosinophilic leukocyte differentiation	Lexical	PATO:0002419	eosinophilic	CL:0000738	leukocyte
+VT:0008760	oboInOwl:hasExactSynonym	immunoglobulin heavy chain v-d-j joining	Lexical	PATO:0000582	heavy	GO:0033151	V-D-J joining
+VT:0008760	oboInOwl:hasExactSynonym	immunoglobulin heavy chain v(d)j joining	Lexical	PATO:0000582	heavy	GO:0033151	V(D)J joining
+VT:0008760	oboInOwl:hasExactSynonym	immunoglobulin heavy chain v-d-j recombination	Lexical	PATO:0000582	heavy	GO:0033151	V-D-J recombination
+VT:0010443	oboInOwl:hasExactSynonym	csf homeostasis quality	Lexical	PATO:0000001	quality	GO:0042592	homeostasis
+VT:0003637	oboInOwl:hasExactSynonym	spiral ganglion cell number	Lexical	PATO:0000404	spiral	UBERON:0000045	ganglion
+VT:0003637	oboInOwl:hasExactSynonym	spiral ganglion cell number	Lexical	PATO:0000404	spiral	CL:0000000	cell
+VT:0010996	oboInOwl:hasExactSynonym	blood beta-hydroxybutyrate amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010845	oboInOwl:hasExactSynonym	cervical spinal cord hva amount	Lexical	PATO:0000070	amount	UBERON:0002726	cervical spinal cord
+VT:0010677	oboInOwl:hasExactSynonym	glycosylated serum protein amount	Lexical	PATO:0000070	amount	UBERON:0001977	serum
+VT:1000278	oboInOwl:hasExactSynonym	humerus bone mineral content	Lexical	PATO:0000025	content	UBERON:0000976	humerus bone
+VT:0002445	oboInOwl:hasExactSynonym	mononuclear leukocyte development quality	Lexical	PATO:0000001	quality	CL:0000842	mononuclear leukocyte
+VT:0010503	oboInOwl:hasExactSynonym	blood idl-c amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010503	oboInOwl:hasExactSynonym	blood intermediate density lipoprotein cholesterol amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010390	oboInOwl:hasExactSynonym	milk xor concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010390	oboInOwl:hasExactSynonym	milk xanthine oxidoreductase content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010592	oboInOwl:hasExactSynonym	brain beta-sitosterol amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0010101	oboInOwl:hasExactSynonym	marrow cavity development quality	Lexical	PATO:0000001	quality	UBERON:0002484	marrow cavity
+VT:0010101	oboInOwl:hasExactSynonym	bone marrow cavity development quality	Lexical	PATO:0000001	quality	UBERON:0002484	bone marrow cavity
+VT:0010606	oboInOwl:hasExactSynonym	urine 3-methoxy-4-hydroxymandelic acid amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0010329	oboInOwl:hasExactSynonym	milk vaccenic acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010378	oboInOwl:hasExactSynonym	milk colloidal calcium content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010135	oboInOwl:hasExactSynonym	muscle thickness of the gizzard	Lexical	PATO:0000915	thickness	UBERON:0005052	gizzard
+VT:0010040	oboInOwl:hasExactSynonym	lymphoid system physiology quality	Lexical	PATO:0000001	quality	UBERON:0002465	lymphoid system
+VT:0007086	oboInOwl:hasExactSynonym	heart interventricular wall thickness	Lexical	PATO:0000915	thickness	UBERON:0000948	heart
+VT:2000021	oboInOwl:hasExactSynonym	cardiac muscle contractile force	Lexical	PATO:0001690	contractile	UBERON:0001133	cardiac muscle
+VT:2000021	oboInOwl:hasExactSynonym	cardiac muscle contractile force	Lexical	PATO:0001035	force	UBERON:0001133	cardiac muscle
+VT:0015008	oboInOwl:hasExactSynonym	total fat body weight	Lexical	PATO:0000128	weight	UBERON:0003917	fat body
+VT:0000008	oboInOwl:hasExactSynonym	auricle of atrium configuration quality	Lexical	PATO:0000001	quality	UBERON:0006618	auricle of atrium
+VT:0000008	oboInOwl:hasExactSynonym	atrial auricle configuration quality	Lexical	PATO:0000001	quality	UBERON:0006618	atrial auricle
+VT:0000008	oboInOwl:hasExactSynonym	atrial appendage configuration quality	Lexical	PATO:0000001	quality	UBERON:0006618	atrial appendage
+VT:0100026	oboInOwl:hasExactSynonym	mammary gland cistern volume	Lexical	PATO:0000918	volume	UBERON:0001911	mammary gland
+VT:0010310	oboInOwl:hasExactSynonym	milk caprylic acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0004356	oboInOwl:hasExactSynonym	radius cell number	Lexical	PATO:0002390	radius	CL:0000000	cell
+VT:0002779	oboInOwl:hasExactSynonym	sex gland secretion quality	Lexical	PATO:0000001	quality	UBERON:0003937	sex gland
+VT:0002779	oboInOwl:hasExactSynonym	sex gland secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010396	oboInOwl:hasExactSynonym	milk stomatin content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010209	oboInOwl:hasExactSynonym	duodenum villi height	Lexical	PATO:0000119	height	UBERON:0002114	duodenum
+VT:0010209	oboInOwl:hasExactSynonym	height of the villi of the duodenum	Lexical	PATO:0000119	height	UBERON:0002114	duodenum
+VT:0000981	oboInOwl:hasExactSynonym	hair down cell innervation pattern	Lexical	PATO:0000365	down	UBERON:0001037	hair
+VT:0000981	oboInOwl:hasExactSynonym	hair down cell innervation pattern	Lexical	PATO:0000365	down	CL:0000000	cell
+VT:0000981	oboInOwl:hasExactSynonym	hair down cell innervation pattern	Lexical	PATO:0000365	down	GO:0060384	innervation
+VT:1000161	oboInOwl:hasExactSynonym	total milk fat content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010315	oboInOwl:hasExactSynonym	milk myristic acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0005229	oboInOwl:hasExactSynonym	intervertebral cartilage development quality	Lexical	PATO:0000001	quality	UBERON:0011135	intervertebral cartilage
+VT:0010218	oboInOwl:hasExactSynonym	jejunum glandular crypt width	Lexical	PATO:0000921	width	UBERON:0002115	jejunum
+VT:0010218	oboInOwl:hasExactSynonym	jejunum glandular crypt width	Lexical	PATO:0002117	glandular	UBERON:0002115	jejunum
+VT:0010218	oboInOwl:hasExactSynonym	width of the glandular crypts of the jejunum	Lexical	PATO:0000921	width	UBERON:0002115	jejunum
+VT:0010218	oboInOwl:hasExactSynonym	width of the glandular crypts of the jejunum	Lexical	PATO:0002117	glandular	UBERON:0002115	jejunum
+VT:0010028	oboInOwl:hasExactSynonym	milk total protein content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010398	oboInOwl:hasExactSynonym	milk plasmin content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0000977	oboInOwl:hasExactSynonym	hair tylotrich neuron morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001037	hair
+VT:0000977	oboInOwl:hasExactSynonym	hair tylotrich neuron morphology quality	Lexical	PATO:0000051	morphology	CL:0000540	neuron
+VT:0010259	oboInOwl:hasExactSynonym	colostrum igg content	Lexical	PATO:0000025	content	UBERON:0001914	colostrum
+VT:0010259	oboInOwl:hasExactSynonym	colostrum immunoglobulin g concentration	Lexical	PATO:0000033	concentration	UBERON:0001914	colostrum
+VT:0010785	oboInOwl:hasExactSynonym	blood co2 amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010410	oboInOwl:hasExactSynonym	gnrh secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0002486	oboInOwl:hasExactSynonym	serum amyloid a protein physiology quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+VT:0010465	oboInOwl:hasExactSynonym	adipocyte nefa secretion quality	Lexical	PATO:0000001	quality	CL:0000136	adipocyte
+VT:0010465	oboInOwl:hasExactSynonym	adipocyte nefa secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0006027	oboInOwl:hasExactSynonym	respiratory alveologenesis quality	Lexical	PATO:0000001	quality	GO:0048286	alveologenesis
+VT:0010261	oboInOwl:hasExactSynonym	milk fat content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010371	oboInOwl:hasExactSynonym	milk oleic acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0003096	oboInOwl:hasExactSynonym	cornea light scattering quality	Lexical	PATO:0000665	light	UBERON:0000964	cornea
+VT:0005460	oboInOwl:hasExactSynonym	immune cell development quality	Lexical	PATO:0000001	quality	CL:0000738	immune cell
+VT:0005460	oboInOwl:hasExactSynonym	immune cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0009333	oboInOwl:hasExactSynonym	spleen cell physiology quality	Lexical	PATO:0000001	quality	UBERON:0002106	spleen
+VT:0009333	oboInOwl:hasExactSynonym	spleen cell physiology quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+VT:0009333	oboInOwl:hasExactSynonym	spleen cell physiology quality	Lexical	PATO:0000001	quality	GO:0009987	cell physiology
+VT:0010372	oboInOwl:hasExactSynonym	milk palmitoleic acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0015010	oboInOwl:hasExactSynonym	white fat cell lipid droplet size quality	Lexical	PATO:0000323	white	CL:0000136	fat cell
+VT:0015010	oboInOwl:hasExactSynonym	white fat cell lipid droplet size quality	Lexical	PATO:0000117	size	CL:0000136	fat cell
+VT:0010391	oboInOwl:hasExactSynonym	milk adph concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010391	oboInOwl:hasExactSynonym	milk adipophilin content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010593	oboInOwl:hasExactSynonym	liver plant sterol and stanol amount	Lexical	PATO:0000070	amount	UBERON:0002107	liver
+VT:0010587	oboInOwl:hasExactSynonym	blood plant sterol and stanol amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010873	oboInOwl:hasExactSynonym	brain hva amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0005010	oboInOwl:hasExactSynonym	cd8+ t cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000084	T cell
+VT:0005010	oboInOwl:hasExactSynonym	cd8+ t cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T cell
+VT:0010595	oboInOwl:hasExactSynonym	liver beta-sitosterol amount	Lexical	PATO:0000070	amount	UBERON:0002107	liver
+VT:0010253	oboInOwl:hasExactSynonym	hematolymphoid system physiology quality	Lexical	PATO:0000001	quality	UBERON:0002193	hematolymphoid system
+VT:0010214	oboInOwl:hasExactSynonym	muscle thickness of the jejunum	Lexical	PATO:0000915	thickness	UBERON:0002115	jejunum
+VT:0002884	oboInOwl:hasExactSynonym	gill arch development quality	Lexical	PATO:0000001	quality	UBERON:0008896	gill arch
+VT:0002884	oboInOwl:hasExactSynonym	pharyngeal arch development quality	Lexical	PATO:0000001	quality	UBERON:0002539	pharyngeal arch
+VT:0010607	oboInOwl:hasExactSynonym	blood ggt amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010607	oboInOwl:hasExactSynonym	blood gamma-glutamyl transpeptidase amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010607	oboInOwl:hasExactSynonym	blood gamma-gt amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010607	oboInOwl:hasExactSynonym	blood ggtp amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010317	oboInOwl:hasExactSynonym	milk margaric acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010545	oboInOwl:hasExactSynonym	blood adipoq amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010545	oboInOwl:hasExactSynonym	blood apm1 amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010545	oboInOwl:hasExactSynonym	blood gbp--28 amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010255	oboInOwl:hasExactSynonym	hemopoietic system development quality	Lexical	PATO:0000001	quality	GO:0048731	system development
+VT:0010365	oboInOwl:hasExactSynonym	milk fatty acid c20:4 n-6 concentration	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010365	oboInOwl:hasExactSynonym	milk fatty acid c20:4 n-6 concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0003160	oboInOwl:hasExactSynonym	esophageal development quality	Lexical	PATO:0000001	quality	GO:1903702	esophageal development
+VT:0008076	oboInOwl:hasExactSynonym	cd4+ t cell development quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0008076	oboInOwl:hasExactSynonym	cd4+ t cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0010571	oboInOwl:hasExactSynonym	prostate gland integrity quality	Lexical	PATO:0000001	quality	UBERON:0002367	prostate gland
+VT:0010316	oboInOwl:hasExactSynonym	milk palmitic acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0002782	oboInOwl:hasExactSynonym	testicular secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010308	oboInOwl:hasExactSynonym	milk caproic acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010848	oboInOwl:hasExactSynonym	hypothalamus hva amount	Lexical	PATO:0000070	amount	UBERON:0001898	hypothalamus
+VT:0004392	oboInOwl:hasExactSynonym	cd8+ t cell physiology quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0004392	oboInOwl:hasExactSynonym	cd8+ t cell physiology quality	Lexical	PATO:0000001	quality	GO:0009987	cell physiology
+VT:0010411	oboInOwl:hasExactSynonym	placental secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0010349	oboInOwl:hasExactSynonym	milk rumenic acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0001746	oboInOwl:hasExactSynonym	pituitary secretion quality	Lexical	PATO:0000001	quality	UBERON:0000007	pituitary
+VT:0001746	oboInOwl:hasExactSynonym	pituitary secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0005587	oboInOwl:hasExactSynonym	mandibular cartilage development quality	Lexical	PATO:0000001	quality	GO:0051216	cartilage development
+VT:0008241	oboInOwl:hasExactSynonym	marginal metallophilic macrophage morphology quality	Lexical	PATO:0000051	morphology	CL:0000235	macrophage
+VT:0008241	oboInOwl:hasExactSynonym	splenic marginal metallophilic macrophage morphology quality	Lexical	PATO:0000051	morphology	CL:0000235	macrophage
+VT:0008241	oboInOwl:hasExactSynonym	moma-1 positive cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000000	cell
+VT:0008241	oboInOwl:hasExactSynonym	moma-1 positive cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0010072	oboInOwl:hasExactSynonym	lymphoid system development quality	Lexical	PATO:0000001	quality	UBERON:0002465	lymphoid system
+VT:0002756	oboInOwl:hasExactSynonym	cerebral cortex pyramidal neuron number	Lexical	PATO:0002336	pyramidal	UBERON:0000956	cerebral cortex
+VT:0002756	oboInOwl:hasExactSynonym	cerebral cortex pyramidal neuron number	Lexical	PATO:0002336	pyramidal	CL:0000540	neuron
+VT:0002756	oboInOwl:hasExactSynonym	cerebral cortex pyramidal cell number	Lexical	PATO:0002336	pyramidal	UBERON:0000956	cerebral cortex
+VT:0002756	oboInOwl:hasExactSynonym	cerebral cortex pyramidal cell number	Lexical	PATO:0002336	pyramidal	CL:0000000	cell
+VT:0010278	oboInOwl:hasExactSynonym	milk prolactin content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0004243	oboInOwl:hasExactSynonym	motor nerve collateral sprouting quality	Lexical	PATO:0000001	quality	UBERON:0001021	nerve
+VT:0004243	oboInOwl:hasExactSynonym	motor nerve collateral sprouting quality	Lexical	PATO:0000001	quality	GO:0048668	collateral sprouting
+VT:0002432	oboInOwl:hasExactSynonym	cd4+ t-cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T-cell
+VT:0002432	oboInOwl:hasExactSynonym	cd4+ t cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000084	T cell
+VT:0002432	oboInOwl:hasExactSynonym	cd4+ t cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T cell
+VT:0010392	oboInOwl:hasExactSynonym	milk mucin 1 content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010392	oboInOwl:hasExactSynonym	milk muc1 concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010992	oboInOwl:hasExactSynonym	blood (pi)-methylhistidine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0008080	oboInOwl:hasExactSynonym	cd8+ t cell development quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0008080	oboInOwl:hasExactSynonym	cd8+ t cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0010109	oboInOwl:hasExactSynonym	hippocampus pyramidal cell number	Lexical	PATO:0002336	pyramidal	CL:0000000	cell
+VT:0010109	oboInOwl:hasExactSynonym	hippocampus pyramidal neuron number	Lexical	PATO:0002336	pyramidal	CL:0000540	neuron
+VT:0010280	oboInOwl:hasExactSynonym	milk casein content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010942	oboInOwl:hasExactSynonym	erythrocyte adenosine-5'-triphosphate amount	Lexical	PATO:0000070	amount	CL:0000232	erythrocyte
+VT:0010942	oboInOwl:hasExactSynonym	erythrocyte adenosine triphosphate amount	Lexical	PATO:0000070	amount	CL:0000232	erythrocyte
+VT:0000117	oboInOwl:hasExactSynonym	tooth anlage development quality	Lexical	PATO:0000001	quality	UBERON:0001091	tooth
+VT:0000117	oboInOwl:hasExactSynonym	tooth anlage development quality	Lexical	PATO:0000001	quality	UBERON:0005087	tooth anlage
+VT:0010229	oboInOwl:hasExactSynonym	ileum glandular crypt depth	Lexical	PATO:0002117	glandular	UBERON:0002116	ileum
+VT:0010229	oboInOwl:hasExactSynonym	ileum glandular crypt depth	Lexical	PATO:0001595	depth	UBERON:0002116	ileum
+VT:0010229	oboInOwl:hasExactSynonym	depth of the glandular crypts of the ileum	Lexical	PATO:0002117	glandular	UBERON:0002116	ileum
+VT:0010229	oboInOwl:hasExactSynonym	depth of the glandular crypts of the ileum	Lexical	PATO:0001595	depth	UBERON:0002116	ileum
+VT:0010596	oboInOwl:hasExactSynonym	heart left ventricle atrial natriuretic factor amount	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010596	oboInOwl:hasExactSynonym	heart left ventricle atrial natriuretic factor amount	Lexical	PATO:0000070	amount	UBERON:0000948	heart
+VT:0010596	oboInOwl:hasExactSynonym	heart left ventricle anf amount	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010596	oboInOwl:hasExactSynonym	heart left ventricle anf amount	Lexical	PATO:0000070	amount	UBERON:0000948	heart
+VT:0010596	oboInOwl:hasExactSynonym	heart left ventricle nppa amount	Lexical	PATO:0000366	left	UBERON:0000948	heart
+VT:0010596	oboInOwl:hasExactSynonym	heart left ventricle nppa amount	Lexical	PATO:0000070	amount	UBERON:0000948	heart
+VT:0010312	oboInOwl:hasExactSynonym	milk capric acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0003065	oboInOwl:hasExactSynonym	liver copper concentration	Lexical	PATO:0000033	concentration	UBERON:0002107	liver
+VT:0010325	oboInOwl:hasExactSynonym	milk linoleic acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010325	oboInOwl:hasExactSynonym	milk fatty acid c18:2(n-6) concentration	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010325	oboInOwl:hasExactSynonym	milk fatty acid c18:2(n-6) concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010285	oboInOwl:hasExactSynonym	milk nitrogen content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0008036	oboInOwl:hasExactSynonym	natural killer t-lymphocyte morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T-lymphocyte
+VT:0008036	oboInOwl:hasExactSynonym	nk t-lymphocyte morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T-lymphocyte
+VT:0008036	oboInOwl:hasExactSynonym	nkt cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000000	cell
+VT:0008036	oboInOwl:hasExactSynonym	nkt cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0008036	oboInOwl:hasExactSynonym	natural killer t lymphocyte morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T lymphocyte
+VT:0008036	oboInOwl:hasExactSynonym	nk t-cell morphology quality	Lexical	PATO:0000051	morphology	UBERON:3010310	NK cell
+VT:0008036	oboInOwl:hasExactSynonym	nk t-cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T-cell
+VT:0008036	oboInOwl:hasExactSynonym	natural killer t-cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T-cell
+VT:0008036	oboInOwl:hasExactSynonym	natural t cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000084	T cell
+VT:0008036	oboInOwl:hasExactSynonym	natural t cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T cell
+VT:0008036	oboInOwl:hasExactSynonym	nk t lymphocyte morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T lymphocyte
+VT:0008036	oboInOwl:hasExactSynonym	natural killer t cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000084	T cell
+VT:0008036	oboInOwl:hasExactSynonym	natural killer t cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T cell
+VT:0010318	oboInOwl:hasExactSynonym	milk stearic acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010989	oboInOwl:hasExactSynonym	blood n(beta)-alanyl-1-methyl-histidine amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010366	oboInOwl:hasExactSynonym	milk fatty acid c20:5 n-3 concentration	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010366	oboInOwl:hasExactSynonym	milk fatty acid c20:5 n-3 concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0002783	oboInOwl:hasExactSynonym	ovarian secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+VT:0008054	oboInOwl:hasExactSynonym	uterine nk cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000623	NK cell
+VT:0008054	oboInOwl:hasExactSynonym	uterine nk cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000623	NK cell
+VT:0008054	oboInOwl:hasExactSynonym	gmg cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000000	cell
+VT:0008054	oboInOwl:hasExactSynonym	gmg cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0008054	oboInOwl:hasExactSynonym	granulated metrial gland cell morphology quality	Lexical	PATO:0010006	cell morphology	UBERON:0002530	gland
+VT:0008054	oboInOwl:hasExactSynonym	granulated metrial gland cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000000	cell
+VT:0008054	oboInOwl:hasExactSynonym	granulated metrial gland cell morphology quality	Lexical	PATO:0000051	morphology	UBERON:0002530	gland
+VT:0008054	oboInOwl:hasExactSynonym	granulated metrial gland cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0008054	oboInOwl:hasExactSynonym	unk cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000000	cell
+VT:0008054	oboInOwl:hasExactSynonym	unk cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000000	cell
+VT:0008552	oboInOwl:hasExactSynonym	blood tnf amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0008552	oboInOwl:hasExactSynonym	blood tnfa amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010230	oboInOwl:hasExactSynonym	ileum glandular crypt width	Lexical	PATO:0000921	width	UBERON:0002116	ileum
+VT:0010230	oboInOwl:hasExactSynonym	ileum glandular crypt width	Lexical	PATO:0002117	glandular	UBERON:0002116	ileum
+VT:0010230	oboInOwl:hasExactSynonym	width of the glandular crypts of the ileum	Lexical	PATO:0000921	width	UBERON:0002116	ileum
+VT:0010230	oboInOwl:hasExactSynonym	width of the glandular crypts of the ileum	Lexical	PATO:0002117	glandular	UBERON:0002116	ileum
+VT:0010849	oboInOwl:hasExactSynonym	forebrain hva amount	Lexical	PATO:0000070	amount	UBERON:0001890	forebrain
+VT:0010590	oboInOwl:hasExactSynonym	brain plant sterol and stanol amount	Lexical	PATO:0000070	amount	UBERON:0000955	brain
+VT:0000979	oboInOwl:hasExactSynonym	hair down neuron morphology quality	Lexical	PATO:0000365	down	UBERON:0001037	hair
+VT:0000979	oboInOwl:hasExactSynonym	hair down neuron morphology quality	Lexical	PATO:0000365	down	CL:0000540	neuron
+VT:0000979	oboInOwl:hasExactSynonym	hair down neuron morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001037	hair
+VT:0000979	oboInOwl:hasExactSynonym	hair down neuron morphology quality	Lexical	PATO:0000051	morphology	CL:0000540	neuron
+VT:0010835	oboInOwl:hasExactSynonym	tissue hva amount	Lexical	PATO:0000070	amount	UBERON:0000479	tissue
+VT:0010279	oboInOwl:hasExactSynonym	milk growth factor content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010279	oboInOwl:hasExactSynonym	milk growth factor content	Lexical	PATO:0000025	content	GO:0040007	growth
+VT:0008053	oboInOwl:hasExactSynonym	nk cell development quality	Lexical	PATO:0000001	quality	CL:0000623	NK cell
+VT:0008053	oboInOwl:hasExactSynonym	nk cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
+VT:0010335	oboInOwl:hasExactSynonym	milk fatty acid trans-13/14-c18:1 concentration	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010335	oboInOwl:hasExactSynonym	milk fatty acid trans-13/14-c18:1 concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010902	oboInOwl:hasExactSynonym	blood icosanoid amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0000952	oboInOwl:hasExactSynonym	central nervous system glia morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001017	central nervous system
+VT:0010266	oboInOwl:hasExactSynonym	milk beta-lactoglobulin content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010376	oboInOwl:hasExactSynonym	milk soluble calcium content	Lexical	PATO:0001537	soluble	UBERON:0001913	milk
+VT:0010376	oboInOwl:hasExactSynonym	milk soluble calcium content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010597	oboInOwl:hasExactSynonym	blood a1i3 amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010597	oboInOwl:hasExactSynonym	blood mug1 amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010597	oboInOwl:hasExactSynonym	blood alpha-2-inhibitor 3 amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0002408	oboInOwl:hasExactSynonym	double positive t cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000084	T cell
+VT:0002408	oboInOwl:hasExactSynonym	double positive t cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T cell
+VT:0002408	oboInOwl:hasExactSynonym	cd4+cd8+ t cell morphology quality	Lexical	PATO:0010006	cell morphology	CL:0000084	T cell
+VT:0002408	oboInOwl:hasExactSynonym	cd4+cd8+ t cell morphology quality	Lexical	PATO:0000051	morphology	CL:0000084	T cell
+VT:0010393	oboInOwl:hasExactSynonym	milk cd36 molecule content	Lexical	PATO:0000025	content	UBERON:0001913	milk
+VT:0010393	oboInOwl:hasExactSynonym	milk cluster of differentiation concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010393	oboInOwl:hasExactSynonym	milk thrombospondin receptor concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010216	oboInOwl:hasExactSynonym	height of the villi of the jejunum	Lexical	PATO:0000119	height	UBERON:0002115	jejunum
+VT:0010216	oboInOwl:hasExactSynonym	jejunum villi height	Lexical	PATO:0000119	height	UBERON:0002115	jejunum
+VT:0003180	oboInOwl:hasExactSynonym	pulmonary endothelial cell surface area	Lexical	PATO:0001323	area	CL:0000115	endothelial cell
+VT:0003180	oboInOwl:hasExactSynonym	pulmonary endothelial cell surface area	Lexical	PATO:0001323	area	GO:0009986	cell surface
+VT:0010326	oboInOwl:hasExactSynonym	milk myristoleic acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0010589	oboInOwl:hasExactSynonym	blood beta-sitosterol amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0003027	oboInOwl:hasExactSynonym	blood acidity-alkalinity balance quality	Lexical	PATO:0000185	balance	UBERON:0000178	blood
+VT:0000990	oboInOwl:hasExactSynonym	muscle/skeletal mechanoreceptor morphology quality	Lexical	PATO:0000051	morphology	UBERON:0012449	mechanoreceptor
+VT:0010930	oboInOwl:hasExactSynonym	renal arteriole morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001980	arteriole
+VT:0010367	oboInOwl:hasExactSynonym	milk fatty acid c22:5 n-3 concentration	Lexical	PATO:0002114	fatty	UBERON:0001913	milk
+VT:0010367	oboInOwl:hasExactSynonym	milk fatty acid c22:5 n-3 concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
+VT:0005070	oboInOwl:hasExactSynonym	nk cell cytolysis quality	Lexical	PATO:0000001	quality	CL:0000623	NK cell
+VT:0005070	oboInOwl:hasExactSynonym	nk cell cytolysis quality	Lexical	PATO:0000001	quality	GO:0019835	cytolysis
+VT:1000283	oboInOwl:hasExactSynonym	tibia bone mineral content	Lexical	PATO:0000025	content	UBERON:0000979	tibia
+VT:0010210	oboInOwl:hasExactSynonym	duodenum glandular crypt depth	Lexical	PATO:0002117	glandular	UBERON:0002114	duodenum
+VT:0010210	oboInOwl:hasExactSynonym	duodenum glandular crypt depth	Lexical	PATO:0001595	depth	UBERON:0002114	duodenum
+VT:0010210	oboInOwl:hasExactSynonym	depth of the glandular crypts of the duodenum	Lexical	PATO:0002117	glandular	UBERON:0002114	duodenum
+VT:0010210	oboInOwl:hasExactSynonym	depth of the glandular crypts of the duodenum	Lexical	PATO:0001595	depth	UBERON:0002114	duodenum
+VT:0000816	oboInOwl:hasExactSynonym	cochlear hair bundle morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001037	hair
+VT:0010206	oboInOwl:hasExactSynonym	mucosa thickness of the proventriculus	Lexical	PATO:0000915	thickness	UBERON:0007357	proventriculus
+VT:0010206	oboInOwl:hasExactSynonym	mucosa thickness of the proventriculus	Lexical	PATO:0000915	thickness	UBERON:0000344	mucosa
+VT:0010231	oboInOwl:hasExactSynonym	muscle thickness of the colon	Lexical	PATO:0000915	thickness	UBERON:0001155	colon
+VT:0008042	oboInOwl:hasExactSynonym	natural t cell physiology quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0008042	oboInOwl:hasExactSynonym	natural t cell physiology quality	Lexical	PATO:0000001	quality	GO:0009987	cell physiology
+VT:0008042	oboInOwl:hasExactSynonym	nk t-lymphocyte physiology quality	Lexical	PATO:0000001	quality	CL:0000084	T-lymphocyte
+VT:0008042	oboInOwl:hasExactSynonym	nk t-cell physiology quality	Lexical	PATO:0000001	quality	UBERON:3010310	NK cell
+VT:0008042	oboInOwl:hasExactSynonym	nk t-cell physiology quality	Lexical	PATO:0000001	quality	CL:0000084	T-cell
+VT:0008042	oboInOwl:hasExactSynonym	nk t-cell physiology quality	Lexical	PATO:0000001	quality	GO:0009987	cell physiology
+VT:0008042	oboInOwl:hasExactSynonym	natural killer t cell physiology quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0008042	oboInOwl:hasExactSynonym	natural killer t cell physiology quality	Lexical	PATO:0000001	quality	GO:0009987	cell physiology
+VT:0008042	oboInOwl:hasExactSynonym	nk t lymphocyte physiology quality	Lexical	PATO:0000001	quality	CL:0000084	T lymphocyte
+VT:0008042	oboInOwl:hasExactSynonym	nkt cell physiology quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+VT:0008042	oboInOwl:hasExactSynonym	nkt cell physiology quality	Lexical	PATO:0000001	quality	GO:0009987	cell physiology
+VT:0008042	oboInOwl:hasExactSynonym	natural killer t lymphocyte physiology quality	Lexical	PATO:0000001	quality	CL:0000084	T lymphocyte
+VT:0008042	oboInOwl:hasExactSynonym	natural killer t-cell physiology quality	Lexical	PATO:0000001	quality	CL:0000084	T-cell
+VT:0008042	oboInOwl:hasExactSynonym	natural killer t-cell physiology quality	Lexical	PATO:0000001	quality	GO:0009987	cell physiology
+VT:0008042	oboInOwl:hasExactSynonym	natural killer t-lymphocyte physiology quality	Lexical	PATO:0000001	quality	CL:0000084	T-lymphocyte
+VT:0010788	oboInOwl:hasExactSynonym	blood naga amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:0010995	oboInOwl:hasExactSynonym	blood l-hydroxyproline amount	Lexical	PATO:0000070	amount	UBERON:0000178	blood
+VT:1000637	oboInOwl:hasExactSynonym	functional nipple number	Lexical	PATO:0001510	functional	UBERON:0002030	nipple
+VT:0010233	oboInOwl:hasExactSynonym	muscle thickness of the cecum	Lexical	PATO:0000915	thickness	UBERON:0001153	cecum
+VT:0010945	oboInOwl:hasExactSynonym	heart muscle capillary amount	Lexical	PATO:0000070	amount	UBERON:0001982	capillary
+VT:0010945	oboInOwl:hasExactSynonym	heart muscle capillary amount	Lexical	PATO:0000070	amount	UBERON:0000948	heart
+VT:0010945	oboInOwl:hasExactSynonym	myocardium capillary amount	Lexical	PATO:0000070	amount	UBERON:0002349	myocardium
+VT:0010945	oboInOwl:hasExactSynonym	myocardium capillary amount	Lexical	PATO:0000070	amount	UBERON:0001982	capillary
+VT:0010226	oboInOwl:hasExactSynonym	muscle thickness of the ileum	Lexical	PATO:0000915	thickness	UBERON:0002116	ileum
+VT:0010605	oboInOwl:hasExactSynonym	urine noradrenaline amount	Lexical	PATO:0000070	amount	UBERON:0001088	urine
+VT:0005463	oboInOwl:hasExactSynonym	cd4+ t cell physiology quality	Lexical	PATO:0000001	quality	CL:0000084	T cell
+VT:0005463	oboInOwl:hasExactSynonym	cd4+ t cell physiology quality	Lexical	PATO:0000001	quality	GO:0009987	cell physiology

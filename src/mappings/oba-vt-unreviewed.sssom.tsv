@@ -1,0 +1,28 @@
+subject_id	subject_label	predicate_id	object_id	object_label	match_type	subject_match_field	object_match_field	match_string
+VT:0000023	ear orientation quality	skos:exactMatch	OBA:VT0010274	ear orientation trait	Lexical	rdfs:label	rdfs:label	ear orientation quality
+VT:0000608	hepatocyte organization quality	skos:exactMatch	OBA:0003528	hepatocyte organization quality	Lexical	rdfs:label	rdfs:label	hepatocyte organization quality
+VT:0000861	barrel cortex organization quality	skos:exactMatch	OBA:0003557	barrel cortex organization quality	Lexical	rdfs:label	rdfs:label	barrel cortex organization quality
+VT:0000962	dorsal root ganglion organization quality	skos:exactMatch	OBA:0003576	dorsal root ganglion organization quality	Lexical	rdfs:label	rdfs:label	dorsal root ganglion organization quality
+VT:0001360	social investigation quality	skos:exactMatch	OBA:1000928	social investigation quality	Lexical	rdfs:label	rdfs:label	social investigation quality
+VT:0001504	posture quality	skos:exactMatch	OBA:1000757	posture quality	Lexical	rdfs:label	rdfs:label	posture quality
+VT:0002128	blood circulation quality	skos:exactMatch	OBA:1000258	blood circulation quality	Lexical	rdfs:label	rdfs:label	blood circulation quality
+VT:0002204	neurotransmitter amount	skos:exactMatch	OBA:1000993	neurotransmitter amount	Lexical	rdfs:label	rdfs:label	neurotransmitter amount
+VT:0002568	behavioral response to addictive substance quality	skos:exactMatch	OBA:1000717	behavioral response to addictive substance quality	Lexical	rdfs:label	rdfs:label	behavioral response to addictive substance quality
+VT:0004263	limb posture quality	skos:exactMatch	OBA:1000784	limb posture quality	Lexical	rdfs:label	rdfs:label	limb posture quality
+VT:0010528	avoidance learning behavior quality	skos:exactMatch	OBA:1000845	avoidance learning behavior quality	Lexical	rdfs:label	rdfs:label	avoidance learning behavior quality
+VT:0010531	operant conditioning behavior quality	skos:exactMatch	OBA:1000879	operant conditioning behavior quality	Lexical	rdfs:label	rdfs:label	operant conditioning behavior quality
+VT:0010543	catecholamine amount	skos:exactMatch	OBA:1000984	catecholamine amount	Lexical	rdfs:label	rdfs:label	catecholamine amount
+VT:0010581	sterol amount	skos:exactMatch	OBA:1000973	sterol amount	Lexical	rdfs:label	rdfs:label	sterol amount
+VT:0010599	maternal behavior quality	skos:exactMatch	OBA:1000753	maternal behavior quality	Lexical	rdfs:label	rdfs:label	maternal behavior quality
+VT:0010715	fear-related behavior quality	skos:exactMatch	OBA:1000937	fear-related behavior quality	Lexical	rdfs:label	rdfs:label	fear-related behavior quality
+VT:0010716	anxiety-related behavior quality	skos:exactMatch	OBA:1000384	anxiety-related behavior quality	Lexical	rdfs:label	rdfs:label	anxiety-related behavior quality
+VT:0010720	response to morphine quality	skos:exactMatch	OBA:2040012	response to morphine trait	Lexical	rdfs:label	oboInOwl:hasExactSynonym	response to morphine quality
+VT:0010723	conditioned place preference behavior quality	skos:exactMatch	OBA:1000817	conditioned place preference behavior quality	Lexical	rdfs:label	rdfs:label	conditioned place preference behavior quality
+VT:0010725	startle reflex quality	skos:exactMatch	OBA:1000918	startle reflex quality	Lexical	rdfs:label	rdfs:label	startle reflex quality
+VT:0010728	discrimination learning quality	skos:exactMatch	OBA:1000779	discrimination learning quality	Lexical	rdfs:label	rdfs:label	discrimination learning quality
+VT:0010731	gait quality	skos:exactMatch	OBA:1000869	gait quality	Lexical	rdfs:label	rdfs:label	gait quality
+VT:0010732	head movement quality	skos:exactMatch	OBA:1000726	head movement quality	Lexical	rdfs:label	rdfs:label	head movement quality
+VT:0010736	wound healing quality	skos:exactMatch	OBA:1000751	wound healing quality	Lexical	rdfs:label	rdfs:label	wound healing quality
+VT:0010752	blood angiotensin ii amount	skos:exactMatch	OBA:0000016	blood angiotensin II amount	Lexical	rdfs:label	oboInOwl:hasExactSynonym	blood angiotensin ii amount
+VT:0010827	tongue mass	skos:exactMatch	OBA:0004724	tongue mass	Lexical	rdfs:label	rdfs:label	tongue mass
+VT:0010962	soleus muscle mass	skos:exactMatch	OBA:0004722	soleus muscle mass	Lexical	rdfs:label	rdfs:label	soleus muscle mass
