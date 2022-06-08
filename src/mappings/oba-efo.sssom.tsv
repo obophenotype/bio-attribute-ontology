@@ -1,4 +1,11 @@
-subject_id	subject_label	subject_category	predicate_id	object_id	object_label	object_category	match_type	subject_source	object_source	confidence	mapping_date
-EFO:0004301	blood viscosity	measurement	skos:exactMatch	OBA:VT3000004	blood viscosity trait	quality	HumanCurated	EFO	OBA	1	2021-09-10
-EFO:0004325	blood pressure	measurement	skos:exactMatch	OBA:VT0000183	blood pressure trait	quality	HumanCurated	EFO	OBA	1	2021-09-10
-EFO:0004832	optic disc size measurement	measurement	skos:exactMatch	OBA:VT0006216	optic disc size trait	quality	HumanCurated	EFO	OBA	1	2021-09-10
+subject_id	subject_label	subject_category	predicate_id	object_id	object_label	object_category	match_type	subject_source	object_source	confidence	mapping_date	subject_match_field	object_match_field	match_string	author_id
+EFO:0004301	blood viscosity	measurement	skos:exactMatch	OBA:VT3000004	blood viscosity trait	quality	HumanCurated	EFO	OBA	1	2021-09-10				
+EFO:0004325	blood pressure	measurement	skos:exactMatch	OBA:VT0000183	blood pressure trait	quality	HumanCurated	EFO	OBA	1	2021-09-10				
+EFO:0004832	optic disc size measurement	measurement	skos:exactMatch	OBA:VT0006216	optic disc size trait	quality	HumanCurated	EFO	OBA	1	2021-09-10				
+EFO:0004884	breast size	measurement	skos:exactMatch	OBA:1000025	breast size			EFO	OBA						
+EFO:0003923	bone density		skos:exactMatch	OBA:1000110	bone density		Lexical	EFO	OBA			rdfs:label	rdfs:label	bone density	
+EFO:0004326	heart rate		skos:exactMatch	OBA:1001087	heart rate		Lexical	EFO	OBA			rdfs:label	rdfs:label	heart rate	
+EFO:0004339	body height		skos:exactMatch	OBA:VT0001253	body height		Lexical	EFO	OBA			rdfs:label	rdfs:label	body height	
+EFO:0004342	waist circumference		skos:exactMatch	OBA:1001085	waist circumference		Lexical	EFO	OBA			rdfs:label	rdfs:label	waist circumference	
+EFO:0004589	upper arm circumference		skos:exactMatch	OBA:1000030	upper arm circumference		Lexical	EFO	OBA			oboInOwl:hasExactSynonym	rdfs:label	upper arm circumference	
+EFO:0004629	von willebrand factor quality		skos:exactMatch	OBA:1000199	von Willebrand factor quality		Lexical	EFO	OBA			rdfs:label	rdfs:label	von willebrand factor quality	
