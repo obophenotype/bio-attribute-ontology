@@ -1,4 +1,38 @@
-subject_id	subject_label	subject_category	predicate_id	object_id	object_label	object_category	match_type	subject_source	object_source	confidence	mapping_date
-EFO:0004301	blood viscosity	measurement	skos:exactMatch	OBA:VT3000004	blood viscosity trait	quality	HumanCurated	EFO	OBA	1	2021-09-10
-EFO:0004325	blood pressure	measurement	skos:exactMatch	OBA:VT0000183	blood pressure trait	quality	HumanCurated	EFO	OBA	1	2021-09-10
-EFO:0004832	optic disc size measurement	measurement	skos:exactMatch	OBA:VT0006216	optic disc size trait	quality	HumanCurated	EFO	OBA	1	2021-09-10
+subject_id	subject_label	subject_category	predicate_id	object_id	object_label	object_category	match_type	subject_source	object_source	confidence	mapping_date	subject_match_field	object_match_field	match_string	author_id
+EFO:0004301	blood viscosity	measurement	skos:exactMatch	OBA:VT3000004	blood viscosity trait	quality	HumanCurated	EFO	OBA	1	2021-09-10				orcid:0000-0001-8314-2140
+EFO:0004325	blood pressure	measurement	skos:exactMatch	OBA:VT0000183	blood pressure trait	quality	HumanCurated	EFO	OBA	1	2021-09-10				orcid:0000-0001-8314-2140
+EFO:0004832	optic disc size measurement	measurement	skos:exactMatch	OBA:VT0006216	optic disc size trait	quality	HumanCurated	EFO	OBA	1	2021-09-10				orcid:0000-0001-8314-2140
+EFO:0004884	breast size	measurement	skos:exactMatch	OBA:1000025	breast size	quality	HumanCurated	EFO	OBA	1	2022-06-08				orcid:0000-0001-8314-2140
+EFO:0003923	bone density	measurement	skos:exactMatch	OBA:1000110	bone density	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	bone density	orcid:0000-0001-8314-2140
+EFO:0004326	heart rate	measurement	skos:exactMatch	OBA:1001087	heart rate	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	heart rate	orcid:0000-0001-8314-2140
+EFO:0004339	body height	measurement	skos:exactMatch	OBA:VT0001253	body height	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	body height	orcid:0000-0001-8314-2140
+EFO:0004342	waist circumference	measurement	skos:exactMatch	OBA:1001085	waist circumference	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	waist circumference	orcid:0000-0001-8314-2140
+EFO:0004589	upper arm circumference	measurement	skos:exactMatch	OBA:1000030	upper arm circumference	quality	HumanCurated	EFO	OBA	1	2022-06-08	oboInOwl:hasExactSynonym	rdfs:label	upper arm circumference	orcid:0000-0001-8314-2140
+EFO:0004629	von willebrand factor quality	measurement	skos:exactMatch	OBA:1000199	von Willebrand factor quality	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	von willebrand factor quality	orcid:0000-0001-8314-2140
+EFO:0004742	renal system quality	measurement	skos:exactMatch	OBA:VT1000777	renal system quality		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	oboInOwl:hasExactSynonym	renal system quality	orcid:0000-0001-8314-2140
+EFO:0004766	subcutaneous adipose tissue quality	measurement	skos:exactMatch	OBA:1000023	subcutaneous adipose tissue quality		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	subcutaneous adipose tissue quality	orcid:0000-0001-8314-2140
+EFO:0004884	breast size	measurement	skos:exactMatch	OBA:1000025	breast size		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	breast size	orcid:0000-0001-8314-2140
+EFO:0005052	nervous system quality	measurement	skos:exactMatch	OBA:VT1000781	nervous system quality		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	oboInOwl:hasExactSynonym	nervous system quality	orcid:0000-0001-8314-2140
+EFO:0005055	qrs duration	measurement	skos:exactMatch	OBA:1001086	QRS duration		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	qrs duration	orcid:0000-0001-8314-2140
+EFO:0005093	hip circumference	measurement	skos:exactMatch	OBA:1000032	hip circumference		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	hip circumference	orcid:0000-0001-8314-2140
+EFO:0005114	head circumference	measurement	skos:exactMatch	OBA:VT0000047	head circumference		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	head circumference	orcid:0000-0001-8314-2140
+EFO:0005208	glomerular filtration rate	measurement	skos:exactMatch	OBA:0003747	glomerular filtration rate		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	glomerular filtration rate	orcid:0000-0001-8314-2140
+EFO:0006896	glucose homeostasis quality	measurement	skos:exactMatch	OBA:1000528	glucose homeostasis quality		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	glucose homeostasis quality	orcid:0000-0001-8314-2140
+EFO:0006923	fertility quality	measurement	skos:exactMatch	OBA:VT0010464	fertility trait		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	fertility quality	orcid:0000-0001-8314-2140
+EFO:0006936	optic disc quality	measurement	skos:exactMatch	OBA:1000929	optic disc quality		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	optic disc quality	orcid:0000-0001-8314-2140
+EFO:0007680	gait quality	measurement	skos:exactMatch	OBA:1000869	gait quality		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	gait quality	orcid:0000-0001-8314-2140
+EFO:0007699	eye movement quality	measurement	skos:exactMatch	OBA:1000197	eye movement quality		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	eye movement quality	orcid:0000-0001-8314-2140
+EFO:0007841	facial morphology quality	measurement	skos:exactMatch	OBA:VT0003743	facial morphology trait		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	facial morphology quality	orcid:0000-0001-8314-2140
+EFO:0007843	nose morphology quality	measurement	skos:exactMatch	OBA:VT0002233	nose morphology trait		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	nose morphology quality	orcid:0000-0001-8314-2140
+EFO:0007845	lip morphology quality	measurement	skos:exactMatch	OBA:VT0003769	lip morphology trait		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	lip morphology quality	orcid:0000-0001-8314-2140
+EFO:0007858	eye morphology quality	measurement	skos:exactMatch	OBA:VT0002092	eye morphology trait		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	eye morphology quality	orcid:0000-0001-8314-2140
+EFO:0007878	alcohol consumption quality	measurement	skos:exactMatch	OBA:1000840	alcohol consumption quality		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	alcohol consumption quality	orcid:0000-0001-8314-2140
+EFO:0007891	skin barrier function quality	measurement	skos:exactMatch	OBA:VT0002796	skin barrier function trait		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	skin barrier function quality	orcid:0000-0001-8314-2140
+EFO:0007955	mouth morphology quality	measurement	skos:exactMatch	OBA:VT0000452	mouth morphology trait		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	mouth morphology quality	orcid:0000-0001-8314-2140
+EFO:0008001	insulin secretion quality	measurement	skos:exactMatch	OBA:VT0003564	insulin secretion trait		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	insulin secretion quality	orcid:0000-0001-8314-2140
+EFO:0008005	energy expenditure quality	measurement	skos:exactMatch	OBA:VT0005450	energy expenditure trait		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	energy expenditure quality	orcid:0000-0001-8314-2140
+EFO:0008578	sperm motility quality	measurement	skos:exactMatch	OBA:VT0002674	sperm motility trait		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	sperm motility quality	orcid:0000-0001-8314-2140
+EFO:0009287	interventricular septum thickness	measurement	skos:exactMatch	OBA:0006021	interventricular septum thickness		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	interventricular septum thickness	orcid:0000-0001-8314-2140
+EFO:0009367	glucose metabolism quality	measurement	skos:exactMatch	OBA:VT0015088	glucose metabolism trait		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	glucose metabolism quality	orcid:0000-0001-8314-2140
+EFO:0010074	trochanter size	measurement	skos:exactMatch	OBA:0002360	trochanter size		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	trochanter size	orcid:0000-0001-8314-2140
+EFO:0011043	neck circumference	measurement	skos:exactMatch	OBA:1000031	neck circumference		HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	neck circumference	orcid:0000-0001-8314-2140

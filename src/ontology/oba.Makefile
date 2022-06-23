@@ -135,7 +135,7 @@ $(TMPDIR)/oba.owl: $(SRC)
 	$(ROBOT) merge -i $< -o $@
 .PRECIOUS: $(TMPDIR)/oba.owl
 
-$(REPORTDIR)/%.tsv: ../sparql/synonyms-exact.sparql #$(TMPDIR)/%.owl
+$(REPORTDIR)/%.tsv: ../sparql/synonyms-exact.sparql $(TMPDIR)/%.owl
 	$(ROBOT) query -i $(TMPDIR)/$*.owl --use-graphs true --query ../sparql/synonyms-exact.sparql $@
 .PRECIOUS: $(REPORTDIR)/%.tsv
 
