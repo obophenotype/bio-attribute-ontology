@@ -4,9 +4,637 @@ VT:0002327	rdfs:label	respiratory function trait
 VT:0002911	rdfs:label	inhibitory postsynaptic potential
 VT:0001964	rdfs:label	auditory threshold
 VT:0010060	rdfs:label	muscle fatty acid cis-9-C16:1 amount
-VT:0010543	rdfs:label	catecholamine amount
 VT:0010696	rdfs:label	preovulatory follicle quantity
 VT:0003148	rdfs:label	cochlear coil quantity
 VT:1000720	rdfs:label	nonfunctional nipple quantity
 VT:0003424	rdfs:label	neuronal precursor differentiation trait
 VT:0010053	rdfs:label	muscle fatty acid C18:0 amount
+VT:0010163	rdfs:label	interleukin-2 physiology trait
+VT:0003687	rdfs:label	intraocular muscle morphology trait
+VT:0010439	rdfs:label	response to viral infection trait
+VT:0010488	rdfs:label	response to addictive substance trait
+VT:0010441	rdfs:label	parasite quantity
+VT:0000785	rdfs:label	telencephalon cell quantity
+VT:0001337	rdfs:label	eye moisture amount
+VT:0001213	rdfs:label	skin cell quantity
+VT:0000228	rdfs:label	thrombopoiesis trait
+VT:0005226	rdfs:label	vertebral arch development trait
+VT:0002683	rdfs:label	onset of fertility
+VT:0005551	rdfs:label	eye electrophysiology trait
+VT:0001283	rdfs:label	vibrissa density
+VT:0003671	rdfs:label	eyelid aperture
+VT:0004050	rdfs:label	kidney sympathetic nerve activity
+VT:0010751	rdfs:label	response to methylenedioxymethamphetamine trait
+VT:0010044	rdfs:label	intramuscular adipose amount
+VT:0003491	rdfs:label	voluntary movement trait
+VT:0010937	rdfs:label	fetus trait
+VT:0002207	rdfs:label	long-term potentiation trait
+VT:0010167	rdfs:label	complement protein physiology trait
+VT:0003663	rdfs:label	behavioral response to thermal stimulus trait
+VT:0002336	rdfs:label	pulmonary gas exchange trait
+VT:0001940	rdfs:label	testis cell quantity
+VT:1000607	rdfs:label	skeletal muscle myosin heavy chain type IIa amount
+VT:0010867	rdfs:label	midbrain/pons dopamine amount
+VT:1000524	rdfs:label	adipose fatty acid C14:0 amount
+VT:0010300	rdfs:label	vasculogenesis
+VT:0004008	rdfs:label	GABA-mediated receptor current
+VT:0005228	rdfs:label	vertebral body/neural arch fusion trait
+VT:0003744	rdfs:label	orofacial morphology trait
+VT:0000887	rdfs:label	granule layer lamination integrity trait
+VT:0001933	rdfs:label	single birth offspring quantity
+VT:0010964	rdfs:label	CD25-positive T cell quantity
+VT:0001388	rdfs:label	stationary movement trait
+VT:0010521	rdfs:label	spleen B cell follicle cell quantity
+VT:0002824	rdfs:label	chorioallantoic fusion trait
+VT:0001671	rdfs:label	vitamin absorption trait
+VT:0002566	rdfs:label	sexual interaction trait
+VT:0010006	rdfs:label	adipose molecular composition trait
+VT:0002161	rdfs:label	female fecundity trait
+VT:1000468	rdfs:label	intestinal adipose mass
+VT:1000737	rdfs:label	hind leg set
+VT:0010062	rdfs:label	cholinergic nerve fiber quantity
+VT:0000970	rdfs:label	polymodal receptor morphology trait
+VT:0001938	rdfs:label	time of sexual maturation trait
+VT:0010512	rdfs:label	histocompatibility type
+VT:0001301	rdfs:label	inner hair cell stereocilia quantity
+VT:0000070	rdfs:label	bone physiology trait
+VT:0011002	rdfs:label	betaine amount
+VT:0010174	rdfs:label	C7 physiology trait
+VT:0010954	rdfs:label	gastrointestinal system mass
+VT:1000197	rdfs:label	stillborn offspring quantity
+VT:0010774	rdfs:label	ornithine decarboxylase activity
+VT:0000851	rdfs:label	cerebellum cell quantity
+VT:0005257	rdfs:label	intraocular pressure
+VT:0000239	rdfs:label	common myeloid progenitor cell quantity
+VT:0010831	rdfs:label	midbrain/pons epinephrine amount
+VT:0000428	rdfs:label	craniofacial morphology trait
+VT:0000954	rdfs:label	oligodendrocyte progenitor quantity
+VT:0010766	rdfs:label	gluthathione peroxidase activity
+VT:0010651	rdfs:label	tyrosinase activity
+VT:0010482	rdfs:label	body fat mass
+VT:0010440	rdfs:label	bacteria quantity
+VT:0003610	rdfs:label	scrotum cell quantity
+VT:1000152	rdfs:label	wellness/fitness trait
+VT:0002471	rdfs:label	complement physiology trait
+VT:0010021	rdfs:label	muscle molecular composition trait
+VT:0010054	rdfs:label	muscle fatty acid trans-11-C18:1 amount
+VT:0002484	rdfs:label	C-reactive protein physiology trait
+VT:0010164	rdfs:label	interleukin-6 physiology trait
+VT:0015042	rdfs:label	egg production trait
+VT:0004412	rdfs:label	cochlear potential trait
+VT:0000898	rdfs:label	midbrain cell quantity
+VT:0010760	rdfs:label	nitric oxide amount
+VT:0010150	rdfs:label	Merkel's receptor nerve fiber quantity
+VT:0010038	rdfs:label	adrenergic nerve fiber quantity
+VT:0003133	rdfs:label	early pro-B cell quantity
+VT:0010600	rdfs:label	maternal nurturing trait
+VT:1000713	rdfs:label	skeletal muscle myosin heavy chain type IIb amount
+VT:0010299	rdfs:label	angiogenesis
+VT:0002945	rdfs:label	inhibitory postsynaptic current
+VT:0001449	rdfs:label	learning/memory trait
+VT:0010056	rdfs:label	muscle fatty acid cis-11-C20:1 amount
+VT:0010166	rdfs:label	induced interleukin-2 activity
+VT:0010434	rdfs:label	response to infection trait
+VT:0001900	rdfs:label	synaptic plasticity trait
+VT:0010717	rdfs:label	response to amphetamine trait
+VT:0010544	rdfs:label	kidney glomerulus quantity
+VT:0003412	rdfs:label	afterhyperpolarization trait
+VT:0000833	rdfs:label	thalamus cell quantity
+VT:0100023	rdfs:label	mammary alveoli epithelial cell quantity
+VT:0010168	rdfs:label	C1 physiology trait
+VT:0005000	rdfs:label	immune tolerance trait
+VT:0003538	rdfs:label	hymen development trait
+VT:0011000	rdfs:label	choline amount
+VT:0005221	rdfs:label	rostral-caudal axis patterning trait
+VT:0010938	rdfs:label	fetus integrity trait
+VT:0010523	rdfs:label	cervical lymph node cell quantity
+VT:0000821	rdfs:label	choroid plexus cell quantity
+VT:0003498	rdfs:label	thyroid gland cell quantity
+VT:0000839	rdfs:label	hypothalamus cell quantity
+VT:1000685	rdfs:label	muscle pH regulation trait
+VT:0006251	rdfs:label	ability to open eyelids
+VT:0002888	rdfs:label	NMDA-mediated synaptic current trait
+VT:1000525	rdfs:label	adipose fatty acid cis-9-C18:1 amount
+VT:0003484	rdfs:label	channel response trait
+VT:0000617	rdfs:label	salivary gland mucosal cell quantity
+VT:0008721	rdfs:label	chemokine amount
+VT:0010847	rdfs:label	midbrain/pons homovanillic acid amount
+VT:0000155	rdfs:label	rib attachment trait
+VT:0010404	rdfs:label	cervical fold quantity
+VT:0003117	rdfs:label	tracheal-esophageal septation trait
+VT:0002700	rdfs:label	vitreous body clarity
+VT:0005005	rdfs:label	self tolerance trait
+VT:0011001	rdfs:label	trimethylamine N-oxide amount
+VT:0015067	rdfs:label	surface structure development trait
+VT:0001704	rdfs:label	dorsal-ventral axis patterning trait
+VT:0007005	rdfs:label	atrioventricular canal formation extent
+VT:0003492	rdfs:label	involuntary movement trait
+VT:0010170	rdfs:label	C3 physiology trait
+VT:0003880	rdfs:label	central pattern generator physiology trait
+VT:0002645	rdfs:label	cholesterol absorption trait
+VT:0010126	rdfs:label	sublingual salivary gland cholinergic nerve fiber quantity
+VT:0008209	rdfs:label	pre-B cell quantity
+VT:0010687	rdfs:label	response to heat trait
+VT:1000782	rdfs:label	endocrine/exocrine system trait
+VT:0000001	rdfs:label	vertebrate trait
+VT:0002001	rdfs:label	visual acuity trait
+VT:1000000	rdfs:label	body conformation trait
+VT:0010158	rdfs:label	interferon physiology trait
+VT:0010416	rdfs:label	seminal gland physiology
+VT:0010709	rdfs:label	behavioral response to novel object trait
+VT:0010001	rdfs:label	mammary gland progenitor cell quantity
+VT:0002084	rdfs:label	developmental patterning trait
+VT:0011003	rdfs:label	phosphocholine amount
+VT:1000746	rdfs:label	skeletal muscle myosin isoform amount
+VT:1000135	rdfs:label	subcutaneous adipose thickness
+VT:0010522	rdfs:label	axillary lymph node cell quantity
+VT:0005092	rdfs:label	double-positive T cell quantity
+VT:1000060	rdfs:label	troponin T amount
+VT:0010175	rdfs:label	C8 physiology trait
+VT:0010734	rdfs:label	anorectal integrity trait
+VT:0010997	rdfs:label	response to Coronaviridae infection
+VT:0002338	rdfs:label	pulmonary ventilation trait
+VT:0002921	rdfs:label	post-tetanic potential
+VT:0010050	rdfs:label	muscle fatty acid C17:0 amount
+VT:0010670	rdfs:label	NADP+-malate dehydrogenase activity
+VT:0002914	rdfs:label	endplate potential activity
+VT:0000866	rdfs:label	cerebellum vermis cell quantity
+VT:0010678	rdfs:label	adipose protein amount
+VT:0003617	rdfs:label	urinary bladder cell quantity
+VT:0005466	rdfs:label	T-helper 2 physiology trait
+VT:0004021	rdfs:label	rod electrophysiology trait
+VT:0010063	rdfs:label	visceral adipose mass
+VT:0005424	rdfs:label	body movement coordination trait
+VT:0000071	rdfs:label	axial skeleton cell quantity
+VT:0010652	rdfs:label	muscle mineral amount
+VT:0010483	rdfs:label	body lean mass
+VT:0010177	rdfs:label	factor B physiology trait
+VT:0004076	rdfs:label	vitelline vascular remodeling trait
+VT:0010767	rdfs:label	kidney glutathione peroxidase activity
+VT:0003474	rdfs:label	summary potential intensity
+VT:0001031	rdfs:label	outer hair cell stereocilia quantity
+VT:0002472	rdfs:label	complement alternative pathway physiology trait
+VT:0001280	rdfs:label	vibrissa retention trait
+VT:0000485	rdfs:label	otoacoustic response trait
+VT:0010055	rdfs:label	muscle fatty acid C20:2 amount
+VT:0002636	rdfs:label	time of vaginal opening
+VT:0010775	rdfs:label	liver ornithine decarboxylase activity
+VT:0000843	rdfs:label	facial nuclei cell quantity
+VT:0010165	rdfs:label	interleukin-2 activity
+VT:0001666	rdfs:label	nutrient absorption trait
+VT:0002899	rdfs:label	stamina trait
+VT:0002314	rdfs:label	respiratory mechanics trait
+VT:0005674	rdfs:label	arterial trunk division extent
+VT:0010485	rdfs:label	venous return trait
+VT:0003784	rdfs:label	lip vermillion border width
+VT:0000172	rdfs:label	bone marrow cell quantity
+VT:0001505	rdfs:label	body posture trait
+VT:0010149	rdfs:label	chemokine physiology trait
+VT:0003134	rdfs:label	late pro-B cell quantity
+VT:0000009	rdfs:label	red blood cell quantity
+VT:0010128	rdfs:label	sensory nerve fiber quantity
+VT:1000521	rdfs:label	adipose fatty acid C17:0 amount
+VT:0005465	rdfs:label	T-helper 1 physiology trait
+VT:0002685	rdfs:label	spermatogonia proliferation trait
+VT:0000893	rdfs:label	cochlear hair cell stereocilia quantity
+VT:0010057	rdfs:label	muscle fatty acid cis-9,cis-12-C18:2 amount
+VT:0010379	rdfs:label	milk epithelial cell quantity
+VT:0001010	rdfs:label	prevertebral ganglion cell quantity
+VT:0010435	rdfs:label	response to bacterial infection trait
+VT:0010718	rdfs:label	response to cocaine trait
+VT:0005001	rdfs:label	clonal deletion trait
+VT:0000244	rdfs:label	cardiac output amount
+VT:0001895	rdfs:label	hippocampus physiology trait
+VT:1000465	rdfs:label	intermuscular adipose amount
+VT:0005493	rdfs:label	stomach epithelial cell quantity
+VT:0010151	rdfs:label	Purkinje cell nerve fiber quantity
+VT:0010648	rdfs:label	muscle glycogen amount
+VT:0000011	rdfs:label	cloaca septation extent
+VT:0010169	rdfs:label	C2 physiology trait
+VT:0001452	rdfs:label	vestibular hair cell stereocilia quantity
+VT:0015027	rdfs:label	craniofacial physiology trait
+VT:0003935	rdfs:label	craniofacial development trait
+VT:0004344	rdfs:label	scapula bone cell quantity
+VT:0000662	rdfs:label	mammary ductal tree branching trait
+VT:0000052	rdfs:label	ear unfolding initiation trait
+VT:0000509	rdfs:label	digestive mucosecretion trait
+VT:0010171	rdfs:label	C4 physiology trait
+VT:0010730	rdfs:label	locomotor coordination trait
+VT:0010185	rdfs:label	cochlear inner hair cell afferent nerve fiber quantity
+VT:0010668	rdfs:label	muscle dry matter amount
+VT:1000518	rdfs:label	adipose fatty acid trans-11-C18:1 amount
+VT:0010118	rdfs:label	muscle cellular composition trait
+VT:0001705	rdfs:label	proximal-distal axis patterning trait
+VT:1000520	rdfs:label	adipose fatty acid cis-11-C20:1 amount
+VT:0005581	rdfs:label	renin activity
+VT:3000003	rdfs:label	fibrin formation trait
+VT:0002093	rdfs:label	cornea/lens morphology trait
+VT:0010680	rdfs:label	glucose-6-phosphatase activity
+VT:0001222	rdfs:label	epidermis cell quantity
+VT:1000385	rdfs:label	total vertebra quantity
+VT:0005254	rdfs:label	visual axis alignment trait
+VT:1000526	rdfs:label	adipose fatty acid C16:0 amount
+VT:0003485	rdfs:label	channel response threshold
+VT:0010842	rdfs:label	midbrain/pons dihydroxyphenylacetic acid (DOPAC) amount
+VT:0002630	rdfs:label	endocochlear potential trait
+VT:0011004	rdfs:label	glycerophosphocholine amount
+VT:0005074	rdfs:label	granulocyte bactericidal activity
+VT:0010943	rdfs:label	glucokinase activity
+VT:0010662	rdfs:label	toll-like receptor 2 protein amount
+VT:0001003	rdfs:label	olfactory receptor morphology trait
+VT:0008713	rdfs:label	cytokine amount
+VT:0002085	rdfs:label	embryonic cell/tissue morphology trait
+VT:0010883	rdfs:label	muscle triglyceride amount
+VT:0010262	rdfs:label	muscle nerve fiber quantity
+VT:0010033	rdfs:label	complement protein amount
+VT:0000535	rdfs:label	ureter luminal epithelial cell quantity
+VT:0003470	rdfs:label	summary potential trait
+VT:0004244	rdfs:label	spontaneous abortion trait
+VT:0010176	rdfs:label	C9 physiology trait
+VT:0003795	rdfs:label	bone structure trait
+VT:0000466	rdfs:label	esophageal epithelium cell quantity
+VT:0004022	rdfs:label	cone electrophysiology trait
+VT:0001089	rdfs:label	nodose ganglion neuron quantity
+VT:0001412	rdfs:label	scratching trait
+VT:0010051	rdfs:label	muscle fatty acid C14:0 amount
+VT:1000480	rdfs:label	intramuscular adipose mass
+VT:0010161	rdfs:label	interleukin-1 physiology trait
+VT:0002915	rdfs:label	synaptic depression trait
+VT:0010159	rdfs:label	interleukin physiology trait
+VT:0004337	rdfs:label	clavicle cell quantity
+VT:0010035	rdfs:label	acute phase protein amount
+VT:0010653	rdfs:label	muscle iron amount
+VT:0010452	rdfs:label	heterospecific interaction trait
+VT:0010178	rdfs:label	factor D physiology trait
+VT:0010901	rdfs:label	colorectal integrity trait
+VT:0004145	rdfs:label	muscle electrophysiology trait
+VT:0010445	rdfs:label	social interaction trait
+VT:0003359	rdfs:label	hypaxial muscle cell quantity
+VT:0010721	rdfs:label	response to nicotine trait
+VT:0003185	rdfs:label	angiotensin I-converting enzyme activity
+VT:0010265	rdfs:label	colostrum somatic cell quantity
+VT:0001009	rdfs:label	paravertebral ganglion cell quantity
+VT:0010541	rdfs:label	orosomucoid 1 amount
+VT:0003011	rdfs:label	dark adaptation trait
+VT:0002401	rdfs:label	lymphopoiesis trait
+VT:0010762	rdfs:label	catalase activity
+VT:0001130	rdfs:label	ovarian folliculogenesis trait
+VT:0010486	rdfs:label	cardiac output trait
+VT:0000366	rdfs:label	brainstem auditory evoked potential
+VT:0015099	rdfs:label	touch perception trait
+VT:0010768	rdfs:label	kidney superoxide dismutase activity
+VT:0002063	rdfs:label	learning/memory/conditioning trait
+VT:0002332	rdfs:label	exercise endurance trait
+VT:0002885	rdfs:label	AMPA-mediated synaptic current trait
+VT:0010436	rdfs:label	response to fungal infection trait
+VT:1000023	rdfs:label	food conversion trait
+VT:0010719	rdfs:label	response to methamphetamine trait
+VT:0002473	rdfs:label	complement classical pathway physiology trait
+VT:1000472	rdfs:label	subcutaneous adipose mass
+VT:0004311	rdfs:label	otic vesicle cell quantity
+VT:0010691	rdfs:label	subscapular fat pad morphology trait
+VT:0010649	rdfs:label	adipose beta-carotene amount
+VT:0015031	rdfs:label	behavioral response to xenobiotic stimulus trait
+VT:0001667	rdfs:label	carbohydrate absorption trait
+VT:0001777	rdfs:label	body temperature regulation trait
+VT:0008077	rdfs:label	CD8-positive T cell quantity
+VT:0000054	rdfs:label	ear emergence initiation trait
+VT:0010152	rdfs:label	chemotactic interleukin physiology trait
+VT:0010635	rdfs:label	xenobiotic pharmacokinetics trait
+VT:0003099	rdfs:label	retinal attachment trait
+VT:0005666	rdfs:label	adipose physiology trait
+VT:1000072	rdfs:label	milk somatic cell quantity
+VT:0010123	rdfs:label	lacrimal gland cholinergic nerve fiber quantity
+VT:0003833	rdfs:label	satellite cell quantity
+VT:1000522	rdfs:label	adipose fatty acid cis-9,cis-12-C18:2 amount
+VT:0010058	rdfs:label	muscle fatty acid C18:3 n-3 amount
+VT:0005447	rdfs:label	synaptic norepinephrine release trait
+VT:0010186	rdfs:label	cochlear inner hair cell efferent nerve fiber quantity
+VT:0001201	rdfs:label	skin translucence
+VT:0001706	rdfs:label	left-right axis patterning trait
+VT:1000415	rdfs:label	glycolytic potential
+VT:0010460	rdfs:label	behavioral response to novel food trait
+VT:0010172	rdfs:label	C5 physiology trait
+VT:0015036	rdfs:label	reproductive life span
+VT:0000014	rdfs:label	tracheal-esophageal septation extent
+VT:0010681	rdfs:label	lactate dehydrogenase activity
+VT:0003620	rdfs:label	urine output
+VT:1000130	rdfs:label	internal adipose amount
+VT:0100006	rdfs:label	anatomical relation trait
+VT:0010074	rdfs:label	enteric cholinergic nerve fiber quantity
+VT:0001943	rdfs:label	respiration trait
+VT:1000244	rdfs:label	social tendency trait
+VT:0010663	rdfs:label	toll-like receptor 9 protein amount
+VT:1000527	rdfs:label	adipose fatty acid cis-9-C16:1 amount
+VT:0003486	rdfs:label	channel response intensity
+VT:0000619	rdfs:label	salivary gland epithelial cell quantity
+VT:0010770	rdfs:label	kidney paraoxonase 1 activity
+VT:0005158	rdfs:label	ovary cell quantity
+VT:0010778	rdfs:label	plasma alpha-fetoprotein amount
+VT:0010016	rdfs:label	adipocyte quantity
+VT:0008876	rdfs:label	uterine natural killer cell quantity
+VT:0001874	rdfs:label	epidermis stratum spinosum cell quantity
+VT:0000855	rdfs:label	interlobular fissure development trait
+VT:0004188	rdfs:label	timing of embryo turning
+VT:0001004	rdfs:label	retinal photoreceptor morphology trait
+VT:1000519	rdfs:label	adipose fatty acid C20:2 amount
+VT:0010119	rdfs:label	skeletal muscle cellular composition trait
+VT:1000734	rdfs:label	hoof diagonal
+VT:0003471	rdfs:label	summary potential threshold
+VT:0010787	rdfs:label	eicosanoid amount
+VT:0010897	rdfs:label	abdominal adipose mass
+VT:0010459	rdfs:label	behavioral response to novel environment trait
+VT:2000016	rdfs:label	venous return amount
+VT:0008750	rdfs:label	interferon amount
+VT:0000363	rdfs:label	cochlear microphonics trait
+VT:0000073	rdfs:label	lifetime offspring quantity
+VT:0001661	rdfs:label	total life span
+VT:0010036	rdfs:label	C-reactive protein amount
+VT:0010146	rdfs:label	mannose-binding protein physiology trait
+VT:0004182	rdfs:label	spermiation trait
+VT:0001516	rdfs:label	motor coordination/balance trait
+VT:0001669	rdfs:label	glucose absorption trait
+VT:0010944	rdfs:label	liver glucokinase activity
+VT:0003241	rdfs:label	cerebral cortex neuron quantity
+VT:1000181	rdfs:label	viable offspring quantity
+VT:0003249	rdfs:label	muscle fatty acid amount
+VT:0010722	rdfs:label	withdrawal response to addictive substance trait
+VT:0010999	rdfs:label	body water amount
+VT:0002910	rdfs:label	excitatory postsynaptic current
+VT:0008081	rdfs:label	single-positive T cell quantity
+VT:0000175	rdfs:label	hemodynamics trait
+VT:0010052	rdfs:label	muscle fatty acid C16:0 amount
+VT:0001173	rdfs:label	bulbourethral gland ductal cell quantity
+VT:0010438	rdfs:label	response to prion infection trait
+VT:0008073	rdfs:label	CD4-positive T cell quantity
+VT:0010548	rdfs:label	joint integrity trait
+VT:0006221	rdfs:label	optic nerve fiber quantity
+VT:0010763	rdfs:label	superoxide dismutase activity
+VT:0015038	rdfs:label	coat/hair development trait
+VT:0010654	rdfs:label	muscle zinc amount
+VT:0003246	rdfs:label	GABA neuron quantity
+VT:0010756	rdfs:label	heart lactate dehydrogenase activity
+VT:0002886	rdfs:label	glutamate receptor current trait
+VT:1000606	rdfs:label	skeletal muscle myosin heavy chain type I amount
+VT:0000784	rdfs:label	forebrain cell quantity
+VT:0010769	rdfs:label	paraoxonase 1 activity
+VT:0001945	rdfs:label	bronchoconstriction trait
+VT:0010692	rdfs:label	subscapular fat pad mass
+VT:0010437	rdfs:label	response to parasitic infection trait
+VT:0000120	rdfs:label	bite alignment trait
+VT:0005342	rdfs:label	lipid absorption trait
+VT:0006226	rdfs:label	iris cell quantity
+VT:0005446	rdfs:label	synaptic epinephrine release trait
+VT:0001178	rdfs:label	lung cell quantity
+VT:0000831	rdfs:label	diencephalon cell quantity
+VT:0010153	rdfs:label	interleukin-8 physiology trait
+VT:0015032	rdfs:label	behavioral response to alcohol trait
+VT:0002206	rdfs:label	CNS synaptic transmission trait
+VT:0001668	rdfs:label	fructose absorption trait
+VT:0001909	rdfs:label	NMDA receptor mediated synaptic activity in barrel cortex
+VT:0003248	rdfs:label	glutaminergic neuron quantity
+VT:0010124	rdfs:label	parotid salivary gland cholinergic nerve fiber quantity
+VT:0010138	rdfs:label	lymphatic vessel cell quantity
+VT:0008038	rdfs:label	NK T cell quantity
+VT:0006199	rdfs:label	vertical eye alignment trait
+VT:0010852	rdfs:label	midbrain/pons 5-hydroxyindoleacetic acid amount
+VT:1000523	rdfs:label	adipose fatty acid C18:3 n-3 amount
+VT:0004262	rdfs:label	physical strength trait
+VT:0010059	rdfs:label	muscle fatty acid cis-9-C18:1 amount
+VT:1000189	rdfs:label	offspring quantity
+VT:0010520	rdfs:label	spleen periarteriolar lymphoid sheath cell quantity
+VT:0005448	rdfs:label	energy balance trait
+VT:0001670	rdfs:label	mineral absorption trait
+VT:0010045	rdfs:label	subcutaneous adipose amount
+VT:0010797	rdfs:label	muscle ribonucleic acid amount
+VT:0010187	rdfs:label	Meissner's corpuscle nerve fiber quantity
+VT:0000374	rdfs:label	cochlear frequency tuning trait
+VT:0002823	rdfs:label	rib development trait
+VT:0010289	rdfs:label	motor nerve fiber quantity
+VT:0002912	rdfs:label	excitatory postsynaptic potential
+VT:1000736	rdfs:label	temperament trait
+VT:1000528	rdfs:label	adipose fatty acid C18:0 amount
+VT:0001300	rdfs:label	distance between the eyes
+VT:0010857	rdfs:label	midbrain/pons norepinephrine amount
+VT:0010419	rdfs:label	CD8-positive, CD25-positive, alpha-beta regulatory T cell quantity
+VT:0010156	rdfs:label	cytokine physiology trait
+VT:0003107	rdfs:label	behavioral response to novelty trait
+VT:0010017	rdfs:label	white adipose mass
+VT:0010173	rdfs:label	C6 physiology trait
+VT:0001970	rdfs:label	pain threshold
+VT:0001378	rdfs:label	ejaculation trait
+VT:0001929	rdfs:label	gametogenesis trait
+VT:0000786	rdfs:label	neuroepithelial layer differentiation trait
+VT:0002483	rdfs:label	acute phase protein physiology trait
+VT:0002634	rdfs:label	sensorimotor gating trait
+VT:0008751	rdfs:label	interleukin amount
+VT:0006096	rdfs:label	retinal bipolar cell quantity
+VT:1000726	rdfs:label	back conformation trait
+VT:0010147	rdfs:label	inflammatory mediator physiology trait
+VT:0002557	rdfs:label	conspecific interaction trait
+VT:0003242	rdfs:label	basal ganglion neuron quantity
+VT:0010862	rdfs:label	midbrain/pons serotonin amount
+VT:0006070	rdfs:label	retinal photoreceptor quantity
+VT:0000348	rdfs:label	aerobic fitness trait
+VT:0010296	rdfs:label	sympathetic nerve fiber quantity
+VT:0006230	oboInOwl:hasExactSynonym	iris stroma cell number
+VT:0002911	oboInOwl:hasExactSynonym	IPSP
+VT:0010060	oboInOwl:hasExactSynonym	muscle palmitoleic acid content
+VT:0003148	oboInOwl:hasExactSynonym	cochlear coil number
+VT:1000720	oboInOwl:hasExactSynonym	nonfunctional nipple number
+VT:0010053	oboInOwl:hasExactSynonym	muscle stearic acid concentration
+VT:0000785	oboInOwl:hasExactSynonym	cerebrum cell number
+VT:0001213	oboInOwl:hasExactSynonym	skin cell number
+VT:0002683	oboInOwl:hasExactSynonym	onset of fertility
+VT:0002683	oboInOwl:hasExactSynonym	age at sexual maturity
+VT:0002683	oboInOwl:hasExactSynonym	age at puberty
+VT:0003671	oboInOwl:hasExactSynonym	eyelid opening
+VT:0004050	oboInOwl:hasExactSynonym	renal sympathetic nerve activity
+VT:0010044	oboInOwl:hasExactSynonym	intramuscular fat content
+VT:0010044	oboInOwl:hasExactSynonym	intramuscular fat amount
+VT:0002207	oboInOwl:hasExactSynonym	LTP: CA3 region
+VT:0002207	oboInOwl:hasExactSynonym	LTP: CA1 region
+VT:0002207	oboInOwl:hasExactSynonym	LTP
+VT:0001940	oboInOwl:hasExactSynonym	testes cell number
+VT:0001940	oboInOwl:hasExactSynonym	testicular cell number
+VT:0001940	oboInOwl:hasExactSynonym	testes cell quantity
+VT:1000524	oboInOwl:hasExactSynonym	adipose myristic acid concentration
+VT:1000524	oboInOwl:hasExactSynonym	adipose tetradecanoic acid concentration
+VT:0004008	oboInOwl:hasExactSynonym	gamma-amino-n-butyric acid receptor currents
+VT:0005228	oboInOwl:hasExactSynonym	fusion of vertebral bodies/neural arches
+VT:0001933	oboInOwl:hasExactSynonym	litter size
+VT:1000737	oboInOwl:hasExactSynonym	rear leg set
+VT:0001301	oboInOwl:hasExactSynonym	inner hair cell sterocilia number
+VT:0010954	oboInOwl:hasExactSynonym	gastrointestinal tract mass
+VT:1000197	oboInOwl:hasExactSynonym	stillbirth
+VT:1000197	oboInOwl:hasExactSynonym	number of offspring stillborn
+VT:1000197	oboInOwl:hasExactSynonym	number stillborn
+VT:0000851	oboInOwl:hasExactSynonym	cerebellum cell number
+VT:0000239	oboInOwl:hasExactSynonym	common myeloid precursor cell quantity
+VT:0003610	oboInOwl:hasExactSynonym	scrotum cell number
+VT:0010054	oboInOwl:hasExactSynonym	muscle vaccenic acid content
+VT:0010054	oboInOwl:hasExactSynonym	muscle 7-octadecenoic acid content
+VT:0000898	oboInOwl:hasExactSynonym	midbrain cell number
+VT:0003133	oboInOwl:hasExactSynonym	number of early pro-B cells
+VT:0002945	oboInOwl:hasExactSynonym	IPSCs
+VT:0010056	oboInOwl:hasExactSynonym	muscle cis-11-eicosenoic acid concentration
+VT:0003412	oboInOwl:hasExactSynonym	AHP
+VT:0000833	oboInOwl:hasExactSynonym	thalamus cell number
+VT:0005221	oboInOwl:hasExactSynonym	head-tail axis patterning
+VT:0000821	oboInOwl:hasExactSynonym	choroid plexus cell number
+VT:0003498	oboInOwl:hasExactSynonym	thyroid gland cell number
+VT:0000839	oboInOwl:hasExactSynonym	hypothalamus cell number
+VT:1000525	oboInOwl:hasExactSynonym	adipose oleic acid concentration
+VT:0000617	oboInOwl:hasExactSynonym	salivary gland mucosal cell number
+VT:0008721	oboInOwl:hasExactSynonym	chemokine level
+VT:0010847	oboInOwl:hasExactSynonym	midbrain/pons HVA amount
+VT:0001704	oboInOwl:hasExactSynonym	back-front patterning
+VT:0008209	oboInOwl:hasExactSynonym	pre-B lymphocyte cell number
+VT:0008209	oboInOwl:hasExactSynonym	pre-B cell number
+VT:0008209	oboInOwl:hasExactSynonym	number of pre-B cells
+VT:0010001	oboInOwl:hasExactSynonym	mammary gland progenitor cell number
+VT:1000135	oboInOwl:hasExactSynonym	subcutaneous fat thickness
+VT:0005092	oboInOwl:hasExactSynonym	CD4+CD8+ T cell numbers
+VT:0005092	oboInOwl:hasExactSynonym	double-positive T cell numbers
+VT:0005092	oboInOwl:hasExactSynonym	CD4+CD8+ T cell count
+VT:0005092	oboInOwl:hasExactSynonym	double-positive T-cell numbers
+VT:0005092	oboInOwl:hasExactSynonym	double positive T cell number
+VT:0005092	oboInOwl:hasExactSynonym	double-positive T cell count
+VT:1000060	oboInOwl:hasExactSynonym	troponin T protein concentration
+VT:0002921	oboInOwl:hasExactSynonym	PTP
+VT:0010050	oboInOwl:hasExactSynonym	muscle heptadecanoic acid concentration
+VT:0002914	oboInOwl:hasExactSynonym	EPP activity
+VT:0000866	oboInOwl:hasExactSynonym	cerebellum vermis cell number
+VT:0003617	oboInOwl:hasExactSynonym	urinary bladder cell number
+VT:0005466	oboInOwl:hasExactSynonym	helper T cell type 2 function
+VT:0005466	oboInOwl:hasExactSynonym	helper T-lymphocyte type 2 function
+VT:0005466	oboInOwl:hasExactSynonym	helper T lymphocyte type 2 function
+VT:0005466	oboInOwl:hasExactSynonym	T helper 2 function
+VT:0005466	oboInOwl:hasExactSynonym	helper T-cell type 2 function
+VT:0005466	oboInOwl:hasExactSynonym	TH2 cell function
+VT:0005466	oboInOwl:hasExactSynonym	T helper 2 physiology trait
+VT:0000071	oboInOwl:hasExactSynonym	axial skeleton cell number
+VT:0001031	oboInOwl:hasExactSynonym	outer hair cell stereocilia number
+VT:0002472	oboInOwl:hasExactSynonym	complement alternative pathway function
+VT:0002472	oboInOwl:hasExactSynonym	alternative complement pathway
+VT:0002472	oboInOwl:hasExactSynonym	alternative complement cascade
+VT:0010055	oboInOwl:hasExactSynonym	muscle eicosadienoic acid content
+VT:0000843	oboInOwl:hasExactSynonym	facial nuclei cell number
+VT:0003784	oboInOwl:hasExactSynonym	lip vermillion border thickness
+VT:0003134	oboInOwl:hasExactSynonym	number of late pro-B cells
+VT:1000521	oboInOwl:hasExactSynonym	adipose margaric acid concentration
+VT:1000521	oboInOwl:hasExactSynonym	adipose heptadecanoic acid concentration
+VT:0005465	oboInOwl:hasExactSynonym	helper T cell type 1 function
+VT:0005465	oboInOwl:hasExactSynonym	T helper 1 function
+VT:0005465	oboInOwl:hasExactSynonym	helper T lymphocyte type 1 function
+VT:0005465	oboInOwl:hasExactSynonym	helper T-cell type 1 function
+VT:0005465	oboInOwl:hasExactSynonym	helper T-lymphocyte type 1 function
+VT:0005465	oboInOwl:hasExactSynonym	TH1 cell function
+VT:0000893	oboInOwl:hasExactSynonym	cochlear hair cell stereocilia number
+VT:0010057	oboInOwl:hasExactSynonym	muscle linoleic acid content
+VT:0001010	oboInOwl:hasExactSynonym	prevertebral ganglion cell number
+VT:0005493	oboInOwl:hasExactSynonym	stomach epithelial cell number
+VT:0001452	oboInOwl:hasExactSynonym	vestibular hair cell stereocilia number
+VT:0004344	oboInOwl:hasExactSynonym	scapula bone cell number
+VT:0000052	oboInOwl:hasExactSynonym	onset of ear unfolding
+VT:0000509	oboInOwl:hasExactSynonym	mucosecretion
+VT:0010668	oboInOwl:hasExactSynonym	muscle dry matter content
+VT:1000518	oboInOwl:hasExactSynonym	adipose 7-octadecenoic acid concentration
+VT:1000518	oboInOwl:hasExactSynonym	adipose vaccenic acid concentration
+VT:0005581	oboInOwl:hasExactSynonym	angiotensinogenase activity
+VT:1000385	oboInOwl:hasExactSynonym	total vertebra number
+VT:1000526	oboInOwl:hasExactSynonym	adipose hexadecanoic acid concentration
+VT:1000526	oboInOwl:hasExactSynonym	adipose palmitic acid concentration
+VT:0002630	oboInOwl:hasExactSynonym	endolymphatic potential
+VT:0010662	oboInOwl:hasExactSynonym	TLR2 amount
+VT:0001003	oboInOwl:hasExactSynonym	olfactory receptor protein morphology trait
+VT:0004244	oboInOwl:hasExactSynonym	miscarriage
+VT:0004022	oboInOwl:hasExactSynonym	photopic response
+VT:0010051	oboInOwl:hasExactSynonym	muscle myristic acid concentration
+VT:0004337	oboInOwl:hasExactSynonym	clavicle cell number
+VT:0004145	oboInOwl:hasExactSynonym	muscle electrical activity
+VT:0003185	oboInOwl:hasExactSynonym	ACE activity
+VT:0010265	oboInOwl:hasExactSynonym	colostrum somatic cell number
+VT:0010265	oboInOwl:hasExactSynonym	colostrum somatic cell count
+VT:0010541	oboInOwl:hasExactSynonym	ORM amount
+VT:0010541	oboInOwl:hasExactSynonym	alpha-1-acid glycoprotein amount
+VT:0010541	oboInOwl:hasExactSynonym	AGP amount
+VT:0010541	oboInOwl:hasExactSynonym	AAG amount
+VT:0002401	oboInOwl:hasExactSynonym	lymphocyte differentiation
+VT:0002332	oboInOwl:hasExactSynonym	exercise fitness
+VT:0002473	oboInOwl:hasExactSynonym	complement classical pathway function
+VT:0002473	oboInOwl:hasExactSynonym	classical complement pathway
+VT:0002473	oboInOwl:hasExactSynonym	classical complement cascade
+VT:0004311	oboInOwl:hasExactSynonym	otic vesicle cell number
+VT:0004311	oboInOwl:hasExactSynonym	auditory vesicle cell number
+VT:0001777	oboInOwl:hasExactSynonym	thermoregulation
+VT:0001777	oboInOwl:hasExactSynonym	temperature regulation
+VT:0008077	oboInOwl:hasExactSynonym	CD8-positive T cell number
+VT:0008077	oboInOwl:hasExactSynonym	CD8+ T cell number
+VT:0000054	oboInOwl:hasExactSynonym	onset of ear extroversion
+VT:0000054	oboInOwl:hasExactSynonym	onset of ear emergence
+VT:0000054	oboInOwl:hasExactSynonym	onset of ear elevation
+VT:0005666	oboInOwl:hasExactSynonym	fat physiology trait
+VT:1000522	oboInOwl:hasExactSynonym	adipose linoleic acid concentration
+VT:0010058	oboInOwl:hasExactSynonym	muscle linolenic acid content
+VT:0015036	oboInOwl:hasExactSynonym	reproductive lifespan
+VT:1000527	oboInOwl:hasExactSynonym	adipose palmitoleic acid concentration
+VT:0005158	oboInOwl:hasExactSynonym	ovary cell number
+VT:0008876	oboInOwl:hasExactSynonym	GMG cell number
+VT:0008876	oboInOwl:hasExactSynonym	uterine NK cell number
+VT:0008876	oboInOwl:hasExactSynonym	granulated metrial gland cell number
+VT:0008876	oboInOwl:hasExactSynonym	uNK cell number
+VT:0001874	oboInOwl:hasExactSynonym	stratum spinosum cell number
+VT:0000855	oboInOwl:hasExactSynonym	interlobular fissure formation
+VT:1000519	oboInOwl:hasExactSynonym	adipose eicosadienoic acid concentration
+VT:1000734	oboInOwl:hasExactSynonym	foot diagonal
+VT:0010787	oboInOwl:hasExactSynonym	icosanoid amount
+VT:0008750	oboInOwl:hasExactSynonym	interferon level
+VT:0000073	oboInOwl:hasExactSynonym	total number of offspring
+VT:0003241	oboInOwl:hasExactSynonym	cerebral cortex neuron number
+VT:1000181	oboInOwl:hasExactSynonym	number of offspring born alive
+VT:1000181	oboInOwl:hasExactSynonym	total number born alive
+VT:1000181	oboInOwl:hasExactSynonym	prenatal survival
+VT:0003249	oboInOwl:hasExactSynonym	muscle fatty acid concentration
+VT:0003249	oboInOwl:hasExactSynonym	muscle free fatty acid (FFA) level
+VT:0002910	oboInOwl:hasExactSynonym	EPSCs
+VT:0008081	oboInOwl:hasExactSynonym	single positive T cell number
+VT:0010052	oboInOwl:hasExactSynonym	muscle palmitic acid concentration
+VT:0001173	oboInOwl:hasExactSynonym	bulbuorethral gland ductal cell number
+VT:0001173	oboInOwl:hasExactSynonym	Cowper's gland ductal cell number
+VT:0008073	oboInOwl:hasExactSynonym	CD4-positive T cell number
+VT:0008073	oboInOwl:hasExactSynonym	CD4+ T cell number
+VT:0006221	oboInOwl:hasExactSynonym	optic nerve fiber number
+VT:0003246	oboInOwl:hasExactSynonym	GABA neuron number
+VT:0000784	oboInOwl:hasExactSynonym	forebrain cell number
+VT:0006226	oboInOwl:hasExactSynonym	iris cell number
+VT:0005446	oboInOwl:hasExactSynonym	synaptic adrenaline release
+VT:0001178	oboInOwl:hasExactSynonym	lung cell number
+VT:0000831	oboInOwl:hasExactSynonym	diencephalon cell number
+VT:0010153	oboInOwl:hasExactSynonym	IL-8 physiology trait
+VT:0002206	oboInOwl:hasExactSynonym	central nervous system synaptic transmission
+VT:0002206	oboInOwl:hasExactSynonym	CNS neurotransmission
+VT:0003248	oboInOwl:hasExactSynonym	glutaminergic neuron number
+VT:0003248	oboInOwl:hasExactSynonym	glutamate neuron number
+VT:0010138	oboInOwl:hasExactSynonym	lymphatic vessel cell number
+VT:0008038	oboInOwl:hasExactSynonym	NKT cell number
+VT:0008038	oboInOwl:hasExactSynonym	natural killer T-lymphocyte number
+VT:0008038	oboInOwl:hasExactSynonym	natural T cell number
+VT:0008038	oboInOwl:hasExactSynonym	NK T lymphocyte number
+VT:0008038	oboInOwl:hasExactSynonym	NK T-cell number
+VT:0008038	oboInOwl:hasExactSynonym	natural killer T cell number
+VT:0008038	oboInOwl:hasExactSynonym	natural killer T-cell number
+VT:0008038	oboInOwl:hasExactSynonym	NK T-lymphocyte number
+VT:0008038	oboInOwl:hasExactSynonym	natural killer T lymphocyte number
+VT:1000523	oboInOwl:hasExactSynonym	adipose linolenic acid concentration
+VT:0010059	oboInOwl:hasExactSynonym	muscle oleic acid content
+VT:1000189	oboInOwl:hasExactSynonym	total number born
+VT:1000189	oboInOwl:hasExactSynonym	offspring number
+VT:0010045	oboInOwl:hasExactSynonym	subcutaneous fat amount
+VT:0002912	oboInOwl:hasExactSynonym	EPSP
+VT:1000528	oboInOwl:hasExactSynonym	adipose stearic acid concentration
+VT:1000528	oboInOwl:hasExactSynonym	adipose octadecanoic acid concentration
+VT:0008751	oboInOwl:hasExactSynonym	interleukin level
+VT:0006096	oboInOwl:hasExactSynonym	retinal bipolar cell number
+VT:0002557	oboInOwl:hasExactSynonym	social behavior
+VT:0003242	oboInOwl:hasExactSynonym	basal ganglion neuron number
