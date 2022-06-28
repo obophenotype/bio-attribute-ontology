@@ -3,10 +3,15 @@ pattern_name: response_to_chemical_with_role_stimulus
 
 pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_with_role_stimulus.yaml
 
-description: "A trait that affects the biological response to a representative or representatives of a chemical entity group where the members of the group share a role which they can exhibit. Examples of roles include 'drug', 'protease inhibitor', 'opioid agent', etc."
+description: "A trait that affects the biological response to a representative
+  or representatives of a chemical entity group where the members of the group
+  share a role which they can exhibit. Examples of roles include 'drug',
+  'protease inhibitor', 'opioid agent', etc."
 
 contributors:
   - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
+  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
 
 classes:
   role: CHEBI:50906
@@ -20,12 +25,12 @@ relations:
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
-  contributor: dcterms:contributor
+  contributor: dct:contributor  # contributor: dcterms:contributor
 
 vars:
   role: "'role'"
 
-data_vars:
+data_list_vars:
   orcid: "'contributor'"  # ORCID of contributor
 
 name:
@@ -38,10 +43,9 @@ annotations:
     text: "response to %s trait"
     vars:
       - role
+
   - annotationProperty: contributor
-    text: "%s"
-    vars:
-      - orcid
+    value: orcid
 
 def:
   text: "A trait that affects the response to a stimulus with %s."
@@ -49,6 +53,9 @@ def:
     - role
 
 equivalentTo:
-  text: "'process_quality' and 'characteristic_of' some ('response_to_stimulus' and 'has_input' some %s)"
+  text: "'process_quality' and
+        ('characteristic_of' some
+        ('response_to_stimulus' and
+        ('has_input' some %s)))"
   vars:
     - role
