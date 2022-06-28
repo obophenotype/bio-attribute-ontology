@@ -32,7 +32,7 @@ vars:
   role: "'role'"
 
 data_list_vars:
-  orcid: rdf:resource  # ORCID of contributor
+  orcid: xsd:string  # ORCID of contributor
 
 name:
   text: "trait in response to %s"
