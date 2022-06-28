@@ -42,3 +42,5 @@ These are the components in OBA
 | Filename | URL |
 | -------- | --- |
 | obsoletes.owl | None |
+| synonyms.owl | None |
+| measured_in.owl | None |
