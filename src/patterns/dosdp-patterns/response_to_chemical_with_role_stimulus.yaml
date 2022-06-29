@@ -14,6 +14,7 @@ contributors:
   - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
 
 classes:
+  chemical_entity: CHEBI:24431
   role: CHEBI:50906
   process_quality: PATO:0001236
   response_to_stimulus: GO:0050896
@@ -57,6 +58,7 @@ equivalentTo:
   text: "'process_quality' and
         ('characteristic_of' some
         ('response_to_stimulus' and
-        ('has_input' some ('has_role' some %))))"
+        ('has_input' some
+        ('chemical_entity' and ('has_role' some %s)))))"
   vars:
     - role
