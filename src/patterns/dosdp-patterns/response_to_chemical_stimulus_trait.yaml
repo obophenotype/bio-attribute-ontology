@@ -28,7 +28,8 @@ vars:
   chemical: "'chemical_entity'"
 
 data_list_vars:
-  orcid: xsd:string  # ORCID of contributor
+  orcid: xsd:anyURI  # ORCID of contributor
+
 
 name:
   text: "trait in response to %s"
