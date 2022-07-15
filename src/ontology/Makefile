@@ -347,8 +347,6 @@ $(COMPONENTSDIR)/%: | $(COMPONENTSDIR)
 .PRECIOUS: $(COMPONENTSDIR)/%
 
 
-
-
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------
