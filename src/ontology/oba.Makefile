@@ -69,6 +69,12 @@ $(TEMPLATESDIR)/%.owl: $(TEMPLATESDIR)/%.tsv $(SRC)
 $(COMPONENTSDIR)/obsoletes.owl: $(TEMPLATESDIR)/replaced.owl
 	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
 
+$(COMPONENTSDIR)/synonyms.owl: $(TEMPLATESDIR)/synonyms.owl
+	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
+
+$(COMPONENTSDIR)/measured_in.owl: $(TEMPLATESDIR)/measured_in.owl
+	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
+
 imports/hp_import.owl: $(TEMPLATESDIR)/external.owl
 	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
 
@@ -98,6 +104,14 @@ OBA_EFO_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcE
 OBA_VT_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=506793298&single=true&output=tsv
 OBA_EFO_EXCLUSIONS_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=698990842&single=true&output=tsv
 OBA_VT_EXCLUSIONS_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=2051840457&single=true&output=tsv
+OBA_SYNONYM_TEMPLATE=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=473147169&single=true&output=tsv
+OBA_MEASURED_IN_TEMPLATE=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=1857133171&single=true&output=tsv
+
+../templates/synonyms.tsv:
+	wget "$(OBA_SYNONYM_TEMPLATE)" -O $@
+
+../templates/measured_in.tsv:
+	wget "$(OBA_MEASURED_IN_TEMPLATE)" -O $@
 
 ../mappings/oba-efo.sssom.tsv:
 	wget "$(OBA_EFO_GS)" -O $@
@@ -116,6 +130,10 @@ sync_sssom_google_sheets:
 	$(MAKE) ../mappings/oba-vt.sssom.tsv -B
 	$(MAKE) ../mappings/oba-efo-mapping-exclusions.sssom.tsv -B
 	$(MAKE) ../mappings/oba-vt-mapping-exclusions.sssom.tsv -B
+
+sync_templates_google_sheets:
+	$(MAKE) ../templates/measured_in.tsv -B
+	$(MAKE) ../templates/synonyms.tsv -B
 
 EFO=http://www.ebi.ac.uk/efo/efo.owl
 

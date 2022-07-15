@@ -40,6 +40,8 @@ import_group:
 components:
   products:
     - filename: obsoletes.owl
+    - filename: synonyms.owl
+    - filename: measured_in.owl
 #    - filename: reasoner_axioms.owl
 robotemplate_group:
   products:
