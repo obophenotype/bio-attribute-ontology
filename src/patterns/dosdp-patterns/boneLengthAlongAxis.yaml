@@ -18,7 +18,7 @@ classes:
   skeletal_element: UBERON:0004765
   anatomical_entity: UBERON:0001062
   length: PATO:0000122
-  line: BFO:0000026  # one-dimensional spatial region
+  anatomical_line: CARO:0000008  # one-dimensional, immaterial anatomical entity
   physical_object_quality: PATO:0001241
   anatomical_axis: 'BSPO:0000010'
   NCBITaxon: 'OBI:0100026'
@@ -26,6 +26,7 @@ classes:
 relations:
   characteristic_of: 'RO:0000052'
   follows_axis: 'BSPO:0015002'
+  part_of: 'BFO:0000050'
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
@@ -90,11 +91,15 @@ annotations:
 
 logical_axioms:
   - axiom_type: subClassOf
-    text: "'length' and 'characteristic_of' some %s"
+    text: "'length' and ('characteristic_of' some %s)" #if along entire bone
     vars:
       - bone
   - axiom_type: subClassOf
     text: "'line' that 'follows_axis' some %s and ('characteristic_of' some %s)"
     vars:
       - axis
+      - bone
+  - axiom_type: subClassOf
+    text: "'length' and 'characteristic_of' some ('part of' some %s)" #if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
+    vars:
       - bone
