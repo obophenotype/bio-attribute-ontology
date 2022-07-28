@@ -20,7 +20,7 @@ classes:
   skeletal_element: UBERON:0004765
   anatomical_entity: UBERON:0001062
   length: PATO:0000122
-  line: BFO:0000026  # one-dimensional spatial region
+  anatomical_line: CARO:0000008  # one-dimensional, immaterial anatomical entity
   physical_object_quality: PATO:0001241
   NCBITaxon: OBI:0100026
 
@@ -76,10 +76,10 @@ name:annotations:
       - taxa
 
 def:
-  text: "The length of a line from %s of a %s to %s."
+  text: "The length of a %s from %s to %s."
   vars:
-    - from
     - bone
+    - from
     - to
   annotations:
     - annotationProperty: xref
@@ -97,15 +97,16 @@ def:
 
 logical_axioms:
   - axiom_type: subClassOf
-    text: "'length' and 'characteristic_of' some %s"
+    text: "'length' and ('characteristic_of' some %s)" #if along entire bone
     vars:
       - bone
   - axiom_type: subClassOf
-    text: "'characteristic_of' some ('line' and 'connected_to' some %s)"
+    text: "'length' and ('characteristic_of' some ('anatomical line' and ('connects' some %s) and ('connects' some %s)))"
     vars:
       - from
-  - axiom_type: subClassOf
-    text: "'characteristic_of' some ('line' and 'connected_to' some %s)"
-    vars:
       - to
+  - axiom_type: subClassOf
+    text: "'length' and 'characteristic_of' ('part of' some %s)" #if along part of a bone [e.g., ('distal end' some humerus)]
+    vars:
+      - bone
 ...
