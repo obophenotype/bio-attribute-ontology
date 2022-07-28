@@ -27,6 +27,7 @@ classes:
 relations:
   connected_to: RO:0002170
   characteristic_of: RO:0000052
+  part_of: BFO:0000050
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
@@ -106,7 +107,7 @@ logical_axioms:
       - from
       - to
   - axiom_type: subClassOf
-    text: "'length' and 'characteristic_of' ('part of' some %s)" #if along part of a bone [e.g., ('distal end' some humerus)]
+    text: "'length' and 'characteristic_of' some ('part of' some %s)" #if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
     vars:
       - bone
 ...
