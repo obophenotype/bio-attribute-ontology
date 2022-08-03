@@ -1,5 +1,5 @@
 Ontology ID	Type	Obsolete	Replacement Term	label of obsolete class	Comment
-ID	TYPE	AT owl:deprecated^^xsd:boolean	AI IAO:0100001		
+ID	TYPE	AT owl:deprecated^^xsd:boolean	AI IAO:0100001		A rdfs:comment
 http://purl.obolibrary.org/obo/OBA_0000037	owl:Class	true	http://purl.obolibrary.org/obo/PATO_0000276	brood size	
 http://purl.obolibrary.org/obo/OBA_0000039	owl:Class	true	http://purl.obolibrary.org/obo/PATO_0001420	buoyancy	
 http://purl.obolibrary.org/obo/OBA_0000050	owl:Class	true	http://purl.obolibrary.org/obo/OBA_0000058	cell pH	
