@@ -4573,7 +4573,7 @@ OBA:0004269		UBERON:0001996	elastic cartilage tissue	PATO:0000051	morphology
 OBA:0004270		UBERON:0001995	fibrocartilage	PATO:0000051	morphology
 OBA:0004271		UBERON:0010996	articular cartilage of joint	PATO:0000051	morphology
 OBA:0004272		UBERON:0000945	stomach	PATO:0001842	acidity
-OBA:0004273		GO:0007569	cell aging	PATO:0002325	onset quality
+OBA:0004273		GO:0090398	cellular senescence	PATO:0002325	onset quality
 OBA:0004274		UBERON:0004353	female inguinal canal	PATO:0000051	morphology
 OBA:0004275		UBERON:0004354	male inguinal canal	PATO:0000051	morphology
 OBA:0004276		UBERON:0003544	brain white matter	PATO:0000051	morphology
@@ -7000,7 +7000,6 @@ OBA:1000811		GO:0097621	monoamine oxidase activity	PATO:0000001	quality
 OBA:1000812		UBERON:0000412	dermal papilla	PATO:0000001	quality
 OBA:1000813		UBERON:0010513	strand of zigzag hair	PATO:0000001	quality
 OBA:1000814		GO:0072028	nephron morphogenesis	PATO:0000001	quality
-OBA:1000815		GO:1903374	subarachnoid space development	PATO:0000001	quality
 OBA:1000816		GO:0048665	neuron fate specification	PATO:0000001	quality
 OBA:1000817		NBO:0000222	conditioned place preference behavior	PATO:0000001	quality
 OBA:1000818		UBERON:0003517	kidney blood vessel	PATO:0000001	quality

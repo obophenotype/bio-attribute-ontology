@@ -309,6 +309,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_1000815 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000815">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_1000870 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000870">
