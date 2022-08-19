@@ -21,30 +21,26 @@ classes:
   skeletal_element: UBERON:0004765
   anatomical_entity: UBERON:0001062
   length: PATO:0000122
-  anatomical_line: UBERON:0006800
-  physical_object_quality: PATO:0001241
   NCBITaxon: OBI:0100026
 
 relations:
-  connected_to: RO:0002170
   characteristic_of: RO:0000052
   part_of: BFO:0000050
-  connects: RO:0002176
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
   related_synonym: oio:hasRelatedSynonym
   broad_synonym: oio:hasBroadSynonym
   xref: oio:hasDbXref
-  measured_in_taxon: oio:measuredInTaxon
-  not_measured_in_taxon: oio:notMeasuredInTaxon
+  measured_in_taxon: xsd:string
+  not_measured_in_taxon: xsd:string
   comment: rdfs:comment
 
 vars:
   bone: "'skeletal_element'"
   from: "'anatomical_entity'"
   to: "'anatomical_entity'"
-  fovt: "'physical_object_quality'"  # FOVT id
+  fovt: "xsd:string"  # FOVT id
   taxa: "NCBITaxon"
   your_comments: "xsd:string"  # comments, clarifications for users
 
@@ -100,12 +96,9 @@ def:
 
 logical_axioms:
   - axiom_type: subClassOf
-    text: "'length' and ('characteristic_of' some %s)"  # if along entire bone
-    vars:
-      - bone
-  - axiom_type: subClassOf
     text: "'length' and ('characteristic_of' some ('part_of' some %s))"
     #      # if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
+    #      # NOTE: Everything is part of itself.
     vars:
       - bone
 ...
