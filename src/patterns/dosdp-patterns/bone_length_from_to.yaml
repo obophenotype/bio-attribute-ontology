@@ -104,19 +104,7 @@ logical_axioms:
     vars:
       - bone
   - axiom_type: subClassOf
-    text: "'length' and
-      ('characteristic_of' some
-        ('anatomical_line' and
-          ('connects' some %s) and
-          ('connects' some %s)
-        )
-      )"
-    vars:
-      - from
-      - to
-  - axiom_type: subClassOf
-    text: "'length' and
-      ('characteristic_of' some ('part_of' some %s))"
+    text: "'length' and ('characteristic_of' some ('part_of' some %s))"
     #      # if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
     vars:
       - bone
