@@ -100,6 +100,6 @@ logical_axioms:
       - axis
       - bone
   - axiom_type: subClassOf
-    text: "'length' and 'characteristic_of' some ('part of' some %s)" #if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
+    text: "'length' and 'characteristic_of' some ('part_of' some %s)" #if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
     vars:
       - bone
