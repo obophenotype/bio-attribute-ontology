@@ -38,6 +38,7 @@ annotationProperties:
   xref: oio:hasDbXref
   measured_in_taxon: oio:measuredInTaxon
   not_measured_in_taxon: oio:notMeasuredInTaxon
+  comment: rdfs:comment
 
 vars:
   bone: "'skeletal_element'"
@@ -45,6 +46,7 @@ vars:
   to: "'anatomical_entity'"
   fovt: "'physical_object_quality'"  # FOVT id
   taxa: "NCBITaxon"
+  your_comments: "xsd:string"  # comments, clarifications for users
 
 data_list_vars:
   def_ref: "'xref'"  # reference(s) to the source(s) of definition
@@ -80,6 +82,11 @@ annotations:
     text: "%s"
     vars:
       - taxa
+
+  - annotationProperty: comment
+    text: "%s"
+    vars:
+      - your_comments
 
 def:
   text: "The length of a %s from %s to %s."
