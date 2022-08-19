@@ -18,7 +18,7 @@ classes:
   skeletal_element: UBERON:0004765
   anatomical_entity: UBERON:0001062
   length: PATO:0000122
-  anatomical_line: CARO:0000008  # one-dimensional, immaterial anatomical entity
+  anatomical_line: UBERON:0006800  # one-dimensional, immaterial anatomical entity
   physical_object_quality: PATO:0001241
   anatomical_axis: 'BSPO:0000010'
   NCBITaxon: 'OBI:0100026'
@@ -44,7 +44,7 @@ vars:
   taxa: "NCBITaxon"
 
 name:
-  text: "%s length"
+  text: "%s %s length"
   vars:
     - bone
     - axis
@@ -94,12 +94,8 @@ logical_axioms:
     text: "'length' and ('characteristic_of' some %s)" #if along entire bone
     vars:
       - bone
+
   - axiom_type: subClassOf
-    text: "'line' that 'follows_axis' some %s and ('characteristic_of' some %s)"
-    vars:
-      - axis
-      - bone
-  - axiom_type: subClassOf
-    text: "'length' and 'characteristic_of' some ('part_of' some %s)" #if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
+    text: "'length' and ('characteristic_of' some ('part of' some %s))" #if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
     vars:
       - bone
