@@ -3,7 +3,8 @@ pattern_name: bone_length_from_to
 
 pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/bone_length_from_to.yaml
 
-description: 'A bone length trait that is the distance between two anatomical reference points measured in a straight line.'
+description: 'A bone length trait that is the distance between two anatomical
+  reference points measured in a straight line.'
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/FOVT_0001070  # femur length from caput to lateral condyle
@@ -20,7 +21,7 @@ classes:
   skeletal_element: UBERON:0004765
   anatomical_entity: UBERON:0001062
   length: PATO:0000122
-  anatomical_line: CARO:0000008  # one-dimensional, immaterial anatomical entity
+  anatomical_line: UBERON:0006800
   physical_object_quality: PATO:0001241
   NCBITaxon: OBI:0100026
 
@@ -28,6 +29,7 @@ relations:
   connected_to: RO:0002170
   characteristic_of: RO:0000052
   part_of: BFO:0000050
+  connects: RO:0002176
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
@@ -42,10 +44,13 @@ vars:
   from: "'anatomical_entity'"
   to: "'anatomical_entity'"
   fovt: "'physical_object_quality'"  # FOVT id
-  def_ref: "xsd:string"
   taxa: "NCBITaxon"
 
-name:annotations:
+data_list_vars:
+  def_ref: "'xref'"  # reference(s) to the source(s) of definition
+
+
+annotations:
   - annotationProperty: related_synonym
     text: "%s length"
     vars:
@@ -83,31 +88,29 @@ def:
     - from
     - to
   annotations:
-    - annotationProperty: xref
-      text: "%s"
-      vars:
-        - def_ref
-
-
-  text: "%s length from %s to %s"
-  vars:
-    - bone
-    - from
-    - to
-
+    - annotationProperty: not_measured_in_taxon
+      value: def_ref
 
 logical_axioms:
   - axiom_type: subClassOf
-    text: "'length' and ('characteristic_of' some %s)" #if along entire bone
+    text: "'length' and ('characteristic_of' some %s)"  # if along entire bone
     vars:
       - bone
   - axiom_type: subClassOf
-    text: "'length' and ('characteristic_of' some ('anatomical line' and ('connects' some %s) and ('connects' some %s)))"
+    text: "'length' and
+      ('characteristic_of' some
+        ('anatomical_line' and
+          ('connects' some %s) and
+          ('connects' some %s)
+        )
+      )"
     vars:
       - from
       - to
   - axiom_type: subClassOf
-    text: "'length' and 'characteristic_of' some ('part of' some %s)" #if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
+    text: "'length' and
+      ('characteristic_of' some ('part_of' some %s))"
+    #      # if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
     vars:
       - bone
 ...
