@@ -17,34 +17,30 @@ contributors:
 
 classes:
   skeletal_element: UBERON:0004765
-  anatomical_entity: UBERON:0001062
   length: PATO:0000122
-  anatomical_line: UBERON:0006800  #
-  physical_object_quality: PATO:0001241
-  anatomical_axis: 'BSPO:0000010'
-  NCBITaxon: 'OBI:0100026'
+  anatomical_axis: BSPO:0000010
+  NCBITaxon: OBI:0100026
 
 relations:
-  characteristic_of: 'RO:0000052'
-  follows_axis: 'BSPO:0015002'
-  part_of: 'BFO:0000050'
+  characteristic_of: RO:0000052
+  part_of: BFO:0000050
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
   related_synonym: oio:hasRelatedSynonym
   broad_synonym: oio:hasBroadSynonym
-  xref: oio:hasDbXref  #  measured_in_taxon #  not_measured_in_tax
-  measured_in_taxon: oio:measuredInTaxon
-  not_measured_in_taxon: oio:notMeasuredInTaxon
+  xref: oio:hasDbXref
+  measured_in_taxon: xsd:string
+  not_measured_in_taxon: xsd:string
   comment: rdfs:comment
 
 data_list_vars:
   def_ref: "'xref'"  # reference(s) to the source(s) of definition
 
 vars:
-  bone: 'skeletal element'
+  bone: 'skeletal_element'
   axis: 'anatomical_axis'
-  fovt: "'physical_object_quality'"  # FOVT id
+  fovt: "xsd:string"  # FOVT id
   def_ref: "xsd:string"
   taxa: "NCBITaxon"
   your_comments: "xsd:string"  # comments, clarifications for users
@@ -100,12 +96,8 @@ def:
 
 logical_axioms:
   - axiom_type: subClassOf
-    text: "'length' and ('characteristic_of' some %s)"  # if along entire bone
-    vars:
-      - bone
-
-  - axiom_type: subClassOf
     text: "'length' and ('characteristic_of' some ('part_of' some %s))"
     # if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
+    # NOTE: Everything is part of itself.
     vars:
       - bone
