@@ -95,7 +95,7 @@ def:
     - from
     - to
   annotations:
-    - annotationProperty: not_measured_in_taxon
+    - annotationProperty: xref
       value: def_ref
 
 logical_axioms:
