@@ -1,3 +1,4 @@
+---
 pattern_name: boneLengthAlongAxis
 
 pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/boneLengthAlongAxis.yaml
@@ -18,7 +19,7 @@ classes:
   skeletal_element: UBERON:0004765
   anatomical_entity: UBERON:0001062
   length: PATO:0000122
-  anatomical_line: UBERON:0006800  # one-dimensional, immaterial anatomical entity
+  anatomical_line: UBERON:0006800  #
   physical_object_quality: PATO:0001241
   anatomical_axis: 'BSPO:0000010'
   NCBITaxon: 'OBI:0100026'
@@ -35,6 +36,10 @@ annotationProperties:
   xref: oio:hasDbXref  #  measured_in_taxon #  not_measured_in_tax
   measured_in_taxon: oio:measuredInTaxon
   not_measured_in_taxon: oio:notMeasuredInTaxon
+  comment: rdfs:comment
+
+data_list_vars:
+  def_ref: "'xref'"  # reference(s) to the source(s) of definition
 
 vars:
   bone: 'skeletal element'
@@ -42,23 +47,13 @@ vars:
   fovt: "'physical_object_quality'"  # FOVT id
   def_ref: "xsd:string"
   taxa: "NCBITaxon"
+  your_comments: "xsd:string"  # comments, clarifications for users
 
 name:
   text: "%s %s length"
   vars:
     - bone
     - axis
-
-def:
-  text: "The length of a %s along the %s."
-  vars:
-    - bone
-    - axis
-  annotations:
-    - annotationProperty: xref
-      text: "%s"
-      vars:
-        - def_ref
 
 annotations:
   - annotationProperty: related_synonym
@@ -89,13 +84,28 @@ annotations:
     vars:
       - taxa
 
+  - annotationProperty: comment
+    text: "%s"
+    vars:
+      - your_comments
+
+def:
+  text: "The length of a %s along the %s."
+  vars:
+    - bone
+    - axis
+  annotations:
+    - annotationProperty: xref
+      value: def_ref
+
 logical_axioms:
   - axiom_type: subClassOf
-    text: "'length' and ('characteristic_of' some %s)" #if along entire bone
+    text: "'length' and ('characteristic_of' some %s)"  # if along entire bone
     vars:
       - bone
 
   - axiom_type: subClassOf
-    text: "'length' and ('characteristic_of' some ('part of' some %s))" #if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
+    text: "'length' and ('characteristic_of' some ('part_of' some %s))"
+    # if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
     vars:
       - bone
