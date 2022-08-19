@@ -1,0 +1,871 @@
+subject_id	subject_match_field	subject_label	match_type	quality	quality_label	attribute	attribute_label
+EFO:0005273	rdfs:label	sleep depth	Lexical	PATO:0001595	depth	GO:0030431	sleep
+EFO:0007719	rdfs:label	carotid artery external diameter quality	Lexical	PATO:0001334	diameter	UBERON:0005396	carotid artery
+EFO:0009230	rdfs:label	reticulocyte corpuscular hemoglobin distribution width	Lexical	PATO:0000921	width	CL:0000558	reticulocyte
+EFO:0009230	rdfs:label	reticulocyte corpuscular hemoglobin distribution width	Lexical	PATO:0000060	distribution	CL:0000558	reticulocyte
+EFO:0020760	rdfs:label	t-cell surface glycoprotein cd4 quality	Lexical	PATO:0000001	quality	CL:0000084	T-cell
+EFO:0020760	rdfs:label	t-cell surface glycoprotein cd4 quality	Lexical	PATO:0000001	quality	GO:0009986	cell surface
+EFO:0020354	rdfs:label	ephrin type-b receptor 4 quality	Lexical	PATO:0000001	quality	GO:0005106	ephrin
+EFO:0007579	rdfs:label	blood chromium quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0009238	rdfs:label	immature plasma cell count	Lexical	PATO:0001501	immature	CL:0000786	plasma cell
+EFO:0004767	rdfs:label	visceral:subcutaneous adipose tissue ratio	Lexical	PATO:0001470	ratio	UBERON:0001013	adipose tissue
+EFO:0004767	rdfs:label	visceral:subcutaneous adipose tissue ratio	Lexical	PATO:0002438	subcutaneous	UBERON:0001013	adipose tissue
+EFO:0010917	rdfs:label	kidney injury molecule 1 quality	Lexical	PATO:0000001	quality	UBERON:0002113	kidney
+EFO:0007956	rdfs:label	monocyte:lymphocyte ratio	Lexical	PATO:0001470	ratio	CL:0000576	monocyte
+EFO:0010326	rdfs:label	precuneus cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0006093	precuneus cortex
+EFO:0006940	rdfs:label	optic cup area quality	Lexical	PATO:0001323	area	UBERON:0003072	optic cup
+EFO:0010076	rdfs:label	femoral neck size	Lexical	PATO:0000117	size	UBERON:0007119	femoral neck
+EFO:0009405	rdfs:label	parasubiculum volume	Lexical	PATO:0000918	volume	UBERON:0004683	parasubiculum
+EFO:0600084	rdfs:label	bowel opening frequency	Lexical	PATO:0000044	frequency	UBERON:0000160	bowel
+EFO:0004870	rdfs:label	sleep quality	Lexical	PATO:0000001	quality	GO:0030431	sleep
+EFO:0008265	rdfs:label	platelet-derived growth factor receptor beta quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0600045	rdfs:label	pancreas volume	Lexical	PATO:0000918	volume	UBERON:0001264	pancreas
+EFO:0020381	rdfs:label	fibroblast growth factor 20 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020381	rdfs:label	fibroblast growth factor 20 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0020654	rdfs:label	programmed cell death 1 ligand 1 quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0020654	rdfs:label	programmed cell death 1 ligand 1 quality	Lexical	PATO:0000001	quality	GO:0012501	programmed cell death
+EFO:0010330	rdfs:label	superior parietal cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0006094	superior parietal cortex
+EFO:0008371	rdfs:label	kidney amyloid deposition quality	Lexical	PATO:0000001	quality	UBERON:0002113	kidney
+EFO:0005200	rdfs:label	antiphospholipid antibody quality	Lexical	PATO:0000001	quality	GO:0042571	antibody
+EFO:0020374	rdfs:label	fibrinogen gamma chain quality	Lexical	PATO:0000001	quality	GO:0005974	fibrinogen gamma chain
+EFO:0007997	rdfs:label	granulocyte percentage of myeloid white cells	Lexical	PATO:0000323	white	CL:0000094	granulocyte
+EFO:0020813	rdfs:label	tumor necrosis factor receptor superfamily member 3 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020640	rdfs:label	pituitary adenylate cyclase-activating polypeptide 27 quality	Lexical	PATO:0000001	quality	UBERON:0000007	pituitary
+EFO:0020793	rdfs:label	tumor necrosis factor ligand superfamily member 13b quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020387	rdfs:label	fibroblast growth factor 9 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020387	rdfs:label	fibroblast growth factor 9 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008219	rdfs:label	macrophage inflammatory protein 1b quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+EFO:0006332	rdfs:label	serum iron quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0009366	rdfs:label	quality of life during menstruation quality	Lexical	PATO:0000001	quality	UBERON:0000104	life
+EFO:0009366	rdfs:label	quality of life during menstruation quality	Lexical	PATO:0000001	quality	GO:0042703	menstruation
+EFO:0009334	rdfs:label	prefrontal cortex growth quality	Lexical	PATO:0000001	quality	UBERON:0000451	prefrontal cortex
+EFO:0009334	rdfs:label	prefrontal cortex growth quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0010796	rdfs:label	stam binding protein quality	Lexical	PATO:0000001	quality	GO:0005488	binding
+EFO:0005421	rdfs:label	serum homoarginine quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0008197	rdfs:label	killer cell immunoglobulin-like receptor 2dl4 quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0020805	rdfs:label	tumor necrosis factor receptor superfamily member 14 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0007947	rdfs:label	serum galactose-deficient iga1 quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0010949	rdfs:label	upper face morphology quality@en	Lexical	PATO:0000051	morphology	UBERON:0001456	face
+EFO:0010317	rdfs:label	paracentral lobule volume quality@en	Lexical	PATO:0000918	volume	UBERON:0035933	paracentral lobule
+EFO:0009327	rdfs:label	cerebellum growth quality	Lexical	PATO:0000001	quality	UBERON:0002037	cerebellum
+EFO:0009327	rdfs:label	cerebellum growth quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008421	rdfs:label	non-alcoholic fatty liver disease severity quality	Lexical	PATO:0002114	fatty	UBERON:0002107	liver
+EFO:0010782	rdfs:label	fibroblast growth factor 19 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0010782	rdfs:label	fibroblast growth factor 19 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008030	rdfs:label	arylsulfatase b quality	Lexical	PATO:0000001	quality	GO:0003943	arylsulfatase B
+EFO:0006930	rdfs:label	brain volume quality	Lexical	PATO:0000918	volume	UBERON:0000955	brain
+EFO:0006868	rdfs:label	skin conductance response amplitude	Lexical	PATO:0000080	amplitude	UBERON:0000014	skin
+EFO:0005247	rdfs:label	anti-helicobacter pylori serum igg quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0010335	rdfs:label	third ventricle volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002286	third ventricle
+EFO:0008038	rdfs:label	bmi-adjusted hip bone size	Lexical	PATO:0000117	size	UBERON:0001272	hip bone
+EFO:0005266	rdfs:label	serum selenium quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0020846	rdfs:label	vascular cell adhesion protein 1 quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0020846	rdfs:label	vascular cell adhesion protein 1 quality	Lexical	PATO:0000001	quality	GO:0007155	cell adhesion
+EFO:0009360	rdfs:label	eyelid sagging quality	Lexical	PATO:0002165	sagging	UBERON:0001711	eyelid
+EFO:0020360	rdfs:label	epidermal growth factor receptor substrate 15-like 1 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0020895	rdfs:label	serum albumin change quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0008314	rdfs:label	vascular endothelial growth factor receptor 2 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0020470	rdfs:label	inhibin beta a chain:inhibin beta b chain heterodimer quality	Lexical	PATO:0000001	quality	GO:0016916	inhibin
+EFO:0020518	rdfs:label	killer cell immunoglobulin-like receptor 3dl2 quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0004466	rdfs:label	fasting blood insulin quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0010155	rdfs:label	taste liking quality	Lexical	PATO:0000001	quality	GO:0050909	taste
+EFO:0010604	rdfs:label	urine volume quality@en	Lexical	PATO:0000918	volume	UBERON:0001088	urine
+EFO:0007807	rdfs:label	erythrocyte cadmium quality	Lexical	PATO:0000001	quality	CL:0000232	erythrocyte
+EFO:0020804	rdfs:label	tumor necrosis factor receptor superfamily member 13c quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020798	rdfs:label	tumor necrosis factor ligand superfamily member 9 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020595	rdfs:label	neural cell adhesion molecule l1-like protein quality	Lexical	PATO:0000001	quality	CL:0002319	neural cell
+EFO:0020595	rdfs:label	neural cell adhesion molecule l1-like protein quality	Lexical	PATO:0000001	quality	GO:0007155	cell adhesion
+EFO:0020520	rdfs:label	killer cell lectin-like receptor subfamily f member 1 quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0005193	rdfs:label	serum igg glycosylation quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0005193	rdfs:label	serum igg glycosylation quality	Lexical	PATO:0000001	quality	GO:0070085	glycosylation
+EFO:0008259	rdfs:label	phospholipase a2, membrane associated quality	Lexical	PATO:0001668	associated	GO:0016020	membrane
+EFO:0010304	rdfs:label	frontal pole volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002795	frontal pole
+EFO:0010147	rdfs:label	temporal lobe volume quality	Lexical	PATO:0000918	volume	UBERON:0001871	temporal lobe
+EFO:0020253	rdfs:label	cell surface glycoprotein cd200 receptor 1 quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0020253	rdfs:label	cell surface glycoprotein cd200 receptor 1 quality	Lexical	PATO:0000001	quality	GO:0009986	cell surface
+EFO:0005418	rdfs:label	serum dimethylarginine quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0020346	rdfs:label	endoplasmic reticulum resident protein 29 quality	Lexical	PATO:0000001	quality	GO:0005783	endoplasmic reticulum
+EFO:0600074	rdfs:label	anti-human polyomavirus 6 antibody quality	Lexical	PATO:0000001	quality	GO:0042571	antibody
+EFO:0020379	rdfs:label	fibroblast growth factor 17 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020379	rdfs:label	fibroblast growth factor 17 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0007019	rdfs:label	milk allergy quality	Lexical	PATO:0000001	quality	UBERON:0001913	milk
+EFO:0010070	rdfs:label	nerve conduction amplitude	Lexical	PATO:0000080	amplitude	UBERON:0001021	nerve
+EFO:0009393	rdfs:label	breast pressure quality	Lexical	PATO:0001025	pressure	UBERON:0000310	breast
+EFO:0008301	rdfs:label	toll-like receptor 4:lymphocyte antigen 96 complex quality	Lexical	PATO:0001504	complex	CL:0000542	lymphocyte
+EFO:0010321	rdfs:label	pars triangularis volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002629	pars triangularis
+EFO:0009185	rdfs:label	heart rate response to recovery post exercise	Lexical	PATO:0000161	rate	UBERON:0000948	heart
+EFO:0009185	rdfs:label	heart rate response to recovery post exercise	Lexical	PATO:0000077	response to	UBERON:0000948	heart
+EFO:0004505	rdfs:label	telomere length	Lexical	PATO:0000122	length	GO:0005696	telomere
+EFO:0010921	rdfs:label	n-terminal prohormone brain natriuretic peptide quality	Lexical	PATO:0000001	quality	UBERON:0000955	brain
+EFO:0008427	rdfs:label	igg fucosylation quality	Lexical	PATO:0000001	quality	GO:0036065	fucosylation
+EFO:0020475	rdfs:label	insulin-like growth factor-binding protein 2 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0600068	rdfs:label	gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0007581	rdfs:label	blood manganese quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0009698	rdfs:label	gestational blood glucose quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0007842	rdfs:label	chin morphology quality	Lexical	PATO:0000051	morphology	UBERON:0008199	chin
+EFO:0008284	rdfs:label	sialic acid-binding ig-like lectin 14 quality	Lexical	PATO:0000001	quality	GO:0005530	lectin
+EFO:0007722	rdfs:label	carotid artery wall cross sectional area quality	Lexical	PATO:0001323	area	UBERON:0000415	artery wall
+EFO:0007722	rdfs:label	carotid artery wall cross sectional area quality	Lexical	PATO:0001323	area	UBERON:0005396	carotid artery
+EFO:0600026	rdfs:label	aortic vascular smooth muscle cell proliferation quality	Lexical	PATO:0000701	smooth	CL:0000187	muscle cell
+EFO:0010802	rdfs:label	tumor necrosis factor receptor superfamily member 9 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0007967	rdfs:label	blood osmolality quality	Lexical	PATO:0002027	osmolality	UBERON:0000178	blood
+EFO:0005298	rdfs:label	allergic sensitization quality	Lexical	PATO:0000001	quality	GO:0046960	sensitization
+EFO:0010337	rdfs:label	ventral diencephalon volume quality@en	Lexical	PATO:0000918	volume	UBERON:0001894	diencephalon
+EFO:0020739	rdfs:label	sialic acid-binding ig-like lectin 7 quality	Lexical	PATO:0000001	quality	GO:0005530	lectin
+EFO:0009253	rdfs:label	immature reticulocyte fraction measurement	Lexical	PATO:0001501	immature	CL:0000558	reticulocyte
+EFO:0007618	rdfs:label	hearing threshold quality	Lexical	PATO:0000152	threshold	GO:0007605	hearing
+EFO:0020546	rdfs:label	macrophage colony-stimulating factor 1 quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+EFO:0004818	rdfs:label	transforming growth factor beta quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0004735	rdfs:label	serum alanine aminotransferase quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0004791	rdfs:label	tissue plasminogen activator quality	Lexical	PATO:0000001	quality	UBERON:0000479	tissue
+EFO:0020350	rdfs:label	ephrin type-a receptor 10 quality	Lexical	PATO:0000001	quality	GO:0005106	ephrin
+EFO:0007575	rdfs:label	blood aluminium quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0600094	rdfs:label	skin roughness quality	Lexical	PATO:0000001	quality	UBERON:0000014	skin
+EFO:0004748	rdfs:label	thyroid stimulating hormone quality	Lexical	PATO:0000001	quality	UBERON:0002046	thyroid
+EFO:0008450	rdfs:label	fractional excretion of magnesium quality	Lexical	PATO:0000001	quality	GO:0007588	excretion
+EFO:0010913	rdfs:label	eosinophil cationic protein quality	Lexical	PATO:0000001	quality	CL:0000771	eosinophil
+EFO:0005668	rdfs:label	anterior chamber depth quality	Lexical	PATO:0001595	depth	UBERON:0001766	anterior chamber
+EFO:0020665	rdfs:label	proteasome subunit alpha type-6 quality	Lexical	PATO:0000001	quality	GO:0000502	proteasome
+EFO:0009398	rdfs:label	hippocampal tail volume	Lexical	PATO:0000918	volume	UBERON:2001058	tail
+EFO:0020391	rdfs:label	fibroblast growth factor receptor 4 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020391	rdfs:label	fibroblast growth factor receptor 4 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0009092	rdfs:label	breast milk quality	Lexical	PATO:0000001	quality	UBERON:0001913	milk
+EFO:0009092	rdfs:label	breast milk quality	Lexical	PATO:0000001	quality	UBERON:0000310	breast
+EFO:0010293	rdfs:label	choroid plexus volume quality@en	Lexical	PATO:0000918	volume	UBERON:0001886	choroid plexus
+EFO:0008126	rdfs:label	extracellular matrix protein 1 quality	Lexical	PATO:0000001	quality	GO:0031012	extracellular matrix
+EFO:0004623	rdfs:label	fibrinogen quality	Lexical	PATO:0000001	quality	GO:0008001	fibrinogen
+EFO:0010801	rdfs:label	tumor necrosis factor ligand superfamily member 12 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020540	rdfs:label	lymphocyte activation gene 3 protein quality	Lexical	PATO:0000001	quality	CL:0000542	lymphocyte
+EFO:0009273	rdfs:label	anti-epstein barr virus antibody quality	Lexical	PATO:0000001	quality	GO:0042571	antibody
+EFO:0020650	rdfs:label	platelet-derived growth factor subunit b quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0009700	rdfs:label	visual perception quality	Lexical	PATO:0000001	quality	GO:0007601	visual perception
+EFO:0010146	rdfs:label	parietal lobe volume quality	Lexical	PATO:0000918	volume	UBERON:0001872	parietal lobe
+EFO:0010299	rdfs:label	corpus callosum volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002336	corpus callosum
+EFO:0020355	rdfs:label	ephrin type-b receptor 6 quality	Lexical	PATO:0000001	quality	GO:0005106	ephrin
+EFO:0009286	rdfs:label	heart relative wall thickness	Lexical	PATO:0000915	thickness	UBERON:0000948	heart
+EFO:0008389	rdfs:label	putamen quality	Lexical	PATO:0000001	quality	UBERON:0001874	putamen
+EFO:0600044	rdfs:label	kidney volume	Lexical	PATO:0000918	volume	UBERON:0002113	kidney
+EFO:0004844	rdfs:label	hip bone size	Lexical	PATO:0000117	size	UBERON:0001272	hip bone
+EFO:0006932	rdfs:label	putamen volume	Lexical	PATO:0000918	volume	UBERON:0001874	putamen
+EFO:0010918	rdfs:label	lectin-like oxidized ldl receptor 1 quality	Lexical	PATO:0002223	oxidized	GO:0005041	LDL receptor
+EFO:0005274	rdfs:label	sleep time	Lexical	PATO:0000165	time	GO:0030431	sleep
+EFO:0600005	rdfs:label	ganglion cell inner plexiform layer thickness quality	Lexical	PATO:0000915	thickness	UBERON:0000045	ganglion
+EFO:0600005	rdfs:label	ganglion cell inner plexiform layer thickness quality	Lexical	PATO:0000915	thickness	CL:0000000	cell
+EFO:0010327	rdfs:label	rostral anterior cingulate cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0022438	rostral anterior cingulate cortex
+EFO:0009392	rdfs:label	glucose metabolism decline quality	Lexical	PATO:0000001	quality	GO:0008152	metabolism
+EFO:0020761	rdfs:label	t-lymphocyte activation antigen cd80 quality	Lexical	PATO:0000001	quality	CL:0000084	T-lymphocyte
+EFO:0020112	rdfs:label	26s proteasome non-atpase regulatory subunit 7 quality	Lexical	PATO:0000001	quality	GO:0005837	26S proteasome
+EFO:0010313	rdfs:label	limbic lobe volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002600	limbic lobe
+EFO:0007721	rdfs:label	carotid artery central pulse pressure quality	Lexical	PATO:0001025	pressure	UBERON:0005396	carotid artery
+EFO:0008235	rdfs:label	monocyte chemotactic protein 3 quality	Lexical	PATO:0000001	quality	CL:0000576	monocyte
+EFO:0020711	rdfs:label	ribosome maturation protein sbds quality	Lexical	PATO:0000001	quality	GO:0005840	ribosome
+EFO:0007824	rdfs:label	hair shape quality	Lexical	PATO:0000052	shape	UBERON:0001037	hair
+EFO:0009936	rdfs:label	drugs affecting bone structure and mineralization use quality	Lexical	PATO:0000141	structure	GO:0110148	mineralization
+EFO:0004628	rdfs:label	insulin like growth factor quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008420	rdfs:label	parietal cortex quality	Lexical	PATO:0000001	quality	UBERON:0016530	parietal cortex
+EFO:0600046	rdfs:label	lung volume	Lexical	PATO:0000918	volume	UBERON:0002048	lung
+EFO:0004762	rdfs:label	vascular endothelial growth factor quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0020545	rdfs:label	lysosome membrane protein 2 quality	Lexical	PATO:0000001	quality	GO:0016020	membrane
+EFO:0020545	rdfs:label	lysosome membrane protein 2 quality	Lexical	PATO:0000001	quality	GO:0005765	lysosome membrane
+EFO:0009278	rdfs:label	cranial vault morphology quality	Lexical	PATO:0000051	morphology	UBERON:0004339	cranial vault
+EFO:0020814	rdfs:label	tumor necrosis factor receptor superfamily member 4 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020641	rdfs:label	pituitary adenylate cyclase-activating polypeptide 38 quality	Lexical	PATO:0000001	quality	UBERON:0000007	pituitary
+EFO:0004864	rdfs:label	renal sinus adipose tissue quality	Lexical	PATO:0000001	quality	UBERON:0006171	renal sinus
+EFO:0004864	rdfs:label	renal sinus adipose tissue quality	Lexical	PATO:0000001	quality	UBERON:0001013	adipose tissue
+EFO:0020388	rdfs:label	fibroblast growth factor receptor 1 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020388	rdfs:label	fibroblast growth factor receptor 1 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0010331	rdfs:label	superior temporal gyrus volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002769	superior temporal gyrus
+EFO:0005201	rdfs:label	height growth quality	Lexical	PATO:0000119	height	GO:0040007	growth
+EFO:0009231	rdfs:label	reticulocyte hemoglobin distribution width	Lexical	PATO:0000921	width	CL:0000558	reticulocyte
+EFO:0009231	rdfs:label	reticulocyte hemoglobin distribution width	Lexical	PATO:0000060	distribution	CL:0000558	reticulocyte
+EFO:0007984	rdfs:label	platelet component distribution width	Lexical	PATO:0000921	width	CL:0000233	platelet
+EFO:0007984	rdfs:label	platelet component distribution width	Lexical	PATO:0000060	distribution	CL:0000233	platelet
+EFO:0009239	rdfs:label	mature plasma cell count	Lexical	PATO:0001701	mature	CL:0000786	plasma cell
+EFO:0009349	rdfs:label	anti-herpes simplex virus 1 igg quality	Lexical	PATO:0000001	quality	UBERON:0005350	simplex
+EFO:0020800	rdfs:label	tumor necrosis factor receptor superfamily member 11a quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020794	rdfs:label	tumor necrosis factor ligand superfamily member 15 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020537	rdfs:label	limbic system-associated membrane protein quality	Lexical	PATO:0000001	quality	GO:0016020	membrane
+EFO:0007663	rdfs:label	childhood aggressive behaviour quality	Lexical	PATO:0000001	quality	GO:0007610	behaviour
+EFO:0020749	rdfs:label	spectrin alpha chain, non-erythrocytic 1 quality	Lexical	PATO:0000001	quality	GO:0008091	spectrin
+EFO:0020263	rdfs:label	coagulation factor ix quality	Lexical	PATO:0000001	quality	GO:0050817	coagulation
+EFO:0009480	rdfs:label	coping behaviour quality	Lexical	PATO:0000001	quality	GO:0007610	behaviour
+EFO:0006828	rdfs:label	plasma renin activity quality	Lexical	PATO:0000001	quality	GO:0004195	renin activity
+EFO:0009590	rdfs:label	visual memory quality	Lexical	PATO:0000001	quality	GO:0007613	memory
+EFO:0009335	rdfs:label	white matter growth quality	Lexical	PATO:0000323	white	GO:0040007	growth
+EFO:0010289	rdfs:label	caudal anterior cingulate cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0009835	anterior cingulate cortex
+EFO:0010289	rdfs:label	caudal anterior cingulate cortex volume quality@en	Lexical	PATO:0001880	caudal	UBERON:0009835	anterior cingulate cortex
+EFO:0020467	rdfs:label	importin subunit alpha-1 quality	Lexical	PATO:0000001	quality	GO:0005646	importin
+EFO:0007583	rdfs:label	blood nickel quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0007844	rdfs:label	forehead morphology quality	Lexical	PATO:0000051	morphology	UBERON:0008200	forehead
+EFO:0020806	rdfs:label	tumor necrosis factor receptor superfamily member 17 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0008268	rdfs:label	programmed cell death 1 ligand 2 quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0008268	rdfs:label	programmed cell death 1 ligand 2 quality	Lexical	PATO:0000001	quality	GO:0012501	programmed cell death
+EFO:0009328	rdfs:label	cerebral cortex growth quality	Lexical	PATO:0000001	quality	UBERON:0000956	cerebral cortex
+EFO:0009328	rdfs:label	cerebral cortex growth quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008253	rdfs:label	ox-2 membrane glycoprotein quality	Lexical	PATO:0000001	quality	GO:0016020	membrane
+EFO:0008080	rdfs:label	cerebrospinal fluid volume quality	Lexical	PATO:0000918	volume	UBERON:0001359	cerebrospinal fluid
+EFO:0020382	rdfs:label	fibroblast growth factor 4 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020382	rdfs:label	fibroblast growth factor 4 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0006931	rdfs:label	nucleus accumbens volume	Lexical	PATO:0000918	volume	UBERON:0001882	nucleus accumbens
+EFO:0006869	rdfs:label	skin conductance response frequency	Lexical	PATO:0000044	frequency	UBERON:0000014	skin
+EFO:0005036	rdfs:label	platelet quality	Lexical	PATO:0000001	quality	CL:0000233	platelet
+EFO:0020847	rdfs:label	vascular endothelial growth factor a, isoform 121 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0600070	rdfs:label	interleukin-6 gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0020375	rdfs:label	fibroblast growth factor 1 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020375	rdfs:label	fibroblast growth factor 1 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0007772	rdfs:label	calcaneal bone quantitative ultrasound quality	Lexical	PATO:0000070	quantitative	UBERON:0001450	calcaneal bone
+EFO:0020799	rdfs:label	tumor necrosis factor receptor superfamily member 10a quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0009790	rdfs:label	asparaginase activity quality	Lexical	PATO:0000001	quality	GO:0004067	asparaginase activity
+EFO:0600036	rdfs:label	muscle fiber cross-sectional area quality	Lexical	PATO:0001323	area	CL:0000187	muscle fiber
+EFO:0006937	rdfs:label	optic disc area quality	Lexical	PATO:0001323	area	UBERON:0001783	optic disc
+EFO:0009181	rdfs:label	growth differentiation factor 15 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0005267	rdfs:label	serum copper quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0004536	rdfs:label	total blood protein quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0020171	rdfs:label	b-cell receptor cd22 quality	Lexical	PATO:0000001	quality	CL:0000236	B-cell
+EFO:0020471	rdfs:label	inhibitor of growth protein 1 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0010305	rdfs:label	fusiform gyrus volume quality@en	Lexical	PATO:0002400	fusiform	UBERON:0000200	gyrus
+EFO:0010305	rdfs:label	fusiform gyrus volume quality@en	Lexical	PATO:0000918	volume	UBERON:0000200	gyrus
+EFO:0010605	rdfs:label	brain stem volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002298	brain stem
+EFO:0020563	rdfs:label	membrane frizzled-related protein quality	Lexical	PATO:0000001	quality	GO:0016020	membrane
+EFO:0004642	rdfs:label	cortisol secretion quality	Lexical	PATO:0000001	quality	GO:0046903	secretion
+EFO:0004752	rdfs:label	parathyroid hormone quality	Lexical	PATO:0000001	quality	UBERON:0001132	parathyroid
+EFO:0010318	rdfs:label	parahippocampal gyrus volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002973	parahippocampal gyrus
+EFO:0008408	rdfs:label	susceptibility to strep throat quality	Lexical	PATO:0001043	susceptibility	UBERON:0000341	throat
+EFO:0009187	rdfs:label	immature platelet fraction	Lexical	PATO:0001501	immature	CL:0000233	platelet
+EFO:0004577	rdfs:label	infant head circumference	Lexical	PATO:0001648	circumference	UBERON:0000033	head
+EFO:0010783	rdfs:label	fibroblast growth factor 21 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0010783	rdfs:label	fibroblast growth factor 21 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0010082	rdfs:label	nerve conduction quality	Lexical	PATO:0000001	quality	UBERON:0001021	nerve
+EFO:0007849	rdfs:label	functional brain quality	Lexical	PATO:0001510	functional	UBERON:0000955	brain
+EFO:0005671	rdfs:label	smoking behaviour quality	Lexical	PATO:0000001	quality	GO:0007610	behaviour
+EFO:0004634	rdfs:label	coagulation factor quality	Lexical	PATO:0000001	quality	GO:0050817	coagulation
+EFO:0010150	rdfs:label	anti-anoctamin 2 antibody quality	Lexical	PATO:0000001	quality	GO:0042571	antibody
+EFO:0020661	rdfs:label	proteasome activator complex subunit 1 quality	Lexical	PATO:0001504	complex	GO:0000502	proteasome
+EFO:0008302	rdfs:label	transforming growth factor-beta-induced protein ig-h3 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0010336	rdfs:label	transverse temporal cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0016538	temporal cortex
+EFO:0020476	rdfs:label	insulin-like growth factor-binding protein 4 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008315	rdfs:label	vascular endothelial growth factor receptor 3 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0600069	rdfs:label	tumor necrosis factor alpha gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0600069	rdfs:label	tumor necrosis factor alpha gene expression quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020519	rdfs:label	killer cell immunoglobulin-like receptor 3ds1 quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0009699	rdfs:label	foot muscle strength quality	Lexical	PATO:0001230	strength	UBERON:0001498	foot muscle
+EFO:0009795	rdfs:label	serum urea quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0007723	rdfs:label	carotid artery mean blood pressure quality	Lexical	PATO:0001025	pressure	UBERON:0000178	blood
+EFO:0007723	rdfs:label	carotid artery mean blood pressure quality	Lexical	PATO:0001025	pressure	UBERON:0005396	carotid artery
+EFO:0010322	rdfs:label	pericalcarine cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0022534	pericalcarine cortex
+EFO:0009186	rdfs:label	platelet larger cell ratio	Lexical	PATO:0001470	ratio	CL:0000000	cell
+EFO:0009186	rdfs:label	platelet larger cell ratio	Lexical	PATO:0001470	ratio	CL:0000233	platelet
+EFO:0008428	rdfs:label	igg sialylation quality	Lexical	PATO:0000001	quality	GO:0097503	sialylation
+EFO:0020554	rdfs:label	mast/stem cell growth factor receptor kit quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0020554	rdfs:label	mast/stem cell growth factor receptor kit quality	Lexical	PATO:0000001	quality	GO:0016049	cell growth
+EFO:0007582	rdfs:label	blood molybdenum quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0020351	rdfs:label	ephrin type-a receptor 2 quality	Lexical	PATO:0000001	quality	GO:0005106	ephrin
+EFO:0007576	rdfs:label	blood cadmium quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0020200	rdfs:label	c-type lectin domain family 1 member b quality	Lexical	PATO:0000001	quality	GO:0005530	lectin
+EFO:0007968	rdfs:label	tissue factor pathway inhibitor quality	Lexical	PATO:0000001	quality	UBERON:0000479	tissue
+EFO:0009178	rdfs:label	neurofilament light chain quality	Lexical	PATO:0000665	light	GO:0005883	neurofilament
+EFO:0020547	rdfs:label	macrophage colony-stimulating factor 1 receptor quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+EFO:0010135	rdfs:label	urine specific gravity quality	Lexical	PATO:0000001	quality	UBERON:0001088	urine
+EFO:0010914	rdfs:label	fatty acid-binding protein, adipocyte quality	Lexical	PATO:0002114	fatty	CL:0000136	adipocyte
+EFO:0020657	rdfs:label	proliferating cell nuclear antigen quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0010073	rdfs:label	number of teeth quality	Lexical	PATO:0001555	number of	UBERON:0003672	teeth
+EFO:0009402	rdfs:label	hippocampus fimbria volume	Lexical	PATO:0000918	volume	UBERON:0002310	hippocampus fimbria
+EFO:0004535	rdfs:label	serum albumin quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0009233	rdfs:label	blood cell count ratio measurement	Lexical	PATO:0001470	ratio	CL:0000081	blood cell
+EFO:0010087	rdfs:label	anti-meningococcal c serum bactericidal antibody quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0010087	rdfs:label	anti-meningococcal c serum bactericidal antibody quality	Lexical	PATO:0000001	quality	GO:0042571	antibody
+EFO:0005849	rdfs:label	serum lipase activity quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0005849	rdfs:label	serum lipase activity quality	Lexical	PATO:0000001	quality	GO:0016298	lipase activity
+EFO:0020477	rdfs:label	insulin-like growth factor-binding protein 5 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0020901	rdfs:label	chylomicron change quality	Lexical	PATO:0000001	quality	GO:0042627	chylomicron
+EFO:0009399	rdfs:label	subiculum volume	Lexical	PATO:0000918	volume	UBERON:0002191	subiculum
+EFO:0004985	rdfs:label	platelet reactivity quality	Lexical	PATO:0000001	quality	CL:0000233	platelet
+EFO:0008161	rdfs:label	insulin-like growth factor-binding protein 7 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0004728	rdfs:label	serum amyloid a protein quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0010079	rdfs:label	corneal endothelial cell quality	Lexical	PATO:0000001	quality	CL:0000132	corneal endothelial cell
+EFO:0010294	rdfs:label	cingulate cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0003027	cingulate cortex
+EFO:0010789	rdfs:label	monocyte chemotactic protein-2 quality	Lexical	PATO:0000001	quality	CL:0000576	monocyte
+EFO:0004624	rdfs:label	prostate specific antigen quality	Lexical	PATO:0000001	quality	UBERON:0002367	prostate
+EFO:0008285	rdfs:label	sialic acid-binding ig-like lectin 6 quality	Lexical	PATO:0000001	quality	GO:0005530	lectin
+EFO:0020541	rdfs:label	lymphocyte antigen 86 quality	Lexical	PATO:0000001	quality	CL:0000542	lymphocyte
+EFO:0009274	rdfs:label	epstein barr viral capsid antigen igg quality	Lexical	PATO:0000001	quality	GO:0019028	viral capsid
+EFO:0020810	rdfs:label	tumor necrosis factor receptor superfamily member 21 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020384	rdfs:label	fibroblast growth factor 7 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020384	rdfs:label	fibroblast growth factor 7 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0005053	rdfs:label	internal carotid intimal medial thickness	Lexical	PATO:0000915	thickness	UBERON:0001532	internal carotid
+EFO:0010572	rdfs:label	growth rate quality@en	Lexical	PATO:0000161	rate	GO:0040007	growth
+EFO:0010572	rdfs:label	growth rate quality@en	Lexical	PATO:0001492	growth rate	GO:0040007	growth
+EFO:0020762	rdfs:label	t-lymphocyte activation antigen cd86 quality	Lexical	PATO:0000001	quality	CL:0000084	T-lymphocyte
+EFO:0004993	rdfs:label	serum igm quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0008119	rdfs:label	endoplasmic reticulum aminopeptidase 1 quality	Lexical	PATO:0000001	quality	GO:0005783	endoplasmic reticulum
+EFO:0020775	rdfs:label	thyroid peroxidase quality	Lexical	PATO:0000001	quality	UBERON:0002046	thyroid
+EFO:0004568	rdfs:label	serum non-albumin protein quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0010328	rdfs:label	rostral middle frontal gyrus volume quality@en	Lexical	PATO:0000918	volume	UBERON:0006446	rostral middle frontal gyrus
+EFO:0006942	rdfs:label	facial pigmentation quality	Lexical	PATO:0000001	quality	GO:0043473	pigmentation
+EFO:0008374	rdfs:label	liver amyloid deposition quality	Lexical	PATO:0000001	quality	UBERON:0002107	liver
+EFO:0005047	rdfs:label	erythrocyte quality	Lexical	PATO:0000001	quality	CL:0000232	erythrocyte
+EFO:0008307	rdfs:label	tuberculin skin test reactivity quality	Lexical	PATO:0000001	quality	UBERON:0000014	skin
+EFO:0009931	rdfs:label	agents acting on the renin-angiotensin system use quality	Lexical	PATO:0000001	quality	UBERON:0018229	renin-angiotensin system
+EFO:0020311	rdfs:label	cytotoxic and regulatory t-cell molecule quality	Lexical	PATO:0000001	quality	CL:0000815	regulatory T-cell
+EFO:0010696	rdfs:label	soluble gp130 quality@en	Lexical	PATO:0001537	soluble	GO:0004898	gp130
+EFO:0008152	rdfs:label	hepatocyte growth factor activator quality	Lexical	PATO:0000001	quality	CL:0000182	hepatocyte
+EFO:0008152	rdfs:label	hepatocyte growth factor activator quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0600047	rdfs:label	spleen volume	Lexical	PATO:0000918	volume	UBERON:0002106	spleen
+EFO:0020754	rdfs:label	stem cell growth factor-alpha quality	Lexical	PATO:0000001	quality	CL:0000034	stem cell
+EFO:0020754	rdfs:label	stem cell growth factor-alpha quality	Lexical	PATO:0000001	quality	GO:0016049	cell growth
+EFO:0007937	rdfs:label	blood protein quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0010300	rdfs:label	corpus collosum mid-posterior volume quality@en	Lexical	PATO:0000918	volume	UBERON:3000645	corpus
+EFO:0009701	rdfs:label	visceral:total adipose tissue ratio	Lexical	PATO:0001470	ratio	UBERON:0001013	adipose tissue
+EFO:0004463	rdfs:label	angiotensin converting enzyme activity quality	Lexical	PATO:0000001	quality	GO:0003824	enzyme activity
+EFO:0008220	rdfs:label	macrophage metalloelastase quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+EFO:0010120	rdfs:label	fasting blood glucose change quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0020815	rdfs:label	tumor necrosis factor receptor superfamily member 6b quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020795	rdfs:label	tumor necrosis factor ligand superfamily member 18 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020389	rdfs:label	fibroblast growth factor receptor 2 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020389	rdfs:label	fibroblast growth factor receptor 2 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0006933	rdfs:label	pallidum volume	Lexical	PATO:0000918	volume	UBERON:0006514	pallidum
+EFO:0010069	rdfs:label	nerve conduction velocity	Lexical	PATO:0002242	velocity	UBERON:0001021	nerve
+EFO:0007817	rdfs:label	sleep apnea quality	Lexical	PATO:0000001	quality	GO:0030431	sleep
+EFO:0008040	rdfs:label	breast cancer anti-estrogen resistance protein 3 quality	Lexical	PATO:0001046	resistance	UBERON:0000310	breast
+EFO:0020127	rdfs:label	activin receptor type-1b quality	Lexical	PATO:0000001	quality	GO:0016915	activin
+EFO:0007052	rdfs:label	antisocial behaviour quality	Lexical	PATO:0000001	quality	GO:0007610	behaviour
+EFO:0010301	rdfs:label	cuneus cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0006092	cuneus cortex
+EFO:0008006	rdfs:label	skin aging quality	Lexical	PATO:0000001	quality	UBERON:0000014	skin
+EFO:0008006	rdfs:label	skin aging quality	Lexical	PATO:0000001	quality	GO:0007568	aging
+EFO:0020807	rdfs:label	tumor necrosis factor receptor superfamily member 18 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020648	rdfs:label	platelet-derived growth factor c quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0020264	rdfs:label	coagulation factor ixab quality	Lexical	PATO:0000001	quality	GO:0050817	coagulation
+EFO:0010314	rdfs:label	lingual gyrus volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002943	lingual gyrus
+EFO:0007852	rdfs:label	thiopurine methyltransferase activity quality	Lexical	PATO:0000001	quality	GO:0008168	methyltransferase activity
+EFO:0020780	rdfs:label	transforming growth factor beta-1 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0004351	rdfs:label	resting heart rate	Lexical	PATO:0000161	rate	UBERON:0000948	heart
+EFO:0009591	rdfs:label	verbal memory quality	Lexical	PATO:0000001	quality	GO:0007613	memory
+EFO:0020468	rdfs:label	importin subunit beta-1 quality	Lexical	PATO:0000001	quality	GO:0005646	importin
+EFO:0007584	rdfs:label	blood zinc quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0020370	rdfs:label	eukaryotic translation initiation factor 5a-1 quality	Lexical	PATO:0000001	quality	GO:0006413	translation initiation
+EFO:0020131	rdfs:label	advanced glycosylation end product-specific receptor, soluble quality	Lexical	PATO:0001537	soluble	GO:0070085	glycosylation
+EFO:0020131	rdfs:label	advanced glycosylation end product-specific receptor, soluble quality	Lexical	PATO:0000694	advanced	GO:0070085	glycosylation
+EFO:0005139	rdfs:label	serum ceruloplasmin quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0020383	rdfs:label	fibroblast growth factor 6 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020383	rdfs:label	fibroblast growth factor 6 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0004582	rdfs:label	liver enzyme quality	Lexical	PATO:0000001	quality	UBERON:0002107	liver
+EFO:0004865	rdfs:label	thyroid volume	Lexical	PATO:0000918	volume	UBERON:0002046	thyroid
+EFO:0006800	rdfs:label	vascular brain injury quality	Lexical	PATO:0000001	quality	UBERON:0000955	brain
+EFO:0008087	rdfs:label	coagulation factor v quality	Lexical	PATO:0000001	quality	GO:0050817	coagulation
+EFO:0008358	rdfs:label	dorsolateral prefrontal cortex functional quality	Lexical	PATO:0001510	functional	UBERON:0009834	dorsolateral prefrontal cortex
+EFO:0010332	rdfs:label	supramarginal gyrus volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002688	supramarginal gyrus
+EFO:0006794	rdfs:label	cerebrospinal fluid biomarker quality	Lexical	PATO:0000001	quality	UBERON:0001359	cerebrospinal fluid
+EFO:0600071	rdfs:label	blood glutathione peroxidase quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0020848	rdfs:label	vascular endothelial growth factor c quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0020376	rdfs:label	fibroblast growth factor 10 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020376	rdfs:label	fibroblast growth factor 10 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008311	rdfs:label	tumor necrosis factor-inducible gene 6 protein quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0600079	rdfs:label	glucocorticoid receptor gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0020564	rdfs:label	membrane metallo-endopeptidase-like 1 quality	Lexical	PATO:0000001	quality	GO:0016020	membrane
+EFO:0007789	rdfs:label	bmi-adjusted waist circumference	Lexical	PATO:0001648	circumference	UBERON:0037468	waist
+EFO:0020801	rdfs:label	tumor necrosis factor receptor superfamily member 11b quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0009791	rdfs:label	fatty acid desaturase enzyme activity quality	Lexical	PATO:0002114	fatty	GO:0003824	enzyme activity
+EFO:0008295	rdfs:label	t-lymphocyte surface antigen ly-9 quality	Lexical	PATO:0000001	quality	CL:0000084	T-lymphocyte
+EFO:0007978	rdfs:label	red blood cell density quality	Lexical	PATO:0000001	quality	CL:0000232	red blood cell
+EFO:0010931	rdfs:label	tumor necrosis factor receptor 1 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0004912	rdfs:label	serum iga quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0007964	rdfs:label	gestational serum quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0020441	rdfs:label	heterogeneous nuclear ribonucleoprotein a/b quality	Lexical	PATO:0000001	quality	GO:0030530	heterogeneous nuclear ribonucleoprotein
+EFO:0010319	rdfs:label	pars opercularis volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002980	pars opercularis
+EFO:0020736	rdfs:label	serum paraoxonase/arylesterase 1 quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0009188	rdfs:label	red cell distribution width	Lexical	PATO:0000921	width	CL:0000000	cell
+EFO:0009188	rdfs:label	red cell distribution width	Lexical	PATO:0000060	distribution	CL:0000000	cell
+EFO:0005852	rdfs:label	heschl's gyrus morphology quality	Lexical	PATO:0000051	morphology	UBERON:0000200	gyrus
+EFO:0010924	rdfs:label	proheparin-binding egf-like growth factor quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0010784	rdfs:label	fibroblast growth factor 5 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0010784	rdfs:label	fibroblast growth factor 5 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0010083	rdfs:label	dentate gyrus volume quality	Lexical	PATO:0000918	volume	UBERON:0000200	gyrus
+EFO:0010083	rdfs:label	dentate gyrus volume quality	Lexical	PATO:0001205	dentate	UBERON:0000200	gyrus
+EFO:0005037	rdfs:label	aortic root size	Lexical	PATO:0000117	size	UBERON:0010172	aortic root
+EFO:0006799	rdfs:label	lewy body dementia quality	Lexical	PATO:0000001	quality	GO:0097413	Lewy body
+EFO:0010972	rdfs:label	blood phosphate quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0005415	rdfs:label	serum alpha-1-antitrypsin quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0006335	rdfs:label	systolic blood pressure	Lexical	PATO:0001025	pressure	UBERON:0000178	blood
+EFO:0004684	rdfs:label	tumor necrosis factor-alpha quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0008079	rdfs:label	cell adhesion molecule-related/down-regulated by oncogenes quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0008079	rdfs:label	cell adhesion molecule-related/down-regulated by oncogenes quality	Lexical	PATO:0000001	quality	GO:0007155	cell adhesion
+EFO:0008455	rdfs:label	sleep apnea quality during rem sleep	Lexical	PATO:0000001	quality	GO:0030431	sleep
+EFO:0008032	rdfs:label	basal cell adhesion molecule quality	Lexical	PATO:0000001	quality	CL:0000646	basal cell
+EFO:0008032	rdfs:label	basal cell adhesion molecule quality	Lexical	PATO:0000001	quality	GO:0007155	cell adhesion
+EFO:0020662	rdfs:label	proteasome activator complex subunit 3 quality	Lexical	PATO:0001504	complex	GO:0000502	proteasome
+EFO:0007738	rdfs:label	cingulate cortex quality	Lexical	PATO:0000001	quality	UBERON:0003027	cingulate cortex
+EFO:0010323	rdfs:label	postcentral gyrus volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002581	postcentral gyrus
+EFO:0008142	rdfs:label	granulocyte colony-stimulating factor quality	Lexical	PATO:0000001	quality	CL:0000094	granulocyte
+EFO:0008413	rdfs:label	susceptibility to urinary tract infection quality	Lexical	PATO:0001043	susceptibility	UBERON:0001008	urinary tract
+EFO:0005268	rdfs:label	serum zinc quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0020367	rdfs:label	eukaryotic translation initiation factor 4 gamma 2 quality	Lexical	PATO:0000001	quality	GO:0006413	translation initiation
+EFO:0009896	rdfs:label	anti-thyroglobulin antibody quality	Lexical	PATO:0000001	quality	GO:0042571	antibody
+EFO:0007724	rdfs:label	carotid artery circumferential wall stress quality	Lexical	PATO:0000001	quality	UBERON:0005396	carotid artery
+EFO:0020201	rdfs:label	c-type lectin domain family 4 member k quality	Lexical	PATO:0000001	quality	GO:0005530	lectin
+EFO:0010804	rdfs:label	vascular endothelial growth factor a quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0010798	rdfs:label	transforming growth factor-alpha quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0020269	rdfs:label	collagen alpha-1(viii) chain quality	Lexical	PATO:0000001	quality	GO:0005202	collagen
+EFO:0004841	rdfs:label	digit length ratio	Lexical	PATO:0000122	length	UBERON:0002544	digit
+EFO:0004841	rdfs:label	digit length ratio	Lexical	PATO:0001470	ratio	UBERON:0002544	digit
+EFO:0007615	rdfs:label	thrombus formation quality	Lexical	PATO:0000001	quality	UBERON:0010210	thrombus
+EFO:0010296	rdfs:label	corpus callosum central volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002336	corpus callosum
+EFO:0020352	rdfs:label	ephrin type-a receptor 3 quality	Lexical	PATO:0000001	quality	GO:0005106	ephrin
+EFO:0007577	rdfs:label	blood cobalt quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0008129	rdfs:label	fibroblast growth factor 2 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0008129	rdfs:label	fibroblast growth factor 2 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0006903	rdfs:label	hepatocyte growth factor quality	Lexical	PATO:0000001	quality	CL:0000182	hepatocyte
+EFO:0006903	rdfs:label	hepatocyte growth factor quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0009403	rdfs:label	granule cell layer dentate gyrus volume	Lexical	PATO:0000918	volume	UBERON:0000119	cell layer
+EFO:0009403	rdfs:label	granule cell layer dentate gyrus volume	Lexical	PATO:0000918	volume	UBERON:0000200	gyrus
+EFO:0009403	rdfs:label	granule cell layer dentate gyrus volume	Lexical	PATO:0000918	volume	CL:0000120	granule cell
+EFO:0009403	rdfs:label	granule cell layer dentate gyrus volume	Lexical	PATO:0001205	dentate	UBERON:0000119	cell layer
+EFO:0009403	rdfs:label	granule cell layer dentate gyrus volume	Lexical	PATO:0001205	dentate	UBERON:0000200	gyrus
+EFO:0009403	rdfs:label	granule cell layer dentate gyrus volume	Lexical	PATO:0001205	dentate	CL:0000120	granule cell
+EFO:0010310	rdfs:label	isthmus cingulate cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0003027	cingulate cortex
+EFO:0010310	rdfs:label	isthmus cingulate cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:4300180	isthmus
+EFO:0006882	rdfs:label	suicide behaviour quality	Lexical	PATO:0000001	quality	GO:0007610	behaviour
+EFO:0007963	rdfs:label	abnormal paneth cell quality	Lexical	PATO:0000460	abnormal	CL:0000510	paneth cell
+EFO:0006944	rdfs:label	systolic blood pressure change quality	Lexical	PATO:0001025	pressure	UBERON:0000178	blood
+EFO:0007877	rdfs:label	risky sexual behaviour quality	Lexical	PATO:0000001	quality	GO:0007610	behaviour
+EFO:0008238	rdfs:label	myeloid cell surface antigen cd33 quality	Lexical	PATO:0000001	quality	CL:0000763	myeloid cell
+EFO:0008238	rdfs:label	myeloid cell surface antigen cd33 quality	Lexical	PATO:0000001	quality	GO:0009986	cell surface
+EFO:0007821	rdfs:label	hair morphology quality	Lexical	PATO:0000051	morphology	UBERON:0001037	hair
+EFO:0007781	rdfs:label	stressful life event quality	Lexical	PATO:0000001	quality	UBERON:0000104	life
+EFO:0008286	rdfs:label	sialic acid-binding ig-like lectin 9 quality	Lexical	PATO:0000001	quality	GO:0005530	lectin
+EFO:0020811	rdfs:label	tumor necrosis factor receptor superfamily member 25 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020548	rdfs:label	macrophage mannose receptor 1 quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+EFO:0005664	rdfs:label	blood metabolite quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0008375	rdfs:label	macula quality	Lexical	PATO:0000001	quality	UBERON:0000054	macula
+EFO:0004556	rdfs:label	antibody quality	Lexical	PATO:0000001	quality	GO:0042571	antibody
+EFO:0007862	rdfs:label	reproductive behaviour quality	Lexical	PATO:0000001	quality	GO:0019098	reproductive behaviour
+EFO:0020368	rdfs:label	eukaryotic translation initiation factor 4e-binding protein 2 quality	Lexical	PATO:0000001	quality	GO:0006413	translation initiation
+EFO:0010286	rdfs:label	banks of the superior temporal sulcus volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002734	superior temporal sulcus
+EFO:0020478	rdfs:label	insulin-like growth factor-binding protein 6 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0004569	rdfs:label	brain serotonin transporter quality	Lexical	PATO:0000001	quality	UBERON:0000955	brain
+EFO:0020573	rdfs:label	mitochondrial import inner membrane translocase subunit tim14 quality	Lexical	PATO:0000001	quality	GO:0016020	membrane
+EFO:0020644	rdfs:label	platelet factor 4 quality	Lexical	PATO:0000001	quality	CL:0000233	platelet
+EFO:0006943	rdfs:label	blood pressure change quality	Lexical	PATO:0001025	pressure	UBERON:0000178	blood
+EFO:0020602	rdfs:label	neuronal cell adhesion molecule quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0020602	rdfs:label	neuronal cell adhesion molecule quality	Lexical	PATO:0000001	quality	GO:0007158	neuronal cell adhesion
+EFO:0007716	rdfs:label	carotid artery quality	Lexical	PATO:0000001	quality	UBERON:0005396	carotid artery
+EFO:0020312	rdfs:label	cytotoxic t-lymphocyte protein 4 quality	Lexical	PATO:0000001	quality	CL:0000910	cytotoxic T-lymphocyte
+EFO:0007826	rdfs:label	aggressive behaviour quality	Lexical	PATO:0000001	quality	GO:0007610	behaviour
+EFO:0010295	rdfs:label	corpus callosum anterior volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002336	corpus callosum
+EFO:0600048	rdfs:label	liver volume	Lexical	PATO:0000918	volume	UBERON:0002107	liver
+EFO:0007783	rdfs:label	mosaic loss of chromosome y quality	Lexical	PATO:0001999	loss of	GO:0005694	chromosome
+EFO:0008221	rdfs:label	macrophage migration inhibitory factor quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+EFO:0004764	rdfs:label	adipose tissue quality	Lexical	PATO:0000001	quality	UBERON:0001013	adipose tissue
+EFO:0004807	rdfs:label	short sleep	Lexical	PATO:0000574	short	GO:0030431	sleep
+EFO:0008229	rdfs:label	melanoma-derived growth regulatory protein quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0004550	rdfs:label	amygdala reactivity quality	Lexical	PATO:0000001	quality	UBERON:0001876	amygdala
+EFO:0004311	rdfs:label	heart function quality	Lexical	PATO:0000001	quality	UBERON:0000948	heart
+EFO:0020318	rdfs:label	dentin matrix acidic phosphoprotein 1 quality	Lexical	PATO:0001429	acidic	UBERON:0001751	dentin
+EFO:0008538	rdfs:label	helping behavior quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+EFO:0004464	rdfs:label	brain quality	Lexical	PATO:0000001	quality	UBERON:0000955	brain
+EFO:0020330	rdfs:label	dna repair protein rad51 homolog 1 quality	Lexical	PATO:0000001	quality	GO:0006281	DNA repair
+EFO:0020796	rdfs:label	tumor necrosis factor ligand superfamily member 4 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020539	rdfs:label	lymphatic vessel endothelial hyaluronic acid receptor 1 quality	Lexical	PATO:0000001	quality	UBERON:0001473	lymphatic vessel
+EFO:0010127	rdfs:label	serum immunoglobulin quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0020593	rdfs:label	neural cell adhesion molecule 1, 120 kda isoform quality	Lexical	PATO:0000001	quality	CL:0002319	neural cell
+EFO:0020593	rdfs:label	neural cell adhesion molecule 1, 120 kda isoform quality	Lexical	PATO:0000001	quality	GO:0007155	cell adhesion
+EFO:0008217	rdfs:label	macrophage colony stimulating factor quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+EFO:0006934	rdfs:label	amygdala volume	Lexical	PATO:0000918	volume	UBERON:0001876	amygdala
+EFO:0010056	rdfs:label	liver iron quality	Lexical	PATO:0000001	quality	UBERON:0002107	liver
+EFO:0010329	rdfs:label	superior frontal gyrus volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002661	superior frontal gyrus
+EFO:0008310	rdfs:label	tumor necrosis factor receptor superfamily member edar quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0007932	rdfs:label	multiple keratinocyte carcinoma susceptibility quality	Lexical	PATO:0002118	multiple	CL:0000312	keratinocyte
+EFO:0007932	rdfs:label	multiple keratinocyte carcinoma susceptibility quality	Lexical	PATO:0001043	susceptibility	CL:0000312	keratinocyte
+EFO:0020359	rdfs:label	epidermal growth factor receptor quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0010302	rdfs:label	entorhinal cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002728	entorhinal cortex
+EFO:0020469	rdfs:label	inhibin beta a chain quality	Lexical	PATO:0000001	quality	GO:0016916	inhibin
+EFO:0008308	rdfs:label	tumor necrosis factor beta quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0600087	rdfs:label	narrow occludable anterior chamber angle	Lexical	PATO:0002326	angle	UBERON:0001766	anterior chamber
+EFO:0020191	rdfs:label	brain natriuretic peptide 32 quality	Lexical	PATO:0000001	quality	UBERON:0000955	brain
+EFO:0010794	rdfs:label	signaling lymphocytic activation molecule 1 quality	Lexical	PATO:0000001	quality	GO:0023052	signaling
+EFO:0008262	rdfs:label	platelet glycoprotein 4 quality	Lexical	PATO:0000001	quality	CL:0000233	platelet
+EFO:0020808	rdfs:label	tumor necrosis factor receptor superfamily member 19 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0010315	rdfs:label	medial orbital frontal cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0022352	medial orbital frontal cortex
+EFO:0020781	rdfs:label	transforming growth factor beta-2 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008153	rdfs:label	hepatocyte growth factor receptor quality	Lexical	PATO:0000001	quality	CL:0000182	hepatocyte
+EFO:0008153	rdfs:label	hepatocyte growth factor receptor quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0004860	rdfs:label	common carotid intimal medial thickness	Lexical	PATO:0000915	thickness	UBERON:0005396	carotid
+EFO:0008223	rdfs:label	mannan-binding lectin serine protease 1 quality	Lexical	PATO:0000001	quality	GO:0005530	lectin
+EFO:0008365	rdfs:label	heart amyloid deposition quality	Lexical	PATO:0000001	quality	UBERON:0000948	heart
+EFO:0006795	rdfs:label	serum vegfr2 concentration quality	Lexical	PATO:0000033	concentration	UBERON:0001977	serum
+EFO:0020377	rdfs:label	fibroblast growth factor 12 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020377	rdfs:label	fibroblast growth factor 12 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0020816	rdfs:label	tumor necrosis factor receptor superfamily member 8 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0008596	rdfs:label	chylomicron quality	Lexical	PATO:0000001	quality	GO:0042627	chylomicron
+EFO:0010333	rdfs:label	temporal horn of lateral ventricle volume quality@en	Lexical	PATO:0000918	volume	UBERON:0006967	horn
+EFO:0010333	rdfs:label	temporal horn of lateral ventricle volume quality@en	Lexical	PATO:0001193	lateral	UBERON:0006967	horn
+EFO:0008036	rdfs:label	bmi-adjusted fasting blood glucose quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0020473	rdfs:label	insulin-like growth factor 1 receptor quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0020802	rdfs:label	tumor necrosis factor receptor superfamily member 12a quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0008208	rdfs:label	leukocyte immunoglobulin-like receptor subfamily b member 1 quality	Lexical	PATO:0000001	quality	CL:0000738	leukocyte
+EFO:0006913	rdfs:label	prefrontal cortex cytoarchtiectural quality	Lexical	PATO:0000001	quality	UBERON:0000451	prefrontal cortex
+EFO:0007697	rdfs:label	left superior temporal gyrus grey matter volume quality	Lexical	PATO:0000366	left	UBERON:0002769	superior temporal gyrus
+EFO:0007697	rdfs:label	left superior temporal gyrus grey matter volume quality	Lexical	PATO:0000918	volume	UBERON:0002769	superior temporal gyrus
+EFO:0007697	rdfs:label	left superior temporal gyrus grey matter volume quality	Lexical	PATO:0000950	grey	UBERON:0002769	superior temporal gyrus
+EFO:0020265	rdfs:label	coagulation factor x quality	Lexical	PATO:0000001	quality	GO:0050817	coagulation
+EFO:0005191	rdfs:label	waist height ratio	Lexical	PATO:0000119	height	UBERON:0037468	waist
+EFO:0005191	rdfs:label	waist height ratio	Lexical	PATO:0001470	ratio	UBERON:0037468	waist
+EFO:0020622	rdfs:label	parathyroid hormone-related protein quality	Lexical	PATO:0000001	quality	UBERON:0001132	parathyroid
+EFO:0020179	rdfs:label	bdnf/nt-3 growth factors receptor quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008367	rdfs:label	infant cerebrospinal fluid volume quality	Lexical	PATO:0000918	volume	UBERON:0001359	cerebrospinal fluid
+EFO:0008288	rdfs:label	small nuclear ribonucleoprotein f quality	Lexical	PATO:0000001	quality	GO:0003734	small nuclear ribonucleoprotein
+EFO:0020442	rdfs:label	heterogeneous nuclear ribonucleoprotein k quality	Lexical	PATO:0000001	quality	GO:0030530	heterogeneous nuclear ribonucleoprotein
+EFO:0020251	rdfs:label	cell adhesion molecule 1 quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0020251	rdfs:label	cell adhesion molecule 1 quality	Lexical	PATO:0000001	quality	GO:0007155	cell adhesion
+EFO:0008456	rdfs:label	sleep apnea quality during non-rem sleep	Lexical	PATO:0000001	quality	GO:0030431	sleep
+EFO:0005666	rdfs:label	thyroid peroxidase antibody quality	Lexical	PATO:0000001	quality	UBERON:0002046	thyroid
+EFO:0005666	rdfs:label	thyroid peroxidase antibody quality	Lexical	PATO:0000001	quality	GO:0042571	antibody
+EFO:0020663	rdfs:label	proteasome subunit alpha type-1 quality	Lexical	PATO:0000001	quality	GO:0000502	proteasome
+EFO:0004532	rdfs:label	serum gamma-glutamyl transferase quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0004739	rdfs:label	circulating cell free dna quality	Lexical	PATO:0000001	quality	CL:0000080	circulating cell
+EFO:0005416	rdfs:label	serum st2 quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0006336	rdfs:label	diastolic blood pressure	Lexical	PATO:0001025	pressure	UBERON:0000178	blood
+EFO:0005409	rdfs:label	fat body mass	Lexical	PATO:0000125	mass	UBERON:0003917	fat body
+EFO:0007739	rdfs:label	left superior temporal gyrus thickness quality	Lexical	PATO:0000366	left	UBERON:0002769	superior temporal gyrus
+EFO:0007739	rdfs:label	left superior temporal gyrus thickness quality	Lexical	PATO:0000915	thickness	UBERON:0002769	superior temporal gyrus
+EFO:0010324	rdfs:label	posterior cingulate cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0022353	posterior cingulate cortex
+EFO:0010144	rdfs:label	frontal lobe volume quality	Lexical	PATO:0000918	volume	UBERON:0016525	frontal lobe
+EFO:0010307	rdfs:label	inferior parietal cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0006088	inferior parietal cortex
+EFO:0010297	rdfs:label	corpus callosum mid-anterior volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002336	corpus callosum
+EFO:0020202	rdfs:label	c-type lectin domain family 4 member m quality	Lexical	PATO:0000001	quality	GO:0005530	lectin
+EFO:0008282	rdfs:label	serum amyloid a-1 protein quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0010799	rdfs:label	transforming growth factor-beta quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0004913	rdfs:label	lentiform nucleus quality	Lexical	PATO:0000001	quality	UBERON:0002263	lentiform nucleus
+EFO:0020256	rdfs:label	chloride intracellular channel protein 1 quality	Lexical	PATO:0000001	quality	GO:0005622	intracellular
+EFO:0010137	rdfs:label	leukocyte esterase quality	Lexical	PATO:0000001	quality	CL:0000738	leukocyte
+EFO:0007616	rdfs:label	hearing quality	Lexical	PATO:0000001	quality	GO:0007605	hearing
+EFO:0004579	rdfs:label	serum ige quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0008248	rdfs:label	neutrophil collagenase quality	Lexical	PATO:0000001	quality	CL:0000775	neutrophil
+EFO:0004733	rdfs:label	anti-cyclic citrullinated peptide antibody quality	Lexical	PATO:0000001	quality	GO:0042571	antibody
+EFO:0004565	rdfs:label	serum igg quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0007657	rdfs:label	cerebrospinal fluid clusterin quality	Lexical	PATO:0000001	quality	UBERON:0001359	cerebrospinal fluid
+EFO:0008209	rdfs:label	leukocyte immunoglobulin-like receptor subfamily b member 2 quality	Lexical	PATO:0000001	quality	CL:0000738	leukocyte
+EFO:0006959	rdfs:label	gene methylation quality	Lexical	PATO:0000001	quality	GO:0032259	methylation
+EFO:0011044	rdfs:label	bmi-adjusted neck circumference	Lexical	PATO:0001648	circumference	UBERON:0000974	neck
+EFO:0010311	rdfs:label	lateral occipital cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0016540	occipital cortex
+EFO:0010311	rdfs:label	lateral occipital cortex volume quality@en	Lexical	PATO:0001193	lateral	UBERON:0016540	occipital cortex
+EFO:0007822	rdfs:label	hair colour quality	Lexical	PATO:0000014	colour	UBERON:0001037	hair
+EFO:0010291	rdfs:label	cerebellar cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002129	cerebellar cortex
+EFO:0006516	rdfs:label	superior frontal gyrus grey matter volume quality	Lexical	PATO:0000918	volume	UBERON:0002661	superior frontal gyrus
+EFO:0006516	rdfs:label	superior frontal gyrus grey matter volume quality	Lexical	PATO:0000950	grey	UBERON:0002661	superior frontal gyrus
+EFO:0008124	rdfs:label	ephrin type-b receptor 2 quality	Lexical	PATO:0000001	quality	GO:0005106	ephrin
+EFO:0020438	rdfs:label	heparin-binding egf-like growth factor quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0006945	rdfs:label	diastolic blood pressure change quality	Lexical	PATO:0001025	pressure	UBERON:0000178	blood
+EFO:0007021	rdfs:label	lewy body quality	Lexical	PATO:0000001	quality	GO:0097413	Lewy body
+EFO:0009381	rdfs:label	fibroblast growth factor 23 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0009381	rdfs:label	fibroblast growth factor 23 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0007718	rdfs:label	carotid artery stiffness quality	Lexical	PATO:0000001	quality	UBERON:0005396	carotid artery
+EFO:0020715	rdfs:label	s-phase kinase-associated protein 1 quality	Lexical	PATO:0000001	quality	GO:0051320	S-phase
+EFO:0020353	rdfs:label	ephrin type-a receptor 5 quality	Lexical	PATO:0000001	quality	GO:0005106	ephrin
+EFO:0007578	rdfs:label	blood copper quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0600042	rdfs:label	serum clozapine-to-n-desmethylclozapine ratio quality	Lexical	PATO:0001470	ratio	UBERON:0001977	serum
+EFO:0020645	rdfs:label	platelet glycoprotein ib alpha chain quality	Lexical	PATO:0000001	quality	CL:0000233	platelet
+EFO:0005272	rdfs:label	sleep quality	Lexical	PATO:0000001	quality	GO:0030431	sleep
+EFO:0010325	rdfs:label	precentral gyrus volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002703	precentral gyrus
+EFO:0007980	rdfs:label	cerebral blood flow quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0009404	rdfs:label	hippocampal fissure volume	Lexical	PATO:0000918	volume	UBERON:0002899	hippocampal fissure
+EFO:0020369	rdfs:label	eukaryotic translation initiation factor 5 quality	Lexical	PATO:0000001	quality	GO:0006413	translation initiation
+EFO:0007988	rdfs:label	myeloid white cell count	Lexical	PATO:0000323	white	CL:0000000	cell
+EFO:0010287	rdfs:label	brain cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0000955	brain
+EFO:0010287	rdfs:label	brain cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0001851	cortex
+EFO:0005766	rdfs:label	skin fluorescence quality	Lexical	PATO:0000018	fluorescence	UBERON:0000014	skin
+EFO:0010790	rdfs:label	monocyte chemotactic protein-4 quality	Lexical	PATO:0000001	quality	CL:0000576	monocyte
+EFO:0004839	rdfs:label	cd4:cd8 lymphocyte ratio	Lexical	PATO:0001470	ratio	CL:0000542	lymphocyte
+EFO:0010948	rdfs:label	lower face morphology quality@en	Lexical	PATO:0000051	morphology	UBERON:0001456	face
+EFO:0009326	rdfs:label	brain growth quality	Lexical	PATO:0000001	quality	UBERON:0000955	brain
+EFO:0009326	rdfs:label	brain growth quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0020270	rdfs:label	collagen alpha-1(xxiii) chain quality	Lexical	PATO:0000001	quality	GO:0005202	collagen
+EFO:0020284	rdfs:label	connective tissue growth factor quality	Lexical	PATO:0000001	quality	UBERON:0002384	connective tissue
+EFO:0020284	rdfs:label	connective tissue growth factor quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0009331	rdfs:label	erosive tooth wear quality	Lexical	PATO:0000001	quality	UBERON:0001091	tooth
+EFO:0020380	rdfs:label	fibroblast growth factor 18 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020380	rdfs:label	fibroblast growth factor 18 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0009229	rdfs:label	reticulocyte corpuscular hemoglobin content	Lexical	PATO:0000025	content	CL:0000558	reticulocyte
+EFO:0007717	rdfs:label	carotid artery geometry quality	Lexical	PATO:0000001	quality	UBERON:0005396	carotid artery
+EFO:0008384	rdfs:label	tumor necrosis factor receptor ii quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0009703	rdfs:label	red blood cell folate quality	Lexical	PATO:0000001	quality	CL:0000232	red blood cell
+EFO:0008264	rdfs:label	platelet-derived growth factor bb quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0020373	rdfs:label	fatty acid-binding protein, heart quality	Lexical	PATO:0002114	fatty	UBERON:0000948	heart
+EFO:0008222	rdfs:label	macrophage scavenger receptor types i and ii quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+EFO:0004765	rdfs:label	visceral adipose tissue quality	Lexical	PATO:0000001	quality	UBERON:0001013	adipose tissue
+EFO:0020812	rdfs:label	tumor necrosis factor receptor superfamily member 27 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0600002	rdfs:label	retinal layer thickness quality	Lexical	PATO:0000915	thickness	UBERON:0001781	retinal layer
+EFO:0020386	rdfs:label	fibroblast growth factor 8 isoform b quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020386	rdfs:label	fibroblast growth factor 8 isoform b quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008218	rdfs:label	macrophage inflammatory protein 1a quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+EFO:0005760	rdfs:label	serum carcinoembryonic antigen quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0007786	rdfs:label	menstrual cycle quality	Lexical	PATO:0000001	quality	GO:0044850	menstrual cycle
+EFO:0010128	rdfs:label	immunoglobulin isotype switching quality	Lexical	PATO:0000001	quality	GO:0045190	isotype switching
+EFO:0020594	rdfs:label	neural cell adhesion molecule l1 quality	Lexical	PATO:0000001	quality	CL:0002319	neural cell
+EFO:0020594	rdfs:label	neural cell adhesion molecule l1 quality	Lexical	PATO:0000001	quality	GO:0007155	cell adhesion
+EFO:0008035	rdfs:label	beta-nerve growth factor quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008003	rdfs:label	heart rate variability quality	Lexical	PATO:0001303	variability	UBERON:0000948	heart
+EFO:0008003	rdfs:label	heart rate variability quality	Lexical	PATO:0000161	rate	UBERON:0000948	heart
+EFO:0010316	rdfs:label	middle temporal gyrus volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002771	middle temporal gyrus
+EFO:0010762	rdfs:label	advanced glycosylation end product-specific receptor ligand quality	Lexical	PATO:0000694	advanced	GO:0070085	glycosylation
+EFO:0008309	rdfs:label	tumor necrosis factor receptor superfamily member 19l quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0600088	rdfs:label	lymphocyte:monocyte ratio	Lexical	PATO:0001470	ratio	CL:0000542	lymphocyte
+EFO:0010309	rdfs:label	insular cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0034891	insular cortex
+EFO:0009933	rdfs:label	thyroid preparation use quality	Lexical	PATO:0000001	quality	UBERON:0002046	thyroid
+EFO:0009586	rdfs:label	skin hydration quality	Lexical	PATO:0000001	quality	UBERON:0000014	skin
+EFO:0600041	rdfs:label	serum clozapine quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0008154	rdfs:label	hepatocyte growth factor-like protein quality	Lexical	PATO:0000001	quality	CL:0000182	hepatocyte
+EFO:0008154	rdfs:label	hepatocyte growth factor-like protein quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0600049	rdfs:label	pancreas fat quality	Lexical	PATO:0000001	quality	UBERON:0001264	pancreas
+EFO:0020788	rdfs:label	troponin i, cardiac muscle quality	Lexical	PATO:0000001	quality	UBERON:0001133	cardiac muscle
+EFO:0004584	rdfs:label	mean platelet volume	Lexical	PATO:0000918	volume	CL:0000233	platelet
+EFO:0005271	rdfs:label	sleep duration	Lexical	PATO:0001309	duration	GO:0030431	sleep
+EFO:0020416	rdfs:label	granulocyte colony-stimulating factor receptor quality	Lexical	PATO:0000001	quality	CL:0000094	granulocyte
+EFO:0010334	rdfs:label	temporal pole volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002576	temporal pole
+EFO:0600073	rdfs:label	anti-wu polyomavirus antibody quality	Lexical	PATO:0000001	quality	GO:0042571	antibody
+EFO:0020378	rdfs:label	fibroblast growth factor 16 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020378	rdfs:label	fibroblast growth factor 16 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0011014	rdfs:label	health-related quality of life quality@en	Lexical	PATO:0000001	quality	UBERON:0000104	life
+EFO:0007117	rdfs:label	carotid artery intima media thickness	Lexical	PATO:0000915	thickness	UBERON:0005396	carotid artery
+EFO:0004465	rdfs:label	fasting blood glucose quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0020803	rdfs:label	tumor necrosis factor receptor superfamily member 13b quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0020797	rdfs:label	tumor necrosis factor ligand superfamily member 6, soluble form quality	Lexical	PATO:0001537	soluble	GO:0008220	necrosis
+EFO:0010320	rdfs:label	pars orbitalis volume quality@en	Lexical	PATO:0000918	volume	UBERON:0006318	orbitalis
+EFO:0008292	rdfs:label	stem cell growth factor beta quality	Lexical	PATO:0000001	quality	CL:0000034	stem cell
+EFO:0008292	rdfs:label	stem cell growth factor beta quality	Lexical	PATO:0000001	quality	GO:0016049	cell growth
+EFO:0009325	rdfs:label	basal ganglia growth quality	Lexical	PATO:0000001	quality	UBERON:0010011	basal ganglia
+EFO:0009325	rdfs:label	basal ganglia growth quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008037	rdfs:label	bmi-adjusted fasting blood insulin quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0010057	rdfs:label	vascular cell adhesion molecule-1 quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0010057	rdfs:label	vascular cell adhesion molecule-1 quality	Lexical	PATO:0000001	quality	GO:0007155	cell adhesion
+EFO:0005192	rdfs:label	red blood cell distribution width	Lexical	PATO:0000921	width	CL:0000232	red blood cell
+EFO:0005192	rdfs:label	red blood cell distribution width	Lexical	PATO:0000060	distribution	CL:0000232	red blood cell
+EFO:0008250	rdfs:label	nkg2-d type ii integral membrane protein quality	Lexical	PATO:0000001	quality	GO:0016020	membrane
+EFO:0009228	rdfs:label	reticulocyte corpuscular hemoglobin concentration mean	Lexical	PATO:0000033	concentration	CL:0000558	reticulocyte
+EFO:0007040	rdfs:label	blood lead quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0007580	rdfs:label	blood mercury quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0010303	rdfs:label	fourth ventricle volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002422	fourth ventricle
+EFO:0008263	rdfs:label	platelet glycoprotein vi quality	Lexical	PATO:0000001	quality	CL:0000233	platelet
+EFO:0020443	rdfs:label	heterogeneous nuclear ribonucleoprotein q quality	Lexical	PATO:0000001	quality	GO:0030530	heterogeneous nuclear ribonucleoprotein
+EFO:0007744	rdfs:label	lung disease severity quality	Lexical	PATO:0000001	quality	UBERON:0002048	lung
+EFO:0007593	rdfs:label	chromatid break quality	Lexical	PATO:0000001	quality	GO:0005695	chromatid
+EFO:0020252	rdfs:label	cell adhesion molecule 3 quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0020252	rdfs:label	cell adhesion molecule 3 quality	Lexical	PATO:0000001	quality	GO:0007155	cell adhesion
+EFO:0007854	rdfs:label	knee peak torque quality	Lexical	PATO:0000001	quality	UBERON:0001465	knee
+EFO:0020782	rdfs:label	transforming growth factor beta-3 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008291	rdfs:label	stem cell factor quality	Lexical	PATO:0000001	quality	CL:0000034	stem cell
+EFO:0005667	rdfs:label	urinary albumin excretion rate	Lexical	PATO:0000161	rate	GO:0007588	excretion
+EFO:0020664	rdfs:label	proteasome subunit alpha type-2 quality	Lexical	PATO:0000001	quality	GO:0000502	proteasome
+EFO:0010759	rdfs:label	male reproductive system quality@en	Lexical	PATO:0000384	male	UBERON:0000990	reproductive system
+EFO:0004782	rdfs:label	behavior or behavioral disorder quality	Lexical	PATO:0000001	quality	GO:0007610	behavior
+EFO:0004504	rdfs:label	serum hepcidin quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0009350	rdfs:label	anti-herpes simplex virus 2 igg quality	Lexical	PATO:0000001	quality	UBERON:0005350	simplex
+EFO:0009890	rdfs:label	lean mass-adjusted fat body mass	Lexical	PATO:0000125	mass	UBERON:0003917	fat body
+EFO:0005949	rdfs:label	antinuclear antibody quality	Lexical	PATO:0000001	quality	GO:0042571	antibody
+EFO:0020474	rdfs:label	insulin-like growth factor-binding protein 1 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008130	rdfs:label	fibroblast growth factor basic quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0008130	rdfs:label	fibroblast growth factor basic quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0008283	rdfs:label	serum amyloid p-component quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0600025	rdfs:label	aortic vascular smooth muscle cell calcification quality	Lexical	PATO:0000701	smooth	CL:0000187	muscle cell
+EFO:0008297	rdfs:label	teratocarcinoma-derived growth factor 1 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0009184	rdfs:label	heart rate response to exercise	Lexical	PATO:0000161	rate	UBERON:0000948	heart
+EFO:0009184	rdfs:label	heart rate response to exercise	Lexical	PATO:0000077	response to	UBERON:0000948	heart
+EFO:0010920	rdfs:label	membrane-bound aminopeptidase p quality	Lexical	PATO:0000001	quality	GO:0008451	aminopeptidase P
+EFO:0020050	rdfs:label	bile acid quality	Lexical	PATO:0000001	quality	UBERON:0001970	bile
+EFO:0007617	rdfs:label	pure tone hearing quality	Lexical	PATO:0001439	tone	GO:0007605	hearing
+EFO:0010290	rdfs:label	caudal middle frontal gyrus volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002702	middle frontal gyrus
+EFO:0010290	rdfs:label	caudal middle frontal gyrus volume quality@en	Lexical	PATO:0001880	caudal	UBERON:0002702	middle frontal gyrus
+EFO:0008582	rdfs:label	thrombin activatable fibrinolysis inhibitor activation peptide quality	Lexical	PATO:0000001	quality	GO:0042730	fibrinolysis
+EFO:0008123	rdfs:label	ephrin type-a receptor 1 quality	Lexical	PATO:0000001	quality	GO:0005106	ephrin
+EFO:0010308	rdfs:label	inferior temporal gyrus volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002751	inferior temporal gyrus
+EFO:0010298	rdfs:label	corpus callosum posterior volume quality@en	Lexical	PATO:0000918	volume	UBERON:0002336	corpus callosum
+EFO:0007574	rdfs:label	blood toxic metal quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0006900	rdfs:label	endothelial growth factor quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0004741	rdfs:label	blood urea nitrogen quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0020448	rdfs:label	high affinity nerve growth factor receptor quality	Lexical	PATO:0002070	affinity	UBERON:0001021	nerve
+EFO:0020448	rdfs:label	high affinity nerve growth factor receptor quality	Lexical	PATO:0002070	affinity	GO:0040007	growth
+EFO:0600004	rdfs:label	retinal nerve fibre layer thickness quality	Lexical	PATO:0000915	thickness	UBERON:0006134	nerve fibre
+EFO:0009400	rdfs:label	presubiculum volume	Lexical	PATO:0000918	volume	UBERON:0001953	presubiculum
+EFO:0020613	rdfs:label	nt-3 growth factor receptor quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0010312	rdfs:label	lateral orbital frontal cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0004167	orbital frontal cortex
+EFO:0010312	rdfs:label	lateral orbital frontal cortex volume quality@en	Lexical	PATO:0001193	lateral	UBERON:0004167	orbital frontal cortex
+EFO:0020779	rdfs:label	transforming growth factor beta receptor type 3 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0007720	rdfs:label	carotid artery internal diameter quality	Lexical	PATO:0001334	diameter	UBERON:0005396	carotid artery
+EFO:0010800	rdfs:label	tumor necrosis factor ligand superfamily member 10 quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0005653	rdfs:label	serum metabolite quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0009397	rdfs:label	hippocampus molecular layer volume	Lexical	PATO:0000918	volume	UBERON:0005368	hippocampus molecular layer
+EFO:0007890	rdfs:label	pericardial adipose tissue quality	Lexical	PATO:0000001	quality	UBERON:0015129	pericardial adipose tissue
+EFO:0020605	rdfs:label	neutrophil elastase quality	Lexical	PATO:0000001	quality	CL:0000775	neutrophil
+EFO:0020390	rdfs:label	fibroblast growth factor receptor 3 quality	Lexical	PATO:0000001	quality	CL:0000057	fibroblast
+EFO:0020390	rdfs:label	fibroblast growth factor receptor 3 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0005210	rdfs:label	brain connectivity quality	Lexical	PATO:0000001	quality	UBERON:0000955	brain
+EFO:0007823	rdfs:label	facial hair thickness quality	Lexical	PATO:0000915	thickness	UBERON:0001037	hair
+EFO:0007009	rdfs:label	skin pigmentation quality	Lexical	PATO:0000001	quality	UBERON:0000014	skin
+EFO:0007009	rdfs:label	skin pigmentation quality	Lexical	PATO:0000001	quality	GO:0043473	pigmentation
+EFO:0010292	rdfs:label	cerebral cortex volume quality@en	Lexical	PATO:0000918	volume	UBERON:0000956	cerebral cortex
+EFO:0020557	rdfs:label	matrix extracellular phosphoglycoprotein quality	Lexical	PATO:0000001	quality	GO:0005576	extracellular
+EFO:0010145	rdfs:label	occipital lobe volume quality	Lexical	PATO:0000918	volume	UBERON:0002021	occipital lobe
+EFO:0005280	rdfs:label	sleep latency	Lexical	PATO:0001005	latency	GO:0030431	sleep
+EFO:0020425	rdfs:label	growth arrest-specific protein 1 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0600043	rdfs:label	serum n-desmethylclozapine quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0020439	rdfs:label	hepatoma-derived growth factor-related protein 2 quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0600084	oboInOwl:hasExactSynonym	number of times bowel opened	Lexical	PATO:0001555	number of	UBERON:0000160	bowel
+EFO:0600084	oboInOwl:hasExactSynonym	frequency of bowel action (observable entity)	Lexical	PATO:0000044	frequency	UBERON:0000160	bowel
+EFO:0600084	oboInOwl:hasExactSynonym	frequency of bowel movement	Lexical	PATO:0000044	frequency	UBERON:0000160	bowel
+EFO:0600084	oboInOwl:hasExactSynonym	frequency of stool	Lexical	PATO:0000044	frequency	UBERON:0001988	stool
+EFO:0008474	oboInOwl:hasExactSynonym	lumbar spine bone mineral density change quality	Lexical	PATO:0000001	quality	UBERON:0006074	lumbar spine
+EFO:0007989	oboInOwl:hasExactSynonym	monocyte count to total wbc count ratio	Lexical	PATO:0001470	ratio	CL:0000576	monocyte
+EFO:0007989	oboInOwl:hasExactSynonym	monocyte count as percentage of total white blood cells	Lexical	PATO:0000323	white	UBERON:0000178	blood
+EFO:0007989	oboInOwl:hasExactSynonym	monocyte count as percentage of total white blood cells	Lexical	PATO:0000323	white	CL:0000576	monocyte
+EFO:0007989	oboInOwl:hasExactSynonym	monocyte percentage of white cells	Lexical	PATO:0000323	white	CL:0000576	monocyte
+EFO:0007989	oboInOwl:hasExactSynonym	blood monocyte count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	UBERON:0000178	blood
+EFO:0007989	oboInOwl:hasExactSynonym	blood monocyte count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	CL:0000738	leukocyte
+EFO:0007989	oboInOwl:hasExactSynonym	blood monocyte count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	CL:0000576	monocyte
+EFO:0008593	oboInOwl:hasExactSynonym	ldl particle size quality	Lexical	PATO:0000117	size	GO:0034362	LDL particle
+EFO:0009368	oboInOwl:hasExactSynonym	hepatocyte growth factor activator-like protein quality	Lexical	PATO:0000001	quality	CL:0000182	hepatocyte
+EFO:0009368	oboInOwl:hasExactSynonym	hepatocyte growth factor activator-like protein quality	Lexical	PATO:0000001	quality	GO:0040007	growth
+EFO:0600035	oboInOwl:hasExactSynonym	heart left atrium capacity	Lexical	PATO:0000366	left	UBERON:0000948	heart
+EFO:0600035	oboInOwl:hasExactSynonym	heart left atrium capacity	Lexical	PATO:0000366	left	UBERON:0002081	atrium
+EFO:0007990	oboInOwl:hasExactSynonym	neutrophil percentage of white cells	Lexical	PATO:0000323	white	CL:0000775	neutrophil
+EFO:0007990	oboInOwl:hasExactSynonym	blood neutrophil count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	UBERON:0000178	blood
+EFO:0007990	oboInOwl:hasExactSynonym	blood neutrophil count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	CL:0000775	neutrophil
+EFO:0007990	oboInOwl:hasExactSynonym	blood neutrophil count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	CL:0000738	leukocyte
+EFO:0007990	oboInOwl:hasExactSynonym	neutrophil count to total wbc count ratio	Lexical	PATO:0001470	ratio	CL:0000775	neutrophil
+EFO:0007990	oboInOwl:hasExactSynonym	neutrophil count as percentage of total white blood cells	Lexical	PATO:0000323	white	UBERON:0000178	blood
+EFO:0007990	oboInOwl:hasExactSynonym	neutrophil count as percentage of total white blood cells	Lexical	PATO:0000323	white	CL:0000775	neutrophil
+EFO:0009185	oboInOwl:hasExactSynonym	heart rate recovery post exercise	Lexical	PATO:0000161	rate	UBERON:0000948	heart
+EFO:0004526	oboInOwl:hasExactSynonym	mean cell volume	Lexical	PATO:0000918	volume	CL:0000000	cell
+EFO:0004304	oboInOwl:hasExactSynonym	erythrocyte sedimentation rate	Lexical	PATO:0000161	rate	CL:0000232	erythrocyte
+EFO:0600026	oboInOwl:hasExactSynonym	aortic vsmc proliferation quality	Lexical	PATO:0000001	quality	CL:0000359	VSMC
+EFO:0009253	oboInOwl:hasExactSynonym	immature reticulocyte fraction	Lexical	PATO:0001501	immature	CL:0000558	reticulocyte
+EFO:0009253	oboInOwl:hasExactSynonym	measurement of immature reticulocyte fraction	Lexical	PATO:0001501	immature	CL:0000558	reticulocyte
+EFO:0007991	oboInOwl:hasExactSynonym	eosinophil count as percentage of total white blood cells	Lexical	PATO:0000323	white	UBERON:0000178	blood
+EFO:0007991	oboInOwl:hasExactSynonym	eosinophil count as percentage of total white blood cells	Lexical	PATO:0000323	white	CL:0000771	eosinophil
+EFO:0007991	oboInOwl:hasExactSynonym	eosinophil percentage of white cells	Lexical	PATO:0000323	white	CL:0000771	eosinophil
+EFO:0007991	oboInOwl:hasExactSynonym	blood eosinophil count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	UBERON:0000178	blood
+EFO:0007991	oboInOwl:hasExactSynonym	blood eosinophil count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	CL:0000771	eosinophil
+EFO:0007991	oboInOwl:hasExactSynonym	blood eosinophil count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	CL:0000738	leukocyte
+EFO:0007991	oboInOwl:hasExactSynonym	eosinophil count to total wbc count ratio	Lexical	PATO:0001470	ratio	CL:0000771	eosinophil
+EFO:0009415	oboInOwl:hasExactSynonym	macrophage inflammatory protein 3 beta quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+EFO:0009010	oboInOwl:hasExactSynonym	herpes simplex virus-2 virologic severity quality | hsv-2 virologic severity quality	Lexical	PATO:0000001	quality	UBERON:0005350	simplex
+EFO:0004575	oboInOwl:hasExactSynonym	eukocyte-endothelial cell adhesion molecule 2 quality	Lexical	PATO:0000001	quality	CL:0000000	cell
+EFO:0004575	oboInOwl:hasExactSynonym	eukocyte-endothelial cell adhesion molecule 2 quality	Lexical	PATO:0000001	quality	GO:0007155	cell adhesion
+EFO:0009273	oboInOwl:hasExactSynonym	anti-ebv antibody quality	Lexical	PATO:0000001	quality	GO:0042571	antibody
+EFO:0007993	oboInOwl:hasExactSynonym	lymphocyte percentage of white cells	Lexical	PATO:0000323	white	CL:0000542	lymphocyte
+EFO:0007993	oboInOwl:hasExactSynonym	lymphocyte count as percentage of total white blood cells	Lexical	PATO:0000323	white	UBERON:0000178	blood
+EFO:0007993	oboInOwl:hasExactSynonym	lymphocyte count as percentage of total white blood cells	Lexical	PATO:0000323	white	CL:0000542	lymphocyte
+EFO:0007993	oboInOwl:hasExactSynonym	blood lymphocyte count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	UBERON:0000178	blood
+EFO:0007993	oboInOwl:hasExactSynonym	blood lymphocyte count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	CL:0000738	leukocyte
+EFO:0007993	oboInOwl:hasExactSynonym	blood lymphocyte count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	CL:0000542	lymphocyte
+EFO:0007993	oboInOwl:hasExactSynonym	lymphocyte count to total wbc count ratio	Lexical	PATO:0001470	ratio	CL:0000542	lymphocyte
+EFO:0009278	oboInOwl:hasExactSynonym	cranial vault shape quality	Lexical	PATO:0000052	shape	UBERON:0004339	cranial vault
+EFO:0009231	oboInOwl:hasExactSynonym	reticulocyte hemoglobin concentration distribution width	Lexical	PATO:0000921	width	CL:0000558	reticulocyte
+EFO:0009231	oboInOwl:hasExactSynonym	reticulocyte hemoglobin concentration distribution width	Lexical	PATO:0000033	concentration	CL:0000558	reticulocyte
+EFO:0009231	oboInOwl:hasExactSynonym	reticulocyte hemoglobin concentration distribution width	Lexical	PATO:0000060	distribution	CL:0000558	reticulocyte
+EFO:0007984	oboInOwl:hasExactSynonym	platelet distribution width	Lexical	PATO:0000921	width	CL:0000233	platelet
+EFO:0007984	oboInOwl:hasExactSynonym	platelet distribution width	Lexical	PATO:0000060	distribution	CL:0000233	platelet
+EFO:0007984	oboInOwl:hasExactSynonym	platelet component distribution width measurement	Lexical	PATO:0000921	width	CL:0000233	platelet
+EFO:0007984	oboInOwl:hasExactSynonym	platelet component distribution width measurement	Lexical	PATO:0000060	distribution	CL:0000233	platelet
+EFO:0009778	oboInOwl:hasExactSynonym	thyroid t3 quality	Lexical	PATO:0000001	quality	UBERON:0002046	thyroid
+EFO:0004306	oboInOwl:hasExactSynonym	erythrocyte size determination	Lexical	PATO:0000117	size	CL:0000232	erythrocyte
+EFO:0600070	oboInOwl:hasExactSynonym	il-6 gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0600070	oboInOwl:hasExactSynonym	il6 gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0600070	oboInOwl:hasExactSynonym	interleukin 6 gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0008594	oboInOwl:hasExactSynonym	vldl particle size quality	Lexical	PATO:0000117	size	GO:0034361	VLDL particle
+EFO:0004501	oboInOwl:hasExactSynonym	homeostasis model assessment insulin resistance	Lexical	PATO:0001046	resistance	GO:0042592	homeostasis
+EFO:0004300	oboInOwl:hasExactSynonym	length of life	Lexical	PATO:0000122	length	UBERON:0000104	life
+EFO:0009423	oboInOwl:hasExactSynonym	granulocyte chemotactic protein 2 quality	Lexical	PATO:0000001	quality	CL:0000094	granulocyte
+EFO:0009411	oboInOwl:hasExactSynonym	monocyte chemotactic protein-4 quality	Lexical	PATO:0000001	quality	CL:0000576	monocyte
+EFO:0007849	oboInOwl:hasExactSynonym	brain activation quality	Lexical	PATO:0002353	activation quality	UBERON:0000955	brain
+EFO:0600069	oboInOwl:hasExactSynonym	dif gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0600069	oboInOwl:hasExactSynonym	tumor necrosis factor gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0600069	oboInOwl:hasExactSynonym	tumor necrosis factor gene expression quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0600069	oboInOwl:hasExactSynonym	tnf gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0600069	oboInOwl:hasExactSynonym	tnf superfamily, member 2 gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0600069	oboInOwl:hasExactSynonym	tnfa gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0600069	oboInOwl:hasExactSynonym	tnf-α gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0600069	oboInOwl:hasExactSynonym	tnfsf2 gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0005918	oboInOwl:hasExactSynonym	tumor necrosis factor receptor superfamily member 11b quality	Lexical	PATO:0000001	quality	GO:0008220	necrosis
+EFO:0009186	oboInOwl:hasExactSynonym	platelet larger cell ratio (p-lcr)	Lexical	PATO:0001470	ratio	CL:0000000	cell
+EFO:0009186	oboInOwl:hasExactSynonym	platelet larger cell ratio (p-lcr)	Lexical	PATO:0001470	ratio	CL:0000233	platelet
+EFO:0009186	oboInOwl:hasExactSynonym	platelet larger cell ratio	Lexical	PATO:0001470	ratio	CL:0000000	cell
+EFO:0009186	oboInOwl:hasExactSynonym	platelet larger cell ratio	Lexical	PATO:0001470	ratio	CL:0000233	platelet
+EFO:0009178	oboInOwl:hasExactSynonym	neurofilament light quality	Lexical	PATO:0000665	light	GO:0005883	neurofilament
+EFO:0004749	oboInOwl:hasExactSynonym	monocyte chemoattractant protein-1 quality	Lexical	PATO:0000001	quality	CL:0000576	monocyte
+EFO:0004749	oboInOwl:hasExactSynonym	monocyte chemotactic protein-1 quality	Lexical	PATO:0000001	quality	CL:0000576	monocyte
+EFO:0010789	oboInOwl:hasExactSynonym	monocyte chemotactic protein 2 quality	Lexical	PATO:0000001	quality	CL:0000576	monocyte
+EFO:0004310	oboInOwl:hasExactSynonym	cephalin-kaolin coagulation time	Lexical	PATO:0000165	time	GO:0050817	coagulation
+EFO:0010940	oboInOwl:hasExactSynonym	proportion of activated microglia	Lexical	PATO:0001470	proportion	CL:0002629	activated microglia
+EFO:0005047	oboInOwl:hasExactSynonym	red blood cell quality	Lexical	PATO:0000001	quality	CL:0000232	red blood cell
+EFO:0011012	oboInOwl:hasExactSynonym	blood sodium bicarbonate quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0007052	oboInOwl:hasExactSynonym	adult antisocial behaviour quality	Lexical	PATO:0000001	quality	GO:0007610	behaviour
+EFO:0009779	oboInOwl:hasExactSynonym	thyroid t3/t4 ratio quality	Lexical	PATO:0001470	ratio	UBERON:0002046	thyroid
+EFO:0600071	oboInOwl:hasExactSynonym	blood gpx quality	Lexical	PATO:0000001	quality	UBERON:0000178	blood
+EFO:0600079	oboInOwl:hasExactSynonym	nr3c1 gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0004912	oboInOwl:hasExactSynonym	serum immunoglobulin a quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0009250	oboInOwl:hasExactSynonym	basophilic erythroblast	Lexical	PATO:0002094	basophilic	CL:0000765	erythroblast
+EFO:0009250	oboInOwl:hasExactSynonym	basophilic normoblast	Lexical	PATO:0002094	basophilic	CL:0000765	normoblast
+EFO:0009188	oboInOwl:hasExactSynonym	red cell distribution width (rdw) blood test	Lexical	PATO:0000921	width	UBERON:0000178	blood
+EFO:0009188	oboInOwl:hasExactSynonym	red cell distribution width (rdw) blood test	Lexical	PATO:0000921	width	CL:0000000	cell
+EFO:0009188	oboInOwl:hasExactSynonym	red cell distribution width (rdw) blood test	Lexical	PATO:0000060	distribution	UBERON:0000178	blood
+EFO:0009188	oboInOwl:hasExactSynonym	red cell distribution width (rdw) blood test	Lexical	PATO:0000060	distribution	CL:0000000	cell
+EFO:0009188	oboInOwl:hasExactSynonym	red blood cell erythrocyte distribution width	Lexical	PATO:0000921	width	CL:0000232	erythrocyte
+EFO:0009188	oboInOwl:hasExactSynonym	red blood cell erythrocyte distribution width	Lexical	PATO:0000921	width	CL:0000232	red blood cell
+EFO:0009188	oboInOwl:hasExactSynonym	red blood cell erythrocyte distribution width	Lexical	PATO:0000060	distribution	CL:0000232	erythrocyte
+EFO:0009188	oboInOwl:hasExactSynonym	red blood cell erythrocyte distribution width	Lexical	PATO:0000060	distribution	CL:0000232	red blood cell
+EFO:0009188	oboInOwl:hasExactSynonym	erythrocyte distribution width measurement	Lexical	PATO:0000921	width	CL:0000232	erythrocyte
+EFO:0009188	oboInOwl:hasExactSynonym	erythrocyte distribution width measurement	Lexical	PATO:0000060	distribution	CL:0000232	erythrocyte
+EFO:0020957	oboInOwl:hasExactSynonym	c-type lectin domain family 3 member b quality	Lexical	PATO:0000001	quality	GO:0005530	lectin
+EFO:0010972	oboInOwl:hasExactSynonym	serum inorganic phosphorus concentration	Lexical	PATO:0000033	concentration	UBERON:0001977	serum
+EFO:0010972	oboInOwl:hasExactSynonym	serum inorganic phosphate concentration	Lexical	PATO:0000033	concentration	UBERON:0001977	serum
+EFO:0005415	oboInOwl:hasExactSynonym	serum aat quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0004348	oboInOwl:hasExactSynonym	packed erythrocyte volume	Lexical	PATO:0000918	volume	CL:0000232	erythrocyte
+EFO:0010818	oboInOwl:hasExactSynonym	sensory perception of food content	Lexical	PATO:0000025	content	GO:0007600	sensory perception
+EFO:0009202	oboInOwl:hasExactSynonym	reticulocyte haemoglobin quality	Lexical	PATO:0000001	quality	CL:0000558	reticulocyte
+EFO:0009202	oboInOwl:hasExactSynonym	high light scatter reticulocyte percentage	Lexical	PATO:0000665	light	CL:0000558	reticulocyte
+EFO:0009202	oboInOwl:hasExactSynonym	reticulocyte hemoglobin content (chr)	Lexical	PATO:0000025	content	CL:0000558	reticulocyte
+EFO:0008446	oboInOwl:hasExactSynonym	platelet:lymphocyte ratio	Lexical	PATO:0001470	ratio	CL:0000233	platelet
+EFO:0004528	oboInOwl:hasExactSynonym	erythrocyte corpuscular hemoglobin concentration mean	Lexical	PATO:0000033	concentration	CL:0000232	erythrocyte
+EFO:0006866	oboInOwl:hasExactSynonym	galvanic skin response quality	Lexical	PATO:0000001	quality	UBERON:0000014	skin
+EFO:0006920	oboInOwl:hasExactSynonym	brain natriuretic peptide quality	Lexical	PATO:0000001	quality	UBERON:0000955	brain
+EFO:0020899	oboInOwl:hasExactSynonym	flg gene expression quality	Lexical	PATO:0000001	quality	GO:0010467	gene expression
+EFO:0600089	oboInOwl:hasExactSynonym	peritoneal transport rate	Lexical	PATO:0000161	rate	GO:0006810	transport
+EFO:0004308	oboInOwl:hasExactSynonym	white blood cell count	Lexical	PATO:0000323	white	CL:0000081	blood cell
+EFO:0004308	oboInOwl:hasExactSynonym	white cell count	Lexical	PATO:0000323	white	CL:0000000	cell
+EFO:0009413	oboInOwl:hasExactSynonym	macrophage inflammatory protein 1-delta quality	Lexical	PATO:0000001	quality	CL:0000235	macrophage
+EFO:0010745	oboInOwl:hasExactSynonym	seminal fluid quality	Lexical	PATO:0000001	quality	UBERON:0006530	seminal fluid
+EFO:0008317	oboInOwl:hasExactSynonym	vldl cholesterol quality	Lexical	PATO:0000001	quality	GO:0005323	VLDL
+EFO:0004913	oboInOwl:hasExactSynonym	lentiform nucleus volume	Lexical	PATO:0000918	volume	UBERON:0002263	lentiform nucleus
+EFO:0010291	oboInOwl:hasExactSynonym	cerebellum cortex volume quality	Lexical	PATO:0000918	volume	UBERON:0002037	cerebellum
+EFO:0010291	oboInOwl:hasExactSynonym	cerebellum cortex volume quality	Lexical	PATO:0000918	volume	UBERON:0001851	cortex
+EFO:0010952	oboInOwl:hasExactSynonym	urine potassium quality	Lexical	PATO:0000001	quality	UBERON:0001088	urine
+EFO:0011036	oboInOwl:hasExactSynonym	matrix metalloproteinase (mmp)-degraded type i collagen (c1m) quality	Lexical	PATO:0000001	quality	GO:0005202	collagen
+EFO:0011036	oboInOwl:hasExactSynonym	mmp-mediated type i collagen degradation quality	Lexical	PATO:0000001	quality	GO:0030574	collagen degradation
+EFO:0011036	oboInOwl:hasExactSynonym	type i collagen metabolite quality	Lexical	PATO:0000001	quality	GO:0005202	collagen
+EFO:0600042	oboInOwl:hasExactSynonym	serum clozapine-to-norclozapine ratio quality	Lexical	PATO:0001470	ratio	UBERON:0001977	serum
+EFO:0010736	oboInOwl:hasExactSynonym	cortex surface area quality	Lexical	PATO:0001323	area	UBERON:0001851	cortex
+EFO:0008447	oboInOwl:hasExactSynonym	neutrophil:lymphocyte ratio	Lexical	PATO:0001470	ratio	CL:0000775	neutrophil
+EFO:0009229	oboInOwl:hasExactSynonym	total reticulocyte corpuscular hemoglobin content measurement	Lexical	PATO:0000025	content	CL:0000558	reticulocyte
+EFO:0009229	oboInOwl:hasExactSynonym	reticulocyte cellular hemoglobin content	Lexical	PATO:0000025	content	CL:0000558	reticulocyte
+EFO:0008592	oboInOwl:hasExactSynonym	hdl particle size quality	Lexical	PATO:0000117	size	GO:0034364	HDL particle
+EFO:0009586	oboInOwl:hasExactSynonym	skin capacitance	Lexical	PATO:0002205	capacitance	UBERON:0000014	skin
+EFO:0009205	oboInOwl:hasExactSynonym	erythrocyte corpuscular hemoglobin content	Lexical	PATO:0000025	content	CL:0000232	erythrocyte
+EFO:0010057	oboInOwl:hasExactSynonym	soluble vascular cell adhesion molecule-1 quality	Lexical	PATO:0001537	soluble	CL:0000000	cell
+EFO:0010057	oboInOwl:hasExactSynonym	soluble vascular cell adhesion molecule-1 quality	Lexical	PATO:0001537	soluble	GO:0007155	cell adhesion
+EFO:0009414	oboInOwl:hasExactSynonym	thymus and activation regulated chemokine quality	Lexical	PATO:0000001	quality	UBERON:0002370	thymus
+EFO:0004518	oboInOwl:hasExactSynonym	serum creatinine quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0600025	oboInOwl:hasExactSynonym	aortic vsmc calcification quality	Lexical	PATO:0000001	quality	CL:0000359	VSMC
+EFO:0007776	oboInOwl:hasExactSynonym	coagulation factor ii quality	Lexical	PATO:0000001	quality	GO:0050817	coagulation
+EFO:0600004	oboInOwl:hasExactSynonym	peripapillary retinal nerve fiber layer thickness quality	Lexical	PATO:0000915	thickness	UBERON:0006134	nerve fiber
+EFO:0009204	oboInOwl:hasExactSynonym	erythrocyte corpuscular hemoglobin concentration distribution width	Lexical	PATO:0000921	width	CL:0000232	erythrocyte
+EFO:0009204	oboInOwl:hasExactSynonym	erythrocyte corpuscular hemoglobin concentration distribution width	Lexical	PATO:0000033	concentration	CL:0000232	erythrocyte
+EFO:0009204	oboInOwl:hasExactSynonym	erythrocyte corpuscular hemoglobin concentration distribution width	Lexical	PATO:0000060	distribution	CL:0000232	erythrocyte
+EFO:0003912	oboInOwl:hasExactSynonym	ankle brachial pressure index (abpi)	Lexical	PATO:0001025	pressure	UBERON:0004454	ankle
+EFO:0003912	oboInOwl:hasExactSynonym	ankle brachial pressure index	Lexical	PATO:0001025	pressure	UBERON:0004454	ankle
+EFO:0600043	oboInOwl:hasExactSynonym	serum norclozapine quality	Lexical	PATO:0000001	quality	UBERON:0001977	serum
+EFO:0007992	oboInOwl:hasExactSynonym	basophil count to total wbc count ratio	Lexical	PATO:0001470	ratio	CL:0000767	basophil
+EFO:0007992	oboInOwl:hasExactSynonym	basophil count as percentage of total white blood cells	Lexical	PATO:0000323	white	UBERON:0000178	blood
+EFO:0007992	oboInOwl:hasExactSynonym	basophil count as percentage of total white blood cells	Lexical	PATO:0000323	white	CL:0000767	basophil
+EFO:0007992	oboInOwl:hasExactSynonym	basophil percentage of white cells	Lexical	PATO:0000323	white	CL:0000767	basophil
+EFO:0007992	oboInOwl:hasExactSynonym	blood basophil count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	UBERON:0000178	blood
+EFO:0007992	oboInOwl:hasExactSynonym	blood basophil count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	CL:0000738	leukocyte
+EFO:0007992	oboInOwl:hasExactSynonym	blood basophil count to total leukocyte count ratio	Lexical	PATO:0001470	ratio	CL:0000767	basophil
