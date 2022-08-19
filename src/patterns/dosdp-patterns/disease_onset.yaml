@@ -5,12 +5,13 @@ pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml
 description: 'Age at which disease manifestations first appear.'
 
 contributors:
-- https://orcid.org/0000-0002-5460-8025
-- https://orcid.org/0000-0002-7073-9172
+  - https://orcid.org/0000-0002-5460-8025  # Kalliope Panoutsopoulou
+  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
 
 classes:
   disease: MONDO:0000001
-  onset: HP:0011007 #age at onset - despite being an HP term this is not a phenotype
+  onset: HP:0003674  # age at onset
+#    # - despite being an HP term this is not a phenotype
 
 relations:
   inheres in: RO:0000052
@@ -21,7 +22,7 @@ vars:
 name:
   text: age of onset of %s
   vars:
-  - disease
+    - disease
 
 generated_synonyms:
   - text: age %s symptoms begin
@@ -35,9 +36,9 @@ generated_synonyms:
 def:
   text: "The age at which %s manifestations first appear."
   vars:
-  - disease
+    - disease
 
 equivalentTo:
   text: "'onset' and 'inheres in' some %s"
   vars:
-  - disease
+    - disease

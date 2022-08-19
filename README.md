@@ -5,24 +5,19 @@
 
 This repository contains source files for OBA (Ontology of Biological Attributes).
 
-# useful links
+# Useful links
 
- * [issues](https://github.com/obophenotype/bio-attribute-ontology/)
- * [OBO Library Homepage](http://obofoundry.org/ontology/oba.html)
- * [Editors guide](src/ontology/README-editors.md)
+* [Issue tracker](https://github.com/obophenotype/bio-attribute-ontology/issues)
+* [OBO Library Homepage](http://obofoundry.org/ontology/oba.html)
+* [Editors guide](https://obophenotype.github.io/bio-attribute-ontology/)
+* [How to contribute?](CONTRIBUTING.md)
 
-# TermGenie
-
- * [OBA TermGenie](http://oba.termgenie.org)
-
-Note that TG for OBA is currently inactive
-
-# construction
+# Construction of the Ontology of Biological Attributes
 
 OBA is drawn from various different sources:
 
- * VT: vertebrate trait ontology (itself partly drawn from the mouse phenotype ontology)
- * TO: plant trait ontology
- * OBA terms partially derived from the `regulation of biological quality` branch of GO
- * OBA terms generated de novo by curators; for example, for curation of [EOL](http://eol.org) trait data in TraitBank
+* VT: [Vertebrate Trait Ontology](http://obofoundry.org/ontology/vt.html) (itself partly drawn from the mouse phenotype ontology)
+* TO: [Plant Trait Ontology](http://obofoundry.org/ontology/to.html)
+* OBA terms partially derived from the `regulation of biological quality` branch of the [Gene Ontology (GO)](http://obofoundry.org/ontology/go.html)
+* OBA terms generated de novo by curators; for example, for curation of [EOL](http://eol.org) trait data in TraitBank
 

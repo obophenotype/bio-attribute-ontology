@@ -1,0 +1,6 @@
+subject_id	subject_label	predicate_id	object_id	match_type	comment
+VT:0000023	ear orientation quality	skos:exactMatch	OBA:VT0010274	Lexical	owl:deprecated
+VT:0000962	dorsal root ganglion organization quality	skos:exactMatch	OBA:0003576	Lexical	owl:deprecated
+VT:0002128	blood circulation quality	skos:exactMatch	OBA:1000258	Lexical	owl:deprecated
+VT:0002204	neurotransmitter amount	skos:exactMatch	OBA:1000993	Lexical	owl:deprecated
+VT:0002568	behavioral response to addictive substance quality	skos:exactMatch	OBA:1000717	Lexical	owl:deprecated
