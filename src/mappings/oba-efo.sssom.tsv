@@ -1,0 +1,149 @@
+subject_id	subject_label	subject_category	predicate_id	object_id	object_label	object_category	match_type	subject_source	object_source	confidence	mapping_date	subject_match_field	object_match_field	match_string	author_id
+EFO:0004301	blood viscosity	measurement	skos:exactMatch	OBA:VT3000004	blood viscosity trait	quality	HumanCurated	EFO	OBA	1	2021-09-10				orcid:0000-0001-8314-2140
+EFO:0004325	blood pressure	measurement	skos:exactMatch	OBA:VT0000183	blood pressure trait	quality	HumanCurated	EFO	OBA	1	2021-09-10				orcid:0000-0001-8314-2140
+EFO:0004832	optic disc size measurement	measurement	skos:exactMatch	OBA:VT0006216	optic disc size trait	quality	HumanCurated	EFO	OBA	1	2021-09-10				orcid:0000-0001-8314-2140
+EFO:0003923	bone density	measurement	skos:exactMatch	OBA:1000110	bone density	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	bone density	orcid:0000-0001-8314-2140
+EFO:0004326	heart rate	measurement	skos:exactMatch	OBA:1001087	heart rate	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	heart rate	orcid:0000-0001-8314-2140
+EFO:0004339	body height	measurement	skos:exactMatch	OBA:VT0001253	body height	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	body height	orcid:0000-0001-8314-2140
+EFO:0004342	waist circumference	measurement	skos:exactMatch	OBA:1001085	waist circumference	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	waist circumference	orcid:0000-0001-8314-2140
+EFO:0004589	upper arm circumference	measurement	skos:exactMatch	OBA:1000030	upper arm circumference	quality	HumanCurated	EFO	OBA	1	2022-06-08	oboInOwl:hasExactSynonym	rdfs:label	upper arm circumference	orcid:0000-0001-8314-2140
+EFO:0004629	von willebrand factor quality	measurement	skos:exactMatch	OBA:1000199	von Willebrand factor quality	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	von willebrand factor quality	orcid:0000-0001-8314-2140
+EFO:0004742	renal system quality	measurement	skos:exactMatch	OBA:VT1000777	renal system quality	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	oboInOwl:hasExactSynonym	renal system quality	orcid:0000-0001-8314-2140
+EFO:0004766	subcutaneous adipose tissue quality	measurement	skos:exactMatch	OBA:1000023	subcutaneous adipose tissue quality	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	subcutaneous adipose tissue quality	orcid:0000-0001-8314-2140
+EFO:0004884	breast size	measurement	skos:exactMatch	OBA:1000025	breast size	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	breast size	orcid:0000-0001-8314-2140
+EFO:0005052	nervous system quality	measurement	skos:exactMatch	OBA:VT1000781	nervous system quality	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	oboInOwl:hasExactSynonym	nervous system quality	orcid:0000-0001-8314-2140
+EFO:0005055	qrs duration	measurement	skos:exactMatch	OBA:1001086	QRS duration	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	qrs duration	orcid:0000-0001-8314-2140
+EFO:0005093	hip circumference	measurement	skos:exactMatch	OBA:1000032	hip circumference	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	hip circumference	orcid:0000-0001-8314-2140
+EFO:0005114	head circumference	measurement	skos:exactMatch	OBA:VT0000047	head circumference	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	head circumference	orcid:0000-0001-8314-2140
+EFO:0005208	glomerular filtration rate	measurement	skos:exactMatch	OBA:0003747	glomerular filtration rate	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	glomerular filtration rate	orcid:0000-0001-8314-2140
+EFO:0006896	glucose homeostasis quality	measurement	skos:exactMatch	OBA:1000528	glucose homeostasis quality	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	glucose homeostasis quality	orcid:0000-0001-8314-2140
+EFO:0006923	fertility quality	measurement	skos:exactMatch	OBA:VT0010464	fertility trait	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	fertility quality	orcid:0000-0001-8314-2140
+EFO:0006936	optic disc quality	measurement	skos:exactMatch	OBA:1000929	optic disc quality	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	optic disc quality	orcid:0000-0001-8314-2140
+EFO:0007680	gait quality	measurement	skos:exactMatch	OBA:1000869	gait quality	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	gait quality	orcid:0000-0001-8314-2140
+EFO:0007699	eye movement quality	measurement	skos:exactMatch	OBA:1000197	eye movement quality	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	eye movement quality	orcid:0000-0001-8314-2140
+EFO:0007841	facial morphology quality	measurement	skos:exactMatch	OBA:VT0003743	facial morphology trait	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	facial morphology quality	orcid:0000-0001-8314-2140
+EFO:0007843	nose morphology quality	measurement	skos:exactMatch	OBA:VT0002233	nose morphology trait	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	nose morphology quality	orcid:0000-0001-8314-2140
+EFO:0007845	lip morphology quality	measurement	skos:exactMatch	OBA:VT0003769	lip morphology trait	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	lip morphology quality	orcid:0000-0001-8314-2140
+EFO:0007858	eye morphology quality	measurement	skos:exactMatch	OBA:VT0002092	eye morphology trait	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	eye morphology quality	orcid:0000-0001-8314-2140
+EFO:0007878	alcohol consumption quality	measurement	skos:exactMatch	OBA:1000840	alcohol consumption quality	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	alcohol consumption quality	orcid:0000-0001-8314-2140
+EFO:0007891	skin barrier function quality	measurement	skos:exactMatch	OBA:VT0002796	skin barrier function trait	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	skin barrier function quality	orcid:0000-0001-8314-2140
+EFO:0007955	mouth morphology quality	measurement	skos:exactMatch	OBA:VT0000452	mouth morphology trait	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	mouth morphology quality	orcid:0000-0001-8314-2140
+EFO:0008001	insulin secretion quality	measurement	skos:exactMatch	OBA:VT0003564	insulin secretion trait	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	insulin secretion quality	orcid:0000-0001-8314-2140
+EFO:0008005	energy expenditure quality	measurement	skos:exactMatch	OBA:VT0005450	energy expenditure trait	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	energy expenditure quality	orcid:0000-0001-8314-2140
+EFO:0008578	sperm motility quality	measurement	skos:exactMatch	OBA:VT0002674	sperm motility trait	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	sperm motility quality	orcid:0000-0001-8314-2140
+EFO:0009287	interventricular septum thickness	measurement	skos:exactMatch	OBA:0006021	interventricular septum thickness	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	interventricular septum thickness	orcid:0000-0001-8314-2140
+EFO:0009367	glucose metabolism quality	measurement	skos:exactMatch	OBA:VT0015088	glucose metabolism trait	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	glucose metabolism quality	orcid:0000-0001-8314-2140
+EFO:0010074	trochanter size	measurement	skos:exactMatch	OBA:0002360	trochanter size	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	trochanter size	orcid:0000-0001-8314-2140
+EFO:0011043	neck circumference	measurement	skos:exactMatch	OBA:1000031	neck circumference	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	neck circumference	orcid:0000-0001-8314-2140
+EFO:0004829	response to irinotecan	response to stimulus	skos:exactMatch	OBA:2040128			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0005202	response to hydrochlorothiazide	response to stimulus	skos:exactMatch	OBA:2040093			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0005205	response to dabigatran etexilate	response to stimulus	skos:exactMatch	OBA:2040114			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0005526	response to alcohol	response to stimulus	skos:exactMatch	OBA:2040030			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0005655	response to cytosine arabinoside	response to stimulus	skos:exactMatch	OBA:2040025			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0005853	response to silica exposure	response to stimulus	skos:exactMatch	OBA:2040029			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006314	response to high-dose melphalan	response to stimulus	skos:exactMatch	OBA:2040028			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006317	response to thiopurine	response to stimulus	skos:exactMatch	OBA:2040051			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006326	response to bupropion	response to stimulus	skos:exactMatch	OBA:2040033			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006328	response to venlafaxine	response to stimulus	skos:exactMatch	OBA:2040141			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006329	response to citalopram	response to stimulus	skos:exactMatch	OBA:2040057			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006330	response to buspirone	response to stimulus	skos:exactMatch	OBA:2040034			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006337	response to allopurinol	response to stimulus	skos:exactMatch	OBA:2040067			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006345	response to phenytoin	response to stimulus	skos:exactMatch	OBA:2040130			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006518	response to losartan	response to stimulus	skos:exactMatch	OBA:2040108			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006816	response to heparin	response to stimulus	skos:exactMatch	OBA:2040023			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006904	response to efavirenz	response to stimulus	skos:exactMatch	OBA:2040005			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006905	response to abacavir	response to stimulus	skos:exactMatch	OBA:2040071			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006950	response to vincristine	response to stimulus	skos:exactMatch	OBA:2040024			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006954	response to triamcinolone acetonide	response to stimulus	skos:exactMatch	OBA:2040119			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006996	response to homoharringtonine	response to stimulus	skos:exactMatch	OBA:2040115			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006998	response to stavudine	response to stimulus	skos:exactMatch	OBA:2040101			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007592	response to bleomycin	response to stimulus	skos:exactMatch	OBA:2040015			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007612	response to montelukast	response to stimulus	skos:exactMatch	OBA:2040086			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007647	response to vancomycin	response to stimulus	skos:exactMatch	OBA:2040021			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007661	response to lamotrigine	response to stimulus	skos:exactMatch	OBA:2040104			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007662	response to triptolide	response to stimulus	skos:exactMatch	OBA:2040140			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007676	response to zileuton	response to stimulus	skos:exactMatch	OBA:2040001			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007779	response to pazopanib	response to stimulus	skos:exactMatch	OBA:2040117			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007808	response to bortezomib	response to stimulus	skos:exactMatch	OBA:2040091			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007815	response to dabrafenib	response to stimulus	skos:exactMatch	OBA:2040121			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007816	response to trametinib	response to stimulus	skos:exactMatch	OBA:2040122			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007853	response to mercaptopurine	response to stimulus	skos:exactMatch	OBA:2040085			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007866	response to rifampicin	response to stimulus	skos:exactMatch	OBA:2040022			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007867	response to gefitinib	response to stimulus	skos:exactMatch	OBA:2040079			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007868	response to erlotinib	response to stimulus	skos:exactMatch	OBA:2040004			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007871	response to escitalopram	response to stimulus	skos:exactMatch	OBA:2040055			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007917	response to tetracyclic antidepressant	response to stimulus	skos:exactMatch	OBA:2040089			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007919	response to diclofenac	response to stimulus	skos:exactMatch	OBA:2040075			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007921	response to nitrofurantoin	response to stimulus	skos:exactMatch	OBA:2040118			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007923	response to terbinafine	response to stimulus	skos:exactMatch	OBA:2040139			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007925	response to paliperidone	response to stimulus	skos:exactMatch	OBA:2040132			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007981	response to thiazide	response to stimulus	skos:exactMatch	OBA:2040083			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0008324	response to sulfasalazine	response to stimulus	skos:exactMatch	OBA:2040137			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0008325	response to sotalol	response to stimulus	skos:exactMatch	OBA:2040102			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0008345	response to duloxetine	response to stimulus	skos:exactMatch	OBA:2040056			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0008484	response to carbamazepine	response to stimulus	skos:exactMatch	OBA:2040039			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0008580	response to taxane	response to stimulus	skos:exactMatch	OBA:2040054			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009166	response to ivacaftor - efficacy	response to stimulus	skos:exactMatch	OBA:2040109			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009167	response to warfarin	response to stimulus	skos:exactMatch	OBA:2040000			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009168	response to prednisolone	response to stimulus	skos:exactMatch	OBA:2040133			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009169	response to deoxygalactonojirimycin	response to stimulus	skos:exactMatch	OBA:2040008			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009261	response to aripiprazole	response to stimulus	skos:exactMatch	OBA:2040031			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009279	response to tenofovir	response to stimulus	skos:exactMatch	OBA:2040103			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009308	response to long-chain n-3 PUFA dietary supplementation	response to stimulus	skos:broadMatch	OBA:2040041			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009391	response to tamoxifen	response to stimulus	skos:exactMatch	OBA:2040069			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009893	response to oxcarbazepine	response to stimulus	skos:exactMatch	OBA:2040126			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010052	response to tacrolimus	response to stimulus	skos:exactMatch	OBA:2040098			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010053	response to cyclosporine	response to stimulus	skos:exactMatch	OBA:2040068			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010054	response to mycophenolic acid	response to stimulus	skos:exactMatch	OBA:2040011			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010062	response to salmeterol	response to stimulus	skos:broadMatch	OBA:2040041			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010124	response to atorvastatin	response to stimulus	skos:exactMatch	OBA:2040065			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010152	response to phenylephrine	response to stimulus	skos:exactMatch	OBA:2040129			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010577	response to dimethyl fumarate	response to stimulus	skos:exactMatch	OBA:2040123			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010648	response to vitamin B3	response to stimulus	skos:exactMatch	OBA:2040014			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010718	response to amisulpride	response to stimulus	skos:exactMatch	OBA:2040105			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010748	response to zonisamide	response to stimulus	skos:exactMatch	OBA:2040003			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010808	response to tafenoquine	response to stimulus	skos:exactMatch	OBA:2040007			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010824	response to rhododendrol	response to stimulus	skos:exactMatch	OBA:2040131			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010933	response to dexamethasone	response to stimulus	skos:exactMatch	OBA:2040070			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010971	response to metamizole	response to stimulus	skos:exactMatch	OBA:2040099			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0600017	response to dolutegravir	response to stimulus	skos:exactMatch	OBA:2040124			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0600024	response to tofacitinib	response to stimulus	skos:exactMatch	OBA:2040116			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0004647	response to platinum based chemotherapy	response to stimulus	skos:narrowMatch	OBA:2040037			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0009415	response to water stimulus	response to stimulus	skos:relatedMatch	OBA:2040135			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0010226	response to lithium ion	response to stimulus	skos:relatedMatch	OBA:2040080			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0014072	response to opiate	response to stimulus	skos:relatedMatch	OBA:2040018			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0031427	response to methotrexate	response to stimulus	skos:relatedMatch	OBA:2040072			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0031960	response to corticosteroid	response to stimulus	skos:relatedMatch	OBA:2040088			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0036271	response to methylphenidate	response to stimulus	skos:relatedMatch	OBA:2040112			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0036272	response to gemcitabine	response to stimulus	skos:relatedMatch	OBA:2040013			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0036274	response to lapatinib	response to stimulus	skos:relatedMatch	OBA:2040078			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0036275	response to 5' fluorouracil	response to stimulus	skos:relatedMatch	OBA:2040074			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0036287	response to iloperidone	response to stimulus	skos:relatedMatch	OBA:2040107			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0036288	response to ximelagatran	response to stimulus	skos:relatedMatch	OBA:2040106			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0043278	response to morphine	response to stimulus	skos:relatedMatch	OBA:2040012			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0051384	response to glucocorticoid	response to stimulus	skos:relatedMatch	OBA:2040017			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0072718	response to cisplatin	response to stimulus	skos:relatedMatch	OBA:2040020			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0097328	response to carboplatin	response to stimulus	skos:relatedMatch	OBA:2040032			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0097330	response to 5-fluoro-2'-deoxyuridine	response to stimulus	skos:relatedMatch	OBA:2040096			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0097331	response to cytarabine	response to stimulus	skos:relatedMatch	OBA:2040025			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0097333	response to olanzapine	response to stimulus	skos:relatedMatch	OBA:2040125			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0097334	response to perphenazine	response to stimulus	skos:relatedMatch	OBA:2040127			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0097335	response to quetiapine	response to stimulus	skos:relatedMatch	OBA:2040134			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0097337	response to ziprasidone	response to stimulus	skos:relatedMatch	OBA:2040002			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:0097338	response to clozapine	response to stimulus	skos:relatedMatch	OBA:2040058			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1901555	response to paclitaxel	response to stimulus	skos:relatedMatch	OBA:2040073			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1901556	response to candesartan	response to stimulus	skos:relatedMatch	OBA:2040038			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1901557	response to fenofibrate	response to stimulus	skos:relatedMatch	OBA:2040081			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1901558	response to metformin	response to stimulus	skos:relatedMatch	OBA:2040110			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1901559	response to ribavirin	response to stimulus	skos:relatedMatch	OBA:2040100			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1901563	response to camptothecin	response to stimulus	skos:relatedMatch	OBA:2040019			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1901905	response to tamsulosin	response to stimulus	skos:relatedMatch	OBA:2040138			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1902518	response to cyclophosphamide	response to stimulus	skos:relatedMatch	OBA:2040066			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1902520	response to doxorubicin	response to stimulus	skos:relatedMatch	OBA:2040026			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1902521	response to etoposide	response to stimulus	skos:relatedMatch	OBA:2040076			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1903491	response to simvastatin	response to stimulus	skos:relatedMatch	OBA:2040136			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1903492	response to aspirin	response to stimulus	skos:relatedMatch	OBA:2040010			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1903493	response to clopidogrel	response to stimulus	skos:relatedMatch	OBA:2040062			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1904014	response to serotonin	response to stimulus	skos:relatedMatch	OBA:2040027			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1905119	response to haloperidol	response to stimulus	skos:relatedMatch	OBA:2040092			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+GO:1990054	response to temozolomide	response to stimulus	skos:relatedMatch	OBA:2040120			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140

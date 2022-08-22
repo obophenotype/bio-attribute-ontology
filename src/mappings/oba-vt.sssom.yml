@@ -1,0 +1,16 @@
+mapping_set_id: http://purl.obolibrary.org/obo/oba/mappings/oba-vt.owl
+license: https://creativecommons.org/licenses/by/4.0/
+mapping_set_version: "2022-05-22"
+mapping_set_description: "Manually curated alignment of OBA with the Vertebrate Trait Ontology (VT)."
+object_source: obo:oba.owl
+subject_source: obo:vt.owl
+curie_map:
+  OBA: http://purl.obolibrary.org/obo/OBA_
+  GO: http://purl.obolibrary.org/obo/GO_
+  UBERON: http://purl.obolibrary.org/obo/UBERON_
+  CL: http://purl.obolibrary.org/obo/CL_
+  VT: http://purl.obolibrary.org/obo/VT_
+  PATO: http://purl.obolibrary.org/obo/PATO_
+  EFO: http://www.ebi.ac.uk/efo/EFO_
+  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
