@@ -14,17 +14,15 @@ jobs:
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v2
-
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
       - name: work around permission issue
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
         
       - name: Refreshing DOSDP patterns files
         run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' GITHUB_ACTION=true IMP=false MIR=false ../patterns/definitions.owl
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
         with:
-          commit-message: Refreshing DOSDP patterns files
-          title: 'Update DOSDP pattern files'
-          body: |
-            Updates all DOSDP generated files.
-          assignees: matentzn
+          message: 'Update dosdp patterns file'
+          add: 'src/patterns/definitions.owl'
