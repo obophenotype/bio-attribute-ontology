@@ -189,6 +189,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000446">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muzzle length</oboInOwl:hasCloseSynonym>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_VT0000482 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000482">
