@@ -9,8 +9,8 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oba/components/synonyms.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oba/releases/2022-08-03/components/synonyms.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-08-03</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oba/releases/2022-08-25/components/synonyms.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-08-25</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -46,6 +46,24 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0005109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0005109">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">astragalus morphology trait</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0005110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0005110">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">astragalus size trait</oboInOwl:hasExactSynonym>
+    </owl:Class>
     
 
 
