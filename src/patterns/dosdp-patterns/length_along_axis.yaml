@@ -28,8 +28,6 @@ relations:
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
-  related_synonym: oio:hasRelatedSynonym
-  broad_synonym: oio:hasBroadSynonym
   xref: oio:hasDbXref
   measured_in_taxon: xsd:string
   not_measured_in_taxon: xsd:string
