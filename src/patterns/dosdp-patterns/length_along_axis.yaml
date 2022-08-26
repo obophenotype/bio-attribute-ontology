@@ -1,9 +1,9 @@
 ---
-pattern_name: bone_length_along_axis
+pattern_name: length_along_axis
 
-pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/boneLengthAlongAxis.yaml
+pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/length_along_axis.yaml
 
-description: "A bone length trait that is the line along an axis of a bone."
+description: "A length trait that is the line along an axis of an anatomical entity."
 
 #  examples:
 #    - http://purl.obolibrary.org/obo/FOVT_0001308  # canine tooth medial-lateral diameter
@@ -16,10 +16,11 @@ contributors:
   - https://orcid.org/0000-0003-2699-3066  # Meghan A. Balk
 
 classes:
-  skeletal_element: UBERON:0004765
+  anatomical_entity: UBERON:0004765
   length: PATO:0000122
   anatomical_axis: BSPO:0000010
   NCBITaxon: OBI:0100026
+  trait_term: PATO:0000051
 
 relations:
   characteristic_of: RO:0000052
@@ -38,34 +39,24 @@ data_list_vars:
   def_ref: "'xref'"  # reference(s) to the source(s) of definition
 
 vars:
-  bone: 'skeletal_element'
+  element: 'anatomical_entity'
   axis: 'anatomical_axis'
+  size_trait: 'trait_term'
   fovt: "xsd:string"  # FOVT id
   def_ref: "xsd:string"
   taxa: "NCBITaxon"
   your_comments: "xsd:string"  # comments, clarifications for users
 
 name:
-  text: "%s %s length"
+  text: "%s length"
   vars:
-    - bone
-    - axis
+    - element
 
 annotations:
-  - annotationProperty: related_synonym
-    text: "%s length %s"
-    vars:
-      - bone
-      - axis
-  - annotationProperty: broad_synonym
-    text: "%s length %s"
-    vars:
-      - bone
-      - axis
   - annotationProperty: exact_synonym
     text: "%s length %s"
     vars:
-      - bone
+      - element
       - axis
   - annotationProperty: xref
     text: "FOVT:%s"  # give FOVT id here
@@ -88,16 +79,22 @@ annotations:
 def:
   text: "The length of a %s along the %s."
   vars:
-    - bone
+    - element
     - axis
   annotations:
     - annotationProperty: xref
       value: def_ref
 
+equivalentTo:
+  text: "'length' and ('characteristic_of' some ('part_of' some %s)) and ('follows axis' some %s)"
+  # if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
+  # NOTE: Everything is part of itself.
+  vars:
+    - element
+    - axis
+
 logical_axioms:
   - axiom_type: subClassOf
-    text: "'length' and ('characteristic_of' some ('part_of' some %s))"
-    # if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
-    # NOTE: Everything is part of itself.
+    text: "%s"
     vars:
-      - bone
+      - size_trait
