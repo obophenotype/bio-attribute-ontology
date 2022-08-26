@@ -19,7 +19,7 @@ classes:
   anatomical_entity: UBERON:0004765
   length: PATO:0000122
   anatomical_axis: BSPO:0000010
-  NCBITaxon: OBI:0100026
+  taxon: OBI:0100026
   trait_term: PATO:0000051
 
 relations:
@@ -44,7 +44,7 @@ vars:
   size_trait: 'trait_term'
   fovt: "xsd:string"  # FOVT id
   def_ref: "xsd:string"
-  taxa: "NCBITaxon"
+  taxa: "taxon"
   your_comments: "xsd:string"  # comments, clarifications for users
 
 name:
