@@ -9,8 +9,8 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oba/components/synonyms.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oba/releases/2022-08-25/components/synonyms.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-08-25</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oba/releases/2022-09-06/components/synonyms.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-09-06</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -38,6 +38,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasCloseSynonym"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -55,11 +61,239 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_0002546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002546">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viscerocranium size</oboInOwl:hasCloseSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0002565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002565">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 3 greatest length (GL)</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 3 length PD</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 3 maximal length (M1)</oboInOwl:hasCloseSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0002567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002567">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 4 greatest length (GL)</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 4 length PD</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 4 maximal length (M1)</oboInOwl:hasCloseSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0002569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002569">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 5 greatest length (GL)</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 5 length PD</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 5 maximal length (M1)</oboInOwl:hasCloseSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0002676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002676">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 2 greatest length (GL)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 2 length PD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 2 maximal length (M1)</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0003043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003043">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 1 greatest length (GL)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 1 length PD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 1 maximal length (M1)</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0003044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003044">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 3 greatest length (GL)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 3 length PD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 3 maximal length (M1)</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0003045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003045">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 4 greatest length (GL)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 4 length PD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 4 maximal length (M1)</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0003046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003046">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 5 greatest length (GL)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 5 length PD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metacarpal bone of digit 5 maximal length (M1)</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0003066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003066">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 1 greatest length (GL)</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 1 length PD</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 1 maximal length (M1)</oboInOwl:hasCloseSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0003272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003272">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 2 greatest length (GL)</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 2 length PD</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metatarsal bone of digit 2 maximal length (M1)</oboInOwl:hasCloseSynonym>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_0003426 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003426">
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ear length</oboInOwl:hasBroadSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000049">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindfoot length</oboInOwl:hasCloseSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000450">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viscerocranium quality</oboInOwl:hasCloseSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000446">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muzzle length</oboInOwl:hasCloseSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0000482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000482">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibula greatest length (GL)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibula length PD</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0001256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0001256">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0004340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004340">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scapula diagonal height(DHA)</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scapula maximal length (M1)</oboInOwl:hasCloseSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0004348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004348">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femur length PD</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0004350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004350">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">humerus length PD</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0004355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004355">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radius greatest length (GL)</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radius length PD</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radius maximal length (M1)</oboInOwl:hasCloseSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0004357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004357">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tibia greatest length (GL)</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tibia length PD</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tibia maximal length (M1)</oboInOwl:hasCloseSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0004370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004370">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ulna greatest length (GL)</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ulna length PD</oboInOwl:hasCloseSynonym>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ulna maximal length (M1)</oboInOwl:hasCloseSynonym>
     </owl:Class>
     
 
@@ -88,6 +322,33 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chest girth</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">girth of chest</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT1000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT1000280">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">humerus breadth</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT1000289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT1000289">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasCloseSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tibia breadth</oboInOwl:hasCloseSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT1000666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT1000666">
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">femur breadth</oboInOwl:hasExactSynonym>
     </owl:Class>
 </rdf:RDF>
 
