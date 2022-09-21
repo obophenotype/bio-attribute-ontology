@@ -159,5 +159,5 @@ OBA:0000003	ER calcium ion concentration	CHEBI:39124	calcium ion	PATO:0000033	co
 OBA:0000005	Golgi calcium ion concentration	CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005794	Golgi apparatus
 OBA:0006038		CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005829	cytosol
 OBA:0006039		CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0099524	postsynaptic cytosol
-OBA:VT:0001757	urine molecular composition	CHEBI:24431	chemical entity	PATO:0000025	composition	UBERON:0001088	urine
-OBA:VT:0010585	brain molecular composition	CHEBI:24431	chemical entity	PATO:0000025	composition	UBERON:0000955	brain
+OBA:VT0001757	urine molecular composition	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT0010585	brain molecular composition	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0000955	brain
