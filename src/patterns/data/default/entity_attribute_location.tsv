@@ -202,3 +202,5 @@ OBA:VT0008496	blood immunoglobulin G2a amount	PR:000050259	IgG2a heavy chain pro
 OBA:VT0003457	blood ketone body amount	CHEBI:73693	ketone body	PATO:0000070	amount	UBERON:0000178	blood
 OBA:VT0010476	blood glutamate dehydrogenase amount	GO:1990148	glutamate dehydrogenase complex	PATO:0000070	amount	UBERON:0000178	blood
 OBA:VT0010540	urine creatinine amount	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT0010441	parasite quantity	OPL:0000232	parasite organism	PATO:0000070	amount	UBERON:0000468	multicellular organism
+OBA:VT0010440	bacteria quantity	NCBITaxon:2	Bacteria	PATO:0000070	amount	UBERON:0000468	multicellular organism

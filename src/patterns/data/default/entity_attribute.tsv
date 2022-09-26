@@ -7248,3 +7248,6 @@ OBA:2040151	shelled egg length	UBERON:0007379	shelled egg	PATO:0000122	length
 OBA:2040152	shelled egg width	UBERON:0007379	shelled egg	PATO:0000921	width
 OBA:VT0010119		UBERON:0001134	skeletal muscle tissue	PATO:0000025	composition
 OBA:VT0010917		CHEBI:3098	bile acid	PATO:0000070	amount
+OBA:VT0008073	CD4-positive T cell quantity	CL:0000624	CD4-positive, alpha-beta T cell	PATO:0000070	amount
+OBA:VT0008077	CD8-positive T cell quantity	CL:0000625	CD8-positive, alpha-beta T cell	PATO:0000070	amount
+OBA:VT0008038	NK T cell quantity	CL:0000814	mature NK T cell	PATO:0000070	amount
