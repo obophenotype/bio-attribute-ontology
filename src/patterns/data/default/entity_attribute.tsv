@@ -7250,3 +7250,6 @@ OBA:VT0010119		UBERON:0001134	skeletal muscle tissue	PATO:0000025	composition
 OBA:VT0010917		CHEBI:3098	bile acid	PATO:0000070	amount
 OBA:VT0007075	heart left ventricle wall thickness	UBERON:0036285	wall of left ventricle	PATO:0000915	thickness
 OBA:VT0007088	heart right ventricle wall thickness	UBERON:0036286	wall of right ventricle	PATO:0000915	thickness
+OBA:VT0002095	skin pigmentation	UBERON:0002097	skin of body	PATO:0002247	degree of pigmentation
+OBA:VT0005102	iris pigmentation	UBERON:0001769	iris	PATO:0002247	degree of pigmentation
+OBA:VT0010463	coat/hair pigmentation	UBERON:0010166	coat of hair	PATO:0002247	degree of pigmentation
