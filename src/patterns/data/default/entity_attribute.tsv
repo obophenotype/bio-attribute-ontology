@@ -7251,3 +7251,6 @@ OBA:VT0010917		CHEBI:3098	bile acid	PATO:0000070	amount
 OBA:VT1000472		UBERON:0002190	subcutaneous adipose tissue	PATO:0000125	mass
 OBA:VT0010482		UBERON:0001013	adipose tissue	PATO:0000125	mass
 OBA:VT0010690		UBERON:0035814	pericardial fat	PATO:0000125	mass
+OBA:VT0002095	skin pigmentation	UBERON:0002097	skin of body	PATO:0002247	degree of pigmentation
+OBA:VT0005102	iris pigmentation	UBERON:0001769	iris	PATO:0002247	degree of pigmentation
+OBA:VT0010463	coat/hair pigmentation	UBERON:0010166	coat of hair	PATO:0002247	degree of pigmentation
