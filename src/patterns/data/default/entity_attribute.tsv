@@ -7253,3 +7253,6 @@ OBA:VT0007088	heart right ventricle wall thickness	UBERON:0036286	wall of right 
 OBA:VT0002095	skin pigmentation	UBERON:0002097	skin of body	PATO:0002247	degree of pigmentation
 OBA:VT0005102	iris pigmentation	UBERON:0001769	iris	PATO:0002247	degree of pigmentation
 OBA:VT0010463	coat/hair pigmentation	UBERON:0010166	coat of hair	PATO:0002247	degree of pigmentation
+OBA:2050001	ascending aorta diameter	UBERON:0001496	ascending aorta	PATO:0001334	diameter
+OBA:2050002	descending aorta diameter	UBERON:0001514	descending aorta	PATO:0001334	diameter
+OBA:2050003	aorta diameter	UBERON:0000947	aorta	PATO:0001334	diameter
