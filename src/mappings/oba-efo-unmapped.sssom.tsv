@@ -4,8 +4,11 @@ EFO:0020165	rdfs:label	AT-rich interactive domain-containing protein 3A measurem
 EFO:0008214	rdfs:label	lymphotactin measurement
 EFO:0010773	rdfs:label	CD5 measurement
 EFO:0010067	rdfs:label	corneal resistance factor
+EFO:0021281	rdfs:label	X-12040 measurement
 EFO:0010516	rdfs:label	orotic acid measurement@en
 EFO:0020716	rdfs:label	scavenger receptor class F member 2 measurement
+EFO:0021024	rdfs:label	levulinate 4-oxovalerate measurement
+EFO:0021550	rdfs:label	2-Hydroxybutanoic acid measurement
 EFO:0010626	rdfs:label	placenta growth factor measurement@en
 EFO:0020826	rdfs:label	tyrosine-protein kinase LCK measurement
 EFO:0009340	rdfs:label	Varicella zoster virus seropositivity
@@ -15,18 +18,25 @@ EFO:0004619	rdfs:label	factor VII measurement
 EFO:0008117	rdfs:label	elafin measurement
 EFO:0008321	rdfs:label	WNT1-inducible-signaling pathway protein 1 measurement
 EFO:0005059	rdfs:label	acylcarnitine measurement
+EFO:0021128	rdfs:label	cycloleu-pro measurement
 EFO:0020870	rdfs:label	choline change measurement
 EFO:0010478	rdfs:label	fructose-1-phosphate measurement@en
 EFO:0009348	rdfs:label	Anti-Epstein-Barr virus early antigen IgG measurement
+EFO:0021644	rdfs:label	LysoPC 20:1 measurement
+EFO:0021206	rdfs:label	X-08766 measurement
 EFO:0008061	rdfs:label	calcineurin measurement
 EFO:0009815	rdfs:label	CASCOT confidence score measurement
+EFO:0021453	rdfs:label	lysophosphatidylcholine 17:1 measurement
 EFO:0020158	rdfs:label	apolipoprotein E (isoform E4) measurement
 EFO:0010994	rdfs:label	n-methyl-2-pyridone-5-carboxamide measurement
 EFO:0010588	rdfs:label	matrix metalloproteinase 1 measurement@en
+EFO:0021260	rdfs:label	X-11793--oxidized bilirubin measurement
 EFO:0009243	rdfs:label	Myeloid to Erythroid Ratio Measurement
 EFO:0008319	rdfs:label	WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 2 measurement
+EFO:0021316	rdfs:label	X-12556 measurement
 EFO:0020536	rdfs:label	ligand-dependent nuclear receptor corepressor-like protein measurement
 EFO:0004467	rdfs:label	insulin measurement
+EFO:0021370	rdfs:label	X-14473 measurement
 EFO:0008069	rdfs:label	carboxypeptidase B2 measurement
 EFO:0008273	rdfs:label	repulsive guidance molecule A measurement
 EFO:0007660	rdfs:label	neuroticism measurement
@@ -37,15 +47,21 @@ EFO:0020646	rdfs:label	platelet-activating factor acetylhydrolase ib subunit bet
 EFO:0010431	rdfs:label	triacylglycerol 56:4 measurement@en
 EFO:0008179	rdfs:label	interleukin 18 receptor accessory protein measurement
 EFO:0009777	rdfs:label	citrulline measurement
+EFO:0021010	rdfs:label	3-phenylpropionate hydrocinnamate measurement
 EFO:0005935	rdfs:label	overweight body mass index status
 EFO:0020111	rdfs:label	15-hydroxyprostaglandin dehydrogenase [NAD(+)] measurement
+EFO:0021762	rdfs:label	Dulcitol to 3-Indolepropionic acid ratio
 EFO:0010541	rdfs:label	trimethylamine-N-oxide measurement@en
 EFO:0004725	rdfs:label	metabolite measurement
 EFO:0010834	rdfs:label	tumor necrosis factor measurement@en
 EFO:0020221	rdfs:label	calreticulin measurement
 EFO:0004781	rdfs:label	DSM-IV-based  non-social scale
+EFO:0021273	rdfs:label	X-11859 measurement
+EFO:0021781	rdfs:label	age at initiation of corrective lens use@en
 EFO:0009222	rdfs:label	Hemoglobin O-Arab to Total Hemoglobin Ratio Measurement
+EFO:0021566	rdfs:label	4-Guanidinobutyric acid measurement
 EFO:0005602	rdfs:label	age at alcohol diagnosis
+EFO:0021309	rdfs:label	X-12443 measurement
 EFO:0010345	rdfs:label	cholesteryl ester 18:2 measurement@en
 EFO:0008164	rdfs:label	intercellular adhesion molecule 5 measurement
 EFO:0009762	rdfs:label	healthspan
@@ -54,6 +70,8 @@ EFO:0010359	rdfs:label	lysophosphatidylcholine 18:0 measurement@en
 EFO:0009332	rdfs:label	executive function measurement
 EFO:0020356	rdfs:label	ephrin-A4 measurement
 EFO:0008435	rdfs:label	gestational weight gain measurement
+EFO:0021676	rdfs:label	Urocanic acid (RG) measurement
+EFO:0021419	rdfs:label	myristate 14:0-to-myristoleate 14:1n5 ratio
 EFO:0008093	rdfs:label	complement component C7 measurement
 EFO:0004328	rdfs:label	exercise test
 EFO:0020701	rdfs:label	receptor tyrosine-protein kinase erbb-3 measurement
@@ -62,19 +80,30 @@ EFO:0020639	rdfs:label	phosphoglycerate mutase 1 measurement
 EFO:0008234	rdfs:label	MHC class I polypeptide-related sequence B measurement
 EFO:0020466	rdfs:label	immunoglobulin M measurement
 EFO:0008330	rdfs:label	fear of pain measurement
+EFO:0021169	rdfs:label	stachydrine measurement
+EFO:0021003	rdfs:label	4-acetamidobutanoate measurement
 EFO:0010791	rdfs:label	neurotrophin-3 measurement
+EFO:0021469	rdfs:label	phosphatidylcholine 33:1 measurement
 EFO:0020561	rdfs:label	matrix metalloproteinase-9 measurement
 EFO:0010409	rdfs:label	triacylglycerol 50:2 measurement@en
 EFO:0008002	rdfs:label	physical activity measurement
+EFO:0021113	rdfs:label	4-androsten-3beta,17beta-diol disulfate 1 measurement
 EFO:0020499	rdfs:label	interleukin-22 receptor subunit alpha-1 measurement
 EFO:0008338	rdfs:label	fear of severe pain measurement
+EFO:0021093	rdfs:label	1-stearoylglycerophosphoethanolamine measurement
 EFO:0010463	rdfs:label	asymmetric dimethylarginine measurement@en
 EFO:0020298	rdfs:label	cyclin-dependent kinase inhibitor 1b measurement
 EFO:0007942	rdfs:label	hip osteoarthritis symptom severity measurement
 EFO:0006870	rdfs:label	alpha wave measurement
 EFO:0010241	rdfs:label	galectin-3-binding protein measurement@en
+EFO:0021376	rdfs:label	X-14658 measurement
 EFO:0004627	rdfs:label	IGF-1 measurement
+EFO:0021481	rdfs:label	triacylglycerol 51:0 measurement
+EFO:0021662	rdfs:label	Phenyllactate (PLA) measurement
+EFO:0021537	rdfs:label	transferrin glycosylation measurement@en
 EFO:0007746	rdfs:label	white matter lesion progression measurement
+EFO:0021224	rdfs:label	X-11317 measurement
+EFO:0021051	rdfs:label	isovalerate measurement
 EFO:0010557	rdfs:label	lactose tolerance test@en
 EFO:0008150	rdfs:label	heparin cofactor 2 measurement
 EFO:0020271	rdfs:label	collagenase 3 measurement
@@ -82,75 +111,104 @@ EFO:0020223	rdfs:label	cAMP-regulated phosphoprotein 19 measurement
 EFO:0020452	rdfs:label	histone acetyltransferase type b catalytic subunit measurement
 EFO:0007785	rdfs:label	femoral neck bone mineral density
 EFO:0005092	rdfs:label	entorhinal cortical volume
+EFO:0021591	rdfs:label	D-Sucrose measurement
 EFO:0020237	rdfs:label	casein kinase II 2-alpha':2-beta heterotetramer measurement
 EFO:0007856	rdfs:label	facial height measurement
 EFO:0007881	rdfs:label	job-related exhaustion measurement
+EFO:0021334	rdfs:label	X-12786 measurement
+EFO:0021405	rdfs:label	X-11444-to-X-12844 ratio
 EFO:0020046	rdfs:label	phosphatidylcholine 18:1 measurement
 EFO:0004809	rdfs:label	fructose-bisphosphate aldolase measurement
 EFO:0020544	rdfs:label	lymphotoxin-alpha measurement
 EFO:0008158	rdfs:label	inosine-5'-monophosphate dehydrogenase 1 measurement
+EFO:0021712	rdfs:label	3-Indolepropionic acid to LysoPC 16:1 ratio
 EFO:0009595	rdfs:label	guilt measurement
-EFO:0010220	rdfs:label	17-hydroxyprogesterone measurement@en
+EFO:0021726	rdfs:label	3-Indolepropionic acid to Isonicotinamide ratio
 EFO:0004863	rdfs:label	recombination rate
+EFO:0010220	rdfs:label	17-hydroxyprogesterone measurement@en
 EFO:0004919	rdfs:label	metastasis free survival
 EFO:0008099	rdfs:label	complement factor I measurement
+EFO:0021428	rdfs:label	N6-succinyladenosine measurement@en
 EFO:0020710	rdfs:label	ribosomal protein s6 kinase alpha-5 measurement
 EFO:0004973	rdfs:label	germline genotype
+EFO:0021237	rdfs:label	X-11444 measurement
 EFO:0010778	rdfs:label	CXCL10 measurement
+EFO:0021044	rdfs:label	palmitoylcarnitine measurement
 EFO:0020820	rdfs:label	tyrosine-protein kinase CSK measurement
 EFO:0004313	rdfs:label	maximal midexpiratory flow rate
 EFO:0005275	rdfs:label	dihydroxy docosatrienoic acid measurement
 EFO:0006821	rdfs:label	trans fatty acid measurement
+EFO:0021154	rdfs:label	2-methoxyacetaminophen sulfate measurement
 EFO:0008057	rdfs:label	C-X-C motif chemokine 11 measurement
 EFO:0008379	rdfs:label	P wave terminal force measurement
 EFO:0009814	rdfs:label	number of children fathered measurement
 EFO:0011010	rdfs:label	glycodeoxycholate 3-O-glucuronide measurement@en
 EFO:0010472	rdfs:label	creatine measurement@en
+EFO:0021210	rdfs:label	X-09706 measurement
 EFO:0010233	rdfs:label	genotoxic compound exposure measurement@en
+EFO:0021705	rdfs:label	3-Indolepropionic acid to D-Fructose ratio
 EFO:0020890	rdfs:label	phenylalanine change measurement
 EFO:0009097	rdfs:label	positive domain measurement
 EFO:0020152	rdfs:label	anterior gradient protein 2 homolog measurement
 EFO:0020484	rdfs:label	interferon gamma receptor 1 measurement
+EFO:0021320	rdfs:label	X-12680 measurement
+EFO:0021473	rdfs:label	phosphatidylcholine 36:0 measurement
+EFO:0021815	rdfs:label	right ventricular systolic volume measurement@en
+EFO:0021487	rdfs:label	cryptic phenotype measurement@en
 EFO:0020530	rdfs:label	legumain measurement
 EFO:0004461	rdfs:label	iron biomarker measurement
 EFO:0010618	rdfs:label	pappalysin‐1 measurement@en
 EFO:0008211	rdfs:label	low affinity immunoglobulin gamma Fc region receptor II-a/b measurement
 EFO:0009263	rdfs:label	nicotine withdrawal symptom count
+EFO:0021057	rdfs:label	tetradecanedioate measurement
 EFO:0008191	rdfs:label	interleukin 8 measurement
+EFO:0021583	rdfs:label	D-Erythronolactone measurement
 EFO:0020277	rdfs:label	complement C3D fragment measurement
 EFO:0010417	rdfs:label	triacylglycerol 52:5 measurement@en
 EFO:0007906	rdfs:label	synophrys measurement
 EFO:0010386	rdfs:label	phosphatidylcholine 38:4 measurement@en
+EFO:0021597	rdfs:label	Eudesmic acid (3,4,5-trimethoxybenzoic acid) measurement
 EFO:0010129	rdfs:label	breakfast skipping measurement
+EFO:0021718	rdfs:label	L-Asparagine Anhydrous to 3-Indolepropionic acid ratio
 EFO:0008018	rdfs:label	alpha-1-antichymotrypsin complex measurement
+EFO:0021030	rdfs:label	arabinose measurement
+EFO:0021767	rdfs:label	3-Indolepropionic acid to Homovanillic acid ratio
 EFO:0007976	rdfs:label	erucic acid measurement
 EFO:0010575	rdfs:label	vascular endothelial growth factor D measurement@en
+EFO:0021140	rdfs:label	gamma-glutamylleucine measurement
 EFO:0020748	rdfs:label	SPARC measurement
 EFO:0020751	rdfs:label	sphingosine kinase 2 measurement
 EFO:0020241	rdfs:label	cathepsin E measurement
+EFO:0021303	rdfs:label	X-12405 measurement
 EFO:0010500	rdfs:label	hypoxanthine mesurement@en
 EFO:0007864	rdfs:label	sulfate measurement
-EFO:0020633	rdfs:label	pescadillo homolog measurement
+EFO:0021413	rdfs:label	androsterone sulfate-to-4-androsten-3beta,17beta-diol disulfate 2 ratio
 EFO:0009224	rdfs:label	Hemoglobin S to Total Hemoglobin Ratio Measurement
-EFO:0010763	rdfs:label	axin-1 measurement
+EFO:0020633	rdfs:label	pescadillo homolog measurement
 EFO:0000638	rdfs:label	overall survival
 EFO:0000412	rdfs:label	distant metastasis free survival
+EFO:0010763	rdfs:label	axin-1 measurement
 EFO:0006827	rdfs:label	renin–angiotensin–aldosterone system measurement
 EFO:0005206	rdfs:label	oligoclonal band measurement
 EFO:0007050	rdfs:label	HSV1 seropositivity
 EFO:0009764	rdfs:label	eye colour measurement
 EFO:0020144	rdfs:label	amphiregulin measurement
 EFO:0020305	rdfs:label	cytokine receptor-like factor 1:cardiotrophin-like cytokine factor 1 complex measurement
+EFO:0021265	rdfs:label	X-11820 measurement
 EFO:0010403	rdfs:label	triacylglycerol 48:0 measurement@en
+EFO:0021008	rdfs:label	3- 4-hydroxyphenyl lactate measurement
 EFO:0020193	rdfs:label	brevican core protein measurement
 EFO:0010288	rdfs:label	brain density measurement@en
 EFO:0009436	rdfs:label	offspring survival measurement
 EFO:0005767	rdfs:label	rheumatoid factor measurement
 EFO:0007058	rdfs:label	last follow up
 EFO:0009934	rdfs:label	Immunosuppressant use measurement
+EFO:0021375	rdfs:label	X-14632 measurement
+EFO:0021824	rdfs:label	right atrial fractional area change measurement@en
 EFO:0005168	rdfs:label	wild type genotype
 EFO:0000721	rdfs:label	time
 EFO:0008004	rdfs:label	resting metabolic rate measurement
+EFO:0021753	rdfs:label	3-Indolepropionic acid to cis-5,8,11,14,17-Eicosapentaenoic acid C20:5n3) ratio
 EFO:0020854	rdfs:label	x-linked interleukin-1 receptor accessory protein-like 2 measurement
 EFO:0008468	rdfs:label	midregional pro atrial natriuretic peptide measurement
 EFO:0005921	rdfs:label	FEV change measurement
@@ -162,35 +220,51 @@ EFO:0000246	rdfs:label	age
 EFO:0010371	rdfs:label	lysophosphatidylethanolamine 22:6 measurement@en
 EFO:0004425	rdfs:label	initial time point
 EFO:0005850	rdfs:label	emphysema pattern measurement
+EFO:0021278	rdfs:label	X-12029 measurement
 EFO:0010114	rdfs:label	citrate measurement
 EFO:0007850	rdfs:label	solar lentigines measurement
+EFO:0021085	rdfs:label	1-myristoylglycerophosphocholine measurement
 EFO:0004813	rdfs:label	alpha globulin measurement
 EFO:0009947	rdfs:label	nucleoside diphosphate kinase A measurement
+EFO:0021146	rdfs:label	bradykinin, des-arg 9 measurement
 EFO:0020757	rdfs:label	sumo-conjugating enzyme UBC9 measurement
 EFO:0009271	rdfs:label	Epstein Barr virus nuclear antigen-1 seropositivity
+EFO:0021195	rdfs:label	X-05426 measurement
 EFO:0020411	rdfs:label	glyceraldehyde-3-phosphate dehydrogenase measurement
 EFO:0010506	rdfs:label	kynurenic acid measurement@en
 EFO:0008252	rdfs:label	OCIA domain-containing protein 1 measurement
 EFO:0020867	rdfs:label	remnant cholesterol change measurement
+EFO:0021090	rdfs:label	1-palmitoylglycerophosphoethanolamine measurement
+EFO:0021746	rdfs:label	3-Indolepropionic acid to gamma-Linolenic acid (C18:3n6) ratio
 EFO:0007042	rdfs:label	polychlorinated biphenyls measurement
 EFO:0020674	rdfs:label	protein fam107b measurement
+EFO:0021510	rdfs:label	linoleate 18:2n6 measurement@en
 EFO:0010769	rdfs:label	CCL28 measurement
 EFO:0008362	rdfs:label	farm exposure measurement
 EFO:0020969	rdfs:label	free stigmasterol measurement@en
 EFO:0005035	rdfs:label	hippocampal volume
 EFO:0008107	rdfs:label	death-associated protein kinase 2 measurement
+EFO:0021104	rdfs:label	heptanoate 7:0 measurement
+EFO:0021695	rdfs:label	3-Indolepropionic acid to 3,3',5-Triiodo-L-thyronine ratio
+EFO:0021257	rdfs:label	X-11786--methylcysteine measurement
 EFO:0009389	rdfs:label	sum of eosinophil and basophil counts
+EFO:0021620	rdfs:label	L-Leucine measurement
+EFO:0021634	rdfs:label	L-Tyrosine measurement
+EFO:0021098	rdfs:label	2-stearoylglycerophosphocholine measurement
 EFO:0005843	rdfs:label	cortisol measurement
 EFO:0020314	rdfs:label	DCTP pyrophosphatase 1 measurement
 EFO:0020840	rdfs:label	ubiquitin-conjugating enzyme E2 L3 measurement
 EFO:0010640	rdfs:label	chronic post-operative pain measurement
 EFO:0020199	rdfs:label	C-C motif chemokine 28 measurement
 EFO:0005413	rdfs:label	joint damage measurement
+EFO:0021367	rdfs:label	X-14304--leucylalanine measurement
 EFO:0010984	rdfs:label	3-hydroxyisovalerate measurement
 EFO:0004633	rdfs:label	protein C measurement
 EFO:0020424	rdfs:label	group IIe secretory phospholipase A2 measurement
 EFO:0008320	rdfs:label	white matter volume measurement
 EFO:0020577	rdfs:label	mitogen-activated protein kinase 13 measurement
+EFO:0021459	rdfs:label	lysophosphatidylcholine 22:0 measurement
+EFO:0021759	rdfs:label	3-Indolepropionic acid to S-Sulfo-L-cysteine ratio
 EFO:0020687	rdfs:label	protein s100-a9 measurement
 EFO:0007801	rdfs:label	lycopene measurement
 EFO:0007650	rdfs:label	soluble interleukin-2 receptor subunit alpha measurement
@@ -200,20 +274,24 @@ EFO:0020228	rdfs:label	carbonic anhydrase 2 measurement
 EFO:0008328	rdfs:label	chronotype measurement
 EFO:0010421	rdfs:label	triacylglycerol 54:3 measurement@en
 EFO:0020789	rdfs:label	troponin i, fast skeletal muscle measurement
-EFO:0005538	rdfs:label	thrombin generation potential measurement
 EFO:0000287	rdfs:label	biopsy number
+EFO:0005538	rdfs:label	thrombin generation potential measurement
 EFO:0007118	rdfs:label	sitting height ratio
 EFO:0010377	rdfs:label	phosphatidylcholine 34:3 measurement@en
 EFO:0010380	rdfs:label	phosphatidylcholine 36:2 measurement@en
 EFO:0004585	rdfs:label	naphthyl-keratin adduct measurement
+EFO:0021077	rdfs:label	1-arachidonoylglycerophosphoethanolamine measurement
 EFO:0004346	rdfs:label	neuroimaging measurement
+EFO:0021613	rdfs:label	L-Citrulline measurement
 EFO:0010437	rdfs:label	triacylglycerol 58:10 measurement@en
 EFO:0007648	rdfs:label	vancomycin trough measurement
 EFO:0020660	rdfs:label	prostate-specific antigen measurement
 EFO:0004868	rdfs:label	volumetric brain MRI
 EFO:0004695	rdfs:label	intraocular pressure measurement
 EFO:0010225	rdfs:label	lysophosphatidylethanolamine measurement@en
+EFO:0021187	rdfs:label	X-03088 measurement
 EFO:0020403	rdfs:label	glia-derived nexin measurement
+EFO:0021771	rdfs:label	Riboflavin to 3-Indolepropionic acid ratio
 EFO:0007704	rdfs:label	depressive episode measurement
 EFO:0009212	rdfs:label	Hemoglobin A2 to Total Hemoglobin Ratio Measurement
 EFO:0020417	rdfs:label	granulocyte-macrophage colony-stimulating factor measurement
@@ -229,19 +307,28 @@ EFO:0007621	rdfs:label	bone mineral content measurement
 EFO:0004514	rdfs:label	bone quantitative ultrasound measurement
 EFO:0009926	rdfs:label	Vasodilators used in cardiac diseases use measurement
 EFO:0008148	rdfs:label	hemojuvelin measurement
+EFO:0021570	rdfs:label	5-Methyluridine measurement
+EFO:0021445	rdfs:label	cholesteryl ester 24:0 measurement
+EFO:0021626	rdfs:label	L-Pipecolic acid measurement
 EFO:0011015	rdfs:label	educational attainment@en
 EFO:0008043	rdfs:label	C-C motif chemokine 15 measurement
 EFO:0007884	rdfs:label	functional microbiome measurement
 EFO:0005419	rdfs:label	contrast sensitivity measurement
+EFO:0021680	rdfs:label	Cis-5,8,11,14,17-eicosapentaenoic acid (C20:5n3) to LysoPC 20:2 ratio
 EFO:0020638	rdfs:label	phosphoglycerate kinase 1 measurement
 EFO:0009769	rdfs:label	histidine measurement
+EFO:0021478	rdfs:label	phosphatidylcholine 40:8 measurement
 EFO:0010423	rdfs:label	triacylglycerol 54:5 measurement@en
+EFO:0021588	rdfs:label	D-Malic acid measurement
 EFO:0020562	rdfs:label	megakaryocyte-associated tyrosine-protein kinase measurement
 EFO:0007787	rdfs:label	plasma betaine measurement
+EFO:0021336	rdfs:label	X-12816 measurement
 EFO:0010533	rdfs:label	sorbitol measurement@en
+EFO:0021619	rdfs:label	L-Isoleucine measurement
 EFO:0006781	rdfs:label	coffee consumption measurement
 EFO:0007897	rdfs:label	cryptoxanthin measurement
 EFO:0020213	rdfs:label	cadherin-3 measurement
+EFO:0021290	rdfs:label	X-12188 measurement
 EFO:0010816	rdfs:label	dietary fat liking measurement@en
 EFO:0004641	rdfs:label	white matter integrity
 EFO:0008205	rdfs:label	left ventricular structural measurement
@@ -252,12 +339,15 @@ EFO:0020409	rdfs:label	glutathione s-transferase a3 measurement
 EFO:0004751	rdfs:label	CCL4 measurement
 EFO:0007745	rdfs:label	lactate measurement
 EFO:0020458	rdfs:label	hsp90 co-chaperone CDC37 measurement
+EFO:0021541	rdfs:label	X-11421 measurement@en
 EFO:0009722	rdfs:label	number of stillbirths
 EFO:0020267	rdfs:label	cofilin-1 measurement
 EFO:0009589	rdfs:label	worry measurement
 EFO:0020246	rdfs:label	CD226 antigen measurement
+EFO:0021298	rdfs:label	X-12236 measurement
 EFO:0008251	rdfs:label	non-receptor tyrosine-protein kinase TYK2 measurement
 EFO:0008407	rdfs:label	susceptibility to Mycobacterium tuberculosis infection measurement
+EFO:0021404	rdfs:label	glucose-to-mannose ratio
 EFO:0020116	rdfs:label	3-phosphoinositide-dependent protein kinase 1 measurement
 EFO:0020624	rdfs:label	peptidoglycan recognition protein 1 measurement
 EFO:0010490	rdfs:label	glycochenodeoxycholate measurement@en
@@ -268,26 +358,31 @@ EFO:0010768	rdfs:label	CCL25 measurement
 EFO:0020170	rdfs:label	azurocidin measurement
 EFO:0009594	rdfs:label	irritability measurement
 EFO:0007934	rdfs:label	creatinine clearance measurement
+EFO:0021740	rdfs:label	3-Indolepropionic acid to 4-Pyridoxic acid ratio
 EFO:0009865	rdfs:label	transcriptome measurement
 EFO:0020963	rdfs:label	free campesterol measurement@en
 EFO:0020887	rdfs:label	isoleucine change measurement
 EFO:0020149	rdfs:label	angiopoietin-related protein 4 measurement
 EFO:0020706	rdfs:label	retinoblastoma-associated protein measurement
 EFO:0007049	rdfs:label	gliadin seropositivity
+EFO:0021251	rdfs:label	X-11538 measurement
 EFO:0008369	rdfs:label	infant intracranial volume measurement
 EFO:0011000	rdfs:label	proline betaine measurement
 EFO:0004458	rdfs:label	C-reactive protein measurement
+EFO:0021361	rdfs:label	X-14056 measurement
 EFO:0020581	rdfs:label	mitogen-activated protein kinase 9 measurement
 EFO:0007848	rdfs:label	apolipoprotein A-IV measurement
 EFO:0008022	rdfs:label	angiogenin measurement
+EFO:0021654	rdfs:label	N-Acetyl-L-tyrosine measurement
 EFO:0008071	rdfs:label	catalase measurement
+EFO:0021463	rdfs:label	lysophosphatidylcholine 24:0 measurement
 EFO:0010468	rdfs:label	carboxylic acid measurement@en
 EFO:0004910	rdfs:label	CYP3A4 activity
 EFO:0010091	rdfs:label	tea consumption measurement
 EFO:0020691	rdfs:label	protein-tyrosine kinase 6 measurement
 EFO:0020444	rdfs:label	heterogeneous nuclear ribonucleoproteins A2/B1 measurement
-EFO:0008544	rdfs:label	analgesia requirement measurement
 EFO:0010539	rdfs:label	taurodeoxycholate measurement@en
+EFO:0008544	rdfs:label	analgesia requirement measurement
 EFO:0008132	rdfs:label	fibronectin fragment 4 measurement
 EFO:0008181	rdfs:label	interleukin 23 receptor measurement
 EFO:0600027	rdfs:label	hemoglobin change measurement
@@ -296,17 +391,26 @@ EFO:0020942	rdfs:label	propionylcarnitine measurement@en
 EFO:0020783	rdfs:label	transketolase measurement
 EFO:0020526	rdfs:label	lactotransferrin measurement
 EFO:0004576	rdfs:label	fetal hemoglobin measurement
+EFO:0021557	rdfs:label	3-Hydroxy-3-methyl butyric acid measurement
+EFO:0021071	rdfs:label	palmitate 16:0 measurement
 EFO:0010441	rdfs:label	triacylglycerol 58:7 measurement@en
 EFO:0004340	rdfs:label	body mass index
+EFO:0021667	rdfs:label	S-Sulfo-L-cysteine measurement
 EFO:0008243	rdfs:label	natural cytotoxicity triggering receptor 3 measurement
 EFO:0004862	rdfs:label	phytosterol measurement
 EFO:0008426	rdfs:label	IgG bisecting N-acetyl glucosamine measurement
+EFO:0021354	rdfs:label	X-13549 measurement
+EFO:0021181	rdfs:label	X-01911 measurement
 EFO:0010551	rdfs:label	xanthurenate measurement@en
+EFO:0021229	rdfs:label	X-11412 measurement
 EFO:0008084	rdfs:label	chitotriosidase-1 measurement
 EFO:0008353	rdfs:label	cellular adhesion molecule measurement
 EFO:0006520	rdfs:label	carbon monoxide exhalation measurement
+EFO:0021283	rdfs:label	X-12063 measurement
 EFO:0004534	rdfs:label	creatine kinase measurement
 EFO:0004730	rdfs:label	hormone measurement
+EFO:0021732	rdfs:label	3-Indolepropionic acid to L-Carnitine ratio
+EFO:0021026	rdfs:label	erythrose measurement
 EFO:0000689	rdfs:label	sampling time
 EFO:0020955	rdfs:label	beta-microseminoprotein measurement@en
 EFO:0009214	rdfs:label	Hemoglobin Barts to Total Hemoglobin Ratio Measurement
@@ -321,15 +425,20 @@ EFO:0000718	rdfs:label	exposure temperature
 EFO:0007011	rdfs:label	SSRI use measurement
 EFO:0008063	rdfs:label	calcium/calmodulin-dependent protein kinase type 1D measurement
 EFO:0004682	rdfs:label	QT interval
+EFO:0021174	rdfs:label	1-methylxanthine measurement
 EFO:0008077	rdfs:label	CD209 antigen measurement
 EFO:0020512	rdfs:label	kallikrein-13 measurement
+EFO:0021472	rdfs:label	phosphatidylcholine 35:5 measurement
 EFO:0004951	rdfs:label	alive at endpoint
 EFO:0009245	rdfs:label	Neutrophilic Myelocyte Count
 EFO:0008173	rdfs:label	interleukin 16 measurement
 EFO:0010368	rdfs:label	lysophosphatidylethanolamine 18:1 measurement@en
 EFO:0008187	rdfs:label	interleukin 6 receptor subunit alpha measurement
+EFO:0021340	rdfs:label	X-12847 measurement
 EFO:0005128	rdfs:label	albumin:globulin ratio measurement
 EFO:0010700	rdfs:label	reticulocyte measurement@en
+EFO:0021618	rdfs:label	L-Histidine measurement
+EFO:0021132	rdfs:label	pro-hydroxy-pro measurement
 EFO:0010919	rdfs:label	melusin measurement
 EFO:0009303	rdfs:label	fructosamine measurement
 EFO:0020408	rdfs:label	glutamate carboxypeptidase 2 measurement
@@ -337,6 +446,8 @@ EFO:0009794	rdfs:label	NRF2 measurement
 EFO:0010810	rdfs:label	protein intake measurement@en
 EFO:0007961	rdfs:label	polybrominated biphenyl measurement
 EFO:0007975	rdfs:label	gondoic acid measurement
+EFO:0021542	rdfs:label	(S)-(-)-2-Hydroxyisocaproic acid measurement
+EFO:0020990	rdfs:label	arginine measurement@en
 EFO:0020462	rdfs:label	immunoglobulin alpha fc receptor measurement
 EFO:0008298	rdfs:label	thioredoxin domain-containing protein 12 measurement
 EFO:0020906	rdfs:label	intermediate density lipoprotein change measurement
@@ -346,24 +457,34 @@ EFO:0020261	rdfs:label	ciliary neurotrophic factor receptor subunit alpha measur
 EFO:0004783	rdfs:label	TEMPS-A questionnaire
 EFO:0006956	rdfs:label	intraocular pressure change measurement
 EFO:0006783	rdfs:label	psychosocial stress measurement
+EFO:0021292	rdfs:label	X-12206 measurement
 EFO:0020332	rdfs:label	DNAj homolog subfamily b member 1 measurement
 EFO:0006526	rdfs:label	pack-years measurement
 EFO:0004771	rdfs:label	visual cortical surface area measurement
 EFO:0008411	rdfs:label	susceptibility to bacterial meningitis measurement
+EFO:0021035	rdfs:label	acetylphosphate measurement
+EFO:0021561	rdfs:label	3-Methylcrotonyl glycine measurement
 EFO:0009206	rdfs:label	Free Hemoglobin Measurement
+EFO:0021575	rdfs:label	Adipic acid measurement
 EFO:0006809	rdfs:label	docosapentaenoic acid measurement
 EFO:0020615	rdfs:label	nucleoside diphosphate kinase B measurement
-EFO:0009351	rdfs:label	Anti-varicella zoster virus IgG measurement
 EFO:0600060	rdfs:label	blood group A
+EFO:0009351	rdfs:label	Anti-varicella zoster virus IgG measurement
+EFO:0021145	rdfs:label	gamma-glutamylvaline measurement
 EFO:0020065	rdfs:label	diacylglycerol 38:3 measurement
 EFO:0007889	rdfs:label	dysmenorrheic pain measurement
+EFO:0021671	rdfs:label	Taurocholic acid sodium salt hydrate measurement
 EFO:0020365	rdfs:label	estradiol 17-beta-dehydrogenase 1 measurement
 EFO:0010520	rdfs:label	peptide measurement@en
 EFO:0010495	rdfs:label	guanosine monophosphate measurement@en
+EFO:0021438	rdfs:label	cholesteryl ester 20:0 measurement
+EFO:0021685	rdfs:label	3-Indolepropionic acid to L-Methionine ratio
+EFO:0021247	rdfs:label	X-11521 measurement
 EFO:0020881	rdfs:label	glucose change measurement
 EFO:0020175	rdfs:label	baculoviral IAP repeat-containing protein 7 isoform beta measurement
 EFO:0007005	rdfs:label	free androgen index
 EFO:0009359	rdfs:label	Anti-hepatitis B virus core antigen IgG measurement
+EFO:0021806	rdfs:label	hexadecenoylcarnitine measurement@en
 EFO:0020726	rdfs:label	serine/threonine-protein kinase CHK2 measurement
 EFO:0020553	rdfs:label	MAP kinase-activated protein kinase 5 measurement
 EFO:0020567	rdfs:label	metalloproteinase inhibitor 2 measurement
@@ -371,14 +492,18 @@ EFO:0011005	rdfs:label	urea measurement
 EFO:0005691	rdfs:label	plasma trimethylamine N-oxide measurement
 EFO:0020836	rdfs:label	tyrosine-protein phosphatase non-receptor type 2 measurement
 EFO:0010934	rdfs:label	aspartate aminotransferase to alanine aminotransferase ratio@en
-EFO:0004629	rdfs:label	von Willebrand factor measurement
+EFO:0021381	rdfs:label	betaine-to-pyroglutamine ratio
 EFO:0004632	rdfs:label	nevus count
+EFO:0021200	rdfs:label	X-06267 measurement
+EFO:0021395	rdfs:label	DSGEGDFXAEGGGVR-to-ADpSGEGDFXAEGGGVR ratio
+EFO:0021138	rdfs:label	gamma-glutamylglutamine measurement
 EFO:0005188	rdfs:label	CCL11 measurement
 EFO:0009312	rdfs:label	proprotein convertase subtilisin/kexin type 9 measurement
 EFO:0004915	rdfs:label	vaspin measurement
 EFO:0008394	rdfs:label	verbal-numerical reasoning measurement
 EFO:0010488	rdfs:label	glycerol-3-phosphate measurement@en
-EFO:0007699	rdfs:label	eye movement measurement
+EFO:0021773	rdfs:label	D-Malic acid to 3-Indolepropionic acid ratio
+EFO:0021067	rdfs:label	myristate 14:0 measurement
 EFO:0005094	rdfs:label	P wave duration
 EFO:0010093	rdfs:label	bitter non-alcoholic beverage consumption measurement
 EFO:0010598	rdfs:label	platelet endothelial cell adhesion molecule measurement@en
@@ -387,35 +512,47 @@ EFO:0020232	rdfs:label	carbonic anhydrase 9 measurement
 EFO:0600011	rdfs:label	Parkinson's disease symptom measurement
 EFO:0010376	rdfs:label	phosphatidylcholine 34:2 measurement@en
 EFO:0020161	rdfs:label	aromatic-l-amino-acid decarboxylase measurement
+EFO:0021731	rdfs:label	3-Indolepropionic acid to Cyclic AMP ratio
+EFO:0021728	rdfs:label	3-Indolepropionic acid to N-acetylglycine ratio
 EFO:0020656	rdfs:label	prolactin receptor measurement
 EFO:0010927	rdfs:label	proto-oncogene tyrosine-protein kinase Src measurement
+EFO:0021687	rdfs:label	3-Indolepropionic acid to L-Tyrosine ratio
+EFO:0600019	rdfs:label	COVID-19 symptoms measurement
+EFO:0021506	rdfs:label	2-hydroxyglutarate measurement@en
 EFO:0020712	rdfs:label	rna-binding protein 39 measurement
 EFO:0009883	rdfs:label	urinary sodium to creatinine ratio
-EFO:0600019	rdfs:label	COVID-19 symptoms measurement
+EFO:0021020	rdfs:label	3-methyl-2-oxobutyrate measurement
 EFO:0008245	rdfs:label	neurodevelopmental measurement
 EFO:0008387	rdfs:label	caudate nucleus measurement
 EFO:0020822	rdfs:label	tyrosine-protein kinase FGR measurement
 EFO:0008355	rdfs:label	dietary heme iron intake measurement
 EFO:0006340	rdfs:label	mean arterial pressure
 EFO:0010086	rdfs:label	anti-Haemophilus influenzae type b polyribosylribitol phosphate IgG measurement
-EFO:0005055	rdfs:label	QRS duration
+EFO:0021124	rdfs:label	guanosine measurement
 EFO:0020559	rdfs:label	matrix metalloproteinase-16 measurement
+EFO:0021173	rdfs:label	1-methylurate measurement
 EFO:0010474	rdfs:label	cystathionine measurement@en
 EFO:0006901	rdfs:label	angiopoietin-2 measurement
+EFO:0021640	rdfs:label	LysoPC 16:1 measurement
 EFO:0005675	rdfs:label	vitamin D-binding protein measurement
 EFO:0020154	rdfs:label	antileukoproteinase measurement
+EFO:0021216	rdfs:label	X-10506 measurement
 EFO:0010584	rdfs:label	cancer antigen 19.9 measurement@en
 EFO:0007763	rdfs:label	dihomo-gamma-linolenic acid measurement
+EFO:0021312	rdfs:label	X-12465 measurement
 EFO:0020947	rdfs:label	triglycerides:total lipids ratio@en
 EFO:0008340	rdfs:label	fear of minor pain measurement
 EFO:0007777	rdfs:label	base metabolic rate measurement
 EFO:0020774	rdfs:label	thymidylate synthase measurement
-EFO:0020517	rdfs:label	keratin, type I cytoskeletal 18 measurement
+EFO:0021326	rdfs:label	X-12726 measurement
 EFO:0009177	rdfs:label	myopic maculopathy severity measurement
+EFO:0020517	rdfs:label	keratin, type I cytoskeletal 18 measurement
 EFO:0010362	rdfs:label	lysophosphatidylcholine 20:3 measurement@en
 EFO:0007013	rdfs:label	aspirin use measurement
 EFO:0005130	rdfs:label	thyroxine measurement
+EFO:0021834	rdfs:label	L-arabitol measurement@en
 EFO:0010105	rdfs:label	CD4-positive T-lymphocyte count
+EFO:0021076	rdfs:label	1-arachidonoylglycerophosphocholine measurement
 EFO:0020571	rdfs:label	midkine measurement
 EFO:0010419	rdfs:label	triacylglycerol 54:1 measurement@en
 EFO:0007908	rdfs:label	traffic air pollution measurement
@@ -423,11 +560,15 @@ EFO:0008012	rdfs:label	Abelson tyrosine-protein kinase 2 measurement
 EFO:0004345	rdfs:label	corneal topography
 EFO:0007796	rdfs:label	parental longevity
 EFO:0009247	rdfs:label	Ovalocyte Count
+EFO:0021345	rdfs:label	X-13069 measurement
 EFO:0020057	rdfs:label	diacylglycerol 33:3 measurement
+EFO:0021359	rdfs:label	X-13741 measurement
 EFO:0008458	rdfs:label	tacrolimus measurement
 EFO:0020167	rdfs:label	ATP-dependent rna helicase ddx19b measurement
+EFO:0021737	rdfs:label	3-Indolepropionic acid to L-Arginine ratio
 EFO:0004520	rdfs:label	ICAM-1 measurement
 EFO:0009401	rdfs:label	hippocampal amigdala transition area volume
+EFO:0021547	rdfs:label	1,7-Dimethylxanthine measurement
 EFO:0020767	rdfs:label	tgf-beta receptor type-2 measurement
 EFO:0009232	rdfs:label	Blast Count
 EFO:0020015	rdfs:label	X-11593 measurement@en
@@ -446,9 +587,12 @@ EFO:0020877	rdfs:label	linoleic acid change measurement
 EFO:0004338	rdfs:label	body weight
 EFO:0005211	rdfs:label	aspirin hydrolysis measurement
 EFO:0010733	rdfs:label	polyunsaturated fatty acid measurement@en
+EFO:0021241	rdfs:label	X-11470 measurement
 EFO:0008168	rdfs:label	interleukin 1 receptor-like 1 measurement
 EFO:0009603	rdfs:label	stroke outcome severity measurement
+EFO:0021165	rdfs:label	N-2-furoylglycine measurement
 EFO:0008068	rdfs:label	carbonic anhydrase 6 measurement
+EFO:0021179	rdfs:label	theobromine measurement
 EFO:0010525	rdfs:label	propionic acid measurement@en
 EFO:0010772	rdfs:label	CD244 measurement
 EFO:0008178	rdfs:label	interleukin 18 receptor 1 measurement
@@ -460,43 +604,60 @@ EFO:0020294	rdfs:label	cyclin-dependent kinase 1:g2/mitotic-specific cyclin-B1 c
 EFO:0020830	rdfs:label	tyrosine-protein kinase TEC measurement
 EFO:0004880	rdfs:label	urinary arsenic measurement
 EFO:0020587	rdfs:label	nascent polypeptide-associated complex subunit alpha measurement
+EFO:0021604	rdfs:label	Hypoxanthine measurement
 EFO:0005654	rdfs:label	velocity of sound measurement
 EFO:0010428	rdfs:label	triacylglycerol 56:10 measurement@en
 EFO:0008021	rdfs:label	alpha-2-macroglobulin receptor-associated protein measurement
 EFO:0020697	rdfs:label	rab gdp dissociation inhibitor beta measurement
+EFO:0021533	rdfs:label	blood vanadium measurement@en
 EFO:0020108	rdfs:label	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1 measurement
 EFO:0010968	rdfs:label	phosphate measurement@en
+EFO:0021220	rdfs:label	X-11247 measurement
 EFO:0010482	rdfs:label	gamma-aminoisobutyric acid measurement@en
 EFO:0005937	rdfs:label	longitudinal BMI measurement
 EFO:0010538	rdfs:label	taurocholate measurement@en
 EFO:0006947	rdfs:label	red wine liking measurement
+EFO:0021061	rdfs:label	10-nonadecenoate 19:1n9 measurement
+EFO:0021330	rdfs:label	X-12740 measurement
 EFO:0008402	rdfs:label	susceptibility to cold sores measurement
 EFO:0020218	rdfs:label	calcium/calmodulin-dependent protein kinase type II subunit alpha measurement
 EFO:0010592	rdfs:label	tumor necrosis factor ligand superfamily member 8 measurement@en
 EFO:0008029	rdfs:label	apolipoprotein E measurement
 EFO:0008233	rdfs:label	MHC class I polypeptide-related sequence A measurement
-EFO:0009949	rdfs:label	KANNO antigen measurement
+EFO:0021778	rdfs:label	uromodulin measurement@en
 EFO:0020606	rdfs:label	neutrophil-activating peptide 2 measurement
+EFO:0009949	rdfs:label	KANNO antigen measurement
 EFO:0008139	rdfs:label	glypican-5 measurement
 EFO:0004819	rdfs:label	resistin measurement
 EFO:0010511	rdfs:label	niacinamide measurement@en
+EFO:0021722	rdfs:label	3-Indolepropionic acid to 2-Picolinic acid ratio
 EFO:0020287	rdfs:label	contactin-4 measurement
 EFO:0010396	rdfs:label	sphingomyelin 22:1 measurement@en
 EFO:0011038	rdfs:label	anti-human herpes virus 7 antibody measurement@en
 EFO:0020869	rdfs:label	glycerophospholipid change measurement
 EFO:0007875	rdfs:label	excessive daytime sleepiness measurement
+EFO:0021092	rdfs:label	1-stearoylglycerophosphocholine measurement
 EFO:0010621	rdfs:label	stromelysin‐2 measurement@en
 EFO:0020397	rdfs:label	galectin-2 measurement
+EFO:0021233	rdfs:label	X-11438 measurement
 EFO:0010774	rdfs:label	CD6 measurement
+EFO:0021282	rdfs:label	X-12056 measurement
 EFO:0010788	rdfs:label	leukemia inhibitory factor receptor measurement
 EFO:0008381	rdfs:label	total cortical area measurement
 EFO:0020316	rdfs:label	delta-like protein 1 measurement
 EFO:0009885	rdfs:label	frailty measurement
+EFO:0021636	rdfs:label	Lauric acid measurement
+EFO:0021150	rdfs:label	benzoate measurement
 EFO:0008053	rdfs:label	C-C motif chemokine 5 measurement
 EFO:0020426	rdfs:label	growth hormone receptor measurement
+EFO:0021386	rdfs:label	octanoylcarnitine-to-X-13435 ratio
+EFO:0021129	rdfs:label	glycylvaline measurement
 EFO:0020204	rdfs:label	C-type mannose receptor 2 measurement
 EFO:0020941	rdfs:label	lysophosphatidylcholine 15:0 measurement@en
+EFO:0021468	rdfs:label	phosphatidylcholine 33:0 measurement
 EFO:0010614	rdfs:label	follistatin measurement@en
+EFO:0021539	rdfs:label	X-11244 measurement@en
+EFO:0021053	rdfs:label	3-carboxy-4-methyl-5-propyl-2-furanpropanoate CMPF measurement
 EFO:0020258	rdfs:label	chromobox protein homolog 5 measurement
 EFO:0010413	rdfs:label	triacylglycerol 52:1 measurement@en
 EFO:0004830	rdfs:label	caudate nucleus volume
@@ -510,12 +671,16 @@ EFO:0010139	rdfs:label	fish consumption measurement
 EFO:0008215	rdfs:label	lysosomal protective protein measurement
 EFO:0005132	rdfs:label	5-HIAA measurement
 EFO:0008014	rdfs:label	ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 2 measurement
+EFO:0021011	rdfs:label	phenol sulfate measurement
+EFO:0021763	rdfs:label	3-Indolepropionic acid to 4-Nitrophenol ratio
 EFO:0010517	rdfs:label	oxalate measurement@en
 EFO:0008110	rdfs:label	Dickkopf-related protein 4 measurement
+EFO:0021551	rdfs:label	2-Hydroxyisocaproic acid measurement
 EFO:0010627	rdfs:label	pro‐adrenomedullin measurement@en
 EFO:0020341	rdfs:label	ectodysplasin-a, secreted form measurement
 EFO:0006955	rdfs:label	ADAMTS13 activity measurement
 EFO:0008373	rdfs:label	left ventricular ejection fraction measurement
+EFO:0021288	rdfs:label	X-12100--hydroxytryptophan measurement
 EFO:0020504	rdfs:label	interleukin-3 receptor subunit alpha measurement
 EFO:0004554	rdfs:label	genomic measurement
 EFO:0008118	rdfs:label	endoglin measurement
@@ -524,24 +689,34 @@ EFO:0020871	rdfs:label	phosphatidylcholine change measurement
 EFO:0020614	rdfs:label	nuclear receptor subfamily 1 group d member 1 measurement
 EFO:0006823	rdfs:label	total trans-18:1 fatty acid measurement
 EFO:0004460	rdfs:label	soluble transferrin receptor measurement
+EFO:0021645	rdfs:label	LysoPC 20:2 measurement
+EFO:0021207	rdfs:label	X-08988 measurement
+EFO:0021454	rdfs:label	lysophosphatidylcholine 18:3 measurement
 EFO:0010995	rdfs:label	n-methylnicotinic acid measurement
 EFO:0008535	rdfs:label	post-traumatic stress disorder symptom measurement
 EFO:0007893	rdfs:label	alpha-carotene measurement
 EFO:0008306	rdfs:label	tryptase beta-2 measurement
 EFO:0008331	rdfs:label	interleukin 2 measurement
+EFO:0021261	rdfs:label	X-11795 measurement
+EFO:0021442	rdfs:label	cholesteryl ester 22:1 measurement
+EFO:0021317	rdfs:label	X-12627 measurement
+EFO:0021004	rdfs:label	3-methylhistidine measurement
 EFO:0005763	rdfs:label	pulse pressure measurement
 EFO:0010792	rdfs:label	oncostatin-M measurement
 EFO:0004468	rdfs:label	glucose measurement
 EFO:0020933	rdfs:label	HIV resevoir measurement@en
 EFO:0009930	rdfs:label	Calcium channel blocker use measurement
+EFO:0021371	rdfs:label	X-14541 measurement
+EFO:0021820	rdfs:label	right ventricular ejection fraction to left ventricular ejection fraction ratio@en
+EFO:0021114	rdfs:label	4-androsten-3beta,17beta-diol disulfate 2 measurement
 EFO:0008339	rdfs:label	fear of medical pain measurement
 EFO:0010432	rdfs:label	triacylglycerol 56:5 measurement@en
 EFO:0020324	rdfs:label	dickkopf-like protein 1 measurement
 EFO:0020850	rdfs:label	vitamin k-dependent protein S measurement
+EFO:0010242	rdfs:label	beta globulin measurement@en
 EFO:0004885	rdfs:label	early cardiac repolarization measurement
 EFO:0008449	rdfs:label	magnesium:creatinine ratio measurement
 EFO:0007957	rdfs:label	urinary 1,3-butadiene measurement
-EFO:0010242	rdfs:label	beta globulin measurement@en
 EFO:0010542	rdfs:label	ureidopropionic acid measurement@en
 EFO:0020434	rdfs:label	heat shock cognate 71 kda protein measurement
 EFO:0005659	rdfs:label	plasma beta-amyloid 1-40 measurement
@@ -549,12 +724,15 @@ EFO:0007659	rdfs:label	APOE carrier status
 EFO:0006941	rdfs:label	grip strength measurement
 EFO:0020222	rdfs:label	cAMP-dependent protein kinase catalytic subunit alpha measurement
 EFO:0005187	rdfs:label	C-peptide measurement
+EFO:0021274	rdfs:label	X-11876 measurement
+EFO:0021782	rdfs:label	age at initiation of oral contraceptive pill use@en
 EFO:0009223	rdfs:label	Hemoglobin S Measurement
+EFO:0021017	rdfs:label	tryptophan betaine measurement
 EFO:0008151	rdfs:label	hepatitis A virus cellular receptor 2 measurement
+EFO:0021769	rdfs:label	3-Indolepropionic acid to Myoinositol ratio
 EFO:0020600	rdfs:label	neurogenic locus notch homolog protein 3 measurement
 EFO:0005603	rdfs:label	age at breast cancer diagnosis
 EFO:0010346	rdfs:label	cholesteryl ester 18:3 measurement@en
-EFO:0005093	rdfs:label	hip circumference
 EFO:0008165	rdfs:label	interferon gamma measurement
 EFO:0009943	rdfs:label	Antihistamine use measurement
 EFO:0010903	rdfs:label	anti-chlamydia trachomatis antibody measurement@en
@@ -568,26 +746,39 @@ EFO:0008159	rdfs:label	inosine-5'-monophosphate dehydrogenase 2 measurement
 EFO:0020863	rdfs:label	major adverse cardiovascular event measurement@en
 EFO:0000409	rdfs:label	disease free survival
 EFO:0009596	rdfs:label	feeling tense measurement
+EFO:0021727	rdfs:label	5-Methyluridine to 3-Indolepropionic acid ratio
 EFO:0007936	rdfs:label	disease prognosis measurement
+EFO:0021100	rdfs:label	5-dodecenoate 12:1n7 measurement
 EFO:0020708	rdfs:label	rgm domain family member b measurement
+EFO:0021691	rdfs:label	3-Indolepropionic acid to Taurocholic acid sodium salt hydrate ratio
+EFO:0021267	rdfs:label	X-11845 measurement
+EFO:0021094	rdfs:label	1-stearoylglycerophosphoinositol measurement
 EFO:0006504	rdfs:label	non-dense area measurement
 EFO:0020310	rdfs:label	cytosolic non-specific dipeptidase measurement
+EFO:0021630	rdfs:label	L-Serine measurement
 EFO:0020195	rdfs:label	C-C motif chemokine 13 measurement
 EFO:0010980	rdfs:label	3-aminoisobutyrate measurement
 EFO:0006871	rdfs:label	beta wave measurement
 EFO:0004614	rdfs:label	apolipoprotein A 1 measurement
 EFO:0008266	rdfs:label	plexin-C1 measurement
+EFO:0021377	rdfs:label	X-14662 measurement
 EFO:0020420	rdfs:label	grb2-related adapter protein 2 measurement
 EFO:0010473	rdfs:label	cyclic adenosine monophosphate measurement@en
+EFO:0021225	rdfs:label	X-11327 measurement
+EFO:0021052	rdfs:label	15-methylpalmitate isobar with 2-methylpalmitate measurement
 EFO:0020683	rdfs:label	protein kinase c zeta type measurement
 EFO:0020153	rdfs:label	anti-muellerian hormone type-2 receptor measurement
 EFO:0007998	rdfs:label	cognitive impairment measurement
 EFO:0020224	rdfs:label	cAMP-specific 3',5'-cyclic phosphodiesterase 4D measurement
 EFO:0020259	rdfs:label	chymase measurement
+EFO:0021335	rdfs:label	X-12798 measurement
+EFO:0021488	rdfs:label	urinary 6‑hydroxymelatonin sulfate to creatinine ratio@en
 EFO:0020531	rdfs:label	leucine-rich repeat transmembrane neuronal protein 1 measurement
 EFO:0005118	rdfs:label	IGFBP-1 measurement
+EFO:0021713	rdfs:label	3-Indolepropionic acid to Hippuric acid ratio
 EFO:0007907	rdfs:label	methadone dose measurement
 EFO:0020278	rdfs:label	complement C5 measurement
+EFO:0021598	rdfs:label	Gluconic acid measurement
 EFO:0010909	rdfs:label	adrenomedullin measurement
 EFO:0010221	rdfs:label	systemising measurement@en
 EFO:0020413	rdfs:label	glycylpeptide n-tetradecanoyltransferase 1 measurement
@@ -599,16 +790,19 @@ EFO:0007700	rdfs:label	exploratory eye movement measurement
 EFO:0009388	rdfs:label	sum of basophil and neutrophil counts
 EFO:0010543	rdfs:label	uridine diphosphate galactose measurement@en
 EFO:0008227	rdfs:label	matrilysin measurement
+EFO:0021238	rdfs:label	X-11445--5-alpha-pregnan-3beta,20alpha-disulfate measurement
 EFO:0009114	rdfs:label	in utero exposure measurement
 EFO:0010779	rdfs:label	CXCL11 measurement
 EFO:0008372	rdfs:label	laterality measurement
 EFO:0007810	rdfs:label	Plasmodium falciparum antigen IgG1 measurement
+EFO:0021045	rdfs:label	stearoylcarnitine measurement
 EFO:0004314	rdfs:label	forced expiratory volume
 EFO:0005276	rdfs:label	hydroxy-leucine measurement
 EFO:0010068	rdfs:label	respiratory symptom change measurement
 EFO:0010576	rdfs:label	liver fibrosis measurement@en
 EFO:0006822	rdfs:label	trans-16:1n-7 fatty acid measurement
 EFO:0020717	rdfs:label	scavenger receptor cysteine-rich type 1 protein m130 measurement
+EFO:0021155	rdfs:label	3-cystein-S-ylacetaminophen measurement
 EFO:0009961	rdfs:label	Insulinogenic index measurement
 EFO:0011011	rdfs:label	sitting height measurement@en
 EFO:0010446	rdfs:label	2-hydroxyglutaric acid measurement@en
@@ -617,6 +811,7 @@ EFO:0006333	rdfs:label	transferrin saturation measurement
 EFO:0010234	rdfs:label	viral subtype carrier status@en
 EFO:0020891	rdfs:label	tyrosine change measurement
 EFO:0009098	rdfs:label	cognitive domain measurement
+EFO:0021706	rdfs:label	3-Indolepropionic acid to Sarcosine ratio
 EFO:0020126	rdfs:label	activated protein C measurement
 EFO:0007770	rdfs:label	post-operative fentanyl consumption measurement
 EFO:0020634	rdfs:label	phosphatidylethanolamine-binding protein 1 measurement
@@ -624,10 +819,14 @@ EFO:0010729	rdfs:label	sun exposure measurement@en
 EFO:0010732	rdfs:label	omega-6:omega-3 polyunsaturated fatty acid ratio@en
 EFO:0020929	rdfs:label	electrocardiogram PR prolongation@en
 EFO:0009765	rdfs:label	alanine measurement
+EFO:0021474	rdfs:label	phosphatidylcholine 36:6 measurement
+EFO:0021816	rdfs:label	right ventricular ejection fraction measurement@en
 EFO:0010479	rdfs:label	fructose-6-phosphate measurement@en
 EFO:0008047	rdfs:label	C-C motif chemokine 19 measurement
 EFO:0004462	rdfs:label	PR interval
+EFO:0021584	rdfs:label	D-Fructose measurement
 EFO:0010151	rdfs:label	soluble triggering receptor expressed on myeloid cells 2 measurement
+EFO:0021058	rdfs:label	n-Butyl Oleate measurement
 EFO:0020159	rdfs:label	apoptosis regulator BCL-2 measurement
 EFO:0010404	rdfs:label	triacylglycerol 48:1 measurement@en
 EFO:0010600	rdfs:label	angiopoietin-1 receptor measurement@en
@@ -640,9 +839,9 @@ EFO:0004134	rdfs:label	tumor size
 EFO:0009770	rdfs:label	leucine measurement
 EFO:0008475	rdfs:label	mood instability measurement
 EFO:0004703	rdfs:label	age at menarche
-EFO:0008005	rdfs:label	energy expenditure measurement
 EFO:0008274	rdfs:label	retinoic acid receptor responder protein 2 measurement
 EFO:0008201	rdfs:label	kynureninase measurement
+EFO:0021719	rdfs:label	3-Indolepropionic acid to Kinurenine ratio
 EFO:0020591	rdfs:label	netrin receptor UNC5D measurement
 EFO:0020647	rdfs:label	platelet-activating factor acetylhydrolase measurement
 EFO:0007977	rdfs:label	nervonic acid measurement
@@ -650,22 +849,32 @@ EFO:0004697	rdfs:label	estradiol measurement
 EFO:0007741	rdfs:label	R wave amplitude
 EFO:0020454	rdfs:label	histone H2A.Z measurement
 EFO:0020242	rdfs:label	cathepsin G measurement
+EFO:0021304	rdfs:label	X-12407 measurement
 EFO:0004983	rdfs:label	complement C3 measurement
 EFO:0010340	rdfs:label	cholesteryl ester 14:0 measurement@en
+EFO:0021037	rdfs:label	3-dehydrocarnitine measurement
+EFO:0021400	rdfs:label	4-acetamidobutanoate-to-X-03056--N-[3-(2-Oxopyrrolidin-1-yl)propyl]acetamide ratio
 EFO:0008403	rdfs:label	susceptibility to mononucleosis measurement
 EFO:0007865	rdfs:label	loneliness measurement
 EFO:0005608	rdfs:label	cortical opacity measurement
+EFO:0021414	rdfs:label	valine-to-proline ratio
 EFO:0020620	rdfs:label	oxidized low-density lipoprotein receptor 1 measurement
 EFO:0009225	rdfs:label	Hemoglobin Tetramer Measurement
 EFO:0004828	rdfs:label	genetic variation
+EFO:0021567	rdfs:label	4-Hydroxybenzaldehyde measurement
+EFO:0021147	rdfs:label	HWESASXX measurement
 EFO:0010764	rdfs:label	caspase-8 measurement
 EFO:0010507	rdfs:label	lactose measurement@en
 EFO:0008100	rdfs:label	contactin-2 measurement
 EFO:0007930	rdfs:label	LDL cholesterol:HDL cholesterol ratio
+EFO:0021690	rdfs:label	L-Glutamine to 3-Indolepropionic acid ratio
 EFO:0020357	rdfs:label	ephrin-A5 measurement
 EFO:0008436	rdfs:label	late gestational weight gain
+EFO:0021677	rdfs:label	beta-Nicotinamide mononucleotide measurement
+EFO:0021239	rdfs:label	X-11452 measurement
 EFO:0020145	rdfs:label	amyloid beta A4 protein measurement
 EFO:0008094	rdfs:label	complement component C8 measurement
+EFO:0021091	rdfs:label	1-palmitoylglycerophosphoinositol measurement
 EFO:0020702	rdfs:label	receptor tyrosine-protein kinase erbb-4 measurement
 EFO:0020897	rdfs:label	citrus intake measurement@en
 EFO:0009598	rdfs:label	feeling miserable measurement
@@ -674,6 +883,7 @@ EFO:0600085	rdfs:label	PP interval
 EFO:0009935	rdfs:label	Non-steroidal anti-inflammatory and antirheumatic product use measurement
 EFO:0005318	rdfs:label	axial length measurement
 EFO:0008260	rdfs:label	plasma kallikrein measurement
+EFO:0021099	rdfs:label	10-undecenoate 11:1n1 measurement
 EFO:0020315	rdfs:label	decorin measurement
 EFO:0008198	rdfs:label	kininogen-1 measurement
 EFO:0020855	rdfs:label	x-ray repair cross-complementing protein 6 measurement
@@ -684,19 +894,27 @@ EFO:0010821	rdfs:label	liver fat measurement@en
 EFO:0010115	rdfs:label	glycerol measurement
 EFO:0010095	rdfs:label	non-grapefruit juice consumption measurement
 EFO:0020522	rdfs:label	kinesin-like protein KIF23 measurement
+EFO:0021482	rdfs:label	triacylglycerol 51:1 measurement
 EFO:0007747	rdfs:label	postburn hypertrophic scarring severity measurement
 EFO:0020758	rdfs:label	superoxide dismutase [Cu-Zn] measurement
 EFO:0020272	rdfs:label	collectin-12 measurement
 EFO:0010378	rdfs:label	phosphatidylcholine 34:4 measurement@en
+EFO:0021592	rdfs:label	D-Trehalose measurement
+EFO:0021663	rdfs:label	Phenylpyruvic acid measurement
 EFO:0008422	rdfs:label	susceptibility to infectious disease measurement
 EFO:0007857	rdfs:label	facial depth measurement
 EFO:0030082	rdfs:label	polygenic risk score
+EFO:0021406	rdfs:label	isoleucine-to-X-11529 ratio
 EFO:0020868	rdfs:label	diglyceride change measurement
 EFO:0020675	rdfs:label	protein jagged-2 measurement
 EFO:0004530	rdfs:label	triglyceride measurement
 EFO:0007705	rdfs:label	manic episode measurement
 EFO:0008363	rdfs:label	gamma-linoleic acid measurement
+EFO:0021511	rdfs:label	phenyllactate measurement@en
 EFO:0020418	rdfs:label	granzyme b measurement
+EFO:0021696	rdfs:label	D-Arabinose to 3-Indolepropionic acid ratio
+EFO:0021258	rdfs:label	X-11787 measurement
+EFO:0021621	rdfs:label	L-Lysine measurement
 EFO:0020186	rdfs:label	bone morphogenetic protein 6 measurement
 EFO:0010570	rdfs:label	ventricular enlargement measurement@en
 EFO:0010641	rdfs:label	3-ureidopropionate measurement@en
@@ -704,25 +922,35 @@ EFO:0009419	rdfs:label	CX3CL1 measurement
 EFO:0010450	rdfs:label	3-phosphoglyceric acid@en
 EFO:0004515	rdfs:label	muscle measurement
 EFO:0009927	rdfs:label	Antihypertensive use measurement
+EFO:0021368	rdfs:label	X-14374 measurement
 EFO:0006334	rdfs:label	total iron binding capacity
 EFO:0020130	rdfs:label	adenylosuccinate lyase measurement
 EFO:0020578	rdfs:label	mitogen-activated protein kinase 14 measurement
 EFO:0000714	rdfs:label	survival time
+EFO:0021700	rdfs:label	3-Indolepropionic acid to N6-Acetyl-L-lysine ratio
 EFO:0005677	rdfs:label	puberty onset measurement
 EFO:0007677	rdfs:label	LDL peak particle diameter measurement
 EFO:0010239	rdfs:label	cortisol:DHEAS ratio measurement@en
+EFO:0021070	rdfs:label	oleate 18:1n9 measurement
 EFO:0020688	rdfs:label	protein set measurement
+EFO:0021810	rdfs:label	putrescine measurement@en
+EFO:0021211	rdfs:label	X-09789 measurement
 EFO:0008329	rdfs:label	facial emotion recognition measurement
 EFO:0020300	rdfs:label	cystatin-S measurement
+EFO:0021180	rdfs:label	theophylline measurement
 EFO:0008183	rdfs:label	interleukin 27 receptor subunit alpha measurement
 EFO:0007015	rdfs:label	3-hydroxy-1-methylpropylmercapturic acid measurement
 EFO:0020485	rdfs:label	interferon lambda-1 measurement
+EFO:0021321	rdfs:label	X-12696 measurement
 EFO:0009369	rdfs:label	diffusing capacity of the lung for carbon monoxide
+EFO:0021078	rdfs:label	1-arachidonoylglycerophosphoinositol measurement
 EFO:0007635	rdfs:label	concentration dose ratio
+EFO:0021614	rdfs:label	L-Cysteine measurement
 EFO:0010619	rdfs:label	cathepsin L1 measurement@en
 EFO:0010438	rdfs:label	triacylglycerol 58:11 measurement@en
 EFO:0008031	rdfs:label	aspartate aminotransferase, cytoplasmic measurement
 EFO:0009264	rdfs:label	maximum cigarettes per day measurement
+EFO:0021188	rdfs:label	X-03094 measurement
 EFO:0020404	rdfs:label	glial fibrillary acidic protein measurement
 EFO:0005020	rdfs:label	collection latitude
 EFO:0010387	rdfs:label	phosphatidylcholine 38:5 measurement@en
@@ -735,22 +963,33 @@ EFO:0020902	rdfs:label	bombay phenotype@en
 EFO:0008039	rdfs:label	BMI-adjusted hip circumference
 EFO:0020743	rdfs:label	slit and ntrk-like protein 5 measurement
 EFO:0020667	rdfs:label	protein amnionless measurement
+EFO:0021517	rdfs:label	arachidonate 20:4n6-to-dihomo-linolenate 20:3n3 or n6 ratio@en
+EFO:0021031	rdfs:label	threitol measurement
 EFO:0008149	rdfs:label	hemopexin measurement
 EFO:0020007	rdfs:label	X-21467 measurement@en
-EFO:0020061	rdfs:label	diacylglycerol 36:2 measurement
+EFO:0021571	rdfs:label	5'-Deoxy-5'-(methylthio) adenosine measurement
+EFO:0021627	rdfs:label	L-Proline measurement
+EFO:0021141	rdfs:label	gamma-glutamylmethionine measurement
 EFO:0008044	rdfs:label	C-C motif chemokine 16 measurement
 EFO:0007885	rdfs:label	JT interval
+EFO:0021434	rdfs:label	cholesteryl ester 15:0 measurement
 EFO:0020361	rdfs:label	epiregulin measurement
 EFO:0020117	rdfs:label	40s ribosomal protein S3 measurement
 EFO:0010501	rdfs:label	indole-3-propionate measurement@en
 EFO:0010491	rdfs:label	glycocholate measurement@en
 EFO:0007628	rdfs:label	gas trapping measurement
+EFO:0021681	rdfs:label	L-Tryptophan to 3-Indolepropionic acid ratio
+EFO:0021243	rdfs:label	X-11483 measurement
+EFO:0021741	rdfs:label	3-Indolepropionic acid to L-Pipecolic acid ratio
 EFO:0020964	rdfs:label	esterified campesterol measurement@en
 EFO:0005890	rdfs:label	osteoarthritis biomarker measurement
+EFO:0021802	rdfs:label	spermidine measurement@en
 EFO:0008102	rdfs:label	copine-1 measurement
 EFO:0011001	rdfs:label	scyllo-inositol measurement
 EFO:0007788	rdfs:label	BMI-adjusted waist-hip ratio
 EFO:0020306	rdfs:label	cytokine receptor-like factor 2 measurement
+EFO:0021266	rdfs:label	X-11843 measurement
+EFO:0021337	rdfs:label	X-12830 measurement
 EFO:0009437	rdfs:label	offspring mortality measurement
 EFO:0010930	rdfs:label	TNF-related apoptosis-inducing ligand receptor 2 measurement
 EFO:0008280	rdfs:label	serine protease 27 measurement
@@ -758,13 +997,15 @@ EFO:0007898	rdfs:label	alpha-tocopherol measurement
 EFO:0020582	rdfs:label	mitogen-activated protein kinase kinase kinase 7:tgf-beta-activated kinase 1 and map3k7-binding protein 1 fusion measurement
 EFO:0008023	rdfs:label	angiopoietin-1 receptor, soluble measurement
 EFO:0008206	rdfs:label	left ventricular systolic function measurement
-EFO:0006923	rdfs:label	fertility measurement
+EFO:0021134	rdfs:label	ADpSGEGDFXAEGGGVR measurement
 EFO:0020596	rdfs:label	neurexin-1-beta measurement
+EFO:0021009	rdfs:label	3-methoxytyrosine measurement
 EFO:0010797	rdfs:label	sulfotrasferase 1A1 measurement
 EFO:0008390	rdfs:label	prothrombin time measurement
 EFO:0020521	rdfs:label	kin of IRRE-like protein 3 measurement
 EFO:0020692	rdfs:label	prothrombin measurement
 EFO:0008133	rdfs:label	fibronectin measurement
+EFO:0021754	rdfs:label	3-Indolepropionic acid to Hypoxanthine ratio
 EFO:0020459	rdfs:label	hyaluronan and proteoglycan link protein 1 measurement
 EFO:0008469	rdfs:label	B-type natriuretic peptide to N-terminal pro B-type natriuretic peptide ratio
 EFO:0020268	rdfs:label	coiled-coil domain-containing protein 80 measurement
@@ -772,23 +1013,32 @@ EFO:0020784	rdfs:label	translationally-controlled tumor protein measurement
 EFO:0007614	rdfs:label	asthma exacerbation measurement
 EFO:0010372	rdfs:label	phosphatidylcholine 32:0 measurement@en
 EFO:0005851	rdfs:label	height-adjusted body mass index
+EFO:0021558	rdfs:label	3-Hydroxyhippuric acid (m-Hydroxyhippuricacid) measurement
+EFO:0021086	rdfs:label	1-oleoylglycerophosphocholine measurement
 EFO:0004814	rdfs:label	interleukin-6 receptor measurement
+EFO:0021668	rdfs:label	Sarcosine measurement
 EFO:0010923	rdfs:label	pentraxin-related protein PTX3 measurement
-EFO:0010750	rdfs:label	PHF-tau measurement@en
 EFO:0009257	rdfs:label	root mean square of the successive differences of inter beat intervals
+EFO:0010750	rdfs:label	PHF-tau measurement@en
 EFO:0007935	rdfs:label	urinary uric acid to creatinine ratio
 EFO:0020950	rdfs:label	apolipoprotein C measurement@en
 EFO:0009353	rdfs:label	Anti-Toxoplasma gondii IgG measurement
 EFO:0008085	rdfs:label	Ck-beta-8-1 measurement
 EFO:0600015	rdfs:label	noise exposure measurement
+EFO:0021502	rdfs:label	lateral ventricle volume change measurement@en
+EFO:0021196	rdfs:label	X-05907 measurement
 EFO:0020888	rdfs:label	leucine change measurement
 EFO:0020412	rdfs:label	glycogen synthase kinase-3 alpha/beta measurement
 EFO:0020707	rdfs:label	retinol-binding protein 4 measurement
+EFO:0021252	rdfs:label	X-11540 measurement
 EFO:0004731	rdfs:label	eye measurement
 EFO:0020180	rdfs:label	beta-2-microglobulin measurement
+EFO:0021747	rdfs:label	3-Indolepropionic acid to N,N-Dimethylglycine ratio
 EFO:0004459	rdfs:label	ferritin measurement
 EFO:0010148	rdfs:label	pepsinogen-I measurement
+EFO:0021362	rdfs:label	X-14057 measurement
 EFO:0009215	rdfs:label	Hemoglobin C Measurement
+EFO:0021105	rdfs:label	laurate 12:0 measurement
 EFO:0600020	rdfs:label	time to remission of COVID-19 symptoms
 EFO:0010455	rdfs:label	adipic acid mesurement@en
 EFO:0011007	rdfs:label	estrogen measurement@en
@@ -802,29 +1052,38 @@ EFO:0020943	rdfs:label	cholesterol:total lipids ratio@en
 EFO:0020770	rdfs:label	thrombospondin-1 measurement
 EFO:0008078	rdfs:label	CD27 antigen measurement
 EFO:0020513	rdfs:label	kallikrein-14 measurement
+EFO:0021830	rdfs:label	3-methyl-2-oxindole measurement@en
 EFO:0004744	rdfs:label	matrix metalloproteinase measurement
 EFO:0020527	rdfs:label	lamin-B1 measurement
+EFO:0021072	rdfs:label	palmitoleate 16:1n7 measurement
 EFO:0008188	rdfs:label	interleukin 6 receptor subunit beta measurement
 EFO:0004341	rdfs:label	body fat distribution
 EFO:0007802	rdfs:label	obsessive-compulsive symptom measurement
 EFO:0020229	rdfs:label	carbonic anhydrase 3 measurement
+EFO:0021341	rdfs:label	X-12850 measurement
 EFO:0008244	rdfs:label	neurexophilin-1 measurement
+EFO:0021355	rdfs:label	X-13553 measurement
+EFO:0021182	rdfs:label	X-02249 measurement
 EFO:0010701	rdfs:label	mean reticulocyte volume@en
 EFO:0004586	rdfs:label	complete blood cell count
 EFO:0004790	rdfs:label	CD40 ligand measurement
 EFO:0008354	rdfs:label	cognitive function measurement
 EFO:0006521	rdfs:label	calcium intake measurement
 EFO:0010811	rdfs:label	carbohydrate intake measurement@en
+EFO:0021733	rdfs:label	3-Indolepropionic acid to 1,4-dihydro-1-Methyl-4-oxo-3-pyridinecarboxamide ratio
 EFO:0007927	rdfs:label	schizophrenia symptom severity measurement
+EFO:0021027	rdfs:label	mannitol measurement
 EFO:0005054	rdfs:label	QRS complex
 EFO:0004869	rdfs:label	YKL40 measurement
 EFO:0004696	rdfs:label	sex hormone-binding globulin measurement
 EFO:0010226	rdfs:label	phosphatidylcholine measurement@en
 EFO:0020956	rdfs:label	pancreatic secretory trypsin inhibitor protein measurement@en
 EFO:0009394	rdfs:label	hippocampal CA1 volume
+EFO:0021543	rdfs:label	1-Methylhistidine measurement
 EFO:0020011	rdfs:label	X-16964 measurement@en
 EFO:0006957	rdfs:label	X12063 measurement
 EFO:0006784	rdfs:label	body height at birth
+EFO:0021293	rdfs:label	X-12212 measurement
 EFO:0020506	rdfs:label	interleukin-37 measurement
 EFO:0004798	rdfs:label	copy number variation
 EFO:0004979	rdfs:label	comprehensive strength index
@@ -836,12 +1095,17 @@ EFO:0020121	rdfs:label	60 kda heat shock protein, mitochondrial measurement
 EFO:0020873	rdfs:label	apolipoprotein A 1 change measurement
 EFO:0020616	rdfs:label	NDUC domain-containing protein 3 measurement
 EFO:0007622	rdfs:label	sRAGE measurement
+EFO:0021576	rdfs:label	Asp-phe measurement
+EFO:0021647	rdfs:label	LysoPE 16:0 measurement
 EFO:0007012	rdfs:label	NSAID use measurement
 EFO:0600061	rdfs:label	blood group B
 EFO:0008064	rdfs:label	calpain I measurement
 EFO:0003892	rdfs:label	pulmonary function measurement
+EFO:0021175	rdfs:label	3-methylxanthine measurement
 EFO:0020366	rdfs:label	eukaryotic initiation factor 4a-III measurement
 EFO:0010521	rdfs:label	phosphocreatine measurement@en
+EFO:0021686	rdfs:label	L-Phenylalanine to 3-Indolepropionic acid ratio
+EFO:0021446	rdfs:label	cholesteryl ester 24:1 measurement
 EFO:0004952	rdfs:label	disease recurrence
 EFO:0008174	rdfs:label	interleukin 17 measurement
 EFO:0006514	rdfs:label	Alzheimer's disease biomarker measurement
@@ -849,11 +1113,16 @@ EFO:0020896	rdfs:label	glycoprotein change measurement
 EFO:0007790	rdfs:label	Epstein Barr virus nuclear antigen 1 IgG measurement
 EFO:0020776	rdfs:label	tissue-type plasminogen activator measurement
 EFO:0009290	rdfs:label	left ventricular mass index
+EFO:0021479	rdfs:label	triacylglycerol 49:1 measurement
+EFO:0021133	rdfs:label	pyroglutamylglycine measurement
 EFO:0020568	rdfs:label	methionine aminopeptidase 1 measurement
 EFO:0010156	rdfs:label	sweet liking measurement
 EFO:0009304	rdfs:label	percent glycated albumin
+EFO:0021600	rdfs:label	Glycoursodeoxycholic acid measurement
 EFO:0010424	rdfs:label	triacylglycerol 54:6 measurement@en
+EFO:0021589	rdfs:label	D-Mannose measurement
 EFO:0007962	rdfs:label	polybrominated diphenyl ether measurement
+EFO:0021396	rdfs:label	indoleacetate-to-N2,N2-dimethylguanosine ratio
 EFO:0020104	rdfs:label	pelvis bone mineral density@en
 EFO:0020907	rdfs:label	very low density lipoprotein particle size change measurement
 EFO:0020734	rdfs:label	serine/threonine-protein kinase TBK1 measurement
@@ -868,39 +1137,55 @@ EFO:0004527	rdfs:label	mean corpuscular hemoglobin
 EFO:0020214	rdfs:label	cadherin-6 measurement
 EFO:0008025	rdfs:label	angiotensinogen measurement
 EFO:0006527	rdfs:label	smoking status measurement
+EFO:0021774	rdfs:label	D-Sucrose to 3-Indolepropionic acid ratio
+EFO:0021036	rdfs:label	taurolithocholate 3-sulfate measurement
 EFO:0008167	rdfs:label	interleukin 1 Receptor accessory protein measurement
 EFO:0004305	rdfs:label	erythrocyte count
+EFO:0021562	rdfs:label	3-N-Methyl-L-histidine measurement
 EFO:0004571	rdfs:label	butyrylcholinesterase measurement
 EFO:0008135	rdfs:label	ficolin-2 measurement
 EFO:0010922	rdfs:label	P-selectin glycoprotein ligand 1 measurement
+EFO:0021672	rdfs:label	Tauroursodeoxycholic acid measurement
 EFO:0020066	rdfs:label	diacylglycerol 38:4 measurement
 EFO:0009723	rdfs:label	job satisfaction measurement
 EFO:0005194	rdfs:label	amyloid-beta measurement
 EFO:0007912	rdfs:label	conscientiousness measurement
+EFO:0021299	rdfs:label	X-12244--N-acetylcarnosine measurement
 EFO:0011034	rdfs:label	T wave duration@en
-EFO:0004297	rdfs:label	clinical laboratory measurement
 EFO:0010496	rdfs:label	hippuric acid measurement@en
+EFO:0004297	rdfs:label	clinical laboratory measurement
 EFO:0008237	rdfs:label	motor development measurement
 EFO:0020882	rdfs:label	lactate change measurement
 EFO:0020176	rdfs:label	basigin measurement
 EFO:0009420	rdfs:label	CXCL12 measurement
 EFO:0020625	rdfs:label	peptidyl-prolyl cis-trans isomerase A measurement
+EFO:0021507	rdfs:label	2-hydroxypalmitate measurement@en
+EFO:0021807	rdfs:label	hydroxyhexadecanoylcarnitine measurement@en
 EFO:0020727	rdfs:label	serine/threonine-protein kinase MRCK beta measurement
 EFO:0010527	rdfs:label	pyridoxate measurement@en
 EFO:0008120	rdfs:label	endothelial cell-selective adhesion molecule measurement
+EFO:0021106	rdfs:label	pelargonate 9:0 measurement
 EFO:0010650	rdfs:label	creativity measurement@en
 EFO:0010637	rdfs:label	salivary metabolite measurement
 EFO:0020837	rdfs:label	tyrosine-protein phosphatase non-receptor type 6 measurement
+EFO:0021382	rdfs:label	N-acetylornithine-to-myo-inositol ratio
+EFO:0021201	rdfs:label	X-06307 measurement
 EFO:0008128	rdfs:label	fetuin-B measurement
+EFO:0021125	rdfs:label	N2,N2-dimethylguanosine measurement
 EFO:0010742	rdfs:label	protein binding measurement@en
+EFO:0021139	rdfs:label	gamma-glutamylisoleucine measurement
 EFO:0006902	rdfs:label	angiopoietin-2 receptor measurement
 EFO:0010803	rdfs:label	urokinase-type plasminogen activator measurement
 EFO:0010489	rdfs:label	glycerophosphocholine measurement@en
+EFO:0021655	rdfs:label	N,N-Dimethylglycine measurement
+EFO:0021217	rdfs:label	X-10510 measurement
 EFO:0008072	rdfs:label	cathepsin B measurement
+EFO:0021464	rdfs:label	lysophosphatidylcholine 26:0 measurement
 EFO:0009240	rdfs:label	Metarubricyte Count
 EFO:0020445	rdfs:label	high affinity cAMP-specific 3',5'-cyclic phosphodiesterase 7a measurement
 EFO:0010599	rdfs:label	ST2 protein measurement@en
 EFO:0007778	rdfs:label	urinary albumin to creatinine ratio
+EFO:0021327	rdfs:label	X-12728 measurement
 EFO:0020254	rdfs:label	cerebral dopamine neurotrophic factor measurement
 EFO:0020233	rdfs:label	carbonic anhydrase-related protein 10 measurement
 EFO:0010363	rdfs:label	lysophosphatidylcholine 20:4 measurement@en
@@ -911,14 +1196,18 @@ EFO:0005663	rdfs:label	urinary uromodulin measurement
 EFO:0010928	rdfs:label	SIR2-like protein 2 measurement
 EFO:0020058	rdfs:label	diacylglycerol 34:0 measurement
 EFO:0010442	rdfs:label	triacylglycerol 58:8 measurement@en
+EFO:0021021	rdfs:label	3-methyl-2-oxovalerate measurement
 EFO:0008246	rdfs:label	neurogenic locus notch homolog protein 1 measurement
 EFO:0020168	rdfs:label	aurora kinase A measurement
 EFO:0010552	rdfs:label	social environment measurement@en
 EFO:0004736	rdfs:label	aspartate aminotransferase measurement
+EFO:0021738	rdfs:label	3-Indolepropionic acid to Kynurenic acid ratio
+EFO:0021284	rdfs:label	X-12092 measurement
 EFO:0004792	rdfs:label	plasminogen activator inhibitor 1 measurement
 EFO:0008356	rdfs:label	dihomo-gamma-linoleic acid measurement
 EFO:0006341	rdfs:label	transferrin measurement
 EFO:0020500	rdfs:label	interleukin-22 receptor subunit alpha-2 measurement
+EFO:0021792	rdfs:label	preeclampsia severity measurement@en
 EFO:0009416	rdfs:label	CCL21 measurement
 EFO:0005056	rdfs:label	age at death
 EFO:0004999	rdfs:label	N-glycan measurement
@@ -927,11 +1216,16 @@ EFO:0020610	rdfs:label	NKG2-D ligand 2 measurement
 EFO:0020829	rdfs:label	tyrosine-protein kinase receptor TYRO3 measurement
 EFO:0007835	rdfs:label	alcohol dependence measurement
 EFO:0009343	rdfs:label	Mumps virus seropositivity
+EFO:0021641	rdfs:label	LysoPC 18:0 measurement
+EFO:0021203	rdfs:label	X-06351 measurement
+EFO:0021450	rdfs:label	GM1 ganglioside measurement
 EFO:0010991	rdfs:label	formate measurement
-EFO:0004339	rdfs:label	body height
+EFO:0021388	rdfs:label	X-12038-to-bradykinin, des-arg 9 ratio
 EFO:0008531	rdfs:label	GLP-1-stimulated insulin response
 EFO:0004639	rdfs:label	phospholipid measurement
 EFO:0007764	rdfs:label	delta-5 desaturase measurement
+EFO:0021242	rdfs:label	X-11478 measurement
+EFO:0021313	rdfs:label	X-12510--2-aminooctanoic acid measurement
 EFO:0008341	rdfs:label	snoring measurement
 EFO:0000719	rdfs:label	temporal measurement
 EFO:0007014	rdfs:label	3-hydroxypropylmercapturic acid measurement
@@ -939,19 +1233,26 @@ EFO:0007035	rdfs:label	Chlamydia pneumoniae seropositivity
 EFO:0005131	rdfs:label	HVA measurement
 EFO:0010106	rdfs:label	CD3-positive T-lymphocyte count
 EFO:0008451	rdfs:label	activities of daily living score measurement
+EFO:0021110	rdfs:label	1-palmitoylglycerol 1-monopalmitin measurement
 EFO:0020572	rdfs:label	mitochondrial glutamate carrier 2 measurement
 EFO:0008013	rdfs:label	acid sphingomyelinase-like phosphodiesterase 3a measurement
 EFO:0000648	rdfs:label	period of infection
 EFO:0008335	rdfs:label	ventricular repolarisation duration measurement
 EFO:0007797	rdfs:label	language measurement
 EFO:0005241	rdfs:label	employment status
+EFO:0021346	rdfs:label	X-13183--stearamide measurement
 EFO:0020320	rdfs:label	desmocollin-3 measurement
 EFO:0010369	rdfs:label	lysophosphatidylethanolamine 18:2 measurement@en
 EFO:0008276	rdfs:label	scavenger receptor class F member 1 measurement
 EFO:0000480	rdfs:label	event death
 EFO:0020430	rdfs:label	growth/differentiation factor 9 measurement
+EFO:0021390	rdfs:label	lysine-to-glutaroyl carnitine ratio
 EFO:0007655	rdfs:label	clusterin measurement
 EFO:0020666	rdfs:label	protein 4.1 measurement
+EFO:0021013	rdfs:label	phenylacetylglutamine measurement
+EFO:0021548	rdfs:label	2-(dimethylamino) guanosine measurement
+EFO:0021062	rdfs:label	adrenate 22:4n6 measurement
+EFO:0020991	rdfs:label	ethanolamine measurement@en
 EFO:0010342	rdfs:label	cholesteryl ester 16:1 measurement@en
 EFO:0020282	rdfs:label	complement component C9 measurement
 EFO:0007911	rdfs:label	personality trait measurement
@@ -962,16 +1263,21 @@ EFO:0600056	rdfs:label	complement factor H-related protein 3 measurement
 EFO:0008430	rdfs:label	IgG monosialylation measurement
 EFO:0004784	rdfs:label	self reported educational attainment
 EFO:0007892	rdfs:label	donor genotype effect measurement
-EFO:0020060	rdfs:label	diacylglycerol 36:1 measurement
 EFO:0004506	rdfs:label	monocyte early outgrowth colony forming unit
 EFO:0020392	rdfs:label	ficolin-3 measurement
 EFO:0008169	rdfs:label	interleukin 1 receptor-like 2 measurement
+EFO:0021166	rdfs:label	piperine measurement
+EFO:0021723	rdfs:label	3-Indolepropionic acid to 2-Methylsuccinic acid ratio
 EFO:0010526	rdfs:label	purine measurement@en
 EFO:0009352	rdfs:label	Anti-Helicobacter pylori IgG measurement
+EFO:0021501	rdfs:label	cortical thickness change measurement@en
 EFO:0007710	rdfs:label	cognitive decline measurement
+EFO:0021491	rdfs:label	caudate volume change measurement@en
+EFO:0021439	rdfs:label	cholesteryl ester 20:1 measurement
 EFO:0020721	rdfs:label	semaphorin-6A measurement
 EFO:0009892	rdfs:label	facial attractiveness measurement
 EFO:0009281	rdfs:label	choroidal thickness measurement
+EFO:0021248	rdfs:label	X-11529 measurement
 EFO:0008382	rdfs:label	TP53 mutation status
 EFO:0007006	rdfs:label	depressive symptom measurement
 EFO:0009422	rdfs:label	CXCL5 measurement
@@ -979,17 +1285,23 @@ EFO:0020295	rdfs:label	cyclin-dependent kinase 2:cyclin-A2 complex measurement
 EFO:0008127	rdfs:label	Fc receptor-like protein 3 measurement
 EFO:0020831	rdfs:label	tyrosine-protein kinase transmembrane receptor ROR1 measurement
 EFO:0010899	rdfs:label	anti-merkel cell virus antibody measurement@en
+EFO:0021605	rdfs:label	Indole-5-carboxylic acid measurement
 EFO:0010429	rdfs:label	triacylglycerol 56:2 measurement@en
 EFO:0020109	rdfs:label	14-3-3 protein family measurement
 EFO:0010483	rdfs:label	gentisic acid measurement@en
+EFO:0021221	rdfs:label	X-11261 measurement
 EFO:0010244	rdfs:label	uveal melanoma disease severity@en
 EFO:0007994	rdfs:label	neutrophil percentage of granulocytes
 EFO:0004887	rdfs:label	maximal oxygen uptake measurement
 EFO:0020205	rdfs:label	C-X-C motif chemokine 13 measurement
 EFO:0010593	rdfs:label	cystatin B measurement@en
+EFO:0021331	rdfs:label	X-12749 measurement
 EFO:0010107	rdfs:label	CD8-positive T-lymphocyte count
 EFO:0009172	rdfs:label	thyroxine-binding globulin measurement
+EFO:0021779	rdfs:label	age at initiation of treatment@en
+EFO:0021068	rdfs:label	myristoleate 14:1n5 measurement
 EFO:0007903	rdfs:label	magnesium:calcium ratio
+EFO:0021594	rdfs:label	DL-P-hydroxyphenyllactic acid measurement
 EFO:0005095	rdfs:label	PR segment
 EFO:0004845	rdfs:label	magnesium measurement
 EFO:0020288	rdfs:label	corticosteroid-binding globulin measurement
@@ -1001,23 +1313,31 @@ EFO:0020052	rdfs:label	diacylglycerol 30:0 measurement
 EFO:0007876	rdfs:label	insomnia measurement
 EFO:0007619	rdfs:label	suicide ideation measurement
 EFO:0020398	rdfs:label	galectin-4 measurement
+EFO:0021234	rdfs:label	X-11440 measurement
 EFO:0010775	rdfs:label	colony stimulating factor 1 measurement
 EFO:0020162	rdfs:label	artemin measurement
 EFO:0020670	rdfs:label	protein dj-1 measurement
 EFO:0010518	rdfs:label	oxide measurement@en
 EFO:0008111	rdfs:label	diet measurement
+EFO:0021729	rdfs:label	3-Indolepropionic acid to N-Acetyl-L-tyrosine ratio
+EFO:0021041	rdfs:label	laurylcarnitine measurement
 EFO:0004949	rdfs:label	clinical temporal measurement
+EFO:0021688	rdfs:label	3-Indolepropionic acid to Phenylpyruvic acid ratio
 EFO:0020970	rdfs:label	esterified stigmasterol measurement@en
 EFO:0010628	rdfs:label	natriuretic peptides B measurement@en
 EFO:0020713	rdfs:label	roundabout homolog 2 measurement
+EFO:0021151	rdfs:label	catechol sulfate measurement
 EFO:0010350	rdfs:label	cholesteryl ester 22:6 measurement@en
 EFO:0004555	rdfs:label	glycoprotein measurement
 EFO:0020823	rdfs:label	tyrosine-protein kinase FYN measurement
 EFO:0020872	rdfs:label	sphingomyelin change measurement
 EFO:0009235	rdfs:label	Eosinophilic Metamyelocyte Count
+EFO:0021646	rdfs:label	LysoPE 14:0 measurement
 EFO:0007780	rdfs:label	periodontal measurement
+EFO:0021455	rdfs:label	lysophosphatidylcholine 19:0 measurement
 EFO:0010475	rdfs:label	deoxycholate measurement@en
 EFO:0009345	rdfs:label	Hepatitis B virus surface antigen seropositivity
+EFO:0021054	rdfs:label	dodecanedioate measurement
 EFO:0010400	rdfs:label	triacylglycerol 46:0 measurement@en
 EFO:0020155	rdfs:label	antithrombin-III measurement
 EFO:0020490	rdfs:label	interleukin-11 measurement
@@ -1031,8 +1351,10 @@ EFO:0020948	rdfs:label	salicylic acid measurement@en
 EFO:0008471	rdfs:label	cardiac stress biomarker measurement
 EFO:0009113	rdfs:label	alcohol exposure measurement
 EFO:0005133	rdfs:label	MHPG measurement
+EFO:0021835	rdfs:label	melanin measurement@en
 EFO:0010433	rdfs:label	triacylglycerol 56:6 measurement@en
 EFO:0008270	rdfs:label	proprotein convertase subtilisin/kexin type 7 measurement
+EFO:0021012	rdfs:label	phenylacetate measurement
 EFO:0007909	rdfs:label	CHGA cleavage product measurement
 EFO:0008015	rdfs:label	afamin measurement
 EFO:0010389	rdfs:label	phosphatidylcholine 40:6 measurement@en
@@ -1040,16 +1362,22 @@ EFO:0020643	rdfs:label	plasmin measurement
 EFO:0020113	rdfs:label	3-hydroxy-3-methylglutaryl-coenzymeAreductase measurement
 EFO:0007958	rdfs:label	genotype effect measurement
 EFO:0005243	rdfs:label	myeloperoxidase measurement
+EFO:0021764	rdfs:label	3-Indolepropionic acid to Indole-5-carboxylic acid ratio
 EFO:0009774	rdfs:label	serine measurement
 EFO:0600006	rdfs:label	human herpesvirus 7 seropositivity
+EFO:0021300	rdfs:label	X-12253 measurement
 EFO:0008278	rdfs:label	semaphorin-3A measurement
+EFO:0021275	rdfs:label	X-11905 measurement
 EFO:0004541	rdfs:label	HbA1c measurement
+EFO:0021289	rdfs:label	X-12116 measurement
 EFO:0020505	rdfs:label	interleukin-34 measurement
 EFO:0007861	rdfs:label	body ratio measurement
+EFO:0021410	rdfs:label	hexanoylcarnitine-to-octanoylcarnitine ratio
 EFO:0020601	rdfs:label	neuroligin-4, x-linked measurement
 EFO:0006824	rdfs:label	cis/trans-18:2 fatty acid measurement
 EFO:0008046	rdfs:label	C-C motif chemokine 18 measurement
 EFO:0020016	rdfs:label	X-21444 measurement@en
+EFO:0021160	rdfs:label	p-acetamidophenylglucuronide measurement
 EFO:0010503	rdfs:label	inosine measurement@en
 EFO:0020768	rdfs:label	thrombin measurement
 EFO:0008236	rdfs:label	monokine induced by gamma interferon measurement
@@ -1057,19 +1385,28 @@ EFO:0008432	rdfs:label	lipoprotein-associated phospholipase A(2) change measurem
 EFO:0007894	rdfs:label	beta-carotene measurement
 EFO:0008332	rdfs:label	interleukin 2 receptor antagonist measurement
 EFO:0008090	rdfs:label	complement C1r subcomponent measurement
+EFO:0021443	rdfs:label	cholesteryl ester 22:4 measurement
 EFO:0020878	rdfs:label	omega-3 polyunsaturated fatty acid change measurement
+EFO:0021005	rdfs:label	glutaroyl carnitine measurement
 EFO:0010793	rdfs:label	programmed death-ligand 1 measurement
 EFO:0008104	rdfs:label	cystatin-F measurement
 EFO:0005000	rdfs:label	leptin measurement
+EFO:0021521	rdfs:label	phenyllactate-to-phenylalanine ratio@en
 EFO:0008200	rdfs:label	Kunitz-type protease inhibitor 2 measurement
+EFO:0021821	rdfs:label	right ventricular stroke volume to left ventricular stroke volume ratio@en
+EFO:0021115	rdfs:label	5alpha-androstan-3beta,17beta-diol disulfate measurement
+EFO:0021268	rdfs:label	X-11847 measurement
+EFO:0021095	rdfs:label	2-linoleoylglycerophosphocholine measurement
 EFO:0010406	rdfs:label	triacylglycerol 48:3 measurement@en
+EFO:0021631	rdfs:label	L-Threonine measurement
 EFO:0020325	rdfs:label	dipeptidyl peptidase 1 measurement
 EFO:0007944	rdfs:label	allergen exposure measurement
 EFO:0020496	rdfs:label	interleukin-20 measurement
-EFO:0020851	rdfs:label	vps10 domain-containing receptor sorcs2 measurement
 EFO:0006872	rdfs:label	delta wave measurement
+EFO:0020851	rdfs:label	vps10 domain-containing receptor sorcs2 measurement
 EFO:0004886	rdfs:label	intracranial volume measurement
 EFO:0010243	rdfs:label	inorganic ion measurement@en
+EFO:0021378	rdfs:label	X-14745 measurement
 EFO:0020421	rdfs:label	gremlin-1 measurement
 EFO:0020435	rdfs:label	heat shock protein hsp 90-alpha/beta measurement
 EFO:0600053	rdfs:label	complement factor H-related proteins measurement
@@ -1077,48 +1414,64 @@ EFO:0020588	rdfs:label	natural cytotoxicity triggering receptor 1 measurement
 EFO:0008007	rdfs:label	age at assessment
 EFO:0004754	rdfs:label	interleukin 1 receptor antagonist measurement
 EFO:0010111	rdfs:label	acetoacetate measurement
+EFO:0021756	rdfs:label	D-Trehalose to 3-Indolepropionic acid ratio
+EFO:0021018	rdfs:label	homocitrulline measurement
 EFO:0010559	rdfs:label	anti-drug antibody measurement@en
+EFO:0021080	rdfs:label	1-eicosadienoylglycerophosphocholine measurement
 EFO:0020698	rdfs:label	ras GTPase-activating protein 1 measurement
+EFO:0021534	rdfs:label	abdominal fat cell number@en
 EFO:0009944	rdfs:label	Antiglaucoma preparations and miotics use measurement
 EFO:0010904	rdfs:label	anti-BK polyomavirus antibody measurement@en
 EFO:0020239	rdfs:label	caspase-10 measurement
 EFO:0006948	rdfs:label	white wine liking measurement
 EFO:0020048	rdfs:label	lysophosphatidylserine measurement
 EFO:0004789	rdfs:label	atrial natriuretic factor measurement
+EFO:0021190	rdfs:label	X-04494 measurement
 EFO:0010391	rdfs:label	sphingomyelin 16:0 measurement@en
 EFO:0011033	rdfs:label	ST segment duration@en
 EFO:0020864	rdfs:label	cerebellar volume measurement@en
 EFO:0009597	rdfs:label	feeling nervous measurement
 EFO:0020607	rdfs:label	nicotinamide phosphoribosyltransferase measurement
 EFO:0020671	rdfs:label	protein e7_hpv16 measurement
+EFO:0021198	rdfs:label	X-06226 measurement
 EFO:0007701	rdfs:label	spine bone mineral density
 EFO:0020414	rdfs:label	glypican-2 measurement
 EFO:0010512	rdfs:label	nucleoside measurement@en
 EFO:0020709	rdfs:label	ribosomal protein s6 kinase alpha-3 measurement
+EFO:0021496	rdfs:label	thalamus volume change measurement@en
+EFO:0021692	rdfs:label	3-Indolepropionic acid to L-Valine ratio
 EFO:0007811	rdfs:label	Plasmodium falciparum antigen IgG3 measurement
 EFO:0020182	rdfs:label	biglycan measurement
 EFO:0010622	rdfs:label	kallikrein‐6 measurement@en
 EFO:0007825	rdfs:label	balding measurement
 EFO:0020196	rdfs:label	C-C motif chemokine 22 measurement
 EFO:0009440	rdfs:label	age at last pregnancy measurement
+EFO:0021364	rdfs:label	X-14189--leucylalanine measurement
 EFO:0004615	rdfs:label	apolipoprotein B measurement
+EFO:0021527	rdfs:label	blood arsenic measurement@en
 EFO:0008113	rdfs:label	dual specificity mitogen-activated protein kinase kinase 4 measurement
 EFO:0009937	rdfs:label	Opioid use measurement
 EFO:0010724	rdfs:label	lifestyle measurement@en
 EFO:0020574	rdfs:label	mitogen-activated protein kinase 1 measurement
+EFO:0021650	rdfs:label	Methionine sulfoxide measurement
 EFO:0020317	rdfs:label	delta-like protein 4 measurement
+EFO:0021637	rdfs:label	LysoPA 16:0 measurement
 EFO:0008054	rdfs:label	C-C motif chemokine 7 measurement
 EFO:0020857	rdfs:label	very low density lipoprotein cholesterol change measurement
 EFO:0010987	rdfs:label	4-deoxythreonic acid measurement
 EFO:0007999	rdfs:label	lower body strength measurement
 EFO:0020427	rdfs:label	growth/differentiation factor 11 measurement
+EFO:0021387	rdfs:label	valine-to-isovalerylcarnitine ratio
 EFO:0020481	rdfs:label	inter-alpha-trypsin inhibitor heavy chain h4 measurement
+EFO:0021489	rdfs:label	treprostinil dose measurement@en
 EFO:0020532	rdfs:label	leucine-rich repeat transmembrane neuronal protein 3 measurement
 EFO:0005105	rdfs:label	lipid or lipoprotein measurement
 EFO:0004763	rdfs:label	p-tau measurement
+EFO:0021059	rdfs:label	2-hydroxystearate measurement
 EFO:0005119	rdfs:label	antioxidant measurement
 EFO:0007804	rdfs:label	LDL cholesterol change measurement
 EFO:0007631	rdfs:label	hexose measurement
+EFO:0021599	rdfs:label	Glycochenodeoxycholic acid measurement
 EFO:0020279	rdfs:label	complement C5B-C6 complex measurement
 EFO:0010434	rdfs:label	triacylglycerol 56:7 measurement@en
 EFO:0010615	rdfs:label	galanin peptides measurement@en
@@ -1136,12 +1489,16 @@ EFO:0009804	rdfs:label	pulse wave reflection index measurement
 EFO:0007707	rdfs:label	cerebral amyloid deposition measurement
 EFO:0007756	rdfs:label	Staphylococcus aureus carrier status
 EFO:0020718	rdfs:label	secreted frizzled-related protein 1 measurement
+EFO:0021305	rdfs:label	X-12428 measurement
+EFO:0021552	rdfs:label	2-Methylsuccinic acid measurement
 EFO:0020017	rdfs:label	2-aminobutyrate measurement@en
+EFO:0021623	rdfs:label	L-Methionine measurement
 EFO:0006793	rdfs:label	left inferior lateral ventricle volume measurement
 EFO:0010447	rdfs:label	3-hydroxyanthranilic acid measurement@en
 EFO:0003965	rdfs:label	very low birth weight infant
 EFO:0020828	rdfs:label	tyrosine-protein kinase LYN, isoform b measurement
 EFO:0020342	rdfs:label	ectonucleoside triphosphate diphosphohydrolase 1 measurement
+EFO:0021415	rdfs:label	X-04499--3,4-dihydroxybutyrate-to-C-glycosyltryptophan ratio
 EFO:0009100	rdfs:label	social domain measurement
 EFO:0009226	rdfs:label	Methemoglobin to Total Hemoglobin Ratio Measurement
 EFO:0007771	rdfs:label	pathologic complete response measurement
@@ -1153,67 +1510,91 @@ EFO:0008048	rdfs:label	C-C motif chemokine 21 measurement
 EFO:0020960	rdfs:label	esterified brassicasterol measurement@en
 EFO:0020146	rdfs:label	angiopoietin-1 measurement
 EFO:0010530	rdfs:label	ribulose-5-phosphate measurement@en
+EFO:0021208	rdfs:label	X-09026 measurement
 EFO:0010405	rdfs:label	triacylglycerol 48:2 measurement@en
 EFO:0010601	rdfs:label	hepatitis A virus cellular receptor 1 measurement@en
 EFO:0010996	rdfs:label	n-methylpicolinic acid measurement
 EFO:0007769	rdfs:label	thoracic-to-hip circumference ratio measurement
+EFO:0021262	rdfs:label	X-11799 measurement
+EFO:0021318	rdfs:label	X-12644 measurement
 EFO:0009771	rdfs:label	methionine measurement
 EFO:0004469	rdfs:label	HOMA-B
 EFO:0020538	rdfs:label	low-density lipoprotein receptor-related protein 8 measurement
 EFO:0008261	rdfs:label	plasma protease C1 inhibitor measurement
+EFO:0021372	rdfs:label	X-14588 measurement
 EFO:0008202	rdfs:label	L-Selectin measurement
 EFO:0008199	rdfs:label	Kunitz-type protease inhibitor 1 measurement
 EFO:0008275	rdfs:label	S-formylglutathione hydrolase measurement
 EFO:0020592	rdfs:label	netrin-4 measurement
 EFO:0007742	rdfs:label	QRS amplitude
 EFO:0007591	rdfs:label	bone mineral accretion measurement
+EFO:0021750	rdfs:label	3-Indolepropionic acid to LysoPC 14:0 ratio
 EFO:0020455	rdfs:label	histone-lysine n-methyltransferase EHMT2 measurement
 EFO:0008269	rdfs:label	properdin measurement
+EFO:0021401	rdfs:label	ADpSGEGDFXAEGGGVR-to-X-14304--leucylalanine ratio
+EFO:0021038	rdfs:label	acetylcarnitine measurement
 EFO:0004307	rdfs:label	glucose tolerance test
 EFO:0008404	rdfs:label	susceptibility to mumps measurement
 EFO:0020042	rdfs:label	jasmonic acid measurement
-EFO:0009750	rdfs:label	dissociation measurement
+EFO:0021554	rdfs:label	2,3-dimethylsuccinic acid measurement
+EFO:0021783	rdfs:label	age at medical procedure@en
+EFO:0021568	rdfs:label	4-Nitrophenol measurement
+EFO:0021148	rdfs:label	4-ethylphenylsulfate measurement
 EFO:0020759	rdfs:label	syntaxin-1a measurement
+EFO:0009750	rdfs:label	dissociation measurement
+EFO:0021082	rdfs:label	1-heptadecanoylglycerophosphocholine measurement
 EFO:0010508	rdfs:label	malate measurement@en
 EFO:0010347	rdfs:label	cholesteryl ester 20:3 measurement@en
 EFO:0008101	rdfs:label	contactin-5 measurement
 EFO:0008423	rdfs:label	IgG monogalactosylation measurement
 EFO:0007931	rdfs:label	non-HDL cholesterol:HDL cholesterol ratio
+EFO:0021664	rdfs:label	Pipecolinic acid measurement
 EFO:0020358	rdfs:label	ephrin-B3 measurement
 EFO:0008254	rdfs:label	P-Selectin measurement
 EFO:0008081	rdfs:label	cGMP-specific 3',5'-cyclic phosphodiesterase measurement
 EFO:0008437	rdfs:label	early gestational weight gain
 EFO:0009860	rdfs:label	chromosomal aberration frequency
+EFO:0021678	rdfs:label	beta-Pseudouridine measurement
+EFO:0021192	rdfs:label	X-04498 measurement
 EFO:0004920	rdfs:label	progression free survival
 EFO:0008095	rdfs:label	complement decay-accelerating factor measurement
 EFO:0020703	rdfs:label	receptor-type tyrosine-protein kinase flt3 measurement
 EFO:0020627	rdfs:label	peptidyl-prolyl cis-trans isomerase F, mitochondrial measurement
 EFO:0008364	rdfs:label	generational effect measurement
+EFO:0021809	rdfs:label	tetradecenoylcarnitine meaasurement@en
 EFO:0009599	rdfs:label	feeling emotionally hurt measurement
 EFO:0008109	rdfs:label	Dickkopf-related protein 3 measurement
+EFO:0021697	rdfs:label	3-Indolepropionic acid to LysoPC 16:0 ratio
+EFO:0021040	rdfs:label	hexanoylcarnitine measurement
 EFO:0020966	rdfs:label	free sitosterol measurement@en
+EFO:0021101	rdfs:label	caprate 10:0 measurement
 EFO:0020021	rdfs:label	N-acetyltyrosine measurement@en
-EFO:0007845	rdfs:label	lip morphology measurement
 EFO:0010451	rdfs:label	aconitate measurement@en
 EFO:0010465	rdfs:label	beta-hydroxybutyric acid measurement@en
 EFO:0004872	rdfs:label	inflammatory biomarker measurement
 EFO:0020579	rdfs:label	mitogen-activated protein kinase 3 measurement
+EFO:0021701	rdfs:label	L-Thyroxine to 3-Indolepropionic acid ratio
 EFO:0020480	rdfs:label	integrin alpha-V: beta-5 complex measurement
 EFO:0004908	rdfs:label	testosterone measurement
 EFO:0008074	rdfs:label	cathepsin Z measurement
 EFO:0020689	rdfs:label	protein wnt-7a measurement
+EFO:0021811	rdfs:label	lysophosphatidylcholine 26:1 measurement@en
 EFO:0010096	rdfs:label	artificially sweetened beverage consumption measurement
 EFO:0020523	rdfs:label	kremen protein 2 measurement
+EFO:0021483	rdfs:label	triacylglycerol 51:2 measurement
 EFO:0009256	rdfs:label	standard deviation of the normal-to-normal inter beat intervals
+EFO:0021226	rdfs:label	X-11334 measurement
 EFO:0008184	rdfs:label	interleukin 4 measurement
 EFO:0005080	rdfs:label	CC16 measurement
 EFO:0020273	rdfs:label	COMM domain-containing protein 7 measurement
 EFO:0020225	rdfs:label	carbohydrate sulfotransferase 2 measurement
 EFO:0010379	rdfs:label	phosphatidylcholine 36:1 measurement@en
+EFO:0021593	rdfs:label	Deoxycholic acid measurement
 EFO:0008240	rdfs:label	N-acylethanolamine-hydrolyzing acid amidase measurement
-EFO:0007858	rdfs:label	eye morphology measurement
+EFO:0021407	rdfs:label	X-11315-to-pyroglutamine ratio
 EFO:0006348	rdfs:label	pulmonary artery-aorta diameter ratio measurement
 EFO:0008350	rdfs:label	alpha-linoleic acid measurement
+EFO:0021714	rdfs:label	3-Indolepropionic acid to Pipecolinic acid ratio
 EFO:0020419	rdfs:label	granzyme h measurement
 EFO:0009410	rdfs:label	uterine fibroid measurement
 EFO:0000686	rdfs:label	risk status
@@ -1224,14 +1605,22 @@ EFO:0020187	rdfs:label	bone morphogenetic protein 7 measurement
 EFO:0020744	rdfs:label	small glutamine-rich tetratricopeptide repeat-containing protein alpha measurement
 EFO:0004516	rdfs:label	bone fracture related measurement
 EFO:0009928	rdfs:label	Diuretic use measurement
+EFO:0021518	rdfs:label	linoleate 18:2n6-to-dihomo-linolenate 20:3n3 or n6 ratio@en
+EFO:0021046	rdfs:label	dihomo-linolenate 20:3n3 or n6 measurement
+EFO:0021572	rdfs:label	9,10-dihome measurement
 EFO:0009217	rdfs:label	Hemoglobin D to Total Hemoglobin Ratio Measurement
+EFO:0021628	rdfs:label	L-Pyroglutamic acid measurement
 EFO:0008045	rdfs:label	C-C motif chemokine 17 measurement
 EFO:0007678	rdfs:label	total fat intake measurement
 EFO:0009362	rdfs:label	nicotine withdrawal measurement
+EFO:0021156	rdfs:label	4-acetaminophen sulfate measurement
 EFO:0020362	rdfs:label	epithelial discoidin domain-containing receptor 1 measurement
+EFO:0021682	rdfs:label	3-Indolepropionic acid to L-Lysine ratio
+EFO:0021212	rdfs:label	X-10346 measurement
 EFO:0020140	rdfs:label	alpha-soluble NSF attachment protein measurement
 EFO:0007985	rdfs:label	platelet crit
 EFO:0020301	rdfs:label	cysteine-rich secretory protein 3 measurement
+EFO:0021707	rdfs:label	3-Indolepropionic acid to Choline ratio
 EFO:0020472	rdfs:label	insulin-degrading enzyme measurement
 EFO:0020892	rdfs:label	acetate change measurement
 EFO:0009099	rdfs:label	arousal domain measurement
@@ -1239,14 +1628,20 @@ EFO:0007016	rdfs:label	food allergy measurement
 EFO:0007773	rdfs:label	cutaneous psoriasis measurement
 EFO:0020486	rdfs:label	interferon lambda-2 measurement
 EFO:0004685	rdfs:label	hip geometry
+EFO:0021322	rdfs:label	X-12704 measurement
 EFO:0010606	rdfs:label	sclerostin measurement@en
+EFO:0021475	rdfs:label	phosphatidylcholine 38:7 measurement
 EFO:0007636	rdfs:label	attention function measurement
+EFO:0021817	rdfs:label	right ventricular stroke volume measurement@en
+EFO:0021585	rdfs:label	D-Glucopyranose measurement
 EFO:0009265	rdfs:label	nausea and vomiting of pregnancy severity measurement
+EFO:0021338	rdfs:label	X-12833 measurement
 EFO:0000428	rdfs:label	dose
 EFO:0008193	rdfs:label	interstitial collagenase measurement
 EFO:0005021	rdfs:label	collection longitude
 EFO:0010388	rdfs:label	phosphatidylcholine 38:6 measurement@en
 EFO:0007899	rdfs:label	gamma-tocopherol measurement
+EFO:0021392	rdfs:label	X-11820-to-cholesterol ratio
 EFO:0020903	rdfs:label	phospholipid change measurement
 EFO:0008207	rdfs:label	leucine carboxyl methyltransferase 1 measurement
 EFO:0006924	rdfs:label	household air pollution measurement
@@ -1259,36 +1654,48 @@ EFO:0004704	rdfs:label	age at menopause
 EFO:0009323	rdfs:label	alpha synuclein measurement
 EFO:0004753	rdfs:label	interleukin 12 measurement
 EFO:0010110	rdfs:label	ketone body measurement
+EFO:0021032	rdfs:label	threonate measurement
+EFO:0021784	rdfs:label	age at initiation of smoking@en
 EFO:0020008	rdfs:label	campesterol measurement@en
-EFO:0008409	rdfs:label	susceptibility to scarlet fever measurement
+EFO:0021142	rdfs:label	gamma-glutamylphenylalanine measurement
 EFO:0020062	rdfs:label	diacylglycerol 36:3 measurement
+EFO:0008409	rdfs:label	susceptibility to scarlet fever measurement
 EFO:0004508	rdfs:label	spine bone size
 EFO:0020243	rdfs:label	cathepsin H measurement
+EFO:0021295	rdfs:label	X-12217 measurement
 EFO:0020118	rdfs:label	40s ribosomal protein S7 measurement
 EFO:0010502	rdfs:label	indoxyl sulfate measurement@en
 EFO:0010492	rdfs:label	glycocholic acid measurement@en
 EFO:0007629	rdfs:label	hemoglobin A1 measurement
 EFO:0020172	rdfs:label	bactericidal permeability-increasing protein measurement
 EFO:0020621	rdfs:label	pancreatic hormone measurement
+EFO:0021742	rdfs:label	3-Indolepropionic acid to 3-Hydroxybutyrate ratio
 EFO:0009354	rdfs:label	Anti-influenza A virus IgG measurement
+EFO:0021503	rdfs:label	cortical surface area change measurement@en
 EFO:0020965	rdfs:label	total sitosterol measurement@en
+EFO:0021803	rdfs:label	decenoylcarnitine measurement@en
 EFO:0010306	rdfs:label	Grey matter density measurement@en
 EFO:0008103	rdfs:label	cystatin-D measurement
 EFO:0020550	rdfs:label	macrophage-stimulating protein receptor measurement
 EFO:0008256	rdfs:label	peptidyl-prolyl cis-trans isomerase D measurement
+EFO:0021253	rdfs:label	X-11546 measurement
 EFO:0009862	rdfs:label	chromatid-type aberration frequency
 EFO:0011002	rdfs:label	succinate measurement
 EFO:0020307	rdfs:label	cytoplasmic protein NCK1 measurement
 EFO:0009693	rdfs:label	thiopurine metabolite measurement
 EFO:0020833	rdfs:label	tyrosine-protein kinase ZAP-70 measurement
-EFO:0003923	rdfs:label	bone density
 EFO:0009438	rdfs:label	number of pregnancies measurement
 EFO:0008366	rdfs:label	IgG isotype profile measurement
+EFO:0021363	rdfs:label	X-14086 measurement
+EFO:0021607	rdfs:label	Isonicotinamide measurement
 EFO:0020583	rdfs:label	moesin measurement
 EFO:0008024	rdfs:label	angiostatin measurement
+EFO:0021135	rdfs:label	ADSGEGDFXAEGGGVR measurement
+EFO:0021651	rdfs:label	Methylmalonic acid measurement
 EFO:0020693	rdfs:label	pulmonary surfactant-associated protein d measurement
 EFO:0004570	rdfs:label	bilirubin measurement
 EFO:0008134	rdfs:label	ficolin-1 measurement
+EFO:0021755	rdfs:label	L-Proline to 3-Indolepropionic acid ratio
 EFO:0020856	rdfs:label	xaa-pro aminopeptidase 1 measurement
 EFO:0010595	rdfs:label	heat shock protein beta-1 measurement@en
 EFO:0007774	rdfs:label	thrombomodulin measurement
@@ -1297,71 +1704,102 @@ EFO:0010373	rdfs:label	phosphatidylcholine 32:1 measurement@en
 EFO:0020528	rdfs:label	laminin measurement
 EFO:0004578	rdfs:label	homocysteine measurement
 EFO:0010116	rdfs:label	choline measurement
+EFO:0021559	rdfs:label	3-Indolebutyric acid measurement
+EFO:0021073	rdfs:label	pentadecanoate 15:0 measurement
+EFO:0021087	rdfs:label	1-oleoylglycerophosphoethanolamine measurement
 EFO:0004815	rdfs:label	alpha macroglobulin measurement
 EFO:0009258	rdfs:label	peak-valley respiratory sinus arrhythmia or high frequency power
+EFO:0021669	rdfs:label	Succinic acid measurement
+EFO:0021356	rdfs:label	X-13619 measurement
+EFO:0021183	rdfs:label	X-02269 measurement
+EFO:0021197	rdfs:label	X-06126 measurement
 EFO:0010498	rdfs:label	hydroxyproline measurement@en
 EFO:0004732	rdfs:label	lipoprotein measurement
+EFO:0021734	rdfs:label	3-Indolepropionic acid to Creatine ratio
 EFO:0020178	rdfs:label	BCL-2-related protein A1 measurement
 EFO:0020181	rdfs:label	beta-adrenergic receptor kinase 1 measurement
+EFO:0021748	rdfs:label	3-Indolepropionic acid to SubericAcid ratio
+EFO:0021512	rdfs:label	1,7-dimethylurate measurement@en
 EFO:0020676	rdfs:label	protein kinase b alpha/beta/gamma measurement
 EFO:0004531	rdfs:label	urate measurement
 EFO:0004510	rdfs:label	HPV seropositivity
 EFO:0009216	rdfs:label	Hemoglobin C to Total Hemoglobin Ratio Measurement
 EFO:0009412	rdfs:label	interleukin 1 alpha measurement
+EFO:0021259	rdfs:label	X-11792 measurement
 EFO:0010456	rdfs:label	allantoin measurement@en
-EFO:0007680	rdfs:label	gait measurement
+EFO:0021622	rdfs:label	L-Malic acid measurement
 EFO:0020348	rdfs:label	endothelial monocyte-activating polypeptide 2 measurement
 EFO:0011008	rdfs:label	sex hormone measurement@en
 EFO:0005845	rdfs:label	hemoglobin A2 measurement
 EFO:0020842	rdfs:label	ubiquitin-fold modifier 1 measurement
 EFO:0020136	rdfs:label	alpha-(1,3)-fucosyltransferase 5 measurement
 EFO:0005941	rdfs:label	mammographic density measurement
+EFO:0021369	rdfs:label	X-14450--phenylalanylleucine measurement
 EFO:0010986	rdfs:label	4-deoxyerythronic acid measurement
 EFO:0004635	rdfs:label	leptin receptor measurement
 EFO:0600076	rdfs:label	stimulant use measurement
+EFO:0021176	rdfs:label	7-methylxanthine measurement
 EFO:0020514	rdfs:label	kallikrein-4 measurement
 EFO:0004745	rdfs:label	NT-proBNP measurement
 EFO:0008189	rdfs:label	interleukin 7 measurement
+EFO:0021342	rdfs:label	X-12851 measurement
 EFO:0020777	rdfs:label	toll-like receptor 2 measurement
 EFO:0009291	rdfs:label	E/A ratio
 EFO:0010365	rdfs:label	lysophosphatidylcholine 22:6 measurement@en
+EFO:0021837	rdfs:label	pyridoxamine measurement@en
 EFO:0004587	rdfs:label	lymphocyte count
+EFO:0021079	rdfs:label	1-docosahexaenoylglycerophosphocholine measurement
+EFO:0021615	rdfs:label	L-Cystine measurement
 EFO:0010812	rdfs:label	T-cell immunoglobulin and mucin domain 1 measurement@en
 EFO:0010439	rdfs:label	triacylglycerol 58:12 measurement@en
 EFO:0005665	rdfs:label	white matter hyperintensity measurement
 EFO:0007928	rdfs:label	ventricular rate measurement
 EFO:0005408	rdfs:label	pyroglutamine measurement
 EFO:0010227	rdfs:label	phosphatidylcholine ether measurement@en
+EFO:0021189	rdfs:label	X-04357 measurement
 EFO:0009395	rdfs:label	hippocampal CA3 volume
 EFO:0020405	rdfs:label	glucocorticoid receptor measurement
 EFO:0008303	rdfs:label	transmembrane glycoprotein NMB measurement
+EFO:0021544	rdfs:label	1,3-Dimethyluric acid measurement
 EFO:0010549	rdfs:label	xanthosine measurement@en
 EFO:0006958	rdfs:label	mannose measurement
 EFO:0006785	rdfs:label	infant body height
 EFO:0004800	rdfs:label	frontal theta oscillation measurement
+EFO:0021294	rdfs:label	X-12216 measurement
 EFO:0020507	rdfs:label	interleukin-4 receptor subunit alpha measurement
 EFO:0020334	rdfs:label	dual 3',5'-cyclic-amp and -gmp phosphodiesterase 11a measurement
 EFO:0004738	rdfs:label	tocopherol measurement
 EFO:0008530	rdfs:label	kynurenine:tryptophan ratio
-EFO:0009208	rdfs:label	Hemoglobin A Measurement
+EFO:0021789	rdfs:label	cerebral volume measurement@en
 EFO:0004502	rdfs:label	adiponectin measurement
+EFO:0009208	rdfs:label	Hemoglobin A Measurement
 EFO:0020617	rdfs:label	olfactomedin-4 measurement
+EFO:0021577	rdfs:label	Azelaic acid measurement
 EFO:0007034	rdfs:label	seropositivity measurement
 EFO:0600062	rdfs:label	blood group AB
+EFO:0021162	rdfs:label	salicyluric glucuronide measurement
 EFO:0004298	rdfs:label	cardiovascular measurement
 EFO:0010522	rdfs:label	phosphoenolpyruvic acid measurement@en
+EFO:0021447	rdfs:label	cholesteryl ester 24:4 measurement
 EFO:0007886	rdfs:label	DDT metabolite measurement
 EFO:0020883	rdfs:label	citrate change measurement
 EFO:0010978	rdfs:label	chemotherapy-induced cytotoxicity measurement@en
+EFO:0021435	rdfs:label	cholesteryl ester 16:2 measurement
 EFO:0008316	rdfs:label	vaso-occlusive pain measurement
 EFO:0007791	rdfs:label	rheumatoid factor seropositivity measurement
+EFO:0021244	rdfs:label	X-11485 measurement
 EFO:0010785	rdfs:label	fms related receptor tyrosine kinase-3 ligand measurement
+EFO:0021808	rdfs:label	dodecenoylcarnitine measurement@en
 EFO:0020291	rdfs:label	creatine kinase m-type measurement
 EFO:0009356	rdfs:label	Anti-mumps virus IgG measurement
+EFO:0021107	rdfs:label	undecanoate 11:0 measurement
 EFO:0020569	rdfs:label	methyl-cpg-binding domain protein 4 measurement
 EFO:0010157	rdfs:label	sucrose liking measurement
+EFO:0021601	rdfs:label	Hexanoyl glycine measurement
 EFO:0010425	rdfs:label	triacylglycerol 54:7 measurement@en
 EFO:0020105	rdfs:label	trunk bone mineral density@en
+EFO:0021397	rdfs:label	arachidonate 20:4n6-to-1-arachidonoylglycerophosphoinositol ratio
+EFO:0021202	rdfs:label	X-06350 measurement
 EFO:0020437	rdfs:label	heparan-sulfate 6-o-sulfotransferase 1 measurement
 EFO:0005919	rdfs:label	recombination measurement
 EFO:0010990	rdfs:label	dimethylamine measurement
@@ -1386,11 +1824,15 @@ EFO:0006841	rdfs:label	respiratory disease biomarker
 EFO:0004779	rdfs:label	CHAOS measure
 EFO:0010136	rdfs:label	urinary pH measurement
 EFO:0007872	rdfs:label	caffeine metabolite measurement
+EFO:0021350	rdfs:label	X-13435 measurement
 EFO:0008399	rdfs:label	mean fractional anisotropy measurement
+EFO:0021421	rdfs:label	spleen iron measurement@en
 EFO:0009421	rdfs:label	CXCL13 measurement
 EFO:0020626	rdfs:label	peptidyl-prolyl cis-trans isomerase B measurement
 EFO:0010929	rdfs:label	TNF-related activation-induced cytokine measurement
+EFO:0021508	rdfs:label	4-hydroxyhippurate measurement@en
 EFO:0010080	rdfs:label	geographic atrophy lesion growth
+EFO:0021022	rdfs:label	4-methyl-2-oxopentanoate measurement
 EFO:0020680	rdfs:label	protein kinase c gamma type measurement
 EFO:0010528	rdfs:label	quinolinic acid measurement@en
 EFO:0008121	rdfs:label	endothelin-converting enzyme 1 measurement
@@ -1406,8 +1848,16 @@ EFO:0020020	rdfs:label	succinylcarnitine measurement@en
 EFO:0010088	rdfs:label	beverage consumption measurement
 EFO:0009417	rdfs:label	CCL23 measurement
 EFO:0005057	rdfs:label	myoglobin measurement
+EFO:0021126	rdfs:label	pseudouridine measurement
 EFO:0010149	rdfs:label	pepsinogen I/II ratio
+EFO:0021642	rdfs:label	LysoPC 18:1 measurement
+EFO:0021451	rdfs:label	GM3 ganglioside measurement
+EFO:0021656	rdfs:label	N6-Acetyl-L-lysine measurement
+EFO:0021170	rdfs:label	thymol sulfate measurement
+EFO:0021218	rdfs:label	X-10810 measurement
 EFO:0008073	rdfs:label	cathepsin S measurement
+EFO:0021465	rdfs:label	lysophosphatidylethanolamine 17:0 measurement
+EFO:0021389	rdfs:label	docosapentaenoate n3 DPA; 22:5n3-to-X-12627 ratio
 EFO:0006897	rdfs:label	airway responsiveness measurement
 EFO:0009241	rdfs:label	Monocytoid Cells to Leukocytes Ratio Measurement
 EFO:0020446	rdfs:label	high affinity cgmp-specific 3',5'-cyclic phosphodiesterase 9a measurement
@@ -1415,38 +1865,49 @@ EFO:0010749	rdfs:label	motor function measurement@en
 EFO:0008342	rdfs:label	parental emotion expression measurmement
 EFO:0020255	rdfs:label	cGMP-inhibited 3',5'-cyclic phosphodiesterase A measurement
 EFO:0020207	rdfs:label	C3a anaphylatoxin measurement
-EFO:0009179	rdfs:label	beta-secretase 1 measurement
 EFO:0010410	rdfs:label	triacylglycerol 50:3 measurement@en
+EFO:0009179	rdfs:label	beta-secretase 1 measurement
 EFO:0010364	rdfs:label	lysophosphatidylcholine 20:5 measurement@en
+EFO:0021328	rdfs:label	X-12729 measurement
 EFO:0020944	rdfs:label	cholesteryl esters:total lipids ratio@en
 EFO:0020771	rdfs:label	thrombospondin-4 measurement
 EFO:0008452	rdfs:label	mid-arm muscle circumference measurement
+EFO:0021831	rdfs:label	caprylic acid measurement@en
 EFO:0009249	rdfs:label	Precursor Plasma Cell Count
 EFO:0010915	rdfs:label	heat shock 27 kDa protein measurement
 EFO:0020059	rdfs:label	diacylglycerol 34:3 measurement
 EFO:0010443	rdfs:label	triacylglycerol 58:9 measurement@en
+EFO:0021760	rdfs:label	3-Indolepropionic acid to LysoPC 20:0 ratio
 EFO:0004847	rdfs:label	age at onset
 EFO:0020169	rdfs:label	aurora kinase B measurement
 EFO:0010553	rdfs:label	cocaine use measurement@en
 EFO:0009132	rdfs:label	cholesterol efflux capacity measurement
+EFO:0021739	rdfs:label	3-Indolepropionic acid to 2-Hydroxyisocaproic acid ratio
+EFO:0021271	rdfs:label	X-11852 measurement
 EFO:0006952	rdfs:label	cytotoxicity measurement
 EFO:0004522	rdfs:label	adhesion molecule measurement
+EFO:0021285	rdfs:label	X-12093 measurement
 EFO:0006522	rdfs:label	asymmetrical dimethylarginine measurement
 EFO:0020501	rdfs:label	interleukin-23 measurement
+EFO:0021793	rdfs:label	oral motor function measurement@en
 EFO:0009234	rdfs:label	Blood Cell Count with Differential
+EFO:0021028	rdfs:label	1,6-anhydroglucose measurement
 EFO:0008162	rdfs:label	integrin alpha-I: beta-1 complex measurement
+EFO:0020611	rdfs:label	NKG2-D ligand 3 measurement
 EFO:0010357	rdfs:label	lysophosphatidylcholine 16:0 measurement@en
 EFO:0006805	rdfs:label	word list delayed recall measurement
-EFO:0020611	rdfs:label	NKG2-D ligand 3 measurement
 EFO:0020012	rdfs:label	indolelactate measurement@en
 EFO:0007836	rdfs:label	coenzyme Q10 measurement
 EFO:0009344	rdfs:label	Rubella virus seropositivity
 EFO:0020764	rdfs:label	tata-box-binding protein measurement
 EFO:0020122	rdfs:label	72 kda type IV collagenase measurement
 EFO:0020874	rdfs:label	apolipoprotein B change measurement
+EFO:0021001	rdfs:label	cysteine-glutathione disulfide measurement
+EFO:0021648	rdfs:label	LysoPE 18:1 measurement
 EFO:0004670	rdfs:label	beta-amyloid 1-42 measurement
 EFO:0007036	rdfs:label	herpes virus seropositivity
 EFO:0008065	rdfs:label	calpastatin measurement
+EFO:0021111	rdfs:label	1-stearoylglycerol 1-monostearin measurement
 EFO:0020722	rdfs:label	seprase measurement
 EFO:0008336	rdfs:label	disease progression measurement
 EFO:0004953	rdfs:label	date of diagnosis
@@ -1459,15 +1920,21 @@ EFO:0020832	rdfs:label	tyrosine-protein kinase YES measurement
 EFO:0008277	rdfs:label	Secreted frizzled-related protein 3 measurement
 EFO:0004625	rdfs:label	progranulin measurement
 EFO:0020431	rdfs:label	GTP-binding nuclear protein ran measurement
+EFO:0021391	rdfs:label	aspartylphenylalanine-to-X-14450--phenylalanylleucine ratio
 EFO:0007656	rdfs:label	plasma clusterin measurement
+EFO:0021660	rdfs:label	Palmitic acid measurement
 EFO:0009305	rdfs:label	total glycated albumin
 EFO:0010484	rdfs:label	glucose-1-phosphate measurement@en
+EFO:0021014	rdfs:label	C-glycosyltryptophan measurement
 EFO:0005939	rdfs:label	parental genotype effect measurement
+EFO:0021530	rdfs:label	blood tin measurement@en
 EFO:0010555	rdfs:label	left ventricular stroke volume measurement@en
+EFO:0021063	rdfs:label	arachidonate 20:4n6 measurement
+EFO:0020992	rdfs:label	alpha-amino-N-butyric acid measurement@en
 EFO:0020464	rdfs:label	immunoglobulin E measurement
 EFO:0020450	rdfs:label	histidine triad nucleotide-binding protein 1 measurement
-EFO:0005090	rdfs:label	basophil count
 EFO:0020235	rdfs:label	cardiotrophin-1 measurement
+EFO:0005090	rdfs:label	basophil count
 EFO:0009940	rdfs:label	Antidepressant use measurement
 EFO:0010900	rdfs:label	anti-polyomavirus 2 antibody measurement@en
 EFO:0004729	rdfs:label	vitamin measurement
@@ -1480,6 +1947,8 @@ EFO:0004785	rdfs:label	South Texas Assessment of Neurocognition
 EFO:0004507	rdfs:label	D dimer measurement
 EFO:0020542	rdfs:label	lymphotoxin alpha1:beta2 measurement
 EFO:0008230	rdfs:label	mental development measurement
+EFO:0021724	rdfs:label	3-Indolepropionic acid to LysoPC 20:2 ratio
+EFO:0021563	rdfs:label	3,3',5-Triiodo-L-thyronine measurement
 EFO:0020603	rdfs:label	neuropilin-1 measurement
 EFO:0010760	rdfs:label	4E-BP1 measurement
 EFO:0020289	rdfs:label	corticotropin measurement
@@ -1487,14 +1956,18 @@ EFO:0007020	rdfs:label	AR-C124910XX measurement
 EFO:0020652	rdfs:label	prefoldin subunit 5 measurement
 EFO:0008429	rdfs:label	IgG disialylation measurement
 EFO:0020067	rdfs:label	diacylglycerol 38:5 measurement
+EFO:0021492	rdfs:label	hippocampus volume change measurement@en
 EFO:0020399	rdfs:label	galectin-8 measurement
 EFO:0020138	rdfs:label	alpha-2-macroglobulin measurement
 EFO:0010497	rdfs:label	hydroxide measurement@en
+EFO:0021235	rdfs:label	X-11441 measurement
+EFO:0021249	rdfs:label	X-11530 measurement
 EFO:0006501	rdfs:label	carotid plaque build
 EFO:0020177	rdfs:label	BCL-2-like protein 1 measurement
 EFO:0008383	rdfs:label	treatment outcome measurement
 EFO:0007007	rdfs:label	ticagrelor measurement
 EFO:0004611	rdfs:label	low density lipoprotein cholesterol measurement
+EFO:0021120	rdfs:label	epiandrosterone sulfate measurement
 EFO:0020728	rdfs:label	serine/threonine-protein kinase PAK 3 measurement
 EFO:0020555	rdfs:label	matrilin-2 measurement
 EFO:0009288	rdfs:label	posterior wall thickness
@@ -1505,13 +1978,18 @@ EFO:0020150	rdfs:label	angiotensin-converting enzyme 2 measurement
 EFO:0007995	rdfs:label	basophil percentage of granulocytes
 EFO:0010245	rdfs:label	oxytocin measurement@en
 EFO:0020206	rdfs:label	C3a anaphylatoxin des arginine measurement
+EFO:0021383	rdfs:label	X-08402-to-cholesterol ratio
 EFO:0010809	rdfs:label	fat intake measurement@en
 EFO:0010743	rdfs:label	sperm measurement@en
 EFO:0010108	rdfs:label	CD19-positive B-lymphocyte count
+EFO:0021485	rdfs:label	triacylglycerol 54:0 measurement
+EFO:0021055	rdfs:label	hexadecanedioate measurement
 EFO:0005115	rdfs:label	metabolic rate measurement
+EFO:0021069	rdfs:label	nonadecanoate 19:0 measurement
 EFO:0010415	rdfs:label	triacylglycerol 52:3 measurement@en
 EFO:0007904	rdfs:label	susceptibility to childhood ear infection measurement
 EFO:0020275	rdfs:label	complement C3B measurement
+EFO:0021595	rdfs:label	Dodecanedioic aicd measurement
 EFO:0006832	rdfs:label	disposition index measurement
 EFO:0004846	rdfs:label	serotonin measurement
 EFO:0006846	rdfs:label	autoimmune disease biomarker
@@ -1521,36 +1999,48 @@ EFO:0020385	rdfs:label	fibroblast growth factor 8 isoformAmeasurement
 EFO:0006999	rdfs:label	cancer aggressiveness measurement
 EFO:0005134	rdfs:label	amino acid measurement
 EFO:0008454	rdfs:label	short physical performance battery score measurement
+EFO:0021716	rdfs:label	3-Indolepropionic acid to L-Saccharopine ratio
 EFO:0008016	rdfs:label	Agouti-related protein measurement
 EFO:0020163	rdfs:label	arylsulfatase A measurement
 EFO:0010519	rdfs:label	pantothenic acid mesurement@en
 EFO:0008112	rdfs:label	dual specificity mitogen-activated protein kinase kinase 2 measurement
 EFO:0020658	rdfs:label	proliferation-associated protein 2g4 measurement
 EFO:0600007	rdfs:label	fish oil supplement exposure measurement
+EFO:0021689	rdfs:label	3-Indolepropionic acid to L-Ornithine ratio
 EFO:0010573	rdfs:label	kallikrein-11 measurement@en
 EFO:0010629	rdfs:label	pro‐interleukin‐16 measurement@en
 EFO:0020714	rdfs:label	roundabout homolog 3 measurement
 EFO:0004980	rdfs:label	appendicular lean mass
+EFO:0021301	rdfs:label	X-12261 measurement
 EFO:0020763	rdfs:label	tartrate-resistant acid phosphatase type 5 measurement
 EFO:0010351	rdfs:label	cholesteryl ester measurement@en
 EFO:0004737	rdfs:label	carotenoid measurement
 EFO:0020824	rdfs:label	tyrosine-protein kinase HCK measurement
+EFO:0021411	rdfs:label	DHEA-S-to-4-androsten-3beta,17beta-diol disulfate 2 ratio
 EFO:0004617	rdfs:label	cystatin C measurement
 EFO:0006825	rdfs:label	trans/cis-18:2 fatty acid measurement
 EFO:0020631	rdfs:label	peroxiredoxin-6 measurement
 EFO:0009236	rdfs:label	Eosinophilic Myelocyte Count
+EFO:0021158	rdfs:label	ibuprofen measurement
+EFO:0021161	rdfs:label	salicylate measurement
+EFO:0021456	rdfs:label	lysophosphatidylcholine 20:0 measurement
 EFO:0010476	rdfs:label	dimethylglycine measurement@en
 EFO:0009346	rdfs:label	Hepatitis B virus core antigen seropositivity
 EFO:0020142	rdfs:label	amp kinase (alpha1beta1gamma1) measurement
+EFO:0021444	rdfs:label	cholesteryl ester 22:5 measurement
+EFO:0021204	rdfs:label	X-07765 measurement
 EFO:0010401	rdfs:label	triacylglycerol 46:1 measurement@en
 EFO:0020156	rdfs:label	apolipoprotein D measurement
 EFO:0010992	rdfs:label	hippurate measurement
 EFO:0020491	rdfs:label	interleukin-11 receptor subunit alpha measurement
 EFO:0010586	rdfs:label	CD40 measurement@en
 EFO:0007765	rdfs:label	delta-6 desaturase measurement
+EFO:0021314	rdfs:label	X-12524 measurement
 EFO:0020949	rdfs:label	clonal hematopoiesis mutation measurement@en
+EFO:0021822	rdfs:label	right atrial maximum area measurement@en
 EFO:0020290	rdfs:label	creatine kinase b-type measurement
 EFO:0020534	rdfs:label	leucine-rich repeats and immunoglobulin-like domains protein 3 measurement
+EFO:0021836	rdfs:label	N-acetyl-d-tryptophan measurement@en
 EFO:0008195	rdfs:label	kallikrein-7 measurement
 EFO:0008271	rdfs:label	protein jagged-1 measurement
 EFO:0020326	rdfs:label	dipeptidyl peptidase 2 measurement
@@ -1559,33 +2049,45 @@ EFO:0020817	rdfs:label	tumor-associated calcium signal transducer 2 measurement
 EFO:0010947	rdfs:label	epidermal growth factor measurement@en
 EFO:0007959	rdfs:label	fetal genotype effect measurement
 EFO:0007061	rdfs:label	passage number
+EFO:0021347	rdfs:label	X-13215 measurement
 EFO:0009775	rdfs:label	threonine measurement
 EFO:0020436	rdfs:label	heme oxygenase 2 measurement
 EFO:0008279	rdfs:label	semaphorin-3E measurement
+EFO:0021276	rdfs:label	X-12007 measurement
+EFO:0021019	rdfs:label	2-methylbutyroylcarnitine measurement
 EFO:0009945	rdfs:label	psychological resilience measurement
 EFO:0006811	rdfs:label	linolenic acid measurement
 EFO:0009220	rdfs:label	Hemoglobin G Coushatta to Total Hemoglobin Ratio Measurement
+EFO:0021549	rdfs:label	2-Aminoethanesulfonic acid measurement
 EFO:0007758	rdfs:label	intermittent Staphylococcus aureus carrier status
 EFO:0020755	rdfs:label	stress-induced-phosphoprotein 1 measurement
-EFO:0010343	rdfs:label	cholesteryl ester 18:0 measurement@en
 EFO:0010504	rdfs:label	inositol measurement@en
+EFO:0010343	rdfs:label	cholesteryl ester 18:0 measurement@en
 EFO:0020769	rdfs:label	thrombopoietin receptor measurement
 EFO:0020283	rdfs:label	complement factor D measurement
 EFO:0010392	rdfs:label	sphingomyelin 16:1 measurement@en
 EFO:0009330	rdfs:label	Chlamydia trachomatis seropositivity
 EFO:0020339	rdfs:label	dynein light chain 1, cytoplasmic measurement
+EFO:0021430	rdfs:label	N-acetyl-beta-alanine measurement@en
 EFO:0008433	rdfs:label	pursuit maintenance gain measurement
 EFO:0020865	rdfs:label	aortic measurement@en
+EFO:0021417	rdfs:label	X-12798-to-phenylalanine ratio
 EFO:0010272	rdfs:label	abdominal aortic calcification measurement@en
 EFO:0008091	rdfs:label	complement C1s subcomponent measurement
 EFO:0020879	rdfs:label	omega-6 polyunsaturated fatty acid change measurement
 EFO:0020393	rdfs:label	focal adhesion kinase 1 measurement
 EFO:0005213	rdfs:label	central corneal thickness
-EFO:0007054	rdfs:label	microsatellite instability measurement
 EFO:0600082	rdfs:label	insulin use measurement
+EFO:0007054	rdfs:label	microsatellite instability measurement
+EFO:0021167	rdfs:label	quinate measurement
 EFO:0008105	rdfs:label	cystatin-SA measurement
 EFO:0005001	rdfs:label	phenylalanine measurement
+EFO:0021522	rdfs:label	urinary sodium measurement@en
+EFO:0021693	rdfs:label	Asp-phe to 3-Indolepropionic acid ratio
 EFO:0009338	rdfs:label	Epstein-Barr virus early antigen seropositivity
+EFO:0021632	rdfs:label	L-Thyroxine measurement
+EFO:0021269	rdfs:label	X-11849 measurement
+EFO:0021096	rdfs:label	2-oleoylglycerophosphocholine measurement
 EFO:0006506	rdfs:label	hepatic lipid content measurement
 EFO:0010407	rdfs:label	triacylglycerol 48:4 measurement@en
 EFO:0008000	rdfs:label	peak insulin response measurement
@@ -1594,21 +2096,31 @@ EFO:0005680	rdfs:label	omega-6 polyunsaturated fatty acid measurement
 EFO:0020497	rdfs:label	interleukin-20 receptor subunit alpha measurement
 EFO:0006873	rdfs:label	theta wave measurement
 EFO:0009282	rdfs:label	sodium measurement
+EFO:0021379	rdfs:label	X-14977--vanillin measurement
 EFO:0009938	rdfs:label	Anilide use measurement
 EFO:0020422	rdfs:label	gro-beta/gamma measurement
+EFO:0021828	rdfs:label	1-aminocyclopropane-1-carboxylic acid meaaurement@en
 EFO:0600040	rdfs:label	plasma clozapine-to-N-desmethylclozapine ratio measurement
 EFO:0020575	rdfs:label	mitogen-activated protein kinase 11 measurement
 EFO:0009716	rdfs:label	age at first facial hair
 EFO:0020589	rdfs:label	natural cytotoxicity triggering receptor 2 measurement
+EFO:0021757	rdfs:label	3-Indolepropionic acid to Methylmalonic acid ratio
 EFO:0020685	rdfs:label	protein nov homolog measurement
+EFO:0021081	rdfs:label	1-eicosatrienoylglycerophosphocholine measurement
 EFO:0010610	rdfs:label	tumor necrosis factor receptor superfamily member 6 measurement@en
 EFO:0020699	rdfs:label	ras-related c3 botulinum toxin substrate 1 measurement
+EFO:0021222	rdfs:label	X-11299 measurement
 EFO:0006949	rdfs:label	wine liking measurement
 EFO:0006266	rdfs:label	sum of skinfolds
+EFO:0021191	rdfs:label	X-04495 measurement
+EFO:0021332	rdfs:label	X-12771 measurement
+EFO:0021089	rdfs:label	1-palmitoylglycerophosphocholine measurement
 EFO:0007646	rdfs:label	amyloid plaque accumulation rate
 EFO:0004358	rdfs:label	event-related brain oscillation
 EFO:0020608	rdfs:label	nidogen-2 measurement
 EFO:0007702	rdfs:label	hip bone mineral density
+EFO:0021710	rdfs:label	3-Indolepropionic acid to S-(5-Adenosy) -L-homocysteine ratio
+EFO:0021199	rdfs:label	X-06246 measurement
 EFO:0020415	rdfs:label	glypican-3 measurement
 EFO:0010513	rdfs:label	nucleotide measurement@en
 EFO:0010398	rdfs:label	sphingomyelin 24:1 measurement@en
@@ -1623,13 +2135,19 @@ EFO:0010776	rdfs:label	CUB domain containing protein 1 measurement
 EFO:0005278	rdfs:label	cardiovascular disease biomarker measurement
 EFO:0004512	rdfs:label	bone measurement
 EFO:0009924	rdfs:label	Drugs used in diabetes use measurement
+EFO:0021514	rdfs:label	acetylcarnitine-to-hexanoylcarnitine ratio@en
 EFO:0008114	rdfs:label	dynein light chain roadblock-type 1 measurement
+EFO:0021528	rdfs:label	blood barium measurement@en
 EFO:0020719	rdfs:label	secretin measurement
+EFO:0021042	rdfs:label	octanoylcarnitine measurement
 EFO:0009702	rdfs:label	intra-individual reaction time variability measurement
 EFO:0020018	rdfs:label	glycerophosphorylcholine measurement@en
+EFO:0021624	rdfs:label	L-Ornithine measurement
 EFO:0011013	rdfs:label	vaginal microbiome measurement@en
 EFO:0010448	rdfs:label	3-hydroxyphenylacetic acid measurement@en
 EFO:0008041	rdfs:label	C-C motif chemokine 1 measurement
+EFO:0021638	rdfs:label	LysoPC 14:0 measurement
+EFO:0021152	rdfs:label	glycerol 2-phosphate measurement
 EFO:0020128	rdfs:label	adapter molecule CRK measurement
 EFO:0010988	rdfs:label	5-oxoproline measurement
 EFO:0008055	rdfs:label	C-C motif chemokine 8 measurement
@@ -1638,14 +2156,17 @@ EFO:0008377	rdfs:label	mosquito bite reaction itch intensity measurement
 EFO:0020372	rdfs:label	fatty acid-binding protein, epidermal measurement
 EFO:0020428	rdfs:label	growth/differentiation factor 2 measurement
 EFO:0009095	rdfs:label	psychological measurement
+EFO:0021000	rdfs:label	cysteine measurement
 EFO:0020482	rdfs:label	intercellular adhesion molecule 3 measurement
 EFO:0008049	rdfs:label	C-C motif chemokine 23 measurement
 EFO:0005106	rdfs:label	body composition measurement
 EFO:0004581	rdfs:label	interleukin 18 measurement
 EFO:0010602	rdfs:label	brain age measurement@en
 EFO:0007805	rdfs:label	HDL cholesterol change measurement
+EFO:0021813	rdfs:label	nociceptive flexion reflex threshold@en
 EFO:0010616	rdfs:label	renin measurement@en
 EFO:0007799	rdfs:label	syntactic complexity measurement
+EFO:0021348	rdfs:label	X-13429 measurement
 EFO:0010384	rdfs:label	phosphatidylcholine 38:2 measurement@en
 EFO:0007895	rdfs:label	lutein measurement
 EFO:0020440	rdfs:label	hepcidin measurement
@@ -1654,81 +2175,116 @@ EFO:0020649	rdfs:label	platelet-derived growth factor subunitAmeasurement
 EFO:0008034	rdfs:label	beta-endorphin measurement
 EFO:0009269	rdfs:label	ADAMTS13 measurement
 EFO:0009805	rdfs:label	whole body water mass
+EFO:0021270	rdfs:label	X-11850 measurement
 EFO:0010219	rdfs:label	aldosterone measurement@en
 EFO:0007708	rdfs:label	t-tau:beta-amyloid 1-42 ratio measurement
 EFO:0008144	rdfs:label	granulysin measurement
 EFO:0007757	rdfs:label	persistent Staphylococcus aureus carrier status
+EFO:0021765	rdfs:label	Pantothenate to 3-Indolepropionic acid ratio
+EFO:0021306	rdfs:label	X-12435 measurement
+EFO:0021553	rdfs:label	2-Picolinic acid measurement
 EFO:0007818	rdfs:label	athletic endurance measurement
 EFO:0008405	rdfs:label	susceptibility to hepatitis B infection measurement
 EFO:0020043	rdfs:label	octadecanoids measurement
 EFO:0020114	rdfs:label	3-hydroxyacyl-coa dehydrogenase type-2 measurement
 EFO:0020343	rdfs:label	ectonucleoside triphosphate diphosphohydrolase 3 measurement
+EFO:0021416	rdfs:label	C-glycosyltryptophan-to-succinylcarnitine ratio
 EFO:0009227	rdfs:label	Oxyhemoglobin to Total Hemoglobin Ratio Measurement
+EFO:0021569	rdfs:label	4-Pyridoxic acid measurement
 EFO:0009592	rdfs:label	social interaction measurement
 EFO:0004825	rdfs:label	temperament and character inventory
 EFO:0010761	rdfs:label	adenosine deaminase measurement
 EFO:0008438	rdfs:label	growth hormone measurement
+EFO:0021679	rdfs:label	L-Histidine to Uric acid ratio
 EFO:0020961	rdfs:label	free lanosterol measurement@en
 EFO:0020147	rdfs:label	angiopoietin-4 measurement
 EFO:0008096	rdfs:label	complement factor B measurement
 EFO:0020704	rdfs:label	reticulon-4 measurement
+EFO:0021209	rdfs:label	X-09108 measurement
 EFO:0010997	rdfs:label	n1-methyl-nicotinamide measurement
 EFO:0005528	rdfs:label	parasitemia measurement
+EFO:0021263	rdfs:label	X-11805 measurement
+EFO:0021319	rdfs:label	X-12645 measurement
+EFO:0021006	rdfs:label	pipecolate measurement
 EFO:0010162	rdfs:label	death in childhood
 EFO:0009932	rdfs:label	HMG CoA reductase inhibitor use measurement
+EFO:0021373	rdfs:label	X-14625 measurement
 EFO:0010608	rdfs:label	stromelysin‐1 measurement@en
+EFO:0021116	rdfs:label	7-alpha-hydroxy-3-oxo-4-cholestenoate 7-Hoca measurement
 EFO:0009720	rdfs:label	able to hear with hearing aids
 EFO:0010466	rdfs:label	carboxamide measurement@en
 EFO:0005682	rdfs:label	oxygen saturation measurement
 EFO:0007945	rdfs:label	agoraphobia symptom measurement
+EFO:0021751	rdfs:label	3-Indolepropionic acid to 4-Hydroxybenzaldehyde ratio
 EFO:0020852	rdfs:label	wap, kazal, immunoglobulin, kunitz and ntr domain-containing protein 1 measurement
 EFO:0600039	rdfs:label	plasma N-desmethylclozapine measurement
 EFO:0020210	rdfs:label	cadherin-12 measurement
 EFO:0005530	rdfs:label	Trypanosoma cruzi seropositivity
 EFO:0020524	rdfs:label	L-lactate dehydrogenase B chain measurement
+EFO:0021484	rdfs:label	triacylglycerol 53:2 measurement
 EFO:0010112	rdfs:label	acetate measurement
+EFO:0021555	rdfs:label	2,6-Diaminooimelic acid measurement
 EFO:0009751	rdfs:label	facial asymmetry measurement
+EFO:0021083	rdfs:label	1-linoleoylglycerophosphocholine measurement
 EFO:0020274	rdfs:label	complement C2 measurement
 EFO:0004811	rdfs:label	interleukin-8 measurement
 EFO:0010348	rdfs:label	cholesteryl ester 20:4 measurement@en
 EFO:0004352	rdfs:label	mortality
 EFO:0010905	rdfs:label	BK polyomavirus seropositivity@en
 EFO:0008424	rdfs:label	IgG digalactosylation measurement
+EFO:0021665	rdfs:label	Riboflavin measurement
+EFO:0021352	rdfs:label	X-13496 measurement
+EFO:0021408	rdfs:label	X-13215-to-X-13671 ratio
 EFO:0008255	rdfs:label	particulate matter air pollution measurement
 EFO:0008082	rdfs:label	chemokine (C-C motif) ligand 27 measurement
 EFO:0020049	rdfs:label	phosphatidylserines measurement
 EFO:0009861	rdfs:label	chromosome-type aberration frequency
+EFO:0021193	rdfs:label	X-04499--3,4-dihydroxybutyrate measurement
 EFO:0020628	rdfs:label	periostin measurement
 EFO:0004713	rdfs:label	FEV/FEC ratio
 EFO:0009749	rdfs:label	age at first sexual intercourse measurement
 EFO:0010780	rdfs:label	CXCL9 measurement
 EFO:0007938	rdfs:label	coronary atherosclerosis measurement
+EFO:0021744	rdfs:label	3-Indolepropionic acid to Creatinine ratio
+EFO:0021698	rdfs:label	L-Threonine to 3-Indolepropionic acid ratio
 EFO:0020672	rdfs:label	protein e7_hpv18 measurement
 EFO:0020967	rdfs:label	esterified sitosterol measurement@en
+EFO:0021102	rdfs:label	caproate 6:0 measurement
 EFO:0020022	rdfs:label	N-acetylneuraminate measurement@en
+EFO:0021255	rdfs:label	X-11552 measurement
 EFO:0010452	rdfs:label	adenosine diphosphate measurement@en
 EFO:0020344	rdfs:label	ectonucleotide pyrophosphatase/phosphodiesterase family member 7 measurement
 EFO:0020132	rdfs:label	aflatoxin B1 aldehyde reductase member 2 measurement
+EFO:0021118	rdfs:label	cortisone measurement
 EFO:0004873	rdfs:label	cytokine measurement
 EFO:0010230	rdfs:label	phosphatidylinositol measurement@en
+EFO:0021365	rdfs:label	X-14205--alpha-glutamyltyrosine measurement
+EFO:0021702	rdfs:label	L-Aspartic acid to 3-Indolepropionic acid ratio
 EFO:0010982	rdfs:label	3-hydroxybutyrate measurement
 EFO:0020630	rdfs:label	peroxiredoxin-5, mitochondrial measurement
 EFO:0007679	rdfs:label	oppositional defiant disorder measurement
 EFO:0600072	rdfs:label	human polyomavirus 6 seropositivity
 EFO:0004909	rdfs:label	dihydrotestosterone measurement
 EFO:0008075	rdfs:label	cation-independent mannose-6-phosphate receptor measurement
+EFO:0021470	rdfs:label	phosphatidylcholine 33:2 measurement
 EFO:0020510	rdfs:label	junctional adhesion molecule C measurement
 EFO:0006899	rdfs:label	PCSK9 protein measurement
+EFO:0021213	rdfs:label	X-10395 measurement
+EFO:0021457	rdfs:label	lysophosphatidylcholine 20:1 measurement
 EFO:0009103	rdfs:label	theory of mind measurement
 EFO:0008185	rdfs:label	interleukin 5 measurement
 EFO:0005081	rdfs:label	surfactant protein D measurement
+EFO:0021580	rdfs:label	Cyclic AMP measurement
 EFO:0020487	rdfs:label	interleukin-1 receptor type 1 measurement
 EFO:0020247	rdfs:label	CD48 antigen measurement
 EFO:0020226	rdfs:label	carbohydrate sulfotransferase 6 measurement
 EFO:0008326	rdfs:label	a disintegrin and metalloproteinase with thrombospondin motifs 5 measurement
+EFO:0021323	rdfs:label	X-12712 measurement
 EFO:0005536	rdfs:label	nitric oxide exhalation measurement
 EFO:0020533	rdfs:label	leucine-rich repeat transmembrane protein FLRT1 measurement
 EFO:0005089	rdfs:label	whole-brain volume
+EFO:0021611	rdfs:label	L-Aspartic acid measurement
+EFO:0021715	rdfs:label	L-Citrulline to 3-Indolepropionic acid ratio
 EFO:0010435	rdfs:label	triacylglycerol 56:8 measurement@en
 EFO:0007924	rdfs:label	tonsillectomy risk measurement
 EFO:0010223	rdfs:label	diglyceride measurement@en
@@ -1742,101 +2298,141 @@ EFO:0010545	rdfs:label	uridine diphosphate measurement@en
 EFO:0006939	rdfs:label	cup-to-disc ratio measurement
 EFO:0020745	rdfs:label	somatostatin-28 measurement
 EFO:0006524	rdfs:label	L-arginine measurement
+EFO:0021519	rdfs:label	linoleate 18:2n6-to-X-12442-5,8-tetradecadienoate ratio@en
+EFO:0021033	rdfs:label	biliverdin measurement
 EFO:0004302	rdfs:label	anthropometric measurement
+EFO:0021785	rdfs:label	age at initiation of cannabis use@en
+EFO:0021047	rdfs:label	docosahexaenoate DHA; 22:6n3 measurement
 EFO:0003960	rdfs:label	computed tomography
 EFO:0006807	rdfs:label	linoleic acid measurement
 EFO:0006810	rdfs:label	oleic acid measurement
+EFO:0021573	rdfs:label	Adenine measurement
 EFO:0009218	rdfs:label	Hemoglobin E to Total Hemoglobin Ratio Measurement
+EFO:0021629	rdfs:label	L-Saccharopine measurement
 EFO:0010349	rdfs:label	cholesteryl ester 20:5 measurement@en
 EFO:0008146	rdfs:label	growth-regulated alpha protein measurement
+EFO:0021143	rdfs:label	gamma-glutamylthreonine measurement
+EFO:0021157	rdfs:label	hydroquinone sulfate measurement
 EFO:0020363	rdfs:label	erythropoietin measurement
+EFO:0021683	rdfs:label	3-Indolepropionic acid to Uridine ratio
 EFO:0020141	rdfs:label	aminoacylase-1 measurement
 EFO:0010271	rdfs:label	bacterial pathogen genotype measurement
 EFO:0007986	rdfs:label	reticulocyte count
 EFO:0020893	rdfs:label	3-hydroxybutyrate change measurement
 EFO:0008312	rdfs:label	tyrosine-protein kinase receptor Tie-1, soluble measurement
+EFO:0021708	rdfs:label	L-Glutamic acid to 3-Indolepropionic acid ratio
 EFO:0600091	rdfs:label	complement factor H-related protein 4 measurement
 EFO:0020636	rdfs:label	phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform:phosphatidylinositol 3-kinase regulatory subunit alpha complex measurement
+EFO:0021804	rdfs:label	dodecanoylcarnitine measurement@en
 EFO:0009767	rdfs:label	glycine measurement
 EFO:0010607	rdfs:label	tumor necrosis factor, receptor superfamily, member 5 measurement@en
+EFO:0021476	rdfs:label	phosphatidylcholine 39:5 measurement
+EFO:0021818	rdfs:label	right ventricular diastolic volume to left ventricular diastolic volume ratio@en
 EFO:0020565	rdfs:label	mesothelin measurement
 EFO:0020308	rdfs:label	cytoplasmic tyrosine-protein kinase BMX measurement
+EFO:0021586	rdfs:label	D-Glucose measurement
+EFO:0021339	rdfs:label	X-12844 measurement
 EFO:0007840	rdfs:label	pesticide exposure measurement
 EFO:0008194	rdfs:label	kallikrein-12 measurement
 EFO:0009439	rdfs:label	multiple births measurement
 EFO:0010932	rdfs:label	urokinase plasminogen activator surface receptor measurement
 EFO:0008463	rdfs:label	glucagon measurement
 EFO:0010460	rdfs:label	anthranilic acid measurement@en
+EFO:0021393	rdfs:label	X-11440-to-4-androsten-3beta,17beta-diol disulfate 2 ratio
 EFO:0010531	rdfs:label	S-adenosylhomocysteine measurement@en
 EFO:0004644	rdfs:label	TPE interval measurement
 EFO:0006925	rdfs:label	lipoprotein A measurement
+EFO:0021136	rdfs:label	DSGEGDFXAEGGGVR measurement
 EFO:0020211	rdfs:label	cadherin-15 measurement
 EFO:0000724	rdfs:label	timepoint
 EFO:0010814	rdfs:label	proinsulin measurement
 EFO:0009324	rdfs:label	APOL1 risk genotype carrier status
 EFO:0007979	rdfs:label	childhood trauma measurement
+EFO:0020994	rdfs:label	cancer antigen 50 measurement@en
 EFO:0020737	rdfs:label	sh2 domain-containing protein 1a measurement
 EFO:0007743	rdfs:label	influenza A severity measurement
 EFO:0009251	rdfs:label	Rubricyte Count
 EFO:0020456	rdfs:label	homeobox protein nanog measurement
 EFO:0020230	rdfs:label	carbonic anhydrase 4 measurement
 EFO:0020244	rdfs:label	cathepsin L2 measurement
-EFO:0010374	rdfs:label	phosphatidylcholine 32:2 measurement@en
 EFO:0004509	rdfs:label	hemoglobin measurement
 EFO:0009587	rdfs:label	anhedonia measurement
+EFO:0010374	rdfs:label	phosphatidylcholine 32:2 measurement@en
+EFO:0021296	rdfs:label	X-12230 measurement
+EFO:0021039	rdfs:label	decanoylcarnitine measurement
+EFO:0021402	rdfs:label	10-undecenoate 11:1n1-to-X-11438 ratio
+EFO:0021088	rdfs:label	1-palmitoleoylglycerophosphocholine measurement
 EFO:0000627	rdfs:label	number of injections
 EFO:0004357	rdfs:label	electroencephalogram measurement
 EFO:0010925	rdfs:label	protein S100-A12 measurement
 EFO:0009355	rdfs:label	Anti-measles virus IgG measurement
+EFO:0021149	rdfs:label	4-vinylphenol sulfate measurement
 EFO:0010766	rdfs:label	CCL20 measurement
 EFO:0020069	rdfs:label	diacylglycerol 44:7 measurement
 EFO:0010509	rdfs:label	maleate measurement@en
 EFO:0010499	rdfs:label	hyodeoxycholate measurement@en
+EFO:0021254	rdfs:label	X-11550 measurement
 EFO:0020885	rdfs:label	glutamine change measurement
 EFO:0008257	rdfs:label	peptidyl-prolyl cis-trans isomerase E measurement
 EFO:0009863	rdfs:label	anxiety measurement
 EFO:0008589	rdfs:label	esterified cholesterol measurement
 EFO:0009694	rdfs:label	beta-lactam allergy measurement
+EFO:0021749	rdfs:label	3-Indolepropionic acid to 2-(dimethylamino) guanosine ratio
 EFO:0007047	rdfs:label	Toxoplasma gondii seropositivity
 EFO:0009923	rdfs:label	Peptic ulcer and gastro-oesophageal reflux disease (GORD) drug use measurement
 EFO:0004511	rdfs:label	femoral neck bone geometry
 EFO:0010084	rdfs:label	anti-meningococcal C IgG measurement
+EFO:0021122	rdfs:label	N1-methyladenosine measurement
 EFO:0011009	rdfs:label	glycochenodeoxycholate 3-O-glucuronide measurement@en
+EFO:0021652	rdfs:label	Myoinositol measurement
 EFO:0020843	rdfs:label	ubiquitin-fold modifier-conjugating enzyme 1 measurement
+EFO:0021461	rdfs:label	lysophosphatidylcholine 22:4 measurement
 EFO:0020371	rdfs:label	fact complex subunit ssrp1 measurement
 EFO:0008542	rdfs:label	complement C3d subcomponent measurement
 EFO:0007775	rdfs:label	thrombin-antithrombin complex measurement
 EFO:0010360	rdfs:label	lysophosphatidylcholine 18:1 measurement@en
+EFO:0021324	rdfs:label	X-12717 measurement
 EFO:0004746	rdfs:label	lipoprotein-associated phospholipase A(2) measurement
 EFO:0008398	rdfs:label	T wave morphology measurement
 EFO:0020529	rdfs:label	layilin measurement
 EFO:0006919	rdfs:label	cardiovascular event measurement
 EFO:0010117	rdfs:label	pyruvate measurement
+EFO:0021074	rdfs:label	stearate 18:0 measurement
 EFO:0005110	rdfs:label	fatty acid measurement
 EFO:0004343	rdfs:label	waist-hip ratio
+EFO:0021610	rdfs:label	L-Asparagine anhydrous measurement
 EFO:0010097	rdfs:label	sugar sweetened beverage consumption measurement
 EFO:0010911	rdfs:label	C-X-C motif chemokine 16 measurement
 EFO:0006848	rdfs:label	mental or behavioural disorder biomarker
+EFO:0021357	rdfs:label	X-13658 measurement
+EFO:0021184	rdfs:label	X-02973 measurement
 EFO:0020400	rdfs:label	gdnf family receptor alpha-1 measurement
 EFO:0008241	rdfs:label	NAD-dependent protein deacetylase sirtuin-2 measurement
 EFO:0008290	rdfs:label	spondin-1 measurement
+EFO:0021227	rdfs:label	X-11374 measurement
 EFO:0007929	rdfs:label	triglyceride:HDL cholesterol ratio
+EFO:0021735	rdfs:label	3-Indolepropionic acid to Dodecanedioic aicd ratio
 EFO:0010758	rdfs:label	anti-Kaposi's sarcoma-associated herpesvirus antibody measurement@en
 EFO:0009268	rdfs:label	family history of Alzheimer’s disease
 EFO:0008351	rdfs:label	amyloid deposition measurement
 EFO:0020958	rdfs:label	total brassicasterol measurement@en
 EFO:0020677	rdfs:label	protein kinase c alpha type measurement
+EFO:0021513	rdfs:label	3-4-hydroxyphenyl lactate-to-alpha-hydroxyisovalerate ratio@en
 EFO:0008249	rdfs:label	nidogen-1 measurement
 EFO:0010353	rdfs:label	diacylglycerol 34:2 measurement@en
 EFO:0007761	rdfs:label	docosahexaenoic acid measurement
+EFO:0021310	rdfs:label	X-12450 measurement
 EFO:0020188	rdfs:label	bone morphogenetic protein receptor type-1a measurement
 EFO:0007681	rdfs:label	triglyceride change measurement
 EFO:0020349	rdfs:label	enteropeptidase measurement
 EFO:0008359	rdfs:label	eicosadienoic acid measurement
 EFO:0004517	rdfs:label	arterial stiffness measurement
 EFO:0009929	rdfs:label	Beta blocking agent use measurement
+EFO:0021420	rdfs:label	glutamine-to-histidine ratio
 EFO:0600077	rdfs:label	cardiac troponin I change measurement
+EFO:0021177	rdfs:label	caffeine measurement
 EFO:0010770	rdfs:label	CCL3 measurement
+EFO:0021448	rdfs:label	cholesteryl ester 24:5 measurement
 EFO:0020849	rdfs:label	vasoactive intestinal peptide measurement
 EFO:0007792	rdfs:label	antipsychotic drug use measurement
 EFO:0008171	rdfs:label	interleukin 13 measurement
@@ -1847,11 +2443,15 @@ EFO:0020292	rdfs:label	creatine kinase m-type:creatine kinase b-type heterodimer
 EFO:0010119	rdfs:label	omega-3 polyunsaturated fatty acid measurement
 EFO:0010366	rdfs:label	lysophosphatidylethanolamine 16:0 measurement@en
 EFO:0007017	rdfs:label	peanut allergy measurement
+EFO:0021838	rdfs:label	sorbate measurement@en
+EFO:0021602	rdfs:label	Homovanillic acid measurement
 EFO:0004621	rdfs:label	vitamin B6 measurement
 EFO:0005126	rdfs:label	arylesterase enzyme measurement
 EFO:0010158	rdfs:label	sugar consumption measurement
 EFO:0020070	rdfs:label	diacylglycerol 44:6 measurement
 EFO:0010426	rdfs:label	triacylglycerol 54:8 measurement@en
+EFO:0021616	rdfs:label	L-Glutamic acid measurement
+EFO:0021130	rdfs:label	leucylleucine measurement
 EFO:0004857	rdfs:label	vitamin A measurement
 EFO:0008033	rdfs:label	beta-Ala-His dipeptidase measurement
 EFO:0010966	rdfs:label	pneumonia severity measurement
@@ -1875,6 +2475,7 @@ EFO:0009209	rdfs:label	Hemoglobin A to Total Hemoglobin Ratio Measurement
 EFO:0004573	rdfs:label	chemerin measurement
 EFO:0008137	rdfs:label	galectin-3 measurement
 EFO:0011022	rdfs:label	BRCA2 mutation carier statu
+EFO:0021720	rdfs:label	3-Indolepropionic acid to LysoPC 18:0 ratio
 EFO:0009725	rdfs:label	friendship satisfaction measurement
 EFO:0020598	rdfs:label	neuroblastoma suppressor of tumorigenicity 1 measurement
 EFO:0005196	rdfs:label	vasoactive peptide measurement
@@ -1888,14 +2489,20 @@ EFO:0020884	rdfs:label	alanine change measurement
 EFO:0020119	rdfs:label	40s ribosomal protein SA measurement
 EFO:0008529	rdfs:label	kynurenine measurement
 EFO:0010979	rdfs:label	2-hydroxyisobutyrate measurement
+EFO:0021436	rdfs:label	cholesteryl ester 17:0 measurement
 EFO:0010493	rdfs:label	glycodeoxycholate measurement@en
+EFO:0021231	rdfs:label	X-11423--O-sulfo-L-tyrosine measurement
+EFO:0021245	rdfs:label	X-11491 measurement
 EFO:0010786	rdfs:label	interleukin-10 receptor B measurement
 EFO:0020173	rdfs:label	baculoviral IAP repeat-containing protein 3 measurement
 EFO:0020681	rdfs:label	protein kinase c iota type measurement
 EFO:0007003	rdfs:label	prolactin measurement
 EFO:0010529	rdfs:label	ribose-5-phosphate measurement@en
 EFO:0008122	rdfs:label	eotaxin measurement
+EFO:0021743	rdfs:label	3-Indolepropionic acid to (S)-(-)-2-Hydroxyisocaproic acid ratio
 EFO:0009357	rdfs:label	Anti-rubella virus IgG measurement
+EFO:0021108	rdfs:label	1-linoleoylglycerol 1-monolinolein measurement
+EFO:0021699	rdfs:label	3-Indolepropionic acid to LysoPC 18:1 ratio
 EFO:0020724	rdfs:label	serine/threonine-protein kinase 16 measurement
 EFO:0010639	rdfs:label	pain measurement
 EFO:0020551	rdfs:label	malate dehydrogenase, cytoplasmic measurement
@@ -1904,29 +2511,36 @@ EFO:0020489	rdfs:label	interleukin-10 receptor subunit beta measurement
 EFO:0011003	rdfs:label	trimethylamine measurement
 EFO:0020834	rdfs:label	tyrosine-protein phosphatase non-receptor type 1 measurement
 EFO:0009718	rdfs:label	peak expiratory flow
+EFO:0021608	rdfs:label	L-2-Aminobutyric acid measurement
 EFO:0004630	rdfs:label	factor VIII measurement
 EFO:0020584	rdfs:label	muellerian-inhibiting factor measurement
+EFO:0021657	rdfs:label	N6-Succinyl adenosine measurement
 EFO:0005512	rdfs:label	estrogen receptor status
+EFO:0021466	rdfs:label	phosphatidylcholine 28:0 measurement
 EFO:0006898	rdfs:label	airway wall thickness measurement
 EFO:0008392	rdfs:label	triiodothyronine measurement
 EFO:0010486	rdfs:label	glucuronate measurement@en
 EFO:0020447	rdfs:label	high affinity immunoglobulin gamma fc receptor i measurement
 EFO:0020694	rdfs:label	pyridoxal phosphate phosphatase measurement
+EFO:0021065	rdfs:label	eicosenoate 20:1n9 or 11 measurement
 EFO:0010411	rdfs:label	triacylglycerol 50:4 measurement@en
 EFO:0007900	rdfs:label	retinol measurement
 EFO:0004842	rdfs:label	eosinophil count
 EFO:0010596	rdfs:label	monocyte chemotactic protein 1 measurement@en
 EFO:0006842	rdfs:label	diabetes mellitus biomarker
+EFO:0021351	rdfs:label	X-13477 measurement
 EFO:0020786	rdfs:label	tropomyosin alpha-1 chain measurement
 EFO:0010444	rdfs:label	triacylglycerol 60:12 measurement@en
 EFO:0010515	rdfs:label	organic cation measurement@en
 EFO:0005660	rdfs:label	plasma beta-amyloid 1-42 measurement
+EFO:0021023	rdfs:label	isobutyrylcarnitine measurement
 EFO:0600003	rdfs:label	vitamin C measurement
 EFO:0020952	rdfs:label	dopamine beta-hydroxylase measurement@en
 EFO:0009390	rdfs:label	sum of neutrophil and eosinophil counts
 EFO:0010554	rdfs:label	retinal vasculature measurement@en
 EFO:0010625	rdfs:label	xaa‐pro aminopeptidase 2 measurement@en
 EFO:0006953	rdfs:label	family history of lung cancer
+EFO:0021286	rdfs:label	X-12094 measurement
 EFO:0020502	rdfs:label	interleukin-24 measurement
 EFO:0010089	rdfs:label	bitter beverage consumption measurement
 EFO:0008116	rdfs:label	EGF-like module-containing mucin-like hormone receptor-like 2 measurement
@@ -1935,9 +2549,13 @@ EFO:0009418	rdfs:label	CCL24 measurement
 EFO:0005058	rdfs:label	tyrosine measurement
 EFO:0020612	rdfs:label	NFSL1 cofactor p47 measurement
 EFO:0007837	rdfs:label	anti-citrullinated protein antibody seropositivity
+EFO:0021643	rdfs:label	LysoPC 20:0 measurement
 EFO:0008060	rdfs:label	cadherin-5 measurement
+EFO:0021452	rdfs:label	lysophosphatidylcholine 17:0 measurement
+EFO:0021171	rdfs:label	erythritol measurement
 EFO:0010228	rdfs:label	phosphatidylethanolamine measurement@en
 EFO:0010457	rdfs:label	Alpha ketoglutarate measurement@en
+EFO:0021440	rdfs:label	cholesteryl ester 20:2 measurement
 EFO:0008318	rdfs:label	vitamin K-dependent protein C measurement
 EFO:0008343	rdfs:label	sex interaction measurement
 EFO:0008170	rdfs:label	interleukin 12 receptor subunit beta-1 measurement
@@ -1948,6 +2566,7 @@ EFO:0020945	rdfs:label	free cholesterol:total lipids ratio@en
 EFO:0020772	rdfs:label	thymic stromal lymphopoietin measurement
 EFO:0008453	rdfs:label	calf circumference measurement
 EFO:0020515	rdfs:label	kallikrein-5 measurement
+EFO:0021832	rdfs:label	L-Gulonic acid gamma-lactone measurement@en
 EFO:0010430	rdfs:label	triacylglycerol 56:3 measurement@en
 EFO:0020322	rdfs:label	desmoglein-2 measurement
 EFO:0008010	rdfs:label	[Pyruvate dehydrogenase acetyl-transferring] kinase isozyme 1, mitochondrial measurement
@@ -1956,6 +2575,7 @@ EFO:0007794	rdfs:label	nicotine metabolite ratio
 EFO:0004471	rdfs:label	insulin sensitivity measurement
 EFO:0000433	rdfs:label	duration
 EFO:0006883	rdfs:label	alpha peak frequency measurement
+EFO:0021343	rdfs:label	X-12855 measurement
 EFO:0010540	rdfs:label	thiamine measurement@en
 EFO:0000482	rdfs:label	event free survival time
 EFO:0020432	rdfs:label	GTPase kras measurement
@@ -1963,8 +2583,11 @@ EFO:0010703	rdfs:label	trauma exposure measurement@en
 EFO:0600050	rdfs:label	plasma leucine rich alpha-2-glycoprotein 1 measurement
 EFO:0020220	rdfs:label	calcium/calmodulin-dependent protein kinase type II subunit delta measurement
 EFO:0009133	rdfs:label	cholesteryl ester transfer protein measurement
+EFO:0021272	rdfs:label	X-11858 measurement
+EFO:0021015	rdfs:label	indoleacetate measurement
 EFO:0006523	rdfs:label	symmetrical dimethylarginine measurement
 EFO:0010813	rdfs:label	fasting C-peptide measurement
+EFO:0021029	rdfs:label	glycerate measurement
 EFO:0008163	rdfs:label	intercellular adhesion molecule 2 measurement
 EFO:0009941	rdfs:label	Inhalant adrenergic use measurement
 EFO:0009203	rdfs:label	Carboxyhemoglobin to Total Hemoglobin Ratio Measurement
@@ -1972,6 +2595,7 @@ EFO:0004806	rdfs:label	asbestos exposure measurement
 EFO:0009396	rdfs:label	hippocampal CA4 volume
 EFO:0008304	rdfs:label	trefoil factor 3 measurement
 EFO:0006806	rdfs:label	paragraph delayed recall measurement
+EFO:0021545	rdfs:label	1,3,7-trimethyluric acid measurement
 EFO:0600058	rdfs:label	blood group
 EFO:0004786	rdfs:label	Mini-International Neuropsychiatric Interview
 EFO:0020013	rdfs:label	5-methyluridine (ribothymidine) measurement@en
@@ -1985,7 +2609,9 @@ EFO:0020123	rdfs:label	a disintegrin and metalloproteinase with thrombospondin m
 EFO:0020875	rdfs:label	fatty acid change measurement
 EFO:0007000	rdfs:label	Gleason score measurement
 EFO:0020618	rdfs:label	opioid-binding protein/cell adhesion molecule measurement
+EFO:0021649	rdfs:label	Maltose measurement
 EFO:0600063	rdfs:label	blood group O
+EFO:0021163	rdfs:label	ergothioneine measurement
 EFO:0005198	rdfs:label	transplant outcome measurement
 EFO:0008066	rdfs:label	carbohydrate sulfotransferase 15 measurement
 EFO:0020139	rdfs:label	alpha-L-iduronidase measurement
@@ -1998,13 +2624,18 @@ EFO:0007008	rdfs:label	allergy measurement
 EFO:0020297	rdfs:label	cyclin-dependent kinase 8:cyclin-c complex measurement
 EFO:0020493	rdfs:label	interleukin-13 receptor subunit alpha-1 measurement
 EFO:0004626	rdfs:label	IGFBP-3 measurement
+EFO:0021121	rdfs:label	lathosterol measurement
 EFO:0009712	rdfs:label	father's age at death
+EFO:0021661	rdfs:label	Phenylacetyl-L-glutamine measurement
 EFO:0009306	rdfs:label	atazanavir measurement
 EFO:0020328	rdfs:label	disintegrin and metalloproteinase domain-containing protein 12 measurement
 EFO:0010485	rdfs:label	glucose-6-phosphate measurement@en
+EFO:0021460	rdfs:label	lysophosphatidylcholine 22:1 measurement
 EFO:0020451	rdfs:label	histone acetyltransferase kat6a measurement
 EFO:0020695	rdfs:label	pyruvate kinase pkm measurement
 EFO:0008287	rdfs:label	SLAM family member 7 measurement
+EFO:0021531	rdfs:label	blood strontium measurement@en
+EFO:0021398	rdfs:label	X-10510-to-palmitoyl sphingomyelin ratio
 EFO:0020250	rdfs:label	CD97 antigen measurement
 EFO:0004760	rdfs:label	t-tau measurement
 EFO:0008400	rdfs:label	susceptibility to chickenpox measurement
@@ -2014,25 +2645,33 @@ EFO:0005116	rdfs:label	urinary metabolite measurement
 EFO:0020790	rdfs:label	trypsin-1 measurement
 EFO:0008155	rdfs:label	histidine-rich glycoprotein measurement
 EFO:0008231	rdfs:label	metalloproteinase inhibitor 3 measurement
+EFO:0021776	rdfs:label	osteopontin measurement@en
+EFO:0021564	rdfs:label	3,4,5-Trimethoxycinnamic acid measurement
 EFO:0020604	rdfs:label	neurotrophin-4 measurement
 EFO:0010907	rdfs:label	polyomavirus 2 seropositivity@en
 EFO:0010910	rdfs:label	C-C motif chemokine 20 measurement
+EFO:0020999	rdfs:label	2-hydroxybutyrate measurement
 EFO:0020653	rdfs:label	probable g-protein coupled receptor 114 measurement
 EFO:0008416	rdfs:label	susceptibility to rheumatic fever measurement
 EFO:0020054	rdfs:label	diacylglycerol 32:0 measurement
-EFO:0007878	rdfs:label	alcohol consumption measurement
 EFO:0008225	rdfs:label	MAP kinase-activated protein kinase 2 measurement
+EFO:0021427	rdfs:label	N-acetylmethionine measurement@en
 EFO:0020068	rdfs:label	diacylglycerol 42:7 measurement
+EFO:0021674	rdfs:label	trans,trans-Muconic acid measurement
 EFO:0010394	rdfs:label	sphingomyelin 18:1 measurement@en
 EFO:0008239	rdfs:label	N-acetyl-D-glucosamine kinase measurement
+EFO:0021236	rdfs:label	X-11442 measurement
 EFO:0020164	rdfs:label	asialoglycoprotein receptor 1 measurement
 EFO:0007675	rdfs:label	metastasis measurement
 EFO:0010066	rdfs:label	corneal hysteresis
 EFO:0006312	rdfs:label	mitochondrial DNA measurement
+EFO:0021280	rdfs:label	X-12039 measurement
+EFO:0021509	rdfs:label	cholate measurement@en
+EFO:0021499	rdfs:label	cerebral white matter volume change measurement@en
 EFO:0020729	rdfs:label	serine/threonine-protein kinase PAK 6 measurement
 EFO:0020556	rdfs:label	matrilin-3 measurement
-EFO:0010352	rdfs:label	diacylglycerol 34:1 measurement@en
 EFO:0004995	rdfs:label	lean body mass
+EFO:0010352	rdfs:label	diacylglycerol 34:1 measurement@en
 EFO:0009289	rdfs:label	left ventricular mass
 EFO:0006508	rdfs:label	cotinine glucuronidation measurement
 EFO:0007828	rdfs:label	daytime rest measurement
@@ -2044,12 +2683,16 @@ EFO:0020839	rdfs:label	ubiquitin measurement
 EFO:0006875	rdfs:label	acoustic startle blink response measurement
 EFO:0004618	rdfs:label	vitamin K measurement
 EFO:0009237	rdfs:label	Estimated Platelets Measurement
+EFO:0021384	rdfs:label	phosphate-to-erythronate ratio
+EFO:0021127	rdfs:label	aspartylphenylalanine measurement
 EFO:0010744	rdfs:label	testis size@en
 EFO:0010477	rdfs:label	fructose measurement@en
 EFO:0009347	rdfs:label	Anti-cytomegalovirus IgG measurement
 EFO:0600081	rdfs:label	time spent outdoors measurement
 EFO:0008059	rdfs:label	C-X-C motif chemokine 6 measurement
+EFO:0021056	rdfs:label	octadecanedioate measurement
 EFO:0020157	rdfs:label	apolipoprotein E (isoform E3) measurement
+EFO:0021219	rdfs:label	X-11204 measurement
 EFO:0010416	rdfs:label	triacylglycerol 52:4 measurement@en
 EFO:0010612	rdfs:label	kit ligand measurement@en
 EFO:0010587	rdfs:label	interleukin-2 receptor subunit alpha measurement@en
@@ -2057,9 +2700,11 @@ EFO:0006833	rdfs:label	glucose effectiveness measurement
 EFO:0009242	rdfs:label	Myeloid Progenitor Cell Count
 EFO:0020792	rdfs:label	tryptase gamma measurement
 EFO:0600000	rdfs:label	sortilin measurement
+EFO:0021329	rdfs:label	X-12734 measurement
 EFO:0020535	rdfs:label	leukotriene a-4 hydrolase measurement
 EFO:0020549	rdfs:label	macrophage-capping protein measurement
 EFO:0008272	rdfs:label	proto-oncogene tyrosine-protein kinase receptor Ret measurement
+EFO:0021717	rdfs:label	3-Indolepropionic acid to 5-oxoproline ratio
 EFO:0008017	rdfs:label	alcohol dehydrogenase [NADP+] measurement
 EFO:0008213	rdfs:label	low molecular weight phosphotyrosine protein phosphatase measurement
 EFO:0020818	rdfs:label	tyrosine-protein kinase ABL1 measurement
@@ -2068,119 +2713,162 @@ EFO:0009776	rdfs:label	ornithine measurement
 EFO:0020659	rdfs:label	prostaglandin g/h synthase 2 measurement
 EFO:0600008	rdfs:label	mitochondrial heteroplasmy measurement
 EFO:0007753	rdfs:label	seasonal gut microbiome measurement
+EFO:0021761	rdfs:label	3-Indolepropionic acid to beta-Pseudouridine ratio
+EFO:0021302	rdfs:label	X-12329 measurement
 EFO:0004724	rdfs:label	carotid-femoral pulse wave velocity
 EFO:0008376	rdfs:label	mosquito bite measurement
 EFO:0007863	rdfs:label	illness severity status
 EFO:0004780	rdfs:label	DSM-IV-based social scale
+EFO:0021049	rdfs:label	eicosapentaenoate EPA; 20:5n3 measurement
+EFO:0021412	rdfs:label	X-11444-to-X-11470 ratio
 EFO:0010075	rdfs:label	intertrochanteric region size
 EFO:0006826	rdfs:label	trans/trans-18:2 fatty acid measurement
+EFO:0021794	rdfs:label	CFTR mutation carrier status@en
+EFO:0021159	rdfs:label	metoprolol acid metabolite measurement
 EFO:0010358	rdfs:label	lysophosphatidylcholine 16:1 measurement@en
 EFO:0008434	rdfs:label	initial pursuit acceleration
+EFO:0021675	rdfs:label	Uridine 5-monophosphate measurement
 EFO:0020143	rdfs:label	amp kinase (alpha2beta2gamma1) measurement
 EFO:0008092	rdfs:label	complement C4b measurement
+EFO:0021205	rdfs:label	X-08402 measurement
 EFO:0020700	rdfs:label	receptor tyrosine-protein kinase erbb-2 measurement
 EFO:0010993	rdfs:label	n-acetyl neuraminic acid measurement
 EFO:0020465	rdfs:label	immunoglobulin G measurement
 EFO:0020479	rdfs:label	integrin alpha-IIb: beta-3 complex measurement
 EFO:0005002	rdfs:label	lysine measurement
+EFO:0021315	rdfs:label	X-12544 measurement
+EFO:0021002	rdfs:label	N-acetylglycine measurement
 EFO:0007002	rdfs:label	luteinizing hormone measurement
+EFO:0021823	rdfs:label	right atrial minimum area measurement@en
 EFO:0005108	rdfs:label	arm span
 EFO:0020980	rdfs:label	radiation exposure@en
 EFO:0020560	rdfs:label	matrix metalloproteinase-17 measurement
 EFO:0010408	rdfs:label	triacylglycerol 50:1 measurement@en
 EFO:0004620	rdfs:label	vitamin B12 measurement
 EFO:0008196	rdfs:label	kallistatin measurement
+EFO:0021112	rdfs:label	valerate measurement
 EFO:0020327	rdfs:label	discoidin domain-containing receptor 2 measurement
 EFO:0020498	rdfs:label	interleukin-22 measurement
+EFO:0021578	rdfs:label	Caffeic acid measurement
 EFO:0008337	rdfs:label	psychosis predisposition measurement
 EFO:0009458	rdfs:label	alcohol use disorder measurement
 EFO:0010462	rdfs:label	aspartate measurement@en
 EFO:0007941	rdfs:label	LDH-related sciatica symptom severity measurement
 EFO:0010240	rdfs:label	dehydroepiandrosterone measurement@en
 EFO:0008009	rdfs:label	1,5 anhydroglucitol measurement
+EFO:0021480	rdfs:label	triacylglycerol 50:0 measurement
 EFO:0009946	rdfs:label	low density lipoprotein triglyceride measurement
+EFO:0021536	rdfs:label	irritable bowel syndrome symptom measurement@en
+EFO:0021780	rdfs:label	age at initiation of hormone replacement therapy@en
 EFO:0009221	rdfs:label	Hemoglobin Lepore to Total Hemoglobin Ratio Measurement
 EFO:0020756	rdfs:label	stromal cell-derived factor 1 measurement
 EFO:0010556	rdfs:label	Left ventricular mass to end-diastolic volume ratio@en
 EFO:0007759	rdfs:label	alpha-linolenic acid measurement
 EFO:0009270	rdfs:label	heel bone mineral density
+EFO:0021064	rdfs:label	dihomo-linoleate 20:2n6 measurement
+EFO:0021590	rdfs:label	D-Sorbitol measurement
 EFO:0010344	rdfs:label	cholesteryl ester 18:1 measurement@en
 EFO:0005091	rdfs:label	monocyte count
+EFO:0021308	rdfs:label	X12442--5,8-tetradecadienoate measurement
 EFO:0020236	rdfs:label	casein kinase II 2-alpha:2-beta heterotetramer measurement
 EFO:0007855	rdfs:label	facial width measurement
 EFO:0020045	rdfs:label	prostaglandins measurement
 EFO:0007869	rdfs:label	wellbeing measurement
 EFO:0020866	rdfs:label	high density lipoprotein particle size change measurement
+EFO:0021418	rdfs:label	4-acetamidobutanoate-to-N1-methyladenosine ratio
 EFO:0020609	rdfs:label	NKG2-D ligand 1 measurement
 EFO:0004327	rdfs:label	electrocardiography
 EFO:0020394	rdfs:label	follistatin-related protein 3 measurement
 EFO:0020190	rdfs:label	bone sialoprotein 2 measurement
 EFO:0008157	rdfs:label	inorganic pyrophosphatase measurement
 EFO:0001444	rdfs:label	measurement
+EFO:0021230	rdfs:label	X-11422--xanthine measurement
 EFO:0008361	rdfs:label	environmental tobacco smoke exposure measurement
+EFO:0021168	rdfs:label	saccharin measurement
 EFO:0010514	rdfs:label	organic anion measurement@en
+EFO:0021725	rdfs:label	3-Indolepropionic acid to 4-Guanidinobutyric acid ratio
+EFO:0021694	rdfs:label	L-Histidine to 3-Indolepropionic acid ratio
 EFO:0009339	rdfs:label	Herpes simplex virus 2 seropositivity
 EFO:0008098	rdfs:label	complement factor H-related protein 5 measurement
 EFO:0006507	rdfs:label	nicotine glucuronidation measurement
 EFO:0020198	rdfs:label	C-C motif chemokine 27 measurement
 EFO:0009283	rdfs:label	potassium measurement
+EFO:0021529	rdfs:label	blood rubidium measurement@en
 EFO:0008115	rdfs:label	ectonucleoside triphosphate diphosphohydrolase 5 measurement
 EFO:0009939	rdfs:label	Antimigraine preparation use measurement
+EFO:0021829	rdfs:label	1-methylnicotinamide measurement@en
 EFO:0020576	rdfs:label	mitogen-activated protein kinase 12 measurement
 EFO:0004612	rdfs:label	high density lipoprotein cholesterol measurement
 EFO:0020319	rdfs:label	desert hedgehog protein n-product measurement
+EFO:0021639	rdfs:label	LysoPC 16:0 measurement
 EFO:0005689	rdfs:label	non-high density lipoprotein cholesterol measurement
 EFO:0008056	rdfs:label	C-X-C motif chemokine 10 measurement
 EFO:0020859	rdfs:label	lipid change measurement
 EFO:0020686	rdfs:label	protein rev_hv2be measurement
-EFO:0010471	rdfs:label	chenodeoxycholate measurement@en
 EFO:0020429	rdfs:label	growth/differentiation factor 5 measurement
+EFO:0010471	rdfs:label	chenodeoxycholate measurement@en
+EFO:0021223	rdfs:label	X-11315 measurement
+EFO:0021050	rdfs:label	linolenate [alpha or gamma; 18:3n3 or 6] measurement
 EFO:0020151	rdfs:label	annexin A6 measurement
 EFO:0007996	rdfs:label	eosinophil percentage of granulocytes
 EFO:0020483	rdfs:label	interferon alpha-2 measurement
 EFO:0007784	rdfs:label	functional decline measurement
+EFO:0021333	rdfs:label	X-12776 measurement
 EFO:0010109	rdfs:label	CD56-positive NK-lymphocyte cell count
+EFO:0021486	rdfs:label	ubiquinone measurement
 EFO:0010617	rdfs:label	tumor necrosis factor ligand superfamily member 11 measurement@en
 EFO:0008210	rdfs:label	low affinity immunoglobulin epsilon Fc receptor measurement
 EFO:0009262	rdfs:label	nicotine dependence symptom count
 EFO:0004808	rdfs:label	L lactate dehydrogenase measurement
+EFO:0021711	rdfs:label	3-Indolepropionic acid to D-2-Aminobutyric acid ratio
 EFO:0000391	rdfs:label	damage intensity
-EFO:0007905	rdfs:label	joint hypermobility measurement
 EFO:0020276	rdfs:label	complement C3B, inactivated measurement
+EFO:0007905	rdfs:label	joint hypermobility measurement
 EFO:0010385	rdfs:label	phosphatidylcholine 38:3 measurement@en
+EFO:0021349	rdfs:label	X-13431--nonanoylcarnitine measurement
+EFO:0021596	rdfs:label	Dulcitol measurement
 EFO:0010399	rdfs:label	triacylglycerol 44:1 measurement@en
 EFO:0004918	rdfs:label	age at diagnosis
 EFO:0006935	rdfs:label	thalamus volume
 EFO:0020741	rdfs:label	SLAM family member 5 measurement
 EFO:0004972	rdfs:label	somatic genotype
+EFO:0021515	rdfs:label	androsterone sulfate-to-epiandrosterone sulfate ratio@en
 EFO:0020679	rdfs:label	protein kinase c delta type measurement
 EFO:0010777	rdfs:label	CXCL1 measurement
 EFO:0007709	rdfs:label	p-tau:beta-amyloid 1-42 ratio measurement
 EFO:0008370	rdfs:label	infant white matter volume measurement
+EFO:0021043	rdfs:label	oleoylcarnitine measurement
 EFO:0004312	rdfs:label	vital capacity
 EFO:0020019	rdfs:label	isovalerylcarnitine measurement@en
 EFO:0004820	rdfs:label	sex ratio
 EFO:0007819	rdfs:label	advanced glycation end-product measurement
+EFO:0021625	rdfs:label	L-Phenylalanine measurement
 EFO:0010574	rdfs:label	epithelial cell adhesion molecule measurement@en
 EFO:0010449	rdfs:label	3-methyladipic acid measurement@en
 EFO:0008042	rdfs:label	C-C motif chemokine 14 measurement
+EFO:0021153	rdfs:label	2-hydroxyacetaminophen sulfate measurement
 EFO:0008378	rdfs:label	mosquito bite reaction size measurement
 EFO:0009102	rdfs:label	number of children ever born measurement
 EFO:0020129	rdfs:label	adenylate kinase isoenzyme 1 measurement
 EFO:0004557	rdfs:label	population measurement
 EFO:0006331	rdfs:label	selenium measurement
 EFO:0009096	rdfs:label	negative domain measurement
+EFO:0021704	rdfs:label	3-Indolepropionic acid to Uric acid ratio
 EFO:0020632	rdfs:label	persephin measurement
 EFO:0010603	rdfs:label	cancer antigen 125 measurement@en
 EFO:0010998	rdfs:label	p-cresol sulfate measurement
+EFO:0021814	rdfs:label	right ventricular diastolic volume measurement@en
 EFO:0020304	rdfs:label	cytokine receptor common subunit gamma measurement
+EFO:0021264	rdfs:label	X-11818 measurement
 EFO:0010402	rdfs:label	triacylglycerol 46:2 measurement@en
 EFO:0008190	rdfs:label	interleukin 7 receptor subunit alpha measurement
 EFO:0009435	rdfs:label	arthritis disease activity score measurement
+EFO:0021582	rdfs:label	D-Arabinose measurement
 EFO:0004833	rdfs:label	neutrophil count
 EFO:0020492	rdfs:label	interleukin-12 receptor subunit beta-2 measurement
 EFO:0005420	rdfs:label	grey matter volume measurement
 EFO:0007057	rdfs:label	miotic rate
+EFO:0021374	rdfs:label	X-14626 measurement
 EFO:0007896	rdfs:label	zeaxanthin measurement
 EFO:0008473	rdfs:label	insulin response measurement
 EFO:0004640	rdfs:label	haptoglobin measurement
@@ -2189,32 +2877,46 @@ EFO:0007639	rdfs:label	minimal erythema dose
 EFO:0006921	rdfs:label	birth measurement
 EFO:0009721	rdfs:label	mother's age at death
 EFO:0004750	rdfs:label	interleukin 10 measurement
+EFO:0021752	rdfs:label	3-Indolepropionic acid to Azelaic acid ratio
 EFO:0008145	rdfs:label	granzyme A measurement
+EFO:0021766	rdfs:label	3-Indolepropionic acid to Lauric acid ratio
 EFO:0008467	rdfs:label	behavioural inhibitory control measurement
+EFO:0021540	rdfs:label	X-11255 measurement@en
 EFO:0020750	rdfs:label	sphingosine kinase 1 measurement
 EFO:0008406	rdfs:label	susceptibility to plantar warts measurement
 EFO:0020044	rdfs:label	ecosanoids measurement
 EFO:0020240	rdfs:label	caspase-2 measurement
 EFO:0010370	rdfs:label	lysophosphatidylethanolamine 20:4 measurement@en
 EFO:0006309	rdfs:label	plasma plasminogen measurement
+EFO:0021277	rdfs:label	X-12013 measurement
+EFO:0021084	rdfs:label	1-linoleoylglycerophosphoethanolamine measurement
 EFO:0020860	rdfs:label	soluble CD14 measurement@en
 EFO:0004812	rdfs:label	interleukin-1 beta measurement
 EFO:0009593	rdfs:label	mood change measurement
 EFO:0007933	rdfs:label	radius bone mineral density
+EFO:0021194	rdfs:label	X-04500 measurement
 EFO:0020410	rdfs:label	glutathione s-transferase p measurement
 EFO:0010505	rdfs:label	isocitrate measurement@en
 EFO:0008097	rdfs:label	complement factor H measurement
 EFO:0020705	rdfs:label	reticulon-4 receptor measurement
 EFO:0007882	rdfs:label	microbiome measurement
+EFO:0021250	rdfs:label	X-11537 measurement
 EFO:0010273	rdfs:label	thoracic aortic calcification measurement@en
 EFO:0010781	rdfs:label	delta/notch like EGF Repeat Containing protein measurement
+EFO:0021745	rdfs:label	L-Pyroglutamic acid to 3-Indolepropionic acid ratio
 EFO:0020192	rdfs:label	brain-specific serine protease 4 measurement
+EFO:0021007	rdfs:label	3-3-hydroxyphenylpropionate measurement
 EFO:0010795	rdfs:label	sirtuin-2 measurement
+EFO:0021360	rdfs:label	X-13859 measurement
 EFO:0020968	rdfs:label	total stigmasterol measurement@en
+EFO:0021103	rdfs:label	caprylate 8:0 measurement
 EFO:0008106	rdfs:label	cystatin-SN measurement
 EFO:0010609	rdfs:label	mucin‐16 measurement@en
+EFO:0021117	rdfs:label	androsterone sulfate measurement
+EFO:0021097	rdfs:label	2-palmitoylglycerophosphocholine measurement
 EFO:0020313	rdfs:label	d-dimer measurement
 EFO:0010467	rdfs:label	carboxylic acid anion measurement@en
+EFO:0021633	rdfs:label	L-Tryptophan measurement
 EFO:0004874	rdfs:label	memory performance
 EFO:0007946	rdfs:label	tiredness measurement
 EFO:0010231	rdfs:label	sterol measurement@en
@@ -2223,6 +2925,7 @@ EFO:0006874	rdfs:label	antisaccade response measurement
 EFO:0010983	rdfs:label	3-hydroxyisobutyrate measurement
 EFO:0020423	rdfs:label	group 10 secretory phospholipase A2 measurement
 EFO:0020525	rdfs:label	lactoperoxidase measurement
+EFO:0021758	rdfs:label	3-Indolepropionic acid to alpha-Linolenic acid (C18:3n3) ratio
 EFO:0010113	rdfs:label	3-hydroxybutyric acid measurement
 EFO:0008058	rdfs:label	C-X-C motif chemokine 5 measurement
 EFO:0007800	rdfs:label	body fat percentage
@@ -2230,12 +2933,15 @@ EFO:0020227	rdfs:label	carbonic anhydrase 1 measurement
 EFO:0010611	rdfs:label	cathepsin D measurement@en
 EFO:0010906	rdfs:label	merkel cell virus seropositivity@en
 EFO:0010420	rdfs:label	triacylglycerol 54:2 measurement@en
+EFO:0021353	rdfs:label	X-13548 measurement
+EFO:0021409	rdfs:label	urate-to-histidine ratio
 EFO:0008224	rdfs:label	mannose-binding protein C measurement
 EFO:0008212	rdfs:label	low affinity immunoglobulin gamma Fc region receptor III-B measurement
 EFO:0004867	rdfs:label	vitamin E measurement
 EFO:0004694	rdfs:label	factor XI measurement
 EFO:0007939	rdfs:label	respiratory symptom measurement
 EFO:0010224	rdfs:label	lysophosphatidylcholine measurement@en
+EFO:0021770	rdfs:label	3-Indolepropionic acid to Urocanic acid (RG) ratio
 EFO:0020954	rdfs:label	pigement epithleium-derived factor (PEDF) measurement@en
 EFO:0020673	rdfs:label	protein fam107a measurement
 EFO:0006867	rdfs:label	skin conductance level
@@ -2243,17 +2949,24 @@ EFO:0008089	rdfs:label	complement C1q subcomponent measurement
 EFO:0009211	rdfs:label	Hemoglobin A2 Prime to Total Hemoglobin Ratio Measurement
 EFO:0007703	rdfs:label	hystidil-tRNA synthetase autoantibody measurement
 EFO:0006796	rdfs:label	very long-chain saturated fatty acid measurement
+EFO:0021256	rdfs:label	X-11593--O-methylascorbate measurement
 EFO:0007813	rdfs:label	cotinine measurement
 EFO:0020184	rdfs:label	bone morphogenetic protein 1 measurement
 EFO:0020345	rdfs:label	elongation factor 1-beta measurement
+EFO:0021119	rdfs:label	dehydroisoandrosterone sulfate DHEA-S measurement
+EFO:0021048	rdfs:label	docosapentaenoate n3 DPA; 22:5n3 measurement
 EFO:0005412	rdfs:label	functional impairment measurement
 EFO:0009219	rdfs:label	Hemoglobin F to Total Hemoglobin Ratio Measurement
 EFO:0007620	rdfs:label	volumetric bone mineral density
 EFO:0004513	rdfs:label	bone geometry
 EFO:0009925	rdfs:label	Antithrombotic agent use measurement
+EFO:0021366	rdfs:label	X-14208--phenylalanylserine measurement
 EFO:0020977	rdfs:label	occupational attainment@en
+EFO:0021214	rdfs:label	X-10429 measurement
+EFO:0021458	rdfs:label	lysophosphatidylcholine 20:2 measurement
 EFO:0020845	rdfs:label	vacuolar protein sorting-associated protein VTA1 homolog measurement
 EFO:0007987	rdfs:label	granulocyte count
+EFO:0021709	rdfs:label	L-Serine to 3-Indolepropionic acid ratio
 EFO:0020894	rdfs:label	creatinine change measurement
 EFO:0008539	rdfs:label	vitamin D dietary intake measurement
 EFO:0008313	rdfs:label	UMP-CMP kinase measurement
@@ -2261,12 +2974,17 @@ EFO:0010989	rdfs:label	acetone measurement
 EFO:0020488	rdfs:label	interleukin-10 measurement
 EFO:0020248	rdfs:label	CD5 antigen-like measurement
 EFO:0008327	rdfs:label	alpha-1-antitrypsin measurement
+EFO:0021477	rdfs:label	phosphatidylcholine 40:7 measurement
+EFO:0021819	rdfs:label	right ventricular systolic volume to left ventricular systolic volume ratio@en
 EFO:0010154	rdfs:label	platinum measurement
 EFO:0010422	rdfs:label	triacylglycerol 54:4 measurement@en
+EFO:0021612	rdfs:label	L-Carnitine measurement
+EFO:0021587	rdfs:label	D-Lactic acid measurement
 EFO:0007806	rdfs:label	total cholesterol change measurement
 EFO:0010436	rdfs:label	triacylglycerol 56:9 measurement@en
 EFO:0020102	rdfs:label	circulating alpha-Klotho measurement@en
 EFO:0020331	rdfs:label	DNA topoisomerase 1 measurement
+EFO:0021186	rdfs:label	X-03056--N-[3- 2-Oxopyrrolidin-1-yl propyl]acetamide measurement
 EFO:0020402	rdfs:label	gelsolin measurement
 EFO:0010532	rdfs:label	salicylurate measurement@en
 EFO:0007760	rdfs:label	eicosapentaenoic acid measurement
@@ -2275,9 +2993,13 @@ EFO:0020260	rdfs:label	ciliary neurotrophic factor measurement
 EFO:0020212	rdfs:label	cadherin-2 measurement
 EFO:0010815	rdfs:label	remnant cholesterol measurement
 EFO:0006525	rdfs:label	cigarettes per day measurement
+EFO:0021034	rdfs:label	pantothenate measurement
 EFO:0004303	rdfs:label	vital signs
 EFO:0006808	rdfs:label	arachidonic acid measurement
+EFO:0021144	rdfs:label	gamma-glutamyltyrosine measurement
 EFO:0020245	rdfs:label	CD166 antigen measurement
+EFO:0021307	rdfs:label	X-12441--12-hydroxyeicosatetraenoate 12-HETE measurement
+EFO:0021297	rdfs:label	X-12231 measurement
 EFO:0007883	rdfs:label	taxonomic microbiome measurement
 EFO:0020880	rdfs:label	polyunsaturated fatty acid change measurement
 EFO:0020115	rdfs:label	3-hydroxyisobutyrate dehydrogenase, mitochondrial measurement
@@ -2285,6 +3007,7 @@ EFO:0007626	rdfs:label	emphysema imaging measurement
 EFO:0020623	rdfs:label	peptide yy measurement
 EFO:0020637	rdfs:label	phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform measurement
 EFO:0008360	rdfs:label	environmental exposure measurement
+EFO:0021805	rdfs:label	hydroxyvalerylcarnitine measurement@en
 EFO:0009768	rdfs:label	glutamine measurement
 EFO:0010140	rdfs:label	opioid overdose severity measurement
 EFO:0008258	rdfs:label	persulfide dioxygenase ETHE1, mitochondrial measurement
@@ -2292,17 +3015,19 @@ EFO:0009864	rdfs:label	metabolic network measurement
 EFO:0020962	rdfs:label	total campesterol measurement@en
 EFO:0020148	rdfs:label	angiopoietin-related protein 3 measurement
 EFO:0020309	rdfs:label	cytoskeleton-associated protein 2 measurement
-EFO:0007841	rdfs:label	facial morphology measurement
 EFO:0007048	rdfs:label	human herpesvirus 6 seropositivity
 EFO:0008368	rdfs:label	infant grey matter volume measurement
 EFO:0008464	rdfs:label	glucose-dependent insulinotropic peptide measurement
 EFO:0010461	rdfs:label	argininosuccinate measurement@en
+EFO:0021137	rdfs:label	gamma-glutamylglutamate measurement
 EFO:0000388	rdfs:label	electrical current
+EFO:0021653	rdfs:label	N-acetyl-l-leucine measurement
 EFO:0020580	rdfs:label	mitogen-activated protein kinase 8 measurement
 EFO:0007698	rdfs:label	GBA carrier status
 EFO:0020809	rdfs:label	tumor necrosis factor receptor superfamily member 1Ameasurement
 EFO:0007966	rdfs:label	clopidogrel metabolite measurement
 EFO:0008070	rdfs:label	caspase-3 measurement
+EFO:0021462	rdfs:label	lysophosphatidylcholine 22:5 measurement
 EFO:0020738	rdfs:label	shc-transforming protein 1 measurement
 EFO:0020690	rdfs:label	protein-glutamine gamma-glutamyltransferase e measurement
 EFO:0008131	rdfs:label	fibronectin fragment 3 measurement
@@ -2315,11 +3040,15 @@ EFO:0009588	rdfs:label	"feeling \fed-up\"" measurement"""
 EFO:0010375	rdfs:label	phosphatidylcholine 34:1 measurement@en
 EFO:0010118	rdfs:label	sphingomyelin measurement
 EFO:0004309	rdfs:label	platelet count
+EFO:0021403	rdfs:label	carnitine-to-X-12798 ratio
+EFO:0021556	rdfs:label	3-(3-hydroxyphenyl) propionate acid measurement
 EFO:0010926	rdfs:label	proteinase-activated receptor 1 measurement
 EFO:0010440	rdfs:label	triacylglycerol 58:6 measurement@en
 EFO:0007651	rdfs:label	urinary S-phenylmercapturic acid measurement
 EFO:0004861	rdfs:label	phosphorus measurement
 EFO:0008425	rdfs:label	IgG galactosylation measurement
+EFO:0021666	rdfs:label	S-(5-Adenosy)-L-homocysteine measurement
+EFO:0021228	rdfs:label	X-11381 measurement
 EFO:0008083	rdfs:label	chemokine (C-X-C motif) ligand 1 measurement
 EFO:0020886	rdfs:label	histidine change measurement
 EFO:0020629	rdfs:label	peroxiredoxin-1 measurement
@@ -2338,35 +3067,48 @@ EFO:0010090	rdfs:label	sweet beverage consumption measurement
 EFO:0010746	rdfs:label	Inhibin B measurement@en
 EFO:0008543	rdfs:label	c3d:C3 ratio
 EFO:0020133	rdfs:label	aggrecan core protein measurement
+EFO:0021703	rdfs:label	3-Indolepropionic acid to Trimethylamine N-oxide ratio
 EFO:0006906	rdfs:label	virologic response measurement
 EFO:0004747	rdfs:label	protein measurement
 EFO:0010104	rdfs:label	health literacy measurement
+EFO:0021659	rdfs:label	Palmitaldehyde measurement
 EFO:0008076	rdfs:label	CD109 antigen measurement
+EFO:0021471	rdfs:label	phosphatidylcholine 34:5 measurement
 EFO:0020511	rdfs:label	junctional adhesion molecule-like measurement
 EFO:0005111	rdfs:label	folic acid measurement
 EFO:0009244	rdfs:label	Neutrophilic Metamyelocyte Count
 EFO:0020449	rdfs:label	high mobility group protein B1 measurement
 EFO:0010367	rdfs:label	lysophosphatidylethanolamine 18:0 measurement@en
 EFO:0008186	rdfs:label	interleukin 5 receptor subunit alpha measurement
+EFO:0021581	rdfs:label	D-2-Aminobutyric acid measurement
 EFO:0005127	rdfs:label	cancer biomarker measurement
 EFO:0008457	rdfs:label	cannabis dependence measurement
 EFO:0008242	rdfs:label	NADPH--cytochrome P450 reductase measurement
+EFO:0021617	rdfs:label	L-Glutamine measurement
 EFO:0008352	rdfs:label	C9orf72 mutation status
 EFO:0020407	rdfs:label	glucose-6-phosphate isomerase measurement
+EFO:0021025	rdfs:label	erythronate measurement
 EFO:0007974	rdfs:label	vaccenic acid measurement
 EFO:0004802	rdfs:label	family size
 EFO:0020461	rdfs:label	iduronate 2-sulfatase measurement
 EFO:0008300	rdfs:label	TNF-related apoptosis-inducing ligand measurement
+EFO:0021311	rdfs:label	X-12456 measurement
 EFO:0020189	rdfs:label	bone morphogenetic protein receptor type-2 measurement
 EFO:0020746	rdfs:label	sonic hedgehog protein measurement
 EFO:0006782	rdfs:label	cups of coffee per day measurement
+EFO:0021291	rdfs:label	X-12189 measurement
 EFO:0008410	rdfs:label	susceptibility to pneumonia measurement
+EFO:0021574	rdfs:label	Adenosine 5'-monophosphate measurement
+EFO:0021449	rdfs:label	cholesteryl ester 24:6 measurement
 EFO:0007010	rdfs:label	drug use measurement
 EFO:0007888	rdfs:label	age at voice drop
 EFO:0008062	rdfs:label	calcium/calmodulin-dependent protein kinase type 1 measurement
+EFO:0021437	rdfs:label	cholesteryl ester 17:1 measurement
 EFO:0020364	rdfs:label	erythropoietin receptor measurement
+EFO:0021684	rdfs:label	3-Indolepropionic acid to Adenine ratio
 EFO:0004950	rdfs:label	date of birth
 EFO:0007793	rdfs:label	BMI-adjusted leptin measurement
+EFO:0021246	rdfs:label	X-11497 measurement
 EFO:0008172	rdfs:label	interleukin 15 receptor subunit alpha measurement
 EFO:0003926	rdfs:label	neuropsychological test
 EFO:0010049	rdfs:label	asthma symptoms measurement
@@ -2380,8 +3122,10 @@ EFO:0009358	rdfs:label	Anti-hepatitis B virus surface antigen IgG measurement
 EFO:0600067	rdfs:label	mastiha supplement exposure measurement
 EFO:0600092	rdfs:label	complement factor H-like 1 protein measurement
 EFO:0004622	rdfs:label	sphingolipid measurement
+EFO:0021603	rdfs:label	Hydrocinnamic acid measurement
 EFO:0010427	rdfs:label	triacylglycerol 54:9 measurement@en
 EFO:0008020	rdfs:label	alpha-2-HS-glycoprotein measurement
+EFO:0021131	rdfs:label	phenylalanylphenylalanine measurement
 EFO:0020566	rdfs:label	metalloproteinase inhibitor 1 measurement
 EFO:0010481	rdfs:label	galactose measurement@en
 EFO:0010537	rdfs:label	taurochenodeoxycholate measurement@en
@@ -2390,6 +3134,7 @@ EFO:0007960	rdfs:label	organochlorine pesticide measurement
 EFO:0008487	rdfs:label	lateral ventricle volume measurement
 EFO:0008466	rdfs:label	matrix metalloproteinase 8 measurement
 EFO:0020217	rdfs:label	calcium/calmodulin-dependent protein kinase kinase 1 measurement
+EFO:0021394	rdfs:label	ADSGEGDFXAEGGGVR-to-ADpSGEGDFXAEGGGVR ratio
 EFO:0010591	rdfs:label	matrix metalloproteinase 7 measurement@en
 EFO:0008028	rdfs:label	apolipoprotein E isoform E2 measurement
 EFO:0020905	rdfs:label	free cholesterol change measurement
@@ -2399,21 +3144,29 @@ EFO:0005112	rdfs:label	gestational age
 EFO:0004574	rdfs:label	total cholesterol measurement
 EFO:0008138	rdfs:label	GDNF family receptor alpha-2 measurement
 EFO:0004770	rdfs:label	ovarian reserve
+EFO:0021772	rdfs:label	3-Indolepropionic acid to Maltose ratio
+EFO:0021066	rdfs:label	margarate 17:0 measurement
 EFO:0009726	rdfs:label	financial situation satisfaction measurement
+EFO:0021560	rdfs:label	3-Indolepropionic acid measurement
 EFO:0005197	rdfs:label	beta-2 microglobulin measurement
 EFO:0007915	rdfs:label	agreeableness measurement
+EFO:0020995	rdfs:label	squamous cell carcinoma antigen measurement@en
 EFO:0006843	rdfs:label	infectious disease biomarker
 EFO:0007874	rdfs:label	gut microbiome measurement
 EFO:0020064	rdfs:label	diacylglycerol 36:5 measurement
 EFO:0600010	rdfs:label	emodin glucuronidation measurement
+EFO:0021670	rdfs:label	Taurochenodesoxycholic acid measurement
 EFO:0020396	rdfs:label	g2/mitotic-specific cyclin-B1 measurement
 EFO:0010494	rdfs:label	guanosine diphosphate measurement@en
+EFO:0021232	rdfs:label	X-11437 measurement
 EFO:0020160	rdfs:label	arginase-1 measurement
+EFO:0021730	rdfs:label	L-Cystine to 3-Indolepropionic acid ratio
 EFO:0020174	rdfs:label	baculoviral IAP repeat-containing protein 5 measurement
 EFO:0020682	rdfs:label	protein kinase c theta type measurement
 EFO:0020953	rdfs:label	omentin measurement@en
 EFO:0009882	rdfs:label	urinary potassium to creatinine ratio
 EFO:0600018	rdfs:label	trabecular bone score
+EFO:0021840	rdfs:label	glycerol-1-myristate measurement@en
 EFO:0020725	rdfs:label	serine/threonine-protein kinase CHK11 measurement
 EFO:0020552	rdfs:label	mammaglobin-b measurement
 EFO:0009285	rdfs:label	fractional shortening
@@ -2422,11 +3175,18 @@ EFO:0020821	rdfs:label	tyrosine-protein kinase FER measurement
 EFO:0011004	rdfs:label	trimethylamine oxide measurement
 EFO:0020299	rdfs:label	cystatin-M measurement
 EFO:0020835	rdfs:label	tyrosine-protein phosphatase non-receptor type 11 measurement
+EFO:0021380	rdfs:label	X-18601 measurement
 EFO:0004631	rdfs:label	vitamin D measurement
+EFO:0021609	rdfs:label	L-3-Phenyllactic acid measurement
+EFO:0021123	rdfs:label	7-methylguanine measurement
 EFO:0020585	rdfs:label	myeloblastin measurement
+EFO:0021658	rdfs:label	p-Hydroxyphenyl acetic acid measurement
 EFO:0005513	rdfs:label	progesterone receptor status
+EFO:0021172	rdfs:label	1,3,7-trimethylurate measurement
+EFO:0021467	rdfs:label	phosphatidylcholine 31:0 measurement
 EFO:0004914	rdfs:label	facial neural processing
 EFO:0010487	rdfs:label	glutamate measurement@en
+EFO:0021215	rdfs:label	X-10500 measurement
 EFO:0020257	rdfs:label	chordin-like protein 1 measurement
 EFO:0020209	rdfs:label	cadherin-1 measurement
 EFO:0010412	rdfs:label	triacylglycerol 50:5 measurement@en
@@ -2436,19 +3196,28 @@ EFO:0020946	rdfs:label	phospholipids:total lipids ratio@en
 EFO:0020773	rdfs:label	thymidine kinase, cytosolic measurement
 EFO:0009176	rdfs:label	adrenal suppression measurement
 EFO:0010361	rdfs:label	lysophosphatidylcholine 18:2 measurement@en
+EFO:0021325	rdfs:label	X-12719 measurement
 EFO:0020787	rdfs:label	tropomyosin beta chain measurement
+EFO:0021833	rdfs:label	hypotaurine measurement@en
+EFO:0021075	rdfs:label	stearidonate 18:4n3 measurement
 EFO:0004344	rdfs:label	birth weight
 EFO:0010912	rdfs:label	endothelial cell-specific molecule 1 measurement
 EFO:0009246	rdfs:label	Neutrophils Band Form to Neutrophils Ratio Measurement
 EFO:0005661	rdfs:label	Child Behaviour Checklist assessment
 EFO:0020655	rdfs:label	prokineticin-1 measurement
+EFO:0021358	rdfs:label	X-13671 measurement
+EFO:0021185	rdfs:label	X-03003 measurement
+EFO:0021429	rdfs:label	N-acetylarginine measurement@en
 EFO:0009134	rdfs:label	trimethyllysine measurement
 EFO:0020166	rdfs:label	ATP synthase subunit beta, mitochondrial measurement
+EFO:0021287	rdfs:label	X-12095--N1-methyl-3-pyridone-4-carboxamide measurement
 EFO:0020503	rdfs:label	interleukin-3 measurement
+EFO:0021736	rdfs:label	3-Indolepropionic acid to LysoPC 20:1 ratio
 EFO:0007602	rdfs:label	total ventricular volume measurement
 EFO:0020959	rdfs:label	free brassicasterol measurement@en
 EFO:0010071	rdfs:label	cardiac troponin I measurement
 EFO:0000633	rdfs:label	operator variation
+EFO:0021790	rdfs:label	subcortical volume measurement@en
 EFO:0020014	rdfs:label	1-(1-enyl-stearoyl)-2-linoleoyl-GPE (P-18:0/18:2)* measurement@en
 EFO:0020766	rdfs:label	testican-2 measurement
 EFO:0010354	rdfs:label	diacylglycerol 36:1 measurement@en
@@ -2457,35 +3226,46 @@ EFO:0011045	rdfs:label	fetal weight
 EFO:0008534	rdfs:label	tryptophan measurement
 EFO:0009341	rdfs:label	Helicobacter pylori seropositivity
 EFO:0020124	rdfs:label	a disintegrin and metalloproteinase with thrombospondin motifs 4 measurement
+EFO:0021441	rdfs:label	cholesteryl ester 22:0 measurement
 EFO:0020876	rdfs:label	docosahexaenoic acid change measurement
 EFO:0007038	rdfs:label	Influenza A seropositivity
 EFO:0007762	rdfs:label	gamma-linolenic acid measurement
 EFO:0020932	rdfs:label	galectin-1 measurement@en
+EFO:0021240	rdfs:label	X-11469 measurement
 EFO:0008067	rdfs:label	carbonic anhydrase 13 measurement
+EFO:0021178	rdfs:label	paraxanthine measurement
 EFO:0020516	rdfs:label	kallikrein-8 measurement
 EFO:0004955	rdfs:label	Breslow thickness
-EFO:0020570	rdfs:label	microtubule-associated protein tau measurement
 EFO:0008177	rdfs:label	interleukin 17 receptor D measurement
-EFO:0020494	rdfs:label	interleukin-17 receptor c measurement
+EFO:0020570	rdfs:label	microtubule-associated protein tau measurement
 EFO:0006517	rdfs:label	interferon alpha measurement
 EFO:0020323	rdfs:label	diablo homolog, mitochondrial measurement
+EFO:0020494	rdfs:label	interleukin-17 receptor c measurement
 EFO:0010418	rdfs:label	triacylglycerol 52:6 measurement@en
 EFO:0008011	rdfs:label	a disintegrin and metalloproteinase with thrombospondin motifs 13
 EFO:0007795	rdfs:label	anxiety disorder measurement
+EFO:0021344	rdfs:label	X-12990--docosapentaenoic acid n6-DPA measurement
 EFO:0020433	rdfs:label	heat shock 70 kda protein 1a/1b measurement
 EFO:0007658	rdfs:label	carrier status
+EFO:0021839	rdfs:label	cinnamaldehyde measurement@en
 EFO:0020586	rdfs:label	n-acetylglucosamine-6-sulfatase measurement
 EFO:0009307	rdfs:label	glycated albumin measurement
 EFO:0008019	rdfs:label	alpha-1-antichymotrypsin measurement
+EFO:0021016	rdfs:label	indolepropionate measurement
 EFO:0005043	rdfs:label	cardiac troponin T measurement
+EFO:0021768	rdfs:label	N-acetyl-l-leucine to 3-Indolepropionic acid ratio
 EFO:0020696	rdfs:label	r-spondin-2 measurement
 EFO:0010967	rdfs:label	urinary microalbumin measurement@en
 EFO:0009942	rdfs:label	Glucocorticoid use measurement
+EFO:0021532	rdfs:label	blood titanium measurement@en
+EFO:0600059	rdfs:label	ABO blood group
 EFO:0005936	rdfs:label	underweight body mass index status
 EFO:0008305	rdfs:label	trypsin-2 measurement
+EFO:0021546	rdfs:label	1,4-dihydro-1-Methyl-4-oxo-3-pyridinecarboxamide measurement
 EFO:0006946	rdfs:label	behavioural disinhibition measurement
 EFO:0020752	rdfs:label	stabilin-2 measurement
-EFO:0600059	rdfs:label	ABO blood group
+EFO:0021060	rdfs:label	10-heptadecenoate 17:1n7 measurement
+EFO:0021279	rdfs:label	X-12038 measurement
 EFO:0008401	rdfs:label	susceptibility to shingles measurement
 EFO:0020280	rdfs:label	complement component 1 q subcomponent-binding protein, mitochondrial measurement
 EFO:0020791	rdfs:label	trypsin-3 measurement
@@ -2493,11 +3273,14 @@ EFO:0020509	rdfs:label	junctional adhesion molecule B measurement
 EFO:0011031	rdfs:label	intestinal permeability measurement@en
 EFO:0020336	rdfs:label	dual specificity protein phosphatase 3 measurement
 EFO:0008232	rdfs:label	methionine aminopeptidase 2 measurement
+EFO:0021565	rdfs:label	4-Acetamidobutyric acid measurement
 EFO:0007001	rdfs:label	dehydroepiandrosterone sulphate measurement
 EFO:0020619	rdfs:label	osteomodulin measurement
+EFO:0021164	rdfs:label	homostachydrine measurement
 EFO:0010510	rdfs:label	NG-monomethyl-arginine measurement@en
 EFO:0020599	rdfs:label	neurogenic locus notch homolog protein 2 measurement
 EFO:0005199	rdfs:label	renal transplant outcome measurement
+EFO:0021721	rdfs:label	3-Indolepropionic acid to L-2-Aminobutyric acid ratio
 EFO:0010524	rdfs:label	pimelic acid measurement@en
 EFO:0000513	rdfs:label	genotype
 EFO:0006503	rdfs:label	dense area measurement
@@ -2507,19 +3290,25 @@ EFO:0020194	rdfs:label	brother of CDO measurement
 EFO:0010787	rdfs:label	interleukin-12 subunit B measurement
 EFO:0008380	rdfs:label	perceived unattractiveness to mosquitos measurement
 EFO:0008125	rdfs:label	estrogen receptor measurement
+EFO:0021109	rdfs:label	1-oleoylglycerol 1-monoolein measurement
 EFO:0009713	rdfs:label	number of siblings
 EFO:0009884	rdfs:label	urinary sodium to potassium ratio
+EFO:0021635	rdfs:label	L-Valine measurement
 EFO:0020329	rdfs:label	disintegrin and metalloproteinase domain-containing protein 9 measurement
 EFO:0010459	rdfs:label	aminoadipic acid measurement@en
 EFO:0008052	rdfs:label	C-C motif chemokine 3-like 1 measurement
 EFO:0006876	rdfs:label	seasonality measurement
 EFO:0008388	rdfs:label	gamma wave measurement
+EFO:0021385	rdfs:label	propionylcarnitine-to-isovalerylcarnitine ratio
+EFO:0021399	rdfs:label	X-12095--N1-methyl-3-pyridone-4-carboxamide-to-X-12844 ratio
 EFO:0020203	rdfs:label	C-type lectin domain family 7 memberAmeasurement
 EFO:0004761	rdfs:label	uric acid measurement
 EFO:0005117	rdfs:label	CCL5 measurement
 EFO:0020940	rdfs:label	platelet function test@en
 EFO:0008156	rdfs:label	human Chorionic Gonadotropin measurement
+EFO:0021777	rdfs:label	serine:glycine ratio@en
 EFO:0010613	rdfs:label	tumor necrosis factor ligand superfamily member 14 measurement@en
+EFO:0021538	rdfs:label	N-acetylornithine measurement@en
 EFO:0010908	rdfs:label	Epstein-Barr virus seropositivity@en
 EFO:0020055	rdfs:label	diacylglycerol 32.2 measurement
 EFO:0009272	rdfs:label	Epstein Barr viral capsid antigen seropositivity
@@ -2555,6 +3344,7 @@ EFO:0010241	oboInOwl:hasExactSynonym	tumor-asociated antigen 90K measurement
 EFO:0010241	oboInOwl:hasExactSynonym	mac-2-binding protein measurement
 EFO:0004627	oboInOwl:hasExactSynonym	Insulin-Like Growth Factor 1 levels
 EFO:0004919	oboInOwl:hasExactSynonym	metastasis free survival time
+EFO:0021428	oboInOwl:hasExactSynonym	succinyladenosine measurement
 EFO:0004313	oboInOwl:hasExactSynonym	FEF25-75%
 EFO:0011010	oboInOwl:hasExactSynonym	GDCA-3G
 EFO:0004461	oboInOwl:hasExactSynonym	iron status biomarkers
@@ -2648,8 +3438,8 @@ EFO:0007011	oboInOwl:hasExactSynonym	selective serotonin reuptake inhibitor use 
 EFO:0009245	oboInOwl:hasExactSynonym	Neutrophilic Myelocytes
 EFO:0009245	oboInOwl:hasExactSynonym	NEUTMY
 EFO:0010368	oboInOwl:hasExactSynonym	LPE 18:1
-EFO:0005128	oboInOwl:hasExactSynonym	Albumin/Globulin
 EFO:0005128	oboInOwl:hasExactSynonym	ALBGLOB
+EFO:0005128	oboInOwl:hasExactSynonym	Albumin/Globulin
 EFO:0005128	oboInOwl:hasExactSynonym	Albumin to Globulin Ratio Measurement
 EFO:0005128	oboInOwl:hasExactSynonym	albumin-globulin ratio measurement
 EFO:0009794	oboInOwl:hasExactSynonym	Nuclear factor (erythroid-derived 2)-like 2 measurement
@@ -2662,8 +3452,6 @@ EFO:0009351	oboInOwl:hasExactSynonym	VZV IgG measurement
 EFO:0009359	oboInOwl:hasExactSynonym	HBc IgG measurement
 EFO:0005691	oboInOwl:hasExactSynonym	TMAO measurement
 EFO:0010934	oboInOwl:hasExactSynonym	AST:ALT ratio
-EFO:0004629	oboInOwl:hasExactSynonym	vWF
-EFO:0004629	oboInOwl:hasExactSynonym	von Willebrand factor levels
 EFO:0009312	oboInOwl:hasExactSynonym	PCSK9 measurement
 EFO:0004915	oboInOwl:hasExactSynonym	vaspin levels
 EFO:0004915	oboInOwl:hasExactSynonym	Serpin A12 measurement
@@ -2671,7 +3459,6 @@ EFO:0010598	oboInOwl:hasExactSynonym	PECAM-1
 EFO:0010376	oboInOwl:hasExactSynonym	PC 34:2
 EFO:0008387	oboInOwl:hasExactSynonym	caudate measurement
 EFO:0006340	oboInOwl:hasExactSynonym	MAP
-EFO:0005055	oboInOwl:hasExactSynonym	QRS interval
 EFO:0007777	oboInOwl:hasExactSynonym	basal metabolic rate measurement
 EFO:0007777	oboInOwl:hasExactSynonym	BMR measurement
 EFO:0009177	oboInOwl:hasExactSynonym	myopic macular degeneration severity measurement
@@ -2701,6 +3488,7 @@ EFO:0004819	oboInOwl:hasExactSynonym	resistin level
 EFO:0004819	oboInOwl:hasExactSynonym	resistin levels
 EFO:0010396	oboInOwl:hasExactSynonym	SM 22:1
 EFO:0010788	oboInOwl:hasExactSynonym	LIFR
+EFO:0021636	oboInOwl:hasExactSynonym	Dodecanoic acid measurement
 EFO:0020941	oboInOwl:hasExactSynonym	LysoPC(15:0)
 EFO:0010413	oboInOwl:hasExactSynonym	TAG 52:1
 EFO:0010382	oboInOwl:hasExactSynonym	PC 36:4
@@ -2787,8 +3575,8 @@ EFO:0008390	oboInOwl:hasExactSynonym	ProTime INR measurement
 EFO:0008469	oboInOwl:hasExactSynonym	BNP:NT-proBNP ratio
 EFO:0010372	oboInOwl:hasExactSynonym	PC 32:0
 EFO:0005851	oboInOwl:hasExactSynonym	height-adjusted BMI
-EFO:0010750	oboInOwl:hasExactSynonym	paired helical filament tau measurement
 EFO:0009257	oboInOwl:hasExactSynonym	RMSSD
+EFO:0010750	oboInOwl:hasExactSynonym	paired helical filament tau measurement
 EFO:0004459	oboInOwl:hasExactSynonym	ferritin level
 EFO:0009215	oboInOwl:hasExactSynonym	Hemoglobin C
 EFO:0009215	oboInOwl:hasExactSynonym	Measurement of Hemoglobin C
@@ -2884,7 +3672,6 @@ EFO:0009416	oboInOwl:hasExactSynonym	CC motif chemokine 21 measurement
 EFO:0004999	oboInOwl:hasExactSynonym	N-glycan level
 EFO:0010356	oboInOwl:hasExactSynonym	LPC 14:0
 EFO:0007835	oboInOwl:hasExactSynonym	alcohol misuse measurement
-EFO:0004339	oboInOwl:hasExactSynonym	height
 EFO:0008531	oboInOwl:hasExactSynonym	glucagon-like-peptide-1-stimulated insulin response
 EFO:0004639	oboInOwl:hasExactSynonym	plasma phospholipid levels
 EFO:0007014	oboInOwl:hasExactSynonym	3-HPMA measurement
@@ -2914,6 +3701,8 @@ EFO:0009172	oboInOwl:hasExactSynonym	thyroxine-binding globulin excess
 EFO:0009172	oboInOwl:hasExactSynonym	thyroxine-binding globulin quantitative trait
 EFO:0009172	oboInOwl:hasExactSynonym	thyroxine-binding globulin QTL
 EFO:0009172	oboInOwl:hasExactSynonym	TBGQTL
+EFO:0021779	oboInOwl:hasExactSynonym	age at initiation of medical treatment
+EFO:0021779	oboInOwl:hasExactSynonym	age at first treatment
 EFO:0010397	oboInOwl:hasExactSynonym	SM 24:0
 EFO:0011039	oboInOwl:hasExactSynonym	MPO-DNA complex
 EFO:0010775	oboInOwl:hasExactSynonym	CSF1
@@ -2936,8 +3725,8 @@ EFO:0004541	oboInOwl:hasExactSynonym	HbA1c levels
 EFO:0004541	oboInOwl:hasExactSynonym	glycosylated Haemoglobin A level
 EFO:0004541	oboInOwl:hasExactSynonym	Glycosylated Hemoglobin Measurement
 EFO:0004541	oboInOwl:hasExactSynonym	Glycosylated Hemoglobin
-EFO:0004541	oboInOwl:hasExactSynonym	A1C measurement
 EFO:0004541	oboInOwl:hasExactSynonym	Hemoglobin A1C
+EFO:0004541	oboInOwl:hasExactSynonym	A1C measurement
 EFO:0004541	oboInOwl:hasExactSynonym	HBA1C
 EFO:0008046	oboInOwl:hasExactSynonym	pulmonary and activation-regulated chemokine (PARC) measurement
 EFO:0010793	oboInOwl:hasExactSynonym	PDL1
@@ -2965,6 +3754,9 @@ EFO:0004469	oboInOwl:hasExactSynonym	homeostasis model assessment B cell functio
 EFO:0007591	oboInOwl:hasExactSynonym	bone mineral density change measurement
 EFO:0007591	oboInOwl:hasExactSynonym	bone density increase measurement
 EFO:0007591	oboInOwl:hasExactSynonym	BMA measurement
+EFO:0021783	oboInOwl:hasExactSynonym	age at procedure
+EFO:0021783	oboInOwl:hasExactSynonym	age at medical intervention
+EFO:0021783	oboInOwl:hasExactSynonym	age at intervention
 EFO:0009750	oboInOwl:hasExactSynonym	dissociative symptom measurement
 EFO:0010347	oboInOwl:hasExactSynonym	CE 20:3
 EFO:0008423	oboInOwl:hasExactSynonym	IgG mono-galactosylation measurement
@@ -2995,14 +3787,6 @@ EFO:0007629	oboInOwl:hasExactSynonym	hemoglobin A measurement
 EFO:0007629	oboInOwl:hasExactSynonym	hemoglobin A1 levels
 EFO:0007629	oboInOwl:hasExactSynonym	HbA1 levels
 EFO:0009862	oboInOwl:hasExactSynonym	CTA
-EFO:0003923	oboInOwl:hasExactSynonym	areal bone mineral density
-EFO:0003923	oboInOwl:hasExactSynonym	Bone Densities
-EFO:0003923	oboInOwl:hasExactSynonym	aBMD
-EFO:0003923	oboInOwl:hasExactSynonym	BMD
-EFO:0003923	oboInOwl:hasExactSynonym	Density, Bone Mineral
-EFO:0003923	oboInOwl:hasExactSynonym	Bone Mineral Densities
-EFO:0003923	oboInOwl:hasExactSynonym	Density, Bone
-EFO:0003923	oboInOwl:hasExactSynonym	Bone Mineral Density
 EFO:0004570	oboInOwl:hasExactSynonym	bilirubin levels
 EFO:0010595	oboInOwl:hasExactSynonym	HSP_27
 EFO:0010373	oboInOwl:hasExactSynonym	PC 32:1
@@ -3026,9 +3810,9 @@ EFO:0010812	oboInOwl:hasExactSynonym	TIM-1
 EFO:0010439	oboInOwl:hasExactSynonym	TAG 58:12
 EFO:0006785	oboInOwl:hasExactSynonym	infant length
 EFO:0008530	oboInOwl:hasExactSynonym	KYN:TRP
+EFO:0004502	oboInOwl:hasExactSynonym	adiponectin levels
 EFO:0009208	oboInOwl:hasExactSynonym	Hemoglobin A
 EFO:0009208	oboInOwl:hasExactSynonym	HGBA
-EFO:0004502	oboInOwl:hasExactSynonym	adiponectin levels
 EFO:0004298	oboInOwl:hasExactSynonym	Diagnostic Techniques, Cardiovascular
 EFO:0004298	oboInOwl:hasExactSynonym	cardiovascular diagnostic technique
 EFO:0010785	oboInOwl:hasExactSynonym	FLT3L
@@ -3052,6 +3836,7 @@ EFO:0009417	oboInOwl:hasExactSynonym	CC motif chemokine 23 measurement
 EFO:0009241	oboInOwl:hasExactSynonym	Monocytoid Cells/Leukocytes
 EFO:0009241	oboInOwl:hasExactSynonym	MOCYCELE
 EFO:0010749	oboInOwl:hasExactSynonym	motor control measurement
+EFO:0010410	oboInOwl:hasExactSynonym	TAG 50:3
 EFO:0009179	oboInOwl:hasExactSynonym	ASP2
 EFO:0009179	oboInOwl:hasExactSynonym	aspartyl protease 2
 EFO:0009179	oboInOwl:hasExactSynonym	beta-site amyloid precursor protein cleaving enzyme 1
@@ -3059,7 +3844,6 @@ EFO:0009179	oboInOwl:hasExactSynonym	beta-site APP cleaving enzyme 1
 EFO:0009179	oboInOwl:hasExactSynonym	membrane-associated aspartic protease 2
 EFO:0009179	oboInOwl:hasExactSynonym	BACE1
 EFO:0009179	oboInOwl:hasExactSynonym	memapsin-2
-EFO:0010410	oboInOwl:hasExactSynonym	TAG 50:3
 EFO:0010364	oboInOwl:hasExactSynonym	LPC 20:5
 EFO:0008452	oboInOwl:hasExactSynonym	MAMC
 EFO:0009249	oboInOwl:hasExactSynonym	Precursor Plasma Cells
@@ -3076,6 +3860,7 @@ EFO:0004670	oboInOwl:hasExactSynonym	CSF AB1-42 levels
 EFO:0004670	oboInOwl:hasExactSynonym	CSF Aβ1-42 levels
 EFO:0006515	oboInOwl:hasExactSynonym	ACE measurement
 EFO:0004625	oboInOwl:hasExactSynonym	progranulin levels
+EFO:0021660	oboInOwl:hasExactSynonym	Hexadecanoic acid measurement
 EFO:0005090	oboInOwl:hasExactSynonym	blood basophil count
 EFO:0010900	oboInOwl:hasExactSynonym	JCV
 EFO:0004729	oboInOwl:hasExactSynonym	vitamin levels
@@ -3106,6 +3891,7 @@ EFO:0009220	oboInOwl:hasExactSynonym	HBGCHTHB
 EFO:0010343	oboInOwl:hasExactSynonym	CE 18:0
 EFO:0010392	oboInOwl:hasExactSynonym	SM 16:1
 EFO:0020865	oboInOwl:hasExactSynonym	aortic diagnostic technique
+EFO:0021522	oboInOwl:hasExactSynonym	sodium in urine
 EFO:0009338	oboInOwl:hasExactSynonym	EBV-EA seropositivity
 EFO:0010407	oboInOwl:hasExactSynonym	TAG 48:4
 EFO:0009282	oboInOwl:hasExactSynonym	sodium levels
@@ -3124,6 +3910,7 @@ EFO:0011013	oboInOwl:hasExactSynonym	vaginal flora measurement
 EFO:0004581	oboInOwl:hasExactSynonym	Interleukin-18 levels
 EFO:0004581	oboInOwl:hasExactSynonym	IL-18 levels
 EFO:0004581	oboInOwl:hasExactSynonym	IL-18 measurement
+EFO:0021813	oboInOwl:hasExactSynonym	RIII threshold
 EFO:0010384	oboInOwl:hasExactSynonym	PC 38:2
 EFO:0009269	oboInOwl:hasExactSynonym	disintegrin and metalloproteinase with thrombospondin motifs 13 measurement
 EFO:0009227	oboInOwl:hasExactSynonym	Oxyhemoglobin/Total Hemoglobin
@@ -3154,6 +3941,7 @@ EFO:0009210	oboInOwl:hasExactSynonym	Hemoglobin A1/Total Hemoglobin
 EFO:0009210	oboInOwl:hasExactSynonym	HGBA1HGB
 EFO:0004302	oboInOwl:hasExactSynonym	anthropometry
 EFO:0004302	oboInOwl:hasExactSynonym	anthropometric traits
+EFO:0021785	oboInOwl:hasExactSynonym	age at initiation of cannabis consumption
 EFO:0003960	oboInOwl:hasExactSynonym	computed tomography scan
 EFO:0003960	oboInOwl:hasExactSynonym	CT scan
 EFO:0009218	oboInOwl:hasExactSynonym	Hemoglobin E/Total Hemoglobin
@@ -3163,14 +3951,15 @@ EFO:0600091	oboInOwl:hasExactSynonym	CFHL4 protein measurement
 EFO:0600091	oboInOwl:hasExactSynonym	FHR4 protein measurement
 EFO:0600091	oboInOwl:hasExactSynonym	FHR-4 protein measurement
 EFO:0006925	oboInOwl:hasExactSynonym	Lp(a) measurement
+EFO:0020994	oboInOwl:hasExactSynonym	CA 50 measurement
 EFO:0009251	oboInOwl:hasExactSynonym	Polychromatophilic Erythroblast
 EFO:0009251	oboInOwl:hasExactSynonym	Rubricyte
 EFO:0009251	oboInOwl:hasExactSynonym	Polychromatophilic Normoblast
 EFO:0009251	oboInOwl:hasExactSynonym	RUB
-EFO:0010374	oboInOwl:hasExactSynonym	PC 32:2
 EFO:0004509	oboInOwl:hasExactSynonym	hemoglobin count
 EFO:0004509	oboInOwl:hasExactSynonym	Hb
 EFO:0004509	oboInOwl:hasExactSynonym	haemoglobin measurement
+EFO:0010374	oboInOwl:hasExactSynonym	PC 32:2
 EFO:0004357	oboInOwl:hasExactSynonym	electroencephalogram traits
 EFO:0004357	oboInOwl:hasExactSynonym	brain oscillations
 EFO:0004357	oboInOwl:hasExactSynonym	brain waves
@@ -3236,6 +4025,12 @@ EFO:0009203	oboInOwl:hasExactSynonym	Carboxyhemoglobin/Total Hemoglobin
 EFO:0004626	oboInOwl:hasExactSynonym	Insulin-Like Growth Factor Binding Protein 3 levels
 EFO:0009306	oboInOwl:hasExactSynonym	atazanavir levels
 EFO:0008400	oboInOwl:hasExactSynonym	susceptibility to varicella zoster virus infection measurement
+EFO:0021776	oboInOwl:hasExactSynonym	uropontin measurement
+EFO:0021776	oboInOwl:hasExactSynonym	nephropontin measurement
+EFO:0021776	oboInOwl:hasExactSynonym	secreted phosphoprotein 1 measurement
+EFO:0021776	oboInOwl:hasExactSynonym	bone sialoprotein 1 measurement
+EFO:0021776	oboInOwl:hasExactSynonym	urinary stone protein measurement
+EFO:0021776	oboInOwl:hasExactSynonym	SPP-1 measurement
 EFO:0010907	oboInOwl:hasExactSynonym	JCV seropositivity
 EFO:0010394	oboInOwl:hasExactSynonym	SM 18:1
 EFO:0006312	oboInOwl:hasExactSynonym	mtDNA measurement
@@ -3261,6 +4056,7 @@ EFO:0004620	oboInOwl:hasExactSynonym	vitamin B12 levels
 EFO:0007941	oboInOwl:hasExactSynonym	lumbar disc herniation-related sciatica symptom severity measurement
 EFO:0010240	oboInOwl:hasExactSynonym	DHEA measurement
 EFO:0009946	oboInOwl:hasExactSynonym	LDL triglyceride measurement
+EFO:0021536	oboInOwl:hasExactSynonym	IBS symptom measurement
 EFO:0009221	oboInOwl:hasExactSynonym	Hemoglobin Lepore/Total Hemoglobin
 EFO:0009221	oboInOwl:hasExactSynonym	HBLEPRHB
 EFO:0010344	oboInOwl:hasExactSynonym	CE 18:1
@@ -3355,6 +4151,7 @@ EFO:0008466	oboInOwl:hasExactSynonym	neutrophil collagenase
 EFO:0010591	oboInOwl:hasExactSynonym	MMP-7
 EFO:0004574	oboInOwl:hasExactSynonym	cholesterol, total
 EFO:0004574	oboInOwl:hasExactSynonym	total cholesterol levels
+EFO:0020995	oboInOwl:hasExactSynonym	SCCA measurement
 EFO:0020953	oboInOwl:hasExactSynonym	intelectin-1 measurement
 EFO:0008386	oboInOwl:hasExactSynonym	body odour measurement
 EFO:0010412	oboInOwl:hasExactSynonym	TAG 50:5
@@ -3366,6 +4163,7 @@ EFO:0004344	oboInOwl:hasExactSynonym	birthweight
 EFO:0009246	oboInOwl:hasExactSynonym	Neutrophils Band Form/ Neutrophils
 EFO:0009246	oboInOwl:hasExactSynonym	NEUTBNE
 EFO:0005661	oboInOwl:hasExactSynonym	CBCL
+EFO:0021429	oboInOwl:hasExactSynonym	N-Acetyl-L-arginine measurement
 EFO:0000633	oboInOwl:hasExactSynonym	OperatorVariation
 EFO:0020014	oboInOwl:hasExactSynonym	1-(1-enyl-stearoyl)-2-linoleoyl-GPE measurement;GPE(P-18:0/18:2) measurement
 EFO:0010354	oboInOwl:hasExactSynonym	DAG 36:1

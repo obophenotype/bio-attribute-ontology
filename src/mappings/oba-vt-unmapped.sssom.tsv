@@ -4,7 +4,6 @@ VT:0002327	rdfs:label	respiratory function trait
 VT:0002911	rdfs:label	inhibitory postsynaptic potential
 VT:0001964	rdfs:label	auditory threshold
 VT:0010060	rdfs:label	muscle fatty acid cis-9-C16:1 amount
-VT:0010543	rdfs:label	catecholamine amount
 VT:0010696	rdfs:label	preovulatory follicle quantity
 VT:0003148	rdfs:label	cochlear coil quantity
 VT:1000720	rdfs:label	nonfunctional nipple quantity
@@ -87,7 +86,6 @@ VT:0000898	rdfs:label	midbrain cell quantity
 VT:0010760	rdfs:label	nitric oxide amount
 VT:0010150	rdfs:label	Merkel's receptor nerve fiber quantity
 VT:0010038	rdfs:label	adrenergic nerve fiber quantity
-VT:0001504	rdfs:label	posture trait
 VT:0003133	rdfs:label	early pro-B cell quantity
 VT:0010600	rdfs:label	maternal nurturing trait
 VT:1000713	rdfs:label	skeletal muscle myosin heavy chain type IIb amount
@@ -175,7 +173,6 @@ VT:0004076	rdfs:label	vitelline vascular remodeling trait
 VT:0010767	rdfs:label	kidney glutathione peroxidase activity
 VT:0003474	rdfs:label	summary potential intensity
 VT:0001031	rdfs:label	outer hair cell stereocilia quantity
-VT:0010720	rdfs:label	response to morphine trait
 VT:0002472	rdfs:label	complement alternative pathway physiology trait
 VT:0001280	rdfs:label	vibrissa retention trait
 VT:0000485	rdfs:label	otoacoustic response trait
@@ -204,7 +201,6 @@ VT:0010057	rdfs:label	muscle fatty acid cis-9,cis-12-C18:2 amount
 VT:0010379	rdfs:label	milk epithelial cell quantity
 VT:0001010	rdfs:label	prevertebral ganglion cell quantity
 VT:0010435	rdfs:label	response to bacterial infection trait
-VT:0010718	rdfs:label	response to cocaine trait
 VT:0005001	rdfs:label	clonal deletion trait
 VT:0000244	rdfs:label	cardiac output amount
 VT:0001895	rdfs:label	hippocampus physiology trait
@@ -247,7 +243,6 @@ VT:0010662	rdfs:label	toll-like receptor 2 protein amount
 VT:0001003	rdfs:label	olfactory receptor morphology trait
 VT:0008713	rdfs:label	cytokine amount
 VT:0002085	rdfs:label	embryonic cell/tissue morphology trait
-VT:0002568	rdfs:label	behavioral response to addictive substance trait
 VT:0010883	rdfs:label	muscle triglyceride amount
 VT:0010262	rdfs:label	muscle nerve fiber quantity
 VT:0010033	rdfs:label	complement protein amount
@@ -266,17 +261,14 @@ VT:0010161	rdfs:label	interleukin-1 physiology trait
 VT:0002915	rdfs:label	synaptic depression trait
 VT:0010159	rdfs:label	interleukin physiology trait
 VT:0004337	rdfs:label	clavicle cell quantity
-VT:0001360	rdfs:label	social investigation trait
 VT:0010035	rdfs:label	acute phase protein amount
 VT:0010653	rdfs:label	muscle iron amount
-VT:0002204	rdfs:label	neurotransmitter amount
 VT:0010452	rdfs:label	heterospecific interaction trait
 VT:0010178	rdfs:label	factor D physiology trait
 VT:0010901	rdfs:label	colorectal integrity trait
 VT:0004145	rdfs:label	muscle electrophysiology trait
 VT:0010445	rdfs:label	social interaction trait
 VT:0003359	rdfs:label	hypaxial muscle cell quantity
-VT:0010721	rdfs:label	response to nicotine trait
 VT:0003185	rdfs:label	angiotensin I-converting enzyme activity
 VT:0010265	rdfs:label	colostrum somatic cell quantity
 VT:0001009	rdfs:label	paravertebral ganglion cell quantity
@@ -294,7 +286,6 @@ VT:0002332	rdfs:label	exercise endurance trait
 VT:0002885	rdfs:label	AMPA-mediated synaptic current trait
 VT:0010436	rdfs:label	response to fungal infection trait
 VT:1000023	rdfs:label	food conversion trait
-VT:0010719	rdfs:label	response to methamphetamine trait
 VT:0002473	rdfs:label	complement classical pathway physiology trait
 VT:1000472	rdfs:label	subcutaneous adipose mass
 VT:0004311	rdfs:label	otic vesicle cell quantity
@@ -324,7 +315,6 @@ VT:0010172	rdfs:label	C5 physiology trait
 VT:0015036	rdfs:label	reproductive life span
 VT:0000014	rdfs:label	tracheal-esophageal septation extent
 VT:0010681	rdfs:label	lactate dehydrogenase activity
-VT:0003620	rdfs:label	urine output
 VT:1000130	rdfs:label	internal adipose amount
 VT:0100006	rdfs:label	anatomical relation trait
 VT:0010074	rdfs:label	enteric cholinergic nerve fiber quantity
@@ -343,7 +333,6 @@ VT:0001874	rdfs:label	epidermis stratum spinosum cell quantity
 VT:0000855	rdfs:label	interlobular fissure development trait
 VT:0004188	rdfs:label	timing of embryo turning
 VT:0001004	rdfs:label	retinal photoreceptor morphology trait
-VT:0010731	rdfs:label	gait trait
 VT:1000519	rdfs:label	adipose fatty acid C20:2 amount
 VT:0010119	rdfs:label	skeletal muscle cellular composition trait
 VT:1000734	rdfs:label	hoof diagonal
@@ -355,7 +344,6 @@ VT:2000016	rdfs:label	venous return amount
 VT:0008750	rdfs:label	interferon amount
 VT:0000363	rdfs:label	cochlear microphonics trait
 VT:0000073	rdfs:label	lifetime offspring quantity
-VT:0001661	rdfs:label	total life span
 VT:0010036	rdfs:label	C-reactive protein amount
 VT:0010146	rdfs:label	mannose-binding protein physiology trait
 VT:0004182	rdfs:label	spermiation trait
@@ -370,7 +358,6 @@ VT:0010999	rdfs:label	body water amount
 VT:0002910	rdfs:label	excitatory postsynaptic current
 VT:0008081	rdfs:label	single-positive T cell quantity
 VT:0000175	rdfs:label	hemodynamics trait
-VT:0000023	rdfs:label	ear orientation trait
 VT:0010052	rdfs:label	muscle fatty acid C16:0 amount
 VT:0001173	rdfs:label	bulbourethral gland ductal cell quantity
 VT:0010438	rdfs:label	response to prion infection trait
@@ -386,7 +373,6 @@ VT:0002886	rdfs:label	glutamate receptor current trait
 VT:1000606	rdfs:label	skeletal muscle myosin heavy chain type I amount
 VT:0000784	rdfs:label	forebrain cell quantity
 VT:0010769	rdfs:label	paraoxonase 1 activity
-VT:0010581	rdfs:label	sterol amount
 VT:0001945	rdfs:label	bronchoconstriction trait
 VT:0010692	rdfs:label	subscapular fat pad mass
 VT:0010437	rdfs:label	response to parasitic infection trait
@@ -439,6 +425,7 @@ VT:0002634	rdfs:label	sensorimotor gating trait
 VT:0008751	rdfs:label	interleukin amount
 VT:0006096	rdfs:label	retinal bipolar cell quantity
 VT:1000726	rdfs:label	back conformation trait
+VT:0011006	rdfs:label	response to oxycodone trait
 VT:0010147	rdfs:label	inflammatory mediator physiology trait
 VT:0002557	rdfs:label	conspecific interaction trait
 VT:0003242	rdfs:label	basal ganglion neuron quantity
@@ -557,7 +544,6 @@ VT:1000526	oboInOwl:hasExactSynonym	adipose palmitic acid concentration
 VT:0002630	oboInOwl:hasExactSynonym	endolymphatic potential
 VT:0010662	oboInOwl:hasExactSynonym	TLR2 amount
 VT:0001003	oboInOwl:hasExactSynonym	olfactory receptor protein morphology trait
-VT:0002568	oboInOwl:hasExactSynonym	neurological/behavioral: addiction/drug abuse
 VT:0004244	oboInOwl:hasExactSynonym	miscarriage
 VT:0004022	oboInOwl:hasExactSynonym	photopic response
 VT:0010051	oboInOwl:hasExactSynonym	muscle myristic acid concentration

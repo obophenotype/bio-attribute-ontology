@@ -12,11 +12,12 @@
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oba/imports/po_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oba/releases/2022-01-19/imports/po_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oba/releases/2022-09-04/imports/po_import.owl"/>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/po/releases/2021-08-13/po.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-01-19</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-09-04</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -126,6 +127,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#blast_name -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#blast_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#common_name -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#common_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#genbank_common_name -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#genbank_common_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#synonym -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#synonym">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/po#Angiosperm -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/po#Angiosperm">
@@ -166,6 +199,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/po#Japanese -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/po#Japanese">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/po#Maize -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/po#Maize">
@@ -178,6 +219,14 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/po#Musa">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/po#Plural -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/po#Plural">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
     
 
@@ -210,6 +259,14 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/po#Rice">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/po#Spanish -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/po#Spanish">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
     
 
@@ -253,6 +310,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     
 
 
@@ -352,17 +415,9 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
-        <rdfs:label>shorthand</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand"/>
     
 
 
@@ -2313,20 +2368,20 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0000003"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>suffrutex (narrow)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FNA:99508f62-7116-4e2b-90c0-19ff55ebd967</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:99508f62-7116-4e2b-90c0-19ff55ebd967</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0000003"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>suffrutices (narrow)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FNA:ba1b1bd5-75bd-4195-b11c-3aba08da08c2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:ba1b1bd5-75bd-4195-b11c-3aba08da08c2</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Plural"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0000003"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>woody clump (narrow)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:c1ccca7d-2a98-4a9d-8603-c34b551935e0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:c1ccca7d-2a98-4a9d-8603-c34b551935e0</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -3634,14 +3689,14 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>caudices (narrow)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:3c0e37e8-e363-4962-847e-5f9f2906d0f8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:3c0e37e8-e363-4962-847e-5f9f2906d0f8</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/po#Plural"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>primocane (narrow)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:58fb080c-dd6b-4172-b564-737091c72980</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:58fb080c-dd6b-4172-b564-737091c72980</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
@@ -3733,7 +3788,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0020030"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>seed leaf (exact)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FNA:2e1fc560-4493-47fe-b363-500a1189b27d</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:2e1fc560-4493-47fe-b363-500a1189b27d</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0020030"/>
@@ -4722,7 +4777,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0025431"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A phyllome anlagen (PO:0025430) that will give rise to a vascular leaf primordium (PO:0000017) and is part of a peripheral zone (PO:0000225) of a shoot apical meristem (PO:0020148).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:14732442</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:14732442</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POC:Laurel_Cooper</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>

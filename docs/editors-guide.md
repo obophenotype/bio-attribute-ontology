@@ -70,3 +70,22 @@ sh run.sh make sync_sssom_google_sheets
 1. Review `src/mappings/oba-vt-unreviewed.sssom.tsv`. These are the new mapping suggestions as determined by the mapping pipeline. Review mappings 1 x 1 and copy them into the official VT-OBA SSSOM mapping [curated on Google Sheets](#edit-files).
 1. Review `src/mappings/oba-vt-unreviewed.dosdp.tsv`. This is the hardest part. The table only provides a handful of suggests on how to map the label using DOSDP. You will have to go through the table `subject_id` by `subject_id` and identify the correct corresponding [DOSDP pattern tables](#edit-files). Important: when you create an ID (`defined_class` column DOSDP table) for a VT-sourced class, you add a special IRI that looks like `OBA:VT123`. This way, mappings will be curated automatically by the framework and you dont have to add them manually.
 1. Optional: Review `src/mappings/oba-vt-unmapped.sssom.tsv` to figure out what to do about entirely unmapped VT terms. These may need some careful planning and adjustments of the alignment code.
+
+
+### Adding "measured in" annotations
+
+1. Go to [Google sheet for "measured in" annotations](https://docs.google.com/spreadsheets/d/13qh7dLE38vMyz91oRqj6GzKjFohNazNKAJxKG6Plw1o/edit#gid=1857133171) and add annotations
+1. Go to `cd src/ontology` in your terminal
+1. Create a new branch with your favourite tool
+1. Run `sh run.sh make sync_templates_google_sheets` to sync templates from Google sheets
+1. Convince yourself in your favourite git diff tool (GitHub Desktop!) that the changed tables look as intended!
+1. In your terminal, run `sh run.sh make recreate-measured_in`
+1. When completed, the file `src/ontology/components/measured_in.owl` should have been updated. Look at the diff again to convince yourself that the changes look as intended. You may want to open `oba-edit.obo` in Protege to look at one or two changes!
+1. Make sure you are on your new branch created above and commit changes to branch.
+1. Publish branch (push to GitHub), make pull request, assign reviewer.
+
+### Adding synonym
+
+1. Follow the instructions for adding "measured in" annotations above, except:
+   - Add the synonyms [in this sheet here](https://docs.google.com/spreadsheets/d/13qh7dLE38vMyz91oRqj6GzKjFohNazNKAJxKG6Plw1o/edit#gid=473147169)
+   - Instead of `sh run.sh make recreate-measured_in`, `sh run.sh make recreate-synonyms`

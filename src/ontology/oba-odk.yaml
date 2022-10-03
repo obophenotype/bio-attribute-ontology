@@ -32,14 +32,16 @@ import_group:
       mirror_from: http://purl.obolibrary.org/obo/cl/cl-basic.owl
     - id: nbo
     - id: pr
-      is_large: TRUE
-      use_gzip: TRUE
+      make_base: TRUE
+      mirror_from: https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl
     - id: so
     - id: po
 #Not an offical component, so we should not merge it along with the rest
 components:
   products:
     - filename: obsoletes.owl
+    - filename: synonyms.owl
+    - filename: measured_in.owl
 #    - filename: reasoner_axioms.owl
 robotemplate_group:
   products:

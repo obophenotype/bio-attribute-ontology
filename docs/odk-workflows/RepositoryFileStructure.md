@@ -26,7 +26,7 @@ These are the current imports in OBA
 | uberon | http://purl.obolibrary.org/obo/uberon/basic.owl | None |
 | cl | http://purl.obolibrary.org/obo/cl/cl-basic.owl | None |
 | nbo | http://purl.obolibrary.org/obo/nbo.owl | None |
-| pr | http://purl.obolibrary.org/obo/pr.owl | None |
+| pr | https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl | None |
 | so | http://purl.obolibrary.org/obo/so.owl | None |
 | po | http://purl.obolibrary.org/obo/po.owl | None |
 
@@ -42,3 +42,5 @@ These are the components in OBA
 | Filename | URL |
 | -------- | --- |
 | obsoletes.owl | None |
+| synonyms.owl | None |
+| measured_in.owl | None |

@@ -6,42 +6,55 @@ pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_st
 description: 'A trait that affects the biological response to a chemical.'
 
 contributors:
-  - https://orcid.org/0000-0002-7073-9172
-  - https://orcid.org/0000-0001-8314-2140
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
 
 classes:
-  chemical entity: CHEBI:24431
-  process quality: PATO:0001236
-  response to stimulus: GO:0050896
+  chemical_entity: CHEBI:24431
+  process_quality: PATO:0001236
+  response_to_stimulus: GO:0050896
 
 
 relations:
-  characteristic of: RO:0000052
-  has input: RO:0002233
+  characteristic_of: RO:0000052
+  has_input: RO:0002233
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
+  contributor: dct:contributor  # contributor: dcterms:contributor
 
 vars:
-  chemical: "'chemical entity'"
+  chemical: "'chemical_entity'"
+
+data_list_vars:
+  orcid: xsd:anyURI  # ORCID of contributor
+
 
 name:
   text: "trait in response to %s"
   vars:
     - chemical
 
-annotations: 
+annotations:
   - annotationProperty: exact_synonym
     text: "response to %s trait"
     vars:
       - chemical
-      
+
+  - annotationProperty: contributor
+    value: orcid
+
+
 def:
   text: "A trait that affects the response to a stimulus with %s."
   vars:
     - chemical
 
 equivalentTo:
-  text: "'process quality' and 'characteristic of' some ('response to stimulus' and 'has input' some %s)"
+  text: "'process_quality' and
+        ('characteristic_of' some
+        ('response_to_stimulus' and
+        ('has_input' some %s)))"
   vars:
     - chemical
