@@ -201,7 +201,6 @@ VT:0010057	rdfs:label	muscle fatty acid cis-9,cis-12-C18:2 amount
 VT:0010379	rdfs:label	milk epithelial cell quantity
 VT:0001010	rdfs:label	prevertebral ganglion cell quantity
 VT:0010435	rdfs:label	response to bacterial infection trait
-VT:0010718	rdfs:label	response to cocaine trait
 VT:0005001	rdfs:label	clonal deletion trait
 VT:0000244	rdfs:label	cardiac output amount
 VT:0001895	rdfs:label	hippocampus physiology trait
@@ -270,7 +269,6 @@ VT:0010901	rdfs:label	colorectal integrity trait
 VT:0004145	rdfs:label	muscle electrophysiology trait
 VT:0010445	rdfs:label	social interaction trait
 VT:0003359	rdfs:label	hypaxial muscle cell quantity
-VT:0010721	rdfs:label	response to nicotine trait
 VT:0003185	rdfs:label	angiotensin I-converting enzyme activity
 VT:0010265	rdfs:label	colostrum somatic cell quantity
 VT:0001009	rdfs:label	paravertebral ganglion cell quantity
@@ -288,7 +286,6 @@ VT:0002332	rdfs:label	exercise endurance trait
 VT:0002885	rdfs:label	AMPA-mediated synaptic current trait
 VT:0010436	rdfs:label	response to fungal infection trait
 VT:1000023	rdfs:label	food conversion trait
-VT:0010719	rdfs:label	response to methamphetamine trait
 VT:0002473	rdfs:label	complement classical pathway physiology trait
 VT:1000472	rdfs:label	subcutaneous adipose mass
 VT:0004311	rdfs:label	otic vesicle cell quantity
@@ -318,7 +315,6 @@ VT:0010172	rdfs:label	C5 physiology trait
 VT:0015036	rdfs:label	reproductive life span
 VT:0000014	rdfs:label	tracheal-esophageal septation extent
 VT:0010681	rdfs:label	lactate dehydrogenase activity
-VT:0003620	rdfs:label	urine output
 VT:1000130	rdfs:label	internal adipose amount
 VT:0100006	rdfs:label	anatomical relation trait
 VT:0010074	rdfs:label	enteric cholinergic nerve fiber quantity
@@ -348,7 +344,6 @@ VT:2000016	rdfs:label	venous return amount
 VT:0008750	rdfs:label	interferon amount
 VT:0000363	rdfs:label	cochlear microphonics trait
 VT:0000073	rdfs:label	lifetime offspring quantity
-VT:0001661	rdfs:label	total life span
 VT:0010036	rdfs:label	C-reactive protein amount
 VT:0010146	rdfs:label	mannose-binding protein physiology trait
 VT:0004182	rdfs:label	spermiation trait
@@ -430,6 +425,7 @@ VT:0002634	rdfs:label	sensorimotor gating trait
 VT:0008751	rdfs:label	interleukin amount
 VT:0006096	rdfs:label	retinal bipolar cell quantity
 VT:1000726	rdfs:label	back conformation trait
+VT:0011006	rdfs:label	response to oxycodone trait
 VT:0010147	rdfs:label	inflammatory mediator physiology trait
 VT:0002557	rdfs:label	conspecific interaction trait
 VT:0003242	rdfs:label	basal ganglion neuron quantity
