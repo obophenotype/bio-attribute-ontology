@@ -2,7 +2,7 @@ Release Workflow for the Ontology of Biological Attributes (OBA)
 ================================================================
 
 
-* Make sure you have the latest ODK installed by running docker
+* Make sure you have the latest ODK installed by running docker:
 
 ```shell
 docker pull obolibrary/odkfull
@@ -15,13 +15,13 @@ docker pull obolibrary/odkfull
 git pull
 ```
 
-* Checkout a new branch
+Create a new branch:
 
 ```shell
 git checkout -b release-202X-XX-XX
 ```
 
-* In a terminal window, start the release pipeline:
+In a terminal window, start the release pipeline:
 
 ```shell
 sh run.sh make prepare_release_fast
@@ -33,7 +33,7 @@ NOTE: It is recommended that running the release pipeline is uncoupled from refr
 sh run.sh make prepare_release -B
 ```
 
-- [ ] If everything went well, you should see message similar to the one below in your terminal window:
+- [ ] If everything went all right, you should see message similar to the one below in your terminal window:
 
 > ...
 > Release files are now in ../.. - now you should commit, push and make a release         on your git hosting site such as GitHub or GitLab
