@@ -34,7 +34,7 @@ To run the OBA release pipeline, follow the instructions in the document [Releas
 
 ## 4. Provide the new OBA terms to EFO
 
-- [ ] Add the new OBA term IRI and also all its component term IRIs that you created to [oba_terms.txt](https://github.com/EBISPOT/efo/tree/master/src/ontology/iri_dependencies) that are [to be included](https://github.com/EBISPOT/efo/issues/1382#issuecomment-1117247895) in [EFO dynamic imports.](https://github.com/EBISPOT/efo/blob/master/src/ontology/README-editors.md) By component terms I mean all those terms that are used in the DOS-DP data filler table to compose the OBA term as specified in the corresponding DOS-DP pattern file.
+- [ ] Add the newly created OBA term IRI and also all its component term IRIs to [oba_terms.txt](https://github.com/EBISPOT/efo/tree/master/src/ontology/iri_dependencies) so that they [get included](https://github.com/EBISPOT/efo/issues/1382#issuecomment-1117247895) in [EFO dynamic imports.](https://github.com/EBISPOT/efo/blob/master/src/ontology/README-editors.md) By component terms I mean all those terms that are used in the DOS-DP data filler table to compose the OBA term (terms from MONDO, UBERON, PATO, etc.) as specified in the corresponding DOS-DP pattern file.
     - NOTE: use full IRI, i.e:
 
     ```
