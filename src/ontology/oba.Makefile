@@ -54,28 +54,7 @@ modules/has_part.csv:  $(patsubst %, ../patterns/data/default/%.tsv, $(MODS))
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
-#########################################
-### Generating all ROBOT templates ######
-#########################################
-
-TEMPLATESDIR=../templates
-
-TEMPLATES=$(patsubst %.tsv, $(TEMPLATESDIR)/%.owl, $(notdir $(wildcard $(TEMPLATESDIR)/*.tsv)))
-
-$(TEMPLATESDIR)/%.owl: $(TEMPLATESDIR)/%.tsv $(SRC)
-	$(ROBOT) merge -i $(SRC) template --template $< --output $@ && \
-	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/components/$*.owl -o $@
-
-$(COMPONENTSDIR)/obsoletes.owl: $(TEMPLATESDIR)/replaced.owl
-	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
-
-$(COMPONENTSDIR)/synonyms.owl: $(TEMPLATESDIR)/synonyms.owl
-	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
-
-$(COMPONENTSDIR)/measured_in.owl: $(TEMPLATESDIR)/measured_in.owl
-	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
-
-imports/hp_import.owl: $(TEMPLATESDIR)/external.owl
+imports/hp_import.owl: $(TEMPLATEDIR)/external.owl
 	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
 
 $(IMPORTDIR)/mondo_import.owl: $(MIRRORDIR)/mondo.owl $(IMPORTDIR)/mondo_terms_combined.txt

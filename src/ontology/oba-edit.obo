@@ -4,20 +4,20 @@ import: http://purl.obolibrary.org/obo/oba/components/obsoletes.owl
 import: http://purl.obolibrary.org/obo/oba/imports/chebi_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/cl_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/go_import.owl
+import: http://purl.obolibrary.org/obo/oba/imports/hp_import.owl
+import: http://purl.obolibrary.org/obo/oba/imports/mondo_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/nbo_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/pato_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/po_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/pr_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/hp_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/mondo_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/so_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl
 import: http://purl.obolibrary.org/obo/oba/patterns/definitions.owl
 ontology: oba
-property_value: IAO:0000700 OBA:0000001
 property_value: http://purl.org/dc/elements/1.1/description "A collection of biological attributes (traits) covering all kingdoms of life. Interoperable with VT (vertebrate trait ontology) and TO (plant trait ontology). Extends PATO." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Ontology of Biological Attributes (OBA)" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/publicdomain/zero/1.0/
+property_value: IAO:0000700 OBA:0000001
 
 [Term]
 id: OBA:0000001
@@ -823,6 +823,7 @@ creation_date: 2014-06-04T18:58:27Z
 [Term]
 id: OBA:1000076 ! attribute of cell
 synonym: "cell quality trait" EXACT [GOC:TermGenie]
+is_a: OBA:0000001 ! biological attribute
 created_by: cjmungall
 creation_date: 2014-06-04T19:24:06Z
 
@@ -1273,6 +1274,10 @@ creation_date: 2015-09-29T15:36:19Z
 id: OBA:1001088
 name: obsolete race
 is_obsolete: true
+
+[Term]
+id: OBA:VT0005584 ! enzyme/coenzyme activity trait
+is_a: OBA:0000001 ! biological attribute
 
 [Typedef]
 id: http://purl.org/dc/elements/1.1/contributor ! contributor

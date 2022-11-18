@@ -5,6 +5,7 @@ git_main_branch: master
 repo: bio-attribute-ontology
 edit_format: obo
 use_dosdps: TRUE
+use_templates: TRUE
 export_formats:
   - owl
   - obo
@@ -40,9 +41,11 @@ import_group:
 components:
   products:
     - filename: obsoletes.owl
+      use_template: TRUE
     - filename: synonyms.owl
+      use_template: TRUE
     - filename: measured_in.owl
-#    - filename: reasoner_axioms.owl
+      use_template: TRUE
 robotemplate_group:
   products:
     - id: obsoletes.owl
@@ -50,15 +53,15 @@ robot_java_args: '-Xmx8G'
 allow_equivalents: asserted-only
 robot_report:
   release_reports: False
+  use_base_iris: True
   fail_on : ERROR
   use_labels : False
   custom_profile : True
   report_on :
-    - oba-base.owl
+    - oba.owl
   custom_sparql_checks :
     - equivalent-classes
     - owldef-self-reference
-    - illegal-annotation-property
   custom_sparql_exports : 
     - basic-report
 documentation:
