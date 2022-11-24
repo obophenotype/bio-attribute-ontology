@@ -1,0 +1,126 @@
+Level	Rule Name	Subject	Property	Value
+ERROR	duplicate_label	OBA:0000099	rdfs:label	membrane potential
+ERROR	duplicate_label	OBA:0002215	rdfs:label	growth rate
+ERROR	duplicate_label	OBA:0003896	rdfs:label	ductus venosus closure
+ERROR	duplicate_label	OBA:1001065	rdfs:label	cell morphology
+WARN	duplicate_label_synonym	OBA:0000066	oboInOwl:hasExactSynonym	direction of cell growth
+WARN	duplicate_label_synonym	OBA:0000090	oboInOwl:hasExactSynonym	lung blood pressure
+WARN	duplicate_label_synonym	OBA:0000161	oboInOwl:hasExactSynonym	force of heart contraction
+WARN	duplicate_label_synonym	OBA:VT0000068	oboInOwl:hasExactSynonym	blood mineral amount
+WARN	duplicate_label_synonym	OBA:VT0000180	oboInOwl:hasExactSynonym	blood cholesterol amount
+WARN	duplicate_label_synonym	OBA:VT0000188	oboInOwl:hasExactSynonym	blood glucose amount
+WARN	duplicate_label_synonym	OBA:VT0000202	oboInOwl:hasExactSynonym	blood alkaline phosphatase amount
+WARN	duplicate_label_synonym	OBA:VT0000315	oboInOwl:hasExactSynonym	urine hemoglobin amount
+WARN	duplicate_label_synonym	OBA:VT0001565	oboInOwl:hasExactSynonym	blood phosphate amount
+WARN	duplicate_label_synonym	OBA:VT0001754	oboInOwl:hasExactSynonym	blood corticotropin-releasing hormone amount
+WARN	duplicate_label_synonym	OBA:VT0001758	oboInOwl:hasExactSynonym	urine glucose amount
+WARN	duplicate_label_synonym	OBA:VT0002644	oboInOwl:hasExactSynonym	blood triglyceride amount
+WARN	duplicate_label_synonym	OBA:VT0002695	oboInOwl:hasExactSynonym	blood glucagon amount
+WARN	duplicate_label_synonym	OBA:VT0002851	oboInOwl:hasExactSynonym	blood sulfate amount
+WARN	duplicate_label_synonym	OBA:VT0002900	oboInOwl:hasExactSynonym	urine phosphate amount
+WARN	duplicate_label_synonym	OBA:VT0002903	oboInOwl:hasExactSynonym	blood parathyroid hormone amount
+WARN	duplicate_label_synonym	OBA:VT0003018	oboInOwl:hasExactSynonym	blood chloride amount
+WARN	duplicate_label_synonym	OBA:VT0003311	oboInOwl:hasExactSynonym	urine amino acid amount
+WARN	duplicate_label_synonym	OBA:VT0003349	oboInOwl:hasExactSynonym	blood renin amount
+WARN	duplicate_label_synonym	OBA:VT0003351	oboInOwl:hasExactSynonym	blood thyroid hormone amount
+WARN	duplicate_label_synonym	OBA:VT0003366	oboInOwl:hasExactSynonym	blood glucocorticoid amount
+WARN	duplicate_label_synonym	OBA:VT0003369	oboInOwl:hasExactSynonym	blood estrogen amount
+WARN	duplicate_label_synonym	OBA:VT0003442	oboInOwl:hasExactSynonym	blood glycerol amount
+WARN	duplicate_label_synonym	OBA:VT0003949	oboInOwl:hasExactSynonym	blood lipid amount
+WARN	duplicate_label_synonym	OBA:VT0003977	oboInOwl:hasExactSynonym	blood carnitine amount
+WARN	duplicate_label_synonym	OBA:VT0005120	oboInOwl:hasExactSynonym	blood growth hormone amount
+WARN	duplicate_label_synonym	OBA:VT0005160	oboInOwl:hasExactSynonym	urine protein amount
+WARN	duplicate_label_synonym	OBA:VT0005180	oboInOwl:hasExactSynonym	blood testosterone amount
+WARN	duplicate_label_synonym	OBA:VT0005183	oboInOwl:hasExactSynonym	blood estradiol amount
+WARN	duplicate_label_synonym	OBA:VT0005184	oboInOwl:hasExactSynonym	blood progesterone amount
+WARN	duplicate_label_synonym	OBA:VT0005308	oboInOwl:hasExactSynonym	blood ammonia amount
+WARN	duplicate_label_synonym	OBA:VT0005311	oboInOwl:hasExactSynonym	blood amino acid amount
+WARN	duplicate_label_synonym	OBA:VT0005328	oboInOwl:hasExactSynonym	blood creatinine amount
+WARN	duplicate_label_synonym	OBA:VT0005345	oboInOwl:hasExactSynonym	blood corticosterone amount
+WARN	duplicate_label_synonym	OBA:VT0005346	oboInOwl:hasExactSynonym	blood aldosterone amount
+WARN	duplicate_label_synonym	OBA:VT0005416	oboInOwl:hasExactSynonym	blood protein amount
+WARN	duplicate_label_synonym	OBA:VT0005418	oboInOwl:hasExactSynonym	blood hormone amount
+WARN	duplicate_label_synonym	OBA:VT0005475	oboInOwl:hasExactSynonym	blood thyroxine amount
+WARN	duplicate_label_synonym	OBA:VT0005521	oboInOwl:hasExactSynonym	blood atrial natriuretic factor amount
+WARN	duplicate_label_synonym	OBA:VT0005667	oboInOwl:hasExactSynonym	blood leptin amount
+WARN	duplicate_label_synonym	OBA:VT0006034	oboInOwl:hasExactSynonym	urine myoglobin amount
+WARN	duplicate_label_synonym	OBA:VT0006076	oboInOwl:hasExactSynonym	blood homocysteine amount
+WARN	duplicate_label_synonym	OBA:VT0006084	oboInOwl:hasExactSynonym	blood phospholipid amount
+WARN	duplicate_label_synonym	OBA:VT0008589	oboInOwl:hasExactSynonym	blood interleukin-1 amount
+WARN	duplicate_label_synonym	OBA:VT0008590	oboInOwl:hasExactSynonym	blood interleukin-10 amount
+WARN	duplicate_label_synonym	OBA:VT0008595	oboInOwl:hasExactSynonym	blood interleukin-6 amount
+WARN	duplicate_label_synonym	OBA:VT0008598	oboInOwl:hasExactSynonym	blood interleukin-2 amount
+WARN	duplicate_label_synonym	OBA:VT0008601	oboInOwl:hasExactSynonym	blood interleukin-4 amount
+WARN	duplicate_label_synonym	OBA:VT0008604	oboInOwl:hasExactSynonym	blood interleukin-7 amount
+WARN	duplicate_label_synonym	OBA:VT0008607	oboInOwl:hasExactSynonym	blood interleukin-13 amount
+WARN	duplicate_label_synonym	OBA:VT0008610	oboInOwl:hasExactSynonym	blood interleukin-15 amount
+WARN	duplicate_label_synonym	OBA:VT0008613	oboInOwl:hasExactSynonym	blood interleukin-17 amount
+WARN	duplicate_label_synonym	OBA:VT0008622	oboInOwl:hasExactSynonym	blood interleukin-3 amount
+WARN	duplicate_label_synonym	OBA:VT0008625	oboInOwl:hasExactSynonym	blood interleukin-5 amount
+WARN	duplicate_label_synonym	OBA:VT0008628	oboInOwl:hasExactSynonym	blood interleukin-9 amount
+WARN	duplicate_label_synonym	OBA:VT0008631	oboInOwl:hasExactSynonym	blood interleukin-16 amount
+WARN	duplicate_label_synonym	OBA:VT0008634	oboInOwl:hasExactSynonym	blood interleukin-18 amount
+WARN	duplicate_label_synonym	OBA:VT0008637	oboInOwl:hasExactSynonym	blood interleukin-1 alpha amount
+WARN	duplicate_label_synonym	OBA:VT0008640	oboInOwl:hasExactSynonym	blood interleukin-1 beta amount
+WARN	duplicate_label_synonym	OBA:VT0009059	oboInOwl:hasExactSynonym	blood interleukin-21 amount
+WARN	duplicate_label_synonym	OBA:VT0010029	oboInOwl:hasExactSynonym	milk alpha-lactalbumin amount
+WARN	duplicate_label_synonym	OBA:VT0010267	oboInOwl:hasExactSynonym	milk whey acidic protein amount
+WARN	duplicate_label_synonym	OBA:VT0010269	oboInOwl:hasExactSynonym	colostrum hormone amount
+WARN	duplicate_label_synonym	OBA:VT0010270	oboInOwl:hasExactSynonym	colostrum steroid amount
+WARN	duplicate_label_synonym	OBA:VT0010271	oboInOwl:hasExactSynonym	colostrum leptin amount
+WARN	duplicate_label_synonym	OBA:VT0010275	oboInOwl:hasExactSynonym	milk hormone amount
+WARN	duplicate_label_synonym	OBA:VT0010276	oboInOwl:hasExactSynonym	milk steroid amount
+WARN	duplicate_label_synonym	OBA:VT0010277	oboInOwl:hasExactSynonym	milk leptin amount
+WARN	duplicate_label_synonym	OBA:VT0010281	oboInOwl:hasExactSynonym	milk alpha-S1-casein amount
+WARN	duplicate_label_synonym	OBA:VT0010283	oboInOwl:hasExactSynonym	milk kappa-casein amount
+WARN	duplicate_label_synonym	OBA:VT0010284	oboInOwl:hasExactSynonym	milk beta-casein amount
+WARN	duplicate_label_synonym	OBA:VT0010287	oboInOwl:hasExactSynonym	milk lactose amount
+WARN	duplicate_label_synonym	OBA:VT0010288	oboInOwl:hasExactSynonym	milk mineral amount
+WARN	duplicate_label_synonym	OBA:VT0010294	oboInOwl:hasExactSynonym	milk chloride amount
+WARN	duplicate_label_synonym	OBA:VT0010302	oboInOwl:hasExactSynonym	blood uric acid amount
+WARN	duplicate_label_synonym	OBA:VT0010303	oboInOwl:hasExactSynonym	milk fatty acid amount
+WARN	duplicate_label_synonym	OBA:VT0010304	oboInOwl:hasExactSynonym	milk saturated fatty acid amount
+WARN	duplicate_label_synonym	OBA:VT0010305	oboInOwl:hasExactSynonym	milk unsaturated fatty acid amount
+WARN	duplicate_label_synonym	OBA:VT0010322	oboInOwl:hasExactSynonym	milk omega-3 fatty acid amount
+WARN	duplicate_label_synonym	OBA:VT0010323	oboInOwl:hasExactSynonym	milk omega-6 fatty acid amount
+WARN	duplicate_label_synonym	OBA:VT0010324	oboInOwl:hasExactSynonym	milk conjugated linoleic acid amount
+WARN	duplicate_label_synonym	OBA:VT0010373	oboInOwl:hasExactSynonym	milk monounsaturated fatty acid amount
+WARN	duplicate_label_synonym	OBA:VT0010374	oboInOwl:hasExactSynonym	milk polyunsaturated fatty acid amount
+WARN	duplicate_label_synonym	OBA:VT0010380	oboInOwl:hasExactSynonym	milk beta-carotene amount
+WARN	duplicate_label_synonym	OBA:VT0010381	oboInOwl:hasExactSynonym	milk retinol amount
+WARN	duplicate_label_synonym	OBA:VT0010382	oboInOwl:hasExactSynonym	milk triglyceride amount
+WARN	duplicate_label_synonym	OBA:VT0010383	oboInOwl:hasExactSynonym	milk cholesterol amount
+WARN	duplicate_label_synonym	OBA:VT0010386	oboInOwl:hasExactSynonym	milk monoacylglycerol amount
+WARN	duplicate_label_synonym	OBA:VT0010387	oboInOwl:hasExactSynonym	milk phospholipid amount
+WARN	duplicate_label_synonym	OBA:VT0010388	oboInOwl:hasExactSynonym	milk polyphenol amount
+WARN	duplicate_label_synonym	OBA:VT0010389	oboInOwl:hasExactSynonym	milk butyrophilin amount
+WARN	duplicate_label_synonym	OBA:VT0010399	oboInOwl:hasExactSynonym	milk urea amount
+WARN	duplicate_label_synonym	OBA:VT0010400	oboInOwl:hasExactSynonym	milk ammonia amount
+WARN	duplicate_label_synonym	OBA:VT0010456	oboInOwl:hasExactSynonym	cerebrospinal fluid mineral amount
+WARN	duplicate_label_synonym	OBA:VT0010484	oboInOwl:hasExactSynonym	nervous system serotonin amount
+WARN	duplicate_label_synonym	OBA:VT0010498	oboInOwl:hasExactSynonym	liver cholesterol amount
+WARN	duplicate_label_synonym	OBA:VT0010502	oboInOwl:hasExactSynonym	urine catecholamine amount
+WARN	duplicate_label_synonym	OBA:VT0010515	oboInOwl:hasExactSynonym	blood fibronectin amount
+WARN	duplicate_label_synonym	OBA:VT0010516	oboInOwl:hasExactSynonym	blood glutathione amount
+WARN	duplicate_label_synonym	OBA:VT0010519	oboInOwl:hasExactSynonym	liver triglyceride amount
+WARN	duplicate_label_synonym	OBA:VT0010535	oboInOwl:hasExactSynonym	erythrocyte ion amount
+WARN	duplicate_label_synonym	OBA:VT0010540	oboInOwl:hasExactSynonym	urine creatinine amount
+WARN	duplicate_label_synonym	OBA:VT0010616	oboInOwl:hasExactSynonym	blood lactate amount
+WARN	duplicate_label_synonym	OBA:VT0010878	oboInOwl:hasExactSynonym	blood bile acid amount
+WARN	duplicate_label_synonym	OBA:VT0010918	oboInOwl:hasExactSynonym	liver bile acid amount
+WARN	duplicate_label_synonym	OBA:VT0010919	oboInOwl:hasExactSynonym	feces bile acid amount
+WARN	duplicate_label_synonym	OBA:VT0015086	oboInOwl:hasExactSynonym	urine mineral amount
+WARN	duplicate_label_synonym	OBA:VT1000165	oboInOwl:hasExactSynonym	milk protein amount
+WARN	duplicate_label_synonym	OBA:VT1000670	oboInOwl:hasExactSynonym	blood cortisol amount
+WARN	missing_definition	OBA:0000001	IAO:0000115	
+WARN	missing_definition	OBA:0000069	IAO:0000115	
+WARN	missing_definition	OBA:0000085	IAO:0000115	
+WARN	missing_definition	OBA:0000089	IAO:0000115	
+WARN	missing_definition	OBA:0000134	IAO:0000115	
+WARN	missing_definition	OBA:0000136	IAO:0000115	
+WARN	missing_definition	OBA:0000140	IAO:0000115	
+WARN	missing_definition	OBA:0000141	IAO:0000115	
+WARN	missing_definition	OBA:0000181	IAO:0000115	
+WARN	missing_definition	OBA:0001001	IAO:0000115	
+WARN	missing_definition	obo:oba#measured_in_taxon	IAO:0000115	
+WARN	missing_definition	obo:oba#not_measured_in_taxon	IAO:0000115	

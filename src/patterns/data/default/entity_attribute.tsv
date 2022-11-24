@@ -27,7 +27,7 @@ OBA:0000068	endosome size	GO:0005768	endosome	PATO:0000117	size
 OBA:0000084	imaginal disc-derived wing size	UBERON:0000984	imaginal disc-derived wing	PATO:0000117	size
 OBA:0000088	liquid surface tension	PATO:0001735	liquid configuration	PATO:0001461	surface tension
 OBA:0000092	lysosomal membrane permeability	GO:0005765	lysosomal membrane	PATO:0000970	permeability
-OBA:0000099	membrane potential	GO:0016020	membrane	PATO:0001464	electric potential
+OBA:0000099	membrane potential trait	GO:0016020	membrane	PATO:0001464	electric potential
 OBA:0000101	metanephric kidney size	UBERON:0000081	metanephros	PATO:0000117	size
 OBA:0000102	microvillus length	GO:0005902	microvillus	PATO:0000122	length
 OBA:0000104	mitochondrial membrane permeability	GO:0031966	mitochondrial membrane	PATO:0000970	permeability
@@ -2531,7 +2531,7 @@ OBA:0002211		UBERON:0004476	musculature of shoulder	PATO:0000117	size
 OBA:0002212		UBERON:0002510	anterior fontanel	PATO:0002325	onset quality
 OBA:0002213		UBERON:0001435	carpal bone	PATO:0000117	size
 OBA:0002214		UBERON:0002389	manual digit	PATO:0000117	size
-OBA:0002215		GO:0040007	growth	PATO:0000161	rate
+OBA:0002215	growth rate trait	GO:0040007	growth	PATO:0000161	rate
 OBA:0002216		GO:0040007	growth	PATO:0002325	onset quality
 OBA:0002217		GO:0009790	embryo development	PATO:0000161	rate
 OBA:0002218		UBERON:0000916	abdomen	PATO:0000140	position
@@ -4207,7 +4207,7 @@ OBA:0003892		GO:0007269	neurotransmitter secretion	PATO:0000161	rate
 OBA:0003893		UBERON:0002493	uterine artery	PATO:0000051	morphology
 OBA:0003894		GO:0035172	hemocyte proliferation	PATO:0000161	rate
 OBA:0003895		CL:0000071	blood vessel endothelial cell	PATO:0001509	functionality
-OBA:0003896		UBERON:0002083	ductus venosus	PATO:0000136	closure
+OBA:0003896	ductus venosus closure trait	UBERON:0002083	ductus venosus	PATO:0000136	closure
 OBA:0003897		GO:0014827	intestine smooth muscle contraction	PATO:0000161	rate
 OBA:0003899		GO:0005694	chromosome	PATO:0000070	amount
 OBA:0003900		CL:0000000	cell	PATO:0001374	ploidy
@@ -7215,7 +7215,7 @@ OBA:1001061		UBERON:0000926	mesoderm	PATO:0000051	morphology
 OBA:1001062		UBERON:0014849	hemotrichorial placental membrane	PATO:0000051	morphology
 OBA:1001063		GO:0031091	platelet alpha granule	PATO:0000051	morphology
 OBA:1001064		UBERON:0005728	extraembryonic mesoderm	PATO:0000051	morphology
-OBA:1001065		CL:0000000	cell	PATO:0000051	morphology
+OBA:1001065	cell morphology trait	CL:0000000	cell	PATO:0000051	morphology
 OBA:1001066		CL:0002060	melanophage	PATO:0000051	morphology
 OBA:1001067		UBERON:0011967	costotransverse joint	PATO:0000051	morphology
 OBA:1001069		GO:0032280	symmetric synapse	PATO:0000051	morphology

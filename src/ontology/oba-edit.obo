@@ -14,6 +14,7 @@ import: http://purl.obolibrary.org/obo/oba/imports/so_import.owl
 import: http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl
 import: http://purl.obolibrary.org/obo/oba/patterns/definitions.owl
 ontology: oba
+property_value: IAO:0000700 OBA:0000001
 property_value: http://purl.org/dc/elements/1.1/description "A collection of biological attributes (traits) covering all kingdoms of life. Interoperable with VT (vertebrate trait ontology) and TO (plant trait ontology). Extends PATO." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Ontology of Biological Attributes (OBA)" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/publicdomain/zero/1.0/
