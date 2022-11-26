@@ -28,5 +28,5 @@ ERROR	multiple_equivalent_classes
 ERROR	multiple_equivalent_class_definitions
 ERROR	multiple_labels
 ERROR	invalid_entity_uri
-ERROR	file:../sparql/biological-attribute-child.sparql
+ERROR	file:../sparql/biological-attribute-child-violation.sparql
 ERROR	file:../sparql/illegal-annotation-property-violation.sparql
