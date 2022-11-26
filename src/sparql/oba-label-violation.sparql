@@ -1,0 +1,15 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX OBA: <http://purl.obolibrary.org/obo/OBA_>
+PREFIX IAO: <http://purl.obolibrary.org/obo/IAO_>
+
+SELECT ?entity ?property ?value WHERE {
+  VALUES ?property { rdfs:label IAO:0000115 }
+  ?entity rdfs:subClassOf* OBA:0000001 .
+  ?entity ?property ?value .
+  
+  FILTER(STRSTARTS(STR(?entity),"http://purl.obolibrary.org/obo/OBA_"))
+  FILTER(CONTAINS(STR(?value),"http"))
+}
