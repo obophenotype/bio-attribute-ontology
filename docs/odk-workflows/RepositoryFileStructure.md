@@ -43,4 +43,3 @@ These are the components in OBA
 | -------- | --- |
 | obsoletes.owl | None |
 | synonyms.owl | None |
-| measured_in.owl | None |

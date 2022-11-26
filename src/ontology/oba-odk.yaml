@@ -4,6 +4,7 @@ github_org: obophenotype
 git_main_branch: master
 repo: bio-attribute-ontology
 edit_format: obo
+release_diff: TRUE
 use_dosdps: TRUE
 use_templates: TRUE
 export_formats:
@@ -42,8 +43,6 @@ components:
     - filename: obsoletes.owl
       use_template: TRUE
     - filename: synonyms.owl
-      use_template: TRUE
-    - filename: measured_in.owl
       use_template: TRUE
 robotemplate_group:
   products:

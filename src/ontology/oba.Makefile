@@ -138,3 +138,15 @@ $(REPORTDIR)/%.tsv: ../sparql/synonyms-exact.sparql $(TMPDIR)/%.owl
 
 prepare_oba_alignment: $(REPORTDIR)/uberon.tsv $(REPORTDIR)/efo.tsv $(REPORTDIR)/pato.tsv $(REPORTDIR)/oba.tsv $(REPORTDIR)/vt.tsv $(REPORTDIR)/cl.tsv $(REPORTDIR)/go.tsv $(REPORTDIR)/chebi.tsv
 	echo "OK cool all tables prepared."
+
+CHECK_SPARQL=oba.owl
+
+check_children_oba: $(CHECK_SPARQL)
+	$(ROBOT) verify -i $< --queries ../sparql/biological-attribute-child-violation.sparql -O $(REPORTDIR)
+
+test: check_children_oba
+
+oba_reports: $(CHECK_SPARQL)
+	sh run.sh robot query -i $< \
+		--query ../sparql/oba-pato-report.sparql reports/oba-pato.csv \
+		--query ../sparql/oba-grouping-report.sparql reports/oba-grouping.csv
