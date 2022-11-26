@@ -19,8 +19,7 @@ import_group:
   products:
     - id: ro
     - id: chebi
-      is_large: TRUE
-      use_gzip: TRUE
+      mirror_from: https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl
     - id: go
     - id: pato
     - id: omo
