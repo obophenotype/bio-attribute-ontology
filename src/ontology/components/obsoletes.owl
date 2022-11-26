@@ -8,8 +8,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oba/components/obsoletes.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oba/releases/2022-09-04/components/obsoletes.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-09-04</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oba/releases/2022-11-26/components/obsoletes.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-11-26</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -82,6 +82,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000121">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PATO_0001842"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0002145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002145">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010464"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -235,6 +244,24 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004684">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010430"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0005187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0005187">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0003653"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0005515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0005515">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0005230"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -586,6 +613,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001044">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0007031"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0003308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0003308">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
