@@ -30,3 +30,4 @@ ERROR	multiple_labels
 ERROR	invalid_entity_uri
 ERROR	file:../sparql/biological-attribute-child-violation.sparql
 ERROR	file:../sparql/illegal-annotation-property-violation.sparql
+ERROR	file:../sparql/oba-label-violation.sparql

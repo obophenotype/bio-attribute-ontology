@@ -104,14 +104,14 @@
 - [Abnormal respiratory system physiology](http://purl.obolibrary.org/obo/HP_0002795) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "Impaired pulmonary function" 
 
 
-### Abnormal skeletal morphology `http://purl.obolibrary.org/obo/HP_0011842`
+### Abnormality of skeletal morphology `http://purl.obolibrary.org/obo/HP_0011842`
 #### Removed
-- [Abnormal skeletal morphology](http://purl.obolibrary.org/obo/HP_0011842) [label](http://www.w3.org/2000/01/rdf-schema#label) "Abnormality of skeletal morphology" 
+- [Abnormality of skeletal morphology](http://purl.obolibrary.org/obo/HP_0011842) [label](http://www.w3.org/2000/01/rdf-schema#label) "Abnormality of skeletal morphology" 
 
 #### Added
-- [Abnormal skeletal morphology](http://purl.obolibrary.org/obo/HP_0011842) [label](http://www.w3.org/2000/01/rdf-schema#label) "Abnormal skeletal morphology" 
+- [Abnormality of skeletal morphology](http://purl.obolibrary.org/obo/HP_0011842) [label](http://www.w3.org/2000/01/rdf-schema#label) "Abnormal skeletal morphology" 
 
-- [Abnormal skeletal morphology](http://purl.obolibrary.org/obo/HP_0011842) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Abnormality of skeletal morphology" 
+- [Abnormality of skeletal morphology](http://purl.obolibrary.org/obo/HP_0011842) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Abnormality of skeletal morphology" 
 
 
 ### Abnormality of the skin `http://purl.obolibrary.org/obo/HP_0000951`
@@ -298,8 +298,8 @@
 #### Removed
 - [has modifier](http://purl.obolibrary.org/obo/RO_0002573) some [acquired](http://purl.obolibrary.org/obo/MONDO_0021141) DisjointWith [has modifier](http://purl.obolibrary.org/obo/RO_0002573) some [inherited](http://purl.obolibrary.org/obo/MONDO_0021152) 
 
-- [rate](http://purl.obolibrary.org/obo/PATO_0000161) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
-([rate](http://purl.obolibrary.org/obo/PATO_0000161) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435))) 
+- [rate](http://purl.obolibrary.org/obo/PATO_0000161) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([rate](http://purl.obolibrary.org/obo/PATO_0000161) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435))) 
 
 - [amount](http://purl.obolibrary.org/obo/PATO_0000070) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [GOCHE_25512](http://purl.obolibrary.org/obo/GOCHE_25512))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([amount](http://purl.obolibrary.org/obo/PATO_0000070) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [GOCHE_25512](http://purl.obolibrary.org/obo/GOCHE_25512))) 
@@ -358,23 +358,23 @@
 #### Added
 - [bearer of](http://purl.obolibrary.org/obo/RO_0000053) some [acquired](http://purl.obolibrary.org/obo/MONDO_0021141) DisjointWith [bearer of](http://purl.obolibrary.org/obo/RO_0000053) some [inherited](http://purl.obolibrary.org/obo/MONDO_0021152) 
 
-- [fertility](http://purl.obolibrary.org/obo/PATO_0000274) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [male organism](http://purl.obolibrary.org/obo/UBERON_0003101))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
-([fertility](http://purl.obolibrary.org/obo/PATO_0000274) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [male organism](http://purl.obolibrary.org/obo/UBERON_0003101))) 
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [temporal lobe](http://purl.obolibrary.org/obo/UBERON_0001871))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [temporal lobe](http://purl.obolibrary.org/obo/UBERON_0001871))) 
 
-- [quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [chemokine production](http://purl.obolibrary.org/obo/GO_0032602))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
-([quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [chemokine production](http://purl.obolibrary.org/obo/GO_0032602))) 
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [pancreas](http://purl.obolibrary.org/obo/UBERON_0001264))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [pancreas](http://purl.obolibrary.org/obo/UBERON_0001264))) 
 
-- [action potential](http://purl.obolibrary.org/obo/PATO_0001463) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [plasma membrane](http://purl.obolibrary.org/obo/GO_0005886))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
-([action potential](http://purl.obolibrary.org/obo/PATO_0001463) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [plasma membrane](http://purl.obolibrary.org/obo/GO_0005886))) 
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [pallidum](http://purl.obolibrary.org/obo/UBERON_0006514))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [pallidum](http://purl.obolibrary.org/obo/UBERON_0006514))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629))) 
 
 - [amount](http://purl.obolibrary.org/obo/PATO_0000070) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [bile acid](http://purl.obolibrary.org/obo/CHEBI_3098))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([amount](http://purl.obolibrary.org/obo/PATO_0000070) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [bile acid](http://purl.obolibrary.org/obo/CHEBI_3098))) 
-
-- [brood size](http://purl.obolibrary.org/obo/PATO_0000276) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [regulation of brood size](http://purl.obolibrary.org/obo/GO_0060378))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
-([brood size](http://purl.obolibrary.org/obo/PATO_0000276) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [regulation of brood size](http://purl.obolibrary.org/obo/GO_0060378))) 
-
-- [size](http://purl.obolibrary.org/obo/PATO_0000117) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [diastema](http://purl.obolibrary.org/obo/UBERON_0012111))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
-([size](http://purl.obolibrary.org/obo/PATO_0000117) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [diastema](http://purl.obolibrary.org/obo/UBERON_0012111))) 
 
 - [morphology](http://purl.obolibrary.org/obo/PATO_0000051) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [diastema](http://purl.obolibrary.org/obo/UBERON_0012111))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([morphology](http://purl.obolibrary.org/obo/PATO_0000051) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [diastema](http://purl.obolibrary.org/obo/UBERON_0012111))) 
@@ -382,8 +382,53 @@
 - [diameter](http://purl.obolibrary.org/obo/PATO_0001334) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [aorta](http://purl.obolibrary.org/obo/UBERON_0000947))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([diameter](http://purl.obolibrary.org/obo/PATO_0001334) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [aorta](http://purl.obolibrary.org/obo/UBERON_0000947))) 
 
-- [quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [plant structure](http://purl.obolibrary.org/obo/PO_0009011))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
-([quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [plant structure](http://purl.obolibrary.org/obo/PO_0009011))) 
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [fourth ventricle](http://purl.obolibrary.org/obo/UBERON_0002422))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [fourth ventricle](http://purl.obolibrary.org/obo/UBERON_0002422))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899))) 
+
+- [fertility](http://purl.obolibrary.org/obo/PATO_0000274) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [male organism](http://purl.obolibrary.org/obo/UBERON_0003101))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([fertility](http://purl.obolibrary.org/obo/PATO_0000274) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [male organism](http://purl.obolibrary.org/obo/UBERON_0003101))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [third ventricle](http://purl.obolibrary.org/obo/UBERON_0002286))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [third ventricle](http://purl.obolibrary.org/obo/UBERON_0002286))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [putamen](http://purl.obolibrary.org/obo/UBERON_0001874))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [putamen](http://purl.obolibrary.org/obo/UBERON_0001874))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [frontal lobe](http://purl.obolibrary.org/obo/UBERON_0016525))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [frontal lobe](http://purl.obolibrary.org/obo/UBERON_0016525))) 
+
+- [quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [chemokine production](http://purl.obolibrary.org/obo/GO_0032602))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [chemokine production](http://purl.obolibrary.org/obo/GO_0032602))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352))) 
 
 - [diameter](http://purl.obolibrary.org/obo/PATO_0001334) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [ascending aorta](http://purl.obolibrary.org/obo/UBERON_0001496))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([diameter](http://purl.obolibrary.org/obo/PATO_0001334) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [ascending aorta](http://purl.obolibrary.org/obo/UBERON_0001496))) 
@@ -391,11 +436,26 @@
 - [quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [meiotic cell cycle](http://purl.obolibrary.org/obo/GO_0051321))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [meiotic cell cycle](http://purl.obolibrary.org/obo/GO_0051321))) 
 
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [parietal lobe](http://purl.obolibrary.org/obo/UBERON_0001872))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [parietal lobe](http://purl.obolibrary.org/obo/UBERON_0001872))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [cerebral cortex](http://purl.obolibrary.org/obo/UBERON_0000956))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cerebral cortex](http://purl.obolibrary.org/obo/UBERON_0000956))) 
+
 - [degree of pigmentation](http://purl.obolibrary.org/obo/PATO_0002247) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [coat of hair](http://purl.obolibrary.org/obo/UBERON_0010166))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([degree of pigmentation](http://purl.obolibrary.org/obo/PATO_0002247) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [coat of hair](http://purl.obolibrary.org/obo/UBERON_0010166))) 
 
 - [degree of pigmentation](http://purl.obolibrary.org/obo/PATO_0002247) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [iris](http://purl.obolibrary.org/obo/UBERON_0001769))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([degree of pigmentation](http://purl.obolibrary.org/obo/PATO_0002247) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [iris](http://purl.obolibrary.org/obo/UBERON_0001769))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [brain](http://purl.obolibrary.org/obo/UBERON_0000955))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [brain](http://purl.obolibrary.org/obo/UBERON_0000955))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [supramarginal gyrus](http://purl.obolibrary.org/obo/UBERON_0002688))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [supramarginal gyrus](http://purl.obolibrary.org/obo/UBERON_0002688))) 
 
 - [quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [life cycle stage](http://purl.obolibrary.org/obo/UBERON_0000105))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [life cycle stage](http://purl.obolibrary.org/obo/UBERON_0000105))) 
@@ -403,29 +463,119 @@
 - [female](http://purl.obolibrary.org/obo/PATO_0000383) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [meiotic cell cycle](http://purl.obolibrary.org/obo/GO_0051321))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([female](http://purl.obolibrary.org/obo/PATO_0000383) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [meiotic cell cycle](http://purl.obolibrary.org/obo/GO_0051321))) 
 
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0003027))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0003027))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [limbic lobe](http://purl.obolibrary.org/obo/UBERON_0002600))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [limbic lobe](http://purl.obolibrary.org/obo/UBERON_0002600))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795))) 
+
+- [action potential](http://purl.obolibrary.org/obo/PATO_0001463) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [plasma membrane](http://purl.obolibrary.org/obo/GO_0005886))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([action potential](http://purl.obolibrary.org/obo/PATO_0001463) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [plasma membrane](http://purl.obolibrary.org/obo/GO_0005886))) 
+
 - [diameter](http://purl.obolibrary.org/obo/PATO_0001334) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [descending aorta](http://purl.obolibrary.org/obo/UBERON_0001514))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([diameter](http://purl.obolibrary.org/obo/PATO_0001334) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [descending aorta](http://purl.obolibrary.org/obo/UBERON_0001514))) 
 
 - [thickness](http://purl.obolibrary.org/obo/PATO_0000915) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [wall of right ventricle](http://purl.obolibrary.org/obo/UBERON_0036286))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([thickness](http://purl.obolibrary.org/obo/PATO_0000915) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [wall of right ventricle](http://purl.obolibrary.org/obo/UBERON_0036286))) 
 
+- [quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [cytokine production](http://purl.obolibrary.org/obo/GO_0001816))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cytokine production](http://purl.obolibrary.org/obo/GO_0001816))) 
+
 - [thickness](http://purl.obolibrary.org/obo/PATO_0000915) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [wall of left ventricle](http://purl.obolibrary.org/obo/UBERON_0036285))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([thickness](http://purl.obolibrary.org/obo/PATO_0000915) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [wall of left ventricle](http://purl.obolibrary.org/obo/UBERON_0036285))) 
 
-- [quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [cytokine production](http://purl.obolibrary.org/obo/GO_0001816))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
-([quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cytokine production](http://purl.obolibrary.org/obo/GO_0001816))) 
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [occipital lobe](http://purl.obolibrary.org/obo/UBERON_0002021))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [occipital lobe](http://purl.obolibrary.org/obo/UBERON_0002021))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [hippocampus molecular layer](http://purl.obolibrary.org/obo/UBERON_0005368))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [hippocampus molecular layer](http://purl.obolibrary.org/obo/UBERON_0005368))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [brainstem](http://purl.obolibrary.org/obo/UBERON_0002298))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [brainstem](http://purl.obolibrary.org/obo/UBERON_0002298))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [superior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002769))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [superior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002769))) 
+
+- [brood size](http://purl.obolibrary.org/obo/PATO_0000276) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [regulation of brood size](http://purl.obolibrary.org/obo/GO_0060378))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([brood size](http://purl.obolibrary.org/obo/PATO_0000276) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [regulation of brood size](http://purl.obolibrary.org/obo/GO_0060378))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [nucleus accumbens](http://purl.obolibrary.org/obo/UBERON_0001882))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [nucleus accumbens](http://purl.obolibrary.org/obo/UBERON_0001882))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [parahippocampal gyrus](http://purl.obolibrary.org/obo/UBERON_0002973))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [parahippocampal gyrus](http://purl.obolibrary.org/obo/UBERON_0002973))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534))) 
 
 - [male](http://purl.obolibrary.org/obo/PATO_0000384) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [meiotic cell cycle](http://purl.obolibrary.org/obo/GO_0051321))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([male](http://purl.obolibrary.org/obo/PATO_0000384) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [meiotic cell cycle](http://purl.obolibrary.org/obo/GO_0051321))) 
 
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [postcentral gyrus](http://purl.obolibrary.org/obo/UBERON_0002581))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [postcentral gyrus](http://purl.obolibrary.org/obo/UBERON_0002581))) 
+
 - [female fertility](http://purl.obolibrary.org/obo/PATO_0000277) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [female organism](http://purl.obolibrary.org/obo/UBERON_0003100))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([female fertility](http://purl.obolibrary.org/obo/PATO_0000277) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [female organism](http://purl.obolibrary.org/obo/UBERON_0003100))) 
+
+- [size](http://purl.obolibrary.org/obo/PATO_0000117) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [diastema](http://purl.obolibrary.org/obo/UBERON_0012111))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([size](http://purl.obolibrary.org/obo/PATO_0000117) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [diastema](http://purl.obolibrary.org/obo/UBERON_0012111))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933))) 
 
 - [degree of pigmentation](http://purl.obolibrary.org/obo/PATO_0002247) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [skin of body](http://purl.obolibrary.org/obo/UBERON_0002097))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([degree of pigmentation](http://purl.obolibrary.org/obo/PATO_0002247) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [skin of body](http://purl.obolibrary.org/obo/UBERON_0002097))) 
 
 - [composition](http://purl.obolibrary.org/obo/PATO_0000025) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [skeletal muscle tissue](http://purl.obolibrary.org/obo/UBERON_0001134))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
 ([composition](http://purl.obolibrary.org/obo/PATO_0000025) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [skeletal muscle tissue](http://purl.obolibrary.org/obo/UBERON_0001134))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [subiculum](http://purl.obolibrary.org/obo/UBERON_0002191))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [subiculum](http://purl.obolibrary.org/obo/UBERON_0002191))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [precentral gyrus](http://purl.obolibrary.org/obo/UBERON_0002703))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [precentral gyrus](http://purl.obolibrary.org/obo/UBERON_0002703))) 
+
+- [quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [plant structure](http://purl.obolibrary.org/obo/PO_0009011))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [plant structure](http://purl.obolibrary.org/obo/PO_0009011))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [entorhinal cortex](http://purl.obolibrary.org/obo/UBERON_0002728))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [entorhinal cortex](http://purl.obolibrary.org/obo/UBERON_0002728))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [kidney](http://purl.obolibrary.org/obo/UBERON_0002113))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [kidney](http://purl.obolibrary.org/obo/UBERON_0002113))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [liver](http://purl.obolibrary.org/obo/UBERON_0002107))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [liver](http://purl.obolibrary.org/obo/UBERON_0002107))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [amygdala](http://purl.obolibrary.org/obo/UBERON_0001876))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [amygdala](http://purl.obolibrary.org/obo/UBERON_0001876))) 
+
+- [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [cerebellar cortex](http://purl.obolibrary.org/obo/UBERON_0002129))) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some 
+([volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cerebellar cortex](http://purl.obolibrary.org/obo/UBERON_0002129))) 
 
 
 ### GOCHE_25512 `http://purl.obolibrary.org/obo/GOCHE_25512`
@@ -1384,7 +1534,7 @@
 
 - [action potential trait](http://purl.obolibrary.org/obo/OBA_VT0005402) SubClassOf [plasma membrane quality](http://purl.obolibrary.org/obo/OBA_1000088) 
 
-- [action potential trait](http://purl.obolibrary.org/obo/OBA_VT0005402) SubClassOf [membrane potential trait](http://purl.obolibrary.org/obo/OBA_0000099) 
+- [action potential trait](http://purl.obolibrary.org/obo/OBA_VT0005402) SubClassOf [membrane potential](http://purl.obolibrary.org/obo/OBA_0000099) 
 
 - [action potential trait](http://purl.obolibrary.org/obo/OBA_VT0005402) SubClassOf [action potential](http://purl.obolibrary.org/obo/PATO_0001463) 
 
@@ -2381,104 +2531,6 @@
 - [amine metabolic process](http://purl.obolibrary.org/obo/GO_0009308) [hasAlternativeId](http://www.geneontology.org/formats/oboInOwl#hasAlternativeId) "GO:0044106" 
 
 
-### amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0008652`
-#### Removed
-- [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid biosynthesis" 
-
-- [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid synthesis" 
-
-- [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid biosynthetic process" 
-
-- [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [label](http://www.w3.org/2000/01/rdf-schema#label) "cellular amino acid biosynthetic process" 
-
-- [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid formation" 
-
-- [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid anabolism" 
-
-#### Added
-- [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid synthesis" 
-
-- [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/17904"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid biosynthesis" 
-
-- [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid formation" 
-
-- [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [label](http://www.w3.org/2000/01/rdf-schema#label) "amino acid biosynthetic process" 
-
-- [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid biosynthetic process" 
-
-- [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid anabolism" 
-
-
-### amino acid catabolic process `http://purl.obolibrary.org/obo/GO_0009063`
-#### Removed
-- [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid breakdown" 
-
-- [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid catabolic process" 
-
-- [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid degradation" 
-
-- [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [label](http://www.w3.org/2000/01/rdf-schema#label) "cellular amino acid catabolic process" 
-
-- [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid catabolism" 
-
-#### Added
-- [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid degradation" 
-
-- [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid catabolism" 
-
-- [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid catabolic process" 
-
-- [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/17904"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [label](http://www.w3.org/2000/01/rdf-schema#label) "amino acid catabolic process" 
-
-- [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid breakdown" 
-
-
-### amino acid metabolic process `http://purl.obolibrary.org/obo/GO_0006520`
-#### Removed
-- [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving amino acids, carboxylic acids containing one or more amino groups, as carried out by individual cells." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-#### Added
-- [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [label](http://www.w3.org/2000/01/rdf-schema#label) "amino acid metabolic process" 
-
-- [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/17904"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid metabolic process" 
-
-- [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving amino acids, carboxylic acids containing one or more amino groups, as carried out by individual cells." 
-
-- [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving amino acids, carboxylic acids containing one or more amino groups." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "cellular amino acid and derivative metabolic process" 
-
-- [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "amino acid and derivative metabolism" 
-
-
-### amino acid metabolic process quality `http://purl.obolibrary.org/obo/OBA_1000232`
-#### Removed
-- [amino acid metabolic process quality](http://purl.obolibrary.org/obo/OBA_1000232) [label](http://www.w3.org/2000/01/rdf-schema#label) "cellular amino acid metabolic process quality"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [amino acid metabolic process quality](http://purl.obolibrary.org/obo/OBA_1000232) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The quality of a cellular amino acid metabolic process."^^[string](http://www.w3.org/2001/XMLSchema#string) 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [amino acid metabolic process quality](http://purl.obolibrary.org/obo/OBA_1000232) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quality of cellular amino acid metabolic process"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-#### Added
-- [amino acid metabolic process quality](http://purl.obolibrary.org/obo/OBA_1000232) [label](http://www.w3.org/2000/01/rdf-schema#label) "amino acid metabolic process quality"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [amino acid metabolic process quality](http://purl.obolibrary.org/obo/OBA_1000232) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The quality of a amino acid metabolic process."^^[string](http://www.w3.org/2001/XMLSchema#string) 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [amino acid metabolic process quality](http://purl.obolibrary.org/obo/OBA_1000232) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quality of amino acid metabolic process"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-
 ### amino monosaccharide `http://purl.obolibrary.org/obo/CHEBI_60926`
 
 #### Added
@@ -2547,6 +2599,26 @@
 
 #### Added
 - [amnionitis](http://purl.obolibrary.org/obo/MONDO_0020710) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/2016"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### amygdala volume `http://purl.obolibrary.org/obo/OBA_2050034`
+
+#### Added
+- [amygdala volume](http://purl.obolibrary.org/obo/OBA_2050034) [label](http://www.w3.org/2000/01/rdf-schema#label) "amygdala volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [amygdala volume](http://purl.obolibrary.org/obo/OBA_2050034) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of amygdala"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [amygdala volume](http://purl.obolibrary.org/obo/OBA_2050034) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a amygdala."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [amygdala volume](http://purl.obolibrary.org/obo/OBA_2050034) 
+
+- [amygdala volume](http://purl.obolibrary.org/obo/OBA_2050034) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [amygdala](http://purl.obolibrary.org/obo/UBERON_0001876)) 
+
+- [amygdala volume](http://purl.obolibrary.org/obo/OBA_2050034) SubClassOf [amygdala size](http://purl.obolibrary.org/obo/OBA_0005663) 
+
+- [amygdala volume](http://purl.obolibrary.org/obo/OBA_2050034) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
 
 
 ### amyotrophic lateral sclerosis `http://purl.obolibrary.org/obo/MONDO_0004976`
@@ -2690,6 +2762,43 @@
 
 - [anomaly of puberty or/and menstrual cycle of genetic origin](http://purl.obolibrary.org/obo/MONDO_0016072) SubClassOf [bearer of](http://purl.obolibrary.org/obo/RO_0000053) some [rare](http://purl.obolibrary.org/obo/MONDO_0021136) 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:0015980" 
+
+
+### anterior cingulate cortex `http://purl.obolibrary.org/obo/UBERON_0009835`
+
+#### Added
+- [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:936" 
+
+- [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0009835" 
+
+- [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) [depicted_by](http://xmlns.com/foaf/0.1/depicted_by) "http://upload.wikimedia.org/wikipedia/commons/2/22/Gray727_anterior_cingulate_cortex.png"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The frontal part of the cingulate cortex that resembles a collar form around the corpus callosum. It includes both the ventral and dorsal areas of the cingulate cortex. Wikipedia:File:Gray727.svg." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:936" 
+
+- [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) [label](http://www.w3.org/2000/01/rdf-schema#label) "anterior cingulate cortex" 
+
+- [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:271599" 
+
+- [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BTO:0004249" 
+
+- [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "ACC" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [ABBREVIATION](http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BTO:0004249" 
+
+- [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Anterior_cingulate_cortex" 
+
+- Class: [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) 
+
+- [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) SubClassOf [regional part of brain](http://purl.obolibrary.org/obo/UBERON_0002616) 
+
+- [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) SubClassOf [structure with developmental contribution from neural crest](http://purl.obolibrary.org/obo/UBERON_0010314) 
+
+- [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0003027) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BTO"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
 ### anterior horn disorder `http://purl.obolibrary.org/obo/MONDO_0003182`
@@ -2938,12 +3047,12 @@
 
 
 
-### aromatic amino acid metabolic process `http://purl.obolibrary.org/obo/GO_0009072`
+### aromatic amino acid family metabolic process `http://purl.obolibrary.org/obo/GO_0009072`
 
 #### Added
-- [aromatic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0009072) [label](http://www.w3.org/2000/01/rdf-schema#label) "aromatic amino acid metabolic process" 
+- [aromatic amino acid family metabolic process](http://purl.obolibrary.org/obo/GO_0009072) [label](http://www.w3.org/2000/01/rdf-schema#label) "aromatic amino acid metabolic process" 
 
-- [aromatic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0009072) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "aromatic amino acid family metabolic process" 
+- [aromatic amino acid family metabolic process](http://purl.obolibrary.org/obo/GO_0009072) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "aromatic amino acid family metabolic process" 
 
 
 ### ascending aorta diameter `http://purl.obolibrary.org/obo/OBA_2050001`
@@ -3817,24 +3926,6 @@
 - [biliary tract neoplasm](http://purl.obolibrary.org/obo/MONDO_0005304) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/3673"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [biliary tract neoplasm](http://purl.obolibrary.org/obo/MONDO_0005304) SubClassOf [liver and intrahepatic bile duct neoplasm](http://purl.obolibrary.org/obo/MONDO_0024477) 
-
-
-### biogenic amine biosynthetic process `http://purl.obolibrary.org/obo/GO_0042401`
-#### Removed
-- [biogenic amine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042401) [label](http://www.w3.org/2000/01/rdf-schema#label) "cellular biogenic amine biosynthetic process" 
-
-#### Added
-- [biogenic amine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042401) [label](http://www.w3.org/2000/01/rdf-schema#label) "biogenic amine biosynthetic process" 
-
-- [biogenic amine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042401) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular biogenic amine biosynthetic process" 
-
-
-### biogenic amine metabolic process `http://purl.obolibrary.org/obo/GO_0006576`
-
-#### Added
-- [biogenic amine metabolic process](http://purl.obolibrary.org/obo/GO_0006576) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular biogenic amine metabolic process" 
-
-- [biogenic amine metabolic process](http://purl.obolibrary.org/obo/GO_0006576) [label](http://www.w3.org/2000/01/rdf-schema#label) "biogenic amine metabolic process" 
 
 
 ### biomineral tissue development `http://purl.obolibrary.org/obo/GO_0031214`
@@ -4765,6 +4856,46 @@
 ([chemical entity](http://purl.obolibrary.org/obo/CHEBI_24431) and ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [brain](http://purl.obolibrary.org/obo/UBERON_0000955))) 
 
 
+### brain stem volume `http://purl.obolibrary.org/obo/OBA_2050021`
+
+#### Added
+- [brain stem volume](http://purl.obolibrary.org/obo/OBA_2050021) [label](http://www.w3.org/2000/01/rdf-schema#label) "brain stem volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [brain stem volume](http://purl.obolibrary.org/obo/OBA_2050021) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of brainstem"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [brain stem volume](http://purl.obolibrary.org/obo/OBA_2050021) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a brainstem."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [brain stem volume](http://purl.obolibrary.org/obo/OBA_2050021) 
+
+- [brain stem volume](http://purl.obolibrary.org/obo/OBA_2050021) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [brainstem](http://purl.obolibrary.org/obo/UBERON_0002298)) 
+
+- [brain stem volume](http://purl.obolibrary.org/obo/OBA_2050021) SubClassOf [brainstem size](http://purl.obolibrary.org/obo/OBA_0002319) 
+
+- [brain stem volume](http://purl.obolibrary.org/obo/OBA_2050021) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
+### brain volume `http://purl.obolibrary.org/obo/OBA_2050009`
+
+#### Added
+- [brain volume](http://purl.obolibrary.org/obo/OBA_2050009) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of brain"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [brain volume](http://purl.obolibrary.org/obo/OBA_2050009) [label](http://www.w3.org/2000/01/rdf-schema#label) "brain volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [brain volume](http://purl.obolibrary.org/obo/OBA_2050009) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a brain."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [brain volume](http://purl.obolibrary.org/obo/OBA_2050009) 
+
+- [brain volume](http://purl.obolibrary.org/obo/OBA_2050009) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [brain](http://purl.obolibrary.org/obo/UBERON_0000955)) 
+
+- [brain volume](http://purl.obolibrary.org/obo/OBA_2050009) SubClassOf [brain size trait](http://purl.obolibrary.org/obo/OBA_VT0000771) 
+
+- [brain volume](http://purl.obolibrary.org/obo/OBA_2050009) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
 ### breast cancer `http://purl.obolibrary.org/obo/MONDO_0007254`
 #### Removed
 - [breast cancer](http://purl.obolibrary.org/obo/MONDO_0007254) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [C50](https://icd.codes/icd10cm/C50) 
@@ -4869,38 +5000,38 @@
 - [bronchioalveolar stem cells amount](http://purl.obolibrary.org/obo/OBA_0005515) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [bronchioalveolar stem cell amount](http://purl.obolibrary.org/obo/OBA_0005230) 
 
 
-### brood size trait `http://purl.obolibrary.org/obo/OBA_1000859`
+### brood size quality `http://purl.obolibrary.org/obo/OBA_1000859`
 #### Removed
-- [brood size trait](http://purl.obolibrary.org/obo/OBA_1000859) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The quality of a brood size."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [brood size quality](http://purl.obolibrary.org/obo/OBA_1000859) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The quality of a brood size."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [brood size trait](http://purl.obolibrary.org/obo/OBA_1000859) [label](http://www.w3.org/2000/01/rdf-schema#label) "brood size quality"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [brood size quality](http://purl.obolibrary.org/obo/OBA_1000859) [label](http://www.w3.org/2000/01/rdf-schema#label) "brood size quality"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [brood size trait](http://purl.obolibrary.org/obo/OBA_1000859) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quality of brood size"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [brood size quality](http://purl.obolibrary.org/obo/OBA_1000859) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quality of brood size"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [brood size trait](http://purl.obolibrary.org/obo/OBA_1000859) EquivalentTo [quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [brood size](http://purl.obolibrary.org/obo/PATO_0000276)) 
+- [brood size quality](http://purl.obolibrary.org/obo/OBA_1000859) EquivalentTo [quality](http://purl.obolibrary.org/obo/PATO_0000001) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [brood size](http://purl.obolibrary.org/obo/PATO_0000276)) 
 
-- [brood size trait](http://purl.obolibrary.org/obo/OBA_1000859) SubClassOf [quality](http://purl.obolibrary.org/obo/PATO_0000001) 
+- [brood size quality](http://purl.obolibrary.org/obo/OBA_1000859) SubClassOf [quality](http://purl.obolibrary.org/obo/PATO_0000001) 
 
-- [brood size trait](http://purl.obolibrary.org/obo/OBA_1000859) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [brood size](http://purl.obolibrary.org/obo/PATO_0000276) 
+- [brood size quality](http://purl.obolibrary.org/obo/OBA_1000859) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [brood size](http://purl.obolibrary.org/obo/PATO_0000276) 
 
 #### Added
-- [brood size trait](http://purl.obolibrary.org/obo/OBA_1000859) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "brood size of regulation of brood size"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [brood size quality](http://purl.obolibrary.org/obo/OBA_1000859) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "brood size of regulation of brood size"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [brood size trait](http://purl.obolibrary.org/obo/OBA_1000859) [label](http://www.w3.org/2000/01/rdf-schema#label) "brood size trait"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [brood size quality](http://purl.obolibrary.org/obo/OBA_1000859) [label](http://www.w3.org/2000/01/rdf-schema#label) "brood size trait"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [brood size trait](http://purl.obolibrary.org/obo/OBA_1000859) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The brood size of a regulation of brood size."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [brood size quality](http://purl.obolibrary.org/obo/OBA_1000859) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The brood size of a regulation of brood size."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [brood size trait](http://purl.obolibrary.org/obo/OBA_1000859) EquivalentTo [brood size](http://purl.obolibrary.org/obo/PATO_0000276) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [regulation of brood size](http://purl.obolibrary.org/obo/GO_0060378)) 
+- [brood size quality](http://purl.obolibrary.org/obo/OBA_1000859) EquivalentTo [brood size](http://purl.obolibrary.org/obo/PATO_0000276) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [regulation of brood size](http://purl.obolibrary.org/obo/GO_0060378)) 
 
-- [brood size trait](http://purl.obolibrary.org/obo/OBA_1000859) SubClassOf [biological process attribute](http://purl.obolibrary.org/obo/OBA_0100002) 
+- [brood size quality](http://purl.obolibrary.org/obo/OBA_1000859) SubClassOf [biological process attribute](http://purl.obolibrary.org/obo/OBA_0100002) 
 
-- [brood size trait](http://purl.obolibrary.org/obo/OBA_1000859) SubClassOf [brood size](http://purl.obolibrary.org/obo/PATO_0000276) 
+- [brood size quality](http://purl.obolibrary.org/obo/OBA_1000859) SubClassOf [brood size](http://purl.obolibrary.org/obo/PATO_0000276) 
 
-- [brood size trait](http://purl.obolibrary.org/obo/OBA_1000859) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [regulation of brood size](http://purl.obolibrary.org/obo/GO_0060378) 
+- [brood size quality](http://purl.obolibrary.org/obo/OBA_1000859) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [regulation of brood size](http://purl.obolibrary.org/obo/GO_0060378) 
 
 
 ### cancer `http://purl.obolibrary.org/obo/MONDO_0004992`
@@ -5162,23 +5293,23 @@
 - [cardiovascular system development trait](http://purl.obolibrary.org/obo/OBA_VT0000121) SubClassOf [circulatory system development trait](http://purl.obolibrary.org/obo/OBA_VT0100015) 
 
 
-### carpal region spatial deviation `http://purl.obolibrary.org/obo/OBA_0002385`
+### carpal region deviation `http://purl.obolibrary.org/obo/OBA_0002385`
 #### Removed
-- [carpal region spatial deviation](http://purl.obolibrary.org/obo/OBA_0002385) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a carpal region."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [carpal region deviation](http://purl.obolibrary.org/obo/OBA_0002385) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a carpal region."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [carpal region spatial deviation](http://purl.obolibrary.org/obo/OBA_0002385) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of carpal region"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [carpal region deviation](http://purl.obolibrary.org/obo/OBA_0002385) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of carpal region"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [carpal region spatial deviation](http://purl.obolibrary.org/obo/OBA_0002385) [label](http://www.w3.org/2000/01/rdf-schema#label) "carpal region deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [carpal region deviation](http://purl.obolibrary.org/obo/OBA_0002385) [label](http://www.w3.org/2000/01/rdf-schema#label) "carpal region deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [carpal region spatial deviation](http://purl.obolibrary.org/obo/OBA_0002385) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a carpal region."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [carpal region deviation](http://purl.obolibrary.org/obo/OBA_0002385) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a carpal region."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [carpal region spatial deviation](http://purl.obolibrary.org/obo/OBA_0002385) [label](http://www.w3.org/2000/01/rdf-schema#label) "carpal region spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [carpal region deviation](http://purl.obolibrary.org/obo/OBA_0002385) [label](http://www.w3.org/2000/01/rdf-schema#label) "carpal region spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [carpal region spatial deviation](http://purl.obolibrary.org/obo/OBA_0002385) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of carpal region"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [carpal region deviation](http://purl.obolibrary.org/obo/OBA_0002385) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of carpal region"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
@@ -5307,12 +5438,12 @@ Each of these 3 primitives can be composed to yield a cross-product of different
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
-### cell morphology trait `http://purl.obolibrary.org/obo/OBA_1001065`
+### cell morphology `http://purl.obolibrary.org/obo/OBA_1001065`
 #### Removed
-- [cell morphology trait](http://purl.obolibrary.org/obo/OBA_1001065) [label](http://www.w3.org/2000/01/rdf-schema#label) "cell morphology"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [cell morphology](http://purl.obolibrary.org/obo/OBA_1001065) [label](http://www.w3.org/2000/01/rdf-schema#label) "cell morphology"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [cell morphology trait](http://purl.obolibrary.org/obo/OBA_1001065) [label](http://www.w3.org/2000/01/rdf-schema#label) "cell morphology trait"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [cell morphology](http://purl.obolibrary.org/obo/OBA_1001065) [label](http://www.w3.org/2000/01/rdf-schema#label) "cell morphology trait"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
 ### cell motility `http://purl.obolibrary.org/obo/GO_0048870`
@@ -5375,6 +5506,122 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [cellular amine metabolic process](http://purl.obolibrary.org/obo/GO_0044106) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving any organic compound that is weakly basic in character and contains an amino or a substituted amino group, as carried out by individual cells. Amines are called primary, secondary, or tertiary according to whether one, two, or three carbon atoms are attached to the nitrogen atom." 
 
 
+### cellular amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0008652`
+#### Removed
+- [cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid biosynthesis" 
+
+- [cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid synthesis" 
+
+- [cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid biosynthetic process" 
+
+- [cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [label](http://www.w3.org/2000/01/rdf-schema#label) "cellular amino acid biosynthetic process" 
+
+- [cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid formation" 
+
+- [cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid anabolism" 
+
+#### Added
+- [cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid synthesis" 
+
+- [cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/17904"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid biosynthesis" 
+
+- [cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid formation" 
+
+- [cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [label](http://www.w3.org/2000/01/rdf-schema#label) "amino acid biosynthetic process" 
+
+- [cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid biosynthetic process" 
+
+- [cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid anabolism" 
+
+
+### cellular amino acid catabolic process `http://purl.obolibrary.org/obo/GO_0009063`
+#### Removed
+- [cellular amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid breakdown" 
+
+- [cellular amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid catabolic process" 
+
+- [cellular amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid degradation" 
+
+- [cellular amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [label](http://www.w3.org/2000/01/rdf-schema#label) "cellular amino acid catabolic process" 
+
+- [cellular amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid catabolism" 
+
+#### Added
+- [cellular amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid degradation" 
+
+- [cellular amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid catabolism" 
+
+- [cellular amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid catabolic process" 
+
+- [cellular amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/17904"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cellular amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [label](http://www.w3.org/2000/01/rdf-schema#label) "amino acid catabolic process" 
+
+- [cellular amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amino acid breakdown" 
+
+
+### cellular amino acid metabolic process `http://purl.obolibrary.org/obo/GO_0006520`
+#### Removed
+- [cellular amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving amino acids, carboxylic acids containing one or more amino groups, as carried out by individual cells." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+#### Added
+- [cellular amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [label](http://www.w3.org/2000/01/rdf-schema#label) "amino acid metabolic process" 
+
+- [cellular amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/17904"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cellular amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular amino acid metabolic process" 
+
+- [cellular amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving amino acids, carboxylic acids containing one or more amino groups, as carried out by individual cells." 
+
+- [cellular amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving amino acids, carboxylic acids containing one or more amino groups." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cellular amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "cellular amino acid and derivative metabolic process" 
+
+- [cellular amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "amino acid and derivative metabolism" 
+
+
+### cellular amino acid metabolic process quality `http://purl.obolibrary.org/obo/OBA_1000232`
+#### Removed
+- [cellular amino acid metabolic process quality](http://purl.obolibrary.org/obo/OBA_1000232) [label](http://www.w3.org/2000/01/rdf-schema#label) "cellular amino acid metabolic process quality"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cellular amino acid metabolic process quality](http://purl.obolibrary.org/obo/OBA_1000232) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The quality of a cellular amino acid metabolic process."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cellular amino acid metabolic process quality](http://purl.obolibrary.org/obo/OBA_1000232) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quality of cellular amino acid metabolic process"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+#### Added
+- [cellular amino acid metabolic process quality](http://purl.obolibrary.org/obo/OBA_1000232) [label](http://www.w3.org/2000/01/rdf-schema#label) "amino acid metabolic process quality"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cellular amino acid metabolic process quality](http://purl.obolibrary.org/obo/OBA_1000232) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The quality of a amino acid metabolic process."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cellular amino acid metabolic process quality](http://purl.obolibrary.org/obo/OBA_1000232) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quality of amino acid metabolic process"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+
+### cellular biogenic amine biosynthetic process `http://purl.obolibrary.org/obo/GO_0042401`
+#### Removed
+- [cellular biogenic amine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042401) [label](http://www.w3.org/2000/01/rdf-schema#label) "cellular biogenic amine biosynthetic process" 
+
+#### Added
+- [cellular biogenic amine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042401) [label](http://www.w3.org/2000/01/rdf-schema#label) "biogenic amine biosynthetic process" 
+
+- [cellular biogenic amine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042401) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular biogenic amine biosynthetic process" 
+
+
+### cellular biogenic amine metabolic process `http://purl.obolibrary.org/obo/GO_0006576`
+
+#### Added
+- [cellular biogenic amine metabolic process](http://purl.obolibrary.org/obo/GO_0006576) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cellular biogenic amine metabolic process" 
+
+- [cellular biogenic amine metabolic process](http://purl.obolibrary.org/obo/GO_0006576) [label](http://www.w3.org/2000/01/rdf-schema#label) "biogenic amine metabolic process" 
+
+
 ### cellular hormone metabolic process `http://purl.obolibrary.org/obo/GO_0034754`
 #### Removed
 - [cellular hormone metabolic process](http://purl.obolibrary.org/obo/GO_0034754) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving any hormone, naturally occurring substances secreted by specialized cells that affects the metabolism or behavior of other cells possessing functional receptors for the hormone, as carried out by individual cells." 
@@ -5386,52 +5633,6 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 #### Added
 - [cellular hormone metabolic process](http://purl.obolibrary.org/obo/GO_0034754) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving any hormone, naturally occurring substances secreted by specialized cells that affects the metabolism or behavior of other cells possessing functional receptors for the hormone, as carried out by individual cells." 
-
-
-### cellular nitric oxide homeostasis `http://purl.obolibrary.org/obo/GO_0033484`
-#### Removed
-- [cellular nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) [label](http://www.w3.org/2000/01/rdf-schema#label) "nitric oxide homeostasis" 
-
-- [cellular nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A homeostatic process involved in the maintenance of an internal steady state of nitric oxide within an organism or cell." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [cellular nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) SubClassOf [obsolete gas homeostasis](http://purl.obolibrary.org/obo/GO_0033483) 
-
-#### Added
-- [cellular nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) [label](http://www.w3.org/2000/01/rdf-schema#label) "cellular nitric oxide homeostasis" 
-
-- [cellular nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A homeostatic process involved in the maintenance of an internal steady state of nitric oxide within a cell." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [cellular nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/24224"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [cellular nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "nitric oxide homeostasis" 
-
-- [cellular nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) SubClassOf [cellular chemical homeostasis](http://purl.obolibrary.org/obo/GO_0055082) 
-
-
-### cellular nitric oxide homeostasis quality `http://purl.obolibrary.org/obo/OBA_1000742`
-#### Removed
-- [cellular nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The quality of a nitric oxide homeostasis."^^[string](http://www.w3.org/2001/XMLSchema#string) 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [cellular nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quality of nitric oxide homeostasis"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [cellular nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) [label](http://www.w3.org/2000/01/rdf-schema#label) "nitric oxide homeostasis quality"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [cellular nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) SubClassOf [gas homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000846) 
-
-#### Added
-- [cellular nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) [label](http://www.w3.org/2000/01/rdf-schema#label) "cellular nitric oxide homeostasis quality"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [cellular nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quality of cellular nitric oxide homeostasis"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [cellular nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The quality of a cellular nitric oxide homeostasis."^^[string](http://www.w3.org/2001/XMLSchema#string) 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [cellular nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) SubClassOf [molecule homeostasis trait](http://purl.obolibrary.org/obo/OBA_VT0015077) 
 
 
 ### cellular protein localization `http://purl.obolibrary.org/obo/GO_0034613`
@@ -5521,6 +5722,46 @@ Each of these 3 primitives can be composed to yield a cross-product of different
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:0020009" 
 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "https://bestpractice.bmj.com/topics/en-gb/1097" 
+
+
+### cerebellar cortex volume `http://purl.obolibrary.org/obo/OBA_2050041`
+
+#### Added
+- [cerebellar cortex volume](http://purl.obolibrary.org/obo/OBA_2050041) [label](http://www.w3.org/2000/01/rdf-schema#label) "cerebellar cortex volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cerebellar cortex volume](http://purl.obolibrary.org/obo/OBA_2050041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a cerebellar cortex."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cerebellar cortex volume](http://purl.obolibrary.org/obo/OBA_2050041) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of cerebellar cortex"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [cerebellar cortex volume](http://purl.obolibrary.org/obo/OBA_2050041) 
+
+- [cerebellar cortex volume](http://purl.obolibrary.org/obo/OBA_2050041) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cerebellar cortex](http://purl.obolibrary.org/obo/UBERON_0002129)) 
+
+- [cerebellar cortex volume](http://purl.obolibrary.org/obo/OBA_2050041) SubClassOf [cerebellar cortex size](http://purl.obolibrary.org/obo/OBA_0002820) 
+
+- [cerebellar cortex volume](http://purl.obolibrary.org/obo/OBA_2050041) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
+### cerebral cortex volume `http://purl.obolibrary.org/obo/OBA_2050051`
+
+#### Added
+- [cerebral cortex volume](http://purl.obolibrary.org/obo/OBA_2050051) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of cerebral cortex"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cerebral cortex volume](http://purl.obolibrary.org/obo/OBA_2050051) [label](http://www.w3.org/2000/01/rdf-schema#label) "cerebral cortex volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cerebral cortex volume](http://purl.obolibrary.org/obo/OBA_2050051) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a cerebral cortex."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [cerebral cortex volume](http://purl.obolibrary.org/obo/OBA_2050051) 
+
+- [cerebral cortex volume](http://purl.obolibrary.org/obo/OBA_2050051) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cerebral cortex](http://purl.obolibrary.org/obo/UBERON_0000956)) 
+
+- [cerebral cortex volume](http://purl.obolibrary.org/obo/OBA_2050051) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [cerebral cortex volume](http://purl.obolibrary.org/obo/OBA_2050051) SubClassOf [cerebral cortex size](http://purl.obolibrary.org/obo/OBA_0002295) 
 
 
 ### cerebral organic aciduria `http://purl.obolibrary.org/obo/MONDO_0019213`
@@ -6018,6 +6259,42 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [cholangitis](http://purl.obolibrary.org/obo/MONDO_0004789) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [K83.0](http://purl.bioontology.org/ontology/ICD10CM/K83.0) 
 
 
+### cholesterol esterification `http://purl.obolibrary.org/obo/GO_0034435`
+#### Removed
+- [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [label](http://www.w3.org/2000/01/rdf-schema#label) "cholesterol esterification" 
+
+- [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A lipid modification process in which a sterol ester is formed by the combination of a carboxylic acid (often a fatty acid) and cholesterol. In the blood this process is associated with the conversion of free cholesterol into cholesteryl ester, which is then sequestered into the core of a lipoprotein particle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pde"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rl"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) SubClassOf [sterol esterification](http://purl.obolibrary.org/obo/GO_0034434) 
+
+#### Added
+- [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [consider](http://www.geneontology.org/formats/oboInOwl#consider) "GO:0008203" 
+
+- [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cholesterol esterification" 
+
+- [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A lipid modification process in which a sterol ester is formed by the combination of a carboxylic acid (often a fatty acid) and cholesterol. In the blood this process is associated with the conversion of free cholesterol into cholesteryl ester, which is then sequestered into the core of a lipoprotein particle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pde"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rl"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19255"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### cholesterol esterification rate `http://purl.obolibrary.org/obo/OBA_0002423`
 #### Removed
 - [cholesterol esterification rate](http://purl.obolibrary.org/obo/OBA_0002423) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "rate of cholesterol esterification"^^[string](http://www.w3.org/2001/XMLSchema#string) 
@@ -6026,9 +6303,9 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [cholesterol esterification rate](http://purl.obolibrary.org/obo/OBA_0002423) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The rate of a cholesterol esterification."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [cholesterol esterification rate](http://purl.obolibrary.org/obo/OBA_0002423) EquivalentTo [rate](http://purl.obolibrary.org/obo/PATO_0000161) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435)) 
+- [cholesterol esterification rate](http://purl.obolibrary.org/obo/OBA_0002423) EquivalentTo [rate](http://purl.obolibrary.org/obo/PATO_0000161) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435)) 
 
-- [cholesterol esterification rate](http://purl.obolibrary.org/obo/OBA_0002423) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) 
+- [cholesterol esterification rate](http://purl.obolibrary.org/obo/OBA_0002423) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) 
 
 - [cholesterol esterification rate](http://purl.obolibrary.org/obo/OBA_0002423) SubClassOf [metabolism trait](http://purl.obolibrary.org/obo/OBA_VT0002121) 
 
@@ -6643,6 +6920,28 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [chronic tympanitis](http://purl.obolibrary.org/obo/MONDO_0001227) EquivalentTo [tympanitis](http://purl.obolibrary.org/obo/MONDO_0024616) and ([bearer of](http://purl.obolibrary.org/obo/RO_0000053) some [chronic](http://purl.obolibrary.org/obo/PATO_0001863)) 
 
 
+### cingulate cortex volume `http://purl.obolibrary.org/obo/OBA_2050025`
+
+#### Added
+- [cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050025) [label](http://www.w3.org/2000/01/rdf-schema#label) "cingulate cortex volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050025) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a cingulate cortex."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050025) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of cingulate cortex"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050025) 
+
+- [cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050025) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0003027)) 
+
+- [cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050025) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0003027) 
+
+- [cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050025) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050025) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
 ### cleaved_peptide_region `http://purl.obolibrary.org/obo/SO_0100011`
 
 #### Added
@@ -7109,6 +7408,98 @@ Each of these 3 primitives can be composed to yield a cross-product of different
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:17157" 
 
 
+### cuneus cortex `http://purl.obolibrary.org/obo/UBERON_0006092`
+
+#### Added
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cuneus gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61903" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61903" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0152307" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1396" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:157" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1396" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:Cun" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cuneate lobule" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1396" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus cuneus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:157" 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [label](http://www.w3.org/2000/01/rdf-schema#label) "cuneus cortex" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0006092" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cuneus of hemisphere" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61903" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cuneus of hemisphere" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1396" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Cuneus" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:279199007" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1396" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cuneus cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1396" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cuneus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1396" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cuneate lobule" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61903" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the occipital lobe. The rostral boundary was the first coronal slice above the calcarine sulcus where the cuneus cortex becomes visible whereas the caudal boundary was the last slice where the calcarine sulcus was visualized. The medial boundary was the most medial portion of the occipital and parietal cortices. The superio-lateral boundary was the parieto-occipital fissure whereas the inferolateral boundary was the pericalcarine cortex (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1396" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4184" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cuneus gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1396" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:12150" 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- Class: [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) 
+
+- [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) SubClassOf [occipital gyrus](http://purl.obolibrary.org/obo/UBERON_0014640) 
+
+
+### cuneus cortex volume `http://purl.obolibrary.org/obo/OBA_2050028`
+
+#### Added
+- [cuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050028) [label](http://www.w3.org/2000/01/rdf-schema#label) "cuneus cortex volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050028) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of cuneus cortex"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [cuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050028) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a cuneus cortex."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [cuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050028) 
+
+- [cuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050028) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092)) 
+
+- [cuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050028) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [cuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006092) 
+
+- [cuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050028) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [cuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050028) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
 ### cutaneous neuroendocrine carcinoma `http://purl.obolibrary.org/obo/MONDO_0019210`
 #### Removed
 - [cutaneous neuroendocrine carcinoma](http://purl.obolibrary.org/obo/MONDO_0019210) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ICD10CM:C44.6" 
@@ -7248,12 +7639,12 @@ Each of these 3 primitives can be composed to yield a cross-product of different
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:0015107" 
 
 
-### device utilizes material `http://purl.obolibrary.org/obo/RO_0017001`
+### deviation `http://purl.obolibrary.org/obo/PATO_0002175`
 #### Removed
-- [device utilizes material](http://purl.obolibrary.org/obo/RO_0017001) [label](http://www.w3.org/2000/01/rdf-schema#label) "utilizes"@en 
+- [deviation](http://purl.obolibrary.org/obo/PATO_0002175) [label](http://www.w3.org/2000/01/rdf-schema#label) "deviation" 
 
-- [device utilizes material](http://purl.obolibrary.org/obo/RO_0017001) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "X utilizes Y means X and Y are material entities, and X is capable of some process P that has input Y." 
-
+#### Added
+- [deviation](http://purl.obolibrary.org/obo/PATO_0002175) [label](http://www.w3.org/2000/01/rdf-schema#label) "spatial deviation" 
 
 
 ### diabetes mellitus `http://purl.obolibrary.org/obo/MONDO_0005015`
@@ -7375,6 +7766,20 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [diastema size](http://purl.obolibrary.org/obo/OBA_2030002) SubClassOf [diastema morphology](http://purl.obolibrary.org/obo/OBA_2030001) 
 
 
+### difference of sexual differentiation `http://purl.obolibrary.org/obo/MONDO_0002145`
+#### Removed
+- [difference of sexual differentiation](http://purl.obolibrary.org/obo/MONDO_0002145) [label](http://www.w3.org/2000/01/rdf-schema#label) "difference of sexual differentiation" 
+
+- [difference of sexual differentiation](http://purl.obolibrary.org/obo/MONDO_0002145) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "https://github.com/monarch-initiative/mondo/issues/4091" 
+
+#### Added
+- [difference of sexual differentiation](http://purl.obolibrary.org/obo/MONDO_0002145) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/4091"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [difference of sexual differentiation](http://purl.obolibrary.org/obo/MONDO_0002145) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/4949"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [difference of sexual differentiation](http://purl.obolibrary.org/obo/MONDO_0002145) [label](http://www.w3.org/2000/01/rdf-schema#label) "disorder of sexual differentiation" 
+
+
 ### differentiated thyroid carcinoma `http://purl.obolibrary.org/obo/MONDO_0015447`
 #### Removed
 - [differentiated thyroid carcinoma](http://purl.obolibrary.org/obo/MONDO_0015447) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ICD10CM:C73" 
@@ -7440,24 +7845,24 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [digestive system neuroendocrine tumor, grade 1/2](http://purl.obolibrary.org/obo/MONDO_0000386) SubClassOf [bearer of](http://purl.obolibrary.org/obo/RO_0000053) some [tumor grade 1 or 2, general grading system](http://purl.obolibrary.org/obo/MONDO_0024495) 
 
 
-### digit spatial deviation `http://purl.obolibrary.org/obo/OBA_0003339`
+### digit deviation `http://purl.obolibrary.org/obo/OBA_0003339`
 #### Removed
-- [digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0003339) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of digit"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [digit deviation](http://purl.obolibrary.org/obo/OBA_0003339) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of digit"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0003339) [label](http://www.w3.org/2000/01/rdf-schema#label) "digit deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [digit deviation](http://purl.obolibrary.org/obo/OBA_0003339) [label](http://www.w3.org/2000/01/rdf-schema#label) "digit deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0003339) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a digit."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [digit deviation](http://purl.obolibrary.org/obo/OBA_0003339) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a digit."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0003339) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a digit."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [digit deviation](http://purl.obolibrary.org/obo/OBA_0003339) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a digit."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0003339) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of digit"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [digit deviation](http://purl.obolibrary.org/obo/OBA_0003339) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of digit"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0003339) [label](http://www.w3.org/2000/01/rdf-schema#label) "digit spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [digit deviation](http://purl.obolibrary.org/obo/OBA_0003339) [label](http://www.w3.org/2000/01/rdf-schema#label) "digit spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
 ### dioxygen `http://purl.obolibrary.org/obo/CHEBI_15379`
@@ -7494,22 +7899,22 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [disorder of appendix](http://purl.obolibrary.org/obo/MONDO_0056798) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [K35-K38](http://purl.bioontology.org/ontology/ICD10CM/K35-K38) 
 
 
-### disorder of carbohydrate transmembrane transport and absorption `http://purl.obolibrary.org/obo/MONDO_0017706`
+### disorder of carbohydrate absorption and transport `http://purl.obolibrary.org/obo/MONDO_0017706`
 #### Removed
-- [disorder of carbohydrate transmembrane transport and absorption](http://purl.obolibrary.org/obo/MONDO_0017706) [label](http://www.w3.org/2000/01/rdf-schema#label) "disorder of carbohydrate absorption and transport" 
+- [disorder of carbohydrate absorption and transport](http://purl.obolibrary.org/obo/MONDO_0017706) [label](http://www.w3.org/2000/01/rdf-schema#label) "disorder of carbohydrate absorption and transport" 
 
-- [disorder of carbohydrate transmembrane transport and absorption](http://purl.obolibrary.org/obo/MONDO_0017706) SubClassOf [inborn carbohydrate metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0019214) 
+- [disorder of carbohydrate absorption and transport](http://purl.obolibrary.org/obo/MONDO_0017706) SubClassOf [inborn carbohydrate metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0019214) 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:309001" 
 
 #### Added
-- [disorder of carbohydrate transmembrane transport and absorption](http://purl.obolibrary.org/obo/MONDO_0017706) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/4985"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+- [disorder of carbohydrate absorption and transport](http://purl.obolibrary.org/obo/MONDO_0017706) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/4985"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [disorder of carbohydrate transmembrane transport and absorption](http://purl.obolibrary.org/obo/MONDO_0017706) [label](http://www.w3.org/2000/01/rdf-schema#label) "disorder of carbohydrate transmembrane transport and absorption" 
+- [disorder of carbohydrate absorption and transport](http://purl.obolibrary.org/obo/MONDO_0017706) [label](http://www.w3.org/2000/01/rdf-schema#label) "disorder of carbohydrate transmembrane transport and absorption" 
 
-- [disorder of carbohydrate transmembrane transport and absorption](http://purl.obolibrary.org/obo/MONDO_0017706) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "disorder of carbohydrate absorption and transport" 
+- [disorder of carbohydrate absorption and transport](http://purl.obolibrary.org/obo/MONDO_0017706) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "disorder of carbohydrate absorption and transport" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Orphanet:309001" 
 
-- [disorder of carbohydrate transmembrane transport and absorption](http://purl.obolibrary.org/obo/MONDO_0017706) SubClassOf [inborn carbohydrate metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0019214) 
+- [disorder of carbohydrate absorption and transport](http://purl.obolibrary.org/obo/MONDO_0017706) SubClassOf [inborn carbohydrate metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0019214) 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:309001" 
 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "PMID:33340416"^^[string](http://www.w3.org/2001/XMLSchema#string) 
@@ -7565,46 +7970,6 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 
 
-### disorder of gluconeogenesis `http://purl.obolibrary.org/obo/MONDO_0019225`
-#### Removed
-- [disorder of gluconeogenesis](http://purl.obolibrary.org/obo/MONDO_0019225) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [E74.4](https://icd.codes/icd10cm/E74.4) 
-
-- [disorder of gluconeogenesis](http://purl.obolibrary.org/obo/MONDO_0019225) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ICD10CM:E74.4" 
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79177/attributed" 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79177/ntbt" 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79177" 
-
-- [disorder of gluconeogenesis](http://purl.obolibrary.org/obo/MONDO_0019225) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An acquired metabolic disease that is has its basis in the disruption of gluconeogenesis." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [disorder of gluconeogenesis](http://purl.obolibrary.org/obo/MONDO_0019225) [label](http://www.w3.org/2000/01/rdf-schema#label) "gluconeogenesis disorder" 
-
-- [disorder of gluconeogenesis](http://purl.obolibrary.org/obo/MONDO_0019225) SubClassOf [inborn carbohydrate metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0019214) 
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:Redundant"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79177" 
-
-#### Added
-- [disorder of gluconeogenesis](http://purl.obolibrary.org/obo/MONDO_0019225) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An inherited metabolic disease that is has its basis in the disruption of gluconeogenesis." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [disorder of gluconeogenesis](http://purl.obolibrary.org/obo/MONDO_0019225) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/4985"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [disorder of gluconeogenesis](http://purl.obolibrary.org/obo/MONDO_0019225) [label](http://www.w3.org/2000/01/rdf-schema#label) "disorder of gluconeogenesis" 
-
-- [disorder of gluconeogenesis](http://purl.obolibrary.org/obo/MONDO_0019225) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "gluconeogenesis disorder" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [disorder of gluconeogenesis](http://purl.obolibrary.org/obo/MONDO_0019225) SubClassOf [inborn carbohydrate metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0019214) 
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:Redundant"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79177" 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "PMID:33340416"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-
 ### disorder of glutamine metabolism `http://purl.obolibrary.org/obo/MONDO_0017352`
 #### Removed
 - [disorder of glutamine metabolism](http://purl.obolibrary.org/obo/MONDO_0017352) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [E72.8](https://icd.codes/icd10cm/E72.8) 
@@ -7616,44 +7981,6 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:289841/ntbt" 
 
-
-
-### disorder of glycogen metabolism `http://purl.obolibrary.org/obo/MONDO_0002412`
-#### Removed
-- [disorder of glycogen metabolism](http://purl.obolibrary.org/obo/MONDO_0002412) [label](http://www.w3.org/2000/01/rdf-schema#label) "glycogen storage disease" 
-
-- [disorder of glycogen metabolism](http://purl.obolibrary.org/obo/MONDO_0002412) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [E74.0](https://icd.codes/icd10cm/E74.0) 
-
-- [disorder of glycogen metabolism](http://purl.obolibrary.org/obo/MONDO_0002412) SubClassOf [inborn carbohydrate metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0019214) 
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:2747/inferred" 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79201" 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:Redundant"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:0050728" 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MESH:D006008" 
-
-#### Added
-- [disorder of glycogen metabolism](http://purl.obolibrary.org/obo/MONDO_0002412) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [E74.0](http://purl.bioontology.org/ontology/ICD10CM/E74.0) 
-
-- [disorder of glycogen metabolism](http://purl.obolibrary.org/obo/MONDO_0002412) [label](http://www.w3.org/2000/01/rdf-schema#label) "disorder of glycogen metabolism" 
-
-- [disorder of glycogen metabolism](http://purl.obolibrary.org/obo/MONDO_0002412) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/4985"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [disorder of glycogen metabolism](http://purl.obolibrary.org/obo/MONDO_0002412) SubClassOf [inborn carbohydrate metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0019214) 
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:2747/inferred" 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79201" 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:Redundant"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:0050728" 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "PMID:33340416"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MESH:D006008" 
 
 
 ### disorder of glycolysis `http://purl.obolibrary.org/obo/MONDO_0017688`
@@ -7756,7 +8083,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 - [disorder of phenylalanine metabolism](http://purl.obolibrary.org/obo/MONDO_0017306) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [E70.0](https://icd.codes/icd10cm/E70.0) 
 
-- [disorder of phenylalanine metabolism](http://purl.obolibrary.org/obo/MONDO_0017306) SubClassOf [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) 
+- [disorder of phenylalanine metabolism](http://purl.obolibrary.org/obo/MONDO_0017306) SubClassOf [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) 
 
 #### Added
 - [disorder of phenylalanine metabolism](http://purl.obolibrary.org/obo/MONDO_0017306) SubClassOf [amino acid metabolism disease](http://purl.obolibrary.org/obo/MONDO_0037871) 
@@ -7790,23 +8117,9 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 
 
-### disorder of sexual differentiation `http://purl.obolibrary.org/obo/MONDO_0002145`
-#### Removed
-- [disorder of sexual differentiation](http://purl.obolibrary.org/obo/MONDO_0002145) [label](http://www.w3.org/2000/01/rdf-schema#label) "difference of sexual differentiation" 
-
-- [disorder of sexual differentiation](http://purl.obolibrary.org/obo/MONDO_0002145) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "https://github.com/monarch-initiative/mondo/issues/4091" 
-
-#### Added
-- [disorder of sexual differentiation](http://purl.obolibrary.org/obo/MONDO_0002145) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/4091"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [disorder of sexual differentiation](http://purl.obolibrary.org/obo/MONDO_0002145) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/4949"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [disorder of sexual differentiation](http://purl.obolibrary.org/obo/MONDO_0002145) [label](http://www.w3.org/2000/01/rdf-schema#label) "disorder of sexual differentiation" 
-
-
 ### disorder of tyrosine metabolism `http://purl.obolibrary.org/obo/MONDO_0017307`
 #### Removed
-- [disorder of tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0017307) SubClassOf [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) 
+- [disorder of tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0017307) SubClassOf [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) 
 
 #### Added
 - [disorder of tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0017307) SubClassOf [amino acid metabolism disease](http://purl.obolibrary.org/obo/MONDO_0037871) 
@@ -7826,43 +8139,43 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [disorder of visual system](http://purl.obolibrary.org/obo/MONDO_0024458) SubClassOf [human disease or disorder](http://purl.obolibrary.org/obo/MONDO_0700096) 
 
 
-### distal phalanx of manual digit 1 spatial deviation `http://purl.obolibrary.org/obo/OBA_0002668`
+### distal phalanx of manual digit 1 deviation `http://purl.obolibrary.org/obo/OBA_0002668`
 #### Removed
-- [distal phalanx of manual digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002668) [label](http://www.w3.org/2000/01/rdf-schema#label) "distal phalanx of manual digit 1 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [distal phalanx of manual digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002668) [label](http://www.w3.org/2000/01/rdf-schema#label) "distal phalanx of manual digit 1 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [distal phalanx of manual digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002668) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a distal phalanx of manual digit 1."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [distal phalanx of manual digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002668) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a distal phalanx of manual digit 1."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [distal phalanx of manual digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002668) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of distal phalanx of manual digit 1"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [distal phalanx of manual digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002668) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of distal phalanx of manual digit 1"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [distal phalanx of manual digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002668) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a distal phalanx of manual digit 1."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [distal phalanx of manual digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002668) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a distal phalanx of manual digit 1."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [distal phalanx of manual digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002668) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of distal phalanx of manual digit 1"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [distal phalanx of manual digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002668) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of distal phalanx of manual digit 1"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [distal phalanx of manual digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002668) [label](http://www.w3.org/2000/01/rdf-schema#label) "distal phalanx of manual digit 1 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [distal phalanx of manual digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002668) [label](http://www.w3.org/2000/01/rdf-schema#label) "distal phalanx of manual digit 1 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
-### distal phalanx of manual digit 5 spatial deviation `http://purl.obolibrary.org/obo/OBA_0002656`
+### distal phalanx of manual digit 5 deviation `http://purl.obolibrary.org/obo/OBA_0002656`
 #### Removed
-- [distal phalanx of manual digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002656) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of distal phalanx of manual digit 5"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [distal phalanx of manual digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002656) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of distal phalanx of manual digit 5"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [distal phalanx of manual digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002656) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a distal phalanx of manual digit 5."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [distal phalanx of manual digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002656) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a distal phalanx of manual digit 5."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [distal phalanx of manual digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002656) [label](http://www.w3.org/2000/01/rdf-schema#label) "distal phalanx of manual digit 5 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [distal phalanx of manual digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002656) [label](http://www.w3.org/2000/01/rdf-schema#label) "distal phalanx of manual digit 5 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [distal phalanx of manual digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002656) [label](http://www.w3.org/2000/01/rdf-schema#label) "distal phalanx of manual digit 5 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [distal phalanx of manual digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002656) [label](http://www.w3.org/2000/01/rdf-schema#label) "distal phalanx of manual digit 5 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [distal phalanx of manual digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002656) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of distal phalanx of manual digit 5"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [distal phalanx of manual digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002656) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of distal phalanx of manual digit 5"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [distal phalanx of manual digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002656) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a distal phalanx of manual digit 5."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [distal phalanx of manual digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002656) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a distal phalanx of manual digit 5."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
@@ -7889,12 +8202,12 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 
 
-### ductus venosus closure trait `http://purl.obolibrary.org/obo/OBA_0003896`
+### ductus venosus closure `http://purl.obolibrary.org/obo/OBA_0003896`
 #### Removed
-- [ductus venosus closure trait](http://purl.obolibrary.org/obo/OBA_0003896) [label](http://www.w3.org/2000/01/rdf-schema#label) "ductus venosus closure"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [ductus venosus closure](http://purl.obolibrary.org/obo/OBA_0003896) [label](http://www.w3.org/2000/01/rdf-schema#label) "ductus venosus closure"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [ductus venosus closure trait](http://purl.obolibrary.org/obo/OBA_0003896) [label](http://www.w3.org/2000/01/rdf-schema#label) "ductus venosus closure trait"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [ductus venosus closure](http://purl.obolibrary.org/obo/OBA_0003896) [label](http://www.w3.org/2000/01/rdf-schema#label) "ductus venosus closure trait"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
 ### duodenal neuroendocrine tumor, well differentiated, low or intermediate grade `http://purl.obolibrary.org/obo/MONDO_0015063`
@@ -8158,6 +8471,28 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
 
 - [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+
+### entorhinal cortex volume `http://purl.obolibrary.org/obo/OBA_2050036`
+
+#### Added
+- [entorhinal cortex volume](http://purl.obolibrary.org/obo/OBA_2050036) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a entorhinal cortex."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [entorhinal cortex volume](http://purl.obolibrary.org/obo/OBA_2050036) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of entorhinal cortex"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [entorhinal cortex volume](http://purl.obolibrary.org/obo/OBA_2050036) [label](http://www.w3.org/2000/01/rdf-schema#label) "entorhinal cortex volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [entorhinal cortex volume](http://purl.obolibrary.org/obo/OBA_2050036) 
+
+- [entorhinal cortex volume](http://purl.obolibrary.org/obo/OBA_2050036) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [entorhinal cortex](http://purl.obolibrary.org/obo/UBERON_0002728)) 
+
+- [entorhinal cortex volume](http://purl.obolibrary.org/obo/OBA_2050036) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [entorhinal cortex volume](http://purl.obolibrary.org/obo/OBA_2050036) SubClassOf [entorhinal cortex morphology](http://purl.obolibrary.org/obo/OBA_0004220) 
+
+- [entorhinal cortex volume](http://purl.obolibrary.org/obo/OBA_2050036) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
 
 
 ### enzyme activator activity `http://purl.obolibrary.org/obo/GO_0008047`
@@ -9110,7 +9445,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [fat-soluble vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000976) EquivalentTo [amount](http://purl.obolibrary.org/obo/PATO_0000070) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some 
 ([chemical entity](http://purl.obolibrary.org/obo/CHEBI_24431) and ([has role](http://purl.obolibrary.org/obo/RO_0000087) some [fat-soluble vitamin (role)](http://purl.obolibrary.org/obo/CHEBI_24020)))) 
 
-- [fat-soluble vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000976) SubClassOf [vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000982) 
+- [fat-soluble vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000976) SubClassOf [vitamin amount](http://purl.obolibrary.org/obo/OBA_1000982) 
 
 - [fat-soluble vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000976) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some 
 ([chemical entity](http://purl.obolibrary.org/obo/CHEBI_24431) and ([has role](http://purl.obolibrary.org/obo/RO_0000087) some [fat-soluble vitamin (role)](http://purl.obolibrary.org/obo/CHEBI_24020))) 
@@ -9302,6 +9637,132 @@ Each of these 3 primitives can be composed to yield a cross-product of different
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:0050836" 
 
 
+### fourth ventricle volume `http://purl.obolibrary.org/obo/OBA_2050047`
+
+#### Added
+- [fourth ventricle volume](http://purl.obolibrary.org/obo/OBA_2050047) [label](http://www.w3.org/2000/01/rdf-schema#label) "fourth ventricle volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [fourth ventricle volume](http://purl.obolibrary.org/obo/OBA_2050047) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a fourth ventricle."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [fourth ventricle volume](http://purl.obolibrary.org/obo/OBA_2050047) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of fourth ventricle"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [fourth ventricle volume](http://purl.obolibrary.org/obo/OBA_2050047) 
+
+- [fourth ventricle volume](http://purl.obolibrary.org/obo/OBA_2050047) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [fourth ventricle](http://purl.obolibrary.org/obo/UBERON_0002422)) 
+
+- [fourth ventricle volume](http://purl.obolibrary.org/obo/OBA_2050047) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [fourth ventricle volume](http://purl.obolibrary.org/obo/OBA_2050047) SubClassOf [fourth ventricle size trait](http://purl.obolibrary.org/obo/OBA_VT0000829) 
+
+
+### frontal lobe volume `http://purl.obolibrary.org/obo/OBA_2050039`
+
+#### Added
+- [frontal lobe volume](http://purl.obolibrary.org/obo/OBA_2050039) [label](http://www.w3.org/2000/01/rdf-schema#label) "frontal lobe volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [frontal lobe volume](http://purl.obolibrary.org/obo/OBA_2050039) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of frontal lobe"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [frontal lobe volume](http://purl.obolibrary.org/obo/OBA_2050039) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a frontal lobe."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [frontal lobe volume](http://purl.obolibrary.org/obo/OBA_2050039) 
+
+- [frontal lobe volume](http://purl.obolibrary.org/obo/OBA_2050039) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [frontal lobe](http://purl.obolibrary.org/obo/UBERON_0016525)) 
+
+- [frontal lobe volume](http://purl.obolibrary.org/obo/OBA_2050039) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [frontal lobe volume](http://purl.obolibrary.org/obo/OBA_2050039) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [frontal lobe](http://purl.obolibrary.org/obo/UBERON_0016525) 
+
+- [frontal lobe volume](http://purl.obolibrary.org/obo/OBA_2050039) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
+### frontal pole `http://purl.obolibrary.org/obo/UBERON_0002795`
+
+#### Added
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "frontal pole, cerebral cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:FRP" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MBA:184" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [depicted_by](http://xmlns.com/foaf/0.1/depicted_by) "http://upload.wikimedia.org/wikipedia/commons/e/e3/Human_brain_lateral_view_description.JPG"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:146034888" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:74885" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [uberon_slim](http://purl.obolibrary.org/obo/uberon/core#uberon_slim) 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:57" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1716" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the frontal lobe. The rostral and caudal boundaries of the frontal pole are the superior frontal gyrus and the rostral division of the middle frontal gyrus respectively (Christine Fennama-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1716" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0149546" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1716" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:314144002" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [label](http://www.w3.org/2000/01/rdf-schema#label) "frontal pole" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:FRP" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:frp" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:FrP" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "frontal pole" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:74885" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0002795" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "polus frontalis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:57" 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1716" 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4888" 
+
+- Class: [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) SubClassOf [pole of cerebral hemisphere](http://purl.obolibrary.org/obo/UBERON_0009899) 
+
+- [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [frontal lobe](http://purl.obolibrary.org/obo/UBERON_0016525) 
+
+
+### frontal pole volume `http://purl.obolibrary.org/obo/OBA_2050011`
+
+#### Added
+- [frontal pole volume](http://purl.obolibrary.org/obo/OBA_2050011) [label](http://www.w3.org/2000/01/rdf-schema#label) "frontal pole volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [frontal pole volume](http://purl.obolibrary.org/obo/OBA_2050011) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of frontal pole"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [frontal pole volume](http://purl.obolibrary.org/obo/OBA_2050011) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a frontal pole."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [frontal pole volume](http://purl.obolibrary.org/obo/OBA_2050011) 
+
+- [frontal pole volume](http://purl.obolibrary.org/obo/OBA_2050011) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795)) 
+
+- [frontal pole volume](http://purl.obolibrary.org/obo/OBA_2050011) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [frontal pole](http://purl.obolibrary.org/obo/UBERON_0002795) 
+
+- [frontal pole volume](http://purl.obolibrary.org/obo/OBA_2050011) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [frontal pole volume](http://purl.obolibrary.org/obo/OBA_2050011) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+
 ### frontal sinus cancer `http://purl.obolibrary.org/obo/MONDO_0001756`
 #### Removed
 - [frontal sinus cancer](http://purl.obolibrary.org/obo/MONDO_0001756) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [C31.2](https://icd.codes/icd10cm/C31.2) 
@@ -9362,17 +9823,17 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [fructosamine](http://purl.obolibrary.org/obo/CHEBI_24103) SubClassOf [hexosamine](http://purl.obolibrary.org/obo/CHEBI_24586) 
 
 
-### gallbladder development `http://purl.obolibrary.org/obo/GO_0061010`
+### gall bladder development `http://purl.obolibrary.org/obo/GO_0061010`
 #### Removed
-- [gallbladder development](http://purl.obolibrary.org/obo/GO_0061010) [label](http://www.w3.org/2000/01/rdf-schema#label) "gall bladder development" 
+- [gall bladder development](http://purl.obolibrary.org/obo/GO_0061010) [label](http://www.w3.org/2000/01/rdf-schema#label) "gall bladder development" 
 
-- [gallbladder development](http://purl.obolibrary.org/obo/GO_0061010) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The progression of the gall bladder over time, from its initial formation to the mature structure. The gall bladder is a cavitated organ that stores bile." 
+- [gall bladder development](http://purl.obolibrary.org/obo/GO_0061010) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The progression of the gall bladder over time, from its initial formation to the mature structure. The gall bladder is a cavitated organ that stores bile." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
 #### Added
-- [gallbladder development](http://purl.obolibrary.org/obo/GO_0061010) [label](http://www.w3.org/2000/01/rdf-schema#label) "gallbladder development" 
+- [gall bladder development](http://purl.obolibrary.org/obo/GO_0061010) [label](http://www.w3.org/2000/01/rdf-schema#label) "gallbladder development" 
 
-- [gallbladder development](http://purl.obolibrary.org/obo/GO_0061010) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The progression of the gallbladder over time, from its initial formation to the mature structure. The gallbladder is a cavitated organ that stores bile." 
+- [gall bladder development](http://purl.obolibrary.org/obo/GO_0061010) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The progression of the gallbladder over time, from its initial formation to the mature structure. The gallbladder is a cavitated organ that stores bile." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
 
@@ -9406,6 +9867,21 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 #### Added
 - [ganglion](http://purl.obolibrary.org/obo/UBERON_0000045) SubClassOf [cell cluster organ](http://purl.obolibrary.org/obo/UBERON_0010001) 
+
+
+### gas homeostasis `http://purl.obolibrary.org/obo/GO_0033483`
+
+#### Added
+- [gas homeostasis](http://purl.obolibrary.org/obo/GO_0033483) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/24224"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [gas homeostasis](http://purl.obolibrary.org/obo/GO_0033483) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [gas homeostasis](http://purl.obolibrary.org/obo/GO_0033483) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A homeostatic process involved in the maintenance of an internal steady state of a gas within an organism or cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [gas homeostasis](http://purl.obolibrary.org/obo/GO_0033483) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete gas homeostasis" 
+
+- [gas homeostasis](http://purl.obolibrary.org/obo/GO_0033483) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it was an unnecessary grouping class." 
 
 
 ### gastric cancer `http://purl.obolibrary.org/obo/MONDO_0001056`
@@ -9990,6 +10466,46 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 
 
+### gluconeogenesis disorder `http://purl.obolibrary.org/obo/MONDO_0019225`
+#### Removed
+- [gluconeogenesis disorder](http://purl.obolibrary.org/obo/MONDO_0019225) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [E74.4](https://icd.codes/icd10cm/E74.4) 
+
+- [gluconeogenesis disorder](http://purl.obolibrary.org/obo/MONDO_0019225) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ICD10CM:E74.4" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79177/attributed" 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79177/ntbt" 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79177" 
+
+- [gluconeogenesis disorder](http://purl.obolibrary.org/obo/MONDO_0019225) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An acquired metabolic disease that is has its basis in the disruption of gluconeogenesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [gluconeogenesis disorder](http://purl.obolibrary.org/obo/MONDO_0019225) [label](http://www.w3.org/2000/01/rdf-schema#label) "gluconeogenesis disorder" 
+
+- [gluconeogenesis disorder](http://purl.obolibrary.org/obo/MONDO_0019225) SubClassOf [inborn carbohydrate metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0019214) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:Redundant"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79177" 
+
+#### Added
+- [gluconeogenesis disorder](http://purl.obolibrary.org/obo/MONDO_0019225) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An inherited metabolic disease that is has its basis in the disruption of gluconeogenesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [gluconeogenesis disorder](http://purl.obolibrary.org/obo/MONDO_0019225) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/4985"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [gluconeogenesis disorder](http://purl.obolibrary.org/obo/MONDO_0019225) [label](http://www.w3.org/2000/01/rdf-schema#label) "disorder of gluconeogenesis" 
+
+- [gluconeogenesis disorder](http://purl.obolibrary.org/obo/MONDO_0019225) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "gluconeogenesis disorder" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [gluconeogenesis disorder](http://purl.obolibrary.org/obo/MONDO_0019225) SubClassOf [inborn carbohydrate metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0019214) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:Redundant"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79177" 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "PMID:33340416"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+
 ### glucose transport disorder `http://purl.obolibrary.org/obo/MONDO_0019226`
 #### Removed
 - [glucose transport disorder](http://purl.obolibrary.org/obo/MONDO_0019226) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [E74.8](https://icd.codes/icd10cm/E74.8) 
@@ -10072,6 +10588,44 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 ([glycoprotein](http://purl.obolibrary.org/obo/PR_000037069) and ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [blood serum](http://purl.obolibrary.org/obo/UBERON_0001977))) 
 
 - [glycated serum protein amount](http://purl.obolibrary.org/obo/OBA_VT0010677) SubClassOf [blood protein amount](http://purl.obolibrary.org/obo/OBA_VT0005416) 
+
+
+### glycogen storage disease `http://purl.obolibrary.org/obo/MONDO_0002412`
+#### Removed
+- [glycogen storage disease](http://purl.obolibrary.org/obo/MONDO_0002412) [label](http://www.w3.org/2000/01/rdf-schema#label) "glycogen storage disease" 
+
+- [glycogen storage disease](http://purl.obolibrary.org/obo/MONDO_0002412) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [E74.0](https://icd.codes/icd10cm/E74.0) 
+
+- [glycogen storage disease](http://purl.obolibrary.org/obo/MONDO_0002412) SubClassOf [inborn carbohydrate metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0019214) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:2747/inferred" 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79201" 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:Redundant"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:0050728" 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MESH:D006008" 
+
+#### Added
+- [glycogen storage disease](http://purl.obolibrary.org/obo/MONDO_0002412) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [E74.0](http://purl.bioontology.org/ontology/ICD10CM/E74.0) 
+
+- [glycogen storage disease](http://purl.obolibrary.org/obo/MONDO_0002412) [label](http://www.w3.org/2000/01/rdf-schema#label) "disorder of glycogen metabolism" 
+
+- [glycogen storage disease](http://purl.obolibrary.org/obo/MONDO_0002412) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/4985"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [glycogen storage disease](http://purl.obolibrary.org/obo/MONDO_0002412) SubClassOf [inborn carbohydrate metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0019214) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:2747/inferred" 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79201" 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:Redundant"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:0050728" 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "PMID:33340416"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MESH:D006008" 
 
 
 ### glycoprotein `http://purl.obolibrary.org/obo/PR_000037069`
@@ -10298,12 +10852,12 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [granulocyte monocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0000557) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
 
 
-### growth rate trait `http://purl.obolibrary.org/obo/OBA_0002215`
+### growth rate `http://purl.obolibrary.org/obo/OBA_0002215`
 #### Removed
-- [growth rate trait](http://purl.obolibrary.org/obo/OBA_0002215) [label](http://www.w3.org/2000/01/rdf-schema#label) "growth rate"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [growth rate](http://purl.obolibrary.org/obo/OBA_0002215) [label](http://www.w3.org/2000/01/rdf-schema#label) "growth rate"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [growth rate trait](http://purl.obolibrary.org/obo/OBA_0002215) [label](http://www.w3.org/2000/01/rdf-schema#label) "growth rate trait"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [growth rate](http://purl.obolibrary.org/obo/OBA_0002215) [label](http://www.w3.org/2000/01/rdf-schema#label) "growth rate trait"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
 ### hard palate cancer `http://purl.obolibrary.org/obo/MONDO_0004719`
@@ -11004,6 +11558,132 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 
 
+### hippocampal fissure volume `http://purl.obolibrary.org/obo/OBA_2050043`
+
+#### Added
+- [hippocampal fissure volume](http://purl.obolibrary.org/obo/OBA_2050043) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a hippocampal sulcus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [hippocampal fissure volume](http://purl.obolibrary.org/obo/OBA_2050043) [label](http://www.w3.org/2000/01/rdf-schema#label) "hippocampal fissure volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [hippocampal fissure volume](http://purl.obolibrary.org/obo/OBA_2050043) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of hippocampal sulcus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [hippocampal fissure volume](http://purl.obolibrary.org/obo/OBA_2050043) 
+
+- [hippocampal fissure volume](http://purl.obolibrary.org/obo/OBA_2050043) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899)) 
+
+- [hippocampal fissure volume](http://purl.obolibrary.org/obo/OBA_2050043) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [hippocampal fissure volume](http://purl.obolibrary.org/obo/OBA_2050043) SubClassOf [anatomical entity attribute](http://purl.obolibrary.org/obo/OBA_0100003) 
+
+- [hippocampal fissure volume](http://purl.obolibrary.org/obo/OBA_2050043) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) 
+
+
+### hippocampal sulcus `http://purl.obolibrary.org/obo/UBERON_0002899`
+
+#### Added
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The hippocampal sulcus, also known as the hippocampal fissure, is a sulcus that separates the dentate gyrus from the subiculum and the CA1 field in the hippocampus. [WP,unvetted]." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Hippocampal_sulcus" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:4004" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [depicted_by](http://xmlns.com/foaf/0.1/depicted_by) "https://upload.wikimedia.org/wikipedia/commons/9/99/Hippocampus.gif"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:369101000" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0002899" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [label](http://www.w3.org/2000/01/rdf-schema#label) "hippocampal sulcus" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:42" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:4004" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0228251" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:4004" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "sulcus hippocampi" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:4004" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Hippocampal_sulcus" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EMAPA:36471" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0228251" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "ncithesaurus:Hippocampal_Fissure" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "HIS" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:4004" 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [ABBREVIATION](http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NIFSTD:NeuroNames_abbrevSource"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:10619" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:9394" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "sulcus hippocampalis" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Hippocampal_sulcus" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NCIT:C32743" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "hippocampal fissure" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:83747" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:his" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:83747" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "dentate fissure" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:83747" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:hf" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MBA:1063" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [uberon_slim](http://purl.obolibrary.org/obo/uberon/core#uberon_slim) 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "sulcus hippocampi" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Hippocampal_sulcus" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "hippocampal fissure (Gratiolet)" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:42" 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) [UBPROP_0000012](http://purl.obolibrary.org/obo/UBPROP_0000012) "two classes in ncit (in general ncit distinguishes between fissure and sulcus, whereas FMA treats these as exact synonyms)" 
+  - [external_ontology](http://www.geneontology.org/formats/oboInOwl#external_ontology) "ncit" 
+
+- Class: [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) 
+
+- [hippocampal sulcus](http://purl.obolibrary.org/obo/UBERON_0002899) SubClassOf [subarachnoid sulcus](http://purl.obolibrary.org/obo/UBERON_0008334) 
+
+
+### hippocampus molecular layer volume `http://purl.obolibrary.org/obo/OBA_2050050`
+
+#### Added
+- [hippocampus molecular layer volume](http://purl.obolibrary.org/obo/OBA_2050050) [label](http://www.w3.org/2000/01/rdf-schema#label) "hippocampus molecular layer volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [hippocampus molecular layer volume](http://purl.obolibrary.org/obo/OBA_2050050) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a hippocampus molecular layer."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [hippocampus molecular layer volume](http://purl.obolibrary.org/obo/OBA_2050050) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of hippocampus molecular layer"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [hippocampus molecular layer volume](http://purl.obolibrary.org/obo/OBA_2050050) 
+
+- [hippocampus molecular layer volume](http://purl.obolibrary.org/obo/OBA_2050050) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [hippocampus molecular layer](http://purl.obolibrary.org/obo/UBERON_0005368)) 
+
+- [hippocampus molecular layer volume](http://purl.obolibrary.org/obo/OBA_2050050) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [hippocampus molecular layer volume](http://purl.obolibrary.org/obo/OBA_2050050) SubClassOf [hippocampus molecular layer size](http://purl.obolibrary.org/obo/OBA_0005320) 
+
+
 ### homeostasis of number of cells `http://purl.obolibrary.org/obo/GO_0048872`
 #### Removed
 - [homeostasis of number of cells](http://purl.obolibrary.org/obo/GO_0048872) SubClassOf [homeostatic process](http://purl.obolibrary.org/obo/GO_0042592) 
@@ -11456,12 +12136,12 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [immediately causally upstream of](http://purl.obolibrary.org/obo/RO_0002412) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "p is immediately causally upstream of q iff p is causally upstream of q, and the end of p is coincident with the beginning of q." 
 
 
-### immediately precedes `http://purl.obolibrary.org/obo/RO_0002090`
+### immediately_precedes `http://purl.obolibrary.org/obo/RO_0002090`
 #### Removed
-- [immediately precedes](http://purl.obolibrary.org/obo/RO_0002090) [label](http://www.w3.org/2000/01/rdf-schema#label) "immediately_precedes" 
+- [immediately_precedes](http://purl.obolibrary.org/obo/RO_0002090) [label](http://www.w3.org/2000/01/rdf-schema#label) "immediately_precedes" 
 
 #### Added
-- [immediately precedes](http://purl.obolibrary.org/obo/RO_0002090) [label](http://www.w3.org/2000/01/rdf-schema#label) "immediately precedes" 
+- [immediately_precedes](http://purl.obolibrary.org/obo/RO_0002090) [label](http://www.w3.org/2000/01/rdf-schema#label) "immediately precedes" 
 
 
 ### immune system disorder `http://purl.obolibrary.org/obo/MONDO_0005046`
@@ -11521,7 +12201,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
   - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [PRO-short-label](http://purl.obolibrary.org/obo/pr#PRO-short-label) 
 
 - [immunoglobulin heavy chain protein](http://purl.obolibrary.org/obo/PR_000050174) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein that is a translation product of some mRNA produced by a somatically recombined immunoglobulin heavy chain locus." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PRO:ADD"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PRO:ADD" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
 
@@ -11552,45 +12232,12 @@ Each of these 3 primitives can be composed to yield a cross-product of different
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
-### inborn disorder of amino acid metabolism `http://purl.obolibrary.org/obo/MONDO_0004736`
-#### Removed
-- [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inborn error of amino acid metabolism" 
-
-- [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) [label](http://www.w3.org/2000/01/rdf-schema#label) "inherited amino acid metabolic disorder" 
-
-- [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) EquivalentTo [inborn errors of metabolism](http://purl.obolibrary.org/obo/MONDO_0019052) and ([disease caused by disruption of](http://purl.obolibrary.org/obo/RO_0004021) some [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520)) 
-
-- [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) SubClassOf [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) 
-
-- [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) SubClassOf [amino acid metabolism disease](http://purl.obolibrary.org/obo/MONDO_0037871) 
-
-#### Added
-- [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inborn error of amino acid metabolism" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) [label](http://www.w3.org/2000/01/rdf-schema#label) "inborn disorder of amino acid metabolism" 
-
-- [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inherited amino acid metabolic disorder" 
-
-- [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:44779003" 
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:relatedTo"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:9252" 
-
-- [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) SubClassOf [inborn errors of metabolism](http://purl.obolibrary.org/obo/MONDO_0019052) 
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:indirect"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MESH:D000592" 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:9252" 
-
-
 ### inborn disorder of aspartate family metabolism `http://purl.obolibrary.org/obo/MONDO_0037938`
 #### Removed
 - [inborn disorder of aspartate family metabolism](http://purl.obolibrary.org/obo/MONDO_0037938) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An acquired metabolic disease that is has its basis in the disruption of aspartate family amino acid metabolic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [inborn disorder of aspartate family metabolism](http://purl.obolibrary.org/obo/MONDO_0037938) SubClassOf [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) 
+- [inborn disorder of aspartate family metabolism](http://purl.obolibrary.org/obo/MONDO_0037938) SubClassOf [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) 
 
 #### Added
 - [inborn disorder of aspartate family metabolism](http://purl.obolibrary.org/obo/MONDO_0037938) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An inherited metabolic disease that is has its basis in the disruption of aspartate family amino acid metabolic process." 
@@ -11603,7 +12250,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 ### inborn disorder of bile acid synthesis `http://purl.obolibrary.org/obo/MONDO_0019218`
 #### Removed
-- [inborn disorder of bile acid synthesis](http://purl.obolibrary.org/obo/MONDO_0019218) SubClassOf [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) 
+- [inborn disorder of bile acid synthesis](http://purl.obolibrary.org/obo/MONDO_0019218) SubClassOf [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) 
 
 #### Added
 - [inborn disorder of bile acid synthesis](http://purl.obolibrary.org/obo/MONDO_0019218) SubClassOf [inborn disorder of amino acid and other organic acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019189) 
@@ -11641,7 +12288,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 - [inborn disorder of branched-chain amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019242) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [E71.2](https://icd.codes/icd10cm/E71.2) 
 
-- [inborn disorder of branched-chain amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019242) SubClassOf [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) 
+- [inborn disorder of branched-chain amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019242) SubClassOf [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) 
 
 #### Added
 - [inborn disorder of branched-chain amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019242) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An inherited metabolic disease that is has its basis in the disruption of branched-chain amino acid metabolic process." 
@@ -11655,7 +12302,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [inborn disorder of branched-chain amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019242) [excluded_subClassOf](http://purl.obolibrary.org/obo/mondo#excluded_subClassOf) [inborn disorder of amino acid and other organic acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019189) 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79197" 
 
-- [inborn disorder of branched-chain amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019242) SubClassOf [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) 
+- [inborn disorder of branched-chain amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019242) SubClassOf [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "PMID:33340416"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 - [inborn disorder of branched-chain amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019242) SubClassOf [amino acid metabolism disease](http://purl.obolibrary.org/obo/MONDO_0037871) 
@@ -11740,7 +12387,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79173/ntbt" 
 
-- [inborn disorder of methionine cycle and sulfur amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019222) SubClassOf [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) 
+- [inborn disorder of methionine cycle and sulfur amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019222) SubClassOf [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) 
 
 #### Added
 - [inborn disorder of methionine cycle and sulfur amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019222) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An inherited metabolic disease that is has its basis in the disruption of sulfur amino acid metabolic process." 
@@ -11757,7 +12404,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [inborn disorder of ornithine metabolism](http://purl.obolibrary.org/obo/MONDO_0017356) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An acquired metabolic disease that is has its basis in the disruption of ornithine metabolic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [inborn disorder of ornithine metabolism](http://purl.obolibrary.org/obo/MONDO_0017356) SubClassOf [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) 
+- [inborn disorder of ornithine metabolism](http://purl.obolibrary.org/obo/MONDO_0017356) SubClassOf [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) 
 
 #### Added
 - [inborn disorder of ornithine metabolism](http://purl.obolibrary.org/obo/MONDO_0017356) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An inherited metabolic disease that is has its basis in the disruption of ornithine metabolic process." 
@@ -11766,25 +12413,25 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [inborn disorder of ornithine metabolism](http://purl.obolibrary.org/obo/MONDO_0017356) SubClassOf [amino acid metabolism disease](http://purl.obolibrary.org/obo/MONDO_0037871) 
 
 
-### inborn disorder of phenylalanine and tyrosine metabolism `http://purl.obolibrary.org/obo/MONDO_0019235`
+### inborn disorder of phenylalanin or tyrosine metabolism `http://purl.obolibrary.org/obo/MONDO_0019235`
 #### Removed
-- [inborn disorder of phenylalanine and tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0019235) [label](http://www.w3.org/2000/01/rdf-schema#label) "inborn disorder of phenylalanin or tyrosine metabolism" 
+- [inborn disorder of phenylalanin or tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0019235) [label](http://www.w3.org/2000/01/rdf-schema#label) "inborn disorder of phenylalanin or tyrosine metabolism" 
 
-- [inborn disorder of phenylalanine and tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0019235) SubClassOf [inborn disorder of amino acid and other organic acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019189) 
+- [inborn disorder of phenylalanin or tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0019235) SubClassOf [inborn disorder of amino acid and other organic acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019189) 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79190" 
 
 #### Added
-- [inborn disorder of phenylalanine and tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0019235) [excluded_subClassOf](http://purl.obolibrary.org/obo/mondo#excluded_subClassOf) [inborn disorder of amino acid and other organic acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019189) 
+- [inborn disorder of phenylalanin or tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0019235) [excluded_subClassOf](http://purl.obolibrary.org/obo/mondo#excluded_subClassOf) [inborn disorder of amino acid and other organic acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019189) 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:79190" 
 
-- [inborn disorder of phenylalanine and tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0019235) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inborn disorder of phenylalanin or tyrosine metabolism" 
+- [inborn disorder of phenylalanin or tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0019235) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inborn disorder of phenylalanin or tyrosine metabolism" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [inborn disorder of phenylalanine and tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0019235) [label](http://www.w3.org/2000/01/rdf-schema#label) "inborn disorder of phenylalanine and tyrosine metabolism" 
+- [inborn disorder of phenylalanin or tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0019235) [label](http://www.w3.org/2000/01/rdf-schema#label) "inborn disorder of phenylalanine and tyrosine metabolism" 
 
-- [inborn disorder of phenylalanine and tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0019235) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/4985"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+- [inborn disorder of phenylalanin or tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0019235) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/4985"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [inborn disorder of phenylalanine and tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0019235) SubClassOf [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) 
+- [inborn disorder of phenylalanin or tyrosine metabolism](http://purl.obolibrary.org/obo/MONDO_0019235) SubClassOf [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:0004736" 
 
 
@@ -11802,7 +12449,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [inborn disorder of proline metabolism](http://purl.obolibrary.org/obo/MONDO_0017355) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An acquired metabolic disease that is has its basis in the disruption of proline metabolic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [inborn disorder of proline metabolism](http://purl.obolibrary.org/obo/MONDO_0017355) SubClassOf [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) 
+- [inborn disorder of proline metabolism](http://purl.obolibrary.org/obo/MONDO_0017355) SubClassOf [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) 
 
 #### Added
 - [inborn disorder of proline metabolism](http://purl.obolibrary.org/obo/MONDO_0017355) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An inherited metabolic disease that is has its basis in the disruption of proline metabolic process." 
@@ -11884,7 +12531,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [inborn disorder of serine family metabolism](http://purl.obolibrary.org/obo/MONDO_0019239) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An acquired metabolic disease that is has its basis in the disruption of serine family amino acid metabolic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [inborn disorder of serine family metabolism](http://purl.obolibrary.org/obo/MONDO_0019239) SubClassOf [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) 
+- [inborn disorder of serine family metabolism](http://purl.obolibrary.org/obo/MONDO_0019239) SubClassOf [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) 
 
 #### Added
 - [inborn disorder of serine family metabolism](http://purl.obolibrary.org/obo/MONDO_0019239) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An inherited metabolic disease that is has its basis in the disruption of serine family amino acid metabolic process." 
@@ -11923,7 +12570,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:289829" 
 
-- [inborn disorder of tryptophan metabolism](http://purl.obolibrary.org/obo/MONDO_0017350) SubClassOf [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) 
+- [inborn disorder of tryptophan metabolism](http://purl.obolibrary.org/obo/MONDO_0017350) SubClassOf [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) 
 
 #### Added
 - [inborn disorder of tryptophan metabolism](http://purl.obolibrary.org/obo/MONDO_0017350) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An inherited metabolic disease that is has its basis in the disruption of tryptophan metabolic process." 
@@ -11982,62 +12629,6 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 - [inborn mitochondrial myopathy](http://purl.obolibrary.org/obo/MONDO_0009637) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [G71.3](https://icd.codes/icd10cm/G71.3) 
 
-
-
-### inborn organic aciduria `http://purl.obolibrary.org/obo/MONDO_0000688`
-#### Removed
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "organic acidemia" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOID:0060159" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GARD:0009433" 
-
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) [label](http://www.w3.org/2000/01/rdf-schema#label) "inherited organic acidemia" 
-
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "organic aciduria" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOID:0060159" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:0017358" 
-
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inborn organic acid metabolic process disorder" 
-
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) EquivalentTo [inborn errors of metabolism](http://purl.obolibrary.org/obo/MONDO_0019052) and ([disease caused by disruption of](http://purl.obolibrary.org/obo/RO_0004021) some [organic acid metabolic process](http://purl.obolibrary.org/obo/GO_0006082)) 
-
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) SubClassOf [disorder of organic acid metabolism](http://purl.obolibrary.org/obo/MONDO_0045022) 
-
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) SubClassOf [inborn disorder of amino acid and other organic acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019189) 
-
-#### Added
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inborn organic acid metabolic process disorder" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) [label](http://www.w3.org/2000/01/rdf-schema#label) "inborn organic aciduria" 
-
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/4985"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "organic aciduria" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOID:0060159" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:0017358" 
-
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) [excluded_subClassOf](http://purl.obolibrary.org/obo/mondo#excluded_subClassOf) [inborn errors of metabolism](http://purl.obolibrary.org/obo/MONDO_0019052) 
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "NCIT:C101334" 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:289899/inferred" 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:Redundant"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:0060159/inferred" 
-
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "organic acidemia" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOID:0060159" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GARD:0009433" 
-
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "inherited organic acidemia" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) SubClassOf [inborn disorder of amino acid metabolism](http://purl.obolibrary.org/obo/MONDO_0004736) 
-  - [source](http://www.geneontology.org/formats/oboInOwl#source) "PMID:33340416"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
 ### inborn vitamin metabolic disorder `http://purl.obolibrary.org/obo/MONDO_0005528`
@@ -12218,6 +12809,267 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 
 
+### inferior frontal gyrus `http://purl.obolibrary.org/obo/UBERON_0002998`
+
+#### Added
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "regio subfrontalis" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:85" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the frontal lobe, lateral aspect. The rostral boundary is the first appearance of the inferior frontal sulcus whereas the caudal boundary is the precentral gyrus. The medial and lateral boundaries are the lateral bank of the inferior frontal sulcus and the medial bank of the lateral orbital sulcus and/or the circular insular sulcus respectively (Christein Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:873" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus F3" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:85" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0152298" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:873" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0002998" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4035" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Inferior_frontal_gyrus" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:85" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:873" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [label](http://www.w3.org/2000/01/rdf-schema#label) "inferior frontal gyrus" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61860" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:IFG" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NCIT:C32774" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus frontalis inferior" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Inferior_frontal_gyrus" 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [uberon_slim](http://purl.obolibrary.org/obo/uberon/core#uberon_slim) 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0152298" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "ncithesaurus:Inferior_Frontal_Convolution" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus frontalis tertius" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:85" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inferior frontal convolution" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61860" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [UBPROP_0000012](http://purl.obolibrary.org/obo/UBPROP_0000012) "ncit has two classes, but these are exact synonyms in FMA" 
+  - [external_ontology](http://www.geneontology.org/formats/oboInOwl#external_ontology) "ncit" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [depicted_by](http://xmlns.com/foaf/0.1/depicted_by) "http://upload.wikimedia.org/wikipedia/commons/d/d7/Inferior_frontal_gyrus.png"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:12117" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BTO:0004835" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ncithesaurus:Inferior_Frontal_Gyrus" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:873" 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:362333004" 
+
+- Class: [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) 
+
+- [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) SubClassOf [frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0015593) 
+
+
+### inferior parietal cortex `http://purl.obolibrary.org/obo/UBERON_0006088`
+
+#### Added
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EFO:0001951" 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:107" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1194" 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [label](http://www.w3.org/2000/01/rdf-schema#label) "inferior parietal cortex" 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "lobulus parietalis inferior" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:107"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [efo_slim](http://purl.obolibrary.org/obo/uberon/core#efo_slim) 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1194" 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0152304" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1194" 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:12134" 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "inferior portion of parietal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:107"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:362336007" 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the parietal lobe. The inferior parietal cortex label includes the inferior parietal gyrus and the angular gyrus and lies inferior to the superior parietal gyrus. The rostral and caudal boundaries were the supramarginal gyrus and the parieto-occipital incisure respectively. The medial and lateral boundaries were the superior parietal gyrus and the middle temporal gyrus respectively (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1194" 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0006088" 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4103" 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "inferior parietal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:107"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "subparietal lobule" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:107"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:77536" 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inferior parietal lobule" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1194" 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inferior parietal cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1194" 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "subparietal district" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:107"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inferior parietal lobule" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:77536" 
+
+- Class: [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) SubClassOf [ectoderm-derived structure](http://purl.obolibrary.org/obo/UBERON_0004121) 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [parietal lobe](http://purl.obolibrary.org/obo/UBERON_0001872) 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) SubClassOf [structure with developmental contribution from neural crest](http://purl.obolibrary.org/obo/UBERON_0010314) 
+
+- [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) SubClassOf [organ part](http://purl.obolibrary.org/obo/UBERON_0000064) 
+
+
+### inferior parietal cortex volume `http://purl.obolibrary.org/obo/OBA_2050040`
+
+#### Added
+- [inferior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050040) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of inferior parietal cortex"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [inferior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050040) [label](http://www.w3.org/2000/01/rdf-schema#label) "inferior parietal cortex volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [inferior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050040) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a inferior parietal cortex."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [inferior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050040) 
+
+- [inferior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050040) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088)) 
+
+- [inferior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050040) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [inferior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006088) 
+
+- [inferior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050040) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [inferior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050040) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
+### inferior temporal gyrus `http://purl.obolibrary.org/obo/UBERON_0002751`
+
+#### Added
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "lateral occipitotemporal gyrus (heimer-83)" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4147" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:12142" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ncithesaurus:Inferior_Temporal_Gyrus" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus temporalis inferior" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Inferior_temporal_gyrus" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Inferior_temporal_gyrus" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:279191005" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [label](http://www.w3.org/2000/01/rdf-schema#label) "inferior temporal gyrus" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61907" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1577" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NCIT:C32791" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BM:Tel-ITG" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:ITG" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:138" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1577" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [uberon_slim](http://purl.obolibrary.org/obo/uberon/core#uberon_slim) 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "gyrus temporalis inferior" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1577" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0002751" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "IT cortex" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [ABBREVIATION](http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Inferior_temporal_gyrus" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [depicted_by](http://xmlns.com/foaf/0.1/depicted_by) "http://upload.wikimedia.org/wikipedia/commons/3/35/Gray726.png"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the temporal lobe, lateral aspect. The rostral boundary is the rostral extent of the inferior temporal sulcus whereas the caudal boundary is designated as the temporo-occipital incisure on the cortical surface. The occipitotemporal sulcus is the medial boundary and the inferior temporal sulcus is the lateral boundary (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1577" 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "inferotemporal cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Inferior_temporal_gyrus" 
+
+- Class: [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) SubClassOf [gyrus](http://purl.obolibrary.org/obo/UBERON_0000200) 
+
+- [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [temporal lobe](http://purl.obolibrary.org/obo/UBERON_0001871) 
+
+
+### inferior temporal gyrus volume `http://purl.obolibrary.org/obo/OBA_2050048`
+
+#### Added
+- [inferior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050048) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of inferior temporal gyrus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [inferior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050048) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a inferior temporal gyrus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [inferior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050048) [label](http://www.w3.org/2000/01/rdf-schema#label) "inferior temporal gyrus volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [inferior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050048) 
+
+- [inferior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050048) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751)) 
+
+- [inferior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050048) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [inferior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050048) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [inferior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002751) 
+
+- [inferior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050048) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
 ### infiltrating bladder urothelial carcinoma `http://purl.obolibrary.org/obo/MONDO_0003890`
 #### Removed
 - [infiltrating bladder urothelial carcinoma](http://purl.obolibrary.org/obo/MONDO_0003890) EquivalentTo [bladder transitional cell carcinoma](http://purl.obolibrary.org/obo/MONDO_0005611) and ([has modifier](http://purl.obolibrary.org/obo/RO_0002573) some [neoplastic, invasive](http://purl.obolibrary.org/obo/PATO_0002129)) 
@@ -12245,6 +13097,39 @@ Each of these 3 primitives can be composed to yield a cross-product of different
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:4706" 
 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:relatedTo"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+
+### inherited amino acid metabolic disorder `http://purl.obolibrary.org/obo/MONDO_0004736`
+#### Removed
+- [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inborn error of amino acid metabolism" 
+
+- [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) [label](http://www.w3.org/2000/01/rdf-schema#label) "inherited amino acid metabolic disorder" 
+
+- [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) EquivalentTo [inborn errors of metabolism](http://purl.obolibrary.org/obo/MONDO_0019052) and ([disease caused by disruption of](http://purl.obolibrary.org/obo/RO_0004021) some [cellular amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520)) 
+
+- [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) SubClassOf [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) 
+
+- [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) SubClassOf [amino acid metabolism disease](http://purl.obolibrary.org/obo/MONDO_0037871) 
+
+#### Added
+- [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inborn error of amino acid metabolism" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) [label](http://www.w3.org/2000/01/rdf-schema#label) "inborn disorder of amino acid metabolism" 
+
+- [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inherited amino acid metabolic disorder" 
+
+- [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:44779003" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:relatedTo"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:9252" 
+
+- [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) SubClassOf [inborn errors of metabolism](http://purl.obolibrary.org/obo/MONDO_0019052) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:indirect"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MESH:D000592" 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:9252" 
 
 
 ### inherited auditory system disease `http://purl.obolibrary.org/obo/MONDO_0037940`
@@ -12541,6 +13426,62 @@ Each of these 3 primitives can be composed to yield a cross-product of different
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:0019041" 
 
 
+### inherited organic acidemia `http://purl.obolibrary.org/obo/MONDO_0000688`
+#### Removed
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "organic acidemia" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOID:0060159" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GARD:0009433" 
+
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) [label](http://www.w3.org/2000/01/rdf-schema#label) "inherited organic acidemia" 
+
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "organic aciduria" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOID:0060159" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:0017358" 
+
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inborn organic acid metabolic process disorder" 
+
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) EquivalentTo [inborn errors of metabolism](http://purl.obolibrary.org/obo/MONDO_0019052) and ([disease caused by disruption of](http://purl.obolibrary.org/obo/RO_0004021) some [organic acid metabolic process](http://purl.obolibrary.org/obo/GO_0006082)) 
+
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) SubClassOf [disorder of organic acid metabolism](http://purl.obolibrary.org/obo/MONDO_0045022) 
+
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) SubClassOf [inborn disorder of amino acid and other organic acid metabolism](http://purl.obolibrary.org/obo/MONDO_0019189) 
+
+#### Added
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inborn organic acid metabolic process disorder" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) [label](http://www.w3.org/2000/01/rdf-schema#label) "inborn organic aciduria" 
+
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/4985"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "organic aciduria" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOID:0060159" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:0017358" 
+
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) [excluded_subClassOf](http://purl.obolibrary.org/obo/mondo#excluded_subClassOf) [inborn errors of metabolism](http://purl.obolibrary.org/obo/MONDO_0019052) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "NCIT:C101334" 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:289899/inferred" 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:Redundant"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "DOID:0060159/inferred" 
+
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "organic acidemia" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOID:0060159" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GARD:0009433" 
+
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "inherited organic acidemia" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) SubClassOf [inherited amino acid metabolic disorder](http://purl.obolibrary.org/obo/MONDO_0004736) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "PMID:33340416"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+
 ### inherited primary ovarian failure `http://purl.obolibrary.org/obo/MONDO_0019852`
 #### Removed
 - [inherited primary ovarian failure](http://purl.obolibrary.org/obo/MONDO_0019852) EquivalentTo [primary ovarian failure](http://purl.obolibrary.org/obo/MONDO_0005387) and ([has modifier](http://purl.obolibrary.org/obo/RO_0002573) some [inherited](http://purl.obolibrary.org/obo/MONDO_0021152)) 
@@ -12657,6 +13598,222 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 #### Added
 - [inner ear disorder](http://purl.obolibrary.org/obo/MONDO_0002467) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [H80-H83](http://purl.bioontology.org/ontology/ICD10CM/H80-H83) 
+
+
+### insula `http://purl.obolibrary.org/obo/UBERON_0002022`
+
+#### Added
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [label](http://www.w3.org/2000/01/rdf-schema#label) "insula" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:12176" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [depicted_by](http://xmlns.com/foaf/0.1/depicted_by) "http://upload.wikimedia.org/wikipedia/commons/2/2b/Gray731.png"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Gray matter of the insular region of the neocortex. In gyrencephalic animals, it is part of the insular lobe and lies in the depths of the lateral fissure and covered by portions of the frontal, parietal and temporal lobes. It includes Brodmann areas 13-16." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1117" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cortex of island" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:67329" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NCIT:C32278" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Insular_cortex" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [UBPROP_0000012](http://purl.obolibrary.org/obo/UBPROP_0000012) "two classes in ncit, Central_Lobe is part of temporal lobe" 
+  - [external_ontology](http://www.geneontology.org/formats/oboInOwl#external_ontology) "ncit" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:111" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1117" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:Ins" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:67329" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ncithesaurus:Insula" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "island of Reil" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:67329" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "cortex insularis" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:111" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "OpenCyc:Mx4rvpK5WZwpEbGdrcN5Y29ycA" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "insula cerebri" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:111" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0002022" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "iNS" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:67329" 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [ABBREVIATION](http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:CMA" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [uberon_slim](http://purl.obolibrary.org/obo/uberon/core#uberon_slim) 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "insula lobule" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:67329" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "insular lobe" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:67329" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4268" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "insular region" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:67329" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "insulary cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BTO:0001105" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [editor note](http://purl.obolibrary.org/obo/IAO_0000116) "Consider splitting insular cortex from insular lobe. See https://github.com/obophenotype/uberon/issues/412" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:279201009" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "central lobe" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:67329" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1117" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "insular gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:111" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0021640" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1117" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:AI" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "morphological insula" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:111" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [hasNarrowSynonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "insular cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:67329" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [hasAlternativeId](http://www.geneontology.org/formats/oboInOwl#hasAlternativeId) "UBERON:0023846" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "insular lobe" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NLX:11342" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NLX:11342" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EV:0100172" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "insula of Reil" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:111" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BTO:0001105" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "insula Reilii" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:111" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [hasNarrowSynonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "insular cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1117" 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "lobus insularis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:67329" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:TA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+- Class: [insula](http://purl.obolibrary.org/obo/UBERON_0002022) 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) SubClassOf [cerebral hemisphere gray matter](http://purl.obolibrary.org/obo/UBERON_0005401) 
+
+- [insula](http://purl.obolibrary.org/obo/UBERON_0002022) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [cerebral cortex](http://purl.obolibrary.org/obo/UBERON_0000956) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BTO"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "NIF"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+
+### insular cortex `http://purl.obolibrary.org/obo/UBERON_0034891`
+
+#### Added
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DMBA:16058" 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [label](http://www.w3.org/2000/01/rdf-schema#label) "insular cortex" 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "ICx" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:10288" 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [ABBREVIATION](http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION) 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "insular neocortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:10288" 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:369221008" 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:242223" 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cortex of insula" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:242223" 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MA:0000909" 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gray matter of insula" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:242223" 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BM:Tel-Cx-Ins" 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EMAPA:35432" 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "iNS" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [ABBREVIATION](http://purl.obolibrary.org/obo/uberon/core#ABBREVIATION) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:242223" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:CMA" 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0034891" 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:10288" 
+
+- Class: [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [insula](http://purl.obolibrary.org/obo/UBERON_0002022) 
+
+- [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) SubClassOf [cortex of cerebral lobe](http://purl.obolibrary.org/obo/UBERON_0016529) 
+
+
+### insular cortex volume `http://purl.obolibrary.org/obo/OBA_2050045`
+
+#### Added
+- [insular cortex volume](http://purl.obolibrary.org/obo/OBA_2050045) [label](http://www.w3.org/2000/01/rdf-schema#label) "insular cortex volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [insular cortex volume](http://purl.obolibrary.org/obo/OBA_2050045) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a insular cortex."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [insular cortex volume](http://purl.obolibrary.org/obo/OBA_2050045) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of insular cortex"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [insular cortex volume](http://purl.obolibrary.org/obo/OBA_2050045) 
+
+- [insular cortex volume](http://purl.obolibrary.org/obo/OBA_2050045) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891)) 
+
+- [insular cortex volume](http://purl.obolibrary.org/obo/OBA_2050045) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [insular cortex](http://purl.obolibrary.org/obo/UBERON_0034891) 
+
+- [insular cortex volume](http://purl.obolibrary.org/obo/OBA_2050045) SubClassOf [anatomical entity attribute](http://purl.obolibrary.org/obo/OBA_0100003) 
+
+- [insular cortex volume](http://purl.obolibrary.org/obo/OBA_2050045) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
 
 
 ### insulin receptor complex `http://purl.obolibrary.org/obo/GO_0005899`
@@ -13153,6 +14310,22 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 #### Added
 - [interferon-beta secretion trait](http://purl.obolibrary.org/obo/OBA_VT0008558) SubClassOf [cytokine secretion trait](http://purl.obolibrary.org/obo/OBA_VT0003009) 
+
+
+### interferon-gamma production `http://purl.obolibrary.org/obo/GO_0032609`
+#### Removed
+- [interferon-gamma production](http://purl.obolibrary.org/obo/GO_0032609) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "type II IFN production" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+#### Added
+- [interferon-gamma production](http://purl.obolibrary.org/obo/GO_0032609) [label](http://www.w3.org/2000/01/rdf-schema#label) "type II interferon production" 
+
+- [interferon-gamma production](http://purl.obolibrary.org/obo/GO_0032609) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "type II IFN production" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [interferon-gamma production](http://purl.obolibrary.org/obo/GO_0032609) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "type II IFN production" 
+
+- [interferon-gamma production](http://purl.obolibrary.org/obo/GO_0032609) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "interferon-gamma production" 
 
 
 ### interferon-gamma secretion trait `http://purl.obolibrary.org/obo/OBA_VT0008559`
@@ -14065,6 +15238,26 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 
 
+### kidney volume `http://purl.obolibrary.org/obo/OBA_2050015`
+
+#### Added
+- [kidney volume](http://purl.obolibrary.org/obo/OBA_2050015) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of kidney"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [kidney volume](http://purl.obolibrary.org/obo/OBA_2050015) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a kidney."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [kidney volume](http://purl.obolibrary.org/obo/OBA_2050015) [label](http://www.w3.org/2000/01/rdf-schema#label) "kidney volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [kidney volume](http://purl.obolibrary.org/obo/OBA_2050015) 
+
+- [kidney volume](http://purl.obolibrary.org/obo/OBA_2050015) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [kidney](http://purl.obolibrary.org/obo/UBERON_0002113)) 
+
+- [kidney volume](http://purl.obolibrary.org/obo/OBA_2050015) SubClassOf [kidney size trait](http://purl.obolibrary.org/obo/OBA_VT0002706) 
+
+- [kidney volume](http://purl.obolibrary.org/obo/OBA_2050015) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
 ### kinase activator activity `http://purl.obolibrary.org/obo/GO_0019209`
 
 #### Added
@@ -14127,6 +15320,96 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 #### Added
 - [lens disorder](http://purl.obolibrary.org/obo/MONDO_0001176) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [H25-H28](http://purl.bioontology.org/ontology/ICD10CM/H25-H28) 
+
+
+### lentiform nucleus `http://purl.obolibrary.org/obo/UBERON_0002263`
+
+#### Added
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The lentiform nucleus or lenticular nucleus comprises the putamen and the globus pallidus within the basal ganglia. It is a large, cone-shaped mass of gray matter just lateral to the internal capsule. [WP,unvetted]." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Lentiform_nucleus" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "OpenCyc:Mx4rvvyH2ZwpEbGdrcN5Y29ycA" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:279319002" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "nucleus lenticularis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BTO:0002250" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:77615" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [editor note](http://purl.obolibrary.org/obo/IAO_0000116) "TODO - add parts" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0002263" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [depicted_by](http://xmlns.com/foaf/0.1/depicted_by) "http://upload.wikimedia.org/wikipedia/commons/f/fc/Gray741.png"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EMAPA:18208" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EV:0100186" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "nucleus lentiformis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BTO:0002250" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BTO:0002250" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "lenticular nucleus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BTO:0002250" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MA:0000896" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EMAPA:19147" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [UBPROP_0000012](http://purl.obolibrary.org/obo/UBPROP_0000012) "the EMAPA class is unclear" 
+  - [external_ontology](http://www.geneontology.org/formats/oboInOwl#external_ontology) "EMAPA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:1234" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [label](http://www.w3.org/2000/01/rdf-schema#label) "lentiform nucleus" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0162342" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "ncithesaurus:Lenticular_Nucleus" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NCIT:C32977" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Lentiform_nucleus" 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [uberon_slim](http://purl.obolibrary.org/obo/uberon/core#uberon_slim) 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "nucleus lentiformis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Lentiform_nucleus" 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+- Class: [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) SubClassOf [telencephalic nucleus](http://purl.obolibrary.org/obo/UBERON_0009663) 
+
+- [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [ventral striatum](http://purl.obolibrary.org/obo/UBERON_0005403) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "MA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+
+### lentiform nucleus volume `http://purl.obolibrary.org/obo/OBA_2050053`
+
+#### Added
+- [lentiform nucleus volume](http://purl.obolibrary.org/obo/OBA_2050053) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a lentiform nucleus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [lentiform nucleus volume](http://purl.obolibrary.org/obo/OBA_2050053) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of lentiform nucleus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [lentiform nucleus volume](http://purl.obolibrary.org/obo/OBA_2050053) [label](http://www.w3.org/2000/01/rdf-schema#label) "lentiform nucleus volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [lentiform nucleus volume](http://purl.obolibrary.org/obo/OBA_2050053) 
+
+- [lentiform nucleus volume](http://purl.obolibrary.org/obo/OBA_2050053) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263)) 
+
+- [lentiform nucleus volume](http://purl.obolibrary.org/obo/OBA_2050053) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [lentiform nucleus](http://purl.obolibrary.org/obo/UBERON_0002263) 
+
+- [lentiform nucleus volume](http://purl.obolibrary.org/obo/OBA_2050053) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [lentiform nucleus volume](http://purl.obolibrary.org/obo/OBA_2050053) SubClassOf [anatomical entity attribute](http://purl.obolibrary.org/obo/OBA_0100003) 
 
 
 ### leukocyte `http://purl.obolibrary.org/obo/CL_0000738`
@@ -14224,6 +15507,123 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [ligase regulator activity](http://purl.obolibrary.org/obo/GO_0055103) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [ligase activity](http://purl.obolibrary.org/obo/GO_0016874) 
 
 - [ligase regulator activity](http://purl.obolibrary.org/obo/GO_0055103) SubClassOf [enzyme regulator activity](http://purl.obolibrary.org/obo/GO_0030234) 
+
+
+### limbic lobe volume `http://purl.obolibrary.org/obo/OBA_2050018`
+
+#### Added
+- [limbic lobe volume](http://purl.obolibrary.org/obo/OBA_2050018) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of limbic lobe"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [limbic lobe volume](http://purl.obolibrary.org/obo/OBA_2050018) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a limbic lobe."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [limbic lobe volume](http://purl.obolibrary.org/obo/OBA_2050018) [label](http://www.w3.org/2000/01/rdf-schema#label) "limbic lobe volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [limbic lobe volume](http://purl.obolibrary.org/obo/OBA_2050018) 
+
+- [limbic lobe volume](http://purl.obolibrary.org/obo/OBA_2050018) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [limbic lobe](http://purl.obolibrary.org/obo/UBERON_0002600)) 
+
+- [limbic lobe volume](http://purl.obolibrary.org/obo/OBA_2050018) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [limbic lobe volume](http://purl.obolibrary.org/obo/OBA_2050018) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [limbic lobe volume](http://purl.obolibrary.org/obo/OBA_2050018) SubClassOf [fornicate gyrus morphology trait](http://purl.obolibrary.org/obo/OBA_VT0004169) 
+
+
+### lingual gyrus `http://purl.obolibrary.org/obo/UBERON_0002943`
+
+#### Added
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:12151" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [uberon_slim](http://purl.obolibrary.org/obo/uberon/core#uberon_slim) 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus lingualis" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Lingual_gyrus" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [depicted_by](http://xmlns.com/foaf/0.1/depicted_by) "http://upload.wikimedia.org/wikipedia/commons/a/a1/Gray727_lingual_gyrus.png"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0002943" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4191" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Lingual_gyrus" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61904" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the occipital lobe. The rostral boundary of the lingual gyrus was the posterior extent of the parahippocampal gyrus whereas the caudal boundary was the most posterior coronal slice where the gyrus could be visualized. The medial and lateral boundaries were the medial portion of the temporal and occipital cortices and the medial bank of the collateral sulcus respectively (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:740" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "medial occipito-temporal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:MOTG" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:MOTG" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:740" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:LiG" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0152308" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:740" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "medial occipitotemporal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61904" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [label](http://www.w3.org/2000/01/rdf-schema#label) "lingual gyrus" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:158" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:740" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:279203007" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "lingula of cerebral hemisphere" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61904" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:LgG" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "medial occipitotemporal gyrus-2" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61904" 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "gyrus occipitotemporalis medialis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61904" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:TA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+- Class: [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) 
+
+- [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) SubClassOf [occipital gyrus](http://purl.obolibrary.org/obo/UBERON_0014640) 
+
+
+### lingual gyrus volume `http://purl.obolibrary.org/obo/OBA_2050029`
+
+#### Added
+- [lingual gyrus volume](http://purl.obolibrary.org/obo/OBA_2050029) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a lingual gyrus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [lingual gyrus volume](http://purl.obolibrary.org/obo/OBA_2050029) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of lingual gyrus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [lingual gyrus volume](http://purl.obolibrary.org/obo/OBA_2050029) [label](http://www.w3.org/2000/01/rdf-schema#label) "lingual gyrus volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [lingual gyrus volume](http://purl.obolibrary.org/obo/OBA_2050029) 
+
+- [lingual gyrus volume](http://purl.obolibrary.org/obo/OBA_2050029) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943)) 
+
+- [lingual gyrus volume](http://purl.obolibrary.org/obo/OBA_2050029) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [lingual gyrus](http://purl.obolibrary.org/obo/UBERON_0002943) 
+
+- [lingual gyrus volume](http://purl.obolibrary.org/obo/OBA_2050029) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [lingual gyrus volume](http://purl.obolibrary.org/obo/OBA_2050029) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
 
 
 ### lip cancer `http://purl.obolibrary.org/obo/MONDO_0006834`
@@ -14580,6 +15980,26 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 - [liver neuroendocrine carcinoma](http://purl.obolibrary.org/obo/MONDO_0015072) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [C22.7](https://icd.codes/icd10cm/C22.7) 
 
+
+
+### liver volume `http://purl.obolibrary.org/obo/OBA_2050033`
+
+#### Added
+- [liver volume](http://purl.obolibrary.org/obo/OBA_2050033) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a liver."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [liver volume](http://purl.obolibrary.org/obo/OBA_2050033) [label](http://www.w3.org/2000/01/rdf-schema#label) "liver volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [liver volume](http://purl.obolibrary.org/obo/OBA_2050033) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of liver"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [liver volume](http://purl.obolibrary.org/obo/OBA_2050033) 
+
+- [liver volume](http://purl.obolibrary.org/obo/OBA_2050033) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [liver](http://purl.obolibrary.org/obo/UBERON_0002107)) 
+
+- [liver volume](http://purl.obolibrary.org/obo/OBA_2050033) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [liver volume](http://purl.obolibrary.org/obo/OBA_2050033) SubClassOf [liver size trait](http://purl.obolibrary.org/obo/OBA_VT0000599) 
 
 
 ### low grade astrocytic tumor `http://purl.obolibrary.org/obo/MONDO_0021638`
@@ -15221,144 +16641,144 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [malignant urinary system neoplasm](http://purl.obolibrary.org/obo/MONDO_0006295) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [C64-C68](http://purl.bioontology.org/ontology/ICD10CM/C64-C68) 
 
 
-### manual digit 1 spatial deviation `http://purl.obolibrary.org/obo/OBA_0002684`
+### manual digit 1 deviation `http://purl.obolibrary.org/obo/OBA_0002684`
 #### Removed
-- [manual digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002684) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 1 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002684) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 1 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002684) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a manual digit 1."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002684) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a manual digit 1."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002684) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of manual digit 1"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002684) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of manual digit 1"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [manual digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002684) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 1 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002684) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 1 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002684) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a manual digit 1."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002684) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a manual digit 1."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002684) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of manual digit 1"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002684) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of manual digit 1"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
-### manual digit 2 spatial deviation `http://purl.obolibrary.org/obo/OBA_0002958`
+### manual digit 2 deviation `http://purl.obolibrary.org/obo/OBA_0002958`
 #### Removed
-- [manual digit 2 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002958) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 2 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 2 deviation](http://purl.obolibrary.org/obo/OBA_0002958) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 2 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 2 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002958) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of manual digit 2"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 2 deviation](http://purl.obolibrary.org/obo/OBA_0002958) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of manual digit 2"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 2 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002958) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a manual digit 2."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 2 deviation](http://purl.obolibrary.org/obo/OBA_0002958) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a manual digit 2."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [manual digit 2 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002958) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a manual digit 2."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 2 deviation](http://purl.obolibrary.org/obo/OBA_0002958) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a manual digit 2."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 2 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002958) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 2 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 2 deviation](http://purl.obolibrary.org/obo/OBA_0002958) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 2 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 2 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002958) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of manual digit 2"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 2 deviation](http://purl.obolibrary.org/obo/OBA_0002958) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of manual digit 2"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
-### manual digit 3 spatial deviation `http://purl.obolibrary.org/obo/OBA_0002930`
+### manual digit 3 deviation `http://purl.obolibrary.org/obo/OBA_0002930`
 #### Removed
-- [manual digit 3 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002930) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 3 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 3 deviation](http://purl.obolibrary.org/obo/OBA_0002930) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 3 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 3 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002930) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a manual digit 3."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 3 deviation](http://purl.obolibrary.org/obo/OBA_0002930) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a manual digit 3."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 3 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002930) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of manual digit 3"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 3 deviation](http://purl.obolibrary.org/obo/OBA_0002930) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of manual digit 3"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [manual digit 3 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002930) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of manual digit 3"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 3 deviation](http://purl.obolibrary.org/obo/OBA_0002930) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of manual digit 3"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 3 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002930) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a manual digit 3."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 3 deviation](http://purl.obolibrary.org/obo/OBA_0002930) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a manual digit 3."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 3 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002930) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 3 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 3 deviation](http://purl.obolibrary.org/obo/OBA_0002930) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 3 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
-### manual digit 4 spatial deviation `http://purl.obolibrary.org/obo/OBA_0002912`
+### manual digit 4 deviation `http://purl.obolibrary.org/obo/OBA_0002912`
 #### Removed
-- [manual digit 4 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002912) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a manual digit 4."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 4 deviation](http://purl.obolibrary.org/obo/OBA_0002912) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a manual digit 4."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 4 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002912) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 4 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 4 deviation](http://purl.obolibrary.org/obo/OBA_0002912) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 4 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 4 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002912) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of manual digit 4"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 4 deviation](http://purl.obolibrary.org/obo/OBA_0002912) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of manual digit 4"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [manual digit 4 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002912) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a manual digit 4."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 4 deviation](http://purl.obolibrary.org/obo/OBA_0002912) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a manual digit 4."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 4 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002912) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of manual digit 4"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 4 deviation](http://purl.obolibrary.org/obo/OBA_0002912) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of manual digit 4"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 4 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002912) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 4 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 4 deviation](http://purl.obolibrary.org/obo/OBA_0002912) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 4 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
-### manual digit 5 spatial deviation `http://purl.obolibrary.org/obo/OBA_0002515`
+### manual digit 5 deviation `http://purl.obolibrary.org/obo/OBA_0002515`
 #### Removed
-- [manual digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002515) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a manual digit 5."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002515) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a manual digit 5."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002515) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 5 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002515) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 5 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of manual digit 5"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of manual digit 5"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [manual digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002515) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 5 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002515) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit 5 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002515) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a manual digit 5."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002515) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a manual digit 5."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of manual digit 5"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of manual digit 5"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
-### manual digit spatial deviation `http://purl.obolibrary.org/obo/OBA_0002513`
+### manual digit deviation `http://purl.obolibrary.org/obo/OBA_0002513`
 #### Removed
-- [manual digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0002513) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit deviation](http://purl.obolibrary.org/obo/OBA_0002513) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0002513) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a manual digit."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit deviation](http://purl.obolibrary.org/obo/OBA_0002513) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a manual digit."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0002513) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of manual digit"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit deviation](http://purl.obolibrary.org/obo/OBA_0002513) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of manual digit"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [manual digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0002513) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of manual digit"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit deviation](http://purl.obolibrary.org/obo/OBA_0002513) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of manual digit"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0002513) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a manual digit."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit deviation](http://purl.obolibrary.org/obo/OBA_0002513) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a manual digit."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manual digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0002513) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manual digit deviation](http://purl.obolibrary.org/obo/OBA_0002513) [label](http://www.w3.org/2000/01/rdf-schema#label) "manual digit spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
-### manus spatial deviation `http://purl.obolibrary.org/obo/OBA_0002959`
+### manus deviation `http://purl.obolibrary.org/obo/OBA_0002959`
 #### Removed
-- [manus spatial deviation](http://purl.obolibrary.org/obo/OBA_0002959) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of manus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manus deviation](http://purl.obolibrary.org/obo/OBA_0002959) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of manus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manus spatial deviation](http://purl.obolibrary.org/obo/OBA_0002959) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a manus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manus deviation](http://purl.obolibrary.org/obo/OBA_0002959) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a manus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manus spatial deviation](http://purl.obolibrary.org/obo/OBA_0002959) [label](http://www.w3.org/2000/01/rdf-schema#label) "manus deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manus deviation](http://purl.obolibrary.org/obo/OBA_0002959) [label](http://www.w3.org/2000/01/rdf-schema#label) "manus deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [manus spatial deviation](http://purl.obolibrary.org/obo/OBA_0002959) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a manus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manus deviation](http://purl.obolibrary.org/obo/OBA_0002959) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a manus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manus spatial deviation](http://purl.obolibrary.org/obo/OBA_0002959) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of manus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manus deviation](http://purl.obolibrary.org/obo/OBA_0002959) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of manus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [manus spatial deviation](http://purl.obolibrary.org/obo/OBA_0002959) [label](http://www.w3.org/2000/01/rdf-schema#label) "manus spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [manus deviation](http://purl.obolibrary.org/obo/OBA_0002959) [label](http://www.w3.org/2000/01/rdf-schema#label) "manus spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
 ### marginal zone B cell of spleen `http://purl.obolibrary.org/obo/CL_0000845`
@@ -15406,6 +16826,60 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 - AnnotationProperty: [measured_in_taxon](http://purl.obolibrary.org/obo/oba#measured_in_taxon) 
 
+
+
+### medial orbital frontal cortex `http://purl.obolibrary.org/obo/UBERON_0022352`
+
+#### Added
+- [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the orbtial frontal cortex. The rostral boundary is the first slice where the medial orbital gyrus became visible whereas the caudal boundary is the disappearance of the medial orbital gyrus/gyrus rectus. The medial and lateral boundaries are the cingulate cortex on the u2018inflatedu2019 surface and the medial bank of the superior frontal gyrus (or the cingulate gyrus when visible) respectively (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1249" 
+
+- [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "frontal medial cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://orcid.org/0000-0001-6755-0259" 
+
+- [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1249" 
+
+- [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352) [label](http://www.w3.org/2000/01/rdf-schema#label) "medial orbital frontal cortex" 
+
+- [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:273320" 
+
+- [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "medial orbitofrontal cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://orcid.org/0000-0002-6601-2165" 
+
+- [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0022352" 
+
+- Class: [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352) 
+
+- [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [orbitofrontal cortex](http://purl.obolibrary.org/obo/UBERON_0004167) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "NIFSTD"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352) SubClassOf [structure with developmental contribution from neural crest](http://purl.obolibrary.org/obo/UBERON_0010314) 
+
+- [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352) SubClassOf [regional part of brain](http://purl.obolibrary.org/obo/UBERON_0002616) 
+
+
+### medial orbital frontal cortex volume `http://purl.obolibrary.org/obo/OBA_2050037`
+
+#### Added
+- [medial orbital frontal cortex volume](http://purl.obolibrary.org/obo/OBA_2050037) [label](http://www.w3.org/2000/01/rdf-schema#label) "medial orbital frontal cortex volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [medial orbital frontal cortex volume](http://purl.obolibrary.org/obo/OBA_2050037) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a medial orbital frontal cortex."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [medial orbital frontal cortex volume](http://purl.obolibrary.org/obo/OBA_2050037) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of medial orbital frontal cortex"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [medial orbital frontal cortex volume](http://purl.obolibrary.org/obo/OBA_2050037) 
+
+- [medial orbital frontal cortex volume](http://purl.obolibrary.org/obo/OBA_2050037) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352)) 
+
+- [medial orbital frontal cortex volume](http://purl.obolibrary.org/obo/OBA_2050037) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [medial orbital frontal cortex](http://purl.obolibrary.org/obo/UBERON_0022352) 
+
+- [medial orbital frontal cortex volume](http://purl.obolibrary.org/obo/OBA_2050037) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [medial orbital frontal cortex volume](http://purl.obolibrary.org/obo/OBA_2050037) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
 
 
 ### mediastinal malignant germ cell tumor `http://purl.obolibrary.org/obo/MONDO_0006298`
@@ -15508,12 +16982,12 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [membrane](http://purl.obolibrary.org/obo/GO_0016020) [hasNarrowSynonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "integral to membrane" 
 
 
-### membrane potential trait `http://purl.obolibrary.org/obo/OBA_0000099`
+### membrane potential `http://purl.obolibrary.org/obo/OBA_0000099`
 #### Removed
-- [membrane potential trait](http://purl.obolibrary.org/obo/OBA_0000099) [label](http://www.w3.org/2000/01/rdf-schema#label) "membrane potential"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [membrane potential](http://purl.obolibrary.org/obo/OBA_0000099) [label](http://www.w3.org/2000/01/rdf-schema#label) "membrane potential"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [membrane potential trait](http://purl.obolibrary.org/obo/OBA_0000099) [label](http://www.w3.org/2000/01/rdf-schema#label) "membrane potential trait"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [membrane potential](http://purl.obolibrary.org/obo/OBA_0000099) [label](http://www.w3.org/2000/01/rdf-schema#label) "membrane potential trait"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
 ### meningioma `http://purl.obolibrary.org/obo/MONDO_0016642`
@@ -15785,6 +17259,188 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [middle ear disorder](http://purl.obolibrary.org/obo/MONDO_0003276) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [H65-H75](http://purl.bioontology.org/ontology/ICD10CM/H65-H75) 
 
 
+### middle frontal gyrus `http://purl.obolibrary.org/obo/UBERON_0002702`
+
+#### Added
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [uberon_slim](http://purl.obolibrary.org/obo/uberon/core#uberon_slim) 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [depicted_by](http://xmlns.com/foaf/0.1/depicted_by) "http://upload.wikimedia.org/wikipedia/commons/7/7f/Middle_frontal_gyrus.png"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "medial frontal gyrus (Mai)" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:84" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "intermediate frontal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61859" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1451" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0002702" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "middle (medial) frontal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:MFG" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NCIT:C33118" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ncithesaurus:Middle_Frontal_Gyrus" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the frontal lobe, lateral aspect (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1451" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:12116" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [label](http://www.w3.org/2000/01/rdf-schema#label) "middle frontal gyrus" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "gyrus frontalis medialis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:TA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61859" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0152297" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1451" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus frontalis medialis (Winters)" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:84" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:MFG" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BTO:0004834" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus frontalis secundus" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:84" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Middle_frontal_gyrus" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61859" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus F2" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:84" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:84" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1451" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "medial frontal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61859" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus frontalis medius" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Middle_frontal_gyrus" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:362332009" 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4028" 
+
+- Class: [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) 
+
+- [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) SubClassOf [frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0015593) 
+
+
+### middle temporal gyrus `http://purl.obolibrary.org/obo/UBERON_0002771`
+
+#### Added
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "medial temporal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Middle_temporal_gyrus" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [uberon_slim](http://purl.obolibrary.org/obo/uberon/core#uberon_slim) 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0152310" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1653" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61906" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [depicted_by](http://xmlns.com/foaf/0.1/depicted_by) "http://upload.wikimedia.org/wikipedia/commons/4/49/WOROI_60_loc.png"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "gyrus temporalis medius" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1653" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:137" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1653" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:MTG" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4140" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Middle_temporal_gyrus" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:279190006" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "middle (medial) temporal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:MTG" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EFO:0002466" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ncithesaurus:Middle_Temporal_Gyrus" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:12141" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "intermediate temporal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61906" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [efo_slim](http://purl.obolibrary.org/obo/uberon/core#efo_slim) 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1653" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0002771" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [label](http://www.w3.org/2000/01/rdf-schema#label) "middle temporal gyrus" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "inferior temporal gyrus (Seltzer)" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:137" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NCIT:C33125" 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the temporal lobe, lateral aspect. The rostral boundary is the rostral extent of the superior temporal sulcus whereas the caudal boundary is the temporo-occipital incisure on the cortical surface. The superior temporal sulcus is the medial boundary and the inferior temporal sulcus is the lateral boundary (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1653" 
+
+- Class: [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [temporal lobe](http://purl.obolibrary.org/obo/UBERON_0001871) 
+
+- [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) SubClassOf [gyrus](http://purl.obolibrary.org/obo/UBERON_0000200) 
+
+
+### middle temporal gyrus volume `http://purl.obolibrary.org/obo/OBA_2050044`
+
+#### Added
+- [middle temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050044) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of middle temporal gyrus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [middle temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050044) [label](http://www.w3.org/2000/01/rdf-schema#label) "middle temporal gyrus volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [middle temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050044) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a middle temporal gyrus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [middle temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050044) 
+
+- [middle temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050044) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771)) 
+
+- [middle temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050044) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [middle temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050044) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [middle temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002771) 
+
+- [middle temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050044) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
 ### migraine disorder `http://purl.obolibrary.org/obo/MONDO_0005277`
 #### Removed
 - [migraine disorder](http://purl.obolibrary.org/obo/MONDO_0005277) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [NCIT_C113482](http://purl.obolibrary.org/obo/NCIT_C113482) 
@@ -15962,11 +17618,11 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [mitochondrial protein catabolic process](http://purl.obolibrary.org/obo/GO_0035694) [creation_date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2011-02-28T11:06:40Z" 
 
 - [mitochondrial protein catabolic process](http://purl.obolibrary.org/obo/GO_0035694) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of a mitochondrial protein. This process is necessary to maintain the healthy state of mitochondria and is thought to occur via the induction of an intramitochondrial lysosome-like organelle that acts to eliminate the damaged oxidised mitochondrial proteins without destroying the mitochondrial structure." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sp"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21264221" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21264228" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sp" 
 
 - [mitochondrial protein catabolic process](http://purl.obolibrary.org/obo/GO_0035694) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
 
@@ -16639,89 +18295,13 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 - [negative regulation of amide catabolic process](http://purl.obolibrary.org/obo/GO_0034252) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [amide catabolic process](http://purl.obolibrary.org/obo/GO_0043605)) 
 
-- [negative regulation of amide catabolic process](http://purl.obolibrary.org/obo/GO_0034252) SubClassOf [negative regulation of amide metabolic process](http://purl.obolibrary.org/obo/GO_0034249) 
+- [negative regulation of amide catabolic process](http://purl.obolibrary.org/obo/GO_0034252) SubClassOf [negative regulation of cellular amide metabolic process](http://purl.obolibrary.org/obo/GO_0034249) 
 
 - [negative regulation of amide catabolic process](http://purl.obolibrary.org/obo/GO_0034252) SubClassOf [regulation of amide catabolic process](http://purl.obolibrary.org/obo/GO_0034251) 
 
 - [negative regulation of amide catabolic process](http://purl.obolibrary.org/obo/GO_0034252) SubClassOf [negative regulation of catabolic process](http://purl.obolibrary.org/obo/GO_0009895) 
 
 - [negative regulation of amide catabolic process](http://purl.obolibrary.org/obo/GO_0034252) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [amide catabolic process](http://purl.obolibrary.org/obo/GO_0043605) 
-
-
-### negative regulation of amide metabolic process `http://purl.obolibrary.org/obo/GO_0034249`
-
-#### Added
-- [negative regulation of amide metabolic process](http://purl.obolibrary.org/obo/GO_0034249) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of amide metabolic process" 
-
-- [negative regulation of amide metabolic process](http://purl.obolibrary.org/obo/GO_0034249) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amide metabolic process" 
-
-
-### negative regulation of amine catabolic process `http://purl.obolibrary.org/obo/GO_0033242`
-#### Removed
-- [negative regulation of amine catabolic process](http://purl.obolibrary.org/obo/GO_0033242) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of cellular amine catabolic process" 
-
-- [negative regulation of amine catabolic process](http://purl.obolibrary.org/obo/GO_0033242) SubClassOf [negative regulation of cellular catabolic process](http://purl.obolibrary.org/obo/GO_0031330) 
-
-#### Added
-- [negative regulation of amine catabolic process](http://purl.obolibrary.org/obo/GO_0033242) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of amine catabolic process" 
-
-- [negative regulation of amine catabolic process](http://purl.obolibrary.org/obo/GO_0033242) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amine catabolic process" 
-
-- [negative regulation of amine catabolic process](http://purl.obolibrary.org/obo/GO_0033242) SubClassOf [negative regulation of catabolic process](http://purl.obolibrary.org/obo/GO_0009895) 
-
-
-### negative regulation of amine metabolic process `http://purl.obolibrary.org/obo/GO_0033239`
-
-#### Added
-- [negative regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033239) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of amine metabolic process" 
-
-- [negative regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033239) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amine metabolic process" 
-
-- [negative regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033239) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [amine metabolic process](http://purl.obolibrary.org/obo/GO_0009308)) 
-
-
-### negative regulation of amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_2000283`
-#### Removed
-- [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of cellular amino acid biosynthetic process." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of cellular amino acid biosynthetic process" 
-
-- [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amino acid formation" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amino acid synthesis" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amino acid biosynthesis" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of amino acid biosynthetic process" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amino acid anabolism" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-#### Added
-- [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of an amino acid biosynthetic process." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of amino acid formation" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of amino acid anabolism" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of amino acid biosynthetic process" 
-
-- [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of amino acid synthesis" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of amino acid biosynthesis" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amino acid biosynthetic process" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
 ### negative regulation of axo-dendritic protein transport `http://purl.obolibrary.org/obo/GO_1905127`
@@ -16785,6 +18365,82 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 #### Added
 - [negative regulation of cell motility](http://purl.obolibrary.org/obo/GO_2000146) SubClassOf [negative regulation of cellular process](http://purl.obolibrary.org/obo/GO_0048523) 
+
+
+### negative regulation of cellular amide metabolic process `http://purl.obolibrary.org/obo/GO_0034249`
+
+#### Added
+- [negative regulation of cellular amide metabolic process](http://purl.obolibrary.org/obo/GO_0034249) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of amide metabolic process" 
+
+- [negative regulation of cellular amide metabolic process](http://purl.obolibrary.org/obo/GO_0034249) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amide metabolic process" 
+
+
+### negative regulation of cellular amine catabolic process `http://purl.obolibrary.org/obo/GO_0033242`
+#### Removed
+- [negative regulation of cellular amine catabolic process](http://purl.obolibrary.org/obo/GO_0033242) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of cellular amine catabolic process" 
+
+- [negative regulation of cellular amine catabolic process](http://purl.obolibrary.org/obo/GO_0033242) SubClassOf [negative regulation of cellular catabolic process](http://purl.obolibrary.org/obo/GO_0031330) 
+
+#### Added
+- [negative regulation of cellular amine catabolic process](http://purl.obolibrary.org/obo/GO_0033242) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of amine catabolic process" 
+
+- [negative regulation of cellular amine catabolic process](http://purl.obolibrary.org/obo/GO_0033242) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amine catabolic process" 
+
+- [negative regulation of cellular amine catabolic process](http://purl.obolibrary.org/obo/GO_0033242) SubClassOf [negative regulation of catabolic process](http://purl.obolibrary.org/obo/GO_0009895) 
+
+
+### negative regulation of cellular amine metabolic process `http://purl.obolibrary.org/obo/GO_0033239`
+
+#### Added
+- [negative regulation of cellular amine metabolic process](http://purl.obolibrary.org/obo/GO_0033239) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of amine metabolic process" 
+
+- [negative regulation of cellular amine metabolic process](http://purl.obolibrary.org/obo/GO_0033239) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amine metabolic process" 
+
+- [negative regulation of cellular amine metabolic process](http://purl.obolibrary.org/obo/GO_0033239) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [amine metabolic process](http://purl.obolibrary.org/obo/GO_0009308)) 
+
+
+### negative regulation of cellular amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_2000283`
+#### Removed
+- [negative regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of cellular amino acid biosynthetic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [negative regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of cellular amino acid biosynthetic process" 
+
+- [negative regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amino acid formation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [negative regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amino acid synthesis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [negative regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amino acid biosynthesis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [negative regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of amino acid biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [negative regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amino acid anabolism" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+#### Added
+- [negative regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of an amino acid biosynthetic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [negative regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of amino acid formation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [negative regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of amino acid anabolism" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [negative regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of amino acid biosynthetic process" 
+
+- [negative regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of amino acid synthesis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [negative regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of amino acid biosynthesis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [negative regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of cellular amino acid biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
 ### negative regulation of cellular component movement `http://purl.obolibrary.org/obo/GO_0051271`
@@ -16901,9 +18557,9 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 - Class: [negative regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0150110) 
 
-- [negative regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0150110) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435)) 
+- [negative regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0150110) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435)) 
 
-- [negative regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0150110) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) 
+- [negative regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0150110) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) 
 
 - [negative regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0150110) SubClassOf [negative regulation of cellular metabolic process](http://purl.obolibrary.org/obo/GO_0031324) 
 
@@ -17658,6 +19314,52 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [nipple sheath morphology](http://purl.obolibrary.org/obo/OBA_0005919) SubClassOf [epithelium of mammary gland morphology](http://purl.obolibrary.org/obo/OBA_0004750) 
 
 
+### nitric oxide homeostasis `http://purl.obolibrary.org/obo/GO_0033484`
+#### Removed
+- [nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) [label](http://www.w3.org/2000/01/rdf-schema#label) "nitric oxide homeostasis" 
+
+- [nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A homeostatic process involved in the maintenance of an internal steady state of nitric oxide within an organism or cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) SubClassOf [gas homeostasis](http://purl.obolibrary.org/obo/GO_0033483) 
+
+#### Added
+- [nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) [label](http://www.w3.org/2000/01/rdf-schema#label) "cellular nitric oxide homeostasis" 
+
+- [nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A homeostatic process involved in the maintenance of an internal steady state of nitric oxide within a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/24224"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "nitric oxide homeostasis" 
+
+- [nitric oxide homeostasis](http://purl.obolibrary.org/obo/GO_0033484) SubClassOf [cellular chemical homeostasis](http://purl.obolibrary.org/obo/GO_0055082) 
+
+
+### nitric oxide homeostasis quality `http://purl.obolibrary.org/obo/OBA_1000742`
+#### Removed
+- [nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The quality of a nitric oxide homeostasis."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quality of nitric oxide homeostasis"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) [label](http://www.w3.org/2000/01/rdf-schema#label) "nitric oxide homeostasis quality"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) SubClassOf [gas homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000846) 
+
+#### Added
+- [nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) [label](http://www.w3.org/2000/01/rdf-schema#label) "cellular nitric oxide homeostasis quality"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quality of cellular nitric oxide homeostasis"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The quality of a cellular nitric oxide homeostasis."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [nitric oxide homeostasis quality](http://purl.obolibrary.org/obo/OBA_1000742) SubClassOf [molecule homeostasis trait](http://purl.obolibrary.org/obo/OBA_VT0015077) 
+
+
 ### non-Hodgkin lymphoma `http://purl.obolibrary.org/obo/MONDO_0018908`
 #### Removed
 - [non-Hodgkin lymphoma](http://purl.obolibrary.org/obo/MONDO_0018908) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "OMIM:605027" 
@@ -17730,6 +19432,26 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 
 
+### nucleus accumbens volume `http://purl.obolibrary.org/obo/OBA_2050020`
+
+#### Added
+- [nucleus accumbens volume](http://purl.obolibrary.org/obo/OBA_2050020) [label](http://www.w3.org/2000/01/rdf-schema#label) "nucleus accumbens volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [nucleus accumbens volume](http://purl.obolibrary.org/obo/OBA_2050020) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a nucleus accumbens."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [nucleus accumbens volume](http://purl.obolibrary.org/obo/OBA_2050020) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of nucleus accumbens"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [nucleus accumbens volume](http://purl.obolibrary.org/obo/OBA_2050020) 
+
+- [nucleus accumbens volume](http://purl.obolibrary.org/obo/OBA_2050020) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [nucleus accumbens](http://purl.obolibrary.org/obo/UBERON_0001882)) 
+
+- [nucleus accumbens volume](http://purl.obolibrary.org/obo/OBA_2050020) SubClassOf [nucleus accumbens morphology trait](http://purl.obolibrary.org/obo/OBA_VT0004080) 
+
+- [nucleus accumbens volume](http://purl.obolibrary.org/obo/OBA_2050020) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
 ### nutritional deficiency disease `http://purl.obolibrary.org/obo/MONDO_0006873`
 #### Removed
 - [nutritional deficiency disease](http://purl.obolibrary.org/obo/MONDO_0006873) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [E40-E46](https://icd.codes/icd10cm/E40-E46) 
@@ -17757,55 +19479,18 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 
 
-### obsolete cholesterol esterification `http://purl.obolibrary.org/obo/GO_0034435`
+### obsolete sensory epithelium of spiral organ `http://purl.obolibrary.org/obo/UBERON_0013763`
 #### Removed
-- [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [label](http://www.w3.org/2000/01/rdf-schema#label) "cholesterol esterification" 
+- [obsolete sensory epithelium of spiral organ](http://purl.obolibrary.org/obo/UBERON_0013763) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0013763" 
 
-- [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A lipid modification process in which a sterol ester is formed by the combination of a carboxylic acid (often a fatty acid) and cholesterol. In the blood this process is associated with the conversion of free cholesterol into cholesteryl ester, which is then sequestered into the core of a lipoprotein particle." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pde"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [obsolete sensory epithelium of spiral organ](http://purl.obolibrary.org/obo/UBERON_0013763) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [obsolete sensory epithelium of spiral organ](http://purl.obolibrary.org/obo/UBERON_0013763) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [obsolete sensory epithelium of spiral organ](http://purl.obolibrary.org/obo/UBERON_0013763) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete sensory epithelium of spiral organ" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rl"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- Class: [obsolete sensory epithelium of spiral organ](http://purl.obolibrary.org/obo/UBERON_0013763) 
 
-- [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) SubClassOf [sterol esterification](http://purl.obolibrary.org/obo/GO_0034434) 
-
-#### Added
-- [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [consider](http://www.geneontology.org/formats/oboInOwl#consider) "GO:0008203" 
-
-- [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cholesterol esterification" 
-
-- [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A lipid modification process in which a sterol ester is formed by the combination of a carboxylic acid (often a fatty acid) and cholesterol. In the blood this process is associated with the conversion of free cholesterol into cholesteryl ester, which is then sequestered into the core of a lipoprotein particle." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pde"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rl"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19255"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-
-### obsolete gas homeostasis `http://purl.obolibrary.org/obo/GO_0033483`
-
-#### Added
-- [obsolete gas homeostasis](http://purl.obolibrary.org/obo/GO_0033483) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/24224"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete gas homeostasis](http://purl.obolibrary.org/obo/GO_0033483) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete gas homeostasis](http://purl.obolibrary.org/obo/GO_0033483) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A homeostatic process involved in the maintenance of an internal steady state of a gas within an organism or cell." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [obsolete gas homeostasis](http://purl.obolibrary.org/obo/GO_0033483) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete gas homeostasis" 
-
-- [obsolete gas homeostasis](http://purl.obolibrary.org/obo/GO_0033483) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it was an unnecessary grouping class." 
 
 
 ### obstetric disorder `http://purl.obolibrary.org/obo/MONDO_0700003`
@@ -17816,12 +19501,68 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [obstetric disorder](http://purl.obolibrary.org/obo/MONDO_0700003) SubClassOf [human disease or disorder](http://purl.obolibrary.org/obo/MONDO_0700096) 
 
 
+### occipital gyrus `http://purl.obolibrary.org/obo/UBERON_0014640`
+
+#### Added
+- [occipital gyrus](http://purl.obolibrary.org/obo/UBERON_0014640) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:747" 
+
+- [occipital gyrus](http://purl.obolibrary.org/obo/UBERON_0014640) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:OG" 
+
+- [occipital gyrus](http://purl.obolibrary.org/obo/UBERON_0014640) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C1110642" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:747" 
+
+- [occipital gyrus](http://purl.obolibrary.org/obo/UBERON_0014640) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus occipitalis" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:152" 
+
+- [occipital gyrus](http://purl.obolibrary.org/obo/UBERON_0014640) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A gyrus that is part of a occipital lobe." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "OBOL:automatic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [occipital gyrus](http://purl.obolibrary.org/obo/UBERON_0014640) [label](http://www.w3.org/2000/01/rdf-schema#label) "occipital gyrus" 
+
+- [occipital gyrus](http://purl.obolibrary.org/obo/UBERON_0014640) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:152" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:747" 
+
+- [occipital gyrus](http://purl.obolibrary.org/obo/UBERON_0014640) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0014640" 
+
+- [occipital gyrus](http://purl.obolibrary.org/obo/UBERON_0014640) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- Class: [occipital gyrus](http://purl.obolibrary.org/obo/UBERON_0014640) 
+
+- [occipital gyrus](http://purl.obolibrary.org/obo/UBERON_0014640) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [occipital lobe](http://purl.obolibrary.org/obo/UBERON_0002021) 
+
+- [occipital gyrus](http://purl.obolibrary.org/obo/UBERON_0014640) SubClassOf [gyrus](http://purl.obolibrary.org/obo/UBERON_0000200) 
+
+
 ### occipital lobe neoplasm `http://purl.obolibrary.org/obo/MONDO_0004709`
 #### Removed
 - [occipital lobe neoplasm](http://purl.obolibrary.org/obo/MONDO_0004709) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [C71.4](https://icd.codes/icd10cm/C71.4) 
 
 #### Added
 - [occipital lobe neoplasm](http://purl.obolibrary.org/obo/MONDO_0004709) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [C71.4](http://purl.bioontology.org/ontology/ICD10CM/C71.4) 
+
+
+### occipital lobe volume `http://purl.obolibrary.org/obo/OBA_2050052`
+
+#### Added
+- [occipital lobe volume](http://purl.obolibrary.org/obo/OBA_2050052) [label](http://www.w3.org/2000/01/rdf-schema#label) "occipital lobe volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [occipital lobe volume](http://purl.obolibrary.org/obo/OBA_2050052) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of occipital lobe"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [occipital lobe volume](http://purl.obolibrary.org/obo/OBA_2050052) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a occipital lobe."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [occipital lobe volume](http://purl.obolibrary.org/obo/OBA_2050052) 
+
+- [occipital lobe volume](http://purl.obolibrary.org/obo/OBA_2050052) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [occipital lobe](http://purl.obolibrary.org/obo/UBERON_0002021)) 
+
+- [occipital lobe volume](http://purl.obolibrary.org/obo/OBA_2050052) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [occipital lobe volume](http://purl.obolibrary.org/obo/OBA_2050052) SubClassOf [occipital lobe morphology trait](http://purl.obolibrary.org/obo/OBA_VT0000804) 
+
+- [occipital lobe volume](http://purl.obolibrary.org/obo/OBA_2050052) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
 
 
 ### omphalitis `http://purl.obolibrary.org/obo/MONDO_0021562`
@@ -17838,6 +19579,90 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 #### Added
 - [open-angle glaucoma](http://purl.obolibrary.org/obo/MONDO_0005338) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/2507"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### opercular part of inferior frontal gyrus `http://purl.obolibrary.org/obo/UBERON_0002980`
+
+#### Added
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0002980" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:12119" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0262296" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:823" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:87" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:823" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pars opercularis gyri frontalis inferioris" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:823" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4041" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Opercular_part_of_inferior_frontal_gyrus" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pars posterior of inferior frontal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:TA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61981" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "inferior frontal gyrus, opercular part" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:IFGOp" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "opercular portion of inferior frontal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61981" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "inferior frontal gyrus, pars opercularis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://orcid.org/0000-0001-6755-0259" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:OpIFG" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61981" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:IFGOp" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "gyrus frontalis inferior, pars opercularis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:TA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61981" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the inferior frontal gyrus.defined as the first gyrus from the precentral gyrus." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:823" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:823" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pars opercularis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:TA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61981" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [label](http://www.w3.org/2000/01/rdf-schema#label) "opercular part of inferior frontal gyrus" 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "posterior part of inferior frontal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61981" 
+
+- Class: [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "FMA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) SubClassOf [structure with developmental contribution from neural crest](http://purl.obolibrary.org/obo/UBERON_0010314) 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) SubClassOf [organ part](http://purl.obolibrary.org/obo/UBERON_0000064) 
+
+- [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) SubClassOf [ectoderm-derived structure](http://purl.obolibrary.org/obo/UBERON_0004121) 
 
 
 ### optic nerve disorder `http://purl.obolibrary.org/obo/MONDO_0002135`
@@ -18091,6 +19916,48 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [oxidoreductase complex](http://purl.obolibrary.org/obo/GO_1990204) SubClassOf [catalytic complex](http://purl.obolibrary.org/obo/GO_1902494) 
 
 
+### pallidum volume `http://purl.obolibrary.org/obo/OBA_2050027`
+
+#### Added
+- [pallidum volume](http://purl.obolibrary.org/obo/OBA_2050027) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of pallidum"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [pallidum volume](http://purl.obolibrary.org/obo/OBA_2050027) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a pallidum."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [pallidum volume](http://purl.obolibrary.org/obo/OBA_2050027) [label](http://www.w3.org/2000/01/rdf-schema#label) "pallidum volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [pallidum volume](http://purl.obolibrary.org/obo/OBA_2050027) 
+
+- [pallidum volume](http://purl.obolibrary.org/obo/OBA_2050027) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [pallidum](http://purl.obolibrary.org/obo/UBERON_0006514)) 
+
+- [pallidum volume](http://purl.obolibrary.org/obo/OBA_2050027) SubClassOf [anatomical entity attribute](http://purl.obolibrary.org/obo/OBA_0100003) 
+
+- [pallidum volume](http://purl.obolibrary.org/obo/OBA_2050027) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [pallidum volume](http://purl.obolibrary.org/obo/OBA_2050027) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [pallidum](http://purl.obolibrary.org/obo/UBERON_0006514) 
+
+
+### pancreas volume `http://purl.obolibrary.org/obo/OBA_2050006`
+
+#### Added
+- [pancreas volume](http://purl.obolibrary.org/obo/OBA_2050006) [label](http://www.w3.org/2000/01/rdf-schema#label) "pancreas volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [pancreas volume](http://purl.obolibrary.org/obo/OBA_2050006) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of pancreas"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [pancreas volume](http://purl.obolibrary.org/obo/OBA_2050006) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a pancreas."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [pancreas volume](http://purl.obolibrary.org/obo/OBA_2050006) 
+
+- [pancreas volume](http://purl.obolibrary.org/obo/OBA_2050006) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [pancreas](http://purl.obolibrary.org/obo/UBERON_0001264)) 
+
+- [pancreas volume](http://purl.obolibrary.org/obo/OBA_2050006) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [pancreas volume](http://purl.obolibrary.org/obo/OBA_2050006) SubClassOf [pancreas size trait](http://purl.obolibrary.org/obo/OBA_VT0003450) 
+
+
 ### pancreatic acinar cell carcinoma `http://purl.obolibrary.org/obo/MONDO_0006346`
 #### Removed
 - [pancreatic acinar cell carcinoma](http://purl.obolibrary.org/obo/MONDO_0006346) SubClassOf [has modifier](http://purl.obolibrary.org/obo/RO_0002573) some [rare](http://purl.obolibrary.org/obo/MONDO_0021136) 
@@ -18151,6 +20018,65 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 
 
+### paracentral lobule `http://purl.obolibrary.org/obo/UBERON_0035933`
+
+#### Added
+- [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The junction of the precentral gyrus and postcentral gyrus on the medial surface of the cerebral cortex. It lies across the boundary between the frontal lobe and the parietal lobe." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://braininfo.rprc.washington.edu/centraldirectory.aspx?type=a&amp;ID=404" 
+
+- [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RadLex:RID6449" 
+
+- [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:279202002" 
+
+- [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Paracentral_lobule" 
+
+- [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:77534" 
+
+- [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Talairach:1047" 
+
+- [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) [label](http://www.w3.org/2000/01/rdf-schema#label) "paracentral lobule" 
+
+- [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:1341" 
+
+- [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0035933" 
+
+- [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BTO:0005601" 
+
+- [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "lobulus paracentralis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:TA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+- Class: [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) 
+
+- [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) SubClassOf [gyrus](http://purl.obolibrary.org/obo/UBERON_0000200) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "FMA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+
+### paracentral lobule volume `http://purl.obolibrary.org/obo/OBA_2050008`
+
+#### Added
+- [paracentral lobule volume](http://purl.obolibrary.org/obo/OBA_2050008) [label](http://www.w3.org/2000/01/rdf-schema#label) "paracentral lobule volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [paracentral lobule volume](http://purl.obolibrary.org/obo/OBA_2050008) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of paracentral lobule"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [paracentral lobule volume](http://purl.obolibrary.org/obo/OBA_2050008) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a paracentral lobule."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [paracentral lobule volume](http://purl.obolibrary.org/obo/OBA_2050008) 
+
+- [paracentral lobule volume](http://purl.obolibrary.org/obo/OBA_2050008) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933)) 
+
+- [paracentral lobule volume](http://purl.obolibrary.org/obo/OBA_2050008) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [paracentral lobule volume](http://purl.obolibrary.org/obo/OBA_2050008) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [paracentral lobule volume](http://purl.obolibrary.org/obo/OBA_2050008) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [paracentral lobule](http://purl.obolibrary.org/obo/UBERON_0035933) 
+
+
 ### paraganglioma `http://purl.obolibrary.org/obo/MONDO_0000448`
 #### Removed
 - [paraganglioma](http://purl.obolibrary.org/obo/MONDO_0000448) SubClassOf [genetic nervous system disorder](http://purl.obolibrary.org/obo/MONDO_0019117) 
@@ -18175,6 +20101,28 @@ Each of these 3 primitives can be composed to yield a cross-product of different
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "OMIM:168000" 
 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:relatedTo"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+
+### parahippocampal gyrus volume `http://purl.obolibrary.org/obo/OBA_2050022`
+
+#### Added
+- [parahippocampal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050022) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of parahippocampal gyrus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [parahippocampal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050022) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a parahippocampal gyrus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [parahippocampal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050022) [label](http://www.w3.org/2000/01/rdf-schema#label) "parahippocampal gyrus volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [parahippocampal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050022) 
+
+- [parahippocampal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050022) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [parahippocampal gyrus](http://purl.obolibrary.org/obo/UBERON_0002973)) 
+
+- [parahippocampal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050022) SubClassOf [parahippocampal gyrus morphology trait](http://purl.obolibrary.org/obo/OBA_VT0004168) 
+
+- [parahippocampal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050022) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [parahippocampal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050022) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
 
 
 ### paranasal sinus carcinoma `http://purl.obolibrary.org/obo/MONDO_0000380`
@@ -18222,6 +20170,96 @@ Each of these 3 primitives can be composed to yield a cross-product of different
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:0020009" 
 
 
+### parasubiculum `http://purl.obolibrary.org/obo/UBERON_0004683`
+
+#### Added
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:2304" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "parasubicular cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:10316" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [RO_0002171](http://purl.obolibrary.org/obo/RO_0002171) [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "ABA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:PAS" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "parasubiculum" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NLXANAT:091002" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "OldNeuroNames:2304" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "NLXANAT:091002" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [label](http://www.w3.org/2000/01/rdf-schema#label) "parasubiculum" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:PaS" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:PAR" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0004683" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DMBA:16186" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BM:Tel-Cx-PASB" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4253" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [RO_0002171](http://purl.obolibrary.org/obo/RO_0002171) [subiculum](http://purl.obolibrary.org/obo/UBERON_0002191) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "ABA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transitional zone between the presubiculum and the entorhinal area in the mouse (Paxinos-2001), the rat (Swanson-1998) and the primate (Zilles-1990). Defined on the basis of cytoarchitecture, it is more similar to the presubiculum than to the entorhinal area (Zilles-1990). (from Brain Info)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NLXANAT:091002" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:10316" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "parasubicular cortex (parasubiculum)" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:10316" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NLXANAT:091002" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:77604" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [RO_0002171](http://purl.obolibrary.org/obo/RO_0002171) [entorhinal cortex](http://purl.obolibrary.org/obo/UBERON_0002728) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "ABA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "parasubicular area" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NLXANAT:091002" 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MBA:843" 
+
+- Class: [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) SubClassOf [structure with developmental contribution from neural crest](http://purl.obolibrary.org/obo/UBERON_0010314) 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) SubClassOf [regional part of brain](http://purl.obolibrary.org/obo/UBERON_0002616) 
+
+- [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [hippocampal formation](http://purl.obolibrary.org/obo/UBERON_0002421) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "NIFSTD"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+
+### parasubiculum volume `http://purl.obolibrary.org/obo/OBA_2050005`
+
+#### Added
+- [parasubiculum volume](http://purl.obolibrary.org/obo/OBA_2050005) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a parasubiculum."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [parasubiculum volume](http://purl.obolibrary.org/obo/OBA_2050005) [label](http://www.w3.org/2000/01/rdf-schema#label) "parasubiculum volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [parasubiculum volume](http://purl.obolibrary.org/obo/OBA_2050005) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of parasubiculum"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [parasubiculum volume](http://purl.obolibrary.org/obo/OBA_2050005) 
+
+- [parasubiculum volume](http://purl.obolibrary.org/obo/OBA_2050005) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683)) 
+
+- [parasubiculum volume](http://purl.obolibrary.org/obo/OBA_2050005) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [parasubiculum volume](http://purl.obolibrary.org/obo/OBA_2050005) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [parasubiculum volume](http://purl.obolibrary.org/obo/OBA_2050005) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) 
+
+
 ### parathyroid gland carcinoma `http://purl.obolibrary.org/obo/MONDO_0012004`
 #### Removed
 - [parathyroid gland carcinoma](http://purl.obolibrary.org/obo/MONDO_0012004) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ICD10CM:C75.0" 
@@ -18251,6 +20289,72 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [parietal lobe cancer](http://purl.obolibrary.org/obo/MONDO_0001952) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [C71.3](http://purl.bioontology.org/ontology/ICD10CM/C71.3) 
 
 
+### parietal lobe volume `http://purl.obolibrary.org/obo/OBA_2050014`
+
+#### Added
+- [parietal lobe volume](http://purl.obolibrary.org/obo/OBA_2050014) [label](http://www.w3.org/2000/01/rdf-schema#label) "parietal lobe volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [parietal lobe volume](http://purl.obolibrary.org/obo/OBA_2050014) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of parietal lobe"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [parietal lobe volume](http://purl.obolibrary.org/obo/OBA_2050014) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a parietal lobe."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [parietal lobe volume](http://purl.obolibrary.org/obo/OBA_2050014) 
+
+- [parietal lobe volume](http://purl.obolibrary.org/obo/OBA_2050014) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [parietal lobe](http://purl.obolibrary.org/obo/UBERON_0001872)) 
+
+- [parietal lobe volume](http://purl.obolibrary.org/obo/OBA_2050014) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [parietal lobe volume](http://purl.obolibrary.org/obo/OBA_2050014) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [parietal lobe volume](http://purl.obolibrary.org/obo/OBA_2050014) SubClassOf [parietal lobe morphology trait](http://purl.obolibrary.org/obo/OBA_VT0000794) 
+
+
+### pars opercularis volume `http://purl.obolibrary.org/obo/OBA_2050031`
+
+#### Added
+- [pars opercularis volume](http://purl.obolibrary.org/obo/OBA_2050031) [label](http://www.w3.org/2000/01/rdf-schema#label) "pars opercularis volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [pars opercularis volume](http://purl.obolibrary.org/obo/OBA_2050031) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a opercular part of inferior frontal gyrus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [pars opercularis volume](http://purl.obolibrary.org/obo/OBA_2050031) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of opercular part of inferior frontal gyrus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [pars opercularis volume](http://purl.obolibrary.org/obo/OBA_2050031) 
+
+- [pars opercularis volume](http://purl.obolibrary.org/obo/OBA_2050031) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980)) 
+
+- [pars opercularis volume](http://purl.obolibrary.org/obo/OBA_2050031) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [pars opercularis volume](http://purl.obolibrary.org/obo/OBA_2050031) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [pars opercularis volume](http://purl.obolibrary.org/obo/OBA_2050031) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [opercular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002980) 
+
+
+### pars triangularis volume `http://purl.obolibrary.org/obo/OBA_2050013`
+
+#### Added
+- [pars triangularis volume](http://purl.obolibrary.org/obo/OBA_2050013) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of triangular part of inferior frontal gyrus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [pars triangularis volume](http://purl.obolibrary.org/obo/OBA_2050013) [label](http://www.w3.org/2000/01/rdf-schema#label) "pars triangularis volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [pars triangularis volume](http://purl.obolibrary.org/obo/OBA_2050013) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a triangular part of inferior frontal gyrus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [pars triangularis volume](http://purl.obolibrary.org/obo/OBA_2050013) 
+
+- [pars triangularis volume](http://purl.obolibrary.org/obo/OBA_2050013) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629)) 
+
+- [pars triangularis volume](http://purl.obolibrary.org/obo/OBA_2050013) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) 
+
+- [pars triangularis volume](http://purl.obolibrary.org/obo/OBA_2050013) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [pars triangularis volume](http://purl.obolibrary.org/obo/OBA_2050013) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+
 ### patellar tendinitis `http://purl.obolibrary.org/obo/MONDO_0001042`
 #### Removed
 - [patellar tendinitis](http://purl.obolibrary.org/obo/MONDO_0001042) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [M76.5](https://icd.codes/icd10cm/M76.5) 
@@ -18259,124 +20363,124 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [patellar tendinitis](http://purl.obolibrary.org/obo/MONDO_0001042) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [M76.5](http://purl.bioontology.org/ontology/ICD10CM/M76.5) 
 
 
-### pedal digit 1 spatial deviation `http://purl.obolibrary.org/obo/OBA_0002260`
+### pedal digit 1 deviation `http://purl.obolibrary.org/obo/OBA_0002260`
 #### Removed
-- [pedal digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002260) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of pedal digit 1"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002260) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of pedal digit 1"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002260) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 1 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002260) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 1 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002260) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a pedal digit 1."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002260) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a pedal digit 1."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [pedal digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002260) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of pedal digit 1"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002260) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of pedal digit 1"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002260) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a pedal digit 1."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002260) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a pedal digit 1."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 1 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002260) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 1 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 1 deviation](http://purl.obolibrary.org/obo/OBA_0002260) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 1 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
-### pedal digit 2 spatial deviation `http://purl.obolibrary.org/obo/OBA_0002662`
+### pedal digit 2 deviation `http://purl.obolibrary.org/obo/OBA_0002662`
 #### Removed
-- [pedal digit 2 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002662) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 2 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 2 deviation](http://purl.obolibrary.org/obo/OBA_0002662) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 2 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 2 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002662) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a pedal digit 2."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 2 deviation](http://purl.obolibrary.org/obo/OBA_0002662) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a pedal digit 2."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 2 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002662) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of pedal digit 2"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 2 deviation](http://purl.obolibrary.org/obo/OBA_0002662) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of pedal digit 2"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [pedal digit 2 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002662) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 2 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 2 deviation](http://purl.obolibrary.org/obo/OBA_0002662) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 2 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 2 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002662) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a pedal digit 2."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 2 deviation](http://purl.obolibrary.org/obo/OBA_0002662) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a pedal digit 2."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 2 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002662) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of pedal digit 2"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 2 deviation](http://purl.obolibrary.org/obo/OBA_0002662) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of pedal digit 2"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
-### pedal digit 3 spatial deviation `http://purl.obolibrary.org/obo/OBA_0002808`
+### pedal digit 3 deviation `http://purl.obolibrary.org/obo/OBA_0002808`
 #### Removed
-- [pedal digit 3 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002808) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 3 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 3 deviation](http://purl.obolibrary.org/obo/OBA_0002808) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 3 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 3 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002808) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a pedal digit 3."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 3 deviation](http://purl.obolibrary.org/obo/OBA_0002808) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a pedal digit 3."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 3 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002808) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of pedal digit 3"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 3 deviation](http://purl.obolibrary.org/obo/OBA_0002808) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of pedal digit 3"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [pedal digit 3 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002808) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a pedal digit 3."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 3 deviation](http://purl.obolibrary.org/obo/OBA_0002808) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a pedal digit 3."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 3 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002808) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of pedal digit 3"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 3 deviation](http://purl.obolibrary.org/obo/OBA_0002808) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of pedal digit 3"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 3 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002808) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 3 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 3 deviation](http://purl.obolibrary.org/obo/OBA_0002808) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 3 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
-### pedal digit 4 spatial deviation `http://purl.obolibrary.org/obo/OBA_0003110`
+### pedal digit 4 deviation `http://purl.obolibrary.org/obo/OBA_0003110`
 #### Removed
-- [pedal digit 4 spatial deviation](http://purl.obolibrary.org/obo/OBA_0003110) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 4 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 4 deviation](http://purl.obolibrary.org/obo/OBA_0003110) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 4 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 4 spatial deviation](http://purl.obolibrary.org/obo/OBA_0003110) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of pedal digit 4"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 4 deviation](http://purl.obolibrary.org/obo/OBA_0003110) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of pedal digit 4"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 4 spatial deviation](http://purl.obolibrary.org/obo/OBA_0003110) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a pedal digit 4."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 4 deviation](http://purl.obolibrary.org/obo/OBA_0003110) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a pedal digit 4."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [pedal digit 4 spatial deviation](http://purl.obolibrary.org/obo/OBA_0003110) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a pedal digit 4."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 4 deviation](http://purl.obolibrary.org/obo/OBA_0003110) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a pedal digit 4."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 4 spatial deviation](http://purl.obolibrary.org/obo/OBA_0003110) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 4 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 4 deviation](http://purl.obolibrary.org/obo/OBA_0003110) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 4 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 4 spatial deviation](http://purl.obolibrary.org/obo/OBA_0003110) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of pedal digit 4"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 4 deviation](http://purl.obolibrary.org/obo/OBA_0003110) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of pedal digit 4"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
-### pedal digit 5 spatial deviation `http://purl.obolibrary.org/obo/OBA_0002269`
+### pedal digit 5 deviation `http://purl.obolibrary.org/obo/OBA_0002269`
 #### Removed
-- [pedal digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002269) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of pedal digit 5"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002269) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of pedal digit 5"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002269) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 5 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002269) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 5 deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002269) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a pedal digit 5."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002269) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a pedal digit 5."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [pedal digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002269) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a pedal digit 5."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002269) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a pedal digit 5."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002269) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of pedal digit 5"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002269) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of pedal digit 5"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit 5 spatial deviation](http://purl.obolibrary.org/obo/OBA_0002269) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 5 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit 5 deviation](http://purl.obolibrary.org/obo/OBA_0002269) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit 5 spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
-### pedal digit spatial deviation `http://purl.obolibrary.org/obo/OBA_0002268`
+### pedal digit deviation `http://purl.obolibrary.org/obo/OBA_0002268`
 #### Removed
-- [pedal digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0002268) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a pedal digit."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit deviation](http://purl.obolibrary.org/obo/OBA_0002268) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The deviation of a pedal digit."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0002268) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of pedal digit"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit deviation](http://purl.obolibrary.org/obo/OBA_0002268) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "deviation of pedal digit"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0002268) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit deviation](http://purl.obolibrary.org/obo/OBA_0002268) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [pedal digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0002268) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of pedal digit"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit deviation](http://purl.obolibrary.org/obo/OBA_0002268) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spatial deviation of pedal digit"^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0002268) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a pedal digit."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit deviation](http://purl.obolibrary.org/obo/OBA_0002268) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The spatial deviation of a pedal digit."^^[string](http://www.w3.org/2001/XMLSchema#string) 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [pedal digit spatial deviation](http://purl.obolibrary.org/obo/OBA_0002268) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [pedal digit deviation](http://purl.obolibrary.org/obo/OBA_0002268) [label](http://www.w3.org/2000/01/rdf-schema#label) "pedal digit spatial deviation"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
 ### pediatric hepatocellular carcinoma `http://purl.obolibrary.org/obo/MONDO_0018055`
@@ -18548,6 +20652,60 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 #### Added
 - [perceptual disorders](http://purl.obolibrary.org/obo/MONDO_0024417) EquivalentTo [human disease or disorder](http://purl.obolibrary.org/obo/MONDO_0700096) and ([disease disrupts](http://purl.obolibrary.org/obo/RO_0004024) some [sensory perception](http://purl.obolibrary.org/obo/GO_0007600)) 
+
+
+### pericalcarine cortex `http://purl.obolibrary.org/obo/UBERON_0022534`
+
+#### Added
+- [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1059" 
+
+- [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the parietal lobe. The rostral boundary of the pericalcarine cortex was the first appearance of the calcarine sulcus whereas the caudal boundary was the most posterior coronal slice where the calcarine sulcus was visualized. The medial and lateral boundaries were the medial portion of the temporal and occipital cortices and the inferomedial end of the calcarine sulcus respectively (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1059" 
+
+- [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0022534" 
+
+- [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pericalcarine cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1059" 
+
+- [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pericalcarine cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1059" 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [HUMAN_PREFERRED](http://purl.obolibrary.org/obo/uberon/core#HUMAN_PREFERRED) 
+
+- [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534) [label](http://www.w3.org/2000/01/rdf-schema#label) "pericalcarine cortex" 
+
+- Class: [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534) 
+
+- [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534) SubClassOf [regional part of brain](http://purl.obolibrary.org/obo/UBERON_0002616) 
+
+- [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [parietal lobe](http://purl.obolibrary.org/obo/UBERON_0001872) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "NIFSTD"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534) SubClassOf [structure with developmental contribution from neural crest](http://purl.obolibrary.org/obo/UBERON_0010314) 
+
+
+### pericalcarine cortex volume `http://purl.obolibrary.org/obo/OBA_2050023`
+
+#### Added
+- [pericalcarine cortex volume](http://purl.obolibrary.org/obo/OBA_2050023) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of pericalcarine cortex"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [pericalcarine cortex volume](http://purl.obolibrary.org/obo/OBA_2050023) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a pericalcarine cortex."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [pericalcarine cortex volume](http://purl.obolibrary.org/obo/OBA_2050023) [label](http://www.w3.org/2000/01/rdf-schema#label) "pericalcarine cortex volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [pericalcarine cortex volume](http://purl.obolibrary.org/obo/OBA_2050023) 
+
+- [pericalcarine cortex volume](http://purl.obolibrary.org/obo/OBA_2050023) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534)) 
+
+- [pericalcarine cortex volume](http://purl.obolibrary.org/obo/OBA_2050023) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [pericalcarine cortex volume](http://purl.obolibrary.org/obo/OBA_2050023) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [pericalcarine cortex](http://purl.obolibrary.org/obo/UBERON_0022534) 
+
+- [pericalcarine cortex volume](http://purl.obolibrary.org/obo/OBA_2050023) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
 
 
 ### periodontitis `http://purl.obolibrary.org/obo/MONDO_0005076`
@@ -18995,6 +21153,31 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [pleurisy](http://purl.obolibrary.org/obo/MONDO_0000986) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [R09.1](http://purl.bioontology.org/ontology/ICD10CM/R09.1) 
 
 
+### pole of cerebral hemisphere `http://purl.obolibrary.org/obo/UBERON_0009899`
+
+#### Added
+- [pole of cerebral hemisphere](http://purl.obolibrary.org/obo/UBERON_0009899) [depicted_by](http://xmlns.com/foaf/0.1/depicted_by) "http://upload.wikimedia.org/wikipedia/commons/e/e3/Human_brain_lateral_view_description.JPG"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [pole of cerebral hemisphere](http://purl.obolibrary.org/obo/UBERON_0009899) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The anterior end of the hemisphere is named the frontal pole. The posterior end is named the occipital pole. The anterior end of the temporal lobe, the temporal pole." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Poles_of_cerebral_hemispheres" 
+
+- [pole of cerebral hemisphere](http://purl.obolibrary.org/obo/UBERON_0009899) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [pole of cerebral hemisphere](http://purl.obolibrary.org/obo/UBERON_0009899) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Poles_of_cerebral_hemispheres" 
+
+- [pole of cerebral hemisphere](http://purl.obolibrary.org/obo/UBERON_0009899) [label](http://www.w3.org/2000/01/rdf-schema#label) "pole of cerebral hemisphere" 
+
+- [pole of cerebral hemisphere](http://purl.obolibrary.org/obo/UBERON_0009899) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0009899" 
+
+- Class: [pole of cerebral hemisphere](http://purl.obolibrary.org/obo/UBERON_0009899) 
+
+- [pole of cerebral hemisphere](http://purl.obolibrary.org/obo/UBERON_0009899) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [cerebral hemisphere](http://purl.obolibrary.org/obo/UBERON_0001869) 
+
+- [pole of cerebral hemisphere](http://purl.obolibrary.org/obo/UBERON_0009899) SubClassOf [structure with developmental contribution from neural crest](http://purl.obolibrary.org/obo/UBERON_0010314) 
+
+- [pole of cerebral hemisphere](http://purl.obolibrary.org/obo/UBERON_0009899) SubClassOf [regional part of brain](http://purl.obolibrary.org/obo/UBERON_0002616) 
+
+
 ### polyendocrinopathy `http://purl.obolibrary.org/obo/MONDO_0015126`
 #### Removed
 - [polyendocrinopathy](http://purl.obolibrary.org/obo/MONDO_0015126) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ICD10CM:E31.0" 
@@ -19151,74 +21334,6 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [positive regulation of amide catabolic process](http://purl.obolibrary.org/obo/GO_0034253) SubClassOf [regulation of amide catabolic process](http://purl.obolibrary.org/obo/GO_0034251) 
 
 
-### positive regulation of amine catabolic process `http://purl.obolibrary.org/obo/GO_0033243`
-#### Removed
-- [positive regulation of amine catabolic process](http://purl.obolibrary.org/obo/GO_0033243) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of cellular amine catabolic process" 
-
-- [positive regulation of amine catabolic process](http://purl.obolibrary.org/obo/GO_0033243) SubClassOf [positive regulation of cellular catabolic process](http://purl.obolibrary.org/obo/GO_0031331) 
-
-#### Added
-- [positive regulation of amine catabolic process](http://purl.obolibrary.org/obo/GO_0033243) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of amine catabolic process" 
-
-- [positive regulation of amine catabolic process](http://purl.obolibrary.org/obo/GO_0033243) SubClassOf [positive regulation of catabolic process](http://purl.obolibrary.org/obo/GO_0009896) 
-
-
-### positive regulation of amine metabolic process `http://purl.obolibrary.org/obo/GO_0033240`
-
-#### Added
-- [positive regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033240) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of amine metabolic process" 
-
-- [positive regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033240) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amine metabolic process" 
-
-- [positive regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033240) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [amine metabolic process](http://purl.obolibrary.org/obo/GO_0009308)) 
-
-
-### positive regulation of amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_2000284`
-#### Removed
-- [positive regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amino acid anabolism" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [positive regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amino acid biosynthesis" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [positive regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of cellular amino acid biosynthetic process" 
-
-- [positive regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amino acid formation" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [positive regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amino acid synthesis" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [positive regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of amino acid biosynthetic process" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-#### Added
-- [positive regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amino acid biosynthetic process" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [positive regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of amino acid biosynthesis" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [positive regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of amino acid synthesis" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [positive regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of amino acid anabolism" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [positive regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of amino acid formation" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [positive regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of amino acid biosynthetic process" 
-
-
-### positive regulation of amino acid metabolic process `http://purl.obolibrary.org/obo/GO_0045764`
-
-#### Added
-- [positive regulation of amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0045764) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of amino acid metabolic process" 
-
-- [positive regulation of amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0045764) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amino acid metabolic process" 
-
-
 ### positive regulation of axo-dendritic protein transport `http://purl.obolibrary.org/obo/GO_1905128`
 #### Removed
 - [positive regulation of axo-dendritic protein transport](http://purl.obolibrary.org/obo/GO_1905128) SubClassOf [positive regulation of cellular component movement](http://purl.obolibrary.org/obo/GO_0051272) 
@@ -19296,6 +21411,74 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [positive regulation of cellular amide metabolic process](http://purl.obolibrary.org/obo/GO_0034250) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amide metabolic process" 
 
 - [positive regulation of cellular amide metabolic process](http://purl.obolibrary.org/obo/GO_0034250) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of amide metabolic process" 
+
+
+### positive regulation of cellular amine catabolic process `http://purl.obolibrary.org/obo/GO_0033243`
+#### Removed
+- [positive regulation of cellular amine catabolic process](http://purl.obolibrary.org/obo/GO_0033243) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of cellular amine catabolic process" 
+
+- [positive regulation of cellular amine catabolic process](http://purl.obolibrary.org/obo/GO_0033243) SubClassOf [positive regulation of cellular catabolic process](http://purl.obolibrary.org/obo/GO_0031331) 
+
+#### Added
+- [positive regulation of cellular amine catabolic process](http://purl.obolibrary.org/obo/GO_0033243) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of amine catabolic process" 
+
+- [positive regulation of cellular amine catabolic process](http://purl.obolibrary.org/obo/GO_0033243) SubClassOf [positive regulation of catabolic process](http://purl.obolibrary.org/obo/GO_0009896) 
+
+
+### positive regulation of cellular amine metabolic process `http://purl.obolibrary.org/obo/GO_0033240`
+
+#### Added
+- [positive regulation of cellular amine metabolic process](http://purl.obolibrary.org/obo/GO_0033240) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of amine metabolic process" 
+
+- [positive regulation of cellular amine metabolic process](http://purl.obolibrary.org/obo/GO_0033240) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amine metabolic process" 
+
+- [positive regulation of cellular amine metabolic process](http://purl.obolibrary.org/obo/GO_0033240) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [amine metabolic process](http://purl.obolibrary.org/obo/GO_0009308)) 
+
+
+### positive regulation of cellular amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_2000284`
+#### Removed
+- [positive regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amino acid anabolism" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [positive regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amino acid biosynthesis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [positive regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of cellular amino acid biosynthetic process" 
+
+- [positive regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amino acid formation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [positive regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amino acid synthesis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [positive regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of amino acid biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+#### Added
+- [positive regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amino acid biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [positive regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of amino acid biosynthesis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [positive regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of amino acid synthesis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [positive regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of amino acid anabolism" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [positive regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of amino acid formation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [positive regulation of cellular amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000284) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of amino acid biosynthetic process" 
+
+
+### positive regulation of cellular amino acid metabolic process `http://purl.obolibrary.org/obo/GO_0045764`
+
+#### Added
+- [positive regulation of cellular amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0045764) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of amino acid metabolic process" 
+
+- [positive regulation of cellular amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0045764) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of cellular amino acid metabolic process" 
 
 
 ### positive regulation of cellular component movement `http://purl.obolibrary.org/obo/GO_0051272`
@@ -19412,11 +21595,11 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 - Class: [positive regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010873) 
 
-- [positive regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010873) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435)) 
+- [positive regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010873) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435)) 
 
 - [positive regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010873) SubClassOf [regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010872) 
 
-- [positive regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010873) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) 
+- [positive regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010873) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) 
 
 - [positive regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010873) SubClassOf [positive regulation of cellular metabolic process](http://purl.obolibrary.org/obo/GO_0031325) 
 
@@ -19448,6 +21631,14 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 #### Added
 - [positive regulation of hemopoiesis](http://purl.obolibrary.org/obo/GO_1903708) SubClassOf [positive regulation of cell development](http://purl.obolibrary.org/obo/GO_0010720) 
+
+
+### positive regulation of interferon-gamma production `http://purl.obolibrary.org/obo/GO_0032729`
+
+#### Added
+- [positive regulation of interferon-gamma production](http://purl.obolibrary.org/obo/GO_0032729) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of type II interferon production" 
+
+- [positive regulation of interferon-gamma production](http://purl.obolibrary.org/obo/GO_0032729) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of interferon-gamma production" 
 
 
 ### positive regulation of leukocyte differentiation `http://purl.obolibrary.org/obo/GO_1902107`
@@ -19783,14 +21974,6 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [positive regulation of translation](http://purl.obolibrary.org/obo/GO_0045727) SubClassOf [positive regulation of protein metabolic process](http://purl.obolibrary.org/obo/GO_0051247) 
 
 
-### positive regulation of type II interferon production `http://purl.obolibrary.org/obo/GO_0032729`
-
-#### Added
-- [positive regulation of type II interferon production](http://purl.obolibrary.org/obo/GO_0032729) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of type II interferon production" 
-
-- [positive regulation of type II interferon production](http://purl.obolibrary.org/obo/GO_0032729) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of interferon-gamma production" 
-
-
 ### positive regulation of vesicle transport along microtubule `http://purl.obolibrary.org/obo/GO_1901610`
 #### Removed
 - [positive regulation of vesicle transport along microtubule](http://purl.obolibrary.org/obo/GO_1901610) SubClassOf [positive regulation of cellular component movement](http://purl.obolibrary.org/obo/GO_0051272) 
@@ -19829,6 +22012,93 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [post-viral disorder](http://purl.obolibrary.org/obo/MONDO_0021674) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/monarch-initiative/mondo/issues/2950"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### postcentral gyrus volume `http://purl.obolibrary.org/obo/OBA_2050032`
+
+#### Added
+- [postcentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050032) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of postcentral gyrus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [postcentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050032) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a postcentral gyrus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [postcentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050032) [label](http://www.w3.org/2000/01/rdf-schema#label) "postcentral gyrus volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [postcentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050032) 
+
+- [postcentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050032) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [postcentral gyrus](http://purl.obolibrary.org/obo/UBERON_0002581)) 
+
+- [postcentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050032) SubClassOf [postcentral gyrus morphology trait](http://purl.obolibrary.org/obo/OBA_VT0000795) 
+
+- [postcentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050032) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [postcentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050032) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
+### posterior cingulate cortex `http://purl.obolibrary.org/obo/UBERON_0022353`
+
+#### Added
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0022353" 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EFO:0002471" 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:271593" 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) [label](http://www.w3.org/2000/01/rdf-schema#label) "posterior cingulate cortex" 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the cingulate cortex. The rostral and caudal extent were the caudal anterior and the isthmus divisions of the cingulate cortex respectively. The medial and lateral boundaries were the corpus callosum and as the superior frontal gyrus and/or paracentral lobule respectively (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:950" 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "cingulate gyrus, posterior division" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://orcid.org/0000-0001-6755-0259" 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BTO:0004250" 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) [editor note](http://purl.obolibrary.org/obo/IAO_0000116) "check relationship to gyrus. See https://github.com/obophenotype/uberon/issues/626" 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "posterior cingular cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Posterior_cingulate" 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:950" 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "posterior cingulate" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Posterior_cingulate" 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Posterior_cingulate" 
+
+- Class: [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0003027) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "NIFSTD"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) SubClassOf [structure with developmental contribution from neural crest](http://purl.obolibrary.org/obo/UBERON_0010314) 
+
+- [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) SubClassOf [regional part of brain](http://purl.obolibrary.org/obo/UBERON_0002616) 
+
+
+### posterior cingulate cortex volume `http://purl.obolibrary.org/obo/OBA_2050038`
+
+#### Added
+- [posterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050038) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of posterior cingulate cortex"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [posterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050038) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a posterior cingulate cortex."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [posterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050038) [label](http://www.w3.org/2000/01/rdf-schema#label) "posterior cingulate cortex volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [posterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050038) 
+
+- [posterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050038) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353)) 
+
+- [posterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050038) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [posterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022353) 
+
+- [posterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050038) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [posterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050038) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+
 ### postinfectious vasculitis `http://purl.obolibrary.org/obo/MONDO_0018837`
 #### Removed
 - [postinfectious vasculitis](http://purl.obolibrary.org/obo/MONDO_0018837) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ICD10CM:I77.6" 
@@ -19846,6 +22116,232 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 - [postsynaptic signal transduction](http://purl.obolibrary.org/obo/GO_0098926) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Do not directly annotate. This term is intended for automatically grouping annotations to signal transduction classes extended with has_start_location/occurs_in postsynapse or one of its parts." 
 
+
+
+### precentral gyrus volume `http://purl.obolibrary.org/obo/OBA_2050042`
+
+#### Added
+- [precentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050042) [label](http://www.w3.org/2000/01/rdf-schema#label) "precentral gyrus volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [precentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050042) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of precentral gyrus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [precentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050042) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a precentral gyrus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [precentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050042) 
+
+- [precentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050042) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [precentral gyrus](http://purl.obolibrary.org/obo/UBERON_0002703)) 
+
+- [precentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050042) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [precentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050042) SubClassOf [precentral gyrus morphology trait](http://purl.obolibrary.org/obo/OBA_VT0000799) 
+
+- [precentral gyrus volume](http://purl.obolibrary.org/obo/OBA_2050042) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+
+### precuneus cortex `http://purl.obolibrary.org/obo/UBERON_0006093`
+
+#### Added
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61900" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4118" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Precuneus" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "praecuneus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:110" 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "precuneate lobule" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1446" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:PCun" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1446" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "precuneus cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1446" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:12137" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [label](http://www.w3.org/2000/01/rdf-schema#label) "precuneus cortex" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0152306" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1446" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0006093" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "precuneate lobule" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61900" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NCIT:C112399" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "medial area of the superior parietal cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:110" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:PCu" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:110" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1446" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:279200005" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "precuneus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1446" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quadrate lobule" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61900" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the pareital lobe. The rostral boundary was the posterior extent of the paracentral lobule whereas the caudal boundary was the lingual gyrus. The medial and lateral boundaries were the parieto-occipital fissure and the superior parietal gyrus respectively (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1446" 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quadrate lobule" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1446" 
+
+- Class: [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) SubClassOf [gyrus](http://purl.obolibrary.org/obo/UBERON_0000200) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "FMA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [parietal lobe](http://purl.obolibrary.org/obo/UBERON_0001872) 
+
+
+### precuneus cortex volume `http://purl.obolibrary.org/obo/OBA_2050004`
+
+#### Added
+- [precuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050004) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a precuneus cortex."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [precuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050004) [label](http://www.w3.org/2000/01/rdf-schema#label) "precuneus cortex volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [precuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050004) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of precuneus cortex"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [precuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050004) 
+
+- [precuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050004) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093)) 
+
+- [precuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050004) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [precuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050004) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [precuneus cortex volume](http://purl.obolibrary.org/obo/OBA_2050004) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [precuneus cortex](http://purl.obolibrary.org/obo/UBERON_0006093) 
+
+
+### presubiculum `http://purl.obolibrary.org/obo/UBERON_0001953`
+
+#### Added
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [editor note](http://purl.obolibrary.org/obo/IAO_0000116) "consider merging with BA27" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MBA:1084" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [depicted_by](http://xmlns.com/foaf/0.1/depicted_by) "http://upload.wikimedia.org/wikipedia/commons/5/5f/Brodmann_Cytoarchitectonics_27.png"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:10315" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [RO_0002171](http://purl.obolibrary.org/obo/RO_0002171) [subiculum](http://purl.obolibrary.org/obo/UBERON_0002191) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "ABA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:PRS" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EMAPA:35703" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DMBA:16172" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:62486" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A modified six-layered cortex between the subiculum and the main part of the parahippocampal gyrus." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://medical-dictionary.thefreedictionary.com/presubiculum" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0175194" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1108" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0001953" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MA:0000923" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:PrS" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "presubicular cortex (presubiculum)" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:10315" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "presubiculum (Cajal)" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1108" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BM:Tel-Cx-PSB" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4252" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "praesubiculum" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:167" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1108" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "area 27 of Brodmann" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [INCONSISTENT](http://purl.obolibrary.org/obo/uberon/core#INCONSISTENT) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:62486" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [RO_0002171](http://purl.obolibrary.org/obo/RO_0002171) [entorhinal cortex](http://purl.obolibrary.org/obo/UBERON_0002728) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "ABA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:167" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1108" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:PRE" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [label](http://www.w3.org/2000/01/rdf-schema#label) "presubiculum" 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) [RO_0002171](http://purl.obolibrary.org/obo/RO_0002171) [parasubiculum](http://purl.obolibrary.org/obo/UBERON_0004683) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "ABA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [parahippocampal gyrus](http://purl.obolibrary.org/obo/UBERON_0002973) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "FMA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) SubClassOf [ectoderm-derived structure](http://purl.obolibrary.org/obo/UBERON_0004121) 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [hippocampal formation](http://purl.obolibrary.org/obo/UBERON_0002421) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "NIFSTD"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) SubClassOf [organ part](http://purl.obolibrary.org/obo/UBERON_0000064) 
+
+- [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) SubClassOf [structure with developmental contribution from neural crest](http://purl.obolibrary.org/obo/UBERON_0010314) 
+
+
+### presubiculum volume `http://purl.obolibrary.org/obo/OBA_2050049`
+
+#### Added
+- [presubiculum volume](http://purl.obolibrary.org/obo/OBA_2050049) [label](http://www.w3.org/2000/01/rdf-schema#label) "presubiculum volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [presubiculum volume](http://purl.obolibrary.org/obo/OBA_2050049) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of presubiculum"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [presubiculum volume](http://purl.obolibrary.org/obo/OBA_2050049) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a presubiculum."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [presubiculum volume](http://purl.obolibrary.org/obo/OBA_2050049) 
+
+- [presubiculum volume](http://purl.obolibrary.org/obo/OBA_2050049) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953)) 
+
+- [presubiculum volume](http://purl.obolibrary.org/obo/OBA_2050049) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [presubiculum volume](http://purl.obolibrary.org/obo/OBA_2050049) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [presubiculum volume](http://purl.obolibrary.org/obo/OBA_2050049) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [presubiculum](http://purl.obolibrary.org/obo/UBERON_0001953) 
 
 
 ### presynaptic signal transduction `http://purl.obolibrary.org/obo/GO_0098928`
@@ -20497,6 +22993,26 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [purulent endophthalmitis](http://purl.obolibrary.org/obo/MONDO_0004863) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [H44.0](http://purl.bioontology.org/ontology/ICD10CM/H44.0) 
 
 
+### putamen volume `http://purl.obolibrary.org/obo/OBA_2050016`
+
+#### Added
+- [putamen volume](http://purl.obolibrary.org/obo/OBA_2050016) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a putamen."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [putamen volume](http://purl.obolibrary.org/obo/OBA_2050016) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of putamen"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [putamen volume](http://purl.obolibrary.org/obo/OBA_2050016) [label](http://www.w3.org/2000/01/rdf-schema#label) "putamen volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [putamen volume](http://purl.obolibrary.org/obo/OBA_2050016) 
+
+- [putamen volume](http://purl.obolibrary.org/obo/OBA_2050016) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [putamen](http://purl.obolibrary.org/obo/UBERON_0001874)) 
+
+- [putamen volume](http://purl.obolibrary.org/obo/OBA_2050016) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [putamen volume](http://purl.obolibrary.org/obo/OBA_2050016) SubClassOf [putamen morphology trait](http://purl.obolibrary.org/obo/OBA_VT0004079) 
+
+
 ### pyruvate carboxylase activity `http://purl.obolibrary.org/obo/GO_0004736`
 #### Removed
 - [pyruvate carboxylase activity](http://purl.obolibrary.org/obo/GO_0004736) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + bicarbonate + pyruvate = ADP + 2 H(+) + oxaloacetate + phosphate." 
@@ -20541,7 +23057,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "Orphanet:254746" 
 
-- [pyruvate metabolism disorder](http://purl.obolibrary.org/obo/MONDO_0016789) SubClassOf [inborn organic aciduria](http://purl.obolibrary.org/obo/MONDO_0000688) 
+- [pyruvate metabolism disorder](http://purl.obolibrary.org/obo/MONDO_0016789) SubClassOf [inherited organic acidemia](http://purl.obolibrary.org/obo/MONDO_0000688) 
 
 #### Added
 - [pyruvate metabolism disorder](http://purl.obolibrary.org/obo/MONDO_0016789) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An inherited metabolic disease that is has its basis in the disruption of pyruvate metabolic process." 
@@ -20651,31 +23167,9 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 - [regulation of amide catabolic process](http://purl.obolibrary.org/obo/GO_0034251) SubClassOf [regulation of catabolic process](http://purl.obolibrary.org/obo/GO_0009894) 
 
-- [regulation of amide catabolic process](http://purl.obolibrary.org/obo/GO_0034251) SubClassOf [regulation of amide metabolic process](http://purl.obolibrary.org/obo/GO_0034248) 
+- [regulation of amide catabolic process](http://purl.obolibrary.org/obo/GO_0034251) SubClassOf [regulation of cellular amide metabolic process](http://purl.obolibrary.org/obo/GO_0034248) 
 
 - [regulation of amide catabolic process](http://purl.obolibrary.org/obo/GO_0034251) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [amide catabolic process](http://purl.obolibrary.org/obo/GO_0043605) 
-
-
-### regulation of amide metabolic process `http://purl.obolibrary.org/obo/GO_0034248`
-
-#### Added
-- [regulation of amide metabolic process](http://purl.obolibrary.org/obo/GO_0034248) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of amide metabolic process" 
-
-- [regulation of amide metabolic process](http://purl.obolibrary.org/obo/GO_0034248) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of cellular amide metabolic process" 
-
-
-### regulation of amine catabolic process `http://purl.obolibrary.org/obo/GO_0033241`
-#### Removed
-- [regulation of amine catabolic process](http://purl.obolibrary.org/obo/GO_0033241) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of cellular amine catabolic process" 
-
-- [regulation of amine catabolic process](http://purl.obolibrary.org/obo/GO_0033241) SubClassOf [regulation of cellular catabolic process](http://purl.obolibrary.org/obo/GO_0031329) 
-
-#### Added
-- [regulation of amine catabolic process](http://purl.obolibrary.org/obo/GO_0033241) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of amine catabolic process" 
-
-- [regulation of amine catabolic process](http://purl.obolibrary.org/obo/GO_0033241) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of cellular amine catabolic process" 
-
-- [regulation of amine catabolic process](http://purl.obolibrary.org/obo/GO_0033241) SubClassOf [regulation of catabolic process](http://purl.obolibrary.org/obo/GO_0009894) 
 
 
 ### regulation of axon guidance `http://purl.obolibrary.org/obo/GO_1902667`
@@ -20729,6 +23223,28 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 #### Added
 - [regulation of cell motility](http://purl.obolibrary.org/obo/GO_2000145) SubClassOf [regulation of cellular process](http://purl.obolibrary.org/obo/GO_0050794) 
+
+
+### regulation of cellular amide metabolic process `http://purl.obolibrary.org/obo/GO_0034248`
+
+#### Added
+- [regulation of cellular amide metabolic process](http://purl.obolibrary.org/obo/GO_0034248) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of amide metabolic process" 
+
+- [regulation of cellular amide metabolic process](http://purl.obolibrary.org/obo/GO_0034248) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of cellular amide metabolic process" 
+
+
+### regulation of cellular amine catabolic process `http://purl.obolibrary.org/obo/GO_0033241`
+#### Removed
+- [regulation of cellular amine catabolic process](http://purl.obolibrary.org/obo/GO_0033241) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of cellular amine catabolic process" 
+
+- [regulation of cellular amine catabolic process](http://purl.obolibrary.org/obo/GO_0033241) SubClassOf [regulation of cellular catabolic process](http://purl.obolibrary.org/obo/GO_0031329) 
+
+#### Added
+- [regulation of cellular amine catabolic process](http://purl.obolibrary.org/obo/GO_0033241) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of amine catabolic process" 
+
+- [regulation of cellular amine catabolic process](http://purl.obolibrary.org/obo/GO_0033241) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of cellular amine catabolic process" 
+
+- [regulation of cellular amine catabolic process](http://purl.obolibrary.org/obo/GO_0033241) SubClassOf [regulation of catabolic process](http://purl.obolibrary.org/obo/GO_0009894) 
 
 
 ### regulation of cellular amine metabolic process `http://purl.obolibrary.org/obo/GO_0033238`
@@ -20829,11 +23345,11 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 - Class: [regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010872) 
 
-- [regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010872) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435)) 
+- [regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010872) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435)) 
 
 - [regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010872) SubClassOf [regulation of cellular metabolic process](http://purl.obolibrary.org/obo/GO_0031323) 
 
-- [regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010872) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) 
+- [regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010872) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [cholesterol esterification](http://purl.obolibrary.org/obo/GO_0034435) 
 
 - [regulation of cholesterol esterification](http://purl.obolibrary.org/obo/GO_0010872) SubClassOf [regulation of steroid metabolic process](http://purl.obolibrary.org/obo/GO_0019218) 
 
@@ -21319,16 +23835,16 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 
 
-### results in distribution of `http://purl.obolibrary.org/obo/GOREL_0002003`
+### results_in_distribution_of `http://purl.obolibrary.org/obo/GOREL_0002003`
 
 #### Added
-- [results in distribution of](http://purl.obolibrary.org/obo/GOREL_0002003) [label](http://www.w3.org/2000/01/rdf-schema#label) "results in distribution of" 
+- [results_in_distribution_of](http://purl.obolibrary.org/obo/GOREL_0002003) [label](http://www.w3.org/2000/01/rdf-schema#label) "results in distribution of" 
 
 
-### results in fission of `http://purl.obolibrary.org/obo/GOREL_0002004`
+### results_in_fission_of `http://purl.obolibrary.org/obo/GOREL_0002004`
 
 #### Added
-- [results in fission of](http://purl.obolibrary.org/obo/GOREL_0002004) [label](http://www.w3.org/2000/01/rdf-schema#label) "results in fission of" 
+- [results_in_fission_of](http://purl.obolibrary.org/obo/GOREL_0002004) [label](http://www.w3.org/2000/01/rdf-schema#label) "results in fission of" 
 
 
 ### retinal cell cancer `http://purl.obolibrary.org/obo/MONDO_0004338`
@@ -21406,6 +23922,115 @@ Each of these 3 primitives can be composed to yield a cross-product of different
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30467428" 
+
+
+### rostral anterior cingulate cortex `http://purl.obolibrary.org/obo/UBERON_0022438`
+
+#### Added
+- [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "rostral anterior cingulate cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:975" 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [HUMAN_PREFERRED](http://purl.obolibrary.org/obo/uberon/core#HUMAN_PREFERRED) 
+
+- [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:271599" 
+
+- [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0022438" 
+
+- [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the cingulate cortex. The rostral boundary was the first appearance of the cingulate sulcus (inferior to the superior frontal sulcus) whereas the caudal boundary was the first appearance of the genu of the corpus callosum. The medial boundary was the medial aspect of the cortex. The supero-lateral boundary was the superior frontal gyrus whereas the infero-lateral boundary was defined as the medial division of the orbitofrontal gyrus (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:975" 
+
+- [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438) [label](http://www.w3.org/2000/01/rdf-schema#label) "rostral anterior cingulate cortex" 
+
+- [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:975" 
+
+- Class: [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438) 
+
+- [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438) SubClassOf [regional part of brain](http://purl.obolibrary.org/obo/UBERON_0002616) 
+
+- [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438) SubClassOf [structure with developmental contribution from neural crest](http://purl.obolibrary.org/obo/UBERON_0010314) 
+
+- [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0009835) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "NIFSTD"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+
+### rostral anterior cingulate cortex volume `http://purl.obolibrary.org/obo/OBA_2050017`
+
+#### Added
+- [rostral anterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050017) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of rostral anterior cingulate cortex"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [rostral anterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050017) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a rostral anterior cingulate cortex."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [rostral anterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050017) [label](http://www.w3.org/2000/01/rdf-schema#label) "rostral anterior cingulate cortex volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [rostral anterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050017) 
+
+- [rostral anterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050017) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438)) 
+
+- [rostral anterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050017) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [rostral anterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050017) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [rostral anterior cingulate cortex volume](http://purl.obolibrary.org/obo/OBA_2050017) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [rostral anterior cingulate cortex](http://purl.obolibrary.org/obo/UBERON_0022438) 
+
+
+### rostral middle frontal gyrus `http://purl.obolibrary.org/obo/UBERON_0006446`
+
+#### Added
+- [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1090" 
+
+- [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0006446" 
+
+- [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the middle frontal gyrus The rostral boundary is the first appearance of the superior frontal sulcus whereas the caudal boundary is the middle frontal gyrus. The medial and lateral boundaries are the superior frontal sulcus and the inferior frontal sulcus respectively (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1090" 
+
+- [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "rostral middle frontal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1090" 
+
+- [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:70687" 
+
+- [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "rostral part of middle frontal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:70687" 
+
+- [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446) [label](http://www.w3.org/2000/01/rdf-schema#label) "rostral middle frontal gyrus" 
+
+- [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "anterior part of middle frontal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:70687" 
+
+- Class: [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446) 
+
+- [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446) SubClassOf [frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0015593) 
+
+- [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002702) 
+
+- [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446) SubClassOf [regional part of brain](http://purl.obolibrary.org/obo/UBERON_0002616) 
+
+
+### rostral middle frontal gyrus volume `http://purl.obolibrary.org/obo/OBA_2050026`
+
+#### Added
+- [rostral middle frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050026) [label](http://www.w3.org/2000/01/rdf-schema#label) "rostral middle frontal gyrus volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [rostral middle frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050026) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a rostral middle frontal gyrus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [rostral middle frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050026) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of rostral middle frontal gyrus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [rostral middle frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050026) 
+
+- [rostral middle frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050026) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446)) 
+
+- [rostral middle frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050026) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [rostral middle frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050026) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [rostral middle frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050026) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [rostral middle frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0006446) 
 
 
 ### salivary gland cancer `http://purl.obolibrary.org/obo/MONDO_0004669`
@@ -21775,14 +24400,6 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [somatic sensory system development](http://purl.obolibrary.org/obo/GO_0160038) SubClassOf [sensory system development](http://purl.obolibrary.org/obo/GO_0048880) 
 
 
-### spatial deviation `http://purl.obolibrary.org/obo/PATO_0002175`
-#### Removed
-- [spatial deviation](http://purl.obolibrary.org/obo/PATO_0002175) [label](http://www.w3.org/2000/01/rdf-schema#label) "deviation" 
-
-#### Added
-- [spatial deviation](http://purl.obolibrary.org/obo/PATO_0002175) [label](http://www.w3.org/2000/01/rdf-schema#label) "spatial deviation" 
-
-
 ### sphenoidal sinus cancer `http://purl.obolibrary.org/obo/MONDO_0001994`
 #### Removed
 - [sphenoidal sinus cancer](http://purl.obolibrary.org/obo/MONDO_0001994) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [C31.3](https://icd.codes/icd10cm/C31.3) 
@@ -22032,12 +24649,52 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 
 
+### subarachnoid sulcus `http://purl.obolibrary.org/obo/UBERON_0008334`
+
+#### Added
+- [subarachnoid sulcus](http://purl.obolibrary.org/obo/UBERON_0008334) [label](http://www.w3.org/2000/01/rdf-schema#label) "subarachnoid sulcus" 
+
+- [subarachnoid sulcus](http://purl.obolibrary.org/obo/UBERON_0008334) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:75759" 
+
+- [subarachnoid sulcus](http://purl.obolibrary.org/obo/UBERON_0008334) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0008334" 
+
+- [subarachnoid sulcus](http://purl.obolibrary.org/obo/UBERON_0008334) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- Class: [subarachnoid sulcus](http://purl.obolibrary.org/obo/UBERON_0008334) 
+
+- [subarachnoid sulcus](http://purl.obolibrary.org/obo/UBERON_0008334) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [subarachnoid space](http://purl.obolibrary.org/obo/UBERON_0000315) 
+
+- [subarachnoid sulcus](http://purl.obolibrary.org/obo/UBERON_0008334) SubClassOf [sulcus of brain](http://purl.obolibrary.org/obo/UBERON_0013118) 
+
+
 ### subcutaneous tissue disorder `http://purl.obolibrary.org/obo/MONDO_0019296`
 #### Removed
 - [subcutaneous tissue disorder](http://purl.obolibrary.org/obo/MONDO_0019296) EquivalentTo [disease or disorder](http://purl.obolibrary.org/obo/MONDO_0000001) and ([disease has location](http://purl.obolibrary.org/obo/RO_0004026) some [superficial fascia](http://purl.obolibrary.org/obo/UBERON_0011818)) 
 
 #### Added
 - [subcutaneous tissue disorder](http://purl.obolibrary.org/obo/MONDO_0019296) EquivalentTo [human disease or disorder](http://purl.obolibrary.org/obo/MONDO_0700096) and ([disease has location](http://purl.obolibrary.org/obo/RO_0004026) some [superficial fascia](http://purl.obolibrary.org/obo/UBERON_0011818)) 
+
+
+### subiculum volume `http://purl.obolibrary.org/obo/OBA_2050024`
+
+#### Added
+- [subiculum volume](http://purl.obolibrary.org/obo/OBA_2050024) [label](http://www.w3.org/2000/01/rdf-schema#label) "subiculum volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [subiculum volume](http://purl.obolibrary.org/obo/OBA_2050024) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a subiculum."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [subiculum volume](http://purl.obolibrary.org/obo/OBA_2050024) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of subiculum"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [subiculum volume](http://purl.obolibrary.org/obo/OBA_2050024) 
+
+- [subiculum volume](http://purl.obolibrary.org/obo/OBA_2050024) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [subiculum](http://purl.obolibrary.org/obo/UBERON_0002191)) 
+
+- [subiculum volume](http://purl.obolibrary.org/obo/OBA_2050024) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [subiculum volume](http://purl.obolibrary.org/obo/OBA_2050024) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+- [subiculum volume](http://purl.obolibrary.org/obo/OBA_2050024) SubClassOf [subiculum morphology](http://purl.obolibrary.org/obo/OBA_0004354) 
 
 
 ### substance-related disorder `http://purl.obolibrary.org/obo/MONDO_0002494`
@@ -22048,12 +24705,249 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [substance-related disorder](http://purl.obolibrary.org/obo/MONDO_0002494) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [F10-F19](http://purl.bioontology.org/ontology/ICD10CM/F10-F19) 
 
 
+### superior frontal gyrus `http://purl.obolibrary.org/obo/UBERON_0002661`
+
+#### Added
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0152296" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "ncithesaurus:Superior_Frontal_Convolution" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the frontal lobe, lateral aspect. The rostral boundary is the first appearance of the superior frontal sulcus whereas the caudal boundary is the midpoint of the paracentral sulcus on the 'inflated' surface. The medial and lateral boundaries are the medial aspect of the frontal lobe and the superior frontal sulcus respectively (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1303" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0152296" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1303" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1303" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:12115" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [uberon_slim](http://purl.obolibrary.org/obo/uberon/core#uberon_slim) 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Superior_frontal_gyrus" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [label](http://www.w3.org/2000/01/rdf-schema#label) "superior frontal gyrus" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0002661" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus frontalis superior" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Superior_frontal_gyrus" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "marginal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61857" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [efo_slim](http://purl.obolibrary.org/obo/uberon/core#efo_slim) 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "superior frontal convolution" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61857" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61857" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:279166005" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:83" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1303" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BTO:0004836" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus frontalis primus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:83" 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [depicted_by](http://xmlns.com/foaf/0.1/depicted_by) "http://upload.wikimedia.org/wikipedia/commons/5/50/Superior_frontal_gyrus.png"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EFO:0001991" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NCIT:C33674" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:SFG" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4021" 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus F1" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:83" 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+- Class: [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) 
+
+- [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) SubClassOf [frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0015593) 
+
+
+### superior frontal gyrus volume `http://purl.obolibrary.org/obo/OBA_2050035`
+
+#### Added
+- [superior frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050035) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a superior frontal gyrus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [superior frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050035) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of superior frontal gyrus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [superior frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050035) [label](http://www.w3.org/2000/01/rdf-schema#label) "superior frontal gyrus volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [superior frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050035) 
+
+- [superior frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050035) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661)) 
+
+- [superior frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050035) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [superior frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050035) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [superior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002661) 
+
+- [superior frontal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050035) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
+### superior parietal cortex `http://purl.obolibrary.org/obo/UBERON_0006094`
+
+#### Added
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0006094" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1450" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61899" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:SPL" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Superior_parietal_lobule" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4096" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [label](http://www.w3.org/2000/01/rdf-schema#label) "superior parietal cortex" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "superior parietal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61899" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "superior parietal cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1450" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "superior portion of parietal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61899" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "superior portion of parietal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1450" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0152303" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1450" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "lobulus parietalis superior" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:106" 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:279168006" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:106" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1450" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gyrus parietalis superior" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:106" 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "superior parietal gyrus" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1450" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Copmonent of the parietal lobe. The rostral and caudal boundaries of the superior parietal cortex were the precentral gyrus and lateral occipital cortex respectively. The medial and lateral boundaries were the precuneus and/or cuneus cortex and the infererior parietal cortex respectively (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1450" 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "superior parietal lobule" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1450" 
+
+- Class: [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) SubClassOf [ectoderm-derived structure](http://purl.obolibrary.org/obo/UBERON_0004121) 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [parietal lobe](http://purl.obolibrary.org/obo/UBERON_0001872) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "NIFSTD"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [neocortex](http://purl.obolibrary.org/obo/UBERON_0001950) 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) SubClassOf [structure with developmental contribution from neural crest](http://purl.obolibrary.org/obo/UBERON_0010314) 
+
+- [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) SubClassOf [organ part](http://purl.obolibrary.org/obo/UBERON_0000064) 
+
+
+### superior parietal cortex volume `http://purl.obolibrary.org/obo/OBA_2050007`
+
+#### Added
+- [superior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050007) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a superior parietal cortex."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [superior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050007) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of superior parietal cortex"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [superior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050007) [label](http://www.w3.org/2000/01/rdf-schema#label) "superior parietal cortex volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [superior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050007) 
+
+- [superior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050007) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094)) 
+
+- [superior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050007) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [superior parietal cortex](http://purl.obolibrary.org/obo/UBERON_0006094) 
+
+- [superior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050007) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [superior parietal cortex volume](http://purl.obolibrary.org/obo/OBA_2050007) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
+### superior temporal gyrus volume `http://purl.obolibrary.org/obo/OBA_2050019`
+
+#### Added
+- [superior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050019) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a superior temporal gyrus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [superior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050019) [label](http://www.w3.org/2000/01/rdf-schema#label) "superior temporal gyrus volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [superior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050019) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of superior temporal gyrus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [superior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050019) 
+
+- [superior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050019) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [superior temporal gyrus](http://purl.obolibrary.org/obo/UBERON_0002769)) 
+
+- [superior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050019) SubClassOf [superior temporal gyrus morphology trait](http://purl.obolibrary.org/obo/OBA_VT0000802) 
+
+- [superior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050019) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [superior temporal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050019) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
 ### supraglottis cancer `http://purl.obolibrary.org/obo/MONDO_0001724`
 #### Removed
 - [supraglottis cancer](http://purl.obolibrary.org/obo/MONDO_0001724) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [C32.1](https://icd.codes/icd10cm/C32.1) 
 
 #### Added
 - [supraglottis cancer](http://purl.obolibrary.org/obo/MONDO_0001724) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [C32.1](http://purl.bioontology.org/ontology/ICD10CM/C32.1) 
+
+
+### supramarginal gyrus volume `http://purl.obolibrary.org/obo/OBA_2050030`
+
+#### Added
+- [supramarginal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050030) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a supramarginal gyrus."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [supramarginal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050030) [label](http://www.w3.org/2000/01/rdf-schema#label) "supramarginal gyrus volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [supramarginal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050030) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of supramarginal gyrus"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [supramarginal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050030) 
+
+- [supramarginal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050030) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [supramarginal gyrus](http://purl.obolibrary.org/obo/UBERON_0002688)) 
+
+- [supramarginal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050030) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [supramarginal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050030) SubClassOf [supramarginal gyrus morphology trait](http://purl.obolibrary.org/obo/OBA_VT0000797) 
+
+- [supramarginal gyrus volume](http://purl.obolibrary.org/obo/OBA_2050030) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
 
 
 ### synapse assembly `http://purl.obolibrary.org/obo/GO_0007416`
@@ -22277,6 +25171,107 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [temporal lobe epilepsy](http://purl.obolibrary.org/obo/MONDO_0005115) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [C0014556](http://linkedlifedata.com/resource/umls/id/C0014556) 
 
 
+### temporal lobe volume `http://purl.obolibrary.org/obo/OBA_2050012`
+
+#### Added
+- [temporal lobe volume](http://purl.obolibrary.org/obo/OBA_2050012) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a temporal lobe."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [temporal lobe volume](http://purl.obolibrary.org/obo/OBA_2050012) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of temporal lobe"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [temporal lobe volume](http://purl.obolibrary.org/obo/OBA_2050012) [label](http://www.w3.org/2000/01/rdf-schema#label) "temporal lobe volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [temporal lobe volume](http://purl.obolibrary.org/obo/OBA_2050012) 
+
+- [temporal lobe volume](http://purl.obolibrary.org/obo/OBA_2050012) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [temporal lobe](http://purl.obolibrary.org/obo/UBERON_0001871)) 
+
+- [temporal lobe volume](http://purl.obolibrary.org/obo/OBA_2050012) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [temporal lobe volume](http://purl.obolibrary.org/obo/OBA_2050012) SubClassOf [temporal lobe morphology trait](http://purl.obolibrary.org/obo/OBA_VT0000801) 
+
+- [temporal lobe volume](http://purl.obolibrary.org/obo/OBA_2050012) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
+### temporal pole `http://purl.obolibrary.org/obo/UBERON_0002576`
+
+#### Added
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:12146" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:TmP" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:74890" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:tmp" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0002576" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "temporopolar cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1055" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1055" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [depicted_by](http://xmlns.com/foaf/0.1/depicted_by) "http://upload.wikimedia.org/wikipedia/commons/e/e3/Human_brain_lateral_view_description.JPG"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "temporal pole, cerebral cortex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:126" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [uberon_slim](http://purl.obolibrary.org/obo/uberon/core#uberon_slim) 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4174" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [label](http://www.w3.org/2000/01/rdf-schema#label) "temporal pole" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SCTID:314155002" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Anterior component of the temporal lobe (rostral boundary) extends caudally to the entorhinal cortex. The medial and lateral boundaries are the medial aspect of the temporal lobe and the superior or inferior temporal sulci, respectively (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1055" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Temporal_pole" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "polus temporalis" 
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NeuroNames:126" 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:126" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1055" 
+
+- Class: [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [temporal lobe](http://purl.obolibrary.org/obo/UBERON_0001871) 
+
+- [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) SubClassOf [pole of cerebral hemisphere](http://purl.obolibrary.org/obo/UBERON_0009899) 
+
+
+### temporal pole volume `http://purl.obolibrary.org/obo/OBA_2050046`
+
+#### Added
+- [temporal pole volume](http://purl.obolibrary.org/obo/OBA_2050046) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a temporal pole."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [temporal pole volume](http://purl.obolibrary.org/obo/OBA_2050046) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of temporal pole"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [temporal pole volume](http://purl.obolibrary.org/obo/OBA_2050046) [label](http://www.w3.org/2000/01/rdf-schema#label) "temporal pole volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [temporal pole volume](http://purl.obolibrary.org/obo/OBA_2050046) 
+
+- [temporal pole volume](http://purl.obolibrary.org/obo/OBA_2050046) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576)) 
+
+- [temporal pole volume](http://purl.obolibrary.org/obo/OBA_2050046) SubClassOf [inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [temporal pole](http://purl.obolibrary.org/obo/UBERON_0002576) 
+
+- [temporal pole volume](http://purl.obolibrary.org/obo/OBA_2050046) SubClassOf [anatomical structure size](http://purl.obolibrary.org/obo/OBA_0000015) 
+
+- [temporal pole volume](http://purl.obolibrary.org/obo/OBA_2050046) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
+
+
 ### testicular germ cell tumor `http://purl.obolibrary.org/obo/MONDO_0010108`
 #### Removed
 - [testicular germ cell tumor](http://purl.obolibrary.org/obo/MONDO_0010108) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) [4521](https://github.com/monarch-initiative/mondo/issues/4521) 
@@ -22343,6 +25338,26 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 #### Added
 - [thiopurine S-methyltransferase deficiency](http://purl.obolibrary.org/obo/MONDO_0012503) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An inherited metabolic disease that is has its basis in the disruption of thiopurine S-methyltransferase activity." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MONDO:patterns/inborn_metabolic"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+
+### third ventricle volume `http://purl.obolibrary.org/obo/OBA_2050010`
+
+#### Added
+- [third ventricle volume](http://purl.obolibrary.org/obo/OBA_2050010) [label](http://www.w3.org/2000/01/rdf-schema#label) "third ventricle volume"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [third ventricle volume](http://purl.obolibrary.org/obo/OBA_2050010) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The volume of a third ventricle."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [third ventricle volume](http://purl.obolibrary.org/obo/OBA_2050010) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "volume of third ventricle"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/entity_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- Class: [third ventricle volume](http://purl.obolibrary.org/obo/OBA_2050010) 
+
+- [third ventricle volume](http://purl.obolibrary.org/obo/OBA_2050010) EquivalentTo [volume](http://purl.obolibrary.org/obo/PATO_0000918) and ([inheres in](http://purl.obolibrary.org/obo/RO_0000052) some [third ventricle](http://purl.obolibrary.org/obo/UBERON_0002286)) 
+
+- [third ventricle volume](http://purl.obolibrary.org/obo/OBA_2050010) SubClassOf [third ventricle size trait](http://purl.obolibrary.org/obo/OBA_VT0000827) 
+
+- [third ventricle volume](http://purl.obolibrary.org/obo/OBA_2050010) SubClassOf [volume](http://purl.obolibrary.org/obo/PATO_0000918) 
 
 
 ### thrombotic microangiopathy `http://purl.obolibrary.org/obo/MONDO_0019737`
@@ -22594,20 +25609,20 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [trait in response to metamizole](http://purl.obolibrary.org/obo/OBA_2040099) SubClassOf [trait in response to drug](http://purl.obolibrary.org/obo/OBA_2040016) 
 
 
-### trait in response to vitamin (role) `http://purl.obolibrary.org/obo/OBA_2040035`
+### trait in response to vitamin `http://purl.obolibrary.org/obo/OBA_2040035`
 #### Removed
-- [trait in response to vitamin (role)](http://purl.obolibrary.org/obo/OBA_2040035) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "response to vitamin trait"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [trait in response to vitamin](http://purl.obolibrary.org/obo/OBA_2040035) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "response to vitamin trait"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [trait in response to vitamin (role)](http://purl.obolibrary.org/obo/OBA_2040035) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A trait that affects the response to a stimulus with vitamin."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [trait in response to vitamin](http://purl.obolibrary.org/obo/OBA_2040035) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A trait that affects the response to a stimulus with vitamin."^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [trait in response to vitamin (role)](http://purl.obolibrary.org/obo/OBA_2040035) [label](http://www.w3.org/2000/01/rdf-schema#label) "trait in response to vitamin"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [trait in response to vitamin](http://purl.obolibrary.org/obo/OBA_2040035) [label](http://www.w3.org/2000/01/rdf-schema#label) "trait in response to vitamin"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 #### Added
-- [trait in response to vitamin (role)](http://purl.obolibrary.org/obo/OBA_2040035) [label](http://www.w3.org/2000/01/rdf-schema#label) "trait in response to vitamin (role)"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [trait in response to vitamin](http://purl.obolibrary.org/obo/OBA_2040035) [label](http://www.w3.org/2000/01/rdf-schema#label) "trait in response to vitamin (role)"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [trait in response to vitamin (role)](http://purl.obolibrary.org/obo/OBA_2040035) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A trait that affects the response to a stimulus with vitamin (role)."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [trait in response to vitamin](http://purl.obolibrary.org/obo/OBA_2040035) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A trait that affects the response to a stimulus with vitamin (role)."^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
-- [trait in response to vitamin (role)](http://purl.obolibrary.org/obo/OBA_2040035) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "response to vitamin (role) trait"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+- [trait in response to vitamin](http://purl.obolibrary.org/obo/OBA_2040035) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "response to vitamin (role) trait"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
 ### transcript_region `http://purl.obolibrary.org/obo/SO_0000833`
@@ -22689,6 +25704,89 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 #### Removed
 - [transporter activity](http://purl.obolibrary.org/obo/GO_0005215) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:7.-.-.-" 
 
+
+
+### triangular part of inferior frontal gyrus `http://purl.obolibrary.org/obo/UBERON_0002629`
+
+#### Added
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pars triangularis gyri frontalis inferioris" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1216" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "gyrus frontalis inferior, pars triangularis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:TA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61980" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "HBA:4038" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [RO_0002175](http://purl.obolibrary.org/obo/RO_0002175) [Homo sapiens](http://purl.obolibrary.org/obo/NCBITaxon_9606) 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [id](http://www.geneontology.org/formats/oboInOwl#id) "UBERON:0002629" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:IFGTr" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0262350" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "ncithesaurus:Triangular_Part_of_the_Inferior_Frontal_Gyrus" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [label](http://www.w3.org/2000/01/rdf-schema#label) "triangular part of inferior frontal gyrus" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "NCIT:C33811" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "inferior frontal gyrus, triangular part" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:IFGTr" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:TrIFG" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DHBA:12118" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UMLS:C0262350" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1216" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pars triangularis of frontal operculum (Ono)" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:TA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61980" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1216" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pars triangularis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:TA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+  - [hasSynonymType](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [LATIN](http://purl.obolibrary.org/obo/uberon/core#LATIN) 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61980" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Component of the inferior frontal gyrus.defined as the second gyrus from the precentral gyrus (Christine Fennema-Notestine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BIRNLEX:1216" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "neuronames:86" 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "BIRNLEX:1216" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:61980" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Triangular_part_of_inferior_frontal_gyrus" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "inferior frontal gyrus, pars triangularis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://orcid.org/0000-0001-6755-0259" 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+- Class: [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) SubClassOf [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002998) 
+  - [source](http://www.geneontology.org/formats/oboInOwl#source) "FMA"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) SubClassOf [organ part](http://purl.obolibrary.org/obo/UBERON_0000064) 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) SubClassOf [ectoderm-derived structure](http://purl.obolibrary.org/obo/UBERON_0004121) 
+
+- [triangular part of inferior frontal gyrus](http://purl.obolibrary.org/obo/UBERON_0002629) SubClassOf [structure with developmental contribution from neural crest](http://purl.obolibrary.org/obo/UBERON_0010314) 
 
 
 ### tricarboxylic acid cycle disorder `http://purl.obolibrary.org/obo/MONDO_0016790`
@@ -22879,22 +25977,6 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 #### Added
 - [type II hypersensitivity reaction disease](http://purl.obolibrary.org/obo/MONDO_0025512) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOID:417" 
   - [source](http://www.geneontology.org/formats/oboInOwl#source) "MONDO:relatedTo"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-
-### type II interferon production `http://purl.obolibrary.org/obo/GO_0032609`
-#### Removed
-- [type II interferon production](http://purl.obolibrary.org/obo/GO_0032609) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "type II IFN production" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-#### Added
-- [type II interferon production](http://purl.obolibrary.org/obo/GO_0032609) [label](http://www.w3.org/2000/01/rdf-schema#label) "type II interferon production" 
-
-- [type II interferon production](http://purl.obolibrary.org/obo/GO_0032609) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "type II IFN production" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [type II interferon production](http://purl.obolibrary.org/obo/GO_0032609) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "type II IFN production" 
-
-- [type II interferon production](http://purl.obolibrary.org/obo/GO_0032609) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "interferon-gamma production" 
 
 
 ### tyrosine 3-monooxygenase activator activity `http://purl.obolibrary.org/obo/GO_0036470`
@@ -23131,6 +26213,14 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [urogenital system development](http://purl.obolibrary.org/obo/GO_0001655) [IAO_0000233](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/22178"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [urogenital system development](http://purl.obolibrary.org/obo/GO_0001655) SubClassOf [has_part](http://purl.obolibrary.org/obo/BFO_0000051) some [renal system development](http://purl.obolibrary.org/obo/GO_0072001) 
+
+
+### utilizes `http://purl.obolibrary.org/obo/RO_0017001`
+#### Removed
+- [utilizes](http://purl.obolibrary.org/obo/RO_0017001) [label](http://www.w3.org/2000/01/rdf-schema#label) "utilizes"@en 
+
+- [utilizes](http://purl.obolibrary.org/obo/RO_0017001) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "X utilizes Y means X and Y are material entities, and X is capable of some process P that has input Y." 
+
 
 
 ### vacuolar protein processing `http://purl.obolibrary.org/obo/GO_0006624`
@@ -23396,37 +26486,17 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [visual pathway disorder](http://purl.obolibrary.org/obo/MONDO_0001834) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [H47.9](http://purl.bioontology.org/ontology/ICD10CM/H47.9) 
 
 
-### vitamin (role) `http://purl.obolibrary.org/obo/CHEBI_33229`
+### vitamin `http://purl.obolibrary.org/obo/CHEBI_33229`
 #### Removed
-- [vitamin (role)](http://purl.obolibrary.org/obo/CHEBI_33229) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Vitamin" 
+- [vitamin](http://purl.obolibrary.org/obo/CHEBI_33229) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Vitamin" 
 
-- [vitamin (role)](http://purl.obolibrary.org/obo/CHEBI_33229) [label](http://www.w3.org/2000/01/rdf-schema#label) "vitamin" 
+- [vitamin](http://purl.obolibrary.org/obo/CHEBI_33229) [label](http://www.w3.org/2000/01/rdf-schema#label) "vitamin" 
 
-
-
-### vitamin (role) amount `http://purl.obolibrary.org/obo/OBA_1000982`
-#### Removed
-- [vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000982) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amount of vitamin"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/chemical_role_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000982) [label](http://www.w3.org/2000/01/rdf-schema#label) "vitamin amount"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000982) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The amount of vitamin."^^[string](http://www.w3.org/2001/XMLSchema#string) 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/chemical_role_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-#### Added
-- [vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000982) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The amount of vitamin (role)."^^[string](http://www.w3.org/2001/XMLSchema#string) 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/chemical_role_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000982) [label](http://www.w3.org/2000/01/rdf-schema#label) "vitamin (role) amount"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-
-- [vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000982) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amount of vitamin (role)"^^[string](http://www.w3.org/2001/XMLSchema#string) 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/chemical_role_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
 ### vitamin A amount `http://purl.obolibrary.org/obo/OBA_1000996`
 #### Removed
-- [vitamin A amount](http://purl.obolibrary.org/obo/OBA_1000996) SubClassOf [vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000982) 
+- [vitamin A amount](http://purl.obolibrary.org/obo/OBA_1000996) SubClassOf [vitamin amount](http://purl.obolibrary.org/obo/OBA_1000982) 
 
 #### Added
 - [vitamin A amount](http://purl.obolibrary.org/obo/OBA_1000996) SubClassOf [fat-soluble vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000976) 
@@ -23434,7 +26504,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 ### vitamin D amount `http://purl.obolibrary.org/obo/OBA_1000968`
 #### Removed
-- [vitamin D amount](http://purl.obolibrary.org/obo/OBA_1000968) SubClassOf [vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000982) 
+- [vitamin D amount](http://purl.obolibrary.org/obo/OBA_1000968) SubClassOf [vitamin amount](http://purl.obolibrary.org/obo/OBA_1000982) 
 
 #### Added
 - [vitamin D amount](http://purl.obolibrary.org/obo/OBA_1000968) SubClassOf [fat-soluble vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000976) 
@@ -23442,10 +26512,30 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
 ### vitamin E amount `http://purl.obolibrary.org/obo/OBA_1000955`
 #### Removed
-- [vitamin E amount](http://purl.obolibrary.org/obo/OBA_1000955) SubClassOf [vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000982) 
+- [vitamin E amount](http://purl.obolibrary.org/obo/OBA_1000955) SubClassOf [vitamin amount](http://purl.obolibrary.org/obo/OBA_1000982) 
 
 #### Added
 - [vitamin E amount](http://purl.obolibrary.org/obo/OBA_1000955) SubClassOf [fat-soluble vitamin (role) amount](http://purl.obolibrary.org/obo/OBA_1000976) 
+
+
+### vitamin amount `http://purl.obolibrary.org/obo/OBA_1000982`
+#### Removed
+- [vitamin amount](http://purl.obolibrary.org/obo/OBA_1000982) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amount of vitamin"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/chemical_role_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [vitamin amount](http://purl.obolibrary.org/obo/OBA_1000982) [label](http://www.w3.org/2000/01/rdf-schema#label) "vitamin amount"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [vitamin amount](http://purl.obolibrary.org/obo/OBA_1000982) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The amount of vitamin."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/chemical_role_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+#### Added
+- [vitamin amount](http://purl.obolibrary.org/obo/OBA_1000982) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The amount of vitamin (role)."^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/chemical_role_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [vitamin amount](http://purl.obolibrary.org/obo/OBA_1000982) [label](http://www.w3.org/2000/01/rdf-schema#label) "vitamin (role) amount"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+
+- [vitamin amount](http://purl.obolibrary.org/obo/OBA_1000982) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "amount of vitamin (role)"^^[string](http://www.w3.org/2001/XMLSchema#string) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "AUTO:patterns/patterns/chemical_role_attribute"^^[string](http://www.w3.org/2001/XMLSchema#string) 
 
 
 ### water `http://purl.obolibrary.org/obo/CHEBI_15377`
@@ -23454,9 +26544,9 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 - [water](http://purl.obolibrary.org/obo/CHEBI_15377) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms" 
 
 
-### water-soluble vitamin (role) `http://purl.obolibrary.org/obo/CHEBI_27314`
+### water-soluble vitamin `http://purl.obolibrary.org/obo/CHEBI_27314`
 #### Removed
-- [water-soluble vitamin (role)](http://purl.obolibrary.org/obo/CHEBI_27314) [label](http://www.w3.org/2000/01/rdf-schema#label) "water-soluble vitamin" 
+- [water-soluble vitamin](http://purl.obolibrary.org/obo/CHEBI_27314) [label](http://www.w3.org/2000/01/rdf-schema#label) "water-soluble vitamin" 
 
 
 
