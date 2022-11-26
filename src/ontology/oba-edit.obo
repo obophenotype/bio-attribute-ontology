@@ -574,8 +574,7 @@ creation_date: 2013-06-17T17:53:39Z
 
 [Term]
 id: OBA:1000034 ! cell surface area
-synonym: "cell surface area trait" EXACT [GOC:TermGenie]
-relationship: http://purl.org/pav/providedBy http://eol.org
+synonym: "cell surface area trait" EXACT [GOC:TermGenie, http://eol.org]
 created_by: jen.hammock
 creation_date: 2013-08-06T20:05:54Z
 
@@ -589,29 +588,25 @@ creation_date: 2013-09-25T23:32:06Z
 
 [Term]
 id: OBA:1000036 ! cell mass
-synonym: "cell mass trait" EXACT [GOC:TermGenie]
-relationship: http://purl.org/pav/providedBy http://eol.org
+synonym: "cell mass trait" EXACT [GOC:TermGenie, http://eol.org]
 created_by: jen.hammock
 creation_date: 2013-09-30T20:01:39Z
 
 [Term]
 id: OBA:1000037 ! adult organism mass
-synonym: "adult organism mass trait" EXACT [GOC:TermGenie]
-relationship: http://purl.org/pav/providedBy http://eol.org
+synonym: "adult organism mass trait" EXACT [GOC:TermGenie, http://eol.org]
 created_by: jen.hammock
 creation_date: 2013-10-08T20:29:11Z
 
 [Term]
 id: OBA:1000038 ! mollusc shell height
-synonym: "mollusc shell height trait" EXACT [GOC:TermGenie]
-relationship: http://purl.org/pav/providedBy http://eol.org
+synonym: "mollusc shell height trait" EXACT [GOC:TermGenie, http://eol.org]
 created_by: jen.hammock
 creation_date: 2013-10-08T21:19:32Z
 
 [Term]
 id: OBA:1000039 ! mollusc shell length
-synonym: "mollusc shell length trait" EXACT [GOC:TermGenie]
-relationship: http://purl.org/pav/providedBy http://eol.org
+synonym: "mollusc shell length trait" EXACT [GOC:TermGenie, http://eol.org]
 created_by: jen.hammock
 creation_date: 2013-10-08T21:21:38Z
 
@@ -1334,21 +1329,5 @@ is_a: PATO:0000070 ! amount
 
 [Typedef]
 id: http://purl.org/dc/elements/1.1/contributor ! contributor
-is_metadata_tag: true
-
-[Typedef]
-id: http://purl.org/pav/providedBy
-is_metadata_tag: true
-
-[Typedef]
-id: measured_in_taxon
-name: measured_in_taxon
-comment: Taxon in which a trait is usually measured.
-is_metadata_tag: true
-
-[Typedef]
-id: not_measured_in_taxon
-name: not_measured_in_taxon
-comment: Taxon in which a measurement is usually not taken.
 is_metadata_tag: true
 
