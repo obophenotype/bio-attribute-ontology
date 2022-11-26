@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/oba/imports/pr_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/oba/imports/pr_import.owl"
-
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:pr="http://purl.obolibrary.org/obo/pr#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -11,9 +11,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oba/imports/pr_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oba/releases/2022-08-03/imports/pr_import.owl"/>
-
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-08-03</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oba/releases/2022-11-26/imports/pr_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/pr/obophenotype/releases/2022-11-26/pr_slim.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-11-26</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -43,26 +43,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/pr#Gene-based -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/pr#Gene-based">
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/pr#PRO-short-label -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/pr#PRO-short-label">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
-
     
 
 
@@ -120,37 +105,6 @@
     
 
 
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#is_transitive -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_transitive"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#deprecated -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#deprecated"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -177,6 +131,12 @@
     <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002180 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002180"/>
     
 
 
@@ -211,28 +171,7 @@
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_33708 -->
 
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33708">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33247"/>
-        <obo:IAO_0000115>When two or more amino acids combine to form a peptide, the elements of water are removed, and what remains of each amino acid is called an amino-acid residue.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>amino acid residue</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym>protein residue</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>CHEBI:33708</oboInOwl:id>
-        <rdfs:label>amino-acid residue</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33708"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>When two or more amino acids combine to form a peptide, the elements of water are removed, and what remains of each amino acid is called an amino-acid residue.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Dummy:dummy</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33708"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-        <owl:annotatedTarget>protein residue</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
-    </owl:Axiom>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33708"/>
     
 
 
@@ -251,6 +190,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0016485 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016485"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032991"/>
     
 
 
@@ -1197,6 +1142,46 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000005388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human CGA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>CG-alpha</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CGA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>FSH-alpha</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>LSH-alpha</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TSH-alpha</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>anterior pituitary glycoprotein hormones common subunit alpha</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>choriogonadotropin alpha chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>chorionic gonadotrophin subunit alpha</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>follicle-stimulating hormone alpha chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>follitropin alpha chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>luteinizing hormone alpha chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lutropin alpha chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>thyroid-stimulating hormone alpha chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>thyrotropin alpha chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000005388</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>glycoprotein hormones alpha chain</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000005388"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein that is a translation product of the human CGA gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000005388"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>CGA</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000005940 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005940">
@@ -1444,6 +1429,160 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000007973 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007973">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human GHRL gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>GHRL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>growth hormone secretagogue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>growth hormone-releasing peptide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>motilin-related peptide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>protein M46</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>MTLRP</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>UNQ524/PRO1066</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000007973</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>appetite-regulating hormone</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007973"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein that is a translation product of the human GHRL gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007973"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>GHRL</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007973"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>MTLRP</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000007973"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>UNQ524/PRO1066</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human GOT1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>AAT</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>ASAT</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>AST</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>AspAT</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>SGO-T</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>SGOT</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>aspartate aminotransferase</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>aspartate transaminase</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>serum glutamic oxaloacetic transaminase</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>transaminase A</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>GOT1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cAST</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cAspAT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cCAT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cysteine aminotransferase, cytoplasmic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cysteine transaminase, cytoplasmic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>glutamate oxaloacetate transaminase 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000008153</oboInOwl:id>
+        <rdfs:comment>Category=gene. Note: This form is predominantly found in red blood cells and heart in humans.</rdfs:comment>
+        <rdfs:label>aspartate aminotransferase, cytoplasmic</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein that is a translation product of the human GOT1 gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>AAT</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>ASAT</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>AST</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>AspAT</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>SGO-T</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>SGOT</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>aspartate aminotransferase</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>aspartate transaminase</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>serum glutamic oxaloacetic transaminase</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>transaminase A</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>GOT1</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008153"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>cAST</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartate_transaminase</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000009054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009054">
@@ -1458,13 +1597,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>INS</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An insulin family protein that is a translation product of the human INS gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
@@ -1474,7 +1606,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
         <owl:annotatedTarget>insulin</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
-
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
@@ -1880,6 +2011,38 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>Trf</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016724">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000044813"/>
+        <obo:IAO_0000115>A glycoprotein hormone beta chain that is a translation product of the human TSHB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>TSH-B</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TSH-beta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TSHB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>thyroid-stimulating hormone subunit beta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>thyrotropin alfa</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>thyrotropin beta chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000016724</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>thyrotropin subunit beta</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000016724"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A glycoprotein hormone beta chain that is a translation product of the human TSHB gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000016724"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>TSHB</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     
 
@@ -2799,6 +2962,50 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000019321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000019321">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005388"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#lacks_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000418"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000005388"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#lacks_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000418"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A glycoprotein hormones alpha chain that has had the signal peptide removed.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>CGA/SigPep-</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000019321</oboInOwl:id>
+        <rdfs:comment>Category=modification.</rdfs:comment>
+        <rdfs:label>glycoprotein hormones alpha chain, signal peptide removed form</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019321"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A glycoprotein hormones alpha chain that has had the signal peptide removed.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019321"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>CGA/SigPep-</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000019523 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000019523">
@@ -3148,6 +3355,95 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019919"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>FN1/ClvPrd</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000019998 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000019998">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007973"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#lacks_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000418"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000007973"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#lacks_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000418"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An appetite-regulating hormone that has had the signal peptide removed.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>GHRL/SigPep-</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000019998</oboInOwl:id>
+        <rdfs:comment>Category=modification.</rdfs:comment>
+        <rdfs:label>appetite-regulating hormone, signal peptide removed form</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019998"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An appetite-regulating hormone that has had the signal peptide removed.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019998"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>GHRL/SigPep-</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000019999 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000019999">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007973"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000007973"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An appetite-regulating hormone that has been processed by proteolytic cleavage.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>GHRL/ClvPrd</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000019999</oboInOwl:id>
+        <rdfs:comment>Category=modification.</rdfs:comment>
+        <rdfs:label>appetite-regulating hormone proteolytic cleavage product</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019999"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An appetite-regulating hormone that has been processed by proteolytic cleavage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019999"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>GHRL/ClvPrd</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
@@ -3738,6 +4034,95 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000021741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000021741">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000016724"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#lacks_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000418"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000016724"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#lacks_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000418"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A thyrotropin subunit beta that has had the signal peptide removed.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>TSHB/SigPep-</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000021741</oboInOwl:id>
+        <rdfs:comment>Category=modification.</rdfs:comment>
+        <rdfs:label>thyrotropin subunit beta, signal peptide removed form</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021741"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A thyrotropin subunit beta that has had the signal peptide removed.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021741"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>TSHB/SigPep-</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000021742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000021742">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000016724"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000016724"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A thyrotropin subunit beta that has been processed by proteolytic cleavage.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>TSHB/ClvPrd</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000021742</oboInOwl:id>
+        <rdfs:comment>Category=modification.</rdfs:comment>
+        <rdfs:label>thyrotropin subunit beta proteolytic cleavage product</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021742"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A thyrotropin subunit beta that has been processed by proteolytic cleavage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021742"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>TSHB/ClvPrd</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000021840 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000021840">
@@ -3827,37 +4212,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PR_000021935 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000021935">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000024"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A part of a protein that is removed during the protein maturation process.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>cleaved_peptide_region</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>PR:000021935</oboInOwl:id>
-        <rdfs:label>immature protein part</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021935"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A part of a protein that is removed during the protein maturation process.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000021935"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>cleaved_peptide_region</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>SO:0100011</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PR_000023540 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000023540">
@@ -3926,6 +4280,50 @@
         <owl:annotatedTarget>phoA/SigPep-</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000024939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000024939">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000025848"/>
+        <oboInOwl:hasExactSynonym>IFNB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000024939</oboInOwl:id>
+        <rdfs:comment>Category=family.</rdfs:comment>
+        <rdfs:label>interferon beta</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000024939"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>IFNB</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000025848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000025848">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that consists solely of an Interferon alpha/beta domain (Pfam:PF00143) and which binds to a specific cell surface receptor complex known as the IFN-alpha receptor (IFNAR), a heterodimer of IFNAR1 and IFNAR2 chains.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>IFN type I</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>interferon type I</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000025848</oboInOwl:id>
+        <rdfs:comment>Category=family.</rdfs:comment>
+        <rdfs:label>type I interferon</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000025848"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein that consists solely of an Interferon alpha/beta domain (Pfam:PF00143) and which binds to a specific cell surface receptor complex known as the IFN-alpha receptor (IFNAR), a heterodimer of IFNAR1 and IFNAR2 chains.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:15233997</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:9607096</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PRO:MSY</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4030,6 +4428,41 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000028269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000028269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/PR_000005388"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/PR_000016724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A protein-containing complex that is a heterodimer of an alpha subunit (CGA) common to several glycoprotein hormones and a beta subunit (TSHB) unique to thyroid stimulating hormone.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>TSH</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>thyrotropin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000028269</oboInOwl:id>
+        <rdfs:comment>Category=complex. Requested by=GOC.</rdfs:comment>
+        <rdfs:label>thyroid stimulating hormone</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000028269"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein-containing complex that is a heterodimer of an alpha subunit (CGA) common to several glycoprotein hormones and a beta subunit (TSHB) unique to thyroid stimulating hormone.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PRO:MSY</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000029968 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000029968">
@@ -4051,6 +4484,63 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000029968"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>fam:GH1</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000029971 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000029971">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that contains a single ATP:guanido phosphotransferase N-terminal domain (Pfam:PF02807) followed by a single ATP:guanido phosphotransferase C-terminal catalytic domain (Pfam:PF00217).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>fam:CK</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000029971</oboInOwl:id>
+        <rdfs:comment>Category=family.</rdfs:comment>
+        <rdfs:label>creatine kinase</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000029971"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein that contains a single ATP:guanido phosphotransferase N-terminal domain (Pfam:PF02807) followed by a single ATP:guanido phosphotransferase C-terminal catalytic domain (Pfam:PF00217).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000029971"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>fam:CK</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000030444 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000030444">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human BGLAP gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>BGLAP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BGP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bone Gla protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gamma-carboxyglutamic acid-containing protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000030444</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>osteocalcin</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000030444"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein that is a translation product of the human BGLAP gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000030444"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>BGLAP</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
@@ -4129,6 +4619,68 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000037069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000037069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that includes at least one glycosylated residue.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Prot/GlycoRes+</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>glycated protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>glycosylated protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000037069</oboInOwl:id>
+        <rdfs:comment>Category=modification.</rdfs:comment>
+        <rdfs:label>glycoprotein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000037069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein that includes at least one glycosylated residue.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000037069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prot/GlycoRes+</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000037069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>glycated protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000037069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>glycosylated protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000044813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000044813">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein with a core domain composition consisting of a signal peptide followed by a single copy of the Cys_knot (Pfam:PF00007) domain. The Cysteine knot is a protein structural motif containing three disulfide bridges.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>PANTHER:PTHR11515</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000044813</oboInOwl:id>
+        <rdfs:comment>Category=family.</rdfs:comment>
+        <rdfs:label>glycoprotein hormone beta chain</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000044813"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein with a core domain composition consisting of a signal peptide followed by a single copy of the Cys_knot (Pfam:PF00007) domain. The Cysteine knot is a protein structural motif containing three disulfide bridges.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:CNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Pfam:PF00007</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000045358 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000045358">
@@ -4177,6 +4729,411 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050025"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>fam:angiotensinogenase</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of some mRNA produced by a somatically recombined immunoglobulin heavy chain locus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>IgH</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000050174</oboInOwl:id>
+        <rdfs:comment>Category=family. Requested by=IEDB. Note: In human, the IgH locus is described by https://www.genenames.org/cgi-bin/genefamilies/set/349. In mouse, the locus is described by MGI:96442.</rdfs:comment>
+        <rdfs:label>immunoglobulin heavy chain protein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050174"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein that is a translation product of some mRNA produced by a somatically recombined immunoglobulin heavy chain locus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:ADD</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050174"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>IgH</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human GPT or GPT2 genes, 1:1 orthologs thereof, or a semi-ortholog thereof.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>fam:ALAT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000050219</oboInOwl:id>
+        <rdfs:comment>Category=family.</rdfs:comment>
+        <rdfs:label>alanine aminotransferase</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050219"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein that is a translation product of the human GPT or GPT2 genes, 1:1 orthologs thereof, or a semi-ortholog thereof.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050219"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>fam:ALAT</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050174"/>
+        <obo:IAO_0000115>An immunoglobulin heavy chain protein in which the constant region is encoded by some IgG gene segment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>IgHG</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin G heavy chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin gamma heavy chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin heavy chain gamma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000050252</oboInOwl:id>
+        <rdfs:comment>Category=family. Requested by=IEDB. Note: In human, IgG constant gene segments are IgG1, IgG2, IgG3, and IgG4.</rdfs:comment>
+        <rdfs:label>IgG heavy chain protein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050252"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An immunoglobulin heavy chain protein in which the constant region is encoded by some IgG gene segment.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050252"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>IgHG</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050252"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin G heavy chain</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050252"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin gamma heavy chain</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050252"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin heavy chain gamma</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050252"/>
+        <obo:IAO_0000115>An IgG heavy chain protein in which the constant region is encoded by the IgG1 gene segment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>IgHG1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin G1 heavy chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin gamma 1 heavy chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin heavy chain gamma 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000050253</oboInOwl:id>
+        <rdfs:comment>Category=seqgroup. Requested by=IEDB.</rdfs:comment>
+        <rdfs:label>IgG1 heavy chain protein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050253"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An IgG heavy chain protein in which the constant region is encoded by the IgG1 gene segment.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050253"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>IgHG1</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050253"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin G1 heavy chain</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050253"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin gamma 1 heavy chain</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050253"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin heavy chain gamma 1</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050252"/>
+        <obo:IAO_0000115>An IgG heavy chain protein in which the constant region is encoded by the IgG3 gene segment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>IgHG3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin G3 heavy chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin gamma 3 heavy chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin heavy chain gamma 3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000050255</oboInOwl:id>
+        <rdfs:comment>Category=seqgroup. Requested by=IEDB.</rdfs:comment>
+        <rdfs:label>IgG3 heavy chain protein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050255"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An IgG heavy chain protein in which the constant region is encoded by the IgG3 gene segment.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050255"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>IgHG3</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050255"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin G3 heavy chain</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050255"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin gamma 3 heavy chain</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050255"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin heavy chain gamma 3</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050252"/>
+        <obo:IAO_0000115>An IgG heavy chain protein in which the constant region is encoded by the IgG2a gene segment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>IgHG2a</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin G2a heavy chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin gamma 2a heavy chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin heavy chain gamma 2a</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000050259</oboInOwl:id>
+        <rdfs:comment>Category=seqgroup. Requested by=IEDB.</rdfs:comment>
+        <rdfs:label>IgG2a heavy chain protein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050259"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An IgG heavy chain protein in which the constant region is encoded by the IgG2a gene segment.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050259"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>IgHG2a</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050259"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin G2a heavy chain</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050259"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin gamma 2a heavy chain</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050259"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin heavy chain gamma 2a</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050252"/>
+        <obo:IAO_0000115>An IgG heavy chain protein in which the constant region is encoded by the IgG2b gene segment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>IgHG2b</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin G2b heavy chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin gamma 2b heavy chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin heavy chain gamma 2b</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000050260</oboInOwl:id>
+        <rdfs:comment>Category=seqgroup. Requested by=IEDB.</rdfs:comment>
+        <rdfs:label>IgG2b heavy chain protein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050260"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An IgG heavy chain protein in which the constant region is encoded by the IgG2b gene segment.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050260"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>IgHG2b</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050260"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin G2b heavy chain</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050260"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin gamma 2b heavy chain</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050260"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin heavy chain gamma 2b</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050252"/>
+        <obo:IAO_0000115>An IgG heavy chain protein in which the constant region is encoded by the IgG2c gene segment.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>IgHG2c</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin G2c heavy chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin gamma 2c heavy chain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>immunoglobulin heavy chain gamma 2c</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000050261</oboInOwl:id>
+        <rdfs:comment>Category=seqgroup. Requested by=IEDB.</rdfs:comment>
+        <rdfs:label>IgG2c heavy chain protein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050261"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An IgG heavy chain protein in which the constant region is encoded by the IgG2c gene segment.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050261"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>IgHG2c</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050261"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin G2c heavy chain</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050261"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin gamma 2c heavy chain</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050261"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>immunoglobulin heavy chain gamma 2c</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/PR_000050332"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A protein-containing complex that is composed of four subunits of L-lactate dehydrogenase, cytoplasmic.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>complex:LDH</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000050331</oboInOwl:id>
+        <rdfs:comment>Category=complex. Requested by=MAxO.</rdfs:comment>
+        <rdfs:label>lactate dehydrogenase complex</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050331"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein-containing complex that is composed of four subunits of L-lactate dehydrogenase, cytoplasmic.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Lactate_dehydrogenase</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050331"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>complex:LDH</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the Schizosaccharomyces pombe SPAC186.08c gene, a 1:1 ortholog thereof, or pro-orthologs thereof.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>LDH-cyto</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000050332</oboInOwl:id>
+        <rdfs:comment>Category=gene. Pro-orthology refers to, in this case, after-speciation gene duplication in the non-yeast species (aka 1:many orthology).</rdfs:comment>
+        <rdfs:label>L-lactate dehydrogenase, cytoplasmic</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050332"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein that is a translation product of the Schizosaccharomyces pombe SPAC186.08c gene, a 1:1 ortholog thereof, or pro-orthologs thereof.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050332"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>LDH-cyto</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>

@@ -1,0 +1,11 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX OBA: <http://purl.obolibrary.org/obo/OBA_>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX has_part: <http://purl.obolibrary.org/obo/BFO_0000051>
+SELECT DISTINCT ?grouping ?grouping_label (count(distinct ?oba) as ?count)
+WHERE {
+  ?grouping rdfs:subClassOf obo:OBA_0000001 .
+  ?oba rdfs:subClassOf* ?grouping .
+  ?grouping rdfs:label ?grouping_label .
+} GROUP BY ?grouping ?grouping_label

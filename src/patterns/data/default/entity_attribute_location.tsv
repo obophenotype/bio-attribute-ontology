@@ -57,7 +57,7 @@ OBA:VT0005345	blood corticosterone amount	CHEBI:16827	corticosterone	PATO:000007
 OBA:VT0005346	blood aldosterone amount	CHEBI:27584	aldosterone	PATO:0000070	amount	UBERON:0000178	blood
 OBA:VT0005416	blood protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0000178	blood
 OBA:VT0005475	blood thyroxine amount	CHEBI:30660	thyroxine	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005476	blood triiodothyronine amount	CHEBI:18258	"3,3',5-triiodo-L-thyronine"	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005476	blood triiodothyronine amount	CHEBI:18258	3,3',5-triiodo-L-thyronine	PATO:0000070	amount	UBERON:0000178	blood
 OBA:VT0005521	blood atrial natriuretic factor amount	PR:000011374	atrial natriuretic factor	PATO:0000070	amount	UBERON:0000178	blood
 OBA:VT0005609	blood antidiuretic hormone amount	CHEBI:9937	vasopressin	PATO:0000070	amount	UBERON:0000178	blood
 OBA:VT0005660	blood epinephrine amount	CHEBI:28918	(R)-adrenaline	PATO:0000070	amount	UBERON:0000178	blood
@@ -159,3 +159,47 @@ OBA:0000003	ER calcium ion concentration	CHEBI:39124	calcium ion	PATO:0000033	co
 OBA:0000005	Golgi calcium ion concentration	CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005794	Golgi apparatus
 OBA:0006038		CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005829	cytosol
 OBA:0006039		CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0099524	postsynaptic cytosol
+OBA:VT0001757	urine molecular composition	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT0010585	brain molecular composition	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0000955	brain
+OBA:VT0010481	blood immunoglobulin M amount	GO:0071754	IgM immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008616	blood interleukin-12 amount	GO:0043514	interleukin-12 complex	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010710	milk copper amount	CHEBI:28694	copper atom	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0010480	blood osteocalcin amount	PR:000030444	osteocalcin	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010477	blood lactate dehydrogenase amount	PR:000050331	lactate dehydrogenase complex	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0001805	blood immunoglobulin G amount	GO:0071736	IgG immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010535	erythrocyte ion amount	CHEBI:24870	ion	PATO:0000070	amount	CL:0000232	erythrocyte
+OBA:VT0010513	blood ferritin amount	GO:0070288	ferritin complex	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008498	blood immunoglobulin G3 amount	PR:000050255	IgG3 heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010919	feces bile acid amount	CHEBI:3098	bile acid	PATO:0000070	amount	UBERON:0001988	feces
+OBA:VT0001553	blood free fatty acid amount	CHEBI:35366	fatty acid	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010808	milk sulfur amount	CHEBI:26833	sulfur atom	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0000199	blood albumin amount	CHEBI:166964	albumin type	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010918	liver bile acid amount	CHEBI:3098	bile acid	PATO:0000070	amount	UBERON:0002107	liver
+OBA:VT0010711	milk iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0001913	milk
+OBA:VT0005567	blood total protein amount	CHEBI:36080	protein	PATO:0000125	mass	UBERON:0000178	blood
+OBA:VT0002492	blood immunoglobulin E amount	GO:0071743	IgE immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008497	blood immunoglobulin G2b amount	PR:000050260	IgG2b heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010694	blood fructosamine amount	CHEBI:24103	fructosamine	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005265	blood urea nitrogen amount	CHEBI:16199	urea	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0001573	blood alanine transaminase amount	PR:000050219	alanine aminotransferase	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0003065	hepatic copper amount	CHEBI:28694	copper atom	PATO:0000070	amount	UBERON:0002107	liver
+OBA:VT0001807	blood immunoglobulin A amount	GO:0071746	IgA immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010545	blood adiponectin amount	CHEBI:81572	Adiponectin	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010878	blood bile acid amount	CHEBI:3098	bile acid	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010677	glycated serum protein amount	PR:000037069	glycoprotein	PATO:0000070	amount	UBERON:0001977	serum
+OBA:VT0010648	muscle glycogen amount	CHEBI:28087	glycogen	PATO:0000070	amount	UBERON:0001134	skeletal muscle tissue
+OBA:VT0008495	blood immunoglobulin G1 amount	PR:000050253	IgG1 heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0002871	urine albumin amount	CHEBI:166964	albumin type	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT1000047	blood creatine kinase amount	PR:000029971	creatine kinase	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010616	blood lactate amount	CHEBI:24996	lactate	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010695	blood ghrelin amount	PR:000007973	appetite-regulating hormone	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008897	blood immunoglobulin G2c amount	PR:000050261	IgG2c heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010474		CHEBI:50404	lipoprotein cholesterol	PATO:0000025	composition	UBERON:0000178	blood
+OBA:VT0000203	blood aspartate transaminase amount	PR:000008153	aspartate aminotransferase, cytoplasmic	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0005119	blood thyroid-stimulating hormone amount	PR:000028269	thyroid stimulating hormone	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008550	blood interferon-beta amount	PR:000024939	interferon beta	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0008496	blood immunoglobulin G2a amount	PR:000050259	IgG2a heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0003457	blood ketone body amount	CHEBI:73693	ketone body	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010476	blood glutamate dehydrogenase amount	GO:1990148	glutamate dehydrogenase complex	PATO:0000070	amount	UBERON:0000178	blood
+OBA:VT0010540	urine creatinine amount	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0001088	urine
+OBA:VT0010714	milk zinc content	CHEBI:27363	zinc atom	PATO:0000070	amount	UBERON:0001913	milk
