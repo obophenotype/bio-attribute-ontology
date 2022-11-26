@@ -1,4 +1,4 @@
-defined_class	defined_class_name	entity	entity_name	attribute	attribute_name
+defined_class	defined_class_name	entity	entity_name	attribute	attribute_name	exact_synonyms	xrefs
 OBA:0000036	body fluid levels	UBERON:0006314	bodily fluid	PATO:0000918	volume
 OBA:0100001	cellular component attribute	GO:0005575	cellular_component	PATO:0000001	quality
 OBA:0100002	biological process attribute	GO:0008150	biological_process	PATO:0000001	quality
@@ -27,14 +27,13 @@ OBA:0000068	endosome size	GO:0005768	endosome	PATO:0000117	size
 OBA:0000084	imaginal disc-derived wing size	UBERON:0000984	imaginal disc-derived wing	PATO:0000117	size
 OBA:0000088	liquid surface tension	PATO:0001735	liquid configuration	PATO:0001461	surface tension
 OBA:0000092	lysosomal membrane permeability	GO:0005765	lysosomal membrane	PATO:0000970	permeability
-OBA:0000099	membrane potential	GO:0016020	membrane	PATO:0001464	electric potential
+OBA:0000099	membrane potential trait	GO:0016020	membrane	PATO:0001464	electric potential
 OBA:0000101	metanephric kidney size	UBERON:0000081	metanephros	PATO:0000117	size
 OBA:0000102	microvillus length	GO:0005902	microvillus	PATO:0000122	length
 OBA:0000104	mitochondrial membrane permeability	GO:0031966	mitochondrial membrane	PATO:0000970	permeability
 OBA:0000107	multivesicular body size	GO:0005771	multivesicular body	PATO:0000117	size
 OBA:0000112	myofibril number	GO:0030016	myofibril	PATO:0000070	amount
 OBA:0000113	myofibril size	GO:0030016	myofibril	PATO:0000117	size
-OBA:0000116	neurotransmitter levels	GOCHE:25512	neurotransmitter	PATO:0000070	amount
 OBA:0000117	nuclear size	GO:0005634	nucleus	PATO:0000117	size
 OBA:0000119	nucleosome density	GO:0000786	nucleosome	PATO:0000070	amount
 OBA:0000120	osmotic pressure	CHEBI:15377	water	PATO:0000070	amount
@@ -715,7 +714,7 @@ OBA:VT0001884	mammary alveoli morphology trait	UBERON:0003214	mammary gland alve
 OBA:VT0001885	mammary duct morphology trait	UBERON:0001765	mammary duct	PATO:0000051	morphology
 OBA:VT0001905	nervous system dopamine amount	CHEBI:18243	dopamine	PATO:0000070	amount
 OBA:VT0001919	reproductive system physiology trait	UBERON:0000990	reproductive system	PATO:0001509	functionality
-OBA:VT0001922	male fertility trait	CHEBI:30780	maleate(2-)	PATO:0000274	fertility
+OBA:VT0001922	male fertility trait	UBERON:0003101	male organism	PATO:0000274	fertility
 OBA:VT0001942	lung capacity	UBERON:0002048	lung	PATO:0000918	volume
 OBA:VT0001944	pancreas morphology trait	UBERON:0001264	pancreas	PATO:0000051	morphology
 OBA:VT0001983	olfactory system physiology trait	UBERON:0000005	chemosensory organ	PATO:0001509	functionality
@@ -1036,7 +1035,6 @@ OBA:VT0003257	abdominal wall morphology trait	UBERON:0003697	abdominal wall	PATO
 OBA:VT0003271	duodenum morphology trait	UBERON:0002114	duodenum	PATO:0000051	morphology
 OBA:VT0003283	digestive organ orientation trait	UBERON:0013765	digestive system element	PATO:0000133	orientation
 OBA:VT0003284	large intestine orientation trait	UBERON:0000059	large intestine	PATO:0000140	position
-OBA:VT0003308	cochlea sensory epithelium morphology trait	UBERON:0013763	sensory epithelium of spiral organ	PATO:0000051	morphology
 OBA:VT0003309	modiolus morphology trait	UBERON:0006723	cochlear modiolus	PATO:0000051	morphology
 OBA:VT0003310	modiolus size trait	UBERON:0006723	cochlear modiolus	PATO:0000117	size
 OBA:VT0003315	perineum morphology trait	UBERON:0002356	perineum	PATO:0000051	morphology
@@ -1421,8 +1419,8 @@ OBA:VT0005110	talus size trait	UBERON:0002395	talus	PATO:0000117	size
 OBA:VT0005112	anterior horn morphology trait	UBERON:0002257	ventral horn of spinal cord	PATO:0000051	morphology
 OBA:VT0005113	anterior horn cell quantity	CL:0000100	motor neuron	PATO:0000070	amount
 OBA:VT0005149	gubernaculum morphology trait	UBERON:0004346	gubernaculum (male or female)	PATO:0000051	morphology
-OBA:VT0005168	female meiosis trait	GO:0007126	meiotic nuclear division	PATO:0000383	female
-OBA:VT0005169	male meiosis trait	GO:0007126	meiotic nuclear division	PATO:0000384	male
+OBA:VT0005168	female meiosis trait	GO:0051321	meiotic cell cycle	PATO:0000383	female
+OBA:VT0005169	male meiosis trait	GO:0051321	meiotic cell cycle	PATO:0000384	male
 OBA:VT0005187	penis morphology trait	UBERON:0000989	penis	PATO:0000051	morphology
 OBA:VT0005189	perineum length	UBERON:0002356	perineum	PATO:0000122	length
 OBA:VT0005193	anterior eye segment morphology trait	UBERON:0001801	anterior segment of eyeball	PATO:0000051	morphology
@@ -1695,7 +1693,6 @@ OBA:VT0008542	cervical lymph node size trait	UBERON:0002429	cervical lymph node	
 OBA:VT0008737	spleen physiology trait	UBERON:0002106	spleen	PATO:0001509	functionality
 OBA:VT0008746	peripheral B cell anergy trait	GO:0002515	B cell anergy	PATO:0002107	peripheral
 OBA:VT0008749	peripheral T cell anergy trait	GO:0002870	T cell anergy	PATO:0002107	peripheral
-OBA:VT0008752	tumor necrosis factor amount	GO:0005164	tumor necrosis factor receptor binding	PATO:0000070	amount
 OBA:VT0008769	plasmacytoid dendritic cell physiology trait	CL:0000784	plasmacytoid dendritic cell	PATO:0001509	functionality
 OBA:VT0008894	intraepithelial T cell morphology trait	CL:0002496	intraepithelial lymphocyte	PATO:0000051	morphology
 OBA:VT0008895	intraepithelial T cell quantity	CL:0000793	CD4-positive, alpha-beta intraepithelial T cell	PATO:0000070	amount
@@ -2014,7 +2011,6 @@ OBA:VT0000057	ossification trait	GO:0001503	ossification	PATO:0000001	quality
 OBA:VT0000059	osteoclast development trait	GO:0036035	osteoclast development	PATO:0000001	quality
 OBA:VT0000116	tooth development trait	GO:0042476	odontogenesis	PATO:0000001	quality
 OBA:VT0000119	tooth eruption trait	GO:0044691	tooth eruption	PATO:0000001	quality
-OBA:VT0000121	cardiovascular system development trait	GO:0072358	cardiovascular system development	PATO:0000001	quality
 OBA:VT0000122	blood vessel development trait	GO:0001568	blood vessel development	PATO:0000001	quality
 OBA:VT0000164	cartilage development trait	GO:0051216	cartilage development	PATO:0000001	quality
 OBA:VT0000197	vasodilation trait	GO:0042311	vasodilation	PATO:0000001	quality
@@ -2062,9 +2058,9 @@ OBA:VT0001765	ion homeostasis trait	GO:0050801	ion homeostasis	PATO:0000001	qual
 OBA:VT0001784	fluid regulation trait	GO:0050878	regulation of body fluid levels	PATO:0000001	quality
 OBA:VT0001835	antigen presentation trait	GO:0019882	antigen processing and presentation	PATO:0000001	quality
 OBA:VT0001882	lactation trait	GO:0007595	lactation	PATO:0000001	quality
-OBA:VT0001923	female fertility trait	PATO:0000277	female fertility	PATO:0000001	quality
+OBA:VT0001923	female fertility trait	UBERON:0003100	female organism	PATO:0000277	female fertility
 OBA:VT0001928	ovulation trait	GO:0030728	ovulation	PATO:0000001	quality
-OBA:VT0001930	meiosis trait	GO:0007126	meiotic nuclear division	PATO:0000001	quality
+OBA:VT0001930	meiosis trait	GO:0051321	meiotic cell cycle	PATO:0000001	quality
 OBA:VT0001931	oogenesis trait	GO:0048477	oogenesis	PATO:0000001	quality
 OBA:VT0001932	spermiogenesis trait	GO:0007286	spermatid development	PATO:0000001	quality
 OBA:VT0001961	reflex trait	GO:0060004	reflex	PATO:0000001	quality
@@ -2098,7 +2094,7 @@ OBA:VT0002950	neural crest cell migration trait	GO:0001755	neural crest cell mig
 OBA:VT0002961	axon guidance trait	GO:0007411	axon guidance	PATO:0000001	quality
 OBA:VT0002982	germ cell migration trait	GO:0008354	germ cell migration	PATO:0000001	quality
 OBA:VT0002998	bone remodeling trait	GO:0046849	bone remodeling	PATO:0000001	quality
-OBA:VT0003009	cytokine secretion trait	GO:0050663	cytokine secretion	PATO:0000001	quality
+OBA:VT0003009	cytokine secretion trait	GO:0001816	cytokine production	PATO:0000001	quality
 OBA:VT0003088	prepulse inhibition trait	GO:0060134	prepulse inhibition	PATO:0000001	quality
 OBA:VT0003115	respiratory system development trait	GO:0060541	respiratory system development	PATO:0000001	quality
 OBA:VT0003156	leukocyte migration trait	GO:0050900	leukocyte migration	PATO:0000001	quality
@@ -2155,7 +2151,7 @@ OBA:VT0005278	cholesterol homeostasis trait	GO:0042632	cholesterol homeostasis	P
 OBA:VT0005316	tactition trait	GO:0050975	sensory perception of touch	PATO:0000001	quality
 OBA:VT0005380	embryonic development trait	GO:0009790	embryo development	PATO:0000001	quality
 OBA:VT0005382	head trait	UBERON:0000033	head	PATO:0000001	quality
-OBA:VT0005402	action potential trait	PATO:0001463	action potential	PATO:0000001	quality
+OBA:VT0005402	action potential trait	GO:0005886	plasma membrane	PATO:0001463	action potential
 OBA:VT0005410	fertilization trait	GO:0009566	fertilization	PATO:0000001	quality
 OBA:VT0005443	ethanol metabolism trait	GO:0006067	ethanol metabolic process	PATO:0000001	quality
 OBA:VT0005444	retinol metabolism trait	GO:0042572	retinol metabolic process	PATO:0000001	quality
@@ -2202,7 +2198,7 @@ OBA:VT0009056	interleukin-21 secretion trait	GO:0032625	interleukin-21 productio
 OBA:VT0009323	spleen development trait	GO:0048536	spleen development	PATO:0000001	quality
 OBA:VT0009858	cellular extravasation trait	GO:0045123	cellular extravasation	PATO:0000001	quality
 OBA:VT0010005	bone development trait	GO:0060348	bone development	PATO:0000001	quality
-OBA:VT0010032	chemokine secretion trait	GO:0090195	chemokine secretion	PATO:0000001	quality
+OBA:VT0010032	chemokine secretion trait	GO:0032602	chemokine production	PATO:0000001	quality
 OBA:VT0010065	connective tissue development trait	GO:0061448	connective tissue development	PATO:0000001	quality
 OBA:VT0010139	immune response trait	GO:0006955	immune response	PATO:0000001	quality
 OBA:VT0010179	immune system development trait	GO:0002520	immune system development	PATO:0000001	quality
@@ -2213,7 +2209,7 @@ OBA:VT0010415	prolactin secretion trait	GO:0070459	prolactin secretion	PATO:0000
 OBA:VT0010417	leukocyte proliferation trait	GO:0070661	leukocyte proliferation	PATO:0000001	quality
 OBA:VT0010442	behavior trait	GO:0007610	behavior	PATO:0000001	quality
 OBA:VT0010455	rhythmic behavior trait	GO:0007622	rhythmic behavior	PATO:0000001	quality
-OBA:VT0010464	fertility trait	PATO:0000274	fertility	PATO:0000001	quality
+OBA:VT0010464	fertility trait	UBERON:0000468	multicellular organism	PATO:0000274	fertility
 OBA:VT0010471	exploratory behavior trait	GO:0035640	exploration behavior	PATO:0000001	quality
 OBA:VT0010487	response to xenobiotic stimulus trait	GO:0009410	response to xenobiotic stimulus	PATO:0000001	quality
 OBA:VT0010489	response to alcohol trait	GO:0097305	response to alcohol	PATO:0000001	quality
@@ -2460,7 +2456,6 @@ OBA:0002141		UBERON:0000975	sternum	PATO:0002005	concavity
 OBA:0002142		UBERON:0000975	sternum	PATO:0000140	position
 OBA:0002143		UBERON:0002228	rib	PATO:0000122	length
 OBA:0002144		UBERON:0016416	anterior chest	PATO:0000117	size
-OBA:0002145		UBERON:0000468	multicellular organism	PATO:0000274	fertility
 OBA:0002146		UBERON:0000995	uterus	PATO:0000052	shape
 OBA:0002147		GO:0045136	development of secondary sexual characteristics	PATO:0002325	onset quality
 OBA:0002148		GO:0030252	growth hormone secretion	PATO:0000161	rate
@@ -2530,7 +2525,7 @@ OBA:0002211		UBERON:0004476	musculature of shoulder	PATO:0000117	size
 OBA:0002212		UBERON:0002510	anterior fontanel	PATO:0002325	onset quality
 OBA:0002213		UBERON:0001435	carpal bone	PATO:0000117	size
 OBA:0002214		UBERON:0002389	manual digit	PATO:0000117	size
-OBA:0002215		GO:0040007	growth	PATO:0000161	rate
+OBA:0002215	growth rate trait	GO:0040007	growth	PATO:0000161	rate
 OBA:0002216		GO:0040007	growth	PATO:0002325	onset quality
 OBA:0002217		GO:0009790	embryo development	PATO:0000161	rate
 OBA:0002218		UBERON:0000916	abdomen	PATO:0000140	position
@@ -2737,7 +2732,6 @@ OBA:0002419		UBERON:0004096	odontoid process of cervical vertebra 2	PATO:0000117
 OBA:0002420		UBERON:0002413	cervical vertebra	PATO:0000004	mobility
 OBA:0002421		UBERON:0003897	axial muscle	PATO:0001230	strength
 OBA:0002422		UBERON:0001474	bone element	PATO:0000141	structure
-OBA:0002423		GO:0034435	cholesterol esterification	PATO:0000161	rate
 OBA:0002424		GO:0004658	propionyl-CoA carboxylase activity	PATO:0000161	rate
 OBA:0002425		UBERON:0004412	proximal epiphysis of femur	PATO:0001591	curvature
 OBA:0002426		UBERON:0014411	greater sciatic notch	PATO:0000117	size
@@ -4206,7 +4200,7 @@ OBA:0003892		GO:0007269	neurotransmitter secretion	PATO:0000161	rate
 OBA:0003893		UBERON:0002493	uterine artery	PATO:0000051	morphology
 OBA:0003894		GO:0035172	hemocyte proliferation	PATO:0000161	rate
 OBA:0003895		CL:0000071	blood vessel endothelial cell	PATO:0001509	functionality
-OBA:0003896		UBERON:0002083	ductus venosus	PATO:0000136	closure
+OBA:0003896	ductus venosus closure trait	UBERON:0002083	ductus venosus	PATO:0000136	closure
 OBA:0003897		GO:0014827	intestine smooth muscle contraction	PATO:0000161	rate
 OBA:0003899		GO:0005694	chromosome	PATO:0000070	amount
 OBA:0003900		CL:0000000	cell	PATO:0001374	ploidy
@@ -5478,7 +5472,6 @@ OBA:0005183		UBERON:0006007	pre-Botzinger complex	PATO:0001509	functionality
 OBA:0005184		UBERON:0005176	tooth enamel organ	PATO:0000051	morphology
 OBA:0005185		CL:0000037	hematopoietic stem cell	PATO:0001509	functionality
 OBA:0005186		GO:0071621	granulocyte chemotaxis	PATO:0000057	occurrence
-OBA:0005187		PATO:0000050	life span	PATO:0000069	deviation(from_normal)
 OBA:0005188		UBERON:0001463	manual digit 1	PATO:0000051	morphology
 OBA:0005189		UBERON:0010420	lymph node follicular corona	PATO:0000051	morphology
 OBA:0005190		UBERON:0001427	radiale	PATO:0000051	morphology
@@ -5805,7 +5798,6 @@ OBA:0005511		UBERON:0002081	cardiac atrium	PATO:0000141	structure
 OBA:0005512		UBERON:0001072	posterior vena cava	PATO:0000070	amount
 OBA:0005513		UBERON:0012300	limb paddle	PATO:0000051	morphology
 OBA:0005514		CL:1000428	stem cell of epidermis	PATO:0000070	amount
-OBA:0005515		CL:1001566	bronchioalveolar stem cells	PATO:0000070	amount
 OBA:0005516		UBERON:0000965	lens of camera-type eye	PATO:0000141	structure
 OBA:0005517		UBERON:0001348	brown adipose tissue	PATO:0001509	functionality
 OBA:0005518		GO:0001550	ovarian cumulus expansion	PATO:0000161	rate
@@ -7042,7 +7034,7 @@ OBA:1000855		GO:0060117	auditory receptor cell development	PATO:0000001	quality
 OBA:1000856		NBO:0000557	short term spatial memory	PATO:0000001	quality
 OBA:1000857		GO:0051699	proline oxidase activity	PATO:0000001	quality
 OBA:1000858		NBO:0000556	spatial memory	PATO:0000001	quality
-OBA:1000859		PATO:0000276	brood size	PATO:0000001	quality
+OBA:1000859	brood size trait	GO:0060378	regulation of brood size	PATO:0000276	brood size
 OBA:1000860		GO:0033316	meiotic spindle assembly checkpoint	PATO:0000001	quality
 OBA:1000861		NBO:0000223	contextual conditioning behavior	PATO:0000001	quality
 OBA:1000862		NBO:0000551	visual object recognition	PATO:0000001	quality
@@ -7156,7 +7148,6 @@ OBA:1000971		CHEBI:18085	glycosaminoglycan	PATO:0000070	amount
 OBA:1000973		CHEBI:15889	sterol	PATO:0000070	amount
 OBA:1000974		CHEBI:36526	acidic glycosphingolipid	PATO:0000070	amount
 OBA:1000975		CHEBI:29073	L-ascorbic acid	PATO:0000070	amount
-OBA:1000976		CHEBI:24020	fat-soluble vitamin	PATO:0000070	amount
 OBA:1000977		CHEBI:28790	serotonin	PATO:0000070	amount
 OBA:1000978		PR:000000046	TGF-beta	PATO:0000070	amount
 OBA:1000979		CL:0000681	radial glial cell	PATO:0000070	amount
@@ -7214,7 +7205,7 @@ OBA:1001061		UBERON:0000926	mesoderm	PATO:0000051	morphology
 OBA:1001062		UBERON:0014849	hemotrichorial placental membrane	PATO:0000051	morphology
 OBA:1001063		GO:0031091	platelet alpha granule	PATO:0000051	morphology
 OBA:1001064		UBERON:0005728	extraembryonic mesoderm	PATO:0000051	morphology
-OBA:1001065		CL:0000000	cell	PATO:0000051	morphology
+OBA:1001065	cell morphology trait	CL:0000000	cell	PATO:0000051	morphology
 OBA:1001066		CL:0002060	melanophage	PATO:0000051	morphology
 OBA:1001067		UBERON:0011967	costotransverse joint	PATO:0000051	morphology
 OBA:1001069		GO:0032280	symmetric synapse	PATO:0000051	morphology
@@ -7234,7 +7225,6 @@ OBA:1001082		UBERON:0002292	costovertebral joint	PATO:0000051	morphology
 OBA:1001083		UBERON:0003709	circle of Willis	PATO:0000051	morphology
 OBA:1001084		UBERON:0001988	feces	PATO:0002027	osmolality
 OBA:1001085	waist circumference	UBERON:0002417	abdominal section of trunk	PATO:0001648	circumference
-OBA:1001086	QRS duration	EFO:0005054	QRS complex	PATO:0001309	duration
 OBA:1001087	heart rate	GO:0060047	heart contraction	PATO:0000161	rate
 OBA:1001089	multicellular organism sex	UBERON:0000468	multicellular organism	PATO:0000047	sex
 OBA:1001090	feather color	UBERON:0000022	feather	PATO:0000014	color
@@ -7245,6 +7235,8 @@ OBA:2040145	cell length	CL:0000003	native cell	PATO:0000122	length
 OBA:2040146	cell width	CL:0000003	native cell	PATO:0000921	width
 OBA:2040151	shelled egg length	UBERON:0007379	shelled egg	PATO:0000122	length
 OBA:2040152	shelled egg width	UBERON:0007379	shelled egg	PATO:0000921	width
+OBA:2030001		UBERON:0012111	diastema	PATO:0000051	morphology
+OBA:2030002 		UBERON:0012111	diastema	PATO:0000117	size
 OBA:VT0010119		UBERON:0001134	skeletal muscle tissue	PATO:0000025	composition
 OBA:VT0010917		CHEBI:3098	bile acid	PATO:0000070	amount
 OBA:VT0007075	heart left ventricle wall thickness	UBERON:0036285	wall of left ventricle	PATO:0000915	thickness
@@ -7255,3 +7247,55 @@ OBA:VT0010463	coat/hair pigmentation	UBERON:0010166	coat of hair	PATO:0002247	de
 OBA:2050001	ascending aorta diameter	UBERON:0001496	ascending aorta	PATO:0001334	diameter
 OBA:2050002	descending aorta diameter	UBERON:0001514	descending aorta	PATO:0001334	diameter
 OBA:2050003	aorta diameter	UBERON:0000947	aorta	PATO:0001334	diameter
+OBA:2020001	life cycle stage trait	UBERON:0000105	life cycle stage	PATO:0000001	quality
+OBA:2020002	plant structure trait	PO:0009011	plant structure	PATO:0000001	quality
+OBA:2050004	precuneus cortex volume 	UBERON:0006093	precuneus cortex	PATO:0000918	volume
+OBA:2050005	parasubiculum volume	UBERON:0004683	parasubiculum	PATO:0000918	volume
+OBA:2050006	pancreas volume	UBERON:0001264	pancreas	PATO:0000918	volume
+OBA:2050007	superior parietal cortex volume 	UBERON:0006094	superior parietal cortex	PATO:0000918	volume
+OBA:2050008	paracentral lobule volume 	UBERON:0035933	paracentral lobule	PATO:0000918	volume
+OBA:2050009	brain volume 	UBERON:0000955	brain	PATO:0000918	volume
+OBA:2050010	third ventricle volume 	UBERON:0002286	third ventricle	PATO:0000918	volume
+OBA:2050011	frontal pole volume 	UBERON:0002795	frontal pole	PATO:0000918	volume
+OBA:2050012	temporal lobe volume 	UBERON:0001871	temporal lobe	PATO:0000918	volume
+OBA:2050013	pars triangularis volume 	UBERON:0002629	pars triangularis	PATO:0000918	volume
+OBA:2050014	parietal lobe volume 	UBERON:0001872	parietal lobe	PATO:0000918	volume
+OBA:2050015	kidney volume	UBERON:0002113	kidney	PATO:0000918	volume
+OBA:2050016	putamen volume	UBERON:0001874	putamen	PATO:0000918	volume
+OBA:2050017	rostral anterior cingulate cortex volume 	UBERON:0022438	rostral anterior cingulate cortex	PATO:0000918	volume
+OBA:2050018	limbic lobe volume 	UBERON:0002600	limbic lobe	PATO:0000918	volume
+OBA:2050019	superior temporal gyrus volume 	UBERON:0002769	superior temporal gyrus	PATO:0000918	volume
+OBA:2050020	nucleus accumbens volume	UBERON:0001882	nucleus accumbens	PATO:0000918	volume
+OBA:2050021	brain stem volume 	UBERON:0002298	brain stem	PATO:0000918	volume
+OBA:2050022	parahippocampal gyrus volume 	UBERON:0002973	parahippocampal gyrus	PATO:0000918	volume
+OBA:2050023	pericalcarine cortex volume 	UBERON:0022534	pericalcarine cortex	PATO:0000918	volume
+OBA:2050024	subiculum volume	UBERON:0002191	subiculum	PATO:0000918	volume
+OBA:2050025	cingulate cortex volume 	UBERON:0003027	cingulate cortex	PATO:0000918	volume
+OBA:2050026	rostral middle frontal gyrus volume 	UBERON:0006446	rostral middle frontal gyrus	PATO:0000918	volume
+OBA:2050027	pallidum volume	UBERON:0006514	pallidum	PATO:0000918	volume
+OBA:2050028	cuneus cortex volume 	UBERON:0006092	cuneus cortex	PATO:0000918	volume
+OBA:2050029	lingual gyrus volume 	UBERON:0002943	lingual gyrus	PATO:0000918	volume
+OBA:2050030	supramarginal gyrus volume 	UBERON:0002688	supramarginal gyrus	PATO:0000918	volume
+OBA:2050031	pars opercularis volume 	UBERON:0002980	pars opercularis	PATO:0000918	volume
+OBA:2050032	postcentral gyrus volume 	UBERON:0002581	postcentral gyrus	PATO:0000918	volume
+OBA:2050033	liver volume	UBERON:0002107	liver	PATO:0000918	volume
+OBA:2050034	amygdala volume	UBERON:0001876	amygdala	PATO:0000918	volume
+OBA:2050035	superior frontal gyrus volume 	UBERON:0002661	superior frontal gyrus	PATO:0000918	volume
+OBA:2050036	entorhinal cortex volume 	UBERON:0002728	entorhinal cortex	PATO:0000918	volume
+OBA:2050037	medial orbital frontal cortex volume 	UBERON:0022352	medial orbital frontal cortex	PATO:0000918	volume
+OBA:2050038	posterior cingulate cortex volume 	UBERON:0022353	posterior cingulate cortex	PATO:0000918	volume
+OBA:2050039	frontal lobe volume 	UBERON:0016525	frontal lobe	PATO:0000918	volume
+OBA:2050040	inferior parietal cortex volume 	UBERON:0006088	inferior parietal cortex	PATO:0000918	volume
+OBA:2050041	cerebellar cortex volume 	UBERON:0002129	cerebellar cortex	PATO:0000918	volume
+OBA:2050042	precentral gyrus volume 	UBERON:0002703	precentral gyrus	PATO:0000918	volume
+OBA:2050043	hippocampal fissure volume	UBERON:0002899	hippocampal fissure	PATO:0000918	volume
+OBA:2050044	middle temporal gyrus volume 	UBERON:0002771	middle temporal gyrus	PATO:0000918	volume
+OBA:2050045	insular cortex volume 	UBERON:0034891	insular cortex	PATO:0000918	volume
+OBA:2050046	temporal pole volume 	UBERON:0002576	temporal pole	PATO:0000918	volume
+OBA:2050047	fourth ventricle volume 	UBERON:0002422	fourth ventricle	PATO:0000918	volume
+OBA:2050048	inferior temporal gyrus volume 	UBERON:0002751	inferior temporal gyrus	PATO:0000918	volume
+OBA:2050049	presubiculum volume	UBERON:0001953	presubiculum	PATO:0000918	volume
+OBA:2050050	hippocampus molecular layer volume	UBERON:0005368	hippocampus molecular layer	PATO:0000918	volume
+OBA:2050051	cerebral cortex volume 	UBERON:0000956	cerebral cortex	PATO:0000918	volume
+OBA:2050052	occipital lobe volume 	UBERON:0002021	occipital lobe	PATO:0000918	volume
+OBA:2050053	lentiform nucleus volume	UBERON:0002263	lentiform nucleus	PATO:0000918	volume
