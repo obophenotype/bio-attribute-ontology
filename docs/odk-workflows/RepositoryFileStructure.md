@@ -17,7 +17,7 @@ These are the current imports in OBA
 | Import | URL | Type |
 | ------ | --- | ---- |
 | ro | http://purl.obolibrary.org/obo/ro.owl | None |
-| chebi | http://purl.obolibrary.org/obo/chebi.owl | None |
+| chebi | https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl | None |
 | go | http://purl.obolibrary.org/obo/go.owl | None |
 | pato | http://purl.obolibrary.org/obo/pato.owl | None |
 | omo | http://purl.obolibrary.org/obo/omo.owl | None |
@@ -43,4 +43,3 @@ These are the components in OBA
 | -------- | --- |
 | obsoletes.owl | None |
 | synonyms.owl | None |
-| measured_in.owl | None |
