@@ -618,14 +618,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBA_VT0003308 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0003308">
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBA_VT0004271 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004271">
