@@ -2,10 +2,9 @@ pattern_name: entity_attribute
 
 pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/entity_attribute.yaml
 
-description: '
-
-  Basic pattern for traits that captures a quality, such as size or rate which is a 
-  characteristic of an entity, such as an anatomical entity or a biological process.'
+description: >
+    Basic pattern for traits that captures a quality, such as size or rate which is a
+    characteristic of an entity, such as an anatomical entity or a biological process.'
 
 classes:
   quality: PATO:0000001
@@ -21,9 +20,13 @@ annotationProperties:
   related_synonym: oio:hasRelatedSynonym
   xref: oio:hasDbXref
 
-vars: 
+vars:
   attribute: "'quality'"
   entity: "'thing'"
+
+data_list_vars:
+  exact_synonyms: xsd:string
+  xrefs: xsd:string
 
 name:
   text: "%s %s"
@@ -31,7 +34,7 @@ name:
     - entity
     - attribute
 
-annotations: 
+annotations:
   - annotationProperty: exact_synonym
     text: "%s of %s"
     vars:
@@ -41,7 +44,7 @@ annotations:
       - annotationProperty: xref
         text: "AUTO:patterns/patterns/entity_attribute"
 
-def: 
+def:
   text: "The %s of a %s."
   vars:
     - attribute
@@ -50,7 +53,13 @@ def:
     - annotationProperty: xref
       text: "AUTO:patterns/patterns/entity_attribute"
 
-equivalentTo: 
+exact_synonym:
+  value: exact_synonyms
+
+xref:
+  value: xrefs
+
+equivalentTo:
   text: "%s and 'characteristic_of' some %s"
   vars:
     - attribute
@@ -60,10 +69,9 @@ equivalentTo:
 # https://github.com/obophenotype/bio-attribute-ontology/issues/8
 logical_axioms:
   - axiom_type: GCI
-    text: "%s and ('characteristic_of' some ('part_of' some %s)) SubClassOf 'part_of' some (%s and 'characteristic_of' some %s)" 
+    text: "%s and ('characteristic_of' some ('part_of' some %s)) SubClassOf 'part_of' some (%s and 'characteristic_of' some %s)"
     vars:
       - attribute
       - entity
       - attribute
       - entity
-

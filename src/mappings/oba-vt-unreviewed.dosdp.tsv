@@ -1397,8 +1397,8 @@ VT:0010243	oboInOwl:hasExactSynonym	reticulorumen epithelium thickness	Lexical	P
 VT:0010243	oboInOwl:hasExactSynonym	reticulorumen epithelium thickness	Lexical	PATO:0000915	thickness	UBERON:0000483	epithelium
 VT:0002913	oboInOwl:hasExactSynonym	peripheral nervous system synaptic transmission	Lexical	PATO:0002107	peripheral	UBERON:0001016	nervous system
 VT:0010207	oboInOwl:hasExactSynonym	muscle thickness of the duodenum	Lexical	PATO:0000915	thickness	UBERON:0002114	duodenum
-VT:0002443	oboInOwl:hasExactSynonym	eosinophilic leucocyte differentiation	Lexical	PATO:0002419	eosinophilic	CL:0000738	leucocyte
-VT:0002443	oboInOwl:hasExactSynonym	eosinophilic leukocyte differentiation	Lexical	PATO:0002419	eosinophilic	CL:0000738	leukocyte
+VT:0002443	oboInOwl:hasExactSynonym	eosinophilic leucocyte differentiation	Lexical	PATO:0002418	eosinophilic	CL:0000738	leucocyte
+VT:0002443	oboInOwl:hasExactSynonym	eosinophilic leukocyte differentiation	Lexical	PATO:0002418	eosinophilic	CL:0000738	leukocyte
 VT:0008760	oboInOwl:hasExactSynonym	immunoglobulin heavy chain v-d-j joining	Lexical	PATO:0000582	heavy	GO:0033151	V-D-J joining
 VT:0008760	oboInOwl:hasExactSynonym	immunoglobulin heavy chain v(d)j joining	Lexical	PATO:0000582	heavy	GO:0033151	V(D)J joining
 VT:0008760	oboInOwl:hasExactSynonym	immunoglobulin heavy chain v-d-j recombination	Lexical	PATO:0000582	heavy	GO:0033151	V-D-J recombination
@@ -1464,7 +1464,7 @@ VT:0006027	oboInOwl:hasExactSynonym	respiratory alveologenesis quality	Lexical	P
 VT:0010261	oboInOwl:hasExactSynonym	milk fat content	Lexical	PATO:0000025	content	UBERON:0001913	milk
 VT:0010371	oboInOwl:hasExactSynonym	milk oleic acid concentration	Lexical	PATO:0000033	concentration	UBERON:0001913	milk
 VT:0003096	oboInOwl:hasExactSynonym	cornea light scattering quality	Lexical	PATO:0000665	light	UBERON:0000964	cornea
-VT:0005460	oboInOwl:hasExactSynonym	immune cell development quality	Lexical	PATO:0000001	quality	CL:0000738	immune cell
+VT:0005460	oboInOwl:hasExactSynonym	immune cell development quality	Lexical	PATO:0000001	quality	CL:0000000	cell
 VT:0005460	oboInOwl:hasExactSynonym	immune cell development quality	Lexical	PATO:0000001	quality	GO:0048468	cell development
 VT:0009333	oboInOwl:hasExactSynonym	spleen cell physiology quality	Lexical	PATO:0000001	quality	UBERON:0002106	spleen
 VT:0009333	oboInOwl:hasExactSynonym	spleen cell physiology quality	Lexical	PATO:0000001	quality	CL:0000000	cell

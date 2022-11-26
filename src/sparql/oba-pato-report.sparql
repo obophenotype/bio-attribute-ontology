@@ -1,0 +1,14 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX has_part: <http://purl.obolibrary.org/obo/BFO_0000051>
+SELECT DISTINCT ?attribute ?attribute_label (count(distinct ?oba) as ?count)
+WHERE {
+  ?oba rdfs:subClassOf* obo:OBA_0000001 .
+  ?oba rdfs:label ?oba_label .
+  ?oba rdfs:subClassOf ?attribute .
+  ?attribute rdfs:subClassOf* obo:PATO_0000001 .
+  ?attribute rdfs:label ?attribute_label .
+  FILTER(STRSTARTS(STR(?oba),"http://purl.obolibrary.org/obo/OBA_"))
+  FILTER(STRSTARTS(STR(?attribute),"http://purl.obolibrary.org/obo/PATO_"))
+} GROUP BY ?attribute ?attribute_label
