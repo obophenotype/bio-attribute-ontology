@@ -54,7 +54,28 @@ modules/has_part.csv:  $(patsubst %, ../patterns/data/default/%.tsv, $(MODS))
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
-imports/hp_import.owl: $(TEMPLATEDIR)/external.owl
+#########################################
+### Generating all ROBOT templates ######
+#########################################
+
+TEMPLATESDIR=../templates
+
+TEMPLATES=$(patsubst %.tsv, $(TEMPLATESDIR)/%.owl, $(notdir $(wildcard $(TEMPLATESDIR)/*.tsv)))
+
+$(TEMPLATESDIR)/%.owl: $(TEMPLATESDIR)/%.tsv $(SRC)
+	$(ROBOT) merge -i $(SRC) template --template $< --output $@ && \
+	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/components/$*.owl -o $@
+
+$(COMPONENTSDIR)/obsoletes.owl: $(TEMPLATESDIR)/replaced.owl
+	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
+
+$(COMPONENTSDIR)/synonyms.owl: $(TEMPLATESDIR)/synonyms.owl
+	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
+
+$(COMPONENTSDIR)/measured_in.owl: $(TEMPLATESDIR)/measured_in.owl
+	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
+
+imports/hp_import.owl: $(TEMPLATESDIR)/external.owl
 	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
 
 $(IMPORTDIR)/mondo_import.owl: $(MIRRORDIR)/mondo.owl $(IMPORTDIR)/mondo_terms_combined.txt
@@ -139,14 +160,28 @@ $(REPORTDIR)/%.tsv: ../sparql/synonyms-exact.sparql $(TMPDIR)/%.owl
 prepare_oba_alignment: $(REPORTDIR)/uberon.tsv $(REPORTDIR)/efo.tsv $(REPORTDIR)/pato.tsv $(REPORTDIR)/oba.tsv $(REPORTDIR)/vt.tsv $(REPORTDIR)/cl.tsv $(REPORTDIR)/go.tsv $(REPORTDIR)/chebi.tsv
 	echo "OK cool all tables prepared."
 
-CHECK_SPARQL=oba.owl
+ONTOLOGIES=vt oba
+ONTOLOGIES_DIR=data/ontologies
+OWL_FILES=$(foreach o,$(ONTOLOGIES), $(ONTOLOGIES_DIR)/$(o).owl)
 
-check_children_oba: $(CHECK_SPARQL)
-	$(ROBOT) verify -i $< --queries ../sparql/biological-attribute-child-violation.sparql -O $(REPORTDIR)
+DB_FILES=$(foreach o,$(ONTOLOGIES), $(ONTOLOGIES_DIR)/$(o).db)
+OWL_SOURCES=$(patsubst $(ONTOLOGIES_DIR)/%.owl, http://purl.obolibrary.org/obo/%.owl,$@)
 
-test: check_children_oba
+$(OWL_FILES):
+	@[ -d $(ONTOLOGIES_DIR) ] || mkdir -p $(ONTOLOGIES_DIR)
+	@wget $(OWL_SOURCES) -P $(ONTOLOGIES_DIR)
 
-oba_reports: $(CHECK_SPARQL)
-	sh run.sh robot query -i $< \
-		--query ../sparql/oba-pato-report.sparql reports/oba-pato.csv \
-		--query ../sparql/oba-grouping-report.sparql reports/oba-grouping.csv
+
+$(DB_FILES): $(OWL_FILES)
+	@semsql make $@
+
+
+.PHONY: download db
+
+download: $(OWL_FILES)
+db: $(DB_FILES)
+
+
+build: download db
+
+.DEFAULT_GOAL = build
