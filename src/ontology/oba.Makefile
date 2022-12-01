@@ -160,11 +160,15 @@ $(REPORTDIR)/%.tsv: ../sparql/synonyms-exact.sparql $(TMPDIR)/%.owl
 prepare_oba_alignment: $(REPORTDIR)/uberon.tsv $(REPORTDIR)/efo.tsv $(REPORTDIR)/pato.tsv $(REPORTDIR)/oba.tsv $(REPORTDIR)/vt.tsv $(REPORTDIR)/cl.tsv $(REPORTDIR)/go.tsv $(REPORTDIR)/chebi.tsv
 	echo "OK cool all tables prepared."
 
-ONTOLOGIES=vt oba
 ONTOLOGIES_DIR=data/ontologies
-OWL_FILES=$(foreach o,$(ONTOLOGIES), $(ONTOLOGIES_DIR)/$(o).owl)
+O1=vt
+O2=oba
+OWL_FILES=$(foreach o,$(O1) $(O2), $(ONTOLOGIES_DIR)/$(o).owl)
+#Now the ontology diff comparison have two parameters O1 (first ontology) O2 (second ontology)
 
-DB_FILES=$(foreach o,$(ONTOLOGIES), $(ONTOLOGIES_DIR)/$(o).db)
+
+DB_FILES=$(foreach o,$(O1) $(O2), $(ONTOLOGIES_DIR)/$(o).db)
+DIFF_FILES=$(ONTOLOGIES_DIR)/$(O1)_$(O2).json $(ONTOLOGIES_DIR)/$(O2)_$(O1).json
 OWL_SOURCES=$(patsubst $(ONTOLOGIES_DIR)/%.owl, http://purl.obolibrary.org/obo/%.owl,$@)
 
 $(OWL_FILES):
@@ -175,13 +179,18 @@ $(OWL_FILES):
 $(DB_FILES): $(OWL_FILES)
 	@semsql make $@
 
+#I was comparing the diff in two-ways to check if is there any difference.
+$(DIFF_FILES): $(DB_FILES)
+	@[ -f $(ONTOLOGIES_DIR)/$(O1)_$(O2).json ] || runoak -i $(ONTOLOGIES_DIR)/$(O1).db diff -X $(ONTOLOGIES_DIR)/$(O2).db -o $@ -O json
+	@[ -f $(ONTOLOGIES_DIR)/$(O2)_$(O1).json ] || runoak -i $(ONTOLOGIES_DIR)/$(O2).db diff -X $(ONTOLOGIES_DIR)/$(O1).db -o $@ -O json
+
+
 
 .PHONY: download db
 
 download: $(OWL_FILES)
 db: $(DB_FILES)
+diff: $(DIFF_FILES)
 
 
-build: download db
-
-.DEFAULT_GOAL = build
+build: download db diff
