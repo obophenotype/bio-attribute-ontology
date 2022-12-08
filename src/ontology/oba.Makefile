@@ -174,7 +174,7 @@ $(TMPDIR)/merge-oba-vt.owl: $(TMPDIR)/oba.owl $(TMPDIR)/vt.owl
 
 
 $(REPORTDIR)/oba-vt-diff-simple.yaml: $(TMPDIR)/simple-oba.owl $(TMPDIR)/simple-vt.owl
-	@echo runoak --input sqlite:$< diff-via-mappings -X sqlite:$(TMPDIR)/simple-vt.owl --mapping-input ../mappings/oba-vt.sssom.tsv -o $@
+	runoak --input sqlite:$< diff-via-mappings -X sqlite:$(TMPDIR)/simple-vt.owl --mapping-input ../mappings/oba-vt.sssom.tsv -o $@
 
 
 	
