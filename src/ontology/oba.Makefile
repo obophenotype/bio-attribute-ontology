@@ -162,22 +162,22 @@ prepare_oba_alignment: $(REPORTDIR)/uberon.tsv $(REPORTDIR)/efo.tsv $(REPORTDIR)
 
 #This is the OBA-VT DIFF Pipeline
 
-$(TMPDIR)/mirror-%.owl:
+$(TMPDIR)/%.owl:
 	wget $(OBOBASE)/$*.owl -O $@
 
+$(TMPDIR)/simple-%.owl: $(TMPDIR)/%.owl data/vtoba_terms.txt 
+	$(ROBOT) merge -i $< \
+	filter -T data/vtoba_terms.txt  --select 'self annotations' --signature true -o $@
 
-$(TMPDIR)/lexmatch-%.sssom.tsv: $(TMPDIR)/%.db
-	runoak -i $< lexmatch -o $@
+$(TMPDIR)/merge-oba-vt.owl: $(TMPDIR)/oba.owl $(TMPDIR)/vt.owl
+	$(ROBOT) merge -i $< -i $(TMPDIR)/vt.owl -o $@
 
-$(TMPDIR)/merge-oba-vt.owl: $(TMPDIR)/mirror-oba.owl $(TMPDIR)/mirror-vt.owl
-	$(ROBOT) merge -i $< -i $(TMPDIR)/mirror-vt.owl -o $@
 
-$(TMPDIR)/merge-oba-vt.db: $(TMPDIR)/merge-oba-vt.owl 
-	semsql make $@
+$(REPORTDIR)/oba-vt-diff-simple.yaml: $(TMPDIR)/simple-oba.owl $(TMPDIR)/simple-vt.owl
+	@echo runoak --input sqlite:$< diff-via-mappings -X sqlite:$(TMPDIR)/simple-vt.owl --mapping-input ../mappings/oba-vt.sssom.tsv -o $@
 
-$(REPORTDIR)/oba-vt-diff.yaml: $(TMPDIR)/merge-oba-vt.db
-	runoak --stacktrace diff-via-mappings --mapping-input ../mappings/oba-vt.sssom.tsv -X $< -o $@
+
 	
 .PHONY: oak-diff
 
-oak-diff: $(REPORTDIR)/oba-vt-diff.yaml
+oak-diff: $(REPORTDIR)/oba-vt-diff-simple.yaml
