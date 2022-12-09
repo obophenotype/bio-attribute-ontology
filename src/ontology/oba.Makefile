@@ -167,7 +167,7 @@ $(TMPDIR)/%.owl:
 
 $(TMPDIR)/simple-%.owl: $(TMPDIR)/%.owl data/vtoba_terms.txt 
 	$(ROBOT) merge -i $< \
-	filter -T data/vtoba_terms.txt  --select 'self annotations' --signature true -o $@
+	filter -T data/vtoba_terms.txt  --select 'self annotations children' --signature true -o $@
 
 $(TMPDIR)/merge-oba-vt.owl: $(TMPDIR)/oba.owl $(TMPDIR)/vt.owl
 	$(ROBOT) merge -i $< -i $(TMPDIR)/vt.owl -o $@
