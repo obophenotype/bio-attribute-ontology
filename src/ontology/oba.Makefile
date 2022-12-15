@@ -166,8 +166,8 @@ $(TMPDIR)/%.owl:
 	wget $(OBOBASE)/$*.owl -O $@
 
 $(TMPDIR)/simple-%.owl: $(TMPDIR)/%.owl data/vtoba_terms.txt 
-	$(ROBOT) merge -i $< \
-	filter -T data/vtoba_terms.txt  --select 'self annotations children' --signature true -o $@
+	$(ROBOT) merge -i $< remove --select "owl:deprecated='true'^^xsd:boolean" \
+	remove -T data/vtoba_terms.txt --select complement --preserve-structure false --trim true --signature true -o $@
 
 $(TMPDIR)/merge-oba-vt.owl: $(TMPDIR)/oba.owl $(TMPDIR)/vt.owl
 	$(ROBOT) merge -i $< -i $(TMPDIR)/vt.owl -o $@
