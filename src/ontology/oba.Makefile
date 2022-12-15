@@ -26,6 +26,19 @@ $(ONT)-full.owl: $(SRC) $(OTHER_SRC)
 		unmerge -i components/reasoner_axioms.owl \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
 
+.PRECIOUS: $(EDIT_PREPROCESSED)
+
+base: $(EDIT_PREPROCESSED)
+	$(ROBOT) merge --input $(EDIT_PREPROCESSED) \
+	reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
+	relax \
+	reduce -r ELK \
+	remove --base-iri $(URIBASE)/OBA --axioms external --preserve-structure true --trim false \
+	$(SHARED_ROBOT_COMMANDS) \
+	annotate --link-annotation http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 \
+		--ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		--output $@.owl
+
 # ----------------------------------------
 # VT
 # ----------------------------------------
@@ -141,7 +154,7 @@ $(REPORTDIR)/%.tsv: ../sparql/synonyms-exact.sparql $(TMPDIR)/%.owl
 prepare_oba_alignment: $(REPORTDIR)/uberon.tsv $(REPORTDIR)/efo.tsv $(REPORTDIR)/pato.tsv $(REPORTDIR)/oba.tsv $(REPORTDIR)/vt.tsv $(REPORTDIR)/cl.tsv $(REPORTDIR)/go.tsv $(REPORTDIR)/chebi.tsv
 	echo "OK cool all tables prepared."
 
-CHECK_SPARQL=oba.owl
+CHECK_SPARQL=$(TMPDIR)/oba.owl
 
 check_children_oba: $(CHECK_SPARQL)
 	$(ROBOT) verify -i $< --queries ../sparql/biological-attribute-child-violation.sparql -O $(REPORTDIR)
@@ -151,5 +164,35 @@ test: check_children_oba
 oba_reports: $(CHECK_SPARQL)
 	sh run.sh robot query -i $< \
 		--query ../sparql/oba-pato-report.sparql reports/oba-pato.csv \
-		--query ../sparql/oba-grouping-report.sparql reports/oba-grouping.csv		--query ../sparql/oba-grouping-report.sparql reports/oba-grouping.csv
+		--query ../sparql/oba-grouping-report.sparql reports/oba-grouping.csv
+
+
+tmp/oak.db: ../../oba.owl
+	cp ../../oba.owl tmp/oba.owl
+	semsql make tmp/oba.owl
+	#mv ../../oba.db $@
+
+curation/impc-matches.txt:
+	runoak annotate --text-file curation/impc-traits-2022-12-01.txt -o curation/impc-matches.txt ../../oba.owl
+
+oak-match: curation/impc-matches.txt
+
+
+tmp/mirror-%.owl:
+	wget $(OBOBASE)/$*.owl -O $@
+
+tmp/oba-merged-%.owl: ../../oba.owl tmp/mirror-%.owl
+	$(ROBOT) merge -i $< -i tmp/mirror-$*.owl -o $@
+
+../mappings/oba-%-phenotype.sssom.tsv:
+	sssom parse $< -I json -C sssom_default_only -F OBA:9000001
+
+$(TMPDIR)/mirror-%.owl:
+	wget $(OBOBASE)/$*.owl -O $@
+
+
+$(TMPDIR)/lexmatch-%.sssom.tsv: $(TMPDIR)/%.db
+	runoak -i $< lexmatch -o $@
+
+$(TMPDIR)/merge-oba-vt.owl: $(TMPDIR)/mirror-oba.owl $(TMPDIR)/mirror-vt.owl
 	$(ROBOT) merge -i $< -i $(TMPDIR)/mirror-vt.owl -o $@
