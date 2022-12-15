@@ -70,12 +70,14 @@ mirror-hp:
 test: pattern_schema_checks
 
 RELEASE_ASSETS_RELEASE_DIR=$(foreach n,$(RELEASE_ASSETS), ../../$(n))
+GHVERSION=v$(VERSION)
 
-deploy_release:
+.PHONY: public_release
+public_release:
 	@test $(GHVERSION)
 	ls -alt $(RELEASE_ASSETS_RELEASE_DIR)
-	gh auth login
-	gh release create $(GHVERSION) --notes "TBD." --title "$(GHVERSION)" --draft $(RELEASE_ASSETS_RELEASE_DIR)  --generate-notes
+	gh release create $(GHVERSION) --title "$(VERSION) Release" --draft $(RELEASE_ASSETS_RELEASE_DIR)  --generate-notes
+
 
 #### Mappings
 
@@ -149,4 +151,5 @@ test: check_children_oba
 oba_reports: $(CHECK_SPARQL)
 	sh run.sh robot query -i $< \
 		--query ../sparql/oba-pato-report.sparql reports/oba-pato.csv \
-		--query ../sparql/oba-grouping-report.sparql reports/oba-grouping.csv
+		--query ../sparql/oba-grouping-report.sparql reports/oba-grouping.csv		--query ../sparql/oba-grouping-report.sparql reports/oba-grouping.csv
+	$(ROBOT) merge -i $< -i $(TMPDIR)/mirror-vt.owl -o $@
