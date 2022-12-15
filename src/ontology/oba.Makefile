@@ -54,28 +54,7 @@ modules/has_part.csv:  $(patsubst %, ../patterns/data/default/%.tsv, $(MODS))
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
-#########################################
-### Generating all ROBOT templates ######
-#########################################
-
-TEMPLATESDIR=../templates
-
-TEMPLATES=$(patsubst %.tsv, $(TEMPLATESDIR)/%.owl, $(notdir $(wildcard $(TEMPLATESDIR)/*.tsv)))
-
-$(TEMPLATESDIR)/%.owl: $(TEMPLATESDIR)/%.tsv $(SRC)
-	$(ROBOT) merge -i $(SRC) template --template $< --output $@ && \
-	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/components/$*.owl -o $@
-
-$(COMPONENTSDIR)/obsoletes.owl: $(TEMPLATESDIR)/replaced.owl
-	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
-
-$(COMPONENTSDIR)/synonyms.owl: $(TEMPLATESDIR)/synonyms.owl
-	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
-
-$(COMPONENTSDIR)/measured_in.owl: $(TEMPLATESDIR)/measured_in.owl
-	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
-
-imports/hp_import.owl: $(TEMPLATESDIR)/external.owl
+imports/hp_import.owl: $(TEMPLATEDIR)/external.owl
 	$(ROBOT) merge -i $< annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) -o $@
 
 $(IMPORTDIR)/mondo_import.owl: $(MIRRORDIR)/mondo.owl $(IMPORTDIR)/mondo_terms_combined.txt
@@ -91,12 +70,14 @@ mirror-hp:
 test: pattern_schema_checks
 
 RELEASE_ASSETS_RELEASE_DIR=$(foreach n,$(RELEASE_ASSETS), ../../$(n))
+GHVERSION=v$(VERSION)
 
-deploy_release:
+.PHONY: public_release
+public_release:
 	@test $(GHVERSION)
 	ls -alt $(RELEASE_ASSETS_RELEASE_DIR)
-	gh auth login
-	gh release create $(GHVERSION) --notes "TBD." --title "$(GHVERSION)" --draft $(RELEASE_ASSETS_RELEASE_DIR)  --generate-notes
+	gh release create $(GHVERSION) --title "$(VERSION) Release" --draft $(RELEASE_ASSETS_RELEASE_DIR)  --generate-notes
+
 
 #### Mappings
 
@@ -160,24 +141,15 @@ $(REPORTDIR)/%.tsv: ../sparql/synonyms-exact.sparql $(TMPDIR)/%.owl
 prepare_oba_alignment: $(REPORTDIR)/uberon.tsv $(REPORTDIR)/efo.tsv $(REPORTDIR)/pato.tsv $(REPORTDIR)/oba.tsv $(REPORTDIR)/vt.tsv $(REPORTDIR)/cl.tsv $(REPORTDIR)/go.tsv $(REPORTDIR)/chebi.tsv
 	echo "OK cool all tables prepared."
 
-#This is the OBA-VT DIFF Pipeline
+CHECK_SPARQL=oba.owl
 
-$(TMPDIR)/%.owl:
-	wget $(OBOBASE)/$*.owl -O $@
+check_children_oba: $(CHECK_SPARQL)
+	$(ROBOT) verify -i $< --queries ../sparql/biological-attribute-child-violation.sparql -O $(REPORTDIR)
 
-$(TMPDIR)/simple-%.owl: $(TMPDIR)/%.owl data/vtoba_terms.txt 
-	$(ROBOT) merge -i $< \
-	filter -T data/vtoba_terms.txt  --select 'self annotations children' --signature true -o $@
+test: check_children_oba
 
-$(TMPDIR)/merge-oba-vt.owl: $(TMPDIR)/oba.owl $(TMPDIR)/vt.owl
-	$(ROBOT) merge -i $< -i $(TMPDIR)/vt.owl -o $@
-
-
-$(REPORTDIR)/oba-vt-diff-simple.yaml: $(TMPDIR)/simple-oba.owl $(TMPDIR)/simple-vt.owl
-	runoak --input sqlite:$< diff-via-mappings -X sqlite:$(TMPDIR)/simple-vt.owl --mapping-input ../mappings/oba-vt.sssom.tsv -o $@
-
-
-	
-.PHONY: oak-diff
-
-oak-diff: $(REPORTDIR)/oba-vt-diff-simple.yaml
+oba_reports: $(CHECK_SPARQL)
+	sh run.sh robot query -i $< \
+		--query ../sparql/oba-pato-report.sparql reports/oba-pato.csv \
+		--query ../sparql/oba-grouping-report.sparql reports/oba-grouping.csv		--query ../sparql/oba-grouping-report.sparql reports/oba-grouping.csv
+	$(ROBOT) merge -i $< -i $(TMPDIR)/mirror-vt.owl -o $@
