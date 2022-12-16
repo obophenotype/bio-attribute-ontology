@@ -203,46 +203,44 @@ OBA:VT0003457	blood ketone body amount	CHEBI:73693	ketone body	PATO:0000070	amou
 OBA:VT0010476	blood glutamate dehydrogenase amount	GO:1990148	glutamate dehydrogenase complex	PATO:0000070	amount	UBERON:0000178	blood
 OBA:VT0010540	urine creatinine amount	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0001088	urine
 OBA:VT0010714	milk zinc content	CHEBI:27363	zinc atom	PATO:0000070	amount	UBERON:0001913	milk
-OBA:2050054	blood chromium measurement	CHEBI:28073	chromium atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050055	serum iron measurement	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050056	serum homoarginine measurement	CHEBI:24606	homoarginine	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050057	serum galactose-deficient IgA1 measurement	PR:000050159	IgA1 immunoglobulin complex, circulating (human)	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050058	anti-helicobacter pylori serum IgG measurement	GO:0071736	IgG immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050059	serum selenium measurement	CHEBI:27568	selenium atom	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050060	serum dimethylarginine measurement	CHEBI:86468	dimethylarginine	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050061	blood manganese measurement	CHEBI:18291	manganese atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050062	serum alanine aminotransferase measurement	PR:000050219	alanine aminotransferase	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050063	blood aluminium measurement	CHEBI:28984	aluminium atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050064	blood nickel measurement	CHEBI:28112	nickel atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050065	serum urea measurement	CHEBI:16199	urea	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050066	blood molybdenum measurement	CHEBI:28685	molybdenum atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050067	blood cadmium measurement	CHEBI:22977	cadmium atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050068	serum albumin measurement	PR:000003918	albumin	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050069	serum lipase activity measurement	GO:0016298	lipase activity	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050070	serum IgM measurement	GO:0071754	IgM immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050071	serum non-albumin protein measurement	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050072	blood zinc measurement	CHEBI:27363	zinc atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050073	serum ceruloplasmin measurement	PR:000005794	ceruloplasmin	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050074	serum IgA measurement	GO:0071746	IgA immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050075	serum alpha-1-antitrypsin measurement	PR:000014678	alpha-1-antitrypsin	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050076	serum zinc measurement	CHEBI:27363	zinc atom	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050077	blood cobalt measurement	CHEBI:27638	cobalt atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050078	blood metabolite measurement	CHEBI:25212	metabolite	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050079	serum immunoglobulin measurement	GO:0019814	immunoglobulin complex	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050080	serum VEFGR2 concentration measurement	PR:000002112	vascular endothelial growth factor receptor 2	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050081	serum gamma-glutamyl transferase measurement	GO:1990234	transferase complex	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050082	serum ST2 measurement	PR:000008994	interleukin-1 receptor-like 1	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050083	serum amyloid A-1 protein measurement	PR:000030460	primate-type serum amyloid A-1 protein	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050084	serum IgE measurement quality	GO:0071743	IgE immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050085	serum IgG measurement quality	GO:0071736	IgG immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050086	serum clozapine measurement	CHEBI:3766	clozapine	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050087	blood lead measurement	CHEBI:25016	lead atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050088	blood mercury measurement	CHEBI:25195	mercury atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050089	serum hepcidin measurement	PR:000008438	hepcidin	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050090	serum amyloid P-component measurement	PR:000004126	serum amyloid P-component	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050091	blood toxic metal measurement	CHEBI:33521	metal atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050092	serum metabolite measurement	CHEBI:25212	metabolite	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050093	serum N-desmethylclozapine measurement	CHEBI:64050	N-desmethylclozapine	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050094	blood sodium bicarbonate measurement	CHEBI:32139	sodium hydrogencarbonate	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050095	urine potassium measurement	CHEBI:26216	potassium atom	PATO:0000070	amount	UBERON:0001088	urine
-OBA:2050096	serum creatinine measurement	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050054	blood chromium amount	CHEBI:28073	chromium atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2050055	serum iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050056	serum homoarginine amount	CHEBI:24606	homoarginine	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050057	serum galactose-deficient IgA1 amount	PR:000050159	IgA1 immunoglobulin complex, circulating (human)	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050059	serum selenium amount	CHEBI:27568	selenium atom	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050060	serum dimethylarginine amount	CHEBI:86468	dimethylarginine	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050061	blood manganese amount	CHEBI:18291	manganese atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2050062	serum alanine aminotransferase amount	PR:000050219	alanine aminotransferase	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050063	blood aluminium amount	CHEBI:28984	aluminium atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2050064	blood nickel amount	CHEBI:28112	nickel atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2050065	serum urea amount	CHEBI:16199	urea	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050066	blood molybdenum amount	CHEBI:28685	molybdenum atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2050067	blood cadmium amount	CHEBI:22977	cadmium atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2050068	serum albumin amount	PR:000003918	albumin	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050070	serum IgM amount	GO:0071754	IgM immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050071	serum non-albumin protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050072	blood zinc amount	CHEBI:27363	zinc atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2050073	serum ceruloplasmin amount	PR:000005794	ceruloplasmin	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050074	serum IgA amount	GO:0071746	IgA immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050075	serum alpha-1-antitrypsin amount	PR:000014678	alpha-1-antitrypsin	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050076	serum zinc amount	CHEBI:27363	zinc atom	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050077	blood cobalt amount	CHEBI:27638	cobalt atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2050079	serum immunoglobulin amount	GO:0019814	immunoglobulin complex	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050080	serum VEFGR2 concentration amount	PR:000002112	vascular endothelial growth factor receptor 2	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050081	serum gamma-glutamyl transferase amount	GO:1990234	transferase complex	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050082	serum ST2 amount	PR:000008994	interleukin-1 receptor-like 1	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050083	serum amyloid A-1 protein amount	PR:000030460	primate-type serum amyloid A-1 protein	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050084	serum IgE amount	GO:0071743	IgE immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050085	serum IgG amount	GO:0071736	IgG immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050086	serum clozapine amount	CHEBI:3766	clozapine	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050087	blood lead amount	CHEBI:25016	lead atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2050088	blood mercury amount	CHEBI:25195	mercury atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2050089	serum hepcidin amount	PR:000008438	hepcidin	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050090	serum amyloid P-component amount	PR:000004126	serum amyloid P-component	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050091	blood toxic metal amount	CHEBI:33521	metal atom	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2050093	serum N-desmethylclozapine amount	CHEBI:64050	N-desmethylclozapine	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2050094	blood sodium bicarbonate amount	CHEBI:32139	sodium hydrogencarbonate	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2050095	urine potassium amount	CHEBI:26216	potassium atom	PATO:0000070	amount	UBERON:0001088	urine
+OBA:2050096	serum creatinine amount	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2020003	chemical in blood amount	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2020004	chemical in serum amount	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0001977	serum
