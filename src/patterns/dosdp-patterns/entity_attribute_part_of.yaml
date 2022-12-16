@@ -1,11 +1,11 @@
-pattern_name: entity_attribute
+pattern_name: entity_attribute_part_of
 
 pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/entity_attribute.yaml
 
 description: '
 
-  Basic pattern for traits that captures a quality, such as size or rate which is a
-  characteristic of an entity, such as an anatomical entity or a biological process.'
+  Basic pattern for very general grouping traits. This should be used only in conjunction
+  with morphology and quality attributes.'
 
 classes:
   quality: PATO:0000001
@@ -39,7 +39,7 @@ annotations:
       - entity
     annotations:
       - annotationProperty: xref
-        text: "AUTO:patterns/patterns/entity_attribute"
+        text: "obo:oba/patterns/entity_attribute_part_of"
 
 def:
   text: "The %s of a %s."
@@ -48,21 +48,10 @@ def:
     - entity
   annotations:
     - annotationProperty: xref
-      text: "AUTO:patterns/patterns/entity_attribute"
+      text: "obo:oba/patterns/entity_attribute_part_of"
 
 equivalentTo:
   text: "%s and 'characteristic_of_part_of' some %s"
   vars:
     - attribute
     - entity
-
-# (Q and characteristic_of some part-of some W) SubClassOf part-of some (Q and characteristic_of-in some W)
-# https://github.com/obophenotype/bio-attribute-ontology/issues/8
-logical_axioms:
-  - axiom_type: GCI
-    text: "%s and ('characteristic_of' some ('part_of' some %s)) SubClassOf 'part_of' some (%s and 'characteristic_of' some %s)"
-    vars:
-      - attribute
-      - entity
-      - attribute
-      - entity
