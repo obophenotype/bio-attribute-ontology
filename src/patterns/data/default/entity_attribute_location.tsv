@@ -207,7 +207,6 @@ OBA:2050054	blood chromium amount	CHEBI:28073	chromium atom	PATO:0000070	amount	
 OBA:2050055	serum iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0001977	serum
 OBA:2050056	serum homoarginine amount	CHEBI:24606	homoarginine	PATO:0000070	amount	UBERON:0001977	serum
 OBA:2050057	serum galactose-deficient IgA1 amount	PR:000050159	IgA1 immunoglobulin complex, circulating (human)	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050058	anti-helicobacter pylori serum IgG amount	GO:0071736	IgG immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum
 OBA:2050059	serum selenium amount	CHEBI:27568	selenium atom	PATO:0000070	amount	UBERON:0001977	serum
 OBA:2050060	serum dimethylarginine amount	CHEBI:86468	dimethylarginine	PATO:0000070	amount	UBERON:0001977	serum
 OBA:2050061	blood manganese amount	CHEBI:18291	manganese atom	PATO:0000070	amount	UBERON:0000178	blood
@@ -243,3 +242,5 @@ OBA:2050093	serum N-desmethylclozapine amount	CHEBI:64050	N-desmethylclozapine	P
 OBA:2050094	blood sodium bicarbonate amount	CHEBI:32139	sodium hydrogencarbonate	PATO:0000070	amount	UBERON:0000178	blood
 OBA:2050095	urine potassium amount	CHEBI:26216	potassium atom	PATO:0000070	amount	UBERON:0001088	urine
 OBA:2050096	serum creatinine amount	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0001977	serum
+OBA:2020003	chemical in blood amount	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2020004	chemical in serum amount	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0001977	serum
