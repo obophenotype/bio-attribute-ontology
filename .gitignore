@@ -58,3 +58,5 @@ src/scripts/.ipynb_checkpoints/
 /oba.owl
 src/ontology/run.sh.env
 /oba-baseplus.*
+*.db
+*.gz
