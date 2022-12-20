@@ -56,10 +56,6 @@ if [ -n "$ODK_BINDS" ]; then
     VOLUME_BIND="$VOLUME_BIND,$ODK_BINDS"
 fi
 
-# Gather environment variables into a single file
-# (and make sure that file is deleted no matter what)
-trap "rm -f run.sh.env" EXIT
-trap "rm -f run.sh.env; trap - INT; kill -INT $$" INT
 cat <<EOF > run.sh.env
 ROBOT_JAVA_ARGS=$ODK_JAVA_OPTS
 JAVA_OPTS=$ODK_JAVA_OPTS
