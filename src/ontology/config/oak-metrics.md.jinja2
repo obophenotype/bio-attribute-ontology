@@ -1,0 +1,57 @@
+# Metrics {{ id }}
+
+**Ontologies:** 
+
+{}
+
+**Version IRI:** {{ metrics.ontology_version_iri|default(id) }}
+
+### Entities and axioms
+
+| Metric | Value |
+| ------ | ----- |
+| Annotation properties | {{ metrics.annotation_property_count|default("NA") }} |
+| Axioms | {{ metrics.axiom_count|default("NA") }} |
+| Logical axioms | {{ metrics.logical_axiom_count|default("NA") }} |
+| Classes | {{ metrics.class_count|default("NA") }} |
+| Object properties | {{ metrics.obj_property_count|default("NA") }} |
+| Data properties | {{ metrics.dataproperty_count|default("NA") }} |
+| Individuals | {{ metrics.individual_count|default("NA") }} |
+
+
+### Expressivity
+
+| Metric | Value |
+| ------ | ----- |
+| Expressivity | {{ metrics.expressivity|default("NA") }} |
+| OWL2 | {{ metrics.owl2|default("NA") }} |
+| OWL2 DL | {{ metrics.owl2_dl|default("NA") }} |
+| OWL2 EL | {{ metrics.owl2_el|default("NA") }} |
+| OWL2 QL | {{ metrics.owl2_ql|default("NA") }} |
+| OWL2 RL | {{ metrics.owl2_rl|default("NA") }} |
+
+#### Axiom types
+
+| Metric | Value |
+| ------ | ----- |
+{% for key, value in metrics.axiom_type_count_incl.items() %}| {{ key }} | {{ value }} |
+{% endfor %}
+
+#### Entity namespaces: axiom counts by namespace
+
+| Metric | Value |
+| ------ | ----- |
+{% for key, value in metrics.namespace_entity_count.items() %}| {{ key }} | {{ value }} |
+{% endfor %}
+
+#### Class expressions used
+
+| Metric | Value |
+| ------ | ----- |
+{% for key, value in metrics.class_expression_count.items() %}| {{ key }} | {{ value }} |
+{% endfor %}
+
+More information about the source can be found [in the documentation](../sources.md). The raw data (ontology metrics) can be found [on GitHub](https://github.com/obophenotype/bio-attribute-ontology/tree/main/src/ontology/reports/robot-metrics.json).
+
+You can make issues or ask questions about this source [here](https://github.com/monarch-initiative/mondo-ingest/issues).
+

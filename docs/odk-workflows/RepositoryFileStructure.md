@@ -22,7 +22,7 @@ These are the current imports in OBA
 | pato | http://purl.obolibrary.org/obo/pato.owl | None |
 | omo | http://purl.obolibrary.org/obo/omo.owl | None |
 | hp | http://purl.obolibrary.org/obo/hp.owl | custom |
-| mondo | http://purl.obolibrary.org/obo/mondo.owl | None |
+| mondo | http://purl.obolibrary.org/obo/mondo.owl | filter |
 | uberon | http://purl.obolibrary.org/obo/uberon/basic.owl | None |
 | cl | http://purl.obolibrary.org/obo/cl/cl-basic.owl | None |
 | nbo | http://purl.obolibrary.org/obo/nbo.owl | None |

@@ -15,6 +15,7 @@ release_artefacts:
   - base
   - full
   - basic
+  - baseplus
 primary_release: full
 import_group:
   products:
@@ -27,6 +28,8 @@ import_group:
     - id: hp
       module_type: custom
     - id: mondo
+      module_type: filter
+      make_base: TRUE
     - id: uberon
       mirror_from: http://purl.obolibrary.org/obo/uberon/basic.owl
     - id: cl
