@@ -74,7 +74,5 @@
 | ObjectIntersectionOf | 8686 |
 
 
-More information about the source can be found [in the documentation](../sources.md). The raw data (ontology metrics) can be found [on GitHub](https://github.com/obophenotype/bio-attribute-ontology/tree/main/src/ontology/reports/robot-metrics.json).
-
-You can make issues or ask questions about this source [here](https://github.com/monarch-initiative/mondo-ingest/issues).
+The raw data (ontology metrics) can be found [on GitHub](https://github.com/obophenotype/bio-attribute-ontology/tree/main/src/ontology/reports/robot-metrics.yml).
 
