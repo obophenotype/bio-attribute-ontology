@@ -44,6 +44,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000584>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000791>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000803>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000815>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000846>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000870>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000873>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001016>))
@@ -251,6 +252,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000803> 
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000815> "Reason for obsoletion: [This term was obsoleted because it does not represent a real process. While subarachnoid space is a valid anatomical structure, it is formed by the development of the structures that surround it.](https://www.ebi.ac.uk/QuickGO/term/GO:1903374)"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000815> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_1000846> (<http://purl.obolibrary.org/obo/OBA_1000846>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000846> "Reason for obsoletion: gas homeostasis (GO:0033483) considered an unnecessary grouping by GO curators."^^xsd:string)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000846> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000870> (<http://purl.obolibrary.org/obo/OBA_1000870>)
 

@@ -2492,7 +2492,7 @@ OBA:0003567		UBERON:0000127	facial nucleus	PATO:0000117	size
 OBA:0003568		UBERON:0003128	cranium	PATO:0000136	closure
 OBA:0003569		UBERON:0003054	roof plate	PATO:0000070	amount
 OBA:0003570		UBERON:0003079	floor plate	PATO:0000070	amount
-OBA:0003571		UBERON:0005070	anterior neuropore	PATO:0000136	closure
+OBA:0003571	anterior neuropore closure trait	UBERON:0005070	anterior neuropore	PATO:0000136	closure
 OBA:0003572		GO:0001843	neural tube closure	PATO:0000057	occurrence
 OBA:0003573		UBERON:0001049	neural tube	PATO:0000052	shape
 OBA:0003574		UBERON:0002328	notochord	PATO:0000070	amount
@@ -2627,7 +2627,6 @@ OBA:0003740		CL:0000644	Bergmann glial cell	PATO:0002181	displaced
 OBA:0003741		UBERON:0002075	viscus	PATO:0000060	spatial pattern
 OBA:0003742		UBERON:0000467	anatomical system	PATO:0000140	position
 OBA:0003743		CL:0000216	Sertoli cell	PATO:0000117	size
-OBA:0003744		GO:0033561	regulation of water loss via skin	PATO:0000161	rate
 OBA:0003745		GO:0003009	skeletal muscle contraction	PATO:0000161	rate
 OBA:0003747		GO:0003094	glomerular filtration	PATO:0000161	rate
 OBA:0003748		UBERON:0000395	cochlear ganglion	PATO:0002037	degeneration

@@ -92,7 +92,7 @@ $(TMPDIR)/oba.owl: $(SRC)
 	$(ROBOT) merge -i $< -o $@
 .PRECIOUS: $(TMPDIR)/oba.owl
 
-CHECK_SPARQL=$(TMPDIR)/oba.owl
+CHECK_SPARQL=oba.owl
 
 check_children_oba: $(CHECK_SPARQL)
 	$(ROBOT) verify -i $< --queries ../sparql/biological-attribute-child-violation.sparql -O $(REPORTDIR)
