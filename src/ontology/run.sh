@@ -56,23 +56,15 @@ if [ -n "$ODK_BINDS" ]; then
     VOLUME_BIND="$VOLUME_BIND,$ODK_BINDS"
 fi
 
-cat <<EOF > run.sh.env
-ROBOT_JAVA_ARGS=$ODK_JAVA_OPTS
-JAVA_OPTS=$ODK_JAVA_OPTS
-GH_TOKEN=$GH_TOKEN
-EOF
-
 if [ -n "$USE_SINGULARITY" ]; then
     
     singularity exec --cleanenv $ODK_SINGULARITY_OPTIONS \
-        --env-file run.sh.env \
         --bind $VOLUME_BIND \
         -W $WORK_DIR \
         docker://obolibrary/$ODK_IMAGE:$ODK_TAG $TIMECMD "$@"
 else
     BIND_OPTIONS="-v $(echo $VOLUME_BIND | sed 's/,/ -v /')"
-    docker run -u $(id -u):$(id -g) $ODK_DOCKER_OPTIONS $BIND_OPTIONS -w $WORK_DIR \
-        --env-file run.sh.env \
+    docker run $ODK_DOCKER_OPTIONS $BIND_OPTIONS -w $WORK_DIR \
          \
         --rm -ti obolibrary/$ODK_IMAGE:$ODK_TAG $TIMECMD "$@"
 fi

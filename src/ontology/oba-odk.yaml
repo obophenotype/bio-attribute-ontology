@@ -31,6 +31,8 @@ import_group:
     - <http://purl.obolibrary.org/obo/NCIT_*>
     - <http://purl.obolibrary.org/obo/OGMS_*>
     - <http://purl.obolibrary.org/obo/UPHENO_*>
+    - <http://purl.obolibrary.org/obo/OBI_*>
+    - <http://purl.obolibrary.org/obo/MPATH_*>
     - <http://www.geneontology.org/formats/*>
     - <http://purl.org/dc/*>
     - <http://swrl.stanford.edu/ontologies/*>
@@ -65,7 +67,7 @@ import_group:
     - id: ncbitaxon
       mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
     - id: uberon
-      use_base: True
+      make_base: True
     - id: cl
       use_base: True
     - id: nbo
@@ -79,8 +81,6 @@ import_group:
       make_base: TRUE
     - id: bfo
       make_base: TRUE
-#Not an offical component, so we should not merge it along with the rest
-use_custom_import_module: TRUE
 components:
   products:
     - filename: obsoletes.owl

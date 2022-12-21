@@ -1,17 +1,8 @@
 format-version: 1.2
 default-namespace: oba
 import: http://purl.obolibrary.org/obo/oba/components/obsoletes.owl
-import: http://purl.obolibrary.org/obo/oba/imports/chebi_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/cl_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/go_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/hp_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/mondo_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/nbo_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/pato_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/po_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/pr_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/so_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl
+import: http://purl.obolibrary.org/obo/oba/components/synonyms.owl
+import: http://purl.obolibrary.org/obo/oba/imports/merged_import.owl
 import: http://purl.obolibrary.org/obo/oba/patterns/definitions.owl
 ontology: oba
 property_value: http://purl.org/dc/elements/1.1/description "A collection of biological attributes (traits) covering all kingdoms of life. Interoperable with VT (vertebrate trait ontology) and TO (plant trait ontology). Extends PATO." xsd:string
