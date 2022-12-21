@@ -21,14 +21,16 @@ These are the current imports in OBA
 | go | http://purl.obolibrary.org/obo/go.owl | None |
 | pato | http://purl.obolibrary.org/obo/pato.owl | None |
 | omo | http://purl.obolibrary.org/obo/omo.owl | None |
-| hp | http://purl.obolibrary.org/obo/hp.owl | custom |
-| mondo | http://purl.obolibrary.org/obo/mondo.owl | filter |
-| uberon | http://purl.obolibrary.org/obo/uberon/basic.owl | None |
-| cl | http://purl.obolibrary.org/obo/cl/cl-basic.owl | None |
+| hp | http://purl.obolibrary.org/obo/hp.owl | None |
+| mondo | http://purl.obolibrary.org/obo/mondo.owl | None |
+| ncbitaxon | http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl | None |
+| uberon | http://purl.obolibrary.org/obo/uberon.owl | None |
+| cl | http://purl.obolibrary.org/obo/cl.owl | None |
 | nbo | http://purl.obolibrary.org/obo/nbo.owl | None |
 | pr | https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl | None |
 | so | http://purl.obolibrary.org/obo/so.owl | None |
 | po | http://purl.obolibrary.org/obo/po.owl | None |
+| bfo | http://purl.obolibrary.org/obo/bfo.owl | None |
 
 ## Components
 Components, in contrast to imports, are considered full members of the ontology. This means that any axiom in a component is also included in the ontology base - which means it is considered _native_ to the ontology. While this sounds complicated, consider this: conceptually, no component should be part of more than one ontology. If that seems to be the case, we are most likely talking about an import. Components are often not needed for ontologies, but there are some use cases:
