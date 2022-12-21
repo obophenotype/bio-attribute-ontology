@@ -17,6 +17,8 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/so_import.owl" uri="imports/so_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/components/definitions.owl" uri="../patterns/definitions.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/external_import.owl" uri="imports/external_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/merged_import.owl" uri="imports/merged_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/components/obsoletes.owl" uri="components/obsoletes.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/modules/entity_attribute_location.owl" uri="modules/entity_attribute_location.owl"/>
     <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
