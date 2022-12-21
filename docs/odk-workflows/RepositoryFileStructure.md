@@ -18,6 +18,7 @@ These are the current imports in OBA
 | ------ | --- | ---- |
 | ro | http://purl.obolibrary.org/obo/ro.owl | None |
 | chebi | https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl | None |
+| goplus | http://purl.obolibrary.org/obo/go/go-base.owl | None |
 | go | http://purl.obolibrary.org/obo/go.owl | None |
 | pato | http://purl.obolibrary.org/obo/pato.owl | None |
 | omo | http://purl.obolibrary.org/obo/omo.owl | None |
