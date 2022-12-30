@@ -1,23 +1,14 @@
 format-version: 1.2
 default-namespace: oba
 import: http://purl.obolibrary.org/obo/oba/components/obsoletes.owl
-import: http://purl.obolibrary.org/obo/oba/imports/chebi_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/cl_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/go_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/hp_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/mondo_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/nbo_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/pato_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/po_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/pr_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/so_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl
+import: http://purl.obolibrary.org/obo/oba/components/synonyms.owl
+import: http://purl.obolibrary.org/obo/oba/imports/merged_import.owl
 import: http://purl.obolibrary.org/obo/oba/patterns/definitions.owl
 ontology: oba
 property_value: http://purl.org/dc/elements/1.1/description "A collection of biological attributes (traits) covering all kingdoms of life. Interoperable with VT (vertebrate trait ontology) and TO (plant trait ontology). Extends PATO." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Ontology of Biological Attributes (OBA)" xsd:string
-property_value: http://purl.org/dc/terms/license http://creativecommons.org/publicdomain/zero/1.0/
-property_value: IAO:0000700 OBA:0000001
+property_value: http://purl.org/dc/terms/license "http://creativecommons.org/publicdomain/zero/1.0/"
+property_value: IAO:0000700 "OBA:0000001"
 
 [Term]
 id: OBA:0000001
@@ -367,6 +358,13 @@ is_a: OBA:0000001 ! biological attribute
 id: OBA:0002423
 name: cholesterol esterification rate
 comment: cholesterol esterification (GO_0034435) was obsoleted in GO without replacement
+is_a: OBA:0000001 ! biological attribute
+is_a: PATO:0000161 ! rate
+
+[Term]
+id: OBA:0003744
+name: regulation of water loss via skin rate
+comment: regulation of water loss via skin (GO_0033561) was obsoleted
 is_a: OBA:0000001 ! biological attribute
 is_a: PATO:0000161 ! rate
 
@@ -1301,10 +1299,24 @@ id: OBA:2020002 ! plant structure trait
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
+id: OBA:2020003 ! chemical in blood amount
+is_a: OBA:0000001 ! biological attribute
+
+[Term]
+id: OBA:2020004 ! chemical in serum amount
+is_a: OBA:0000001 ! biological attribute
+
+[Term]
 id: OBA:VT0000121
 name: cardiovascular system development trait
 comment: cardiovascular system development (GO_0072358) was obsoleted
 is_a: OBA:VT0100015 ! circulatory system development trait
+
+[Term]
+id: OBA:VT0002796
+name: skin barrier function attribute
+comment: regulation of water loss via skin (GO_0033561) was obsoleted
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:VT0003308
@@ -1328,6 +1340,6 @@ is_a: OBA:0000001 ! biological attribute
 is_a: PATO:0000070 ! amount
 
 [Typedef]
-id: http://purl.org/dc/elements/1.1/contributor ! contributor
+id: http://purl.org/dc/elements/1.1/contributor
 is_metadata_tag: true
 

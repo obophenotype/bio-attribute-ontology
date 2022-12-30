@@ -1,632 +1,417 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/oba/components/obsoletes.owl#"
-     xml:base="http://purl.obolibrary.org/obo/oba/components/obsoletes.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/oba/components/obsoletes.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/oba/releases/2022-11-26/components/obsoletes.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-11-26</owl:versionInfo>
-    </owl:Ontology>
-    
+Prefix(:=<http://purl.obolibrary.org/obo/oba/components/obsoletes.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/oba/components/obsoletes.owl>
+<http://purl.obolibrary.org/obo/oba/releases/2022-12-21/components/obsoletes.owl>
+Annotation(owl:versionInfo "2022-12-21"^^xsd:string)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000074>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000121>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0002145>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003746>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003813>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003898>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003943>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004074>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004079>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004086>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004087>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004095>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004101>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004543>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004614>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004680>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004681>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004682>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004683>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004684>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005187>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005515>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005707>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005767>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005773>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000242>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000441>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000584>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000791>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000803>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000815>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000846>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000870>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000873>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0004271>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0000037> (<http://purl.obolibrary.org/obo/OBA_0000037>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0000037> <http://purl.obolibrary.org/obo/PATO_0000276>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000037> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0000039> (<http://purl.obolibrary.org/obo/OBA_0000039>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0000039> <http://purl.obolibrary.org/obo/PATO_0001420>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000039> "true"^^xsd:boolean)
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+# Class: <http://purl.obolibrary.org/obo/OBA_0000050> (<http://purl.obolibrary.org/obo/OBA_0000050>)
 
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0000050> <http://purl.obolibrary.org/obo/OBA_0000058>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000050> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_0000074> (<http://purl.obolibrary.org/obo/OBA_0000074>)
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0000074> <http://purl.obolibrary.org/obo/OBA_1001087>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000074> "true"^^xsd:boolean)
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_0000121> (<http://purl.obolibrary.org/obo/OBA_0000121>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0000121> <http://purl.obolibrary.org/obo/PATO_0001842>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000121> "true"^^xsd:boolean)
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+# Class: <http://purl.obolibrary.org/obo/OBA_0002145> (<http://purl.obolibrary.org/obo/OBA_0002145>)
 
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0002145> <http://purl.obolibrary.org/obo/OBA_VT0010464>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0002145> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_0003746> (<http://purl.obolibrary.org/obo/OBA_0003746>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0000037 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003746> <http://purl.obolibrary.org/obo/OBA_VT0002845>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003746> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000037">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000276"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_0003813> (<http://purl.obolibrary.org/obo/OBA_0003813>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003813> <http://purl.obolibrary.org/obo/OBA_0002401>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003813> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0000039 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_0003898> (<http://purl.obolibrary.org/obo/OBA_0003898>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000039">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PATO_0001420"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003898> <http://purl.obolibrary.org/obo/OBA_VT1000111>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003898> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_0003943> (<http://purl.obolibrary.org/obo/OBA_0003943>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0000050 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003943> <http://purl.obolibrary.org/obo/OBA_VT0004272>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003943> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000050">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0000058"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_0004074> (<http://purl.obolibrary.org/obo/OBA_0004074>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004074> <http://purl.obolibrary.org/obo/OBA_VT1000712>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004074> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0000074 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_0004079> (<http://purl.obolibrary.org/obo/OBA_0004079>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000074">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_1001087"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004079> <http://purl.obolibrary.org/obo/OBA_VT1000644>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004079> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_0004086> (<http://purl.obolibrary.org/obo/OBA_0004086>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0000121 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004086> <http://purl.obolibrary.org/obo/OBA_VT0010611>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004086> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000121">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PATO_0001842"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_0004087> (<http://purl.obolibrary.org/obo/OBA_0004087>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004087> <http://purl.obolibrary.org/obo/OBA_VT0010524>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004087> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0002145 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_0004095> (<http://purl.obolibrary.org/obo/OBA_0004095>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002145">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010464"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004095> <http://purl.obolibrary.org/obo/OBA_VT0010019>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004095> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_0004101> (<http://purl.obolibrary.org/obo/OBA_0004101>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0003746 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004101> <http://purl.obolibrary.org/obo/OBA_VT0010466>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004101> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003746">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002845"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_0004543> (<http://purl.obolibrary.org/obo/OBA_0004543>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004543> <http://purl.obolibrary.org/obo/OBA_VT0010496>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004543> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0003813 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_0004614> (<http://purl.obolibrary.org/obo/OBA_0004614>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003813">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0002401"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004614> <http://purl.obolibrary.org/obo/OBA_VT0010144>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004614> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_0004680> (<http://purl.obolibrary.org/obo/OBA_0004680>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0003898 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004680> <http://purl.obolibrary.org/obo/OBA_VT0010423>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004680> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003898">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000111"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_0004681> (<http://purl.obolibrary.org/obo/OBA_0004681>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004681> <http://purl.obolibrary.org/obo/OBA_VT0010421>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004681> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0003943 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_0004682> (<http://purl.obolibrary.org/obo/OBA_0004682>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003943">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004272"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004682> <http://purl.obolibrary.org/obo/OBA_VT0010424>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004682> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_0004683> (<http://purl.obolibrary.org/obo/OBA_0004683>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0004074 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004683> <http://purl.obolibrary.org/obo/OBA_VT0010428>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004683> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004074">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000712"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_0004684> (<http://purl.obolibrary.org/obo/OBA_0004684>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004684> <http://purl.obolibrary.org/obo/OBA_VT0010430>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004684> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0004079 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_0005187> (<http://purl.obolibrary.org/obo/OBA_0005187>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004079">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000644"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0005187> <http://purl.obolibrary.org/obo/OBA_0003653>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0005187> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_0005515> (<http://purl.obolibrary.org/obo/OBA_0005515>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0004086 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0005515> <http://purl.obolibrary.org/obo/OBA_0005230>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0005515> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004086">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010611"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_0005707> (<http://purl.obolibrary.org/obo/OBA_0005707>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0005707> <http://purl.obolibrary.org/obo/OBA_VT0010420>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0005707> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0004087 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_0005767> (<http://purl.obolibrary.org/obo/OBA_0005767>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004087">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010524"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0005767> <http://purl.obolibrary.org/obo/OBA_0005766>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0005767> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_0005773> (<http://purl.obolibrary.org/obo/OBA_0005773>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0004095 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0005773> <http://purl.obolibrary.org/obo/OBA_0005771>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0005773> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004095">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010019"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_1000242> (<http://purl.obolibrary.org/obo/OBA_1000242>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000242> <http://purl.obolibrary.org/obo/OBA_VT0005388>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000242> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0004101 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_1000441> (<http://purl.obolibrary.org/obo/OBA_1000441>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004101">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010466"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000441> <http://purl.obolibrary.org/obo/OBA_VT0005389>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000441> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1000584> (<http://purl.obolibrary.org/obo/OBA_1000584>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0004543 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000584> <http://purl.obolibrary.org/obo/OBA_VT1000781>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000584> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004543">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010496"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_1000791> (<http://purl.obolibrary.org/obo/OBA_1000791>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000791> <http://purl.obolibrary.org/obo/OBA_VT0002068>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000791> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0004614 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_1000803> (<http://purl.obolibrary.org/obo/OBA_1000803>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004614">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010144"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000803> <http://purl.obolibrary.org/obo/OBA_VT0001440>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000803> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1000815> (<http://purl.obolibrary.org/obo/OBA_1000815>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0004680 -->
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000815> "Reason for obsoletion: [This term was obsoleted because it does not represent a real process. While subarachnoid space is a valid anatomical structure, it is formed by the development of the structures that surround it.](https://www.ebi.ac.uk/QuickGO/term/GO:1903374)"^^xsd:string)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000815> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004680">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010423"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_1000846> (<http://purl.obolibrary.org/obo/OBA_1000846>)
 
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000846> "Reason for obsoletion: gas homeostasis (GO:0033483) considered an unnecessary grouping by GO curators."^^xsd:string)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000846> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0004681 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_1000870> (<http://purl.obolibrary.org/obo/OBA_1000870>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004681">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010421"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000870> <http://purl.obolibrary.org/obo/OBA_VT0001529>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000870> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1000873> (<http://purl.obolibrary.org/obo/OBA_1000873>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0004682 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000873> <http://purl.obolibrary.org/obo/OBA_1000236>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000873> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004682">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010424"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_1001016> (<http://purl.obolibrary.org/obo/OBA_1001016>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001016> <http://purl.obolibrary.org/obo/OBA_VT0010120>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001016> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0004683 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_1001018> (<http://purl.obolibrary.org/obo/OBA_1001018>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004683">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010428"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001018> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001018> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1001019> (<http://purl.obolibrary.org/obo/OBA_1001019>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0004684 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001019> <http://purl.obolibrary.org/obo/OBA_0004552>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001019> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004684">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010430"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_1001020> (<http://purl.obolibrary.org/obo/OBA_1001020>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001020> <http://purl.obolibrary.org/obo/OBA_VT0007028>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001020> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0005187 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_1001021> (<http://purl.obolibrary.org/obo/OBA_1001021>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0005187">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0003653"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001021> <http://purl.obolibrary.org/obo/OBA_0004981>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001021> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1001022> (<http://purl.obolibrary.org/obo/OBA_1001022>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0005515 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001022> <http://purl.obolibrary.org/obo/OBA_0004726>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001022> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0005515">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0005230"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_1001023> (<http://purl.obolibrary.org/obo/OBA_1001023>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001023> <http://purl.obolibrary.org/obo/OBA_0004721>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001023> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0005707 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_1001024> (<http://purl.obolibrary.org/obo/OBA_1001024>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0005707">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010420"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001024> <http://purl.obolibrary.org/obo/OBA_VT0005629>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001024> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1001025> (<http://purl.obolibrary.org/obo/OBA_1001025>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0005767 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001025> <http://purl.obolibrary.org/obo/OBA_VT0002707>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001025> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0005767">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0005766"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_1001026> (<http://purl.obolibrary.org/obo/OBA_1001026>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001026> <http://purl.obolibrary.org/obo/OBA_VT0007027>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001026> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0005773 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_1001027> (<http://purl.obolibrary.org/obo/OBA_1001027>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0005773">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0005771"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001027> <http://purl.obolibrary.org/obo/OBA_0004722>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001027> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1001028> (<http://purl.obolibrary.org/obo/OBA_1001028>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_1000242 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001028> <http://purl.obolibrary.org/obo/OBA_VT1000641>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001028> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000242">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005388"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_1001029> (<http://purl.obolibrary.org/obo/OBA_1001029>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001029> <http://purl.obolibrary.org/obo/OBA_VT0002176>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001029> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_1000441 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_1001030> (<http://purl.obolibrary.org/obo/OBA_1001030>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000441">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005389"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001030> <http://purl.obolibrary.org/obo/OBA_0004528>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001030> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1001031> (<http://purl.obolibrary.org/obo/OBA_1001031>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_1000584 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001031> <http://purl.obolibrary.org/obo/OBA_VT0004257>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001031> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000584">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000781"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_1001032> (<http://purl.obolibrary.org/obo/OBA_1001032>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001032> <http://purl.obolibrary.org/obo/OBA_VT0004951>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001032> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_1000791 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_1001033> (<http://purl.obolibrary.org/obo/OBA_1001033>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000791">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002068"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001033> <http://purl.obolibrary.org/obo/OBA_0004725>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001033> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1001034> (<http://purl.obolibrary.org/obo/OBA_1001034>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_1000803 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001034> <http://purl.obolibrary.org/obo/OBA_0004720>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001034> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000803">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001440"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_1001035> (<http://purl.obolibrary.org/obo/OBA_1001035>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001035> <http://purl.obolibrary.org/obo/OBA_VT0007033>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001035> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_1000815 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_1001036> (<http://purl.obolibrary.org/obo/OBA_1001036>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000815">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reason for obsoletion: [This term was obsoleted because it does not represent a real process. While subarachnoid space is a valid anatomical structure, it is formed by the development of the structures that surround it.](https://www.ebi.ac.uk/QuickGO/term/GO:1903374)</rdfs:comment>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001036> <http://purl.obolibrary.org/obo/OBA_VT1000711>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001036> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1001037> (<http://purl.obolibrary.org/obo/OBA_1001037>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_1000870 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001037> <http://purl.obolibrary.org/obo/OBA_0005027>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001037> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000870">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001529"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_1001038> (<http://purl.obolibrary.org/obo/OBA_1001038>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001038> <http://purl.obolibrary.org/obo/OBA_0005562>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001038> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_1000873 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_1001039> (<http://purl.obolibrary.org/obo/OBA_1001039>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000873">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_1000236"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001039> <http://purl.obolibrary.org/obo/OBA_VT0003402>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001039> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1001040> (<http://purl.obolibrary.org/obo/OBA_1001040>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_1001016 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001040> <http://purl.obolibrary.org/obo/OBA_VT0004954>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001040> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001016">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010120"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_1001041> (<http://purl.obolibrary.org/obo/OBA_1001041>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001041> <http://purl.obolibrary.org/obo/OBA_VT0007026>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001041> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_1001018 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_1001042> (<http://purl.obolibrary.org/obo/OBA_1001042>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001018">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001259"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001042> <http://purl.obolibrary.org/obo/OBA_0004724>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001042> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1001043> (<http://purl.obolibrary.org/obo/OBA_1001043>)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_1001019 -->
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001043> <http://purl.obolibrary.org/obo/OBA_0004598>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001043> "true"^^xsd:boolean)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001019">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004552"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+# Class: <http://purl.obolibrary.org/obo/OBA_1001044> (<http://purl.obolibrary.org/obo/OBA_1001044>)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001044> <http://purl.obolibrary.org/obo/OBA_VT0007031>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001044> "true"^^xsd:boolean)
 
-    <!-- http://purl.obolibrary.org/obo/OBA_1001020 -->
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0004271> (<http://purl.obolibrary.org/obo/OBA_VT0004271>)
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001020">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0007028"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_VT0004271> <http://purl.obolibrary.org/obo/OBA_VT0000572>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_VT0004271> "true"^^xsd:boolean)
 
 
-    <!-- http://purl.obolibrary.org/obo/OBA_1001021 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001021">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004981"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001022">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004726"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001023 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001023">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004721"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001024 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001024">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005629"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001025 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001025">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002707"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001026 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001026">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0007027"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001027 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001027">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004722"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001028 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001028">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000641"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001029 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001029">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002176"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001030 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001030">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004528"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001031 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001031">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004257"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001032 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001032">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004951"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001033 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001033">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004725"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001034 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001034">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004720"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001035 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001035">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0007033"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001036 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001036">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000711"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001037 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001037">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0005027"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001038 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001038">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0005562"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001039 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001039">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0003402"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001040 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001040">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004954"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001041 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001041">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0007026"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001042 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001042">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004724"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001043 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001043">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0004598"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1001044 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001044">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0007031"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_VT0004271 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004271">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000572"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-</rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
-
+)
