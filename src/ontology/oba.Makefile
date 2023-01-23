@@ -233,7 +233,7 @@ $(TMPDIR)/mirror-base-mp.owl:
 PHENOTYPE_IDS = mp hp zp xpo
 PHENOTYPE_BASES = $(patsubst %, $(TMPDIR)/mirror-base-%.owl, $(PHENOTYPE_IDS))
 
-$(TMPDIR)/mirror-all.owl: oba-base.owl $(MIRRORDIR)/merged.owl $(PHENOTYPE_BASES)
+$(TMPDIR)/mirror-all.owl: $(MIRRORDIR)/merged.owl $(PHENOTYPE_BASES)
 	$(ROBOT) merge $(patsubst %, -i %, $^) -o $@
 .PRECIOUS: $(TMPDIR)/mirror-all.owl
 
@@ -245,10 +245,10 @@ qqq:
 
 ##### CONTINUE FROM HERE, MERGE ALL THIS AND CREATE SSSOM FILES
 
-$(TMPDIR)/oba-%.owl: $(TMPDIR)/mirror-%.owl
-	$(ROBOT) merge -i oba.owl -i $(TMPDIR)/mirror-$*.owl \
+$(TMPDIR)/oba-%.owl: $(TMPDIR)/mirror-%.owl oba-base.owl
+	$(ROBOT) merge $(patsubst %, -i %, $^) \
 		reason materialize --term BFO:0000051 -o $@
-.PRECIOUS: $(TMPDIR)/oba-%.owl:
+.PRECIOUS: $(TMPDIR)/oba-%.owl
 
 $(TMPDIR)/oba-rg-%.owl: $(TMPDIR)/oba-%.owl
 	relation-graph --ontology-file $< \
