@@ -245,34 +245,3 @@ OBA:2050096	serum creatinine amount	CHEBI:16737	creatinine	PATO:0000070	amount	U
 OBA:2020003	chemical in blood amount	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0000178	blood
 OBA:2020004	chemical in serum amount	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0001977	serum
 OBA:2020005	lysine in blood amount	CHEBI:25094	lysine	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060000	decreased blood urea nitrogen level	CHEBI:16199	urea	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060001	decreased blood uric acid level	CHEBI:27226	uric acid	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060002	decreased circulating HDL cholesterol level	CHEBI:47775	high-density lipoprotein cholesterol	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060003	decreased circulating LDL cholesterol level	CHEBI:47774	low-density lipoprotein cholesterol	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060004	decreased circulating alkaline phosphatase level	PR:000023540	alkaline phosphatase	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060005	decreased circulating bilirubin level	CHEBI:16990	bilirubin IXalpha	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060006	decreased circulating calcium level	CHEBI:22984	calcium atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060007	decreased circulating chloride level	CHEBI:17996	chloride	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060008	decreased circulating cholesterol level	CHEBI:16113	cholesterol	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060009	decreased circulating creatinine level	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060010	decreased circulating free fatty acids level	CHEBI:35366	fatty acid	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060011	decreased circulating fructosamine level	CHEBI:24103	fructosamine	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060012	decreased circulating glucose level	CHEBI:17234	glucose	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060013	decreased circulating glycerol level	CHEBI:17754	glycerol	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060014	decreased circulating insulin level	CHEBI:145810	insulin	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060015	decreased circulating iron level	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060016	decreased circulating magnesium level	CHEBI:25107	magnesium atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060017	decreased circulating potassium level	CHEBI:26216	potassium atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060018	decreased circulating sodium level	CHEBI:26708	sodium atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060019	decreased circulating thyroxine level	CHEBI:30660	thyroxine	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060020	decreased circulating total protein level	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060021	decreased circulating triglyceride level	CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060022	decreased hemoglobin content	CHEBI:35143	hemoglobin	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060024	decreased urine creatinine level	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0001088	urine
-OBA:2060025	decreased urine glucose level	CHEBI:17234	glucose	PATO:0000070	amount	UBERON:0001088	urine
-OBA:2060026	decreased urine magnesium level	CHEBI:25107	magnesium atom	PATO:0000070	amount	UBERON:0001088	urine
-OBA:2060032	increased circulating aspartate transaminase level	PR:000022172	aspartate aminotransferase	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060045	increased circulating phosphate level	CHEBI:26020	phosphate	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060060	abnormal circulating alanine transaminase level	PR:000050219	alanine aminotransferase	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060062	abnormal circulating aspartate transaminase level	PR:000008153	aspartate aminotransferase	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060077	abnormal circulating serum albumin level	PR:000003918	albumin	PATO:0000070	amount	UBERON:0000178	blood
