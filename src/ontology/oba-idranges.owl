@@ -95,6 +95,13 @@ Datatype: idrange:8
     EquivalentTo:
         xsd:integer[>= 2050000 , <= 2059999]
 
+Datatype: idrange:9
 
+    Annotations:
+        allocatedto: "Daniel Olson"
+
+    EquivalentTo:
+        xsd:integer[>= 2060000 , <= 2069999]
+        
 Datatype: xsd:integer
 Datatype: rdf:PlainLiteral
