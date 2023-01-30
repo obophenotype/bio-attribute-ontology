@@ -1,7 +1,7 @@
 annotation_property_count: 0
 class_count: 7854
-class_count_with_text_definitions: 7772
-class_count_without_text_definitions: 82
+class_count_with_text_definitions: 7769
+class_count_without_text_definitions: 85
 contributor_summary:
   base64:Y2FyaXBhcms=:
     contributor_id: base64:Y2FyaXBhcms=
@@ -59,20 +59,32 @@ contributor_summary:
       dcterms:contributor:
         facet: dcterms:contributor
         filtered_count: 145
-deprecated_class_count: 66
+  orcid:0000-0001-8415-4848:
+    contributor_id: orcid:0000-0001-8415-4848
+    role_counts:
+      dcterms:contributor:
+        facet: dcterms:contributor
+        filtered_count: 4
+  orcid:0000-0003-2699-3066:
+    contributor_id: orcid:0000-0003-2699-3066
+    role_counts:
+      dcterms:contributor:
+        facet: dcterms:contributor
+        filtered_count: 27
+deprecated_class_count: 67
 deprecated_property_count: 0
-distinct_synonym_count: 7967
+distinct_synonym_count: 8006
 edge_count_by_predicate:
   RO:0000052:
     facet: RO:0000052
-    filtered_count: 4147
+    filtered_count: 4146
   RO:0002314:
     facet: RO:0002314
-    filtered_count: 2952
+    filtered_count: 2950
   rdfs:subClassOf:
     facet: rdfs:subClassOf
-    filtered_count: 14289
-equivalent_classes_axiom_count: 7772
+    filtered_count: 14396
+equivalent_classes_axiom_count: 7769
 id: AllOntologies
 mapping_statement_count_by_predicate:
   oio:hasDbXref:
@@ -80,27 +92,27 @@ mapping_statement_count_by_predicate:
     filtered_count: 1
 merged_class_query: 0
 named_individual_count: 0
-non_deprecated_class_count: 7788
+non_deprecated_class_count: 7787
 object_property_count: 0
 ontologies:
 - id: obo:oba/oba-baseplus.owl
-  version: obo:oba/releases/2022-12-20/oba-baseplus.owl
-  version_info: '2022-12-20'
-rdf_triple_count: 61783
-subclass_of_axiom_count: 21388
+  version: obo:oba/releases/2023-01-23/oba-baseplus.owl
+  version_info: '2023-01-23'
+rdf_triple_count: 61958
+subclass_of_axiom_count: 21492
 subset_count: 0
-synonym_statement_count: 7967
+synonym_statement_count: 8006
 synonym_statement_count_by_predicate:
   oio:hasBroadSynonym:
     facet: oio:hasBroadSynonym
-    filtered_count: 3
+    filtered_count: 4
   oio:hasExactSynonym:
     facet: oio:hasExactSynonym
-    filtered_count: 7960
+    filtered_count: 7995
   oio:hasRelatedSynonym:
     facet: oio:hasRelatedSynonym
-    filtered_count: 4
+    filtered_count: 7
 was_generated_by:
   acted_on_behalf_of: root
-  started_at_time: '2022-12-20T19:05:26.454238'
+  started_at_time: '2023-01-23T14:29:54.407145'
   was_associated_with: OAK

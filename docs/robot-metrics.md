@@ -2,16 +2,16 @@
 
 **IRI:** http://purl.obolibrary.org/obo/oba/oba-baseplus.owl
 
-**Version IRI:** http://purl.obolibrary.org/obo/oba/releases/2022-12-20/oba-baseplus.owl
+**Version IRI:** http://purl.obolibrary.org/obo/oba/releases/2023-01-23/oba-baseplus.owl
 
 ### Entities and axioms
 
 | Metric | Value |
 | ------ | ----- |
 | Annotation properties | 25 |
-| Axioms | 65907 |
-| Logical axioms | 29169 |
-| Classes | 11949 |
+| Axioms | 66080 |
+| Logical axioms | 29270 |
+| Classes | 11947 |
 | Object properties | 6 |
 | Data properties | 0 |
 | Individuals | 0 |
@@ -32,10 +32,10 @@
 
 | Metric | Value |
 | ------ | ----- |
-| AnnotationAssertion | 24769 |
-| EquivalentClasses | 7772 |
-| Declaration | 11969 |
-| SubClassOf | 21397 |
+| AnnotationAssertion | 24843 |
+| EquivalentClasses | 7769 |
+| Declaration | 11967 |
+| SubClassOf | 21501 |
 
 
 #### Entity namespaces: axiom counts by namespace
@@ -45,7 +45,7 @@
 | PR | 69 |
 | oboInOwl | 12 |
 | owl | 2 |
-| GO | 710 |
+| GO | 708 |
 | HP | 1 |
 | xsd | 2 |
 | CL | 346 |
@@ -69,10 +69,10 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Class | 78955 |
-| ObjectSomeValuesFrom | 15803 |
-| ObjectIntersectionOf | 8686 |
+| Class | 79152 |
+| ObjectSomeValuesFrom | 15797 |
+| ObjectIntersectionOf | 8683 |
 
 
-The raw data (ontology metrics) can be found [on GitHub](https://github.com/obophenotype/bio-attribute-ontology/tree/main/src/ontology/reports/robot-metrics.yml).
+The raw data (ontology metrics) can be found [on GitHub](https://github.com/obophenotype/bio-attribute-ontology/blob/master/src/ontology/reports/robot-metrics.yml).
 
