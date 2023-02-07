@@ -2235,7 +2235,6 @@ OBA:VT0001727	embryo implantation trait	GO:0007566	embryo implantation	PATO:0000
 OBA:VT0001740	epinephrine secretion trait	GO:0048242	epinephrine secretion	PATO:0000001	quality
 OBA:VT0001744	corticosterone secretion trait	GO:0035934	corticosterone secretion	PATO:0000001	quality
 OBA:VT0001764	homeostasis trait	GO:0042592	homeostatic process	PATO:0000001	quality
-OBA:VT0001765	ion homeostasis trait	GO:0050801	ion homeostasis	PATO:0000001	quality
 OBA:VT0001784	fluid regulation trait	GO:0050878	regulation of body fluid levels	PATO:0000001	quality
 OBA:VT0001835	antigen presentation trait	GO:0019882	antigen processing and presentation	PATO:0000001	quality
 OBA:VT0001882	lactation trait	GO:0007595	lactation	PATO:0000001	quality
@@ -2247,7 +2246,6 @@ OBA:VT0001961	reflex trait	GO:0060004	reflex	PATO:0000001	quality
 OBA:VT0001984	olfaction trait	GO:0007608	sensory perception of smell	PATO:0000001	quality
 OBA:VT0002068	parental behavior trait	GO:0060746	parental behavior	PATO:0000001	quality
 OBA:VT0002090	vision trait	GO:0007601	visual perception	PATO:0000001	quality
-OBA:VT0002118	lipid homeostasis trait	GO:0055088	lipid homeostasis	PATO:0000001	quality
 OBA:VT0002121	metabolism trait	GO:0008152	metabolic process	PATO:0000001	quality
 OBA:VT0002123	hematopoiesis trait	GO:0030097	hemopoiesis	PATO:0000001	quality
 OBA:VT0002144	B cell development trait	GO:0030183	B cell differentiation	PATO:0000001	quality
@@ -2326,7 +2324,6 @@ OBA:VT0004944	B cell negative selection trait	GO:0002352	B cell negative selecti
 OBA:VT0005004	lymphocyte anergy trait	GO:0002249	lymphocyte anergy	PATO:0000001	quality
 OBA:VT0005008	osteoblast development trait	GO:0002076	osteoblast development	PATO:0000001	quality
 OBA:VT0005153	B cell proliferation trait	GO:0042100	B cell proliferation	PATO:0000001	quality
-OBA:VT0005278	cholesterol homeostasis trait	GO:0042632	cholesterol homeostasis	PATO:0000001	quality
 OBA:VT0005316	tactition trait	GO:0050975	sensory perception of touch	PATO:0000001	quality
 OBA:VT0005380	embryonic development trait	GO:0009790	embryo development	PATO:0000001	quality
 OBA:VT0005382	head trait	UBERON:0000033	head	PATO:0000001	quality
@@ -2397,8 +2394,6 @@ OBA:VT0015052	surface structure trait	UBERON:0003102	surface structure	PATO:0000
 OBA:VT0015059	thorax trait	UBERON:0000915	thoracic segment of trunk	PATO:0000001	quality
 OBA:VT0015069	appendage development trait	GO:0048736	appendage development	PATO:0000001	quality
 OBA:VT0015073	fin regeneration trait	GO:0031101	fin regeneration	PATO:0000001	quality
-OBA:VT0015077	molecule homeostasis trait	GO:0048878	chemical homeostasis	PATO:0000001	quality
-OBA:VT0015079	sterol homeostasis trait	GO:0055092	sterol homeostasis	PATO:0000001	quality
 OBA:VT0015087	vitamin metabolism trait	GO:0006766	vitamin metabolic process	PATO:0000001	quality
 OBA:VT0015088	glucose metabolism trait	GO:0006006	glucose metabolic process	PATO:0000001	quality
 OBA:VT0015089	alcohol metabolism trait	GO:0006066	alcohol metabolic process	PATO:0000001	quality
@@ -2587,7 +2582,6 @@ OBA:1000319		UBERON:0001649	glossopharyngeal nerve	PATO:0000001	quality
 OBA:1000320		UBERON:0018226	pulmonary part of lymphatic system	PATO:0000001	quality
 OBA:1000321		UBERON:0001645	trigeminal nerve	PATO:0000001	quality
 OBA:1000322		UBERON:0003681	masticatory muscle	PATO:0000001	quality
-OBA:1000323		GO:0072507	divalent inorganic cation homeostasis	PATO:0000001	quality
 OBA:1000324		GO:0022010	central nervous system myelination	PATO:0000001	quality
 OBA:1000325		UBERON:0004311	distal phalanx of manual digit 2	PATO:0000001	quality
 OBA:1000326		UBERON:0000976	humerus	PATO:0000001	quality
@@ -2698,7 +2692,6 @@ OBA:1000430		UBERON:0001597	masseter muscle	PATO:0000001	quality
 OBA:1000431		UBERON:0004727	cochlear nerve	PATO:0000001	quality
 OBA:1000432		UBERON:0001586	internal jugular vein	PATO:0000001	quality
 OBA:1000433		UBERON:0006719	lateral pterygoid muscle	PATO:0000001	quality
-OBA:1000434		GO:0055064	chloride ion homeostasis	PATO:0000001	quality
 OBA:1000435		UBERON:0002360	meninx	PATO:0000001	quality
 OBA:1000436		UBERON:0003655	molar tooth	PATO:0000001	quality
 OBA:1000437		UBERON:0001817	lacrimal gland	PATO:0000001	quality
@@ -2718,7 +2711,6 @@ OBA:1000451		UBERON:0002058	ciliary ganglion	PATO:0000001	quality
 OBA:1000452		GO:0005975	carbohydrate metabolic process	PATO:0000001	quality
 OBA:1000453		UBERON:0011859	internal acoustic meatus	PATO:0000001	quality
 OBA:1000454		UBERON:0001681	nasal bone	PATO:0000001	quality
-OBA:1000455		GO:0055069	zinc ion homeostasis	PATO:0000001	quality
 OBA:1000456		UBERON:0006609	corpus cavernosum	PATO:0000001	quality
 OBA:1000457		UBERON:0008594	zygomaticus minor muscle	PATO:0000001	quality
 OBA:1000458		UBERON:0004256	hindlimb zeugopod muscle	PATO:0000001	quality
@@ -2751,7 +2743,6 @@ OBA:1000484		UBERON:0011111	humeroradial joint	PATO:0000001	quality
 OBA:1000485		UBERON:0002016	pulmonary vein	PATO:0000001	quality
 OBA:1000486		UBERON:0003677	tooth root	PATO:0000001	quality
 OBA:1000487		UBERON:0008878	palmar part of manus	PATO:0000001	quality
-OBA:1000488		GO:0055074	calcium ion homeostasis	PATO:0000001	quality
 OBA:1000489		UBERON:0001620	central retinal artery	PATO:0000001	quality
 OBA:1000490		UBERON:0002707	corticospinal tract	PATO:0000001	quality
 OBA:1000491		UBERON:0003651	metatarsal bone of digit 2	PATO:0000001	quality
@@ -2763,7 +2754,6 @@ OBA:1000496		UBERON:0004089	midface	PATO:0000001	quality
 OBA:1000497		UBERON:0005467	platysma	PATO:0000001	quality
 OBA:1000498		GO:0006570	tyrosine metabolic process	PATO:0000001	quality
 OBA:1000499		GO:0000096	sulfur amino acid metabolic process	PATO:0000001	quality
-OBA:1000500		GO:0055067	monovalent inorganic cation homeostasis	PATO:0000001	quality
 OBA:1000501		UBERON:0001449	phalanx of pes	PATO:0000001	quality
 OBA:1000502		GO:0006549	isoleucine metabolic process	PATO:0000001	quality
 OBA:1000503		UBERON:0001572	hyoglossus muscle	PATO:0000001	quality
@@ -2791,7 +2781,6 @@ OBA:1000524		UBERON:0004087	vena cava	PATO:0000001	quality
 OBA:1000525		UBERON:0001896	medulla oblongata	PATO:0000001	quality
 OBA:1000526		UBERON:0004321	middle phalanx of manual digit 3	PATO:0000001	quality
 OBA:1000527		UBERON:0007156	inferior thyroid vein	PATO:0000001	quality
-OBA:1000528		GO:0042593	glucose homeostasis	PATO:0000001	quality
 OBA:1000529		UBERON:0000045	ganglion	PATO:0000001	quality
 OBA:1000530		UBERON:0001535	vertebral artery	PATO:0000001	quality
 OBA:1000531		UBERON:0003338	ganglion of peripheral nervous system	PATO:0000001	quality
@@ -2801,7 +2790,6 @@ OBA:1000534		UBERON:0002228	rib	PATO:0000001	quality
 OBA:1000535		UBERON:0001365	sacro-iliac joint	PATO:0000001	quality
 OBA:1000536		UBERON:0000964	cornea	PATO:0000001	quality
 OBA:1000537		UBERON:0010946	occipitofrontalis muscle	PATO:0000001	quality
-OBA:1000538		GO:0010960	magnesium ion homeostasis	PATO:0000001	quality
 OBA:1000539		NBO:0000605	sexual inhibition	PATO:0000001	quality
 OBA:1000540		UBERON:0001623	dorsal nasal artery	PATO:0000001	quality
 OBA:1000541		UBERON:0006074	lumbar region of vertebral column	PATO:0000001	quality
@@ -2836,7 +2824,6 @@ OBA:1000569		UBERON:0001564	mylohyoid muscle	PATO:0000001	quality
 OBA:1000570		UBERON:0001051	hypopharynx	PATO:0000001	quality
 OBA:1000571		UBERON:0004315	distal phalanx of pedal digit 1	PATO:0000001	quality
 OBA:1000572		UBERON:0001446	fibula	PATO:0000001	quality
-OBA:1000573		GO:0055062	phosphate ion homeostasis	PATO:0000001	quality
 OBA:1000574		CL:0000236	B cell	PATO:0000001	quality
 OBA:1000575		UBERON:0003862	pedal digit 4 phalanx	PATO:0000001	quality
 OBA:1000576		GO:0033559	unsaturated fatty acid metabolic process	PATO:0000001	quality
@@ -2892,7 +2879,6 @@ OBA:1000626		UBERON:0002331	umbilical cord	PATO:0000001	quality
 OBA:1000627		UBERON:0010408	ocular angle artery	PATO:0000001	quality
 OBA:1000628		UBERON:0003867	distal phalanx of pes	PATO:0000001	quality
 OBA:1000629		UBERON:0004092	hypothalamus-pituitary axis	PATO:0000001	quality
-OBA:1000630		GO:0055080	cation homeostasis	PATO:0000001	quality
 OBA:1000631		UBERON:0001764	maxillary sinus	PATO:0000001	quality
 OBA:1000632		UBERON:0001436	phalanx of manus	PATO:0000001	quality
 OBA:1000633		GO:0006783	heme biosynthetic process	PATO:0000001	quality
@@ -2967,7 +2953,6 @@ OBA:1000701		GO:0030018	Z disc	PATO:0000001	quality
 OBA:1000702		GO:1903699	tarsal gland development	PATO:0000001	quality
 OBA:1000703		GO:0004731	purine-nucleoside phosphorylase activity	PATO:0000001	quality
 OBA:1000704		UBERON:0001352	external acoustic meatus	PATO:0000001	quality
-OBA:1000705		GO:0097009	energy homeostasis	PATO:0000001	quality
 OBA:1000706		GO:0004418	hydroxymethylbilane synthase activity	PATO:0000001	quality
 OBA:1000707		NBO:0000103	coping behavior	PATO:0000001	quality
 OBA:1000708		NBO:0000584	clutching reflex	PATO:0000001	quality
@@ -3004,7 +2989,6 @@ OBA:1000738		UBERON:0000052	fornix of brain	PATO:0000001	quality
 OBA:1000739		NBO:0000146	mating receptivity	PATO:0000001	quality
 OBA:1000740		UBERON:0002393	pharyngotympanic tube	PATO:0000001	quality
 OBA:1000741		NBO:0000389	reflexive behavior	PATO:0000001	quality
-OBA:1000742		GO:0033484	nitric oxide homeostasis	PATO:0000001	quality
 OBA:1000743		GO:0009416	response to light stimulus	PATO:0000001	quality
 OBA:1000744		GO:0004351	glutamate decarboxylase activity	PATO:0000001	quality
 OBA:1000745		UBERON:0001310	umbilical artery	PATO:0000001	quality
@@ -3139,7 +3123,6 @@ OBA:1000880		UBERON:0012352	mesangial matrix	PATO:0000001	quality
 OBA:1000881		UBERON:0010514	strand of duvet hair	PATO:0000001	quality
 OBA:1000882		GO:0031430	M band	PATO:0000001	quality
 OBA:1000883		GO:0000795	synaptonemal complex	PATO:0000001	quality
-OBA:1000884		GO:0033501	galactose homeostasis	PATO:0000001	quality
 OBA:1000885		NBO:0000388	involuntary movement behavior	PATO:0000001	quality
 OBA:1000886		CL:0000806	DN2 thymocyte	PATO:0000001	quality
 OBA:1000887		UBERON:0002279	vestibular aqueduct	PATO:0000001	quality
@@ -3198,3 +3181,4 @@ OBA:1000939		GO:0030916	otic vesicle formation	PATO:0000001	quality
 OBA:1001091	egg shell trait	UBERON:0005079	eggshell	PATO:0000001	quality
 OBA:2020001	life cycle stage trait	UBERON:0000105	life cycle stage	PATO:0000001	quality
 OBA:2020002	plant structure trait	PO:0009011	plant structure	PATO:0000001	quality
+OBA:1000705		GO:0097009	energy homeostasis	PATO:0000001	quality
