@@ -4100,15 +4100,71 @@ OBA:2050052	occipital lobe volume 	UBERON:0002021	occipital lobe	PATO:0000918	vo
 OBA:2050053	lentiform nucleus volume	UBERON:0002263	lentiform nucleus	PATO:0000918	volume
 OBA:2050097	serum amyloid A protein measurement	CHEBI:138152	serum amyloid A	PATO:0000070	amount
 OBA:2050098	serum paraoxonase/arylesterase 1 measurement	PR:000013021	serum paraoxonase/arylesterase 1	PATO:0000070	amount
-OBA:2060000	body coordination	UBERON:0000468	multicellular organism	PATO:0000188	coordination		
-OBA:2060001	limb coordination	UBERON:0002101	limb	PATO:0000188	coordination		
-OBA:2060002	upper limb coordination	UBERON:0002102	forelimb	PATO:0000188	coordination		
-OBA:2060003	lower limb coordination	UBERON:0002103	hindlimb	PATO:0000188	coordination		
-OBA:2060004	motor coordination	UBERON:0025525	motor system	PATO:0000188	coordination		
-OBA:2060008	whole organism stability	UBERON:0000468	multicellular organism	PATO:0015026	stability		
-OBA:2060009	facial muscle performance	UBERON:0001577	facial muscle	PATO:0001509	functionality		
-OBA:2060010	peripheral nervous system function	UBERON:0000010	peripheral nervous system	PATO:0001509	functionality		
-OBA:2060011	knee joint functionality	UBERON:0001485	knee joint	PATO:0001509	functionality		
-OBA:2060012	ankle joint functionality	UBERON:0001488	ankle joint	PATO:0001509	functionality		
-OBA:2060013	tendon of biceps brachii functionality	UBERON:0008188	tendon of biceps brachii	PATO:0001509	functionality		
-OBA:2060014	brachioradialis functionality	UBERON:0011011	brachioradialis	PATO:0001509	functionality		
+OBA:2060000		NBO:0000112	aggressive behavior towards inanimate objects	PATO:0000161	rate
+OBA:2060001		NBO:0000223	contextual conditioning behavior	PATO:0000161	rate
+OBA:2060002		NBO:0000339	motor coordination	PATO:0000161	rate
+OBA:2060003		NBO:0000338	kinesthetic behavior	PATO:0000161	rate
+OBA:2060004		NBO:0000224	cued conditioning behavior	PATO:0000161	rate
+OBA:2060005		NBO:0000015	aggressive behavior	PATO:0000161	rate
+OBA:2060006		NBO:0000092	anxiety-related behavior	PATO:0000161	rate
+OBA:2060007		NBO:0000103	coping behavior	PATO:0000161	rate
+OBA:2060008		NBO:0000097	response to novel environment	PATO:0000161	rate
+OBA:2060009		NBO:0000391	startle reflex	PATO:0000161	rate
+OBA:2060010		NBO:0000381	thigmotaxis	PATO:0000161	rate
+OBA:2060011		NBO:0000448	vertical activity	PATO:0000161	rate
+OBA:2060012		UBERON:0002956	granular layer of cerebellar cortex	PATO:0000915	thickness
+OBA:2060013		UBERON:0005368	hippocampus molecular layer	PATO:0000915	thickness
+OBA:2060014		UBERON:0005371	hippocampus stratum oriens	PATO:0000915	thickness
+OBA:2060015		UBERON:0005372	hippocampus stratum radiatum	PATO:0000915	thickness
+OBA:2060016		UBERON:0002415	tail	PATO:0000915	thickness
+OBA:2060017		NBO:0000013	locomotory behavior	PATO:0000161	rate
+OBA:2060018		NBO:0000332	touch related behavior	PATO:0000161	rate
+OBA:2060019		NBO:0000412	pupillary light reflex	PATO:0000161	rate
+OBA:2060020		NBO:0000578	righting reflex	PATO:0000161	rate
+OBA:2060021		UBERON:0000970	eye	PATO:0001509	functionality
+OBA:2060028		UBERON:0007221	neonatal stage	PATO:0000025	composition
+OBA:2060029		UBERON:0002413	cervical vertebra	PATO:0001555	amount
+OBA:2060030		UBERON:0001094	sacral vertebra	PATO:0001555	amount
+OBA:2060031		UBERON:0001705	nail	PATO:0000014	color
+OBA:2060032		UBERON:0000440	trabecula	PATO:0000070	amount
+OBA:2060033		UBERON:0001095	caudal vertebra	PATO:0000070	amount
+OBA:2060034		UBERON:0002483	trabecular bone tissue	PATO:0000918	volume
+OBA:2060035		UBERON:0003027	cingulate cortex	PATO:0000117	size
+OBA:2060036		UBERON:0000970	eye	PATO:0000117	size
+OBA:2060037		UBERON:0002421	hippocampal formation	PATO:0000117	size
+OBA:2060038		UBERON:0002483	trabecular bone tissue	PATO:0000070	amount
+OBA:2060039		UBERON:0000033	head	PATO:0000052	shape
+OBA:2060040		UBERON:0003252	thoracic rib cage	PATO:0000052	shape
+OBA:2060041		UBERON:0002102	forelimb	PATO:0000070	amount
+OBA:2060042		UBERON:0002415	tail	PATO:0000070	amount
+OBA:2060043		UBERON:0003221	phalanx	PATO:0000141	structure
+OBA:2060044		UBERON:0002228	rib	PATO:0000141	structure
+OBA:2060045		UBERON:0002544	digit	PATO:0000141	structure
+OBA:2060072		UBERON:0010130	embryonic autopod plate	PATO:0000051	morphology
+OBA:2060076		UBERON:0000970	eye	PATO:0000051	morphology
+OBA:2060136		UBERON:0004864	vasculature of retina	PATO:0000051	morphology
+OBA:2060159		UBERON:0008852	visceral yolk sac	PATO:0000051	morphology
+OBA:2060160		UBERON:0004374	vitelline vasculature	PATO:0000051	morphology
+OBA:2060163		UBERON:0013706	bone spine	PATO:0000052	shape
+OBA:2060164		UBERON:0003128	cranium	PATO:0000052	shape
+OBA:2060165		UBERON:0001819	palpebral fissure	PATO:0000921	width
+OBA:2060166		NBO:0000576	pinna reflex	PATO:0000070	amount
+OBA:2060167		NBO:0000391	startle reflex	PATO:0000070	amount
+OBA:2060168		NBO:0000449	spontaneous movement behavior	PATO:0000070	amount
+OBA:2060169		NBO:0000332	touch related behavior	PATO:0000070	amount
+OBA:2060170		UBERON:0002101	limb	PATO:0000140	position
+OBA:2060171		UBERON:0000966	retina	PATO:0000141	structure
+OBA:2060172		UBERON:0005056	external female genitalia	PATO:0000070	amount
+OBA:2060173		UBERON:0000970	eye	PATO:0000070	amount
+OBA:2060179	body coordination	UBERON:0000468	multicellular organism	PATO:0000188	coordination
+OBA:2060180	limb coordination	UBERON:0002101	limb	PATO:0000188	coordination
+OBA:2060181	upper limb coordination	UBERON:0002102	forelimb	PATO:0000188	coordination
+OBA:2060182	lower limb coordination	UBERON:0002103	hindlimb	PATO:0000188	coordination
+OBA:2060183	motor coordination	UBERON:0025525	motor system	PATO:0000188	coordination
+OBA:2060184	whole organism stability	UBERON:0000468	multicellular organism	PATO:0015026	stability
+OBA:2060185	facial muscle performance	UBERON:0001577	facial muscle	PATO:0001509	functionality
+OBA:2060186	peripheral nervous system function	UBERON:0000010	peripheral nervous system	PATO:0001509	functionality
+OBA:2060187	knee joint functionality	UBERON:0001485	knee joint	PATO:0001509	functionality
+OBA:2060188	ankle joint functionality	UBERON:0001488	ankle joint	PATO:0001509	functionality
+OBA:2060189	tendon of biceps brachii functionality	UBERON:0008188	tendon of biceps brachii	PATO:0001509	functionality
+OBA:2060190	brachioradialis functionality	UBERON:0011011	brachioradialis	PATO:0001509	functionality
