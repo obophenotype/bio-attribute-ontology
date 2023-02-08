@@ -4168,3 +4168,7 @@ OBA:2060187	knee joint functionality	UBERON:0001485	knee joint	PATO:0001509	func
 OBA:2060188	ankle joint functionality	UBERON:0001488	ankle joint	PATO:0001509	functionality
 OBA:2060189	tendon of biceps brachii functionality	UBERON:0008188	tendon of biceps brachii	PATO:0001509	functionality
 OBA:2060190	brachioradialis functionality	UBERON:0011011	brachioradialis	PATO:0001509	functionality
+OBA:2040170		GO:0030431	sleep	PATO:0000001	quality
+OBA:2040171	sleep duration trait	GO:0030431	sleep	PATO:0001309	duration
+OBA:2040172		GO:0030431	sleep	PATO:0001005	latency
+OBA:2040173		GO:0030431	sleep	PATO:0002325	onset quality
