@@ -41,6 +41,7 @@ vars:
   size_trait: 'trait_term'
   fovt: "xsd:string"  # FOVT id
   taxa: "taxon"
+  position: "xsd:string" #e.g., lateral, medial
   your_comments: "xsd:string"  # comments, clarifications for users
   your_synonym: "xsd:string" #related synonymn for what other references may call the measurement
 
@@ -48,10 +49,12 @@ data_list_vars:
   def_ref: "'xref'"  # reference(s) to the source(s) of definition
   syn_ref: "'xref" # reference(s) to the source(s) of the measurement name
 
+
 name:
-  text: "%s length" #e.g., humerus length
+  text: "%s %s length" #e.g., humerus length
   vars:
-    - element #e.g., humerus
+    - element
+    - position
  
 annotations:
 
