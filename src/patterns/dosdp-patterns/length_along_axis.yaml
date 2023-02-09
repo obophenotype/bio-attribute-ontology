@@ -27,7 +27,7 @@ relations:
   part_of: BFO:0000050
 
 annotationProperties:
-  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
   xref: oio:hasDbXref
   measured_in_taxon: xsd:string
   not_measured_in_taxon: xsd:string
@@ -44,18 +44,24 @@ vars:
   def_ref: "xsd:string"
   taxa: "taxon"
   your_comments: "xsd:string"  # comments, clarifications for users
+  your_synonym: "xsd:string" #synonym for other terms researchers use for measurement
+  position: "xsd:string" #lateral, medial, etc.
+  syn_ref: "xsd:string"
 
 name:
-  text: "%s length"
+  text: "%s %s length" #e.g., humerus length
   vars:
     - element
+    - position
 
 annotations:
-  - annotationProperty: exact_synonym
-    text: "%s length %s"
+  - annotationProperty: related_synonym
+    text: "%s"
     vars:
-      - element
-      - axis
+      - your_synonym
+    annotations:
+      -annotationProperty: xref
+        value: syn_ref
   - annotationProperty: xref
     text: "FOVT:%s"  # give FOVT id here
     vars:
@@ -84,12 +90,11 @@ def:
       value: def_ref
 
 equivalentTo:
-  text: "'length' and ('characteristic_of' some ('part_of' some %s)) and ('follows axis' some %s)"
+  text: "'length' and ('characteristic_of' some ('part_of' some %s))"
   # if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
   # NOTE: Everything is part of itself.
   vars:
     - element
-    - axis
 
 logical_axioms:
   - axiom_type: subClassOf
