@@ -39,8 +39,6 @@ import_group:
     - <http://swrl.stanford.edu/ontologies/*>
     - <http://identifiers.org/hgnc/*>
     - <http://www.genenames.org/cgi-bin/gene_symbol_report*>
-    - <http://purl.obolibrary.org/obo/OBA_2060180>
-    - <http://purl.obolibrary.org/obo/OBA_2060183>
   products:
     - id: ro
       use_base: True
