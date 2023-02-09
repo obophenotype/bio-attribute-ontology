@@ -4156,7 +4156,6 @@ OBA:2060170		UBERON:0002101	limb	PATO:0000140	position
 OBA:2060171		UBERON:0000966	retina	PATO:0000141	structure
 OBA:2060172		UBERON:0005056	external female genitalia	PATO:0000070	amount
 OBA:2060173		UBERON:0000970	eye	PATO:0000070	amount
-OBA:2060179	body coordination	UBERON:0000468	multicellular organism	PATO:0000188	coordination
 OBA:2060184	whole organism stability	UBERON:0000468	multicellular organism	PATO:0015026	stability
 OBA:2060185	facial muscle performance	UBERON:0001577	facial muscle	PATO:0001509	functionality
 OBA:2060186	peripheral nervous system function	UBERON:0000010	peripheral nervous system	PATO:0001509	functionality
@@ -4168,3 +4167,11 @@ OBA:2040170		GO:0030431	sleep	PATO:0000001	quality
 OBA:2040171	sleep duration trait	GO:0030431	sleep	PATO:0001309	duration
 OBA:2040172		GO:0030431	sleep	PATO:0001005	latency
 OBA:2040173		GO:0030431	sleep	PATO:0002325	onset quality
+OBA:2060179	body coordination	NBO:0000351	body coordination	PATO:0015002	process efficacy
+OBA:2060180	limb coordination	NBO:0000342	limb coordination	PATO:0015002	process efficacy
+OBA:2060181	upper limb coordination	NBO:0000346	upper limb coordination	PATO:0015002	process efficacy
+OBA:2060182	lower limb coordination	NBO:0000345	lower limb coordination	PATO:0015002	process efficacy
+OBA:2060183	motor coordination	NBO:0000339	motor coordination	PATO:0015002	process efficacy
+OBA:2060191	gross motor coordination	NBO:0000347	gross motor coordination	PATO:0015002	process efficacy
+OBA:2060192	fine motor coordination	NBO:0000348	fine motor coordination	PATO:0015002	process efficacy
+OBA:2060193	eye-hand coordination	NBO:0000341	eye-hand coordination	PATO:0015002	process efficacy
