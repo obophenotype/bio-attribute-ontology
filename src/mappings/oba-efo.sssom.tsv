@@ -147,3 +147,29 @@ GO:1903493	response to clopidogrel	response to stimulus	skos:relatedMatch	OBA:20
 GO:1904014	response to serotonin	response to stimulus	skos:relatedMatch	OBA:2040027			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
 GO:1905119	response to haloperidol	response to stimulus	skos:relatedMatch	OBA:2040092			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
 GO:1990054	response to temozolomide	response to stimulus	skos:relatedMatch	OBA:2040120			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010076	femoral neck size	measurement	skos:exactMatch	OBA:0002725 	 neck of femur size		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0010949	upper face morphology measurement	measurement	skos:broadMatch	OBA:VT0003743 	 facial morphology trait		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0007824	hair shape measurement	measurement	skos:exactMatch	OBA:0003493 	 strand of hair shape		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0004577	infant head circumference	measurement	skos:broadMatch	OBA:VT0000047 	 head circumference		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0005852	Heschl's gyrus morphology measurement	measurement	skos:exactMatch	OBA:VT0000803 	 transverse gyrus of Heschl morphology trait		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0005037	aortic root size	measurement	skos:exactMatch	OBA:0005483 	 bulb of aorta size		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0007821	hair morphology measurement	measurement	skos:exactMatch	OBA:VT0000367 	 coat/hair morphology trait		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0010948	lower face morphology measurement	measurement	skos:broadMatch	OBA:VT0003743 	 facial morphology trait		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0004300	longevity	measurement	skos:exactMatch	OBA:VT0005372 	 life span trait		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0004505	telomere length	measurement	skos:exactMatch	OBA:2050100			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0007842	chin morphology measurement	measurement	skos:exactMatch	OBA:2050101			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0009286	heart relative wall thickness	measurement	skos:broadMatch	OBA:2050102			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0004844	hip bone size	measurement	skos:exactMatch	OBA:2050103			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0600005	ganglion cell inner plexiform layer thickness measurement	measurement	skos:broadMatch	OBA:2050104			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0009278	cranial vault morphology measurement	measurement	skos:exactMatch	OBA:2050105			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0007844	forehead morphology measurement	measurement	skos:exactMatch	OBA:2050106			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0005053	internal carotid intimal medial thickness	measurement	skos:broadMatch	OBA:2050107			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0004860	common carotid intimal medial thickness	measurement	skos:broadMatch	OBA:2050108			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0007739	left superior temporal gyrus thickness measurement	measurement	skos:broadMatch	OBA:2050109			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0600002	retinal layer thickness measurement	measurement	skos:exactMatch	OBA:2050110			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0600004	retinal nerve fibre layer thickness measurement	measurement	skos:exactMatch	OBA:2050111			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0007823	facial hair thickness measurement	measurement	skos:exactMatch	OBA:2050112			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0008593	ldl particle size measurement	measurement	skos:exactMatch	OBA:2050113			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0008594	vldl particle size measurement	measurement	skos:exactMatch	OBA:2050114			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0008592	hdl particle size measurement	measurement	skos:exactMatch	OBA:2050115			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0007117	carotid artery intima media thickness	measurement	skos:broadMatch	OBA:2050108			HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
