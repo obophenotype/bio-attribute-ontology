@@ -11,6 +11,8 @@ MAKE_FAST=$(MAKE) IMP=false PAT=false COMP=false MIR=false
 dependencies:
 	pip install -U pip
 	pip install -U oaklib
+	#pip install -U sssom
+	pip install -U pip install git+https://github.com/mapping-commons/sssom-py.git@matentzn-patch-1
 
 %.db: %.owl
 	semsql make $@
@@ -212,26 +214,81 @@ oak_match:
 ### Phenotype Ontology Mappings ############
 ############################################
 
-$(TMPDIR)/oba-%.owl: oba.owl $(TMPDIR)/mirror-%.owl
-	$(ROBOT) merge -i oba.owl -i $(TMPDIR)/mirror-$*.owl \
-		reason materialize --term BFO:0000051 -o $@
+$(TMPDIR)/mirror-base-hp.owl:
+	wget $(OBOBASE)/hp/hp-base.owl -O $@
+.PRECIOUS: $(TMPDIR)/mirror-base-hp.owl
 
-$(TMPDIR)/oba-rg-%.owl: $(TMPDIR)/%.owl
+$(TMPDIR)/mirror-base-zp.owl:
+	wget $(OBOBASE)/zp/zp-base.owl -O $@
+.PRECIOUS: $(TMPDIR)/mirror-base-zp.owl
+
+$(TMPDIR)/mirror-base-xpo.owl:
+	wget $(OBOBASE)/xpo/xpo-base.owl -O $@
+.PRECIOUS: $(TMPDIR)/mirror-base-xpo.owl
+
+$(TMPDIR)/mirror-base-mp.owl:
+	wget $(OBOBASE)/mp/mp-base.owl -O $@
+.PRECIOUS: $(TMPDIR)/mirror-base-mp.owl
+
+PHENOTYPE_IDS = mp hp zp xpo
+PHENOTYPE_BASES = $(patsubst %, $(TMPDIR)/mirror-base-%.owl, $(PHENOTYPE_IDS))
+
+$(TMPDIR)/mirror-all.owl: $(MIRRORDIR)/merged.owl $(PHENOTYPE_BASES)
+	$(ROBOT) merge $(patsubst %, -i %, $^) -o $@
+.PRECIOUS: $(TMPDIR)/mirror-all.owl
+
+qqq:
+	$(MAKE_FAST) $(TMPDIR)/mirror-all.owl
+
+#basebase:
+#	$(MAKE_FAST) tmp/mirror-all.owl
+
+##### CONTINUE FROM HERE, MERGE ALL THIS AND CREATE SSSOM FILES
+
+$(TMPDIR)/oba-%.owl: $(TMPDIR)/mirror-%.owl oba-base.owl
+	$(ROBOT) merge $(patsubst %, -i %, $^) \
+		reason materialize --term BFO:0000051 -o $@
+.PRECIOUS: $(TMPDIR)/oba-%.owl
+
+$(TMPDIR)/oba-rg-%.owl: $(TMPDIR)/oba-%.owl
 	relation-graph --ontology-file $< \
 		--property 'http://purl.obolibrary.org/obo/BFO_0000051' \
 		--output-file $(TMPDIR)/relations.ttl --mode rdf
 	$(ROBOT) merge -i $< -i $(TMPDIR)/relations.ttl \
 		reduce --reasoner ELK --named-classes-only true -o $@
+.PRECIOUS: $(TMPDIR)/oba-rg-%.owl
 
 $(TMPDIR)/oba-rg-%.json: $(TMPDIR)/oba-rg-%.owl
-	$(ROBOT) coonvert -i $< -f json -o $@
+	$(ROBOT) convert -i $< -f json -o $@
+.PRECIOUS: $(TMPDIR)/oba-rg-%.json
 
 ../mappings/oba-%-phenotype.sssom.tsv: $(TMPDIR)/oba-rg-%.json
-	sssom parse $< -I json -C sssom_default_only -F BFO:0000051 -o $@
+	sssom parse $(TMPDIR)/oba-rg-$*.json -I obographs-json -C merged -m config/oba.sssom.config.yml -F BFO:0000051 -o $@
+.PRECIOUS: ../mappings/oba-%-phenotype.sssom.tsv
 
 .PHONY: phenotype_mappings
 phenotype_mappings: 
-	$(MAKE_FAST) ../mappings/oba-hp-phenotype.sssom.tsv
+	#$(MAKE_FAST) ../mappings/oba-mp-phenotype.sssom.tsv
+	#$(MAKE_FAST) ../mappings/oba-hp-phenotype.sssom.tsv
+	$(MAKE_FAST) ../mappings/oba-all-phenotype.sssom.tsv
+	grep -E "HP:.*OBA:" ../mappings/oba-all-phenotype.sssom.tsv | wc -l
+	grep -E "ZP:.*OBA:" ../mappings/oba-all-phenotype.sssom.tsv | wc -l
+	grep -E "MP:.*OBA:" ../mappings/oba-all-phenotype.sssom.tsv | wc -l
+	grep -E "XPO:.*OBA:" ../mappings/oba-all-phenotype.sssom.tsv | wc -l
+	grep -Eo "MP:[0-9]+" ../mappings/oba-all-phenotype.sssom.tsv | sort | uniq | wc -l
+	grep -Eo "HP:[0-9]+" ../mappings/oba-all-phenotype.sssom.tsv | sort | uniq | wc -l
+	grep -Eo "ZP:[0-9]+" ../mappings/oba-all-phenotype.sssom.tsv | sort | uniq | wc -l
+	grep -Eo "XPO:[0-9]+" ../mappings/oba-all-phenotype.sssom.tsv | sort | uniq | wc -l
+
+q:
+	echo $()
+
+$(TMPDIR)/base_unsat.md: $(TMPDIR)/mirror-all.owl 
+	$(ROBOT) explain -i $< -M unsatisfiability --unsatisfiable random:10 --explanation $@
+
+.PHONY: base_unsat
+base_unsat: 
+	$(MAKE_FAST) $(TMPDIR)/base_unsat.md
 
 ##################################
 ##### Utilities ###################
