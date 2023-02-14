@@ -588,20 +588,6 @@ OBA:VT0005211	gastric mucosa thickness	UBERON:0001199	mucosa of stomach	PATO:000
 OBA:VT0005222	somite size trait	UBERON:0002329	somite	PATO:0000117	size
 OBA:VT0005250	Sertoli cell quantity	CL:0000216	Sertoli cell	PATO:0001555	has number of
 OBA:VT0005253	eye physiology trait	UBERON:0000019	camera-type eye	PATO:0001509	functionality
-OBA:VT0005267	olfactory cortex morphology trait	UBERON:0002894	olfactory cortex	PATO:0000051	morphology
-OBA:VT0005269	occipital bone morphology trait	UBERON:0001676	occipital bone	PATO:0000051	morphology
-OBA:VT0005270	zygomatic bone morphology trait	UBERON:0001683	jugal bone	PATO:0000051	morphology
-OBA:VT0005271	lacrimal bone morphology trait	UBERON:0001680	lacrimal bone	PATO:0000051	morphology
-OBA:VT0005272	temporal bone morphology trait	UBERON:0001678	temporal bone	PATO:0000051	morphology
-OBA:VT0005273	basicranium morphology trait	UBERON:0002517	basicranium	PATO:0000051	morphology
-OBA:VT0005274	facial skeleton morphology trait	UBERON:0011156	facial skeleton	PATO:0000051	morphology
-OBA:VT0005277	brainstem morphology trait	UBERON:0002298	brainstem	PATO:0000051	morphology
-OBA:VT0005294	heart ventricle morphology trait	UBERON:0002082	cardiac ventricle	PATO:0000051	morphology
-OBA:VT0005296	humerus morphology trait	UBERON:0000976	humerus	PATO:0000051	morphology
-OBA:VT0005298	clavicle morphology trait	UBERON:0001105	clavicle bone	PATO:0000051	morphology
-OBA:VT0005299	eye posterior chamber morphology trait	UBERON:0001767	posterior chamber of eyeball	PATO:0000051	morphology
-OBA:VT0005300	corneal stroma morphology trait	UBERON:0001777	substantia propria of cornea	PATO:0000051	morphology
-OBA:VT0005301	corneal endothelium morphology trait	UBERON:0001985	corneal endothelium	PATO:0000051	morphology
 OBA:VT0005303	urinary bladder physiology trait	UBERON:0001255	urinary bladder	PATO:0001509	functionality
 OBA:VT0005305	coagulating gland size trait	UBERON:0008807	coagulating gland	PATO:0000117	size
 OBA:VT0005310	salivary gland physiology trait	UBERON:0001044	saliva-secreting gland	PATO:0001509	functionality
@@ -4114,3 +4100,92 @@ OBA:2050052	occipital lobe volume 	UBERON:0002021	occipital lobe	PATO:0000918	vo
 OBA:2050053	lentiform nucleus volume	UBERON:0002263	lentiform nucleus	PATO:0000918	volume
 OBA:2050097	serum amyloid A protein measurement	CHEBI:138152	serum amyloid A	PATO:0000070	amount
 OBA:2050098	serum paraoxonase/arylesterase 1 measurement	PR:000013021	serum paraoxonase/arylesterase 1	PATO:0000070	amount
+OBA:2060000		NBO:0000112	aggressive behavior towards inanimate objects	PATO:0000161	rate
+OBA:2060001		NBO:0000223	contextual conditioning behavior	PATO:0000161	rate
+OBA:2060002		NBO:0000339	motor coordination	PATO:0000161	rate
+OBA:2060003		NBO:0000338	kinesthetic behavior	PATO:0000161	rate
+OBA:2060004		NBO:0000224	cued conditioning behavior	PATO:0000161	rate
+OBA:2060005		NBO:0000015	aggressive behavior	PATO:0000161	rate
+OBA:2060006		NBO:0000092	anxiety-related behavior	PATO:0000161	rate
+OBA:2060007		NBO:0000103	coping behavior	PATO:0000161	rate
+OBA:2060008		NBO:0000097	response to novel environment	PATO:0000161	rate
+OBA:2060009		NBO:0000391	startle reflex	PATO:0000161	rate
+OBA:2060010		NBO:0000381	thigmotaxis	PATO:0000161	rate
+OBA:2060011		NBO:0000448	vertical activity	PATO:0000161	rate
+OBA:2060012		UBERON:0002956	granular layer of cerebellar cortex	PATO:0000915	thickness
+OBA:2060013		UBERON:0005368	hippocampus molecular layer	PATO:0000915	thickness
+OBA:2060014		UBERON:0005371	hippocampus stratum oriens	PATO:0000915	thickness
+OBA:2060015		UBERON:0005372	hippocampus stratum radiatum	PATO:0000915	thickness
+OBA:2060016		UBERON:0002415	tail	PATO:0000915	thickness
+OBA:2060017		NBO:0000013	locomotory behavior	PATO:0000161	rate
+OBA:2060018		NBO:0000332	touch related behavior	PATO:0000161	rate
+OBA:2060019		NBO:0000412	pupillary light reflex	PATO:0000161	rate
+OBA:2060020		NBO:0000578	righting reflex	PATO:0000161	rate
+OBA:2060021		UBERON:0000970	eye	PATO:0001509	functionality
+OBA:2060028		UBERON:0007221	neonatal stage	PATO:0000025	composition
+OBA:2060029		UBERON:0002413	cervical vertebra	PATO:0001555	amount
+OBA:2060030		UBERON:0001094	sacral vertebra	PATO:0001555	amount
+OBA:2060031		UBERON:0001705	nail	PATO:0000014	color
+OBA:2060032		UBERON:0000440	trabecula	PATO:0000070	amount
+OBA:2060033		UBERON:0001095	caudal vertebra	PATO:0000070	amount
+OBA:2060034		UBERON:0002483	trabecular bone tissue	PATO:0000918	volume
+OBA:2060035		UBERON:0003027	cingulate cortex	PATO:0000117	size
+OBA:2060036		UBERON:0000970	eye	PATO:0000117	size
+OBA:2060037		UBERON:0002421	hippocampal formation	PATO:0000117	size
+OBA:2060038		UBERON:0002483	trabecular bone tissue	PATO:0000070	amount
+OBA:2060039		UBERON:0000033	head	PATO:0000052	shape
+OBA:2060040		UBERON:0003252	thoracic rib cage	PATO:0000052	shape
+OBA:2060041		UBERON:0002102	forelimb	PATO:0000070	amount
+OBA:2060042		UBERON:0002415	tail	PATO:0000070	amount
+OBA:2060043		UBERON:0003221	phalanx	PATO:0000141	structure
+OBA:2060044		UBERON:0002228	rib	PATO:0000141	structure
+OBA:2060045		UBERON:0002544	digit	PATO:0000141	structure
+OBA:2060072		UBERON:0010130	embryonic autopod plate	PATO:0000051	morphology
+OBA:2060076		UBERON:0000970	eye	PATO:0000051	morphology
+OBA:2060136		UBERON:0004864	vasculature of retina	PATO:0000051	morphology
+OBA:2060159		UBERON:0008852	visceral yolk sac	PATO:0000051	morphology
+OBA:2060160		UBERON:0004374	vitelline vasculature	PATO:0000051	morphology
+OBA:2060163		UBERON:0013706	bone spine	PATO:0000052	shape
+OBA:2060164		UBERON:0003128	cranium	PATO:0000052	shape
+OBA:2060165		UBERON:0001819	palpebral fissure	PATO:0000921	width
+OBA:2060166		NBO:0000576	pinna reflex	PATO:0000070	amount
+OBA:2060167		NBO:0000391	startle reflex	PATO:0000070	amount
+OBA:2060168		NBO:0000449	spontaneous movement behavior	PATO:0000070	amount
+OBA:2060169		NBO:0000332	touch related behavior	PATO:0000070	amount
+OBA:2060170		UBERON:0002101	limb	PATO:0000140	position
+OBA:2060171		UBERON:0000966	retina	PATO:0000141	structure
+OBA:2060172		UBERON:0005056	external female genitalia	PATO:0000070	amount
+OBA:2060173		UBERON:0000970	eye	PATO:0000070	amount
+OBA:2060184	whole organism stability	UBERON:0000468	multicellular organism	PATO:0015026	stability
+OBA:2060185	facial muscle performance	UBERON:0001577	facial muscle	PATO:0001509	functionality
+OBA:2060186	peripheral nervous system function	UBERON:0000010	peripheral nervous system	PATO:0001509	functionality
+OBA:2060187	knee joint functionality	UBERON:0001485	knee joint	PATO:0001509	functionality
+OBA:2060188	ankle joint functionality	UBERON:0001488	ankle joint	PATO:0001509	functionality
+OBA:2060189	tendon of biceps brachii functionality	UBERON:0008188	tendon of biceps brachii	PATO:0001509	functionality
+OBA:2060190	brachioradialis functionality	UBERON:0011011	brachioradialis	PATO:0001509	functionality
+OBA:2040170		GO:0030431	sleep	PATO:0000001	quality
+OBA:2040171	sleep duration trait	GO:0030431	sleep	PATO:0001309	duration
+OBA:2040172		GO:0030431	sleep	PATO:0001005	latency
+OBA:2040173		GO:0030431	sleep	PATO:0002325	onset quality
+OBA:2050101	chin morphology trait	UBERON:0008199	chin	PATO:0000051	morphology
+OBA:2050102	heart wall thickness	UBERON:0037144	wall of heart	PATO:0000915	thickness
+OBA:2050103	hip bone size	UBERON:0008202	bone of hip region	PATO:0000117	size
+OBA:2050104	ganglion thickness	UBERON:0000045	ganglion	PATO:0000915	thickness
+OBA:2050106	forehead morphology trait	UBERON:0008200	forehead	PATO:0000051	morphology
+OBA:2050107	internal carotid artery thickness	UBERON:0001532	internal carotid artery	PATO:0000915	thickness
+OBA:2050108	carotid artery thickness	UBERON:0005396	carotid artery segment	PATO:0000915	thickness
+OBA:2050109	superior temporal gyrus thickness	UBERON:0002769	superior temporal gyrus	PATO:0000915	thickness
+OBA:2050110	retinal layer thickness	UBERON:0001781	layer of retina	PATO:0000915	thickness
+OBA:2050111	retinal nerve fibre layer thickness	UBERON:0001793	nerve fiber layer of retina	PATO:0000915	thickness
+OBA:2050112	facial hair thickness 	UBERON:0010171	strand of hair of face	PATO:0000915	thickness
+OBA:2050113	LDL particle size 	GO:0034362	low-density lipoprotein particle	PATO:0000117	size	low-density lipoprotein particle size
+OBA:2050114	VLDL particle size	GO:0034361	very-low-density lipoprotein particle	PATO:0000117	size	very-low-density lipoprotein particle size
+OBA:2050115	HDL particle size	GO:0034364	high-density lipoprotein particle	PATO:0000117	size	high-density lipoprotein particle size
+OBA:2060179	body coordination efficacy	NBO:0000351	body coordination	PATO:0015002	process efficacy
+OBA:2060180	limb coordination efficacy	NBO:0000342	limb coordination	PATO:0015002	process efficacy
+OBA:2060181	upper limb coordination efficacy	NBO:0000346	upper limb coordination	PATO:0015002	process efficacy
+OBA:2060182	lower limb coordination efficacy	NBO:0000345	lower limb coordination	PATO:0015002	process efficacy
+OBA:2060183	motor coordination efficacy	NBO:0000339	motor coordination	PATO:0015002	process efficacy
+OBA:2060191	gross motor coordination efficacy	NBO:0000347	gross motor coordination	PATO:0015002	process efficacy
+OBA:2060192	fine motor coordination efficacy	NBO:0000348	fine motor coordination	PATO:0015002	process efficacy
+OBA:2060193	eye-hand coordination efficacy	NBO:0000341	eye-hand coordination	PATO:0015002	process efficacy
