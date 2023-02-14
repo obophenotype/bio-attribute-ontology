@@ -4167,12 +4167,10 @@ OBA:2040170		GO:0030431	sleep	PATO:0000001	quality
 OBA:2040171	sleep duration trait	GO:0030431	sleep	PATO:0001309	duration
 OBA:2040172		GO:0030431	sleep	PATO:0001005	latency
 OBA:2040173		GO:0030431	sleep	PATO:0002325	onset quality
-OBA:2050100	telomere length	GO:0000781	chromosome, telomeric region	PATO:0000122	length
 OBA:2050101	chin morphology trait	UBERON:0008199	chin	PATO:0000051	morphology
 OBA:2050102	heart wall thickness	UBERON:0037144	wall of heart	PATO:0000915	thickness
 OBA:2050103	hip bone size	UBERON:0008202	bone of hip region	PATO:0000117	size
 OBA:2050104	ganglion thickness	UBERON:0000045	ganglion	PATO:0000915	thickness
-OBA:2050105	cranial vault morphology trait	UBERON:0004339	vault of skull	PATO:0000051	morphology
 OBA:2050106	forehead morphology trait	UBERON:0008200	forehead	PATO:0000051	morphology
 OBA:2050107	internal carotid artery thickness	UBERON:0001532	internal carotid artery	PATO:0000915	thickness
 OBA:2050108	carotid artery thickness	UBERON:0005396	carotid artery segment	PATO:0000915	thickness
