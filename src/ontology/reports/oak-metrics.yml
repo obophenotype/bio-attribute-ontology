@@ -1,0 +1,118 @@
+annotation_property_count: 0
+class_count: 7854
+class_count_with_text_definitions: 7769
+class_count_without_text_definitions: 85
+contributor_summary:
+  base64:Y2FyaXBhcms=:
+    contributor_id: base64:Y2FyaXBhcms=
+    contributor_name: caripark
+    role_counts:
+      oio:created_by:
+        facet: oio:created_by
+        filtered_count: 1
+  base64:Y2ptdW5nYWxs:
+    contributor_id: base64:Y2ptdW5nYWxs
+    contributor_name: cjmungall
+    role_counts:
+      oio:created_by:
+        facet: oio:created_by
+        filtered_count: 111
+  base64:YW5uZXRoZXNzZW4=:
+    contributor_id: base64:YW5uZXRoZXNzZW4=
+    contributor_name: annethessen
+    role_counts:
+      oio:created_by:
+        facet: oio:created_by
+        filtered_count: 22
+  base64:ZW9sc3BlY2llcw==:
+    contributor_id: base64:ZW9sc3BlY2llcw==
+    contributor_name: eolspecies
+    role_counts:
+      oio:created_by:
+        facet: oio:created_by
+        filtered_count: 1
+  base64:amVuLmhhbW1vY2s=:
+    contributor_id: base64:amVuLmhhbW1vY2s=
+    contributor_name: jen.hammock
+    role_counts:
+      oio:created_by:
+        facet: oio:created_by
+        filtered_count: 5
+  base64:dmFzaWxldnM=:
+    contributor_id: base64:dmFzaWxldnM=
+    contributor_name: vasilevs
+    role_counts:
+      oio:created_by:
+        facet: oio:created_by
+        filtered_count: 3
+  https://orcid.org/0000-0001-8314-2140:
+    contributor_id: https://orcid.org/0000-0001-8314-2140
+    contributor_name: https://orcid.org/0000-0001-8314-2140
+    role_counts:
+      dcterms:contributor:
+        facet: dcterms:contributor
+        filtered_count: 145
+  https://orcid.org/0000-0002-7073-9172:
+    contributor_id: https://orcid.org/0000-0002-7073-9172
+    contributor_name: https://orcid.org/0000-0002-7073-9172
+    role_counts:
+      dcterms:contributor:
+        facet: dcterms:contributor
+        filtered_count: 145
+  orcid:0000-0001-8415-4848:
+    contributor_id: orcid:0000-0001-8415-4848
+    role_counts:
+      dcterms:contributor:
+        facet: dcterms:contributor
+        filtered_count: 4
+  orcid:0000-0003-2699-3066:
+    contributor_id: orcid:0000-0003-2699-3066
+    role_counts:
+      dcterms:contributor:
+        facet: dcterms:contributor
+        filtered_count: 27
+deprecated_class_count: 67
+deprecated_property_count: 0
+distinct_synonym_count: 8006
+edge_count_by_predicate:
+  RO:0000052:
+    facet: RO:0000052
+    filtered_count: 4146
+  RO:0002314:
+    facet: RO:0002314
+    filtered_count: 2950
+  rdfs:subClassOf:
+    facet: rdfs:subClassOf
+    filtered_count: 14396
+equivalent_classes_axiom_count: 7769
+id: AllOntologies
+mapping_statement_count_by_predicate:
+  oio:hasDbXref:
+    facet: oio:hasDbXref
+    filtered_count: 1
+merged_class_query: 0
+named_individual_count: 0
+non_deprecated_class_count: 7787
+object_property_count: 0
+ontologies:
+- id: obo:oba/oba-baseplus.owl
+  version: obo:oba/releases/2023-01-23/oba-baseplus.owl
+  version_info: '2023-01-23'
+rdf_triple_count: 61958
+subclass_of_axiom_count: 21492
+subset_count: 0
+synonym_statement_count: 8006
+synonym_statement_count_by_predicate:
+  oio:hasBroadSynonym:
+    facet: oio:hasBroadSynonym
+    filtered_count: 4
+  oio:hasExactSynonym:
+    facet: oio:hasExactSynonym
+    filtered_count: 7995
+  oio:hasRelatedSynonym:
+    facet: oio:hasRelatedSynonym
+    filtered_count: 7
+was_generated_by:
+  acted_on_behalf_of: root
+  started_at_time: '2023-01-23T14:29:54.407145'
+  was_associated_with: OAK

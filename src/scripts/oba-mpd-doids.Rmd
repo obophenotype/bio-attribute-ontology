@@ -1,0 +1,132 @@
+---
+title: "oba-mpd-deeper-analysis"
+author: "Robyn L Ball, PhD"
+date: "Dec 15, 2022"
+output: 
+  html_notebook:
+    code_folding: hide
+---
+
+# PURPOSE
+
+Extract DOID to VT mappings using two methods:  
+1. via OBA, HPO, and MONDO  
+2. via DOID to gene to MP to MPD traits to VT terms  
+
+# METHODS
+
+Use existing ontologies to indirectly map these data.
+
+# DATA
+
+for (1), use  
++ http://purl.obolibrary.org/obo/mondo/mappings/mondo_exactmatch_doid.sssom.tsv  
++ http://purl.obolibrary.org/obo/mondo/mappings/mondo_exactmatch_omim.sssom.tsv  
++ https://github.com/monarch-initiative/mondo-ingest/releases/download/v2022-10-08/doid.sssom.tsv  
++ https://github.com/obophenotype/human-phenotype-ontology/releases/tag/v2022-12-15  
++ https://github.com/obophenotype/bio-attribute-ontology/blob/master/src/mappings/oba-vt.sssom.tsv  
++ https://api.triplydb.com/s/Um1dlK6_Y  
+
+for (2), use  
++ https://download.alliancegenome.org/5.3.0/DISEASE-ALLIANCE/HUMAN/DISEASE-ALLIANCE_HUMAN_25.tsv.gz  
++ extract unique human genes and enter these in the MGI/MGD batch upload tool: https://www.informatics.jax.org/batch  
++ MPD ontology to trait measure mappings: https://phenomedoc-prod.jax.org/MPD_downloads/ontology_mappings.csv  
+
+Data were downloaded on Dec 16, 2022 into /data/ directory
+
+# CODE
+
+Set working directory to source code using Session -> Set working directory -> Source file location
+
+If you do not have these packages, use install.packages("package_name") to install them or use Tools -> Install packages
+
+```{r}
+options(stringsAsFactors = FALSE)
+library(tidyverse)
+library(reshape2)
+```
+
+read in data
+
+```{r}
+oba_vt <- read.delim("../data/oba-vt.sssom.tsv")
+oba_hp <- read.csv("../data/OBA-HPO.csv")
+oba_hp$hp <- gsub("http://purl.obolibrary.org/obo/", "", oba_hp$hp)
+oba_hp$hp <- gsub("_", ":", oba_hp$hp)
+oba_hp$oba <- gsub("http://purl.obolibrary.org/obo/", "", oba_hp$oba)
+oba_hp$oba <- gsub("_", ":", oba_hp$oba)
+mondo_omim <- read.delim("../data/mondo_exactmatch_omim.sssom.tsv", skip = 17)
+mondo_doid <- read.delim("../data/mondo_exactmatch_doid.sssom.tsv", skip=16)
+omim_hp <- read.delim("../data/phenotype.hpoa", skip=4)
+terms <- read.delim("../data/ontology_mappings.csv", sep=",")
+disease <- read.delim("../data/DISEASE-ALLIANCE_HUMAN_25.tsv", skip=15, head=T)
+disease %>%
+  select(DBObjectID, DBObjectSymbol, DOID, DOtermName) %>%
+  distinct() -> dd
+write.csv(unique(dd$DBObjectSymbol), "../data/disease_genes.csv", row.names = F, quote=F)
+```
+
+## Merge OBA data to get mappings
+
+DOID -> MONDO -> OMIM -> HP -> OBA -> VT
+
+DOID -> gene -> MP -> MPD measures -> VT
+
+```{r}
+oba_df <- mondo_doid[, c(1,2,4)]
+colnames(oba_df) <- c("MONDO_id", "MONDO_label", "DOID")
+# add OMIM
+mondo_omim <- mondo_omim[, c(1,4)]
+colnames(mondo_omim) <- c("MONDO_id", "OMIM_id")
+oba_df <- merge(oba_df, mondo_omim, by="MONDO_id", all.x=T, all.y=F, sort=F)
+# add HP
+omim_hp <- omim_hp[, c(1,2,4)]
+colnames(omim_hp) <- c("OMIM_id", "OMIM_label", "HP_id")
+oba_df <- merge(oba_df, omim_hp, by="OMIM_id", all.x=T, all.y=F, sort=F)
+# merge with OBA
+colnames(oba_hp) <- c("HP_id", "HP_label", "OBA_id", "OBA_label")
+oba_df <- merge(oba_df, oba_hp, by="HP_id", all.x=T, all.y=F, sort=F)
+# merge with VT
+oba_vt <- oba_vt[, c(1,3)]
+colnames(oba_vt) <- c("VT_id", "OBA_id")
+oba_df <- merge(oba_df, oba_vt, by="OBA_id", all.x=T, all.y=F, sort=F)
+write.csv(oba_df, "oba-hp-omim-mondo-do-vt.csv", row.names = F)
+oba_df$has_VT <- as.numeric(!is.na(oba_df$VT_id))
+table(oba_df$has_VT)
+```
+
+## DOID -> human gene -> MP -> mouse traits -> VT 
+
+Uploaded to MGI batch upload tool: http://www.informatics.jax.org/batch
+
+Got MP terms associated with these genes: disease_genes_MGIBatchReport_20221215_162329.txt
+
+```{r}
+mp <- read.delim("../data/disease_genes_MGIBatchReport_20221215_162329.txt")
+```
+
+for each disease (DOID), find MP terms associated with disease-related genes.
+
+Use these MP terms in MPD to find traits and associated VT terms
+
+```{r}
+mapping <- data.frame()
+doids <- unique(dd$DOID)
+length(doids)
+for (doid in doids) {
+  genes <- unique(dd$DBObjectSymbol[which(dd$DOID==doid)])
+  mps <- unique(mp$MP.ID[which(mp$Input %in% genes)])
+  traits <- unique(terms$measnum[terms$ont_term %in% mps])
+  vterms <- unique(terms$ont_term[terms$measnum %in% traits])
+  vterms <- vterms[grep("^VT", vterms)]
+  terms %>%
+    filter(ont_term %in% vterms) %>%
+    group_by(ont_term) %>%
+    distinct() %>%
+    summarize(nmeas=n()) -> mm
+  mapping <- rbind(mapping, data.frame(DOID=rep(doid, nrow(mm)), mm))
+}
+write.csv(mapping, "../data/DOID2gene2MP2VT_mapping.csv", row.names = F)
+```
+
+

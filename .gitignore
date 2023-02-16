@@ -19,6 +19,8 @@ src/ontology/oba-base.*
 src/ontology/oba-basic.*
 src/ontology/oba-full.*
 src/ontology/oba-simple.*
+src/ontology/oba-baseplus.*
+src/ontology/oba-base.*
 src/ontology/oba-simple-non-classified.*
 
 src/ontology/seed.txt
@@ -55,3 +57,6 @@ src/scripts/.ipynb_checkpoints/
 /oba.json
 /oba.owl
 src/ontology/run.sh.env
+/oba-baseplus.*
+*.db
+*.gz
