@@ -1,15 +1,18 @@
 ---
 pattern_name: length_from_to
 
-pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/bone_length_from_to.yaml
+pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/length_from_to.yaml
 
 description: 'A length trait that is the distance between two anatomical
   reference points measured in a straight line.'
 
 #  examples:
-#    - http://purl.obolibrary.org/obo/FOVT_0001070  # femur length from caput to lateral condyle
-#    - http://purl.obolibrary.org/obo/FOVT_0001077  # length of talus along the midline
-#    - http://purl.obolibrary.org/obo/FOVT_0000007  # femur length from caput to medial condyle
+#    - http://purl.obolibrary.org/obo/FOVT_0001070
+#    # femur length from caput to lateral condyle
+#    - http://purl.obolibrary.org/obo/FOVT_0001077
+#    # length of talus along the midline
+#    - http://purl.obolibrary.org/obo/FOVT_0000007
+#    # femur length from caput to medial condyle
 
 contributors:
   - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
@@ -20,12 +23,14 @@ contributors:
 classes:
   anatomical_entity: UBERON:0001062
   length: PATO:0000122
+  distance: PATO:0000040
   taxon: OBI:0100026
-  trait_term: PATO:0000051
 
 relations:
   characteristic_of: RO:0000052
   part_of: BFO:0000050
+  characteristic_of_part_of: RO:0002314
+  towards: RO:0002503
 
 annotationProperties:
   related_synonym: oio:hasRelatedSynonym
@@ -38,34 +43,30 @@ vars:
   element: 'anatomical_entity'
   from: 'anatomical_entity'
   to: 'anatomical_entity'
-  size_trait: 'trait_term'
   fovt: "xsd:string"  # FOVT id
   taxa: "taxon"
-  position: "xsd:string" #e.g., lateral, medial
+  position: "xsd:string"  # e.g., lateral, medial
   your_comments: "xsd:string"  # comments, clarifications for users
-  your_synonym: "xsd:string" #related synonymn for what other references may call the measurement
+  your_synonym: "xsd:string"  # related synonym
+  # for what other references may call the measurement
 
 data_list_vars:
   def_ref: "'xref'"  # reference(s) to the source(s) of definition
-  syn_ref: "'xref" # reference(s) to the source(s) of the measurement name
-
 
 name:
-  text: "%s %s length" #e.g., humerus length
+  text: "%s length from %s to %s"
   vars:
     - element
-    - position
- 
+    - from
+    - to
+
 annotations:
 
   - annotationProperty: related_synonym
     text: "%s"
     vars:
       - your_synonym
-      annotations:
-        - annotatinProperty: xref
-          value: syn_ref
-  
+
   - annotationProperty: xref
     text: "%s"  # give FOVT IRI here
     vars:
@@ -87,24 +88,26 @@ annotations:
       - your_comments
 
 def:
-  text: "The length of a %s from %s to %s." #The length of a humerus from ventral tubercule of humerus to caput of humerus
+  text: "The length of a %s from %s to %s."  # The length of a humerus from
+  # ventral tubercule of humerus to caput of humerus
   vars:
-    - element #humerus
-    - from #ventral tubercule of humerus 
-    - to #caput of humerus
+    - element  # humerus
+    - from  # ventral tubercule of humerus
+    - to  # caput of humerus
   annotations:
     - annotationProperty: xref
       value: def_ref
 
-equivalentTo:
-  text: "'length' and ('characteristic_of' some ('part_of' some %s))"
-    # if part of a bone [e.g., 'distalmost' ('part of' some humerus)]
-    # NOTE: Everything is part of itself.
-    vars:
-      - element
-
-logical_axioms:
-  - axiom_type: subClassOf
-    text: "%s"
-    vars:
-      - size_trait
+subClassOf:
+  multi_clause:
+    sep: ' and '
+    clauses:
+      - text: "'length' and ('characteristic_of_part_of' some %s)"
+        vars:
+          - element
+      - text: "'distance' and
+        ('characteristic_of' some %s) and
+        ('towards' some %s)"
+        vars:
+          - from
+          - to
