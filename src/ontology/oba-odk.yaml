@@ -6,6 +6,7 @@ repo: bio-attribute-ontology
 edit_format: obo
 release_diff: TRUE
 use_dosdps: TRUE
+remove_owl_nothing: TRUE
 use_templates: TRUE
 import_component_format: ofn
 export_formats:
@@ -39,6 +40,7 @@ import_group:
     - <http://swrl.stanford.edu/ontologies/*>
     - <http://identifiers.org/hgnc/*>
     - <http://www.genenames.org/cgi-bin/gene_symbol_report*>
+    - <http://www.ncbi.nlm.nih.gov/gene/*>
   products:
     - id: ro
       use_base: True
