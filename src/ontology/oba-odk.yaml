@@ -17,7 +17,7 @@ release_artefacts:
   - base
   - full
   - basic
-  - baseplus
+  - baselite
 primary_release: full
 import_group:
   use_base_merging: TRUE
