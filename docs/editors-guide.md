@@ -89,3 +89,41 @@ sh run.sh make sync_sssom_google_sheets
 1. Follow the instructions for adding "measured in" annotations above, except:
    - Add the synonyms [in this sheet here](https://docs.google.com/spreadsheets/d/13qh7dLE38vMyz91oRqj6GzKjFohNazNKAJxKG6Plw1o/edit#gid=473147169)
    - Instead of `sh run.sh make recreate-measured_in`, `sh run.sh make recreate-synonyms`
+
+## Importing terms and updating DOSDP patterns
+
+When creating new OBA terms using DOSDP patterns for example the [entity-attribute pattern](https://github.com/obophenotype/bio-attribute-ontology/blob/master/src/patterns/dosdp-patterns/entity_attribute.yaml), it may be necessary to import terms from other ontologies like CHEBI or PRO, the PRotein Ontology. However, CHEBI, NCBITAXON and PRO are too large to be managed easily as standard imports. To mitigate this situation, they can be managed as slims which are located here:
+* NCBITAXON: https://github.com/obophenotype/ncbitaxon/tree/master/subsets
+* PRO: https://github.com/obophenotype/pro_obo_slim
+* CHEBI: https://github.com/obophenotype/chebi_obo_slim
+
+Sometimes, a new term you are using in a DOSDP pattern is *not yet* in a slim. So you will have to *refresh* the slim first. 
+
+### Refresh PRO Slim:
+
+*Note*: you will need at least 32 GB RAM for this
+```
+git clone https://github.com/obophenotype/pro_obo_slim
+cd pro_obo_slim
+git checkout -b refresh20230312
+# Add your terms to seed.txt, and then SORT THE FILE and check that there are no duplicated terms.
+# Make sure that DOCKER is running. To set up DOCKER refer to https://oboacademy.github.io/obook/howto/odk-setup/
+sh odk.sh make all
+git commit -a -m "refresh slim after adding terms for OBA"
+git push --set-upstream origin refresh20230312
+```
+When this is done, make a *pull request*.
+
+### Refresh CHEBI Slim
+```
+git clone https://github.com/obophenotype/chebi_obo_slim
+cd chebi_obo_slim
+# Follow the instructions for the PRO slim from here.
+```
+
+The *full process* of refreshing the DOSDP patterns:
+1.	Check if new PRO / Chebi terms are not in slim, if they are not, add them as described above.
+2.	Run `sh run.sh make IMP=false MIR=false ../patterns/definitions.owl` to generate a new pattern ontology component.
+3.	Run `sh run.sh make refresh-merged` to import the new terms.
+4.	Run `sh run.sh make IMP=false MIR=false ../patterns/definitions.owl` again to generate the labels correctly where new terms are concerned.
+
