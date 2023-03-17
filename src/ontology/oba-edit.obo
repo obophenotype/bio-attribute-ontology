@@ -1287,7 +1287,7 @@ name: obsolete race
 is_obsolete: true
 
 [Term]
-id: OBA:2020000 ! age of onset of disease or disorder
+id: OBA:2020000 ! age of onset of disease
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -1307,11 +1307,11 @@ id: OBA:2020004 ! chemical in serum amount
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:2060008 ! whole organism stability
+id: OBA:2060008 ! response to novel environment rate
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:2060014 ! brachioradialis functionality
+id: OBA:2060014 ! hippocampus stratum oriens thickness
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -1348,18 +1348,18 @@ is_a: OBA:0000001 ! biological attribute
 is_a: PATO:0000070 ! amount
 
 [Typedef]
-id: http://purl.org/dc/elements/1.1/contributor
-is_metadata_tag: true
-
-[Typedef]
 id: OBA:2050187
-definition: A property that relates a trait/biological attribute to a taxon to express that the trait is usually measured for that taxon.
 name: measured in taxon
+def: "A property that relates a trait/biological attribute to a taxon to express that the trait is usually measured for that taxon." []
 is_metadata_tag: true
 
 [Typedef]
 id: OBA:2050188
-definition: A property that relates a trait/biological attribute to a taxon to express that the trait is not usually measured for that taxon.
 name: not measured in taxon
+def: "A property that relates a trait/biological attribute to a taxon to express that the trait is not usually measured for that taxon." []
+is_metadata_tag: true
+
+[Typedef]
+id: http://purl.org/dc/elements/1.1/contributor
 is_metadata_tag: true
 
