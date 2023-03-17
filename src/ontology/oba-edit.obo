@@ -1351,3 +1351,15 @@ is_a: PATO:0000070 ! amount
 id: http://purl.org/dc/elements/1.1/contributor
 is_metadata_tag: true
 
+[Typedef]
+id: OBA:2050187
+definition: A property that relates a trait/biological attribute to a taxon to express that the trait is usually measured for that taxon.
+name: measured in taxon
+is_metadata_tag: true
+
+[Typedef]
+id: OBA:2050188
+definition: A property that relates a trait/biological attribute to a taxon to express that the trait is not usually measured for that taxon.
+name: not measured in taxon
+is_metadata_tag: true
+
