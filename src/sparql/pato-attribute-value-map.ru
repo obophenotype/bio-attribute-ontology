@@ -7,11 +7,24 @@ prefix oio: <http://www.geneontology.org/formats/oboInOwl#>
 prefix def: <http://purl.obolibrary.org/obo/IAO_0000115>
 prefix owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+
 
 # Get all classes related to diseases that 
-SELECT DISTINCT ?parent ?parent_label ?entity ?entity_label WHERE
-{
+CONSTRUCT {
+  ?parent a owl:Class .
+  ?entity a owl:Class .
+  skos:broadMatch a owl:AnnotationProperty .
+  ?entity rdfs:label ?entity_label .
+  ?parent rdfs:label ?parent_label .
+  ?entity skos:broadMatch ?parent .
+  ?parent rdfs:subClassOf PATO:0000001 .
+  ?entity rdfs:subClassOf PATO:0000001 .
+}
 
+WHERE
+{
+  
   ?parent rdfs:subClassOf+ PATO:0000001 .
   ?parent oio:inSubset <http://purl.obolibrary.org/obo/pato#attribute_slim> .
   ?entity rdfs:subClassOf+ ?parent .

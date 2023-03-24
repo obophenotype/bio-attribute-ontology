@@ -287,6 +287,13 @@ tmp/pato.owl:
 ../mappings/pato_attribute_value.csv: tmp/pato.owl ../sparql/pato-attribute-value-map.sparql
 	$(ROBOT) query -i $< --query ../sparql/pato-attribute-value-map.sparql $@
 
+prepare_release: ../mappings/pato_attribute_value.sssom.tsv
+
+../mappings/pato_attribute_value.sssom.tsv: tmp/pato.owl ../sparql/pato-attribute-value-map.sparql
+	$(ROBOT) query -i $< --format ttl --query ../sparql/pato-attribute-value-map.ru tmp/construct_pato_attribute.ttl
+	$(ROBOT) annotate -i tmp/construct_pato_attribute.ttl  --ontology-iri "http://purl.obolibrary.org/obo/pato/mappings.owl"  -f json -o tmp/construct_pato_attribute.json
+	sssom parse tmp/construct_pato_attribute.json -I obographs-json -C merged -m config/oba.sssom.config.yml -o $@ 
+
 $(TMPDIR)/base_unsat.md: $(TMPDIR)/mirror-all.owl 
 	$(ROBOT) explain -i $< -M unsatisfiability --unsatisfiable random:10 --explanation $@
 
