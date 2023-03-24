@@ -7,9 +7,10 @@
 #   skos: http://www.w3.org/2004/02/skos/core#
 #   sssom: https://w3id.org/sssom/
 # license: https://creativecommons.org/publicdomain/zero/1.0/
-# mapping_date: '2023-01-20'
-# mapping_set_id: http://purl.obolibrary.org/obo/oba/mappings/oba-hp.sssom.tsv
-# subject_source: http://purl.obolibrary.org/obo/mondo.owl
+# mapping_date: '2023-03-24'
+# mapping_set_id: http://purl.obolibrary.org/obo/oba/mappings/pato_attribute_value.sssom.tsv
+# object_source: http://purl.obolibrary.org/obo/pato.owl
+# subject_source: http://purl.obolibrary.org/obo/pato.owl
 subject_id	subject_label	predicate_id	object_id	mapping_justification
 PATO:0000303	increased speed	skos:broadMatch	PATO:0000008	semapv:UnspecifiedMatching
 PATO:0000304	decreased speed	skos:broadMatch	PATO:0000008	semapv:UnspecifiedMatching
