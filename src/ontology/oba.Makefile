@@ -280,8 +280,12 @@ phenotype_mappings:
 	grep -Eo "ZP:[0-9]+" ../mappings/oba-all-phenotype.sssom.tsv | sort | uniq | wc -l
 	grep -Eo "XPO:[0-9]+" ../mappings/oba-all-phenotype.sssom.tsv | sort | uniq | wc -l
 
-q:
-	echo $()
+
+tmp/pato.owl:
+	wget "http://purl.obolibrary.org/obo/pato.owl" -O $@
+
+../mappings/pato_attribute_value.csv: tmp/pato.owl ../sparql/pato-attribute-value-map.sparql
+	$(ROBOT) query -i $< --query ../sparql/pato-attribute-value-map.sparql $@
 
 $(TMPDIR)/base_unsat.md: $(TMPDIR)/mirror-all.owl 
 	$(ROBOT) explain -i $< -M unsatisfiability --unsatisfiable random:10 --explanation $@
