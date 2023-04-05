@@ -280,8 +280,20 @@ phenotype_mappings:
 	grep -Eo "ZP:[0-9]+" ../mappings/oba-all-phenotype.sssom.tsv | sort | uniq | wc -l
 	grep -Eo "XPO:[0-9]+" ../mappings/oba-all-phenotype.sssom.tsv | sort | uniq | wc -l
 
-q:
-	echo $()
+
+tmp/pato.owl:
+	wget "http://purl.obolibrary.org/obo/pato.owl" -O $@
+
+../mappings/pato_attribute_value.csv: tmp/pato.owl ../sparql/pato-attribute-value-map.sparql
+	$(ROBOT) query -i $< --query ../sparql/pato-attribute-value-map.sparql $@
+
+prepare_release: ../mappings/pato_attribute_value.sssom.tsv
+
+../mappings/pato_attribute_value.sssom.tsv: tmp/pato.owl ../sparql/pato-attribute-value-map.sparql
+	$(ROBOT) query -i $< --format ttl --query ../sparql/pato-attribute-value-map.ru tmp/construct_pato_attribute.ttl
+	$(ROBOT) annotate -i tmp/construct_pato_attribute.ttl --ontology-iri "http://purl.obolibrary.org/obo/pato/mappings.owl" convert -f json -o tmp/construct_pato_attribute.json
+	sssom parse tmp/construct_pato_attribute.json -I obographs-json -C merged -m config/oba.sssom.config.yml -o $@ 
+	sssom annotate $@ --mapping_set_id "http://purl.obolibrary.org/obo/oba/mappings/pato_attribute_value.sssom.tsv" --mapping_date $(TODAY) --subject_source http://purl.obolibrary.org/obo/pato.owl --object_source http://purl.obolibrary.org/obo/pato.owl -o $@ 
 
 $(TMPDIR)/base_unsat.md: $(TMPDIR)/mirror-all.owl 
 	$(ROBOT) explain -i $< -M unsatisfiability --unsatisfiable random:10 --explanation $@
