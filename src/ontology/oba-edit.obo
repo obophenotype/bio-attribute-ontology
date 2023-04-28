@@ -372,6 +372,7 @@ is_a: PATO:0000161 ! rate
 id: OBA:0003870
 name: aging onset quality
 def: "The onset quality of aging." []
+is_a: OBA:0000001 ! biological attribute
 is_a: PATO:0002325 ! onset quality
 property_value: http://purl.org/dc/elements/1.1/date "2023-04-28T16:10:08Z" xsd:dateTime
 property_value: http://www.geneontology.org/formats/oboInOwl#http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-8314-2140
@@ -380,6 +381,7 @@ property_value: http://www.geneontology.org/formats/oboInOwl#http://purl.org/dc/
 id: OBA:0005494
 name: aging rate
 def: "The rate of the aging process." []
+is_a: OBA:0000001 ! biological attribute
 is_a: PATO:0000161 ! rate
 property_value: http://purl.org/dc/elements/1.1/date "2023-04-28T16:14:19Z" xsd:dateTime
 property_value: http://www.geneontology.org/formats/oboInOwl#http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-8314-2140
