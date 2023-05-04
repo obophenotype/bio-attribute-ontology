@@ -1,4 +1,4 @@
-defined_class	defined_class_name	entity	entity_name	attribute	attribute_name	location	location_name
+defined_class	defined_class_name	entity	entity_name	attribute	attribute_name	location	location_name	exact_synonyms	xrefs
 OBA:0000016	angiotensin levels in blood	PR:000036009	angiotensin II	PATO:0000070	amount	UBERON:0000178	blood
 OBA:0000090	lung blood pressure	UBERON:0000178	blood	PATO:0001025	pressure	UBERON:0002048	lung
 OBA:0000098	membrane lipid distribution	CHEBI:18059	lipid	PATO:0000060	spatial pattern	GO:0016020	membrane
@@ -250,5 +250,15 @@ OBA:2060175		CHEBI:35143	hemoglobin	PATO:0000070	amount	UBERON:0000178	blood
 OBA:2060176		CHEBI:25107	magnesium atom	PATO:0000070	amount	UBERON:0001088	urine
 OBA:2060177             PR:000022172    aspartate aminotransferase      PATO:0000070    amount  UBERON:0000178  blood
 OBA:2060178		PR:000003918	albumin	PATO:0000070	amount	UBERON:0000178	blood
+OBA:2050192	breast cancer anti-estrogen resistance protein 3 amount	PR:000004677	breast cancer anti-estrogen resistance protein 3	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050193	collagen type I alpha chain amount	PR:000003263	collagen type I alpha chain	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050195	kidney injury molecule 1 amount	PR:000008453	hepatitis A virus cellular receptor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	hepatitis A virus cellular receptor 1 amount
+OBA:2050197	parathyroid hormone-related protein amount	PR:000013433	parathyroid hormone-related protein	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050199	pituitary adenylate cyclase-activating polypeptide amount	PR:000003761	pituitary adenylate cyclase-activating polypeptide	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050200	prostate specific antigen amount	PR:000003015	prostate-specific antigen	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050205	C-C motif chemokine 17 amount	PR:000001989	C-C motif chemokine 17	PATO:0000070	amount	UBERON:0001062	anatomical entity	thymus and activation regulated chemokine amount
+OBA:2050206	thyroid peroxidase amount	PR:000016584 	thyroid peroxidase	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050207	tissue plasminogen activator amount	PR:000012825	tissue-type plasminogen activator	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050208	tissue factor pathway inhibitor amount	PR:000016279	tissue factor pathway inhibitor	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2050209	kidney amyloid amount	PR:000036193	amyloid beta peptide	PATO:0000070	amount	UBERON:0002113	kidney
 OBA:2050210	liver amyloid amount	PR:000036193	amyloid beta peptide	PATO:0000070	amount	UBERON:0002107	liver
