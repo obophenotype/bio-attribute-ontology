@@ -2733,7 +2733,6 @@ OBA:0003866		UBERON:0005057	immune organ	PATO:0001509	functionality
 OBA:0003867		UBERON:0001833	lip	PATO:0000060	spatial pattern
 OBA:0003868		UBERON:0001833	lip	PATO:0000117	size
 OBA:0003869		UBERON:0001833	lip	PATO:0000119	height
-OBA:0003870		GO:0007568	aging	PATO:0002325	onset quality
 OBA:0003871		GO:0061053	somite development	PATO:0002325	onset quality
 OBA:0003872		GO:0048246	macrophage chemotaxis	PATO:0000161	rate
 OBA:0003874		UBERON:0010166	coat of hair	PATO:0000141	structure
@@ -3649,7 +3648,6 @@ OBA:0005490		GO:0004607	phosphatidylcholine-sterol O-acyltransferase activity	PA
 OBA:0005491		GO:0004602	glutathione peroxidase activity	PATO:0000161	rate
 OBA:0005492		GO:0004340	glucokinase activity	PATO:0000161	rate
 OBA:0005493		GO:0004365	glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity	PATO:0000161	rate
-OBA:0005494		GO:0007568	aging	PATO:0000161	rate
 OBA:0005495		GO:0005739	mitochondrion	PATO:0000117	size
 OBA:0005498		GO:0030061	mitochondrial crista	PATO:0002264	organization quality
 OBA:0005505		UBERON:0002086	sinoatrial valve	PATO:0000070	amount
