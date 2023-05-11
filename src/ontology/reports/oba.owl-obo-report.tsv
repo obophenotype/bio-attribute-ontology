@@ -1,12 +1,4 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	duplicate_definition	OBA:2050131	IAO:0000115	The amount of a vascular endothelial growth factor A.
-ERROR	duplicate_definition	OBA:2050134	IAO:0000115	The amount of a vascular endothelial growth factor A.
-ERROR	duplicate_definition	OBA:2050145	IAO:0000115	The amount of a hepatocyte growth factor activator.
-ERROR	duplicate_definition	OBA:2050182	IAO:0000115	The amount of a hepatocyte growth factor activator.
-ERROR	duplicate_exact_synonym	OBA:2050131	oboInOwl:hasExactSynonym	amount of vascular endothelial growth factor A
-ERROR	duplicate_exact_synonym	OBA:2050134	oboInOwl:hasExactSynonym	amount of vascular endothelial growth factor A
-ERROR	duplicate_exact_synonym	OBA:2050145	oboInOwl:hasExactSynonym	amount of hepatocyte growth factor activator
-ERROR	duplicate_exact_synonym	OBA:2050182	oboInOwl:hasExactSynonym	amount of hepatocyte growth factor activator
 WARN	missing_definition	OBA:0000001	IAO:0000115	
 WARN	missing_definition	OBA:0000069	IAO:0000115	
 WARN	missing_definition	OBA:0000085	IAO:0000115	
