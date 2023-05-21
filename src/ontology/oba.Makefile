@@ -198,6 +198,30 @@ oak_diff:
 #### OAK Matching Pipeline ################
 ###########################################
 
+curation/protein-pr-matches.tsv: curation/protein-2023-05-19.txt
+	sed -e 's/measurement//g' $< > tmp/matches.txt
+	runoak  --stacktrace --input sqlite:obo:pr annotate --matches-whole-text --text-file tmp/matches.txt -O csv -o $@
+
+curation/protein-oba-matches.tsv: curation/protein-2023-05-19.txt
+	sed -e 's/measurement//g' $< > tmp/matches.txt
+	runoak  --stacktrace --input sqlite:obo:oba annotate --matches-whole-text --text-file tmp/matches.txt -O csv -o $@
+
+curation/protein-gilda-matches.tsv: curation/protein-2023-05-19.txt
+	sed -e 's/measurement//g' $< > tmp/matches.txt
+	runoak  --stacktrace --input gilda: annotate --matches-whole-text --text-file tmp/matches.txt -O csv -o $@
+
+curation/protein-bioportal-matches.tsv: curation/protein-2023-05-19.txt
+	sed -e 's/measurement//g' $< > tmp/matches.txt
+	runoak  --stacktrace --input bioportal: annotate --matches-whole-text --text-file tmp/matches.txt -O csv -o $@
+
+.PHONY: protein-matches
+
+protein-matches:
+	$(MAKE) curation/protein-bioportal-matches.tsv
+	$(MAKE) curation/protein-gilda-matches.tsv
+	$(MAKE) curation/protein-oba-matches.tsv
+	$(MAKE) curation/protein-pr-matches.tsv
+
 curation/impc-matches.txt:
 	runoak annotate --text-file curation/impc-traits-2022-12-01.txt -o curation/impc-matches.txt sqlite:oba.owl
 
