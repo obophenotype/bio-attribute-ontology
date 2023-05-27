@@ -52,8 +52,7 @@ $(TMPDIR)/sl_metadata.sparql: $(IMPORTDIR)/swisslipids_terms.txt
 	echo "} VALUES ?p { <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2000/01/rdf-schema#label> <http://purl.obolibrary.org/obo/chebi/inchi> <http://purl.obolibrary.org/obo/chebi/formula> } GRAPH <https://sparql.swisslipids.org/swisslipids> { ?s ?p ?o. } }" >> $@
 
 $(TMPDIR)/sl_%.ttl: $(TMPDIR)/sl_%.sparql
-	tr '\n' ' ' < $< > tmp/oneline.txt
-	$(eval SL_OL := $(shell cat tmp/oneline.txt | sed 's/\#/\\#/g'))
+	$(eval SL_OL := $(shell tr '\n' ' ' < $< | sed 's/\#/\\#/g'))
 	curl -L -H 'accept:text/turtle' 'https://beta.sparql.swisslipids.org/sparql/' \
 		--data-urlencode 'query=$(SL_OL)' -o $@
 	
