@@ -84,6 +84,9 @@ import_group:
       make_base: TRUE
     - id: bfo
       make_base: TRUE
+    - id: swisslipids
+      mirror_type: custom
+      module_type: filter
 components:
   products:
     - filename: obsoletes.owl
