@@ -65,6 +65,12 @@ SL_MODULES = $(patsubst %, $(TMPDIR)/sl_%.ttl, $(SL_MODULES_IDS))
 mirror/swisslipids.owl: $(SL_MODULES)
 	$(ROBOT) merge $(patsubst %, -i %, $^) convert  --output $@
 
+$(MIRRORDIR)/lipidmaps.owl: $(TEMPLATEDIR)/lipidmaps.tsv
+	if [ $(IMP) = true ] ; then $(ROBOT) template  \
+		--prefix "LM: https://bioregistry.io/lipidmaps:" \
+		$(patsubst %, --template %, $^) \
+		$(ANNOTATE_CONVERT_FILE); fi
+
 # FULL is overwritten because it needs materialize
 $(ONT)-full.owl: $(SRC) $(OTHER_SRC)
 	echo "INFO: Running FULL release, which is customised for OBA."

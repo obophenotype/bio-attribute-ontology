@@ -99,6 +99,13 @@ When creating new OBA terms using DOSDP patterns for example the [entity-attribu
 
 Sometimes, a new term you are using in a DOSDP pattern is *not yet* in a slim. So you will have to *refresh* the slim first. 
 
+### Refresh LIPID Maps
+
+LIPID map is currently (03.06.2023) not imported, but curated manually, because https://www.lipidmaps.org/resources/sparql does not work. To update the LIPID maps imports, you have to
+
+- Add a LIPID term to https://github.com/obophenotype/bio-attribute-ontology/blob/master/src/templates/external.tsv
+- When refreshing the imports in the usual way, this TSV file (a ROBOT template) is built in place of a proper LIPID MAPS mirror.
+
 ### Refresh PRO Slim:
 
 *Note*: you will need at least 32 GB RAM for this
