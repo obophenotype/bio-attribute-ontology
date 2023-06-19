@@ -261,13 +261,13 @@ OBA:2050207	tissue plasminogen activator amount	PR:000012825	tissue-type plasmin
 OBA:2050208	tissue factor pathway inhibitor amount	PR:000016279	tissue factor pathway inhibitor	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2050209	kidney amyloid amount	PR:000036193	amyloid beta peptide	PATO:0000070	amount	UBERON:0002113	kidney
 OBA:2050210	liver amyloid amount	PR:000036193	amyloid beta peptide	PATO:0000070	amount	UBERON:0002107	liver
-OBA:2040177		CHEBI:17761	ceramide	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2040178		CHEBI:18035	diglyceride	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2040179		CHEBI:64482	phosphatidylcholine	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2040180		CHEBI:16038	phosphatidylethanolamine	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2040181		CHEBI:28874	phosphatidylinositol	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2040182		CHEBI:64583	sphingomyelin	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2040183		CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2040177	level of ceramide	CHEBI:17761	ceramide	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2040178	level of diglyceride	CHEBI:18035	diglyceride	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2040179	level of phosphatidylcholine	CHEBI:64482	phosphatidylcholine	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2040180	level of phosphatidylethanolamine	CHEBI:16038	phosphatidylethanolamine	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2040181	level of phosphatidylinositol	CHEBI:28874	phosphatidylinositol	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2040182	level of sphingomyelin	CHEBI:64583	sphingomyelin	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2040183	level of triglyceride	CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2040184	level of chordin in blood serum	PR:000000010	chordin	PATO:0000070	amount	UBERON:0001977	blood serum
 OBA:2040185	level of BMP receptor type-1B in blood serum	PR:000000036	BMP receptor type-1B	PATO:0000070	amount	UBERON:0001977	blood serum
 OBA:2040186	level of DNA-binding protein inhibitor ID-1 in blood serum	PR:000000039	DNA-binding protein inhibitor ID-1	PATO:0000070	amount	UBERON:0001977	blood serum
@@ -5037,3 +5037,33 @@ OBA:2045021	level of tumor necrosis factor receptor superfamily member 10C in bl
 OBA:2045022	level of transferrin receptor protein 1 in blood serum	PR:000001945	transferrin receptor protein 1	PATO:0000070	amount	UBERON:0001977	blood serum
 OBA:2045023	level of thyrotropin subunit beta in blood serum	PR:000016724	thyrotropin subunit beta	PATO:0000070	amount	UBERON:0001977	blood serum
 OBA:2045028	level of lymphotactin in blood serum	PR:000002140	lymphotactin	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045029	level of ceramide in blood serum	CHEBI:17761	ceramide	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045030	level of diglyceride in blood serum	CHEBI:18035	diglyceride	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045031	level of phosphatidylcholine in blood serum	CHEBI:64482	phosphatidylcholine	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045032	level of phosphatidylethanolamine in blood serum	CHEBI:16038	phosphatidylethanolamine	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045033	level of phosphatidylinositol in blood serum	CHEBI:28874	phosphatidylinositol	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045034	level of sphingomyelin in blood serum	CHEBI:64583	sphingomyelin	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045035	level of triglyceride in blood serum	CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045036	level of N-stearoyltaurine in blood serum	CHEBI:132479	N-stearoyltaurine	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045037	level of (5Z,7E)-(3S)-26,26,26-trifluoro-27-nor-9,10-seco-5,7,10(19)-cholestatriene-3,25-diol in blood serum	CHEBI:137137	(5Z,7E)-(3S)-26,26,26-trifluoro-27-nor-9,10-seco-5,7,10(19)-cholestatriene-3,25-diol	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045038	level of 1-(8-[3]-ladderane-octanoyl)-2-(8-[3]-ladderane-octanyl)-sn-glycerol in blood serum	CHEBI:137149	1-(8-[3]-ladderane-octanoyl)-2-(8-[3]-ladderane-octanyl)-sn-glycerol	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045039	level of campesterol 3-beta-D-glucoside in blood serum	CHEBI:145072	campesterol 3-beta-D-glucoside	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045040	level of palmitoleamide in blood serum	CHEBI:146162	palmitoleamide	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045041	level of 1-O-alpha-D-Glucopyranosyl-1,2-nonadecandiol in blood serum	CHEBI:165498	1-O-alpha-D-Glucopyranosyl-1,2-nonadecandiol	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045042	level of Margaroyl-EA in blood serum	CHEBI:165587	Margaroyl-EA	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045043	level of N-(3E-hexadecenoyl)-deoxysphing-4-enine-1-sulfonate in blood serum	CHEBI:169570	N-(3E-hexadecenoyl)-deoxysphing-4-enine-1-sulfonate	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045044	level of (4E,8E,10E-d18:3)sphingosine in blood serum	CHEBI:177104	(4E,8E,10E-d18:3)sphingosine	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045045	level of PS(O-20:0/22:4(7Z,10Z,13Z,16Z)) in blood serum	CHEBI:180636	PS(O-20:0/22:4(7Z,10Z,13Z,16Z))	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045046	level of PC(19:3(10Z,13Z,16Z)/0:0) in blood serum	CHEBI:184217	PC(19:3(10Z,13Z,16Z)/0:0)	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045047	level of PS(O-20:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z)) in blood serum	CHEBI:185095	PS(O-20:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045048	level of 5-hydroperoxy-7-[3,5-epidioxy-2-(2-octenyl)-cyclopentyl]-6-heptenoic acid in blood serum	CHEBI:185277	5-hydroperoxy-7-[3,5-epidioxy-2-(2-octenyl)-cyclopentyl]-6-heptenoic acid	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045049	level of Sphingofungin B in blood serum	CHEBI:185613	Sphingofungin B	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045050	level of N-linolenoyl glutamine in blood serum	CHEBI:186604	N-linolenoyl glutamine	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045051	level of Ipurolic acid in blood serum	CHEBI:187431	Ipurolic acid	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045052	level of dialkylglycerol in blood serum	CHEBI:37812	dialkylglycerol	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045053	level of 12-aminododecanoic acid in blood serum	CHEBI:42025	12-aminododecanoic acid	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045054	level of 25-hydroxycholesterol in blood serum	CHEBI:42977	25-hydroxycholesterol	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045055	level of 1-O-oleoyl-sn-glycero-3-phosphoserine in blood serum	CHEBI:52649	1-O-oleoyl-sn-glycero-3-phosphoserine	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045056	level of (E)-isoheptadec-2-enoyl-CoA in blood serum	CHEBI:72006	(E)-isoheptadec-2-enoyl-CoA	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045057	level of ceramide phosphoethanolamine in blood serum	CHEBI:73204	ceramide phosphoethanolamine	PATO:0000070	amount	UBERON:0001977	blood serum
+OBA:2045058	level of N-gondoylethanolamine in blood serum	CHEBI:73725	N-gondoylethanolamine	PATO:0000070	amount	UBERON:0001977	blood serum
