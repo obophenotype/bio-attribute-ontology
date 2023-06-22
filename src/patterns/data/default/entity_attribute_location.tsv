@@ -261,13 +261,13 @@ OBA:2050207	tissue plasminogen activator amount	PR:000012825	tissue-type plasmin
 OBA:2050208	tissue factor pathway inhibitor amount	PR:000016279	tissue factor pathway inhibitor	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2050209	kidney amyloid amount	PR:000036193	amyloid beta peptide	PATO:0000070	amount	UBERON:0002113	kidney
 OBA:2050210	liver amyloid amount	PR:000036193	amyloid beta peptide	PATO:0000070	amount	UBERON:0002107	liver
-OBA:2040177		CHEBI:17761	ceramide	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2040178		CHEBI:18035	diglyceride	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2040179		CHEBI:64482	phosphatidylcholine	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2040180		CHEBI:16038	phosphatidylethanolamine	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2040181		CHEBI:28874	phosphatidylinositol	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2040182		CHEBI:64583	sphingomyelin	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2040183		CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2040177	level of ceramide	CHEBI:17761	ceramide	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2040178	level of diglyceride	CHEBI:18035	diglyceride	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2040179	level of phosphatidylcholine	CHEBI:64482	phosphatidylcholine	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2040180	level of phosphatidylethanolamine	CHEBI:16038	phosphatidylethanolamine	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2040181	level of phosphatidylinositol	CHEBI:28874	phosphatidylinositol	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2040182	level of sphingomyelin	CHEBI:64583	sphingomyelin	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2040183	level of triglyceride	CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2040184	level of chordin in blood serum	PR:000000010	chordin	PATO:0000070	amount	UBERON:0001977	blood serum
 OBA:2040185	level of BMP receptor type-1B in blood serum	PR:000000036	BMP receptor type-1B	PATO:0000070	amount	UBERON:0001977	blood serum
 OBA:2040186	level of DNA-binding protein inhibitor ID-1 in blood serum	PR:000000039	DNA-binding protein inhibitor ID-1	PATO:0000070	amount	UBERON:0001977	blood serum
