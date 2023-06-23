@@ -45,6 +45,12 @@ $(TMPDIR)/sl_subclassof.sparql: $(IMPORTDIR)/swisslipids_terms.txt
 	cat $< >> $@
 	echo "} GRAPH <https://sparql.swisslipids.org/swisslipids> { ?s rdfs:subClassOf+ ?o. ?o rdfs:label ?l . ?s owl:equivalentClass ?eqs . ?o owl:equivalentClass ?eqo . } }" >> $@
 
+$(TMPDIR)/sl_subclasslipid.sparql: $(IMPORTDIR)/swisslipids_terms.txt
+	echo $(SL_PREFIXES) > $@
+	echo "CONSTRUCT { ?s rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_18059> . } WHERE { VALUES ?s { " >> $@
+	cat $< >> $@
+	echo "} GRAPH <https://sparql.swisslipids.org/swisslipids> { ?s rdfs:label ?l . } }" >> $@
+
 $(TMPDIR)/sl_metadata.sparql: $(IMPORTDIR)/swisslipids_terms.txt
 	echo $(SL_PREFIXES) > $@
 	echo "CONSTRUCT { ?s ?p ?o. } WHERE { VALUES ?s { " >> $@
@@ -56,14 +62,14 @@ $(TMPDIR)/sl_%.ttl: $(TMPDIR)/sl_%.sparql
 	curl -L -H 'accept:text/turtle' 'https://beta.sparql.swisslipids.org/sparql/' \
 		--data-urlencode 'query=$(SL_OL)' -o $@
 	
-SL_MODULES_IDS=subclassof metadata partof haspart
+SL_MODULES_IDS=subclassof metadata partof haspart subclasslipid
 SL_MODULES = $(patsubst %, $(TMPDIR)/sl_%.ttl, $(SL_MODULES_IDS))
 
 # The swisslipid mirror is basically assembled through a number of calls to the swisslipid sparql endpoint
 # The weirdest thing is the way we treat subclass of here: if a swisslipid class is equivalent to a chebi class
 # We make it a subclass of the Chebi class, but add a skos:exactMatch for reference
 mirror/swisslipids.owl: $(SL_MODULES)
-	$(ROBOT) merge $(patsubst %, -i %, $^) convert  --output $@
+	$(ROBOT) merge $(patsubst %, -i %, $^) reason reduce convert  --output $@
 
 $(MIRRORDIR)/lipidmaps.owl: $(TEMPLATEDIR)/lipidmaps.tsv
 	if [ $(IMP) = true ] ; then $(ROBOT) template  \
