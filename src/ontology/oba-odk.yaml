@@ -73,7 +73,7 @@ import_group:
     - id: uberon
       make_base: True
     - id: cl
-      use_base: True
+      make_base: True
     - id: nbo
       use_base: True
     - id: pr
