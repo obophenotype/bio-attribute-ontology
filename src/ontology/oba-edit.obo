@@ -362,6 +362,15 @@ is_a: OBA:0000001 ! biological attribute
 is_a: PATO:0000161 ! rate
 
 [Term]
+id: OBA:0003476
+name: necrotic cell death amount
+def: "The amount of a necrotic cell death." []
+synonym: "amount of necrotic cell death" EXACT []
+is_a: OBA:0100002 ! biological process attribute
+property_value: http://purl.org/dc/elements/1.1/date "2023-06-16T20:21:00Z" xsd:dateTime
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-8314-2140
+
+[Term]
 id: OBA:0003744
 name: regulation of water loss via skin rate
 comment: regulation of water loss via skin (GO_0033561) was obsoleted
@@ -1325,13 +1334,8 @@ id: OBA:2020004 ! chemical in serum amount
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0003476
-name: necrotic cell death amount
-def: "The amount of a necrotic cell death." []
-synonym: "amount of necrotic cell death" EXACT []
-is_a: OBA:0100002 ! biological process attribute
-property_value: http://purl.org/dc/elements/1.1/date "2023-06-16T20:21:00Z" xsd:dateTime
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-8314-2140
+id: OBA:2045205 ! eukaryotic cell quality
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:2060008 ! response to novel environment rate
