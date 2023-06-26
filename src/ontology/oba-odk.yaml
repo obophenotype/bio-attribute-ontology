@@ -6,6 +6,7 @@ repo: bio-attribute-ontology
 edit_format: obo
 release_diff: TRUE
 use_dosdps: TRUE
+dosdp_tools_options: "--obo-prefixes=true --prefixes=config/prefixes.yaml"
 remove_owl_nothing: TRUE
 use_templates: TRUE
 import_component_format: ofn
@@ -72,7 +73,7 @@ import_group:
     - id: uberon
       make_base: True
     - id: cl
-      use_base: True
+      make_base: True
     - id: nbo
       use_base: True
     - id: pr
@@ -84,6 +85,10 @@ import_group:
       make_base: TRUE
     - id: bfo
       make_base: TRUE
+    - id: swisslipids
+      mirror_type: custom
+    - id: lipidmaps
+      mirror_type: custom
 components:
   products:
     - filename: obsoletes.owl

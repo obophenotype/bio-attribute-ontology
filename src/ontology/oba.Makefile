@@ -21,6 +21,62 @@ dependencies:
 ### Overwrites for Imports and release artefacts ####
 #####################################################
 
+SL_PREFIXES="PREFIX skos: <http://www.w3.org/2004/02/skos/core\#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema\#> PREFIX foaf: <http://xmlns.com/foaf/0.1/> PREFIX SLM: <https://swisslipids.org/rdf/SLM_> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns\#> PREFIX owl: <http://www.w3.org/2002/07/owl\#>"
+
+$(TMPDIR)/sl_haspart.sparql: $(IMPORTDIR)/swisslipids_terms.txt
+	echo $(SL_PREFIXES) > $@
+	echo "CONSTRUCT { ?s rdfs:subClassOf [ rdf:type owl:Restriction ; owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ; owl:someValuesFrom ?o ] } WHERE { VALUES ?s { " >> $@
+	cat $< >> $@
+	echo "} VALUES ?o {" >> $@ 
+	cat $< >> $@
+	echo "} GRAPH <https://sparql.swisslipids.org/swisslipids> { ?s SLM:hasPart+ ?o. } }" >> $@
+
+$(TMPDIR)/sl_partof.sparql: $(IMPORTDIR)/swisslipids_terms.txt
+	echo $(SL_PREFIXES) > $@
+	echo "CONSTRUCT { ?s rdfs:subClassOf [ rdf:type owl:Restriction ; owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ; owl:someValuesFrom ?o ] } WHERE { VALUES ?s { " >> $@
+	cat $< >> $@
+	echo "} VALUES ?o {" >> $@ 
+	cat $< >> $@
+	echo "} GRAPH <https://sparql.swisslipids.org/swisslipids> { ?s SLM:partOf+ ?o. } }" >> $@
+
+$(TMPDIR)/sl_subclassof.sparql: $(IMPORTDIR)/swisslipids_terms.txt
+	echo $(SL_PREFIXES) > $@
+	echo "CONSTRUCT { ?s rdfs:subClassOf ?o . ?o rdfs:label ?l . ?s rdfs:subClassOf ?eqs . ?o rdfs:subClassOf ?eqo . ?s skos:exactMatch ?eqs . ?o skos:exactMatch ?eqo . } WHERE { VALUES ?s { " >> $@
+	cat $< >> $@
+	echo "} GRAPH <https://sparql.swisslipids.org/swisslipids> { ?s rdfs:subClassOf+ ?o. ?o rdfs:label ?l . ?s owl:equivalentClass ?eqs . ?o owl:equivalentClass ?eqo . } }" >> $@
+
+$(TMPDIR)/sl_subclasslipid.sparql: $(IMPORTDIR)/swisslipids_terms.txt
+	echo $(SL_PREFIXES) > $@
+	echo "CONSTRUCT { ?s rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_18059> . } WHERE { VALUES ?s { " >> $@
+	cat $< >> $@
+	echo "} GRAPH <https://sparql.swisslipids.org/swisslipids> { ?s rdfs:label ?l . } }" >> $@
+
+$(TMPDIR)/sl_metadata.sparql: $(IMPORTDIR)/swisslipids_terms.txt
+	echo $(SL_PREFIXES) > $@
+	echo "CONSTRUCT { ?s ?p ?o. } WHERE { VALUES ?s { " >> $@
+	cat $< >> $@
+	echo "} VALUES ?p { <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2000/01/rdf-schema#label> <http://purl.obolibrary.org/obo/chebi/inchi> <http://purl.obolibrary.org/obo/chebi/formula> } GRAPH <https://sparql.swisslipids.org/swisslipids> { ?s ?p ?o. } }" >> $@
+
+$(TMPDIR)/sl_%.ttl: $(TMPDIR)/sl_%.sparql
+	$(eval SL_OL := $(shell tr '\n' ' ' < $< | sed 's/\#/\\#/g'))
+	curl -L -H 'accept:text/turtle' 'https://beta.sparql.swisslipids.org/sparql/' \
+		--data-urlencode 'query=$(SL_OL)' -o $@
+	
+SL_MODULES_IDS=subclassof metadata partof haspart subclasslipid
+SL_MODULES = $(patsubst %, $(TMPDIR)/sl_%.ttl, $(SL_MODULES_IDS))
+
+# The swisslipid mirror is basically assembled through a number of calls to the swisslipid sparql endpoint
+# The weirdest thing is the way we treat subclass of here: if a swisslipid class is equivalent to a chebi class
+# We make it a subclass of the Chebi class, but add a skos:exactMatch for reference
+mirror/swisslipids.owl: $(SL_MODULES)
+	$(ROBOT) merge $(patsubst %, -i %, $^) reason reduce convert  --output $@
+
+$(MIRRORDIR)/lipidmaps.owl: $(TEMPLATEDIR)/lipidmaps.tsv
+	if [ $(IMP) = true ] ; then $(ROBOT) template  \
+		--prefix "LM: https://bioregistry.io/lipidmaps:" \
+		$(patsubst %, --template %, $^) \
+		$(ANNOTATE_CONVERT_FILE); fi
+
 # FULL is overwritten because it needs materialize
 $(ONT)-full.owl: $(SRC) $(OTHER_SRC)
 	echo "INFO: Running FULL release, which is customised for OBA."
@@ -221,6 +277,7 @@ protein-matches:
 	$(MAKE) curation/protein-gilda-matches.tsv
 	$(MAKE) curation/protein-oba-matches.tsv
 	$(MAKE) curation/protein-pr-matches.tsv
+
 
 curation/impc-matches.txt:
 	runoak annotate --text-file curation/impc-traits-2022-12-01.txt -o curation/impc-matches.txt sqlite:oba.owl
