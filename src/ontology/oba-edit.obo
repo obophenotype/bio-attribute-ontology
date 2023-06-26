@@ -1334,10 +1334,6 @@ id: OBA:2020004 ! chemical in serum amount
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:2045205 ! eukaryotic cell quality
-is_a: OBA:1000076 ! attribute of cell
-
-[Term]
 id: OBA:2060008 ! response to novel environment rate
 is_a: OBA:0000001 ! biological attribute
 
