@@ -5223,7 +5223,7 @@ OBA:2050216	tumor necrosis factor ligand superfamily member 13B amount	PR:000001
 OBA:2050217	STAM-binding protein amount	PR:000015711	STAM-binding protein	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2050218	tumor necrosis factor receptor superfamily member 14 amount	PR:000016481	tumor necrosis factor receptor superfamily member 14	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2050219	arylsulfatase B amount	PR:000004322	arylsulfatase B	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050220	vascular cell adhesion protein 1 amount	PR:000001970	vascular cell adhesion protein 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050220	vascular cell adhesion protein 1 amount	PR:000001970	vascular cell adhesion protein 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	vascular cell adhesion molecule-1 amount||soluble vascular cell adhesion molecule-1 amount
 OBA:2050221	tumor necrosis factor receptor superfamily member 13C amount	PR:000001957	tumor necrosis factor receptor superfamily member 13C	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2050222	tumor necrosis factor ligand superfamily member 9 amount	PR:000016489	tumor necrosis factor ligand superfamily member 9	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2050223	neural cell adhesion molecule L1-like protein amount	PR:000005429	neural cell adhesion molecule L1-like protein	PATO:0000070	amount	UBERON:0001062	anatomical entity
@@ -5275,7 +5275,7 @@ OBA:2050268	advanced glycosylation end product-specific receptor amount	PR:00000
 OBA:2050269	coagulation factor V amount	PR:000007300	coagulation factor V	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2050270	tumor necrosis factor-inducible gene 6 protein amount	PR:000016475	tumor necrosis factor-inducible gene 6 protein	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2050271	membrane metallo-endopeptidase-like 1 amount	PR:000010467	membrane metallo-endopeptidase-like 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050272	tumor necrosis factor receptor superfamily member 11B amount	PR:000016480	tumor necrosis factor receptor superfamily member 11B	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050272	tumor necrosis factor receptor superfamily member 11B amount	PR:000016480	tumor necrosis factor receptor superfamily member 11B	PATO:0000070	amount	UBERON:0001062	anatomical entity	osteoprotegerin amount
 OBA:2050273	tumor necrosis factor receptor superfamily member 1A amount	PR:000001958	tumor necrosis factor receptor superfamily member 1A	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2050274	heterogeneous nuclear ribonucleoprotein A/B amount	PR:000008661	heterogeneous nuclear ribonucleoprotein A/B	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2050275	cell adhesion molecule-related/down-regulated by oncogenes amount	PR:000005282	cell adhesion molecule-related/down-regulated by oncogenes	PATO:0000070	amount	UBERON:0001062	anatomical entity
@@ -5320,19 +5320,16 @@ OBA:2050313	advanced glycosylation end product-specific receptor amount	PR:00000
 OBA:2050314	tumor necrosis factor receptor superfamily member 19L amount	PR:000013880	tumor necrosis factor receptor superfamily member 19L	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2050315	tumor necrosis factor receptor superfamily member 13B amount	PR:000001956	tumor necrosis factor receptor superfamily member 13B	PATO:0000070	amount	UBERON:0001062	anatomical entity
 OBA:2050316	tumor necrosis factor ligand superfamily member 6 isoform FasL soluble form amount	PR:000000547	tumor necrosis factor ligand superfamily member 6 isoform FasL soluble form	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050317	vascular cell adhesion protein 1 amount	PR:000001970	vascular cell adhesion protein 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	vascular cell adhesion molecule-1 amount
-OBA:2050318	NKG2-D type II integral membrane protein amount	PR:000001828	NKG2-D type II integral membrane protein	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050319	heterogeneous nuclear ribonucleoprotein Q amount	PR:000015874	heterogeneous nuclear ribonucleoprotein Q	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050320	cell adhesion molecule 3 amount	PR:000004962	cell adhesion molecule 3	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050321	proteasome subunit alpha type-2 amount	PR:000013361	proteasome subunit alpha type-2	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050322	Xaa-Pro aminopeptidase 2 amount	PR:000017496	Xaa-Pro aminopeptidase 2	PATO:0000070	amount	UBERON:0001062	anatomical entity	membrane-bound aminopeptidase P amount
-OBA:2050323	carboxypeptidase B2 amount	PR:000005802	carboxypeptidase B2	PATO:0000070	amount	UBERON:0001062	anatomical entity	thrombin activatable fibrinolysis inhibitor activation peptide amount
-OBA:2050324	ephrin type-A receptor 1 amount	PR:000007120	ephrin type-A receptor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050325	tumor necrosis factor ligand superfamily member 10 amount	PR:000002106	tumor necrosis factor ligand superfamily member 10	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050326	matrix extracellular phosphoglycoprotein amount	PR:000010327	matrix extracellular phosphoglycoprotein	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050327	E-selectin amount	PR:000001415	E-selectin	PATO:0000070	amount	UBERON:0001062	anatomical entity	leukocyte-endothelial cell adhesion molecule 2 amount
-OBA:2050328	tumor necrosis factor receptor superfamily member 11B amount	PR:000016480	tumor necrosis factor receptor superfamily member 11B	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050329	neurofilament light polypeptide amount	PR:000011119	neurofilament light polypeptide	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050330	tetranectin amount	PR:000005567	tetranectin	PATO:0000070	amount	UBERON:0001062	anatomical entity	C-type lectin domain family 3 member B amount
-OBA:2050331	vascular cell adhesion protein 1 amount	PR:000001970	vascular cell adhesion protein 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	soluble vascular cell adhesion molecule-1 amount
-OBA:2050332	prothrombin amount	PR:000007299	prothrombin	PATO:0000070	amount	UBERON:0001062	anatomical entity	coagulation factor II amount
+OBA:2050317	NKG2-D type II integral membrane protein amount	PR:000001828	NKG2-D type II integral membrane protein	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050318	heterogeneous nuclear ribonucleoprotein Q amount	PR:000015874	heterogeneous nuclear ribonucleoprotein Q	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050319	cell adhesion molecule 3 amount	PR:000004962	cell adhesion molecule 3	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050320	proteasome subunit alpha type-2 amount	PR:000013361	proteasome subunit alpha type-2	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050321	Xaa-Pro aminopeptidase 2 amount	PR:000017496	Xaa-Pro aminopeptidase 2	PATO:0000070	amount	UBERON:0001062	anatomical entity	membrane-bound aminopeptidase P amount
+OBA:2050322	carboxypeptidase B2 amount	PR:000005802	carboxypeptidase B2	PATO:0000070	amount	UBERON:0001062	anatomical entity	thrombin activatable fibrinolysis inhibitor activation peptide amount
+OBA:2050323	ephrin type-A receptor 1 amount	PR:000007120	ephrin type-A receptor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050324	tumor necrosis factor ligand superfamily member 10 amount	PR:000002106	tumor necrosis factor ligand superfamily member 10	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050325	matrix extracellular phosphoglycoprotein amount	PR:000010327	matrix extracellular phosphoglycoprotein	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050326	E-selectin amount	PR:000001415	E-selectin	PATO:0000070	amount	UBERON:0001062	anatomical entity	leukocyte-endothelial cell adhesion molecule 2 amount
+OBA:2050327	neurofilament light polypeptide amount	PR:000011119	neurofilament light polypeptide	PATO:0000070	amount	UBERON:0001062	anatomical entity
+OBA:2050328	tetranectin amount	PR:000005567	tetranectin	PATO:0000070	amount	UBERON:0001062	anatomical entity	C-type lectin domain family 3 member B amount
+OBA:2050329	prothrombin amount	PR:000007299	prothrombin	PATO:0000070	amount	UBERON:0001062	anatomical entity	coagulation factor II amount
