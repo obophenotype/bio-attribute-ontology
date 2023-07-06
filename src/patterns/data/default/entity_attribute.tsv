@@ -690,7 +690,7 @@ OBA:VT0008197	follicular dendritic cell physiology trait	CL:0000442	follicular d
 OBA:VT0008200	follicular dendritic cell quantity	CL:0000442	follicular dendritic cell	PATO:0001555	has number of
 OBA:VT0008207	B-2 B cell quantity	CL:0000822	B-2 B cell	PATO:0001555	has number of
 OBA:VT0008208	pro-B cell quantity	CL:0000826	pro-B cell	PATO:0001555	has number of
-OBA:VT0008211	mature B cell quantity	CL:0000785	mature B cell	PATO:0001997	decreased amount
+OBA:VT0008211	mature B cell quantity	CL:0000785	mature B cell	PATO:0001555	has number of
 OBA:VT0008215	immature B cell quantity	CL:0000816	immature B cell	PATO:0001555	has number of
 OBA:VT0008345	gamma-delta T cell quantity	CL:0000798	gamma-delta T cell	PATO:0001555	has number of
 OBA:VT0008351	gamma-delta intraepithelial T cell quantity	CL:0000801	gamma-delta intraepithelial T cell	PATO:0001555	has number of
@@ -2406,7 +2406,6 @@ OBA:0003472		UBERON:0002408	parietal serous pericardium	PATO:0000117	size
 OBA:0003473		UBERON:0002511	trabecula carnea	PATO:0000117	size
 OBA:0003474		UBERON:0002511	trabecula carnea	PATO:0000070	amount
 OBA:0003475		UBERON:0002062	endocardial cushion	PATO:0000070	amount
-OBA:0003476		GO:0070265	necrotic cell death	PATO:0000070	amount
 OBA:0003477		CL:0000584	enterocyte	PATO:0000070	amount
 OBA:0003478		UBERON:0002259	corpora quadrigemina	PATO:0000014	color
 OBA:0003479		GO:0008283	cell proliferation	PATO:0000161	rate
@@ -2733,7 +2732,6 @@ OBA:0003866		UBERON:0005057	immune organ	PATO:0001509	functionality
 OBA:0003867		UBERON:0001833	lip	PATO:0000060	spatial pattern
 OBA:0003868		UBERON:0001833	lip	PATO:0000117	size
 OBA:0003869		UBERON:0001833	lip	PATO:0000119	height
-OBA:0003870		GO:0007568	aging	PATO:0002325	onset quality
 OBA:0003871		GO:0061053	somite development	PATO:0002325	onset quality
 OBA:0003872		GO:0048246	macrophage chemotaxis	PATO:0000161	rate
 OBA:0003874		UBERON:0010166	coat of hair	PATO:0000141	structure
@@ -3649,7 +3647,6 @@ OBA:0005490		GO:0004607	phosphatidylcholine-sterol O-acyltransferase activity	PA
 OBA:0005491		GO:0004602	glutathione peroxidase activity	PATO:0000161	rate
 OBA:0005492		GO:0004340	glucokinase activity	PATO:0000161	rate
 OBA:0005493		GO:0004365	glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity	PATO:0000161	rate
-OBA:0005494		GO:0007568	aging	PATO:0000161	rate
 OBA:0005495		GO:0005739	mitochondrion	PATO:0000117	size
 OBA:0005498		GO:0030061	mitochondrial crista	PATO:0002264	organization quality
 OBA:0005505		UBERON:0002086	sinoatrial valve	PATO:0000070	amount
@@ -4156,7 +4153,105 @@ OBA:2060170		UBERON:0002101	limb	PATO:0000140	position
 OBA:2060171		UBERON:0000966	retina	PATO:0000141	structure
 OBA:2060172		UBERON:0005056	external female genitalia	PATO:0000070	amount
 OBA:2060173		UBERON:0000970	eye	PATO:0000070	amount
+OBA:2060184	whole organism stability	UBERON:0000468	multicellular organism	PATO:0015026	stability
+OBA:2060185	facial muscle performance	UBERON:0001577	facial muscle	PATO:0001509	functionality
+OBA:2060186	peripheral nervous system function	UBERON:0000010	peripheral nervous system	PATO:0001509	functionality
+OBA:2060187	knee joint functionality	UBERON:0001485	knee joint	PATO:0001509	functionality
+OBA:2060188	ankle joint functionality	UBERON:0001488	ankle joint	PATO:0001509	functionality
+OBA:2060189	tendon of biceps brachii functionality	UBERON:0008188	tendon of biceps brachii	PATO:0001509	functionality
+OBA:2060190	brachioradialis functionality	UBERON:0011011	brachioradialis	PATO:0001509	functionality
 OBA:2040170		GO:0030431	sleep	PATO:0000001	quality
 OBA:2040171	sleep duration trait	GO:0030431	sleep	PATO:0001309	duration
 OBA:2040172		GO:0030431	sleep	PATO:0001005	latency
 OBA:2040173		GO:0030431	sleep	PATO:0002325	onset quality
+OBA:2050101	chin morphology trait	UBERON:0008199	chin	PATO:0000051	morphology
+OBA:2050102	heart wall thickness	UBERON:0037144	wall of heart	PATO:0000915	thickness
+OBA:2050103	hip bone size	UBERON:0008202	bone of hip region	PATO:0000117	size
+OBA:2050104	ganglion thickness	UBERON:0000045	ganglion	PATO:0000915	thickness
+OBA:2050106	forehead morphology trait	UBERON:0008200	forehead	PATO:0000051	morphology
+OBA:2050107	internal carotid artery thickness	UBERON:0001532	internal carotid artery	PATO:0000915	thickness
+OBA:2050108	carotid artery thickness	UBERON:0005396	carotid artery segment	PATO:0000915	thickness
+OBA:2050109	superior temporal gyrus thickness	UBERON:0002769	superior temporal gyrus	PATO:0000915	thickness
+OBA:2050110	retinal layer thickness	UBERON:0001781	layer of retina	PATO:0000915	thickness
+OBA:2050111	retinal nerve fibre layer thickness	UBERON:0001793	nerve fiber layer of retina	PATO:0000915	thickness
+OBA:2050112	facial hair thickness 	UBERON:0010171	strand of hair of face	PATO:0000915	thickness
+OBA:2050113	LDL particle size 	GO:0034362	low-density lipoprotein particle	PATO:0000117	size	low-density lipoprotein particle size
+OBA:2050114	VLDL particle size	GO:0034361	very-low-density lipoprotein particle	PATO:0000117	size	very-low-density lipoprotein particle size
+OBA:2050115	HDL particle size	GO:0034364	high-density lipoprotein particle	PATO:0000117	size	high-density lipoprotein particle size
+OBA:2060179	body coordination efficacy	NBO:0000351	body coordination	PATO:0015002	process efficacy
+OBA:2060180	limb coordination efficacy	NBO:0000342	limb coordination	PATO:0015002	process efficacy
+OBA:2060181	upper limb coordination efficacy	NBO:0000346	upper limb coordination	PATO:0015002	process efficacy
+OBA:2060182	lower limb coordination efficacy	NBO:0000345	lower limb coordination	PATO:0015002	process efficacy
+OBA:2060183	motor coordination efficacy	NBO:0000339	motor coordination	PATO:0015002	process efficacy
+OBA:2060191	gross motor coordination efficacy	NBO:0000347	gross motor coordination	PATO:0015002	process efficacy
+OBA:2060192	fine motor coordination efficacy	NBO:0000348	fine motor coordination	PATO:0015002	process efficacy
+OBA:2060193	eye-hand coordination efficacy	NBO:0000341	eye-hand coordination	PATO:0015002	process efficacy
+OBA:2050120	platelet-derived growth factor receptor beta amount	PR:000002035	beta-type platelet-derived growth factor receptor	PATO:0000070	amount
+OBA:2050121	fibroblast growth factor 20 amount	PR:000007490	fibroblast growth factor 20 	PATO:0000070	amount
+OBA:2050122	fibroblast growth factor 9 amount	PR:000007500	fibroblast growth factor 9 	PATO:0000070	amount
+OBA:2050123	fibroblast growth factor 19 amount	PR:000007488	fibroblast growth factor 19 	PATO:0000070	amount
+OBA:2050124	epidermal growth factor receptor substrate 15-like 1 amount	PR:000007146	epidermal growth factor receptor substrate 15-like 1 	PATO:0000070	amount
+OBA:2050125	vascular endothelial growth factor receptor 2 amount	PR:000002112	vascular endothelial growth factor receptor 2 	PATO:0000070	amount
+OBA:2050126	fibroblast growth factor 17 amount	PR:000007486	fibroblast growth factor 17 	PATO:0000070	amount
+OBA:2050127	insulin-like growth factor-binding protein 2 amount	PR:000008948	insulin-like growth factor-binding protein 2 	PATO:0000070	amount
+OBA:2050128	fibroblast growth factor receptor 4 amount	PR:000001451	fibroblast growth factor receptor 4 	PATO:0000070	amount
+OBA:2050129	platelet-derived growth factor subunit B amount	PR:000012491	platelet-derived growth factor subunit B	PATO:0000070	amount
+OBA:2050130	insulin-like protein amount	PR:000026013	insulin-like protein	PATO:0000070	amount
+OBA:2050131	vascular endothelial growth factor A amount	PR:000017284	vascular endothelial growth factor A	PATO:0000070	amount
+OBA:2050132	fibroblast growth factor receptor 1 amount	PR:000001448	fibroblast growth factor receptor 1 	PATO:0000070	amount
+OBA:2050133	fibroblast growth factor 4 amount	PR:000007495	fibroblast growth factor 4 	PATO:0000070	amount
+OBA:2050134	fibroblast growth factor 1 amount	PR:000007479	fibroblast growth factor 1 	PATO:0000070	amount
+OBA:2050135	growth differentiation factor 15 amount	PR:000007920	growth differentiation factor 15 	PATO:0000070	amount
+OBA:2050136	inhibitor of growth protein 1 amount	PR:000009033	inhibitor of growth protein 1 	PATO:0000070	amount
+OBA:2050137	fibroblast growth factor 21 amount	PR:000007491	fibroblast growth factor 21 	PATO:0000070	amount
+OBA:2050138	transforming growth factor-beta-induced protein ig-h3 amount	PR:000016287	transforming growth factor-beta-induced protein ig-h3 	PATO:0000070	amount
+OBA:2050139	insulin-like growth factor-binding protein 4 amount	PR:000008950	insulin-like growth factor-binding protein 4 	PATO:0000070	amount
+OBA:2050140	vascular endothelial growth factor receptor 3 amount	PR:000007565	vascular endothelial growth factor receptor 3 	PATO:0000070	amount
+OBA:2050141	insulin-like growth factor-binding protein 5 amount	PR:000008951	insulin-like growth factor-binding protein 5 	PATO:0000070	amount
+OBA:2050142	insulin-like growth factor-binding protein 7 amount	PR:000008953	insulin-like growth factor-binding protein 7 	PATO:0000070	amount
+OBA:2050143	fibroblast growth factor 7 amount	PR:000007498	fibroblast growth factor 7 	PATO:0000070	amount
+OBA:2050144	hepatocyte growth factor activator amount	PR:000008535	hepatocyte growth factor activator 	PATO:0000070	amount
+OBA:2050145	fibroblast growth factor receptor 2 amount	PR:000001449	fibroblast growth factor receptor 2 	PATO:0000070	amount
+OBA:2050146	platelet-derived growth factor C amount	PR:000000703	platelet-derived growth factor C 	PATO:0000070	amount
+OBA:2050147	transforming growth factor beta-1 amount	PR:000000182	TGF-beta 1	PATO:0000070	amount
+OBA:2050148	fibroblast growth factor 6 amount	PR:000007497	fibroblast growth factor 6 	PATO:0000070	amount
+OBA:2050149	vascular endothelial growth factor C amount	PR:000017285	vascular endothelial growth factor C 	PATO:0000070	amount
+OBA:2050150	fibroblast growth factor 10 amount	PR:000007480	fibroblast growth factor 10 	PATO:0000070	amount
+OBA:2050151	proheparin-binding EGF-like growth factor amount	PR:000008459	proheparin-binding EGF-like growth factor 	PATO:0000070	amount
+OBA:2050152	fibroblast growth factor 5 amount	PR:000007496	fibroblast growth factor 5 	PATO:0000070	amount
+OBA:2050153	protransforming growth factor alpha amount	PR:000016285	protransforming growth factor alpha	PATO:0000070	amount
+OBA:2050154	fibroblast growth factor 2 amount	PR:000007489	fibroblast growth factor 2 	PATO:0000070	amount
+OBA:2050155	hepatocyte growth factor amount	PR:000008534	hepatocyte growth factor 	PATO:0000070	amount
+OBA:2050156	insulin-like growth factor-binding protein 6 amount	PR:000008952	insulin-like growth factor-binding protein 6 	PATO:0000070	amount
+OBA:2050157	melanoma-derived growth regulatory protein amount	PR:000010393	melanoma-derived growth regulatory protein 	PATO:0000070	amount
+OBA:2050158	epidermal growth factor receptor amount	PR:000006933	epidermal growth factor receptor 	PATO:0000070	amount
+OBA:2050159	transforming growth factor beta-2 amount	PR:000000183	TGF-beta 2	PATO:0000070	amount
+OBA:2050160	hepatocyte growth factor receptor amount	PR:000010335	hepatocyte growth factor receptor 	PATO:0000070	amount
+OBA:2050161	fibroblast growth factor 12 amount	PR:000007482	fibroblast growth factor 12 	PATO:0000070	amount
+OBA:2050162	insulin-like growth factor 1 receptor amount	PR:000003273	insulin-like growth factor 1 receptor 	PATO:0000070	amount
+OBA:2050163	BDNF/NT-3 growth factors receptor amount	PR:000011470	BDNF/NT-3 growth factors receptor	PATO:0000070	amount
+OBA:2050164	fibroblast growth factor 23 amount	PR:000007493	fibroblast growth factor 23 	PATO:0000070	amount
+OBA:2050165	connective tissue growth factor amount	PR:000003172	CCN family member 2	PATO:0000070	amount
+OBA:2050166	fibroblast growth factor 18 amount	PR:000007487	fibroblast growth factor 18 	PATO:0000070	amount
+OBA:2050167	platelet-derived growth factor complex BB dimer amount	PR:000044756	platelet-derived growth factor complex BB dimer (human)	PATO:0000070	amount
+OBA:2050168	fibroblast growth factor 8 isoform B amount	PR:000039787	fibroblast growth factor 8 isoform FGF-8B	PATO:0000070	amount
+OBA:2050169	beta-nerve growth factor amount	PR:000011194	beta-nerve growth factor 	PATO:0000070	amount
+OBA:2050170	hepatocyte growth factor-like protein amount	PR:000010683	hepatocyte growth factor-like protein 	PATO:0000070	amount
+OBA:2050171	fibroblast growth factor 16 amount	PR:000007485	fibroblast growth factor 16 	PATO:0000070	amount
+OBA:2050172	transforming growth factor beta-3 amount	PR:000000184	TGF-beta 3	PATO:0000070	amount
+OBA:2050173	insulin-like growth factor-binding protein 1 amount	PR:000008947	insulin-like growth factor-binding protein 1 	PATO:0000070	amount
+OBA:2050174	teratocarcinoma-derived growth factor 1 amount	PR:000030513	teratocarcinoma-derived growth factor 1	PATO:0000070	amount
+OBA:2050175	high affinity nerve growth factor receptor amount	PR:000011469	high affinity nerve growth factor receptor	PATO:0000070	amount
+OBA:2050176	NT-3 growth factor receptor amount	PR:000011471	NT-3 growth factor receptor	PATO:0000070	amount
+OBA:2050177	transforming growth factor beta receptor type 3 amount	PR:Q03167	transforming growth factor beta receptor type 3 (human)	PATO:0000070	amount
+OBA:2050178	fibroblast growth factor receptor 3 amount	PR:000001450	fibroblast growth factor receptor 3 	PATO:0000070	amount
+OBA:2050179	growth arrest-specific protein 1 amount	PR:000007848	growth arrest-specific protein 1 	PATO:0000070	amount
+OBA:2050180	hepatoma-derived growth factor-related protein 2 amount	PR:000008492	hepatoma-derived growth factor-related protein 2	PATO:0000070	amount
+OBA:2050191	breast pressure trait	UBERON:0000310	breast	PATO:0001025	pressure
+OBA:2050194	foot muscle strength trait	UBERON:0001498	muscle of pes	PATO:0001230	strength
+OBA:2050196	pancreatic fat pad amount	UBERON:0015454	pancreatic fat pad	PATO:0000070	amount
+OBA:2050198	pericardial fat amount	UBERON:0035814	pericardial fat	PATO:0000070	amount
+OBA:2050201	seminal fluid amount	UBERON:0006530	seminal fluid	PATO:0000070	amount
+OBA:2050202	skin amplitude trait	UBERON:0000014	zone of skin	PATO:0000080	amplitude
+OBA:2050203	skin fluorescence trait	UBERON:0000014	zone of skin	PATO:0000018	fluorescence
+OBA:2050204	spleen volume	UBERON:0002106	spleen	PATO:0000918	volume
