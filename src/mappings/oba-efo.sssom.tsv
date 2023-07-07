@@ -95,7 +95,6 @@ EFO:0009893	response to oxcarbazepine	response to stimulus	skos:exactMatch	OBA:2
 EFO:0010052	response to tacrolimus	response to stimulus	skos:exactMatch	OBA:2040098			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
 EFO:0010053	response to cyclosporine	response to stimulus	skos:exactMatch	OBA:2040068			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
 EFO:0010054	response to mycophenolic acid	response to stimulus	skos:exactMatch	OBA:2040011			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010062	response to salmeterol	response to stimulus	skos:broadMatch	OBA:2040041			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
 EFO:0010124	response to atorvastatin	response to stimulus	skos:exactMatch	OBA:2040065			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
 EFO:0010152	response to phenylephrine	response to stimulus	skos:exactMatch	OBA:2040129			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
 EFO:0010577	response to dimethyl fumarate	response to stimulus	skos:exactMatch	OBA:2040123			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
@@ -108,42 +107,89 @@ EFO:0010933	response to dexamethasone	response to stimulus	skos:exactMatch	OBA:2
 EFO:0010971	response to metamizole	response to stimulus	skos:exactMatch	OBA:2040099			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
 EFO:0600017	response to dolutegravir	response to stimulus	skos:exactMatch	OBA:2040124			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
 EFO:0600024	response to tofacitinib	response to stimulus	skos:exactMatch	OBA:2040116			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0004647	response to platinum based chemotherapy	response to stimulus	skos:narrowMatch	OBA:2040037			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0009415	response to water stimulus	response to stimulus	skos:relatedMatch	OBA:2040135			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0010226	response to lithium ion	response to stimulus	skos:relatedMatch	OBA:2040080			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0014072	response to opiate	response to stimulus	skos:relatedMatch	OBA:2040018			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0031427	response to methotrexate	response to stimulus	skos:relatedMatch	OBA:2040072			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0031960	response to corticosteroid	response to stimulus	skos:relatedMatch	OBA:2040088			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0036271	response to methylphenidate	response to stimulus	skos:relatedMatch	OBA:2040112			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0036272	response to gemcitabine	response to stimulus	skos:relatedMatch	OBA:2040013			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0036274	response to lapatinib	response to stimulus	skos:relatedMatch	OBA:2040078			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0036275	response to 5' fluorouracil	response to stimulus	skos:relatedMatch	OBA:2040074			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0036287	response to iloperidone	response to stimulus	skos:relatedMatch	OBA:2040107			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0036288	response to ximelagatran	response to stimulus	skos:relatedMatch	OBA:2040106			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0043278	response to morphine	response to stimulus	skos:relatedMatch	OBA:2040012			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0051384	response to glucocorticoid	response to stimulus	skos:relatedMatch	OBA:2040017			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0072718	response to cisplatin	response to stimulus	skos:relatedMatch	OBA:2040020			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097328	response to carboplatin	response to stimulus	skos:relatedMatch	OBA:2040032			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097330	response to 5-fluoro-2'-deoxyuridine	response to stimulus	skos:relatedMatch	OBA:2040096			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097331	response to cytarabine	response to stimulus	skos:relatedMatch	OBA:2040025			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097333	response to olanzapine	response to stimulus	skos:relatedMatch	OBA:2040125			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097334	response to perphenazine	response to stimulus	skos:relatedMatch	OBA:2040127			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097335	response to quetiapine	response to stimulus	skos:relatedMatch	OBA:2040134			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097337	response to ziprasidone	response to stimulus	skos:relatedMatch	OBA:2040002			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097338	response to clozapine	response to stimulus	skos:relatedMatch	OBA:2040058			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1901555	response to paclitaxel	response to stimulus	skos:relatedMatch	OBA:2040073			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1901556	response to candesartan	response to stimulus	skos:relatedMatch	OBA:2040038			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1901557	response to fenofibrate	response to stimulus	skos:relatedMatch	OBA:2040081			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1901558	response to metformin	response to stimulus	skos:relatedMatch	OBA:2040110			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1901559	response to ribavirin	response to stimulus	skos:relatedMatch	OBA:2040100			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1901563	response to camptothecin	response to stimulus	skos:relatedMatch	OBA:2040019			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1901905	response to tamsulosin	response to stimulus	skos:relatedMatch	OBA:2040138			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1902518	response to cyclophosphamide	response to stimulus	skos:relatedMatch	OBA:2040066			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1902520	response to doxorubicin	response to stimulus	skos:relatedMatch	OBA:2040026			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1902521	response to etoposide	response to stimulus	skos:relatedMatch	OBA:2040076			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1903491	response to simvastatin	response to stimulus	skos:relatedMatch	OBA:2040136			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1903492	response to aspirin	response to stimulus	skos:relatedMatch	OBA:2040010			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1903493	response to clopidogrel	response to stimulus	skos:relatedMatch	OBA:2040062			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1904014	response to serotonin	response to stimulus	skos:relatedMatch	OBA:2040027			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1905119	response to haloperidol	response to stimulus	skos:relatedMatch	OBA:2040092			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1990054	response to temozolomide	response to stimulus	skos:relatedMatch	OBA:2040120			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+EFO:0004647	response to platinum based chemotherapy	response to stimulus	skos:broadMatch	OBA:2040037			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097337	response to ziprasidone	response to stimulus	skos:relatedMatch	OBA:2040002	trait in response to ziprasidone		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1903492	response to acetylsalicylate	response to stimulus	skos:relatedMatch	OBA:2040010	trait in response to acetylsalicylic acid		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0043278	response to morphine	response to stimulus	skos:relatedMatch	OBA:2040012	trait in response to morphine		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0036272	response to gemcitabine	response to stimulus	skos:relatedMatch	OBA:2040013	trait in response to gemcitabine		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0051384	response to glucocorticoid	response to stimulus	skos:relatedMatch	OBA:2040017	trait in response to glucocorticoid		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0014072	response to isoquinoline alkaloid	response to stimulus	skos:relatedMatch	OBA:2040018	trait in response to isoquinoline alkaloid		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1901563	response to camptothecin	response to stimulus	skos:relatedMatch	OBA:2040019	trait in response to camptothecin		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0072718	response to cisplatin	response to stimulus	skos:relatedMatch	OBA:2040020	trait in response to cisplatin		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097331	response to cytarabine	response to stimulus	skos:relatedMatch	OBA:2040025	trait in response to cytarabine		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1902520	response to doxorubicin	response to stimulus	skos:relatedMatch	OBA:2040026	trait in response to doxorubicin		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1904014	response to serotonin	response to stimulus	skos:relatedMatch	OBA:2040027	trait in response to serotonin		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097328	response to carboplatin	response to stimulus	skos:relatedMatch	OBA:2040032	trait in response to carboplatin		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1901556	response to candesartan	response to stimulus	skos:relatedMatch	OBA:2040038	trait in response to candesartan		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097338	response to clozapine	response to stimulus	skos:relatedMatch	OBA:2040058	trait in response to clozapine		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1903493	response to clopidogrel	response to stimulus	skos:relatedMatch	OBA:2040062	trait in response to clopidogrel		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1902518	response to cyclophosphamide	response to stimulus	skos:relatedMatch	OBA:2040066	trait in response to cyclophosphamide		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0031427	response to methotrexate	response to stimulus	skos:relatedMatch	OBA:2040072	trait in response to methotrexate		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1901555	obsolete response to paclitaxel	response to stimulus	skos:relatedMatch	OBA:2040073	trait in response to paclitaxel		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0036275	response to 5-fluorouracil	response to stimulus	skos:relatedMatch	OBA:2040074	trait in response to 5-fluorouracil		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1902521	response to etoposide	response to stimulus	skos:relatedMatch	OBA:2040076	trait in response to etoposide		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0036274	response to lapatinib	response to stimulus	skos:relatedMatch	OBA:2040078	trait in response to lapatinib		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0010226	response to lithium ion	response to stimulus	skos:relatedMatch	OBA:2040080	trait in response to lithium(1+)		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1901557	response to fenofibrate	response to stimulus	skos:relatedMatch	OBA:2040081	trait in response to fenofibrate		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0031960	response to corticosteroid	response to stimulus	skos:relatedMatch	OBA:2040088	trait in response to corticosteroid		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1905119	response to haloperidol	response to stimulus	skos:relatedMatch	OBA:2040092	trait in response to haloperidol		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097330	response to 5-fluoro-2'-deoxyuridine	response to stimulus	skos:relatedMatch	OBA:2040096	trait in response to floxuridine		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1901559	response to ribavirin	response to stimulus	skos:relatedMatch	OBA:2040100	trait in response to ribavirin		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0036288	response to ximelagatran	response to stimulus	skos:relatedMatch	OBA:2040106	trait in response to ximelagatran		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0036287	response to iloperidone	response to stimulus	skos:relatedMatch	OBA:2040107	trait in response to iloperidone		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1901558	response to metformin	response to stimulus	skos:relatedMatch	OBA:2040110	trait in response to metformin		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0036271	response to methylphenidate	response to stimulus	skos:relatedMatch	OBA:2040112	trait in response to methylphenidate		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1990054	response to temozolomide	response to stimulus	skos:relatedMatch	OBA:2040120	trait in response to temozolomide		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097333	response to olanzapine	response to stimulus	skos:relatedMatch	OBA:2040125	trait in response to olanzapine		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097334	response to perphenazine	response to stimulus	skos:relatedMatch	OBA:2040127	trait in response to perphenazine		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097335	response to quetiapine	response to stimulus	skos:relatedMatch	OBA:2040134	trait in response to quetiapine		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097336	response to risperidone	response to stimulus	skos:relatedMatch	OBA:2040135	trait in response to risperidone		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1903491	response to simvastatin	response to stimulus	skos:relatedMatch	OBA:2040136	trait in response to simvastatin		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1901905	response to tamsulosin	response to stimulus	skos:relatedMatch	OBA:2040138	trait in response to tamsulosin		HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0005002	lysine measurement	measurement	skos:narrowMatch	OBA:2020005			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0021621	L-Lysine measurement	measurement	skos:relatedMatch	OBA:2020005			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004568	serum non-albumin protein measurement	measurement	skos:broadMatch	OBA:2050071			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007574	blood toxic metal measurement	measurement	skos:broadMatch	OBA:2050091			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007947	serum galactose-deficient IgA1 measurement	measurement	skos:broadMatch	OBA:2050057			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004504	serum hepcidin measurement	measurement	skos:exactMatch	OBA:2050089			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004518	creatinine measurement	measurement	skos:exactMatch	OBA:2050096			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004535	serum albumin measurement	measurement	skos:exactMatch	OBA:2050068			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004565	serum IgG measurement	measurement	skos:exactMatch	OBA:2050085			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004579	serum IgE measurement	measurement	skos:exactMatch	OBA:2050084			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004728	serum amyloid A protein measurement	measurement	skos:exactMatch	OBA:2050097			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004912	serum IgA measurement	measurement	skos:exactMatch	OBA:2050074			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004993	serum IgM measurement	measurement	skos:exactMatch	OBA:2050070			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005139	serum ceruloplasmin measurement	measurement	skos:exactMatch	OBA:2050073			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005266	serum selenium measurement	measurement	skos:exactMatch	OBA:2050059			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005268	serum zinc measurement	measurement	skos:exactMatch	OBA:2050076			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005415	serum alpha-1-antitrypsin measurement	measurement	skos:exactMatch	OBA:2050075			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005416	serum ST2 measurement	measurement	skos:exactMatch	OBA:2050082			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005418	serum dimethylarginine measurement	measurement	skos:exactMatch	OBA:2050060			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005421	serum homoarginine measurement	measurement	skos:exactMatch	OBA:2050056			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0006332	serum iron measurement	measurement	skos:exactMatch	OBA:2050055			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0006795	serum VEGFR2 concentration measurement	measurement	skos:exactMatch	OBA:2050080			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007040	blood lead measurement	measurement	skos:exactMatch	OBA:2050087			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007575	blood aluminium measurement	measurement	skos:exactMatch	OBA:2050063			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007576	blood cadmium measurement	measurement	skos:exactMatch	OBA:2050067			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007577	blood cobalt measurement	measurement	skos:exactMatch	OBA:2050077			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007579	blood chromium measurement	measurement	skos:exactMatch	OBA:2050054			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007580	blood mercury measurement	measurement	skos:exactMatch	OBA:2050088			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007581	blood manganese measurement	measurement	skos:exactMatch	OBA:2050061			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007582	blood molybdenum measurement	measurement	skos:exactMatch	OBA:2050066			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007583	blood nickel measurement	measurement	skos:exactMatch	OBA:2050064			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007584	blood zinc measurement	measurement	skos:exactMatch	OBA:2050072			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0008282	serum amyloid A-1 protein measurement	measurement	skos:exactMatch	OBA:2050083			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0008283	serum amyloid P-component measurement	measurement	skos:exactMatch	OBA:2050090			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0009795	serum urea measurement	measurement	skos:exactMatch	OBA:2050065			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0010127	serum immunoglobulin measurement	measurement	skos:exactMatch	OBA:2050079			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0010952	urinary potassium measurement	measurement	skos:exactMatch	OBA:2050095			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0011012	blood bicarbonate measurement	measurement	skos:exactMatch	OBA:2050094			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0020736	serum paraoxonase/arylesterase 1 measurement	measurement	skos:exactMatch	OBA:2050098			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0600041	serum clozapine measurement	measurement	skos:exactMatch	OBA:2050086			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0600043	serum N-desmethylclozapine measurement	measurement	skos:exactMatch	OBA:2050093			HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005273	sleep depth	measurement	skos:broadMatch	OBA:1000905	sleeping behavior quality		HumanCurated	EFO	OBA	1	2023-02-03				orcid:0000-0001-8314-2140
+EFO:0004870	sleep measurement	measurement	skos:exactMatch	OBA:2040170			HumanCurated	EFO	OBA	1	2023-02-03				orcid:0000-0001-8314-2140
+EFO:0005272	sleep quality	measurement	skos:exactMatch	OBA:2040170			HumanCurated	EFO	OBA	1	2023-02-03				orcid:0000-0001-8314-2140
+EFO:0005271	sleep duration	measurement	skos:exactMatch	OBA:2040171			HumanCurated	EFO	OBA	1	2023-02-03				orcid:0000-0001-8314-2140
+EFO:0005280	sleep latency	measurement	skos:exactMatch	OBA:2040172			HumanCurated	EFO	OBA	1	2023-02-03				orcid:0000-0001-8314-2140
+EFO:0005274	sleep time	measurement	skos:exactMatch	OBA:2040173			HumanCurated	EFO	OBA	1	2023-02-03				orcid:0000-0001-8314-2140
