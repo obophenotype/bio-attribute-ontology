@@ -42,7 +42,7 @@ def:
   text: "A trait that affects the ratio or inverse ratio of %s to %s."
   vars:
     - attribute1
-    - location
+    - attribute2
   annotations:
     - annotationProperty: xref
       text: "AUTO:patterns/patterns/ratio_location"
