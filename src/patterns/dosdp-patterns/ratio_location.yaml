@@ -1,7 +1,15 @@
 pattern_name: ratio_location
 pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/ratio_location.yaml
 
-description: 'Use this pattern for traits that that depend on the proportions, ratios, or inverse ratios of two measurable attributes. Although calculating a ratio is not commutative, the trait category as defined here is indifferent about the direction of the ratio between the two quantifiable attributes, i.e. A:B and B:A are assumed to represent reciprocal aspects of the same abstract biological attribute that share the same genetic determinants. For example, the sodium to potassium ratio is assumed to have the same genetic determinants in an organism than the potassium to sodium ratio, and the resulting reciprocal values are not independent from each other.'
+description: 'Use this pattern for traits that that depend on the proportions,
+  ratios, or inverse ratios of two measurable attributes. Although calculating
+  a ratio is not commutative, the trait category as defined here is indifferent
+  about the direction of the ratio between the two quantifiable attributes,
+  i.e. A:B and B:A are assumed to represent reciprocal aspects of the same
+  abstract biological attribute that share the same genetic determinants. For
+  example, the sodium to potassium ratio is assumed to have the same genetic
+  determinants in an organism than the potassium to sodium ratio, and the
+  resulting reciprocal values are not independent from each other.'
 
 # examples
 # http://www.ebi.ac.uk/efo/EFO_0009884      # urinary sodium to potassium ratio
