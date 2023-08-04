@@ -51,7 +51,8 @@ annotations:
   - annotationProperty: exact_synonym
     text: "ratio or inverse ratio of %s to %s"
     vars:
-      - location
+      - attribute1
+      - attribute2
       - entity
     annotations:
       - annotationProperty: xref
