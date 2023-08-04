@@ -59,7 +59,9 @@ annotations:
 
 
 equivalentTo:
-  text:
+  text: "'proportionality_to'
+    and ('has_part' some %s)
+    and ('has_part' some %s)"
   vars:
     - attribute1
     - attribute2
