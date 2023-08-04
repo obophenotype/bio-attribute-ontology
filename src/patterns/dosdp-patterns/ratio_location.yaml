@@ -39,7 +39,7 @@ name:
     - location
 
 def:
-  text: "The proportion of %s to %s in %s."
+  text: "A trait that affects the ratio or inverse ratio of %s to %s."
   vars:
     - entity
     - location
