@@ -15,7 +15,6 @@ contributors:
 classes:
   proportionality_to: PATO:0001470
   quality: PATO:0000001
-  thing: owl:Thing
 
 relations:
   has_part: BFO:0000051
