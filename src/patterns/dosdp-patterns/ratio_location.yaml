@@ -27,7 +27,7 @@ annotationProperties:
 
 vars:
   attribute1: "'quality'"
-  entity: "'thing'"
+  attribute2: "'quality'"
 
 name:
   text: "The proportion of %s to %s in %s"
