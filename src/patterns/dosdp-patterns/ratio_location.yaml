@@ -33,7 +33,7 @@ data_list_vars:
   orcid: xsd:anyURI  # ORCID of contributor
 
 name:
-  text: "The proportion of %s to %s in %s"
+  text: "%s to %s ratio or inverse ratio"
   vars:
     - entity
     - location
