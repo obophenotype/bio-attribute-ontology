@@ -49,7 +49,7 @@ def:
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "%s %s %s"
+    text: "ratio or inverse ratio of %s to %s"
     vars:
       - location
       - entity
