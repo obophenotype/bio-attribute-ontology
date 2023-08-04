@@ -29,6 +29,9 @@ vars:
   attribute1: "'quality'"
   attribute2: "'quality'"
 
+data_list_vars:
+  orcid: xsd:anyURI  # ORCID of contributor
+
 name:
   text: "The proportion of %s to %s in %s"
   vars:
