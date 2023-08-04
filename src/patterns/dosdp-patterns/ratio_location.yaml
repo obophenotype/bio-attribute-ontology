@@ -35,7 +35,7 @@ data_list_vars:
 name:
   text: "%s to %s ratio or inverse ratio"
   vars:
-    - entity
+    - attribute1
     - location
 
 def:
