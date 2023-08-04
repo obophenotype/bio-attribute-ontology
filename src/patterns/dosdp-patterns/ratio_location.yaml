@@ -62,5 +62,6 @@ annotations:
 equivalentTo:
   text:
   vars:
-    - entity
+    - attribute1
+    - attribute2
     - location
