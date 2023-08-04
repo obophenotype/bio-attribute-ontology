@@ -36,7 +36,7 @@ name:
   text: "%s to %s ratio or inverse ratio"
   vars:
     - attribute1
-    - location
+    - attribute2
 
 def:
   text: "A trait that affects the ratio or inverse ratio of %s to %s."
