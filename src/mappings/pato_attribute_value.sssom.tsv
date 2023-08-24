@@ -7,7 +7,7 @@
 #   skos: http://www.w3.org/2004/02/skos/core#
 #   sssom: https://w3id.org/sssom/
 # license: https://creativecommons.org/publicdomain/zero/1.0/
-# mapping_date: '2023-05-11'
+# mapping_date: '2023-08-24'
 # mapping_set_id: http://purl.obolibrary.org/obo/oba/mappings/pato_attribute_value.sssom.tsv
 # object_source: http://purl.obolibrary.org/obo/pato.owl
 # subject_source: http://purl.obolibrary.org/obo/pato.owl
@@ -129,8 +129,8 @@ PATO:0001724	decreased female receptivity	skos:broadMatch	PATO:0001719	semapv:Un
 PATO:0001724	decreased female receptivity	skos:broadMatch	PATO:0001720	semapv:UnspecifiedMatching
 PATO:0001725	increased male receptivity	skos:broadMatch	PATO:0001719	semapv:UnspecifiedMatching
 PATO:0001725	increased male receptivity	skos:broadMatch	PATO:0001721	semapv:UnspecifiedMatching
-PATO:0001726	decreased male receptivity	skos:broadMatch	PATO:0001721	semapv:UnspecifiedMatching
 PATO:0001726	decreased male receptivity	skos:broadMatch	PATO:0001719	semapv:UnspecifiedMatching
+PATO:0001726	decreased male receptivity	skos:broadMatch	PATO:0001721	semapv:UnspecifiedMatching
 PATO:0001764	increased age	skos:broadMatch	PATO:0000011	semapv:UnspecifiedMatching
 PATO:0001765	decreased age	skos:broadMatch	PATO:0000011	semapv:UnspecifiedMatching
 PATO:0001776	increased flexibility	skos:broadMatch	PATO:0001543	semapv:UnspecifiedMatching
@@ -153,8 +153,8 @@ PATO:0001816	increased fatigability	skos:broadMatch	PATO:0001815	semapv:Unspecif
 PATO:0001817	decreased fatigability	skos:broadMatch	PATO:0001815	semapv:UnspecifiedMatching
 PATO:0001825	increased wetness	skos:broadMatch	PATO:0001822	semapv:UnspecifiedMatching
 PATO:0001826	decreased wetness	skos:broadMatch	PATO:0001822	semapv:UnspecifiedMatching
-PATO:0001830	decreased female fertility	skos:broadMatch	PATO:0000277	semapv:UnspecifiedMatching
 PATO:0001830	decreased female fertility	skos:broadMatch	PATO:0000274	semapv:UnspecifiedMatching
+PATO:0001830	decreased female fertility	skos:broadMatch	PATO:0000277	semapv:UnspecifiedMatching
 PATO:0001831	increased female fertility	skos:broadMatch	PATO:0000274	semapv:UnspecifiedMatching
 PATO:0001831	increased female fertility	skos:broadMatch	PATO:0000277	semapv:UnspecifiedMatching
 PATO:0001832	increased male fertility	skos:broadMatch	PATO:0000274	semapv:UnspecifiedMatching
@@ -310,8 +310,8 @@ PATO:0045024	normal force	skos:broadMatch	PATO:0001035	semapv:UnspecifiedMatchin
 PATO:0045025	normal fragility	skos:broadMatch	PATO:0001662	semapv:UnspecifiedMatching
 PATO:0045026	normal life span	skos:broadMatch	PATO:0000050	semapv:UnspecifiedMatching
 PATO:0045027	normal magnetism	skos:broadMatch	PATO:0001682	semapv:UnspecifiedMatching
-PATO:0045028	normal male fertility	skos:broadMatch	PATO:0000279	semapv:UnspecifiedMatching
 PATO:0045028	normal male fertility	skos:broadMatch	PATO:0000274	semapv:UnspecifiedMatching
+PATO:0045028	normal male fertility	skos:broadMatch	PATO:0000279	semapv:UnspecifiedMatching
 PATO:0045029	normal male receptivity	skos:broadMatch	PATO:0001719	semapv:UnspecifiedMatching
 PATO:0045029	normal male receptivity	skos:broadMatch	PATO:0001721	semapv:UnspecifiedMatching
 PATO:0045030	normal mass	skos:broadMatch	PATO:0000125	semapv:UnspecifiedMatching
@@ -394,4 +394,7 @@ PATO:0070026	multipolar neuron morphology	skos:broadMatch	PATO:0000051	semapv:Un
 PATO:0070027	bitufted dendrite cell morphology	skos:broadMatch	PATO:0000051	semapv:UnspecifiedMatching
 PATO:0070042	retinal bipolar morphology	skos:broadMatch	PATO:0000051	semapv:UnspecifiedMatching
 PATO:0070061	double bouquet morphology	skos:broadMatch	PATO:0000051	semapv:UnspecifiedMatching
+PATO:0070062	bistratified dendrite cell morphology	skos:broadMatch	PATO:0000051	semapv:UnspecifiedMatching
+PATO:0070063	monostratified dendrite cell morphology	skos:broadMatch	PATO:0000051	semapv:UnspecifiedMatching
+PATO:0070064	dendritic field size	skos:broadMatch	PATO:0000117	semapv:UnspecifiedMatching
 
