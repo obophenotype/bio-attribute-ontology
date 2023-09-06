@@ -218,7 +218,7 @@ OBA:2050066	blood molybdenum amount	CHEBI:28685	molybdenum atom	PATO:0000070	amo
 OBA:2050067	blood cadmium amount	CHEBI:22977	cadmium atom	PATO:0000070	amount	UBERON:0000178	blood			
 OBA:2050068	serum albumin amount	PR:000003918	albumin	PATO:0000070	amount	UBERON:0001977	serum			
 OBA:2050070	serum IgM amount	GO:0071754	IgM immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum			
-OBA:2050071	serum non-albumin protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050071	level of serum protein	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0001977	serum	serum protein amount		https://orcid.org/0000-0001-6757-4744|https://orcid.org/0000-0001-8314-2140
 OBA:2050072	blood zinc amount	CHEBI:27363	zinc atom	PATO:0000070	amount	UBERON:0000178	blood			
 OBA:2050073	serum ceruloplasmin amount	PR:000005794	ceruloplasmin	PATO:0000070	amount	UBERON:0001977	serum			
 OBA:2050074	serum IgA amount	GO:0071746	IgA immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum			
@@ -5340,3 +5340,5 @@ OBA:2050334	level of neurturin in blood plasma	PR:000011439	neurturin 	PATO:0000
 OBA:2050335	level of interleukin-33 in blood plasma	PR:000001389	interleukin-33	PATO:0000070	amount	UBERON:0001969	blood plasma			
 OBA:2050336	level of T-cell differentiation antigen CD6 in blood plasma	PR:P30203	T-cell differentiation antigen CD6	PATO:0000070	amount	UBERON:0001969	blood plasma			
 OBA:2050337	level of eukaryotic translation initiation factor 4E-binding protein 1 in blood plasma	PR:000006994	eukaryotic translation initiation factor 4E-binding protein 1	PATO:0000070	amount	UBERON:0001969	blood plasma			
+OBA:2045207	level of serum globulin type protein	CHEBI:166899	globulin type	PATO:0000070	amount	UBERON:0001977	serum	level of serum non-albumin protein|serum non-albumin protein amount		https://orcid.org/0000-0001-8314-2140
+OBA:2045208	level of serum albumin type protein	CHEBI:166964	albumin type	PATO:0000070	amount	UBERON:0001977	serum	level of serum albumin type protein|serum albumin type protein amount		https://orcid.org/0000-0001-8314-2140
