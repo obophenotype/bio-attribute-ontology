@@ -4255,3 +4255,19 @@ OBA:2050201	seminal fluid amount	UBERON:0006530	seminal fluid	PATO:0000070	amoun
 OBA:2050202	skin amplitude trait	UBERON:0000014	zone of skin	PATO:0000080	amplitude			
 OBA:2050203	skin fluorescence trait	UBERON:0000014	zone of skin	PATO:0000018	fluorescence			
 OBA:2050204	spleen volume	UBERON:0002106	spleen	PATO:0000918	volume			
+OBA:2045208	carotid artery morphology	UBERON:0001530	common carotid artery plus branches	PATO:0000051	morphology	carotid artery geometry attribute		https://orcid.org/0000-0001-8314-2140
+OBA:2045210	brain attribute	UBERON:0000955	brain	PATO:0000001	quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045212	Lewy body attribute	GO:0097413	Lewy body	PATO:0000001	quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045213	carotid artery attribute	UBERON:0001530	common carotid artery plus branches	PATO:0000001	quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045214	cingulate cortex attribute	UBERON:0003027	cingulate cortex	PATO:0000001	quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045215	menstrual cycle attribute	GO:0044850	menstrual cycle	PATO:0000001	quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045216	macula attribute	UBERON:0000054	macula	PATO:0000001	quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045217	putamen attribute	UBERON:0001874	putamen	PATO:0000001	quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045218	parietal cortex attribute	UBERON:0016530	parietal cortex	PATO:0000001	quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045219	corneal endothelial cell attribute	CL:0000132	corneal endothelial cell	PATO:0000001	quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045220	immunoglobulin isotype switching attribute	GO:0045190	isotype switching	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045221	bowel opening frequency	GO:0035882	defecation rhythm	PATO:0000044	frequency			https://orcid.org/0000-0001-8314-2140
+OBA:2045222	basophilic erythroblast count	CL:0000549	basophilic erythroblast	PATO:0000070	amount	prorubricyte count		https://orcid.org/0000-0001-8314-2140
+OBA:2045223	myeloid leukocyte count	CL:0000766	myeloid leukocyte	PATO:0000070	amount	myeloid white cell count		https://orcid.org/0000-0001-8314-2140
+OBA:2045224	visceral adipose tissue quantity	UBERON:0035818	visceral fat	PATO:0000070	amount			https://orcid.org/0000-0001-8314-2140
+OBA:2045225	blood clotting level	UBERON:0010210	blood clot	PATO:0000070	amount	thrombus formation level		https://orcid.org/0000-0001-8314-2140
