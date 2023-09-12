@@ -1,266 +1,266 @@
 defined_class	defined_class_name	entity	entity_name	attribute	attribute_name	location	location_name	exact_synonyms	xrefs	orcid
-OBA:0000016	angiotensin levels in blood	PR:000036009	angiotensin II	PATO:0000070	amount	UBERON:0000178	blood
-OBA:0000090	lung blood pressure	UBERON:0000178	blood	PATO:0001025	pressure	UBERON:0002048	lung
-OBA:0000098	membrane lipid distribution	CHEBI:18059	lipid	PATO:0000060	spatial pattern	GO:0016020	membrane
-OBA:0000123	plasma membrane sterol distribution	CHEBI:15889	sterol	PATO:0000060	spatial pattern	GO:0005886	plasma membrane
-OBA:0000143	systemic arterial blood pressure	UBERON:0000178	blood	PATO:0001025	pressure	UBERON:0004573	systemic artery
-OBA:VT0000068	blood mineral amount	CHEBI:46662	mineral	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0000180	blood cholesterol amount	CHEBI:16113	cholesterol	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0000181	blood LDL cholesterol amount	CHEBI:47774	low-density lipoprotein cholesterol	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0000184	blood HDL cholesterol amount	CHEBI:47775	high-density lipoprotein cholesterol	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0000188	blood glucose amount	CHEBI:17234	glucose	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0000202	blood alkaline phosphatase amount	PR:000023540	alkaline phosphatase	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0000315	urine hemoglobin amount	CHEBI:35143	hemoglobin	PATO:0000070	amount	UBERON:0001088	urine
-OBA:VT0000716	immune system cell morphology trait	CL:0000000	cell	PATO:0000051	morphology	UBERON:0002405	immune system
-OBA:VT0001105	peripheral nervous system glial cell morphology trait	CL:0000125	glial cell	PATO:0000051	morphology	UBERON:0000010	peripheral nervous system
-OBA:VT0001560	blood insulin amount	CHEBI:5931	insulin (human)	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0001562	blood calcium amount	CHEBI:22984	calcium atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0001565	blood phosphate amount	CHEBI:26020	phosphate	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0001569	blood bilirubin amount	CHEBI:16990	bilirubin	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0001754	blood corticotropin-releasing hormone amount	CHEBI:65311	corticotropin-releasing hormone	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0001758	urine glucose amount	CHEBI:17234	glucose	PATO:0000070	amount	UBERON:0001088	urine
-OBA:VT0001771	blood magnesium amount	CHEBI:25107	magnesium atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0001776	blood sodium amount	CHEBI:26708	sodium atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0002181	brain cell morphology trait	CL:0000000	cell	PATO:0000051	morphology	UBERON:0000955	brain
-OBA:VT0002644	blood triglyceride amount	CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0002664	blood adrenocorticotropin amount	CHEBI:3892	corticotropin	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0002668	blood potassium amount	CHEBI:26216	potassium atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0002695	blood glucagon amount	CHEBI:5391	glucagon	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0002851	blood sulfate amount	CHEBI:16189	sulfate	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0002900	urine phosphate amount	CHEBI:26020	phosphate	PATO:0000070	amount	UBERON:0001088	urine
-OBA:VT0002903	blood parathyroid hormone amount	PR:000013429	parathyroid hormone	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0002985	urine calcium amount	CHEBI:22984	calcium atom	PATO:0000070	amount	UBERON:0001088	urine
-OBA:VT0003015	blood bicarbonate amount	CHEBI:17544	hydrogencarbonate	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0003018	blood chloride amount	CHEBI:17996	chloride	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0003311	urine amino acid amount	CHEBI:33709	amino acid	PATO:0000070	amount	UBERON:0001088	urine
-OBA:VT0003349	blood renin amount	PR:000013883	renin	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0003366	blood glucocorticoid amount	CHEBI:24261	glucocorticoid	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0003442	blood glycerol amount	CHEBI:17754	glycerol	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0003508	blood dihydrotestosterone amount	CHEBI:16330	17beta-hydroxy-5alpha-androstan-3-one	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0003853	skin water amount	CHEBI:15377	water	PATO:0000070	amount	UBERON:0000014	zone of skin
-OBA:VT0003949	blood lipid amount	CHEBI:18059	lipid	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0003977	blood carnitine amount	CHEBI:17126	carnitine	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0004101	brain interneuron morphology trait	CL:0000099	interneuron	PATO:0000051	morphology	UBERON:0000955	brain
-OBA:VT0004152	blood iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005144	blood VLDL cholesterol amount	CHEBI:47773	very-low-density lipoprotein cholesterol	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005160	urine protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0001088	urine
-OBA:VT0005180	blood testosterone amount	CHEBI:17347	testosterone	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005183	blood estradiol amount	CHEBI:23965	estradiol	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005184	blood progesterone amount	CHEBI:17026	progesterone	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005280	adipose fatty acid amount	CHEBI:35366	fatty acid	PATO:0000070	amount	UBERON:0001013	adipose tissue
-OBA:VT0005285	adipose unsaturated fatty acid amount	CHEBI:27208	unsaturated fatty acid	PATO:0000070	amount	UBERON:0001013	adipose tissue
-OBA:VT0005286	adipose saturated fatty acid amount	CHEBI:26607	saturated fatty acid	PATO:0000070	amount	UBERON:0001013	adipose tissue
-OBA:VT0005308	blood ammonia amount	CHEBI:16134	ammonia	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005311	blood amino acid amount	CHEBI:33709	amino acid	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005328	blood creatinine amount	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005345	blood corticosterone amount	CHEBI:16827	corticosterone	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005346	blood aldosterone amount	CHEBI:27584	aldosterone	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005416	blood protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005475	blood thyroxine amount	CHEBI:30660	thyroxine	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005476	blood triiodothyronine amount	CHEBI:18258	3,3',5-triiodo-L-thyronine	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005521	blood atrial natriuretic factor amount	PR:000011374	atrial natriuretic factor	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005609	blood antidiuretic hormone amount	CHEBI:9937	vasopressin	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005660	blood epinephrine amount	CHEBI:28918	(R)-adrenaline	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005663	blood norepinephrine amount	CHEBI:18357	(R)-noradrenaline	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005667	blood leptin amount	PR:000009758	leptin	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0006034	urine myoglobin amount	CHEBI:7044	myoglobin	PATO:0000070	amount	UBERON:0001088	urine
-OBA:VT0006076	blood homocysteine amount	CHEBI:17230	homocysteine	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0006084	blood phospholipid amount	CHEBI:16247	phospholipid	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0006274	urine sodium amount	CHEBI:26708	sodium atom	PATO:0000070	amount	UBERON:0001088	urine
-OBA:VT0008589	blood interleukin-1 amount	PR:000001091	interleukin-1	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008590	blood interleukin-10 amount	PR:000001471	interleukin-10	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008595	blood interleukin-6 amount	PR:000001393	interleukin-6	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008598	blood interleukin-2 amount	PR:000001379	interleukin-2	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008601	blood interleukin-4 amount	PR:000001391	interleukin-4	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008604	blood interleukin-7 amount	PR:000001317	interleukin-7	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008607	blood interleukin-13 amount	PR:000001370	interleukin-13	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008610	blood interleukin-15 amount	PR:000001373	interleukin-15	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008613	blood interleukin-17 amount	PR:000001092	interleukin-17	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008622	blood interleukin-3 amount	PR:000001387	interleukin-3	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008625	blood interleukin-5 amount	PR:000001392	interleukin-5	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008628	blood interleukin-9 amount	PR:000001396	interleukin-9	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008631	blood interleukin-16 amount	PR:000001374	interleukin-16	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008634	blood interleukin-18 amount	PR:000001376	interleukin-18	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008637	blood interleukin-1 alpha amount	PR:000001135	interleukin-1 alpha	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008640	blood interleukin-1 beta amount	PR:000001136	interleukin-1 beta	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008739	spleen iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0002106	spleen
-OBA:VT0009059	blood interleukin-21 amount	PR:000001382	interleukin-21	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010025	milk fatty acid C12:1(n-3) amount	CHEBI:23867	dodecenoic acid	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010026	milk fatty acid C15:0 amount	CHEBI:42504	pentadecanoic acid	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010029	milk alpha-lactalbumin amount	PR:000009649	alpha-lactalbumin	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010048	muscle saturated fatty acid amount	CHEBI:26607	saturated fatty acid	PATO:0000070	amount	UBERON:0001630	muscle organ
-OBA:VT0010049	muscle unsaturated fatty acid amount	CHEBI:27208	unsaturated fatty acid	PATO:0000070	amount	UBERON:0001630	muscle organ
-OBA:VT0010191	immune system cell quantity	CL:0000738	leukocyte	PATO:0001555	has number of	UBERON:0002405	immune system
-OBA:VT0010267	milk whey acidic protein amount	PR:000017467	whey acidic protein	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010268	milk lactoferrin amount	PR:000009978	lactotransferrin	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010270	colostrum steroid amount	CHEBI:35341	steroid	PATO:0000070	amount	UBERON:0001914	colostrum
-OBA:VT0010271	colostrum leptin amount	PR:000009758	leptin	PATO:0000070	amount	UBERON:0001914	colostrum
-OBA:VT0010276	milk steroid amount	CHEBI:35341	steroid	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010277	milk leptin amount	PR:000009758	leptin	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010281	milk alpha-S1-casein amount	PR:000005940	alpha-S1-casein	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010283	milk kappa-casein amount	PR:000005942	kappa-casein	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010284	milk beta-casein amount	PR:000005941	beta-casein	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010287	milk lactose amount	CHEBI:17716	lactose	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010288	milk mineral amount	CHEBI:46662	mineral	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010290	milk calcium amount	CHEBI:22984	calcium atom	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010291	milk potassium amount	CHEBI:26216	potassium atom	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010292	milk sodium amount	CHEBI:26708	sodium atom	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010293	milk phosphorus amount	CHEBI:28659	phosphorus atom	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010294	milk chloride amount	CHEBI:17996	chloride	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010295	milk magnesium amount	CHEBI:25107	magnesium atom	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010302	blood uric acid amount	CHEBI:27226	uric acid	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010303	milk fatty acid amount	CHEBI:35366	fatty acid	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010304	milk saturated fatty acid amount	CHEBI:26607	saturated fatty acid	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010305	milk unsaturated fatty acid amount	CHEBI:27208	unsaturated fatty acid	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010319	milk fatty acid C20:0 amount	CHEBI:28822	arachidic acid	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010322	milk omega-3 fatty acid amount	CHEBI:25681	omega-3 fatty acid	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010323	milk omega-6 fatty acid amount	CHEBI:36009	omega-6 fatty acid	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010324	milk conjugated linoleic acid amount	CHEBI:61159	conjugated linoleic acid	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010373	milk monounsaturated fatty acid amount	CHEBI:25413	monounsaturated fatty acid	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010374	milk polyunsaturated fatty acid amount	CHEBI:26208	polyunsaturated fatty acid	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010380	milk beta-carotene amount	CHEBI:17579	beta-carotene	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010381	milk retinol amount	CHEBI:50211	retinol	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010382	milk triglyceride amount	CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010383	milk cholesterol amount	CHEBI:16113	cholesterol	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010385	milk diacylglycerol amount	CHEBI:18035	diglyceride	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010386	milk monoacylglycerol amount	CHEBI:17408	monoglyceride	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010387	milk phospholipid amount	CHEBI:16247	phospholipid	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010388	milk polyphenol amount	CHEBI:26195	polyphenol	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010389	milk butyrophilin amount	PR:000001848	butyrophilin	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010399	milk urea amount	CHEBI:16199	urea	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010400	milk ammonia amount	CHEBI:16134	ammonia	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010456	cerebrospinal fluid mineral amount	CHEBI:46662	mineral	PATO:0000070	amount	UBERON:0001359	cerebrospinal fluid
-OBA:VT0010470	pancreas insulin amount	CHEBI:5931	insulin (human)	PATO:0000070	amount	UBERON:0001264	pancreas
-OBA:VT0010484	nervous system serotonin amount	CHEBI:28790	serotonin	PATO:0000070	amount	UBERON:0001016	nervous system
-OBA:VT0010498	liver cholesterol amount	CHEBI:16113	cholesterol	PATO:0000070	amount	UBERON:0002107	liver
-OBA:VT0010502	urine catecholamine amount	CHEBI:33567	catecholamine	PATO:0000070	amount	UBERON:0001088	urine
-OBA:VT0010514	blood transferrin amount	PR:000016261	serotransferrin	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010515	blood fibronectin amount	PR:000007581	fibronectin	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010516	blood glutathione amount	CHEBI:16856	glutathione	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010519	liver triglyceride amount	CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0002107	liver
-OBA:VT0015086	urine mineral amount	CHEBI:46662	mineral	PATO:0000070	amount	UBERON:0001088	urine
-OBA:VT1000165	milk protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT1000401	muscle androstenone amount	CHEBI:37894	5alpha-androst-16-en-3-one	PATO:0000070	amount	UBERON:0001630	muscle organ
-OBA:VT1000429	muscle lactate amount	CHEBI:24996	lactate	PATO:0000070	amount	UBERON:0001630	muscle organ
-OBA:VT1000430	muscle cholesterol amount	CHEBI:16113	cholesterol	PATO:0000070	amount	UBERON:0001630	muscle organ
-OBA:VT1000431	muscle indole amount	CHEBI:35581	indole	PATO:0000070	amount	UBERON:0001630	muscle organ
-OBA:VT1000432	muscle water amount	CHEBI:15377	water	PATO:0000070	amount	UBERON:0001630	muscle organ
-OBA:VT1000433	muscle protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0001630	muscle organ
-OBA:VT1000434	muscle skatole amount	CHEBI:9171	skatole	PATO:0000070	amount	UBERON:0001630	muscle organ
-OBA:VT1000444	adipose androstenone amount	CHEBI:37894	5alpha-androst-16-en-3-one	PATO:0000070	amount	UBERON:0001013	adipose tissue
-OBA:VT1000479	muscle lipid amount	CHEBI:18059	lipid	PATO:0000070	amount	UBERON:0001630	muscle organ
-OBA:VT1000670	blood cortisol amount	CHEBI:17650	cortisol	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT1000761	muscle nitrogen amount	CHEBI:17997	dinitrogen	PATO:0000070	amount	UBERON:0001630	muscle organ
-OBA:VT1000764	muscle myoglobin amount	CHEBI:7044	myoglobin	PATO:0000070	amount	UBERON:0001630	muscle organ
-OBA:VT0004368	stria vascularis blood vessel morphology trait	UBERON:0001981	blood vessel	PATO:0000051	morphology	UBERON:0002282	stria vascularis of cochlear duct
-OBA:0000103	mitochondrial mRNA stability	SO:0000234	mRNA	OBA:0001001	macromolecular stability	GO:0005739	mitochondrion
-OBA:0000106	mitochondrial rRNA stability	SO:0000252	rRNA	OBA:0001001	macromolecular stability	GO:0005739	mitochondrion
-OBA:0000003	ER calcium ion concentration	CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005783	endoplasmic reticulum
-OBA:0000005	Golgi calcium ion concentration	CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005794	Golgi apparatus
-OBA:0006038		CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005829	cytosol
-OBA:0006039		CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0099524	postsynaptic cytosol
-OBA:VT0001757	urine molecular composition	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0001088	urine
-OBA:VT0010585	brain molecular composition	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0000955	brain
-OBA:VT0010481	blood immunoglobulin M amount	GO:0071754	IgM immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008616	blood interleukin-12 amount	GO:0043514	interleukin-12 complex	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010710	milk copper amount	CHEBI:28694	copper atom	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0010480	blood osteocalcin amount	PR:000030444	osteocalcin	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010477	blood lactate dehydrogenase amount	PR:000050331	lactate dehydrogenase complex	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0001805	blood immunoglobulin G amount	GO:0071736	IgG immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010535	erythrocyte ion amount	CHEBI:24870	ion	PATO:0000070	amount	CL:0000232	erythrocyte
-OBA:VT0010513	blood ferritin amount	GO:0070288	ferritin complex	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008498	blood immunoglobulin G3 amount	PR:000050255	IgG3 heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010919	feces bile acid amount	CHEBI:3098	bile acid	PATO:0000070	amount	UBERON:0001988	feces
-OBA:VT0001553	blood free fatty acid amount	CHEBI:35366	fatty acid	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010808	milk sulfur amount	CHEBI:26833	sulfur atom	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0000199	blood albumin amount	CHEBI:166964	albumin type	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010918	liver bile acid amount	CHEBI:3098	bile acid	PATO:0000070	amount	UBERON:0002107	liver
-OBA:VT0010711	milk iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0001913	milk
-OBA:VT0005567	blood total protein amount	CHEBI:36080	protein	PATO:0000125	mass	UBERON:0000178	blood
-OBA:VT0002492	blood immunoglobulin E amount	GO:0071743	IgE immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008497	blood immunoglobulin G2b amount	PR:000050260	IgG2b heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010694	blood fructosamine amount	CHEBI:24103	fructosamine	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005265	blood urea nitrogen amount	CHEBI:16199	urea	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0001573	blood alanine transaminase amount	PR:000050219	alanine aminotransferase	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0003065	hepatic copper amount	CHEBI:28694	copper atom	PATO:0000070	amount	UBERON:0002107	liver
-OBA:VT0001807	blood immunoglobulin A amount	GO:0071746	IgA immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010545	blood adiponectin amount	CHEBI:81572	Adiponectin	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010878	blood bile acid amount	CHEBI:3098	bile acid	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010677	glycated serum protein amount	PR:000037069	glycoprotein	PATO:0000070	amount	UBERON:0001977	serum
-OBA:VT0010648	muscle glycogen amount	CHEBI:28087	glycogen	PATO:0000070	amount	UBERON:0001134	skeletal muscle tissue
-OBA:VT0008495	blood immunoglobulin G1 amount	PR:000050253	IgG1 heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0002871	urine albumin amount	CHEBI:166964	albumin type	PATO:0000070	amount	UBERON:0001088	urine
-OBA:VT1000047	blood creatine kinase amount	PR:000029971	creatine kinase	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010616	blood lactate amount	CHEBI:24996	lactate	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010695	blood ghrelin amount	PR:000007973	appetite-regulating hormone	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008897	blood immunoglobulin G2c amount	PR:000050261	IgG2c heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010474		CHEBI:50404	lipoprotein cholesterol	PATO:0000025	composition	UBERON:0000178	blood
-OBA:VT0000203	blood aspartate transaminase amount	PR:000008153	aspartate aminotransferase, cytoplasmic	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0005119	blood thyroid-stimulating hormone amount	PR:000028269	thyroid stimulating hormone	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008550	blood interferon-beta amount	PR:000024939	interferon beta	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0008496	blood immunoglobulin G2a amount	PR:000050259	IgG2a heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0003457	blood ketone body amount	CHEBI:73693	ketone body	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010476	blood glutamate dehydrogenase amount	GO:1990148	glutamate dehydrogenase complex	PATO:0000070	amount	UBERON:0000178	blood
-OBA:VT0010540	urine creatinine amount	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0001088	urine
-OBA:VT0010714	milk zinc content	CHEBI:27363	zinc atom	PATO:0000070	amount	UBERON:0001913	milk
-OBA:2050054	blood chromium amount	CHEBI:28073	chromium atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050055	serum iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050056	serum homoarginine amount	CHEBI:24606	homoarginine	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050057	serum galactose-deficient IgA1 amount	PR:000050159	IgA1 immunoglobulin complex, circulating (human)	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050059	serum selenium amount	CHEBI:27568	selenium atom	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050060	serum dimethylarginine amount	CHEBI:86468	dimethylarginine	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050061	blood manganese amount	CHEBI:18291	manganese atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050062	serum alanine aminotransferase amount	PR:000050219	alanine aminotransferase	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050063	blood aluminium amount	CHEBI:28984	aluminium atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050064	blood nickel amount	CHEBI:28112	nickel atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050065	serum urea amount	CHEBI:16199	urea	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050066	blood molybdenum amount	CHEBI:28685	molybdenum atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050067	blood cadmium amount	CHEBI:22977	cadmium atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050068	serum albumin amount	PR:000003918	albumin	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050070	serum IgM amount	GO:0071754	IgM immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum
+OBA:0000016	angiotensin levels in blood	PR:000036009	angiotensin II	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:0000090	lung blood pressure	UBERON:0000178	blood	PATO:0001025	pressure	UBERON:0002048	lung			
+OBA:0000098	membrane lipid distribution	CHEBI:18059	lipid	PATO:0000060	spatial pattern	GO:0016020	membrane			
+OBA:0000123	plasma membrane sterol distribution	CHEBI:15889	sterol	PATO:0000060	spatial pattern	GO:0005886	plasma membrane			
+OBA:0000143	systemic arterial blood pressure	UBERON:0000178	blood	PATO:0001025	pressure	UBERON:0004573	systemic artery			
+OBA:VT0000068	blood mineral amount	CHEBI:46662	mineral	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0000180	blood cholesterol amount	CHEBI:16113	cholesterol	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0000181	blood LDL cholesterol amount	CHEBI:47774	low-density lipoprotein cholesterol	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0000184	blood HDL cholesterol amount	CHEBI:47775	high-density lipoprotein cholesterol	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0000188	blood glucose amount	CHEBI:17234	glucose	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0000202	blood alkaline phosphatase amount	PR:000023540	alkaline phosphatase	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0000315	urine hemoglobin amount	CHEBI:35143	hemoglobin	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:VT0000716	immune system cell morphology trait	CL:0000000	cell	PATO:0000051	morphology	UBERON:0002405	immune system			
+OBA:VT0001105	peripheral nervous system glial cell morphology trait	CL:0000125	glial cell	PATO:0000051	morphology	UBERON:0000010	peripheral nervous system			
+OBA:VT0001560	blood insulin amount	CHEBI:5931	insulin (human)	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0001562	blood calcium amount	CHEBI:22984	calcium atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0001565	blood phosphate amount	CHEBI:26020	phosphate	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0001569	blood bilirubin amount	CHEBI:16990	bilirubin	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0001754	blood corticotropin-releasing hormone amount	CHEBI:65311	corticotropin-releasing hormone	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0001758	urine glucose amount	CHEBI:17234	glucose	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:VT0001771	blood magnesium amount	CHEBI:25107	magnesium atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0001776	blood sodium amount	CHEBI:26708	sodium atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0002181	brain cell morphology trait	CL:0000000	cell	PATO:0000051	morphology	UBERON:0000955	brain			
+OBA:VT0002644	blood triglyceride amount	CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0002664	blood adrenocorticotropin amount	CHEBI:3892	corticotropin	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0002668	blood potassium amount	CHEBI:26216	potassium atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0002695	blood glucagon amount	CHEBI:5391	glucagon	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0002851	blood sulfate amount	CHEBI:16189	sulfate	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0002900	urine phosphate amount	CHEBI:26020	phosphate	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:VT0002903	blood parathyroid hormone amount	PR:000013429	parathyroid hormone	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0002985	urine calcium amount	CHEBI:22984	calcium atom	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:VT0003015	blood bicarbonate amount	CHEBI:17544	hydrogencarbonate	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0003018	blood chloride amount	CHEBI:17996	chloride	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0003311	urine amino acid amount	CHEBI:33709	amino acid	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:VT0003349	blood renin amount	PR:000013883	renin	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0003366	blood glucocorticoid amount	CHEBI:24261	glucocorticoid	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0003442	blood glycerol amount	CHEBI:17754	glycerol	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0003508	blood dihydrotestosterone amount	CHEBI:16330	17beta-hydroxy-5alpha-androstan-3-one	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0003853	skin water amount	CHEBI:15377	water	PATO:0000070	amount	UBERON:0000014	zone of skin			
+OBA:VT0003949	blood lipid amount	CHEBI:18059	lipid	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0003977	blood carnitine amount	CHEBI:17126	carnitine	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0004101	brain interneuron morphology trait	CL:0000099	interneuron	PATO:0000051	morphology	UBERON:0000955	brain			
+OBA:VT0004152	blood iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005144	blood VLDL cholesterol amount	CHEBI:47773	very-low-density lipoprotein cholesterol	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005160	urine protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:VT0005180	blood testosterone amount	CHEBI:17347	testosterone	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005183	blood estradiol amount	CHEBI:23965	estradiol	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005184	blood progesterone amount	CHEBI:17026	progesterone	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005280	adipose fatty acid amount	CHEBI:35366	fatty acid	PATO:0000070	amount	UBERON:0001013	adipose tissue			
+OBA:VT0005285	adipose unsaturated fatty acid amount	CHEBI:27208	unsaturated fatty acid	PATO:0000070	amount	UBERON:0001013	adipose tissue			
+OBA:VT0005286	adipose saturated fatty acid amount	CHEBI:26607	saturated fatty acid	PATO:0000070	amount	UBERON:0001013	adipose tissue			
+OBA:VT0005308	blood ammonia amount	CHEBI:16134	ammonia	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005311	blood amino acid amount	CHEBI:33709	amino acid	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005328	blood creatinine amount	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005345	blood corticosterone amount	CHEBI:16827	corticosterone	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005346	blood aldosterone amount	CHEBI:27584	aldosterone	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005416	blood protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005475	blood thyroxine amount	CHEBI:30660	thyroxine	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005476	blood triiodothyronine amount	CHEBI:18258	3,3',5-triiodo-L-thyronine	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005521	blood atrial natriuretic factor amount	PR:000011374	atrial natriuretic factor	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005609	blood antidiuretic hormone amount	CHEBI:9937	vasopressin	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005660	blood epinephrine amount	CHEBI:28918	(R)-adrenaline	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005663	blood norepinephrine amount	CHEBI:18357	(R)-noradrenaline	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005667	blood leptin amount	PR:000009758	leptin	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0006034	urine myoglobin amount	CHEBI:7044	myoglobin	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:VT0006076	blood homocysteine amount	CHEBI:17230	homocysteine	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0006084	blood phospholipid amount	CHEBI:16247	phospholipid	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0006274	urine sodium amount	CHEBI:26708	sodium atom	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:VT0008589	blood interleukin-1 amount	PR:000001091	interleukin-1	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008590	blood interleukin-10 amount	PR:000001471	interleukin-10	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008595	blood interleukin-6 amount	PR:000001393	interleukin-6	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008598	blood interleukin-2 amount	PR:000001379	interleukin-2	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008601	blood interleukin-4 amount	PR:000001391	interleukin-4	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008604	blood interleukin-7 amount	PR:000001317	interleukin-7	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008607	blood interleukin-13 amount	PR:000001370	interleukin-13	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008610	blood interleukin-15 amount	PR:000001373	interleukin-15	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008613	blood interleukin-17 amount	PR:000001092	interleukin-17	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008622	blood interleukin-3 amount	PR:000001387	interleukin-3	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008625	blood interleukin-5 amount	PR:000001392	interleukin-5	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008628	blood interleukin-9 amount	PR:000001396	interleukin-9	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008631	blood interleukin-16 amount	PR:000001374	interleukin-16	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008634	blood interleukin-18 amount	PR:000001376	interleukin-18	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008637	blood interleukin-1 alpha amount	PR:000001135	interleukin-1 alpha	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008640	blood interleukin-1 beta amount	PR:000001136	interleukin-1 beta	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008739	spleen iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0002106	spleen			
+OBA:VT0009059	blood interleukin-21 amount	PR:000001382	interleukin-21	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010025	milk fatty acid C12:1(n-3) amount	CHEBI:23867	dodecenoic acid	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010026	milk fatty acid C15:0 amount	CHEBI:42504	pentadecanoic acid	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010029	milk alpha-lactalbumin amount	PR:000009649	alpha-lactalbumin	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010048	muscle saturated fatty acid amount	CHEBI:26607	saturated fatty acid	PATO:0000070	amount	UBERON:0001630	muscle organ			
+OBA:VT0010049	muscle unsaturated fatty acid amount	CHEBI:27208	unsaturated fatty acid	PATO:0000070	amount	UBERON:0001630	muscle organ			
+OBA:VT0010191	immune system cell quantity	CL:0000738	leukocyte	PATO:0001555	has number of	UBERON:0002405	immune system			
+OBA:VT0010267	milk whey acidic protein amount	PR:000017467	whey acidic protein	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010268	milk lactoferrin amount	PR:000009978	lactotransferrin	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010270	colostrum steroid amount	CHEBI:35341	steroid	PATO:0000070	amount	UBERON:0001914	colostrum			
+OBA:VT0010271	colostrum leptin amount	PR:000009758	leptin	PATO:0000070	amount	UBERON:0001914	colostrum			
+OBA:VT0010276	milk steroid amount	CHEBI:35341	steroid	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010277	milk leptin amount	PR:000009758	leptin	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010281	milk alpha-S1-casein amount	PR:000005940	alpha-S1-casein	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010283	milk kappa-casein amount	PR:000005942	kappa-casein	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010284	milk beta-casein amount	PR:000005941	beta-casein	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010287	milk lactose amount	CHEBI:17716	lactose	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010288	milk mineral amount	CHEBI:46662	mineral	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010290	milk calcium amount	CHEBI:22984	calcium atom	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010291	milk potassium amount	CHEBI:26216	potassium atom	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010292	milk sodium amount	CHEBI:26708	sodium atom	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010293	milk phosphorus amount	CHEBI:28659	phosphorus atom	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010294	milk chloride amount	CHEBI:17996	chloride	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010295	milk magnesium amount	CHEBI:25107	magnesium atom	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010302	blood uric acid amount	CHEBI:27226	uric acid	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010303	milk fatty acid amount	CHEBI:35366	fatty acid	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010304	milk saturated fatty acid amount	CHEBI:26607	saturated fatty acid	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010305	milk unsaturated fatty acid amount	CHEBI:27208	unsaturated fatty acid	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010319	milk fatty acid C20:0 amount	CHEBI:28822	arachidic acid	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010322	milk omega-3 fatty acid amount	CHEBI:25681	omega-3 fatty acid	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010323	milk omega-6 fatty acid amount	CHEBI:36009	omega-6 fatty acid	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010324	milk conjugated linoleic acid amount	CHEBI:61159	conjugated linoleic acid	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010373	milk monounsaturated fatty acid amount	CHEBI:25413	monounsaturated fatty acid	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010374	milk polyunsaturated fatty acid amount	CHEBI:26208	polyunsaturated fatty acid	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010380	milk beta-carotene amount	CHEBI:17579	beta-carotene	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010381	milk retinol amount	CHEBI:50211	retinol	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010382	milk triglyceride amount	CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010383	milk cholesterol amount	CHEBI:16113	cholesterol	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010385	milk diacylglycerol amount	CHEBI:18035	diglyceride	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010386	milk monoacylglycerol amount	CHEBI:17408	monoglyceride	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010387	milk phospholipid amount	CHEBI:16247	phospholipid	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010388	milk polyphenol amount	CHEBI:26195	polyphenol	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010389	milk butyrophilin amount	PR:000001848	butyrophilin	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010399	milk urea amount	CHEBI:16199	urea	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010400	milk ammonia amount	CHEBI:16134	ammonia	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010456	cerebrospinal fluid mineral amount	CHEBI:46662	mineral	PATO:0000070	amount	UBERON:0001359	cerebrospinal fluid			
+OBA:VT0010470	pancreas insulin amount	CHEBI:5931	insulin (human)	PATO:0000070	amount	UBERON:0001264	pancreas			
+OBA:VT0010484	nervous system serotonin amount	CHEBI:28790	serotonin	PATO:0000070	amount	UBERON:0001016	nervous system			
+OBA:VT0010498	liver cholesterol amount	CHEBI:16113	cholesterol	PATO:0000070	amount	UBERON:0002107	liver			
+OBA:VT0010502	urine catecholamine amount	CHEBI:33567	catecholamine	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:VT0010514	blood transferrin amount	PR:000016261	serotransferrin	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010515	blood fibronectin amount	PR:000007581	fibronectin	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010516	blood glutathione amount	CHEBI:16856	glutathione	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010519	liver triglyceride amount	CHEBI:17855	triglyceride	PATO:0000070	amount	UBERON:0002107	liver			
+OBA:VT0015086	urine mineral amount	CHEBI:46662	mineral	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:VT1000165	milk protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT1000401	muscle androstenone amount	CHEBI:37894	5alpha-androst-16-en-3-one	PATO:0000070	amount	UBERON:0001630	muscle organ			
+OBA:VT1000429	muscle lactate amount	CHEBI:24996	lactate	PATO:0000070	amount	UBERON:0001630	muscle organ			
+OBA:VT1000430	muscle cholesterol amount	CHEBI:16113	cholesterol	PATO:0000070	amount	UBERON:0001630	muscle organ			
+OBA:VT1000431	muscle indole amount	CHEBI:35581	indole	PATO:0000070	amount	UBERON:0001630	muscle organ			
+OBA:VT1000432	muscle water amount	CHEBI:15377	water	PATO:0000070	amount	UBERON:0001630	muscle organ			
+OBA:VT1000433	muscle protein amount	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0001630	muscle organ			
+OBA:VT1000434	muscle skatole amount	CHEBI:9171	skatole	PATO:0000070	amount	UBERON:0001630	muscle organ			
+OBA:VT1000444	adipose androstenone amount	CHEBI:37894	5alpha-androst-16-en-3-one	PATO:0000070	amount	UBERON:0001013	adipose tissue			
+OBA:VT1000479	muscle lipid amount	CHEBI:18059	lipid	PATO:0000070	amount	UBERON:0001630	muscle organ			
+OBA:VT1000670	blood cortisol amount	CHEBI:17650	cortisol	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT1000761	muscle nitrogen amount	CHEBI:17997	dinitrogen	PATO:0000070	amount	UBERON:0001630	muscle organ			
+OBA:VT1000764	muscle myoglobin amount	CHEBI:7044	myoglobin	PATO:0000070	amount	UBERON:0001630	muscle organ			
+OBA:VT0004368	stria vascularis blood vessel morphology trait	UBERON:0001981	blood vessel	PATO:0000051	morphology	UBERON:0002282	stria vascularis of cochlear duct			
+OBA:0000103	mitochondrial mRNA stability	SO:0000234	mRNA	OBA:0001001	macromolecular stability	GO:0005739	mitochondrion			
+OBA:0000106	mitochondrial rRNA stability	SO:0000252	rRNA	OBA:0001001	macromolecular stability	GO:0005739	mitochondrion			
+OBA:0000003	ER calcium ion concentration	CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005783	endoplasmic reticulum			
+OBA:0000005	Golgi calcium ion concentration	CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005794	Golgi apparatus			
+OBA:0006038		CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0005829	cytosol			
+OBA:0006039		CHEBI:39124	calcium ion	PATO:0000033	concentration of	GO:0099524	postsynaptic cytosol			
+OBA:VT0001757	urine molecular composition	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:VT0010585	brain molecular composition	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0000955	brain			
+OBA:VT0010481	blood immunoglobulin M amount	GO:0071754	IgM immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008616	blood interleukin-12 amount	GO:0043514	interleukin-12 complex	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010710	milk copper amount	CHEBI:28694	copper atom	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0010480	blood osteocalcin amount	PR:000030444	osteocalcin	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010477	blood lactate dehydrogenase amount	PR:000050331	lactate dehydrogenase complex	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0001805	blood immunoglobulin G amount	GO:0071736	IgG immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010535	erythrocyte ion amount	CHEBI:24870	ion	PATO:0000070	amount	CL:0000232	erythrocyte			
+OBA:VT0010513	blood ferritin amount	GO:0070288	ferritin complex	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008498	blood immunoglobulin G3 amount	PR:000050255	IgG3 heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010919	feces bile acid amount	CHEBI:3098	bile acid	PATO:0000070	amount	UBERON:0001988	feces			
+OBA:VT0001553	blood free fatty acid amount	CHEBI:35366	fatty acid	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010808	milk sulfur amount	CHEBI:26833	sulfur atom	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0000199	blood albumin amount	CHEBI:166964	albumin type	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010918	liver bile acid amount	CHEBI:3098	bile acid	PATO:0000070	amount	UBERON:0002107	liver			
+OBA:VT0010711	milk iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:VT0005567	blood total protein amount	CHEBI:36080	protein	PATO:0000125	mass	UBERON:0000178	blood			
+OBA:VT0002492	blood immunoglobulin E amount	GO:0071743	IgE immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008497	blood immunoglobulin G2b amount	PR:000050260	IgG2b heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010694	blood fructosamine amount	CHEBI:24103	fructosamine	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005265	blood urea nitrogen amount	CHEBI:16199	urea	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0001573	blood alanine transaminase amount	PR:000050219	alanine aminotransferase	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0003065	hepatic copper amount	CHEBI:28694	copper atom	PATO:0000070	amount	UBERON:0002107	liver			
+OBA:VT0001807	blood immunoglobulin A amount	GO:0071746	IgA immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010545	blood adiponectin amount	CHEBI:81572	Adiponectin	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010878	blood bile acid amount	CHEBI:3098	bile acid	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010677	glycated serum protein amount	PR:000037069	glycoprotein	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:VT0010648	muscle glycogen amount	CHEBI:28087	glycogen	PATO:0000070	amount	UBERON:0001134	skeletal muscle tissue			
+OBA:VT0008495	blood immunoglobulin G1 amount	PR:000050253	IgG1 heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0002871	urine albumin amount	CHEBI:166964	albumin type	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:VT1000047	blood creatine kinase amount	PR:000029971	creatine kinase	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010616	blood lactate amount	CHEBI:24996	lactate	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010695	blood ghrelin amount	PR:000007973	appetite-regulating hormone	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008897	blood immunoglobulin G2c amount	PR:000050261	IgG2c heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010474		CHEBI:50404	lipoprotein cholesterol	PATO:0000025	composition	UBERON:0000178	blood			
+OBA:VT0000203	blood aspartate transaminase amount	PR:000008153	aspartate aminotransferase, cytoplasmic	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0005119	blood thyroid-stimulating hormone amount	PR:000028269	thyroid stimulating hormone	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008550	blood interferon-beta amount	PR:000024939	interferon beta	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0008496	blood immunoglobulin G2a amount	PR:000050259	IgG2a heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0003457	blood ketone body amount	CHEBI:73693	ketone body	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010476	blood glutamate dehydrogenase amount	GO:1990148	glutamate dehydrogenase complex	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:VT0010540	urine creatinine amount	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:VT0010714	milk zinc content	CHEBI:27363	zinc atom	PATO:0000070	amount	UBERON:0001913	milk			
+OBA:2050054	blood chromium amount	CHEBI:28073	chromium atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2050055	serum iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050056	serum homoarginine amount	CHEBI:24606	homoarginine	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050057	serum galactose-deficient IgA1 amount	PR:000050159	IgA1 immunoglobulin complex, circulating (human)	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050059	serum selenium amount	CHEBI:27568	selenium atom	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050060	serum dimethylarginine amount	CHEBI:86468	dimethylarginine	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050061	blood manganese amount	CHEBI:18291	manganese atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2050062	serum alanine aminotransferase amount	PR:000050219	alanine aminotransferase	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050063	blood aluminium amount	CHEBI:28984	aluminium atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2050064	blood nickel amount	CHEBI:28112	nickel atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2050065	serum urea amount	CHEBI:16199	urea	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050066	blood molybdenum amount	CHEBI:28685	molybdenum atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2050067	blood cadmium amount	CHEBI:22977	cadmium atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2050068	serum albumin amount	PR:000003918	albumin	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050070	serum IgM amount	GO:0071754	IgM immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum			
 OBA:2050071	level of serum protein	CHEBI:36080	protein	PATO:0000070	amount	UBERON:0001977	serum	serum protein amount		https://orcid.org/0000-0001-6757-4744|https://orcid.org/0000-0001-8314-2140
-OBA:2050072	blood zinc amount	CHEBI:27363	zinc atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050073	serum ceruloplasmin amount	PR:000005794	ceruloplasmin	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050074	serum IgA amount	GO:0071746	IgA immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050075	serum alpha-1-antitrypsin amount	PR:000014678	alpha-1-antitrypsin	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050076	serum zinc amount	CHEBI:27363	zinc atom	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050077	blood cobalt amount	CHEBI:27638	cobalt atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050079	serum immunoglobulin amount	GO:0019814	immunoglobulin complex	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050080	serum VEFGR2 concentration amount	PR:000002112	vascular endothelial growth factor receptor 2	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050081	serum gamma-glutamyl transferase amount	GO:1990234	transferase complex	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050082	serum ST2 amount	PR:000008994	interleukin-1 receptor-like 1	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050083	serum amyloid A-1 protein amount	PR:000030460	primate-type serum amyloid A-1 protein	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050084	serum IgE amount	GO:0071743	IgE immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050085	serum IgG amount	GO:0071736	IgG immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050086	serum clozapine amount	CHEBI:3766	clozapine	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050087	blood lead amount	CHEBI:25016	lead atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050088	blood mercury amount	CHEBI:25195	mercury atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050089	serum hepcidin amount	PR:000008438	hepcidin	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050090	serum amyloid P-component amount	PR:000004126	serum amyloid P-component	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050091	blood toxic metal amount	CHEBI:33521	metal atom	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050093	serum N-desmethylclozapine amount	CHEBI:64050	N-desmethylclozapine	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2050094	blood sodium bicarbonate amount	CHEBI:32139	sodium hydrogencarbonate	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050095	urine potassium amount	CHEBI:26216	potassium atom	PATO:0000070	amount	UBERON:0001088	urine
-OBA:2050096	serum creatinine amount	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2020003	chemical in blood amount	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2020004	chemical in serum amount	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0001977	serum
-OBA:2020005	lysine in blood amount	CHEBI:25094	lysine	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060174		CHEBI:145810	insulin	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060175		CHEBI:35143	hemoglobin	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2060176		CHEBI:25107	magnesium atom	PATO:0000070	amount	UBERON:0001088	urine
-OBA:2060178		PR:000003918	albumin	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050192	breast cancer anti-estrogen resistance protein 3 amount	PR:000004677	breast cancer anti-estrogen resistance protein 3	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050193	collagen type I alpha chain amount	PR:000003263	collagen type I alpha chain	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050195	kidney injury molecule 1 amount	PR:000008453	hepatitis A virus cellular receptor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	hepatitis A virus cellular receptor 1 amount
-OBA:2050197	parathyroid hormone-related protein amount	PR:000013433	parathyroid hormone-related protein	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050199	pituitary adenylate cyclase-activating polypeptide amount	PR:000003761	pituitary adenylate cyclase-activating polypeptide	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050200	prostate specific antigen amount	PR:000003015	prostate-specific antigen	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050205	C-C motif chemokine 17 amount	PR:000001989	C-C motif chemokine 17	PATO:0000070	amount	UBERON:0001062	anatomical entity	thymus and activation regulated chemokine amount
-OBA:2050206	thyroid peroxidase amount	PR:000016584 	thyroid peroxidase	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050207	tissue plasminogen activator amount	PR:000012825	tissue-type plasminogen activator	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050208	tissue factor pathway inhibitor amount	PR:000016279	tissue factor pathway inhibitor	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050209	kidney amyloid amount	PR:000036193	amyloid beta peptide	PATO:0000070	amount	UBERON:0002113	kidney
-OBA:2050210	liver amyloid amount	PR:000036193	amyloid beta peptide	PATO:0000070	amount	UBERON:0002107	liver
+OBA:2050072	blood zinc amount	CHEBI:27363	zinc atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2050073	serum ceruloplasmin amount	PR:000005794	ceruloplasmin	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050074	serum IgA amount	GO:0071746	IgA immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050075	serum alpha-1-antitrypsin amount	PR:000014678	alpha-1-antitrypsin	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050076	serum zinc amount	CHEBI:27363	zinc atom	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050077	blood cobalt amount	CHEBI:27638	cobalt atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2050079	serum immunoglobulin amount	GO:0019814	immunoglobulin complex	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050080	serum VEFGR2 concentration amount	PR:000002112	vascular endothelial growth factor receptor 2	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050081	serum gamma-glutamyl transferase amount	GO:1990234	transferase complex	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050082	serum ST2 amount	PR:000008994	interleukin-1 receptor-like 1	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050083	serum amyloid A-1 protein amount	PR:000030460	primate-type serum amyloid A-1 protein	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050084	serum IgE amount	GO:0071743	IgE immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050085	serum IgG amount	GO:0071736	IgG immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050086	serum clozapine amount	CHEBI:3766	clozapine	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050087	blood lead amount	CHEBI:25016	lead atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2050088	blood mercury amount	CHEBI:25195	mercury atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2050089	serum hepcidin amount	PR:000008438	hepcidin	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050090	serum amyloid P-component amount	PR:000004126	serum amyloid P-component	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050091	blood toxic metal amount	CHEBI:33521	metal atom	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2050093	serum N-desmethylclozapine amount	CHEBI:64050	N-desmethylclozapine	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2050094	blood sodium bicarbonate amount	CHEBI:32139	sodium hydrogencarbonate	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2050095	urine potassium amount	CHEBI:26216	potassium atom	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:2050096	serum creatinine amount	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2020003	chemical in blood amount	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2020004	chemical in serum amount	CHEBI:24431	chemical entity	PATO:0000070	amount	UBERON:0001977	serum			
+OBA:2020005	lysine in blood amount	CHEBI:25094	lysine	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2060174		CHEBI:145810	insulin	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2060175		CHEBI:35143	hemoglobin	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2060176		CHEBI:25107	magnesium atom	PATO:0000070	amount	UBERON:0001088	urine			
+OBA:2060178		PR:000003918	albumin	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2050192	breast cancer anti-estrogen resistance protein 3 amount	PR:000004677	breast cancer anti-estrogen resistance protein 3	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050193	collagen type I alpha chain amount	PR:000003263	collagen type I alpha chain	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050195	kidney injury molecule 1 amount	PR:000008453	hepatitis A virus cellular receptor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	hepatitis A virus cellular receptor 1 amount		
+OBA:2050197	parathyroid hormone-related protein amount	PR:000013433	parathyroid hormone-related protein	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050199	pituitary adenylate cyclase-activating polypeptide amount	PR:000003761	pituitary adenylate cyclase-activating polypeptide	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050200	prostate specific antigen amount	PR:000003015	prostate-specific antigen	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050205	C-C motif chemokine 17 amount	PR:000001989	C-C motif chemokine 17	PATO:0000070	amount	UBERON:0001062	anatomical entity	thymus and activation regulated chemokine amount		
+OBA:2050206	thyroid peroxidase amount	PR:000016584 	thyroid peroxidase	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050207	tissue plasminogen activator amount	PR:000012825	tissue-type plasminogen activator	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050208	tissue factor pathway inhibitor amount	PR:000016279	tissue factor pathway inhibitor	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050209	kidney amyloid amount	PR:000036193	amyloid beta peptide	PATO:0000070	amount	UBERON:0002113	kidney			
+OBA:2050210	liver amyloid amount	PR:000036193	amyloid beta peptide	PATO:0000070	amount	UBERON:0002107	liver			
 OBA:2040177	level of ceramide	CHEBI:17761	ceramide	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
 OBA:2040178	level of diglyceride	CHEBI:18035	diglyceride	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
 OBA:2040179	level of phosphatidylcholine	CHEBI:64482	phosphatidylcholine	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
@@ -5067,7 +5067,7 @@ OBA:2045055	level of 1-O-oleoyl-sn-glycero-3-phosphoserine in blood serum	CHEBI:
 OBA:2045056	level of (E)-isoheptadec-2-enoyl-CoA in blood serum	CHEBI:72006	(E)-isoheptadec-2-enoyl-CoA	PATO:0000070	amount	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
 OBA:2045057	level of ceramide phosphoethanolamine in blood serum	CHEBI:73204	ceramide phosphoethanolamine	PATO:0000070	amount	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
 OBA:2045058	level of N-gondoylethanolamine in blood serum	CHEBI:73725	N-gondoylethanolamine	PATO:0000070	amount	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
-OBA:2020007	level of triacylglycerol (56:6) in blood serum	CHEBI:85750	triacylglycerol 56:6	PATO:0000070	amount	UBERON:0001977	blood serum	level of triacylglycerol 56:6 in blood serum
+OBA:2020007	level of triacylglycerol (56:6) in blood serum	CHEBI:85750	triacylglycerol 56:6	PATO:0000070	amount	UBERON:0001977	blood serum	level of triacylglycerol 56:6 in blood serum		
 OBA:2045059	level of 1-(5Z,8Z,11Z,14Z,17Z-eicosapentaenoyl)-sn-glycero-3-phospho-1D-myo-inositol in blood serum	SLM:000043005	1-(5Z,8Z,11Z,14Z,17Z-eicosapentaenoyl)-sn-glycero-3-phospho-1D-myo-inositol	PATO:0000070	amount	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
 OBA:2045060	level of 1-O-(1Z-eicosenyl)-sn-glycero-3-phospho-1D-myo-inositol in blood serum	SLM:000055190	1-O-(1Z-eicosenyl)-sn-glycero-3-phospho-1D-myo-inositol	PATO:0000070	amount	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
 OBA:2045061	level of Phosphatidylcholine (14:0_16:0) in blood serum	CHEBI:167242	phosphatidylcholine 14:0_16:0	PATO:0000070	amount	UBERON:0001977	blood serum	level of phosphatidylcholine 14:0_16:0 in blood serum		https://orcid.org/0000-0001-8314-2140
@@ -5216,131 +5216,131 @@ OBA:2045201	level of Sterol ester (27:1/22:6) in blood serum	SLM:000500361	Stero
 OBA:2045202	level of 26,26,26,27,27,27-hexafluoro-25-hydroxy-16,17,23,23,24,24-hexadehydrovitamin D3 in blood serum	LM:LMST03020077	26,26,26,27,27,27-hexafluoro-25-hydroxy-16,17,23,23,24,24-hexadehydrovitamin D3	PATO:0000070	amount	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
 OBA:2045203	level of Cyanidin 3,5-diglucoside (6'',6'''-malyl diester) in blood serum	LM:LMPK12010207	Cyanidin 3,5-diglucoside (6'',6'''-malyl diester)	PATO:0000070	amount	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
 OBA:2045204	level of Cer(m18:1(4E)/24:1(15Z)) in blood serum	LM:LMSP00000010	Cer(m18:1(4E)/24:1(15Z))	PATO:0000070	amount	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
-OBA:2050211	CD4 molecule amount	PR:000001004	CD4 molecule	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050212	ephrin type-B receptor 4 amount	PR:000007132	ephrin type-B receptor 4	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050213	programmed cell death 1 ligand 1 amount	PR:000001543	programmed cell death 1 ligand 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050214	fibrinogen gamma chain amount	PR:000007507	fibrinogen gamma chain	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050215	tumor necrosis factor receptor superfamily member 3 amount	PR:000009976	tumor necrosis factor receptor superfamily member 3	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050216	tumor necrosis factor ligand superfamily member 13B amount	PR:000001948	tumor necrosis factor ligand superfamily member 13B	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050217	STAM-binding protein amount	PR:000015711	STAM-binding protein	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050218	tumor necrosis factor receptor superfamily member 14 amount	PR:000016481	tumor necrosis factor receptor superfamily member 14	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050219	arylsulfatase B amount	PR:000004322	arylsulfatase B	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050220	vascular cell adhesion protein 1 amount	PR:000001970	vascular cell adhesion protein 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	vascular cell adhesion molecule-1 amount||soluble vascular cell adhesion molecule-1 amount
-OBA:2050221	tumor necrosis factor receptor superfamily member 13C amount	PR:000001957	tumor necrosis factor receptor superfamily member 13C	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050222	tumor necrosis factor ligand superfamily member 9 amount	PR:000016489	tumor necrosis factor ligand superfamily member 9	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050223	neural cell adhesion molecule L1-like protein amount	PR:000005429	neural cell adhesion molecule L1-like protein	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050224	phospholipase A2, membrane associated amount	PR:000012799	phospholipase A2, membrane associated	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050225	cell surface glycoprotein CD200 receptor 1 amount	PR:000005161	cell surface glycoprotein CD200 receptor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050226	endoplasmic reticulum resident protein 29 amount	PR:000007190	endoplasmic reticulum resident protein 29	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050227	sialic acid-binding Ig-like lectin 14 amount	PR:000014867	sialic acid-binding Ig-like lectin 14	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050228	tumor necrosis factor receptor superfamily member 9 amount	PR:000001965	tumor necrosis factor receptor superfamily member 9	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050229	sialic acid-binding Ig-like lectin 7 amount	PR:000001929	sialic acid-binding Ig-like lectin 7	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050230	ephrin type-A receptor 10 amount	PR:000007121	ephrin type-A receptor 10	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050231	proteasome subunit alpha type-6 amount	PR:000013365	proteasome subunit alpha type-6	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050232	extracellular matrix protein 1 amount	PR:000006879	extracellular matrix protein 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050233	tumor necrosis factor ligand superfamily member 12 amount	PR:000016487	tumor necrosis factor ligand superfamily member 12	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050234	ephrin type-B receptor 6 amount	PR:000007133	ephrin type-B receptor 6	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050235	oxidized low-density lipoprotein receptor 1 amount	PR:000011634	oxidized low-density lipoprotein receptor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	lectin-like oxidized LDL receptor 1 amount
-OBA:2050236	26S proteasome non-ATPase regulatory subunit 7 amount	PR:000013389	26S proteasome non-ATPase regulatory subunit 7	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050237	ribosome maturation protein SBDS amount	PR:000014472	ribosome maturation protein SBDS	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050238	lysosome membrane protein 2 amount	PR:000014494	lysosome membrane protein 2	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050239	tumor necrosis factor receptor superfamily member 4 amount	PR:000001960	tumor necrosis factor receptor superfamily member 4	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050240	tumor necrosis factor receptor superfamily member 11A amount	PR:000001954	tumor necrosis factor receptor superfamily member 11A	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050241	tumor necrosis factor ligand superfamily member 15 amount	PR:000002223	tumor necrosis factor ligand superfamily member 15	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050242	limbic system-associated membrane protein amount	PR:000009951	limbic system-associated membrane protein	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050243	spectrin alpha chain, non-erythrocytic 1 amount	PR:000015591	spectrin alpha chain, non-erythrocytic 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050244	coagulation factor IX amount	PR:000007303	coagulation factor IX	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050245	importin subunit alpha-1 amount	PR:000009433	importin subunit alpha-1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050246	tumor necrosis factor receptor superfamily member 17 amount	PR:000001406	tumor necrosis factor receptor superfamily member 17	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050247	programmed cell death 1 ligand 2 amount	PR:000001544	programmed cell death 1 ligand 2	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050248	OX-2 membrane glycoprotein amount	PR:000001829	OX-2 membrane glycoprotein	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050249	tumor necrosis factor receptor superfamily member 10A amount	PR:000002108	tumor necrosis factor receptor superfamily member 10A	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050250	membrane frizzled-related protein amount	PR:000010372	membrane frizzled-related protein	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050251	proteasome activator complex subunit 1 amount	PR:000013392	proteasome activator complex subunit 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050252	mast/stem cell growth factor receptor amount	PR:000002065	mast/stem cell growth factor receptor	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050253	ephrin type-A receptor 2 amount	PR:000007122	ephrin type-A receptor 2	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050254	C-type lectin domain family 1 member B amount	PR:000005564	C-type lectin domain family 1 member B	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050255	neurofilament light polypeptide amount	PR:000011119	neurofilament light polypeptide	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050256	sialic acid-binding Ig-like lectin 6 amount	PR:000001928	sialic acid-binding Ig-like lectin 6	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050257	tumor necrosis factor receptor superfamily member 21 amount	PR:000016484	tumor necrosis factor receptor superfamily member 21	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050258	endoplasmic reticulum aminopeptidase 1 amount	PR:000007155	endoplasmic reticulum aminopeptidase 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050259	interleukin-6 receptor subunit beta amount	PR:000001868	interleukin-6 receptor subunit beta	PATO:0000070	amount	UBERON:0001062	anatomical entity	gp130 amount
-OBA:2050260	kit ligand amount	PR:000009345	kit ligand	PATO:0000070	amount	UBERON:0001062	anatomical entity	stem cell growth factor amount
-OBA:2050261	tumor necrosis factor receptor superfamily member 6B amount	PR:000016486	tumor necrosis factor receptor superfamily member 6B	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050262	tumor necrosis factor ligand superfamily member 18 amount	PR:000016488	tumor necrosis factor ligand superfamily member 18	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050263	activin receptor type-1B amount	PR:000000068	activin receptor type-1B	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050264	tumor necrosis factor receptor superfamily member 18 amount	PR:000016482	tumor necrosis factor receptor superfamily member 18	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050265	importin subunit beta-1 amount	PR:000009439	importin subunit beta-1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050266	eukaryotic translation initiation factor 5A-1 amount	PR:000007003	eukaryotic translation initiation factor 5A-1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050267	advanced glycosylation end product-specific receptor amount	PR:000003828	advanced glycosylation end product-specific receptor	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050268	coagulation factor V amount	PR:000007300	coagulation factor V	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050269	tumor necrosis factor-inducible gene 6 protein amount	PR:000016475	tumor necrosis factor-inducible gene 6 protein	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050270	membrane metallo-endopeptidase-like 1 amount	PR:000010467	membrane metallo-endopeptidase-like 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050271	tumor necrosis factor receptor superfamily member 11B amount	PR:000016480	tumor necrosis factor receptor superfamily member 11B	PATO:0000070	amount	UBERON:0001062	anatomical entity	osteoprotegerin amount
-OBA:2050272	tumor necrosis factor receptor superfamily member 1A amount	PR:000001958	tumor necrosis factor receptor superfamily member 1A	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050273	heterogeneous nuclear ribonucleoprotein A/B amount	PR:000008661	heterogeneous nuclear ribonucleoprotein A/B	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050274	cell adhesion molecule-related/down-regulated by oncogenes amount	PR:000005282	cell adhesion molecule-related/down-regulated by oncogenes	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050275	basal cell adhesion molecule amount	PR:000001143	basal cell adhesion molecule	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050276	proteasome activator complex subunit 3 amount	PR:000013394	proteasome activator complex subunit 3	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050277	eukaryotic translation initiation factor 4 gamma 2 amount	PR:000006999	eukaryotic translation initiation factor 4 gamma 2	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050278	C-type lectin domain family 4 member K amount	PR:000001293	C-type lectin domain family 4 member K	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050279	ephrin type-A receptor 3 amount	PR:000007123	ephrin type-A receptor 3	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050280	CD33 molecule amount	PR:000001892	CD33 molecule	PATO:0000070	amount	UBERON:0001062	anatomical entity	myeloid cell surface antigen CD33 amount
-OBA:2050281	sialic acid-binding Ig-like lectin 9 amount	PR:000014869	sialic acid-binding Ig-like lectin 9	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050282	tumor necrosis factor receptor superfamily member 25 amount	PR:000016485	tumor necrosis factor receptor superfamily member 25	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050283	eukaryotic translation initiation factor 4E-binding protein 2 amount	PR:000006995	eukaryotic translation initiation factor 4E-binding protein 2	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050284	mitochondrial import inner membrane translocase subunit TIM14 amount	PR:000006582	mitochondrial import inner membrane translocase subunit TIM14	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050285	neuronal cell adhesion molecule amount	PR:000011420	neuronal cell adhesion molecule	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050286	DNA repair protein RAD51 homolog 1 amount	PR:000013672	DNA repair protein RAD51 homolog 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050287	tumor necrosis factor ligand superfamily member 4 amount	PR:000001949	tumor necrosis factor ligand superfamily member 4	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050288	neural cell adhesion molecule 1 amount	PR:000001024	neural cell adhesion molecule 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050289	tumor necrosis factor receptor superfamily member EDAR amount	PR:000006888	tumor necrosis factor receptor superfamily member EDAR	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050290	activin/inhibin beta A chain amount	PR:000000216	activin/inhibin beta A chain	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050291	lymphotoxin-alpha amount	PR:000002204	lymphotoxin-alpha	PATO:0000070	amount	UBERON:0001062	anatomical entity	tumor necrosis factor beta amount
-OBA:2050292	SLAM family member 1 amount	PR:000001833	SLAM family member 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	signaling lymphocytic activation molecule 1 amount
-OBA:2050293	tumor necrosis factor receptor superfamily member 19 amount	PR:000016483	tumor necrosis factor receptor superfamily member 19	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050294	mannan-binding lectin serine protease 1 amount	PR:000010193	mannan-binding lectin serine protease 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050295	tumor necrosis factor receptor superfamily member 8 amount	PR:000001964	tumor necrosis factor receptor superfamily member 8	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050296	chylomicron amount	GO:0042627	chylomicron	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050297	tumor necrosis factor receptor superfamily member 12A amount	PR:000001955	tumor necrosis factor receptor superfamily member 12A	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050298	coagulation factor X amount	PR:000007294	coagulation factor X	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050299	small nuclear ribonucleoprotein F amount	PR:000015347	small nuclear ribonucleoprotein F	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050300	heterogeneous nuclear ribonucleoprotein K amount	PR:000008669	heterogeneous nuclear ribonucleoprotein K	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050301	cell adhesion molecule 1 amount	PR:000004960	cell adhesion molecule 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050302	proteasome subunit alpha type-1 amount	PR:000013360	proteasome subunit alpha type-1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050303	C-type lectin domain family 4 member M amount	PR:000001294	C-type lectin domain family 4 member M	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050304	chloride intracellular channel protein 1 amount	PR:000005574	chloride intracellular channel protein 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050305	ephrin type-B receptor 2 amount	PR:000007130	ephrin type-B receptor 2	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050306	S-phase kinase-associated protein 1A amount	PR:000000045	S-phase kinase-associated protein 1A	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050307	ephrin type-A receptor 5 amount	PR:000007125	ephrin type-A receptor 5	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050308	eukaryotic translation initiation factor 5 amount	PR:000007002	eukaryotic translation initiation factor 5	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050309	tumor necrosis factor receptor superfamily member 1B amount	PR:000001959	tumor necrosis factor receptor superfamily member 1B	PATO:0000070	amount	UBERON:0001062	anatomical entity	tumor necrosis factor receptor II amount
-OBA:2050310	tumor necrosis factor receptor superfamily member 27 amount	PR:000006887	tumor necrosis factor receptor superfamily member 27	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050311	neural cell adhesion molecule L1 amount	PR:000002066	neural cell adhesion molecule L1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050312	tumor necrosis factor receptor superfamily member 19L amount	PR:000013880	tumor necrosis factor receptor superfamily member 19L	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050313	tumor necrosis factor receptor superfamily member 13B amount	PR:000001956	tumor necrosis factor receptor superfamily member 13B	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050314	tumor necrosis factor ligand superfamily member 6 isoform FasL soluble form amount	PR:000000547	tumor necrosis factor ligand superfamily member 6 isoform FasL soluble form	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050315	NKG2-D type II integral membrane protein amount	PR:000001828	NKG2-D type II integral membrane protein	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050316	heterogeneous nuclear ribonucleoprotein Q amount	PR:000015874	heterogeneous nuclear ribonucleoprotein Q	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050317	cell adhesion molecule 3 amount	PR:000004962	cell adhesion molecule 3	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050318	proteasome subunit alpha type-2 amount	PR:000013361	proteasome subunit alpha type-2	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050319	Xaa-Pro aminopeptidase 2 amount	PR:000017496	Xaa-Pro aminopeptidase 2	PATO:0000070	amount	UBERON:0001062	anatomical entity	membrane-bound aminopeptidase P amount
-OBA:2050320	carboxypeptidase B2 amount	PR:000005802	carboxypeptidase B2	PATO:0000070	amount	UBERON:0001062	anatomical entity	thrombin activatable fibrinolysis inhibitor activation peptide amount
-OBA:2050321	ephrin type-A receptor 1 amount	PR:000007120	ephrin type-A receptor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050322	tumor necrosis factor ligand superfamily member 10 amount	PR:000002106	tumor necrosis factor ligand superfamily member 10	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050323	matrix extracellular phosphoglycoprotein amount	PR:000010327	matrix extracellular phosphoglycoprotein	PATO:0000070	amount	UBERON:0001062	anatomical entity
-OBA:2050324	E-selectin amount	PR:000001415	E-selectin	PATO:0000070	amount	UBERON:0001062	anatomical entity	leukocyte-endothelial cell adhesion molecule 2 amount
-OBA:2050325	tetranectin amount	PR:000005567	tetranectin	PATO:0000070	amount	UBERON:0001062	anatomical entity	C-type lectin domain family 3 member B amount
-OBA:2050326	prothrombin amount	PR:000007299	prothrombin	PATO:0000070	amount	UBERON:0001062	anatomical entity	coagulation factor II amount
+OBA:2050211	CD4 molecule amount	PR:000001004	CD4 molecule	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050212	ephrin type-B receptor 4 amount	PR:000007132	ephrin type-B receptor 4	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050213	programmed cell death 1 ligand 1 amount	PR:000001543	programmed cell death 1 ligand 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050214	fibrinogen gamma chain amount	PR:000007507	fibrinogen gamma chain	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050215	tumor necrosis factor receptor superfamily member 3 amount	PR:000009976	tumor necrosis factor receptor superfamily member 3	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050216	tumor necrosis factor ligand superfamily member 13B amount	PR:000001948	tumor necrosis factor ligand superfamily member 13B	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050217	STAM-binding protein amount	PR:000015711	STAM-binding protein	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050218	tumor necrosis factor receptor superfamily member 14 amount	PR:000016481	tumor necrosis factor receptor superfamily member 14	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050219	arylsulfatase B amount	PR:000004322	arylsulfatase B	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050220	vascular cell adhesion protein 1 amount	PR:000001970	vascular cell adhesion protein 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	vascular cell adhesion molecule-1 amount||soluble vascular cell adhesion molecule-1 amount		
+OBA:2050221	tumor necrosis factor receptor superfamily member 13C amount	PR:000001957	tumor necrosis factor receptor superfamily member 13C	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050222	tumor necrosis factor ligand superfamily member 9 amount	PR:000016489	tumor necrosis factor ligand superfamily member 9	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050223	neural cell adhesion molecule L1-like protein amount	PR:000005429	neural cell adhesion molecule L1-like protein	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050224	phospholipase A2, membrane associated amount	PR:000012799	phospholipase A2, membrane associated	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050225	cell surface glycoprotein CD200 receptor 1 amount	PR:000005161	cell surface glycoprotein CD200 receptor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050226	endoplasmic reticulum resident protein 29 amount	PR:000007190	endoplasmic reticulum resident protein 29	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050227	sialic acid-binding Ig-like lectin 14 amount	PR:000014867	sialic acid-binding Ig-like lectin 14	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050228	tumor necrosis factor receptor superfamily member 9 amount	PR:000001965	tumor necrosis factor receptor superfamily member 9	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050229	sialic acid-binding Ig-like lectin 7 amount	PR:000001929	sialic acid-binding Ig-like lectin 7	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050230	ephrin type-A receptor 10 amount	PR:000007121	ephrin type-A receptor 10	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050231	proteasome subunit alpha type-6 amount	PR:000013365	proteasome subunit alpha type-6	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050232	extracellular matrix protein 1 amount	PR:000006879	extracellular matrix protein 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050233	tumor necrosis factor ligand superfamily member 12 amount	PR:000016487	tumor necrosis factor ligand superfamily member 12	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050234	ephrin type-B receptor 6 amount	PR:000007133	ephrin type-B receptor 6	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050235	oxidized low-density lipoprotein receptor 1 amount	PR:000011634	oxidized low-density lipoprotein receptor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	lectin-like oxidized LDL receptor 1 amount		
+OBA:2050236	26S proteasome non-ATPase regulatory subunit 7 amount	PR:000013389	26S proteasome non-ATPase regulatory subunit 7	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050237	ribosome maturation protein SBDS amount	PR:000014472	ribosome maturation protein SBDS	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050238	lysosome membrane protein 2 amount	PR:000014494	lysosome membrane protein 2	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050239	tumor necrosis factor receptor superfamily member 4 amount	PR:000001960	tumor necrosis factor receptor superfamily member 4	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050240	tumor necrosis factor receptor superfamily member 11A amount	PR:000001954	tumor necrosis factor receptor superfamily member 11A	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050241	tumor necrosis factor ligand superfamily member 15 amount	PR:000002223	tumor necrosis factor ligand superfamily member 15	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050242	limbic system-associated membrane protein amount	PR:000009951	limbic system-associated membrane protein	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050243	spectrin alpha chain, non-erythrocytic 1 amount	PR:000015591	spectrin alpha chain, non-erythrocytic 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050244	coagulation factor IX amount	PR:000007303	coagulation factor IX	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050245	importin subunit alpha-1 amount	PR:000009433	importin subunit alpha-1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050246	tumor necrosis factor receptor superfamily member 17 amount	PR:000001406	tumor necrosis factor receptor superfamily member 17	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050247	programmed cell death 1 ligand 2 amount	PR:000001544	programmed cell death 1 ligand 2	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050248	OX-2 membrane glycoprotein amount	PR:000001829	OX-2 membrane glycoprotein	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050249	tumor necrosis factor receptor superfamily member 10A amount	PR:000002108	tumor necrosis factor receptor superfamily member 10A	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050250	membrane frizzled-related protein amount	PR:000010372	membrane frizzled-related protein	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050251	proteasome activator complex subunit 1 amount	PR:000013392	proteasome activator complex subunit 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050252	mast/stem cell growth factor receptor amount	PR:000002065	mast/stem cell growth factor receptor	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050253	ephrin type-A receptor 2 amount	PR:000007122	ephrin type-A receptor 2	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050254	C-type lectin domain family 1 member B amount	PR:000005564	C-type lectin domain family 1 member B	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050255	neurofilament light polypeptide amount	PR:000011119	neurofilament light polypeptide	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050256	sialic acid-binding Ig-like lectin 6 amount	PR:000001928	sialic acid-binding Ig-like lectin 6	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050257	tumor necrosis factor receptor superfamily member 21 amount	PR:000016484	tumor necrosis factor receptor superfamily member 21	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050258	endoplasmic reticulum aminopeptidase 1 amount	PR:000007155	endoplasmic reticulum aminopeptidase 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050259	interleukin-6 receptor subunit beta amount	PR:000001868	interleukin-6 receptor subunit beta	PATO:0000070	amount	UBERON:0001062	anatomical entity	gp130 amount		
+OBA:2050260	kit ligand amount	PR:000009345	kit ligand	PATO:0000070	amount	UBERON:0001062	anatomical entity	stem cell growth factor amount		
+OBA:2050261	tumor necrosis factor receptor superfamily member 6B amount	PR:000016486	tumor necrosis factor receptor superfamily member 6B	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050262	tumor necrosis factor ligand superfamily member 18 amount	PR:000016488	tumor necrosis factor ligand superfamily member 18	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050263	activin receptor type-1B amount	PR:000000068	activin receptor type-1B	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050264	tumor necrosis factor receptor superfamily member 18 amount	PR:000016482	tumor necrosis factor receptor superfamily member 18	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050265	importin subunit beta-1 amount	PR:000009439	importin subunit beta-1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050266	eukaryotic translation initiation factor 5A-1 amount	PR:000007003	eukaryotic translation initiation factor 5A-1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050267	advanced glycosylation end product-specific receptor amount	PR:000003828	advanced glycosylation end product-specific receptor	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050268	coagulation factor V amount	PR:000007300	coagulation factor V	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050269	tumor necrosis factor-inducible gene 6 protein amount	PR:000016475	tumor necrosis factor-inducible gene 6 protein	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050270	membrane metallo-endopeptidase-like 1 amount	PR:000010467	membrane metallo-endopeptidase-like 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050271	tumor necrosis factor receptor superfamily member 11B amount	PR:000016480	tumor necrosis factor receptor superfamily member 11B	PATO:0000070	amount	UBERON:0001062	anatomical entity	osteoprotegerin amount		
+OBA:2050272	tumor necrosis factor receptor superfamily member 1A amount	PR:000001958	tumor necrosis factor receptor superfamily member 1A	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050273	heterogeneous nuclear ribonucleoprotein A/B amount	PR:000008661	heterogeneous nuclear ribonucleoprotein A/B	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050274	cell adhesion molecule-related/down-regulated by oncogenes amount	PR:000005282	cell adhesion molecule-related/down-regulated by oncogenes	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050275	basal cell adhesion molecule amount	PR:000001143	basal cell adhesion molecule	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050276	proteasome activator complex subunit 3 amount	PR:000013394	proteasome activator complex subunit 3	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050277	eukaryotic translation initiation factor 4 gamma 2 amount	PR:000006999	eukaryotic translation initiation factor 4 gamma 2	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050278	C-type lectin domain family 4 member K amount	PR:000001293	C-type lectin domain family 4 member K	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050279	ephrin type-A receptor 3 amount	PR:000007123	ephrin type-A receptor 3	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050280	CD33 molecule amount	PR:000001892	CD33 molecule	PATO:0000070	amount	UBERON:0001062	anatomical entity	myeloid cell surface antigen CD33 amount		
+OBA:2050281	sialic acid-binding Ig-like lectin 9 amount	PR:000014869	sialic acid-binding Ig-like lectin 9	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050282	tumor necrosis factor receptor superfamily member 25 amount	PR:000016485	tumor necrosis factor receptor superfamily member 25	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050283	eukaryotic translation initiation factor 4E-binding protein 2 amount	PR:000006995	eukaryotic translation initiation factor 4E-binding protein 2	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050284	mitochondrial import inner membrane translocase subunit TIM14 amount	PR:000006582	mitochondrial import inner membrane translocase subunit TIM14	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050285	neuronal cell adhesion molecule amount	PR:000011420	neuronal cell adhesion molecule	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050286	DNA repair protein RAD51 homolog 1 amount	PR:000013672	DNA repair protein RAD51 homolog 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050287	tumor necrosis factor ligand superfamily member 4 amount	PR:000001949	tumor necrosis factor ligand superfamily member 4	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050288	neural cell adhesion molecule 1 amount	PR:000001024	neural cell adhesion molecule 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050289	tumor necrosis factor receptor superfamily member EDAR amount	PR:000006888	tumor necrosis factor receptor superfamily member EDAR	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050290	activin/inhibin beta A chain amount	PR:000000216	activin/inhibin beta A chain	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050291	lymphotoxin-alpha amount	PR:000002204	lymphotoxin-alpha	PATO:0000070	amount	UBERON:0001062	anatomical entity	tumor necrosis factor beta amount		
+OBA:2050292	SLAM family member 1 amount	PR:000001833	SLAM family member 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	signaling lymphocytic activation molecule 1 amount		
+OBA:2050293	tumor necrosis factor receptor superfamily member 19 amount	PR:000016483	tumor necrosis factor receptor superfamily member 19	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050294	mannan-binding lectin serine protease 1 amount	PR:000010193	mannan-binding lectin serine protease 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050295	tumor necrosis factor receptor superfamily member 8 amount	PR:000001964	tumor necrosis factor receptor superfamily member 8	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050296	chylomicron amount	GO:0042627	chylomicron	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050297	tumor necrosis factor receptor superfamily member 12A amount	PR:000001955	tumor necrosis factor receptor superfamily member 12A	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050298	coagulation factor X amount	PR:000007294	coagulation factor X	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050299	small nuclear ribonucleoprotein F amount	PR:000015347	small nuclear ribonucleoprotein F	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050300	heterogeneous nuclear ribonucleoprotein K amount	PR:000008669	heterogeneous nuclear ribonucleoprotein K	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050301	cell adhesion molecule 1 amount	PR:000004960	cell adhesion molecule 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050302	proteasome subunit alpha type-1 amount	PR:000013360	proteasome subunit alpha type-1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050303	C-type lectin domain family 4 member M amount	PR:000001294	C-type lectin domain family 4 member M	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050304	chloride intracellular channel protein 1 amount	PR:000005574	chloride intracellular channel protein 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050305	ephrin type-B receptor 2 amount	PR:000007130	ephrin type-B receptor 2	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050306	S-phase kinase-associated protein 1A amount	PR:000000045	S-phase kinase-associated protein 1A	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050307	ephrin type-A receptor 5 amount	PR:000007125	ephrin type-A receptor 5	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050308	eukaryotic translation initiation factor 5 amount	PR:000007002	eukaryotic translation initiation factor 5	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050309	tumor necrosis factor receptor superfamily member 1B amount	PR:000001959	tumor necrosis factor receptor superfamily member 1B	PATO:0000070	amount	UBERON:0001062	anatomical entity	tumor necrosis factor receptor II amount		
+OBA:2050310	tumor necrosis factor receptor superfamily member 27 amount	PR:000006887	tumor necrosis factor receptor superfamily member 27	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050311	neural cell adhesion molecule L1 amount	PR:000002066	neural cell adhesion molecule L1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050312	tumor necrosis factor receptor superfamily member 19L amount	PR:000013880	tumor necrosis factor receptor superfamily member 19L	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050313	tumor necrosis factor receptor superfamily member 13B amount	PR:000001956	tumor necrosis factor receptor superfamily member 13B	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050314	tumor necrosis factor ligand superfamily member 6 isoform FasL soluble form amount	PR:000000547	tumor necrosis factor ligand superfamily member 6 isoform FasL soluble form	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050315	NKG2-D type II integral membrane protein amount	PR:000001828	NKG2-D type II integral membrane protein	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050316	heterogeneous nuclear ribonucleoprotein Q amount	PR:000015874	heterogeneous nuclear ribonucleoprotein Q	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050317	cell adhesion molecule 3 amount	PR:000004962	cell adhesion molecule 3	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050318	proteasome subunit alpha type-2 amount	PR:000013361	proteasome subunit alpha type-2	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050319	Xaa-Pro aminopeptidase 2 amount	PR:000017496	Xaa-Pro aminopeptidase 2	PATO:0000070	amount	UBERON:0001062	anatomical entity	membrane-bound aminopeptidase P amount		
+OBA:2050320	carboxypeptidase B2 amount	PR:000005802	carboxypeptidase B2	PATO:0000070	amount	UBERON:0001062	anatomical entity	thrombin activatable fibrinolysis inhibitor activation peptide amount		
+OBA:2050321	ephrin type-A receptor 1 amount	PR:000007120	ephrin type-A receptor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050322	tumor necrosis factor ligand superfamily member 10 amount	PR:000002106	tumor necrosis factor ligand superfamily member 10	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050323	matrix extracellular phosphoglycoprotein amount	PR:000010327	matrix extracellular phosphoglycoprotein	PATO:0000070	amount	UBERON:0001062	anatomical entity			
+OBA:2050324	E-selectin amount	PR:000001415	E-selectin	PATO:0000070	amount	UBERON:0001062	anatomical entity	leukocyte-endothelial cell adhesion molecule 2 amount		
+OBA:2050325	tetranectin amount	PR:000005567	tetranectin	PATO:0000070	amount	UBERON:0001062	anatomical entity	C-type lectin domain family 3 member B amount		
+OBA:2050326	prothrombin amount	PR:000007299	prothrombin	PATO:0000070	amount	UBERON:0001062	anatomical entity	coagulation factor II amount		
 OBA:2045205	level of phosphatidylcholine 16:0_17:1 in blood serum	CHEBI:167247	phosphatidylcholine 16:0_17:1	PATO:0000070	amount	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
-OBA:2050329	blood 13,16,19-Docosatrienoic acid amount	CHEBI:80549	13,16,19-Docosatrienoic acid	PATO:0000070	amount	UBERON:0000178	blood
-OBA:2050331	sputum mucin-5AC amount	PR:000031343	mucin-5AC	PATO:0000070	amount	UBERON:0007311	sputum
-OBA:2050332	sputum mucin-5B amount	PR:000010769	mucin-5B	PATO:0000070	amount	UBERON:0007311	sputum
-OBA:2050334	level of neurturin in blood plasma	PR:000011439	neurturin 	PATO:0000070	amount	UBERON:0001969	blood plasma
-OBA:2050335	level of interleukin-33 in blood plasma	PR:000001389	interleukin-33	PATO:0000070	amount	UBERON:0001969	blood plasma
-OBA:2050336	level of T-cell differentiation antigen CD6 in blood plasma	PR:P30203	T-cell differentiation antigen CD6	PATO:0000070	amount	UBERON:0001969	blood plasma
-OBA:2050337	level of eukaryotic translation initiation factor 4E-binding protein 1 in blood plasma	PR:000006994	eukaryotic translation initiation factor 4E-binding protein 1	PATO:0000070	amount	UBERON:0001969	blood plasma
+OBA:2050329	blood 13,16,19-Docosatrienoic acid amount	CHEBI:80549	13,16,19-Docosatrienoic acid	PATO:0000070	amount	UBERON:0000178	blood			
+OBA:2050331	sputum mucin-5AC amount	PR:000031343	mucin-5AC	PATO:0000070	amount	UBERON:0007311	sputum			
+OBA:2050332	sputum mucin-5B amount	PR:000010769	mucin-5B	PATO:0000070	amount	UBERON:0007311	sputum			
+OBA:2050334	level of neurturin in blood plasma	PR:000011439	neurturin 	PATO:0000070	amount	UBERON:0001969	blood plasma			
+OBA:2050335	level of interleukin-33 in blood plasma	PR:000001389	interleukin-33	PATO:0000070	amount	UBERON:0001969	blood plasma			
+OBA:2050336	level of T-cell differentiation antigen CD6 in blood plasma	PR:P30203	T-cell differentiation antigen CD6	PATO:0000070	amount	UBERON:0001969	blood plasma			
+OBA:2050337	level of eukaryotic translation initiation factor 4E-binding protein 1 in blood plasma	PR:000006994	eukaryotic translation initiation factor 4E-binding protein 1	PATO:0000070	amount	UBERON:0001969	blood plasma			
 OBA:2045206	level of serum globulin type protein	CHEBI:166899	globulin type	PATO:0000070	amount	UBERON:0001977	serum	level of serum non-albumin protein|serum non-albumin protein amount		https://orcid.org/0000-0001-8314-2140
 OBA:2045207	level of serum albumin type protein	CHEBI:166964	albumin type	PATO:0000070	amount	UBERON:0001977	serum	level of serum albumin type protein|serum albumin type protein amount		https://orcid.org/0000-0001-8314-2140
 OBA:2045209	level of taurine in blood serum	CHEBI:15891	taurine	PATO:0000070	amount	UBERON:0001977	serum			https://orcid.org/0000-0001-8314-2140
-OBA:2050349	level of interleukin-12 subunit beta in blood	PR:000001369	interleukin-12 subunit beta	PATO:0000070	amount	UBERON:0000178	blood			https://orcid.org/0000-0001-6757-4744
+OBA:2050349	level of interleukin-12 subunit beta in blood	PR:000001369	interleukin-12 subunit beta	PATO:0000070	amount	UBERON:0000178	blood	blood IL-12B amount		https://orcid.org/0000-0001-6757-4744
