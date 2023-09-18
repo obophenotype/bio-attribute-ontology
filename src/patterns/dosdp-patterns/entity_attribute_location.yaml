@@ -1,10 +1,9 @@
 pattern_name: entity_attribute_location
 pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/entity_attribute_location.yaml
 
-description: '
-
-  Basic pattern for traits that captures a quality, such as size or rate which is a 
-  characteristic of an entity, such as an anatomical entity, in some location.'
+description: '  Basic pattern for traits that captures a quality, such as size
+  or rate which is a characteristic of an entity, such as an anatomical entity,
+  in some location.'
 
 classes:
   quality: PATO:0000001
@@ -19,11 +18,17 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
   related_synonym: oio:hasRelatedSynonym
   xref: oio:hasDbXref
+  contributor: dct:contributor
 
-vars: 
+vars:
   attribute: "'quality'"
   location: "'thing'"
   entity: "'thing'"
+
+data_list_vars:
+  exact_synonyms: xsd:string
+  xrefs: xsd:anyURI
+  orcid: xsd:anyURI  # ORCID of contributor
 
 name:
   text: "%s of %s in %s"
@@ -32,7 +37,7 @@ name:
     - entity
     - location
 
-def: 
+def:
   text: "The %s of a %s when measured in %s."
   vars:
     - attribute
@@ -42,7 +47,7 @@ def:
     - annotationProperty: xref
       text: "AUTO:patterns/patterns/entity_attribute_location"
 
-annotations: 
+annotations:
   - annotationProperty: exact_synonym
     text: "%s %s %s"
     vars:
@@ -53,13 +58,18 @@ annotations:
       - annotationProperty: xref
         text: "AUTO:patterns/patterns/entity_attribute_location"
 
+  - annotationProperty: contributor
+    value: orcid
 
-equivalentTo: 
+exact_synonym:
+  value: exact_synonyms
+
+xref:
+  value: xrefs
+
+equivalentTo:
   text: "%s and 'characteristic_of' some (%s and 'part_of' some %s)"
   vars:
     - attribute
     - entity
     - location
-
-
-
