@@ -5344,3 +5344,14 @@ OBA:2045206	level of serum globulin type protein	CHEBI:166899	globulin type	PATO
 OBA:2045207	level of serum albumin type protein	CHEBI:166964	albumin type	PATO:0000070	amount	UBERON:0001977	serum	level of serum albumin type protein|serum albumin type protein amount		https://orcid.org/0000-0001-8314-2140
 OBA:2045209	level of taurine in blood serum	CHEBI:15891	taurine	PATO:0000070	amount	UBERON:0001977	serum			https://orcid.org/0000-0001-8314-2140
 OBA:2050349	level of interleukin-12 subunit beta in blood	PR:000001369	interleukin-12 subunit beta	PATO:0000070	amount	UBERON:0000178	blood	blood IL-12B amount		https://orcid.org/0000-0001-6757-4744
+OBA:2050338	level of oxylipin in blood plasma  	CHEBI:61121	oxylipin	PATO:0000070	amount	UBERON:0001969	blood plasma		PMID:37057071	https://orcid.org/0000-0001-6757-4744
+OBA:2050339	level of 14,15-dihydroxyeicosa-5,8,11-trienoic acid in blood plasma	CHEBI:63966	(5Z,8Z,11Z)-14,15-dihydroxyicosatrienoic acid	PATO:0000070	amount	UBERON:0001969	blood plasma	level of 14,15-DiHETrE in blood plasma	PMID:37057071	https://orcid.org/0000-0001-6757-4744
+OBA:2050340	level of 11,12-dihydroxyicosa-5,8,14-trienoic acid in blood plasma	CHEBI:63969	(5Z,8Z,14Z)-11,12-dihydroxyicosatrienoic acid	PATO:0000070	amount	UBERON:0001969	blood plasma	level of 11,12-DiHETrE in blood plasma	PMID:37057071	https://orcid.org/0000-0001-6757-4744
+OBA:2050341	level of 12-hydroxy-5,8,10,14-eicosatetraenoic acid in blood plasma	CHEBI:34146	12(S)-HETE	PATO:0000070	amount	UBERON:0001969	blood plasma		PMID:37057071	https://orcid.org/0000-0001-6757-4744
+OBA:2050342	level of 5-hydroxy-6,8,11,14-eicosatetraenoic acid in blood plasma	CHEBI:60943	5-HETE	PATO:0000070	amount	UBERON:0001969	blood plasma		PMID:37057071	https://orcid.org/0000-0001-6757-4744
+OBA:2050343	level of 11-hydroxy-arachidonic acid in blood plasma	CHEBI:72606	11-HETE	PATO:0000070	amount	UBERON:0001969	blood plasma		PMID:37057071	https://orcid.org/0000-0001-6757-4744
+OBA:2050344	level of 9,10-dihydroxyoctadeca-12,15-dienoic acid in blood plasma	CHEBI:88440	9,10-DiHODE	PATO:0000070	amount	UBERON:0001969	blood plasma		PMID:37057071	https://orcid.org/0000-0001-6757-4744
+OBA:2050345	level of 9,10-dihydroxyoctadec-12-enoic acid in blood plasma	CHEBI:72663	9,10-DiHOME	PATO:0000070	amount	UBERON:0001969	blood plasma		PMID:37057071	https://orcid.org/0000-0001-6757-4744
+OBA:2050346	level of 9-hydroxylinoleic acid in blood plasma	CHEBI:72651	9-HODE	PATO:0000070	amount	UBERON:0001969	blood plasma		PMID:37057071	https://orcid.org/0000-0001-6757-4744
+OBA:2050347	level of 13-hydroxyoctadecadienoic acid in blood plasma	CHEBI:34154	13(S)-HODE	PATO:0000070	amount	UBERON:0001969	blood plasma		PMID:37057071	https://orcid.org/0000-0001-6757-4744
+OBA:2050348	level of 12,13-dihydroxyoctadec-9-enoic acid in blood plasma	CHEBI:72665	12,13-DiHOME	PATO:0000070	amount	UBERON:0001969	blood plasma		PMID:37057071	https://orcid.org/0000-0001-6757-4744
