@@ -5359,15 +5359,11 @@ OBA:2045300	C-C motif chemokine 13 level	PR:000002121	C-C motif chemokine 13	PAT
 OBA:2045301	erythrocyte hemoglobin content trait	CHEBI:35143	hemoglobin	PATO:0000070	amount	CL:0000232	erythrocyte	corpuscular hemoglobin amount|corpuscular hemoglobin content		https://orcid.org/0000-0001-8314-2140
 OBA:2045302	macrophage colony-stimulating factor 1 level	PR:000005930	macrophage colony-stimulating factor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	macrophage colony stimulating factor level		https://orcid.org/0000-0001-8314-2140
 OBA:2045303	natriuretic peptides B level	PR:000011375	natriuretic peptides B	PATO:0000070	amount	UBERON:0001062	anatomical entity	BNP quantity|brain natriuretic peptide 32 level		https://orcid.org/0000-0001-8314-2140
-OBA:2045304	response to muscle activity in the heart trait	GO:0014850	response to muscle activity	PATO:0001236	process quality	UBERON:0000948	heart	heart rate response to exercise|heart rate response to recovery post exercise		https://orcid.org/0000-0001-8314-2140
 OBA:2045305	reticulocyte corpuscular hemoglobin content attribute	CHEBI:35143	hemoglobin	PATO:0000070	amount	CL:0000558	reticulocyte			https://orcid.org/0000-0001-8314-2140
 OBA:2045306	reticulocyte hemoglobin variability attribute	CHEBI:35143	hemoglobin	PATO:0001303	variability	CL:0000558	reticulocyte	reticulocyte hemoglobin distribution width		https://orcid.org/0000-0001-8314-2140
 OBA:2045307	superior temporal gyrus grey matter volume	UBERON:0002020	gray matter	PATO:0000918	volume	UBERON:0002769	superior temporal gyrus			https://orcid.org/0000-0001-8314-2140
 OBA:2045308	leukocyte amount in the urinary tract	CL:0000738	leukocyte	PATO:0000070	amount	UBERON:0001008	renal system	leukocyte esterase level		https://orcid.org/0000-0001-8314-2140
 OBA:2045309	kidney adipose tissue quantity	UBERON:0001013	adipose tissue	PATO:0000070	amount	UBERON:0002113	kidney			https://orcid.org/0000-0001-8314-2140
-OBA:2045310	serum IgG glycosylation level	GO:0006487	protein N-linked glycosylation	PATO:0001236	process quality	GO:0071736	IgG immunoglobulin complex, circulating			https://orcid.org/0000-0001-8314-2140
-OBA:2045311	IgG fucosylation level	GO:0036071	N-glycan fucosylation	PATO:0002062	physical quality of a process	GO:0071736	IgG immunoglobulin complex, circulating			https://orcid.org/0000-0001-8314-2140
-OBA:2045312	IgG sialylation level	GO:1990743	protein sialylation	PATO:0002062	physical quality of a process	GO:0071736	IgG immunoglobulin complex, circulating			https://orcid.org/0000-0001-8314-2140
 OBA:2045313	fatty acid-binding protein level in heart	PR:000025846	fatty acid-binding protein	PATO:0000070	amount	UBERON:0000948	heart	fatty acid-binding protein, heart attribute		https://orcid.org/0000-0001-8314-2140
 OBA:2045314	fatty acid-binding protein level in adipocyte	PR:000025846	fatty acid-binding protein	PATO:0000070	amount	CL:0000136	fat cell	fatty acid-binding protein, adipocyte attribute		https://orcid.org/0000-0001-8314-2140
 OBA:2045315	corpuscular hemoglobin variability attribute	CHEBI:35143	hemoglobin	PATO:0001303	variability	CL:0000232	erythrocyte			https://orcid.org/0000-0001-8314-2140
@@ -5381,7 +5377,6 @@ OBA:2045324	blood protein level	PR:000000001	protein	PATO:0000070	amount	UBERON:
 OBA:2045325	toll-like receptor 4:Lymphocyte antigen 96 complex amount	PR:000036003	LY96:TLR4 complex	PATO:0000070	amount	UBERON:0001062	anatomical entity	toll-like receptor 4:Lymphocyte antigen 96 complex attribute		https://orcid.org/0000-0001-8314-2140
 OBA:2045326	dentin matrix acidic phosphoprotein 1 amount	PR:000006540	dentin matrix acidic phosphoprotein 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	dentin matrix acidic phosphoprotein 1 attribute		https://orcid.org/0000-0001-8314-2140
 OBA:2045327	C-C motif chemokine 2 level	PR:000002122	C-C motif chemokine 2	PATO:0000070	amount	UBERON:0001062	anatomical entity	CCL2 level		https://orcid.org/0000-0001-8314-2140
-OBA:2045328	gene methylation level	GO:0006306	DNA methylation	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
 OBA:2045329	granulocyte colony-stimulating factor level	PR:000005932	granulocyte colony-stimulating factor	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
 OBA:2045330	killer cell immunoglobulin-like receptor 2DL4 level	PR:000009330	killer cell immunoglobulin-like receptor 2DL4	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
 OBA:2045331	leukocyte immunoglobulin-like receptor subfamily B member 1 level	PR:000009808	leukocyte immunoglobulin-like receptor subfamily B member 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
@@ -5424,21 +5419,16 @@ OBA:2045367	CD80 molecule level	PR:000001438	CD80 molecule	PATO:0000070	amount	U
 OBA:2045368	CD86 molecule level	PR:000001412	CD86 molecule	PATO:0000070	amount	UBERON:0001062	anatomical entity	t-lymphocyte activation antigen CD86 level		https://orcid.org/0000-0001-8314-2140
 OBA:2045369	troponin I, cardiac muscle level	PR:000016506	troponin I, cardiac muscle	PATO:0000070	amount	UBERON:0001062	anatomical entity	troponin i, cardiac muscle level		https://orcid.org/0000-0001-8314-2140
 OBA:2045370	glutathione peroxidase 2 level	PR:000008211	glutathione peroxidase 2	PATO:0000070	amount	UBERON:0001062	anatomical entity	blood glutathione peroxidase level		https://orcid.org/0000-0001-8314-2140
-OBA:2045371	amygdala reactivity attribute	GO:0050896	response to stimulus	PATO:0000001	quality	UBERON:0001876	amygdala			https://orcid.org/0000-0001-8314-2140
 OBA:2045372	gestational blood glucose trait	CHEBI:17234	glucose	OBA:VT0000188	blood glucose amount	UBERON:0009097	gravid organism			https://orcid.org/0000-0001-8314-2140
 OBA:2045373	red blood cell folate amount	CHEBI:67011	folates	PATO:0000070	amount	CL:0000232	erythrocyte			https://orcid.org/0000-0001-8314-2140
 OBA:2045374	brain serotonin transporter level	PR:000015189	sodium-dependent serotonin transporter	PATO:0000070	amount	UBERON:0000955	brain			https://orcid.org/0000-0001-8314-2140
 OBA:2045375	circulating cell free DNA level	CHEBI:16991	deoxyribonucleic acid	PATO:0000070	amount	UBERON:0000178	blood			https://orcid.org/0000-0001-8314-2140
 OBA:2045376	serum copper level	CHEBI:28694	copper atom	PATO:0000070	amount	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
 OBA:2045377	heart amyloid deposition	PR:000036193	amyloid beta peptide	PATO:0000070	amount	UBERON:0000948	heart			https://orcid.org/0000-0001-8314-2140
-OBA:2045378	pharmaceutical response in the renin-angiotensin system attribute	CHEBI:52217	pharmaceutical	PATO:0000077	response to	UBERON:0018229	renin-angiotensin system			https://orcid.org/0000-0001-8314-2140
 OBA:2045379	prefrontal cortex cell composition	CL:0000000	cell	PATO:0000025	composition	UBERON:0000451	prefrontal cortex	prefrontal cortex cytoarchtiectural measurement		https://orcid.org/0000-0001-8314-2140
-OBA:2045380	peritoneal solute transport rate	GO:0051049	regulation of transport	PATO:0000161	rate	UBERON:0002358	peritoneum	peritoneal solute transfer rate		https://orcid.org/0000-0001-8314-2140
 OBA:2045381	hematocrit	CL:0000232	erythrocyte	PATO:0000918	volume	UBERON:0000178	blood			https://orcid.org/0000-0001-8314-2140
-OBA:2045382	serum lipase activity attribute	GO:0016042	lipid catabolic process	PATO:0001236	process quality	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
 OBA:2045383	gestational serum attribute	UBERON:0001977	blood serum	PATO:0000001	quality	UBERON:0009097	gravid organism			https://orcid.org/0000-0001-8314-2140
 OBA:2045384	plasma renin activity attribute	PR:000013883	renin	PATO:0001414	catalytic activity	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
 OBA:2045385	thiopurine methyltransferase activity trait	PR:000016583	thiopurine S-methyltransferase	PATO:0001414	catalytic activity	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
 OBA:2045386	response to milk	UBERON:0001913	milk	PATO:0000077	response to	UBERON:0001062	anatomical entity	milk allergy trait		https://orcid.org/0000-0001-8314-2140
 OBA:2045387	knee flexor muscle funcionality attribute	UBERON:0000366	flexor muscle	PATO:0001509	functionality	UBERON:0001465	knee			https://orcid.org/0000-0001-8314-2140
-OBA:2045388	white matter growth attribute	GO:0040007	growth	PATO:0002062	physical quality of a process	UBERON:0002316	white matter			https://orcid.org/0000-0001-8314-2140
