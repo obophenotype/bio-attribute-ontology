@@ -1240,7 +1240,7 @@ OBA:0002278		GO:0030097	hemopoiesis	PATO:0002181	displaced
 OBA:0002279		UBERON:0008341	columella nasi	PATO:0000122	length			
 OBA:0002280		UBERON:0001456	face	PATO:0000052	shape			
 OBA:0002281		UBERON:0008200	forehead	PATO:0000140	position			
-OBA:0002282		UBERON:0001988	feces	PATO:0001548	quality of a liquid			
+OBA:0002282	wateriness of faeces	UBERON:0001988	feces	PATO:0001548	quality of a liquid	faeces liquidness|wateriness of feces		https://orcid.org/0000-0001-8314-2140
 OBA:0002283		GO:0030421	defecation	PATO:0000044	frequency			
 OBA:0002284		UBERON:0001165	pyloric antrum	PATO:0000141	structure			
 OBA:0002285		UBERON:0001245	anus	PATO:0000136	closure			
@@ -4313,11 +4313,11 @@ OBA:2045266	carotid artery wall area attribute	UBERON:0037094	wall of common car
 OBA:2045267	cerebral cortex area attribute	UBERON:0000956	cerebral cortex	PATO:0001323	area			https://orcid.org/0000-0001-8314-2140
 OBA:2045268	striated muscle fiber area attribute	CL:0000737	striated muscle cell	PATO:0001323	area			https://orcid.org/0000-0001-8314-2140
 OBA:2045269	aortic vascular smooth muscle cell calcification attribute	CL:0002539	aortic smooth muscle cell	PATO:0001447	calcified			https://orcid.org/0000-0001-8314-2140
-OBA:2045270	basal ganglia growth attribute	UBERON:0002420	basal ganglion	PATO:0001492	growth rate			https://orcid.org/0000-0001-8314-2140
-OBA:2045271	brain growth attribute	UBERON:0000955	brain	PATO:0001492	growth rate			https://orcid.org/0000-0001-8314-2140
-OBA:2045272	cerebellum growth attribute	UBERON:0002037	cerebellum	PATO:0001492	growth rate			https://orcid.org/0000-0001-8314-2140
-OBA:2045273	cerebral cortex growth attribute	UBERON:0000956	cerebral cortex	PATO:0001492	growth rate			https://orcid.org/0000-0001-8314-2140
-OBA:2045274	prefrontal cortex growth attribute	UBERON:0000451	prefrontal cortex	PATO:0001492	growth rate			https://orcid.org/0000-0001-8314-2140
+OBA:2045270	basal ganglia growth characteristic	UBERON:0002420	basal ganglion	PATO:0001492	growth rate			https://orcid.org/0000-0001-8314-2140
+OBA:2045271	brain growth characteristic	UBERON:0000955	brain	PATO:0001492	growth rate			https://orcid.org/0000-0001-8314-2140
+OBA:2045272	cerebellum growth characteristic	UBERON:0002037	cerebellum	PATO:0001492	growth rate			https://orcid.org/0000-0001-8314-2140
+OBA:2045273	cerebral cortex growth characteristic	UBERON:0000956	cerebral cortex	PATO:0001492	growth rate			https://orcid.org/0000-0001-8314-2140
+OBA:2045274	prefrontal cortex growth characteristic	UBERON:0000451	prefrontal cortex	PATO:0001492	growth rate			https://orcid.org/0000-0001-8314-2140
 OBA:2045275	heart function attribute	UBERON:0000948	heart	PATO:0001509	functionality			https://orcid.org/0000-0001-8314-2140
 OBA:2045276	erythrocyte attribute	CL:0000232	erythrocyte	PATO:0000001	quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045277	dorsolateral prefrontal cortex functionality attribute	UBERON:0009834	dorsolateral prefrontal cortex	PATO:0001510	functional			https://orcid.org/0000-0001-8314-2140
@@ -4329,9 +4329,9 @@ OBA:2045282	facial pigmentation	UBERON:0001456	face	PATO:0002247	degree of pigme
 OBA:2045283	anterior chamber of eyeball pressure	UBERON:0001766	anterior chamber of eyeball	PATO:0001025	pressure			https://orcid.org/0000-0001-8314-2140
 OBA:2045284	microglial activation attribute	CL:0000129	microglial cell	PATO:0002354	active			https://orcid.org/0000-0001-8314-2140
 OBA:2045285	erosive tooth wear attribute	UBERON:0001091	calcareous tooth	PATO:0002453	eroding			https://orcid.org/0000-0001-8314-2140
-OBA:2045286	cortisol secretion attribute	GO:0043400	cortisol secretion	PATO:0015002	process efficacy			https://orcid.org/0000-0001-8314-2140
-OBA:2045287	platelet reactivity attribute	GO:0030168	platelet activation	PATO:0015002	process efficacy			https://orcid.org/0000-0001-8314-2140
-OBA:2045288	visual memory attribute	NBO:0000196	visual memory	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045286	cortisol secretion efficacy	GO:0043400	cortisol secretion	PATO:0015002	process efficacy			https://orcid.org/0000-0001-8314-2140
+OBA:2045287	platelet reactivity efficacy	GO:0030168	platelet activation	PATO:0015002	process efficacy			https://orcid.org/0000-0001-8314-2140
+OBA:2045288	visual memory characteristic	NBO:0000196	visual memory	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045289	fatty acid desaturase enzyme activity attribute	GO:0019395	fatty acid oxidation	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045290	angiotensin converting enzyme activity attribute	PR:000001322	angiotensin-converting enzyme	PATO:0001414	catalytic activity			https://orcid.org/0000-0001-8314-2140
 OBA:2045291	cerebrospinal fluid composition attribute	UBERON:0001359	cerebrospinal fluid	PATO:0000025	composition			https://orcid.org/0000-0001-8314-2140
@@ -4339,5 +4339,5 @@ OBA:2045292	sensory perception of taste attribute	GO:0050909	sensory perception 
 OBA:2045293	sexual activity behaviour attribute	NBO:0000034	sexual activity	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045294	asparaginase activity	GO:0006530	asparagine catabolic process	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045295	brain connectivity attribute	UBERON:0000955	brain	PATO:0000141	structure			https://orcid.org/0000-0001-8314-2140
-OBA:2045296	attriibute of defense response to other organism	GO:0098542	defense response to other organism	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045296	defense response to other organism characteristic	GO:0098542	defense response to other organism	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045328	DNA methylation level	GO:0006306	DNA methylation	PATO:0002062	physical quality of a process 			https://orcid.org/0000-0001-8314-2140
