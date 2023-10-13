@@ -5355,3 +5355,79 @@ OBA:2050345	level of 9,10-dihydroxyoctadec-12-enoic acid in blood plasma	CHEBI:7
 OBA:2050346	level of 9-hydroxylinoleic acid in blood plasma	CHEBI:72651	9-HODE	PATO:0000070	amount	UBERON:0001969	blood plasma		PMID:37057071	https://orcid.org/0000-0001-6757-4744
 OBA:2050347	level of 13-hydroxyoctadecadienoic acid in blood plasma	CHEBI:34154	13(S)-HODE	PATO:0000070	amount	UBERON:0001969	blood plasma		PMID:37057071	https://orcid.org/0000-0001-6757-4744
 OBA:2050348	level of 12,13-dihydroxyoctadec-9-enoic acid in blood plasma	CHEBI:72665	12,13-DiHOME	PATO:0000070	amount	UBERON:0001969	blood plasma		PMID:37057071	https://orcid.org/0000-0001-6757-4744
+OBA:2045300	C-C motif chemokine 13 level	PR:000002121	C-C motif chemokine 13	PATO:0000070	amount	UBERON:0001062	anatomical entity	CCL13 level|monocyte chemotactic protein-4 level		https://orcid.org/0000-0001-8314-2140
+OBA:2045301	erythrocyte hemoglobin content trait	CHEBI:35143	hemoglobin	PATO:0000070	amount	CL:0000232	erythrocyte	corpuscular hemoglobin amount|corpuscular hemoglobin content		https://orcid.org/0000-0001-8314-2140
+OBA:2045302	macrophage colony-stimulating factor 1 level	PR:000005930	macrophage colony-stimulating factor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	macrophage colony stimulating factor level		https://orcid.org/0000-0001-8314-2140
+OBA:2045303	natriuretic peptides B level	PR:000011375	natriuretic peptides B	PATO:0000070	amount	UBERON:0001062	anatomical entity	BNP quantity|brain natriuretic peptide 32 level		https://orcid.org/0000-0001-8314-2140
+OBA:2045305	reticulocyte corpuscular hemoglobin content attribute	CHEBI:35143	hemoglobin	PATO:0000070	amount	CL:0000558	reticulocyte			https://orcid.org/0000-0001-8314-2140
+OBA:2045306	reticulocyte hemoglobin variability attribute	CHEBI:35143	hemoglobin	PATO:0001303	variability	CL:0000558	reticulocyte	reticulocyte hemoglobin distribution width		https://orcid.org/0000-0001-8314-2140
+OBA:2045307	superior temporal gyrus grey matter volume	UBERON:0002020	gray matter	PATO:0000918	volume	UBERON:0002769	superior temporal gyrus			https://orcid.org/0000-0001-8314-2140
+OBA:2045308	leukocyte amount in the urinary tract	CL:0000738	leukocyte	PATO:0000070	amount	UBERON:0001008	renal system	leukocyte esterase level		https://orcid.org/0000-0001-8314-2140
+OBA:2045309	kidney adipose tissue quantity	UBERON:0001013	adipose tissue	PATO:0000070	amount	UBERON:0002113	kidney			https://orcid.org/0000-0001-8314-2140
+OBA:2045313	fatty acid-binding protein level in heart	PR:000025846	fatty acid-binding protein	PATO:0000070	amount	UBERON:0000948	heart	fatty acid-binding protein, heart attribute		https://orcid.org/0000-0001-8314-2140
+OBA:2045314	fatty acid-binding protein level in adipocyte	PR:000025846	fatty acid-binding protein	PATO:0000070	amount	CL:0000136	fat cell	fatty acid-binding protein, adipocyte attribute		https://orcid.org/0000-0001-8314-2140
+OBA:2045315	corpuscular hemoglobin variability attribute	CHEBI:35143	hemoglobin	PATO:0001303	variability	CL:0000232	erythrocyte			https://orcid.org/0000-0001-8314-2140
+OBA:2045316	erythrocyte cadmium level	CHEBI:22977	cadmium atom	PATO:0000070	amount	CL:0000232	erythrocyte			https://orcid.org/0000-0001-8314-2140
+OBA:2045317	cerebrospinal fluid clusterin level	PR:000005615	clusterin	PATO:0000070	amount	UBERON:0001359	cerebrospinal fluid			https://orcid.org/0000-0001-8314-2140
+OBA:2045318	cerebral blood flow level	UBERON:0000178	blood	PATO:0002243	fluid flow rate	UBERON:0000955	brain			https://orcid.org/0000-0001-8314-2140
+OBA:2045319	serum gamma-glutamyl transferase level	PR:000001458	glutathione hydrolase 1 proenzyme	PATO:0000070	amount	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
+OBA:2045321	serum carcinoembryonic antigen level	PR:000001330	carcinoembryonic antigen-related cell adhesion molecule 5	PATO:0000070	amount	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
+OBA:2045323	blood copper level	CHEBI:28694	copper atom	PATO:0000070	amount	UBERON:0000178	blood			https://orcid.org/0000-0001-8314-2140
+OBA:2045325	toll-like receptor 4:Lymphocyte antigen 96 complex amount	PR:000036003	LY96:TLR4 complex	PATO:0000070	amount	UBERON:0001062	anatomical entity	toll-like receptor 4:Lymphocyte antigen 96 complex attribute		https://orcid.org/0000-0001-8314-2140
+OBA:2045326	dentin matrix acidic phosphoprotein 1 amount	PR:000006540	dentin matrix acidic phosphoprotein 1	PATO:0000070	amount	UBERON:0001062	anatomical entity	dentin matrix acidic phosphoprotein 1 attribute		https://orcid.org/0000-0001-8314-2140
+OBA:2045327	C-C motif chemokine 2 level	PR:000002122	C-C motif chemokine 2	PATO:0000070	amount	UBERON:0001062	anatomical entity	CCL2 level		https://orcid.org/0000-0001-8314-2140
+OBA:2045329	granulocyte colony-stimulating factor level	PR:000005932	granulocyte colony-stimulating factor	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045330	killer cell immunoglobulin-like receptor 2DL4 level	PR:000009330	killer cell immunoglobulin-like receptor 2DL4	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045331	leukocyte immunoglobulin-like receptor subfamily B member 1 level	PR:000009808	leukocyte immunoglobulin-like receptor subfamily B member 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045332	leukocyte immunoglobulin-like receptor subfamily B member 2 level	PR:000009809	leukocyte immunoglobulin-like receptor subfamily B member 2	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045333	C-C motif chemokine 3 level	PR:000002123	C-C motif chemokine 3	PATO:0000070	amount	UBERON:0001062	anatomical entity	macrophage inflammatory protein 1a level		https://orcid.org/0000-0001-8314-2140
+OBA:2045334	C-C motif chemokine 4 level	PR:000002124	C-C motif chemokine 4	PATO:0000070	amount	UBERON:0001062	anatomical entity	macrophage inflammatory protein 1b level		https://orcid.org/0000-0001-8314-2140
+OBA:2045335	macrophage metalloelastase level	PR:000010472	macrophage metalloelastase	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045336	macrophage migration inhibitory factor level	PR:000010413	macrophage migration inhibitory factor	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045337	macrophage scavenger receptor types I and II level	PR:000001885	macrophage scavenger receptor types I and II	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045338	C-C motif chemokine 7 level	PR:000002125	C-C motif chemokine 7	PATO:0000070	amount	UBERON:0001062	anatomical entity	monocyte chemotactic protein 3 level		https://orcid.org/0000-0001-8314-2140
+OBA:2045339	neutrophil collagenase level	PR:000010490	neutrophil collagenase	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045340	platelet glycoprotein 4 level	PR:000001905	platelet glycoprotein 4	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045341	platelet glycoprotein VI level	PR:000008156	platelet glycoprotein VI	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045342	C-type lectin domain family 11 member A level	PR:000005558	C-type lectin domain family 11 member A	PATO:0000070	amount	UBERON:0001062	anatomical entity	stem Cell Growth Factor beta level		https://orcid.org/0000-0001-8314-2140
+OBA:2045343	T-lymphocyte surface antigen Ly-9 level	PR:000001842	T-lymphocyte surface antigen Ly-9	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045344	C-C motif chemokine 15 level	PR:000001987	C-C motif chemokine 15	PATO:0000070	amount	UBERON:0001062	anatomical entity	CCL15 level		https://orcid.org/0000-0001-8314-2140
+OBA:2045345	C-C motif chemokine 19 level	PR:000001991	C-C motif chemokine 19	PATO:0000070	amount	UBERON:0001062	anatomical entity	CCL19 level		https://orcid.org/0000-0001-8314-2140
+OBA:2045346	C-X-C motif chemokine 6 level	PR:000006072	C-X-C motif chemokine 6	PATO:0000070	amount	UBERON:0001062	anatomical entity	CXCL6 level		https://orcid.org/0000-0001-8314-2140
+OBA:2045347	C-C motif chemokine 8 level	PR:000002126	C-C motif chemokine 8	PATO:0000070	amount	UBERON:0001062	anatomical entity	monocyte chemotactic protein-2 level		https://orcid.org/0000-0001-8314-2140
+OBA:2045348	eosinophil cationic protein level	PR:000014047	eosinophil cationic protein	PATO:0000070	amount	UBERON:0001062	anatomical entity	eosinophil cationic protein level		https://orcid.org/0000-0001-8314-2140
+OBA:2045349	natriuretic peptides B proteolytic cleavage product level	PR:000020778	natriuretic peptides B proteolytic cleavage product	PATO:0000070	amount	UBERON:0001062	anatomical entity	N-terminal prohormone brain natriuretic peptide level		https://orcid.org/0000-0001-8314-2140
+OBA:2045350	B-cell receptor CD22 level	PR:000001288	B-cell receptor CD22	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045351	cytotoxic and regulatory T-cell molecule level	PR:000005899	cytotoxic and regulatory T-cell molecule	PATO:0000070	amount	UBERON:0001062	anatomical entity	cytotoxic and regulatory t-cell molecule level		https://orcid.org/0000-0001-8314-2140
+OBA:2045352	cytotoxic T-lymphocyte protein 4 level	PR:000001852	cytotoxic T-lymphocyte protein 4	PATO:0000070	amount	UBERON:0001062	anatomical entity	cytotoxic t-lymphocyte protein 4 level		https://orcid.org/0000-0001-8314-2140
+OBA:2045353	granulocyte colony-stimulating factor receptor level	PR:000001353	granulocyte colony-stimulating factor receptor	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045354	activin/inhibin beta subunit level	PR:000000072	activin/inhibin beta subunit	PATO:0000070	amount	UBERON:0001062	anatomical entity	inhibin beta A chain:inhibin beta B chain heterodimer level		https://orcid.org/0000-0001-8314-2140
+OBA:2045355	killer cell immunoglobulin-like receptor 3DL2 level	PR:000009338	killer cell immunoglobulin-like receptor 3DL2	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045356	killer cell immunoglobulin-like receptor 3DS1 level	PR:000009340	killer cell immunoglobulin-like receptor 3DS1	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045357	killer cell lectin-like receptor subfamily F member 1 level	PR:000009425	killer cell lectin-like receptor subfamily F member 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045358	lymphatic vessel endothelial hyaluronic acid receptor 1 level	PR:000010012	lymphatic vessel endothelial hyaluronic acid receptor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045359	lymphocyte activation gene 3 protein level	PR:000001881	lymphocyte activation gene 3 protein	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045360	lymphocyte antigen 86 level	PR:000009997	lymphocyte antigen 86	PATO:0000070	amount	UBERON:0001062	anatomical entity	lymphocyte antigen 86 level		https://orcid.org/0000-0001-8314-2140
+OBA:2045361	macrophage colony-stimulating factor 1 receptor level	PR:000002062	macrophage colony-stimulating factor 1 receptor	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045362	macrophage mannose receptor 1 level	PR:000002972	macrophage mannose receptor 1	PATO:0000070	amount	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045363	neutrophil elastase level	PR:000007009	neutrophil elastase	PATO:0000070	amount	UBERON:0001062	anatomical entity	neutrophil elastase level		https://orcid.org/0000-0001-8314-2140
+OBA:2045364	platelet factor 4 level	PR:000012569	platelet factor 4	PATO:0000070	amount	UBERON:0001062	anatomical entity	platelet factor 4 level		https://orcid.org/0000-0001-8314-2140
+OBA:2045365	platelet glycoprotein Ib alpha chain level	PR:000001907	platelet glycoprotein Ib alpha chain	PATO:0000070	amount	UBERON:0001062	anatomical entity	platelet glycoprotein ib alpha chain level		https://orcid.org/0000-0001-8314-2140
+OBA:2045366	proliferating cell nuclear antigen level	PR:000012421	proliferating cell nuclear antigen	PATO:0000070	amount	UBERON:0001062	anatomical entity	proliferating cell nuclear antigen level		https://orcid.org/0000-0001-8314-2140
+OBA:2045367	CD80 molecule level	PR:000001438	CD80 molecule	PATO:0000070	amount	UBERON:0001062	anatomical entity	t-lymphocyte activation antigen CD80 level		https://orcid.org/0000-0001-8314-2140
+OBA:2045368	CD86 molecule level	PR:000001412	CD86 molecule	PATO:0000070	amount	UBERON:0001062	anatomical entity	t-lymphocyte activation antigen CD86 level		https://orcid.org/0000-0001-8314-2140
+OBA:2045369	troponin I, cardiac muscle level	PR:000016506	troponin I, cardiac muscle	PATO:0000070	amount	UBERON:0001062	anatomical entity	troponin i, cardiac muscle level		https://orcid.org/0000-0001-8314-2140
+OBA:2045370	glutathione peroxidase 2 level	PR:000008211	glutathione peroxidase 2	PATO:0000070	amount	UBERON:0001062	anatomical entity	blood glutathione peroxidase level		https://orcid.org/0000-0001-8314-2140
+OBA:2045372	gestational blood glucose trait	CHEBI:17234	glucose	OBA:VT0000188	blood glucose amount	UBERON:0009097	gravid organism			https://orcid.org/0000-0001-8314-2140
+OBA:2045373	red blood cell folate amount	CHEBI:67011	folates	PATO:0000070	amount	CL:0000232	erythrocyte			https://orcid.org/0000-0001-8314-2140
+OBA:2045374	brain serotonin transporter level	PR:000015189	sodium-dependent serotonin transporter	PATO:0000070	amount	UBERON:0000955	brain			https://orcid.org/0000-0001-8314-2140
+OBA:2045375	circulating cell free DNA level	CHEBI:16991	deoxyribonucleic acid	PATO:0000070	amount	UBERON:0000178	blood			https://orcid.org/0000-0001-8314-2140
+OBA:2045376	serum copper level	CHEBI:28694	copper atom	PATO:0000070	amount	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
+OBA:2045377	heart amyloid deposition	PR:000036193	amyloid beta peptide	PATO:0000070	amount	UBERON:0000948	heart			https://orcid.org/0000-0001-8314-2140
+OBA:2045379	prefrontal cortex cell composition	CL:0000000	cell	PATO:0000025	composition	UBERON:0000451	prefrontal cortex	prefrontal cortex cytoarchtiectural measurement		https://orcid.org/0000-0001-8314-2140
+OBA:2045381	hematocrit	CL:0000232	erythrocyte	PATO:0000918	volume	UBERON:0000178	blood			https://orcid.org/0000-0001-8314-2140
+OBA:2045383	gestational serum attribute	UBERON:0001977	blood serum	PATO:0000001	quality	UBERON:0009097	gravid organism			https://orcid.org/0000-0001-8314-2140
+OBA:2045384	plasma renin activity attribute	PR:000013883	renin	PATO:0001414	catalytic activity	UBERON:0001977	blood serum			https://orcid.org/0000-0001-8314-2140
+OBA:2045385	thiopurine methyltransferase activity trait	PR:000016583	thiopurine S-methyltransferase	PATO:0001414	catalytic activity	UBERON:0001062	anatomical entity			https://orcid.org/0000-0001-8314-2140
+OBA:2045386	response to milk	UBERON:0001913	milk	PATO:0000077	response to	UBERON:0001062	anatomical entity	milk allergy trait		https://orcid.org/0000-0001-8314-2140
+OBA:2045387	knee flexor muscle funcionality attribute	UBERON:0000366	flexor muscle	PATO:0001509	functionality	UBERON:0001465	knee			https://orcid.org/0000-0001-8314-2140
