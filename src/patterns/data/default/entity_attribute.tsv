@@ -4302,7 +4302,7 @@ OBA:2045253	ventral diencephalon volume	UBERON:0001894	diencephalon	PATO:0000918
 OBA:2045254	carotid artery circumferential wall stress	UBERON:0005396	carotid artery segment	PATO:0001034	strain			https://orcid.org/0000-0001-8314-2140
 OBA:2045255	pulmonary artery strain	UBERON:0002012	pulmonary artery	PATO:0001034	strain			https://orcid.org/0000-0001-8314-2140
 OBA:2045256	multiple keratinocyte carcinoma susceptibility	CL:0000312	keratinocyte	PATO:0001043	susceptibility toward			https://orcid.org/0000-0001-8314-2140
-OBA:2045259	urine relative density	UBERON:0001088	urine	PATO:0001159	concentrated			https://orcid.org/0000-0001-8314-2140
+OBA:2045259	urine relative density	UBERON:0001088	urine	PATO:0000033	concentration of			https://orcid.org/0000-0001-8314-2140
 OBA:2045260	red blood cell density	CL:0000232	erythrocyte	PATO:0001164	dense			https://orcid.org/0000-0001-8314-2140
 OBA:2045261	quality of life	UBERON:0000104	life cycle	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045262	hearing process quality	GO:0007605	sensory perception of sound	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
@@ -4347,3 +4347,39 @@ OBA:2045390	basophil ratio	CL:0000767	basophil	PATO:0001470	proportionality to		
 OBA:2045391	eosinophil ratio	CL:0000771	eosinophil	PATO:0001470	proportionality to			https://orcid.org/0000-0001-8314-2140
 OBA:2045392	basophil to leukocyte ratio	CL:0000767	basophil	OBA:2045389	leukocyte ratio			https://orcid.org/0000-0001-8314-2140
 OBA:2045393	eosinophil to leukocyte ratio 	CL:0000771	eosinophil	OBA:2045389	leukocyte ratio			https://orcid.org/0000-0001-8314-2140
+OBA:2045406		CL:0002535	epithelial cell of cervix	PATO:0000051	morphology			https://orcid.org/0000-0001-8314-2140
+OBA:2045407	response to bacterium process attribute	GO:0009617	response to bacterium	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045408	amniotic fluid pH	UBERON:0000173	amniotic fluid	PATO:0001842	acidity			https://orcid.org/0000-0001-8314-2140
+OBA:2045409	blood pH	UBERON:0000178	blood	PATO:0001842	acidity			https://orcid.org/0000-0001-8314-2140
+OBA:2045410		UBERON:0000468	multicellular organism	PATO:0000011	age			https://orcid.org/0000-0001-8314-2140
+OBA:2045411		UBERON:0000479	tissue	PATO:0000125	mass			https://orcid.org/0000-0001-8314-2140
+OBA:2045412		UBERON:0001062	anatomical entity	PATO:0000051	morphology			https://orcid.org/0000-0001-8314-2140
+OBA:2045413		UBERON:0001062	anatomical entity	PATO:0000125	mass			https://orcid.org/0000-0001-8314-2140
+OBA:2045414		UBERON:0001088	urine	PATO:0000957	opacity			https://orcid.org/0000-0001-8314-2140
+OBA:2045415		UBERON:0001088	urine	PATO:0002027	osmolality			https://orcid.org/0000-0001-8314-2140
+OBA:2045416	synovial fluid attribute	UBERON:0001090	synovial fluid	PATO:0000001	quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045417		UBERON:0001090	synovial fluid	PATO:0000992	viscosity			https://orcid.org/0000-0001-8314-2140
+OBA:2045418	appearance of cerebrospinal fluid	UBERON:0001359	cerebrospinal fluid	PATO:0001300	optical quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045419		UBERON:0001359	cerebrospinal fluid	PATO:0000014	color			https://orcid.org/0000-0001-8314-2140
+OBA:2045420		UBERON:0001417	skin of neck	PATO:0000915	thickness			https://orcid.org/0000-0001-8314-2140
+OBA:2045421	semen attribute	UBERON:0001968	semen	PATO:0000001	quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045422		UBERON:0001968	semen	PATO:0000918	volume			https://orcid.org/0000-0001-8314-2140
+OBA:2045423		UBERON:0001968	semen	PATO:0000992	viscosity			https://orcid.org/0000-0001-8314-2140
+OBA:2045424	semen pH	UBERON:0001968	semen	PATO:0001842	acidity			https://orcid.org/0000-0001-8314-2140
+OBA:2045425	plasma pH	UBERON:0001969	blood plasma	PATO:0001842	acidity			https://orcid.org/0000-0001-8314-2140
+OBA:2045426		UBERON:0001969	blood plasma	PATO:0002027	osmolality			https://orcid.org/0000-0001-8314-2140
+OBA:2045427		UBERON:0001977	blood serum	PATO:0000992	viscosity			https://orcid.org/0000-0001-8314-2140
+OBA:2045428		UBERON:0001988	feces	PATO:0000037	consistency	firmness of faeces		https://orcid.org/0000-0001-8314-2140
+OBA:2045429		UBERON:0001988	feces	PATO:0000125	mass	faeces mass		https://orcid.org/0000-0001-8314-2140
+OBA:2045430	feces pH	UBERON:0001988	feces	PATO:0001842	acidity	pH of faeces		https://orcid.org/0000-0001-8314-2140
+OBA:2045431	body fluid attribute	UBERON:0006314	bodily fluid	PATO:0000001	quality			https://orcid.org/0000-0001-8314-2140
+OBA:2045432	body fluid color	UBERON:0006314	bodily fluid	PATO:0000014	color			https://orcid.org/0000-0001-8314-2140
+OBA:2045433	body fluid pH	UBERON:0006314	bodily fluid	PATO:0001842	acidity			https://orcid.org/0000-0001-8314-2140
+OBA:2045434	umbilical cord blood pH	UBERON:0012168	umbilical cord blood	PATO:0001842	acidity			https://orcid.org/0000-0001-8314-2140
+OBA:2045435	stomach content pH	UBERON:0013525	stomach lumen	PATO:0001842	acidity			https://orcid.org/0000-0001-8314-2140
+OBA:2045436	arterial blood pH	UBERON:0013755	arterial blood	PATO:0001842	acidity			https://orcid.org/0000-0001-8314-2140
+OBA:2045437	venous blood pH	UBERON:0013756	venous blood	PATO:0001842	acidity			https://orcid.org/0000-0001-8314-2140
+OBA:2045438	capillary blood pH	UBERON:0013757	capillary blood	PATO:0001842	acidity			https://orcid.org/0000-0001-8314-2140
+OBA:2045439	body surface area	UBERON:0035159	entire surface of organism	PATO:0001323	area			https://orcid.org/0000-0001-8314-2140
+OBA:2045451	attribute of response to  allergen in serum	UBERON:0001977	blood serum	OBA:2045453	attribute of response to allergen			https://orcid.org/0000-0001-8314-2140
+OBA:2045452	attribute of response to thyroid hormone in plasma	UBERON:0001969	blood plasma	OBA:2045454	attribute of response to thyroid hormone			https://orcid.org/0000-0001-8314-2140

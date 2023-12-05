@@ -5441,3 +5441,14 @@ OBA:2045401	level of aspartate aminotransferase, mitochondrial type	PR:000008154
 OBA:2045402	creatinine level	CHEBI:16737	creatinine	PATO:0000070	amount	UBERON:0001062	anatomical entity					https://orcid.org/0000-0001-8314-2140	
 OBA:2045403	urobilinogen level	CHEBI:29026	urobilinogen	PATO:0000070	amount	UBERON:0001062	anatomical entity					https://orcid.org/0000-0001-8314-2140	
 OBA:2045404	nitrite level	CHEBI:16301	nitrite	PATO:0000070	amount	UBERON:0001062	anatomical entity					https://orcid.org/0000-0001-8314-2140	
+OBA:2045405		CHEBI:60579	calcium oxalate	PATO:0000070	amount	UBERON:0001088	urine					https://orcid.org/0000-0001-8314-2140	
+OBA:2045440	hepatic iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0002107	liver	liver iron amount				https://orcid.org/0000-0001-8314-2140	
+OBA:2045442	arterial blood oxygen level	CHEBI:25805	oxygen atom	PATO:0000070	amount	UBERON:0013755	arterial blood					https://orcid.org/0000-0001-8314-2140	
+OBA:2045443	oxygen concentration in blood	CHEBI:25805	oxygen atom	PATO:0000033	concentration of	UBERON:0000178	blood					https://orcid.org/0000-0001-8314-2140	
+OBA:2045444	oxygen concentration in umbilical cord blood 	CHEBI:25805	oxygen atom	PATO:0000033	concentration of	UBERON:0012168	umbilical cord blood					https://orcid.org/0000-0001-8314-2140	
+OBA:2045445	oxygen concentration in arterial blood 	CHEBI:25805	oxygen atom	PATO:0000033	concentration of	UBERON:0013755	arterial blood					https://orcid.org/0000-0001-8314-2140	
+OBA:2045446	oxygen concentration in venous blood 	CHEBI:25805	oxygen atom	PATO:0000033	concentration of	UBERON:0013756	venous blood					https://orcid.org/0000-0001-8314-2140	
+OBA:2045447	oxygen concentration in capillary blood 	CHEBI:25805	oxygen atom	PATO:0000033	concentration of	UBERON:0013757	capillary blood					https://orcid.org/0000-0001-8314-2140	
+OBA:2045448	attribute of response to heparin in plasma	CHEBI:28304	heparin	PATO:0000077	response to	UBERON:0001969	blood plasma					https://orcid.org/0000-0001-8314-2140	
+OBA:2045449	plasma thyroxine level	CHEBI:30660	thyroxine	PATO:0000070	amount	UBERON:0001969	blood plasma					https://orcid.org/0000-0001-8314-2140	
+OBA:2045450	blood hemoglobin attribute	CHEBI:35143	hemoglobin	PATO:0000001	quality	UBERON:0000178	blood	blood haemoglobin attribute				https://orcid.org/0000-0001-8314-2140	
