@@ -1,0 +1,142 @@
+---
+title: "OBA - MPD analysis"
+author: "Robyn L Ball, PhD"
+date: "Dec 15, 2022"
+output: 
+  html_notebook:
+    code_folding: hide
+---
+
+# PURPOSE
+
+Calculate the coverage of OBA VT term mappings on MPD trait measures 
+
+# METHODS
+
+Using OBA VT term mappings, calculate coverage across MPD measures
+
+# DATA
+
+MPD ontology mappings and OBA-VT term mappings were downloaded on Dec 15, 2022.  
+Put all data in /data/
+
+MPD ontology mappings can be downloaded at https://phenomedoc-prod.jax.org/MPD_downloads/ontology_mappings.csv
+
+OBA-VT mappings can be downloaded at https://github.com/obophenotype/bio-attribute-ontology/blob/master/src/mappings/oba-vt.sssom.tsv
+
+
+# CODE
+
+Set working directory to source code using Session -> Set working directory -> Source file location
+
+If you do not have these packages, use install.packages("package_name") to install them or use Tools -> Install packages
+
+
+```{r, message=FALSE, results='hide'}
+options(stringsAsFactors = FALSE)
+library(tidyverse)
+library(reshape2)
+library(DT)
+```
+
+read in data
+
+```{r}
+# OBA VT term mappings
+oba <- read.delim("../data/oba-vt.sssom.tsv")
+# MPD ontology terms to MPD measure mappings
+terms <- read.delim("../data/ontology_mappings.csv", sep=",")
+```
+
+```{r}
+print("OBA data preview")
+head(oba)
+```
+
+```{r}
+# VT terms in MPD
+vts <- terms[grep("^VT", terms$ont_term), ]
+```
+
+distribution of OBA VT terms compared to MPD VT terms
+
+```{r}
+print(paste0("Number of VT terms mapped by OBA: ", length(unique(oba$subject_id))))
+print(paste0("Number of VT terms with measures in MPD: ", length(unique(vts$ont_term))))
+print(paste0("Number of VT terms mapped by OBA not in MPD: ", length(setdiff(oba$subject_id, vts$ont_term))))
+print(paste0("Number of VT terms in MPD not mapped by OBA: ",length(setdiff(vts$ont_term, oba$subject_id))))
+print(paste0("Number of VT terms mapped by OBA that are also in MPD: ", length(intersect(vts$ont_term, oba$subject_id))))
+print(paste0("Percentage of VT terms in MPD that are also mapped by OBA: ", round(length(intersect(vts$ont_term, oba$subject_id))/length(unique(vts$ont_term))*100, 1)))
+```
+345 of 508 (67.9%) VT terms in MPD are mapped from OBA.  
+163 VT terms in MPD are not mapped by OBA.
+
+```{r}
+meas <- unique(terms$measnum)
+vt_meas <- unique(vts$measnum)
+print(paste0("Number of MPD measures mapped to VT terms: ", length(vt_meas)))
+print(paste0("Number of MPD measures: ", length(meas)))
+print(paste0("Percentage of MPD measures mapped to VT terms: ", round(length(vt_meas)/length(meas)*100, 1)))
+
+print(paste0("Number of MPD measures that can be mapped to from OBA: ",
+             vts %>% 
+  filter(ont_term %in% oba$subject_id) %>% 
+  distinct(measnum) %>% 
+  summarize(n=n())))
+```
+
+6325 of 6437 (98.3%) of MPD trait measures are mapped to VT terms.  
+Of those mapped to VT terms, 5155 of 6325 (81.5%) MPD measures are mapped to VT terms also in OBA.
+
+In total, OBA terms map to 80.1% of the trait measures in MPD. 
+
+
+### Some context from other ontologies in MPD (MA, MP)
+
+```{r}
+terms %>% 
+  filter(grepl("^MA", ont_term)) %>% 
+  distinct(measnum) %>% 
+  summarize(n=n(), p=n()/length(unique(terms$measnum)))
+
+terms %>% 
+  filter(grepl("^MP", ont_term)) %>% 
+  distinct(measnum) %>% 
+  summarize(n=n(), p=n()/length(unique(terms$measnum)))
+
+terms %>% 
+  add_column(ont=gsub(":.*", "", terms$ont_term)) %>% 
+  select(measnum, ont) %>% 
+  group_by(measnum) %>% 
+  distinct() -> tb
+
+tb %>% 
+  summarize(n=n()) -> tb2
+
+table(tb2$n)
+table(tb$ont[which(tb$measnum %in% tb2$measnum[tb2$n==1])])
+```
+3935 (61.1%) MPD measures mapped to MA terms  
+
+6273 (97.5%) MPD measures mapped to MP terms
+
+Only 145 MPD measures are mapped to one ontology (46 to VT, 73 to MP, and 26 to MA).
+
+## MPD measures mapped to VT terms not in OBA
+
+163 VT terms not in OBA, sorted in order of how many MPD measures map to these terms:
+
+```{r}
+# vts %>% 
+#   filter(!(ont_term %in% oba$subject_id)) %>% 
+#   group_by(ont_term)
+
+vts %>% 
+  filter(!(ont_term %in% oba$subject_id)) %>% 
+  group_by(ont_term, descrip) %>% 
+  summarize(nmeas=n()) %>% 
+  arrange(desc(nmeas))
+```
+
+
+

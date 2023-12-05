@@ -6,6 +6,8 @@ repo: bio-attribute-ontology
 edit_format: obo
 release_diff: TRUE
 use_dosdps: TRUE
+dosdp_tools_options: "--obo-prefixes=true --prefixes=config/prefixes.yaml"
+remove_owl_nothing: TRUE
 use_templates: TRUE
 import_component_format: ofn
 export_formats:
@@ -39,6 +41,7 @@ import_group:
     - <http://swrl.stanford.edu/ontologies/*>
     - <http://identifiers.org/hgnc/*>
     - <http://www.genenames.org/cgi-bin/gene_symbol_report*>
+    - <http://www.ncbi.nlm.nih.gov/gene/*>
   products:
     - id: ro
       use_base: True
@@ -70,7 +73,7 @@ import_group:
     - id: uberon
       make_base: True
     - id: cl
-      use_base: True
+      make_base: True
     - id: nbo
       use_base: True
     - id: pr
@@ -82,6 +85,10 @@ import_group:
       make_base: TRUE
     - id: bfo
       make_base: TRUE
+    - id: swisslipids
+      mirror_type: custom
+    - id: lipidmaps
+      mirror_type: custom
 components:
   products:
     - filename: obsoletes.owl

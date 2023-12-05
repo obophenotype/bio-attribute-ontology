@@ -74,6 +74,8 @@ Use the [github web interface](https://docs.github.com/repositories/releasing-pr
 
 NOTE: some of these large files are not under GitHub version control, but they all need to be included in the release as binary files. 
 
+- [ ] Create a pull request and get another pair of eyes to review it.
+- [ ] Merge your `release-202X-XX-XX` branch into the master branch once approved by a reviewer and all the automatic quality control checks passed.
 - [ ] Navigate to the ['Releases' page of OBA](https://github.com/obophenotype/bio-attribute-ontology/releases)
 - [ ] Click `Draft a new release`.
 Click `Chose a tag`, and create a new tag based on the date on which your ontologies were build. You can find this, for example, by looking into the oba.obo file and checking the `data-version:` property. The date needs to be prefixed with a `v`, so, for example `v2022-10-17`.

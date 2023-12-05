@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/oba/components/synonyms.owl>
-<http://purl.obolibrary.org/obo/oba/releases/2022-12-21/components/synonyms.owl>
-Annotation(owl:versionInfo "2022-12-21"^^xsd:string)
+<http://purl.obolibrary.org/obo/oba/releases/2023-10-10/components/synonyms.owl>
+Annotation(owl:versionInfo "2023-10-10")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0002546>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0002565>))
@@ -51,155 +51,155 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_0002546> <https://orcid.org/0000-0001-8415-4848>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_0002546> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/OBA_0002546> "viscerocranium size"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/OBA_0002546> "viscerocranium size")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0002565> (<http://purl.obolibrary.org/obo/OBA_0002565>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_0002565> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002565> "metatarsal bone of digit 3 greatest length (GL)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002565> "metatarsal bone of digit 3 maximal length (M1)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002565> "metatarsal bone of digit 3 greatest length (GL)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002565> "metatarsal bone of digit 3 maximal length (M1)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0002567> (<http://purl.obolibrary.org/obo/OBA_0002567>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_0002567> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002567> "metatarsal bone of digit 4 greatest length (GL)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002567> "metatarsal bone of digit 4 maximal length (M1)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002567> "metatarsal bone of digit 4 greatest length (GL)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002567> "metatarsal bone of digit 4 maximal length (M1)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0002569> (<http://purl.obolibrary.org/obo/OBA_0002569>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_0002569> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002569> "metatarsal bone of digit 5 greatest length (GL)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002569> "metatarsal bone of digit 5 maximal length (M1)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002569> "metatarsal bone of digit 5 greatest length (GL)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002569> "metatarsal bone of digit 5 maximal length (M1)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0002676> (<http://purl.obolibrary.org/obo/OBA_0002676>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_0002676> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002676> "metacarpal bone of digit 2 greatest length (GL)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002676> "metacarpal bone of digit 2 maximal length (M1)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002676> "metacarpal bone of digit 2 greatest length (GL)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0002676> "metacarpal bone of digit 2 maximal length (M1)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0003043> (<http://purl.obolibrary.org/obo/OBA_0003043>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_0003043> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003043> "metacarpal bone of digit 1 greatest length (GL)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003043> "metacarpal bone of digit 1 maximal length (M1)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003043> "metacarpal bone of digit 1 greatest length (GL)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003043> "metacarpal bone of digit 1 maximal length (M1)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0003044> (<http://purl.obolibrary.org/obo/OBA_0003044>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_0003044> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003044> "metacarpal bone of digit 3 greatest length (GL)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003044> "metacarpal bone of digit 3 maximal length (M1)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003044> "metacarpal bone of digit 3 greatest length (GL)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003044> "metacarpal bone of digit 3 maximal length (M1)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0003045> (<http://purl.obolibrary.org/obo/OBA_0003045>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_0003045> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003045> "metacarpal bone of digit 4 greatest length (GL)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003045> "metacarpal bone of digit 4 maximal length (M1)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003045> "metacarpal bone of digit 4 greatest length (GL)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003045> "metacarpal bone of digit 4 maximal length (M1)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0003046> (<http://purl.obolibrary.org/obo/OBA_0003046>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_0003046> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003046> "metacarpal bone of digit 5 greatest length (GL)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003046> "metacarpal bone of digit 5 maximal length (M1)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003046> "metacarpal bone of digit 5 greatest length (GL)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003046> "metacarpal bone of digit 5 maximal length (M1)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0003066> (<http://purl.obolibrary.org/obo/OBA_0003066>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_0003066> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003066> "metatarsal bone of digit 1 greatest length (GL)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003066> "metatarsal bone of digit 1 maximal length (M1)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003066> "metatarsal bone of digit 1 greatest length (GL)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003066> "metatarsal bone of digit 1 maximal length (M1)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0003272> (<http://purl.obolibrary.org/obo/OBA_0003272>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_0003272> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003272> "metatarsal bone of digit 2 greatest length (GL)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003272> "metatarsal bone of digit 2 maximal length (M1)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003272> "metatarsal bone of digit 2 greatest length (GL)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0003272> "metatarsal bone of digit 2 maximal length (M1)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0003426> (<http://purl.obolibrary.org/obo/OBA_0003426>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_0003426> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/OBA_0003426> "ear length"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/OBA_0003426> "ear length")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000049> (<http://purl.obolibrary.org/obo/OBA_1000049>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_1000049> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_1000049> "hindfoot length"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_1000049> "hindfoot length")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000450> (<http://purl.obolibrary.org/obo/OBA_1000450>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_1000450> <https://orcid.org/0000-0001-8415-4848>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_1000450> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/OBA_1000450> "viscerocranium quality"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/OBA_1000450> "viscerocranium quality")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0000446> (<http://purl.obolibrary.org/obo/OBA_VT0000446>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT0000446> <https://orcid.org/0000-0001-8415-4848>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT0000446> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0000446> "muzzle length"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0000446> "muzzle length")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0000482> (<http://purl.obolibrary.org/obo/OBA_VT0000482>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT0000482> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0000482> "fibula greatest length (GL)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0000482> "fibula greatest length (GL)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0004340> (<http://purl.obolibrary.org/obo/OBA_VT0004340>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT0004340> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004340> "scapula diagonal height(DHA)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004340> "scapula maximal length (M1)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004340> "scapula diagonal height(DHA)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004340> "scapula maximal length (M1)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0004355> (<http://purl.obolibrary.org/obo/OBA_VT0004355>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT0004355> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004355> "radius greatest length (GL)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004355> "radius maximal length (M1)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004355> "radius greatest length (GL)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004355> "radius maximal length (M1)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0004357> (<http://purl.obolibrary.org/obo/OBA_VT0004357>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT0004357> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004357> "tibia greatest length (GL)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004357> "tibia maximal length (M1)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004357> "tibia greatest length (GL)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004357> "tibia maximal length (M1)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0004370> (<http://purl.obolibrary.org/obo/OBA_VT0004370>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT0004370> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004370> "ulna greatest length (GL)"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004370> "ulna maximal length (M1)"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004370> "ulna greatest length (GL)")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004370> "ulna maximal length (M1)")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0005109> (<http://purl.obolibrary.org/obo/OBA_VT0005109>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT0005109> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0005109> "astragalus morphology trait"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0005109> "astragalus morphology trait")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0005110> (<http://purl.obolibrary.org/obo/OBA_VT0005110>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT0005110> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0005110> "astragalus size trait"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0005110> "astragalus size trait")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0005274> (<http://purl.obolibrary.org/obo/OBA_VT0005274>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT0005274> <https://orcid.org/0000-0001-8415-4848>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT0005274> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/OBA_VT0005274> "viscerocranium morphology trait"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/OBA_VT0005274> "viscerocranium morphology trait")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT1000062> (<http://purl.obolibrary.org/obo/OBA_VT1000062>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT1000062> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT1000062> "chest girth"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT1000062> "girth of chest"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT1000062> "chest girth")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT1000062> "girth of chest")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT1000280> (<http://purl.obolibrary.org/obo/OBA_VT1000280>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT1000280> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT1000280> "humerus breadth"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT1000280> "humerus breadth")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT1000289> (<http://purl.obolibrary.org/obo/OBA_VT1000289>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT1000289> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT1000289> "tibia breadth"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT1000289> "tibia breadth")
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT1000666> (<http://purl.obolibrary.org/obo/OBA_VT1000666>)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_VT1000666> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT1000666> "femur breadth"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT1000666> "femur breadth")
 
 
 )
