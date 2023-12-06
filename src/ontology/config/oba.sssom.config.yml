@@ -1,0 +1,8 @@
+curie_map:
+  HP: http://purl.obolibrary.org/obo/HP_
+  OBA: http://purl.obolibrary.org/obo/OBA_
+  OPL: http://purl.obolibrary.org/obo/OPL_
+subject_source: http://purl.obolibrary.org/obo/mondo.owl
+license: "https://creativecommons.org/publicdomain/zero/1.0/"
+mapping_date: "2023-01-20"
+mapping_set_id: "http://purl.obolibrary.org/obo/oba/mappings/oba-hp.sssom.tsv"

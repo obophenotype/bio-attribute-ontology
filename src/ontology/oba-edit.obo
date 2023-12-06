@@ -1,17 +1,8 @@
 format-version: 1.2
 default-namespace: oba
 import: http://purl.obolibrary.org/obo/oba/components/obsoletes.owl
-import: http://purl.obolibrary.org/obo/oba/imports/chebi_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/cl_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/go_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/hp_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/mondo_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/nbo_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/pato_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/po_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/pr_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/so_import.owl
-import: http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl
+import: http://purl.obolibrary.org/obo/oba/components/synonyms.owl
+import: http://purl.obolibrary.org/obo/oba/imports/merged_import.owl
 import: http://purl.obolibrary.org/obo/oba/patterns/definitions.owl
 ontology: oba
 property_value: http://purl.org/dc/elements/1.1/description "A collection of biological attributes (traits) covering all kingdoms of life. Interoperable with VT (vertebrate trait ontology) and TO (plant trait ontology). Extends PATO." xsd:string
@@ -369,6 +360,40 @@ name: cholesterol esterification rate
 comment: cholesterol esterification (GO_0034435) was obsoleted in GO without replacement
 is_a: OBA:0000001 ! biological attribute
 is_a: PATO:0000161 ! rate
+
+[Term]
+id: OBA:0003476
+name: necrotic cell death amount
+def: "The amount of a necrotic cell death." []
+synonym: "amount of necrotic cell death" EXACT []
+is_a: OBA:0100002 ! biological process attribute
+property_value: http://purl.org/dc/elements/1.1/date "2023-06-16T20:21:00Z" xsd:dateTime
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-8314-2140
+
+[Term]
+id: OBA:0003744
+name: regulation of water loss via skin rate
+comment: regulation of water loss via skin (GO_0033561) was obsoleted
+is_a: OBA:0000001 ! biological attribute
+is_a: PATO:0000161 ! rate
+
+[Term]
+id: OBA:0003870
+name: aging onset quality
+def: "The onset quality of aging." []
+is_a: OBA:0000001 ! biological attribute
+is_a: PATO:0002325 ! onset quality
+property_value: http://purl.org/dc/elements/1.1/date "2023-04-28T16:10:08Z" xsd:dateTime
+property_value: http://www.geneontology.org/formats/oboInOwl#http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-8314-2140
+
+[Term]
+id: OBA:0005494
+name: aging rate
+def: "The rate of the aging process." []
+is_a: OBA:0000001 ! biological attribute
+is_a: PATO:0000161 ! rate
+property_value: http://purl.org/dc/elements/1.1/date "2023-04-28T16:14:19Z" xsd:dateTime
+property_value: http://www.geneontology.org/formats/oboInOwl#http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-8314-2140
 
 [Term]
 id: OBA:0100001 ! cellular component attribute
@@ -1277,6 +1302,14 @@ created_by: cjmungall
 creation_date: 2015-09-29T15:36:19Z
 
 [Term]
+id: OBA:1000373
+name: neurotransmitter metabolic process quality
+def: "The quality of a neurotransmitter metabolic process." []
+synonym: "quality of neurotransmitter metabolic process" EXACT []
+is_a: OBA:0100002 ! biological process attribute
+created_by: https://orcid.org/0000-0001-8314-2140
+
+[Term]
 id: OBA:1001086
 name: QRS duration
 comment: See also EFO_0005054
@@ -1289,7 +1322,7 @@ name: obsolete race
 is_obsolete: true
 
 [Term]
-id: OBA:2020000 ! age of onset of disease or disorder
+id: OBA:2020000 ! age of onset of disease
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -1301,10 +1334,32 @@ id: OBA:2020002 ! plant structure trait
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
+id: OBA:2020003 ! chemical in blood amount
+is_a: OBA:0000001 ! biological attribute
+
+[Term]
+id: OBA:2020004 ! chemical in serum amount
+is_a: OBA:0000001 ! biological attribute
+
+[Term]
+id: OBA:2060008 ! response to novel environment rate
+is_a: OBA:0000001 ! biological attribute
+
+[Term]
+id: OBA:2060014 ! hippocampus stratum oriens thickness
+is_a: OBA:0000001 ! biological attribute
+
+[Term]
 id: OBA:VT0000121
 name: cardiovascular system development trait
 comment: cardiovascular system development (GO_0072358) was obsoleted
 is_a: OBA:VT0100015 ! circulatory system development trait
+
+[Term]
+id: OBA:VT0002796
+name: skin barrier function attribute
+comment: regulation of water loss via skin (GO_0033561) was obsoleted
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:VT0003308
@@ -1328,6 +1383,18 @@ is_a: OBA:0000001 ! biological attribute
 is_a: PATO:0000070 ! amount
 
 [Typedef]
-id: http://purl.org/dc/elements/1.1/contributor ! contributor
+id: OBA:2050187
+name: measured in taxon
+def: "A property that relates a trait/biological attribute to a taxon to express that the trait is usually measured for that taxon." []
+is_metadata_tag: true
+
+[Typedef]
+id: OBA:2050188
+name: not measured in taxon
+def: "A property that relates a trait/biological attribute to a taxon to express that the trait is not usually measured for that taxon." []
+is_metadata_tag: true
+
+[Typedef]
+id: http://purl.org/dc/elements/1.1/contributor
 is_metadata_tag: true
 

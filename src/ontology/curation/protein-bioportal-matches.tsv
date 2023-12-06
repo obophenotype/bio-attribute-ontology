@@ -1,0 +1,855 @@
+predicate_id	object_id	object_label	object_source	confidence	match_string	is_longest_match	matches_whole_text	match_type	info	object_aliases	subject_start	subject_end	subject_label	subject_source	subject_text_id
+None	PR:000001004	CD4 molecule	https://data.bioontology.org/ontologies/NIFDYS	None	None	None	True	SYN	None		1	31	T-CELL SURFACE GLYCOPROTEIN CD4	None	None
+None	https://identifiers.org/ncbigene/100385000	CD4 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	T-CELL SURFACE GLYCOPROTEIN CD4	None	None
+None	http://purl.obolibrary.org/obo/dinto_1550	t-cell surface glycoprotein cd4	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	31	T-CELL SURFACE GLYCOPROTEIN CD4	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000023274	Cd4 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	T-CELL SURFACE GLYCOPROTEIN CD4	None	None
+None	https://identifiers.org/ncbigene/920	CD4 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	T-CELL SURFACE GLYCOPROTEIN CD4	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16300	T-Cell Surface Glycoprotein CD4	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	31	T-CELL SURFACE GLYCOPROTEIN CD4	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000029710	Ephb4 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-B RECEPTOR 4	None	None
+None	PR:000007132	ephrin type-B receptor 4	https://data.bioontology.org/ontologies/INBANCIDO	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-B RECEPTOR 4	None	None
+None	DTO:03100137	Ephrin type-b receptor 4	https://data.bioontology.org/ontologies/DTO	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-B RECEPTOR 4	None	None
+None	https://identifiers.org/ncbigene/2050	EPHB4 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-B RECEPTOR 4	None	None
+None	https://identifiers.org/ncbigene/100393954	EPHB4 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-B RECEPTOR 4	None	None
+None	http://purl.obolibrary.org/obo/dinto_2411	ephrin type-b receptor 4	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-B RECEPTOR 4	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113832	Ephrin Type-B Receptor 4	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-B RECEPTOR 4	None	None
+None	https://identifiers.org/ncbigene/100415050	CD274 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 1	None	None
+None	SNOMEDCT:1229843000	Programmed cell death 1 ligand 1	https://data.bioontology.org/ontologies/SNOMEDCT	None	None	None	True	PREF	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 1	None	None
+None	http://id.nlm.nih.gov/mesh/D060890	B7-H1 Antigen	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C154807	Programmed Death Ligand 1 Measurement	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	SYN	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 1	None	None
+None	PR:000001543	programmed cell death 1 ligand 1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 1	None	None
+None	NCIT:C96024	Programmed Cell Death 1 Ligand 1	https://data.bioontology.org/ontologies/BERO	None	None	None	True	PREF	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 1	None	None
+None	https://identifiers.org/ncbigene/29126	CD274 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C96024	Programmed Cell Death 1 Ligand 1	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000016496	Cd274 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 1	None	None
+None	http://www.orpha.net/ORDO/Orphanet_121821	fibrinogen gamma chain	https://data.bioontology.org/ontologies/ORDO	None	None	None	True	PREF	None		1	22	FIBRINOGEN GAMMA CHAIN	None	None
+None	http://identifiers.org/hgnc/3694	FGG	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	22	FIBRINOGEN GAMMA CHAIN	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000033860	Fgg (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	22	FIBRINOGEN GAMMA CHAIN	None	None
+None	http://www.limics.org/hrdo/rdfns#gen_id_16048	Fibrinogen gamma chain	https://data.bioontology.org/ontologies/HRDO	None	None	None	True	PREF	None		1	22	FIBRINOGEN GAMMA CHAIN	None	None
+None	PR:000007507	fibrinogen gamma chain	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	22	FIBRINOGEN GAMMA CHAIN	None	None
+None	https://identifiers.org/ncbigene/2266	FGG (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	22	FIBRINOGEN GAMMA CHAIN	None	None
+None	http://purl.obolibrary.org/obo/dinto_3104	fibrinogen gamma chain	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	22	FIBRINOGEN GAMMA CHAIN	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:02458	fibrinogen gamma chain	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	22	FIBRINOGEN GAMMA CHAIN	None	None
+None	https://identifiers.org/ncbigene/100402436	FGG (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	22	FIBRINOGEN GAMMA CHAIN	None	None
+None	GO:0005577	fibrinogen complex	https://data.bioontology.org/ontologies/NIFDYS	None	None	None	True	SYN	None		1	22	FIBRINOGEN GAMMA CHAIN	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01314	left chest pain	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	22	FIBRINOGEN GAMMA CHAIN	None	None
+None	PR:000009976	tumor necrosis factor receptor superfamily member 3	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 3	None	None
+None	https://identifiers.org/ncbigene/100401524	LTBR (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 3	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C116042	Tumor Necrosis Factor Receptor Superfamily Member 3	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 3	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000030339	Ltbr (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 3	None	None
+None	https://identifiers.org/ncbigene/4055	LTBR (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 3	None	None
+None	http://purl.obolibrary.org/obo/dinto_2036	tumor necrosis factor ligand superfamily member 13b	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	51	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 13B	None	None
+None	https://identifiers.org/ncbigene/10673	TNFSF13B (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 13B	None	None
+None	https://identifiers.org/ncbigene/100399491	TNFSF13B (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 13B	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94789	Tumor Necrosis Factor Ligand Superfamily Member 13B	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	51	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 13B	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01822	tumor necrosis factor ligand superfamily member 13B	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	51	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 13B	None	None
+None	http://id.nlm.nih.gov/mesh/D053264	B-Cell Activating Factor	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 13B	None	None
+None	CYTO:32	IL4	https://data.bioontology.org/ontologies/CYTO	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 13B	None	None
+None	PR:000001948	tumor necrosis factor ligand superfamily member 13B	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	51	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 13B	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000031497	Tnfsf13b (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 13B	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:02946	transient ischemic attack	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	51	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 13B	None	None
+None	http://identifiers.org/hgnc/16950	STAMBP	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	20	STAM BINDING PROTEIN	None	None
+None	http://www.orpha.net/ORDO/Orphanet_353369	STAM binding protein	https://data.bioontology.org/ontologies/ORDO	None	None	None	True	PREF	None		1	20	STAM BINDING PROTEIN	None	None
+None	http://identifiers.org/uniprot/Q80WM9	Q80WM9_MOUSE	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 14	None	None
+None	PR:000016481	tumor necrosis factor receptor superfamily member 14	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 14	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000042333	Tnfrsf14 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 14	None	None
+None	https://identifiers.org/ncbigene/100403077	TNFRSF14 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 14	None	None
+None	https://identifiers.org/ncbigene/103794219	LOC103794219 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 14	None	None
+None	https://identifiers.org/ncbigene/8764	TNFRSF14 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 14	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97845	Tumor Necrosis Factor Receptor Superfamily Member 14	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 14	None	None
+None	http://id.nlm.nih.gov/mesh/D020051	Arylsulfatase B1	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	15	ARYLSULFATASE B	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000042082	Arsb (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	15	ARYLSULFATASE B	None	None
+None	SNOMEDCT:48494006	N-acetylgalactosamine-4-sulfatase	https://data.bioontology.org/ontologies/SNOMEDCT	None	None	None	True	SYN	None		1	15	ARYLSULFATASE B	None	None
+None	http://purl.bioontology.org/ontology/OMIM/611542	ARYLSULFATASE B	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	15	ARYLSULFATASE B	None	None
+None	https://identifiers.org/ncbigene/411	ARSB (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	15	ARYLSULFATASE B	None	None
+None	GO:0003943	N-acetylgalactosamine-4-sulfatase activity	https://data.bioontology.org/ontologies/PHAGE	None	None	None	True	SYN	None		1	15	ARYLSULFATASE B	None	None
+None	http://www.limics.org/hrdo/rdfns#gen_id_15952	Arylsulfatase B	https://data.bioontology.org/ontologies/HRDO	None	None	None	True	PREF	None		1	15	ARYLSULFATASE B	None	None
+None	SNMI:F-6A5A0	N-Acetylgalactosamine-4-sulfatase	https://data.bioontology.org/ontologies/SNMI	None	None	None	True	SYN	None		1	15	ARYLSULFATASE B	None	None
+None	http://purl.org/skeletome/bonedysplasia#P000015	Arylsulfatase B	https://data.bioontology.org/ontologies/BDO	None	None	None	True	PREF	None		1	15	ARYLSULFATASE B	None	None
+None	https://identifiers.org/ncbigene/100394090	ARSB (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	15	ARYLSULFATASE B	None	None
+None	http://www.orpha.net/ORDO/Orphanet_121429	arylsulfatase B	https://data.bioontology.org/ontologies/ORDO	None	None	None	True	PREF	None		1	15	ARYLSULFATASE B	None	None
+None	http://identifiers.org/hgnc/714	ARSB	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	15	ARYLSULFATASE B	None	None
+None	PR:000004322	arylsulfatase B	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	15	ARYLSULFATASE B	None	None
+None	http://purl.bioontology.org/ontology/HOIP/HOIP_0041220	vascular cell adhesion protein 1	https://data.bioontology.org/ontologies/HOIP	None	None	None	True	PREF	None		1	32	VASCULAR CELL ADHESION PROTEIN 1	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:03017	limb lead	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	32	VASCULAR CELL ADHESION PROTEIN 1	None	None
+None	BAO:0030007	Vascular cell adhesion protein 1	https://data.bioontology.org/ontologies/BAO	None	None	None	True	PREF	None		1	32	VASCULAR CELL ADHESION PROTEIN 1	None	None
+None	PR:000001970	vascular cell adhesion protein 1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	32	VASCULAR CELL ADHESION PROTEIN 1	None	None
+None	http://www.ncbi.nlm.nih.gov/gene/22329	vascular cell adhesion molecule 1	https://data.bioontology.org/ontologies/NIFSTD	None	None	None	True	SYN	None		1	32	VASCULAR CELL ADHESION PROTEIN 1	None	None
+None	https://identifiers.org/ncbigene/7412	VCAM1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	VASCULAR CELL ADHESION PROTEIN 1	None	None
+None	http://purl.obolibrary.org/obo/dinto_4193	vascular cell adhesion protein 1	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	32	VASCULAR CELL ADHESION PROTEIN 1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48214	Vascular Cell Adhesion Protein 1	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	32	VASCULAR CELL ADHESION PROTEIN 1	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01835	vascular cell adhesion protein 1	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	32	VASCULAR CELL ADHESION PROTEIN 1	None	None
+None	https://identifiers.org/ncbigene/100385357	VCAM1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	VASCULAR CELL ADHESION PROTEIN 1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000027962	Vcam1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	VASCULAR CELL ADHESION PROTEIN 1	None	None
+None	https://identifiers.org/ncbigene/100388927	TNFRSF13C (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 13C	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C111797	Tumor Necrosis Factor Receptor Superfamily Member 13C	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 13C	None	None
+None	https://identifiers.org/ncbigene/115650	TNFRSF13C (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 13C	None	None
+None	PR:000001957	tumor necrosis factor receptor superfamily member 13C	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 13C	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000068105	Tnfrsf13c (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 13C	None	None
+None	http://id.nlm.nih.gov/mesh/D053330	4-1BB Ligand	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 9	None	None
+None	https://identifiers.org/ncbigene/8744	TNFSF9 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 9	None	None
+None	CYTO:173	TNFSF9	https://data.bioontology.org/ontologies/CYTO	None	None	None	True	PREF	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 9	None	None
+None	http://purl.obolibrary.org/obo/MESH_D053330	4-1BB Ligand	https://data.bioontology.org/ontologies/BERO	None	None	None	True	SYN	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 9	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000035678	Tnfsf9 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 9	None	None
+None	PR:000016489	tumor necrosis factor ligand superfamily member 9	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 9	None	None
+None	https://identifiers.org/ncbigene/100386159	TNFSF9 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 9	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C133793	Tumor Necrosis Factor Ligand Superfamily Member 9	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 9	None	None
+None	https://identifiers.org/ncbigene/100408345	CHL1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	45	NEURAL CELL ADHESION MOLECULE L1-LIKE PROTEIN	None	None
+None	https://identifiers.org/ncbigene/10752	CHL1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	45	NEURAL CELL ADHESION MOLECULE L1-LIKE PROTEIN	None	None
+None	PR:000005429	neural cell adhesion molecule L1-like protein	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	45	NEURAL CELL ADHESION MOLECULE L1-LIKE PROTEIN	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000030077	Chl1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	45	NEURAL CELL ADHESION MOLECULE L1-LIKE PROTEIN	None	None
+None	PR:000012799	phospholipase A2, membrane associated	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	37	PHOSPHOLIPASE A2, MEMBRANE ASSOCIATED	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C34063	Phospholipase A2, Membrane Associated	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	37	PHOSPHOLIPASE A2, MEMBRANE ASSOCIATED	None	None
+None	http://purl.obolibrary.org/obo/dinto_0212	phospholipase a2, membrane associated	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	37	PHOSPHOLIPASE A2, MEMBRANE ASSOCIATED	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:02299	post infarct cardiac rupture	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	37	PHOSPHOLIPASE A2, MEMBRANE ASSOCIATED	None	None
+None	https://identifiers.org/ncbigene/100395844	PLA2G2A (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	37	PHOSPHOLIPASE A2, MEMBRANE ASSOCIATED	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01725	phospholipase A2, membrane associated	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	37	PHOSPHOLIPASE A2, MEMBRANE ASSOCIATED	None	None
+None	https://identifiers.org/ncbigene/5320	PLA2G2A (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	37	PHOSPHOLIPASE A2, MEMBRANE ASSOCIATED	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C186683	Cell Surface Glycoprotein CD200 Receptor 1	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	42	CELL SURFACE GLYCOPROTEIN CD200 RECEPTOR 1	None	None
+None	NCIT:C186683	Cell Surface Glycoprotein CD200 Receptor 1	https://data.bioontology.org/ontologies/BERO	None	None	None	True	PREF	None		1	42	CELL SURFACE GLYCOPROTEIN CD200 RECEPTOR 1	None	None
+None	https://identifiers.org/ncbigene/100388763	CD200R1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	42	CELL SURFACE GLYCOPROTEIN CD200 RECEPTOR 1	None	None
+None	https://identifiers.org/ncbigene/131450	CD200R1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	42	CELL SURFACE GLYCOPROTEIN CD200 RECEPTOR 1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000022667	Cd200r1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	42	CELL SURFACE GLYCOPROTEIN CD200 RECEPTOR 1	None	None
+None	PR:000005161	cell surface glycoprotein CD200 receptor 1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	42	CELL SURFACE GLYCOPROTEIN CD200 RECEPTOR 1	None	None
+None	PR:000007190	endoplasmic reticulum resident protein 29	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	41	ENDOPLASMIC RETICULUM RESIDENT PROTEIN 29	None	None
+None	https://identifiers.org/ncbigene/10961	ERP29 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	ENDOPLASMIC RETICULUM RESIDENT PROTEIN 29	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000029616	Erp29 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	ENDOPLASMIC RETICULUM RESIDENT PROTEIN 29	None	None
+None	https://identifiers.org/ncbigene/100413102	ERP29 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	ENDOPLASMIC RETICULUM RESIDENT PROTEIN 29	None	None
+None	http://www.ncbi.nlm.nih.gov/gene/67397	endoplasmic reticulum protein 29	https://data.bioontology.org/ontologies/NIFSTD	None	None	None	True	SYN	None		1	41	ENDOPLASMIC RETICULUM RESIDENT PROTEIN 29	None	None
+None	PR:000014867	sialic acid-binding Ig-like lectin 14	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	37	SIALIC ACID-BINDING IG-LIKE LECTIN 14	None	None
+None	https://identifiers.org/ncbigene/100049587	SIGLEC14 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	37	SIALIC ACID-BINDING IG-LIKE LECTIN 14	None	None
+None	https://identifiers.org/ncbigene/103790034	LOC103790034 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	37	SIALIC ACID-BINDING IG-LIKE LECTIN 14	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000028965	Tnfrsf9 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 9	None	None
+None	PR:000001965	tumor necrosis factor receptor superfamily member 9	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 9	None	None
+None	https://identifiers.org/ncbigene/3604	TNFRSF9 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 9	None	None
+None	https://identifiers.org/ncbigene/100412493	TNFRSF9 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 9	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105113	Tumor Necrosis Factor Receptor Superfamily Member 9	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 9	None	None
+None	PR:000001929	sialic acid-binding Ig-like lectin 7	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	36	SIALIC ACID-BINDING IG-LIKE LECTIN 7	None	None
+None	http://purl.obolibrary.org/obo/dinto_0195	sialic acid-binding ig-like lectin 7	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	36	SIALIC ACID-BINDING IG-LIKE LECTIN 7	None	None
+None	https://identifiers.org/ncbigene/27036	SIGLEC7 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	36	SIALIC ACID-BINDING IG-LIKE LECTIN 7	None	None
+None	https://identifiers.org/ncbigene/100396675	EPHA10 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	25	EPHRIN TYPE-A RECEPTOR 10	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000028876	Epha10 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	25	EPHRIN TYPE-A RECEPTOR 10	None	None
+None	PR:000007121	ephrin type-A receptor 10	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	25	EPHRIN TYPE-A RECEPTOR 10	None	None
+None	https://identifiers.org/ncbigene/284656	EPHA10 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	25	EPHRIN TYPE-A RECEPTOR 10	None	None
+None	DTO:03100133	Ephrin type-a receptor 10	https://data.bioontology.org/ontologies/DTO	None	None	None	True	PREF	None		1	25	EPHRIN TYPE-A RECEPTOR 10	None	None
+None	https://identifiers.org/ncbigene/100895630	PSMA6 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-6	None	None
+None	http://purl.obolibrary.org/obo/dinto_2571	proteasome subunit alpha type-6	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-6	None	None
+None	PR:000013365	proteasome subunit alpha type-6	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-6	None	None
+None	http://www.ncbi.nlm.nih.gov/gene/26443	proteasome subunit alpha 6	https://data.bioontology.org/ontologies/NIFSTD	None	None	None	True	SYN	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-6	None	None
+None	https://identifiers.org/ncbigene/5687	PSMA6 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-6	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000021024	Psma6 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-6	None	None
+None	http://www.limics.org/hrdo/rdfns#gen_id_15907	Extracellular matrix protein 1	https://data.bioontology.org/ontologies/HRDO	None	None	None	True	PREF	None		1	30	EXTRACELLULAR MATRIX PROTEIN 1	None	None
+None	PR:000006879	extracellular matrix protein 1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	30	EXTRACELLULAR MATRIX PROTEIN 1	None	None
+None	http://www.orpha.net/ORDO/Orphanet_121261	extracellular matrix protein 1	https://data.bioontology.org/ontologies/ORDO	None	None	None	True	PREF	None		1	30	EXTRACELLULAR MATRIX PROTEIN 1	None	None
+None	http://purl.bioontology.org/ontology/OMIM/602201	EXTRACELLULAR MATRIX PROTEIN 1	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	30	EXTRACELLULAR MATRIX PROTEIN 1	None	None
+None	http://identifiers.org/hgnc/3153	ECM1	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	30	EXTRACELLULAR MATRIX PROTEIN 1	None	None
+None	https://identifiers.org/ncbigene/100405570	ECM1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	30	EXTRACELLULAR MATRIX PROTEIN 1	None	None
+None	https://identifiers.org/ncbigene/1893	ECM1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	30	EXTRACELLULAR MATRIX PROTEIN 1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000028108	Ecm1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	30	EXTRACELLULAR MATRIX PROTEIN 1	None	None
+None	http://purl.bioontology.org/ontology/NDFRT/N0000179812	FIBRINOGEN	https://data.bioontology.org/ontologies/NDFRT	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25736	Fibrinogen	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	GALEN:Fibrinogen	Fibrinogen	https://data.bioontology.org/ontologies/GALEN	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	http://www.semanticweb.org/ontologies/STO.owl#da3dd52_3d33_49fd_bfef_141635801b77	Fibrinogen	https://data.bioontology.org/ontologies/CVAO	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	http://purl.bioontology.org/ontology/MEDDRA/10016595	Fibrinogen	https://data.bioontology.org/ontologies/MEDDRA	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	NDDF:002066	fibrinogen	https://data.bioontology.org/ontologies/NDDF	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	http://purl.bioontology.org/ontology/RXNORM/4385	fibrinogen	https://data.bioontology.org/ontologies/RXNORM	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	SNOMEDCT:23295004	Coagulation factor I	https://data.bioontology.org/ontologies/SNOMEDCT	None	None	None	True	SYN	None		1	10	FIBRINOGEN	None	None
+None	VANDF:4028926	FIBRINOGEN	https://data.bioontology.org/ontologies/VANDF	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	OMIT:0006551	Fibrinogen	https://data.bioontology.org/ontologies/OMIT	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01456	fibrinogen	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	http://www.phoc.org.cn/pmo/class/PMO_00021941	Fibrinogen	https://data.bioontology.org/ontologies/PMAPP-PMO	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	LOINC:LP14704-8	Fibrinogen	https://data.bioontology.org/ontologies/LOINC	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	RH-MESH:D12.776.811.300	Fibrinogen	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	SNMI:F-D7010	Coagulation factor I	https://data.bioontology.org/ontologies/SNMI	None	None	None	True	SYN	None		1	10	FIBRINOGEN	None	None
+None	RH-MESH:D12.776.124.125.500	Fibrinogen	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	CRISP:0437-4597	fibrinogen	https://data.bioontology.org/ontologies/CRISP	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	RCD:X80WC	Fibrinogen	https://data.bioontology.org/ontologies/RCD	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	DRON:00018213	Fibrinogen	https://data.bioontology.org/ontologies/DRON	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	http://sbmi.uth.tmc.edu/ontology/ochv#5017	fibrinogen	https://data.bioontology.org/ontologies/OCHV	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	LOINC:LP32052-0	Fibrinogen	https://data.bioontology.org/ontologies/LOINC	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	http://purl.bioontology.org/ontology/CPT/1011824	Fibrinogen	https://data.bioontology.org/ontologies/CPT	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	http://purl.obolibrary.org/obo/HINO_0006217	fibrinogen	https://data.bioontology.org/ontologies/HINO	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	ATC:B02BB	Fibrinogen containing hemostatics	https://data.bioontology.org/ontologies/ATC	None	None	None	True	SYN	None		1	10	FIBRINOGEN	None	None
+None	http://id.nlm.nih.gov/mesh/D005340	gamma-Fibrinogen	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	10	FIBRINOGEN	None	None
+None	RH-MESH:D005340	Fibrinogen	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01310	duration of chest pain	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	http://scai.fraunhofer.de/AlzheimerOntology#fibrinogen	fibrinogen	https://data.bioontology.org/ontologies/ADO	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	LOINC:MTHU007030	Fibrinogen	https://data.bioontology.org/ontologies/LOINC	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	PLOSTHES:6147	Fibrinogen	https://data.bioontology.org/ontologies/PLOSTHES	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C64606	Fibrinogen Measurement	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	SYN	None		1	10	FIBRINOGEN	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C55274	Fibrinogen, CTCAE	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	SYN	None		1	10	FIBRINOGEN	None	None
+None	http://purl.obolibrary.org/obo/HINO_0006223	Fibrinogen	https://data.bioontology.org/ontologies/HINO	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	http://www.semanticweb.org/bowenliu/ontologies/2020/4/untitled-ontology-8#fibrinogen	fibrinogen	https://data.bioontology.org/ontologies/BIFO	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	RH-MESH:D12.776.124.050.250	Fibrinogen	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	http://purl.obolibrary.org/obo/BE_Fibrinogen	Fibrinogen	https://data.bioontology.org/ontologies/BE	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	MESH:D005340	Fibrinogen	https://data.bioontology.org/ontologies/MESH	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	GO:0005577	fibrinogen complex	https://data.bioontology.org/ontologies/NIFDYS	None	None	None	True	SYN	None		1	10	FIBRINOGEN	None	None
+None	http://sbmi.uth.tmc.edu/ontology/ochv#30301	fibrinogen assay	https://data.bioontology.org/ontologies/OCHV	None	None	None	True	SYN	None		1	10	FIBRINOGEN	None	None
+None	http://sbmi.uth.tmc.edu/ontology/ochv#C0016006	fibrinogen	https://data.bioontology.org/ontologies/OCHV	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	https://go.drugbank.com/drugs/DB09222	Fibrinogen human	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	10	FIBRINOGEN	None	None
+None	RH-MESH:D23.119.490	Fibrinogen	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	10	FIBRINOGEN	None	None
+None	https://identifiers.org/ncbigene/100551509	TNFSF12 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 12	None	None
+None	CYTO:289	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 12	https://data.bioontology.org/ontologies/CYTO	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 12	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C117068	Tumor Necrosis Factor Ligand Superfamily Member 12	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 12	None	None
+None	https://identifiers.org/ncbigene/8742	TNFSF12 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 12	None	None
+None	PR:000016487	tumor necrosis factor ligand superfamily member 12	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 12	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01821	tumor necrosis factor ligand superfamily member 12	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 12	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:02945	cerebral infarction	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 12	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000097328	Tnfsf12 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 12	None	None
+None	http://id.nlm.nih.gov/mesh/D000074049	Cytokine TWEAK	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 12	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C150225	Ephrin Type-B Receptor 6	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-B RECEPTOR 6	None	None
+None	PR:000007133	ephrin type-B receptor 6	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-B RECEPTOR 6	None	None
+None	https://identifiers.org/ncbigene/2051	EPHB6 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-B RECEPTOR 6	None	None
+None	DTO:03100138	Ephrin type-b receptor 6	https://data.bioontology.org/ontologies/DTO	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-B RECEPTOR 6	None	None
+None	https://identifiers.org/ncbigene/100392949	EPHB6 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-B RECEPTOR 6	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000029869	Ephb6 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-B RECEPTOR 6	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01712	oxidized low-density lipoprotein receptor 1	https://data.bioontology.org/ontologies/MIO	None	None	None	True	SYN	None		1	35	LECTIN-LIKE OXIDIZED LDL RECEPTOR 1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000030162	Olr1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	35	LECTIN-LIKE OXIDIZED LDL RECEPTOR 1	None	None
+None	PR:000011634	oxidized low-density lipoprotein receptor 1	https://data.bioontology.org/ontologies/PR	None	None	None	True	SYN	None		1	35	LECTIN-LIKE OXIDIZED LDL RECEPTOR 1	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:02232	chronic total occlusion vessel	https://data.bioontology.org/ontologies/MIO	None	None	None	True	SYN	None		1	35	LECTIN-LIKE OXIDIZED LDL RECEPTOR 1	None	None
+None	PR:000013389	26S proteasome non-ATPase regulatory subunit 7	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	46	26S PROTEASOME NON-ATPASE REGULATORY SUBUNIT 7	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000039067	Psmd7 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	46	26S PROTEASOME NON-ATPASE REGULATORY SUBUNIT 7	None	None
+None	https://identifiers.org/ncbigene/100406192	PSMD7 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	46	26S PROTEASOME NON-ATPASE REGULATORY SUBUNIT 7	None	None
+None	https://identifiers.org/ncbigene/5713	PSMD7 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	46	26S PROTEASOME NON-ATPASE REGULATORY SUBUNIT 7	None	None
+None	PR:000014472	ribosome maturation protein SBDS	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	32	RIBOSOME MATURATION PROTEIN SBDS	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000025337	Sbds (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	RIBOSOME MATURATION PROTEIN SBDS	None	None
+None	https://identifiers.org/ncbigene/100387555	SBDS (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	RIBOSOME MATURATION PROTEIN SBDS	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97769	Ribosome Maturation Protein SBDS	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	32	RIBOSOME MATURATION PROTEIN SBDS	None	None
+None	https://identifiers.org/ncbigene/51119	SBDS (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	RIBOSOME MATURATION PROTEIN SBDS	None	None
+None	https://identifiers.org/ncbigene/100397594	SCARB2 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	27	LYSOSOME MEMBRANE PROTEIN 2	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000029426	Scarb2 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	27	LYSOSOME MEMBRANE PROTEIN 2	None	None
+None	http://www.orpha.net/ORDO/Orphanet_165923	scavenger receptor class B member 2	https://data.bioontology.org/ontologies/ORDO	None	None	None	True	SYN	None		1	27	LYSOSOME MEMBRANE PROTEIN 2	None	None
+None	PR:000014494	lysosome membrane protein 2	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	27	LYSOSOME MEMBRANE PROTEIN 2	None	None
+None	https://identifiers.org/ncbigene/950	SCARB2 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	27	LYSOSOME MEMBRANE PROTEIN 2	None	None
+None	https://identifiers.org/ncbigene/100397594	SCARB2 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	27	LYSOSOME MEMBRANE PROTEIN 2	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000029426	Scarb2 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	27	LYSOSOME MEMBRANE PROTEIN 2	None	None
+None	http://www.orpha.net/ORDO/Orphanet_165923	scavenger receptor class B member 2	https://data.bioontology.org/ontologies/ORDO	None	None	None	True	SYN	None		1	27	LYSOSOME MEMBRANE PROTEIN 2	None	None
+None	PR:000014494	lysosome membrane protein 2	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	27	LYSOSOME MEMBRANE PROTEIN 2	None	None
+None	https://identifiers.org/ncbigene/950	SCARB2 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	27	LYSOSOME MEMBRANE PROTEIN 2	None	None
+None	https://identifiers.org/ncbigene/7293	TNFRSF4 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 4	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94790	Tumor Necrosis Factor Receptor Superfamily Member 4	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 4	None	None
+None	https://identifiers.org/ncbigene/100408049	TNFRSF4 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 4	None	None
+None	PR:000001960	tumor necrosis factor receptor superfamily member 4	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 4	None	None
+None	https://identifiers.org/ncbigene/100393710	TNFRSF11A (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11A	None	None
+None	https://identifiers.org/ncbigene/8792	TNFRSF11A (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11A	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84994	Tumor Necrosis Factor Receptor Superfamily Member 11A	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11A	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000026321	Tnfrsf11a (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11A	None	None
+None	PR:000001954	tumor necrosis factor receptor superfamily member 11A	https://data.bioontology.org/ontologies/NIFDYS	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11A	None	None
+None	http://id.nlm.nih.gov/mesh/D053380	Tumor Necrosis Factor Ligand Superfamily Member 15	https://data.bioontology.org/ontologies/MDM	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	CYTO:176	TNFSF15	https://data.bioontology.org/ontologies/CYTO	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000050395	Tnfsf15 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	RH-MESH:D053380	Tumor Necrosis Factor Ligand Superfamily Member 15	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	OMIT:0025342	Tumor Necrosis Factor Ligand Superfamily Member 15	https://data.bioontology.org/ontologies/OMIT	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	PR:000002223	tumor necrosis factor ligand superfamily member 15	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	http://www.phoc.org.cn/pmo/class/PMO_00021613	Tumor Necrosis Factor Ligand Superfamily Member 15	https://data.bioontology.org/ontologies/PMAPP-PMO	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	https://identifiers.org/ncbigene/100412419	TNFSF15 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	RH-MESH:D12.644.276.374.750.720	Tumor Necrosis Factor Ligand Superfamily Member 15	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18289	Tumor Necrosis Factor Ligand Superfamily Member 15	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	RH-MESH:D12.776.467.374.750.710	Tumor Necrosis Factor Ligand Superfamily Member 15	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	RH-MESH:D12.776.467.972.720	Tumor Necrosis Factor Ligand Superfamily Member 15	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	RH-MESH:D23.529.972.720	Tumor Necrosis Factor Ligand Superfamily Member 15	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	RH-MESH:D12.644.276.972.720	Tumor Necrosis Factor Ligand Superfamily Member 15	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	MESH:D053380	Tumor Necrosis Factor Ligand Superfamily Member 15	https://data.bioontology.org/ontologies/MESH	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	RH-MESH:D23.529.374.750.710	Tumor Necrosis Factor Ligand Superfamily Member 15	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	https://identifiers.org/ncbigene/9966	TNFSF15 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 15	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000061080	Lsamp (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	LIMBIC SYSTEM-ASSOCIATED MEMBRANE PROTEIN	None	None
+None	PR:000009951	limbic system-associated membrane protein	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	41	LIMBIC SYSTEM-ASSOCIATED MEMBRANE PROTEIN	None	None
+None	MESH:C095362	limbic system-associated membrane protein	https://data.bioontology.org/ontologies/MESH	None	None	None	True	PREF	None		1	41	LIMBIC SYSTEM-ASSOCIATED MEMBRANE PROTEIN	None	None
+None	https://identifiers.org/ncbigene/100395034	LSAMP (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	LIMBIC SYSTEM-ASSOCIATED MEMBRANE PROTEIN	None	None
+None	https://identifiers.org/ncbigene/4045	LSAMP (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	LIMBIC SYSTEM-ASSOCIATED MEMBRANE PROTEIN	None	None
+None	RH-MESH:C095362	limbic system-associated membrane protein	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	41	LIMBIC SYSTEM-ASSOCIATED MEMBRANE PROTEIN	None	None
+None	http://purl.bioontology.org/ontology/OMIM/603241	LIMBIC SYSTEM-ASSOCIATED MEMBRANE PROTEIN	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	41	LIMBIC SYSTEM-ASSOCIATED MEMBRANE PROTEIN	None	None
+None	PR:000015591	spectrin alpha chain, non-erythrocytic 1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	40	SPECTRIN ALPHA CHAIN, NON-ERYTHROCYTIC 1	None	None
+None	https://identifiers.org/ncbigene/6709	SPTAN1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	40	SPECTRIN ALPHA CHAIN, NON-ERYTHROCYTIC 1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000057738	Sptan1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	40	SPECTRIN ALPHA CHAIN, NON-ERYTHROCYTIC 1	None	None
+None	https://identifiers.org/ncbigene/100408104	SPTAN1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	40	SPECTRIN ALPHA CHAIN, NON-ERYTHROCYTIC 1	None	None
+None	http://www.ncbi.nlm.nih.gov/gene/20740	spectrin alpha, non-erythrocytic 1	https://data.bioontology.org/ontologies/NIFSTD	None	None	None	True	SYN	None		1	40	SPECTRIN ALPHA CHAIN, NON-ERYTHROCYTIC 1	None	None
+None	http://sbmi.uth.tmc.edu/ontology/ochv#4854	factor ix	https://data.bioontology.org/ontologies/OCHV	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR IX	None	None
+None	SNOMEDCT:54378000	Coagulation factor IX	https://data.bioontology.org/ontologies/SNOMEDCT	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR IX	None	None
+None	http://purl.obolibrary.org/obo/dinto_0562	coagulation factor ix	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR IX	None	None
+None	http://purl.bioontology.org/ontology/OMIM/300746	COAGULATION FACTOR IX	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR IX	None	None
+None	LOINC:LP15961-3	Coagulation factor IX	https://data.bioontology.org/ontologies/LOINC	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR IX	None	None
+None	http://identifiers.org/hgnc/3551	F9	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR IX	None	None
+None	https://identifiers.org/ncbigene/2158	F9 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR IX	None	None
+None	https://identifiers.org/ncbigene/100398468	F9 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR IX	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28482	Coagulation Factor IX	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR IX	None	None
+None	http://www.orpha.net/ORDO/Orphanet_121683	coagulation factor IX	https://data.bioontology.org/ontologies/ORDO	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR IX	None	None
+None	ATC:B02BD04	coagulation factor IX	https://data.bioontology.org/ontologies/ATC	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR IX	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000031138	F9 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR IX	None	None
+None	http://id.nlm.nih.gov/mesh/D005164	Factor IX	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR IX	None	None
+None	http://purl.obolibrary.org/obo/MESH_D005164	Factor IX	https://data.bioontology.org/ontologies/BERO	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR IX	None	None
+None	http://purl.obolibrary.org/obo/dinto_DB00100	coagulation factor ix	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR IX	None	None
+None	LOINC:LP32026-4	Coagulation factor IX	https://data.bioontology.org/ontologies/LOINC	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR IX	None	None
+None	http://purl.obolibrary.org/obo/dinto_4307	coagulation factor ix	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR IX	None	None
+None	SNMI:F-D7500	Coagulation factor IX	https://data.bioontology.org/ontologies/SNMI	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR IX	None	None
+None	CRISP:0437-3432	coagulation factor IX	https://data.bioontology.org/ontologies/CRISP	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR IX	None	None
+None	https://go.drugbank.com/drugs/DB11330	Factor IX Complex (Human)	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR IX	None	None
+None	PR:000007303	coagulation factor IX	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR IX	None	None
+None	RCTV2:44AT.00	Plasma renin activity	https://data.bioontology.org/ontologies/RCTV2	None	None	None	True	PREF	None		1	21	PLASMA RENIN ACTIVITY	None	None
+None	PR:000009433	importin subunit alpha-1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	24	IMPORTIN SUBUNIT ALPHA-1	None	None
+None	https://identifiers.org/ncbigene/100402559	LOC100402559 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	IMPORTIN SUBUNIT ALPHA-1	None	None
+None	https://identifiers.org/ncbigene/100896800	LOC100896800 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	IMPORTIN SUBUNIT ALPHA-1	None	None
+None	https://identifiers.org/ncbigene/100414588	KPNA1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	IMPORTIN SUBUNIT ALPHA-1	None	None
+None	https://identifiers.org/ncbigene/3836	KPNA1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	IMPORTIN SUBUNIT ALPHA-1	None	None
+None	https://identifiers.org/ncbigene/3838	KPNA2 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	IMPORTIN SUBUNIT ALPHA-1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000018362	Kpna2 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	IMPORTIN SUBUNIT ALPHA-1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000022905	Kpna1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	IMPORTIN SUBUNIT ALPHA-1	None	None
+None	https://identifiers.org/ncbigene/100386749	LOC100386749 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	IMPORTIN SUBUNIT ALPHA-1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C179698	Importin Subunit Alpha-1	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	24	IMPORTIN SUBUNIT ALPHA-1	None	None
+None	PR:000009432	importin subunit alpha-1	https://data.bioontology.org/ontologies/NIFSTD	None	None	None	True	PREF	None		1	24	IMPORTIN SUBUNIT ALPHA-1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000022496	Tnfrsf17 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 17	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97848	Tumor Necrosis Factor Receptor Superfamily Member 17	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 17	None	None
+None	PR:000001406	tumor necrosis factor receptor superfamily member 17	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 17	None	None
+None	https://identifiers.org/ncbigene/100397314	TNFRSF17 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 17	None	None
+None	https://identifiers.org/ncbigene/608	TNFRSF17 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 17	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000016498	Pdcd1lg2 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 2	None	None
+None	http://purl.bioontology.org/ontology/OMIM/605723	PROGRAMMED CELL DEATH 1 LIGAND 2	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 2	None	None
+None	https://identifiers.org/ncbigene/100415413	PDCD1LG2 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 2	None	None
+None	https://identifiers.org/ncbigene/80380	PDCD1LG2 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 2	None	None
+None	http://identifiers.org/hgnc/18731	PDCD1LG2	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 2	None	None
+None	PR:000001544	programmed cell death 1 ligand 2	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 2	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45438	Programmed Cell Death 1 Ligand 2	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	32	PROGRAMMED CELL DEATH 1 LIGAND 2	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000022661	Cd200 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	26	OX-2 MEMBRANE GLYCOPROTEIN	None	None
+None	https://identifiers.org/ncbigene/100408222	CD200 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	26	OX-2 MEMBRANE GLYCOPROTEIN	None	None
+None	PR:000001829	OX-2 membrane glycoprotein	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	26	OX-2 MEMBRANE GLYCOPROTEIN	None	None
+None	https://identifiers.org/ncbigene/4345	CD200 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	26	OX-2 MEMBRANE GLYCOPROTEIN	None	None
+None	https://identifiers.org/ncbigene/100412839	LOC100412839 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	26	OX-2 MEMBRANE GLYCOPROTEIN	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C80109	OX-2 Membrane Glycoprotein	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	26	OX-2 MEMBRANE GLYCOPROTEIN	None	None
+None	NCIT:C18174	Tumor Necrosis Factor Receptor Superfamily Member 10A	https://data.bioontology.org/ontologies/BERO	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 10A	None	None
+None	https://identifiers.org/ncbigene/8797	TNFRSF10A (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 10A	None	None
+None	PR:000002108	tumor necrosis factor receptor superfamily member 10A	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 10A	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18174	Tumor Necrosis Factor Receptor Superfamily Member 10A	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 10A	None	None
+None	https://identifiers.org/ncbigene/100395977	TNFRSF10A (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 10A	None	None
+None	GO:0004067	asparaginase activity	https://data.bioontology.org/ontologies/PHAGE	None	None	None	True	PREF	None		1	21	ASPARAGINASE ACTIVITY	None	None
+None	http://purl.org/obo/owl/GO#GO_0004067	asparaginase activity	https://data.bioontology.org/ontologies/BIOMODELS	None	None	None	True	PREF	None		1	21	ASPARAGINASE ACTIVITY	None	None
+None	http://www.phoc.org.cn/pmo/class/PMO_00046038	Asparaginase Activity	https://data.bioontology.org/ontologies/PMAPP-PMO	None	None	None	True	PREF	None		1	21	ASPARAGINASE ACTIVITY	None	None
+None	http://identifiers.org/hgnc/18121	MFRP	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	33	MEMBRANE FRIZZLED-RELATED PROTEIN	None	None
+None	https://identifiers.org/ncbigene/114902	C1QTNF5 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	33	MEMBRANE FRIZZLED-RELATED PROTEIN	None	None
+None	https://identifiers.org/ncbigene/83552	MFRP (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	33	MEMBRANE FRIZZLED-RELATED PROTEIN	None	None
+None	http://www.limics.org/hrdo/rdfns#gen_id_16395	Membrane frizzled-related protein	https://data.bioontology.org/ontologies/HRDO	None	None	None	True	PREF	None		1	33	MEMBRANE FRIZZLED-RELATED PROTEIN	None	None
+None	http://www.orpha.net/ORDO/Orphanet_123212	membrane frizzled-related protein	https://data.bioontology.org/ontologies/ORDO	None	None	None	True	PREF	None		1	33	MEMBRANE FRIZZLED-RELATED PROTEIN	None	None
+None	PR:000010372	membrane frizzled-related protein	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	33	MEMBRANE FRIZZLED-RELATED PROTEIN	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000034739	Mfrp (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	33	MEMBRANE FRIZZLED-RELATED PROTEIN	None	None
+None	https://identifiers.org/ncbigene/100398152	MFRP (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	33	MEMBRANE FRIZZLED-RELATED PROTEIN	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000079592	C1qtnf5 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	33	MEMBRANE FRIZZLED-RELATED PROTEIN	None	None
+None	http://sbmi.uth.tmc.edu/ontology/ochv#1991	blood coagulation factor	https://data.bioontology.org/ontologies/OCHV	None	None	None	True	SYN	None		1	18	COAGULATION FACTOR	None	None
+None	http://id.nlm.nih.gov/mesh/D001779	Blood Coagulation Factors	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	18	COAGULATION FACTOR	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16354	Coagulation Factor	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	18	COAGULATION FACTOR	None	None
+None	http://purl.bioontology.org/ontology/MEDDRA/10059744	Coagulation factor	https://data.bioontology.org/ontologies/MEDDRA	None	None	None	True	PREF	None		1	18	COAGULATION FACTOR	None	None
+None	https://identifiers.org/ncbigene/100387374	PSME1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	PROTEASOME ACTIVATOR COMPLEX SUBUNIT 1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000022216	Psme1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	PROTEASOME ACTIVATOR COMPLEX SUBUNIT 1	None	None
+None	PR:000013392	proteasome activator complex subunit 1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	38	PROTEASOME ACTIVATOR COMPLEX SUBUNIT 1	None	None
+None	https://identifiers.org/ncbigene/5720	PSME1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	PROTEASOME ACTIVATOR COMPLEX SUBUNIT 1	None	None
+None	http://identifiers.org/uniprot/Q6P9V7	Q6P9V7_RAT	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	38	PROTEASOME ACTIVATOR COMPLEX SUBUNIT 1	None	None
+None	https://identifiers.org/ncbigene/103794008	LOC103794008 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	PROTEASOME ACTIVATOR COMPLEX SUBUNIT 1	None	None
+None	SNOMEDCT:103165007	Mast/stem cell growth factor receptor Kit	https://data.bioontology.org/ontologies/SNOMEDCT	None	None	None	True	PREF	None		1	41	MAST/STEM CELL GROWTH FACTOR RECEPTOR KIT	None	None
+None	https://identifiers.org/ncbigene/100411615	KIT (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	MAST/STEM CELL GROWTH FACTOR RECEPTOR KIT	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17328	Mast/Stem Cell Growth Factor Receptor Kit	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	41	MAST/STEM CELL GROWTH FACTOR RECEPTOR KIT	None	None
+None	http://www.ncbi.nlm.nih.gov/gene/16590	KIT proto-oncogene receptor tyrosine kinase	https://data.bioontology.org/ontologies/NIFSTD	None	None	None	True	SYN	None		1	41	MAST/STEM CELL GROWTH FACTOR RECEPTOR KIT	None	None
+None	DTO:03100231	Mast/stem cell growth factor receptor kit	https://data.bioontology.org/ontologies/DTO	None	None	None	True	PREF	None		1	41	MAST/STEM CELL GROWTH FACTOR RECEPTOR KIT	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000005672	Kit (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	MAST/STEM CELL GROWTH FACTOR RECEPTOR KIT	None	None
+None	https://identifiers.org/ncbigene/3815	KIT (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	MAST/STEM CELL GROWTH FACTOR RECEPTOR KIT	None	None
+None	DTO:03100126	Ephrin type-a receptor 2	https://data.bioontology.org/ontologies/DTO	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-A RECEPTOR 2	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26156	Ephrin Type-A Receptor 2	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-A RECEPTOR 2	None	None
+None	https://identifiers.org/ncbigene/100412970	EPHA2 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 2	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000006445	Epha2 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 2	None	None
+None	PR:000007122	ephrin type-A receptor 2	https://data.bioontology.org/ontologies/INBANCIDO	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-A RECEPTOR 2	None	None
+None	http://purl.obolibrary.org/obo/dinto_2206	ephrin type-a receptor 2	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-A RECEPTOR 2	None	None
+None	https://identifiers.org/ncbigene/1969	EPHA2 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 2	None	None
+None	PR:000005564	C-type lectin domain family 1 member B	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 1 MEMBER B	None	None
+None	https://identifiers.org/ncbigene/51266	CLEC1B (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 1 MEMBER B	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000030159	Clec1b (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 1 MEMBER B	None	None
+None	http://identifiers.org/hgnc/24356	CLEC1B	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 1 MEMBER B	None	None
+None	https://identifiers.org/ncbigene/100402496	CLEC1B (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 1 MEMBER B	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C88043	Neurofilament Light Polypeptide	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	SYN	None		1	25	NEUROFILAMENT LIGHT CHAIN	None	None
+None	http://www.orpha.net/ORDO/Orphanet_123754	neurofilament light chain	https://data.bioontology.org/ontologies/ORDO	None	None	None	True	PREF	None		1	25	NEUROFILAMENT LIGHT CHAIN	None	None
+None	http://identifiers.org/hgnc/7739	NEFL	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	25	NEUROFILAMENT LIGHT CHAIN	None	None
+None	PR:000001928	sialic acid-binding Ig-like lectin 6	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	36	SIALIC ACID-BINDING IG-LIKE LECTIN 6	None	None
+None	https://identifiers.org/ncbigene/946	SIGLEC6 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	36	SIALIC ACID-BINDING IG-LIKE LECTIN 6	None	None
+None	https://identifiers.org/ncbigene/27242	TNFRSF21 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 21	None	None
+None	https://identifiers.org/ncbigene/100396934	PABPN1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 21	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105571	Tumor Necrosis Factor Receptor Superfamily Member 21	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 21	None	None
+None	https://identifiers.org/ncbigene/100386273	TNFRSF21 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 21	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000023915	Tnfrsf21 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 21	None	None
+None	https://identifiers.org/ncbigene/100398749	BCL2L2 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 21	None	None
+None	PR:000016484	tumor necrosis factor receptor superfamily member 21	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 21	None	None
+None	NCIT:C105571	Tumor Necrosis Factor Receptor Superfamily Member 21	https://data.bioontology.org/ontologies/BERO	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 21	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000021583	Erap1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	ENDOPLASMIC RETICULUM AMINOPEPTIDASE 1	None	None
+None	https://identifiers.org/ncbigene/101929747	LOC101929747 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	ENDOPLASMIC RETICULUM AMINOPEPTIDASE 1	None	None
+None	PR:000007155	endoplasmic reticulum aminopeptidase 1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	38	ENDOPLASMIC RETICULUM AMINOPEPTIDASE 1	None	None
+None	https://identifiers.org/ncbigene/51752	ERAP1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	ENDOPLASMIC RETICULUM AMINOPEPTIDASE 1	None	None
+None	https://identifiers.org/ncbigene/100391536	ERAP1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	ENDOPLASMIC RETICULUM AMINOPEPTIDASE 1	None	None
+None	http://www.ncbi.nlm.nih.gov/gene/80898	endoplasmic reticulum aminopeptidase 1	https://data.bioontology.org/ontologies/NIFSTD	None	None	None	True	PREF	None		1	38	ENDOPLASMIC RETICULUM AMINOPEPTIDASE 1	None	None
+None	http://purl.bioontology.org/ontology/OMIM/606832	ENDOPLASMIC RETICULUM AMINOPEPTIDASE 1	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	38	ENDOPLASMIC RETICULUM AMINOPEPTIDASE 1	None	None
+None	http://identifiers.org/hgnc/18173	ERAP1	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	38	ENDOPLASMIC RETICULUM AMINOPEPTIDASE 1	None	None
+None	http://www.orpha.net/ORDO/Orphanet_449094	endoplasmic reticulum aminopeptidase 1	https://data.bioontology.org/ontologies/ORDO	None	None	None	True	PREF	None		1	38	ENDOPLASMIC RETICULUM AMINOPEPTIDASE 1	None	None
+None	http://id.nlm.nih.gov/mesh/D050822	Soluble Glycoprotein 130	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	13	SOLUBLE GP130	None	None
+None	PR:000016486	tumor necrosis factor receptor superfamily member 6B	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 6B	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30112	Tumor Necrosis Factor Receptor Superfamily Member 6B	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 6B	None	None
+None	https://identifiers.org/ncbigene/8771	TNFRSF6B (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 6B	None	None
+None	PR:000016488	tumor necrosis factor ligand superfamily member 18	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 18	None	None
+None	https://identifiers.org/ncbigene/100404122	TNFSF18 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 18	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000066755	Tnfsf18 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 18	None	None
+None	CYTO:309	TNFSF18	https://data.bioontology.org/ontologies/CYTO	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 18	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142776	Tumor Necrosis Factor Ligand Superfamily Member 18	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 18	None	None
+None	https://identifiers.org/ncbigene/8995	TNFSF18 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 18	None	None
+None	PR:000000068	activin receptor type-1B	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	24	ACTIVIN RECEPTOR TYPE-1B	None	None
+None	https://identifiers.org/ncbigene/100391614	ACVR1B (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	ACTIVIN RECEPTOR TYPE-1B	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000000532	Acvr1b (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	ACTIVIN RECEPTOR TYPE-1B	None	None
+None	https://identifiers.org/ncbigene/91	ACVR1B (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	ACTIVIN RECEPTOR TYPE-1B	None	None
+None	DTO:03100009	Activin receptor type-1b	https://data.bioontology.org/ontologies/DTO	None	None	None	True	PREF	None		1	24	ACTIVIN RECEPTOR TYPE-1B	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28714	Activin Receptor Type-1B	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	24	ACTIVIN RECEPTOR TYPE-1B	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105568	Tumor Necrosis Factor Receptor Superfamily Member 18	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 18	None	None
+None	https://identifiers.org/ncbigene/100407686	TNFRSF18 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 18	None	None
+None	https://identifiers.org/ncbigene/8784	TNFRSF18 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 18	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000041954	Tnfrsf18 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 18	None	None
+None	PR:000016482	tumor necrosis factor receptor superfamily member 18	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 18	None	None
+None	GO:0008119	thiopurine S-methyltransferase activity	https://data.bioontology.org/ontologies/PHAGE	None	None	None	True	SYN	None		1	37	THIOPURINE METHYLTRANSFERASE ACTIVITY	None	None
+None	PR:000009439	importin subunit beta-1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	23	IMPORTIN SUBUNIT BETA-1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142199	Importin Subunit Beta-1	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	23	IMPORTIN SUBUNIT BETA-1	None	None
+None	https://identifiers.org/ncbigene/3837	KPNB1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	23	IMPORTIN SUBUNIT BETA-1	None	None
+None	https://identifiers.org/ncbigene/100408890	KPNB1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	23	IMPORTIN SUBUNIT BETA-1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000001440	Kpnb1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	23	IMPORTIN SUBUNIT BETA-1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000078812	Eif5a (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	45	EUKARYOTIC TRANSLATION INITIATION FACTOR 5A-1	None	None
+None	https://identifiers.org/ncbigene/1984	EIF5A (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	45	EUKARYOTIC TRANSLATION INITIATION FACTOR 5A-1	None	None
+None	https://identifiers.org/ncbigene/100403543	EIF5A (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	45	EUKARYOTIC TRANSLATION INITIATION FACTOR 5A-1	None	None
+None	https://identifiers.org/ncbigene/143244	EIF5AL1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	45	EUKARYOTIC TRANSLATION INITIATION FACTOR 5A-1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C91355	Eukaryotic Translation Initiation Factor 5A-1	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	45	EUKARYOTIC TRANSLATION INITIATION FACTOR 5A-1	None	None
+None	PR:000007003	eukaryotic translation initiation factor 5A-1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	45	EUKARYOTIC TRANSLATION INITIATION FACTOR 5A-1	None	None
+None	PR:000007300	coagulation factor V	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR V	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01559	coagulation factor V	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR V	None	None
+None	https://identifiers.org/ncbigene/100400725	F5 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	20	COAGULATION FACTOR V	None	None
+None	http://sbmi.uth.tmc.edu/ontology/ochv#4855	factor v	https://data.bioontology.org/ontologies/OCHV	None	None	None	True	SYN	None		1	20	COAGULATION FACTOR V	None	None
+None	http://id.nlm.nih.gov/mesh/D005165	Factor V	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	20	COAGULATION FACTOR V	None	None
+None	http://identifiers.org/hgnc/3542	F5	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	20	COAGULATION FACTOR V	None	None
+None	SNMI:F-D7360	Coagulation factor V	https://data.bioontology.org/ontologies/SNMI	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR V	None	None
+None	CRISP:0437-2733	coagulation factor V	https://data.bioontology.org/ontologies/CRISP	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR V	None	None
+None	SNOMEDCT:60208008	Coagulation factor V	https://data.bioontology.org/ontologies/SNOMEDCT	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR V	None	None
+None	http://purl.bioontology.org/ontology/OMIM/612309	COAGULATION FACTOR V	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR V	None	None
+None	LOINC:LP15964-7	Coagulation factor V	https://data.bioontology.org/ontologies/LOINC	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR V	None	None
+None	http://purl.obolibrary.org/obo/dinto_0997	coagulation factor v	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR V	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:00931	mean arterial pressure	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR V	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000026579	F5 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	20	COAGULATION FACTOR V	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C91335	Coagulation Factor V	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR V	None	None
+None	http://www.orpha.net/ORDO/Orphanet_121673	coagulation factor V	https://data.bioontology.org/ontologies/ORDO	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR V	None	None
+None	https://identifiers.org/ncbigene/2153	F5 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	20	COAGULATION FACTOR V	None	None
+None	http://www.semanticweb.org/ontologies/STO.owl#OWLClass_14882cfb_aa7c_4a5d_a9cb_73097a851204	coagulation factor V	https://data.bioontology.org/ontologies/CVAO	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR V	None	None
+None	PR:000016475	tumor necrosis factor-inducible gene 6 protein	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	46	TUMOR NECROSIS FACTOR-INDUCIBLE GENE 6 PROTEIN	None	None
+None	http://www.ncbi.nlm.nih.gov/gene/21930	tumor necrosis factor alpha induced protein 6	https://data.bioontology.org/ontologies/NIFSTD	None	None	None	True	SYN	None		1	46	TUMOR NECROSIS FACTOR-INDUCIBLE GENE 6 PROTEIN	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000053475	Tnfaip6 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	46	TUMOR NECROSIS FACTOR-INDUCIBLE GENE 6 PROTEIN	None	None
+None	https://identifiers.org/ncbigene/100396665	TNFAIP6 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	46	TUMOR NECROSIS FACTOR-INDUCIBLE GENE 6 PROTEIN	None	None
+None	https://identifiers.org/ncbigene/7130	TNFAIP6 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	46	TUMOR NECROSIS FACTOR-INDUCIBLE GENE 6 PROTEIN	None	None
+None	PR:000010467	membrane metallo-endopeptidase-like 1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	37	MEMBRANE METALLO-ENDOPEPTIDASE-LIKE 1	None	None
+None	https://identifiers.org/ncbigene/100397773	MMEL1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	37	MEMBRANE METALLO-ENDOPEPTIDASE-LIKE 1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000058183	Mmel1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	37	MEMBRANE METALLO-ENDOPEPTIDASE-LIKE 1	None	None
+None	https://identifiers.org/ncbigene/79258	MMEL1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	37	MEMBRANE METALLO-ENDOPEPTIDASE-LIKE 1	None	None
+None	http://www.limics.org/hrdo/rdfns#gen_id_19318	Membrane metallo-endopeptidase-like 1	https://data.bioontology.org/ontologies/HRDO	None	None	None	True	PREF	None		1	37	MEMBRANE METALLO-ENDOPEPTIDASE-LIKE 1	None	None
+None	https://identifiers.org/ncbigene/4982	TNFRSF11B (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30111	Tumor Necrosis Factor Receptor Superfamily Member 11B	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	https://identifiers.org/ncbigene/100399751	TNFRSF11B (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	NCIT:C30111	Tumor Necrosis Factor Receptor Superfamily Member 11B	https://data.bioontology.org/ontologies/BERO	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000063727	Tnfrsf11b (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C116206	Osteoprotegerin Measurement	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01824	tumor necrosis factor receptor superfamily member 11B	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	CYTO:308	TNFRSF11B	https://data.bioontology.org/ontologies/CYTO	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	PR:000016480	tumor necrosis factor receptor superfamily member 11B	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:02948	acute deep vein thrombosis	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C120666	Tumor Necrosis Factor Receptor 1 Measurement	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	SYN	None		1	32	TUMOR NECROSIS FACTOR RECEPTOR 1	None	None
+None	http://identifiers.org/uniprot/P19438	TNR1A_HUMAN	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	32	TUMOR NECROSIS FACTOR RECEPTOR 1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17800	Tumor Necrosis Factor Receptor Superfamily Member 1A	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	SYN	None		1	32	TUMOR NECROSIS FACTOR RECEPTOR 1	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:02940	aortic valve sclerosis	https://data.bioontology.org/ontologies/MIO	None	None	None	True	SYN	None		1	32	TUMOR NECROSIS FACTOR RECEPTOR 1	None	None
+None	PR:000001958	tumor necrosis factor receptor superfamily member 1A	https://data.bioontology.org/ontologies/PR	None	None	None	True	SYN	None		1	32	TUMOR NECROSIS FACTOR RECEPTOR 1	None	None
+None	http://identifiers.org/uniprot/P25118	TNR1A_MOUSE	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	32	TUMOR NECROSIS FACTOR RECEPTOR 1	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01817	tumor necrosis factor receptor superfamily member 1A	https://data.bioontology.org/ontologies/MIO	None	None	None	True	SYN	None		1	32	TUMOR NECROSIS FACTOR RECEPTOR 1	None	None
+None	http://identifiers.org/uniprot/P22934	TNR1A_RAT	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	32	TUMOR NECROSIS FACTOR RECEPTOR 1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000030341	Tnfrsf1a (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	TUMOR NECROSIS FACTOR RECEPTOR 1	None	None
+None	http://purl.bioontology.org/ontology/OMIM/602688	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN A/B	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	43	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN A/B	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30025	Heterogeneous Nuclear Ribonucleoprotein A/B	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	43	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN A/B	None	None
+None	https://identifiers.org/ncbigene/100390818	HNRNPAB (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	43	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN A/B	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000020358	Hnrnpab (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	43	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN A/B	None	None
+None	https://identifiers.org/ncbigene/3182	HNRNPAB (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	43	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN A/B	None	None
+None	http://identifiers.org/hgnc/5034	HNRNPAB	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	43	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN A/B	None	None
+None	PR:000008661	heterogeneous nuclear ribonucleoprotein A/B	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	43	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN A/B	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000024401	Tnf (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	MESH:D014409	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/MESH	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	RH-MESH:D12.776.124.900	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01473	tumor necrosis factor	https://data.bioontology.org/ontologies/MIO	None	None	None	True	SYN	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	http://id.nlm.nih.gov/mesh/D014409	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/MDM	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	RH-MESH:D23.529.374.750.626	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	PR:000000134	tumor necrosis factor-alpha	https://data.bioontology.org/ontologies/IDODEN	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	http://www.ncbi.nlm.nih.gov/gene/21926	tumor necrosis factor	https://data.bioontology.org/ontologies/NIFSTD	None	None	None	True	SYN	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20535	Tumor Necrosis Factor	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	SYN	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	RH-MESH:D12.776.467.374.500.800	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	RH-MESH:D12.644.276.374.500.800	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	CYTO:44	TNF	https://data.bioontology.org/ontologies/CYTO	None	None	None	True	SYN	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	OMIT:0015245	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/OMIT	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	RH-MESH:D12.776.395.930	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	https://identifiers.org/ncbigene/7124	TNF (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	RH-MESH:D23.529.374.500.800	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	RH-MESH:D23.529.972.626	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	RH-MESH:D014409	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	http://sbmi.uth.tmc.edu/ontology/ochv#12659	tumor necrosis factor	https://data.bioontology.org/ontologies/OCHV	None	None	None	True	SYN	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	RH-MESH:D12.644.276.972.626	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:02939	silent myocardial ischemia	https://data.bioontology.org/ontologies/MIO	None	None	None	True	SYN	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	RH-MESH:D12.644.276.374.750.626	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	IDOMAL:0000783	tumor necrosis factor-alpha	https://data.bioontology.org/ontologies/IDOMAL	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	EFO:0003271	tumor necrosis factor-alpha	https://data.bioontology.org/ontologies/CCONT	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	RH-MESH:D12.776.467.374.750.626	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	RH-MESH:D12.776.467.972.626	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	ONTOAD:C1456820	Facteur-alpha de nécrose tumorale	https://data.bioontology.org/ontologies/ONTOAD	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	http://www.phoc.org.cn/pmo/class/PMO_00021544	Tumor Necrosis Factor-alpha	https://data.bioontology.org/ontologies/PMAPP-PMO	None	None	None	True	PREF	None		1	27	TUMOR NECROSIS FACTOR-ALPHA	None	None
+None	https://identifiers.org/ncbigene/50937	CDON (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	58	CELL ADHESION MOLECULE-RELATED/DOWN-REGULATED BY ONCOGENES	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000038119	Cdon (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	58	CELL ADHESION MOLECULE-RELATED/DOWN-REGULATED BY ONCOGENES	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25891	Cell Adhesion Molecule-Related/Down-Regulated By Oncogenes	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	58	CELL ADHESION MOLECULE-RELATED/DOWN-REGULATED BY ONCOGENES	None	None
+None	https://identifiers.org/ncbigene/100408439	CDON (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	58	CELL ADHESION MOLECULE-RELATED/DOWN-REGULATED BY ONCOGENES	None	None
+None	PR:000005282	cell adhesion molecule-related/down-regulated by oncogenes	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	58	CELL ADHESION MOLECULE-RELATED/DOWN-REGULATED BY ONCOGENES	None	None
+None	PR:000001143	basal cell adhesion molecule	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	28	BASAL CELL ADHESION MOLECULE	None	None
+None	https://identifiers.org/ncbigene/100396280	BCAM (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	28	BASAL CELL ADHESION MOLECULE	None	None
+None	https://identifiers.org/ncbigene/4059	BCAM (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	28	BASAL CELL ADHESION MOLECULE	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000002980	Bcam (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	28	BASAL CELL ADHESION MOLECULE	None	None
+None	http://purl.bioontology.org/ontology/OMIM/612773	BASAL CELL ADHESION MOLECULE	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	28	BASAL CELL ADHESION MOLECULE	None	None
+None	https://identifiers.org/ncbigene/10197	PSME3 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	PROTEASOME ACTIVATOR COMPLEX SUBUNIT 3	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000078652	Psme3 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	PROTEASOME ACTIVATOR COMPLEX SUBUNIT 3	None	None
+None	PR:000013394	proteasome activator complex subunit 3	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	38	PROTEASOME ACTIVATOR COMPLEX SUBUNIT 3	None	None
+None	https://identifiers.org/ncbigene/100414271	PSME3 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	PROTEASOME ACTIVATOR COMPLEX SUBUNIT 3	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C95864	Proteasome Activator Complex Subunit 3	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	38	PROTEASOME ACTIVATOR COMPLEX SUBUNIT 3	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000005610	Eif4g2 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	EUKARYOTIC TRANSLATION INITIATION FACTOR 4 GAMMA 2	None	None
+None	http://identifiers.org/hgnc/3297	EIF4G2	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	50	EUKARYOTIC TRANSLATION INITIATION FACTOR 4 GAMMA 2	None	None
+None	PR:000006999	eukaryotic translation initiation factor 4 gamma 2	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	50	EUKARYOTIC TRANSLATION INITIATION FACTOR 4 GAMMA 2	None	None
+None	https://identifiers.org/ncbigene/100390541	EIF4G2 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	EUKARYOTIC TRANSLATION INITIATION FACTOR 4 GAMMA 2	None	None
+None	https://identifiers.org/ncbigene/1982	EIF4G2 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	EUKARYOTIC TRANSLATION INITIATION FACTOR 4 GAMMA 2	None	None
+None	PR:000001293	C-type lectin domain family 4 member K	https://data.bioontology.org/ontologies/OBA	None	None	None	True	PREF	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 4 MEMBER K	None	None
+None	https://identifiers.org/ncbigene/50489	CD207 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 4 MEMBER K	None	None
+None	https://identifiers.org/ncbigene/100401561	CD207 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 4 MEMBER K	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000034783	Cd207 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 4 MEMBER K	None	None
+None	https://identifiers.org/ncbigene/2042	EPHA3 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 3	None	None
+None	https://identifiers.org/ncbigene/100405092	EPHA3 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 3	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17495	Ephrin Type-A Receptor 3	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-A RECEPTOR 3	None	None
+None	PR:000007123	ephrin type-A receptor 3	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-A RECEPTOR 3	None	None
+None	DTO:03100127	Ephrin type-a receptor 3	https://data.bioontology.org/ontologies/DTO	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-A RECEPTOR 3	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000052504	Epha3 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 3	None	None
+None	https://identifiers.org/ncbigene/100406082	LOC100406082 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	33	MYELOID CELL SURFACE ANTIGEN CD33	None	None
+None	https://identifiers.org/ncbigene/945	CD33 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	33	MYELOID CELL SURFACE ANTIGEN CD33	None	None
+None	PR:000001892	CD33 molecule	https://data.bioontology.org/ontologies/NIFDYS	None	None	None	True	SYN	None		1	33	MYELOID CELL SURFACE ANTIGEN CD33	None	None
+None	https://identifiers.org/ncbigene/108589500	LOC108589500 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	33	MYELOID CELL SURFACE ANTIGEN CD33	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000004609	Cd33 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	33	MYELOID CELL SURFACE ANTIGEN CD33	None	None
+None	http://purl.obolibrary.org/obo/dinto_3319	myeloid cell surface antigen cd33	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	33	MYELOID CELL SURFACE ANTIGEN CD33	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C97246	Myeloid Cell Surface Antigen CD33	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	33	MYELOID CELL SURFACE ANTIGEN CD33	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C123871	Sialic Acid-Binding Ig-Like Lectin 9	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	36	SIALIC ACID-BINDING IG-LIKE LECTIN 9	None	None
+None	https://identifiers.org/ncbigene/27180	SIGLEC9 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	36	SIALIC ACID-BINDING IG-LIKE LECTIN 9	None	None
+None	PR:000014869	sialic acid-binding Ig-like lectin 9	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	36	SIALIC ACID-BINDING IG-LIKE LECTIN 9	None	None
+None	https://identifiers.org/ncbigene/100390883	TNFRSF25 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 25	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C118333	Tumor Necrosis Factor Receptor Superfamily Member 25	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 25	None	None
+None	PR:000016485	tumor necrosis factor receptor superfamily member 25	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 25	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000024793	Tnfrsf25 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 25	None	None
+None	https://identifiers.org/ncbigene/8718	TNFRSF25 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 25	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000020091	Eif4ebp2 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	61	EUKARYOTIC TRANSLATION INITIATION FACTOR 4E-BINDING PROTEIN 2	None	None
+None	https://identifiers.org/ncbigene/1979	EIF4EBP2 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	61	EUKARYOTIC TRANSLATION INITIATION FACTOR 4E-BINDING PROTEIN 2	None	None
+None	PR:000006995	eukaryotic translation initiation factor 4E-binding protein 2	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	61	EUKARYOTIC TRANSLATION INITIATION FACTOR 4E-BINDING PROTEIN 2	None	None
+None	https://identifiers.org/ncbigene/100407004	EIF4EBP2 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	61	EUKARYOTIC TRANSLATION INITIATION FACTOR 4E-BINDING PROTEIN 2	None	None
+None	http://purl.bioontology.org/ontology/OMIM/602224	EUKARYOTIC TRANSLATION INITIATION FACTOR 4E-BINDING PROTEIN 2	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	61	EUKARYOTIC TRANSLATION INITIATION FACTOR 4E-BINDING PROTEIN 2	None	None
+None	https://identifiers.org/ncbigene/100400338	DNAJC19 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	61	MITOCHONDRIAL IMPORT INNER MEMBRANE TRANSLOCASE SUBUNIT TIM14	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000027679	Dnajc19 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	61	MITOCHONDRIAL IMPORT INNER MEMBRANE TRANSLOCASE SUBUNIT TIM14	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C173327	Mitochondrial Import Inner Membrane Translocase Subunit TIM14	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	61	MITOCHONDRIAL IMPORT INNER MEMBRANE TRANSLOCASE SUBUNIT TIM14	None	None
+None	https://identifiers.org/ncbigene/131118	DNAJC19 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	61	MITOCHONDRIAL IMPORT INNER MEMBRANE TRANSLOCASE SUBUNIT TIM14	None	None
+None	PR:000006582	mitochondrial import inner membrane translocase subunit TIM14	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	61	MITOCHONDRIAL IMPORT INNER MEMBRANE TRANSLOCASE SUBUNIT TIM14	None	None
+None	http://identifiers.org/uniprot/G3X8S1	G3X8S1_MOUSE	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	61	MITOCHONDRIAL IMPORT INNER MEMBRANE TRANSLOCASE SUBUNIT TIM14	None	None
+None	http://purl.bioontology.org/ontology/OMIM/601581	NEURONAL CELL ADHESION MOLECULE	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	31	NEURONAL CELL ADHESION MOLECULE	None	None
+None	IMR:0000180	N-CAM	https://data.bioontology.org/ontologies/HOIP	None	None	None	True	SYN	None		1	31	NEURONAL CELL ADHESION MOLECULE	None	None
+None	https://identifiers.org/ncbigene/100402021	NRCAM (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	NEURONAL CELL ADHESION MOLECULE	None	None
+None	http://www.orpha.net/ORDO/Orphanet_599884	neuronal cell adhesion molecule	https://data.bioontology.org/ontologies/ORDO	None	None	None	True	PREF	None		1	31	NEURONAL CELL ADHESION MOLECULE	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000020598	Nrcam (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	NEURONAL CELL ADHESION MOLECULE	None	None
+None	http://identifiers.org/hgnc/7994	NRCAM	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	31	NEURONAL CELL ADHESION MOLECULE	None	None
+None	https://identifiers.org/ncbigene/4897	NRCAM (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	NEURONAL CELL ADHESION MOLECULE	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C34001	Neuronal Cell Adhesion Molecule	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	31	NEURONAL CELL ADHESION MOLECULE	None	None
+None	PR:000011420	neuronal cell adhesion molecule	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	31	NEURONAL CELL ADHESION MOLECULE	None	None
+None	https://identifiers.org/ncbigene/5888	RAD51 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	34	DNA REPAIR PROTEIN RAD51 HOMOLOG 1	None	None
+None	https://identifiers.org/ncbigene/100411922	RAD51 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	34	DNA REPAIR PROTEIN RAD51 HOMOLOG 1	None	None
+None	PR:000013672	DNA repair protein RAD51 homolog 1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	34	DNA REPAIR PROTEIN RAD51 HOMOLOG 1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104713	DNA Repair Protein RAD51 Homolog 1	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	34	DNA REPAIR PROTEIN RAD51 HOMOLOG 1	None	None
+None	http://purl.obolibrary.org/obo/dinto_2888	dna repair protein rad51 homolog 1	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	34	DNA REPAIR PROTEIN RAD51 HOMOLOG 1	None	None
+None	CYTO:168	OX40 LIGAND	https://data.bioontology.org/ontologies/CYTO	None	None	None	True	PREF	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 4	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000026700	Tnfsf4 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 4	None	None
+None	PR:000001949	tumor necrosis factor ligand superfamily member 4	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 4	None	None
+None	https://identifiers.org/ncbigene/7292	TNFSF4 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 4	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20532	Tumor Necrosis Factor Ligand Superfamily Member 4	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 4	None	None
+None	http://id.nlm.nih.gov/mesh/D053278	OX40 Ligand	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 4	None	None
+None	https://identifiers.org/ncbigene/100394933	TNFSF4 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	49	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 4	None	None
+None	https://identifiers.org/ncbigene/100387176	EDAR (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	54	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER EDAR	None	None
+None	PR:000006888	tumor necrosis factor receptor superfamily member EDAR	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	54	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER EDAR	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C159363	Tumor Necrosis Factor Receptor Superfamily Member EDAR	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	54	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER EDAR	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000003227	Edar (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	54	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER EDAR	None	None
+None	https://identifiers.org/ncbigene/10913	EDAR (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	54	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER EDAR	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000041324	Inhba (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	20	INHIBIN BETA A CHAIN	None	None
+None	https://identifiers.org/ncbigene/100400417	INHBA (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	20	INHIBIN BETA A CHAIN	None	None
+None	CYTO:38	IL5	https://data.bioontology.org/ontologies/CYTO	None	None	None	True	SYN	None		1	20	INHIBIN BETA A CHAIN	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28472	Inhibin Beta A Chain	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	20	INHIBIN BETA A CHAIN	None	None
+None	https://identifiers.org/ncbigene/3624	INHBA (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	20	INHIBIN BETA A CHAIN	None	None
+None	CYTO:39	LTA	https://data.bioontology.org/ontologies/CYTO	None	None	None	True	SYN	None		1	26	TUMOR NECROSIS FACTOR BETA	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C132375	Lymphotoxin Alpha Measurement	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	SYN	None		1	26	TUMOR NECROSIS FACTOR BETA	None	None
+None	http://www.semanticweb.org/ontologies/STO.owl#ee66d80e_b36e_4929_8e04_94cb8360f9ad	Tumor necrosis factor beta	https://data.bioontology.org/ontologies/CVAO	None	None	None	True	PREF	None		1	26	TUMOR NECROSIS FACTOR BETA	None	None
+None	https://identifiers.org/ncbigene/4049	LTA (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	26	TUMOR NECROSIS FACTOR BETA	None	None
+None	SNOMEDCT:47894002	Tumor necrosis factor beta	https://data.bioontology.org/ontologies/SNOMEDCT	None	None	None	True	PREF	None		1	26	TUMOR NECROSIS FACTOR BETA	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20536	Lymphotoxin-Alpha	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	SYN	None		1	26	TUMOR NECROSIS FACTOR BETA	None	None
+None	http://id.nlm.nih.gov/mesh/D008233	Lymphotoxin-alpha3	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	26	TUMOR NECROSIS FACTOR BETA	None	None
+None	SNMI:F-CB964	Tumor necrosis factor beta	https://data.bioontology.org/ontologies/SNMI	None	None	None	True	PREF	None		1	26	TUMOR NECROSIS FACTOR BETA	None	None
+None	CRISP:1553-6770	tumor necrosis factor beta	https://data.bioontology.org/ontologies/CRISP	None	None	None	True	PREF	None		1	26	TUMOR NECROSIS FACTOR BETA	None	None
+None	http://www.ncbi.nlm.nih.gov/gene/29820	tumor necrosis factor receptor superfamily, member 19	https://data.bioontology.org/ontologies/NIFSTD	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 19	None	None
+None	https://identifiers.org/ncbigene/55504	TNFRSF19 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 19	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000060548	Tnfrsf19 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 19	None	None
+None	NCIT:C159406	Tumor Necrosis Factor Receptor Superfamily Member 19	https://data.bioontology.org/ontologies/BERO	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 19	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C159406	Tumor Necrosis Factor Receptor Superfamily Member 19	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 19	None	None
+None	https://identifiers.org/ncbigene/100393522	TNFRSF19 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 19	None	None
+None	PR:000016483	tumor necrosis factor receptor superfamily member 19	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 19	None	None
+None	PR:000010193	mannan-binding lectin serine protease 1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	39	MANNAN-BINDING LECTIN SERINE PROTEASE 1	None	None
+None	https://identifiers.org/ncbigene/100407253	MASP1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	39	MANNAN-BINDING LECTIN SERINE PROTEASE 1	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01674	mannan-binding lectin serine protease 1	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	39	MANNAN-BINDING LECTIN SERINE PROTEASE 1	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01879	hematological failure	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	39	MANNAN-BINDING LECTIN SERINE PROTEASE 1	None	None
+None	https://identifiers.org/ncbigene/5648	MASP1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	39	MANNAN-BINDING LECTIN SERINE PROTEASE 1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000022887	Masp1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	39	MANNAN-BINDING LECTIN SERINE PROTEASE 1	None	None
+None	http://purl.bioontology.org/ontology/OMIM/600521	MANNAN-BINDING LECTIN SERINE PROTEASE 1	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	39	MANNAN-BINDING LECTIN SERINE PROTEASE 1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000028602	Tnfrsf8 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 8	None	None
+None	https://identifiers.org/ncbigene/943	TNFRSF8 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 8	None	None
+None	https://identifiers.org/ncbigene/100385465	TNFRSF8 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 8	None	None
+None	PR:000001964	tumor necrosis factor receptor superfamily member 8	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 8	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C38906	Tumor Necrosis Factor Receptor Superfamily Member 8	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	51	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 8	None	None
+None	http://www.phoc.org.cn/pmo/class/PMO_00052151	Chylomicron	https://data.bioontology.org/ontologies/PMAPP-PMO	None	None	None	True	PREF	None		1	11	CHYLOMICRON	None	None
+None	GALEN:Chylomicron	Chylomicron	https://data.bioontology.org/ontologies/GALEN	None	None	None	True	PREF	None		1	11	CHYLOMICRON	None	None
+None	CRISP:1749-0439	chylomicron	https://data.bioontology.org/ontologies/CRISP	None	None	None	True	PREF	None		1	11	CHYLOMICRON	None	None
+None	http://sbmi.uth.tmc.edu/ontology/ochv#2983	chylomicrons	https://data.bioontology.org/ontologies/OCHV	None	None	None	True	SYN	None		1	11	CHYLOMICRON	None	None
+None	AURA:Chylomicron	Chylomicron	https://data.bioontology.org/ontologies/AURA	None	None	None	True	PREF	None		1	11	CHYLOMICRON	None	None
+None	http://id.nlm.nih.gov/mesh/D002914	Chylomicrons	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	11	CHYLOMICRON	None	None
+None	RCD:X80Ns	Chylomicron	https://data.bioontology.org/ontologies/RCD	None	None	None	True	PREF	None		1	11	CHYLOMICRON	None	None
+None	GO:0042627	chylomicron	https://data.bioontology.org/ontologies/PHAGE	None	None	None	True	PREF	None		1	11	CHYLOMICRON	None	None
+None	MESH:D002914	Chylomicrons	https://data.bioontology.org/ontologies/MESH	None	None	None	True	SYN	None		1	11	CHYLOMICRON	None	None
+None	http://purl.org/obo/owl/GO#GO_0042627	chylomicron	https://data.bioontology.org/ontologies/BIOMODELS	None	None	None	True	PREF	None		1	11	CHYLOMICRON	None	None
+None	PR:000001955	tumor necrosis factor receptor superfamily member 12A	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 12A	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000023905	Tnfrsf12a (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 12A	None	None
+None	https://identifiers.org/ncbigene/100413719	TNFRSF12A (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 12A	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C117073	Tumor Necrosis Factor Receptor Superfamily Member 12A	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 12A	None	None
+None	https://identifiers.org/ncbigene/51330	TNFRSF12A (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 12A	None	None
+None	http://id.nlm.nih.gov/mesh/D005170	Factor X	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	20	COAGULATION FACTOR X	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76142	Coagulation Factor X	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR X	None	None
+None	http://purl.bioontology.org/ontology/OMIM/613872	COAGULATION FACTOR X	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR X	None	None
+None	SNMI:F-D7700	Coagulation factor X	https://data.bioontology.org/ontologies/SNMI	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR X	None	None
+None	http://sbmi.uth.tmc.edu/ontology/ochv#4862	factor x	https://data.bioontology.org/ontologies/OCHV	None	None	None	True	SYN	None		1	20	COAGULATION FACTOR X	None	None
+None	http://purl.obolibrary.org/obo/dinto_2145	coagulation factor x	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR X	None	None
+None	CRISP:0437-3665	coagulation factor X	https://data.bioontology.org/ontologies/CRISP	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR X	None	None
+None	http://www.orpha.net/ORDO/Orphanet_121658	coagulation factor X	https://data.bioontology.org/ontologies/ORDO	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR X	None	None
+None	LOINC:LP70314-7	Coagulation factor X	https://data.bioontology.org/ontologies/LOINC	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR X	None	None
+None	LOINC:LP15973-8	Coagulation factor X	https://data.bioontology.org/ontologies/LOINC	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR X	None	None
+None	SNOMEDCT:81444003	Coagulation factor X	https://data.bioontology.org/ontologies/SNOMEDCT	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR X	None	None
+None	https://identifiers.org/ncbigene/100408094	F10 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	20	COAGULATION FACTOR X	None	None
+None	PR:000007294	coagulation factor X	https://data.bioontology.org/ontologies/INBANCIDO	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR X	None	None
+None	ATC:B02BD13	coagulation factor X	https://data.bioontology.org/ontologies/ATC	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR X	None	None
+None	http://www.limics.org/hrdo/rdfns#gen_id_16008	Coagulation factor X	https://data.bioontology.org/ontologies/HRDO	None	None	None	True	PREF	None		1	20	COAGULATION FACTOR X	None	None
+None	https://go.drugbank.com/drugs/DB13148	Coagulation factor X human	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	20	COAGULATION FACTOR X	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000031444	F10 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	20	COAGULATION FACTOR X	None	None
+None	https://identifiers.org/ncbigene/2159	F10 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	20	COAGULATION FACTOR X	None	None
+None	http://identifiers.org/hgnc/3528	F10	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	20	COAGULATION FACTOR X	None	None
+None	PR:000015347	small nuclear ribonucleoprotein F	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	33	SMALL NUCLEAR RIBONUCLEOPROTEIN F	None	None
+None	https://identifiers.org/ncbigene/6636	SNRPF (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	33	SMALL NUCLEAR RIBONUCLEOPROTEIN F	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30091	Small Nuclear Ribonucleoprotein F	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	33	SMALL NUCLEAR RIBONUCLEOPROTEIN F	None	None
+None	https://identifiers.org/ncbigene/100399108	SNRPF (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	33	SMALL NUCLEAR RIBONUCLEOPROTEIN F	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000020018	Snrpf (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	33	SMALL NUCLEAR RIBONUCLEOPROTEIN F	None	None
+None	http://purl.obolibrary.org/obo/NCBIGene_829145	RUXF	https://data.bioontology.org/ontologies/CCO	None	None	None	True	SYN	None		1	33	SMALL NUCLEAR RIBONUCLEOPROTEIN F	None	None
+None	IMR:0010515	Heterogeneous nuclear ribonucleoprotein K	https://data.bioontology.org/ontologies/HOIP	None	None	None	True	PREF	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN K	None	None
+None	http://purl.bioontology.org/ontology/OMIM/600712	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN K	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN K	None	None
+None	http://purl.bioontology.org/ontology/HOIP/HOIP_0040229	heterogeneous nuclear ribonucleoprotein K	https://data.bioontology.org/ontologies/HOIP	None	None	None	True	PREF	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN K	None	None
+None	http://www.orpha.net/ORDO/Orphanet_457585	heterogeneous nuclear ribonucleoprotein K	https://data.bioontology.org/ontologies/ORDO	None	None	None	True	PREF	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN K	None	None
+None	PR:000008669	heterogeneous nuclear ribonucleoprotein K	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN K	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C150260	Heterogeneous Nuclear Ribonucleoprotein K	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN K	None	None
+None	https://identifiers.org/ncbigene/100390554	HNRNPK (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN K	None	None
+None	http://identifiers.org/hgnc/5044	HNRNPK	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN K	None	None
+None	MESH:D034641	Heterogeneous-Nuclear Ribonucleoprotein K	https://data.bioontology.org/ontologies/MESH	None	None	None	True	SYN	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN K	None	None
+None	http://id.nlm.nih.gov/mesh/D034641	hnRNP K Protein	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN K	None	None
+None	https://identifiers.org/ncbigene/3190	HNRNPK (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN K	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000021546	Hnrnpk (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN K	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000032076	Cadm1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	CELL ADHESION MOLECULE 1	None	None
+None	http://purl.bioontology.org/ontology/OMIM/605686	CELL ADHESION MOLECULE 1	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	24	CELL ADHESION MOLECULE 1	None	None
+None	https://identifiers.org/ncbigene/100408801	CADM1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	CELL ADHESION MOLECULE 1	None	None
+None	https://identifiers.org/ncbigene/23705	CADM1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	CELL ADHESION MOLECULE 1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C106272	Cell Adhesion Molecule 1	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	24	CELL ADHESION MOLECULE 1	None	None
+None	PR:000004960	cell adhesion molecule 1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	24	CELL ADHESION MOLECULE 1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000020310	Madcam1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	CELL ADHESION MOLECULE 1	None	None
+None	http://id.nlm.nih.gov/mesh/D000075982	Cell Adhesion Molecule-1	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	24	CELL ADHESION MOLECULE 1	None	None
+None	http://identifiers.org/hgnc/5951	CADM1	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	24	CELL ADHESION MOLECULE 1	None	None
+None	PR:000013360	proteasome subunit alpha type-1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-1	None	None
+None	https://identifiers.org/ncbigene/5682	PSMA1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-1	None	None
+None	http://purl.obolibrary.org/obo/dinto_2576	proteasome subunit alpha type-1	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-1	None	None
+None	https://identifiers.org/ncbigene/100392716	PSMA1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000030751	Psma1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-1	None	None
+None	https://identifiers.org/ncbigene/10332	CLEC4M (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 4 MEMBER M	None	None
+None	http://identifiers.org/hgnc/13523	CLEC4M	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 4 MEMBER M	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C189944	C-Type Lectin Domain Family 4 Member M	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 4 MEMBER M	None	None
+None	PR:000001294	C-type lectin domain family 4 member M	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 4 MEMBER M	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000007041	Clic1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	40	CHLORIDE INTRACELLULAR CHANNEL PROTEIN 1	None	None
+None	http://www.ncbi.nlm.nih.gov/gene/114584	chloride intracellular channel 1	https://data.bioontology.org/ontologies/NIFSTD	None	None	None	True	SYN	None		1	40	CHLORIDE INTRACELLULAR CHANNEL PROTEIN 1	None	None
+None	DTO:01100079	Chloride intracellular channel protein 1	https://data.bioontology.org/ontologies/DTO	None	None	None	True	PREF	None		1	40	CHLORIDE INTRACELLULAR CHANNEL PROTEIN 1	None	None
+None	https://identifiers.org/ncbigene/1192	CLIC1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	40	CHLORIDE INTRACELLULAR CHANNEL PROTEIN 1	None	None
+None	https://identifiers.org/ncbigene/100404622	CLIC1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	40	CHLORIDE INTRACELLULAR CHANNEL PROTEIN 1	None	None
+None	PR:000005574	chloride intracellular channel protein 1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	40	CHLORIDE INTRACELLULAR CHANNEL PROTEIN 1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26166	Ephrin Type-B Receptor 2	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-B RECEPTOR 2	None	None
+None	http://purl.obolibrary.org/obo/dinto_2459	ephrin type-b receptor 2	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-B RECEPTOR 2	None	None
+None	https://identifiers.org/ncbigene/100405872	EPHB2 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-B RECEPTOR 2	None	None
+None	DTO:03100135	Ephrin type-b receptor 2	https://data.bioontology.org/ontologies/DTO	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-B RECEPTOR 2	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000028664	Ephb2 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-B RECEPTOR 2	None	None
+None	https://identifiers.org/ncbigene/2048	EPHB2 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-B RECEPTOR 2	None	None
+None	PR:000007130	ephrin type-B receptor 2	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-B RECEPTOR 2	None	None
+None	https://identifiers.org/ncbigene/6500	SKP1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	35	S-PHASE KINASE-ASSOCIATED PROTEIN 1	None	None
+None	http://purl.bioontology.org/ontology/OMIM/601434	S-PHASE KINASE-ASSOCIATED PROTEIN 1	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	35	S-PHASE KINASE-ASSOCIATED PROTEIN 1	None	None
+None	https://identifiers.org/ncbigene/100398187	SKP1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	35	S-PHASE KINASE-ASSOCIATED PROTEIN 1	None	None
+None	http://purl.obolibrary.org/obo/dinto_1336	s-phase kinase-associated protein 1	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	35	S-PHASE KINASE-ASSOCIATED PROTEIN 1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000036309	Skp1a (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	35	S-PHASE KINASE-ASSOCIATED PROTEIN 1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C178598	S-Phase Kinase-Associated Protein 1	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	35	S-PHASE KINASE-ASSOCIATED PROTEIN 1	None	None
+None	https://identifiers.org/ncbigene/100392278	EPHA5 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 5	None	None
+None	DTO:03100129	Ephrin type-a receptor 5	https://data.bioontology.org/ontologies/DTO	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-A RECEPTOR 5	None	None
+None	http://identifiers.org/uniprot/B7ZKW7	B7ZKW7_HUMAN	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 5	None	None
+None	http://identifiers.org/uniprot/B7ZKJ3	B7ZKJ3_HUMAN	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 5	None	None
+None	PR:000007125	ephrin type-A receptor 5	https://data.bioontology.org/ontologies/INBANCIDO	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-A RECEPTOR 5	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C128879	Ephrin Type-A Receptor 5	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-A RECEPTOR 5	None	None
+None	https://identifiers.org/ncbigene/2044	EPHA5 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 5	None	None
+None	http://identifiers.org/uniprot/Q6PFV6	Q6PFV6_MOUSE	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 5	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000029245	Epha5 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 5	None	None
+None	http://identifiers.org/hgnc/3299	EIF5	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	42	EUKARYOTIC TRANSLATION INITIATION FACTOR 5	None	None
+None	https://identifiers.org/ncbigene/1983	EIF5 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	42	EUKARYOTIC TRANSLATION INITIATION FACTOR 5	None	None
+None	https://identifiers.org/ncbigene/100402077	LOC100402077 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	42	EUKARYOTIC TRANSLATION INITIATION FACTOR 5	None	None
+None	PR:000007002	eukaryotic translation initiation factor 5	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	42	EUKARYOTIC TRANSLATION INITIATION FACTOR 5	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104662	Eukaryotic Translation Initiation Factor 5	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	42	EUKARYOTIC TRANSLATION INITIATION FACTOR 5	None	None
+None	http://purl.bioontology.org/ontology/OMIM/601710	EUKARYOTIC TRANSLATION INITIATION FACTOR 5	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	42	EUKARYOTIC TRANSLATION INITIATION FACTOR 5	None	None
+None	IMR:0011160	eIF5	https://data.bioontology.org/ontologies/HOIP	None	None	None	True	SYN	None		1	42	EUKARYOTIC TRANSLATION INITIATION FACTOR 5	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000021282	Eif5 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	42	EUKARYOTIC TRANSLATION INITIATION FACTOR 5	None	None
+None	https://identifiers.org/ncbigene/100392229	EIF5 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	42	EUKARYOTIC TRANSLATION INITIATION FACTOR 5	None	None
+None	PR:000006887	tumor necrosis factor receptor superfamily member 27	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 27	None	None
+None	https://identifiers.org/ncbigene/60401	EDA2R (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 27	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C159366	Tumor Necrosis Factor Receptor Superfamily Member 27	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 27	None	None
+None	https://identifiers.org/ncbigene/100400510	EDA2R (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 27	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000034457	Eda2r (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	52	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 27	None	None
+None	RH-MESH:D12.776.395.550.200.250.520.578	Neural Cell Adhesion Molecule L1	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	32	NEURAL CELL ADHESION MOLECULE L1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000031391	L1cam (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	NEURAL CELL ADHESION MOLECULE L1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C112138	Neural Cell Adhesion Molecule L1	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	32	NEURAL CELL ADHESION MOLECULE L1	None	None
+None	https://identifiers.org/ncbigene/100406828	L1CAM (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	NEURAL CELL ADHESION MOLECULE L1	None	None
+None	https://identifiers.org/ncbigene/3897	L1CAM (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	32	NEURAL CELL ADHESION MOLECULE L1	None	None
+None	RH-MESH:D039842	Neural Cell Adhesion Molecule L1	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	32	NEURAL CELL ADHESION MOLECULE L1	None	None
+None	MESH:D039842	Neural Cell Adhesion Molecule L1	https://data.bioontology.org/ontologies/MESH	None	None	None	True	PREF	None		1	32	NEURAL CELL ADHESION MOLECULE L1	None	None
+None	http://www.phoc.org.cn/pmo/class/PMO_00022955	Neural Cell Adhesion Molecule L1	https://data.bioontology.org/ontologies/PMAPP-PMO	None	None	None	True	PREF	None		1	32	NEURAL CELL ADHESION MOLECULE L1	None	None
+None	PR:000002066	neural cell adhesion molecule L1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	32	NEURAL CELL ADHESION MOLECULE L1	None	None
+None	RH-MESH:D12.776.543.550.200.250.520.578	Neural Cell Adhesion Molecule L1	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	32	NEURAL CELL ADHESION MOLECULE L1	None	None
+None	OMIT:0022951	Neural Cell Adhesion Molecule L1	https://data.bioontology.org/ontologies/OMIT	None	None	None	True	PREF	None		1	32	NEURAL CELL ADHESION MOLECULE L1	None	None
+None	RH-MESH:D23.050.301.350.250.520.578	Neural Cell Adhesion Molecule L1	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	32	NEURAL CELL ADHESION MOLECULE L1	None	None
+None	http://id.nlm.nih.gov/mesh/D039842	Neural Cell Adhesion Molecule L1	https://data.bioontology.org/ontologies/MDM	None	None	None	True	PREF	None		1	32	NEURAL CELL ADHESION MOLECULE L1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C159403	Tumor Necrosis Factor Receptor Superfamily Member 19L	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 19L	None	None
+None	https://identifiers.org/ncbigene/84957	RELT (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 19L	None	None
+None	PR:000013880	tumor necrosis factor receptor superfamily member 19L	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 19L	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000008318	Relt (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 19L	None	None
+None	https://identifiers.org/ncbigene/100403465	RELT (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 19L	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000010142	Tnfrsf13b (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 13B	None	None
+None	PR:000001956	tumor necrosis factor receptor superfamily member 13B	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 13B	None	None
+None	https://identifiers.org/ncbigene/23495	TNFRSF13B (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 13B	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C127903	Tumor Necrosis Factor Receptor Superfamily Member 13B	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 13B	None	None
+None	http://identifiers.org/uniprot/P41047	TNFL6_MOUSE	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	63	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 6, SOLUBLE FORM	None	None
+None	http://identifiers.org/uniprot/P36940	TNFL6_RAT	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	63	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 6, SOLUBLE FORM	None	None
+None	http://identifiers.org/uniprot/P48023	TNFL6_HUMAN	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	63	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 6, SOLUBLE FORM	None	None
+None	RH-MESH:D019010	Vascular Cell Adhesion Molecule-1	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	33	VASCULAR CELL ADHESION MOLECULE-1	None	None
+None	OMIT:0019127	Vascular Cell Adhesion Molecule-1	https://data.bioontology.org/ontologies/OMIT	None	None	None	True	PREF	None		1	33	VASCULAR CELL ADHESION MOLECULE-1	None	None
+None	MESH:D019010	Vascular Cell Adhesion Molecule-1	https://data.bioontology.org/ontologies/MESH	None	None	None	True	PREF	None		1	33	VASCULAR CELL ADHESION MOLECULE-1	None	None
+None	http://scai.fraunhofer.de/AlzheimerOntology#Vascular_cell_adhesion_molecule-1	Vascular cell adhesion molecule-1	https://data.bioontology.org/ontologies/ADO	None	None	None	True	PREF	None		1	33	VASCULAR CELL ADHESION MOLECULE-1	None	None
+None	RH-MESH:D23.050.301.350.920	Vascular Cell Adhesion Molecule-1	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	33	VASCULAR CELL ADHESION MOLECULE-1	None	None
+None	RH-MESH:D12.776.543.550.200.920	Vascular Cell Adhesion Molecule-1	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	33	VASCULAR CELL ADHESION MOLECULE-1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48214	Vascular Cell Adhesion Protein 1	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	SYN	None		1	33	VASCULAR CELL ADHESION MOLECULE-1	None	None
+None	RH-MESH:D12.776.395.550.200.920	Vascular Cell Adhesion Molecule-1	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	33	VASCULAR CELL ADHESION MOLECULE-1	None	None
+None	http://www.phoc.org.cn/pmo/class/PMO_00022980	Vascular Cell Adhesion Molecule-1	https://data.bioontology.org/ontologies/PMAPP-PMO	None	None	None	True	PREF	None		1	33	VASCULAR CELL ADHESION MOLECULE-1	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01835	vascular cell adhesion protein 1	https://data.bioontology.org/ontologies/MIO	None	None	None	True	SYN	None		1	33	VASCULAR CELL ADHESION MOLECULE-1	None	None
+None	RH-MESH:D23.050.301.264.035.920	Vascular Cell Adhesion Molecule-1	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	33	VASCULAR CELL ADHESION MOLECULE-1	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:03017	limb lead	https://data.bioontology.org/ontologies/MIO	None	None	None	True	SYN	None		1	33	VASCULAR CELL ADHESION MOLECULE-1	None	None
+None	http://id.nlm.nih.gov/mesh/D019010	Vascular Cell Adhesion Molecule-1	https://data.bioontology.org/ontologies/MDM	None	None	None	True	PREF	None		1	33	VASCULAR CELL ADHESION MOLECULE-1	None	None
+None	RH-MESH:D23.101.100.110.970	Vascular Cell Adhesion Molecule-1	https://data.bioontology.org/ontologies/RH-MESH	None	None	None	True	PREF	None		1	33	VASCULAR CELL ADHESION MOLECULE-1	None	None
+None	https://identifiers.org/ncbigene/100398970	KLRK1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	40	NKG2-D TYPE II INTEGRAL MEMBRANE PROTEIN	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C101752	NKG2-D Type II Integral Membrane Protein	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	40	NKG2-D TYPE II INTEGRAL MEMBRANE PROTEIN	None	None
+None	https://identifiers.org/ncbigene/100528032	KLRC4-KLRK1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	40	NKG2-D TYPE II INTEGRAL MEMBRANE PROTEIN	None	None
+None	https://identifiers.org/ncbigene/22914	KLRK1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	40	NKG2-D TYPE II INTEGRAL MEMBRANE PROTEIN	None	None
+None	PR:000001828	NKG2-D type II integral membrane protein	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	40	NKG2-D TYPE II INTEGRAL MEMBRANE PROTEIN	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000030149	Klrk1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	40	NKG2-D TYPE II INTEGRAL MEMBRANE PROTEIN	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000032423	Syncrip (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN Q	None	None
+None	https://identifiers.org/ncbigene/100414011	SYNCRIP (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN Q	None	None
+None	PR:000015874	heterogeneous nuclear ribonucleoprotein Q	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN Q	None	None
+None	https://identifiers.org/ncbigene/10492	SYNCRIP (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	41	HETEROGENEOUS NUCLEAR RIBONUCLEOPROTEIN Q	None	None
+None	https://identifiers.org/ncbigene/57863	CADM3 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	CELL ADHESION MOLECULE 3	None	None
+None	http://purl.bioontology.org/ontology/OMIM/609743	CELL ADHESION MOLECULE 3	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	24	CELL ADHESION MOLECULE 3	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000005338	Cadm3 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	CELL ADHESION MOLECULE 3	None	None
+None	https://identifiers.org/ncbigene/100398199	CADM3 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	CELL ADHESION MOLECULE 3	None	None
+None	PR:000004962	cell adhesion molecule 3	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	24	CELL ADHESION MOLECULE 3	None	None
+None	http://identifiers.org/hgnc/17601	CADM3	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	24	CELL ADHESION MOLECULE 3	None	None
+None	https://identifiers.org/ncbigene/5683	PSMA2 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-2	None	None
+None	PR:000013361	proteasome subunit alpha type-2	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-2	None	None
+None	http://purl.obolibrary.org/obo/dinto_2567	proteasome subunit alpha type-2	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	PREF	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-2	None	None
+None	https://identifiers.org/ncbigene/100402373	PSMA2 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-2	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000015671	Psma2 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	PROTEASOME SUBUNIT ALPHA TYPE-2	None	None
+None	https://identifiers.org/ncbigene/7512	XPNPEP2 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	MEMBRANE-BOUND AMINOPEPTIDASE P	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000037005	Xpnpep2 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	31	MEMBRANE-BOUND AMINOPEPTIDASE P	None	None
+None	PR:000017496	Xaa-Pro aminopeptidase 2	https://data.bioontology.org/ontologies/PR	None	None	None	True	SYN	None		1	31	MEMBRANE-BOUND AMINOPEPTIDASE P	None	None
+None	http://identifiers.org/uniprot/O43895	XPP2_HUMAN	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	31	MEMBRANE-BOUND AMINOPEPTIDASE P	None	None
+None	https://identifiers.org/ncbigene/100401023	EPHA1 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 1	None	None
+None	DTO:03100125	Ephrin type-a receptor 1	https://data.bioontology.org/ontologies/DTO	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-A RECEPTOR 1	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18509	Ephrin Type-A Receptor 1	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-A RECEPTOR 1	None	None
+None	https://identifiers.org/ncbigene/2041	EPHA1 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 1	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000029859	Epha1 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	24	EPHRIN TYPE-A RECEPTOR 1	None	None
+None	PR:000007120	ephrin type-A receptor 1	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	24	EPHRIN TYPE-A RECEPTOR 1	None	None
+None	https://identifiers.org/ncbigene/100396000	TNFSF10 (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 10	None	None
+None	https://identifiers.org/ncbigene/8743	TNFSF10 (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 10	None	None
+None	http://id.nlm.nih.gov/mesh/D053221	TNF-Related Apoptosis-Inducing Ligand	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 10	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01819	tumor necrosis factor ligand superfamily member 10	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 10	None	None
+None	PDQ:CDR0000792578	tumor necrosis factor ligand superfamily member 10	https://data.bioontology.org/ontologies/PDQ	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 10	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000039304	Tnfsf10 (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 10	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20533	Tumor Necrosis Factor Ligand Superfamily Member 10	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 10	None	None
+None	PR:000002106	tumor necrosis factor ligand superfamily member 10	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 10	None	None
+None	CYTO:44	TNF	https://data.bioontology.org/ontologies/CYTO	None	None	None	True	SYN	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 10	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:02943	atherosclerosis	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	50	TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 10	None	None
+None	PR:000010327	matrix extracellular phosphoglycoprotein	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	40	MATRIX EXTRACELLULAR PHOSPHOGLYCOPROTEIN	None	None
+None	https://identifiers.org/ncbigene/100395421	MEPE (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	40	MATRIX EXTRACELLULAR PHOSPHOGLYCOPROTEIN	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000053863	Mepe (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	40	MATRIX EXTRACELLULAR PHOSPHOGLYCOPROTEIN	None	None
+None	https://identifiers.org/ncbigene/56955	MEPE (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	40	MATRIX EXTRACELLULAR PHOSPHOGLYCOPROTEIN	None	None
+None	http://identifiers.org/hgnc/13361	MEPE	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	40	MATRIX EXTRACELLULAR PHOSPHOGLYCOPROTEIN	None	None
+None	https://identifiers.org/ncbigene/4982	TNFRSF11B (Hsap)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30111	Tumor Necrosis Factor Receptor Superfamily Member 11B	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	https://identifiers.org/ncbigene/100399751	TNFRSF11B (Cjac)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	NCIT:C30111	Tumor Necrosis Factor Receptor Superfamily Member 11B	https://data.bioontology.org/ontologies/BERO	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	http://identifiers.org/ensembl/ENSMUSG00000063727	Tnfrsf11b (Mmus)	https://data.bioontology.org/ontologies/PCL	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C116206	Osteoprotegerin Measurement	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01824	tumor necrosis factor receptor superfamily member 11B	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	CYTO:308	TNFRSF11B	https://data.bioontology.org/ontologies/CYTO	None	None	None	True	SYN	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	PR:000016480	tumor necrosis factor receptor superfamily member 11B	https://data.bioontology.org/ontologies/PR	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:02948	acute deep vein thrombosis	https://data.bioontology.org/ontologies/MIO	None	None	None	True	PREF	None		1	53	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 11B	None	None
+None	http://purl.obolibrary.org/obo/dinto_3086	tetranectin	https://data.bioontology.org/ontologies/DINTO	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 3 MEMBER B	None	None
+None	http://identifiers.org/uniprot/P05452	TETN_HUMAN	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 3 MEMBER B	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:02832	age 58 years or younger	https://data.bioontology.org/ontologies/MIO	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 3 MEMBER B	None	None
+None	PR:000005567	tetranectin	https://data.bioontology.org/ontologies/PR	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 3 MEMBER B	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01793	tetranectin	https://data.bioontology.org/ontologies/MIO	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 3 MEMBER B	None	None
+None	http://identifiers.org/hgnc/11891	CLEC3B	https://data.bioontology.org/ontologies/HGNC-NR	None	None	None	True	SYN	None		1	38	C-TYPE LECTIN DOMAIN FAMILY 3 MEMBER B	None	None
+None	SNOMEDCT:102740005	VLDL cholesterol	https://data.bioontology.org/ontologies/SNOMEDCT	None	None	None	True	PREF	None		1	16	VLDL CHOLESTEROL	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105589	Very Low Density Lipoprotein Cholesterol Measurement	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	SYN	None		1	16	VLDL CHOLESTEROL	None	None
+None	http://id.nlm.nih.gov/mesh/D015243	Cholesterol, VLDL	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	16	VLDL CHOLESTEROL	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:02970	very-low-density lipoprotein cholesterol	https://data.bioontology.org/ontologies/MIO	None	None	None	True	SYN	None		1	16	VLDL CHOLESTEROL	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:03039	vitamin B6 intake	https://data.bioontology.org/ontologies/MIO	None	None	None	True	SYN	None		1	16	VLDL CHOLESTEROL	None	None
+None	SNMI:F-63984	VLDL cholesterol	https://data.bioontology.org/ontologies/SNMI	None	None	None	True	PREF	None		1	16	VLDL CHOLESTEROL	None	None
+None	CHEBI:47773	very-low-density lipoprotein cholesterol	https://data.bioontology.org/ontologies/CHEBI	None	None	None	True	SYN	None		1	16	VLDL CHOLESTEROL	None	None
+None	http://sbmi.uth.tmc.edu/ontology/ochv#7476	7476	https://data.bioontology.org/ontologies/OCHV	None	None	None	True	SYN	None		1	16	VLDL CHOLESTEROL	None	None
+None	http://sbmi.uth.tmc.edu/ontology/ochv#C0023826	vldl cholesterol	https://data.bioontology.org/ontologies/OCHV	None	None	None	True	PREF	None		1	16	VLDL CHOLESTEROL	None	None
+None	MEDLINEPLUS:C0023826	VLDL Cholesterol	https://data.bioontology.org/ontologies/MEDLINEPLUS	None	None	None	True	PREF	None		1	16	VLDL CHOLESTEROL	None	None
+None	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C82854	Prothrombin	https://data.bioontology.org/ontologies/NCIT	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:01469	prothrombin	https://data.bioontology.org/ontologies/MIO	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None
+None	http://id.nlm.nih.gov/mesh/D011516	Prothrombin	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None
+None	PR:000007299	prothrombin	https://data.bioontology.org/ontologies/INBANCIDO	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None
+None	https://go.drugbank.com/drugs/DB11300	Thrombin	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None
+None	http://purl.bioontology.org/ontology/RXNORM/1441688	prothrombin	https://data.bioontology.org/ontologies/RXNORM	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None
+None	http://identifiers.org/uniprot/H7BX99	H7BX99_MOUSE	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None
+None	http://identifiers.org/uniprot/P19221	THRB_MOUSE	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None
+None	http://id.nlm.nih.gov/mesh/D013917	beta,gamma-Thrombin	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None
+None	http://identifiers.org/uniprot/G3V843	G3V843_RAT	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None
+None	http://identifiers.org/uniprot/P00734	THRB_HUMAN	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None
+None	http://purl.bioontology.org/ontology/OMIM/176930	COAGULATION FACTOR II	https://data.bioontology.org/ontologies/OMIM	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR II	None	None
+None	SNMI:F-D7100	Coagulation factor II	https://data.bioontology.org/ontologies/SNMI	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR II	None	None
+None	http://www.semanticweb.org/admin/ontologies/2022/7/MIO:02430	3-chlorotyrosine	https://data.bioontology.org/ontologies/MIO	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None
+None	http://identifiers.org/uniprot/P18292	THRB_RAT	https://data.bioontology.org/ontologies/GEXO	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None
+None	https://go.drugbank.com/drugs/DB11311	Prothrombin	https://data.bioontology.org/ontologies/MDM	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None
+None	SNOMEDCT:7348004	Coagulation factor II	https://data.bioontology.org/ontologies/SNOMEDCT	None	None	None	True	PREF	None		1	21	COAGULATION FACTOR II	None	None
+None	CRISP:0437-7626	prothrombin	https://data.bioontology.org/ontologies/CRISP	None	None	None	True	SYN	None		1	21	COAGULATION FACTOR II	None	None

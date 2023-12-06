@@ -1,0 +1,181 @@
+---
+title: "OBA DOID-VT comparison"
+author: "Robyn L Ball, PhD"
+date: "Dec 19, 2022"
+output: 
+  html_notebook:
+    code_folding: hide
+---
+
+# PURPOSE
+
+Compare DOID-VT mappings we find through OBA and other ontologies vs DOID-VT mappings we find through MP phenotypic alleles and MPD trait measures.
+
+# METHODS
+
+### Approach 1
+
+DOID -> human gene (via AGR disease map) -> MP terms (via MGI, phenotypic allele) -> mouse trait measures (MPD)  -> VT terms (via MPD mouse trait measures)
+
+### Approach 2
+
+DOID -> MONDO -> OMIM -> HP -> OBA -> VT
+
+### Comparison
+
+1. How many DOID-VT mappings do we get from each approach?  
+2. Of the DOID-VT OBA mappings, restrict the VT terms to those in MPD. How much overlap do we find between the approaches?
+
+# RESULTS
+
+Using both approaches, we identified 4910 disease terms associated with VT terms. Both approaches identified VT terms for the same 1348 DOIDs. Of these 1348 disease terms, 558 (41.4%) had associated VT terms with some overlap (mean overlap of VT terms was 26.6% for OBA and 16.7% for MP-VT).  
+
+
+OBA mapped to 3416 of 3455 (98.9%) DOIDs mappable through HP.  
+Of these 3416 DOIDs, 3408 (99.8%) mapped to VT terms via OBA.  
+Of these 3408 DOIDs, 3033 (89%) mapped to VT terms with mouse trait measures in MPD.  
+Thus, in total, OBA mapped 3033 of 3455 (87.8%) DOIDs to VT terms with mouse trait measures in MPD.
+
+The union of DOID terms retrieved by both approaches contains 5457 DOIDs associated with VT terms.  
+1872 of these 5457 DOIDs were mapped to VT terms with both approaches.    
+Of these 1872 DOIDs, 799 (42.7%) mapped to at least one of the same VT terms.  
+
+3033 DOIDs annotated to VT terms by OBA semantic mappings comprise 51.9% of trait measures in MPD annotated to VT terms
+
+See https://docs.google.com/document/d/1fkXIvngeN8Kv3WL4Yr9E3aKj9WXv3wAaIoN4GC-GIto/edit?usp=sharing
+
+
+# CODE
+
+```{r}
+require(tidyverse)
+require(reshape2)
+options(stringsAsFactors = FALSE)
+```
+
+read in DOID-VT mappings
+
+```{r}
+mp_vt <- read.csv("../data/DOID2gene2MP2VT_mapping.csv")
+oba_df <- read.csv("../data/oba-hp-omim-mondo-do-vt.csv")
+terms <- read.delim("../data/ontology_mappings.csv", sep=",")
+disease <- read.delim("../data/DISEASE-ALLIANCE_HUMAN_25.tsv", skip=15)
+```
+
+## Summary
+
+```{r}
+n_d <- length(unique(oba_df$DOID[which(!is.na(oba_df$HP_id) & !is.na(oba_df$DOID))]))
+n_o <- length(unique(oba_df$DOID[which(!is.na(oba_df$OBA_id))]))
+print(paste0("OBA mapped to ", n_o, " of ", n_d," (", round(n_o/n_d*100, 1), "%) DOIDs mappable through HP."))
+n_v <- length(unique(oba_df$DOID[which(grepl("^VT", oba_df$VT_id) & !is.na(oba_df$HP_id) & !is.na(oba_df$DOID))]))
+print(paste0("Of these ", n_o, " DOIDs, ", n_v, " (", round(n_v/n_o*100, 1), "%) mapped to VT terms via OBA."))
+vt_mpd <- unique(terms$ont_term[grep("^VT", terms$ont_term)])
+n_v_mpd <- length(unique(oba_df$DOID[which(oba_df$VT_id %in% vt_mpd)]))
+print(paste0("Of these ", n_v, " DOIDs, ", n_v_mpd, " (", round(n_v_mpd/n_v*100, 1), "%) mapped to VT terms with mouse trait measures in MPD."))
+print(paste0("Thus, in total, OBA mapped ", n_v_mpd, " of ", n_d, " (", round(n_v_mpd/n_d*100,1), "%) DOIDs to VT terms with mouse trait measures in MPD."))
+```
+
+### OBA approach summary
+
+OBA mapped to 3416 of 3455 (98.9%) DOIDs mappable through HP.  
+Of these 3416 DOIDs, 3408 (99.8%) mapped to VT terms via OBA.  
+Of these 3408 DOIDs, 3033 (89%) mapped to VT terms with mouse trait measures in MPD.  
+Thus, in total, OBA mapped 3033 of 3455 (87.8%) DOIDs to VT terms with mouse trait measures in MPD.
+
+
+```{r}
+m_d <- length(unique(mp_vt$DOID))
+print(paste0(m_d, " DOIDs were mapped to VT terms via MP and MPD trait measures."))
+m_inter <- length(intersect(mp_vt$DOID, oba_df$DOID[which(!is.na(oba_df$VT_id))]))
+print(paste0("Of ", m_d, " DOIDs, ", m_inter, " (", round(m_inter/m_d*100, 1), "%) were in common with DOIDs mapped to VT terms through OBA."))
+```
+
+
+### MP-VT approach summary
+
+Though phenotypic alleles and mouse trait measure mappings in MPD, 3225 DOIDs were mapped to VT terms.  
+Of these 3225 DOIDs, 1474 (45.7%) were in common with DOIDs mapped to VT terms through OBA.  
+
+### Pathway 
+
+```{r}
+print(paste0("Of ", length(unique(oba_df$DOID)), " DOIDs mapped to MONDO, ", length(unique(oba_df$DOID[!is.na(oba_df$OMIM_id)])), " had OMIM mappings and ", length(unique(oba_df$DOID[!is.na(oba_df$HP_id)])), " had OMIM-HP mappings."))
+```
+
+Of 9815 DOIDs mapped to MONDO, 3642 had OMIM mappings and 3455 had OMIM-HP mappings.
+
+```{r}
+print(paste0("Of ", length(unique(disease$DOID)), " annotated to human genes, ", length(unique(mp_vt$DOID)), " mapped to MP terms and to VT terms through MPD trait measures."))
+print(paste0("Of these ", length(unique(disease$DOID)), " DOIDs annotated to human genes, ", length(intersect(oba_df$DOID[!is.na(oba_df$VT_id)], disease$DOID)), " were also mapped to VT terms via OBA."))
+```
+
+Of 5835 DOIDs annotated to human genes in AGR, 3225 mapped to MP & VT terms through MPD trait measures.  
+And, of these 5835 DOIDs annotated to human genes, 3048 were also mapped to VT terms via OBA.  
+
+### In common
+
+Consider only those OBA mappings that also mapped to VT terms in MPD
+
+```{r}
+doids <- union(mp_vt$DOID, oba_df$DOID[which(oba_df$VT_id %in% vt_mpd)])
+df <- data.frame()
+for (id in doids) {
+  vt1 <- unique(mp_vt$ont_term[which(mp_vt$DOID==id)])
+  n1 <- length(vt1)
+  vt2 <- unique(oba_df$VT_id[which(oba_df$DOID==id & !is.na(oba_df$VT_id))])
+  n2 <- length(vt2)
+  vt3 <- intersect(vt2, terms$ont_term)
+  n3 <- length(vt3)
+  ncommon <- length(intersect(vt1, vt2))
+  ncommon_mpd <- length(intersect(vt1, vt3))
+  p1 <- p2 <- p3 <- 0
+  if (ncommon > 0) {
+      p1 <- round(ncommon/n1*100, 1)
+      p2 <- round(ncommon/n2*100, 1)
+      p3 <- round(ncommon_mpd/n3*100, 1)
+  }
+  df <- rbind(df, data.frame(DOID=id, ncommon_MPD=ncommon_mpd, ncommon=ncommon, num_1=n1, num_2=n2, num_3=n3, per_1=p1, per_2=p2, per_3=p3))
+}
+```
+
+```{r}
+dd <- df[, c(1,2,4,6,7,9)]
+colnames(dd) <- c("DOID", "ncommon_VT", "num_VT_MP", "num_VT_OBA", "percent_common_VT_MP", "percent_common_VT_OBA")
+dd <- merge(dd, disease[, c("DOID", "DOtermName")], all.x=T, all.y=F, sort=F)
+dd <- unique(dd)
+summary(dd[, -c(1,7)])
+```
+
+```{r}
+any(is.na(dd$DOID))
+print(paste0("Using both approaches, we identified VT terms for ", nrow(dd), " DOIDs."))
+both <- which(dd$DOID %in% oba_df$DOID[which(oba_df$VT_id %in% vt_mpd)] & dd$DOID %in% mp_vt$DOID)
+print(paste0(length(both), " DOIDs were mapped to VT terms with both approaches."))
+print(paste0("Of these ", length(both), " DOIDs, ", length(which(dd$ncommon_VT > 0)), " (", round(length(which(dd$ncommon_VT > 0))/length(both)*100,1), "%) mapped to at least one of the same VT terms."))
+
+ds <- dd[intersect(which(dd$num_VT_OBA > 0), both), ]
+print(paste0("Of these ", length(both), " DOIDs, ", length(which(ds$ncommon_VT > 0)), " (", round(length(which(ds$ncommon_VT > 0))/length(both)*100,1), "%) mapped to at least one of the same VT terms."))
+```
+
+Using both approaches, we identified VT terms for 5457 DOIDs.  
+1872 of these 5457 DOIDs were mapped to VT terms with both approaches.  
+Of these 1872 DOIDs, 799 (42.7%) mapped to at least one of the same VT terms.
+
+
+```{r}
+ds %>% 
+  arrange(desc(ncommon_VT), desc(percent_common_VT_OBA), desc(percent_common_VT_MP))
+```
+## Coverage in MPD
+
+```{r}
+doids <- unique(oba_df$DOID[which(oba_df$VT_id %in% vt_mpd)])
+vt_meas <- unique(terms$measnum[grep("^VT", terms$ont_term)])
+nmeas <- length(vt_meas)
+n <- length(unique(terms$measnum))
+oba_meas <- unique(terms$measnum[which(terms$ont_term %in% oba_df$VT_id)])
+n_oba <- length(oba_meas)
+print(paste0(length(doids), " DOIDs annotated to VT terms by OBA semantic mappings comprise ", round(n_oba/nmeas*100, 1), "% of trait measures in MPD annotated to VT terms"))
+```
+

@@ -6,7 +6,10 @@ repo: bio-attribute-ontology
 edit_format: obo
 release_diff: TRUE
 use_dosdps: TRUE
+dosdp_tools_options: "--obo-prefixes=true --prefixes=config/prefixes.yaml"
+remove_owl_nothing: TRUE
 use_templates: TRUE
+import_component_format: ofn
 export_formats:
   - owl
   - obo
@@ -15,29 +18,77 @@ release_artefacts:
   - base
   - full
   - basic
+  - baseplus
 primary_release: full
 import_group:
+  use_base_merging: TRUE
+  exclude_iri_patterns:
+    - <http://purl.obolibrary.org/obo/GOCHE_*>
+    - <http://purl.obolibrary.org/obo/NCBITaxon_Union_*>
+    - <http://www.informatics.jax.org/marker/MGI:*>
+    - <http://purl.obolibrary.org/obo/CARO_*>
+    - <http://purl.obolibrary.org/obo/ECTO_*>
+    - <http://purl.obolibrary.org/obo/ENVO_*>
+    - <http://purl.obolibrary.org/obo/MF_*>
+    - <http://purl.obolibrary.org/obo/NCIT_*>
+    - <http://purl.obolibrary.org/obo/OGMS_*>
+    - <http://purl.obolibrary.org/obo/UPHENO_*>
+    - <http://purl.obolibrary.org/obo/OBI_*>
+    - <http://purl.obolibrary.org/obo/HsapDv_*>
+    - <http://purl.obolibrary.org/obo/MPATH_*>
+    - <http://www.geneontology.org/formats/*>
+    - <http://purl.org/dc/*>
+    - <http://swrl.stanford.edu/ontologies/*>
+    - <http://identifiers.org/hgnc/*>
+    - <http://www.genenames.org/cgi-bin/gene_symbol_report*>
+    - <http://www.ncbi.nlm.nih.gov/gene/*>
   products:
     - id: ro
+      use_base: True
     - id: chebi
+      make_base: TRUE
       mirror_from: https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl
+    - id: goplus
+      mirror_from: http://purl.obolibrary.org/obo/go/go-base.owl
+      base_iris:
+        - http://purl.obolibrary.org/obo/GOCHE_
+        - http://purl.obolibrary.org/obo/GO_
+        - http://purl.obolibrary.org/obo/GOREL_
     - id: go
+      make_base: TRUE
+      base_iris:
+        - http://purl.obolibrary.org/obo/GOCHE_
+        - http://purl.obolibrary.org/obo/GO_
+        - http://purl.obolibrary.org/obo/GOREL_
     - id: pato
+      use_base: True
     - id: omo
+      use_base: True
     - id: hp
-      module_type: custom
+      use_base: True
     - id: mondo
+      use_base: True
+    - id: ncbitaxon
+      mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
     - id: uberon
-      mirror_from: http://purl.obolibrary.org/obo/uberon/basic.owl
+      make_base: True
     - id: cl
-      mirror_from: http://purl.obolibrary.org/obo/cl/cl-basic.owl
+      make_base: True
     - id: nbo
+      use_base: True
     - id: pr
       make_base: TRUE
       mirror_from: https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl
     - id: so
+      make_base: TRUE
     - id: po
-#Not an offical component, so we should not merge it along with the rest
+      make_base: TRUE
+    - id: bfo
+      make_base: TRUE
+    - id: swisslipids
+      mirror_type: custom
+    - id: lipidmaps
+      mirror_type: custom
 components:
   products:
     - filename: obsoletes.owl
