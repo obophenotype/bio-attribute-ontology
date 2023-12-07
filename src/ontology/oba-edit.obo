@@ -1302,6 +1302,14 @@ created_by: cjmungall
 creation_date: 2015-09-29T15:36:19Z
 
 [Term]
+id: OBA:1000373
+name: neurotransmitter metabolic process quality
+def: "The quality of a neurotransmitter metabolic process." []
+synonym: "quality of neurotransmitter metabolic process" EXACT []
+is_a: OBA:0100002 ! biological process attribute
+created_by: https://orcid.org/0000-0001-8314-2140
+
+[Term]
 id: OBA:1001086
 name: QRS duration
 comment: See also EFO_0005054

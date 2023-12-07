@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/oba/components/obsoletes.owl>
-<http://purl.obolibrary.org/obo/oba/releases/2023-09-07/components/obsoletes.owl>
-Annotation(owl:versionInfo "2023-09-07")
+<http://purl.obolibrary.org/obo/oba/releases/2023-12-05/components/obsoletes.owl>
+Annotation(owl:versionInfo "2023-12-05")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000039>))

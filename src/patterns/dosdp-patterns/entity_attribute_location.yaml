@@ -1,7 +1,7 @@
 pattern_name: entity_attribute_location
 pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/entity_attribute_location.yaml
 
-description: '  Basic pattern for traits that captures a quality, such as size
+description: 'Basic pattern for traits that captures a quality, such as size
   or rate which is a characteristic of an entity, such as an anatomical entity,
   in some location.'
 
@@ -16,17 +16,23 @@ relations:
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
+  broad_synonym: oio:hasBroadSynonym
+  narrow_synonym: oio:hasNarrowSynonym
   related_synonym: oio:hasRelatedSynonym
   xref: oio:hasDbXref
   contributor: dct:contributor
+  example_of_usage: obo:IAO_0000112
 
 vars:
   attribute: "'quality'"
   location: "'thing'"
   entity: "'thing'"
+  usage_notes: xsd:string
 
 data_list_vars:
   exact_synonyms: xsd:string
+  broad_synonyms: xsd:string
+  narrow_synonyms: xsd:string
   xrefs: xsd:anyURI
   orcid: xsd:anyURI  # ORCID of contributor
 
@@ -61,8 +67,19 @@ annotations:
   - annotationProperty: contributor
     value: orcid
 
+  - annotationProperty: example_of_usage
+    text: "%s"
+    vars:
+      - usage_notes
+
 exact_synonym:
   value: exact_synonyms
+
+broad_synonym:
+  value: broad_synonyms
+
+narrow_synonym:
+  value: narrow_synonyms
 
 xref:
   value: xrefs
