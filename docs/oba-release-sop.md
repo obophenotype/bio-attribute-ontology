@@ -47,9 +47,6 @@ sh run.sh make prepare_release -B
 - Open in Protege some of the OBA release artefacts and check for any potential errors.
 For example, check if there are any unsatisfiable classes in `oba.obo`.
 
-
-GitHub imposes some size constraints. The size of all the OBA artefacts exceeds the GitHub imposed size limit, but you can attach all the release artefacts as binary files to the release product.
-
 - Create a pull request and get another pair of eyes to review it.
 - Merge your `release-202X-XX-XX` branch into the master branch once approved by a reviewer and all the automatic quality control checks passed.
 
@@ -74,7 +71,7 @@ Use the [github web interface](https://docs.github.com/repositories/releasing-pr
     14. oba.obo
     15. oba.owl
 
-- NOTE: some of these large files are not under GitHub version control, but they all need to be included in the release as binary files. For background information on release artefacts, see
+- NOTE: GitHub imposes size constraints on repositories. The combined size of the OBA artefacts exceeds the GitHub imposed size limit. For this reason, some of the large release artefact files are not under GitHub version control. However, **all the 15 files need to be included in the public release as binary files**. For background information on release artefacts, see
     - [OWL, OBO, JSON? Base, simple, full, basic? What should you use, and why?](https://oboacademy.github.io/obook/explanation/owl-format-variants/)
     - [Release artefacts](https://oboacademy.github.io/obook/reference/release-artefacts/)
 
