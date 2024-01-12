@@ -15,5 +15,3 @@ Mamm Genome. 2023 Apr.
 
 
 See also [Zenodo.](https://zenodo.org/badge/latestdoi/13996/obophenotype/bio-attribute-ontology)
-
-).
