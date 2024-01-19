@@ -53,6 +53,9 @@ name:
     - attribute1
     - attribute2
 
+  - annotationProperty: contributor
+    value: orcid
+
 def:
   text: "A compound attribute of %s which is the combination of %s and %s."
   vars:
