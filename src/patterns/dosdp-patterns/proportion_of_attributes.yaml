@@ -1,15 +1,18 @@
 ﻿pattern_name: proportion_of_attributes
 pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/proportion_of_attributes.yaml
 
-description: 'Use this pattern for traits that that depend on the proportions,
-  ratios, or inverse ratios of two measurable attributes. Although calculating
-  a ratio is not commutative, the trait category as defined here is indifferent
-  about the direction of the ratio between the two quantifiable attributes,
-  i.e. A:B and B:A are assumed to represent reciprocal aspects of the same
-  abstract biological attribute that share the same genetic determinants. For
-  example, the sodium to potassium ratio is assumed to have the same genetic
-  determinants in an organism than the potassium to sodium ratio, and the
-  resulting reciprocal values are not independent from each other.'
+description: 'Use this pattern for traits that that depend on the
+    proportions (ratios, or inverse ratios) of two measurable
+    attributes. Although calculating a ratio is not commutative, the
+    trait category as defined here is indifferent about the direction of
+    the ratio between the two quantifiable attributes, i.e. A:B and B:A
+    are assumed to represent reciprocal aspects of the same
+    proportionality (as an abstract biological attribute) that share the
+    same genetic determinants.
+    For example, the sodium to potassium ratio is assumed to have the
+    same genetic determinants in an organism as the potassium to sodium
+    ratio, and the resulting reciprocal values are genetically not
+    independent from each other.'
 
 # examples
 # http://www.ebi.ac.uk/efo/EFO_0009884	# urinary sodium to potassium ratio
@@ -29,7 +32,7 @@ classes:
 
 relations:
   has_part: BFO:0000051
-
+  characteristic_of_part_of: RO:0002314
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
@@ -37,6 +40,7 @@ annotationProperties:
   xref: oio:hasDbXref
 
 vars:
+  entity: "'thing'"
   attribute1: "'quality'"
   attribute2: "'quality'"
 
@@ -44,35 +48,51 @@ data_list_vars:
   orcid: xsd:anyURI  # ORCID of contributor
 
 name:
-  text: "%s to %s ratio or inverse ratio"
+  text: "%s and %s proportionality in %s"
   vars:
     - attribute1
     - attribute2
+    - entity
 
 def:
-  text: "A trait that affects the ratio or inverse ratio of %s to %s."
+  text: "A trait that affects the proportionality of %s to %s in %s."
   vars:
     - attribute1
     - attribute2
+    - entity
   annotations:
     - annotationProperty: xref
       text: "AUTO:patterns/patterns/proportion_of_attributes"
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "ratio or inverse ratio of %s to %s"
+    text: "the proportionality of %s to %s in %s"
     vars:
       - attribute1
       - attribute2
+      - entity
+    annotations:
+      - annotationProperty: xref
+        text: "AUTO:patterns/patterns/proportion_of_attributes"
+  - annotationProperty: exact_synonym
+    text: "%s to %s or %s to %s ratio in %s"
+    vars:
+      - attribute1
+      - attribute2
+      - attribute2
+      - attribute1
+      - entity
     annotations:
       - annotationProperty: xref
         text: "AUTO:patterns/patterns/proportion_of_attributes"
 
 
 equivalentTo:
-  text: "'proportionality_to'
+  text: "('proportionality_to'
     and ('has_part' some %s)
-    and ('has_part' some %s)"
+    and ('has_part' some %s))
+    and ('characteristic_of_part_of' some %s)"
   vars:
     - attribute1
     - attribute2
+    - entity

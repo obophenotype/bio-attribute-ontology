@@ -2,7 +2,7 @@
 pattern_name: compound_attributes
 pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/compound_attributes
 
-description: 'Use this pattern to create compound attributes where
+description: 'Use this pattern to create compound biological attributes where
     an attribute has two primitive quality components. For example, a
     length ratio can be modelled as having two components:
     1. PATO:0000122 length.
@@ -24,9 +24,11 @@ contributors:
 
 classes:
   quality: PATO:0000001
+  thing: owl:Thing
 
 relations:
   has_part: BFO:0000051
+  characteristic_of_part_of: RO:0002314
 
 
 annotationProperties:
@@ -35,6 +37,7 @@ annotationProperties:
   xref: oio:hasDbXref
 
 vars:
+  entity: "'thing'"
   attribute1: "'quality'"
   attribute2: "'quality'"
 
@@ -42,14 +45,16 @@ data_list_vars:
   orcid: xsd:anyURI  # ORCID of contributor
 
 name:
-  text: "%s %s"
+  text: "%s %s %s"
   vars:
+    - entity
     - attribute1
     - attribute2
 
 def:
-  text: "A compound quality which is the combination of %s and %s."
+  text: "A compound attribute of %s which is the combination of %s and %s."
   vars:
+    - entity
     - attribute1
     - attribute2
   annotations:
@@ -58,18 +63,20 @@ def:
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "%s of %s"
+    text: "%s of %s of %s"
     vars:
       - attribute2
       - attribute1
+      - entity
     annotations:
       - annotationProperty: xref
         text: "AUTO:patterns/patterns/proportion_of_attributes"
 
 
 equivalentTo:
-  text: "%s
-    and ('has_part' some %s)"
+  text: "(%s and ('has_part' some %s))
+    and ('characteristic_of_part_of' some %s)"
   vars:
     - attribute1
     - attribute2
+    - entity
