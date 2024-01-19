@@ -56,9 +56,6 @@ name:
     - attribute2
     - entity
 
-  - annotationProperty: contributor
-    value: orcid
-
 def:
   text: "A trait that affects the proportionality of %s to %s in %s."
   vars:
@@ -90,6 +87,9 @@ annotations:
     annotations:
       - annotationProperty: xref
         text: "AUTO:patterns/patterns/proportion_of_attributes"
+
+  - annotationProperty: contributor
+    value: orcid
 
 exact_synonym:
   value: exact_synonyms
