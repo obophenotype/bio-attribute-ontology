@@ -1,0 +1,78 @@
+﻿pattern_name: proportion_of_attributes
+pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/proportion_of_attributes.yaml
+
+description: 'Use this pattern for traits that that depend on the proportions,
+  ratios, or inverse ratios of two measurable attributes. Although calculating
+  a ratio is not commutative, the trait category as defined here is indifferent
+  about the direction of the ratio between the two quantifiable attributes,
+  i.e. A:B and B:A are assumed to represent reciprocal aspects of the same
+  abstract biological attribute that share the same genetic determinants. For
+  example, the sodium to potassium ratio is assumed to have the same genetic
+  determinants in an organism than the potassium to sodium ratio, and the
+  resulting reciprocal values are not independent from each other.'
+
+# examples
+# http://www.ebi.ac.uk/efo/EFO_0009884	# urinary sodium to potassium ratio
+# http://www.ebi.ac.uk/efo/EFO_0005191	# waist height ratio
+# http://www.ebi.ac.uk/efo/EFO_0004767	# visceral:subcutaneous adipose tissue ratio
+
+
+contributors:
+  - https://orcid.org/0000-0001-6757-4744  # Arwa Ibrahim
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
+
+
+classes:
+  proportionality_to: PATO:0001470
+  quality: PATO:0000001
+
+relations:
+  has_part: BFO:0000051
+
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+  xref: oio:hasDbXref
+
+vars:
+  attribute1: "'quality'"
+  attribute2: "'quality'"
+
+data_list_vars:
+  orcid: xsd:anyURI  # ORCID of contributor
+
+name:
+  text: "%s to %s ratio or inverse ratio"
+  vars:
+    - attribute1
+    - attribute2
+
+def:
+  text: "A trait that affects the ratio or inverse ratio of %s to %s."
+  vars:
+    - attribute1
+    - attribute2
+  annotations:
+    - annotationProperty: xref
+      text: "AUTO:patterns/patterns/proportion_of_attributes"
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "ratio or inverse ratio of %s to %s"
+    vars:
+      - attribute1
+      - attribute2
+    annotations:
+      - annotationProperty: xref
+        text: "AUTO:patterns/patterns/proportion_of_attributes"
+
+
+equivalentTo:
+  text: "'proportionality_to'
+    and ('has_part' some %s)
+    and ('has_part' some %s)"
+  vars:
+    - attribute1
+    - attribute2
