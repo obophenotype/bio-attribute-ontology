@@ -46,6 +46,8 @@ vars:
 
 data_list_vars:
   orcid: xsd:anyURI  # ORCID of contributor
+  exact_synonyms: xsd:string  # add a list of exact synonyms
+  xrefs: xsd:anyURI  # add a list of external references
 
 name:
   text: "%s and %s proportionality in %s"
@@ -86,6 +88,11 @@ annotations:
       - annotationProperty: xref
         text: "AUTO:patterns/patterns/proportion_of_attributes"
 
+exact_synonym:
+  value: exact_synonyms
+
+xref:
+  value: xrefs
 
 equivalentTo:
   text: "('proportionality_to'
