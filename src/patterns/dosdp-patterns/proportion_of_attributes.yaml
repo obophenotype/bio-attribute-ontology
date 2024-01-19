@@ -38,6 +38,7 @@ annotationProperties:
   exact_synonym: oio:hasExactSynonym
   related_synonym: oio:hasRelatedSynonym
   xref: oio:hasDbXref
+  contributor: dct:contributor
 
 vars:
   entity: "'thing'"
