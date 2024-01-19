@@ -4342,9 +4342,9 @@ OBA:2045295	brain connectivity attribute	UBERON:0000955	brain	PATO:0000141	struc
 OBA:2045296	defense response to other organism process attribute	GO:0098542	defense response to other organism	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045328	DNA methylation level	GO:0006306	DNA methylation	PATO:0002062	physical quality of a process 			https://orcid.org/0000-0001-8314-2140
 OBA:2045372	gestational blood glucose level	UBERON:0009097	gravid organism	OBA:VT0000188	blood glucose amount			https://orcid.org/0000-0001-8314-2140
-OBA:2045389	leukocyte ratio	CL:0000738	leukocyte	PATO:0001470	proportionality to			https://orcid.org/0000-0001-8314-2140
-OBA:2045390	basophil ratio	CL:0000767	basophil	PATO:0001470	proportionality to			https://orcid.org/0000-0001-8314-2140
-OBA:2045391	eosinophil ratio	CL:0000771	eosinophil	PATO:0001470	proportionality to			https://orcid.org/0000-0001-8314-2140
+OBA:2045389	leukocyte ratio	CL:0000738	leukocyte	OBA:2045457	quantity ratio			https://orcid.org/0000-0001-8314-2140
+OBA:2045390	basophil ratio	CL:0000767	basophil	OBA:2045457	quantity ratio			https://orcid.org/0000-0001-8314-2140
+OBA:2045391	eosinophil ratio	CL:0000771	eosinophil	OBA:2045457	quantity ratio			https://orcid.org/0000-0001-8314-2140
 OBA:2045406		CL:0002535	epithelial cell of cervix	PATO:0000051	morphology			https://orcid.org/0000-0001-8314-2140
 OBA:2045407	response to bacterium process attribute	GO:0009617	response to bacterium	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045408	amniotic fluid pH	UBERON:0000173	amniotic fluid	PATO:0001842	acidity			https://orcid.org/0000-0001-8314-2140
