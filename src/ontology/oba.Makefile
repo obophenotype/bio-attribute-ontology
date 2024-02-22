@@ -78,24 +78,16 @@ $(MIRRORDIR)/lipidmaps.owl: $(TEMPLATEDIR)/lipidmaps.tsv
 		$(ANNOTATE_CONVERT_FILE); fi
 
 # FULL is overwritten because it needs materialize
-# TODO: Remove the "remove --axiom equivalent" step if 
-# GO team decides to add QC: https://github.com/obophenotype/bio-attribute-ontology/issues/313
 $(ONT)-full.owl: $(SRC) $(OTHER_SRC)
 	echo "INFO: Running FULL release, which is customised for OBA."
 	$(ROBOT) merge --input $< \
-		merge -i components/reasoner_axioms.owl \
-		rename --mapping PR:000000001 CHEBI:36080 \
-			   --mapping SO:0000252 CHEBI:18111 \
-			   --mapping SO:0000234 CHEBI:33699 \
-		remove --term GO:0005737 --term GO:0005840 --term GO:0099738 \
-			--term GO:0045787 --term GO:0051726 --term GO:0099522 \
-			--term GO:0010948 --term GO:0090068 --term GO:0010564 \
-			--axioms "equivalent" \
 		reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
+		remove --term PR:000000001 \
+			   --term SO:0000252 \
+			   --term SO:0000234 \
 		reason --reasoner ELK --equivalent-classes-allowed none --exclude-tautologies structural \
 		relax \
 		reduce -r ELK \
-		unmerge -i components/reasoner_axioms.owl \
 		materialize -T basic_properties.txt \
 		reduce -r ELK \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
