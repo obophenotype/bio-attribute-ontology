@@ -81,12 +81,15 @@ $(MIRRORDIR)/lipidmaps.owl: $(TEMPLATEDIR)/lipidmaps.tsv
 $(ONT)-full.owl: $(SRC) $(OTHER_SRC)
 	echo "INFO: Running FULL release, which is customised for OBA."
 	$(ROBOT) merge --input $< \
-		merge -i components/reasoner_axioms.owl \
-		materialize -T basic_properties.txt \
-		reason --reasoner ELK --equivalent-classes-allowed all --exclude-tautologies structural \
+		reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
+		remove --term PR:000000001 \
+			   --term SO:0000252 \
+			   --term SO:0000234 \
+		reason --reasoner ELK --equivalent-classes-allowed none --exclude-tautologies structural \
 		relax \
 		reduce -r ELK \
-		unmerge -i components/reasoner_axioms.owl \
+		materialize -T basic_properties.txt \
+		reduce -r ELK \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
 
 # Synonyms are managed on Google Sheets
@@ -382,6 +385,15 @@ $(TMPDIR)/base_unsat.md: $(TMPDIR)/mirror-all.owl
 .PHONY: base_unsat
 base_unsat: 
 	$(MAKE_FAST) $(TMPDIR)/base_unsat.md
+
+
+EXPLAIN_ONE=GO:0005737
+EXPLAIN_TWO=GO:0099568
+explain_equivalent:
+	$(ROBOT) merge --input oba-edit.obo  -i components/reasoner_axioms.owl \
+		explain --reasoner ELK \
+  		--axiom "$(EXPLAIN_ONE) EquivalentTo $(EXPLAIN_TWO)" \
+  		--explanation $(TMPDIR)/explain_equivalent.md
 
 ##################################
 ##### Utilities ###################
