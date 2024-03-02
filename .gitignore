@@ -62,3 +62,4 @@ src/ontology/run.sh.env
 *.gz
 src/ontology/imports/lipidmaps_import.owl
 src/ontology/imports/swisslipids_import.owl
+src/ontology/debug.log

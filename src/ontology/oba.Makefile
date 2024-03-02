@@ -206,10 +206,10 @@ DOCUMENTATION_PAGES=../../docs/metrics.md \
 					../../docs/oak-metrics.md \
 					../../docs/robot-metrics.md
 
-reports/robot-metrics.yml: oba-baseplus.owl
+reports/robot-metrics.yml: oba-base.owl
 	$(ROBOT) measure -i $< --format yaml --metrics all -o $@
 
-reports/oak-metrics.yml: oba-baseplus.db
+reports/oak-metrics.yml: oba-base.db
 	runoak -i $< statistics --has-prefix OBA > $@
 
 ../../docs/%-metrics.md: config/%-metrics.md.jinja2 reports/%-metrics.yml
@@ -232,7 +232,7 @@ documentation:
 #######################################
 # Here, we compare the structure of OAK with other ontologies
 
-$(TMPDIR)/vt-baseplus.owl: $(TMPDIR)/mirror-vt.owl
+$(TMPDIR)/vt-base.owl: $(TMPDIR)/mirror-vt.owl
 	$(ROBOT_RELEASE_IMPORT_MODE) \
 	reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural \
 	relax \
@@ -243,8 +243,8 @@ $(TMPDIR)/vt-baseplus.owl: $(TMPDIR)/mirror-vt.owl
 		--ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		--output $@.tmp.owl && mv $@.tmp.owl $@
 
-$(REPORTDIR)/oba-vt-diff-simple.yaml: oba-baseplus.owl $(TMPDIR)/vt-baseplus.owl
-	runoak --input sqlite:$< diff-via-mappings -X sqlite:$(TMPDIR)/vt-baseplus.owl --mapping-input ../mappings/oba-vt.sssom.tsv -o $@
+$(REPORTDIR)/oba-vt-diff-simple.yaml: oba-base.owl $(TMPDIR)/vt-base.owl
+	runoak --input sqlite:$< diff-via-mappings -X sqlite:$(TMPDIR)/vt-base.owl --mapping-input ../mappings/oba-vt.sssom.tsv -o $@
 
 .PHONY: oak_diff
 oak_diff: 
@@ -398,4 +398,5 @@ help:
 	echo "* oak_diff:						Generate some OBA specific reports"
 	echo "* oak_match:						Run a bunch of standard OAK matching tasks"
 	echo "* phenotype_mappings:				Recreate the OBA Phenotype mappings"
+
 
