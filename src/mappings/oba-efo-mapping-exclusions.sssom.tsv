@@ -1,9 +1,15 @@
-subject_id	subject_label	predicate_id	object_id	match_type	comment
-EFO:0005514	HER2 status	skos:exactMatch	sssom:NoMapping	HumanCurated	tumor level measurements out of scope for OBA
+subject_id	subject_label	predicate_id	object_id	mapping_justification	comment
+EFO:0005514	HER2 status	skos:exactMatch	sssom:NoMapping	semapv:ManualMappingCuration	tumor level measurements out of scope for OBA
 EFO:0007817	sleep apnea measurement				consider HP:0010535 Sleep apnea
 EFO:0008455	sleep apnea measurement during REM sleep				consider HP:0010535 Sleep apnea
 EFO:0004807	short sleep				consider HP:0033063 Shortened sleep cycle
 EFO:0008456	sleep apnea measurement during non-REM sleep				consider HP:0010535 Sleep apnea
-EFO:0008038	bmi-adjusted hip bone size				
-EFO:0007789	bmi-adjusted waist circumference				
-EFO:0011044	bmi-adjusted neck circumference				
+EFO:0007963	abnormal paneth cell measurement				
+EFO:0007783	mosaic loss of chromosome Y measurement 				
+EFO:0007781	stressful life event measurement				
+EFO:0006882	suicide behaviour measurement				
+EFO:0007744	lung disease severity measurement				
+EFO:0009933	Thyroid preparation use measurement				This EFO term is too ambiguous to be used as a genetic trait.
+EFO:0006800	vascular brain injury measurement				consider MONDO:0005621 vascular brain injury
+EFO:0008421	non-alcoholic fatty liver disease severity measurement				
+EFO:0006799	Lewy body dementia measurement				
