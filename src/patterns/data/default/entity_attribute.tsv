@@ -4386,3 +4386,92 @@ OBA:2050351	breast density	UBERON:0000310	breast	PATO:0001019	mass density	breas
 OBA:VT1000472	subcutaneous adipose mass	UBERON:0002190	subcutaneous adipose tissue	PATO:0000125	mass			https://orcid.org/0000-0001-8314-2140
 OBA:VT0010482	body fat mass	UBERON:0001013	adipose tissue	PATO:0000125	mass			https://orcid.org/0000-0001-8314-2140
 OBA:2050418	voice quality trait	UBERON:0034681	vocal organ	PATO:0001519	sound quality		PMID:37294764	https://orcid.org/0000-0001-6757-4744
+OBA:2045461	cell wall morphology	GO:0005618	cell wall	PATO:0000051	morphology			https://orcid.org/0000-0001-8314-2140 
+OBA:2045462	bud neck morphology	GO:0005935	cellular bud neck	PATO:0000051	morphology			https://orcid.org/0000-0001-8314-2140 
+OBA:2045463	bud morphology	GO:0005933	cellular bud	PATO:0000051	morphology			https://orcid.org/0000-0001-8314-2140 
+OBA:2045464	vacuolar morphology	GO:0005773	vacuole	PATO:0000051	morphology			https://orcid.org/0000-0001-8314-2140 
+OBA:2045465	actin cytoskeleton morphology	GO:0015629	actin cytoskeleton	PATO:0000051	morphology			https://orcid.org/0000-0001-8314-2140 
+OBA:2045466	spindle morphology	GO:0005819	spindle	PATO:0000051	morphology			https://orcid.org/0000-0001-8314-2140 
+OBA:2045467	nuclear position	GO:0005634	nucleus	PATO:0000140	position			https://orcid.org/0000-0001-8314-2140 
+OBA:2045468	position of spindle pole body	GO:0005816	spindle pole body	PATO:0000140	position			https://orcid.org/0000-0001-8314-2140 
+OBA:2045469	response to external stimulus trait	GO:0009605	response to external stimulus	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045470	mitochondrial genome maintenance trait	GO:0000002	mitochondrial genome maintenance	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045471	cell budding trait	GO:0007114	cell budding	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045472	traversing start control point of mitotic cell cycle trait	GO:0007089	traversing start control point of mitotic cell cycle	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045473	G2/M transition of mitotic cell cycle trait	GO:0000086	G2/M transition of mitotic cell cycle	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045474	metaphase/anaphase transition of mitotic cell cycle trait	GO:0007091	metaphase/anaphase transition of mitotic cell cycle	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045475	cell cycle trait	GO:0007049	cell cycle	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045476	mitotic G2 phase trait	GO:0000085	mitotic G2 phase	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045477	mitotic G1 phase trait	GO:0000080	mitotic G1 phase	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045478	mitotic M phase trait	GO:0000087	mitotic M phase	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045479	mitotic anaphase trait	GO:0000090	mitotic anaphase	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045480	mitotic anaphase A trait	GO:0000091	mitotic anaphase A	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045481	mitotic anaphase B trait	GO:0000092	mitotic anaphase B	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045482	mitotic metaphase trait	GO:0000089	mitotic metaphase	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045483	mitotic telophase trait	GO:0000093	mitotic telophase	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045484	mitotic S phase trait	GO:0000084	mitotic S phase	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045485	G1 to G0 transition trait	GO:0070314	G1 to G0 transition	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045486	G0 to G1 transition trait	GO:0045023	G0 to G1 transition	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045487	cell cycle G1/S phase transition trait	GO:0044843	cell cycle G1/S phase transition	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045488	cellular respiration trait	GO:0045333	cellular respiration	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045489	ascospore wall assembly trait	GO:0030476	ascospore wall assembly	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045490	cell growth trait	GO:0016049	cell growth	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045491	mitochondrial transport trait	GO:0006839	mitochondrial transport	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045492	fermentation trait	GO:0006113	fermentation	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045493	catalytic activity trait	GO:0003824	catalytic activity	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045494	filamentous growth trait	GO:0030447	filamentous growth	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045495	invasive filamentous growth trait	GO:0036267	invasive filamentous growth	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045496	pseudohyphal growth trait	GO:0007124	pseudohyphal growth	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045497	response to pheromone trait	GO:0019236	response to pheromone	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045498	cell-cell fusion trait	GO:0140253	cell-cell fusion	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045499	nuclear membrane fusion involved in karyogamy trait	GO:0048288	nuclear membrane fusion involved in karyogamy	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045500	pheromone biosynthetic process trait	GO:0042811	pheromone biosynthetic process	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045501	mating projection formation trait	GO:0031382	mating projection formation	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045502	meiotic cell cycle trait	GO:0051321	meiotic cell cycle	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045503	reciprocal meiotic recombination trait	GO:0007131	reciprocal meiotic recombination	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045504	sporulation trait	GO:0043934	sporulation	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045505	spore germination trait	GO:0009847	spore germination	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045506	heterochromatin formation trait	GO:0031507	heterochromatin formation	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045507	DNA transposition trait	GO:0006313	DNA transposition	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045508	flocculation trait	GO:0000128	flocculation	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045509	cytokinesis trait	GO:0000910	cytokinesis	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045510	mitotic cell cycle trait	GO:0000278	mitotic cell cycle	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045511	intracellular transport trait	GO:0046907	intracellular transport	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045512	autophagy trait	GO:0006914	autophagy	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045513	endocytosis trait	GO:0006897	endocytosis	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045514	nuclear transport trait	GO:0051169	nuclear transport	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045515	protein secretion trait	GO:0009306	protein secretion	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045516	vacuolar transport trait	GO:0007034	vacuolar transport	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045517	response to nutrient levels trait	GO:0031667	response to nutrient levels	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045518	carbon utilization trait	GO:0015976	carbon utilization	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045519	nitrogen utilization trait	GO:0019740	nitrogen utilization	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045520	import across plasma membrane trait	GO:0098739	import across plasma membrane	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045521	re-entry into mitotic cell cycle after pheromone arrest trait	GO:0000321	re-entry into mitotic cell cycle after pheromone arrest	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045522	mitotic cell cycle G1 arrest in response to pheromone trait	GO:0000751	mitotic cell cycle G1 arrest in response to pheromone	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045523	phosphorus utilization trait	GO:0006794	phosphorus utilization	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045524	import into nucleus trait	GO:0051170	import into nucleus	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045525	nuclear export trait	GO:0051168	nuclear export	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045526	peroxisomal transport trait	GO:0043574	peroxisomal transport	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045527	intracellular protein transport trait	GO:0006886	intracellular protein transport	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045528	transport trait	GO:0006810	transport	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045529	protein modification process trait	GO:0036211	protein modification process	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045530	RNA localization trait	GO:0006403	RNA localization	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045531	chromosome organization trait	GO:0051276	chromosome organization	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045532	oxidative phosphorylation trait	GO:0006119	oxidative phosphorylation	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045533	apoptotic process trait	GO:0006915	apoptotic process	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045534	biofilm formation trait	GO:0042710	biofilm formation	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045535	mating type switching trait	GO:0007533	mating type switching	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045536	chromosome segregation trait	GO:0007059	chromosome segregation	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045537	sulfur utilization trait	GO:0006791	sulfur utilization	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045538	programmed necrotic cell death trait	GO:0097300	programmed necrotic cell death	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045539	septin ring assembly trait	GO:0000921	septin ring assembly	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045540	excretion trait	GO:0007588	excretion	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045541	mitotic recombination trait	GO:0006312	mitotic recombination	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045542	pexophagy trait	GO:0000425	pexophagy	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045543	mitophagy trait	GO:0000423	mitophagy	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045544	RNA modification trait	GO:0009451	RNA modification	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045545	cell adhesion trait	GO:0007155	cell adhesion	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045546	cell death trait	GO:0008219	cell death	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045547	nucleophagy trait	GO:0044804	nucleophagy	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045548	ribophagy trait	GO:0034517	ribophagy	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
+OBA:2045549	reticulophagy trait	GO:0061709	reticulophagy	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140 
