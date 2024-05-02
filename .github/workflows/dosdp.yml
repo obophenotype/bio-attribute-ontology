@@ -20,7 +20,7 @@ jobs:
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
         
       - name: Refreshing DOSDP patterns files
-        run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' GITHUB_ACTION=true IMP=false MIR=false ../patterns/definitions.owl
+        run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' GITHUB_ACTION=true ../patterns/definitions.owl
       - name: Run ontology QC checks
         run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' test IMP=false
       - name: Commit changes
