@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                3b7e0be2793a42ca3012d08b0361b35e395cef623016343419885cd3b92726fc
+CONFIG_HASH=                31a19cbca2dec0e34f473f68ca8e697329ed2912b03c3934a36766b6e2dc7ee6
 
 
 # ----------------------------------------
@@ -382,7 +382,7 @@ $(IMPORTDIR)/merged_terms_combined.txt: $(ALL_TERMS_COMBINED)
 
 $(IMPORTDIR)/merged_import.owl: $(MIRRORDIR)/merged.owl $(IMPORTDIR)/merged_terms_combined.txt
 	if [ $(IMP) = true ]; then $(ROBOT) merge -i $< \
-		remove  --select "<http://purl.obolibrary.org/obo/GOCHE_*>" remove  --select "<http://purl.obolibrary.org/obo/NCBITaxon_Union_*>" remove  --select "<http://www.informatics.jax.org/marker/MGI:*>" remove  --select "<http://purl.obolibrary.org/obo/CARO_*>" remove  --select "<http://purl.obolibrary.org/obo/ECTO_*>" remove  --select "<http://purl.obolibrary.org/obo/ENVO_*>" remove  --select "<http://purl.obolibrary.org/obo/MF_*>" remove  --select "<http://purl.obolibrary.org/obo/NCIT_*>" remove  --select "<http://purl.obolibrary.org/obo/OGMS_*>" remove  --select "<http://purl.obolibrary.org/obo/UPHENO_*>" remove  --select "<http://purl.obolibrary.org/obo/OBI_*>" remove  --select "<http://purl.obolibrary.org/obo/HsapDv_*>" remove  --select "<http://purl.obolibrary.org/obo/MPATH_*>" remove  --select "<http://www.geneontology.org/formats/*>" remove  --select "<http://purl.org/dc/*>" remove  --select "<http://swrl.stanford.edu/ontologies/*>" remove  --select "<http://identifiers.org/hgnc/*>" remove  --select "<http://www.genenames.org/cgi-bin/gene_symbol_report*>" remove  --select "<http://www.ncbi.nlm.nih.gov/gene/*>"  \
+		remove  --select "<http://purl.obolibrary.org/obo/GOCHE_*>" remove  --select "<http://purl.obolibrary.org/obo/NCBITaxon_Union_*>" remove  --select "<http://www.informatics.jax.org/marker/MGI:*>" remove  --select "<http://purl.obolibrary.org/obo/CARO_*>" remove  --select "<http://purl.obolibrary.org/obo/ECTO_*>" remove  --select "<http://purl.obolibrary.org/obo/ENVO_*>" remove  --select "<http://purl.obolibrary.org/obo/MF_*>" remove  --select "<http://purl.obolibrary.org/obo/NCIT_*>" remove  --select "<http://purl.obolibrary.org/obo/OGMS_*>" remove  --select "<http://purl.obolibrary.org/obo/UPHENO_*>" remove  --select "<http://purl.obolibrary.org/obo/OBI_*>" remove  --select "<http://purl.obolibrary.org/obo/HsapDv_*>" remove  --select "<http://purl.obolibrary.org/obo/MPATH_*>" remove  --select "<http://purl.obolibrary.org/obo/MOD_*>" remove  --select "<http://www.geneontology.org/formats/*>" remove  --select "<http://purl.org/dc/*>" remove  --select "<http://swrl.stanford.edu/ontologies/*>" remove  --select "<http://identifiers.org/hgnc/*>" remove  --select "<http://www.genenames.org/cgi-bin/gene_symbol_report*>" remove  --select "<http://www.ncbi.nlm.nih.gov/gene/*>"  \
 		extract -T $(IMPORTDIR)/merged_terms_combined.txt --force true --copy-ontology-annotations true --individuals include --method BOT \
 		remove $(patsubst %, --term %, $(ANNOTATION_PROPERTIES)) -T $(IMPORTDIR)/merged_terms_combined.txt --select complement --select annotation-properties \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
@@ -818,7 +818,7 @@ ROBOT_RELEASE_IMPORT_MODE_BASE=$(ROBOT) remove --input $< --select imports --tri
 # base: A version of the ontology that does not include any externally imported axioms.
 $(ONT)-base.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 	$(ROBOT_RELEASE_IMPORT_MODE) \
-	reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural --annotate-inferred-axioms False \
+	reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural --annotate-inferred-axioms false \
 	relax \
 	reduce -r ELK \
 	remove --base-iri $(URIBASE)/OBA --axioms external --preserve-structure false --trim false \
@@ -839,7 +839,7 @@ $(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 # removes any axioms that contains one of the ops that not in the whitelist file
 $(ONT)-basic.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(SIMPLESEED) $(KEEPRELATIONS) $(IMPORT_FILES)
 	$(ROBOT_RELEASE_IMPORT_MODE) \
-		reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural --annotate-inferred-axioms False \
+		reason --reasoner ELK --equivalent-classes-allowed asserted-only --exclude-tautologies structural --annotate-inferred-axioms false \
 		relax \
 		remove --axioms equivalent \
 		remove --axioms disjoint \
