@@ -386,15 +386,6 @@ $(TMPDIR)/base_unsat.md: $(TMPDIR)/mirror-all.owl
 base_unsat: 
 	$(MAKE_FAST) $(TMPDIR)/base_unsat.md
 
-
-EXPLAIN_ONE=GO:0005737
-EXPLAIN_TWO=GO:0099568
-explain_equivalent:
-	$(ROBOT) merge --input oba-edit.obo  -i components/reasoner_axioms.owl \
-		explain --reasoner ELK \
-  		--axiom "$(EXPLAIN_ONE) EquivalentTo $(EXPLAIN_TWO)" \
-  		--explanation $(TMPDIR)/explain_equivalent.md
-
 ##################################
 ##### Utilities ###################
 ##################################
