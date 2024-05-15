@@ -61,22 +61,19 @@ Once your [CI checks](ContinuousIntegration.md) have passed, and your reviews ar
 
 Use the [github web interface](https://docs.github.com/repositories/releasing-projects-on-github/managing-releases-in-a-repository?tool=webui) to create a new OBA release.
 
-- There should be 15 recently modified files in the root directory of the local copy of the repo:
+- There should be 12 recently modified files in the root directory of the local copy of the repo:
     1. oba-base.json
     2. oba-base.obo
     3. oba-base.owl
-    4. oba-baseplus.json
-    5. oba-baseplus.obo
-    6. oba-baseplus.owl
-    7. oba-basic.json
-    8. oba-basic.obo
-    9. oba-basic.owl
-    10. oba-full.json
-    11. oba-full.obo
-    12. oba-full.owl
-    13. oba.json
-    14. oba.obo
-    15. oba.owl
+    4. oba-basic.json
+    5. oba-basic.obo
+    6. oba-basic.owl
+    7. oba-full.json
+    8. oba-full.obo
+    9. oba-full.owl
+    10. oba.json
+    11. oba.obo
+    12. oba.owl
 
 - NOTE: GitHub imposes size constraints on repositories. The combined size of the OBA artefacts exceeds the GitHub imposed size limit. For this reason, some of the large release artefact files are not under GitHub version control. However, **all the 15 newly created ontology artefact files need to be included in the public release as binary files**. For background information on release artefacts, see
     - [OWL, OBO, JSON? Base, simple, full, basic? What should you use, and why?](https://oboacademy.github.io/obook/explanation/owl-format-variants/)
