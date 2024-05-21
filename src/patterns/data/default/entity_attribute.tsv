@@ -62,7 +62,7 @@ OBA:1000012	germ tube septin ring length	GO:0032172	germ tube septin ring	PATO:0
 OBA:1000017	mating projection tip length	GO:0043332	mating projection tip	PATO:0000122	length			
 OBA:1000018	nucleus shape	GO:0005634	nucleus	PATO:0000052	shape			
 OBA:1000021	cotyledon size	PO:0020030	cotyledon	PATO:0000117	size			
-OBA:1000024	subcutaneous adipose tissue proportionality to	UBERON:0002190	subcutaneous adipose tissue	PATO:0001470	proportionality to			
+OBA:1000024	subcutaneous adipose tissue ratio	UBERON:0002190	subcutaneous adipose tissue	PATO:0001470	ratio			
 OBA:1000025	breast size	UBERON:0000310	breast	PATO:0000117	size			
 OBA:1000027	thyroid gland volume	UBERON:0002046	thyroid gland	PATO:0000918	volume			
 OBA:1000028	membrane permeability	GO:0016020	membrane	PATO:0000970	permeability			
@@ -185,7 +185,7 @@ OBA:VT0000192	mineral amount	CHEBI:46662	mineral	PATO:0000070	amount
 OBA:VT0000217	leukocyte quantity	CL:0000738	leukocyte	PATO:0000070	amount			
 OBA:VT0000222	neutrophil quantity	CL:0000775	neutrophil	PATO:0000070	amount			
 OBA:VT0000223	monocyte quantity	CL:0000576	monocyte	PATO:0000070	amount			
-OBA:VT0000237	blood cell quantity	CL:0000988	hematopoietic cell	PATO:0001555	has number of			
+OBA:VT0000237	blood cell quantity	CL:0000081	blood cell	PATO:0000070	amount	blood cell count		
 OBA:VT0000240	hematopoiesis location trait	GO:0030097	hemopoiesis	PATO:0000140	position			
 OBA:VT0000248	erythrocyte size trait	CL:0000232	erythrocyte	PATO:0000117	size			
 OBA:VT0000254	cerebrospinal fluid amount	UBERON:0001359	cerebrospinal fluid	PATO:0000918	volume			
@@ -409,7 +409,7 @@ OBA:VT0002785	Leydig cell quantity	CL:0000178	Leydig cell	PATO:0001555	has numbe
 OBA:VT0002809	spinal cord size trait	UBERON:0002240	spinal cord	PATO:0000117	size			
 OBA:VT0002845	aorta mass	UBERON:0000947	aorta	PATO:0000125	mass			
 OBA:VT0002846	aorta capacity	UBERON:0000947	aorta	PATO:0000918	volume			
-OBA:VT0002847	glomerular filtration trait	GO:0003094	glomerular filtration	PATO:0001470	proportionality to			
+OBA:VT0002847	glomerular filtration trait	GO:0003094	glomerular filtration	PATO:0001236	process quality			
 OBA:VT0002876	thyroid gland physiology trait	UBERON:0002046	thyroid gland	PATO:0001509	functionality			
 OBA:VT0002909	adrenal gland physiology trait	UBERON:0002369	adrenal gland	PATO:0001509	functionality			
 OBA:VT0002918	paired-pulse facilitation trait	CHEBI:50459	2,5-diphenylfuran	PATO:0001629	aggregated			
@@ -4342,9 +4342,9 @@ OBA:2045295	brain connectivity attribute	UBERON:0000955	brain	PATO:0000141	struc
 OBA:2045296	defense response to other organism process attribute	GO:0098542	defense response to other organism	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045328	DNA methylation process attribute	GO:0009008	DNA-methyltransferase activity	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140|https://orcid.org/0000-0001-6757-4744
 OBA:2045372	gestational blood glucose level	UBERON:0009097	gravid organism	OBA:VT0000188	blood glucose amount			https://orcid.org/0000-0001-8314-2140
-OBA:2045389	leukocyte ratio	CL:0000738	leukocyte	OBA:2045457	quantity ratio			https://orcid.org/0000-0001-8314-2140
-OBA:2045390	basophil ratio	CL:0000767	basophil	OBA:2045457	quantity ratio			https://orcid.org/0000-0001-8314-2140
-OBA:2045391	eosinophil ratio	CL:0000771	eosinophil	OBA:2045457	quantity ratio			https://orcid.org/0000-0001-8314-2140
+OBA:2045389	leukocyte ratio	CL:0000738	leukocyte	PATO:0001470	ratio			https://orcid.org/0000-0001-8314-2140
+OBA:2045390	basophil ratio	CL:0000767	basophil	PATO:0001470	ratio			https://orcid.org/0000-0001-8314-2140
+OBA:2045391	eosinophil ratio	CL:0000771	eosinophil	PATO:0001470	ratio			https://orcid.org/0000-0001-8314-2140
 OBA:2045406		CL:0002535	epithelial cell of cervix	PATO:0000051	morphology			https://orcid.org/0000-0001-8314-2140
 OBA:2045407	response to bacterium process attribute	GO:0009617	response to bacterium	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045408	amniotic fluid pH	UBERON:0000173	amniotic fluid	PATO:0001842	acidity			https://orcid.org/0000-0001-8314-2140
@@ -4386,5 +4386,4 @@ OBA:2050351	breast density	UBERON:0000310	breast	PATO:0001019	mass density	breas
 OBA:VT1000472	subcutaneous adipose mass	UBERON:0002190	subcutaneous adipose tissue	PATO:0000125	mass			https://orcid.org/0000-0001-8314-2140
 OBA:VT0010482	body fat mass	UBERON:0001013	adipose tissue	PATO:0000125	mass			https://orcid.org/0000-0001-8314-2140
 OBA:2050418	voice quality trait	UBERON:0034681	vocal organ	PATO:0001519	sound quality		PMID:37294764	https://orcid.org/0000-0001-6757-4744
-OBA:2045459	digit length ratio	UBERON:0002544	digit	OBA:2045458	length ratio	digit length proportionality		https://orcid.org/0000-0001-8314-2140
-OBA:2045460	blood cell count ratio	CL:0000081	blood cell	OBA:2045457	quantity ratio	blood cell count proportionality		https://orcid.org/0000-0001-8314-2140
+OBA:2045460	body extent	UBERON:0000468	multicellular organism	PATO:0001708	1-D extent			https://orcid.org/0000-0001-6757-4744

@@ -1,24 +1,14 @@
-﻿pattern_name: proportion_of_attributes
-pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/proportion_of_attributes.yaml
+﻿pattern_name: attribute_ratio
+pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml
 
-description: 'Use this pattern for traits that that depend on the
-    proportions (ratios, or inverse ratios) of two measurable
-    attributes. Although calculating a ratio is not commutative, the
-    trait category as defined here is indifferent about the direction of
-    the ratio between the two quantifiable attributes, i.e. A:B and B:A
-    are assumed to represent reciprocal aspects of the same
-    proportionality (as an abstract biological attribute) that share the
-    same genetic determinants.
-    For example, the sodium to potassium ratio is assumed to have the
-    same genetic determinants in an organism as the potassium to sodium
-    ratio, and the resulting reciprocal values are genetically not
-    independent from each other.'
+description: 'Use this pattern for compound attributes where the
+    magnitude of the attribute depends on the ratio of two
+    measurable characteristics.'
 
 # examples
 # http://www.ebi.ac.uk/efo/EFO_0009884	# urinary sodium to potassium ratio
 # http://www.ebi.ac.uk/efo/EFO_0005191	# waist height ratio
 # http://www.ebi.ac.uk/efo/EFO_0004767	# visceral:subcutaneous adipose tissue ratio
-
 
 contributors:
   - https://orcid.org/0000-0001-6757-4744  # Arwa Ibrahim
@@ -27,67 +17,56 @@ contributors:
 
 
 classes:
-  proportionality_to: PATO:0001470
+  ratio: PATO:0001470
   quality: PATO:0000001
+  external_resource: xsd:anyURI
 
 relations:
-  has_part: BFO:0000051
+  has_numerator: RO:0020202
+  has_denominator: RO:0020203
   characteristic_of_part_of: RO:0002314
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
+  broad_synonym: oio:hasBroadSynonym
+  narrow_synonym: oio:hasNarrowSynonym
   related_synonym: oio:hasRelatedSynonym
   xref: oio:hasDbXref
   contributor: dct:contributor
 
 vars:
-  entity: "'thing'"
   attribute1: "'quality'"
   attribute2: "'quality'"
 
 data_list_vars:
   orcid: xsd:anyURI  # ORCID of contributor
   exact_synonyms: xsd:string  # add a list of exact synonyms
-  xrefs: xsd:anyURI  # add a list of external references
+  xrefs: external_resource  # add a list of external references
 
 name:
-  text: "%s and %s proportionality in %s"
+  text: "%s to %s ratio"
   vars:
     - attribute1
     - attribute2
-    - entity
 
 def:
-  text: "A trait that affects the proportionality of %s to %s in %s."
+  text: "A compound attribute that is the ratio of %s to %s."
   vars:
     - attribute1
     - attribute2
-    - entity
   annotations:
     - annotationProperty: xref
-      text: "AUTO:patterns/patterns/proportion_of_attributes"
+      text: "AUTO:patterns/patterns/attribute_ratio"
 
 annotations:
   - annotationProperty: exact_synonym
-    text: "the proportionality of %s to %s in %s"
+    text: "the ratio of %s to %s"
     vars:
       - attribute1
       - attribute2
-      - entity
     annotations:
       - annotationProperty: xref
-        text: "AUTO:patterns/patterns/proportion_of_attributes"
-  - annotationProperty: exact_synonym
-    text: "%s to %s or %s to %s ratio in %s"
-    vars:
-      - attribute1
-      - attribute2
-      - attribute2
-      - attribute1
-      - entity
-    annotations:
-      - annotationProperty: xref
-        text: "AUTO:patterns/patterns/proportion_of_attributes"
+        text: "AUTO:patterns/patterns/attribute_ratio"
 
   - annotationProperty: contributor
     value: orcid
@@ -99,11 +78,9 @@ xref:
   value: xrefs
 
 equivalentTo:
-  text: "('proportionality_to'
-    and ('has_part' some %s)
-    and ('has_part' some %s))
-    and ('characteristic_of_part_of' some %s)"
+  text: "('ratio'
+    and ('has_numerator' some %s)
+    and ('has_denominator' some %s))"
   vars:
     - attribute1
     - attribute2
-    - entity

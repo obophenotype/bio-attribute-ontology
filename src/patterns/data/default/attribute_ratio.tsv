@@ -1,4 +1,7 @@
-defined_class	defined_class_name	entity	entity_name	attribute1	attribute1_name	attribute2	attribute2_name	exact_synonyms	xrefs	orcid
-OBA:2050350	urine sodium and potassium proportionality	UBERON:0001088	urine	OBA:1000949	sodium(1+) amount	OBA:1000948	potassium(1+) amount	urinary sodium to potassium ratio|urinary sodium to potassium proprotionality		https://orcid.org/0000-0001-6757-4744|https://orcid.org/0000-0001-8314-2140 
-OBA:2045455	height-adjusted body mass index	UBERON:0000468	multicellular organism	OBA:VT0001259	body mass	PATO:0000119	height	height-adjusted BMI	CMO:0000105	https://orcid.org/0000-0001-8314-2140
-OBA:2045456	body mass index	UBERON:0000468	multicellular organism	OBA:VT0001259	body mass	PATO:0001708	1-D extent	BMI	CMO:0000105	https://orcid.org/0000-0001-8314-2140
+defined_class	defined_class_name	attribute1	attribute1_name	attribute2	attribute2_name	exact_synonyms	broad_synonym	narrow_synonym	related_synonym	xrefs	orcid
+OBA:2050350	urinary sodium to potassium ratio	OBA:VT0006274	urine sodium amount	OBA:2050095	urine potassium amount						https://orcid.org/0000-0001-6757-4744|https://orcid.org/0000-0001-8314-2140 
+OBA:2045455	body mass to height ratio	OBA:VT0001259	body mass	OBA:VT0001253	body height			body mass index|BMI|height-adjusted BMI|body mass index		http://purl.obolibrary.org/obo/CMO_0000105	https://orcid.org/0000-0001-8314-2140
+OBA:2045456	body mass to body extent ratio	OBA:VT0001259	body mass	OBA:2045460	body extent	body mass to height or length ratio		body mass index|BMI		http://purl.obolibrary.org/obo/CMO_0000105	https://orcid.org/0000-0001-8314-2140
+OBA:2045457	waist to height ratio	OBA:1001085	waist circumference	OBA:VT0001253	body height	waist height ratio|waist-height ratio|WHtR					https://orcid.org/0000-0001-8314-2140
+OBA:2045458	visceral to subcutaneous adipose tissue ratio	OBA:2045224	visceral adipose tissue quantity	OBA:0004504	subcutaneous adipose tissue amount	visceral:subcutaneous adipose tissue ratio					https://orcid.org/0000-0001-8314-2140
+OBA:2045459	digit length ratio	OBA:VT0002544	digit length	OBA:VT0002544	digit length						https://orcid.org/0000-0001-8314-2140
