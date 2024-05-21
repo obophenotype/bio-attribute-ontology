@@ -20,6 +20,7 @@ classes:
   ratio: PATO:0001470
   quality: PATO:0000001
   external_resource: xsd:anyURI
+  orcid: xsd:anyURI
 
 relations:
   has_numerator: RO:0020202
@@ -39,8 +40,11 @@ vars:
   attribute2: "'quality'"
 
 data_list_vars:
-  orcid: xsd:anyURI  # ORCID of contributor
+  orcids: orcid  # ORCID of contributor
   exact_synonyms: xsd:string  # add a list of exact synonyms
+  broad_synonyms: xsd:string  # add a list of broad synonyms
+  narrow_synonyms: xsd:string  # add a list of narrow synonyms
+  related_synonyms: xsd:string  # add a list of related synonyms
   xrefs: external_resource  # add a list of external references
 
 name:
@@ -69,10 +73,16 @@ annotations:
         text: "AUTO:patterns/patterns/attribute_ratio"
 
   - annotationProperty: contributor
-    value: orcid
+    value: orcids
 
 exact_synonym:
   value: exact_synonyms
+broad_synonym:
+  value: broad_synonyms
+narrow_synonym:
+  value: narrow_synonyms
+related_synonym:
+  value: related_synonyms
 
 xref:
   value: xrefs
