@@ -19,6 +19,7 @@ contributors:
 classes:
   ratio: PATO:0001470
   quality: PATO:0000001
+  anatomical_entity: UBERON:0001062
   external_resource: xsd:anyURI
   orcid: xsd:anyURI
 
@@ -90,7 +91,8 @@ xref:
 equivalentTo:
   text: "('ratio'
     and ('has_numerator' some %s)
-    and ('has_denominator' some %s))"
+    and ('has_denominator' some %s))
+    and ('characteristic_of_part_of' some 'anatomical_entity')"
   vars:
     - attribute1
     - attribute2
