@@ -27,12 +27,16 @@ To actually run the release, you:
 2. Start the release pipeline by issuing the command: `sh run.sh make prepare_release_fast`
     NOTE: It is recommended that you run the release pipeline uncoupled from refreshing imports. However, in case you do need to refresh all the imports at this time, you can achieve that by issuing the command: `sh run.sh make prepare_release -B`
 3. If everything went well, you should see the following output on your machine:
-    `...`
-    `Release files are now in ../.. - now you should commit, push and make a release
-    `on your git hosting site such as GitHub or GitLab`
-     `make[1]: Leaving directory '/work/src/ontology'`
-     `Please remember to update your ODK image from time to time: https://oboacademy.github.io/obook/howto/odk-update/.`
-    This will create all the specified release targets (OBO, OWL, JSON, and the variants, ont-full and ont-base) and copy them into your release directory (the top level of your repo).
+
+`...`
+
+```
+Release files are now in ../.. - now you should commit, push and make a release
+on your git hosting site such as GitHub or GitLab
+make[1]: Leaving directory '/work/src/ontology'
+Please remember to update your ODK image from time to time: https://oboacademy.github.io/obook/howto/odk-update/.
+```
+This will create all the specified release targets (OBO, OWL, JSON, and the variants, ont-full and ont-base) and copy them into your release directory (the top level of your repo).
 
 ## Review the release
 
