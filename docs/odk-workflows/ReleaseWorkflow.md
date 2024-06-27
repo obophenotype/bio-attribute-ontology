@@ -18,7 +18,7 @@ Preparation:
 4. Checkout a new branch (e.g. `git checkout -b release-202X-XX-XX`)
 5. You may or may not want to refresh your imports as part of your release strategy (see [here](UpdateImports.md)).
 6. Make sure you have the latest ODK installed by running `docker pull obolibrary/odkfull`
-    ```shell
+    ```sh
     docker pull obolibrary/odkfull
     ```
 
@@ -26,15 +26,15 @@ To actually run the release, you:
 
 1. Open a command line terminal window and navigate to the `src/ontology` directory (`cd bio-attribute-ontology/src/ontology`).
 2. Start the release pipeline by issuing the command:
-    ```shell
+    ```sh
     sh run.sh make prepare_release_fast
     ```
     NOTE: It is recommended that you run the release pipeline uncoupled from refreshing imports. However, in case you do need to refresh all the imports at this time, you can achieve that by:
-    ```shell
+    ```sh
     sh run.sh make prepare_release -B
     ```
 3. If everything went well, you should see the following output on your machine:
-    ```shell
+    ```sh
     ...
     Release files are now in ../.. - now you should commit, push and make a release         on your git hosting site such as GitHub or GitLab
     make[1]: Leaving directory '/work/src/ontology'
