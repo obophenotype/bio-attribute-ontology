@@ -31,7 +31,8 @@ To actually run the release, you:
 `...`
 
 ```
-Release files are now in ../.. - now you should commit, push and make a release         on your git hosting site such as GitHub or GitLab
+Release files are now in ../.. - now you should commit, push and make a release
+on your git hosting site such as GitHub or GitLab
 make[1]: Leaving directory '/work/src/ontology'
 Please remember to update your ODK image from time to time: https://oboacademy.github.io/obook/howto/odk-update/.
 ```
