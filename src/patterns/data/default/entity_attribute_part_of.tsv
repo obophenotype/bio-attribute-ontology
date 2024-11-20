@@ -1505,7 +1505,7 @@ OBA:0004857		UBERON:0003991	fourth ventricle median aperture	PATO:0000051	morpho
 OBA:0004858		UBERON:0003992	fourth ventricle lateral aperture	PATO:0000051	morphology
 OBA:0004859		UBERON:0003993	interventricular foramen of CNS	PATO:0000051	morphology
 OBA:0004861		UBERON:0003994	pelvic ligament	PATO:0000051	morphology
-OBA:0004864		GO:0097224	sperm connecting piece	PATO:0000051	morphology
+OBA:0004864		GO:0120212	sperm head-tail coupling apparatus	PATO:0000051	morphology
 OBA:0004865		GO:0097225	sperm midpiece	PATO:0000051	morphology
 OBA:0004866		GO:0097226	sperm mitochondrial sheath	PATO:0000051	morphology
 OBA:0004867		GO:0097227	sperm annulus	PATO:0000051	morphology
@@ -2461,7 +2461,7 @@ OBA:1000197		NBO:0000444	eye movement	PATO:0000001	quality
 OBA:1000198		UBERON:0003723	vestibular nerve	PATO:0000001	quality
 OBA:1000199		PR:000017364	von Willebrand factor	PATO:0000001	quality
 OBA:1000200		UBERON:0001653	facial vein	PATO:0000001	quality
-OBA:1000201		GO:0005746	mitochondrial respiratory chain	PATO:0000001	quality
+OBA:1000201		GO:0098803	respiratory chain complex PATO:0000001	quality
 OBA:1000202		UBERON:0001867	cartilage of external ear	PATO:0000001	quality
 OBA:1000203		UBERON:0001714	cranial ganglion	PATO:0000001	quality
 OBA:1000204		UBERON:0004330	proximal phalanx of manual digit 4	PATO:0000001	quality
@@ -2927,7 +2927,7 @@ OBA:1000676		GO:1903709	uterine gland development	PATO:0000001	quality
 OBA:1000677		UBERON:0001839	bony labyrinth	PATO:0000001	quality
 OBA:1000678		NBO:0000001	body part movement	PATO:0000001	quality
 OBA:1000679		NBO:0001915	cocaine consumption	PATO:0000001	quality
-OBA:1000680		GO:0033878	hormone-sensitive lipase activity	PATO:0000001	quality
+OBA:1000680		GO:0120516	diacylglycerol lipase activity	PATO:0000001	quality
 OBA:1000681		NBO:0000570	head bobbing	PATO:0000001	quality
 OBA:1000682		UBERON:0005367	hippocampus granule cell layer	PATO:0000001	quality
 OBA:1000683		GO:0045136	development of secondary sexual characteristics	PATO:0000001	quality
@@ -3088,7 +3088,7 @@ OBA:1000842		UBERON:0001849	membranous labyrinth	PATO:0000001	quality
 OBA:1000843		GO:0001501	skeletal system development	PATO:0000001	quality
 OBA:1000844		CL:0000653	glomerular visceral epithelial cell	PATO:0000001	quality
 OBA:1000845		NBO:0000210	avoidance learning behavior	PATO:0000001	quality
-OBA:1000847		GO:0070547	L-tyrosine aminotransferase activity	PATO:0000001	quality
+OBA:1000847		GO:0004838	L-tyrosine-2-oxoglutarate transaminase activity	PATO:0000001	quality
 OBA:1000848		GO:0072134	nephrogenic mesenchyme morphogenesis	PATO:0000001	quality
 OBA:1000849		GO:0004465	lipoprotein lipase activity	PATO:0000001	quality
 OBA:1000850		GO:0060659	nipple sheath formation	PATO:0000001	quality

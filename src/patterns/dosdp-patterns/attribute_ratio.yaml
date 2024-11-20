@@ -1,0 +1,98 @@
+﻿pattern_name: attribute_ratio
+pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml
+
+description: 'Use this pattern for compound attributes where the
+    magnitude of the attribute depends on the ratio of two
+    measurable characteristics.'
+
+# examples
+# http://www.ebi.ac.uk/efo/EFO_0009884	# urinary sodium to potassium ratio
+# http://www.ebi.ac.uk/efo/EFO_0005191	# waist height ratio
+# http://www.ebi.ac.uk/efo/EFO_0004767	# visceral:subcutaneous adipose tissue ratio
+
+contributors:
+  - https://orcid.org/0000-0001-6757-4744  # Arwa Ibrahim
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
+
+
+classes:
+  ratio: PATO:0001470
+  quality: PATO:0000001
+  anatomical_entity: UBERON:0001062
+  external_resource: xsd:anyURI
+  orcid: xsd:anyURI
+
+relations:
+  has_numerator: RO:0020202
+  has_denominator: RO:0020203
+  characteristic_of_part_of: RO:0002314
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  broad_synonym: oio:hasBroadSynonym
+  narrow_synonym: oio:hasNarrowSynonym
+  related_synonym: oio:hasRelatedSynonym
+  xref: oio:hasDbXref
+  contributor: dct:contributor
+
+vars:
+  attribute1: "'quality'"
+  attribute2: "'quality'"
+
+data_list_vars:
+  orcids: orcid  # ORCID of contributor
+  exact_synonyms: xsd:string  # add a list of exact synonyms
+  broad_synonyms: xsd:string  # add a list of broad synonyms
+  narrow_synonyms: xsd:string  # add a list of narrow synonyms
+  related_synonyms: xsd:string  # add a list of related synonyms
+  xrefs: external_resource  # add a list of external references
+
+name:
+  text: "%s to %s ratio"
+  vars:
+    - attribute1
+    - attribute2
+
+def:
+  text: "A compound attribute that is the ratio of %s to %s."
+  vars:
+    - attribute1
+    - attribute2
+  annotations:
+    - annotationProperty: xref
+      text: "AUTO:patterns/patterns/attribute_ratio"
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "the ratio of %s to %s"
+    vars:
+      - attribute1
+      - attribute2
+    annotations:
+      - annotationProperty: xref
+        text: "AUTO:patterns/patterns/attribute_ratio"
+
+  - annotationProperty: contributor
+    value: orcids
+
+exact_synonym:
+  value: exact_synonyms
+broad_synonym:
+  value: broad_synonyms
+narrow_synonym:
+  value: narrow_synonyms
+related_synonym:
+  value: related_synonyms
+
+xref:
+  value: xrefs
+
+equivalentTo:
+  text: "('ratio'
+    and ('has_numerator' some %s)
+    and ('has_denominator' some %s))
+    and ('characteristic_of_part_of' some 'anatomical_entity')"
+  vars:
+    - attribute1
+    - attribute2

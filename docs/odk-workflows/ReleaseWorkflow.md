@@ -17,30 +17,26 @@ Preparation:
 3. Locally make sure you have the latest changes from master (`git pull`). You can also use [GitHub Desktop](https://desktop.github.com/) for interacting with the OBA repo.
 4. Checkout a new branch (e.g. `git checkout -b release-202X-XX-XX`)
 5. You may or may not want to refresh your imports as part of your release strategy (see [here](UpdateImports.md)).
-6. Make sure you have the latest ODK installed by running `docker pull obolibrary/odkfull`
-    ```shell
-    docker pull obolibrary/odkfull
-    ```
+6. Make sure you have the latest ODK installed by running: `docker pull obolibrary/odkfull`
+
+
 
 To actually run the release, you:
 
 1. Open a command line terminal window and navigate to the `src/ontology` directory (`cd bio-attribute-ontology/src/ontology`).
-2. Start the release pipeline by issuing the command:
-    ```shell
-    sh run.sh make prepare_release_fast
-    ```
-    NOTE: It is recommended that you run the release pipeline uncoupled from refreshing imports. However, in case you do need to refresh all the imports at this time, you can achieve that by:
-    ```shell
-    sh run.sh make prepare_release -B
-    ```
+2. Start the release pipeline by issuing the command: `sh run.sh make prepare_release_fast`
+    NOTE: It is recommended that you run the release pipeline uncoupled from refreshing imports. However, in case you do need to refresh all the imports at this time, you can achieve that by issuing the command: `sh run.sh make prepare_release -B`
 3. If everything went well, you should see the following output on your machine:
-    ```shell
-    ...
-    Release files are now in ../.. - now you should commit, push and make a release         on your git hosting site such as GitHub or GitLab
-    make[1]: Leaving directory '/work/src/ontology'
-    Please remember to update your ODK image from time to time: https://oboacademy.github.io/obook/howto/odk-update/.
-    ```
-    This will create all the specified release targets (OBO, OWL, JSON, and the variants, ont-full and ont-base) and copy them into your release directory (the top level of your repo).
+
+`...`
+
+```
+Release files are now in ../.. - now you should commit, push and make a release
+on your git hosting site such as GitHub or GitLab
+make[1]: Leaving directory '/work/src/ontology'
+Please remember to update your ODK image from time to time: https://oboacademy.github.io/obook/howto/odk-update/.
+```
+This will create all the specified release targets (OBO, OWL, JSON, and the variants, ont-full and ont-base) and copy them into your release directory (the top level of your repo).
 
 ## Review the release
 
