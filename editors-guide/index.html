@@ -1,0 +1,1599 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../oba-gwas-sop/">
+      
+      
+        <link rel="next" href="../metrics/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Editors guide - Ontology of Biological Attributes (OBA)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#local-development-workflows-with-oba" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Ontology of Biological Attributes (OBA)" class="md-header__button md-logo" aria-label="Ontology of Biological Attributes (OBA)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ontology of Biological Attributes (OBA)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Editors guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Ontology of Biological Attributes (OBA)" class="md-nav__button md-logo" aria-label="Ontology of Biological Attributes (OBA)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Ontology of Biological Attributes (OBA)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cite/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cite
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How to contribute?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Editors guide
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Editors guide
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#edit-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Edit files
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Edit files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-oba-edit-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      The OBA edit file
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-oba-sssom-mappings" class="md-nav__link">
+    <span class="md-ellipsis">
+      The OBA SSSOM mappings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-oba-dosdp-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      The OBA DOSDP patterns
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#updating-sssom-mapping-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Updating SSSOM mapping files
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creatingupdating-terms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating/updating terms
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-alignment-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparing alignment work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curating-efo-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Curating EFO alignment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curating-vt-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Curating VT alignment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Curating VT alignment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-measured-in-annotations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding "measured in" annotations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-synonym" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding synonym
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importing-terms-and-updating-dosdp-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importing terms and updating DOSDP patterns
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Importing terms and updating DOSDP patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#refresh-lipid-maps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Refresh LIPID Maps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refresh-pro-slim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Refresh PRO Slim:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refresh-chebi-slim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Refresh CHEBI Slim
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oba-release-sop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OBA release procedure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oba-gwas-sop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OBA - GWAS curation SOP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Editors guide
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Editors guide
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#edit-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Edit files
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Edit files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-oba-edit-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      The OBA edit file
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-oba-sssom-mappings" class="md-nav__link">
+    <span class="md-ellipsis">
+      The OBA SSSOM mappings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-oba-dosdp-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      The OBA DOSDP patterns
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#updating-sssom-mapping-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Updating SSSOM mapping files
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creatingupdating-terms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating/updating terms
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-alignment-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparing alignment work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curating-efo-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Curating EFO alignment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curating-vt-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Curating VT alignment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Curating VT alignment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-measured-in-annotations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding "measured in" annotations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-synonym" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding synonym
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importing-terms-and-updating-dosdp-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importing terms and updating DOSDP patterns
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Importing terms and updating DOSDP patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#refresh-lipid-maps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Refresh LIPID Maps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refresh-pro-slim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Refresh PRO Slim:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refresh-chebi-slim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Refresh CHEBI Slim
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Metrics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Metrics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../metrics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oak-metrics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OAK Metrics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../robot-metrics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ROBOT Metrics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    How-to guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            How-to guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_1" id="__nav_9_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Standard ODK workflows
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_1">
+            <span class="md-nav__icon md-icon"></span>
+            Standard ODK workflows
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/EditorsWorkflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Editors Workflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/ReleaseWorkflow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Release Workflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/RepoManagement/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Manage your ODK Repository
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/SettingUpDockerForODK/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Setting up Docker for ODK
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/UpdateImports/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imports management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/components/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Components management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/ManageDocumentation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managing the documentation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/ContinuousIntegration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Continuous Integration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../odk-workflows/RepositoryFileStructure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Your ODK Repository Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contributing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Reference
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Reference
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1" id="__nav_10_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Design Patterns
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1">
+            <span class="md-nav__icon md-icon"></span>
+            Design Patterns
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dosdp.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Design Patterns Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#edit-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Edit files
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Edit files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-oba-edit-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      The OBA edit file
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-oba-sssom-mappings" class="md-nav__link">
+    <span class="md-ellipsis">
+      The OBA SSSOM mappings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-oba-dosdp-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      The OBA DOSDP patterns
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#updating-sssom-mapping-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Updating SSSOM mapping files
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creatingupdating-terms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating/updating terms
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-alignment-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparing alignment work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curating-efo-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Curating EFO alignment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curating-vt-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Curating VT alignment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Curating VT alignment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-measured-in-annotations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding "measured in" annotations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-synonym" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding synonym
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importing-terms-and-updating-dosdp-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importing terms and updating DOSDP patterns
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Importing terms and updating DOSDP patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#refresh-lipid-maps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Refresh LIPID Maps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refresh-pro-slim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Refresh PRO Slim:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refresh-chebi-slim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Refresh CHEBI Slim
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="local-development-workflows-with-oba">Local development workflows with OBA</h1>
+<p><a id="edit-files"></a></p>
+<h2 id="edit-files">Edit files</h2>
+<p>There are three kinds of files to edit in OBO explained in the following:</p>
+<ul>
+<li>The normal OBA edit file (<code>src/ontology/obo-edit.obo</code>)</li>
+<li>The OBA SSSOM mappings (<code>src/mappings/*</code>)</li>
+<li>The OBA DOSDP pattern files (<code>src/patterns/data/default/*</code>)</li>
+</ul>
+<h3 id="the-oba-edit-file">The OBA edit file</h3>
+<p>As opposed to other ontologies, the OBA edit file (<code>src/ontology/obo-edit.obo</code>) <strong>is barely used</strong>. Power curators will use the oba-edit.obo file occasionally to edit the class hierarchy, but as per OBA principles, the class hierarchy is mostly created by reasoning. Most of OBA editing happens by editing the DOSDP templates, see below.</p>
+<h3 id="the-oba-sssom-mappings">The OBA SSSOM mappings</h3>
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/13qh7dLE38vMyz91oRqj6GzKjFohNazNKAJxKG6Plw1o/edit#gid=506793298">OBA-VT SSSOM Mapping</a>: The official mappings between OBA and VT. Source of truth is on Google Sheets, not Github.</li>
+<li><a href="https://docs.google.com/spreadsheets/d/13qh7dLE38vMyz91oRqj6GzKjFohNazNKAJxKG6Plw1o/edit#gid=1005741851">OBA-EFO SSSOM Mapping</a>: The official mappings between OBA and EFO. Source of truth is on Google Sheets, not Github.</li>
+<li><a href="https://docs.google.com/spreadsheets/d/13qh7dLE38vMyz91oRqj6GzKjFohNazNKAJxKG6Plw1o/edit#gid=1005741851">OBA-EFO Excluded Mapping</a>: Terms from EFO that have been reviewed and deemed out of scope for OBA. Source of truth is on Google Sheets, not Github.</li>
+<li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=2051840457&amp;single=true&amp;output=tsv">OBA-VT Excluded Mapping</a>: Terms from EFO that have been reviewed and deemed out of scope for OBA. Source of truth is on Google Sheets, not Github.</li>
+</ul>
+<h3 id="the-oba-dosdp-patterns">The OBA DOSDP patterns</h3>
+<p>All OBA DOSDP data tables can be found <a href="https://github.com/obophenotype/bio-attribute-ontology/tree/master/src/patterns/data/default">here</a>.</p>
+<p>DOSDP tables are the main way to edit OBA. You can edit the DOSDP TSV files using a regular text editor or a spreadsheet editor.</p>
+<p>The main rule is, make sure to review the diff before making a pull request - the diff should only show the things you have actually changed.</p>
+<h2 id="updating-sssom-mapping-files">Updating SSSOM mapping files</h2>
+<pre><code>cd src/ontology
+sh run.sh make sync_sssom_google_sheets
+</code></pre>
+<h2 id="creatingupdating-terms">Creating/updating terms</h2>
+<p><a id="alignment"></a></p>
+<h2 id="preparing-alignment-work">Preparing alignment work</h2>
+<ol>
+<li>Update the data required for the alignment: <code>sh run.sh make prepare_oba_alignment -B</code>. This will take a while, as a lot of ontologies are downloaded and syncronised.</li>
+<li>Start jupyter in your local environment</li>
+<li>Open <code>src/scripts/oba_alignment.ipynb</code> in your Jupyter environment and run all <em>over night</em>.</li>
+<li>While the above is running, read everything in the notebook carefully to get a sense what the notebook is doing. The methods section can be skipped during the first read through, but it will likely be necessary to review these in later stages of the alignment process.</li>
+<li>The notebook run will produce the following files:<ul>
+<li><code>src/mappings/oba-vt-unreviewed.sssom.tsv</code>: VT mappings identified by pipeline but not reviewed</li>
+<li><code>src/mappings/oba-vt-missed.sssom.tsv</code>: VT mappings identified by looking at OBA IRIs (no need for review)</li>
+<li><code>src/mappings/oba-vt-unmapped.sssom.tsv</code>: VT terms that have not been mapped so far (excluding reviewed and candidate mappings)</li>
+<li><code>src/mappings/oba-vt-unreviewed.dosdp.tsv</code>: VT terms with candidate DOSDP pattern fillings.</li>
+<li><code>src/mappings/oba-efo-unreviewed.sssom.tsv</code>: see above vt analog</li>
+<li><code>src/mappings/oba-efo-unmapped.sssom.tsv</code>: see above vt analog</li>
+<li><code>src/mappings/oba-efo-unreviewed.dosdp.tsv</code>: see above vt analog</li>
+</ul>
+</li>
+</ol>
+<h2 id="curating-efo-alignment">Curating EFO alignment</h2>
+<ol>
+<li>Follow the steps in the <a href="#alignment">preparing alignment workflow</a></li>
+<li>The central pieces for the EFO alignment, if of interest, can be found in the section starting with <code>OBA-EFO Alignment</code> in <code>src/scripts/oba_alignment.ipynb</code>.</li>
+<li>Review <code>src/mappings/oba-efo-unreviewed.sssom.tsv</code>. These are the new mapping suggestions as determined by the mapping pipeline. Review mappings 1 x 1 and copy them into the official EFO-OBA SSSOM mapping <a href="#edit-files">curated on Google Sheets</a>.</li>
+<li>Review <code>src/mappings/oba-efo-unreviewed.dosdp.tsv</code>. This is the hardest part. The table only provides a handful of suggests on how to map the label using DOSDP. You will have to go through the table <code>subject_id</code> by <code>subject_id</code> and identify the correct corresponding <a href="#edit-files">DOSDP pattern tables</a>. Important: when you create an ID (<code>defined_class</code> column DOSDP table) for an EFO-sourced class, you have to <strong>add a respective mapping</strong> to the official EFO-OBA SSSOM mapping <a href="#edit-files">curated on Google Sheets</a>.</li>
+<li>Optional: Review <code>src/mappings/oba-efo-unmapped.sssom.tsv</code> to figure out what to do about entirely unmapped EFO terms. These may need some careful planning and adjustments of the alignment code.</li>
+</ol>
+<h2 id="curating-vt-alignment">Curating VT alignment</h2>
+<ol>
+<li>Follow the steps in the <a href="#alignment">preparing alignment workflow</a></li>
+<li>The central pieces for the EFO alignment, if of interest, can be found in the section starting with <code>OBA-VT Alignment</code> in <code>src/scripts/oba_alignment.ipynb</code>.</li>
+<li>Review <code>src/mappings/oba-vt-missed.sssom.tsv</code>. This should ideally be empty - these are mappings that have not been factored into the official oba-vt mappings yet, but have the VT-style IRI (<code>OBA:VT0010108</code>) which suggests that the class was derived from the respective VT id. Add all mappings in <code>oba-vt-missed.sssom.tsv</code> to the official VT-OBA SSSOM mapping <a href="#edit-files">curated on Google Sheets</a>.</li>
+<li>Review <code>src/mappings/oba-vt-unreviewed.sssom.tsv</code>. These are the new mapping suggestions as determined by the mapping pipeline. Review mappings 1 x 1 and copy them into the official VT-OBA SSSOM mapping <a href="#edit-files">curated on Google Sheets</a>.</li>
+<li>Review <code>src/mappings/oba-vt-unreviewed.dosdp.tsv</code>. This is the hardest part. The table only provides a handful of suggests on how to map the label using DOSDP. You will have to go through the table <code>subject_id</code> by <code>subject_id</code> and identify the correct corresponding <a href="#edit-files">DOSDP pattern tables</a>. Important: when you create an ID (<code>defined_class</code> column DOSDP table) for a VT-sourced class, you add a special IRI that looks like <code>OBA:VT123</code>. This way, mappings will be curated automatically by the framework and you dont have to add them manually.</li>
+<li>Optional: Review <code>src/mappings/oba-vt-unmapped.sssom.tsv</code> to figure out what to do about entirely unmapped VT terms. These may need some careful planning and adjustments of the alignment code.</li>
+</ol>
+<h3 id="adding-measured-in-annotations">Adding "measured in" annotations</h3>
+<ol>
+<li>Go to <a href="https://docs.google.com/spreadsheets/d/13qh7dLE38vMyz91oRqj6GzKjFohNazNKAJxKG6Plw1o/edit#gid=1857133171">Google sheet for "measured in" annotations</a> and add annotations</li>
+<li>Go to <code>cd src/ontology</code> in your terminal</li>
+<li>Create a new branch with your favourite tool</li>
+<li>Run <code>sh run.sh make sync_templates_google_sheets</code> to sync templates from Google sheets</li>
+<li>Convince yourself in your favourite git diff tool (GitHub Desktop!) that the changed tables look as intended!</li>
+<li>In your terminal, run <code>sh run.sh make recreate-measured_in</code></li>
+<li>When completed, the file <code>src/ontology/components/measured_in.owl</code> should have been updated. Look at the diff again to convince yourself that the changes look as intended. You may want to open <code>oba-edit.obo</code> in Protege to look at one or two changes!</li>
+<li>Make sure you are on your new branch created above and commit changes to branch.</li>
+<li>Publish branch (push to GitHub), make pull request, assign reviewer.</li>
+</ol>
+<h3 id="adding-synonym">Adding synonym</h3>
+<ol>
+<li>Follow the instructions for adding "measured in" annotations above, except:</li>
+<li>Add the synonyms <a href="https://docs.google.com/spreadsheets/d/13qh7dLE38vMyz91oRqj6GzKjFohNazNKAJxKG6Plw1o/edit#gid=473147169">in this sheet here</a></li>
+<li>Instead of <code>sh run.sh make recreate-measured_in</code>, <code>sh run.sh make recreate-synonyms</code></li>
+</ol>
+<h2 id="importing-terms-and-updating-dosdp-patterns">Importing terms and updating DOSDP patterns</h2>
+<p>When creating new OBA terms using DOSDP patterns for example the <a href="https://github.com/obophenotype/bio-attribute-ontology/blob/master/src/patterns/dosdp-patterns/entity_attribute.yaml">entity-attribute pattern</a>, it may be necessary to import terms from other ontologies like CHEBI or PRO, the PRotein Ontology. However, CHEBI, NCBITAXON and PRO are too large to be managed easily as standard imports. To mitigate this situation, they can be managed as slims which are located here:
+* NCBITAXON: https://github.com/obophenotype/ncbitaxon/tree/master/subsets
+* PRO: https://github.com/obophenotype/pro_obo_slim
+* CHEBI: https://github.com/obophenotype/chebi_obo_slim</p>
+<p>Sometimes, a new term you are using in a DOSDP pattern is <em>not yet</em> in a slim. So you will have to <em>refresh</em> the slim first. </p>
+<h3 id="refresh-lipid-maps">Refresh LIPID Maps</h3>
+<p>LIPID map is currently (03.06.2023) not imported, but curated manually, because https://www.lipidmaps.org/resources/sparql does not work. To update the LIPID maps imports, you have to</p>
+<ul>
+<li>Add a LIPID term to https://github.com/obophenotype/bio-attribute-ontology/blob/master/src/templates/external.tsv</li>
+<li>When refreshing the imports in the usual way, this TSV file (a ROBOT template) is built in place of a proper LIPID MAPS mirror.</li>
+</ul>
+<h3 id="refresh-pro-slim">Refresh PRO Slim:</h3>
+<p><em>Note</em>: you will need at least 32 GB RAM for this</p>
+<pre><code>git clone https://github.com/obophenotype/pro_obo_slim
+cd pro_obo_slim
+git checkout -b refresh20230312
+# Add your terms to seed.txt, and then SORT THE FILE and check that there are no duplicated terms.
+# Make sure that DOCKER is running. To set up DOCKER refer to https://oboacademy.github.io/obook/howto/odk-setup/
+sh odk.sh make all
+git commit -a -m &quot;refresh slim after adding terms for OBA&quot;
+git push --set-upstream origin refresh20230312
+</code></pre>
+<p>When this is done, make a <em>pull request</em>.</p>
+<h3 id="refresh-chebi-slim">Refresh CHEBI Slim</h3>
+<pre><code>git clone https://github.com/obophenotype/chebi_obo_slim
+cd chebi_obo_slim
+# Follow the instructions for the PRO slim from here.
+</code></pre>
+<p>The <em>full process</em> of refreshing the DOSDP patterns:
+1.  Check if new PRO / Chebi terms are not in slim, if they are not, add them as described above.
+2.  Run <code>sh run.sh make IMP=false MIR=false ../patterns/definitions.owl</code> to generate a new pattern ontology component.
+3.  Run <code>sh run.sh make refresh-merged</code> to import the new terms.
+4.  Run <code>sh run.sh make IMP=false MIR=false ../patterns/definitions.owl</code> again to generate the labels correctly where new terms are concerned.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
