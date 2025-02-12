@@ -117,7 +117,7 @@ OBA:1000105	tissue composition	UBERON:0000479	tissue	PATO:0000025	composition
 OBA:1000106	skeletal tissue composition	UBERON:0004755	skeletal tissue	PATO:0000025	composition			
 OBA:1000107	testis position	UBERON:0000473	testis	PATO:0000140	position			
 OBA:1000109	anatomical pigmentation	UBERON:0000061	anatomical structure	PATO:0002247	degree of pigmentation			
-OBA:1000110	bone density	UBERON:0002481	bone tissue	PATO:0001019	mass density			
+OBA:1000110	bone tissue density	UBERON:0002481	bone tissue	PATO:0001019	mass density			https://orcid.org/0000-0001-8314-2140
 OBA:1000111	adrenal gland size	UBERON:0002369	adrenal gland	PATO:0000117	size			
 OBA:1000112	tooth size	UBERON:0001091	calcareous tooth	PATO:0000117	size			
 OBA:1000113	incisor size	UBERON:0001098	incisor tooth	PATO:0000117	size			
@@ -571,7 +571,6 @@ OBA:VT0004954	thymus mass	UBERON:0002370	thymus	PATO:0000125	mass
 OBA:VT0004972	regulatory T cell quantity	CL:0000815	regulatory T cell	PATO:0001555	has number of			
 OBA:VT0004976	B-1 B cell quantity	CL:0000819	B-1 B cell	PATO:0001555	has number of			
 OBA:VT0005006	osteoblast physiology trait	CL:0000062	osteoblast	PATO:0001509	functionality			
-OBA:VT0005007	bone mineral mass	UBERON:0001474	bone element	PATO:0001019	mass density			
 OBA:VT0005045	thymus cortex area	UBERON:0002123	cortex of thymus	PATO:0001323	area			
 OBA:VT0005069	NK cell physiology trait	CL:0000623	natural killer cell	PATO:0001509	functionality			
 OBA:VT0005078	cytotoxic T cell physiology trait	CL:0000910	cytotoxic T cell	PATO:0001509	functionality			
@@ -4387,4 +4386,5 @@ OBA:VT1000472	subcutaneous adipose mass	UBERON:0002190	subcutaneous adipose tiss
 OBA:VT0010482	body fat mass	UBERON:0001013	adipose tissue	PATO:0000125	mass			https://orcid.org/0000-0001-8314-2140
 OBA:2050418	voice quality trait	UBERON:0034681	vocal organ	PATO:0001519	sound quality		PMID:37294764	https://orcid.org/0000-0001-6757-4744
 OBA:2045460	body extent	UBERON:0000468	multicellular organism	PATO:0001708	1-D extent			https://orcid.org/0000-0001-6757-4744
-OBA:2045558	heel bone density	UBERON:0001450		PATO:0001019	mass density			https://orcid.org/0000-0001-8314-2140
+OBA:2045558	heel bone density	UBERON:0001450	calcaneus	PATO:0001019	mass density			https://orcid.org/0000-0001-8314-2140
+OBA:2045559	bone density	UBERON:0001474	bone element	PATO:0001019	mass density			https://orcid.org/0000-0001-8314-2140
