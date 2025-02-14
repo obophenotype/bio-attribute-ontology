@@ -125,6 +125,8 @@ OBA_EFO_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcE
 OBA_VT_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=506793298&single=true&output=tsv
 OBA_EFO_EXCLUSIONS_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=698990842&single=true&output=tsv
 OBA_VT_EXCLUSIONS_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=2051840457&single=true&output=tsv
+OBA_LOINC_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=1483465731&single=true&output=tsv
+OBA_LOINC_EXCLUSIONS_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=1165604508&single=true&output=tsv
 
 ../mappings/oba-efo.sssom.tsv:
 	wget "$(OBA_EFO_GS)" -O $@
@@ -138,12 +140,20 @@ OBA_VT_EXCLUSIONS_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6
 ../mappings/oba-vt-mapping-exclusions.sssom.tsv:
 	wget "$(OBA_VT_EXCLUSIONS_GS)" -O $@
 
+../mappings/oba-loinc.sssom.tsv:
+	wget "$(OBA_LOINC_GS)" -O $@
+
+../mappings/oba-loinc-mapping-exclusions.sssom.tsv:
+	wget "$(OBA_LOINC_EXCLUSIONS_GS)" -O $@
+
 .PHONY: sync_sssom_google_sheets
 sync_sssom_google_sheets:
 	$(MAKE) ../mappings/oba-efo.sssom.tsv -B
 	$(MAKE) ../mappings/oba-vt.sssom.tsv -B
 	$(MAKE) ../mappings/oba-efo-mapping-exclusions.sssom.tsv -B
 	$(MAKE) ../mappings/oba-vt-mapping-exclusions.sssom.tsv -B
+	$(MAKE) ../mappings/oba-loinc.sssom.tsv -B
+	$(MAKE) ../mappings/oba-loinc-mapping-exclusions.sssom.tsv -B
 
 ##################################
 ### Custom QC checks #############

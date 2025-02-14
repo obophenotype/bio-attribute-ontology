@@ -1,0 +1,448 @@
+subject_id	subject_label	subject_category	predicate_id	object_id	object_label	mapping_justification	subject_source	object_source	confidence	mapping_date	author_id
+19153-6	Volume in Urine collected for unspecified duration		skos:exactMatch	OBA:0000173	urinary volume	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+28009-9	Volume of Urine		skos:exactMatch	OBA:0000173	urinary volume	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+31111-8	Reticulocyte production index		skos:broadMatch	OBA:0002272	reticulocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2714-4	Fractional oxyhemoglobin in Arterial blood		skos:relatedMatch	OBA:0002293	respiratory gaseous exchange by respiratory system amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+11559-2	Fractional oxyhemoglobin in Blood		skos:relatedMatch	OBA:0002293	respiratory gaseous exchange by respiratory system amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+48795-9	Fibrosis score		skos:exactMatch	OBA:0002614	liver degeneration	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+48794-2	Fibrosis stage		skos:exactMatch	OBA:0002614	liver degeneration	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+87430-5	Cystatin C and Glomerular filtration rate by Cystatin-based formula panel - Serum or Plasma		skos:exactMatch	OBA:0003747	glomerular filtration rate	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2164-2	Creatinine renal clearance in 24 hour Urine and Serum or Plasma		skos:exactMatch	OBA:0004158	renal filtration rate	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2756-5	pH of Urine		skos:exactMatch	OBA:0004692	urine acidity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+5803-2	pH of Urine by Test strip		skos:exactMatch	OBA:0004692	urine acidity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+19991-9	Alveolar-arterial oxygen Partial pressure difference		skos:broadMatch	OBA:1000805	respiratory gaseous exchange by respiratory system quality	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+76274-0	Ventilation-perfusion index Respiratory system		skos:broadMatch	OBA:1000805	respiratory gaseous exchange by respiratory system quality	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+1757-4	Albumin renal clearance in 24 hour Urine and Serum or Plasma		skos:exactMatch	OBA:1000854	renal filtration quality	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2693-0	Osmolality of Stool		skos:exactMatch	OBA:1001084	feces osmolality	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+73561-3	Insulin-like growth factor-I [Z-score] in Serum or Plasma		skos:exactMatch	OBA:2042067	level of insulin-like growth factor I in blood serum	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+72203-3	Parathyrin.intact intraoperative panel - Serum or Plasma		skos:exactMatch	OBA:2043094	level of parathyroid hormone in blood serum	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+20657-3	Taurine [Moles/volume] in Serum or Plasma		skos:exactMatch	OBA:2045209	level of taurine in blood serum	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+30341-2	Erythrocyte sedimentation rate		skos:exactMatch	OBA:2045235	blood sedimentation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+4537-7	Erythrocyte sedimentation rate by Westergren method		skos:exactMatch	OBA:2045235	blood sedimentation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+50562-8	Specific gravity of Urine by Refractometry automated		skos:exactMatch	OBA:2045259	urine relative density	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+5811-5	Specific gravity of Urine by Test strip		skos:exactMatch	OBA:2045259	urine relative density	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+18047-1	Left ventricular Ejection fraction by US 2D modified biplane		skos:broadMatch	OBA:2045275	heart function attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+18048-9	Left ventricular Ejection fraction by US 2D modified single-plane		skos:broadMatch	OBA:2045275	heart function attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+8634-8	Q-T interval		skos:broadMatch	OBA:2045275	heart function attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+8636-3	Q-T interval corrected		skos:broadMatch	OBA:2045275	heart function attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+4667-2	Osmotic fragility of Red Blood Cells		skos:exactMatch	OBA:2045276	erythrocyte attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+57084-6	Fatty acid oxidation newborn screen panel		skos:exactMatch	OBA:2045289	fatty acid desaturase enzyme activity attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+601-5	Fungus identified in Blood by Culture		skos:broadMatch	OBA:2045296	defense response to other organism process attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+42805-2	Fungus identified in Specimen		skos:broadMatch	OBA:2045296	defense response to other organism process attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+580-1	Fungus identified in Specimen by Culture		skos:broadMatch	OBA:2045296	defense response to other organism process attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+82195-9	Gastrointestinal pathogens DNA and RNA panel - Stool by NAA with non-probe detection		skos:broadMatch	OBA:2045296	defense response to other organism process attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+29579-0	Mycobacterial susceptibility panel by Method for Slow-growing mycobacteria		skos:broadMatch	OBA:2045296	defense response to other organism process attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+543-9	Mycobacterium sp identified in Specimen by Organism specific culture		skos:relatedMatch	OBA:2045296	defense response to other organism process attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+34736-9	Calcium oxalate index in 24 hour Urine		skos:exactMatch	OBA:2045405	amount of calcium oxalate in urine	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+47528-5	Cytology report of Cervical or vaginal smear or scraping Cyto stain		skos:broadMatch	OBA:2045406	epithelial cell of cervix morphology	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+43391-2	Bacterial vaginosis score		skos:broadMatch	OBA:2045407	response to bacterium process attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+533-0	Mycobacterium sp identified in Blood by Organism specific culture		skos:relatedMatch	OBA:2045407	response to bacterium process attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2743-3	pH of Amniotic fluid		skos:exactMatch	OBA:2045408	amniotic fluid pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+41276-7	Anion gap in Blood		skos:broadMatch	OBA:2045409	blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+11555-0	Base excess in Blood by calculation		skos:broadMatch	OBA:2045409	blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+18185-9	Gestational age		skos:broadMatch	OBA:2045410	multicellular organism age	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+11884-4	Gestational age Estimated		skos:broadMatch	OBA:2045410	multicellular organism age	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+53693-8	Gestational age Estimated from conception date		skos:broadMatch	OBA:2045410	multicellular organism age	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+29638-4	Weight of Tissue		skos:exactMatch	OBA:2045411	tissue mass	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+47526-9	Cytology report of Specimen Cyto stain		skos:broadMatch	OBA:2045412	anatomical entity morphology	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+3154-2	Weight of Specimen		skos:broadMatch	OBA:2045413	anatomical entity mass	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+32167-9	Clarity of Urine		skos:exactMatch	OBA:2045414	urine opacity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2695-5	Osmolality of Urine		skos:exactMatch	OBA:2045415	urine osmolality	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+29605-3	Appearance of Synovial fluid		skos:broadMatch	OBA:2045416	synovial fluid attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+41238-7	Viscosity of Synovial fluid		skos:exactMatch	OBA:2045417	synovial fluid viscosity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+10333-3	Appearance of Cerebral spinal fluid		skos:exactMatch	OBA:2045418	appearance of cerebrospinal fluid	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+10335-8	Color of Cerebral spinal fluid		skos:exactMatch	OBA:2045419	cerebrospinal fluid color	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+12146-7	Fetal Nuchal fold Thickness US		skos:broadMatch	OBA:2045420	skin of neck thickness	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+13359-5	Character of Semen		skos:exactMatch	OBA:2045421	semen attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+50677-4	Semen analysis post vasectomy panel		skos:broadMatch	OBA:2045421	semen attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+3160-9	Volume of Semen		skos:exactMatch	OBA:2045422	semen volume	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+9631-3	Viscosity of Semen		skos:exactMatch	OBA:2045423	semen viscosity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+32789-0	Viscosity of Semen Qualitative		skos:exactMatch	OBA:2045423	semen viscosity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2752-4	pH of Semen		skos:exactMatch	OBA:2045424	semen pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2753-2	pH of Serum or Plasma		skos:exactMatch	OBA:2045425	plasma pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2692-2	Osmolality of Serum or Plasma		skos:exactMatch	OBA:2045426	blood plasma osmolality	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+3128-6	Viscosity of Serum		skos:exactMatch	OBA:2045427	blood serum viscosity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+11029-6	Consistency of Stool		skos:exactMatch	OBA:2045428	feces consistency	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+30078-0	Weight of Stool		skos:exactMatch	OBA:2045429	feces mass	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2755-7	pH of Stool		skos:exactMatch	OBA:2045430	feces pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+9335-1	Appearance of Body fluid		skos:broadMatch	OBA:2045431	body fluid attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+6824-7	Color of Body fluid		skos:exactMatch	OBA:2045432	body fluid color	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+60840-6	Base excess in Extracellular fluid by calculation		skos:broadMatch	OBA:2045433	body fluid pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2748-2	pH of Body fluid		skos:exactMatch	OBA:2045433	body fluid pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+28638-5	Base excess in Arterial cord blood by calculation		skos:broadMatch	OBA:2045434	umbilical cord blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+28639-3	Base excess in Venous cord blood by calculation		skos:broadMatch	OBA:2045434	umbilical cord blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+28646-8	pH of Arterial cord blood		skos:broadMatch	OBA:2045434	umbilical cord blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+28647-6	pH of Venous cord blood		skos:broadMatch	OBA:2045434	umbilical cord blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2749-0	pH of Gastric fluid		skos:exactMatch	OBA:2045435	stomach content pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+9349-2	pH total acid of Gastric fluid		skos:exactMatch	OBA:2045435	stomach content pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+1925-7	Base excess in Arterial blood by calculation		skos:broadMatch	OBA:2045436	arterial blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+19235-1	Base excess standard in Arterial blood by calculation		skos:broadMatch	OBA:2045436	arterial blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2744-1	pH of Arterial blood		skos:exactMatch	OBA:2045436	arterial blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+33254-4	pH of Arterial blood adjusted to patient's actual temperature		skos:exactMatch	OBA:2045436	arterial blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+1927-3	Base excess in Venous blood by calculation		skos:broadMatch	OBA:2045437	venous blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+19237-7	Base excess standard in Venous blood by calculation		skos:broadMatch	OBA:2045437	venous blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2746-6	pH of Venous blood		skos:exactMatch	OBA:2045437	venous blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+39486-6	pH of Venous blood adjusted to patient's actual temperature		skos:exactMatch	OBA:2045437	venous blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+1926-5	Base excess in Capillary blood by calculation		skos:broadMatch	OBA:2045438	capillary blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+19236-9	Base excess standard in Capillary blood by calculation		skos:broadMatch	OBA:2045438	capillary blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2745-8	pH of Capillary blood		skos:exactMatch	OBA:2045438	capillary blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+39485-8	pH of Capillary blood adjusted to patient's actual temperature		skos:exactMatch	OBA:2045438	capillary blood pH	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+8277-6	Body surface area		skos:exactMatch	OBA:2045439	body surface area	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+49061-5	Hepatic iron index		skos:exactMatch	OBA:2045440	hepatic iron amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+19218-7	Oxygen content in Arterial blood		skos:exactMatch	OBA:2045442	arterial blood oxygen level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+20564-1	Oxygen saturation in Blood		skos:exactMatch	OBA:2045443	oxygen concentration in blood	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+28642-7	Oxygen saturation in Arterial cord blood		skos:broadMatch	OBA:2045444	oxygen concentration in umbilical cord blood	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+28643-5	Oxygen saturation in Venous cord blood		skos:broadMatch	OBA:2045444	oxygen concentration in umbilical cord blood	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+51733-4	Oxygen saturation Calculated from oxygen partial pressure in Arterial blood		skos:broadMatch	OBA:2045445	oxygen concentration in arterial blood	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2708-6	Oxygen saturation in Arterial blood		skos:exactMatch	OBA:2045445	oxygen concentration in arterial blood	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+51731-8	Oxygen saturation Calculated from oxygen partial pressure in Venous blood		skos:broadMatch	OBA:2045446	oxygen concentration in venous blood	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2711-0	Oxygen saturation in Venous blood		skos:exactMatch	OBA:2045446	oxygen concentration in venous blood	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+51732-6	Oxygen saturation Calculated from oxygen partial pressure in Capillary blood		skos:broadMatch	OBA:2045447	oxygen concentration in capillary blood	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+2709-4	Oxygen saturation in Capillary blood		skos:exactMatch	OBA:2045447	oxygen concentration in capillary blood	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+73818-7	Heparin induced platelet IgG Ab in Serum or Plasma by Immunoassay		skos:broadMatch	OBA:2045448	attribute of response to heparin in plasma	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+32215-6	Thyroxine (T4) free index in Serum or Plasma by calculation		skos:broadMatch	OBA:2045449	plasma thyroxine level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+64116-7	Hemoglobin observations newborn screening panel		skos:broadMatch	OBA:2045450	blood hemoglobin attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+19058-7	Allergens identified in Serum		skos:broadMatch	OBA:2045451	attribute of response to  allergen in serum	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+3050-2	Triiodothyronine resin uptake (T3RU) in Serum or Plasma		skos:exactMatch	OBA:2045452	attribute of response to thyroid hormone in plasma	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+5767-9	Appearance of Urine		skos:broadMatch	OBA:VT0000056	urine trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+81323-8	Urine collection associated observations panel - 24 hour Urine		skos:broadMatch	OBA:VT0000056	urine trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+8302-2	Body height		skos:exactMatch	OBA:VT0001253	body height	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+3137-7	Body height Measured		skos:exactMatch	OBA:VT0001253	body height	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+11957-8	Fetal Crown Rump length US		skos:broadMatch	OBA:VT0001256	body length	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+29463-7	Body weight		skos:exactMatch	OBA:VT0001259	body mass	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+8339-4	Birth weight Measured		skos:broadMatch	OBA:VT0001259	body mass	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+3141-9	Body weight Measured		skos:exactMatch	OBA:VT0001259	body mass	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+41270-0	Drugs identified in Urine		skos:broadMatch	OBA:VT0001757	urine molecular composition	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+6301-6	INR in Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+34714-6	INR in Blood by Coagulation assay		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+3184-9	Activated clotting time (ACT) of Blood by Coagulation assay		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+80659-6	Activated clotting time (ACT) of Blood induced by Kaolin		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+16631-4	aPTT in Blood by Coagulation 1:1 saline		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+3173-2	aPTT in Blood by Coagulation assay		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+43734-3	aPTT in Platelet poor plasma by Coagulation 1:1 saline		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+14979-9	aPTT in Platelet poor plasma by Coagulation assay		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+52123-7	aPTT in Platelet poor plasma by Coagulation assay --post heparin neutralization		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+3282-1	aPTT W excess hexagonal phase phospholipid in Platelet poor plasma by Coagulation assay		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+33930-9	aPTT W excess hexagonal phospholipid (StaClot LA confirm)		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+44950-4	aPTT.factor substitution in Control Platelet poor plasma by Coagulation assay --1H post incubation with normal plasma		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+30322-2	aPTT.factor substitution in Platelet poor plasma --1 hour post incubation		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+30323-0	aPTT.factor substitution in Platelet poor plasma by Coagulation assay --1H post incubation with normal plasma		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+33890-5	aPTT.factor substitution in Platelet poor plasma by Coagulation assay --2H post incubation with normal plasma		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+5946-9	aPTT.factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of normal plasma		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+34571-0	aPTT.lupus sensitive (LA screen)		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+75506-6	aPTT.lupus sensitive W excess phospholipid (LA confirm)		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+66748-5	Clot angle in Blood by Thromboelastography		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+66751-9	Clot strength in Blood by Thromboelastography		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+66760-0	Coagulation index in Blood by Thromboelastography		skos:exactMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+6303-2	dRVVT (LA screen)		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+57838-5	dRVVT W excess phospholipid (LA confirm)		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+75513-2	dRVVT with 1:1 PNP (LA mix)		skos:relatedMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+5902-2	Prothrombin time (PT)		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+33884-8	Prothrombin time (PT) factor substitution in Control Platelet poor plasma by Coagulation assay --1H post incubation with normal plasma		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+33356-7	Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --1H post incubation with normal plasma		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+5959-2	Prothrombin time (PT) factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of normal plasma		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+5964-2	Prothrombin time (PT) in Blood by Coagulation assay		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+5901-4	Prothrombin time (PT) in Control Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+52122-9	Prothrombin time (PT) in Platelet poor plasma by Coagulation assay --post heparin neutralization		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+6683-7	Reptilase time		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+33526-5	Reptilase time.factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of normal plasma		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+69423-2	Rosner index in Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+3243-3	Thrombin time		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+33525-7	Thrombin time.factor substitution in Platelet poor plasma by Coagulation assay --immediately after addition of normal plasma		skos:broadMatch	OBA:VT0002551	blood coagulation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+50553-7	Color of Urine by Auto		skos:exactMatch	OBA:VT0003619	urine color	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+5778-6	Color of Urine		skos:exactMatch	OBA:VT0003619	urine color	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+8310-5	Body temperature		skos:exactMatch	OBA:VT0005535	body temperature trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+59063-8	Lymphocyte proliferation panel - Blood		skos:exactMatch	OBA:VT0010184	lymphocyte proliferation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+38213-5	FLACC pain assessment panel		skos:broadMatch	OBA:VT0015100	nociception system physiology trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+38221-8	Pain severity Wong-Baker FACES pain rating scale		skos:broadMatch	OBA:VT0015100	nociception system physiology trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+55230-7	Immunophenotyping study		skos:broadMatch	OBA:VT1000783	immune system trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+4690-4	Viscosity of Blood		skos:exactMatch	OBA:VT3000004	blood viscosity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0001-8314-2140
+33516-6	Immature reticulocytes/Reticulocytes.total in Blood		skos:broadMatch	OBA:0002272	reticulocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+8119-0	CD20 cells/100 cells in Blood		skos:broadMatch	OBA:0002633	B cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+8117-4	CD19 cells/100 cells in Blood		skos:broadMatch	OBA:0002633	B cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+43273-2	CD19+CD27+IgD+ cells/100 cells in Blood or Tissue		skos:broadMatch	OBA:0002633	B cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+20593-0	CD19 cells/100 cells in Specimen		skos:broadMatch	OBA:0002633	B cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+9558-8	CD20 cells [#/volume] in Blood		skos:broadMatch	OBA:0002633	B cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+8116-6	CD19 cells [#/volume] in Blood		skos:broadMatch	OBA:0002633	B cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+15195-1	CD3-CD19+ cells [#/volume] in Blood		skos:broadMatch	OBA:0002633	B cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+8124-0	CD3 cells/100 cells in Blood		skos:broadMatch	OBA:0002636	T cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+20599-7	CD3 cells/100 cells in Specimen		skos:broadMatch	OBA:0002636	T cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+34963-9	CD3+TCR alpha beta+ cells [#/volume] in Blood		skos:broadMatch	OBA:0002636	T cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+8122-4	CD3 cells [#/volume] in Blood		skos:broadMatch	OBA:0002636	T cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+8123-2	CD3+CD4+ (T4 helper) cells/100 cells in Blood		skos:broadMatch	OBA:0002637	CD4-positive helper T cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+54218-3	CD3+CD4+ (T4 helper) cells/CD3+CD8+ (T8 suppressor cells) cells [# Ratio] in Blood		skos:broadMatch	OBA:0002812	helper T cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+24467-3	CD3+CD4+ (T4 helper) cells [#/volume] in Blood		skos:broadMatch	OBA:0002812	helper T cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+32623-1	Platelet mean volume [Entitic volume] in Blood by Automated count		skos:closeMatch	OBA:0003277	platelet volume	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+53831-4	CD59 deficient Granulocytes/100 cells in Blood		skos:relatedMatch	OBA:0003294	granulocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+28541-1	Metamyelocytes/100 leukocytes in Blood		skos:relatedMatch	OBA:0003294	granulocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26498-6	Myelocytes/100 leukocytes in Blood		skos:relatedMatch	OBA:0003294	granulocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26524-9	Promyelocytes/100 leukocytes in Blood		skos:relatedMatch	OBA:0003294	granulocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+71695-1	Immature granulocytes/100 leukocytes in Blood by Automated count		skos:broadMatch	OBA:0003294	granulocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+19023-1	Granulocytes/100 leukocytes in Blood by Automated count		skos:broadMatch	OBA:0003294	granulocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+740-1	Metamyelocytes/100 leukocytes in Blood by Manual count		skos:relatedMatch	OBA:0003294	granulocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+749-2	Myelocytes/100 leukocytes in Blood by Manual count		skos:relatedMatch	OBA:0003294	granulocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+783-1	Promyelocytes/100 leukocytes in Blood by Manual count		skos:relatedMatch	OBA:0003294	granulocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26478-8	Lymphocytes/100 leukocytes in Blood		skos:relatedMatch	OBA:0003352	lymphocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+736-9	Lymphocytes/100 leukocytes in Blood by Automated count		skos:broadMatch	OBA:0003352	lymphocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+737-7	Lymphocytes/100 leukocytes in Blood by Manual count		skos:broadMatch	OBA:0003352	lymphocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13941-0	Lymphocytes/100 leukocytes in Body fluid by Manual count		skos:broadMatch	OBA:0003352	lymphocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+30421-2	Lymphocytes/100 leukocytes in Bronchial specimen		skos:broadMatch	OBA:0003352	lymphocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+10328-3	Lymphocytes/100 leukocytes in Cerebral spinal fluid by Manual count		skos:broadMatch	OBA:0003352	lymphocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26483-8	Lymphocytes/100 leukocytes in Synovial fluid		skos:broadMatch	OBA:0003352	lymphocyte amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+8112-5	CD3-CD16+CD56+ (Natural killer) cells/100 cells in Blood		skos:broadMatch	OBA:0003353	natural killer cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+32519-1	CD3-CD16+CD56+ (Natural killer) cells/100 cells in Specimen		skos:broadMatch	OBA:0003353	natural killer cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+17174-4	CD54 cells/100 cells in Blood		skos:relatedMatch	OBA:0003714	professional antigen presenting cell functionality	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+74520-8	Complement alternate pathway AH50 actual/normal in Serum by Immunoassay		skos:broadMatch	OBA:0003715	complement activation, alternative pathway rate	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+6800-7	Spermatozoa Motile/100 spermatozoa in Semen		skos:broadMatch	OBA:0004007	sperm functionality	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+14194-5	Spermatozoa Progressive/100 spermatozoa in Semen		skos:broadMatch	OBA:0004007	sperm functionality	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+21532-7	Spermatozoa Motile/100 spermatozoa in Semen --2 hours post ejaculation		skos:broadMatch	OBA:0004007	sperm functionality	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+21535-0	Spermatozoa Motile/100 spermatozoa in Semen --6 hours post ejaculation		skos:broadMatch	OBA:0004007	sperm functionality	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+57446-7	Spermatozoa Immotile/100 spermatozoa in Semen --post concentration		skos:broadMatch	OBA:0004007	sperm functionality	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13844-6	CD34 blasts/100 blasts in Blood		skos:broadMatch	OBA:0004071	hematopoietic stem cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+51162-6	CD34 blasts/100 blasts in Bone marrow		skos:broadMatch	OBA:0004071	hematopoietic stem cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+12195-4	Creatinine renal clearance/1.73 sq M in 24 hour Urine and Serum or Plasma		skos:broadMatch	OBA:0004158	renal filtration rate	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+19114-8	Lamellar bodies [#/volume] in Amniotic fluid		skos:relatedMatch	OBA:0005252	alveolar lamellar body amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+35652-7	Epithelial cells/100 cells in Body fluid		skos:relatedMatch	OBA:0005336	pigmented ciliary epithelial cell amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26020-8	Creatine Kinase.macromolecular type 2/Creatine kinase.total in Serum or Plasma		skos:broadMatch	OBA:0006026	creatine kinase complex amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26019-0	Creatine Kinase.macromolecular type 1/Creatine kinase.total in Serum or Plasma		skos:broadMatch	OBA:0006026	creatine kinase complex amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+12189-7	Creatine kinase.MB/Creatine kinase.total in Serum or Plasma by calculation		skos:broadMatch	OBA:0006026	creatine kinase complex amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+12187-1	Creatine kinase.MB/Creatine kinase.total in Serum or Plasma by Electrophoresis		skos:broadMatch	OBA:0006026	creatine kinase complex amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+15048-2	Creatine kinase.BB/Creatine kinase.total in Serum or Plasma by Electrophoresis		skos:broadMatch	OBA:0006026	creatine kinase complex amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+15049-0	Creatine kinase.MM/Creatine kinase.total in Serum or Plasma by Electrophoresis		skos:broadMatch	OBA:0006026	creatine kinase complex amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+15013-6	Alkaline phosphatase.bone/Alkaline phosphatase.total in Serum or Plasma		skos:broadMatch	OBA:2040574	level of intestinal alkaline phosphatase in blood serum	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+15015-1	Alkaline phosphatase.liver/Alkaline phosphatase.total in Serum or Plasma		skos:broadMatch	OBA:2040574	level of intestinal alkaline phosphatase in blood serum	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+15014-4	Alkaline phosphatase.intestinal/Alkaline phosphatase.total in Serum or Plasma		skos:broadMatch	OBA:2040574	level of intestinal alkaline phosphatase in blood serum	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13989-9	Gamma globulin/Protein.total in 24 hour Urine by Electrophoresis		skos:relatedMatch	OBA:2045206	level of serum globulin type protein	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13988-1	Beta globulin/Protein.total in 24 hour Urine by Electrophoresis		skos:relatedMatch	OBA:2045206	level of serum globulin type protein	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13984-0	Alpha 1 globulin/Protein.total in 24 hour Urine by Electrophoresis		skos:relatedMatch	OBA:2045206	level of serum globulin type protein	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13987-3	Alpha 2 globulin/Protein.total in 24 hour Urine by Electrophoresis		skos:relatedMatch	OBA:2045206	level of serum globulin type protein	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13990-7	Alpha 1 globulin/Protein.total in Urine by Electrophoresis		skos:relatedMatch	OBA:2045206	level of serum globulin type protein	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13994-9	Beta globulin/Protein.total in Urine by Electrophoresis		skos:relatedMatch	OBA:2045206	level of serum globulin type protein	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+27811-9	Antithrombin actual/normal in Platelet poor plasma by Chromogenic method		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+27818-4	Protein C actual/normal in Platelet poor plasma by Chromogenic method		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+31102-7	Protein S actual/normal in Platelet poor plasma by Chromogenic method		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+53622-7	von Willebrand factor (vWf) cleaving protease actual/normal in Platelet poor plasma by Chromogenic method		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+28660-9	Plasminogen actual/normal in Platelet poor plasma by Chromogenic method		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+27815-0	Coagulation factor XIII activity actual/normal in Platelet poor plasma by Chromogenic method		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+3209-4	Coagulation factor VIII activity actual/normal in Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+3289-6	Prothrombin activity actual/normal in Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+27822-6	Protein S actual/normal in Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+3226-8	Coagulation factor XI activity actual/normal in Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+3198-9	Coagulation factor VII activity actual/normal in Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+3232-6	Coagulation factor XII activity actual/normal in Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+27819-2	Protein C actual/normal in Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+27816-8	von Willebrand factor (vWf) Ag actual/normal in Platelet poor plasma by Immunoassay		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+68324-3	von Willebrand factor (vWf).activity actual/normal in Platelet poor plasma by Immunoassay		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+27821-8	Protein S Free Ag actual/normal in Platelet poor plasma by Immunoassay		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+27823-4	Protein S Ag actual/normal in Platelet poor plasma by Immunoassay		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+27820-0	Protein C Ag actual/normal in Platelet poor plasma by Immunoassay		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+50377-1	von Willebrand factor (vWf).collagen binding activity actual/normal in Platelet poor plasma by Immunoassay		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+38521-1	Coagulation factor VIII Ag actual/normal in Platelet poor plasma by Immunoassay		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+6014-5	von Willebrand factor (vWf) ristocetin cofactor actual/normal in Platelet poor plasma by Platelet aggregation		skos:broadMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+66745-1	Clot Lysis [Length fraction] in Blood by Thromboelastography --30 minutes post maximum clot amplitude		skos:relatedMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+52778-8	Maximum clot firmness [Length] in Blood by Thromboelastography		skos:relatedMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+52783-8	Maximum clot firmness.extrinsic coagulation system activated [Length] in Blood by Rotational TEG		skos:relatedMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+91125-5	Maximum amplitude kaolin induced [Length] in Blood by Resonance TEG --after addition of heparinase		skos:relatedMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+91126-3	Maximum amplitude activator F induced [Length] in Blood by Resonance TEG		skos:relatedMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+91127-1	Maximum amplitude ADP induced [Length] in Blood by Resonance TEG		skos:relatedMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+94577-4	Maximum amplitude arachidonate induced [Length] in Blood by Resonance TEG		skos:relatedMatch	OBA:2045225	blood clotting level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+21000-5	Erythrocyte distribution width [Entitic volume] by Automated count		skos:broadMatch	OBA:2045276	erythrocyte attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2742-5	Angiotensin converting enzyme [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:2045290	angiotensin converting enzyme activity attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+12480-0	Angiotensin converting enzyme [Enzymatic activity/volume] in Cerebral spinal fluid		skos:broadMatch	OBA:2045290	angiotensin converting enzyme activity attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+73895-5	Hemoglobin [Entitic substance] in Reticulocytes by Automated count		skos:broadMatch	OBA:2045306	reticulocyte hemoglobin variability attribute	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+8101-8	CD3+CD8+ (T8 suppressor) cells/100 cells in Blood		skos:relatedMatch	OBA:2045351	cytotoxic and regulatory T-cell molecule level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+32518-3	CD3+CD8+ (T8 suppressor) cells/100 cells in Specimen		skos:relatedMatch	OBA:2045351	cytotoxic and regulatory T-cell molecule level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+14135-8	CD3+CD8+ (T8 suppressor) cells [#/volume] in Blood		skos:relatedMatch	OBA:2045351	cytotoxic and regulatory T-cell molecule level	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+787-2	MCV [Entitic volume] by Automated count		skos:relatedMatch	OBA:2045381	hematocrit	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+17782-4	Lipoprotein.beta.subparticle [Entitic length] in Serum or Plasma		skos:broadMatch	OBA:2050113	LDL particle size	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+62253-0	Lipoprotein.alpha [Entitic length] in Serum or Plasma		skos:broadMatch	OBA:2050113	LDL particle size	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+62254-8	Lipoprotein.pre-beta [Entitic length] in Serum or Plasma		skos:broadMatch	OBA:2050113	LDL particle size	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+47215-9	Lipoprotein.beta.subparticle.medium [Entitic length] in Serum or Plasma		skos:broadMatch	OBA:2050113	LDL particle size	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+47213-4	Cholesterol in LDL real size pattern [Identifier] in Serum or Plasma		skos:relatedMatch	OBA:2050113	LDL particle size	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+3187-2	Coagulation factor IX activity actual/normal in Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:2050244	coagulation factor IX amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+3193-0	Coagulation factor V activity actual/normal in Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:2050268	coagulation factor V amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+28657-5	Coagulation factor X activated actual/normal in Platelet poor plasma by Chromogenic method		skos:broadMatch	OBA:2050298	coagulation factor X amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+3218-5	Coagulation factor X activity actual/normal in Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:2050298	coagulation factor X amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+785-6	MCH [Entitic mass] by Automated count		skos:relatedMatch	OBA:2060175	amount of hemoglobin in blood	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+58442-5	Other elements [Identifier] in Urine sediment by Light microscopy		skos:broadMatch	OBA:VT0000056	urine trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+1756-6	Albumin in CSF/Albumin in Serum or Plasma		skos:relatedMatch	OBA:VT0000199	blood albumin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+20493-3	Histiocytes/100 cells in Body fluid by Light microscopy		skos:broadMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+40489-7	Histiocytes/100 cells in Synovial fluid by Manual count		skos:broadMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26446-5	Blasts/100 leukocytes in Blood		skos:relatedMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26473-9	Leukocytes other/100 leukocytes in Body fluid		skos:broadMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13522-8	Blasts/100 leukocytes in Body fluid by Manual count		skos:relatedMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13521-0	Blasts/100 leukocytes in Cerebral spinal fluid by Manual count		skos:relatedMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+14860-1	Leukocytes other/100 leukocytes in Synovial fluid by Manual count		skos:relatedMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+46702-7	Leukocytes [#/area] in Urine sediment by Automated count		skos:broadMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+6690-2	Leukocytes [#/volume] in Blood by Automated count		skos:broadMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+30405-5	Leukocytes [#/volume] in Urine		skos:broadMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26466-3	Leukocytes [#/volume] in Body fluid		skos:broadMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+30376-8	Blasts [#/volume] in Blood		skos:relatedMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26465-5	Leukocytes [#/volume] in Cerebral spinal fluid		skos:broadMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+10579-1	Leukocytes [#/volume] in Semen		skos:broadMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26469-7	Leukocytes [#/volume] in Synovial fluid		skos:broadMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+708-8	Blasts [#/volume] in Blood by Manual count		skos:broadMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+33028-2	Leukocytes [#/volume] in Blood from Blood product unit		skos:broadMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+805-2	Leukocytes [#/volume] in Cerebral spinal fluid by Automated count		skos:broadMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26511-6	Neutrophils/100 leukocytes in Blood		skos:relatedMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26505-8	Segmented neutrophils/100 leukocytes in Blood		skos:relatedMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26508-2	Band form neutrophils/100 leukocytes in Blood		skos:relatedMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+770-8	Neutrophils/100 leukocytes in Blood by Automated count		skos:broadMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+31160-5	Polymorphonuclear cells/100 leukocytes in Blood by Manual count		skos:relatedMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+764-1	Band form neutrophils/100 leukocytes in Blood by Manual count		skos:relatedMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+30230-7	Segmented neutrophils/100 leukocytes in Body fluid by Manual count		skos:relatedMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13354-6	Band form neutrophils/100 leukocytes in Body fluid by Manual count		skos:relatedMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+9306-2	Polymorphonuclear cells/100 leukocytes in Body fluid by Manual count		skos:relatedMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+14107-7	Segmented neutrophils/100 leukocytes in Cerebral spinal fluid by Manual count		skos:relatedMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+12278-8	Band form neutrophils/100 leukocytes in Cerebral spinal fluid by Manual count		skos:relatedMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+58801-2	Polymorphonuclear cells/100 leukocytes in Peritoneal dialysis fluid		skos:relatedMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26522-3	Polymorphonuclear cells/100 leukocytes in Synovial fluid		skos:relatedMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+751-8	Neutrophils [#/volume] in Blood by Automated count		skos:broadMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+753-4	Neutrophils [#/volume] in Blood by Manual count		skos:broadMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+763-3	Band form neutrophils [#/volume] in Blood by Manual count		skos:broadMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26507-4	Band form neutrophils [#/volume] in Blood		skos:broadMatch	OBA:VT0000222	neutrophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+60554-3	CD59 deficient monocytes/100 cells in Blood		skos:relatedMatch	OBA:VT0000223	monocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26485-3	Monocytes/100 leukocytes in Blood		skos:broadMatch	OBA:VT0000223	monocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+5905-5	Monocytes/100 leukocytes in Blood by Automated count		skos:broadMatch	OBA:VT0000223	monocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+744-3	Monocytes/100 leukocytes in Blood by Manual count		skos:broadMatch	OBA:VT0000223	monocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+10330-9	Monocytes/100 leukocytes in Body fluid by Manual count		skos:broadMatch	OBA:VT0000223	monocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+10329-1	Monocytes/100 leukocytes in Cerebral spinal fluid by Manual count		skos:broadMatch	OBA:VT0000223	monocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+742-7	Monocytes [#/volume] in Blood by Automated count		skos:broadMatch	OBA:VT0000223	monocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+743-5	Monocytes [#/volume] in Blood by Manual count		skos:broadMatch	OBA:VT0000223	monocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+53115-2	Immature granulocytes [#/volume] in Blood by Automated count		skos:broadMatch	OBA:VT0000334	granulocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+739-3	Metamyelocytes [#/volume] in Blood by Manual count		skos:broadMatch	OBA:VT0000334	granulocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+748-4	Myelocytes [#/volume] in Blood by Manual count		skos:broadMatch	OBA:VT0000334	granulocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+30394-1	Granulocytes [#/volume] in Blood		skos:broadMatch	OBA:VT0000334	granulocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+781-5	Promyelocytes [#/volume] in Blood by Manual count		skos:broadMatch	OBA:VT0000334	granulocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+30433-7	Metamyelocytes [#/volume] in Blood		skos:broadMatch	OBA:VT0000334	granulocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+30446-9	Myelocytes [#/volume] in Blood		skos:relatedMatch	OBA:VT0000334	granulocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26523-1	Promyelocytes [#/volume] in Blood		skos:relatedMatch	OBA:VT0000334	granulocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+731-0	Lymphocytes [#/volume] in Blood by Automated count		skos:broadMatch	OBA:VT0000717	lymphocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+732-8	Lymphocytes [#/volume] in Blood by Manual count		skos:broadMatch	OBA:VT0000717	lymphocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+33662-8	Erythrocytes.CD59 deficient/100 erythrocytes in Blood		skos:broadMatch	OBA:VT0001586	erythrocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+46419-8	Erythrocytes [#/area] in Urine sediment by Automated count		skos:broadMatch	OBA:VT0001586	erythrocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13945-1	Erythrocytes [#/area] in Urine sediment by Microscopy high power field		skos:broadMatch	OBA:VT0001586	erythrocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+789-8	Erythrocytes [#/volume] in Blood by Automated count		skos:broadMatch	OBA:VT0001586	erythrocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+771-6	Nucleated erythrocytes [#/volume] in Blood by Automated count		skos:broadMatch	OBA:VT0001586	erythrocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+30392-5	Nucleated erythrocytes [#/volume] in Blood		skos:broadMatch	OBA:VT0001586	erythrocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+20409-9	Erythrocytes [#/volume] in Urine by Test strip		skos:broadMatch	OBA:VT0001586	erythrocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+23860-0	Erythrocytes [#/volume] in Body fluid by Automated count		skos:broadMatch	OBA:VT0001586	erythrocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+791-4	Erythrocytes [#/volume] in Cerebral spinal fluid by Automated count		skos:broadMatch	OBA:VT0001586	erythrocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26458-0	Erythrocytes [#/volume] in Synovial fluid		skos:broadMatch	OBA:VT0001586	erythrocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+6741-3	Erythrocytes [#/volume] in Body fluid by Manual count		skos:broadMatch	OBA:VT0001586	erythrocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+19225-2	Deoxyhemoglobin/Hemoglobin.total in Arterial blood		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2030-5	Carboxyhemoglobin/Hemoglobin.total in Arterial blood		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+4548-4	Hemoglobin A1c/Hemoglobin.total in Blood		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2614-6	Methemoglobin/Hemoglobin.total in Blood		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+20563-3	Carboxyhemoglobin/Hemoglobin.total in Blood		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+4625-0	Hemoglobin S/Hemoglobin.total in Blood		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+4551-8	Hemoglobin A2/Hemoglobin.total in Blood		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+4563-3	Hemoglobin C/Hemoglobin.total in Blood		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+4576-5	Hemoglobin F/Hemoglobin.total in Blood		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+4575-7	Hemoglobin E/Hemoglobin.total in Blood		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+4569-0	Hemoglobin D/Hemoglobin.total in Blood		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+4547-6	Hemoglobin A1/Hemoglobin.total in Blood		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+48343-8	Hemoglobin.other/Hemoglobin.total in Blood		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+4552-6	Hemoglobin A2/Hemoglobin.total in Blood by Electrophoresis		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+20572-4	Hemoglobin A/Hemoglobin.total in Blood by Electrophoresis		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+32683-5	Hemoglobin S/Hemoglobin.total in Blood by Electrophoresis		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+32682-7	Hemoglobin F/Hemoglobin.total in Blood by Electrophoresis		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+32017-6	Hemoglobin.other/Hemoglobin.total in Blood by Electrophoresis		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+32681-9	Hemoglobin C/Hemoglobin.total in Blood by Electrophoresis		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+4633-4	Hemoglobin F/Hemoglobin.total in Blood by Kleihauer-Betke method		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2032-1	Carboxyhemoglobin/Hemoglobin.total in Venous blood		skos:broadMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+6742-1	Erythrocyte morphology finding [Identifier] in Blood		skos:broadMatch	OBA:VT0002447	erythrocyte morphology trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+713-8	Eosinophils/100 leukocytes in Blood by Automated count		skos:broadMatch	OBA:VT0002602	eosinophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+714-6	Eosinophils/100 leukocytes in Blood by Manual count		skos:broadMatch	OBA:VT0002602	eosinophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+12209-3	Eosinophils/100 leukocytes in Body fluid by Manual count		skos:broadMatch	OBA:VT0002602	eosinophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+12208-5	Eosinophils/100 leukocytes in Cerebral spinal fluid by Manual count		skos:broadMatch	OBA:VT0002602	eosinophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+30378-4	Eosinophils/100 leukocytes in Nose		skos:broadMatch	OBA:VT0002602	eosinophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+12210-1	Eosinophils/100 leukocytes in Urine sediment by Manual count		skos:broadMatch	OBA:VT0002602	eosinophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+711-2	Eosinophils [#/volume] in Blood by Automated count		skos:broadMatch	OBA:VT0002602	eosinophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+712-0	Eosinophils [#/volume] in Blood by Manual count		skos:broadMatch	OBA:VT0002602	eosinophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+30180-4	Basophils/100 leukocytes in Blood		skos:relatedMatch	OBA:VT0002607	basophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+706-2	Basophils/100 leukocytes in Blood by Automated count		skos:broadMatch	OBA:VT0002607	basophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+707-0	Basophils/100 leukocytes in Blood by Manual count		skos:broadMatch	OBA:VT0002607	basophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+12179-8	Basophils/100 leukocytes in Body fluid by Manual count		skos:broadMatch	OBA:VT0002607	basophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13519-4	Basophils/100 leukocytes in Cerebral spinal fluid by Manual count		skos:broadMatch	OBA:VT0002607	basophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+704-7	Basophils [#/volume] in Blood by Automated count		skos:broadMatch	OBA:VT0002607	basophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+705-4	Basophils [#/volume] in Blood by Manual count		skos:broadMatch	OBA:VT0002607	basophil quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13986-5	Albumin/Protein.total in 24 hour Urine by Electrophoresis		skos:broadMatch	OBA:VT0002871	urine albumin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+13992-3	Albumin/Protein.total in Urine by Electrophoresis		skos:broadMatch	OBA:VT0002871	urine albumin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+30166-3	Thyroid stimulating immunoglobulins actual/normal in Serum		skos:broadMatch	OBA:VT0002876	thyroid gland physiology trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+17849-1	Reticulocytes/100 erythrocytes in Blood by Automated count		skos:broadMatch	OBA:VT0003135	reticulocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+60474-4	Reticulocytes [#/volume] in Blood by Automated count		skos:broadMatch	OBA:VT0003135	reticulocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+777-3	Platelets [#/volume] in Blood by Automated count		skos:broadMatch	OBA:VT0003179	platelet quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+26515-7	Platelets [#/volume] in Blood		skos:broadMatch	OBA:VT0003179	platelet quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+24049-9	Alpha galactosidase A [Enzymatic activity/mass] in Leukocytes		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+49231-4	Cholinesterase [Enzymatic activity/mass] in Red Blood Cells		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+49228-0	Porphobilinogen deaminase [Enzymatic activity/mass] in Red Blood Cells		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+32552-2	Pyruvate kinase [Enzymatic activity/mass] in Red Blood Cells		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+50759-0	Beta-N-acetylhexosaminidase.A [Enzymatic activity/mass] in Leukocytes		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+24078-8	Cerebroside sulfatase [Enzymatic activity/mass] in Leukocytes		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+1742-6	Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+1920-8	Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+6768-6	Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+3040-3	Lipase [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+14804-9	Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2157-6	Creatine kinase [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2532-0	Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2324-2	Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+1798-8	Amylase [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+76630-3	Amylase [Enzymatic activity/volume] in Blood		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+1795-4	Amylase [Enzymatic activity/volume] in Body fluid		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+1761-6	Aldolase [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2529-6	Lactate dehydrogenase [Enzymatic activity/volume] in Body fluid		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2915-7	Renin [Enzymatic activity/volume] in Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2357-2	Glucose-6-Phosphate dehydrogenase [Enzymatic activity/volume] in Red Blood Cells		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+16182-8	Alkaline phosphatase isoenzymes [Enzymatic activity/volume] in Serum or Plasma by Heat stability		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+1779-8	Alkaline phosphatase.liver [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+1777-2	Alkaline phosphatase.bone [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+53819-9	Thiopurine methyltransferase [Enzymatic activity/volume] in Blood		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+15212-4	Lipase [Enzymatic activity/volume] in Body fluid		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+21563-2	Thiopurine methyltransferase [Enzymatic activity/volume] in Red Blood Cells		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+14803-1	Lactate dehydrogenase [Enzymatic activity/volume] in Body fluid by Lactate to pyruvate reaction		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+35704-6	Adenosine deaminase [Enzymatic activity/volume] in Pleural fluid		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+60024-7	Lactate dehydrogenase [Enzymatic activity/volume] in Cerebral spinal fluid by Lactate to pyruvate reaction		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+1690-7	5'-Nucleotidase [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+4659-9	Leukocyte phosphatase [Enzymatic activity/volume] in Leukocytes		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+86951-1	Lipoprotein associated phospholipase A2 [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+38355-4	Chitotriosidase [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+17837-6	Acid phosphatase tartrate resistant [Enzymatic activity/volume] in Serum		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2537-9	Lactate dehydrogenase 1 [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2540-3	Lactate dehydrogenase 2 [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2543-7	Lactate dehydrogenase 3 [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2546-0	Lactate dehydrogenase 4 [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2549-4	Lactate dehydrogenase 5 [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+1809-3	Amylase.salivary [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+1805-1	Amylase.pancreatic [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+12173-1	Non prostatic acid phosphatase [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+1743-4	Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma by With P-5'-P		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+49760-2	Adenosine deaminase [Enzymatic activity/volume] in Pericardial fluid		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+49759-4	Adenosine deaminase [Enzymatic activity/volume] in Peritoneal fluid		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+30239-8	Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma by With P-5'-P		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2098-2	Cholinesterase [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+1715-2	Acid phosphatase [Enzymatic activity/volume] in Serum or Plasma		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+10970-2	Galactose 1 phosphate uridyl transferase [Enzymatic activity/volume] in Blood		skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+9728-7	CD3-CD16+CD56+ (Natural killer) cells [#/volume] in Blood		skos:broadMatch	OBA:VT0008043	NK cell quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+20604-5	CD3-CD16+CD56+ (Natural killer) cells [#/volume] in Specimen		skos:broadMatch	OBA:VT0008043	NK cell quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+55813-0	Alpha aminobutyrate/Amino acids.total in Serum or Plasma		skos:broadMatch	OBA:VT0010120	protein amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+23825-3	Beta-N-acetylhexosaminidase.A/Beta-n-acetylhexosaminidase.total in Leukocytes		skos:broadMatch	OBA:VT0010120	protein amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+10634-4	Complement C1 esterase inhibitor.functional/Complement C1 esterase inhibitor.total in Serum or Plasma		skos:broadMatch	OBA:VT0010120	protein amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2536-1	Lactate dehydrogenase 1/Lactate dehydrogenase.total in Serum or Plasma by Electrophoresis		skos:broadMatch	OBA:VT0010477	blood lactate dehydrogenase amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2539-5	Lactate dehydrogenase 2/Lactate dehydrogenase.total in Serum or Plasma by Electrophoresis		skos:broadMatch	OBA:VT0010477	blood lactate dehydrogenase amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2542-9	Lactate dehydrogenase 3/Lactate dehydrogenase.total in Serum or Plasma by Electrophoresis		skos:broadMatch	OBA:VT0010477	blood lactate dehydrogenase amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2545-2	Lactate dehydrogenase 4/Lactate dehydrogenase.total in Serum or Plasma by Electrophoresis		skos:broadMatch	OBA:VT0010477	blood lactate dehydrogenase amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+2548-6	Lactate dehydrogenase 5/Lactate dehydrogenase.total in Serum or Plasma by Electrophoresis		skos:broadMatch	OBA:VT0010477	blood lactate dehydrogenase amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+56006-0	Platelet aggregation ADP induced in Blood --10 umol/L		skos:broadMatch	OBA:VT3000002	platelet aggregation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+56007-8	Platelet aggregation arachidonate induced in Blood --500 umol/L		skos:broadMatch	OBA:VT3000002	platelet aggregation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+56011-0	Platelet aggregation ADP induced ATP secretion in Blood --10 umol/L		skos:broadMatch	OBA:VT3000002	platelet aggregation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+56013-6	Platelet aggregation arachidonate induced ATP secretion in Blood --500 umol/L		skos:broadMatch	OBA:VT3000002	platelet aggregation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+53568-2	Platelet aggregation arachidonate induced in Platelet rich plasma --500 ug/mL		skos:broadMatch	OBA:VT3000002	platelet aggregation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+56010-2	Platelet aggregation ristocetin induced in Blood --250 ug/mL		skos:broadMatch	OBA:VT3000002	platelet aggregation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+56008-6	Platelet aggregation collagen induced in Blood --1 ug/mL		skos:broadMatch	OBA:VT3000002	platelet aggregation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+56009-4	Platelet aggregation collagen induced in Blood --5 ug/mL		skos:broadMatch	OBA:VT3000002	platelet aggregation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+56014-4	Platelet aggregation collagen induced ATP secretion in Blood --5 ug/mL		skos:broadMatch	OBA:VT3000002	platelet aggregation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+56015-1	Platelet aggregation collagen induced ATP secretion in Blood --1 ug/mL		skos:broadMatch	OBA:VT3000002	platelet aggregation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+56027-6	Platelet aggregation ristocetin induced in Blood --1.0 mg/mL		skos:broadMatch	OBA:VT3000002	platelet aggregation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+56019-3	Platelet aggregation thrombin induced ATP secretion in Blood --1 U/mL		skos:broadMatch	OBA:VT3000002	platelet aggregation trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754

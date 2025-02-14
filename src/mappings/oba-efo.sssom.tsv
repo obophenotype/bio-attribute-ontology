@@ -483,7 +483,6 @@ EFO:0009239	Mature Plasma Cell Count;The determination of the number of mature p
 EFO:0004308	leukocyte count;The number of WHITE BLOOD CELLS per unit volume in venous BLOOD. A differential leukocyte count measures the relative numbers of the different types of white cells.	measurement	skos:exactMatch	OBA:VT0000217	leukocyte quantity		HumanCurated	EFO	OBA	1	2023-08-29				orcid:0000-0001-8314-2140
 EFO:0004764	adipose tissue measurement;Is a quantification of some aspect of adipose tissue	measurement	skos:exactMatch	OBA:VT0005452	adipose amount		HumanCurated	EFO	OBA	1	2023-08-29				orcid:0000-0001-8314-2140
 EFO:0005036	platelet measurement;A measurement quantifying some platelet	measurement	skos:exactMatch	OBA:VT0003179	platelet quantity		HumanCurated	EFO	OBA	1	2023-08-29				orcid:0000-0001-8314-2140
-EFO:0007772	calcaneal bone quantitative ultrasound measurement;bone quantitiave ultrasound of the main bone in the heel	measurement	skos:exactMatch	OBA:0003330	calcaneus size		HumanCurated	EFO	OBA	1	2023-08-29				orcid:0000-0001-8314-2140
 EFO:0007717	carotid artery geometry measurement	measurement	skos:exactMatch	OBA:2045208	carotid artery morphology		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
 EFO:0010759	male reproductive system measurement	measurement	skos:exactMatch	OBA:1000521	male reproductive system attribute		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
 EFO:0004464	brain measurement	measurement	skos:exactMatch	OBA:2045210	brain attribute		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
@@ -753,3 +752,8 @@ EFO:0007852	thiopurine methyltransferase activity measurement	measurement	skos:e
 EFO:0007019	milk allergy measurement	measurement	skos:broadMatch	OBA:2045386	response to milk	response to	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
 EFO:0007854	knee peak torque measurement	measurement	skos:broadMatch	OBA:2045387	knee flexor muscle funcionality attribute	functionality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
 EFO:0009335	white matter growth measurement	measurement	skos:exactMatch	OBA:2045388	white matter growth attribute	physical quality of a process	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004338	body weight	measurement	skos:exactMatch	OBA:VT0001259	body mass	mass	HumanCurated	EFO	OBA	1	2024-08-15				orcid:0000-0001-8314-2140
+EFO:0009284	chloride measurement	measurement	skos:broadMatch	OBA:2020003	chemical in blood amount	amount	HumanCurated	EFO	OBA	1	2024-08-15				orcid:0000-0001-8314-2140
+EFO:0009283	potassium measurement	measurement	skos:broadMatch	OBA:2020003	chemical in blood amount	amount	HumanCurated	EFO	OBA	1	2024-08-15				orcid:0000-0001-8314-2140
+EFO:0009282	sodium measurement	measurement	skos:broadMatch	OBA:2020003	chemical in blood amount	amount	HumanCurated	EFO	OBA	1	2024-08-15				orcid:0000-0001-8314-2140
+EFO:0007772	obsolete_calcaneal bone quantitative ultrasound measurement;bone quantitiave ultrasound of the main bone in the heel	measurement	skos:exactMatch	OBA:2045558	heel bone density	mass density	HumanCurated	EFO	OBA	1	2025-02-12				orcid:0000-0001-8314-2140
