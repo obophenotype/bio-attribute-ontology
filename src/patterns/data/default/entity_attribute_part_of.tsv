@@ -2461,7 +2461,7 @@ OBA:1000197		NBO:0000444	eye movement	PATO:0000001	quality
 OBA:1000198		UBERON:0003723	vestibular nerve	PATO:0000001	quality
 OBA:1000199		PR:000017364	von Willebrand factor	PATO:0000001	quality
 OBA:1000200		UBERON:0001653	facial vein	PATO:0000001	quality
-OBA:1000201		GO:0098803	respiratory chain complex PATO:0000001	quality
+OBA:1000201		GO:0098803	respiratory chain complex	PATO:0000001	quality
 OBA:1000202		UBERON:0001867	cartilage of external ear	PATO:0000001	quality
 OBA:1000203		UBERON:0001714	cranial ganglion	PATO:0000001	quality
 OBA:1000204		UBERON:0004330	proximal phalanx of manual digit 4	PATO:0000001	quality
@@ -2483,7 +2483,7 @@ OBA:1000219		NBO:0000129	agitation behavior	PATO:0000001	quality
 OBA:1000220		GO:0009069	serine family amino acid metabolic process	PATO:0000001	quality
 OBA:1000221		UBERON:0004389	epiphysis of metatarsal bone	PATO:0000001	quality
 OBA:1000222		UBERON:0008596	mentalis muscle	PATO:0000001	quality
-OBA:1000223		GO:1903510	mucopolysaccharide metabolic process	PATO:0000001	quality
+OBA:1000223	mucopolysaccharide metabolism trait	GO:0030203	glycosaminoglycan metabolic process	PATO:0000001	quality
 OBA:1000224		UBERON:0006059	falx cerebri	PATO:0000001	quality
 OBA:1000225		NBO:0000018	fear/anxiety related behavior	PATO:0000001	quality
 OBA:1000226		UBERON:0000010	peripheral nervous system	PATO:0000001	quality
