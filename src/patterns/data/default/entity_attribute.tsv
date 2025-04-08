@@ -401,6 +401,7 @@ OBA:VT0002846	aorta capacity	UBERON:0000947	aorta	PATO:0000918	volume
 OBA:VT0002847	glomerular filtration trait	GO:0003094	glomerular filtration	PATO:0001236	process quality			
 OBA:VT0002876	thyroid gland physiology trait	UBERON:0002046	thyroid gland	PATO:0001509	functionality			
 OBA:VT0002909	adrenal gland physiology trait	UBERON:0002369	adrenal gland	PATO:0001509	functionality			
+OBA:VT0002918	evoked neurotransmitter secretion attribute	GO:0061670	evoked neurotransmitter secretion	PATO:0001236	process quality	paired-pulse facilitation trait		https://orcid.org/0000-0001-8314-2140
 OBA:VT0002975	blood vessel smooth muscle size trait	UBERON:0004237	blood vessel smooth muscle	PATO:0000117	size			
 OBA:VT0002983	retinal ganglion cell quantity	CL:0000740	retinal ganglion cell	PATO:0001555	has number of			
 OBA:VT0002987	urine solute amount	UBERON:0001088	urine	PATO:0001655	osmolarity			

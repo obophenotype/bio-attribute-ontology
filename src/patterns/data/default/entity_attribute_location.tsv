@@ -227,7 +227,6 @@ OBA:2050076	serum zinc amount	CHEBI:27363	zinc atom	PATO:0000070	amount	UBERON:0
 OBA:2050077	blood cobalt amount	CHEBI:27638	cobalt atom	PATO:0000070	amount	UBERON:0000178	blood						
 OBA:2050079	serum immunoglobulin amount	GO:0019814	immunoglobulin complex	PATO:0000070	amount	UBERON:0001977	serum						
 OBA:2050080	serum VEFGR2 concentration amount	PR:000002112	vascular endothelial growth factor receptor 2	PATO:0000070	amount	UBERON:0001977	serum						
-OBA:2050081	serum gamma-glutamyl transferase activity trait	GO:0003810	protein-glutamine gamma-glutamyltransferase activity	PATO:0001236	process quality	UBERON:0001977	serum					https://orcid.org/0000-0001-6757-4744|https://orcid.org/0000-0001-8314-2140	
 OBA:2050082	serum ST2 amount	PR:000008994	interleukin-1 receptor-like 1	PATO:0000070	amount	UBERON:0001977	serum						
 OBA:2050083	serum amyloid A-1 protein amount	PR:000030460	primate-type serum amyloid A-1 protein	PATO:0000070	amount	UBERON:0001977	serum						
 OBA:2050084	serum IgE amount	GO:0071743	IgE immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0001977	serum						
@@ -8067,7 +8066,6 @@ OBA:VT0001770	iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:00010
 OBA:VT0001775	selenium amount	CHEBI:27568	selenium atom	PATO:0000070	amount	UBERON:0001062	anatomical entity					https://orcid.org/0000-0001-8314-2140	
 OBA:VT0001905	nervous system dopamine level	CHEBI:18243	dopamine	PATO:0000070	amount	UBERON:0001016	nervous system	nervous system dopamine amount				https://orcid.org/0000-0001-8314-2140	
 OBA:VT0002504	serotonin activity	CHEBI:28790	serotonin	PATO:0001509	functionality	UBERON:0001062	anatomical entity					https://orcid.org/0000-0001-8314-2140	
-OBA:VT0002918	CNS neurotransmitter secretion trait	GO:0007269	neurotransmitter secretion	PATO:0001236	process quality	UBERON:0001017	central nervous system			paired-pulse facilitation trait		https://orcid.org/0000-0001-8314-2140	
 OBA:VT0003947	cholesterol amount	CHEBI:16113	cholesterol	PATO:0000070	amount	UBERON:0001062	anatomical entity					https://orcid.org/0000-0001-8314-2140	
 OBA:VT0004147	porphyrin amount	CHEBI:8337	porphyrin	PATO:0000070	amount	UBERON:0001062	anatomical entity					https://orcid.org/0000-0001-8314-2140	
 OBA:VT0005437	blood glycogen amount	CHEBI:28087	glycogen	PATO:0000070	amount	UBERON:0000178	blood					https://orcid.org/0000-0001-8314-2140	
