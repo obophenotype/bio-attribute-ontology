@@ -7,7 +7,6 @@ OBA:0000015	anatomical structure size	UBERON:0000061	anatomical structure	PATO:0
 OBA:0000022	autophagic vacuole size	GO:0005776	autophagosome	PATO:0000117	size			
 OBA:0000023	axon diameter	GO:0030424	axon	PATO:0001334	diameter			
 OBA:0000032	blood vessel size	UBERON:0001981	blood vessel	PATO:0000117	size			
-OBA:0000040	calcium ion concentration	CHEBI:39124	calcium ion	PATO:0000033	concentration of			
 OBA:0000048	cell diameter	CL:0000000	cell	PATO:0001334	diameter			
 OBA:0000051	cell projection size	GO:0042995	cell projection	PATO:0000117	size			
 OBA:0000052	cell shape	CL:0000000	cell	PATO:0000052	shape			
@@ -31,10 +30,8 @@ OBA:0000112	myofibril number	GO:0030016	myofibril	PATO:0000070	amount
 OBA:0000113	myofibril size	GO:0030016	myofibril	PATO:0000117	size			
 OBA:0000117	nuclear size	GO:0005634	nucleus	PATO:0000117	size			
 OBA:0000119	nucleosome density	GO:0000786	nucleosome	PATO:0000070	amount			
-OBA:0000120	osmotic pressure	CHEBI:15377	water	PATO:0000070	amount			
 OBA:0000122	peroxisome size	GO:0005777	peroxisome	PATO:0000117	size			
 OBA:0000124	post-lysosomal vacuole size	GO:0032195	post-lysosomal vacuole	PATO:0000117	size			
-OBA:0000126	potassium ion concentration	CHEBI:29103	potassium(1+)	PATO:0000033	concentration of			
 OBA:0000127	pronephric kidney size	UBERON:0002120	pronephros	PATO:0000117	size			
 OBA:0000138	spindle density	GO:0005819	spindle	PATO:0000070	amount			
 OBA:0000160	thalamus size	UBERON:0001897	dorsal plus ventral thalamus	PATO:0000117	size			
@@ -179,9 +176,7 @@ OBA:VT0000173	lymph vessel physiology trait	UBERON:0001473	lymphatic vessel	PATO
 OBA:VT0000174	lymph physiology trait	UBERON:0002391	lymph	PATO:0001509	functionality			
 OBA:VT0000182	blood flow trait	UBERON:0000178	blood	PATO:0001574	flow rate			
 OBA:VT0000183	blood pressure trait	UBERON:0000178	blood	PATO:0001025	pressure			
-OBA:VT0000187	triglyceride amount	CHEBI:17855	triglyceride	PATO:0000070	amount			
 OBA:VT0000190	blood vessel permeability trait	UBERON:0001981	blood vessel	PATO:0000970	permeability			
-OBA:VT0000192	mineral amount	CHEBI:46662	mineral	PATO:0000070	amount			
 OBA:VT0000217	leukocyte quantity	CL:0000738	leukocyte	PATO:0000070	amount			
 OBA:VT0000222	neutrophil quantity	CL:0000775	neutrophil	PATO:0000070	amount			
 OBA:VT0000223	monocyte quantity	CL:0000576	monocyte	PATO:0000070	amount			
@@ -333,22 +328,17 @@ OBA:VT0001539	caudal vertebra quantity	UBERON:0001095	caudal vertebra	PATO:00015
 OBA:VT0001541	osteoclast physiology trait	CL:0000092	osteoclast	PATO:0001509	functionality			
 OBA:VT0001542	bone strength trait	UBERON:0001474	bone element	PATO:0001230	strength			
 OBA:VT0001544	cardiovascular system physiology trait	UBERON:0004535	cardiovascular system	PATO:0001509	functionality			
-OBA:VT0001547	lipid amount	CHEBI:18059	lipid	PATO:0000070	amount			
 OBA:VT0001586	erythrocyte quantity	CL:0000232	erythrocyte	PATO:0000070	amount			
-OBA:VT0001588	blood hemoglobin amount	CHEBI:35143	hemoglobin	PATO:0000070	amount			
 OBA:VT0001663	gastrointestinal system physiology trait	UBERON:0001007	digestive system	PATO:0001509	functionality			
 OBA:VT0001684	axial mesoderm development trait	GO:0007498	mesoderm development	PATO:0002036	axial to			
 OBA:VT0001691	somite shape trait	UBERON:0002329	somite	PATO:0000052	shape			
 OBA:VT0001697	embryo size trait	UBERON:0000922	embryo	PATO:0000117	size			
 OBA:VT0001722	yolk sac color	UBERON:0001040	yolk sac	PATO:0000014	color			
-OBA:VT0001770	iron amount	CHEBI:18248	iron atom	PATO:0000070	amount			
-OBA:VT0001775	selenium amount	CHEBI:27568	selenium atom	PATO:0000070	amount			
 OBA:VT0001778	brown adipose amount	UBERON:0001348	brown adipose tissue	PATO:0000070	amount			
 OBA:VT0001781	white adipose amount	UBERON:0001347	white adipose tissue	PATO:0000070	amount			
 OBA:VT0001790	immune system physiology trait	UBERON:0002405	immune system	PATO:0001509	functionality			
 OBA:VT0001830	effector T cell quantity	CL:0000911	effector T cell	PATO:0001555	has number of			
 OBA:VT0001881	mammary gland physiology trait	UBERON:0001911	mammary gland	PATO:0001509	functionality			
-OBA:VT0001905	nervous system dopamine amount	CHEBI:18243	dopamine	PATO:0000070	amount			
 OBA:VT0001919	reproductive system physiology trait	UBERON:0000990	reproductive system	PATO:0001509	functionality			
 OBA:VT0001922	male fertility trait	UBERON:0003101	male organism	PATO:0000274	fertility			
 OBA:VT0001942	lung capacity	UBERON:0002048	lung	PATO:0000918	volume			
@@ -381,7 +371,6 @@ OBA:VT0002462	granulocyte physiology trait	CL:0000094	granulocyte	PATO:0001509	f
 OBA:VT0002463	neutrophil physiology trait	CL:0000775	neutrophil	PATO:0001509	functionality			
 OBA:VT0002464	basophil physiology trait	CL:0000767	basophil	PATO:0001509	functionality			
 OBA:VT0002465	eosinophil physiology trait	CL:0000771	eosinophil	PATO:0001509	functionality			
-OBA:VT0002504	serotonin activity	CHEBI:28790	serotonin	PATO:0001509	functionality			
 OBA:VT0002543	phalanx length	UBERON:0003221	phalanx	PATO:0000122	length			
 OBA:VT0002544	digit length	UBERON:0002544	digit	PATO:0000122	length			
 OBA:VT0002602	eosinophil quantity	CL:0000771	eosinophil	PATO:0000070	amount			
@@ -412,7 +401,7 @@ OBA:VT0002846	aorta capacity	UBERON:0000947	aorta	PATO:0000918	volume
 OBA:VT0002847	glomerular filtration trait	GO:0003094	glomerular filtration	PATO:0001236	process quality			
 OBA:VT0002876	thyroid gland physiology trait	UBERON:0002046	thyroid gland	PATO:0001509	functionality			
 OBA:VT0002909	adrenal gland physiology trait	UBERON:0002369	adrenal gland	PATO:0001509	functionality			
-OBA:VT0002918	paired-pulse facilitation trait	CHEBI:50459	2,5-diphenylfuran	PATO:0001629	aggregated			
+OBA:VT0002918	evoked neurotransmitter secretion attribute	GO:0061670	evoked neurotransmitter secretion	PATO:0001236	process quality	paired-pulse facilitation trait		https://orcid.org/0000-0001-8314-2140
 OBA:VT0002975	blood vessel smooth muscle size trait	UBERON:0004237	blood vessel smooth muscle	PATO:0000117	size			
 OBA:VT0002983	retinal ganglion cell quantity	CL:0000740	retinal ganglion cell	PATO:0001555	has number of			
 OBA:VT0002987	urine solute amount	UBERON:0001088	urine	PATO:0001655	osmolarity			
@@ -502,8 +491,6 @@ OBA:VT0003878	ear physiology trait	UBERON:0001690	ear	PATO:0001509	functionality
 OBA:VT0003879	hair cell physiology trait	CL:0000855	sensory hair cell	PATO:0001509	functionality			
 OBA:VT0003883	stomach size trait	UBERON:0000945	stomach	PATO:0000117	size			
 OBA:VT0003945	lymphocyte physiology trait	CL:0000542	lymphocyte	PATO:0001509	functionality			
-OBA:VT0003947	cholesterol amount	CHEBI:16113	cholesterol	PATO:0000070	amount			
-OBA:VT0003952	copper amount	CHEBI:30052	copper(0)	PATO:0000070	amount			
 OBA:VT0003984	embryonic growth trait	UBERON:0000922	embryo	PATO:0001492	growth rate			
 OBA:VT0003986	cochlear ganglion size trait	UBERON:0000395	cochlear ganglion	PATO:0000117	size			
 OBA:VT0003987	vestibular ganglion size trait	UBERON:0002824	vestibular ganglion	PATO:0000117	size			
@@ -518,7 +505,6 @@ OBA:VT0004093	Z line configuration trait	GO:0030018	Z disc	PATO:0000060	spatial 
 OBA:VT0004104	eye shape trait	UBERON:0000019	camera-type eye	PATO:0000052	shape			
 OBA:VT0004127	hypodermis thickness	UBERON:0002072	hypodermis	PATO:0000915	thickness			
 OBA:VT0004142	muscle tone	UBERON:0001630	muscle organ	PATO:0001439	tonicity			
-OBA:VT0004147	porphyrin amount	CHEBI:8337	porphyrin	PATO:0000070	amount			
 OBA:VT0004174	vertebral column orientation trait	UBERON:0001130	vertebral column	PATO:0001591	curvature			
 OBA:VT0004183	sympathetic nervous system physiology trait	UBERON:0000013	sympathetic nervous system	PATO:0001509	functionality			
 OBA:VT0004184	baroreceptor physiology trait	UBERON:0004019	baroreceptor	PATO:0001509	functionality			
@@ -597,7 +583,6 @@ OBA:VT0005406	heart size trait	UBERON:0000948	heart	PATO:0000117	size
 OBA:VT0005423	somatic nervous system physiology trait	UBERON:0000012	somatic nervous system	PATO:0001509	functionality			
 OBA:VT0005425	macrophage quantity	CL:0000235	macrophage	PATO:0000070	amount			
 OBA:VT0005431	oocyte quantity	CL:0000023	oocyte	PATO:0001555	has number of			
-OBA:VT0005437	blood glycogen amount	CHEBI:28087	glycogen	PATO:0000070	amount			
 OBA:VT0005450	energy expenditure trait	GO:0008152	metabolic process	PATO:0001021	energy			
 OBA:VT0005452	adipose amount	UBERON:0001013	adipose tissue	PATO:0000070	amount			
 OBA:VT0005464	platelet physiology trait	CL:0000233	platelet	PATO:0001509	functionality			
@@ -723,7 +708,6 @@ OBA:VT0010023	forelimb length	UBERON:0002102	forelimb	PATO:0000122	length
 OBA:VT0010024	hindlimb length	UBERON:0002103	hindlimb	PATO:0000122	length			
 OBA:VT0010030	udder height	UBERON:0013216	udder	PATO:0000119	height			
 OBA:VT0010043	ovarian follicle physiology trait	UBERON:0001305	ovarian follicle	PATO:0001509	functionality			
-OBA:VT0010046	fatty acid amount	CHEBI:35366	fatty acid	PATO:0000070	amount			
 OBA:VT0010047	tendon physiology trait	UBERON:0000043	tendon	PATO:0001509	functionality			
 OBA:VT0010064	connective tissue physiology trait	UBERON:0002384	connective tissue	PATO:0001509	functionality			
 OBA:VT0010073	esophagus length	UBERON:0001043	esophagus	PATO:0000122	length			
@@ -738,7 +722,6 @@ OBA:VT0010114	intercostal muscle size trait	UBERON:0001111	intercostal muscle	PA
 OBA:VT0010115	diaphragm size trait	UBERON:0001103	diaphragm	PATO:0000117	size			
 OBA:VT0010116	pectoralis muscle size trait	UBERON:0001495	pectoral muscle	PATO:0000117	size			
 OBA:VT0010117	longissimus dorsi size trait	UBERON:0001401	longissimus thoracis muscle	PATO:0000117	size			
-OBA:VT0010120	protein amount	PR:000000001	protein	PATO:0000070	amount			
 OBA:VT0010125	celiac lymph node size trait	UBERON:0002508	celiac lymph node	PATO:0000117	size			
 OBA:VT0010127	bursa of Fabricius size trait	UBERON:0003903	bursa of Fabricius	PATO:0000117	size			
 OBA:VT0010129	esophagus mass	UBERON:0001043	esophagus	PATO:0000125	mass			
@@ -751,7 +734,6 @@ OBA:VT0010136	DN4 thymocyte quantity	CL:0000808	DN4 thymocyte	PATO:0001555	has n
 OBA:VT0010140	small intestine mass	UBERON:0002108	small intestine	PATO:0000125	mass			
 OBA:VT0010144	pancreas mass	UBERON:0001264	pancreas	PATO:0000125	mass			
 OBA:VT0010145	rectum mass	UBERON:0001052	rectum	PATO:0000125	mass			
-OBA:VT0010162	interleukin-10 physiology trait	PR:000001471	interleukin-10	PATO:0001509	functionality			
 OBA:VT0010193	colon length	UBERON:0001155	colon	PATO:0000122	length			
 OBA:VT0010194	colon mass	UBERON:0001155	colon	PATO:0000125	mass			
 OBA:VT0010195	intestine length	UBERON:0000160	intestine	PATO:0000122	length			
@@ -814,7 +796,6 @@ OBA:VT0010492	left ventricle diameter	UBERON:0002084	heart left ventricle	PATO:0
 OBA:VT0010493	left atrium diameter	UBERON:0002079	left cardiac atrium	PATO:0001334	diameter			
 OBA:VT0010495	inguinal lymph node mass	UBERON:0001542	inguinal lymph node	PATO:0000125	mass			
 OBA:VT0010496	pituitary gland mass	UBERON:0000007	pituitary gland	PATO:0000125	mass			
-OBA:VT0010499	calcium amount	CHEBI:22984	calcium atom	PATO:0000070	amount			
 OBA:VT0010508	neurocranium mass	UBERON:0001703	neurocranium	PATO:0000125	mass			
 OBA:VT0010510	lumbar vertebra mass	UBERON:0002414	lumbar vertebra	PATO:0000125	mass			
 OBA:VT0010517	neurocranium size trait	UBERON:0001703	neurocranium	PATO:0000117	size			
@@ -957,7 +938,6 @@ OBA:0000093	mRNA stability	SO:0000234	mRNA	OBA:0001001	macromolecular stability
 OBA:0000105	mitochondrial membrane potential	GO:0031966	mitochondrial membrane	PATO:0001462	membrane potential			
 OBA:0000114	neuronal synaptic plasticity	CL:0000540	neuron	OBA:0000141	synaptic plasticity			
 OBA:0000125	post-synaptic membrane potential	GO:0045211	postsynaptic membrane	PATO:0001462	membrane potential			
-OBA:0000128	protein stability	PR:000000001	protein	OBA:0001001	macromolecular stability			
 OBA:0000129	rRNA stability	SO:0000252	rRNA	OBA:0001001	macromolecular stability			
 OBA:0000110	muscle filament sliding speed	GO:0030049	muscle filament sliding	PATO:0000008	speed			
 OBA:0000183	blood vessel diameter	UBERON:0001981	blood vessel	PATO:0001334	diameter			
@@ -3950,78 +3930,7 @@ OBA:0006123		UBERON:0006440	os clitoris	PATO:0000921	width
 OBA:0006124		UBERON:0006440	os clitoris	PATO:0000122	length			
 OBA:0007000	DNA stability	SO:0000352	DNA	OBA:0001001	macromolecular stability			
 OBA:1000859	brood size trait	GO:0060378	regulation of brood size	PATO:0000276	brood size			
-OBA:1000940		CHEBI:24867	monoatomic ion	PATO:0000070	amount			
-OBA:1000941		PR:000009054	insulin	PATO:0000070	amount			
-OBA:1000942		PR:000003809	alpha-fetoprotein	PATO:0000070	amount			
-OBA:1000943		CHEBI:28694	copper	PATO:0000070	amount			
-OBA:1000944		CHEBI:25500	neopterins	PATO:0000070	amount			
-OBA:1000945		CHEBI:22881	biopterins	PATO:0000070	amount			
-OBA:1000946		CHEBI:24875	iron cation	PATO:0000070	amount			
-OBA:1000947		CHEBI:51143	nitrogen molecular entity	PATO:0000070	amount			
-OBA:1000948		CHEBI:29103	potassium(1+)	PATO:0000070	amount			
-OBA:1000949		CHEBI:29101	sodium(1+)	PATO:0000070	amount			
-OBA:1000950		CHEBI:36477	sulfoglycosphingolipid	PATO:0000070	amount			
-OBA:1000951		CHEBI:17761	ceramide	PATO:0000070	amount			
-OBA:1000952		PR:000013246	prolactin	PATO:0000070	amount			
-OBA:1000953		CHEBI:3165	bradykinin	PATO:0000070	amount			
-OBA:1000954		CHEBI:26271	proline	PATO:0000070	amount			
-OBA:1000955		CHEBI:33234	Vitamin E	PATO:0000070	amount			
-OBA:1000956		PR:000015665	somatostatin	PATO:0000070	amount			
-OBA:1000957		CHEBI:16526	carbon dioxide	PATO:0000070	amount			
-OBA:1000958		CHEBI:33568	adrenaline	PATO:0000070	amount			
-OBA:1000959		CHEBI:17996	chloride	PATO:0000070	amount			
-OBA:1000960		CHEBI:18258	3,3',5-triiodo-L-thyronine	PATO:0000070	amount			
-OBA:1000961		CHEBI:64611	ether lipid	PATO:0000070	amount			
-OBA:1000962		CHEBI:15373	biopterin	PATO:0000070	amount			
-OBA:1000963		CHEBI:26333	prostaglandin	PATO:0000070	amount			
-OBA:1000964		CHEBI:17347	Testosterone	PATO:0000070	amount			
-OBA:1000965		CHEBI:26739	sphingolipid	PATO:0000070	amount			
-OBA:1000966		CHEBI:17754	Glycerin	PATO:0000070	amount			
-OBA:1000967		PR:000003777	adiponectin	PATO:0000070	amount			
-OBA:1000968		CHEBI:27300	vitamin D	PATO:0000070	amount			
-OBA:1000969		PR:000009182	insulin-like growth factor I	PATO:0000070	amount			
-OBA:1000970		CHEBI:16393	sphingosine	PATO:0000070	amount			
-OBA:1000971		CHEBI:18085	glycosaminoglycan	PATO:0000070	amount			
-OBA:1000973		CHEBI:15889	sterol	PATO:0000070	amount			
-OBA:1000974		CHEBI:36526	acidic glycosphingolipid	PATO:0000070	amount			
-OBA:1000975		CHEBI:29073	L-ascorbic acid	PATO:0000070	amount			
-OBA:1000977		CHEBI:28790	serotonin	PATO:0000070	amount			
-OBA:1000978		PR:000000046	TGF-beta	PATO:0000070	amount			
 OBA:1000979		CL:0000681	radial glial cell	PATO:0000070	amount			
-OBA:1000980		CHEBI:25029	leukotriene	PATO:0000070	amount			
-OBA:1000981		CHEBI:25805	Oxygen	PATO:0000070	amount			
-OBA:1000983		CHEBI:81567	Thyroid stimulating hormone	PATO:0000070	amount			
-OBA:1000984		CHEBI:33567	catecholamine	PATO:0000070	amount			
-OBA:1000985		CHEBI:33569	noradrenaline	PATO:0000070	amount			
-OBA:1000986		CHEBI:26948	Thiamine	PATO:0000070	amount			
-OBA:1000987		CHEBI:24402	glycosphingolipid	PATO:0000070	amount			
-OBA:1000988		CHEBI:3892	corticotropin	PATO:0000070	amount			
-OBA:1000989		CHEBI:39015	apolipoprotein	PATO:0000070	amount			
-OBA:1000990		CHEBI:27584	aldosterone	PATO:0000070	amount			
-OBA:1000991		CHEBI:26995	thromboxane	PATO:0000070	amount			
-OBA:1000992		CHEBI:81569	Follicle stimulating hormone	PATO:0000070	amount			
-OBA:1000994		CHEBI:17026	Progesterone	PATO:0000070	amount			
-OBA:1000995		CHEBI:50211	retinol	PATO:0000070	amount			
-OBA:1000996		CHEBI:12777	vitamin A	PATO:0000070	amount			
-OBA:1000997		CHEBI:61384	sulfolipid	PATO:0000070	amount			
-OBA:1000998		CHEBI:22868	bile salt	PATO:0000070	amount			
-OBA:1000999		CHEBI:16827	corticosterone	PATO:0000070	amount			
-OBA:1001000		PR:000007141	erythropoietin	PATO:0000070	amount			
-OBA:1001001		CHEBI:33709	amino acid	PATO:0000070	amount			
-OBA:1001002		PR:000025853	primate-type serum amyloid A-2 protein	PATO:0000070	amount			
-OBA:1001003		CHEBI:5254	galactolipid	PATO:0000070	amount			
-OBA:1001005		CHEBI:16919	creatine	PATO:0000070	amount			
-OBA:1001006		PR:000007785	glutamate decarboxylase 1	PATO:0000070	amount			
-OBA:1001007		CHEBI:16856	glutathione	PATO:0000070	amount			
-OBA:1001008		CHEBI:26125	phytosterols	PATO:0000070	amount			
-OBA:1001009		CHEBI:81568	Luteinizing hormone	PATO:0000070	amount			
-OBA:1001010		CHEBI:30660	thyroxine	PATO:0000070	amount			
-OBA:1001011		CHEBI:16247	phospholipid	PATO:0000070	amount			
-OBA:1001012		CHEBI:28670	neopterin	PATO:0000070	amount			
-OBA:1001013	tumor necrosis factor alpha amount	PR:000000134	tumor necrosis factor alpha	PATO:0000070	amount			
-OBA:1001014		CHEBI:64583	sphingomyelin	PATO:0000070	amount			
-OBA:1001015		CHEBI:27470	folic acid	PATO:0000070	amount			
-OBA:1001017		CHEBI:6495	lipoprotein	PATO:0000070	amount			
 OBA:1001084		UBERON:0001988	feces	PATO:0002027	osmolality			
 OBA:1001085	waist circumference	UBERON:0002417	abdominal section of trunk	PATO:0001648	circumference			
 OBA:1001087	heart rate	GO:0060047	heart contraction	PATO:0000161	rate			
@@ -4035,7 +3944,6 @@ OBA:2040151	shelled egg length	UBERON:0007379	shelled egg	PATO:0000122	length			
 OBA:2040152	shelled egg width	UBERON:0007379	shelled egg	PATO:0000921	width			https://orcid.org/0000-0001-8314-2140
 OBA:2030002 		UBERON:0012111	diastema	PATO:0000117	size			
 OBA:VT0010119		UBERON:0001134	skeletal muscle tissue	PATO:0000025	composition			
-OBA:VT0010917		CHEBI:3098	bile acid	PATO:0000070	amount			
 OBA:VT0007075	heart left ventricle wall thickness	UBERON:0036285	wall of left ventricle	PATO:0000915	thickness			
 OBA:VT0007088	heart right ventricle wall thickness	UBERON:0036286	wall of right ventricle	PATO:0000915	thickness			
 OBA:VT0002095	skin pigmentation	UBERON:0002097	skin of body	PATO:0002247	degree of pigmentation			
@@ -4094,8 +4002,6 @@ OBA:2050050	hippocampus molecular layer volume	UBERON:0005368	hippocampus molecu
 OBA:2050051	cerebral cortex volume 	UBERON:0000956	cerebral cortex	PATO:0000918	volume			
 OBA:2050052	occipital lobe volume 	UBERON:0002021	occipital lobe	PATO:0000918	volume			
 OBA:2050053	lentiform nucleus volume	UBERON:0002263	lentiform nucleus	PATO:0000918	volume			
-OBA:2050097	serum amyloid A protein measurement	CHEBI:138152	serum amyloid A	PATO:0000070	amount			
-OBA:2050098	serum paraoxonase/arylesterase 1 measurement	PR:000013021	serum paraoxonase/arylesterase 1	PATO:0000070	amount			
 OBA:2060000		NBO:0000112	aggressive behavior towards inanimate objects	PATO:0000161	rate			
 OBA:2060001		NBO:0000223	contextual conditioning behavior	PATO:0000161	rate			
 OBA:2060002		NBO:0000339	motor coordination	PATO:0000161	rate			
@@ -4185,67 +4091,6 @@ OBA:2060183	motor coordination efficacy	NBO:0000339	motor coordination	PATO:0015
 OBA:2060191	gross motor coordination efficacy	NBO:0000347	gross motor coordination	PATO:0015002	process efficacy			
 OBA:2060192	fine motor coordination efficacy	NBO:0000348	fine motor coordination	PATO:0015002	process efficacy			
 OBA:2060193	eye-hand coordination efficacy	NBO:0000341	eye-hand coordination	PATO:0015002	process efficacy			
-OBA:2050120	platelet-derived growth factor receptor beta amount	PR:000002035	beta-type platelet-derived growth factor receptor	PATO:0000070	amount			
-OBA:2050121	fibroblast growth factor 20 amount	PR:000007490	fibroblast growth factor 20 	PATO:0000070	amount			
-OBA:2050122	fibroblast growth factor 9 amount	PR:000007500	fibroblast growth factor 9 	PATO:0000070	amount			
-OBA:2050123	fibroblast growth factor 19 amount	PR:000007488	fibroblast growth factor 19 	PATO:0000070	amount			
-OBA:2050124	epidermal growth factor receptor substrate 15-like 1 amount	PR:000007146	epidermal growth factor receptor substrate 15-like 1 	PATO:0000070	amount			
-OBA:2050125	vascular endothelial growth factor receptor 2 amount	PR:000002112	vascular endothelial growth factor receptor 2 	PATO:0000070	amount			
-OBA:2050126	fibroblast growth factor 17 amount	PR:000007486	fibroblast growth factor 17 	PATO:0000070	amount			
-OBA:2050127	insulin-like growth factor-binding protein 2 amount	PR:000008948	insulin-like growth factor-binding protein 2 	PATO:0000070	amount			
-OBA:2050128	fibroblast growth factor receptor 4 amount	PR:000001451	fibroblast growth factor receptor 4 	PATO:0000070	amount			
-OBA:2050129	platelet-derived growth factor subunit B amount	PR:000012491	platelet-derived growth factor subunit B	PATO:0000070	amount			
-OBA:2050130	insulin-like protein amount	PR:000026013	insulin-like protein	PATO:0000070	amount			
-OBA:2050131	vascular endothelial growth factor A amount	PR:000017284	vascular endothelial growth factor A	PATO:0000070	amount			
-OBA:2050132	fibroblast growth factor receptor 1 amount	PR:000001448	fibroblast growth factor receptor 1 	PATO:0000070	amount			
-OBA:2050133	fibroblast growth factor 4 amount	PR:000007495	fibroblast growth factor 4 	PATO:0000070	amount			
-OBA:2050134	fibroblast growth factor 1 amount	PR:000007479	fibroblast growth factor 1 	PATO:0000070	amount			
-OBA:2050135	growth differentiation factor 15 amount	PR:000007920	growth differentiation factor 15 	PATO:0000070	amount			
-OBA:2050136	inhibitor of growth protein 1 amount	PR:000009033	inhibitor of growth protein 1 	PATO:0000070	amount			
-OBA:2050137	fibroblast growth factor 21 amount	PR:000007491	fibroblast growth factor 21 	PATO:0000070	amount			
-OBA:2050138	transforming growth factor-beta-induced protein ig-h3 amount	PR:000016287	transforming growth factor-beta-induced protein ig-h3 	PATO:0000070	amount			
-OBA:2050139	insulin-like growth factor-binding protein 4 amount	PR:000008950	insulin-like growth factor-binding protein 4 	PATO:0000070	amount			
-OBA:2050140	vascular endothelial growth factor receptor 3 amount	PR:000007565	vascular endothelial growth factor receptor 3 	PATO:0000070	amount			
-OBA:2050141	insulin-like growth factor-binding protein 5 amount	PR:000008951	insulin-like growth factor-binding protein 5 	PATO:0000070	amount			
-OBA:2050142	insulin-like growth factor-binding protein 7 amount	PR:000008953	insulin-like growth factor-binding protein 7 	PATO:0000070	amount			
-OBA:2050143	fibroblast growth factor 7 amount	PR:000007498	fibroblast growth factor 7 	PATO:0000070	amount			
-OBA:2050144	hepatocyte growth factor activator amount	PR:000008535	hepatocyte growth factor activator 	PATO:0000070	amount			
-OBA:2050145	fibroblast growth factor receptor 2 amount	PR:000001449	fibroblast growth factor receptor 2 	PATO:0000070	amount			
-OBA:2050146	platelet-derived growth factor C amount	PR:000000703	platelet-derived growth factor C 	PATO:0000070	amount			
-OBA:2050147	transforming growth factor beta-1 amount	PR:000000182	TGF-beta 1	PATO:0000070	amount			
-OBA:2050148	fibroblast growth factor 6 amount	PR:000007497	fibroblast growth factor 6 	PATO:0000070	amount			
-OBA:2050149	vascular endothelial growth factor C amount	PR:000017285	vascular endothelial growth factor C 	PATO:0000070	amount			
-OBA:2050150	fibroblast growth factor 10 amount	PR:000007480	fibroblast growth factor 10 	PATO:0000070	amount			
-OBA:2050151	proheparin-binding EGF-like growth factor amount	PR:000008459	proheparin-binding EGF-like growth factor 	PATO:0000070	amount			
-OBA:2050152	fibroblast growth factor 5 amount	PR:000007496	fibroblast growth factor 5 	PATO:0000070	amount			
-OBA:2050153	protransforming growth factor alpha amount	PR:000016285	protransforming growth factor alpha	PATO:0000070	amount			
-OBA:2050154	fibroblast growth factor 2 amount	PR:000007489	fibroblast growth factor 2 	PATO:0000070	amount			
-OBA:2050155	hepatocyte growth factor amount	PR:000008534	hepatocyte growth factor 	PATO:0000070	amount			
-OBA:2050156	insulin-like growth factor-binding protein 6 amount	PR:000008952	insulin-like growth factor-binding protein 6 	PATO:0000070	amount			
-OBA:2050157	melanoma-derived growth regulatory protein amount	PR:000010393	melanoma-derived growth regulatory protein 	PATO:0000070	amount			
-OBA:2050158	epidermal growth factor receptor amount	PR:000006933	epidermal growth factor receptor 	PATO:0000070	amount			
-OBA:2050159	transforming growth factor beta-2 amount	PR:000000183	TGF-beta 2	PATO:0000070	amount			
-OBA:2050160	hepatocyte growth factor receptor amount	PR:000010335	hepatocyte growth factor receptor 	PATO:0000070	amount			
-OBA:2050161	fibroblast growth factor 12 amount	PR:000007482	fibroblast growth factor 12 	PATO:0000070	amount			
-OBA:2050162	insulin-like growth factor 1 receptor amount	PR:000003273	insulin-like growth factor 1 receptor 	PATO:0000070	amount			
-OBA:2050163	BDNF/NT-3 growth factors receptor amount	PR:000011470	BDNF/NT-3 growth factors receptor	PATO:0000070	amount			
-OBA:2050164	fibroblast growth factor 23 amount	PR:000007493	fibroblast growth factor 23 	PATO:0000070	amount			
-OBA:2050165	connective tissue growth factor amount	PR:000003172	CCN family member 2	PATO:0000070	amount			
-OBA:2050166	fibroblast growth factor 18 amount	PR:000007487	fibroblast growth factor 18 	PATO:0000070	amount			
-OBA:2050167	platelet-derived growth factor complex BB dimer amount	PR:000044756	platelet-derived growth factor complex BB dimer (human)	PATO:0000070	amount			
-OBA:2050168	fibroblast growth factor 8 isoform B amount	PR:000039787	fibroblast growth factor 8 isoform FGF-8B	PATO:0000070	amount			
-OBA:2050169	beta-nerve growth factor amount	PR:000011194	beta-nerve growth factor 	PATO:0000070	amount			
-OBA:2050170	hepatocyte growth factor-like protein amount	PR:000010683	hepatocyte growth factor-like protein 	PATO:0000070	amount			
-OBA:2050171	fibroblast growth factor 16 amount	PR:000007485	fibroblast growth factor 16 	PATO:0000070	amount			
-OBA:2050172	transforming growth factor beta-3 amount	PR:000000184	TGF-beta 3	PATO:0000070	amount			
-OBA:2050173	insulin-like growth factor-binding protein 1 amount	PR:000008947	insulin-like growth factor-binding protein 1 	PATO:0000070	amount			
-OBA:2050174	teratocarcinoma-derived growth factor 1 amount	PR:000030513	teratocarcinoma-derived growth factor 1	PATO:0000070	amount			
-OBA:2050175	high affinity nerve growth factor receptor amount	PR:000011469	high affinity nerve growth factor receptor	PATO:0000070	amount			
-OBA:2050176	NT-3 growth factor receptor amount	PR:000011471	NT-3 growth factor receptor	PATO:0000070	amount			
-OBA:2050177	transforming growth factor beta receptor type 3 amount	PR:Q03167	transforming growth factor beta receptor type 3 (human)	PATO:0000070	amount			
-OBA:2050178	fibroblast growth factor receptor 3 amount	PR:000001450	fibroblast growth factor receptor 3 	PATO:0000070	amount			
-OBA:2050179	growth arrest-specific protein 1 amount	PR:000007848	growth arrest-specific protein 1 	PATO:0000070	amount			
-OBA:2050180	hepatoma-derived growth factor-related protein 2 amount	PR:000008492	hepatoma-derived growth factor-related protein 2	PATO:0000070	amount			
 OBA:2050191	breast pressure trait	UBERON:0000310	breast	PATO:0001025	pressure			
 OBA:2050194	foot muscle strength trait	UBERON:0001498	muscle of pes	PATO:0001230	strength			
 OBA:2050196	pancreatic fat pad amount	UBERON:0015454	pancreatic fat pad	PATO:0000070	amount			
@@ -4331,7 +4176,6 @@ OBA:2045286	cortisol secretion efficacy	GO:0043400	cortisol secretion	PATO:00150
 OBA:2045287	platelet reactivity efficacy	GO:0030168	platelet activation	PATO:0015002	process efficacy			https://orcid.org/0000-0001-8314-2140
 OBA:2045288	visual memory process attribute	NBO:0000196	visual memory	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045289	fatty acid desaturase enzyme activity attribute	GO:0019395	fatty acid oxidation	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
-OBA:2045290	angiotensin converting enzyme activity attribute	PR:000001322	angiotensin-converting enzyme	PATO:0001414	catalytic activity			https://orcid.org/0000-0001-8314-2140
 OBA:2045291	cerebrospinal fluid composition attribute	UBERON:0001359	cerebrospinal fluid	PATO:0000025	composition			https://orcid.org/0000-0001-8314-2140
 OBA:2045292	sensory perception of taste attribute	GO:0050909	sensory perception of taste	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045293	sexual activity behaviour attribute	NBO:0000034	sexual activity	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
