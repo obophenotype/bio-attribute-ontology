@@ -176,7 +176,7 @@ OBA:VT0010808	milk sulfur amount	CHEBI:26833	sulfur atom	PATO:0000070	amount	UBE
 OBA:VT0000199	blood albumin amount	CHEBI:166964	albumin type	PATO:0000070	amount	UBERON:0000178	blood						
 OBA:VT0010918	liver bile acid amount	CHEBI:3098	bile acid	PATO:0000070	amount	UBERON:0002107	liver						
 OBA:VT0010711	milk iron amount	CHEBI:18248	iron atom	PATO:0000070	amount	UBERON:0001913	milk						
-OBA:VT0005567	blood total protein amount	CHEBI:36080	protein	PATO:0000125	mass	UBERON:0000178	blood						
+OBA:VT0005567	blood total protein amount	CHEBI:36080	protein	PATO:0103004	total amount	UBERON:0000178	blood	total blood protein				https://orcid.org/0000-0001-8314-2140	
 OBA:VT0002492	blood immunoglobulin E amount	GO:0071743	IgE immunoglobulin complex, circulating	PATO:0000070	amount	UBERON:0000178	blood						
 OBA:VT0008497	blood immunoglobulin G2b amount	PR:000050260	IgG2b heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood						
 OBA:VT0010694	blood fructosamine amount	CHEBI:24103	fructosamine	PATO:0000070	amount	UBERON:0000178	blood						
@@ -8209,3 +8209,7 @@ OBA:2050179	growth arrest-specific protein 1  level	PR:000007848	growth arrest-s
 OBA:2050180	hepatoma-derived growth factor-related protein 2 level	PR:000008492	hepatoma-derived growth factor-related protein 2	PATO:0000070	amount	UBERON:0001062	anatomical entity	hepatoma-derived growth factor-related protein 2 amount				https://orcid.org/0000-0001-6757-4744|https://orcid.org/0000-0001-8314-2140	
 OBA:2045290	angiotensin converting enzyme activity attribute	PR:000001322	angiotensin-converting enzyme	PATO:0001414	catalytic activity	UBERON:0001062	anatomical entity	angiotensin converting enzyme catalytic activity trait				https://orcid.org/0000-0001-8314-2140	
 OBA:2045561	2,5-diphenylfuran aggregation in anatomical entity trait	CHEBI:50459	2,5-diphenylfuran	PATO:0001629	aggregated	UBERON:0001062	anatomical entity					https://orcid.org/0000-0001-8314-2140	
+OBA:VT1000161	milk total fat amount	CHEBI:18059	lipid	PATO:0103004	total amount	UBERON:0001913	milk	total milk fat amount				https://orcid.org/0000-0001-8314-2140	
+OBA:2045563	total serum cholesterol amount	CHEBI:16113	cholesterol	PATO:0103004	total amount	UBERON:0001977	blood serum	total serum cholesterol				https://orcid.org/0000-0001-8314-2140	
+OBA:VT0010028	milk total protein amount	CHEBI:36080	protein	PATO:0103004	total amount	UBERON:0001913	milk					https://orcid.org/0000-0001-8314-2140	
+OBA:VT0005567	total blood protein amount	CHEBI:36080	protein	PATO:0103004	total amount	UBERON:0000178	blood	blood total protein				https://orcid.org/0000-0001-8314-2140	
