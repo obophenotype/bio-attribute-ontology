@@ -255,7 +255,7 @@ id: OBA:0000126 ! potassium ion concentration
 id: OBA:0000127 ! pronephric kidney size
 
 [Term]
-id: OBA:0000128 ! protein stability
+id: OBA:0000128 ! protein stability trait
 comment: See http://code.google.com/p/pato/issues/detail?id=1
 
 [Term]
@@ -538,7 +538,7 @@ created_by: cjmungall
 creation_date: 2013-06-05T19:18:57Z
 
 [Term]
-id: OBA:1000024 ! subcutaneous adipose tissue proportionality to
+id: OBA:1000024 ! subcutaneous adipose tissue ratio
 synonym: "subcutaneous adipose tissue proportionality to trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2013-06-05T19:19:33Z
@@ -1067,7 +1067,7 @@ created_by: cjmungall
 creation_date: 2014-07-18T16:52:11Z
 
 [Term]
-id: OBA:1000110 ! bone density
+id: OBA:1000110 ! bone tissue density
 synonym: "bone tissue mass density trait" EXACT [GOC:TermGenie]
 created_by: cjmungall
 creation_date: 2014-07-25T16:15:45Z
@@ -1342,6 +1342,10 @@ id: OBA:2020004 ! chemical in serum amount
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
+id: OBA:2045261 ! quality of life cycle
+is_a: OBA:0000001 ! biological attribute
+
+[Term]
 id: OBA:2060008 ! response to novel environment rate
 is_a: OBA:0000001 ! biological attribute
 
@@ -1368,8 +1372,7 @@ comment: cochlea sensory epithelium (UBERON_0013763) was obsoleted without repla
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
-id: OBA:VT0005372 ! life span trait
-is_a: OBA:0000001 ! biological attribute
+id: OBA:VT0005372 ! life span determination trait
 
 [Term]
 id: OBA:VT0005584 ! enzyme/coenzyme activity trait
