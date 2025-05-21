@@ -1,0 +1,85 @@
+---
+pattern_name: gene_expression_trait.yaml
+
+pattern_iri: gene_expression_trait.yaml
+
+description: 'Use this pattern to annotate gene expression traits where the
+  quality of the process of the expression of a gene, gene complex or gene
+  family is observed or measured, but no judgement is made whether the quality
+  deviates or not from a reference. In contrast to gene expression related
+  phenotypes, the gene expression trait is indifferent about the quality of the
+  process being normal or abnormal. You should specify the genetically most
+  relevant participant or participant category for this trait pattern, i.e. the
+  gene(s) being expressed or the products of those genes, and not any other
+  participant (e.g. ribosomes or ribonucleotides) in the gene expression
+  process.'
+
+contributors:
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+
+classes:
+  entity: owl:Thing  # preferably a gene or gene product
+  process_quality: PATO:0001236
+  gene_expression: GO:0010467
+
+relations:
+  characteristic_of: RO:0000052
+  has_participant: RO:0000057
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  related_synonym: oio:hasRelatedSynonym
+  contributor: dct:contributor  # contributor: dcterms:contributor
+
+vars:
+  gene_product: "'entity'"
+
+data_list_vars:
+  orcid: xsd:anyURI  # ORCID of contributor
+
+name:
+  text: "%s expression quality"
+  vars:
+    - gene_product
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "%s gene expression quality"
+    vars:
+      - gene_product
+
+  - annotationProperty: exact_synonym
+    text: "%s gene expression attribute"
+    vars:
+      - gene_product
+
+  - annotationProperty: exact_synonym
+    text: "%s expression attribute"
+    vars:
+      - gene_product
+
+  - annotationProperty: related_synonym
+    text: "%s expression"
+    vars:
+      - gene_product
+
+  - annotationProperty: related_synonym
+    text: "expression of %s"
+    vars:
+      - gene_product
+
+  - annotationProperty: contributor
+    value: orcid
+
+def:
+  text: "A gene expression trait that affects the process of %s expression."
+  vars:
+    - gene_product
+
+equivalentTo:
+  text: "'process_quality' and
+        ('characteristic_of' some
+        ('gene_expression' and
+        ('has_participant' some %s)))"
+  vars:
+    - gene_product
