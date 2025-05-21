@@ -535,7 +535,7 @@ VT:0000181	skos:exactMatch	OBA:VT0000181	semapv:ManualMappingCuration
 VT:0000182	skos:exactMatch	OBA:VT0000182	semapv:ManualMappingCuration
 VT:0000183	skos:exactMatch	OBA:VT0000183	semapv:ManualMappingCuration
 VT:0000184	skos:exactMatch	OBA:VT0000184	semapv:ManualMappingCuration
-VT:0000187	skos:exactMatch	OBA:VT0000187	semapv:ManualMappingCuration
+VT:0000187	skos:exactMatch	OBA:2040183	semapv:ManualMappingCuration
 VT:0000188	skos:exactMatch	OBA:VT0000188	semapv:ManualMappingCuration
 VT:0000190	skos:exactMatch	OBA:VT0000190	semapv:ManualMappingCuration
 VT:0000192	skos:exactMatch	OBA:VT0000192	semapv:ManualMappingCuration
@@ -1223,7 +1223,7 @@ VT:0002900	skos:exactMatch	OBA:VT0002900	semapv:ManualMappingCuration
 VT:0002903	skos:exactMatch	OBA:VT0002903	semapv:ManualMappingCuration
 VT:0002907	skos:exactMatch	OBA:VT0002907	semapv:ManualMappingCuration
 VT:0002909	skos:exactMatch	OBA:VT0002909	semapv:ManualMappingCuration
-VT:0002918	skos:exactMatch	OBA:VT0002918	semapv:ManualMappingCuration
+VT:0002918	skos:broadMatch	OBA:2045562	semapv:ManualMappingCuration
 VT:0002928	skos:exactMatch	OBA:VT0002928	semapv:ManualMappingCuration
 VT:0002929	skos:exactMatch	OBA:VT0002929	semapv:ManualMappingCuration
 VT:0002932	skos:exactMatch	OBA:VT0002932	semapv:ManualMappingCuration
@@ -1466,7 +1466,7 @@ VT:0003941	skos:exactMatch	OBA:VT0003941	semapv:ManualMappingCuration
 VT:0003943	skos:exactMatch	OBA:VT0003943	semapv:ManualMappingCuration
 VT:0003947	skos:exactMatch	OBA:VT0003947	semapv:ManualMappingCuration
 VT:0003949	skos:exactMatch	OBA:VT0003949	semapv:ManualMappingCuration
-VT:0003952	skos:exactMatch	OBA:VT0003952	semapv:ManualMappingCuration
+VT:0003952	skos:exactMatch	OBA:1000943	semapv:ManualMappingCuration
 VT:0003954	skos:exactMatch	OBA:VT0003954	semapv:ManualMappingCuration
 VT:0003955	skos:exactMatch	OBA:VT0003955	semapv:ManualMappingCuration
 VT:0003974	skos:exactMatch	OBA:VT0003974	semapv:ManualMappingCuration
@@ -2310,3 +2310,9 @@ VT:0010721	skos:exactMatch	OBA:2040164	semapv:ManualMappingCuration
 VT:0015008	skos:exactMatch	OBA:0004528	semapv:ManualMappingCuration
 VT:0010483	skos:broadMatch	OBA:0004147	semapv:ManualMappingCuration
 VT:0007086	skos:exactMatch	OBA:0006021	semapv:ManualMappingCuration
+VT:0008073	skos:exactMatch	OBA:0004294	semapv:ManualMappingCuration
+VT:0008077	skos:exactMatch	OBA:0004295	semapv:ManualMappingCuration
+VT:0008038	skos:exactMatch	OBA:0004281	semapv:ManualMappingCuration
+VT1:000161	skos:exactMatch	OBA:VT1000161	semapv:ManualMappingCuration
+VT:0010028	skos:exactMatch	OBA:VT0010028	semapv:ManualMappingCuration
+VT:0005567	skos:exactMatch	OBA:VT0005567	semapv:ManualMappingCuration

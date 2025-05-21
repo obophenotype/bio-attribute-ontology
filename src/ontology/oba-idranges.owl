@@ -103,5 +103,13 @@ Datatype: idrange:9
     EquivalentTo:
         xsd:integer[>= 2060000 , <= 2069999]
         
+Datatype: idrange:10
+
+    Annotations:
+        allocatedto: "James McLaughlin"
+
+    EquivalentTo:
+        xsd:integer[>= 2070000 , <= 2079999]
+        
 Datatype: xsd:integer
 Datatype: rdf:PlainLiteral

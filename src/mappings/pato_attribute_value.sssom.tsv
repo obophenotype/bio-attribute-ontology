@@ -1,0 +1,400 @@
+# curie_map:
+#   PATO: http://purl.obolibrary.org/obo/PATO_
+#   owl: http://www.w3.org/2002/07/owl#
+#   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+#   rdfs: http://www.w3.org/2000/01/rdf-schema#
+#   semapv: https://w3id.org/semapv/vocab/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   sssom: https://w3id.org/sssom/
+# license: https://creativecommons.org/publicdomain/zero/1.0/
+# mapping_date: '2025-03-20'
+# mapping_set_id: http://purl.obolibrary.org/obo/oba/mappings/pato_attribute_value.sssom.tsv
+# object_source: http://purl.obolibrary.org/obo/pato.owl
+# subject_source: http://purl.obolibrary.org/obo/pato.owl
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification
+PATO:0000303	increased speed	skos:broadMatch	PATO:0000008	speed	semapv:UnspecifiedMatching
+PATO:0000304	decreased speed	skos:broadMatch	PATO:0000008	speed	semapv:UnspecifiedMatching
+PATO:0000330	irregular spatial pattern	skos:broadMatch	PATO:0000060	spatial pattern	semapv:UnspecifiedMatching
+PATO:0000374	increased distance	skos:broadMatch	PATO:0000040	distance	semapv:UnspecifiedMatching
+PATO:0000375	decreased distance	skos:broadMatch	PATO:0000040	distance	semapv:UnspecifiedMatching
+PATO:0000380	increased frequency	skos:broadMatch	PATO:0000044	frequency	semapv:UnspecifiedMatching
+PATO:0000381	decreased frequency	skos:broadMatch	PATO:0000044	frequency	semapv:UnspecifiedMatching
+PATO:0000394	mild intensity	skos:broadMatch	PATO:0000049	intensity	semapv:UnspecifiedMatching
+PATO:0000395	moderate intensity	skos:broadMatch	PATO:0000049	intensity	semapv:UnspecifiedMatching
+PATO:0000396	severe intensity	skos:broadMatch	PATO:0000049	intensity	semapv:UnspecifiedMatching
+PATO:0000440	regular spatial pattern	skos:broadMatch	PATO:0000060	spatial pattern	semapv:UnspecifiedMatching
+PATO:0000470	increased amount	skos:broadMatch	PATO:0000070	amount	semapv:UnspecifiedMatching
+PATO:0000498	increased duration	skos:broadMatch	PATO:0001309	duration	semapv:UnspecifiedMatching
+PATO:0000499	decreased duration	skos:broadMatch	PATO:0001309	duration	semapv:UnspecifiedMatching
+PATO:0000500	advanced phase	skos:broadMatch	PATO:0000083	phase	semapv:UnspecifiedMatching
+PATO:0000501	dark phase	skos:broadMatch	PATO:0000083	phase	semapv:UnspecifiedMatching
+PATO:0000503	light phase	skos:broadMatch	PATO:0000083	phase	semapv:UnspecifiedMatching
+PATO:0000569	decreased height	skos:broadMatch	PATO:0000119	height	semapv:UnspecifiedMatching
+PATO:0000570	increased height	skos:broadMatch	PATO:0000119	height	semapv:UnspecifiedMatching
+PATO:0000573	increased length	skos:broadMatch	PATO:0000122	length	semapv:UnspecifiedMatching
+PATO:0000574	decreased length	skos:broadMatch	PATO:0000122	length	semapv:UnspecifiedMatching
+PATO:0000582	increased weight	skos:broadMatch	PATO:0000128	weight	semapv:UnspecifiedMatching
+PATO:0000583	decreased weight	skos:broadMatch	PATO:0000128	weight	semapv:UnspecifiedMatching
+PATO:0000586	increased size	skos:broadMatch	PATO:0000117	size	semapv:UnspecifiedMatching
+PATO:0000587	decreased size	skos:broadMatch	PATO:0000117	size	semapv:UnspecifiedMatching
+PATO:0000591	increased thickness	skos:broadMatch	PATO:0000915	thickness	semapv:UnspecifiedMatching
+PATO:0000592	decreased thickness	skos:broadMatch	PATO:0000915	thickness	semapv:UnspecifiedMatching
+PATO:0000595	increased volume	skos:broadMatch	PATO:0000918	volume	semapv:UnspecifiedMatching
+PATO:0000596	decreased volume	skos:broadMatch	PATO:0000918	volume	semapv:UnspecifiedMatching
+PATO:0000599	decreased width	skos:broadMatch	PATO:0000921	width	semapv:UnspecifiedMatching
+PATO:0000600	increased width	skos:broadMatch	PATO:0000921	width	semapv:UnspecifiedMatching
+PATO:0000706	increased threshold	skos:broadMatch	PATO:0000152	threshold	semapv:UnspecifiedMatching
+PATO:0000708	decreased threshold	skos:broadMatch	PATO:0000152	threshold	semapv:UnspecifiedMatching
+PATO:0000760	increased behavioural activity	skos:broadMatch	PATO:0002265	behavioural activity	semapv:UnspecifiedMatching
+PATO:0000761	decreased behavioural activity	skos:broadMatch	PATO:0002265	behavioural activity	semapv:UnspecifiedMatching
+PATO:0000911	decreased rate	skos:broadMatch	PATO:0000161	rate	semapv:UnspecifiedMatching
+PATO:0000912	increased rate	skos:broadMatch	PATO:0000161	rate	semapv:UnspecifiedMatching
+PATO:0001054	internal angle	skos:broadMatch	PATO:0002326	angle	semapv:UnspecifiedMatching
+PATO:0001305	increased temperature	skos:broadMatch	PATO:0000146	temperature	semapv:UnspecifiedMatching
+PATO:0001306	decreased temperature	skos:broadMatch	PATO:0000146	temperature	semapv:UnspecifiedMatching
+PATO:0001307	decreased variability of temperature	skos:broadMatch	PATO:0001304	variability of temperature	semapv:UnspecifiedMatching
+PATO:0001308	increased variability of temperature	skos:broadMatch	PATO:0001304	variability of temperature	semapv:UnspecifiedMatching
+PATO:0001311	decreased duration of temperature	skos:broadMatch	PATO:0001310	duration of temperature	semapv:UnspecifiedMatching
+PATO:0001312	increased duration of temperature	skos:broadMatch	PATO:0001310	duration of temperature	semapv:UnspecifiedMatching
+PATO:0001315	mild increased temperature	skos:broadMatch	PATO:0000146	temperature	semapv:UnspecifiedMatching
+PATO:0001316	moderate increased temperature	skos:broadMatch	PATO:0000146	temperature	semapv:UnspecifiedMatching
+PATO:0001317	severe increased temperature	skos:broadMatch	PATO:0000146	temperature	semapv:UnspecifiedMatching
+PATO:0001324	bilateral symmetry	skos:broadMatch	PATO:0000965	symmetry	semapv:UnspecifiedMatching
+PATO:0001347	F mating type	skos:broadMatch	PATO:0001895	mating type	semapv:UnspecifiedMatching
+PATO:0001348	F minus mating type	skos:broadMatch	PATO:0001895	mating type	semapv:UnspecifiedMatching
+PATO:0001416	regular duration	skos:broadMatch	PATO:0001309	duration	semapv:UnspecifiedMatching
+PATO:0001417	irregular duration	skos:broadMatch	PATO:0001309	duration	semapv:UnspecifiedMatching
+PATO:0001472	decreased depth	skos:broadMatch	PATO:0001595	depth	semapv:UnspecifiedMatching
+PATO:0001475	increased position	skos:broadMatch	PATO:0000140	position	semapv:UnspecifiedMatching
+PATO:0001476	decreased position	skos:broadMatch	PATO:0000140	position	semapv:UnspecifiedMatching
+PATO:0001542	delayed phase	skos:broadMatch	PATO:0000083	phase	semapv:UnspecifiedMatching
+PATO:0001549	increased sensitivity toward	skos:broadMatch	PATO:0000085	sensitivity toward	semapv:UnspecifiedMatching
+PATO:0001550	decreased sensitivity toward	skos:broadMatch	PATO:0000085	sensitivity toward	semapv:UnspecifiedMatching
+PATO:0001551	increased sensitivity of a process	skos:broadMatch	PATO:0001457	sensitivity of a process	semapv:UnspecifiedMatching
+PATO:0001552	decreased sensitivity of a process	skos:broadMatch	PATO:0001457	sensitivity of a process	semapv:UnspecifiedMatching
+PATO:0001553	increased sensitivity of a process to oxygen	skos:broadMatch	PATO:0001458	sensitivity of a process to oxygen	semapv:UnspecifiedMatching
+PATO:0001554	decreased sensitivity of a process to oxygen	skos:broadMatch	PATO:0001458	sensitivity of a process to oxygen	semapv:UnspecifiedMatching
+PATO:0001562	decreased mass	skos:broadMatch	PATO:0000125	mass	semapv:UnspecifiedMatching
+PATO:0001563	increased mass	skos:broadMatch	PATO:0000125	mass	semapv:UnspecifiedMatching
+PATO:0001575	decreased pressure	skos:broadMatch	PATO:0001025	pressure	semapv:UnspecifiedMatching
+PATO:0001576	increased pressure	skos:broadMatch	PATO:0001025	pressure	semapv:UnspecifiedMatching
+PATO:0001577	increased permeability	skos:broadMatch	PATO:0000970	permeability	semapv:UnspecifiedMatching
+PATO:0001578	decreased permeability	skos:broadMatch	PATO:0000970	permeability	semapv:UnspecifiedMatching
+PATO:0001580	increased contractility	skos:broadMatch	PATO:0001579	contractility	semapv:UnspecifiedMatching
+PATO:0001581	decreased contractility	skos:broadMatch	PATO:0001579	contractility	semapv:UnspecifiedMatching
+PATO:0001583	decreased variability	skos:broadMatch	PATO:0001303	variability	semapv:UnspecifiedMatching
+PATO:0001584	increased variability	skos:broadMatch	PATO:0001303	variability	semapv:UnspecifiedMatching
+PATO:0001592	increased curvature	skos:broadMatch	PATO:0001591	curvature	semapv:UnspecifiedMatching
+PATO:0001593	decreased curvature	skos:broadMatch	PATO:0001591	curvature	semapv:UnspecifiedMatching
+PATO:0001596	increased depth	skos:broadMatch	PATO:0001595	depth	semapv:UnspecifiedMatching
+PATO:0001603	increased life span	skos:broadMatch	PATO:0000050	life span	semapv:UnspecifiedMatching
+PATO:0001604	decreased life span	skos:broadMatch	PATO:0000050	life span	semapv:UnspecifiedMatching
+PATO:0001612	increased variability of color	skos:broadMatch	PATO:0001611	variability of color	semapv:UnspecifiedMatching
+PATO:0001613	decreased variability of color	skos:broadMatch	PATO:0001611	variability of color	semapv:UnspecifiedMatching
+PATO:0001618	increased tonicity	skos:broadMatch	PATO:0001439	tonicity	semapv:UnspecifiedMatching
+PATO:0001619	decreased tonicity	skos:broadMatch	PATO:0001439	tonicity	semapv:UnspecifiedMatching
+PATO:0001621	decreased turgor	skos:broadMatch	PATO:0001620	turgor	semapv:UnspecifiedMatching
+PATO:0001622	increased turgor	skos:broadMatch	PATO:0001620	turgor	semapv:UnspecifiedMatching
+PATO:0001624	decreased functionality	skos:broadMatch	PATO:0001509	functionality	semapv:UnspecifiedMatching
+PATO:0001625	increased functionality	skos:broadMatch	PATO:0001509	functionality	semapv:UnspecifiedMatching
+PATO:0001650	increased resistance to	skos:broadMatch	PATO:0001046	resistance to	semapv:UnspecifiedMatching
+PATO:0001651	decreased resistance to	skos:broadMatch	PATO:0001046	resistance to	semapv:UnspecifiedMatching
+PATO:0001656	decreased osmolarity	skos:broadMatch	PATO:0001655	osmolarity	semapv:UnspecifiedMatching
+PATO:0001657	increased osmolarity	skos:broadMatch	PATO:0001655	osmolarity	semapv:UnspecifiedMatching
+PATO:0001663	increased solubility	skos:broadMatch	PATO:0001536	solubility	semapv:UnspecifiedMatching
+PATO:0001664	decreased solubility	skos:broadMatch	PATO:0001536	solubility	semapv:UnspecifiedMatching
+PATO:0001669	increased susceptibility toward	skos:broadMatch	PATO:0001043	susceptibility toward	semapv:UnspecifiedMatching
+PATO:0001670	decreased susceptibility toward	skos:broadMatch	PATO:0001043	susceptibility toward	semapv:UnspecifiedMatching
+PATO:0001675	decreased efficiency	skos:broadMatch	PATO:0001029	efficiency	semapv:UnspecifiedMatching
+PATO:0001676	increased efficiency	skos:broadMatch	PATO:0001029	efficiency	semapv:UnspecifiedMatching
+PATO:0001683	increased magnetism	skos:broadMatch	PATO:0001682	magnetism	semapv:UnspecifiedMatching
+PATO:0001684	decreased magnetism	skos:broadMatch	PATO:0001682	magnetism	semapv:UnspecifiedMatching
+PATO:0001688	increased elevation	skos:broadMatch	PATO:0001687	elevation	semapv:UnspecifiedMatching
+PATO:0001689	decreased elevation	skos:broadMatch	PATO:0001687	elevation	semapv:UnspecifiedMatching
+PATO:0001693	increased viscosity	skos:broadMatch	PATO:0000992	viscosity	semapv:UnspecifiedMatching
+PATO:0001694	decreased viscosity	skos:broadMatch	PATO:0000992	viscosity	semapv:UnspecifiedMatching
+PATO:0001695	increased fecundity	skos:broadMatch	PATO:0000273	fecundity	semapv:UnspecifiedMatching
+PATO:0001696	decreased fecundity	skos:broadMatch	PATO:0000273	fecundity	semapv:UnspecifiedMatching
+PATO:0001697	decreased photosensitivity	skos:broadMatch	PATO:0000927	photosensitivity	semapv:UnspecifiedMatching
+PATO:0001698	increased photosensitivity	skos:broadMatch	PATO:0000927	photosensitivity	semapv:UnspecifiedMatching
+PATO:0001699	regular sleep pattern	skos:broadMatch	PATO:0000062	sleep pattern	semapv:UnspecifiedMatching
+PATO:0001700	irregular sleep pattern	skos:broadMatch	PATO:0000062	sleep pattern	semapv:UnspecifiedMatching
+PATO:0001712	increased perimeter	skos:broadMatch	PATO:0001711	perimeter	semapv:UnspecifiedMatching
+PATO:0001713	decreased perimeter	skos:broadMatch	PATO:0001711	perimeter	semapv:UnspecifiedMatching
+PATO:0001714	increased diameter	skos:broadMatch	PATO:0001334	diameter	semapv:UnspecifiedMatching
+PATO:0001715	decreased diameter	skos:broadMatch	PATO:0001334	diameter	semapv:UnspecifiedMatching
+PATO:0001723	increased female receptivity	skos:broadMatch	PATO:0001719	receptivity	semapv:UnspecifiedMatching
+PATO:0001723	increased female receptivity	skos:broadMatch	PATO:0001720	female receptivity	semapv:UnspecifiedMatching
+PATO:0001724	decreased female receptivity	skos:broadMatch	PATO:0001719	receptivity	semapv:UnspecifiedMatching
+PATO:0001724	decreased female receptivity	skos:broadMatch	PATO:0001720	female receptivity	semapv:UnspecifiedMatching
+PATO:0001725	increased male receptivity	skos:broadMatch	PATO:0001719	receptivity	semapv:UnspecifiedMatching
+PATO:0001725	increased male receptivity	skos:broadMatch	PATO:0001721	male receptivity	semapv:UnspecifiedMatching
+PATO:0001726	decreased male receptivity	skos:broadMatch	PATO:0001719	receptivity	semapv:UnspecifiedMatching
+PATO:0001726	decreased male receptivity	skos:broadMatch	PATO:0001721	male receptivity	semapv:UnspecifiedMatching
+PATO:0001764	increased age	skos:broadMatch	PATO:0000011	age	semapv:UnspecifiedMatching
+PATO:0001765	decreased age	skos:broadMatch	PATO:0000011	age	semapv:UnspecifiedMatching
+PATO:0001776	increased flexibility	skos:broadMatch	PATO:0001543	flexibility	semapv:UnspecifiedMatching
+PATO:0001777	decreased flexibility	skos:broadMatch	PATO:0001543	flexibility	semapv:UnspecifiedMatching
+PATO:0001778	increased strength	skos:broadMatch	PATO:0001230	strength	semapv:UnspecifiedMatching
+PATO:0001779	decreased strength	skos:broadMatch	PATO:0001230	strength	semapv:UnspecifiedMatching
+PATO:0001781	irregular thickness	skos:broadMatch	PATO:0000915	thickness	semapv:UnspecifiedMatching
+PATO:0001782	increased intensity	skos:broadMatch	PATO:0000049	intensity	semapv:UnspecifiedMatching
+PATO:0001783	decreased intensity	skos:broadMatch	PATO:0000049	intensity	semapv:UnspecifiedMatching
+PATO:0001787	rotational curvature	skos:broadMatch	PATO:0001591	curvature	semapv:UnspecifiedMatching
+PATO:0001788	increased mass density	skos:broadMatch	PATO:0001019	mass density	semapv:UnspecifiedMatching
+PATO:0001790	decreased mass density	skos:broadMatch	PATO:0001019	mass density	semapv:UnspecifiedMatching
+PATO:0001795	increased coiling	skos:broadMatch	PATO:0001794	coiling	semapv:UnspecifiedMatching
+PATO:0001796	decreased coiling	skos:broadMatch	PATO:0001794	coiling	semapv:UnspecifiedMatching
+PATO:0001801	decreased water composition	skos:broadMatch	PATO:0000025	composition	semapv:UnspecifiedMatching
+PATO:0001801	decreased water composition	skos:broadMatch	PATO:0001800	water composition	semapv:UnspecifiedMatching
+PATO:0001807	decreased sensitivity to irradiation	skos:broadMatch	PATO:0001806	sensitivity to irradiation	semapv:UnspecifiedMatching
+PATO:0001808	increased sensitivity to irradiation	skos:broadMatch	PATO:0001806	sensitivity to irradiation	semapv:UnspecifiedMatching
+PATO:0001816	increased fatigability	skos:broadMatch	PATO:0001815	fatigability	semapv:UnspecifiedMatching
+PATO:0001817	decreased fatigability	skos:broadMatch	PATO:0001815	fatigability	semapv:UnspecifiedMatching
+PATO:0001825	increased wetness	skos:broadMatch	PATO:0001822	wetness	semapv:UnspecifiedMatching
+PATO:0001826	decreased wetness	skos:broadMatch	PATO:0001822	wetness	semapv:UnspecifiedMatching
+PATO:0001830	decreased female fertility	skos:broadMatch	PATO:0000274	fertility	semapv:UnspecifiedMatching
+PATO:0001830	decreased female fertility	skos:broadMatch	PATO:0000277	female fertility	semapv:UnspecifiedMatching
+PATO:0001831	increased female fertility	skos:broadMatch	PATO:0000274	fertility	semapv:UnspecifiedMatching
+PATO:0001831	increased female fertility	skos:broadMatch	PATO:0000277	female fertility	semapv:UnspecifiedMatching
+PATO:0001832	increased male fertility	skos:broadMatch	PATO:0000274	fertility	semapv:UnspecifiedMatching
+PATO:0001832	increased male fertility	skos:broadMatch	PATO:0000279	male fertility	semapv:UnspecifiedMatching
+PATO:0001833	decreased male fertility	skos:broadMatch	PATO:0000274	fertility	semapv:UnspecifiedMatching
+PATO:0001833	decreased male fertility	skos:broadMatch	PATO:0000279	male fertility	semapv:UnspecifiedMatching
+PATO:0001834	decreased fertility	skos:broadMatch	PATO:0000274	fertility	semapv:UnspecifiedMatching
+PATO:0001835	increased fertility	skos:broadMatch	PATO:0000274	fertility	semapv:UnspecifiedMatching
+PATO:0001841	remittent intensity	skos:broadMatch	PATO:0000049	intensity	semapv:UnspecifiedMatching
+PATO:0001843	decreased acidity	skos:broadMatch	PATO:0001842	acidity	semapv:UnspecifiedMatching
+PATO:0001844	increased acidity	skos:broadMatch	PATO:0001842	acidity	semapv:UnspecifiedMatching
+PATO:0001859	increased coordination	skos:broadMatch	PATO:0000188	coordination	semapv:UnspecifiedMatching
+PATO:0001860	decreased coordination	skos:broadMatch	PATO:0000188	coordination	semapv:UnspecifiedMatching
+PATO:0001892	decreased odor	skos:broadMatch	PATO:0000058	odor	semapv:UnspecifiedMatching
+PATO:0001893	increased odor	skos:broadMatch	PATO:0000058	odor	semapv:UnspecifiedMatching
+PATO:0001898	increased circumference	skos:broadMatch	PATO:0001648	circumference	semapv:UnspecifiedMatching
+PATO:0001899	decreased circumference	skos:broadMatch	PATO:0001648	circumference	semapv:UnspecifiedMatching
+PATO:0001904	circling direction	skos:broadMatch	PATO:0000039	direction	semapv:UnspecifiedMatching
+PATO:0001926	increased fluorescence	skos:broadMatch	PATO:0000018	fluorescence	semapv:UnspecifiedMatching
+PATO:0001927	decreased fluorescence	skos:broadMatch	PATO:0000018	fluorescence	semapv:UnspecifiedMatching
+PATO:0001957	decreased variability of size	skos:broadMatch	PATO:0001956	variability of size	semapv:UnspecifiedMatching
+PATO:0001958	increased variability of size	skos:broadMatch	PATO:0001956	variability of size	semapv:UnspecifiedMatching
+PATO:0001997	decreased amount	skos:broadMatch	PATO:0000070	amount	semapv:UnspecifiedMatching
+PATO:0002025	external angle	skos:broadMatch	PATO:0002326	angle	semapv:UnspecifiedMatching
+PATO:0002028	decreased osmolality	skos:broadMatch	PATO:0002027	osmolality	semapv:UnspecifiedMatching
+PATO:0002029	increased osmolality	skos:broadMatch	PATO:0002027	osmolality	semapv:UnspecifiedMatching
+PATO:0002042	decreased anterior-posterior diameter	skos:broadMatch	PATO:0001334	diameter	semapv:UnspecifiedMatching
+PATO:0002042	decreased anterior-posterior diameter	skos:broadMatch	PATO:0002041	anterior-posterior diameter	semapv:UnspecifiedMatching
+PATO:0002043	increased anterior-posterior diameter	skos:broadMatch	PATO:0001334	diameter	semapv:UnspecifiedMatching
+PATO:0002043	increased anterior-posterior diameter	skos:broadMatch	PATO:0002041	anterior-posterior diameter	semapv:UnspecifiedMatching
+PATO:0002049	lateral and rotional curvature	skos:broadMatch	PATO:0001591	curvature	semapv:UnspecifiedMatching
+PATO:0002050	normal amount	skos:broadMatch	PATO:0000070	amount	semapv:UnspecifiedMatching
+PATO:0002051	increased occurrence	skos:broadMatch	PATO:0000057	occurrence	semapv:UnspecifiedMatching
+PATO:0002052	decreased occurrence	skos:broadMatch	PATO:0000057	occurrence	semapv:UnspecifiedMatching
+PATO:0002055	increased fragility	skos:broadMatch	PATO:0001662	fragility	semapv:UnspecifiedMatching
+PATO:0002056	decreased fragility	skos:broadMatch	PATO:0001662	fragility	semapv:UnspecifiedMatching
+PATO:0002057	increased area	skos:broadMatch	PATO:0001323	area	semapv:UnspecifiedMatching
+PATO:0002058	decreased area	skos:broadMatch	PATO:0001323	area	semapv:UnspecifiedMatching
+PATO:0002071	increased affinity	skos:broadMatch	PATO:0002070	affinity	semapv:UnspecifiedMatching
+PATO:0002072	decreased affinity	skos:broadMatch	PATO:0002070	affinity	semapv:UnspecifiedMatching
+PATO:0002074	increased avidity	skos:broadMatch	PATO:0002073	avidity	semapv:UnspecifiedMatching
+PATO:0002075	decreased avidity	skos:broadMatch	PATO:0002073	avidity	semapv:UnspecifiedMatching
+PATO:0002144	increased radiopacity	skos:broadMatch	PATO:0002136	radiopacity	semapv:UnspecifiedMatching
+PATO:0002145	decreased radiopacity	skos:broadMatch	PATO:0002136	radiopacity	semapv:UnspecifiedMatching
+PATO:0002147	reduced virulence	skos:broadMatch	PATO:0002146	virulence	semapv:UnspecifiedMatching
+PATO:0002148	increased virulence	skos:broadMatch	PATO:0002146	virulence	semapv:UnspecifiedMatching
+PATO:0002187	polar polarity	skos:broadMatch	PATO:0002186	polarity	semapv:UnspecifiedMatching
+PATO:0002188	nonpolar polarity	skos:broadMatch	PATO:0002186	polarity	semapv:UnspecifiedMatching
+PATO:0002202	left handedness	skos:broadMatch	PATO:0002201	handedness	semapv:UnspecifiedMatching
+PATO:0002203	right handedness	skos:broadMatch	PATO:0002201	handedness	semapv:UnspecifiedMatching
+PATO:0002204	ambidextrous handedness	skos:broadMatch	PATO:0002201	handedness	semapv:UnspecifiedMatching
+PATO:0002221	increased phosphorylation	skos:broadMatch	PATO:0002262	phosphorylation	semapv:UnspecifiedMatching
+PATO:0002222	decreased phosphorylation	skos:broadMatch	PATO:0002262	phosphorylation	semapv:UnspecifiedMatching
+PATO:0002245	increased force	skos:broadMatch	PATO:0001035	force	semapv:UnspecifiedMatching
+PATO:0002246	decreased force	skos:broadMatch	PATO:0001035	force	semapv:UnspecifiedMatching
+PATO:0002266	3-D shape	skos:broadMatch	PATO:0000052	shape	semapv:UnspecifiedMatching
+PATO:0002267	edge shape	skos:broadMatch	PATO:0000052	shape	semapv:UnspecifiedMatching
+PATO:0002270	increased accumulation	skos:broadMatch	PATO:0002269	accumulation	semapv:UnspecifiedMatching
+PATO:0002271	decreased accumulation	skos:broadMatch	PATO:0002269	accumulation	semapv:UnspecifiedMatching
+PATO:0002275	high contrast color pattern	skos:broadMatch	PATO:0000019	color pattern	semapv:UnspecifiedMatching
+PATO:0002282	increased mobility	skos:broadMatch	PATO:0000004	mobility	semapv:UnspecifiedMatching
+PATO:0002283	decreased mobility	skos:broadMatch	PATO:0000004	mobility	semapv:UnspecifiedMatching
+PATO:0002285	increased branchiness	skos:broadMatch	PATO:0002009	branchiness	semapv:UnspecifiedMatching
+PATO:0002286	decreased branchiness	skos:broadMatch	PATO:0002009	branchiness	semapv:UnspecifiedMatching
+PATO:0002287	increased elasticity	skos:broadMatch	PATO:0001031	elasticity	semapv:UnspecifiedMatching
+PATO:0002288	decreased elasticity	skos:broadMatch	PATO:0001031	elasticity	semapv:UnspecifiedMatching
+PATO:0002297	decreased cellular motility	skos:broadMatch	PATO:0001488	cellular motility	semapv:UnspecifiedMatching
+PATO:0002298	increased cellular motility	skos:broadMatch	PATO:0001488	cellular motility	semapv:UnspecifiedMatching
+PATO:0002315	brush-like shape	skos:broadMatch	PATO:0000052	shape	semapv:UnspecifiedMatching
+PATO:0002333	increased adhesivity	skos:broadMatch	PATO:0001431	adhesivity	semapv:UnspecifiedMatching
+PATO:0002334	decreased adhesivity	skos:broadMatch	PATO:0001431	adhesivity	semapv:UnspecifiedMatching
+PATO:0002361	increased tendency	skos:broadMatch	PATO:0002360	tendency	semapv:UnspecifiedMatching
+PATO:0002362	decreased tendency	skos:broadMatch	PATO:0002360	tendency	semapv:UnspecifiedMatching
+PATO:0002382	increased waxiness	skos:broadMatch	PATO:0002381	waxiness	semapv:UnspecifiedMatching
+PATO:0002383	decreased waxiness	skos:broadMatch	PATO:0002381	waxiness	semapv:UnspecifiedMatching
+PATO:0002471	increased velocity	skos:broadMatch	PATO:0002242	velocity	semapv:UnspecifiedMatching
+PATO:0002472	decreased velocity	skos:broadMatch	PATO:0002242	velocity	semapv:UnspecifiedMatching
+PATO:0002481	oblique orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002490	anterior orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002491	anterodorsal orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002492	anterolateral orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002493	anteroventral orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002494	distal orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002495	dorsal orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002496	dorsolateral orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002497	lateral orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002498	medial orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002499	posterior orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002500	ventrolaterally orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002501	ventral orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002502	transverse orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002503	posterolateral orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002504	posterodorsal orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002514	anteromedial orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002524	mesiolateral orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002526	anterodistal orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002527	posterodistal orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0002628	borderline intensity	skos:broadMatch	PATO:0000049	intensity	semapv:UnspecifiedMatching
+PATO:0002629	profound intensity	skos:broadMatch	PATO:0000049	intensity	semapv:UnspecifiedMatching
+PATO:0005012	complete structure	skos:broadMatch	PATO:0000141	structure	semapv:UnspecifiedMatching
+PATO:0005013	incomplete structure	skos:broadMatch	PATO:0000141	structure	semapv:UnspecifiedMatching
+PATO:0005015	tapered size	skos:broadMatch	PATO:0000117	size	semapv:UnspecifiedMatching
+PATO:0005022	uniform diameter	skos:broadMatch	PATO:0001334	diameter	semapv:UnspecifiedMatching
+PATO:0005023	parasagittal orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0005024	longitudinal orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0010006	cell morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0015001	absence due to degeneration	skos:broadMatch	PATO:0002037	degeneration	semapv:UnspecifiedMatching
+PATO:0015010	increased humidity	skos:broadMatch	PATO:0015009	humidity	semapv:UnspecifiedMatching
+PATO:0015011	decreased humidity	skos:broadMatch	PATO:0015009	humidity	semapv:UnspecifiedMatching
+PATO:0015014	increased degree of illumination	skos:broadMatch	PATO:0015013	degree of illumination	semapv:UnspecifiedMatching
+PATO:0015015	decreased degree of illumination	skos:broadMatch	PATO:0015013	degree of illumination	semapv:UnspecifiedMatching
+PATO:0015022	increased combustibility	skos:broadMatch	PATO:0015021	combustibility	semapv:UnspecifiedMatching
+PATO:0015023	decreased combustibility	skos:broadMatch	PATO:0015021	combustibility	semapv:UnspecifiedMatching
+PATO:0015024	increased porosity	skos:broadMatch	PATO:0000973	porosity	semapv:UnspecifiedMatching
+PATO:0015025	decreased porosity	skos:broadMatch	PATO:0000973	porosity	semapv:UnspecifiedMatching
+PATO:0015027	increased stability	skos:broadMatch	PATO:0015026	stability	semapv:UnspecifiedMatching
+PATO:0015028	decreased stability	skos:broadMatch	PATO:0015026	stability	semapv:UnspecifiedMatching
+PATO:0015032	increased contamination	skos:broadMatch	PATO:0015031	contamination	semapv:UnspecifiedMatching
+PATO:0015033	decreased contamination	skos:broadMatch	PATO:0015031	contamination	semapv:UnspecifiedMatching
+PATO:0040005	posteroventral orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0040013	dorsomedial orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0040023	distomedial orientation	skos:broadMatch	PATO:0000133	orientation	semapv:UnspecifiedMatching
+PATO:0040030	decreased width and length	skos:broadMatch	PATO:0000122	length	semapv:UnspecifiedMatching
+PATO:0040031	increased width and length	skos:broadMatch	PATO:0000122	length	semapv:UnspecifiedMatching
+PATO:0040042	decreased ratio	skos:broadMatch	PATO:0001470	ratio	semapv:UnspecifiedMatching
+PATO:0040043	increased ratio	skos:broadMatch	PATO:0001470	ratio	semapv:UnspecifiedMatching
+PATO:0040045	population growth rate	skos:broadMatch	PATO:0000161	rate	semapv:UnspecifiedMatching
+PATO:0040045	population growth rate	skos:broadMatch	PATO:0001492	growth rate	semapv:UnspecifiedMatching
+PATO:0045000	normal rate	skos:broadMatch	PATO:0000161	rate	semapv:UnspecifiedMatching
+PATO:0045002	normal acidity	skos:broadMatch	PATO:0001842	acidity	semapv:UnspecifiedMatching
+PATO:0045003	normal adhesivity	skos:broadMatch	PATO:0001431	adhesivity	semapv:UnspecifiedMatching
+PATO:0045004	normal affinity	skos:broadMatch	PATO:0002070	affinity	semapv:UnspecifiedMatching
+PATO:0045005	normal age	skos:broadMatch	PATO:0000011	age	semapv:UnspecifiedMatching
+PATO:0045006	normal avidity	skos:broadMatch	PATO:0002073	avidity	semapv:UnspecifiedMatching
+PATO:0045007	normal behavioural activity	skos:broadMatch	PATO:0002265	behavioural activity	semapv:UnspecifiedMatching
+PATO:0045008	normal cellular motility	skos:broadMatch	PATO:0001488	cellular motility	semapv:UnspecifiedMatching
+PATO:0045009	normal coiling	skos:broadMatch	PATO:0001794	coiling	semapv:UnspecifiedMatching
+PATO:0045011	normal contractility	skos:broadMatch	PATO:0001579	contractility	semapv:UnspecifiedMatching
+PATO:0045012	normal coordination	skos:broadMatch	PATO:0000188	coordination	semapv:UnspecifiedMatching
+PATO:0045013	normal curvature	skos:broadMatch	PATO:0001591	curvature	semapv:UnspecifiedMatching
+PATO:0045014	normal distance	skos:broadMatch	PATO:0000040	distance	semapv:UnspecifiedMatching
+PATO:0045015	normal efficiency	skos:broadMatch	PATO:0001029	efficiency	semapv:UnspecifiedMatching
+PATO:0045016	normal elasticity	skos:broadMatch	PATO:0001031	elasticity	semapv:UnspecifiedMatching
+PATO:0045017	normal fecundity	skos:broadMatch	PATO:0000273	fecundity	semapv:UnspecifiedMatching
+PATO:0045018	normal female fertility	skos:broadMatch	PATO:0000274	fertility	semapv:UnspecifiedMatching
+PATO:0045018	normal female fertility	skos:broadMatch	PATO:0000277	female fertility	semapv:UnspecifiedMatching
+PATO:0045019	normal female receptivity	skos:broadMatch	PATO:0001719	receptivity	semapv:UnspecifiedMatching
+PATO:0045019	normal female receptivity	skos:broadMatch	PATO:0001720	female receptivity	semapv:UnspecifiedMatching
+PATO:0045020	normal fertility	skos:broadMatch	PATO:0000274	fertility	semapv:UnspecifiedMatching
+PATO:0045021	normal flexibility	skos:broadMatch	PATO:0001543	flexibility	semapv:UnspecifiedMatching
+PATO:0045023	normal fluorescence	skos:broadMatch	PATO:0000018	fluorescence	semapv:UnspecifiedMatching
+PATO:0045024	normal force	skos:broadMatch	PATO:0001035	force	semapv:UnspecifiedMatching
+PATO:0045025	normal fragility	skos:broadMatch	PATO:0001662	fragility	semapv:UnspecifiedMatching
+PATO:0045026	normal life span	skos:broadMatch	PATO:0000050	life span	semapv:UnspecifiedMatching
+PATO:0045027	normal magnetism	skos:broadMatch	PATO:0001682	magnetism	semapv:UnspecifiedMatching
+PATO:0045028	normal male fertility	skos:broadMatch	PATO:0000274	fertility	semapv:UnspecifiedMatching
+PATO:0045028	normal male fertility	skos:broadMatch	PATO:0000279	male fertility	semapv:UnspecifiedMatching
+PATO:0045029	normal male receptivity	skos:broadMatch	PATO:0001719	receptivity	semapv:UnspecifiedMatching
+PATO:0045029	normal male receptivity	skos:broadMatch	PATO:0001721	male receptivity	semapv:UnspecifiedMatching
+PATO:0045030	normal mass	skos:broadMatch	PATO:0000125	mass	semapv:UnspecifiedMatching
+PATO:0045031	normal mass density	skos:broadMatch	PATO:0001019	mass density	semapv:UnspecifiedMatching
+PATO:0045032	normal mobility	skos:broadMatch	PATO:0000004	mobility	semapv:UnspecifiedMatching
+PATO:0045033	normal odor	skos:broadMatch	PATO:0000058	odor	semapv:UnspecifiedMatching
+PATO:0045034	normal osmolality	skos:broadMatch	PATO:0002027	osmolality	semapv:UnspecifiedMatching
+PATO:0045035	normal osmolarity	skos:broadMatch	PATO:0001655	osmolarity	semapv:UnspecifiedMatching
+PATO:0045036	normal permeability	skos:broadMatch	PATO:0000970	permeability	semapv:UnspecifiedMatching
+PATO:0045037	normal phosphorylation	skos:broadMatch	PATO:0002262	phosphorylation	semapv:UnspecifiedMatching
+PATO:0045038	normal photosensitivity	skos:broadMatch	PATO:0000927	photosensitivity	semapv:UnspecifiedMatching
+PATO:0045040	normal position	skos:broadMatch	PATO:0000140	position	semapv:UnspecifiedMatching
+PATO:0045043	normal elevation	skos:broadMatch	PATO:0001687	elevation	semapv:UnspecifiedMatching
+PATO:0045044	normal pressure	skos:broadMatch	PATO:0001025	pressure	semapv:UnspecifiedMatching
+PATO:0045046	normal radiopacity	skos:broadMatch	PATO:0002136	radiopacity	semapv:UnspecifiedMatching
+PATO:0045047	normal resistance to	skos:broadMatch	PATO:0001046	resistance to	semapv:UnspecifiedMatching
+PATO:0045048	normal sensitivity to irradiation	skos:broadMatch	PATO:0001806	sensitivity to irradiation	semapv:UnspecifiedMatching
+PATO:0045049	normal sensitivity toward	skos:broadMatch	PATO:0000085	sensitivity toward	semapv:UnspecifiedMatching
+PATO:0045050	normal size	skos:broadMatch	PATO:0000117	size	semapv:UnspecifiedMatching
+PATO:0045051	normal area	skos:broadMatch	PATO:0001323	area	semapv:UnspecifiedMatching
+PATO:0045052	normal depth	skos:broadMatch	PATO:0001595	depth	semapv:UnspecifiedMatching
+PATO:0045053	normal height	skos:broadMatch	PATO:0000119	height	semapv:UnspecifiedMatching
+PATO:0045054	normal length	skos:broadMatch	PATO:0000122	length	semapv:UnspecifiedMatching
+PATO:0045055	normal diameter	skos:broadMatch	PATO:0001334	diameter	semapv:UnspecifiedMatching
+PATO:0045056	normal anterior-posterior diameter	skos:broadMatch	PATO:0001334	diameter	semapv:UnspecifiedMatching
+PATO:0045056	normal anterior-posterior diameter	skos:broadMatch	PATO:0002041	anterior-posterior diameter	semapv:UnspecifiedMatching
+PATO:0045057	normal perimeter	skos:broadMatch	PATO:0001711	perimeter	semapv:UnspecifiedMatching
+PATO:0045058	normal circumference	skos:broadMatch	PATO:0001648	circumference	semapv:UnspecifiedMatching
+PATO:0045059	normal thickness	skos:broadMatch	PATO:0000915	thickness	semapv:UnspecifiedMatching
+PATO:0045060	normal volume	skos:broadMatch	PATO:0000918	volume	semapv:UnspecifiedMatching
+PATO:0045061	normal width	skos:broadMatch	PATO:0000921	width	semapv:UnspecifiedMatching
+PATO:0045062	normal solubility	skos:broadMatch	PATO:0001536	solubility	semapv:UnspecifiedMatching
+PATO:0045063	normal speed	skos:broadMatch	PATO:0000008	speed	semapv:UnspecifiedMatching
+PATO:0045064	normal strength	skos:broadMatch	PATO:0001230	strength	semapv:UnspecifiedMatching
+PATO:0045065	normal fatigability	skos:broadMatch	PATO:0001815	fatigability	semapv:UnspecifiedMatching
+PATO:0045066	normal susceptibility toward	skos:broadMatch	PATO:0001043	susceptibility toward	semapv:UnspecifiedMatching
+PATO:0045067	normal temperature	skos:broadMatch	PATO:0000146	temperature	semapv:UnspecifiedMatching
+PATO:0045068	normal tendency	skos:broadMatch	PATO:0002360	tendency	semapv:UnspecifiedMatching
+PATO:0045069	normal threshold	skos:broadMatch	PATO:0000152	threshold	semapv:UnspecifiedMatching
+PATO:0045071	normal tonicity	skos:broadMatch	PATO:0001439	tonicity	semapv:UnspecifiedMatching
+PATO:0045072	normal turgor	skos:broadMatch	PATO:0001620	turgor	semapv:UnspecifiedMatching
+PATO:0045074	normal variability	skos:broadMatch	PATO:0001303	variability	semapv:UnspecifiedMatching
+PATO:0045075	normal variability of color	skos:broadMatch	PATO:0001611	variability of color	semapv:UnspecifiedMatching
+PATO:0045077	normal variability of size	skos:broadMatch	PATO:0001956	variability of size	semapv:UnspecifiedMatching
+PATO:0045078	normal variability of temperature	skos:broadMatch	PATO:0001304	variability of temperature	semapv:UnspecifiedMatching
+PATO:0045079	normal velocity	skos:broadMatch	PATO:0002242	velocity	semapv:UnspecifiedMatching
+PATO:0045080	normal virulence	skos:broadMatch	PATO:0002146	virulence	semapv:UnspecifiedMatching
+PATO:0045081	normal viscosity	skos:broadMatch	PATO:0000992	viscosity	semapv:UnspecifiedMatching
+PATO:0045082	normal waxiness	skos:broadMatch	PATO:0002381	waxiness	semapv:UnspecifiedMatching
+PATO:0045083	normal wetness	skos:broadMatch	PATO:0001822	wetness	semapv:UnspecifiedMatching
+PATO:0045084	normal duration	skos:broadMatch	PATO:0001309	duration	semapv:UnspecifiedMatching
+PATO:0045085	normal duration of temperature	skos:broadMatch	PATO:0001310	duration of temperature	semapv:UnspecifiedMatching
+PATO:0045086	normal occurrence	skos:broadMatch	PATO:0000057	occurrence	semapv:UnspecifiedMatching
+PATO:0045087	normal frequency	skos:broadMatch	PATO:0000044	frequency	semapv:UnspecifiedMatching
+PATO:0045088	normal sensitivity of a process	skos:broadMatch	PATO:0001457	sensitivity of a process	semapv:UnspecifiedMatching
+PATO:0045089	normal sensitivity of a process to oxygen	skos:broadMatch	PATO:0001458	sensitivity of a process to oxygen	semapv:UnspecifiedMatching
+PATO:0045090	cardinal direction	skos:broadMatch	PATO:0000039	direction	semapv:UnspecifiedMatching
+PATO:0070001	neurogliaform morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070002	basket cell morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070003	small basket cell morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070004	large basket cell morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070005	nest basket cell morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070006	cortical bipolar morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070007	Martinotti morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070008	T Martinotti morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070009	fan Martinotti morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070010	stellate morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070011	chandelier cell morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070012	bitufted cell morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070013	spiny stellate cell morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070015	pyramidal family morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070016	horizontal pyramidal morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070017	standard pyramidal morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070018	tufted pyramidal morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070019	untufted pyramidal morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070020	stellate pyramidal morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070021	inverted pyramidal morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070025	unipolar neuron morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070026	multipolar neuron morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070027	bitufted dendrite cell morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070042	retinal bipolar morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070061	double bouquet morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070062	bistratified dendrite cell morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070063	monostratified dendrite cell morphology	skos:broadMatch	PATO:0000051	morphology	semapv:UnspecifiedMatching
+PATO:0070064	dendritic field size	skos:broadMatch	PATO:0000117	size	semapv:UnspecifiedMatching
+PATO:0095001	organismal area to mass ratio	skos:broadMatch	PATO:0001470	ratio	semapv:UnspecifiedMatching

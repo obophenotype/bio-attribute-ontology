@@ -1,4 +1,4 @@
-subject_id	subject_label	subject_category	predicate_id	object_id	object_label	object_category	match_type	subject_source	object_source	confidence	mapping_date	subject_match_field	object_match_field	match_string	author_id
+subject_id	subject_label	subject_category	predicate_id	object_id	object_label	object_category	mapping_justification	subject_source	object_source	confidence	mapping_date	subject_match_field	object_match_field	match_string	author_id
 EFO:0004301	blood viscosity	measurement	skos:exactMatch	OBA:VT3000004	blood viscosity trait	quality	HumanCurated	EFO	OBA	1	2021-09-10				orcid:0000-0001-8314-2140
 EFO:0004325	blood pressure	measurement	skos:exactMatch	OBA:VT0000183	blood pressure trait	quality	HumanCurated	EFO	OBA	1	2021-09-10				orcid:0000-0001-8314-2140
 EFO:0004832	optic disc size measurement	measurement	skos:exactMatch	OBA:VT0006216	optic disc size trait	quality	HumanCurated	EFO	OBA	1	2021-09-10				orcid:0000-0001-8314-2140
@@ -35,115 +35,726 @@ EFO:0009287	interventricular septum thickness	measurement	skos:exactMatch	OBA:00
 EFO:0009367	glucose metabolism quality	measurement	skos:exactMatch	OBA:VT0015088	glucose metabolism trait	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	glucose metabolism quality	orcid:0000-0001-8314-2140
 EFO:0010074	trochanter size	measurement	skos:exactMatch	OBA:0002360	trochanter size	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	trochanter size	orcid:0000-0001-8314-2140
 EFO:0011043	neck circumference	measurement	skos:exactMatch	OBA:1000031	neck circumference	quality	HumanCurated	EFO	OBA	1	2022-06-08	rdfs:label	rdfs:label	neck circumference	orcid:0000-0001-8314-2140
-EFO:0004829	response to irinotecan	response to stimulus	skos:exactMatch	OBA:2040128			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0005202	response to hydrochlorothiazide	response to stimulus	skos:exactMatch	OBA:2040093			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0005205	response to dabigatran etexilate	response to stimulus	skos:exactMatch	OBA:2040114			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0005526	response to alcohol	response to stimulus	skos:exactMatch	OBA:2040030			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0005655	response to cytosine arabinoside	response to stimulus	skos:exactMatch	OBA:2040025			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0005853	response to silica exposure	response to stimulus	skos:exactMatch	OBA:2040029			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006314	response to high-dose melphalan	response to stimulus	skos:exactMatch	OBA:2040028			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006317	response to thiopurine	response to stimulus	skos:exactMatch	OBA:2040051			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006326	response to bupropion	response to stimulus	skos:exactMatch	OBA:2040033			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006328	response to venlafaxine	response to stimulus	skos:exactMatch	OBA:2040141			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006329	response to citalopram	response to stimulus	skos:exactMatch	OBA:2040057			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006330	response to buspirone	response to stimulus	skos:exactMatch	OBA:2040034			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006337	response to allopurinol	response to stimulus	skos:exactMatch	OBA:2040067			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006345	response to phenytoin	response to stimulus	skos:exactMatch	OBA:2040130			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006518	response to losartan	response to stimulus	skos:exactMatch	OBA:2040108			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006816	response to heparin	response to stimulus	skos:exactMatch	OBA:2040023			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006904	response to efavirenz	response to stimulus	skos:exactMatch	OBA:2040005			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006905	response to abacavir	response to stimulus	skos:exactMatch	OBA:2040071			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006950	response to vincristine	response to stimulus	skos:exactMatch	OBA:2040024			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006954	response to triamcinolone acetonide	response to stimulus	skos:exactMatch	OBA:2040119			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006996	response to homoharringtonine	response to stimulus	skos:exactMatch	OBA:2040115			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0006998	response to stavudine	response to stimulus	skos:exactMatch	OBA:2040101			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007592	response to bleomycin	response to stimulus	skos:exactMatch	OBA:2040015			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007612	response to montelukast	response to stimulus	skos:exactMatch	OBA:2040086			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007647	response to vancomycin	response to stimulus	skos:exactMatch	OBA:2040021			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007661	response to lamotrigine	response to stimulus	skos:exactMatch	OBA:2040104			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007662	response to triptolide	response to stimulus	skos:exactMatch	OBA:2040140			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007676	response to zileuton	response to stimulus	skos:exactMatch	OBA:2040001			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007779	response to pazopanib	response to stimulus	skos:exactMatch	OBA:2040117			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007808	response to bortezomib	response to stimulus	skos:exactMatch	OBA:2040091			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007815	response to dabrafenib	response to stimulus	skos:exactMatch	OBA:2040121			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007816	response to trametinib	response to stimulus	skos:exactMatch	OBA:2040122			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007853	response to mercaptopurine	response to stimulus	skos:exactMatch	OBA:2040085			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007866	response to rifampicin	response to stimulus	skos:exactMatch	OBA:2040022			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007867	response to gefitinib	response to stimulus	skos:exactMatch	OBA:2040079			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007868	response to erlotinib	response to stimulus	skos:exactMatch	OBA:2040004			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007871	response to escitalopram	response to stimulus	skos:exactMatch	OBA:2040055			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007917	response to tetracyclic antidepressant	response to stimulus	skos:exactMatch	OBA:2040089			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007919	response to diclofenac	response to stimulus	skos:exactMatch	OBA:2040075			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007921	response to nitrofurantoin	response to stimulus	skos:exactMatch	OBA:2040118			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007923	response to terbinafine	response to stimulus	skos:exactMatch	OBA:2040139			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007925	response to paliperidone	response to stimulus	skos:exactMatch	OBA:2040132			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0007981	response to thiazide	response to stimulus	skos:exactMatch	OBA:2040083			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0008324	response to sulfasalazine	response to stimulus	skos:exactMatch	OBA:2040137			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0008325	response to sotalol	response to stimulus	skos:exactMatch	OBA:2040102			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0008345	response to duloxetine	response to stimulus	skos:exactMatch	OBA:2040056			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0008484	response to carbamazepine	response to stimulus	skos:exactMatch	OBA:2040039			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0008580	response to taxane	response to stimulus	skos:exactMatch	OBA:2040054			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0009166	response to ivacaftor - efficacy	response to stimulus	skos:exactMatch	OBA:2040109			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0009167	response to warfarin	response to stimulus	skos:exactMatch	OBA:2040000			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0009168	response to prednisolone	response to stimulus	skos:exactMatch	OBA:2040133			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0009169	response to deoxygalactonojirimycin	response to stimulus	skos:exactMatch	OBA:2040008			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0009261	response to aripiprazole	response to stimulus	skos:exactMatch	OBA:2040031			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0009279	response to tenofovir	response to stimulus	skos:exactMatch	OBA:2040103			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0009308	response to long-chain n-3 PUFA dietary supplementation	response to stimulus	skos:broadMatch	OBA:2040041			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0009391	response to tamoxifen	response to stimulus	skos:exactMatch	OBA:2040069			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0009893	response to oxcarbazepine	response to stimulus	skos:exactMatch	OBA:2040126			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010052	response to tacrolimus	response to stimulus	skos:exactMatch	OBA:2040098			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010053	response to cyclosporine	response to stimulus	skos:exactMatch	OBA:2040068			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010054	response to mycophenolic acid	response to stimulus	skos:exactMatch	OBA:2040011			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010062	response to salmeterol	response to stimulus	skos:broadMatch	OBA:2040041			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010124	response to atorvastatin	response to stimulus	skos:exactMatch	OBA:2040065			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010152	response to phenylephrine	response to stimulus	skos:exactMatch	OBA:2040129			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010577	response to dimethyl fumarate	response to stimulus	skos:exactMatch	OBA:2040123			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010648	response to vitamin B3	response to stimulus	skos:exactMatch	OBA:2040014			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010718	response to amisulpride	response to stimulus	skos:exactMatch	OBA:2040105			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010748	response to zonisamide	response to stimulus	skos:exactMatch	OBA:2040003			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010808	response to tafenoquine	response to stimulus	skos:exactMatch	OBA:2040007			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010824	response to rhododendrol	response to stimulus	skos:exactMatch	OBA:2040131			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010933	response to dexamethasone	response to stimulus	skos:exactMatch	OBA:2040070			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0010971	response to metamizole	response to stimulus	skos:exactMatch	OBA:2040099			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0600017	response to dolutegravir	response to stimulus	skos:exactMatch	OBA:2040124			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0600024	response to tofacitinib	response to stimulus	skos:exactMatch	OBA:2040116			HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
-EFO:0004647	response to platinum based chemotherapy	response to stimulus	skos:narrowMatch	OBA:2040037			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0009415	response to water stimulus	response to stimulus	skos:relatedMatch	OBA:2040135			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0010226	response to lithium ion	response to stimulus	skos:relatedMatch	OBA:2040080			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0014072	response to opiate	response to stimulus	skos:relatedMatch	OBA:2040018			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0031427	response to methotrexate	response to stimulus	skos:relatedMatch	OBA:2040072			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0031960	response to corticosteroid	response to stimulus	skos:relatedMatch	OBA:2040088			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0036271	response to methylphenidate	response to stimulus	skos:relatedMatch	OBA:2040112			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0036272	response to gemcitabine	response to stimulus	skos:relatedMatch	OBA:2040013			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0036274	response to lapatinib	response to stimulus	skos:relatedMatch	OBA:2040078			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0036275	response to 5' fluorouracil	response to stimulus	skos:relatedMatch	OBA:2040074			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0036287	response to iloperidone	response to stimulus	skos:relatedMatch	OBA:2040107			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0036288	response to ximelagatran	response to stimulus	skos:relatedMatch	OBA:2040106			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0043278	response to morphine	response to stimulus	skos:relatedMatch	OBA:2040012			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0051384	response to glucocorticoid	response to stimulus	skos:relatedMatch	OBA:2040017			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0072718	response to cisplatin	response to stimulus	skos:relatedMatch	OBA:2040020			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097328	response to carboplatin	response to stimulus	skos:relatedMatch	OBA:2040032			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097330	response to 5-fluoro-2'-deoxyuridine	response to stimulus	skos:relatedMatch	OBA:2040096			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097331	response to cytarabine	response to stimulus	skos:relatedMatch	OBA:2040025			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097333	response to olanzapine	response to stimulus	skos:relatedMatch	OBA:2040125			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097334	response to perphenazine	response to stimulus	skos:relatedMatch	OBA:2040127			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097335	response to quetiapine	response to stimulus	skos:relatedMatch	OBA:2040134			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097337	response to ziprasidone	response to stimulus	skos:relatedMatch	OBA:2040002			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:0097338	response to clozapine	response to stimulus	skos:relatedMatch	OBA:2040058			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1901555	response to paclitaxel	response to stimulus	skos:relatedMatch	OBA:2040073			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1901556	response to candesartan	response to stimulus	skos:relatedMatch	OBA:2040038			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1901557	response to fenofibrate	response to stimulus	skos:relatedMatch	OBA:2040081			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1901558	response to metformin	response to stimulus	skos:relatedMatch	OBA:2040110			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1901559	response to ribavirin	response to stimulus	skos:relatedMatch	OBA:2040100			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1901563	response to camptothecin	response to stimulus	skos:relatedMatch	OBA:2040019			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1901905	response to tamsulosin	response to stimulus	skos:relatedMatch	OBA:2040138			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1902518	response to cyclophosphamide	response to stimulus	skos:relatedMatch	OBA:2040066			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1902520	response to doxorubicin	response to stimulus	skos:relatedMatch	OBA:2040026			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1902521	response to etoposide	response to stimulus	skos:relatedMatch	OBA:2040076			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1903491	response to simvastatin	response to stimulus	skos:relatedMatch	OBA:2040136			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1903492	response to aspirin	response to stimulus	skos:relatedMatch	OBA:2040010			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1903493	response to clopidogrel	response to stimulus	skos:relatedMatch	OBA:2040062			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1904014	response to serotonin	response to stimulus	skos:relatedMatch	OBA:2040027			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1905119	response to haloperidol	response to stimulus	skos:relatedMatch	OBA:2040092			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
-GO:1990054	response to temozolomide	response to stimulus	skos:relatedMatch	OBA:2040120			HumanCurated	EFO	OBA		2022-06-29				orcid:0000-0001-8314-2140
+EFO:0004829	response to irinotecan	response to stimulus	skos:exactMatch	OBA:2040128	trait in response to irinotecan	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0005202	response to hydrochlorothiazide	response to stimulus	skos:exactMatch	OBA:2040093	trait in response to hydrochlorothiazide	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0005205	response to dabigatran etexilate	response to stimulus	skos:exactMatch	OBA:2040114	trait in response to dabigatran etexilate	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0005526	response to alcohol	response to stimulus	skos:exactMatch	OBA:2040030	trait in response to ethanol	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0005655	response to cytosine arabinoside	response to stimulus	skos:exactMatch	OBA:2040025	trait in response to cytarabine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0005853	response to silica exposure	response to stimulus	skos:exactMatch	OBA:2040029	trait in response to silicon dioxide	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006314	response to high-dose melphalan	response to stimulus	skos:exactMatch	OBA:2040028	trait in response to melphalan	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006317	response to thiopurine	response to stimulus	skos:exactMatch	OBA:2040051	trait in response to thiopurine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006326	response to bupropion	response to stimulus	skos:exactMatch	OBA:2040033	trait in response to bupropion	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006328	response to venlafaxine	response to stimulus	skos:exactMatch	OBA:2040141	trait in response to venlafaxine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006329	response to citalopram	response to stimulus	skos:exactMatch	OBA:2040057	trait in response to citalopram	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006330	response to buspirone	response to stimulus	skos:exactMatch	OBA:2040034	trait in response to buspirone	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006337	response to allopurinol	response to stimulus	skos:exactMatch	OBA:2040067	trait in response to allopurinol	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006345	response to phenytoin	response to stimulus	skos:exactMatch	OBA:2040130	trait in response to phenytoin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006518	response to losartan	response to stimulus	skos:exactMatch	OBA:2040108	trait in response to losartan	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006816	response to heparin	response to stimulus	skos:exactMatch	OBA:2040023	trait in response to heparin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006904	response to efavirenz	response to stimulus	skos:exactMatch	OBA:2040005	trait in response to efavirenz	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006905	response to abacavir	response to stimulus	skos:exactMatch	OBA:2040071	trait in response to abacavir	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006950	response to vincristine	response to stimulus	skos:exactMatch	OBA:2040024	trait in response to vincristine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006954	response to triamcinolone acetonide	response to stimulus	skos:exactMatch	OBA:2040119	trait in response to triamcinolone acetonide	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006996	response to homoharringtonine	response to stimulus	skos:exactMatch	OBA:2040115	trait in response to omacetaxine mepesuccinate	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0006998	response to stavudine	response to stimulus	skos:exactMatch	OBA:2040101	trait in response to stavudine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007592	response to bleomycin	response to stimulus	skos:exactMatch	OBA:2040015	trait in response to bleomycin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007612	response to montelukast	response to stimulus	skos:exactMatch	OBA:2040086	trait in response to montelukast	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007647	response to vancomycin	response to stimulus	skos:exactMatch	OBA:2040021	trait in response to vancomycin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007661	response to lamotrigine	response to stimulus	skos:exactMatch	OBA:2040104	trait in response to lamotrigine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007662	response to triptolide	response to stimulus	skos:exactMatch	OBA:2040140	trait in response to Triptolide	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007676	response to zileuton	response to stimulus	skos:exactMatch	OBA:2040001	trait in response to zileuton	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007779	response to pazopanib	response to stimulus	skos:exactMatch	OBA:2040117	trait in response to pazopanib	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007808	response to bortezomib	response to stimulus	skos:exactMatch	OBA:2040091	trait in response to bortezomib	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007815	response to dabrafenib	response to stimulus	skos:exactMatch	OBA:2040121	trait in response to dabrafenib	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007816	response to trametinib	response to stimulus	skos:exactMatch	OBA:2040122	trait in response to trametinib	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007853	response to mercaptopurine	response to stimulus	skos:exactMatch	OBA:2040085	trait in response to mercaptopurine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007866	response to rifampicin	response to stimulus	skos:exactMatch	OBA:2040022	trait in response to rifampicin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007867	response to gefitinib	response to stimulus	skos:exactMatch	OBA:2040079	trait in response to gefitinib	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007868	response to erlotinib	response to stimulus	skos:exactMatch	OBA:2040004	trait in response to erlotinib	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007871	response to escitalopram	response to stimulus	skos:exactMatch	OBA:2040055	trait in response to escitalopram	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007917	response to tetracyclic antidepressant	response to stimulus	skos:exactMatch	OBA:2040089	trait in response to tetracyclic antidepressant	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007919	response to diclofenac	response to stimulus	skos:exactMatch	OBA:2040075	trait in response to diclofenac	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007921	response to nitrofurantoin	response to stimulus	skos:exactMatch	OBA:2040118	trait in response to nitrofurantoin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007923	response to terbinafine	response to stimulus	skos:exactMatch	OBA:2040139	trait in response to terbinafine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007925	response to paliperidone	response to stimulus	skos:exactMatch	OBA:2040132	trait in response to paliperidone	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0007981	response to thiazide	response to stimulus	skos:exactMatch	OBA:2040083	trait in response to thiazide	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0008324	response to sulfasalazine	response to stimulus	skos:exactMatch	OBA:2040137	trait in response to sulfasalazine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0008325	response to sotalol	response to stimulus	skos:exactMatch	OBA:2040102	trait in response to sotalol	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0008345	response to duloxetine	response to stimulus	skos:exactMatch	OBA:2040056	trait in response to duloxetine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0008484	response to carbamazepine	response to stimulus	skos:exactMatch	OBA:2040039	trait in response to carbamazepine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0008580	response to taxane	response to stimulus	skos:exactMatch	OBA:2040054	trait in response to taxane	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009166	response to ivacaftor - efficacy	response to stimulus	skos:exactMatch	OBA:2040109	trait in response to ivacaftor	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009167	response to warfarin	response to stimulus	skos:exactMatch	OBA:2040000	trait in response to warfarin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009168	response to prednisolone	response to stimulus	skos:exactMatch	OBA:2040133	trait in response to prednisolone	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009169	response to deoxygalactonojirimycin	response to stimulus	skos:exactMatch	OBA:2040008	trait in response to migalastat	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009261	response to aripiprazole	response to stimulus	skos:exactMatch	OBA:2040031	trait in response to aripiprazole	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009279	response to tenofovir	response to stimulus	skos:exactMatch	OBA:2040103	trait in response to tenofovir (anhydrous)	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009308	response to long-chain n-3 PUFA dietary supplementation	response to stimulus	skos:broadMatch	OBA:2040041	trait in response to fatty acid	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009391	response to tamoxifen	response to stimulus	skos:exactMatch	OBA:2040069	trait in response to tamoxifen	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0009893	response to oxcarbazepine	response to stimulus	skos:exactMatch	OBA:2040126	trait in response to oxcarbazepine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010052	response to tacrolimus	response to stimulus	skos:exactMatch	OBA:2040098	trait in response to tacrolimus hydrate	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010053	response to cyclosporine	response to stimulus	skos:exactMatch	OBA:2040068	trait in response to cyclosporin A	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010054	response to mycophenolic acid	response to stimulus	skos:exactMatch	OBA:2040011	trait in response to mycophenolic acid	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010124	response to atorvastatin	response to stimulus	skos:exactMatch	OBA:2040065	trait in response to atorvastatin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010152	response to phenylephrine	response to stimulus	skos:exactMatch	OBA:2040129	trait in response to phenylephrine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010577	response to dimethyl fumarate	response to stimulus	skos:exactMatch	OBA:2040123	trait in response to dimethyl fumarate	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010648	response to vitamin B3	response to stimulus	skos:exactMatch	OBA:2040014	trait in response to vitamin B3	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010718	response to amisulpride	response to stimulus	skos:exactMatch	OBA:2040105	trait in response to amisulpride	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010748	response to zonisamide	response to stimulus	skos:exactMatch	OBA:2040003	trait in response to zonisamide	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010808	response to tafenoquine	response to stimulus	skos:exactMatch	OBA:2040007	trait in response to tafenoquine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010824	response to rhododendrol	response to stimulus	skos:exactMatch	OBA:2040131	trait in response to 4-(4-Hydroxyphenyl)-2-butanol	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010933	response to dexamethasone	response to stimulus	skos:exactMatch	OBA:2040070	trait in response to dexamethasone	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0010971	response to metamizole	response to stimulus	skos:exactMatch	OBA:2040099	trait in response to metamizole	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0600017	response to dolutegravir	response to stimulus	skos:exactMatch	OBA:2040124	trait in response to dolutegravir	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0600024	response to tofacitinib	response to stimulus	skos:exactMatch	OBA:2040116	trait in response to tofacitinib	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0004647	response to platinum based chemotherapy	response to stimulus	skos:broadMatch	OBA:2040037	trait in response to platinum	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097337	response to ziprasidone	response to stimulus	skos:relatedMatch	OBA:2040002	trait in response to ziprasidone	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1903492	response to acetylsalicylate	response to stimulus	skos:relatedMatch	OBA:2040010	trait in response to acetylsalicylic acid	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0043278	response to morphine	response to stimulus	skos:relatedMatch	OBA:2040012	trait in response to morphine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0036272	response to gemcitabine	response to stimulus	skos:relatedMatch	OBA:2040013	trait in response to gemcitabine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0051384	response to glucocorticoid	response to stimulus	skos:relatedMatch	OBA:2040017	trait in response to glucocorticoid	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0014072	response to isoquinoline alkaloid	response to stimulus	skos:relatedMatch	OBA:2040018	trait in response to isoquinoline alkaloid	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1901563	response to camptothecin	response to stimulus	skos:relatedMatch	OBA:2040019	trait in response to camptothecin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0072718	response to cisplatin	response to stimulus	skos:relatedMatch	OBA:2040020	trait in response to cisplatin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097331	response to cytarabine	response to stimulus	skos:relatedMatch	OBA:2040025	trait in response to cytarabine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1902520	response to doxorubicin	response to stimulus	skos:relatedMatch	OBA:2040026	trait in response to doxorubicin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1904014	response to serotonin	response to stimulus	skos:relatedMatch	OBA:2040027	trait in response to serotonin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097328	response to carboplatin	response to stimulus	skos:relatedMatch	OBA:2040032	trait in response to carboplatin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1901556	response to candesartan	response to stimulus	skos:relatedMatch	OBA:2040038	trait in response to candesartan	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097338	response to clozapine	response to stimulus	skos:relatedMatch	OBA:2040058	trait in response to clozapine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1903493	response to clopidogrel	response to stimulus	skos:relatedMatch	OBA:2040062	trait in response to clopidogrel	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1902518	response to cyclophosphamide	response to stimulus	skos:relatedMatch	OBA:2040066	trait in response to cyclophosphamide	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0031427	response to methotrexate	response to stimulus	skos:relatedMatch	OBA:2040072	trait in response to methotrexate	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1901555	obsolete response to paclitaxel	response to stimulus	skos:relatedMatch	OBA:2040073	trait in response to paclitaxel	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0036275	response to 5-fluorouracil	response to stimulus	skos:relatedMatch	OBA:2040074	trait in response to 5-fluorouracil	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1902521	response to etoposide	response to stimulus	skos:relatedMatch	OBA:2040076	trait in response to etoposide	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0036274	response to lapatinib	response to stimulus	skos:relatedMatch	OBA:2040078	trait in response to lapatinib	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0010226	response to lithium ion	response to stimulus	skos:relatedMatch	OBA:2040080	trait in response to lithium(1+)	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1901557	response to fenofibrate	response to stimulus	skos:relatedMatch	OBA:2040081	trait in response to fenofibrate	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0031960	response to corticosteroid	response to stimulus	skos:relatedMatch	OBA:2040088	trait in response to corticosteroid	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1905119	response to haloperidol	response to stimulus	skos:relatedMatch	OBA:2040092	trait in response to haloperidol	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097330	response to 5-fluoro-2'-deoxyuridine	response to stimulus	skos:relatedMatch	OBA:2040096	trait in response to floxuridine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1901559	response to ribavirin	response to stimulus	skos:relatedMatch	OBA:2040100	trait in response to ribavirin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0036288	response to ximelagatran	response to stimulus	skos:relatedMatch	OBA:2040106	trait in response to ximelagatran	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0036287	response to iloperidone	response to stimulus	skos:relatedMatch	OBA:2040107	trait in response to iloperidone	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1901558	response to metformin	response to stimulus	skos:relatedMatch	OBA:2040110	trait in response to metformin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0036271	response to methylphenidate	response to stimulus	skos:relatedMatch	OBA:2040112	trait in response to methylphenidate	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1990054	response to temozolomide	response to stimulus	skos:relatedMatch	OBA:2040120	trait in response to temozolomide	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097333	response to olanzapine	response to stimulus	skos:relatedMatch	OBA:2040125	trait in response to olanzapine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097334	response to perphenazine	response to stimulus	skos:relatedMatch	OBA:2040127	trait in response to perphenazine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097335	response to quetiapine	response to stimulus	skos:relatedMatch	OBA:2040134	trait in response to quetiapine	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:0097336	response to risperidone	response to stimulus	skos:relatedMatch	OBA:2040135	trait in response to risperidone	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1903491	response to simvastatin	response to stimulus	skos:relatedMatch	OBA:2040136	trait in response to simvastatin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+GO:1901905	response to tamsulosin	response to stimulus	skos:relatedMatch	OBA:2040138	trait in response to tamsulosin	process quality	HumanCurated	EFO	OBA	1	2022-06-29				orcid:0000-0001-8314-2140
+EFO:0005002	lysine measurement	measurement	skos:narrowMatch	OBA:2020005	lysine in blood amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0021621	L-Lysine measurement	measurement	skos:relatedMatch	OBA:2020005	lysine in blood amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004568	serum non-albumin protein measurement	measurement	skos:exactMatch	OBA:2045206	level of serum globulin type protein	amount	HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0007574	blood toxic metal measurement	measurement	skos:broadMatch	OBA:2050091	blood toxic metal amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007947	serum galactose-deficient IgA1 measurement	measurement	skos:broadMatch	OBA:2050057	serum galactose-deficient IgA1 amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004504	serum hepcidin measurement	measurement	skos:exactMatch	OBA:2050089	serum hepcidin amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004518	creatinine measurement	measurement	skos:exactMatch	OBA:2050096	serum creatinine amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004535	serum albumin measurement	measurement	skos:exactMatch	OBA:2050068	serum albumin amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004565	serum IgG measurement	measurement	skos:exactMatch	OBA:2050085	serum IgG amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004579	serum IgE measurement	measurement	skos:exactMatch	OBA:2050084	serum IgE amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004728	serum amyloid A protein measurement	measurement	skos:exactMatch	OBA:2050097	serum amyloid A protein measurement	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004912	serum IgA measurement	measurement	skos:exactMatch	OBA:2050074	serum IgA amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0004993	serum IgM measurement	measurement	skos:exactMatch	OBA:2050070	serum IgM amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005139	serum ceruloplasmin measurement	measurement	skos:exactMatch	OBA:2050073	serum ceruloplasmin amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005266	serum selenium measurement	measurement	skos:exactMatch	OBA:2050059	serum selenium amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005268	serum zinc measurement	measurement	skos:exactMatch	OBA:2050076	serum zinc amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005415	serum alpha-1-antitrypsin measurement	measurement	skos:exactMatch	OBA:2050075	serum alpha-1-antitrypsin amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005416	serum ST2 measurement	measurement	skos:exactMatch	OBA:2050082	serum ST2 amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005418	serum dimethylarginine measurement	measurement	skos:exactMatch	OBA:2050060	serum dimethylarginine amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005421	serum homoarginine measurement	measurement	skos:exactMatch	OBA:2050056	serum homoarginine amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0006332	serum iron measurement	measurement	skos:exactMatch	OBA:2050055	serum iron amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0006795	serum VEGFR2 concentration measurement	measurement	skos:exactMatch	OBA:2050080	serum VEFGR2 concentration amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007040	blood lead measurement	measurement	skos:exactMatch	OBA:2050087	blood lead amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007575	blood aluminium measurement	measurement	skos:exactMatch	OBA:2050063	blood aluminium amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007576	blood cadmium measurement	measurement	skos:exactMatch	OBA:2050067	blood cadmium amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007577	blood cobalt measurement	measurement	skos:exactMatch	OBA:2050077	blood cobalt amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007579	blood chromium measurement	measurement	skos:exactMatch	OBA:2050054	blood chromium amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007580	blood mercury measurement	measurement	skos:exactMatch	OBA:2050088	blood mercury amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007581	blood manganese measurement	measurement	skos:exactMatch	OBA:2050061	blood manganese amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007582	blood molybdenum measurement	measurement	skos:exactMatch	OBA:2050066	blood molybdenum amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007583	blood nickel measurement	measurement	skos:exactMatch	OBA:2050064	blood nickel amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0007584	blood zinc measurement	measurement	skos:exactMatch	OBA:2050072	blood zinc amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0008282	serum amyloid A-1 protein measurement	measurement	skos:exactMatch	OBA:2050083	serum amyloid A-1 protein amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0008283	serum amyloid P-component measurement	measurement	skos:exactMatch	OBA:2050090	serum amyloid P-component amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0009795	serum urea measurement	measurement	skos:exactMatch	OBA:2050065	serum urea amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0010127	serum immunoglobulin measurement	measurement	skos:exactMatch	OBA:2050079	serum immunoglobulin amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0010952	urinary potassium measurement	measurement	skos:exactMatch	OBA:2050095	urine potassium amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0011012	blood bicarbonate measurement	measurement	skos:exactMatch	OBA:2050094	blood sodium bicarbonate amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0020736	serum paraoxonase/arylesterase 1 measurement	measurement	skos:exactMatch	OBA:2050098	serum paraoxonase/arylesterase 1 measurement	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0600041	serum clozapine measurement	measurement	skos:exactMatch	OBA:2050086	serum clozapine amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0600043	serum N-desmethylclozapine measurement	measurement	skos:exactMatch	OBA:2050093	serum N-desmethylclozapine amount	amount	HumanCurated	EFO	OBA	1	2023-01-19				orcid:0000-0001-8314-2140
+EFO:0005273	sleep depth	measurement	skos:broadMatch	OBA:1000905	sleeping behavior quality	quality	HumanCurated	EFO	OBA	1	2023-02-03				orcid:0000-0001-8314-2140
+EFO:0004870	sleep measurement	measurement	skos:exactMatch	OBA:2040170	sleep quality	quality	HumanCurated	EFO	OBA	1	2023-02-03				orcid:0000-0001-8314-2140
+EFO:0005272	sleep quality	measurement	skos:exactMatch	OBA:2040170	sleep quality	quality	HumanCurated	EFO	OBA	1	2023-02-03				orcid:0000-0001-8314-2140
+EFO:0005271	sleep duration	measurement	skos:exactMatch	OBA:2040171	sleep duration trait	duration	HumanCurated	EFO	OBA	1	2023-02-03				orcid:0000-0001-8314-2140
+EFO:0005280	sleep latency	measurement	skos:exactMatch	OBA:2040172	sleep latency	latency	HumanCurated	EFO	OBA	1	2023-02-03				orcid:0000-0001-8314-2140
+EFO:0005274	sleep time	measurement	skos:exactMatch	OBA:2040173	sleep onset quality	onset quality	HumanCurated	EFO	OBA	1	2023-02-03				orcid:0000-0001-8314-2140
+EFO:0010076	femoral neck size	measurement	skos:exactMatch	OBA:0002725	neck of femur size		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0010949	upper face morphology measurement	measurement	skos:broadMatch	OBA:VT0003743	facial morphology trait		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0007824	hair shape measurement	measurement	skos:exactMatch	OBA:0003493	strand of hair shape		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0004577	infant head circumference	measurement	skos:broadMatch	OBA:VT0000047	head circumference		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0005852	Heschl's gyrus morphology measurement	measurement	skos:exactMatch	OBA:VT0000803	transverse gyrus of Heschl morphology trait		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0005037	aortic root size	measurement	skos:exactMatch	OBA:0005483	bulb of aorta size		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0007821	hair morphology measurement	measurement	skos:exactMatch	OBA:VT0000367	coat/hair morphology trait		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0010948	lower face morphology measurement	measurement	skos:broadMatch	OBA:VT0003743	facial morphology trait		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0004300	longevity	measurement	skos:exactMatch	OBA:VT0005372	life span trait		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0004505	telomere length	measurement	skos:exactMatch	OBA:0003784	chromosome, telomeric region length	length	HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0007842	chin morphology measurement	measurement	skos:exactMatch	OBA:2050101	chin morphology trait		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0009286	heart relative wall thickness	measurement	skos:broadMatch	OBA:2050102	heart wall thickness		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0004844	hip bone size	measurement	skos:exactMatch	OBA:2050103	hip bone size		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0600005	ganglion cell inner plexiform layer thickness measurement	measurement	skos:broadMatch	OBA:2050104	ganglion thickness		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0009278	cranial vault morphology measurement	measurement	skos:exactMatch	OBA:VT0000076	calvaria morphology trait		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0007844	forehead morphology measurement	measurement	skos:exactMatch	OBA:2050106	forehead morphology trait		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0005053	internal carotid intimal medial thickness	measurement	skos:broadMatch	OBA:2050107	internal carotid artery thickness		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0004860	common carotid intimal medial thickness	measurement	skos:broadMatch	OBA:2050108	carotid artery thickness		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0007739	left superior temporal gyrus thickness measurement	measurement	skos:broadMatch	OBA:2050109	superior temporal gyrus thickness		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0600002	retinal layer thickness measurement	measurement	skos:exactMatch	OBA:2050110	retinal layer thickness		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0600004	retinal nerve fibre layer thickness measurement	measurement	skos:exactMatch	OBA:2050111	retinal nerve fibre layer thickness		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0007823	facial hair thickness measurement	measurement	skos:exactMatch	OBA:2050112	facial hair thickness		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0008593	ldl particle size measurement	measurement	skos:exactMatch	OBA:2050113	LDL particle size		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0008594	vldl particle size measurement	measurement	skos:exactMatch	OBA:2050114	VLDL particle size		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0008592	hdl particle size measurement	measurement	skos:exactMatch	OBA:2050115	HDL particle size		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0007117	carotid artery intima media thickness	measurement	skos:broadMatch	OBA:2050108	carotid artery thickness		HumanCurated	EFO	OBA	1	2023-02-09				orcid:0000-0001-6757-4744
+EFO:0005200	antiphospholipid antibody measurement	measurement	skos:broadMatch	OBA:VT0002460	blood immunoglobulin amount		HumanCurated	EFO	OBA	1	2023-02-10				orcid:0000-0001-6757-4744
+EFO:0600074	anti-human polyomavirus 6 antibody measurement	measurement	skos:broadMatch	OBA:VT0002460	blood immunoglobulin amount		HumanCurated	EFO	OBA	1	2023-02-10				orcid:0000-0001-6757-4744
+EFO:0009273	anti-epstein barr virus antibody measurement	measurement	skos:broadMatch	OBA:VT0002460	blood immunoglobulin amount		HumanCurated	EFO	OBA	1	2023-02-10				orcid:0000-0001-6757-4744
+EFO:0010150	anti-anoctamin 2 antibody measurement	measurement	skos:broadMatch	OBA:VT0002460	blood immunoglobulin amount		HumanCurated	EFO	OBA	1	2023-02-10				orcid:0000-0001-6757-4744
+EFO:0010087	anti-meningococcal c serum bactericidal antibody measurement	measurement	skos:broadMatch	OBA:VT0002460	blood immunoglobulin amount		HumanCurated	EFO	OBA	1	2023-02-10				orcid:0000-0001-6757-4744
+EFO:0009896	anti-thyroglobulin antibody measurement	measurement	skos:broadMatch	OBA:VT0002460	blood immunoglobulin amount		HumanCurated	EFO	OBA	1	2023-02-10				orcid:0000-0001-6757-4744
+EFO:0004556	antibody measurement	measurement	skos:exactMatch	OBA:VT0002460	blood immunoglobulin amount		HumanCurated	EFO	OBA	1	2023-02-10				orcid:0000-0001-6757-4744
+EFO:0005666	thyroid peroxidase antibody measurement	measurement	skos:broadMatch	OBA:VT0002460	blood immunoglobulin amount		HumanCurated	EFO	OBA	1	2023-02-10				orcid:0000-0001-6757-4744
+EFO:0004733	anti-cyclic citrullinated peptide antibody measurement	measurement	skos:broadMatch	OBA:VT0002460	blood immunoglobulin amount		HumanCurated	EFO	OBA	1	2023-02-10				orcid:0000-0001-6757-4744
+EFO:0600073	anti-wu polyomavirus antibody measurement	measurement	skos:broadMatch	OBA:VT0002460	blood immunoglobulin amount		HumanCurated	EFO	OBA	1	2023-02-10				orcid:0000-0001-6757-4744
+EFO:0005949	antinuclear antibody measurement	measurement	skos:broadMatch	OBA:VT0002460	blood immunoglobulin amount		HumanCurated	EFO	OBA	1	2023-02-10				orcid:0000-0001-6757-4744
+EFO:0007663	childhood aggressive behaviour measurement	measurement	skos:broadMatch	OBA:1000376	aggressive behavior quality		HumanCurated	EFO	OBA	1	2023-02-16				orcid:0000-0001-6757-4744
+EFO:0009480	coping behaviour measurement	measurement	skos:exactMatch	OBA:1000707	coping behavior quality		HumanCurated	EFO	OBA	1	2023-02-16				orcid:0000-0001-6757-4744
+EFO:0005671	smoking behaviour measurement	measurement	skos:exactMatch	OBA:2050116	smoking behavior trait		HumanCurated	EFO	OBA	1	2023-02-16				orcid:0000-0001-6757-4744
+EFO:0007052	antisocial behaviour measurement	measurement	skos:narrowMatch	OBA:1000278	social inhibition quality		HumanCurated	EFO	OBA	1	2023-02-16				orcid:0000-0001-6757-4744
+EFO:0007862	reproductive behaviour measurement	measurement	skos:exactMatch	OBA:2050117	reproductive behavior trait		HumanCurated	EFO	OBA	1	2023-02-16				orcid:0000-0001-6757-4744
+EFO:0007826	aggressive behaviour measurement	measurement	skos:exactMatch	OBA:1000376	aggressive behavior quality		HumanCurated	EFO	OBA	1	2023-02-16				orcid:0000-0001-6757-4744
+EFO:0008538	helping behavior measurement	measurement	skos:exactMatch	OBA:2050118	helping behavior trait		HumanCurated	EFO	OBA	1	2025-03-26				orcid:/0000-0001-8314-2140
+EFO:0600068	gene expression measurement	measurement	skos:exactMatch	OBA:2050119	gene expression		HumanCurated	EFO	OBA	1	2023-03-02				orcid:0000-0001-6757-4744
+EFO:0600070	interleukin-6 gene expression measurement	measurement	skos:broadMatch	OBA:2050119	gene expression		HumanCurated	EFO	OBA	1	2023-03-02				orcid:0000-0001-6757-4744
+EFO:0600069	tumor necrosis factor alpha gene expression measurement	measurement	skos:broadMatch	OBA:2050119	gene expression		HumanCurated	EFO	OBA	1	2023-03-02				orcid:0000-0001-6757-4744
+EFO:0600079	glucocorticoid receptor gene expression measurement	measurement	skos:broadMatch	OBA:2050119	gene expression		HumanCurated	EFO	OBA	1	2023-03-02				orcid:0000-0001-6757-4744
+EFO:0020899	flg gene expression measurement	measurement	skos:broadMatch	OBA:2050119	gene expression		HumanCurated	EFO	OBA	1	2023-03-02				orcid:0000-0001-6757-4744
+EFO:0008265	platelet-derived growth factor receptor beta measurement	measurement	skos:exactMatch	OBA:2050120	platelet-derived growth factor receptor beta amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020381	fibroblast growth factor 20 measurement	measurement	skos:exactMatch	OBA:2050121	fibroblast growth factor 20 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020387	fibroblast growth factor 9 measurement	measurement	skos:exactMatch	OBA:2050122	fibroblast growth factor 9 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0010782	fibroblast growth factor 19 measurement	measurement	skos:exactMatch	OBA:2050123	fibroblast growth factor 19 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020360	epidermal growth factor receptor substrate 15-like 1 measurement	measurement	skos:exactMatch	OBA:2050124	epidermal growth factor receptor substrate 15-like 1 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0008314	vascular endothelial growth factor receptor 2 measurement	measurement	skos:exactMatch	OBA:2050125	vascular endothelial growth factor receptor 2 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020379	fibroblast growth factor 17 measurement	measurement	skos:exactMatch	OBA:2050126	fibroblast growth factor 17 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020475	insulin-like growth factor-binding protein 2 measurement	measurement	skos:exactMatch	OBA:2050127	insulin-like growth factor-binding protein 2 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0004818	transforming growth factor beta measurement	measurement	skos:exactMatch	OBA:1000978	TGF-beta amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020391	fibroblast growth factor receptor 4 measurement	measurement	skos:exactMatch	OBA:2050128	fibroblast growth factor receptor 4 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020650	platelet-derived growth factor subunit b measurement	measurement	skos:exactMatch	OBA:2050129	platelet-derived growth factor subunit B amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0004628	insulin like growth factor measurement	measurement	skos:broadMatch	OBA:2050130	insulin-like protein amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0004762	vascular endothelial growth factor measurement	measurement	skos:closeMatch	OBA:2050131	vascular endothelial growth factor A amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020388	fibroblast growth factor receptor 1 measurement	measurement	skos:exactMatch	OBA:2050132	fibroblast growth factor receptor 1 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020382	fibroblast growth factor 4 measurement	measurement	skos:exactMatch	OBA:2050133	fibroblast growth factor 4 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020847	vascular endothelial growth factor a, isoform 121 measurement	measurement	skos:broadMatch	OBA:2050131	vascular endothelial growth factor A amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020375	fibroblast growth factor 1 measurement	measurement	skos:exactMatch	OBA:2050134	fibroblast growth factor 1 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0009181	growth differentiation factor 15 measurement	measurement	skos:exactMatch	OBA:2050135	growth differentiation factor 15 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020471	inhibitor of growth protein 1 measurement	measurement	skos:exactMatch	OBA:2050136	inhibitor of growth protein 1 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0010783	fibroblast growth factor 21 measurement	measurement	skos:exactMatch	OBA:2050137	fibroblast growth factor 21 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0008302	transforming growth factor-beta-induced protein ig-h3 measurement	measurement	skos:exactMatch	OBA:2050138	transforming growth factor-beta-induced protein ig-h3 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020476	insulin-like growth factor-binding protein 4 measurement	measurement	skos:exactMatch	OBA:2050139	insulin-like growth factor-binding protein 4 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0008315	vascular endothelial growth factor receptor 3 measurement	measurement	skos:exactMatch	OBA:2050140	vascular endothelial growth factor receptor 3 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020477	insulin-like growth factor-binding protein 5 measurement	measurement	skos:exactMatch	OBA:2050141	insulin-like growth factor-binding protein 5 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0008161	insulin-like growth factor-binding protein 7 measurement	measurement	skos:exactMatch	OBA:2050142	insulin-like growth factor-binding protein 7 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020384	fibroblast growth factor 7 measurement	measurement	skos:exactMatch	OBA:2050143	fibroblast growth factor 7 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0008152	hepatocyte growth factor activator measurement	measurement	skos:exactMatch	OBA:2050144	hepatocyte growth factor activator amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020389	fibroblast growth factor receptor 2 measurement	measurement	skos:exactMatch	OBA:2050145	fibroblast growth factor receptor 2 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020648	platelet-derived growth factor c measurement	measurement	skos:exactMatch	OBA:2050146	platelet-derived growth factor C amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020780	transforming growth factor beta-1 measurement	measurement	skos:exactMatch	OBA:2050147	transforming growth factor beta-1 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020383	fibroblast growth factor 6 measurement	measurement	skos:exactMatch	OBA:2050148	fibroblast growth factor 6 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020848	vascular endothelial growth factor c measurement	measurement	skos:exactMatch	OBA:2050149	vascular endothelial growth factor C amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020376	fibroblast growth factor 10 measurement	measurement	skos:exactMatch	OBA:2050150	fibroblast growth factor 10 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0010924	proheparin-binding egf-like growth factor measurement	measurement	skos:exactMatch	OBA:2050151	proheparin-binding EGF-like growth factor amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0010784	fibroblast growth factor 5 measurement	measurement	skos:exactMatch	OBA:2050152	fibroblast growth factor 5 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0010804	vascular endothelial growth factor a measurement	measurement	skos:exactMatch	OBA:2050131	vascular endothelial growth factor A amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0010798	transforming growth factor-alpha measurement	measurement	skos:exactMatch	OBA:2050153	protransforming growth factor alpha amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0008129	fibroblast growth factor 2 measurement	measurement	skos:exactMatch	OBA:2050154	fibroblast growth factor 2 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0006903	hepatocyte growth factor measurement	measurement	skos:exactMatch	OBA:2050155	hepatocyte growth factor amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020478	insulin-like growth factor-binding protein 6 measurement	measurement	skos:exactMatch	OBA:2050156	insulin-like growth factor-binding protein 6 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0008229	melanoma-derived growth regulatory protein measurement	measurement	skos:exactMatch	OBA:2050157	melanoma-derived growth regulatory protein amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020359	epidermal growth factor receptor measurement	measurement	skos:exactMatch	OBA:2050158	epidermal growth factor receptor amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020781	transforming growth factor beta-2 measurement	measurement	skos:exactMatch	OBA:2050159	transforming growth factor beta-2 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0008153	hepatocyte growth factor receptor measurement	measurement	skos:exactMatch	OBA:2050160	hepatocyte growth factor receptor amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020377	fibroblast growth factor 12 measurement	measurement	skos:exactMatch	OBA:2050161	fibroblast growth factor 12 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020473	insulin-like growth factor 1 receptor measurement	measurement	skos:exactMatch	OBA:2050162	insulin-like growth factor 1 receptor amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020179	bdnf/nt-3 growth factors receptor measurement	measurement	skos:exactMatch	OBA:2050163	BDNF/NT-3 growth factors receptor amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0010799	transforming growth factor-beta measurement	measurement	skos:exactMatch	OBA:1000978	TGF-beta amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020438	heparin-binding egf-like growth factor measurement	measurement	skos:exactMatch	OBA:2050151	proheparin-binding EGF-like growth factor amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0009381	fibroblast growth factor 23 measurement	measurement	skos:exactMatch	OBA:2050164	fibroblast growth factor 23 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020284	connective tissue growth factor measurement	measurement	skos:exactMatch	OBA:2050165	connective tissue growth factor amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020380	fibroblast growth factor 18 measurement	measurement	skos:exactMatch	OBA:2050166	fibroblast growth factor 18 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0008264	platelet-derived growth factor bb measurement	measurement	skos:exactMatch	OBA:2050167	platelet-derived growth factor complex BB dimer amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020386	fibroblast growth factor 8 isoform b measurement	measurement	skos:exactMatch	OBA:2050168	fibroblast growth factor 8 isoform B amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0008035	beta-nerve growth factor measurement	measurement	skos:exactMatch	OBA:2050169	beta-nerve growth factor amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0008154	hepatocyte growth factor-like protein measurement	measurement	skos:exactMatch	OBA:2050170	hepatocyte growth factor-like protein amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020378	fibroblast growth factor 16 measurement	measurement	skos:exactMatch	OBA:2050171	fibroblast growth factor 16 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020782	transforming growth factor beta-3 measurement	measurement	skos:exactMatch	OBA:2050172	transforming growth factor beta-3 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020474	insulin-like growth factor-binding protein 1 measurement	measurement	skos:exactMatch	OBA:2050173	insulin-like growth factor-binding protein 1 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0008130	fibroblast growth factor basic measurement	measurement	skos:exactMatch	OBA:2050154	fibroblast growth factor 2 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0008297	teratocarcinoma-derived growth factor 1 measurement	measurement	skos:exactMatch	OBA:2050174	teratocarcinoma-derived growth factor 1 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0006900	endothelial growth factor measurement	measurement	skos:closeMatch	OBA:2050131	vascular endothelial growth factor A amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020448	high affinity nerve growth factor receptor measurement	measurement	skos:exactMatch	OBA:2050175	high affinity nerve growth factor receptor amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020613	nt-3 growth factor receptor measurement	measurement	skos:exactMatch	OBA:2050176	NT-3 growth factor receptor amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020779	transforming growth factor beta receptor type 3 measurement	measurement	skos:exactMatch	OBA:2050177	transforming growth factor beta receptor type 3 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020390	fibroblast growth factor receptor 3 measurement	measurement	skos:exactMatch	OBA:2050178	fibroblast growth factor receptor 3 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020425	growth arrest-specific protein 1 measurement	measurement	skos:exactMatch	OBA:2050179	growth arrest-specific protein 1 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0020439	hepatoma-derived growth factor-related protein 2 measurement	measurement	skos:exactMatch	OBA:2050180	hepatoma-derived growth factor-related protein 2 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0009368	hepatocyte growth factor activator-like protein measurement	measurement	skos:broadMatch	OBA:2050144	hepatocyte growth factor activator amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
+EFO:0600035	heart left atrium capacity	measurement	skos:exactMatch	OBA:VT0004063	left atrium capacity		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0009393	breast pressure measurement	measurement	skos:exactMatch	OBA:2050191	breast pressure trait		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0009092	breast milk measurement	measurement	skos:broadMatch	OBA:VT0015043	milk amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0008040	breast cancer anti-estrogen resistance protein 3 measurement	measurement	skos:exactMatch	OBA:2050192	breast cancer anti-estrogen resistance protein 3 amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0020269	collagen alpha-1(viii) chain measurement	measurement	skos:broadMatch	OBA:2050193	collagen type I alpha chain amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0020270	collagen alpha-1(xxiii) chain measurement	measurement	skos:broadMatch	OBA:2050193	collagen type I alpha chain amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0009360	eyelid sagging measurement	measurement	skos:broadMatch	OBA:0002128	eyelid functionality		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0005409	fat body mass	measurement	skos:exactMatch	OBA:0004528	fat pad mass		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0009890	lean mass-adjusted fat body mass	measurement	skos:broadMatch	OBA:0004528	fat pad mass		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0009699	foot muscle strength measurement	measurement	skos:exactMatch	OBA:2050194	foot muscle strength trait		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0010917	kidney injury molecule 1 measurement	measurement	skos:exactMatch	OBA:2050195	kidney injury molecule 1 amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0008371	kidney amyloid deposition measurement	measurement	skos:exactMatch	OBA:2050209	kidney amyloid amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0008374	liver amyloid deposition measurement	measurement	skos:exactMatch	OBA:2050210	liver amyloid amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0004582	liver enzyme measurement	measurement	skos:broadMatch	OBA:VT0005584	enzyme/coenzyme activity trait		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0010056	liver iron measurement	measurement	skos:broadMatch	OBA:VT0001770	iron amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0600046	lung volume	measurement	skos:exactMatch	OBA:VT0001942	lung capacity		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0600049	pancreas fat measurement	measurement	skos:exactMatch	OBA:2050196	pancreatic fat pad amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0004752	parathyroid hormone measurement	measurement	skos:exactMatch	OBA:VT0002903	blood parathyroid hormone amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0020622	parathyroid hormone-related protein measurement	measurement	skos:exactMatch	OBA:2050197	parathyroid hormone-related protein amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0007890	pericardial adipose tissue measurement	measurement	skos:exactMatch	OBA:2050198	pericardial fat amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0020640	pituitary adenylate cyclase-activating polypeptide 27 measurement	measurement	skos:broadMatch	OBA:2050199	pituitary adenylate cyclase-activating polypeptide amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0020641	pituitary adenylate cyclase-activating polypeptide 38 measurement	measurement	skos:broadMatch	OBA:2050199	pituitary adenylate cyclase-activating polypeptide amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0004624	prostate specific antigen measurement	measurement	skos:exactMatch	OBA:2050200	prostate specific antigen amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0010745	seminal fluid measurement	measurement	skos:exactMatch	OBA:2050201	seminal fluid amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0006868	skin conductance response amplitude	measurement	skos:broadMatch	OBA:2050202	skin amplitude trait		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0600094	skin roughness measurement	measurement	skos:broadMatch	OBA:0003615	zone of skin texture		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0008006	skin aging measurement	measurement	skos:broadMatch	OBA:0005494	aging rate		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0005766	skin fluorescence measurement	measurement	skos:exactMatch	OBA:2050203	skin fluorescence trait		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0009586	skin hydration measurement	measurement	skos:exactMatch	OBA:VT0003853	skin water amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0007009	skin pigmentation measurement	measurement	skos:exactMatch	OBA:VT0002095	skin pigmentation		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0006866	galvanic skin response measurement	measurement	skos:broadMatch	OBA:2050202	skin amplitude trait		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0600047	spleen volume	measurement	skos:exactMatch	OBA:2050204	spleen volume		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0009414	thymus and activation regulated chemokine measurement	measurement	skos:exactMatch	OBA:2050205	C-C motif chemokine 17 amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0004748	thyroid stimulating hormone measurement	measurement	skos:exactMatch	OBA:1000983	thyroid stimulating hormone amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0020775	thyroid peroxidase measurement	measurement	skos:exactMatch	OBA:2050206	thyroid peroxidase amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0004865	thyroid volume	measurement	skos:exactMatch	OBA:1000027	thyroid gland volume		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0009778	thyroid t3 measurement	measurement	skos:broadMatch	OBA:1000972	thyroid hormone amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0004791	tissue plasminogen activator measurement	measurement	skos:exactMatch	OBA:2050207	tissue plasminogen activator amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0007968	tissue factor pathway inhibitor measurement	measurement	skos:exactMatch	OBA:2050208	tissue factor pathway inhibitor amount		HumanCurated	EFO	OBA	1	2023-05-04				orcid:0000-0001-6757-4744
+EFO:0020760	t-cell surface glycoprotein cd4 measurement	measurement	skos:exactMatch	OBA:2050211	CD4 molecule amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020354	ephrin type-b receptor 4 measurement	measurement	skos:exactMatch	OBA:2050212	ephrin type-B receptor 4 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020654	programmed cell death 1 ligand 1 measurement	measurement	skos:exactMatch	OBA:2050213	programmed cell death 1 ligand 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020374	fibrinogen gamma chain measurement	measurement	skos:exactMatch	OBA:2050214	fibrinogen gamma chain amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020813	tumor necrosis factor receptor superfamily member 3 measurement	measurement	skos:exactMatch	OBA:2050215	tumor necrosis factor receptor superfamily member 3 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020793	tumor necrosis factor ligand superfamily member 13b measurement	measurement	skos:exactMatch	OBA:2050216	tumor necrosis factor ligand superfamily member 13B amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0010796	stam binding protein measurement	measurement	skos:exactMatch	OBA:2050217	STAM-binding protein amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020805	tumor necrosis factor receptor superfamily member 14 measurement	measurement	skos:exactMatch	OBA:2050218	tumor necrosis factor receptor superfamily member 14 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008030	arylsulfatase b measurement	measurement	skos:exactMatch	OBA:2050219	arylsulfatase B amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020846	vascular cell adhesion protein 1 measurement	measurement	skos:exactMatch	OBA:2050220	vascular cell adhesion protein 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020804	tumor necrosis factor receptor superfamily member 13c measurement	measurement	skos:exactMatch	OBA:2050221	tumor necrosis factor receptor superfamily member 13C amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020798	tumor necrosis factor ligand superfamily member 9 measurement	measurement	skos:exactMatch	OBA:2050222	tumor necrosis factor ligand superfamily member 9 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020595	neural cell adhesion molecule l1-like protein measurement	measurement	skos:exactMatch	OBA:2050223	neural cell adhesion molecule L1-like protein amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008259	phospholipase a2, membrane associated measurement	measurement	skos:exactMatch	OBA:2050224	phospholipase A2, membrane associated amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020253	cell surface glycoprotein cd200 receptor 1 measurement	measurement	skos:exactMatch	OBA:2050225	cell surface glycoprotein CD200 receptor 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020346	endoplasmic reticulum resident protein 29 measurement	measurement	skos:exactMatch	OBA:2050226	endoplasmic reticulum resident protein 29 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008284	sialic acid-binding ig-like lectin 14 measurement	measurement	skos:exactMatch	OBA:2050227	sialic acid-binding Ig-like lectin 14 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0010802	tumor necrosis factor receptor superfamily member 9 measurement	measurement	skos:exactMatch	OBA:2050228	tumor necrosis factor receptor superfamily member 9 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020739	sialic acid-binding ig-like lectin 7 measurement	measurement	skos:exactMatch	OBA:2050229	sialic acid-binding Ig-like lectin 7 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020350	ephrin type-a receptor 10 measurement	measurement	skos:exactMatch	OBA:2050230	ephrin type-A receptor 10 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020665	proteasome subunit alpha type-6 measurement	measurement	skos:exactMatch	OBA:2050231	proteasome subunit alpha type-6 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008126	extracellular matrix protein 1 measurement	measurement	skos:exactMatch	OBA:2050232	extracellular matrix protein 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0004623	fibrinogen measurement	measurement	skos:broadMatch	OBA:0000061	circulating fibrinogen levels		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0010801	tumor necrosis factor ligand superfamily member 12 measurement	measurement	skos:exactMatch	OBA:2050233	tumor necrosis factor ligand superfamily member 12 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020355	ephrin type-b receptor 6 measurement	measurement	skos:exactMatch	OBA:2050234	ephrin type-B receptor 6 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0010918	lectin-like oxidized ldl receptor 1 measurement	measurement	skos:exactMatch	OBA:2050235	oxidized low-density lipoprotein receptor 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020112	26s proteasome non-atpase regulatory subunit 7 measurement	measurement	skos:exactMatch	OBA:2050236	26S proteasome non-ATPase regulatory subunit 7 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020711	ribosome maturation protein sbds measurement	measurement	skos:exactMatch	OBA:2050237	ribosome maturation protein SBDS amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020545	lysosome membrane protein 2 measurement	measurement	skos:exactMatch	OBA:2050238	lysosome membrane protein 2 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020814	tumor necrosis factor receptor superfamily member 4 measurement	measurement	skos:exactMatch	OBA:2050239	tumor necrosis factor receptor superfamily member 4 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020800	tumor necrosis factor receptor superfamily member 11a measurement	measurement	skos:exactMatch	OBA:2050240	tumor necrosis factor receptor superfamily member 11A amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020794	tumor necrosis factor ligand superfamily member 15 measurement	measurement	skos:exactMatch	OBA:2050241	tumor necrosis factor ligand superfamily member 15 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020537	limbic system-associated membrane protein measurement	measurement	skos:exactMatch	OBA:2050242	limbic system-associated membrane protein amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020749	spectrin alpha chain, non-erythrocytic 1 measurement	measurement	skos:exactMatch	OBA:2050243	spectrin alpha chain, non-erythrocytic 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020263	coagulation factor ix measurement	measurement	skos:exactMatch	OBA:2050244	coagulation factor IX amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020467	importin subunit alpha-1 measurement	measurement	skos:exactMatch	OBA:2050245	importin subunit alpha-1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020806	tumor necrosis factor receptor superfamily member 17 measurement	measurement	skos:exactMatch	OBA:2050246	tumor necrosis factor receptor superfamily member 17 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008268	programmed cell death 1 ligand 2 measurement	measurement	skos:exactMatch	OBA:2050247	programmed cell death 1 ligand 2 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008253	ox-2 membrane glycoprotein measurement	measurement	skos:exactMatch	OBA:2050248	OX-2 membrane glycoprotein amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020799	tumor necrosis factor receptor superfamily member 10a measurement	measurement	skos:exactMatch	OBA:2050249	tumor necrosis factor receptor superfamily member 10A amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020563	membrane frizzled-related protein measurement	measurement	skos:exactMatch	OBA:2050250	membrane frizzled-related protein amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0004634	coagulation factor measurement	measurement	skos:exactMatch	OBA:VT0002551	blood coagulation trait		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020661	proteasome activator complex subunit 1 measurement	measurement	skos:exactMatch	OBA:2050251	proteasome activator complex subunit 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020554	mast/stem cell growth factor receptor kit measurement	measurement	skos:exactMatch	OBA:2050252	mast/stem cell growth factor receptor amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020351	ephrin type-a receptor 2 measurement	measurement	skos:exactMatch	OBA:2050253	ephrin type-A receptor 2 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020200	c-type lectin domain family 1 member b measurement	measurement	skos:exactMatch	OBA:2050254	C-type lectin domain family 1 member B amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0009178	neurofilament light chain measurement	measurement	skos:exactMatch	OBA:2050255	neurofilament light polypeptide amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008285	sialic acid-binding ig-like lectin 6 measurement	measurement	skos:exactMatch	OBA:2050256	sialic acid-binding Ig-like lectin 6 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020810	tumor necrosis factor receptor superfamily member 21 measurement	measurement	skos:exactMatch	OBA:2050257	tumor necrosis factor receptor superfamily member 21 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008119	endoplasmic reticulum aminopeptidase 1 measurement	measurement	skos:exactMatch	OBA:2050258	endoplasmic reticulum aminopeptidase 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0010696	soluble gp130 measurement	measurement	skos:broadMatch	OBA:2050259	interleukin-6 receptor subunit beta amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020754	stem cell growth factor-alpha measurement	measurement	skos:exactMatch	OBA:2050260	kit ligand amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020815	tumor necrosis factor receptor superfamily member 6b measurement	measurement	skos:exactMatch	OBA:2050261	tumor necrosis factor receptor superfamily member 6B amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020795	tumor necrosis factor ligand superfamily member 18 measurement	measurement	skos:exactMatch	OBA:2050262	tumor necrosis factor ligand superfamily member 18 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020127	activin receptor type-1b measurement	measurement	skos:exactMatch	OBA:2050263	activin receptor type-1B amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020807	tumor necrosis factor receptor superfamily member 18 measurement	measurement	skos:exactMatch	OBA:2050264	tumor necrosis factor receptor superfamily member 18 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020264	coagulation factor ixab measurement	measurement	skos:broadMatch	OBA:2050244	coagulation factor IX amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020468	importin subunit beta-1 measurement	measurement	skos:exactMatch	OBA:2050265	importin subunit beta-1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020370	eukaryotic translation initiation factor 5a-1 measurement	measurement	skos:exactMatch	OBA:2050266	eukaryotic translation initiation factor 5A-1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020131	advanced glycosylation end product-specific receptor, soluble measurement	measurement	skos:broadMatch	OBA:2050267	advanced glycosylation end product-specific receptor amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008087	coagulation factor v measurement	measurement	skos:exactMatch	OBA:2050268	coagulation factor V amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008311	tumor necrosis factor-inducible gene 6 protein measurement	measurement	skos:exactMatch	OBA:2050269	tumor necrosis factor-inducible gene 6 protein amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020564	membrane metallo-endopeptidase-like 1 measurement	measurement	skos:exactMatch	OBA:2050270	membrane metallo-endopeptidase-like 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020801	tumor necrosis factor receptor superfamily member 11b measurement	measurement	skos:exactMatch	OBA:2050271	tumor necrosis factor receptor superfamily member 11B amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0010931	tumor necrosis factor receptor 1 measurement	measurement	skos:narrowMatch	OBA:2050272	tumor necrosis factor receptor superfamily member 1A amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020441	heterogeneous nuclear ribonucleoprotein a/b measurement	measurement	skos:exactMatch	OBA:2050273	heterogeneous nuclear ribonucleoprotein A/B amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0004684	tumor necrosis factor-alpha measurement	measurement	skos:exactMatch	OBA:1001013	tumor necrosis factor alpha amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008079	cell adhesion molecule-related/down-regulated by oncogenes measurement	measurement	skos:exactMatch	OBA:2050274	cell adhesion molecule-related/down-regulated by oncogenes amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008032	basal cell adhesion molecule measurement	measurement	skos:exactMatch	OBA:2050275	basal cell adhesion molecule amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020662	proteasome activator complex subunit 3 measurement	measurement	skos:exactMatch	OBA:2050276	proteasome activator complex subunit 3 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020367	eukaryotic translation initiation factor 4 gamma 2 measurement	measurement	skos:exactMatch	OBA:2050277	eukaryotic translation initiation factor 4 gamma 2 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020201	c-type lectin domain family 4 member k measurement	measurement	skos:exactMatch	OBA:2050278	C-type lectin domain family 4 member K amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020352	ephrin type-a receptor 3 measurement	measurement	skos:exactMatch	OBA:2050279	ephrin type-A receptor 3 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008238	myeloid cell surface antigen cd33 measurement	measurement	skos:exactMatch	OBA:2050280	CD33 molecule amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008286	sialic acid-binding ig-like lectin 9 measurement	measurement	skos:exactMatch	OBA:2050281	sialic acid-binding Ig-like lectin 9 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020811	tumor necrosis factor receptor superfamily member 25 measurement	measurement	skos:exactMatch	OBA:2050282	tumor necrosis factor receptor superfamily member 25 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020368	eukaryotic translation initiation factor 4e-binding protein 2 measurement	measurement	skos:exactMatch	OBA:2050283	eukaryotic translation initiation factor 4E-binding protein 2 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020573	mitochondrial import inner membrane translocase subunit tim14 measurement	measurement	skos:exactMatch	OBA:2050284	mitochondrial import inner membrane translocase subunit TIM14 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020602	neuronal cell adhesion molecule measurement	measurement	skos:exactMatch	OBA:2050285	neuronal cell adhesion molecule amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020330	dna repair protein rad51 homolog 1 measurement	measurement	skos:exactMatch	OBA:2050286	DNA repair protein RAD51 homolog 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020796	tumor necrosis factor ligand superfamily member 4 measurement	measurement	skos:exactMatch	OBA:2050287	tumor necrosis factor ligand superfamily member 4 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020593	neural cell adhesion molecule 1, 120 kda isoform measurement	measurement	skos:broadMatch	OBA:2050288	neural cell adhesion molecule 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008310	tumor necrosis factor receptor superfamily member edar measurement	measurement	skos:exactMatch	OBA:2050289	tumor necrosis factor receptor superfamily member EDAR amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020469	inhibin beta a chain measurement	measurement	skos:exactMatch	OBA:2050290	activin/inhibin beta A chain amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008308	tumor necrosis factor beta measurement	measurement	skos:exactMatch	OBA:2050291	lymphotoxin-alpha amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0010794	signaling lymphocytic activation molecule 1 measurement	measurement	skos:exactMatch	OBA:2050292	SLAM family member 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020808	tumor necrosis factor receptor superfamily member 19 measurement	measurement	skos:exactMatch	OBA:2050293	tumor necrosis factor receptor superfamily member 19 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008223	mannan-binding lectin serine protease 1 measurement	measurement	skos:exactMatch	OBA:2050294	mannan-binding lectin serine protease 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020816	tumor necrosis factor receptor superfamily member 8 measurement	measurement	skos:exactMatch	OBA:2050295	tumor necrosis factor receptor superfamily member 8 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008596	chylomicron measurement	measurement	skos:exactMatch	OBA:2050296	chylomicron amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020802	tumor necrosis factor receptor superfamily member 12a measurement	measurement	skos:exactMatch	OBA:2050297	tumor necrosis factor receptor superfamily member 12A amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020265	coagulation factor x measurement	measurement	skos:exactMatch	OBA:2050298	coagulation factor X amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008288	small nuclear ribonucleoprotein f measurement	measurement	skos:exactMatch	OBA:2050299	small nuclear ribonucleoprotein F amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020442	heterogeneous nuclear ribonucleoprotein k measurement	measurement	skos:exactMatch	OBA:2050300	heterogeneous nuclear ribonucleoprotein K amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020251	cell adhesion molecule 1 measurement	measurement	skos:exactMatch	OBA:2050301	cell adhesion molecule 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020663	proteasome subunit alpha type-1 measurement	measurement	skos:exactMatch	OBA:2050302	proteasome subunit alpha type-1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020202	c-type lectin domain family 4 member m measurement	measurement	skos:exactMatch	OBA:2050303	C-type lectin domain family 4 member M amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020256	chloride intracellular channel protein 1 measurement	measurement	skos:exactMatch	OBA:2050304	chloride intracellular channel protein 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008124	ephrin type-b receptor 2 measurement	measurement	skos:exactMatch	OBA:2050305	ephrin type-B receptor 2 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020715	s-phase kinase-associated protein 1 measurement	measurement	skos:narrowMatch	OBA:2050306	S-phase kinase-associated protein 1A amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020353	ephrin type-a receptor 5 measurement	measurement	skos:exactMatch	OBA:2050307	ephrin type-A receptor 5 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020369	eukaryotic translation initiation factor 5 measurement	measurement	skos:exactMatch	OBA:2050308	eukaryotic translation initiation factor 5 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008384	tumor necrosis factor receptor ii measurement	measurement	skos:exactMatch	OBA:2050309	tumor necrosis factor receptor superfamily member 1B amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020812	tumor necrosis factor receptor superfamily member 27 measurement	measurement	skos:exactMatch	OBA:2050310	tumor necrosis factor receptor superfamily member 27 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020594	neural cell adhesion molecule l1 measurement	measurement	skos:exactMatch	OBA:2050311	neural cell adhesion molecule L1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0010762	advanced glycosylation end product-specific receptor ligand measurement	measurement	skos:relatedMatch	OBA:2050267	advanced glycosylation end product-specific receptor amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008309	tumor necrosis factor receptor superfamily member 19l measurement	measurement	skos:exactMatch	OBA:2050312	tumor necrosis factor receptor superfamily member 19L amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020803	tumor necrosis factor receptor superfamily member 13b measurement	measurement	skos:exactMatch	OBA:2050313	tumor necrosis factor receptor superfamily member 13B amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020797	tumor necrosis factor ligand superfamily member 6, soluble form measurement	measurement	skos:exactMatch	OBA:2050314	tumor necrosis factor ligand superfamily member 6 isoform FasL soluble form amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0010057	vascular cell adhesion molecule-1 measurement	measurement	skos:exactMatch	OBA:2050220	vascular cell adhesion protein 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008250	nkg2-d type ii integral membrane protein measurement	measurement	skos:exactMatch	OBA:2050315	NKG2-D type II integral membrane protein amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020443	heterogeneous nuclear ribonucleoprotein q measurement	measurement	skos:exactMatch	OBA:2050316	heterogeneous nuclear ribonucleoprotein Q amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020252	cell adhesion molecule 3 measurement	measurement	skos:exactMatch	OBA:2050317	cell adhesion molecule 3 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020664	proteasome subunit alpha type-2 measurement	measurement	skos:exactMatch	OBA:2050318	proteasome subunit alpha type-2 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0010920	membrane-bound aminopeptidase p measurement	measurement	skos:exactMatch	OBA:2050319	Xaa-Pro aminopeptidase 2 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008582	thrombin activatable fibrinolysis inhibitor activation peptide measurement	measurement	skos:exactMatch	OBA:2050320	carboxypeptidase B2 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008123	ephrin type-a receptor 1 measurement	measurement	skos:exactMatch	OBA:2050321	ephrin type-A receptor 1 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0010800	tumor necrosis factor ligand superfamily member 10 measurement	measurement	skos:exactMatch	OBA:2050322	tumor necrosis factor ligand superfamily member 10 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020557	matrix extracellular phosphoglycoprotein measurement	measurement	skos:exactMatch	OBA:2050323	matrix extracellular phosphoglycoprotein amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0004575	leukocyte-endothelial cell adhesion molecule 2 measurement	measurement	skos:exactMatch	OBA:2050324	E-selectin amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0005918	osteoprotegerin measurement	measurement	skos:exactMatch	OBA:2050271	tumor necrosis factor receptor superfamily member 11B amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0020957	c-type lectin domain family 3 member b measurement	measurement	skos:exactMatch	OBA:2050325	tetranectin amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0008317	vldl cholesterol measurement	measurement	skos:exactMatch	OBA:VT0005144	blood VLDL cholesterol amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0011036	matrix metalloproteinase (mmp)-degraded type i collagen (c1m) measurement	measurement	skos:relatedMatch	OBA:2050193	collagen type I alpha chain amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0007776	coagulation factor ii measurement	measurement	skos:exactMatch	OBA:2050326	prothrombin amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0009187	immature platelet fraction;Percentage of immature platelets	measurement	skos:broadMatch	OBA:VT0003179	platelet quantity		HumanCurated	EFO	OBA	1	2023-08-29				orcid:0000-0001-8314-2140
+EFO:0009238	Immature Plasma Cell Count;The determination of the amount of immature plasma cells present in a sample. [ NCI ]	measurement	skos:broadMatch	OBA:0004299	plasma cell amount		HumanCurated	EFO	OBA	1	2023-08-29				orcid:0000-0001-8314-2140
+EFO:0009253	Immature Reticulocyte Fraction Measurement;The determination of the ratio of immature reticulocytes to total reticulocytes present in a sample. [ NCI ]	measurement	skos:broadMatch	OBA:0002272	reticulocyte amount		HumanCurated	EFO	OBA	1	2023-08-29				orcid:0000-0001-8314-2140
+EFO:0007822	hair colour measurement;quantification of some aspect of hair colour	measurement	skos:exactMatch	OBA:0002313	strand of hair color		HumanCurated	EFO	OBA	1	2023-08-29				orcid:0000-0001-8314-2140
+EFO:0009239	Mature Plasma Cell Count;The determination of the number of mature plasma cells present in a sample. [ NCI ]	measurement	skos:exactMatch	OBA:0004299	plasma cell amount		HumanCurated	EFO	OBA	1	2023-08-29				orcid:0000-0001-8314-2140
+EFO:0004308	leukocyte count;The number of WHITE BLOOD CELLS per unit volume in venous BLOOD. A differential leukocyte count measures the relative numbers of the different types of white cells.	measurement	skos:exactMatch	OBA:VT0000217	leukocyte quantity		HumanCurated	EFO	OBA	1	2023-08-29				orcid:0000-0001-8314-2140
+EFO:0004764	adipose tissue measurement;Is a quantification of some aspect of adipose tissue	measurement	skos:exactMatch	OBA:VT0005452	adipose amount		HumanCurated	EFO	OBA	1	2023-08-29				orcid:0000-0001-8314-2140
+EFO:0005036	platelet measurement;A measurement quantifying some platelet	measurement	skos:exactMatch	OBA:VT0003179	platelet quantity		HumanCurated	EFO	OBA	1	2023-08-29				orcid:0000-0001-8314-2140
+EFO:0007717	carotid artery geometry measurement	measurement	skos:exactMatch	OBA:2045208	carotid artery morphology		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0010759	male reproductive system measurement	measurement	skos:exactMatch	OBA:1000521	male reproductive system attribute		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0004464	brain measurement	measurement	skos:exactMatch	OBA:2045210	brain attribute		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0004782	behavior or behavioral disorder measurement	measurement	skos:exactMatch	OBA:VT0010442	behavior trait 		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0007021	Lewy body measurement	measurement	skos:exactMatch	OBA:2045212	Lewy body attribute		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0007716	carotid artery measurement	measurement	skos:exactMatch	OBA:2045213	carotid artery attribute		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0007738	cingulate cortex measurement	measurement	skos:exactMatch	OBA:2045214	cingulate cortex attribute		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0007786	menstrual cycle measurement	measurement	skos:exactMatch	OBA:2045215	menstrual cycle attribute		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0008375	macula measurement	measurement	skos:exactMatch	OBA:2045216	macula attribute		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0008389	putamen measurement	measurement	skos:exactMatch	OBA:2045217	putamen attribute		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0008420	parietal cortex measurement	measurement	skos:exactMatch	OBA:2045218	parietal cortex attribute		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0010079	corneal endothelial cell measurement	measurement	skos:exactMatch	OBA:2045219	corneal endothelial cell attribute		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0010128	immunoglobulin isotype switching measurement	measurement	skos:exactMatch	OBA:2045220	immunoglobulin isotype switching attribute		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0600084	bowel opening frequency	measurement	skos:exactMatch	OBA:2045221	bowel opening frequency		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0009250	Prorubricyte Count	measurement	skos:exactMatch	OBA:2045222	basophilic erythroblast count		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0007988	myeloid white cell count	measurement	skos:exactMatch	OBA:2045223	myeloid leukocyte count		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0004765	visceral adipose tissue measurement	measurement	skos:exactMatch	OBA:2045224	visceral adipose tissue quantity		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0007615	thrombus formation measurement	measurement	skos:exactMatch	OBA:2045225	blood clotting level		HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0010536	taurine measurement 	measurement	skos:narrowMatch	OBA:2045209	level of taurine in blood serum	amount	HumanCurated	EFO	OBA	1	2023-09-08				orcid:0000-0001-8314-2140
+EFO:0004465	fasting blood glucose measurement	measurement	skos:broadMatch	OBA:VT0000188	blood glucose amount	amount	HumanCurated	EFO	OBA	1	2023-09-18				orcid:0000-0001-8314-2140
+EFO:0004466	fasting blood insulin measurement	measurement	skos:broadMatch	OBA:VT0001560	blood insulin amount	amount	HumanCurated	EFO	OBA	1	2023-09-18				orcid:0000-0001-8314-2140
+EFO:0020050	bile acid measurement	measurement	skos:narrowMatch	OBA:VT0010878	blood bile acid amount	amount	HumanCurated	EFO	OBA	1	2023-09-18				orcid:0000-0001-8314-2140
+EFO:0004351	resting heart rate	measurement	skos:broadMatch	OBA:1001087	heart rate	rate	HumanCurated	EFO	OBA	1	2023-09-19				orcid:0000-0001-8314-2140
+EFO:0004310	partial thromboplastin time	measurement	skos:broadMatch	OBA:VT0002551	blood coagulation trait 	quality	HumanCurated	EFO	OBA	1	2023-09-19				orcid:0000-0001-8314-2140
+EFO:0010120	fasting blood glucose change measurement	measurement	skos:closeMatch	OBA:VT0000188	blood glucose amount 	amount	HumanCurated	EFO	OBA	1	2023-09-19				orcid:0000-0001-8314-2140
+EFO:0021786	aortic diameter	measurement	skos:exactMatch	OBA:2050003	aorta diameter	diameter	HumanCurated	EFO	OBA	1	2023-09-19				orcid:0000-0001-8314-2140
+EFO:0021787	ascending aortic diameter	measurement	skos:exactMatch	OBA:2050001	ascending aorta diameter 	diameter	HumanCurated	EFO	OBA	1	2023-09-19				orcid:0000-0001-8314-2140
+EFO:0021788	descending aortic diameter	measurement	skos:exactMatch	OBA:2050002	descending aorta diameter 	diameter	HumanCurated	EFO	OBA	1	2023-09-19				orcid:0000-0001-8314-2140
+EFO:0006930	brain volume measurement	measurement	skos:exactMatch	OBA:2050009	brain volume 	volume	HumanCurated	EFO	OBA	1	2023-09-21				orcid:0000-0001-8314-2140
+EFO:0010287	brain cortex volume measurement	measurement	skos:exactMatch	OBA:2050051	cerebral cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-21				orcid:0000-0001-8314-2140
+EFO:0010604	urine volume measurement	measurement	skos:exactMatch	OBA:0000173	urinary volume	volume	HumanCurated	EFO	OBA	1	2023-09-21				orcid:0000-0001-8314-2140
+EFO:0600044	kidney volume	measurement	skos:exactMatch	OBA:2050015	kidney volume	volume	HumanCurated	EFO	OBA	1	2023-09-21				orcid:0000-0001-8314-2140
+EFO:0600045	pancreas volume	measurement	skos:exactMatch	OBA:2050006	pancreas volume	volume	HumanCurated	EFO	OBA	1	2023-09-21				orcid:0000-0001-8314-2140
+EFO:0600048	liver volume	measurement	skos:exactMatch	OBA:2050033	liver volume	volume	HumanCurated	EFO	OBA	1	2023-09-21				orcid:0000-0001-8314-2140
+EFO:0004526	mean corpuscular volume	measurement	skos:broadMatch	OBA:0003460	erythrocyte volume	volume	HumanCurated	EFO	OBA	1	2023-09-21				orcid:0000-0001-8314-2140
+EFO:0004584	mean platelet volume	measurement	skos:broadMatch	OBA:0003277	platelet volume	volume	HumanCurated	EFO	OBA	1	2023-09-21				orcid:0000-0001-8314-2140
+EFO:0008291	stem Cell Factor measurement	measurement	skos:exactMatch	OBA:2050260	OBA:2050260	amount	HumanCurated	EFO	OBA	1	2023-09-21				orcid:0000-0001-8314-2140
+EFO:0008474	spine bone mineral density change measurement	measurement	skok:relatedMatch	OBA:VT0005007	bone mineral mass 	mass density	HumanCurated	EFO	OBA	1	2023-09-21				orcid:0000-0001-8314-2140
+EFO:0008080	cerebrospinal fluid volume measurement	measurement	skos:exactMatch	OBA:VT0000254	cerebrospinal fluid amount	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008367	infant cerebrospinal fluid volume measurement	measurement	skos:broadMatch	OBA:VT0000254	cerebrospinal fluid amount	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007967	blood osmolality measurement	measurement	skos:exactMatch	OBA:0004561	blood osmolality	osmolality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010326	precuneus cortex volume measurement	measurement	skos:exactMatch	OBA:2050004	precuneus cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009405	parasubiculum volume	measurement	skos:exactMatch	OBA:2050005	parasubiculum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010330	superior parietal cortex volume measurement	measurement	skos:exactMatch	OBA:2050007	superior parietal cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010317	paracentral lobule volume measurement	measurement	skos:exactMatch	OBA:2050008	paracentral lobule volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010335	third ventricle volume measurement	measurement	skos:exactMatch	OBA:2050010	third ventricle volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010304	frontal pole volume measurement	measurement	skos:exactMatch	OBA:2050011	frontal pole volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010147	temporal lobe volume measurement	measurement	skos:exactMatch	OBA:2050012	temporal lobe volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010321	pars triangularis volume measurement	measurement	skos:exactMatch	OBA:2050013	pars triangularis volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010146	parietal lobe volume measurement	measurement	skos:exactMatch	OBA:2050014	parietal lobe volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0006932	putamen volume	measurement	skos:exactMatch	OBA:2050016	putamen volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010327	rostral anterior cingulate cortex volume measurement	measurement	skos:exactMatch	OBA:2050017	rostral anterior cingulate cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010313	limbic lobe volume measurement	measurement	skos:exactMatch	OBA:2050018	limbic lobe volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010331	superior temporal gyrus volume measurement	measurement	skos:exactMatch	OBA:2050019	superior temporal gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0006931	nucleus accumbens volume	measurement	skos:exactMatch	OBA:2050020	nucleus accumbens volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010605	brain stem volume measurement	measurement	skos:exactMatch	OBA:2050021	brain stem volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010318	parahippocampal gyrus volume measurement	measurement	skos:exactMatch	OBA:2050022	parahippocampal gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010322	pericalcarine cortex volume measurement	measurement	skos:exactMatch	OBA:2050023	pericalcarine cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009399	subiculum volume	measurement	skos:exactMatch	OBA:2050024	subiculum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010294	cingulate cortex volume measurement	measurement	skos:exactMatch	OBA:2050025	cingulate cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010328	rostral middle frontal gyrus volume measurement	measurement	skos:exactMatch	OBA:2050026	rostral middle frontal gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0006933	pallidum volume	measurement	skos:exactMatch	OBA:2050027	pallidum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010301	cuneus cortex volume measurement	measurement	skos:exactMatch	OBA:2050028	cuneus cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010314	lingual gyrus volume measurement	measurement	skos:exactMatch	OBA:2050029	lingual gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010332	supramarginal gyrus volume measurement	measurement	skos:exactMatch	OBA:2050030	supramarginal gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010319	pars opercularis volume measurement	measurement	skos:exactMatch	OBA:2050031	pars opercularis volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010323	postcentral gyrus volume measurement	measurement	skos:exactMatch	OBA:2050032	postcentral gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0006934	amygdala volume	measurement	skos:exactMatch	OBA:2050034	amygdala volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010329	superior frontal gyrus volume measurement	measurement	skos:exactMatch	OBA:2050035	superior frontal gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010302	entorhinal cortex volume measurement	measurement	skos:exactMatch	OBA:2050036	entorhinal cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010315	medial orbital frontal cortex volume measurement	measurement	skos:exactMatch	OBA:2050037	medial orbital frontal cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010324	posterior cingulate cortex volume measurement	measurement	skos:exactMatch	OBA:2050038	posterior cingulate cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010144	frontal lobe volume measurement	measurement	skos:exactMatch	OBA:2050039	frontal lobe volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010307	inferior parietal cortex volume measurement	measurement	skos:exactMatch	OBA:2050040	inferior parietal cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010291	cerebellar cortex volume measurement	measurement	skos:exactMatch	OBA:2050041	cerebellar cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010325	precentral gyrus volume measurement	measurement	skos:exactMatch	OBA:2050042	precentral gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009404	hippocampal fissure volume	measurement	skos:exactMatch	OBA:2050043	hippocampal fissure volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010316	middle temporal gyrus volume measurement	measurement	skos:exactMatch	OBA:2050044	middle temporal gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010309	insular cortex volume measurement	measurement	skos:exactMatch	OBA:2050045	insular cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010334	temporal pole volume measurement	measurement	skos:exactMatch	OBA:2050046	temporal pole volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010303	fourth ventricle volume measurement	measurement	skos:exactMatch	OBA:2050047	fourth ventricle volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010308	inferior temporal gyrus volume measurement	measurement	skos:exactMatch	OBA:2050048	inferior temporal gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009400	presubiculum volume	measurement	skos:exactMatch	OBA:2050049	presubiculum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009397	hippocampus molecular layer volume	measurement	skos:exactMatch	OBA:2050050	hippocampus molecular layer volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010292	cerebral cortex volume measurement	measurement	skos:exactMatch	OBA:2050051	cerebral cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010145	occipital lobe volume measurement	measurement	skos:exactMatch	OBA:2050052	occipital lobe volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004913	lentiform nucleus measurement	measurement	skos:exactMatch	OBA:2050053	lentiform nucleus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007617	pure tone hearing measurement	measurement	skos:exactMatch	OBA:VT0002104	hearing physiology trait	functionality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007849	functional brain measurement	measurement	skos:exactMatch	OBA:VT0015058	brain physiology trait	functionality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004304	blood sedimentation	measurement	skos:exactMatch	OBA:2045235	blood sedimentation trait	buoyancy	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004311	heart function measurement	measurement	skos:exactMatch	OBA:2045275	heart function attribute	functionality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004463	angiotensin converting enzyme activity measurement	measurement	skos:exactMatch	OBA:2045290	angiotensin converting enzyme activity attribute	catalytic activity	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004642	cortisol secretion measurement	measurement	skos:exactMatch	OBA:2045286	cortisol secretion attribute	process efficacy	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004985	platelet reactivity measurement	measurement	skos:exactMatch	OBA:2045287	platelet reactivity attribute	process efficacy	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0005047	erythrocyte measurement	measurement	skos:exactMatch	OBA:2045276	erythrocyte attribute	quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0005201	height growth measurement	measurement	skos:exactMatch	OBA:2045231	height growth attribute	height	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0005210	brain connectivity measurement	measurement	skos:broadMatch	OBA:2045295	brain connectivity attribute	structure	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0005247	anti-Helicobacter pylori serum IgG measurement	measurement	skos:broadMatch	OBA:2045296	attriibute of defense response to other organism	process quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0005668	anterior chamber depth measurement	measurement	skos:exactMatch	OBA:2045280	anterior chamber depth	depth	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0006794	cerebrospinal fluid biomarker measurement	measurement	skos:exactMatch	OBA:2045291	cerebrospinal fluid composition attribute	composition	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0006937	optic disc area measurement	measurement	skos:exactMatch	OBA:2045264	optic disc area	area	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0006940	optic cup area measurement	measurement	skos:exactMatch	OBA:2045265	optic cup area	area	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0006942	facial pigmentation measurement	measurement	skos:exactMatch	OBA:2045282	facial pigmentation	degree of pigmentation	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007616	hearing measurement	measurement	skos:exactMatch	OBA:2045262	hearing process quality	process quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007618	hearing threshold measurement	measurement	skos:exactMatch	OBA:2045234	hearing threshold trait	threshold	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007718	carotid artery stiffness measurement	measurement	skos:exactMatch	OBA:2045278	carotid artery stiffness	flexibility	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007719	carotid artery external diameter measurement	measurement	skos:broadMatch	OBA:2045226	carotid artery diameter	diameter	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007720	carotid artery internal diameter measurement	measurement	skos:broadMatch	OBA:2045226	carotid artery diameter	diameter	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007722	carotid artery wall cross sectional area measurement	measurement	skos:exactMatch	OBA:2045266	carotid artery wall area attribute	area	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007724	carotid artery circumferential wall stress measurement	measurement	skos:exactMatch	OBA:2045254	carotid artery circumferential wall stress	strain	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007877	risky sexual behaviour measurement	measurement	skos:broadMatch	OBA:2045293	sexual activity behaviour attribute	process quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007932	multiple keratinocyte carcinoma susceptibility measurement	measurement	skos:exactMatch	OBA:2045256	multiple keratinocyte carcinoma susceptibility	susceptibility toward	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007978	red blood cell density measurement	measurement	skos:exactMatch	OBA:2045260	red blood cell density	dense	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008358	dorsolateral prefrontal cortex functional measurement	measurement	skos:exactMatch	OBA:2045277	dorsolateral prefrontal cortex functionality attribute	functional	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008408	susceptibility to strep throat measurement	measurement	skos:exactMatch	OBA:2045257	susceptibility to strep throat	susceptibility toward	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008413	susceptibility to urinary tract infection measurement	measurement	skos:exactMatch	OBA:2045258	susceptibility to urinary tract infection	susceptibility toward	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009325	basal ganglia growth measurement	measurement	skos:exactMatch	OBA:2045270	basal ganglia growth attribute	growth rate	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009326	brain growth measurement	measurement	skos:exactMatch	OBA:2045271	brain growth attribute	growth rate	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009327	cerebellum growth measurement	measurement	skos:exactMatch	OBA:2045272	cerebellum growth attribute	growth rate	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009328	cerebral cortex growth measurement	measurement	skos:exactMatch	OBA:2045273	cerebral cortex growth attribute	growth rate	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009331	erosive tooth wear measurement	measurement	skos:exactMatch	OBA:2045285	erosive tooth wear attribute	eroding	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009334	prefrontal cortex growth measurement	measurement	skos:exactMatch	OBA:2045274	prefrontal cortex growth attribute	growth rate	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009366	quality of life during menstruation measurement	measurement	skos:relatedMatch	OBA:2045215	menstrual cycle attribute	quality	HumanCurated	EFO	OBA	1	2025-04-15				orcid:0000-0001-8314-2140
+EFO:0009398	hippocampal tail volume	measurement	skos:broadMatch	OBA:2045244	hippocampal formation volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009402	hippocampus fimbria volume	measurement	skos:exactMatch	OBA:2045245	hippocampus fimbria volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009403	granule cell layer dentate gyrus volume	measurement	skos:exactMatch	OBA:2045236	granule cell layer dentate gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009590	visual memory measurement	measurement	skos:exactMatch	OBA:2045288	visual memory attribute	process quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009700	visual perception measurement	measurement	skos:exactMatch	OBA:2045263	visual perception quality	process quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009790	asparaginase activity measurement	measurement	skos:exactMatch	OBA:2045294	asparaginase activity	process quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009791	fatty acid desaturase enzyme activity measurement	measurement	skos:broadMatch	OBA:2045289	fatty acid desaturase enzyme activity attribute	process quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010069	nerve conduction velocity	measurement	skos:broadMatch	OBA:2045229	nerve conductivity attribute	nerve conductivity	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010073	number of teeth measurement	measurement	skos:exactMatch	OBA:2045279	number of teeth	has number of	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010082	nerve conduction measurement	measurement	skos:exactMatch	OBA:2045229	nerve conductivity attribute	nerve conductivity	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010083	dentate gyrus volume measurement	measurement	skos:exactMatch	OBA:2045237	dentate gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010135	urine specific gravity measurement	measurement	skos:exactMatch	OBA:2045259	urine relative density	concentrated	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010286	banks of the superior temporal sulcus volume measurement	measurement	skos:exactMatch	OBA:2045246	banks of the superior temporal sulcus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010289	caudal anterior cingulate cortex volume measurement	measurement	skos:exactMatch	OBA:2045238	caudal anterior cingulate cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010290	caudal middle frontal gyrus volume measurement	measurement	skos:exactMatch	OBA:2045239	caudal middle frontal gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010293	choroid plexus volume measurement	measurement	skos:exactMatch	OBA:2045247	choroid plexus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010295	corpus callosum anterior volume measurement	measurement	skos:exactMatch	OBA:2045227	genu of corpus callosum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010296	corpus callosum central volume measurement	measurement	skos:exactMatch	OBA:2045248	corpus callosum central volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010297	corpus callosum mid-anterior volume measurement	measurement	skos:broadMatch	OBA:2045227	genu of corpus callosum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010298	corpus callosum posterior volume measurement	measurement	skos:exactMatch	OBA:2045228	rostrum of corpus callosum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010299	corpus callosum volume measurement	measurement	skos:exactMatch	OBA:2045249	corpus callosum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010300	corpus collosum mid-posterior volume measurement	measurement	skos:broadMatch	OBA:2045228	rostrum of corpus callosum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010305	fusiform gyrus volume measurement	measurement	skos:exactMatch	OBA:2045240	fusiform gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010310	isthmus cingulate cortex volume measurement	measurement	skos:exactMatch	OBA:2045250	isthmus cingulate cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010311	lateral occipital cortex volume measurement	measurement	skos:exactMatch	OBA:2045241	lateral occipital cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010312	lateral orbital frontal cortex volume measurement	measurement	skos:exactMatch	OBA:2045242	lateral orbital frontal cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010320	pars orbitalis volume measurement	measurement	skos:exactMatch	OBA:2045251	pars orbitalis volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010333	temporal horn of lateral ventricle volume measurement	measurement	skos:exactMatch	OBA:2045243	temporal horn of lateral ventricle volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010336	transverse temporal cortex volume measurement	measurement	skos:exactMatch	OBA:2045252	transverse temporal cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010337	ventral diencephalon volume measurement	measurement	skos:broadMatch	OBA:2045253	ventral diencephalon volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010572	growth rate measurement	measurement	skos:exactMatch	OBA:2045230	growth rate attribute	growth rate	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010736	cortical surface area measurement	measurement	skos:exactMatch	OBA:2045267	cerebral cortex area attribute	area	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010818	sensory perception of dietary content	measurement	skos:broadMatch	OBA:2045292	sensory perception of taste attribute	process quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010940	microglial activation measurement	measurement	skos:exactMatch	OBA:2045284	microglial activation attribute	active	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0021825	pulmonary artery root diameter measurement	measurement	skos:exactMatch	OBA:2045232	pulmonary artery root diameter	diameter	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0021826	proximal pulmonary artery diameter measurement	measurement	skos:broadMatch	OBA:2045233	pulmonary artery diameter	diameter	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0021827	pulmonary artery strain measurement	measurement	skos:exactMatch	OBA:2045255	pulmonary artery strain	strain	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0600025	aortic vascular smooth muscle cell calcification measurement	measurement	skos:exactMatch	OBA:2045269	aortic vascular smooth muscle cell calcification attribute	calcified	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0600026	aortic vascular smooth muscle cell proliferation measurement	measurement	skos:exactMatch	OBA:2045281	aortic vascular smooth muscle cell proliferation attribute	proliferative	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0600036	muscle fiber cross-sectional area measurement	measurement	skos:broadMatch	OBA:2045268	striated muscle fiber area attribute	area	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0600087	narrow occludable anterior chamber angle	measurement	skos:exactMatch	OBA:2045283	anterior chamber of eyeball pressure	pressure	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009936	Drugs affecting bone structure and mineralization use measurement	measurement	skos:exactMatch	OBA:2045297			HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004501	HOMA-IR	measurement	skos:broadMatch	OBA:2045299	response to glucose		HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004735	serum alanine aminotransferase measurement	measurement	skos:exactMatch	OBA:2050062	serum alanine aminotransferase amount	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010972	blood phosphate measurement	measurement	skos:exactMatch	OBA:VT0001565	blood phosphate amount	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0005667	urinary albumin excretion rate	measurement	skos:exactMatch	OBA:VT0002871	urine albumin amount	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004741	blood urea nitrogen measurement	measurement	skos:exactMatch	OBA:VT0005265	blood urea nitrogen amount	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004536	total blood protein measurement	measurement	skos:exactMatch	OBA:VT0005567	total blood protein	mass	HumanCurated	EFO	OBA	1	2025-05-14				orcid:0000-0001-8314-2140
+EFO:0009411	CCL13 measurement	measurement	skos:exactMatch	OBA:2045300	C-C motif chemokine 13 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010790	monocyte chemotactic protein-4 measurement	measurement	skos:exactMatch	OBA:2045300	C-C motif chemokine 13 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004528	mean corpuscular hemoglobin concentration	measurement	skos:exactMatch	OBA:2045301	erythrocyte hemoglobin content trait	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009205	Corpuscular Hemoglobin Content	measurement	skos:exactMatch	OBA:2045301	erythrocyte hemoglobin content trait	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008217	macrophage colony stimulating factor measurement	measurement	skos:exactMatch	OBA:2045302	macrophage colony-stimulating factor 1 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020546	macrophage colony-stimulating factor 1 measurement	measurement	skos:exactMatch	OBA:2045302	macrophage colony-stimulating factor 1 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0006920	BNP measurement	measurement	skos:exactMatch	OBA:2045303	natriuretic peptides B level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020191	brain natriuretic peptide 32 measurement	measurement	skos:exactMatch	OBA:2045303	natriuretic peptides B level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009184	heart rate response to exercise	measurement	skos:broadMatch	OBA:2045304	response to muscle activity in the heart trait	process quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009185	heart rate response to recovery post exercise	measurement	skos:broadMatch	OBA:2045304	response to muscle activity in the heart trait	process quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009202	Reticulocyte Mean Corpuscular Hemoglobin Measurement	measurement	skos:exactMatch	OBA:2045305	reticulocyte corpuscular hemoglobin content attribute	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009228	Reticulocyte Corpuscular Hemoglobin Concentration Mean	measurement	skos:exactMatch	OBA:2045305	reticulocyte corpuscular hemoglobin content attribute	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009229	Reticulocyte Corpuscular Hemoglobin Content	measurement	skos:exactMatch	OBA:2045305	reticulocyte corpuscular hemoglobin content attribute	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009230	Reticulocyte Corpuscular Hemoglobin Distribution Width	measurement	skos:exactMatch	OBA:2045306	reticulocyte hemoglobin variability attribute	variability	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009231	Reticulocyte Hemoglobin Distribution Width	measurement	skos:exactMatch	OBA:2045306	reticulocyte hemoglobin variability attribute	variability	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0006516	superior frontal gyrus grey matter volume measurement	measurement	skos:exactMatch	OBA:2045307	superior temporal gyrus grey matter volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007697	left superior temporal gyrus grey matter volume measurement	measurement	skos:broadMatch	OBA:2045307	superior temporal gyrus grey matter volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010137	leukocyte esterase measurement	measurement	skos:broadMatch	OBA:2045308	leukocyte amount in the urinary tract	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004864	renal sinus adipose tissue measurement	measurement	skos:broadMatch	OBA:2045309	kidney adipose tissue quantity	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0005193	serum IgG glycosylation measurement	measurement	skos:exactMatch	OBA:2045310	serum IgG glycosylation level	process quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008427	IgG fucosylation measurement	measurement	skos:exactMatch	OBA:2045311	IgG fucosylation level	physical quality of a process	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008428	IgG sialylation measurement	measurement	skos:exactMatch	OBA:2045312	IgG sialylation level	physical quality of a process	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020373	fatty acid-binding protein, heart measurement	measurement	skos:exactMatch	OBA:2045313	fatty acid-binding protein level in heart	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010914	fatty acid-binding protein, adipocyte measurement	measurement	skos:exactMatch	OBA:2045314	fatty acid-binding protein level in adipocyte	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009204	Corpuscular Hemoglobin Concentration Distribution Width	measurement	skos:exactMatch	OBA:2045315	corpuscular hemoglobin variability attribute	variability	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007807	erythrocyte cadmium measurement	measurement	skos:exactMatch	OBA:2045316	erythrocyte cadmium level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007657	cerebrospinal fluid clusterin measurement	measurement	skos:exactMatch	OBA:2045317	cerebrospinal fluid clusterin level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007980	cerebral blood flow measurement	measurement	skos:exactMatch	OBA:2045318	cerebral blood flow level	fluid flow rate	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004532	serum gamma-glutamyl transferase measurement	measurement	skos:exactMatch	OBA:2045319	serum gamma-glutamyl transferase level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0005653	serum metabolite measurement	measurement	skos:exactMatch	OBA:2050092	serum metabolite level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0005760	serum carcinoembryonic antigen measurement	measurement	skos:exactMatch	OBA:2045321	serum carcinoembryonic antigen level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0005664	blood metabolite measurement	measurement	skos:exactMatch	OBA:2050078	blood metabolite level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007578	blood copper measurement	measurement	skos:exactMatch	OBA:2045323	blood copper level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007937	blood protein measurement	measurement	skos:exactMatch	OBA:VT0005416	blood protein amount	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008301	toll-like receptor 4:Lymphocyte antigen 96 complex measurement	measurement	skos:exactMatch	OBA:2045325	toll-like receptor 4:Lymphocyte antigen 96 complex amount	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020318	dentin matrix acidic phosphoprotein 1 measurement	measurement	skos:exactMatch	OBA:2045326	dentin matrix acidic phosphoprotein 1 amount	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004749	CCL2 measurement	measurement	skos:exactMatch	OBA:2045327	C-C motif chemokine 2 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0006959	gene methylation measurement	measurement	skos:exactMatch	OBA:2045328	DNA methylation level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008142	granulocyte colony-stimulating factor measurement	measurement	skos:exactMatch	OBA:2045329	granulocyte colony-stimulating factor level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008197	killer cell immunoglobulin-like receptor 2DL4 measurement	measurement	skos:exactMatch	OBA:2045330	killer cell immunoglobulin-like receptor 2DL4 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008208	leukocyte immunoglobulin-like receptor subfamily B member 1 measurement	measurement	skos:exactMatch	OBA:2045331	leukocyte immunoglobulin-like receptor subfamily B member 1 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008209	leukocyte immunoglobulin-like receptor subfamily B member 2 measurement	measurement	skos:exactMatch	OBA:2045332	leukocyte immunoglobulin-like receptor subfamily B member 2 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008218	macrophage inflammatory protein 1a measurement	measurement	skos:exactMatch	OBA:2045333	C-C motif chemokine 3 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008219	macrophage inflammatory protein 1b measurement	measurement	skos:exactMatch	OBA:2045334	C-C motif chemokine 4 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008220	macrophage metalloelastase measurement	measurement	skos:exactMatch	OBA:2045335	macrophage metalloelastase level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008221	macrophage migration inhibitory factor measurement	measurement	skos:exactMatch	OBA:2045336	macrophage migration inhibitory factor level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008222	macrophage scavenger receptor types I and II measurement	measurement	skos:exactMatch	OBA:2045337	macrophage scavenger receptor types I and II level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008235	monocyte chemotactic protein 3 measurement	measurement	skos:exactMatch	OBA:2045338	C-C motif chemokine 7 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008248	neutrophil collagenase measurement	measurement	skos:exactMatch	OBA:2045339	neutrophil collagenase level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008262	platelet glycoprotein 4 measurement	measurement	skos:exactMatch	OBA:2045340	platelet glycoprotein 4 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008263	platelet glycoprotein VI measurement	measurement	skos:exactMatch	OBA:2045341	platelet glycoprotein VI level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008292	stem Cell Growth Factor beta measurement	measurement	skos:exactMatch	OBA:2045342	C-type lectin domain family 11 member A level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008295	T-lymphocyte surface antigen Ly-9 measurement	measurement	skos:exactMatch	OBA:2045343	T-lymphocyte surface antigen Ly-9 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009413	CCL15 measurement	measurement	skos:exactMatch	OBA:2045344	C-C motif chemokine 15 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009415	CCL19 measurement	measurement	skos:exactMatch	OBA:2045345	C-C motif chemokine 19 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009423	CXCL6 measurement	measurement	skos:exactMatch	OBA:2045346	C-X-C motif chemokine 6 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010789	monocyte chemotactic protein-2 measurement	measurement	skos:exactMatch	OBA:2045347	C-C motif chemokine 8 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010913	eosinophil cationic protein measurement	measurement	skos:exactMatch	OBA:2045348	eosinophil cationic protein level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010921	N-terminal prohormone brain natriuretic peptide measurement	measurement	skos:broadMatch	OBA:2045349	natriuretic peptides B proteolytic cleavage product level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020171	B-cell receptor CD22 measurement	measurement	skos:exactMatch	OBA:2045350	B-cell receptor CD22 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020311	cytotoxic and regulatory t-cell molecule measurement	measurement	skos:exactMatch	OBA:2045351	cytotoxic and regulatory T-cell molecule level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020312	cytotoxic t-lymphocyte protein 4 measurement	measurement	skos:exactMatch	OBA:2045352	cytotoxic T-lymphocyte protein 4 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020416	granulocyte colony-stimulating factor receptor measurement	measurement	skos:exactMatch	OBA:2045353	granulocyte colony-stimulating factor receptor level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020470	inhibin beta A chain:inhibin beta B chain heterodimer measurement	measurement	skos:broadMatch	OBA:2045354	activin/inhibin beta subunit level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020518	killer cell immunoglobulin-like receptor 3DL2 measurement	measurement	skos:exactMatch	OBA:2045355	killer cell immunoglobulin-like receptor 3DL2 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020519	killer cell immunoglobulin-like receptor 3DS1 measurement	measurement	skos:exactMatch	OBA:2045356	killer cell immunoglobulin-like receptor 3DS1 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020520	killer cell lectin-like receptor subfamily F member 1 measurement	measurement	skos:exactMatch	OBA:2045357	killer cell lectin-like receptor subfamily F member 1 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020539	lymphatic vessel endothelial hyaluronic acid receptor 1 measurement	measurement	skos:exactMatch	OBA:2045358	lymphatic vessel endothelial hyaluronic acid receptor 1 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020540	lymphocyte activation gene 3 protein measurement	measurement	skos:exactMatch	OBA:2045359	lymphocyte activation gene 3 protein level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020541	lymphocyte antigen 86 measurement	measurement	skos:exactMatch	OBA:2045360	lymphocyte antigen 86 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020547	macrophage colony-stimulating factor 1 receptor measurement	measurement	skos:exactMatch	OBA:2045361	macrophage colony-stimulating factor 1 receptor level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020548	macrophage mannose receptor 1 measurement	measurement	skos:exactMatch	OBA:2045362	macrophage mannose receptor 1 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020605	neutrophil elastase measurement	measurement	skos:exactMatch	OBA:2045363	neutrophil elastase level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020644	platelet factor 4 measurement	measurement	skos:exactMatch	OBA:2045364	platelet factor 4 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020645	platelet glycoprotein ib alpha chain measurement	measurement	skos:exactMatch	OBA:2045365	platelet glycoprotein Ib alpha chain level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020657	proliferating cell nuclear antigen measurement	measurement	skos:exactMatch	OBA:2045366	proliferating cell nuclear antigen level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020761	t-lymphocyte activation antigen CD80 measurement	measurement	skos:exactMatch	OBA:2045367	CD80 molecule level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020762	t-lymphocyte activation antigen CD86 measurement	measurement	skos:exactMatch	OBA:2045368	CD86 molecule level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0020788	troponin i, cardiac muscle measurement	measurement	skos:exactMatch	OBA:2045369	troponin I, cardiac muscle level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0600071	blood glutathione peroxidase measurement	measurement	skos:exactMatch	OBA:2045370	glutathione peroxidase 2 level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004550	amygdala reactivity measurement	measurement	skos:exactMatch	OBA:2045371	amygdala reactivity attribute	quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009698	gestational blood glucose measurement	measurement	skos:exactMatch	OBA:2045372	gestational blood glucose trait	blood glucose amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009703	red blood cell folate measurement	measurement	skos:exactMatch	OBA:2045373	red blood cell folate amount	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004569	brain serotonin transporter measurement	measurement	skos:exactMatch	OBA:2045374	brain serotonin transporter level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004739	circulating cell free DNA measurement	measurement	skos:exactMatch	OBA:2045375	circulating cell free DNA level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0005267	serum copper measurement	measurement	skos:exactMatch	OBA:2045376	serum copper level	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0008365	heart amyloid deposition measurement	measurement	skos:exactMatch	OBA:2045377	heart amyloid deposition	amount	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009931	Agents acting on the renin-angiotensin system use measurement	measurement	skos:closeMatch	OBA:2045378	pharmaceutical response in the renin-angiotensin system attribute	response to	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0006913	prefrontal cortex cytoarchtiectural measurement	measurement	skos:exactMatch	OBA:2045379	prefrontal cortex cell composition	composition	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0600089	peritoneal solute transfer rate	measurement	skos:exactMatch	OBA:2045380	peritoneal solute transport rate	rate	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004348	hematocrit	measurement	skos:closeMatch	OBA:2045381	hematocrit	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0005849	serum lipase activity measurement	measurement	skos:exactMatch	OBA:2045382	serum lipase activity attribute	process quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007964	gestational serum measurement	measurement	skos:broadMatch	OBA:2045383	gestational serum attribute	quality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0006828	plasma renin activity measurement	measurement	skos:exactMatch	OBA:2045384	plasma renin activity attribute	catalytic activity	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007852	thiopurine methyltransferase activity measurement	measurement	skos:exactMatch	OBA:2045385	thiopurine methyltransferase activity trait	catalytic activity	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007019	milk allergy measurement	measurement	skos:broadMatch	OBA:2045386	response to milk	response to	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0007854	knee peak torque measurement	measurement	skos:broadMatch	OBA:2045387	knee flexor muscle funcionality attribute	functionality	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0009335	white matter growth measurement	measurement	skos:exactMatch	OBA:2045388	white matter growth attribute	physical quality of a process	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0004338	body weight	measurement	skos:exactMatch	OBA:VT0001259	body mass	mass	HumanCurated	EFO	OBA	1	2024-08-15				orcid:0000-0001-8314-2140
+EFO:0009284	chloride measurement	measurement	skos:broadMatch	OBA:2020003	chemical in blood amount	amount	HumanCurated	EFO	OBA	1	2024-08-15				orcid:0000-0001-8314-2140
+EFO:0009283	potassium measurement	measurement	skos:broadMatch	OBA:2020003	chemical in blood amount	amount	HumanCurated	EFO	OBA	1	2024-08-15				orcid:0000-0001-8314-2140
+EFO:0009282	sodium measurement	measurement	skos:broadMatch	OBA:2020003	chemical in blood amount	amount	HumanCurated	EFO	OBA	1	2024-08-15				orcid:0000-0001-8314-2140
+EFO:0007772	obsolete_calcaneal bone quantitative ultrasound measurement;bone quantitiave ultrasound of the main bone in the heel	measurement	skos:exactMatch	OBA:2045558	heel bone density	mass density	HumanCurated	EFO	OBA	1	2025-02-12				orcid:0000-0001-8314-2140
+EFO:0004574	total cholesterol measurement	measurement	skos:narrowMatch	OBA:2045563	total serum cholesterol amount	amount	HumanCurated	EFO	OBA	1	2025-05-14				orcid:0000-0001-8314-2140

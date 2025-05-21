@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/oba/components/obsoletes.owl>
-<http://purl.obolibrary.org/obo/oba/releases/2023-02-14/components/obsoletes.owl>
-Annotation(owl:versionInfo "2023-02-14"^^xsd:string)
+<http://purl.obolibrary.org/obo/oba/releases/2025-04-14/components/obsoletes.owl>
+Annotation(owl:versionInfo "2025-04-14")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000039>))
@@ -47,6 +47,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000815>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000846>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000870>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000873>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000951>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001018>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001019>))
@@ -75,6 +77,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001041>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001042>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2050081>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000187>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0002918>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0003952>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0004271>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
 
@@ -250,12 +256,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000803> 
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000815> (<http://purl.obolibrary.org/obo/OBA_1000815>)
 
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000815> "Reason for obsoletion: [This term was obsoleted because it does not represent a real process. While subarachnoid space is a valid anatomical structure, it is formed by the development of the structures that surround it.](https://www.ebi.ac.uk/QuickGO/term/GO:1903374)"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000815> "Reason for obsoletion: [This term was obsoleted because it does not represent a real process. While subarachnoid space is a valid anatomical structure, it is formed by the development of the structures that surround it.](https://www.ebi.ac.uk/QuickGO/term/GO:1903374)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000815> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000846> (<http://purl.obolibrary.org/obo/OBA_1000846>)
 
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000846> "Reason for obsoletion: gas homeostasis (GO:0033483) considered an unnecessary grouping by GO curators."^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000846> "Reason for obsoletion: gas homeostasis (GO:0033483) considered an unnecessary grouping by GO curators.")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000846> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000870> (<http://purl.obolibrary.org/obo/OBA_1000870>)
@@ -267,6 +273,18 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000870> 
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000873> <http://purl.obolibrary.org/obo/OBA_1000236>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000873> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_1000951> (<http://purl.obolibrary.org/obo/OBA_1000951>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000951> <http://purl.obolibrary.org/obo/OBA_2040177>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000951> "Reason for obsoletion: this term is a too generic of a category that goes beyond the realm of biological attributes. For example, the obsolete term could be applied to chemicals in environmental samples which is beyond the scope of OBA.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000951> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_1001014> (<http://purl.obolibrary.org/obo/OBA_1001014>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001014> <http://purl.obolibrary.org/obo/OBA_2040182>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1001014> "Reason for obsoletion: this term is a too generic of a category that goes beyond the realm of biological attributes. For example, the obsolete term could be applied to chemicals in environmental samples which is beyond the scope of OBA.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001014> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1001016> (<http://purl.obolibrary.org/obo/OBA_1001016>)
 
@@ -407,6 +425,29 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001043> 
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001044> <http://purl.obolibrary.org/obo/OBA_VT0007031>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001044> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2050081> (<http://purl.obolibrary.org/obo/OBA_2050081>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2050081> <http://purl.obolibrary.org/obo/OBA_2045319>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2050081> "Reason for obsoletion: a term with the same intended meaning already exists.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2050081> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0000187> (<http://purl.obolibrary.org/obo/OBA_VT0000187>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_VT0000187> <http://purl.obolibrary.org/obo/OBA_2040183>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_VT0000187> "Reason for obsoletion: this term is a too generic of a category that goes beyond the realm of biological attributes. For example, the obsolete term could be applied to chemicals in environmental samples which is beyond the scope of OBA.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_VT0000187> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0002918> (<http://purl.obolibrary.org/obo/OBA_VT0002918>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_VT0002918> "Reason for obsoletion: the label 'paired-pulse facilitation trait' of OBA:VT0002918 and the definition of the matching term http://purl.obolibrary.org/obo/VT_0002918 do not agree with the logical definition in OBA. No appropriate GO process term exists to correct the logical definition at the time of the term obsoletion.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_VT0002918> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0003952> (<http://purl.obolibrary.org/obo/OBA_VT0003952>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_VT0003952> <http://purl.obolibrary.org/obo/OBA_1000943>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_VT0003952> "Reason for obsoletion: this term is a too generic of a category that goes beyond the realm of biological attributes. For example, the obsolete term could be applied to chemicals in environmental samples which is beyond the scope of OBA.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_VT0003952> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0004271> (<http://purl.obolibrary.org/obo/OBA_VT0004271>)
 

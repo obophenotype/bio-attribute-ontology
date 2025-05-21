@@ -688,7 +688,7 @@ OBA:VT0004124	Purkinje fiber morphology trait	UBERON:0002354	purkinje fiber	PATO
 OBA:VT0004128	adipocyte morphology trait	CL:0000136	fat cell	PATO:0000051	morphology
 OBA:VT0004134	thorax morphology trait	UBERON:0000915	thoracic segment of trunk	PATO:0000051	morphology
 OBA:VT0004136	tongue muscle morphology trait	UBERON:0000378	tongue muscle	PATO:0000051	morphology
-OBA:VT0004138	mucous neck cell morphology trait	CL:0000651	mucous neck cell	PATO:0000051	morphology
+OBA:VT0004138	mucous neck cell morphology trait	CL:0002181	mucous neck cell of gastric gland	PATO:0000051	morphology
 OBA:VT0004140	chief cell morphology trait	CL:0000446	chief cell of parathyroid gland	PATO:0000051	morphology
 OBA:VT0004141	enteroendocrine cell morphology trait	CL:0000164	enteroendocrine cell	PATO:0000051	morphology
 OBA:VT0004162	mammillary body morphology trait	UBERON:0002206	mammillary body	PATO:0000051	morphology
@@ -1192,7 +1192,7 @@ OBA:0003912		UBERON:0001980	arteriole	PATO:0000051	morphology
 OBA:0003913		UBERON:0001508	arch of aorta	PATO:0000051	morphology
 OBA:0003915		UBERON:0001979	venule	PATO:0000051	morphology
 OBA:0003917		UBERON:0001443	chest	PATO:0000051	morphology
-OBA:0003918		CL:0002182	surface mucosal cell of stomach	PATO:0000051	morphology
+OBA:0003918		CL:0002179	foveolar cell of stomach	PATO:0000051	morphology
 OBA:0003919		CL:0000162	parietal cell	PATO:0000051	morphology
 OBA:0003920		CL:0000155	peptic cell	PATO:0000051	morphology
 OBA:0003924		GO:0021761	limbic system development	PATO:0000051	morphology
@@ -1505,7 +1505,7 @@ OBA:0004857		UBERON:0003991	fourth ventricle median aperture	PATO:0000051	morpho
 OBA:0004858		UBERON:0003992	fourth ventricle lateral aperture	PATO:0000051	morphology
 OBA:0004859		UBERON:0003993	interventricular foramen of CNS	PATO:0000051	morphology
 OBA:0004861		UBERON:0003994	pelvic ligament	PATO:0000051	morphology
-OBA:0004864		GO:0097224	sperm connecting piece	PATO:0000051	morphology
+OBA:0004864		GO:0120212	sperm head-tail coupling apparatus	PATO:0000051	morphology
 OBA:0004865		GO:0097225	sperm midpiece	PATO:0000051	morphology
 OBA:0004866		GO:0097226	sperm mitochondrial sheath	PATO:0000051	morphology
 OBA:0004867		GO:0097227	sperm annulus	PATO:0000051	morphology
@@ -2186,7 +2186,6 @@ OBA:1000099	appendage trait	UBERON:0000026	appendage	PATO:0000001	quality
 OBA:1000100	paired fin trait	UBERON:0002534	paired fin	PATO:0000001	quality
 OBA:1000108	hoof trait	UBERON:0008963	hoof	PATO:0000001	quality
 OBA:1000145	lymphatic vessel quality	UBERON:0001473	lymphatic vessel	PATO:0000001	quality
-OBA:VT0005372	life span trait	UBERON:0000104	life cycle	PATO:0000001	quality
 OBA:0000018	appetite	NBO:0000235	hunger motivation behavior	PATO:0000001	quality
 OBA:0000139	synapse structure and activity	GO:0045202	synapse	PATO:0000001	quality
 OBA:VT0000057	ossification trait	GO:0001503	ossification	PATO:0000001	quality
@@ -2282,7 +2281,7 @@ OBA:VT0003383	gluconeogenesis trait	GO:0006094	gluconeogenesis	PATO:0000001	qual
 OBA:VT0003396	embryonic hematopoiesis trait	GO:0035162	embryonic hemopoiesis	PATO:0000001	quality
 OBA:VT0003421	thyroid gland development trait	GO:0030878	thyroid gland development	PATO:0000001	quality
 OBA:VT0003444	neurotransmitter uptake trait	GO:0001504	neurotransmitter uptake	PATO:0000001	quality
-OBA:VT0003501	iodide oxidation trait	GO:0070277	iodide oxidation	PATO:0000001	quality
+OBA:VT0003501	iodide oxidation trait	GO:0004447	iodide peroxidase activity 	PATO:0000001	quality
 OBA:VT0003506	growth hormone secretion trait	GO:0030252	growth hormone secretion	PATO:0000001	quality
 OBA:VT0003531	vagina development trait	GO:0060068	vagina development	PATO:0000001	quality
 OBA:VT0003564	insulin secretion trait	GO:0030073	insulin secretion	PATO:0000001	quality
@@ -2461,7 +2460,7 @@ OBA:1000197		NBO:0000444	eye movement	PATO:0000001	quality
 OBA:1000198		UBERON:0003723	vestibular nerve	PATO:0000001	quality
 OBA:1000199		PR:000017364	von Willebrand factor	PATO:0000001	quality
 OBA:1000200		UBERON:0001653	facial vein	PATO:0000001	quality
-OBA:1000201		GO:0005746	mitochondrial respiratory chain	PATO:0000001	quality
+OBA:1000201		GO:0098803	respiratory chain complex	PATO:0000001	quality
 OBA:1000202		UBERON:0001867	cartilage of external ear	PATO:0000001	quality
 OBA:1000203		UBERON:0001714	cranial ganglion	PATO:0000001	quality
 OBA:1000204		UBERON:0004330	proximal phalanx of manual digit 4	PATO:0000001	quality
@@ -2483,7 +2482,7 @@ OBA:1000219		NBO:0000129	agitation behavior	PATO:0000001	quality
 OBA:1000220		GO:0009069	serine family amino acid metabolic process	PATO:0000001	quality
 OBA:1000221		UBERON:0004389	epiphysis of metatarsal bone	PATO:0000001	quality
 OBA:1000222		UBERON:0008596	mentalis muscle	PATO:0000001	quality
-OBA:1000223		GO:1903510	mucopolysaccharide metabolic process	PATO:0000001	quality
+OBA:1000223	mucopolysaccharide metabolism trait	GO:0030203	glycosaminoglycan metabolic process	PATO:0000001	quality
 OBA:1000224		UBERON:0006059	falx cerebri	PATO:0000001	quality
 OBA:1000225		NBO:0000018	fear/anxiety related behavior	PATO:0000001	quality
 OBA:1000226		UBERON:0000010	peripheral nervous system	PATO:0000001	quality
@@ -2631,7 +2630,6 @@ OBA:1000369		NBO:0000313	behavior process	PATO:0000001	quality
 OBA:1000370		UBERON:0004646	infraorbital artery	PATO:0000001	quality
 OBA:1000371		UBERON:0004660	mandible coronoid process	PATO:0000001	quality
 OBA:1000372		NBO:0000054	suckling behavior	PATO:0000001	quality
-OBA:1000373		GO:0042133	neurotransmitter metabolic process	PATO:0000001	quality
 OBA:1000374		UBERON:0001532	internal carotid artery	PATO:0000001	quality
 OBA:1000375		UBERON:0003823	hindlimb zeugopod	PATO:0000001	quality
 OBA:1000376		NBO:0000015	aggressive behavior	PATO:0000001	quality
@@ -2774,7 +2772,7 @@ OBA:1000517		UBERON:0005438	coronary sinus	PATO:0000001	quality
 OBA:1000518		UBERON:0000007	pituitary gland	PATO:0000001	quality
 OBA:1000519		GO:0006560	proline metabolic process	PATO:0000001	quality
 OBA:1000520		UBERON:0000210	tetrapod parietal bone	PATO:0000001	quality
-OBA:1000521		UBERON:0000079	male reproductive system	PATO:0000001	quality
+OBA:1000521	male reproductive system attribute	UBERON:0000079	male reproductive system	PATO:0000001	quality
 OBA:1000522		GO:0006563	L-serine metabolic process	PATO:0000001	quality
 OBA:1000523		UBERON:0001174	common bile duct	PATO:0000001	quality
 OBA:1000524		UBERON:0004087	vena cava	PATO:0000001	quality
@@ -2928,7 +2926,7 @@ OBA:1000676		GO:1903709	uterine gland development	PATO:0000001	quality
 OBA:1000677		UBERON:0001839	bony labyrinth	PATO:0000001	quality
 OBA:1000678		NBO:0000001	body part movement	PATO:0000001	quality
 OBA:1000679		NBO:0001915	cocaine consumption	PATO:0000001	quality
-OBA:1000680		GO:0033878	hormone-sensitive lipase activity	PATO:0000001	quality
+OBA:1000680		GO:0120516	diacylglycerol lipase activity	PATO:0000001	quality
 OBA:1000681		NBO:0000570	head bobbing	PATO:0000001	quality
 OBA:1000682		UBERON:0005367	hippocampus granule cell layer	PATO:0000001	quality
 OBA:1000683		GO:0045136	development of secondary sexual characteristics	PATO:0000001	quality
@@ -3089,7 +3087,7 @@ OBA:1000842		UBERON:0001849	membranous labyrinth	PATO:0000001	quality
 OBA:1000843		GO:0001501	skeletal system development	PATO:0000001	quality
 OBA:1000844		CL:0000653	glomerular visceral epithelial cell	PATO:0000001	quality
 OBA:1000845		NBO:0000210	avoidance learning behavior	PATO:0000001	quality
-OBA:1000847		GO:0070547	L-tyrosine aminotransferase activity	PATO:0000001	quality
+OBA:1000847		GO:0004838	L-tyrosine-2-oxoglutarate transaminase activity	PATO:0000001	quality
 OBA:1000848		GO:0072134	nephrogenic mesenchyme morphogenesis	PATO:0000001	quality
 OBA:1000849		GO:0004465	lipoprotein lipase activity	PATO:0000001	quality
 OBA:1000850		GO:0060659	nipple sheath formation	PATO:0000001	quality
@@ -3099,7 +3097,7 @@ OBA:1000853		GO:0007538	primary sex determination	PATO:0000001	quality
 OBA:1000854		GO:0097205	renal filtration	PATO:0000001	quality
 OBA:1000855		GO:0060117	auditory receptor cell development	PATO:0000001	quality
 OBA:1000856		NBO:0000557	short term spatial memory	PATO:0000001	quality
-OBA:1000857		GO:0051699	proline oxidase activity	PATO:0000001	quality
+OBA:1000857		GO:0004657	proline dehydrogenase activity	PATO:0000001	quality
 OBA:1000858		NBO:0000556	spatial memory	PATO:0000001	quality
 OBA:1000860		GO:0033316	meiotic spindle assembly checkpoint	PATO:0000001	quality
 OBA:1000861		NBO:0000223	contextual conditioning behavior	PATO:0000001	quality
