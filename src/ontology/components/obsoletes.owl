@@ -77,7 +77,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001041>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001042>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001044>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2044890>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2050081>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000187>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0002918>))
@@ -426,12 +425,6 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001043> 
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001044> <http://purl.obolibrary.org/obo/OBA_VT0007031>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001044> "true"^^xsd:boolean)
-
-# Class: <http://purl.obolibrary.org/obo/OBA_2044890> (<http://purl.obolibrary.org/obo/OBA_2044890>)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2044890> <http://purl.obolibrary.org/obo/OBA_VT0005416>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2044890> "Reason for obsoletion: This term depends on the PRO term PR_A1A4F0, which has since been excluded from PRO exports because it is dynamically generated and refers to a putative, uncharacterized protein with limited supporting evidence.")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2044890> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_2050081> (<http://purl.obolibrary.org/obo/OBA_2050081>)
 
