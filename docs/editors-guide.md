@@ -134,3 +134,15 @@ The *full process* of refreshing the DOSDP patterns:
 3.	Run `sh run.sh make refresh-merged` to import the new terms.
 4.	Run `sh run.sh make IMP=false MIR=false ../patterns/definitions.owl` again to generate the labels correctly where new terms are concerned.
 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+### Obsoleting terms originating from DOS-DP templates
+
+1. Delete the row with the targeted term from the appropriate data table (`tsv` file) in folder: `src/patterns/data/default/`
+2. Fill in the IRI of the term to be obsoleted in `src/templates/obsoletes.tsv` along with other relevant information. It is useful add a comment with an explanation for the obsoletion. Start the comment with '`Reason for obsoletion: `'.
+3. Re-create the DOS-DP axioms by running
+```sh
+cd PATH-TO/bio-attribute-ontology/src/ontology
+sh run.sh make ../patterns/definitions.owl
+```
+
