@@ -144,5 +144,6 @@ The *full process* of refreshing the DOSDP patterns:
 ```sh
 cd PATH-TO/bio-attribute-ontology/src/ontology
 sh run.sh make ../patterns/definitions.owl
+sh run.sh make components/obsoletes.owl
 ```
 
