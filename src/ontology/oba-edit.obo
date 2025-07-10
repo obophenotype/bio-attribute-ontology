@@ -1342,6 +1342,14 @@ id: OBA:2020004 ! chemical in serum amount
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
+id: OBA:2044890
+name: level of putative uncharacterized protein SLC66A1L (human) in blood serum
+def: "The amount of a putative uncharacterized protein SLC66A1L (human) when measured in blood serum." []
+synonym: "blood serum putative uncharacterized protein SLC66A1L (human) amount" EXACT []
+is_a: OBA:2050071 ! serum protein amount
+property_value: terms:contributor "https://orcid.org/0000-0001-6677-8489" xsd:string
+
+[Term]
 id: OBA:2045261 ! quality of life cycle
 is_a: OBA:0000001 ! biological attribute
 
