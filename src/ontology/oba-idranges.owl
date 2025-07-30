@@ -110,6 +110,14 @@ Datatype: idrange:10
 
     EquivalentTo:
         xsd:integer[>= 2070000 , <= 2079999]
-        
+
+Datatype: idrange:11
+
+    Annotations:
+        allocatedto: "Arwa Ibrahim"
+
+    EquivalentTo:
+        xsd:integer[>= 2080000 , <= 2089999]
+
 Datatype: xsd:integer
 Datatype: rdf:PlainLiteral
