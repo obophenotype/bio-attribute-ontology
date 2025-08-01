@@ -1302,6 +1302,21 @@ created_by: cjmungall
 creation_date: 2015-09-29T15:36:19Z
 
 [Term]
+id: OBA:1000165
+name: orotic acid metabolic process quality
+def: "The quality of a orotic acid metabolic process." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of orotic acid metabolic process" EXACT [obo:oba/patterns/entity_attribute_part_of]
+is_a: OBA:1000604 ! monocarboxylic acid metabolic process quality
+
+[Term]
+id: OBA:1000338
+name: pyruvate family amino acid metabolic process quality
+def: "The quality of a pyruvate family amino acid metabolic process." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of pyruvate family amino acid metabolic process" EXACT [obo:oba/patterns/entity_attribute_part_of]
+is_a: OBA:1000232 ! amino acid metabolic process quality
+is_a: OBA:1000583 ! carboxylic acid metabolic process quality
+
+[Term]
 id: OBA:1000373
 name: neurotransmitter metabolic process quality
 def: "The quality of a neurotransmitter metabolic process." []
