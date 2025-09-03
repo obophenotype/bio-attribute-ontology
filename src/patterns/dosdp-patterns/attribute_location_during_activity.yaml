@@ -30,6 +30,7 @@ vars:
   entity: "'entity'"
   location: "'location'"
   activity: "'activity'"
+  usage_notes: xsd:string
 
 data_list_vars:
   exact_synonyms: xsd:string
