@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                31a19cbca2dec0e34f473f68ca8e697329ed2912b03c3934a36766b6e2dc7ee6
+CONFIG_HASH=                0030afa0eabdba06978644ae8ad0dd0f25a3af6e6a15bf5b0d9c902bd083dd73
 
 
 # ----------------------------------------
@@ -193,7 +193,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  ro chebi goplus go pato omo hp mondo ncbitaxon uberon cl nbo pr so po bfo swisslipids lipidmaps
+IMPORTS =  ro chebi goplus go pato omo hp mondo ncbitaxon uberon cl nbo pr so po bfo swisslipids lipidmaps NCIT
 
 IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -422,7 +422,6 @@ $(IMPORTDIR)/merged_import.owl: $(MIRRORDIR)/merged.owl $(ALL_TERMS) \
 		 remove --select "<http://purl.obolibrary.org/obo/ECTO_*>" \
 		 remove --select "<http://purl.obolibrary.org/obo/ENVO_*>" \
 		 remove --select "<http://purl.obolibrary.org/obo/MF_*>" \
-		 remove --select "<http://purl.obolibrary.org/obo/NCIT_*>" \
 		 remove --select "<http://purl.obolibrary.org/obo/OGMS_*>" \
 		 remove --select "<http://purl.obolibrary.org/obo/UPHENO_*>" \
 		 remove --select "<http://purl.obolibrary.org/obo/OBI_*>" \
@@ -668,6 +667,13 @@ $(MIRRORDIR)/swisslipids.owl:
 .PRECIOUS: $(MIRRORDIR)/lipidmaps.owl
 $(MIRRORDIR)/lipidmaps.owl: 
 	echo "ERROR: You have configured your default mirror type to be custom; this behavior needs to be overwritten in oba.Makefile!" && false
+
+
+## ONTOLOGY: NCIT
+.PHONY: mirror-NCIT
+.PRECIOUS: $(MIRRORDIR)/NCIT.owl
+mirror-NCIT: | $(TMPDIR)
+	$(ROBOT) remove -I http://purl.obolibrary.org/obo/ncit/ncit-obo-slim.owl --base-iri http://purl.obolibrary.org/obo/NCIT  --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
 
 ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
 MERGE_MIRRORS = true
