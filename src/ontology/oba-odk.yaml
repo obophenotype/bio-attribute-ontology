@@ -31,7 +31,6 @@ import_group:
     - <http://purl.obolibrary.org/obo/MF_*>
     - <http://purl.obolibrary.org/obo/OGMS_*>
     - <http://purl.obolibrary.org/obo/UPHENO_*>
-    - <http://purl.obolibrary.org/obo/OBI_*>
     - <http://purl.obolibrary.org/obo/HsapDv_*>
     - <http://purl.obolibrary.org/obo/MPATH_*>
     - <http://purl.obolibrary.org/obo/MOD_*>
@@ -90,6 +89,8 @@ import_group:
     - id: NCIT
       make_base: TRUE
       mirror_from: http://purl.obolibrary.org/obo/ncit/ncit-obo-slim.owl
+    - id: obi
+      make_base: TRUE
 components:
   products:
     - filename: obsoletes.owl
