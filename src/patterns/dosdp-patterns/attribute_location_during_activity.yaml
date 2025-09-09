@@ -88,7 +88,7 @@ xref:
   value: xrefs
 
 equivalentTo:
-  text: "%s and 'characteristic_of' some (%s and 'part_of' some %s) and ('collected_during' some %s)"
+  text: "%s and 'characteristic_of' some (%s and 'part_of' some %s and 'collected_during' some %s)"
   vars:
     - attribute
     - entity
