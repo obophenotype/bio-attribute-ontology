@@ -1,3 +1,3 @@
 defined_class	defined_class_name	entity	entity_name	attribute	attribute_name	location	location_name	activity	activity_name	exact_synonyms	broad_synonyms	narrow_synonyms	xrefs	orcid	usage_notes
 OBA:2090000	level of glucose in blood during fasting	CHEBI:17234	glucose	PATO:0000070	amount	UBERON:0000178	blood	NCIT:C63663	fasting
-OBA:2090001	level of insulin in blood during fasting	CHEBI:145810	insulin	PATO:0000070	amount	UBERON:0000178	blood	NCIT:C63663	fasting
+OBA:2090001	level of insulin in blood during fasting	CHEBI:145810	insulin	PATO:0000070	amount	UBERON:0000178	blood	OBI:0003653	fasting
