@@ -8,7 +8,7 @@ classes:
   quality: PATO:0000001
   entity: owl:Thing
   location: UBERON:0001062
-  activity: NCIT:C43431
+  activity: owl:Thing
 
 relations:
   part_of: BFO:0000050
