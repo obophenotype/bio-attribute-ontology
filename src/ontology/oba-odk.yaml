@@ -86,7 +86,7 @@ import_group:
       mirror_type: custom
     - id: lipidmaps
       mirror_type: custom
-    - id: NCIT
+    - id: ncit
       make_base: TRUE
       mirror_from: http://purl.obolibrary.org/obo/ncit/ncit-obo-slim.owl
     - id: obi

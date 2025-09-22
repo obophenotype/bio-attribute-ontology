@@ -65,7 +65,7 @@ annotations:
       - activity
     annotations:
       - annotationProperty: xref
-        text: "AUTO:patterns/patterns/attribute_location_during_activity"
+        text: "oba:patterns/attribute_location_during_activity"
 
   - annotationProperty: contributor
     value: orcid
