@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                31a19cbca2dec0e34f473f68ca8e697329ed2912b03c3934a36766b6e2dc7ee6
+CONFIG_HASH=                dad4899e88a64ae343570352704633ac3ff6b31c8a29a1c07468b3ed911c3f4f
 
 
 # ----------------------------------------
@@ -193,7 +193,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  ro chebi goplus go pato omo hp mondo ncbitaxon uberon cl nbo pr so po bfo swisslipids lipidmaps
+IMPORTS =  ro chebi goplus go pato omo hp mondo ncbitaxon uberon cl nbo pr so po bfo swisslipids lipidmaps NCIT obi
 
 IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -422,10 +422,8 @@ $(IMPORTDIR)/merged_import.owl: $(MIRRORDIR)/merged.owl $(ALL_TERMS) \
 		 remove --select "<http://purl.obolibrary.org/obo/ECTO_*>" \
 		 remove --select "<http://purl.obolibrary.org/obo/ENVO_*>" \
 		 remove --select "<http://purl.obolibrary.org/obo/MF_*>" \
-		 remove --select "<http://purl.obolibrary.org/obo/NCIT_*>" \
 		 remove --select "<http://purl.obolibrary.org/obo/OGMS_*>" \
 		 remove --select "<http://purl.obolibrary.org/obo/UPHENO_*>" \
-		 remove --select "<http://purl.obolibrary.org/obo/OBI_*>" \
 		 remove --select "<http://purl.obolibrary.org/obo/HsapDv_*>" \
 		 remove --select "<http://purl.obolibrary.org/obo/MPATH_*>" \
 		 remove --select "<http://purl.obolibrary.org/obo/MOD_*>" \
@@ -668,6 +666,21 @@ $(MIRRORDIR)/swisslipids.owl:
 .PRECIOUS: $(MIRRORDIR)/lipidmaps.owl
 $(MIRRORDIR)/lipidmaps.owl: 
 	echo "ERROR: You have configured your default mirror type to be custom; this behavior needs to be overwritten in oba.Makefile!" && false
+
+
+## ONTOLOGY: NCIT
+.PHONY: mirror-NCIT
+.PRECIOUS: $(MIRRORDIR)/NCIT.owl
+mirror-NCIT: | $(TMPDIR)
+	$(ROBOT) remove -I http://purl.obolibrary.org/obo/ncit/ncit-obo-slim.owl --base-iri http://purl.obolibrary.org/obo/NCIT  --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: obi
+.PHONY: mirror-obi
+.PRECIOUS: $(MIRRORDIR)/obi.owl
+mirror-obi: | $(TMPDIR)
+	curl -L $(OBOBASE)/obi.owl --create-dirs -o $(TMPDIR)/obi-download.owl --retry 4 --max-time 200 && \
+	$(ROBOT) remove -i $(TMPDIR)/obi-download.owl --base-iri http://purl.obolibrary.org/obo/OBI --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
 
 ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
 MERGE_MIRRORS = true
