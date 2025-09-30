@@ -1,0 +1,96 @@
+pattern_name: attribute_location_during_activity
+
+pattern_iri: http://purl.obolibrary.org/obo/upheno/patterns/attribute_location_during_activity.yaml
+
+description: "A pattern for attributes of an entity at a specific location that occurs during a specific activity."
+
+classes:
+  quality: PATO:0000001
+  entity: owl:Thing
+  location: UBERON:0001062
+  activity: owl:Thing
+
+relations:
+  part_of: BFO:0000050
+  characteristic_of: RO:0000052
+  characteristic_of_part_of: RO:0002314
+  collected_during: RO:0017502
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  broad_synonym: oio:hasBroadSynonym
+  narrow_synonym: oio:hasNarrowSynonym
+  related_synonym: oio:hasRelatedSynonym
+  xref: oio:hasDbXref
+  contributor: dct:contributor
+  example_of_usage: obo:IAO_0000112
+
+vars:
+  attribute: "'quality'"
+  entity: "'entity'"
+  location: "'location'"
+  activity: "'activity'"
+  usage_notes: xsd:string
+
+data_list_vars:
+  exact_synonyms: xsd:string
+  broad_synonyms: xsd:string
+  narrow_synonyms: xsd:string
+  xrefs: xsd:anyURI
+  orcid: xsd:anyURI  # ORCID of contributor
+
+name:
+  text: "%s of %s in %s during %s"
+  vars:
+    - attribute
+    - entity
+    - location
+    - activity
+
+def:
+  text: "The %s of a %s when measured in %s during %s."
+  vars:
+    - attribute
+    - entity
+    - location
+    - activity
+
+annotations:
+  - annotationProperty: exact_synonym
+    text: "%s %s %s during %s"
+    vars:
+      - location
+      - attribute
+      - entity
+      - activity
+    annotations:
+      - annotationProperty: xref
+        text: "oba:patterns/attribute_location_during_activity"
+
+  - annotationProperty: contributor
+    value: orcid
+
+  - annotationProperty: example_of_usage
+    text: "%s"
+    vars:
+      - usage_notes
+
+exact_synonym:
+  value: exact_synonyms
+
+broad_synonym:
+  value: broad_synonyms
+
+narrow_synonym:
+  value: narrow_synonyms
+
+xref:
+  value: xrefs
+
+equivalentTo:
+  text: "%s and 'characteristic_of' some (%s and 'part_of' some %s and 'collected_during' some %s)"
+  vars:
+    - attribute
+    - entity
+    - location
+    - activity
