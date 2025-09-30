@@ -3,17 +3,17 @@
 This includes instructions for editing the OBA ontology. 
 
 ## Project Layout
-- Main development file is `src/ontology/oba-edit.obo`
+- Main development file is `src/patterns/definitions.owl` (functional syntax)
 - ODK and ontology documentation can be found in `/docs/`
 
 ## Querying ontology
 
 - To look at a specific term if you know the ID:
-    - `obo-grep.pl -r 'id: OBA:2040177' src/ontology/oba-edit.obo`
+    - `obo-grep.pl -r 'id: OBA_2040177' src/patterns/definitions.owl`
 - All mentions of an ID
-    - `obo-grep.pl -r 'OBA:2040177' src/ontology/oba-edit.obo`
+    - `obo-grep.pl -r 'OBA_2040177' src/patterns/definitions.owl`
 - Note that `obo-grep.pl` is in your PATH, no need to search for it    
-- Only search over `src/ontology/oba-edit.obo`
+- Only search over `src/patterns/definitions.owl`
 - DO NOT bother doing your own greps over the file, or looking for other files, unless otherwise asked, you will just waste time.
 - ONLY use the methods above for searching the ontology
 
@@ -28,41 +28,42 @@ This includes instructions for editing the OBA ontology.
 ### How to create new terms in OBA
 
 #### Overview
-- IMPORTANT: Do not edit the edit file directly, it's large
 - OBA terms are compositional, check DOSDP design patterns: `src/patterns/dosdp-patterns/*.yaml`
 - Desgin pattern templates are found in `src/patterns/data/default`
 
 #### Steps
 
-    1- Read the issue carefully to identify design pattern filler terms.
+    1- Read the issue carefully to identify the most appropriate design pattern and filler terms. Use the following examples as a general guide.
 
-        Example:
+        Example 1: The amount or level of cholesterol when measured in blood serum. Use the design pattern template `entity_attribute_location.tsv` and the filler terms: cholesterol, amount and blood serum.
+                
+        Example 2: The age at which asthma manifestations first appear. Use the design pattern template `disease_onset.tsv` and the filler term: asthma.
 
-            ```
-            ```
+        Example 3: A trait that affects the response to prednisolone. Use the design pattern template `response_to_chemical_stimulus_trait.tsv` and the filler term: prednisolone.
+            
+    2- Check whether design pattern fillers have been imported to OBA. Search `src/ontology/imports/merged_import.owl`
 
-    2- Check whether design pattern components have been imported to OBA. Search `src/ontology/imports/merged_import.owl`
-
-    3- If they do, please proceed to creating the new OBA term using the appropriate DOSDP pattern template.
+    3- If they have been imported, please proceed to creating the new OBA term using the appropriate DOSDP pattern template.
 
     4- Add the term to the template, then run 
-            sh run.sh make IMP=false MIR=false ../patterns/definitions.owl 
+            make IMP=false MIR=false ../patterns/definitions.owl 
 
     5- Refresh OBA imports by running
-            sh run.sh make refresh-merged 
+            make refresh-merged 
 
-    6 - Run sh run.sh make IMP=false MIR=false ../patterns/definitions.owl again.
+    6 - Run make IMP=false MIR=false ../patterns/definitions.owl again.
 
-    7- When creating new OBA terms using DOSDP patterns, it may be necessary to import terms from other ontologies like ChEBI, the Chemical Entities of Biological Interest or PRO, the PRotein Ontology. However, they are too large to be managed as standard imports so are managed as slims. When a new term you are using in a DOSDP pattern is not yet in a slim you will have to refresh the slim first. They are located here:
-
+    7- When creating new OBA terms using DOSDP patterns, it may be necessary to import terms from other ontologies like ChEBI, the Chemical Entities of Biological Interest or PRO, the PRotein Ontology. However, they are too large to be managed as standard imports so are managed as slims. They are located here:
         PRO: https://github.com/obophenotype/pro_obo_slim
         CHEBI: https://github.com/obophenotype/chebi_obo_slim
+
+    When a new term you are using in a DOSDP pattern is not yet in a slim, make a comment in the issue requesting the terms to be added manually. 
 
 ## OBO Format Guidelines
 - Term ID format: OBA:NNNNNNN (7-digit number)
 - Handling New Term Requests (NTRs):
   - New terms start OBA:210xxxx
-  - Do `grep id: OBA:210 src/ontology/oba-edit.obo` to check for clashes
+  - Do `grep id: OBA:210 src/patterns/definitions.owl` to check for clashes
 - Each term requires: id, name, definition with references
 - Never guess OBA IDs, or ontology term IDs, use search tools above to determine actual term
 - Never guess PMIDs for references, do a web search if needed
@@ -102,15 +103,8 @@ This includes instructions for editing the OBA ontology.
 - Re-create the DOS-DP axioms by running
 
     cd PATH-TO/bio-attribute-ontology/src/ontology
-    sh run.sh make ../patterns/definitions.owl
-    sh run.sh make components/obsoletes.owl
-
-        Example:
-
-        ```
-        [Term]
-
-        ```
+    make ../patterns/definitions.owl
+    make components/obsoletes.owl
 
 ## Other metadata
 
