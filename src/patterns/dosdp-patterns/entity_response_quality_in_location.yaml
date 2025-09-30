@@ -1,0 +1,87 @@
+pattern_name: entity_response_quality_in_location
+
+pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/entity_response_quality_in_location.yaml
+
+description: 'Pattern for traits that capture the quality of an entity, such as an antibody
+  or metabolite, where the entity is further specified by being in response to
+  a stimulus (e.g. pathogen, chemical) and optionally constrained to a location
+  such as a tissue or body fluid.'
+
+classes:
+  quality: PATO:0000001
+  entity: owl:Thing
+  stimulus: owl:Thing
+  location: UBERON:0001062
+
+relations:
+  characteristic_of: RO:0000052
+  in_response_to: RO:0002503
+  part_of: BFO:0000050
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  broad_synonym: oio:hasBroadSynonym
+  narrow_synonym: oio:hasNarrowSynonym
+  related_synonym: oio:hasRelatedSynonym
+  xref: oio:hasDbXref
+  contributor: dct:contributor
+  example_of_usage: obo:IAO_0000112
+
+vars:
+  quality: "'quality'"
+  entity: "'entity'"
+  stimulus: "'stimulus'"
+  location: "'location'"
+  usage_notes: xsd:string
+
+data_list_vars:
+  exact_synonyms: xsd:string
+  broad_synonyms: xsd:string
+  narrow_synonyms: xsd:string
+  xrefs: xsd:anyURI
+  orcid: xsd:anyURI  # ORCID of contributor
+
+name:
+  text: "%s %s in %s in response to %s"
+  vars:
+    - entity
+    - quality
+    - location
+    - stimulus
+
+def:
+  text: "The %s of %s in %s in response to %s."
+  vars:
+    - quality
+    - entity
+    - location
+    - stimulus
+
+annotations:
+  - annotationProperty: contributor
+    value: orcid
+
+  - annotationProperty: example_of_usage
+    text: "%s"
+    vars:
+      - usage_notes
+
+exact_synonym:
+  value: exact_synonyms
+
+broad_synonym:
+  value: broad_synonyms
+
+narrow_synonym:
+  value: narrow_synonyms
+
+xref:
+  value: xrefs
+
+equivalentTo:
+  text: "%s and 'characteristic_of' some (%s and (in_response_to some %s) and ('part_of' some %s))"
+  vars:
+    - quality
+    - entity
+    - stimulus
+    - location
