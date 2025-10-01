@@ -88,7 +88,7 @@ import_group:
       mirror_type: custom
     - id: ncit
       make_base: TRUE
-      mirror_from: http://purl.obolibrary.org/obo/ncit/ncit-obo-slim.owl
+      mirror_from: https://raw.githubusercontent.com/ncit-obo-org/ncit-obo-edition/refs/heads/main/src/ontology/ncit-obo-slim.owl
     - id: obi
       make_base: TRUE
 components:
