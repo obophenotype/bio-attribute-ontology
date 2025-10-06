@@ -15,8 +15,8 @@ classes:
 
 relations:
   characteristic_of: RO:0000052
-  in_response_to: RO:0002503
   part_of: BFO:0000050
+  indicates_response_to: RO:0020329
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
@@ -79,7 +79,7 @@ xref:
   value: xrefs
 
 equivalentTo:
-  text: "%s and 'characteristic_of' some (%s and (in_response_to some %s) and ('part_of' some %s))"
+  text: "%s and 'characteristic_of' some (%s and ('indicates_response_to' some %s) and ('part_of' some %s))"
   vars:
     - quality
     - entity
