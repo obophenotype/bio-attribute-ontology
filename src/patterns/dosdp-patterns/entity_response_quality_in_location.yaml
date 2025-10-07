@@ -3,9 +3,8 @@ pattern_name: entity_response_quality_in_location
 pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/entity_response_quality_in_location.yaml
 
 description: 'Pattern for traits that capture the quality of an entity, such as an antibody
-  or metabolite, where the entity is further specified by being in response to
-  a stimulus (e.g. pathogen, chemical) and optionally constrained to a location
-  such as a tissue or body fluid.'
+  or metabolite, where the entity is further specified by being in response to a stimulus 
+  (e.g. pathogen, chemical) and constrained to a location such as a tissue or body fluid.'
 
 classes:
   quality: PATO:0000001
