@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                dad4899e88a64ae343570352704633ac3ff6b31c8a29a1c07468b3ed911c3f4f
+CONFIG_HASH=                94c86e053724308c99bae000b4bf10b1681e0d6837f08a132a1e414ccd18775a
 
 
 # ----------------------------------------
@@ -193,7 +193,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  ro chebi goplus go pato omo hp mondo ncbitaxon uberon cl nbo pr so po bfo swisslipids lipidmaps NCIT obi
+IMPORTS =  ro chebi goplus go pato omo hp mondo ncbitaxon uberon cl nbo pr so po bfo swisslipids lipidmaps ncit obi
 
 IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -668,11 +668,11 @@ $(MIRRORDIR)/lipidmaps.owl:
 	echo "ERROR: You have configured your default mirror type to be custom; this behavior needs to be overwritten in oba.Makefile!" && false
 
 
-## ONTOLOGY: NCIT
-.PHONY: mirror-NCIT
-.PRECIOUS: $(MIRRORDIR)/NCIT.owl
-mirror-NCIT: | $(TMPDIR)
-	$(ROBOT) remove -I http://purl.obolibrary.org/obo/ncit/ncit-obo-slim.owl --base-iri http://purl.obolibrary.org/obo/NCIT  --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
+## ONTOLOGY: ncit
+.PHONY: mirror-ncit
+.PRECIOUS: $(MIRRORDIR)/ncit.owl
+mirror-ncit: | $(TMPDIR)
+	$(ROBOT) remove -I https://raw.githubusercontent.com/ncit-obo-org/ncit-obo-edition/refs/heads/main/src/ontology/ncit-obo-slim.owl --base-iri http://purl.obolibrary.org/obo/NCIT  --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: obi
