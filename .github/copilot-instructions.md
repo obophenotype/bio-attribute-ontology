@@ -92,9 +92,6 @@ This includes instructions for editing the OBA ontology.
 - Use `gh` to read and write issues/PRs
 - Sign all commits and PRs as `@AI agent`
 
-## TROUBLESHOOTING
-- If your obo file has syntax errors, you can use `robot convert -vvv` to see full trace
-
 ## Obsoleting terms originating from DOS-DP templates
 
 - Delete the row with the targeted term from the appropriate data table (tsv file) in folder: `src/patterns/data/default/`
