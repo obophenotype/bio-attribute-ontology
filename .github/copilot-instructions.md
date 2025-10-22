@@ -8,13 +8,12 @@ This includes instructions for editing the OBA ontology.
 
 ## Querying ontology
 
-- To look at a specific term if you know the ID:
-    - `obo-grep.pl -r 'id: OBA_2040177' src/patterns/definitions.owl`
+- Use grep/rg to find terms. To look at a specific term if you know the ID:
+    - `grep 'id: OBA_2040177' src/patterns/definitions.owl`
 - All mentions of an ID
-    - `obo-grep.pl -r 'OBA_2040177' src/patterns/definitions.owl`
-- Note that `obo-grep.pl` is in your PATH, no need to search for it    
-- Only search over `src/patterns/definitions.owl`
-- DO NOT bother doing your own greps over the file, or looking for other files, unless otherwise asked, you will just waste time.
+    - `obo-grep.pl -r 'OBA_2040177' src/patterns/definitions.owl`  
+- Search over `src/patterns/definitions.owl`,`src/patterns/dosdp-patterns/*.yaml` and `src/patterns/data/default`.
+- DO NOT bother doing your own greps over the files, or looking for other files, unless otherwise asked, you will just waste time.
 - ONLY use the methods above for searching the ontology
 
 ## Before making edits
@@ -29,7 +28,7 @@ This includes instructions for editing the OBA ontology.
 
 #### Overview
 - OBA terms are compositional, check DOSDP design patterns: `src/patterns/dosdp-patterns/*.yaml`
-- Desgin pattern templates are found in `src/patterns/data/default`
+- Design pattern templates are found in `src/patterns/data/default`
 
 #### Steps
 
@@ -41,17 +40,17 @@ This includes instructions for editing the OBA ontology.
 
         Example 3: A trait that affects the response to prednisolone. Use the design pattern template `response_to_chemical_stimulus_trait.tsv` and the filler term: prednisolone.
             
-    2- Check whether design pattern fillers have been imported to OBA. Search `src/ontology/imports/merged_import.owl`
+    2- Check whether design pattern fillers have been imported to OBA. `grep - i src/ontology/imports/merged_import.owl`
 
     3- If they have been imported, please proceed to creating the new OBA term using the appropriate DOSDP pattern template.
 
-    4- Add the term to the template, then run 
-            make IMP=false MIR=false ../patterns/definitions.owl 
+    4- Add the term to the template, then in `src/ontology` run
+            `make IMP=false MIR=false ../patterns/definitions.owl` 
 
     5- Refresh OBA imports by running
-            make refresh-merged 
+            `make refresh-merged`
 
-    6 - Run make IMP=false MIR=false ../patterns/definitions.owl again.
+    6 - Run `make IMP=false MIR=false ../patterns/definitions.owl` again.
 
     7- When creating new OBA terms using DOSDP patterns, it may be necessary to import terms from other ontologies like ChEBI, the Chemical Entities of Biological Interest or PRO, the PRotein Ontology. However, they are too large to be managed as standard imports so are managed as slims. They are located here:
         PRO: https://github.com/obophenotype/pro_obo_slim
@@ -67,7 +66,7 @@ This includes instructions for editing the OBA ontology.
 - Each term requires: id, name, definition with references
 - Never guess OBA IDs, or ontology term IDs, use search tools above to determine actual term
 - Never guess PMIDs for references, do a web search if needed
-- Use standard relationship types: is_a, part_of, has_part, etc.
+- Use standard relationship types: `is_a`, `part_of`, `characteristic_of`, `characteristic_of_part_of`, `subclass_of` and `has_role`.
 - Follow existing term patterns for consistency
 
 ## Publications
@@ -98,13 +97,27 @@ This includes instructions for editing the OBA ontology.
 
 ## Obsoleting terms originating from DOS-DP templates
 
-- Delete the row with the targeted term from the appropriate data table (tsv file) in folder: src/patterns/data/default/
-- Fill in the IRI of the term to be obsoleted in src/templates/obsoletes.tsv along with other relevant information. It is useful add a comment with an explanation for the obsoletion. Start the comment with 'Reason for obsoletion: '.
+- Delete the row with the targeted term from the appropriate data table (tsv file) in folder: `src/patterns/data/default/`
+- Fill in the IRI of the term to be obsoleted in `src/templates/obsoletes.tsv` along with other relevant information. It is useful to add a comment with an explanation for the obsoletion. Start the comment with 'Reason for obsoletion: '.
+
+Example:
+
+```
+
+Ontology ID: http://purl.obolibrary.org/obo/OBA_2050081
+Type: owl:Class
+Obsolete: true
+Replacement Term: http://purl.obolibrary.org/obo/OBA_2045319
+label of replaced class: serum gamma-glutamyl transferase level
+Comment: Reason for obsoletion: a term with the same intended meaning already exists.
+
+```
+
 - Re-create the DOS-DP axioms by running
 
-    cd PATH-TO/bio-attribute-ontology/src/ontology
-    make ../patterns/definitions.owl
-    make components/obsoletes.owl
+    `cd src/ontology #If you are not in the ontology folder`
+    `make ../patterns/definitions.owl`
+    `make components/obsoletes.owl`
 
 ## Other metadata
 
