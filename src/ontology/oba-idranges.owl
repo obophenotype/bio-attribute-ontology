@@ -130,7 +130,7 @@ Datatype: idrange:12
  Datatype: idrange:13
 
     Annotations:
-        allocatedto: "Dragon AI Agent"
+        allocatedto: "AI Agent"
 
     EquivalentTo:
         xsd:integer[>= 2100000 , <= 2109999]           
