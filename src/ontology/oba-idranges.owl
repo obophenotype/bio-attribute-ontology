@@ -127,5 +127,13 @@ Datatype: idrange:12
     EquivalentTo:
         xsd:integer[>= 2090000 , <= 2099999]
 
+ Datatype: idrange:13
+
+    Annotations:
+        allocatedto: "AI Agent"
+
+    EquivalentTo:
+        xsd:integer[>= 2100000 , <= 2109999]           
+
 Datatype: xsd:integer
 Datatype: rdf:PlainLiteral
