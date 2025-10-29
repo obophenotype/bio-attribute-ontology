@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/oba/components/obsoletes.owl>
-<http://purl.obolibrary.org/obo/oba/releases/2025-07-08/components/obsoletes.owl>
-Annotation(owl:versionInfo "2025-07-08")
+<http://purl.obolibrary.org/obo/oba/releases/2025-10-29/components/obsoletes.owl>
+Annotation(owl:versionInfo "2025-10-29")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000039>))
@@ -77,7 +77,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001041>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001042>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2043233>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2044443>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2050081>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2058599>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2059278>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2081815>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000187>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0002918>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0003952>))
@@ -426,11 +431,36 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001043> 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001044> <http://purl.obolibrary.org/obo/OBA_VT0007031>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001044> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_2043233> (<http://purl.obolibrary.org/obo/OBA_2043233>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2043233> "Reason for obsoletion: The protein entity PR:000013872 (regenerating islet-derived protein 3-gamma) has been obsoleted by the Protein Ontology.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2043233> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2044443> (<http://purl.obolibrary.org/obo/OBA_2044443>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2044443> "Reason for obsoletion: The protein entity PR:000030596 (putative uncharacterized protein TXNRD3NB) has been obsoleted by the Protein Ontology.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2044443> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/OBA_2050081> (<http://purl.obolibrary.org/obo/OBA_2050081>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2050081> <http://purl.obolibrary.org/obo/OBA_2045319>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2050081> "Reason for obsoletion: a term with the same intended meaning already exists.")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2050081> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2058599> (<http://purl.obolibrary.org/obo/OBA_2058599>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2058599> "Reason for obsoletion: The protein entity PR:Q12799 (putative T-complex protein 10A homolog (human)) has been obsoleted by the Protein Ontology.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2058599> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2059278> (<http://purl.obolibrary.org/obo/OBA_2059278>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2059278> "Reason for obsoletion: The protein entity PR:Q6F5E7 (putative uncharacterized protein TXNRD3NB (human)) has been obsoleted by the Protein Ontology.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2059278> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2081815> (<http://purl.obolibrary.org/obo/OBA_2081815>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2081815> "Reason for obsoletion: The protein entity PR:Q9Y4X1 (UDP-glucuronosyltransferase 2A1 (human)) has been obsoleted by the Protein Ontology.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2081815> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0000187> (<http://purl.obolibrary.org/obo/OBA_VT0000187>)
 
