@@ -3963,9 +3963,6 @@ OBA:2050012	temporal lobe volume 	UBERON:0001871	temporal lobe	PATO:0000918	volu
 OBA:2050013	pars triangularis volume 	UBERON:0002629	pars triangularis	PATO:0000918	volume			
 OBA:2050014	parietal lobe volume 	UBERON:0001872	parietal lobe	PATO:0000918	volume			
 OBA:2050015	kidney volume	UBERON:0002113	kidney	PATO:0000918	volume			
-OBA:2100000	kidney sinus volume	UBERON:0006171	renal sinus	PATO:0000918	volume		PMID:41077127	https://orcid.org/0000-0001-6757-4744
-OBA:2100001	kidney medulla volume	UBERON:0000362	renal medulla	PATO:0000918	volume		PMID:41077127	https://orcid.org/0000-0001-6757-4744
-OBA:2100002	kidney cortex volume	UBERON:0001225	cortex of kidney	PATO:0000918	volume		PMID:41077127	https://orcid.org/0000-0001-6757-4744
 OBA:2050016	putamen volume	UBERON:0001874	putamen	PATO:0000918	volume			
 OBA:2050017	rostral anterior cingulate cortex volume 	UBERON:0022438	rostral anterior cingulate cortex	PATO:0000918	volume			
 OBA:2050018	limbic lobe volume 	UBERON:0002600	limbic lobe	PATO:0000918	volume			
@@ -4237,3 +4234,6 @@ OBA:2050119	gene expression attribute	GO:0010467	gene expression	PATO:0001236	pr
 OBA:2045562	evoked neurotransmitter secretion attribute	GO:0061670	evoked neurotransmitter secretion	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:VT0005372	life span determination trait	GO:0008340	determination of adult lifespan	PATO:0001236	process quality	life span trait|lifespan determination trait|life span duration trait|lifespan duration trait		https://orcid.org/0000-0001-8314-2140
 OBA:2090003	macula lutea attribute	UBERON:0000053	macula lutea	PATO:0000001	quality			https://orcid.org/0000-0001-6677-8489
+OBA:2100000	kidney sinus volume	UBERON:0006171	renal sinus	PATO:0000918	volume		PMID:41077127	https://orcid.org/0000-0001-6757-4744
+OBA:2100001	kidney medulla volume	UBERON:0000362	renal medulla	PATO:0000918	volume		PMID:41077127	https://orcid.org/0000-0001-6757-4744
+OBA:2100002	kidney cortex volume	UBERON:0001225	cortex of kidney	PATO:0000918	volume		PMID:41077127	https://orcid.org/0000-0001-6757-4744
