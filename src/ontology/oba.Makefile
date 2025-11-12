@@ -85,6 +85,7 @@ $(ONT)-full.owl: $(SRC) $(OTHER_SRC)
 		remove --term PR:000000001 \
 			   --term SO:0000252 \
 			   --term SO:0000234 \
+			   --term SO:0000253 \
 		reason --reasoner ELK --equivalent-classes-allowed none --exclude-tautologies structural \
 		relax \
 		reduce -r ELK \
