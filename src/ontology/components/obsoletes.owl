@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/oba/components/obsoletes.owl>
-<http://purl.obolibrary.org/obo/oba/releases/2025-07-08/components/obsoletes.owl>
-Annotation(owl:versionInfo "2025-07-08")
+<http://purl.obolibrary.org/obo/oba/releases/2026-01-06/components/obsoletes.owl>
+Annotation(owl:versionInfo "2026-01-06")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000039>))
@@ -38,9 +38,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005515>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005707>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005767>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005773>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000220>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000242>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000294>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000441>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000584>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000596>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000791>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000803>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000815>))
@@ -78,6 +81,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001042>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2050081>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2058599>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000187>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0002918>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0003952>))
@@ -229,10 +233,18 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0005767> 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0005773> <http://purl.obolibrary.org/obo/OBA_0005771>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0005773> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1000220> (<http://purl.obolibrary.org/obo/OBA_1000220>)
+
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000220> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/OBA_1000242> (<http://purl.obolibrary.org/obo/OBA_1000242>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000242> <http://purl.obolibrary.org/obo/OBA_VT0005388>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000242> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_1000294> (<http://purl.obolibrary.org/obo/OBA_1000294>)
+
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000294> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000441> (<http://purl.obolibrary.org/obo/OBA_1000441>)
 
@@ -243,6 +255,10 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000441> 
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000584> <http://purl.obolibrary.org/obo/OBA_VT1000781>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000584> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_1000596> (<http://purl.obolibrary.org/obo/OBA_1000596>)
+
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000596> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000791> (<http://purl.obolibrary.org/obo/OBA_1000791>)
 
@@ -431,6 +447,11 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001044> 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2050081> <http://purl.obolibrary.org/obo/OBA_2045319>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2050081> "Reason for obsoletion: a term with the same intended meaning already exists.")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2050081> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2058599> (<http://purl.obolibrary.org/obo/OBA_2058599>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2058599> <http://purl.obolibrary.org/obo/OBA_2080015>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2058599> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0000187> (<http://purl.obolibrary.org/obo/OBA_VT0000187>)
 
