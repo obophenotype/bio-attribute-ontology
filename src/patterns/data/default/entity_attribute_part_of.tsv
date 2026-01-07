@@ -2478,7 +2478,6 @@ OBA:1000216		UBERON:0003695	metacarpophalangeal joint	PATO:0000001	quality
 OBA:1000217		UBERON:0001581	depressor labii inferioris	PATO:0000001	quality
 OBA:1000218		UBERON:0011931	nasal hair	PATO:0000001	quality
 OBA:1000219		NBO:0000129	agitation behavior	PATO:0000001	quality
-OBA:1000220		GO:0009069	serine family amino acid metabolic process	PATO:0000001	quality
 OBA:1000221		UBERON:0004389	epiphysis of metatarsal bone	PATO:0000001	quality
 OBA:1000222		UBERON:0008596	mentalis muscle	PATO:0000001	quality
 OBA:1000223	mucopolysaccharide metabolism trait	GO:0030203	glycosaminoglycan metabolic process	PATO:0000001	quality
@@ -2521,7 +2520,7 @@ OBA:1000260		UBERON:0010365	odontoid tissue	PATO:0000001	quality
 OBA:1000261		UBERON:0000378	tongue muscle	PATO:0000001	quality
 OBA:1000262		UBERON:0006664	greater palatine artery	PATO:0000001	quality
 OBA:1000263		UBERON:0000173	amniotic fluid	PATO:0000001	quality
-OBA:1000264		GO:0006486	protein glycosylation	PATO:0000001	quality
+OBA:1000264		GO:0009101	glycoprotein biosynthetic process	PATO:0000001	quality
 OBA:1000265		UBERON:0001686	auditory ossicle	PATO:0000001	quality
 OBA:1000266		UBERON:0001772	corneal epithelium	PATO:0000001	quality
 OBA:1000267		UBERON:0003292	meninx of spinal cord	PATO:0000001	quality
@@ -2551,7 +2550,6 @@ OBA:1000290		UBERON:0003889	fallopian tube	PATO:0000001	quality
 OBA:1000291		UBERON:0004313	distal phalanx of manual digit 4	PATO:0000001	quality
 OBA:1000292		UBERON:0001638	vein	PATO:0000001	quality
 OBA:1000293		UBERON:0000401	mandibular ramus	PATO:0000001	quality
-OBA:1000294		GO:0070085	glycosylation	PATO:0000001	quality
 OBA:1000295		UBERON:0001648	vestibulocochlear nerve	PATO:0000001	quality
 OBA:1000296		UBERON:0004408	distal epiphysis of ulna	PATO:0000001	quality
 OBA:1000297		UBERON:0003635	pedal digit 5	PATO:0000001	quality
@@ -2841,7 +2839,6 @@ OBA:1000592		UBERON:0001076	neural spine	PATO:0000001	quality
 OBA:1000593		UBERON:0007120	premolar tooth	PATO:0000001	quality
 OBA:1000594		UBERON:0002207	xiphoid process	PATO:0000001	quality
 OBA:1000595		UBERON:0006822	proximal epiphysis of ulna	PATO:0000001	quality
-OBA:1000596		GO:0009066	aspartate family amino acid metabolic process	PATO:0000001	quality
 OBA:1000597		UBERON:0003650	metatarsal bone of digit 1	PATO:0000001	quality
 OBA:1000598		UBERON:0002293	costochondral joint	PATO:0000001	quality
 OBA:1000599		UBERON:0005413	spinocerebellar tract	PATO:0000001	quality
