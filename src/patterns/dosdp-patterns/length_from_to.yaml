@@ -1,0 +1,113 @@
+---
+pattern_name: length_from_to
+
+pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/length_from_to.yaml
+
+description: 'A length trait that is the distance between two anatomical
+  reference points measured in a straight line.'
+
+#  examples:
+#    - http://purl.obolibrary.org/obo/FOVT_0001070
+#    # femur length from caput to lateral condyle
+#    - http://purl.obolibrary.org/obo/FOVT_0001077
+#    # length of talus along the midline
+#    - http://purl.obolibrary.org/obo/FOVT_0000007
+#    # femur length from caput to medial condyle
+
+contributors:
+  - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
+  - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
+  - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
+  - https://orcid.org/0000-0003-2699-3066  # Meghan A. Balk
+
+classes:
+  anatomical_entity: UBERON:0001062
+  length: PATO:0000122
+  distance: PATO:0000040
+  taxon: OBI:0100026
+
+relations:
+  characteristic_of: RO:0000052
+  part_of: BFO:0000050
+  characteristic_of_part_of: RO:0002314
+  towards: RO:0002503
+
+annotationProperties:
+  related_synonym: oio:hasRelatedSynonym
+  xref: oio:hasDbXref
+  measured_in_taxon: xsd:string
+  not_measured_in_taxon: xsd:string
+  comment: rdfs:comment
+
+vars:
+  element: 'anatomical_entity'
+  from: 'anatomical_entity'
+  to: 'anatomical_entity'
+  fovt: "xsd:string"  # FOVT id
+  taxa: "taxon"
+  position: "xsd:string"  # e.g., lateral, medial
+  your_comments: "xsd:string"  # comments, clarifications for users
+  your_synonym: "xsd:string"  # related synonym
+  # for what other references may call the measurement
+
+data_list_vars:
+  def_ref: "'xref'"  # reference(s) to the source(s) of definition
+
+name:
+  text: "%s length from %s to %s"
+  vars:
+    - element
+    - from
+    - to
+
+annotations:
+
+  - annotationProperty: related_synonym
+    text: "%s"
+    vars:
+      - your_synonym
+
+  - annotationProperty: xref
+    text: "%s"  # give FOVT IRI here
+    vars:
+      - fovt
+
+  - annotationProperty: measured_in_taxon
+    text: "%s"
+    vars:
+      - taxa
+
+  - annotationProperty: not_measured_in_taxon
+    text: "%s"
+    vars:
+      - taxa
+
+  - annotationProperty: comment
+    text: "%s"
+    vars:
+      - your_comments
+
+def:
+  text: "The length of a %s from %s to %s."  # The length of a humerus from
+  # ventral tubercule of humerus to caput of humerus
+  vars:
+    - element  # humerus
+    - from  # ventral tubercule of humerus
+    - to  # caput of humerus
+  annotations:
+    - annotationProperty: xref
+      value: def_ref
+
+subClassOf:
+  multi_clause:
+    sep: ' and '
+    clauses:
+      - text: "'length' and ('characteristic_of_part_of' some %s)"
+        vars:
+          - element
+      - text: "'distance' and
+        ('characteristic_of' some %s) and
+        ('towards' some %s)"
+        vars:
+          - from
+          - to
