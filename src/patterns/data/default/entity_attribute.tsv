@@ -1,5 +1,5 @@
 defined_class	defined_class_name	entity	entity_name	attribute	attribute_name	exact_synonyms	xrefs	orcid
-OBA:0000036	body fluid levels	UBERON:0006314	bodily fluid	PATO:0000918	volume			
+OBA:0000036	body fluid amounts	UBERON:0006314	bodily fluid	PATO:0000918	volume	body fluid levels		
 OBA:0000006	Malpighian tubule diameter	UBERON:0001054	Malpighian tubule	PATO:0001334	diameter			
 OBA:0000007	Malpighian tubule size	UBERON:0001054	Malpighian tubule	PATO:0000117	size			
 OBA:0000011	actin filament length	GO:0005884	actin filament	PATO:0000122	length			
@@ -14,7 +14,7 @@ OBA:0000055	cell size	CL:0000000	cell	PATO:0000117	size
 OBA:0000056	cell volume	CL:0000000	cell	PATO:0000918	volume			
 OBA:0000057	cellular component size	GO:0005575	cellular_component	PATO:0000117	size			
 OBA:0000060	cilium beat frequency	GO:0003341	cilium movement	PATO:0000044	frequency			
-OBA:0000061	circulating fibrinogen levels	GO:0005577	fibrinogen complex	PATO:0000070	amount			
+OBA:0000061	circulating fibrinogen amounts	GO:0005577	fibrinogen complex	PATO:0000070	amount	circulating fibrinogen levels		
 OBA:0000066	direction of cell growth	GO:0016049	cell growth	PATO:0000039	direction			
 OBA:0000067	embryonic cell shape	CL:0002321	embryonic cell	PATO:0000052	shape			
 OBA:0000068	endosome size	GO:0005768	endosome	PATO:0000117	size			
@@ -183,7 +183,7 @@ OBA:VT0000223	monocyte quantity	CL:0000576	monocyte	PATO:0000070	amount
 OBA:VT0000237	blood cell quantity	CL:0000081	blood cell	PATO:0000070	amount	blood cell count		
 OBA:VT0000240	hematopoiesis location trait	GO:0030097	hemopoiesis	PATO:0000140	position			
 OBA:VT0000248	erythrocyte size trait	CL:0000232	erythrocyte	PATO:0000117	size			
-OBA:VT0000254	cerebrospinal fluid amount	UBERON:0001359	cerebrospinal fluid	PATO:0000918	volume			
+OBA:VT0000254	cerebrospinal fluid amount	UBERON:0001359	cerebrospinal fluid	PATO:0000918	volume	cerebrospinal fluid level		
 OBA:VT0000259	capillary permeability trait	UBERON:0001982	capillary	PATO:0000970	permeability			
 OBA:VT0000268	vibrissa quantity	UBERON:0001037	strand of hair	PATO:0000070	amount			
 OBA:VT0000277	heart shape trait	UBERON:0000948	heart	PATO:0000052	shape			
@@ -200,7 +200,7 @@ OBA:VT0000383	hair follicle orientation trait	UBERON:0002073	hair follicle	PATO:
 OBA:VT0000384	hair follicle organization trait	UBERON:0002073	hair follicle	PATO:0000060	spatial pattern			
 OBA:VT0000385	hair follicle size trait	UBERON:0002073	hair follicle	PATO:0000117	size			
 OBA:VT0000413	phalanx quantity	UBERON:0003221	phalanx	PATO:0001555	has number of			
-OBA:VT0000416	hair amount	UBERON:0001037	strand of hair	PATO:0001019	mass density			
+OBA:VT0000416	hair amount	UBERON:0001037	strand of hair	PATO:0001019	mass density	hair level		
 OBA:VT0000417	hair length	UBERON:0001037	strand of hair	PATO:0000122	length			
 OBA:VT0000424	hair growth trait	UBERON:0001037	strand of hair	PATO:0001492	growth rate			
 OBA:VT0000444	snout shape trait	UBERON:0006333	snout	PATO:0000052	shape			
@@ -334,8 +334,8 @@ OBA:VT0001684	axial mesoderm development trait	GO:0007498	mesoderm development	P
 OBA:VT0001691	somite shape trait	UBERON:0002329	somite	PATO:0000052	shape			
 OBA:VT0001697	embryo size trait	UBERON:0000922	embryo	PATO:0000117	size			
 OBA:VT0001722	yolk sac color	UBERON:0001040	yolk sac	PATO:0000014	color			
-OBA:VT0001778	brown adipose amount	UBERON:0001348	brown adipose tissue	PATO:0000070	amount			
-OBA:VT0001781	white adipose amount	UBERON:0001347	white adipose tissue	PATO:0000070	amount			
+OBA:VT0001778	brown adipose amount	UBERON:0001348	brown adipose tissue	PATO:0000070	amount	brown adipose level		
+OBA:VT0001781	white adipose amount	UBERON:0001347	white adipose tissue	PATO:0000070	amount	white adipose level		
 OBA:VT0001790	immune system physiology trait	UBERON:0002405	immune system	PATO:0001509	functionality			
 OBA:VT0001830	effector T cell quantity	CL:0000911	effector T cell	PATO:0001555	has number of			
 OBA:VT0001881	mammary gland physiology trait	UBERON:0001911	mammary gland	PATO:0001509	functionality			
@@ -366,7 +366,7 @@ OBA:VT0002444	T cell physiology trait	CL:0000084	T cell	PATO:0001509	functionali
 OBA:VT0002451	macrophage physiology trait	CL:0000235	macrophage	PATO:0001509	functionality			
 OBA:VT0002458	B cell quantity	CL:0000236	B cell	PATO:0001555	has number of			
 OBA:VT0002459	B cell physiology trait	CL:0000236	B cell	PATO:0001509	functionality			
-OBA:VT0002460	blood immunoglobulin amount	GO:0019814	immunoglobulin complex	PATO:0000070	amount			
+OBA:VT0002460	blood immunoglobulin amount	GO:0019814	immunoglobulin complex	PATO:0000070	amount	blood immunoglobulin level		
 OBA:VT0002462	granulocyte physiology trait	CL:0000094	granulocyte	PATO:0001509	functionality			
 OBA:VT0002463	neutrophil physiology trait	CL:0000775	neutrophil	PATO:0001509	functionality			
 OBA:VT0002464	basophil physiology trait	CL:0000767	basophil	PATO:0001509	functionality			
@@ -403,7 +403,7 @@ OBA:VT0002876	thyroid gland physiology trait	UBERON:0002046	thyroid gland	PATO:0
 OBA:VT0002909	adrenal gland physiology trait	UBERON:0002369	adrenal gland	PATO:0001509	functionality			
 OBA:VT0002975	blood vessel smooth muscle size trait	UBERON:0004237	blood vessel smooth muscle	PATO:0000117	size			
 OBA:VT0002983	retinal ganglion cell quantity	CL:0000740	retinal ganglion cell	PATO:0001555	has number of			
-OBA:VT0002987	urine solute amount	UBERON:0001088	urine	PATO:0001655	osmolarity			
+OBA:VT0002987	urine solute amount	UBERON:0001088	urine	PATO:0001655	osmolarity	urine solute level		
 OBA:VT0002990	ureter length	UBERON:0000056	ureter	PATO:0000122	length			
 OBA:VT0002991	sebaceous gland physiology trait	UBERON:0001821	sebaceous gland	PATO:0001509	functionality			
 OBA:VT0002997	seminal gland size trait	UBERON:0000998	seminal vesicle	PATO:0000117	size			
@@ -495,7 +495,7 @@ OBA:VT0003986	cochlear ganglion size trait	UBERON:0000395	cochlear ganglion	PATO
 OBA:VT0003987	vestibular ganglion size trait	UBERON:0002824	vestibular ganglion	PATO:0000117	size			
 OBA:VT0004005	intestinal smooth muscle contractility trait	UBERON:0004221	intestine smooth muscle	PATO:0001579	contractility			
 OBA:VT0004006	jejunal smooth muscle contractility trait	UBERON:0012377	muscle layer of jejunum	PATO:0001579	contractility			
-OBA:VT0004020	amniotic fluid amount	UBERON:0000173	amniotic fluid	PATO:0000918	volume			
+OBA:VT0004020	amniotic fluid amount	UBERON:0000173	amniotic fluid	PATO:0000918	volume	amniotic fluid level		
 OBA:VT0004047	milk trait	UBERON:0001913	milk	PATO:0000025	composition			
 OBA:VT0004062	right atrium capacity	UBERON:0002078	right cardiac atrium	PATO:0000918	volume			
 OBA:VT0004063	left atrium capacity	UBERON:0002079	left cardiac atrium	PATO:0000918	volume			
@@ -560,7 +560,7 @@ OBA:VT0005045	thymus cortex area	UBERON:0002123	cortex of thymus	PATO:0001323	ar
 OBA:VT0005069	NK cell physiology trait	CL:0000623	natural killer cell	PATO:0001509	functionality			
 OBA:VT0005078	cytotoxic T cell physiology trait	CL:0000910	cytotoxic T cell	PATO:0001509	functionality			
 OBA:VT0005085	gall bladder physiology trait	UBERON:0002110	gall bladder	PATO:0001509	functionality			
-OBA:VT0005086	bile amount	UBERON:0001970	bile	PATO:0000918	volume			
+OBA:VT0005086	bile amount	UBERON:0001970	bile	PATO:0000918	volume	bile level		
 OBA:VT0005089	double-negative T cell quantity	CL:0002489	double negative thymocyte	PATO:0000070	amount			
 OBA:VT0005096	erythroblast quantity	CL:0000765	erythroblast	PATO:0000070	amount			
 OBA:VT0005110	talus size trait	UBERON:0002395	talus	PATO:0000117	size			
@@ -583,7 +583,7 @@ OBA:VT0005423	somatic nervous system physiology trait	UBERON:0000012	somatic ner
 OBA:VT0005425	macrophage quantity	CL:0000235	macrophage	PATO:0000070	amount			
 OBA:VT0005431	oocyte quantity	CL:0000023	oocyte	PATO:0001555	has number of			
 OBA:VT0005450	energy expenditure trait	GO:0008152	metabolic process	PATO:0001021	energy			
-OBA:VT0005452	adipose amount	UBERON:0001013	adipose tissue	PATO:0000070	amount			
+OBA:VT0005452	adipose amount	UBERON:0001013	adipose tissue	PATO:0000070	amount	adipose level		
 OBA:VT0005464	platelet physiology trait	CL:0000233	platelet	PATO:0001509	functionality			
 OBA:VT0005488	bronchial epithelial cell quantity	CL:0002328	bronchial epithelial cell	PATO:0000070	amount			
 OBA:VT0005490	Clara cell quantity	CL:0000158	Clara cell	PATO:0001555	has number of			
@@ -763,7 +763,7 @@ OBA:VT0010241	reticulo-rumen capacity	UBERON:0007364	reticulorumen	PATO:0000918	
 OBA:VT0010242	reticulo-rumen mass	UBERON:0007364	reticulorumen	PATO:0000125	mass			
 OBA:VT0010246	omasum capacity	UBERON:0007362	omasum	PATO:0000918	volume			
 OBA:VT0010247	omasum mass	UBERON:0007362	omasum	PATO:0000125	mass			
-OBA:VT0010264	colostrum amount	UBERON:0001914	colostrum	PATO:0000918	volume			
+OBA:VT0010264	colostrum amount	UBERON:0001914	colostrum	PATO:0000918	volume	colostrum level		
 OBA:VT0010274	ear orientation trait	UBERON:0001690	ear	PATO:0000133	orientation			
 OBA:VT0010298	heart ventricle size trait	UBERON:0002082	cardiac ventricle	PATO:0000117	size			
 OBA:VT0010375	ovary diameter	UBERON:0000992	female gonad	PATO:0001334	diameter			
@@ -803,7 +803,7 @@ OBA:VT0010524	seminal gland mass	UBERON:0000998	seminal vesicle	PATO:0000125	mas
 OBA:VT0015011	white adipocyte size trait	CL:0000448	white fat cell	PATO:0000117	size			
 OBA:VT0015026	neuron quantity	CL:0000540	neuron	PATO:0000070	amount			
 OBA:VT0015039	body width	UBERON:0000468	multicellular organism	PATO:0000921	width			
-OBA:VT0015043	milk amount	UBERON:0001913	milk	PATO:0000918	volume			
+OBA:VT0015043	milk amount	UBERON:0001913	milk	PATO:0000918	volume	milk level		
 OBA:VT0015057	head physiology trait	UBERON:0000033	head	PATO:0001509	functionality			
 OBA:VT0015058	brain physiology trait	UBERON:0000955	brain	PATO:0001509	functionality			
 OBA:VT0015068	surface structure physiology trait	UBERON:0003102	surface structure	PATO:0001509	functionality			
@@ -836,7 +836,7 @@ OBA:VT1000190	estrus intensity	GO:0060209	estrus	PATO:0000049	intensity
 OBA:VT1000205	nipple length	UBERON:0002030	nipple	PATO:0000122	length			
 OBA:VT1000206	nipple quantity	UBERON:0002030	nipple	PATO:0001555	has number of			
 OBA:VT1000210	scrotum circumference	UBERON:0001300	scrotum	PATO:0001648	circumference			
-OBA:VT1000220	abdominal adipose amount	UBERON:0007808	adipose tissue of abdominal region	PATO:0000125	mass			
+OBA:VT1000220	abdominal adipose amount	UBERON:0007808	adipose tissue of abdominal region	PATO:0000125	mass	abdominal adipose level		
 OBA:VT1000223	pectoralis muscle mass	UBERON:0001495	pectoral muscle	PATO:0000125	mass			
 OBA:VT1000226	gizzard mass	UBERON:0005052	gizzard	PATO:0000125	mass			
 OBA:VT1000276	humerus area	UBERON:0000976	humerus	PATO:0001323	area			
@@ -4092,9 +4092,9 @@ OBA:2060192	fine motor coordination efficacy	NBO:0000348	fine motor coordination
 OBA:2060193	eye-hand coordination efficacy	NBO:0000341	eye-hand coordination	PATO:0015002	process efficacy			
 OBA:2050191	breast pressure trait	UBERON:0000310	breast	PATO:0001025	pressure			
 OBA:2050194	foot muscle strength trait	UBERON:0001498	muscle of pes	PATO:0001230	strength			
-OBA:2050196	pancreatic fat pad amount	UBERON:0015454	pancreatic fat pad	PATO:0000070	amount			
-OBA:2050198	pericardial fat amount	UBERON:0035814	pericardial fat	PATO:0000070	amount			
-OBA:2050201	seminal fluid amount	UBERON:0006530	seminal fluid	PATO:0000070	amount			
+OBA:2050196	pancreatic fat pad amount	UBERON:0015454	pancreatic fat pad	PATO:0000070	amount	pancreatic fat pad level		
+OBA:2050198	pericardial fat amount	UBERON:0035814	pericardial fat	PATO:0000070	amount	pericardial fat level		
+OBA:2050201	seminal fluid amount	UBERON:0006530	seminal fluid	PATO:0000070	amount	seminal fluid level		
 OBA:2050202	skin amplitude trait	UBERON:0000014	zone of skin	PATO:0000080	amplitude			
 OBA:2050203	skin fluorescence trait	UBERON:0000014	zone of skin	PATO:0000018	fluorescence			
 OBA:2050204	spleen volume	UBERON:0002106	spleen	PATO:0000918	volume			
@@ -4113,7 +4113,7 @@ OBA:2045221	bowel opening frequency	GO:0035882	defecation rhythm	PATO:0000044	fr
 OBA:2045222	basophilic erythroblast count	CL:0000549	basophilic erythroblast	PATO:0000070	amount	prorubricyte count		https://orcid.org/0000-0001-8314-2140
 OBA:2045223	myeloid leukocyte count	CL:0000766	myeloid leukocyte	PATO:0000070	amount	myeloid white cell count		https://orcid.org/0000-0001-8314-2140
 OBA:2045224	visceral adipose tissue quantity	UBERON:0035818	visceral fat	PATO:0000070	amount			https://orcid.org/0000-0001-8314-2140
-OBA:2045225	blood clotting level	UBERON:0010210	blood clot	PATO:0000070	amount	thrombus formation level		https://orcid.org/0000-0001-8314-2140
+OBA:2045225	blood clotting amount	UBERON:0010210	blood clot	PATO:0000070	amount	thrombus formation level|blood clotting level		https://orcid.org/0000-0001-8314-2140
 OBA:2045226	carotid artery diameter	UBERON:0005396	carotid artery segment	PATO:0001334	diameter			https://orcid.org/0000-0001-8314-2140
 OBA:2045227	genu of corpus callosum volume	UBERON:0015599	genu of corpus callosum	PATO:0000918	volume			https://orcid.org/0000-0001-8314-2140
 OBA:2045228	rostrum of corpus callosum volume	UBERON:0015703	rostrum of corpus callosum	PATO:0000918	volume			https://orcid.org/0000-0001-8314-2140
@@ -4182,7 +4182,7 @@ OBA:2045294	asparaginase activity	GO:0006530	asparagine catabolic process	PATO:0
 OBA:2045295	brain connectivity attribute	UBERON:0000955	brain	PATO:0000141	structure			https://orcid.org/0000-0001-8314-2140
 OBA:2045296	defense response to other organism process attribute	GO:0098542	defense response to other organism	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045328	DNA methylation process attribute	GO:0009008	DNA-methyltransferase activity	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140|https://orcid.org/0000-0001-6757-4744
-OBA:2045372	gestational blood glucose level	UBERON:0009097	gravid organism	OBA:VT0000188	blood glucose amount			https://orcid.org/0000-0001-8314-2140
+OBA:2045372	gestational blood glucose amount	UBERON:0009097	gravid organism	OBA:VT0000188	blood glucose amount	gestational blood glucose level		https://orcid.org/0000-0001-8314-2140
 OBA:2045389	leukocyte ratio	CL:0000738	leukocyte	PATO:0001470	ratio			https://orcid.org/0000-0001-8314-2140
 OBA:2045390	basophil ratio	CL:0000767	basophil	PATO:0001470	ratio			https://orcid.org/0000-0001-8314-2140
 OBA:2045391	eosinophil ratio	CL:0000771	eosinophil	PATO:0001470	ratio			https://orcid.org/0000-0001-8314-2140
