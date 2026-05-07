@@ -28,6 +28,9 @@ vars:
   location: "'thing'"
   role: "'role'"
 
+data_list_vars:
+  exact_synonyms: xsd:string
+
 name:
   text: "%s of %s in %s"
   vars:
@@ -63,3 +66,6 @@ equivalentTo:
     - attribute
     - role
     - location
+
+exact_synonym:
+  value: exact_synonyms
