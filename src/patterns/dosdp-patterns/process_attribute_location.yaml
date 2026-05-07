@@ -25,6 +25,9 @@ vars:
   location: "'thing'"
   process: "'process'"
 
+data_list_vars:
+  exact_synonyms: xsd:string
+
 name:
   text: "%s of %s in %s"
   vars:
@@ -60,6 +63,9 @@ equivalentTo:
     - attribute
     - process
     - location
+
+exact_synonym:
+  value: exact_synonyms
 
 
 
