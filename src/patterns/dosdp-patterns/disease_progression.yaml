@@ -1,0 +1,36 @@
+pattern_name: disease progression
+
+pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/disease_progression.yaml
+
+description: 'Trait pattern for disease or phenotype progression terms.'
+
+classes:
+  disease_or_phenotype: owl:Thing
+  progression_quality: PATO:0002323
+  biological_attribute: OBA:0000001
+
+relations:
+  inheres in: RO:0000052
+
+vars:
+  disease_or_phenotype: "'disease_or_phenotype'"
+
+name:
+  text: "%s progression"
+  vars:
+    - disease_or_phenotype
+
+generated_synonyms:
+  - text: "progression of %s"
+    vars:
+      - disease_or_phenotype
+
+def:
+  text: "A temporal distribution quality inhering in %s."
+  vars:
+    - disease_or_phenotype
+
+equivalentTo:
+  text: "'biological_attribute' and 'progression_quality' and 'inheres in' some %s"
+  vars:
+    - disease_or_phenotype
