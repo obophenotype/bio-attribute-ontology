@@ -2722,8 +2722,8 @@ OBA:0003881		UBERON:0002539	pharyngeal arch	PATO:0000117	size
 OBA:0003882		UBERON:0002539	pharyngeal arch	PATO:0000070	amount			
 OBA:0003883		GO:0072574	hepatocyte proliferation	PATO:0000161	rate			
 OBA:0003885		UBERON:0001103	diaphragm	PATO:0000140	position			
-OBA:0003886		GO:0046323	glucose import	PATO:0000161	rate			
-OBA:0003887		GO:0046323	glucose import	PATO:0000070	amount			
+OBA:0003886		GO:0098708	D-glucose import across plasma membrane	PATO:0000161	rate
+OBA:0003887		GO:0098708	D-glucose import across plasma membrane	PATO:0000070	amount
 OBA:0003888		GO:0060047	heart contraction	PATO:0001303	variability			
 OBA:0003890		GO:0001701	in utero embryonic development	PATO:0002325	onset quality			
 OBA:0003891		UBERON:0005291	embryonic tissue	PATO:0002264	organization quality			
