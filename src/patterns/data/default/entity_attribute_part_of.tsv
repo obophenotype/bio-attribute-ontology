@@ -2452,7 +2452,7 @@ OBA:1000190		UBERON:0003865	distal phalanx of manus	PATO:0000001	quality
 OBA:1000191		UBERON:0003632	pedal digit 2	PATO:0000001	quality
 OBA:1000192		UBERON:0002515	periosteum	PATO:0000001	quality
 OBA:1000193		UBERON:0000012	somatic nervous system	PATO:0000001	quality
-OBA:1000194		GO:0009064	glutamine family amino acid metabolic process	PATO:0000001	quality
+OBA:1000194		GO:0009084	L-glutamine family amino acid biosynthetic process	PATO:0000001	quality
 OBA:1000195		UBERON:0001985	corneal endothelium	PATO:0000001	quality
 OBA:1000196		UBERON:0004405	distal epiphysis of tibia	PATO:0000001	quality
 OBA:1000197		NBO:0000444	eye movement	PATO:0000001	quality
@@ -2478,7 +2478,6 @@ OBA:1000216		UBERON:0003695	metacarpophalangeal joint	PATO:0000001	quality
 OBA:1000217		UBERON:0001581	depressor labii inferioris	PATO:0000001	quality
 OBA:1000218		UBERON:0011931	nasal hair	PATO:0000001	quality
 OBA:1000219		NBO:0000129	agitation behavior	PATO:0000001	quality
-OBA:1000220		GO:0009069	serine family amino acid metabolic process	PATO:0000001	quality
 OBA:1000221		UBERON:0004389	epiphysis of metatarsal bone	PATO:0000001	quality
 OBA:1000222		UBERON:0008596	mentalis muscle	PATO:0000001	quality
 OBA:1000223	mucopolysaccharide metabolism trait	GO:0030203	glycosaminoglycan metabolic process	PATO:0000001	quality
@@ -2521,7 +2520,7 @@ OBA:1000260		UBERON:0010365	odontoid tissue	PATO:0000001	quality
 OBA:1000261		UBERON:0000378	tongue muscle	PATO:0000001	quality
 OBA:1000262		UBERON:0006664	greater palatine artery	PATO:0000001	quality
 OBA:1000263		UBERON:0000173	amniotic fluid	PATO:0000001	quality
-OBA:1000264		GO:0006486	protein glycosylation	PATO:0000001	quality
+OBA:1000264		GO:0009101	glycoprotein biosynthetic process	PATO:0000001	quality
 OBA:1000265		UBERON:0001686	auditory ossicle	PATO:0000001	quality
 OBA:1000266		UBERON:0001772	corneal epithelium	PATO:0000001	quality
 OBA:1000267		UBERON:0003292	meninx of spinal cord	PATO:0000001	quality
@@ -2551,7 +2550,6 @@ OBA:1000290		UBERON:0003889	fallopian tube	PATO:0000001	quality
 OBA:1000291		UBERON:0004313	distal phalanx of manual digit 4	PATO:0000001	quality
 OBA:1000292		UBERON:0001638	vein	PATO:0000001	quality
 OBA:1000293		UBERON:0000401	mandibular ramus	PATO:0000001	quality
-OBA:1000294		GO:0070085	glycosylation	PATO:0000001	quality
 OBA:1000295		UBERON:0001648	vestibulocochlear nerve	PATO:0000001	quality
 OBA:1000296		UBERON:0004408	distal epiphysis of ulna	PATO:0000001	quality
 OBA:1000297		UBERON:0003635	pedal digit 5	PATO:0000001	quality
@@ -2559,7 +2557,7 @@ OBA:1000298		UBERON:0006073	thoracic region of vertebral column	PATO:0000001	qua
 OBA:1000299		UBERON:0004326	middle phalanx of pedal digit 4	PATO:0000001	quality
 OBA:1000300		UBERON:0001424	ulna	PATO:0000001	quality
 OBA:1000301		UBERON:0003496	head blood vessel	PATO:0000001	quality
-OBA:1000302		GO:1901052	sarcosine metabolic process	PATO:0000001	quality
+OBA:1000302		GO:0006545	glycine biosynthetic process	PATO:0000001	quality
 OBA:1000303		UBERON:0002196	adenohypophysis	PATO:0000001	quality
 OBA:1000304		UBERON:0004413	proximal epiphysis of radius	PATO:0000001	quality
 OBA:1000305		GO:0046110	xanthine metabolic process	PATO:0000001	quality
@@ -2609,7 +2607,7 @@ OBA:1000350		UBERON:0002221	fontanelle	PATO:0000001	quality
 OBA:1000351		UBERON:0001580	levator labii superioris	PATO:0000001	quality
 OBA:1000352		UBERON:0004657	mandible condylar process	PATO:0000001	quality
 OBA:1000353		UBERON:0003641	pedal digit 2 phalanx	PATO:0000001	quality
-OBA:1000354		GO:0006553	lysine metabolic process	PATO:0000001	quality
+OBA:1000354		GO:0019477	L-lysine catabolic process	PATO:0000001	quality
 OBA:1000355		UBERON:0007250	lingual tonsil	PATO:0000001	quality
 OBA:1000356		GO:0001659	temperature homeostasis	PATO:0000001	quality
 OBA:1000357		UBERON:0002488	helix	PATO:0000001	quality
@@ -2637,7 +2635,7 @@ OBA:1000379		UBERON:0003407	cartilage of nasal septum	PATO:0000001	quality
 OBA:1000380		UBERON:0001028	diaphysis of radius	PATO:0000001	quality
 OBA:1000381		CL:0000127	astrocyte	PATO:0000001	quality
 OBA:1000382		UBERON:0003864	middle phalanx of manus	PATO:0000001	quality
-OBA:1000383		GO:0006534	cysteine metabolic process	PATO:0000001	quality
+OBA:1000383		GO:0019448	L-cysteine catabolic process	PATO:0000001	quality
 OBA:1000384		NBO:0000092	anxiety-related behavior	PATO:0000001	quality
 OBA:1000385		UBERON:0001769	iris	PATO:0000001	quality
 OBA:1000386		UBERON:0018408	infra-orbital nerve	PATO:0000001	quality
@@ -2723,7 +2721,7 @@ OBA:1000468		UBERON:0004318	distal phalanx of pedal digit 4	PATO:0000001	quality
 OBA:1000469		UBERON:0001582	buccinator muscle	PATO:0000001	quality
 OBA:1000470		UBERON:0001528	radio-ulnar joint	PATO:0000001	quality
 OBA:1000471		UBERON:0001021	nerve	PATO:0000001	quality
-OBA:1000472		GO:0006547	histidine metabolic process	PATO:0000001	quality
+OBA:1000472		GO:0006548	L-histidine catabolic process	PATO:0000001	quality
 OBA:1000473		GO:0042703	menstruation	PATO:0000001	quality
 OBA:1000474		UBERON:0001833	lip	PATO:0000001	quality
 OBA:1000475		UBERON:0010952	frontalis muscle belly	PATO:0000001	quality
@@ -2841,7 +2839,6 @@ OBA:1000592		UBERON:0001076	neural spine	PATO:0000001	quality
 OBA:1000593		UBERON:0007120	premolar tooth	PATO:0000001	quality
 OBA:1000594		UBERON:0002207	xiphoid process	PATO:0000001	quality
 OBA:1000595		UBERON:0006822	proximal epiphysis of ulna	PATO:0000001	quality
-OBA:1000596		GO:0009066	aspartate family amino acid metabolic process	PATO:0000001	quality
 OBA:1000597		UBERON:0003650	metatarsal bone of digit 1	PATO:0000001	quality
 OBA:1000598		UBERON:0002293	costochondral joint	PATO:0000001	quality
 OBA:1000599		UBERON:0005413	spinocerebellar tract	PATO:0000001	quality
@@ -2861,7 +2858,7 @@ OBA:1000612		GO:0003010	voluntary skeletal muscle contraction	PATO:0000001	quali
 OBA:1000613		UBERON:0003725	cervical plexus	PATO:0000001	quality
 OBA:1000614		UBERON:0002343	abdomen musculature	PATO:0000001	quality
 OBA:1000615		UBERON:0001697	orbit of skull	PATO:0000001	quality
-OBA:1000616		GO:0006522	alanine metabolic process	PATO:0000001	quality
+OBA:1000616		GO:0042853	L-alanine catabolic process	PATO:0000001	quality
 OBA:1000617		UBERON:0002390	hematopoietic system	PATO:0000001	quality
 OBA:1000618		UBERON:0001676	occipital bone	PATO:0000001	quality
 OBA:1000619		GO:0006487	protein N-linked glycosylation	PATO:0000001	quality

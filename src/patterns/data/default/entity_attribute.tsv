@@ -2722,8 +2722,8 @@ OBA:0003881		UBERON:0002539	pharyngeal arch	PATO:0000117	size
 OBA:0003882		UBERON:0002539	pharyngeal arch	PATO:0000070	amount			
 OBA:0003883		GO:0072574	hepatocyte proliferation	PATO:0000161	rate			
 OBA:0003885		UBERON:0001103	diaphragm	PATO:0000140	position			
-OBA:0003886		GO:0046323	glucose import	PATO:0000161	rate			
-OBA:0003887		GO:0046323	glucose import	PATO:0000070	amount			
+OBA:0003886		GO:0098708	D-glucose import across plasma membrane	PATO:0000161	rate			
+OBA:0003887		GO:0098708	D-glucose import across plasma membrane	PATO:0000070	amount			
 OBA:0003888		GO:0060047	heart contraction	PATO:0001303	variability			
 OBA:0003890		GO:0001701	in utero embryonic development	PATO:0002325	onset quality			
 OBA:0003891		UBERON:0005291	embryonic tissue	PATO:0002264	organization quality			
@@ -4234,3 +4234,7 @@ OBA:2050119	gene expression attribute	GO:0010467	gene expression	PATO:0001236	pr
 OBA:2045562	evoked neurotransmitter secretion attribute	GO:0061670	evoked neurotransmitter secretion	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:VT0005372	life span determination trait	GO:0008340	determination of adult lifespan	PATO:0001236	process quality	life span trait|lifespan determination trait|life span duration trait|lifespan duration trait		https://orcid.org/0000-0001-8314-2140
 OBA:2090003	macula lutea attribute	UBERON:0000053	macula lutea	PATO:0000001	quality			https://orcid.org/0000-0001-6677-8489
+OBA:2090004	carotid artery intima-media region thickness	UBERON:1200002	carotid artery intima-media region	PATO:0000915	thickness			https://orcid.org/0000-0001-6677-8489
+OBA:2100003	cortex of kidney volume	UBERON:0001225	cortex of kidney	PATO:0000918	volume		PMID:41077127	https://orcid.org/0000-0001-6757-4744
+OBA:2100004	renal medulla volume	UBERON:0000362	renal medulla	PATO:0000918	volume		PMID:41077127	https://orcid.org/0000-0001-6757-4744
+OBA:2100005	renal sinus volume	UBERON:0006171	renal sinus	PATO:0000918	volume		PMID:41077127	https://orcid.org/0000-0001-6757-4744
