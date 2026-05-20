@@ -42,6 +42,10 @@ annotations:
     vars:
       - attribute
       - entity
+    permutations:
+      - var: entity
+        annotationProperties:
+          - exact_synonym
     annotations:
       - annotationProperty: xref
         text: "AUTO:patterns/patterns/entity_attribute"
