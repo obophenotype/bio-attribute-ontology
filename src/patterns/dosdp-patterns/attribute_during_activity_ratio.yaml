@@ -1,5 +1,5 @@
-pattern_name: combined_process_attribute_during_activity
-pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/combined_process_attribute_during_activity.yaml
+pattern_name: attribute_during_activity_ratio
+pattern_iri: http://purl.obolibrary.org/obo/oba/patterns/attribute_during_activity_ratio.yaml
 
 description: "Pattern for traits that capture an attribute (e.g., rate or frequency)
   of two combined entities or processes occurring during a specific activity.
@@ -9,16 +9,15 @@ description: "Pattern for traits that capture an attribute (e.g., rate or freque
 # examples:
 # apnea-hypopnea index: rate of occurrence of (apnea or hypopnea) during sleep
 
-contributors:
-  - https://orcid.org/0000-0002-1215-167X  # Aleix Puig-Barbe
-
 classes:
   quality: PATO:0000001
   process: GO:0008150
   thing: owl:Thing
+  ratio: PATO:0001470
 
 relations:
-  characteristic_of: RO:0000052
+  has_numerator: RO:0020202
+  has_denominator: RO:0020203
   happens_during: RO:0002092
 
 annotationProperties:
@@ -30,7 +29,6 @@ annotationProperties:
   contributor: dct:contributor
 
 vars:
-  attribute: "'quality'"
   entity1: "'thing'"
   entity2: "'thing'"
   activity: "'process'"
@@ -44,23 +42,21 @@ data_list_vars:
   orcids: xsd:anyURI
 
 name:
-  text: "%s and %s %s during %s"
+  text: "%s and %s ratio during %s"
   vars:
     - entity1
     - entity2
-    - attribute
     - activity
 
 def:
-  text: "The %s of %s and %s events when measured during %s."
+  text: "The ratio of %s and %s events when measured during %s."
   vars:
-    - attribute
     - entity1
     - entity2
     - activity
   annotations:
     - annotationProperty: xref
-      text: "AUTO:patterns/patterns/combined_process_attribute_during_activity"
+      text: "AUTO:patterns/patterns/attribute_during_activity_ratio"
 
 annotations:
   - annotationProperty: contributor
@@ -83,9 +79,11 @@ xref:
 # is semantically incorrect. The subClassOf axiom correctly places this trait in
 # the hierarchy without that problem.
 subClassOf:
-  text: "%s and 'characteristic_of' some ((%s or %s) and 'happens_during' some %s)"
+  text: "('ratio'
+    and ('has_numerator' some %s)
+    and ('has_denominator' some %s))
+    and ('happens_during' some %s)"
   vars:
-    - attribute
     - entity1
     - entity2
     - activity
