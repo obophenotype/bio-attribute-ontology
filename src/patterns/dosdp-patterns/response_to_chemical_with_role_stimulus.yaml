@@ -12,13 +12,13 @@ contributors:
   - https://orcid.org/0000-0001-8314-2140  # Ray Stefancsik
   - https://orcid.org/0000-0002-7356-1779  # Nicolas Matentzoglu
   - https://orcid.org/0000-0002-7073-9172  # David Osumi-Sutherland
+  - https://orcid.org/0000-0001-6757-4744	# Arwa Ibrahim
 
 classes:
   chemical_entity: CHEBI:24431
   role: CHEBI:50906
   process_quality: PATO:0001236
   response_to_stimulus: GO:0050896
-
 
 relations:
   characteristic_of: RO:0000052
@@ -27,6 +27,10 @@ relations:
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
+  broad_synonym: oio:hasBroadSynonym
+  narrow_synonym: oio:hasNarrowSynonym
+  related_synonym: oio:hasRelatedSynonym
+  xref: oio:hasDbXref
   contributor: dct:contributor  # contributor: dcterms:contributor
 
 vars:
@@ -34,6 +38,11 @@ vars:
 
 data_list_vars:
   orcid: xsd:anyURI  # ORCID of contributor
+  exact_synonyms: xsd:string  
+  broad_synonyms: xsd:string  
+  narrow_synonyms: xsd:string  
+  related_synonyms: xsd:string  
+  xrefs: xsd:anyURI  
 
 name:
   text: "trait in response to %s"
@@ -48,6 +57,18 @@ annotations:
 
   - annotationProperty: contributor
     value: orcid
+
+exact_synonym:
+  value: exact_synonyms
+broad_synonym:
+  value: broad_synonyms
+narrow_synonym:
+  value: narrow_synonyms
+related_synonym:
+  value: related_synonyms
+
+xref:
+  value: xrefs
 
 def:
   text: "A trait that affects the response to a stimulus with %s."
