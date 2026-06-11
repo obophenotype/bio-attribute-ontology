@@ -2412,7 +2412,7 @@ OBA:1000149		UBERON:0005409	gastrointestinal system	PATO:0000001	quality
 OBA:1000150		UBERON:0004331	proximal phalanx of manual digit 5	PATO:0000001	quality
 OBA:1000151		GO:1903509	liposaccharide metabolic process	PATO:0000001	quality
 OBA:1000152		GO:0006206	pyrimidine nucleobase metabolic process	PATO:0000001	quality
-OBA:1000153		GO:0006568	tryptophan metabolic process	PATO:0000001	quality
+OBA:1000153		GO:0000162	L-tryptophan biosynthetic process	PATO:0000001	quality
 OBA:1000154		GO:0006591	ornithine metabolic process	PATO:0000001	quality
 OBA:1000155		GO:0006631	fatty acid metabolic process	PATO:0000001	quality
 OBA:1000156		UBERON:0002203	vasculature of eye	PATO:0000001	quality
@@ -2515,7 +2515,7 @@ OBA:1000255		UBERON:0002363	dura mater	PATO:0000001	quality
 OBA:1000256		GO:0006541	glutamine metabolic process	PATO:0000001	quality
 OBA:1000257		GO:0006144	purine nucleobase metabolic process	PATO:0000001	quality
 OBA:1000258		GO:0008015	blood circulation	PATO:0000001	quality
-OBA:1000259		GO:0006573	valine metabolic process	PATO:0000001	quality
+OBA:1000259		GO:0009099	L-valine biosynthetic process	PATO:0000001	quality
 OBA:1000260		UBERON:0010365	odontoid tissue	PATO:0000001	quality
 OBA:1000261		UBERON:0000378	tongue muscle	PATO:0000001	quality
 OBA:1000262		UBERON:0006664	greater palatine artery	PATO:0000001	quality
@@ -2680,7 +2680,7 @@ OBA:1000424		UBERON:0010284	lacrimal punctum	PATO:0000001	quality
 OBA:1000425		UBERON:0011648	jaw muscle	PATO:0000001	quality
 OBA:1000426		UBERON:0002198	neurohypophysis	PATO:0000001	quality
 OBA:1000427		UBERON:0004316	distal phalanx of pedal digit 2	PATO:0000001	quality
-OBA:1000428		GO:0006558	L-phenylalanine metabolic process	PATO:0000001	quality
+OBA:1000428		GO:0009094	L-phenylalanine biosynthetic process	PATO:0000001	quality
 OBA:1000429		UBERON:0003129	skull	PATO:0000001	quality
 OBA:1000430		UBERON:0001597	masseter muscle	PATO:0000001	quality
 OBA:1000431		UBERON:0004727	cochlear nerve	PATO:0000001	quality
@@ -2746,10 +2746,10 @@ OBA:1000494		GO:0006493	protein O-linked glycosylation	PATO:0000001	quality
 OBA:1000495		UBERON:0003709	circle of Willis	PATO:0000001	quality
 OBA:1000496		UBERON:0004089	midface	PATO:0000001	quality
 OBA:1000497		UBERON:0005467	platysma	PATO:0000001	quality
-OBA:1000498		GO:0006570	tyrosine metabolic process	PATO:0000001	quality
+OBA:1000498		GO:0006571	L-tyrosine biosynthetic process	PATO:0000001	quality
 OBA:1000499		GO:0000096	sulfur amino acid metabolic process	PATO:0000001	quality
 OBA:1000501		UBERON:0001449	phalanx of pes	PATO:0000001	quality
-OBA:1000502		GO:0006549	isoleucine metabolic process	PATO:0000001	quality
+OBA:1000502		GO:1901705	L-isoleucine biosynthetic process	PATO:0000001	quality
 OBA:1000503		UBERON:0001572	hyoglossus muscle	PATO:0000001	quality
 OBA:1000504		UBERON:0001598	temporalis muscle	PATO:0000001	quality
 OBA:1000505		GO:0003014	renal system process	PATO:0000001	quality
@@ -2823,7 +2823,7 @@ OBA:1000575		UBERON:0003862	pedal digit 4 phalanx	PATO:0000001	quality
 OBA:1000576		GO:0033559	unsaturated fatty acid metabolic process	PATO:0000001	quality
 OBA:1000577		UBERON:0002544	digit	PATO:0000001	quality
 OBA:1000578		UBERON:0001098	incisor tooth	PATO:0000001	quality
-OBA:1000579		GO:0000052	citrulline metabolic process	PATO:0000001	quality
+OBA:1000579		GO:0019240	L-citrulline biosynthetic process	PATO:0000001	quality
 OBA:1000580		UBERON:0001814	brachial nerve plexus	PATO:0000001	quality
 OBA:1000581		UBERON:0001850	lacrimal drainage system	PATO:0000001	quality
 OBA:1000582		GO:0009437	carnitine metabolic process	PATO:0000001	quality
