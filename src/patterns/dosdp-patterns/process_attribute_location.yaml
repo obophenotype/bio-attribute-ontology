@@ -17,13 +17,21 @@ relations:
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
+  broad_synonym: oio:hasBroadSynonym
+  narrow_synonym: oio:hasNarrowSynonym
   related_synonym: oio:hasRelatedSynonym
   xref: oio:hasDbXref
 
-vars: 
+vars:
   attribute: "'quality'"
   location: "'thing'"
   process: "'process'"
+
+data_list_vars:
+  exact_synonyms: xsd:string  # add a list of exact synonyms
+  broad_synonyms: xsd:string  # add a list of broad synonyms
+  narrow_synonyms: xsd:string  # add a list of narrow synonyms
+  related_synonyms: xsd:string  # add a list of related synonyms
 
 name:
   text: "%s of %s in %s"
@@ -53,8 +61,17 @@ annotations:
       - annotationProperty: xref
         text: "AUTO:patterns/patterns/process_attribute_location"
 
+exact_synonym:
+  value: exact_synonyms
+broad_synonym:
+  value: broad_synonyms
+narrow_synonym:
+  value: narrow_synonyms
+related_synonym:
+  value: related_synonyms
 
-equivalentTo: 
+
+equivalentTo:
   text: "%s and 'characteristic_of' some (%s and 'occurs_in' some %s)"
   vars:
     - attribute
