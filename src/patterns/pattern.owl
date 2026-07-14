@@ -151,7 +151,11 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/entity_response_q
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/process_attribute_location"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> "The 'quality' of a 'process' when measured in 'thing'."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> "process_attribute_location"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/process_attribute_location"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> "'thing' 'process' 'quality'"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> "'quality' of 'process' in 'thing'"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/process_attribute_location.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0008150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> owl:Thing)))))
 
@@ -160,7 +164,12 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/process_attribute
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_stimulus_trait.yaml> "A trait that affects the response to a stimulus with 'chemical_entity'."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_stimulus_trait.yaml> "xsd:anyURI"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_stimulus_trait.yaml> "response_to_chemical_stimulus_trait"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_stimulus_trait.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_stimulus_trait.yaml> "xsd:anyURI"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_stimulus_trait.yaml> "response to 'chemical_entity' trait"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_stimulus_trait.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_stimulus_trait.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_stimulus_trait.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_stimulus_trait.yaml> "trait in response to 'chemical_entity'"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_stimulus_trait.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0050896> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/CHEBI_24431>)))))
 
@@ -169,7 +178,12 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/response_to_chemi
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_with_role_stimulus.yaml> "A trait that affects the response to a stimulus with 'role'."^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_with_role_stimulus.yaml> "xsd:anyURI"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_with_role_stimulus.yaml> "response_to_chemical_with_role_stimulus"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_with_role_stimulus.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_with_role_stimulus.yaml> "xsd:anyURI"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_with_role_stimulus.yaml> "response to 'role' trait"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_with_role_stimulus.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_with_role_stimulus.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_with_role_stimulus.yaml> "xsd:string"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_with_role_stimulus.yaml> "trait in response to 'role'"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/response_to_chemical_with_role_stimulus.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0050896> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_24431> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_50906>)))))))
 
