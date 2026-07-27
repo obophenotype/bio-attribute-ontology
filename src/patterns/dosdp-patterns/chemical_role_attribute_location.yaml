@@ -23,10 +23,13 @@ annotationProperties:
   related_synonym: oio:hasRelatedSynonym
   xref: oio:hasDbXref
 
-vars: 
+vars:
   attribute: "'quality'"
   location: "'thing'"
   role: "'role'"
+
+data_list_vars:
+  exact_synonyms: xsd:string
 
 name:
   text: "%s of %s in %s"
@@ -57,7 +60,10 @@ annotations:
         text: "AUTO:patterns/patterns/chemical_role_attribute_location"
 
 
-equivalentTo: 
+exact_synonym:
+  value: exact_synonyms
+
+equivalentTo:
   text: "%s and 'characteristic_of' some (('chemical entity' and ('has_role' some %s)) and 'part_of' some %s)"
   vars:
     - attribute
