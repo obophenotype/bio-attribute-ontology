@@ -38,6 +38,30 @@ sh run.sh make sync_sssom_google_sheets
 
 ## Creating/updating terms
 
+### Term label conventions
+
+Labels for pattern-generated terms come from the DOSDP pattern, not from the TSV.
+**Leave `defined_class_name` empty** and let `dosdp-tools` render the pattern's
+`name:` template. For the amount patterns this yields:
+
+```
+amount of <entity> in <location>
+```
+
+Only fill in `defined_class_name` when the pattern cannot produce the label you
+need — for example when the location should be suppressed
+(`amount of ceramide`, not `amount of ceramide in anatomical entity`), when a
+chemical needs curated notation (`triacylglycerol (56:6)`), or when the entity's
+ontology label is not the name OBA wants to display. Treat an explicit name as a
+deliberate exception, not the default.
+
+Note that `amount` here is the label of `PATO:0000070`, the attribute these terms
+are actually defined against. OBA previously used `level of …` for most of these
+terms while still asserting `PATO:0000070` and defining them as *"The amount of
+…"*, so labels, definitions and logical axioms disagreed. They were relabelled to
+`amount of …` so all three agree, and every relabelled term kept its former
+`level of …` label as an exact synonym.
+
 <a id="alignment"></a>
 ## Preparing alignment work
 
