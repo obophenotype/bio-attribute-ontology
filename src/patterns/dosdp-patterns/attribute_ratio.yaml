@@ -20,6 +20,7 @@ classes:
   ratio: PATO:0001470
   quality: PATO:0000001
   anatomical_entity: UBERON:0001062
+  biological_attribute: OBA:0000001
   external_resource: xsd:anyURI
   orcid: xsd:anyURI
 
@@ -37,8 +38,8 @@ annotationProperties:
   contributor: dct:contributor
 
 vars:
-  attribute1: "'quality'"
-  attribute2: "'quality'"
+  attribute1: "'biological_attribute'"
+  attribute2: "'biological_attribute'"
 
 data_list_vars:
   orcids: orcid  # ORCID of contributor
