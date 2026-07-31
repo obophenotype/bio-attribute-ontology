@@ -18,8 +18,6 @@ contributors:
 
 classes:
   ratio: PATO:0001470
-  quality: PATO:0000001
-  anatomical_entity: UBERON:0001062
   biological_attribute: OBA:0000001
   external_resource: xsd:anyURI
   orcid: xsd:anyURI
@@ -27,7 +25,6 @@ classes:
 relations:
   has_numerator: RO:0020202
   has_denominator: RO:0020203
-  characteristic_of_part_of: RO:0002314
 
 annotationProperties:
   exact_synonym: oio:hasExactSynonym
@@ -90,10 +87,9 @@ xref:
   value: xrefs
 
 equivalentTo:
-  text: "('ratio'
+  text: "'ratio'
     and ('has_numerator' some %s)
-    and ('has_denominator' some %s))
-    and ('characteristic_of_part_of' some 'anatomical_entity')"
+    and ('has_denominator' some %s)"
   vars:
     - attribute1
     - attribute2
