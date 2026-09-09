@@ -1408,6 +1408,10 @@ comment: tumor necrosis factor receptor binding (GO_0005164) is a molecular func
 is_a: OBA:0000001 ! biological attribute
 is_a: PATO:0000070 ! amount
 
+[Term]
+id: OBA:2100390 ! disease progression trait
+is_a: OBA:0000001 ! biological attribute
+
 [Typedef]
 id: OBA:2050187
 name: measured in taxon
