@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                d386f58efe55ea5742f3224efc3ace1e95e90475375cec03a2d5bc935edca921
+CONFIG_HASH=                ffb0b11ef3791958a8e08ee5596adcd9a7c83ea3973f83d0b3c6d73a62a85504
 
 
 # ----------------------------------------
@@ -47,7 +47,7 @@ REPORT_FAIL_ON =            ERROR
 REPORT_LABEL =              
 REPORT_PROFILE_OPTS =       --profile $(ROBOT_PROFILE)
 OBO_FORMAT_OPTIONS =        --clean-obo "strict drop-untranslatable-axioms"
-SPARQL_VALIDATION_CHECKS =  equivalent-classes owldef-self-reference 
+SPARQL_VALIDATION_CHECKS =  equivalent-classes owldef-self-reference anatomical-entity-in-def 
 SPARQL_EXPORTS =            basic-report 
 ODK_VERSION_MAKEFILE =      v1.6
 RELAX_OPTIONS =             --include-subclass-of true

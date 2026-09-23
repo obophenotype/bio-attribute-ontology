@@ -113,6 +113,7 @@ robot_report:
   custom_sparql_checks :
     - equivalent-classes
     - owldef-self-reference
+    - anatomical-entity-in-def
   custom_sparql_exports : 
     - basic-report
 documentation:
