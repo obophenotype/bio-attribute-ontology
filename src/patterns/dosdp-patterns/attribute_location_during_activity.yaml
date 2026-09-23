@@ -67,6 +67,21 @@ annotations:
       - annotationProperty: xref
         text: "oba:patterns/attribute_location_during_activity"
 
+  # Entity-first synonym ("X amount in Y"). The "/generated" suffix on its xref
+  # marks it for ../../sparql/postprocess-definitions.ru, which keeps it only on
+  # amount traits, drops the placeholder location and any clash, then removes
+  # the suffix.
+  - annotationProperty: exact_synonym
+    text: "%s %s in %s during %s"
+    vars:
+      - entity
+      - attribute
+      - location
+      - activity
+    annotations:
+      - annotationProperty: xref
+        text: "oba:patterns/attribute_location_during_activity/generated"
+
   - annotationProperty: contributor
     value: orcid
 
