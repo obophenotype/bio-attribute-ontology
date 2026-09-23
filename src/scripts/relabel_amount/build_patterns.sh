@@ -2,11 +2,10 @@
 # Regenerate the DOSDP pattern OWL files for label analysis.
 #
 # This mirrors what `src/ontology/run.sh` does, minus the `-ti` flags it
-# hardcodes (there is no TTY here). The image is deliberately one that is
-# already on disk rather than the v1.6 pinned in run.sh.conf: this build exists
-# only to read labels back out, never to produce a committed artifact. CI
-# (.github/workflows/dosdp.yml) regenerates definitions.owl with v1.6 and
-# auto-commits it.
+# hardcodes (there is no TTY here). It defaults to the ODK image pinned in
+# src/ontology/run.sh.conf, which CI (.github/workflows/dosdp.yml) also uses and
+# which reproduces the committed definitions.owl byte-for-byte; set ODK_IMAGE to
+# override it.
 #
 # IMP=false MIR=false keeps make from touching imports or mirrors; the only
 # targets rebuilt are tmp/oba-preprocess.owl and the per-pattern .ofn files.
@@ -20,7 +19,8 @@ REPO_ROOT=$(cd "$1" && pwd)
 shift
 TARGETS=${*:-../patterns/definitions.owl}
 
-ODK_IMAGE=${ODK_IMAGE:-obolibrary/odkfull:latest}
+ODK_TAG=$(sed -n 's/^ODK_TAG=//p' "$REPO_ROOT/src/ontology/run.sh.conf")
+ODK_IMAGE=${ODK_IMAGE:-obolibrary/odkfull:${ODK_TAG:-v1.6}}
 JAVA_OPTS=${JAVA_OPTS:--Xmx14G}
 
 echo "### image:   $ODK_IMAGE"

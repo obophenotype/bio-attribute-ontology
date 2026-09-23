@@ -42,25 +42,40 @@ sh run.sh make sync_sssom_google_sheets
 
 Labels for pattern-generated terms come from the DOSDP pattern, not from the TSV.
 **Leave `defined_class_name` empty** and let `dosdp-tools` render the pattern's
-`name:` template. For the amount patterns this yields:
+`name:` template. For amount traits this yields:
 
-```
-amount of <entity> in <location>
-```
+| Pattern | Label |
+|---|---|
+| `entity_attribute_location`, `chemical_role_attribute_location` | `amount of <entity> in <location>` |
+| `entity_attribute`, `chemical_role_attribute` (no location) | `<entity> amount` |
 
 Only fill in `defined_class_name` when the pattern cannot produce the label you
-need — for example when the location should be suppressed
+need — for example when there is no real location
 (`amount of ceramide`, not `amount of ceramide in anatomical entity`), when a
 chemical needs curated notation (`triacylglycerol (56:6)`), or when the entity's
 ontology label is not the name OBA wants to display. Treat an explicit name as a
-deliberate exception, not the default.
+deliberate exception, not the default. A ratio of two amounts is named
+`<A>/<B> protein amount ratio in <location>`.
+
+Never use "level" in a label. Every amount trait gets two exact synonyms
+automatically, so do not add these by hand:
+
+- the entity-first form, `<entity> amount in <location>`, written by the
+  location patterns' synonym templates;
+- the "level" form of the label, `level of <entity> in <location>` or
+  `<entity> level`, added by `src/sparql/postprocess-definitions.ru` when
+  `definitions.owl` is built.
+
+When you relabel a term, put its former label in the `exact_synonyms` column.
 
 Note that `amount` here is the label of `PATO:0000070`, the attribute these terms
-are actually defined against. OBA previously used `level of …` for most of these
-terms while still asserting `PATO:0000070` and defining them as *"The amount of
-…"*, so labels, definitions and logical axioms disagreed. They were relabelled to
-`amount of …` so all three agree, and every relabelled term kept its former
-`level of …` label as an exact synonym.
+are actually defined against. OBA previously used `level of …`, `… level` and
+`… amount in …` for these terms while still asserting `PATO:0000070` and
+defining them as *"The amount of …"*, so labels, definitions and logical axioms
+disagreed. They were relabelled to `amount of …` so all three agree, and every
+relabelled term kept its former label as an exact synonym. About 380 older
+amount traits, mostly from VT, still have labels in other word orders (for
+example `blood cholesterol amount`); they have not been relabelled.
 
 <a id="alignment"></a>
 ## Preparing alignment work

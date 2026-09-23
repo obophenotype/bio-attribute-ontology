@@ -1,9 +1,76 @@
 file	subject_id	object_id	old_object_label	new_object_label
 oba-efo.sssom.tsv	EFO:0004568	OBA:2045206	level of serum globulin type protein	amount of serum globulin type protein
+oba-efo.sssom.tsv	EFO:0004623	OBA:0000061	circulating fibrinogen levels	circulating fibrinogen amount
+oba-efo.sssom.tsv	EFO:0007615	OBA:2045225	blood clotting level	blood clotting amount
 oba-efo.sssom.tsv	EFO:0010536	OBA:2045209	level of taurine in blood serum	amount of taurine in blood serum
+oba-efo.sssom.tsv	EFO:0009411	OBA:2045300	C-C motif chemokine 13 level	amount of C-C motif chemokine 13
+oba-efo.sssom.tsv	EFO:0010790	OBA:2045300	C-C motif chemokine 13 level	amount of C-C motif chemokine 13
+oba-efo.sssom.tsv	EFO:0008217	OBA:2045302	macrophage colony-stimulating factor 1 level	amount of macrophage colony-stimulating factor 1
+oba-efo.sssom.tsv	EFO:0020546	OBA:2045302	macrophage colony-stimulating factor 1 level	amount of macrophage colony-stimulating factor 1
+oba-efo.sssom.tsv	EFO:0006920	OBA:2045303	natriuretic peptides B level	amount of natriuretic peptides B
+oba-efo.sssom.tsv	EFO:0020191	OBA:2045303	natriuretic peptides B level	amount of natriuretic peptides B
+oba-efo.sssom.tsv	EFO:0010137	OBA:2045308	leukocyte amount in the urinary tract	amount of leukocyte in the urinary tract
+oba-efo.sssom.tsv	EFO:0020373	OBA:2045313	fatty acid-binding protein level in heart	amount of fatty acid-binding protein in heart
+oba-efo.sssom.tsv	EFO:0010914	OBA:2045314	fatty acid-binding protein level in adipocyte	amount of fatty acid-binding protein in adipocyte
+oba-efo.sssom.tsv	EFO:0007807	OBA:2045316	erythrocyte cadmium level	amount of cadmium in erythrocyte
+oba-efo.sssom.tsv	EFO:0007657	OBA:2045317	cerebrospinal fluid clusterin level	amount of clusterin in cerebrospinal fluid
+oba-efo.sssom.tsv	EFO:0007980	OBA:2045318	cerebral blood flow level	cerebral blood flow rate
+oba-efo.sssom.tsv	EFO:0004532	OBA:2045319	serum gamma-glutamyl transferase level	amount of gamma-glutamyl transferase in blood serum
+oba-efo.sssom.tsv	EFO:0005653	OBA:2050092	serum metabolite level	amount of metabolite in blood serum
+oba-efo.sssom.tsv	EFO:0005760	OBA:2045321	serum carcinoembryonic antigen level	amount of carcinoembryonic antigen in blood serum
+oba-efo.sssom.tsv	EFO:0005664	OBA:2050078	blood metabolite level	amount of metabolite in blood
+oba-efo.sssom.tsv	EFO:0007578	OBA:2045323	blood copper level	amount of copper in blood
+oba-efo.sssom.tsv	EFO:0004749	OBA:2045327	C-C motif chemokine 2 level	amount of C-C motif chemokine 2
+oba-efo.sssom.tsv	EFO:0008142	OBA:2045329	granulocyte colony-stimulating factor level	amount of granulocyte colony-stimulating factor
+oba-efo.sssom.tsv	EFO:0008197	OBA:2045330	killer cell immunoglobulin-like receptor 2DL4 level	amount of killer cell immunoglobulin-like receptor 2DL4
+oba-efo.sssom.tsv	EFO:0008208	OBA:2045331	leukocyte immunoglobulin-like receptor subfamily B member 1 level	amount of leukocyte immunoglobulin-like receptor subfamily B member 1
+oba-efo.sssom.tsv	EFO:0008209	OBA:2045332	leukocyte immunoglobulin-like receptor subfamily B member 2 level	amount of leukocyte immunoglobulin-like receptor subfamily B member 2
+oba-efo.sssom.tsv	EFO:0008218	OBA:2045333	C-C motif chemokine 3 level	amount of C-C motif chemokine 3
+oba-efo.sssom.tsv	EFO:0008219	OBA:2045334	C-C motif chemokine 4 level	amount of C-C motif chemokine 4
+oba-efo.sssom.tsv	EFO:0008220	OBA:2045335	macrophage metalloelastase level	amount of macrophage metalloelastase
+oba-efo.sssom.tsv	EFO:0008221	OBA:2045336	macrophage migration inhibitory factor level	amount of macrophage migration inhibitory factor
+oba-efo.sssom.tsv	EFO:0008222	OBA:2045337	macrophage scavenger receptor types I and II level	amount of macrophage scavenger receptor types I and II
+oba-efo.sssom.tsv	EFO:0008235	OBA:2045338	C-C motif chemokine 7 level	amount of C-C motif chemokine 7
+oba-efo.sssom.tsv	EFO:0008248	OBA:2045339	neutrophil collagenase level	amount of neutrophil collagenase
+oba-efo.sssom.tsv	EFO:0008262	OBA:2045340	platelet glycoprotein 4 level	amount of platelet glycoprotein 4
+oba-efo.sssom.tsv	EFO:0008263	OBA:2045341	platelet glycoprotein VI level	amount of platelet glycoprotein VI
+oba-efo.sssom.tsv	EFO:0008292	OBA:2045342	C-type lectin domain family 11 member A level	amount of C-type lectin domain family 11 member A
+oba-efo.sssom.tsv	EFO:0008295	OBA:2045343	T-lymphocyte surface antigen Ly-9 level	amount of T-lymphocyte surface antigen Ly-9
+oba-efo.sssom.tsv	EFO:0009413	OBA:2045344	C-C motif chemokine 15 level	amount of C-C motif chemokine 15
+oba-efo.sssom.tsv	EFO:0009415	OBA:2045345	C-C motif chemokine 19 level	amount of C-C motif chemokine 19
+oba-efo.sssom.tsv	EFO:0009423	OBA:2045346	C-X-C motif chemokine 6 level	amount of C-X-C motif chemokine 6
+oba-efo.sssom.tsv	EFO:0010789	OBA:2045347	C-C motif chemokine 8 level	amount of C-C motif chemokine 8
+oba-efo.sssom.tsv	EFO:0010913	OBA:2045348	eosinophil cationic protein level	amount of eosinophil cationic protein
+oba-efo.sssom.tsv	EFO:0010921	OBA:2045349	natriuretic peptides B proteolytic cleavage product level	amount of natriuretic peptides B proteolytic cleavage product
+oba-efo.sssom.tsv	EFO:0020171	OBA:2045350	B-cell receptor CD22 level	amount of B-cell receptor CD22
+oba-efo.sssom.tsv	EFO:0020311	OBA:2045351	cytotoxic and regulatory T-cell molecule level	amount of cytotoxic and regulatory T-cell molecule
+oba-efo.sssom.tsv	EFO:0020312	OBA:2045352	cytotoxic T-lymphocyte protein 4 level	amount of cytotoxic T-lymphocyte protein 4
+oba-efo.sssom.tsv	EFO:0020416	OBA:2045353	granulocyte colony-stimulating factor receptor level	amount of granulocyte colony-stimulating factor receptor
+oba-efo.sssom.tsv	EFO:0020470	OBA:2045354	activin/inhibin beta subunit level	amount of activin/inhibin beta subunit
+oba-efo.sssom.tsv	EFO:0020518	OBA:2045355	killer cell immunoglobulin-like receptor 3DL2 level	amount of killer cell immunoglobulin-like receptor 3DL2
+oba-efo.sssom.tsv	EFO:0020519	OBA:2045356	killer cell immunoglobulin-like receptor 3DS1 level	amount of killer cell immunoglobulin-like receptor 3DS1
+oba-efo.sssom.tsv	EFO:0020520	OBA:2045357	killer cell lectin-like receptor subfamily F member 1 level	amount of killer cell lectin-like receptor subfamily F member 1
+oba-efo.sssom.tsv	EFO:0020539	OBA:2045358	lymphatic vessel endothelial hyaluronic acid receptor 1 level	amount of lymphatic vessel endothelial hyaluronic acid receptor 1
+oba-efo.sssom.tsv	EFO:0020540	OBA:2045359	lymphocyte activation gene 3 protein level	amount of lymphocyte activation gene 3 protein
+oba-efo.sssom.tsv	EFO:0020541	OBA:2045360	lymphocyte antigen 86 level	amount of lymphocyte antigen 86
+oba-efo.sssom.tsv	EFO:0020547	OBA:2045361	macrophage colony-stimulating factor 1 receptor level	amount of macrophage colony-stimulating factor 1 receptor
+oba-efo.sssom.tsv	EFO:0020548	OBA:2045362	macrophage mannose receptor 1 level	amount of macrophage mannose receptor 1
+oba-efo.sssom.tsv	EFO:0020605	OBA:2045363	neutrophil elastase level	amount of neutrophil elastase
+oba-efo.sssom.tsv	EFO:0020644	OBA:2045364	platelet factor 4 level	amount of platelet factor 4
+oba-efo.sssom.tsv	EFO:0020645	OBA:2045365	platelet glycoprotein Ib alpha chain level	amount of platelet glycoprotein Ib alpha chain
+oba-efo.sssom.tsv	EFO:0020657	OBA:2045366	proliferating cell nuclear antigen level	amount of proliferating cell nuclear antigen
+oba-efo.sssom.tsv	EFO:0020761	OBA:2045367	CD80 molecule level	amount of CD80 molecule
+oba-efo.sssom.tsv	EFO:0020762	OBA:2045368	CD86 molecule level	amount of CD86 molecule
+oba-efo.sssom.tsv	EFO:0020788	OBA:2045369	troponin I, cardiac muscle level	amount of troponin I, cardiac muscle
+oba-efo.sssom.tsv	EFO:0600071	OBA:2045370	glutathione peroxidase 2 level	amount of glutathione peroxidase 2
+oba-efo.sssom.tsv	EFO:0004569	OBA:2045374	brain serotonin transporter level	amount of serotonin transporter in brain
+oba-efo.sssom.tsv	EFO:0004739	OBA:2045375	circulating cell free DNA level	amount of cell free DNA in blood
+oba-efo.sssom.tsv	EFO:0005267	OBA:2045376	serum copper level	amount of copper in blood serum
 oba-loinc.sssom.tsv	73561-3	OBA:2042067	level of insulin-like growth factor I in blood serum	amount of insulin-like growth factor I in blood serum
 oba-loinc.sssom.tsv	72203-3	OBA:2043094	level of parathyroid hormone in blood serum	amount of parathyroid hormone in blood serum
 oba-loinc.sssom.tsv	20657-3	OBA:2045209	level of taurine in blood serum	amount of taurine in blood serum
+oba-loinc.sssom.tsv	19218-7	OBA:2045442	arterial blood oxygen level	amount of oxygen in arterial blood
+oba-loinc.sssom.tsv	32215-6	OBA:2045449	plasma thyroxine level	amount of thyroxine in blood plasma
 oba-loinc.sssom.tsv	15013-6	OBA:2040574	level of intestinal alkaline phosphatase in blood serum	amount of intestinal alkaline phosphatase in blood serum
 oba-loinc.sssom.tsv	15015-1	OBA:2040574	level of intestinal alkaline phosphatase in blood serum	amount of intestinal alkaline phosphatase in blood serum
 oba-loinc.sssom.tsv	15014-4	OBA:2040574	level of intestinal alkaline phosphatase in blood serum	amount of intestinal alkaline phosphatase in blood serum
@@ -13,3 +80,34 @@ oba-loinc.sssom.tsv	13984-0	OBA:2045206	level of serum globulin type protein	amo
 oba-loinc.sssom.tsv	13987-3	OBA:2045206	level of serum globulin type protein	amount of serum globulin type protein
 oba-loinc.sssom.tsv	13990-7	OBA:2045206	level of serum globulin type protein	amount of serum globulin type protein
 oba-loinc.sssom.tsv	13994-9	OBA:2045206	level of serum globulin type protein	amount of serum globulin type protein
+oba-loinc.sssom.tsv	27811-9	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	27818-4	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	31102-7	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	53622-7	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	28660-9	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	27815-0	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	3209-4	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	3289-6	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	27822-6	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	3226-8	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	3198-9	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	3232-6	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	27819-2	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	27816-8	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	68324-3	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	27821-8	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	27823-4	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	27820-0	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	50377-1	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	38521-1	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	6014-5	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	66745-1	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	52778-8	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	52783-8	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	91125-5	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	91126-3	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	91127-1	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	94577-4	OBA:2045225	blood clotting level	blood clotting amount
+oba-loinc.sssom.tsv	8101-8	OBA:2045351	cytotoxic and regulatory T-cell molecule level	amount of cytotoxic and regulatory T-cell molecule
+oba-loinc.sssom.tsv	32518-3	OBA:2045351	cytotoxic and regulatory T-cell molecule level	amount of cytotoxic and regulatory T-cell molecule
+oba-loinc.sssom.tsv	14135-8	OBA:2045351	cytotoxic and regulatory T-cell molecule level	amount of cytotoxic and regulatory T-cell molecule
