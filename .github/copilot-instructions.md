@@ -137,7 +137,7 @@ These should follow genus-differentia form, and depend on the pattern used.
         name: amount of ceramide
         def: "The amount of a ceramide." [AUTO:patterns/patterns/entity_attribute_location]
         synonym: "ceramide amount" EXACT []
-        synonym: "level of ceramide" EXACT []
+        synonym: "level of ceramide" EXACT OMO:0003000 []
         is_a: OBA:1000965 ! amount of sphingolipid
         property_value: terms:contributor "https://orcid.org/0000-0001-8314-2140" xsd:string
 

@@ -8,15 +8,20 @@
 # removes both artefacts. The (harmless) logical axiom is intentionally left
 # untouched. See https://github.com/obophenotype/bio-attribute-ontology/issues/439
 #
-# Steps 3-9: generated synonyms for amount traits. Their labels read
-# "amount of X in Y"; two more forms are kept as exact synonyms so that a search
-# phrased either way finds the term (EBISPOT/efo#2644, #443):
+# Steps 3-10: synonyms of amount traits. Their labels read "amount of X in Y";
+# three more forms are kept as exact synonyms (EBISPOT/efo#2644, #443):
 #   - the entity-first form "X amount in Y", written by the location patterns
 #     themselves from their fillers' labels;
-#   - the "level" form of the label ("level of X in Y", "X level"), derived here.
-# Both are first written with an xref ending in "/generated". The steps below
-# keep them only where they read correctly and clash with nothing, then drop the
-# suffix so that they carry their pattern's usual AUTO xref.
+#   - the level form of the label ("level of X in Y", "X level"), derived here
+#     for chemical and protein fillers only ("ulna level" is not a way of
+#     saying "ulna amount");
+#   - the former label of a relabelled term, curated in the patterns'
+#     previous_label column and typed here as OMO:0003000 "previous name".
+# The first two are written with an xref ending in "/generated", the third with
+# the xref "AUTO:previous_label"; the steps below settle them. A generated
+# synonym that clashes with another term's label or synonym is deliberately
+# left in place: ROBOT report then fails the build (duplicate_exact_synonym),
+# which is right, as such a clash means two terms should be merged.
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -66,7 +71,7 @@ WHERE {
 
 # 3. Tag the amount traits (genus PATO:0000070 as the first or second operand
 #    of the equivalence, which is how every pattern writes it) once, with a
-#    temporary triple that step 9 removes again.
+#    temporary triple that step 10 removes again.
 INSERT {
   ?c <urn:oba:postprocess#amount-trait> true .
 }
@@ -79,7 +84,31 @@ WHERE {
   FILTER(isIRI(?c))
 } ;
 
-# 4. The entity-first form is only wanted on amount traits. The location
+# 4. Tag, among them, the traits whose filler is a chemical or protein: a
+#    named class from ChEBI, PRO, SwissLipids or LIPID MAPS anywhere in the
+#    intersection tree of the 'characteristic_of' filler (the patterns nest
+#    it differently). Only these get the level form (step 7).
+INSERT {
+  ?c <urn:oba:postprocess#chemical-filler> true .
+}
+WHERE {
+  ?c <urn:oba:postprocess#amount-trait> true .
+  ?c owl:equivalentClass ?e .
+  ?e owl:intersectionOf ?list .
+  { ?list rdf:first ?r }
+  UNION
+  { ?list rdf:rest/rdf:first ?r }
+  ?r owl:onProperty obo:RO_0000052 ;
+     owl:someValuesFrom ?f .
+  ?f (owl:intersectionOf/rdf:rest*/rdf:first)* ?m .
+  FILTER(isIRI(?m))
+  FILTER(STRSTARTS(STR(?m), "http://purl.obolibrary.org/obo/CHEBI_")
+      || STRSTARTS(STR(?m), "http://purl.obolibrary.org/obo/PR_")
+      || STRSTARTS(STR(?m), "https://swisslipids.org/rdf/SLM_")
+      || STRSTARTS(STR(?m), "https://bioregistry.io/lipidmaps:"))
+} ;
+
+# 5. The entity-first form is only wanted on amount traits. The location
 #    patterns also carry a few other attributes ("concentration of",
 #    "susceptibility toward", ...) for which it does not read.
 DELETE {
@@ -97,7 +126,7 @@ WHERE {
   ?ax ?axp ?axo .
 } ;
 
-# 5. With the placeholder location the entity-first form ends in
+# 6. With the placeholder location the entity-first form ends in
 #    " in anatomical entity"; drop that part. Where what is left is already the
 #    label or a synonym of the term, drop the generated synonym instead.
 DELETE {
@@ -136,9 +165,9 @@ WHERE {
   BIND(STRDT(SUBSTR(STR(?syn), 1, STRLEN(STR(?syn)) - STRLEN(" in anatomical entity")), xsd:string) AS ?short)
 } ;
 
-# 6. The level form of the label, for every amount trait that lacks it:
-#    "amount of X in Y" -> "level of X in Y", "X amount" -> "X level". It takes
-#    the AUTO xref the term's other generated axioms carry.
+# 7. The level form of the label, for every chemical or protein amount trait
+#    that lacks it: "amount of X in Y" -> "level of X in Y", "X amount" ->
+#    "X level". It takes the AUTO xref the term's other generated axioms carry.
 INSERT {
   ?c oboInOwl:hasExactSynonym ?lsyn .
   _:ax rdf:type owl:Axiom ;
@@ -151,7 +180,7 @@ WHERE {
   {
     SELECT ?c (SAMPLE(?x) AS ?auto)
     WHERE {
-      ?c <urn:oba:postprocess#amount-trait> true .
+      ?c <urn:oba:postprocess#chemical-filler> true .
       ?a owl:annotatedSource ?c ;
          oboInOwl:hasDbXref ?x .
       FILTER((STRSTARTS(STR(?x), "AUTO:patterns/") || STRSTARTS(STR(?x), "oba:patterns/"))
@@ -166,37 +195,32 @@ WHERE {
   FILTER NOT EXISTS { ?c oboInOwl:hasExactSynonym ?lsyn }
 } ;
 
-# 7. A generated synonym must not be shared: drop it where another term already
-#    has the same string, ignoring case, as its label or as an exact synonym.
-#    (ROBOT report fails on a shared exact synonym: duplicate_exact_synonym.)
-#    The upper-cased strings are indexed as temporary triples first.
-INSERT {
-  ?e <urn:oba:postprocess#key> ?key .
-}
-WHERE {
-  { ?e oboInOwl:hasExactSynonym ?v } UNION { ?e rdfs:label ?v }
-  FILTER(isIRI(?e))
-  BIND(UCASE(STR(?v)) AS ?key)
-} ;
-
+# 8. Former labels: the patterns write the previous_label column as exact
+#    synonyms with the xref "AUTO:previous_label". Replace that marker by the
+#    synonym type OMO:0003000 "previous name", and declare the type (ROBOT
+#    report: missing_synonymtype_declaration).
 DELETE {
-  ?c oboInOwl:hasExactSynonym ?syn .
-  ?ax ?axp ?axo .
+  ?ax oboInOwl:hasDbXref ?marker .
+}
+INSERT {
+  ?ax oboInOwl:hasSynonymType obo:OMO_0003000 .
 }
 WHERE {
   ?ax rdf:type owl:Axiom ;
-      owl:annotatedSource ?c ;
       owl:annotatedProperty oboInOwl:hasExactSynonym ;
-      owl:annotatedTarget ?syn ;
-      oboInOwl:hasDbXref ?x .
-  FILTER(STRENDS(STR(?x), "/generated"))
-  BIND(UCASE(STR(?syn)) AS ?key)
-  ?d <urn:oba:postprocess#key> ?key .
-  FILTER(?d != ?c)
-  ?ax ?axp ?axo .
+      oboInOwl:hasDbXref ?marker .
+  FILTER(STR(?marker) = "AUTO:previous_label")
 } ;
 
-# 8. Drop the "/generated" marker from the xrefs of the synonyms that are kept.
+INSERT DATA {
+  obo:OMO_0003000 rdf:type owl:AnnotationProperty ;
+      rdfs:subPropertyOf oboInOwl:SynonymTypeProperty ;
+      rdfs:label "previous name" .
+  oboInOwl:SynonymTypeProperty rdf:type owl:AnnotationProperty .
+  oboInOwl:hasSynonymType rdf:type owl:AnnotationProperty .
+} ;
+
+# 9. Drop the "/generated" marker from the xrefs of the synonyms that are kept.
 DELETE {
   ?ax oboInOwl:hasDbXref ?x .
 }
@@ -210,11 +234,11 @@ WHERE {
   BIND(STRDT(SUBSTR(STR(?x), 1, STRLEN(STR(?x)) - STRLEN("/generated")), xsd:string) AS ?base)
 } ;
 
-# 9. Remove the temporary triples of steps 3 and 7.
+# 10. Remove the temporary triples of steps 3 and 4.
 DELETE WHERE {
   ?c <urn:oba:postprocess#amount-trait> ?t .
 } ;
 
 DELETE WHERE {
-  ?e <urn:oba:postprocess#key> ?k .
+  ?c <urn:oba:postprocess#chemical-filler> ?t .
 }

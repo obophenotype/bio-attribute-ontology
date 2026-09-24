@@ -28,6 +28,9 @@ vars:
   location: "'thing'"
   role: "'role'"
 
+data_vars:
+  previous_label: xsd:string
+
 data_list_vars:
   exact_synonyms: xsd:string
 
@@ -73,6 +76,16 @@ annotations:
       - annotationProperty: xref
         text: "AUTO:patterns/patterns/chemical_role_attribute_location/generated"
 
+  # Former label of a relabelled term (previous_label column). The marker xref
+  # becomes synonym type OMO:0003000 "previous name" in
+  # ../../sparql/postprocess-definitions.ru.
+  - annotationProperty: exact_synonym
+    text: "%s"
+    vars:
+      - previous_label
+    annotations:
+      - annotationProperty: xref
+        text: "AUTO:previous_label"
 
 exact_synonym:
   value: exact_synonyms
