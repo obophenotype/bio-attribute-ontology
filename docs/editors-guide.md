@@ -38,6 +38,58 @@ sh run.sh make sync_sssom_google_sheets
 
 ## Creating/updating terms
 
+### Term label conventions
+
+Labels for pattern-generated terms come from the DOSDP pattern, not from the TSV.
+**Leave `defined_class_name` empty** and let `dosdp-tools` render the pattern's
+`name:` template. For amount traits the pattern, and with it the label form,
+follows the kind of entity:
+
+| Entity | Pattern | Label |
+|---|---|---|
+| chemical or protein (ChEBI, PRO, SwissLipids, LIPID MAPS) | `entity_attribute_location` | `amount of <entity> in <location>` |
+| chemical role (hormone, nutrient, ...) | `chemical_role_attribute_location`, or `chemical_role_attribute` without a location | `amount of <role> in <location>`, or `<role> amount` |
+| anatomical structure, cell or process | `entity_attribute` | `<entity> amount` |
+
+The two forms exist because chemicals and proteins are measured *in* something,
+so their pattern names the location and puts the entity after "amount of",
+whereas anatomical structures, cells and processes are counted as such and their
+pattern has no location. Do not choose a form by taste: choose the pattern for
+the kind of entity and let it label the term. A ratio of two amounts is named
+`<A>/<B> protein amount ratio in <location>`.
+
+Only fill in `defined_class_name` when the pattern cannot produce the label you
+need — when the location is the placeholder `anatomical entity` (write
+`amount of ceramide`, not `amount of ceramide in anatomical entity`; the
+placeholder is stripped from the definition and synonyms automatically, but not
+from the label), when a chemical needs curated notation
+(`triacylglycerol (56:6)`), or when the entity's ontology label is not the name
+OBA wants to display. Treat an explicit name as a deliberate exception, not the
+default.
+
+Never use "level" in a label; the QC check `level-in-label` fails the build if
+one does. Amount traits get their other forms as exact synonyms automatically,
+so do not add these by hand:
+
+- the entity-first form, `<entity> amount in <location>`, written by the
+  location patterns' synonym templates;
+- for chemical and protein entities only, the level form of the label,
+  `level of <entity> in <location>` or `<entity> level`, added by
+  `src/sparql/postprocess-definitions.ru` when `definitions.owl` is built.
+
+When you relabel a term, put its former label in the `previous_label` column.
+It becomes an exact synonym typed `OMO:0003000` "previous name", so downstream
+users can tell a former label from a curated alternative name.
+
+Note that `amount` here is the label of `PATO:0000070`, the attribute these terms
+are actually defined against. OBA previously used `level of …`, `… level` and
+`… amount in …` for these terms while still asserting `PATO:0000070` and
+defining them as *"The amount of …"*, so labels, definitions and logical axioms
+disagreed. They were relabelled to `amount of …` so all three agree, and every
+relabelled term kept its former label as a previous-name synonym. About 380
+older amount traits, mostly from VT, still have labels in other word orders (for
+example `blood cholesterol amount`); they have not been relabelled.
+
 <a id="alignment"></a>
 ## Preparing alignment work
 

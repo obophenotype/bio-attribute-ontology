@@ -4,6 +4,7 @@ import: http://purl.obolibrary.org/obo/oba/components/obsoletes.owl
 import: http://purl.obolibrary.org/obo/oba/components/synonyms.owl
 import: http://purl.obolibrary.org/obo/oba/imports/merged_import.owl
 import: http://purl.obolibrary.org/obo/oba/patterns/definitions.owl
+synonymtypedef: OMO:0003000 "previous name"
 ontology: oba
 property_value: http://purl.org/dc/elements/1.1/description "A collection of biological attributes (traits) covering all kingdoms of life. Interoperable with VT (vertebrate trait ontology) and TO (plant trait ontology). Extends PATO." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Ontology of Biological Attributes (OBA)" xsd:string
@@ -43,8 +44,8 @@ id: OBA:0000015 ! anatomical structure size
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000016 ! angiotensin levels in blood
-is_a: OBA:0000079 ! hormone levels
+id: OBA:0000016 ! amount of angiotensin in blood
+is_a: OBA:0000079 ! hormone amount
 
 [Term]
 id: OBA:0000018 ! appetite
@@ -62,7 +63,7 @@ id: OBA:0000032 ! blood vessel size
 is_a: OBA:0000172 ! tube size
 
 [Term]
-id: OBA:0000036 ! body fluid levels
+id: OBA:0000036 ! body fluid volume
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -106,7 +107,7 @@ comment: check this
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000061 ! circulating fibrinogen levels
+id: OBA:0000061 ! circulating fibrinogen amount
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -131,7 +132,7 @@ id: OBA:0000072 ! follicle cell microvillus length
 is_a: OBA:0000102 ! microvillus length
 
 [Term]
-id: OBA:0000079 ! hormone levels
+id: OBA:0000079 ! hormone amount
 comment: TODO - unify levels vs amount
 is_a: OBA:0000001 ! biological attribute
 
@@ -213,8 +214,9 @@ id: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
 id: OBA:0000116
-name: neurotransmitter levels
+name: amount of neurotransmitter
 comment: Was previously linked to neurotransmitter (GOCHE_25512)
+synonym: "neurotransmitter levels" EXACT OMO:0003000 []
 is_a: OBA:0100004 {is_asserted="true"} ! chemical entity attribute
 is_a: PATO:0000070 ! amount
 
@@ -333,7 +335,7 @@ is_a: OBA:0000015 ! anatomical structure size
 
 [Term]
 id: OBA:0000173 ! urinary volume
-is_a: OBA:0000036 ! body fluid levels
+is_a: OBA:0000036 ! body fluid volume
 
 [Term]
 id: OBA:0000174 ! vascular permeability
@@ -341,11 +343,13 @@ is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000181
-name: viral protein levels
+name: amount of viral protein
+synonym: "viral protein amount" EXACT []
+synonym: "viral protein levels" EXACT OMO:0003000 []
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000182 ! nutrient level
+id: OBA:0000182 ! nutrient amount
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -366,6 +370,7 @@ id: OBA:0003476
 name: necrotic cell death amount
 def: "The amount of a necrotic cell death." []
 synonym: "amount of necrotic cell death" EXACT []
+synonym: "necrotic cell death level" EXACT []
 is_a: OBA:0100002 ! biological process attribute
 property_value: http://purl.org/dc/elements/1.1/date "2023-06-16T20:21:00Z" xsd:dateTime
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-8314-2140
@@ -1358,9 +1363,11 @@ is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:2044890
-name: level of putative uncharacterized protein SLC66A1L (human) in blood serum
+name: amount of putative uncharacterized protein SLC66A1L (human) in blood serum
 def: "The amount of a putative uncharacterized protein SLC66A1L (human) when measured in blood serum." []
 synonym: "blood serum putative uncharacterized protein SLC66A1L (human) amount" EXACT []
+synonym: "level of putative uncharacterized protein SLC66A1L (human) in blood serum" EXACT OMO:0003000 []
+synonym: "putative uncharacterized protein SLC66A1L (human) amount in blood serum" EXACT []
 is_a: OBA:2050071 ! serum protein amount
 property_value: terms:contributor "https://orcid.org/0000-0001-6677-8489" xsd:string
 
@@ -1374,6 +1381,10 @@ is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:2060014 ! hippocampus stratum oriens thickness
+is_a: OBA:0000001 ! biological attribute
+
+[Term]
+id: OBA:2100390 ! disease progression trait
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -1405,12 +1416,9 @@ is_a: OBA:0000001 ! biological attribute
 id: OBA:VT0008752
 name: tumor necrosis factor amount
 comment: tumor necrosis factor receptor binding (GO_0005164) is a molecular function
+synonym: "tumor necrosis factor level" EXACT []
 is_a: OBA:0000001 ! biological attribute
 is_a: PATO:0000070 ! amount
-
-[Term]
-id: OBA:2100390 ! disease progression trait
-is_a: OBA:0000001 ! biological attribute
 
 [Typedef]
 id: OBA:2050187
