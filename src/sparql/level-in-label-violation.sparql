@@ -1,0 +1,19 @@
+# Flags OBA classes whose label contains the word "level". Amount traits are
+# labelled "amount of X in Y" or "X amount"; "level" survives only in synonyms:
+# the former label of a relabelled term, and the level form that
+# postprocess-definitions.ru generates for chemical and protein amount traits.
+# See https://github.com/obophenotype/bio-attribute-ontology/pull/443 and
+# https://github.com/EBISPOT/efo/issues/2644
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?entity ?property ?value WHERE {
+  ?entity rdfs:label ?value .
+  BIND(rdfs:label AS ?property)
+
+  FILTER(STRSTARTS(STR(?entity), "http://purl.obolibrary.org/obo/OBA_"))
+  FILTER NOT EXISTS { ?entity owl:deprecated "true"^^xsd:boolean }
+  FILTER(REGEX(STR(?value), "\\blevels?\\b", "i"))
+}
