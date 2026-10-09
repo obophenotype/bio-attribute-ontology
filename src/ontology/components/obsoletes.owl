@@ -114,506 +114,607 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0000037> (<http://purl.obolibrary.org/obo/OBA_0000037>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0000037> (obsolete brood size)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0000037> <http://purl.obolibrary.org/obo/PATO_0000276>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0000037> "obsolete brood size")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000037> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0000039> (<http://purl.obolibrary.org/obo/OBA_0000039>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0000039> (obsolete buoyancy)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0000039> <http://purl.obolibrary.org/obo/PATO_0001420>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0000039> "obsolete buoyancy")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000039> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0000050> (<http://purl.obolibrary.org/obo/OBA_0000050>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0000050> (obsolete cell pH)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0000050> <http://purl.obolibrary.org/obo/OBA_0000058>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0000050> "obsolete cell pH")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000050> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0000074> (<http://purl.obolibrary.org/obo/OBA_0000074>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0000074> (obsolete heart contraction rate)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0000074> <http://purl.obolibrary.org/obo/OBA_1001087>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0000074> "obsolete heart contraction rate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000074> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0000116> (<http://purl.obolibrary.org/obo/OBA_0000116>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0000116> (obsolete amount of neurotransmitter)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0000116> <http://purl.obolibrary.org/obo/OBA_1000993>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0000116> "Reason for obsoletion: duplicate of OBA:1000993 (neurotransmitter amount), see https://github.com/obophenotype/bio-attribute-ontology/issues/454.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0000116> "obsolete amount of neurotransmitter")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000116> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0000121> (<http://purl.obolibrary.org/obo/OBA_0000121>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0000121> (obsolete pH)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0000121> <http://purl.obolibrary.org/obo/PATO_0001842>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0000121> "obsolete pH")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000121> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0002145> (<http://purl.obolibrary.org/obo/OBA_0002145>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0002145> (obsolete multicellular organism fertility)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0002145> <http://purl.obolibrary.org/obo/OBA_VT0010464>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0002145> "obsolete multicellular organism fertility")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0002145> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0003556> (<http://purl.obolibrary.org/obo/OBA_0003556>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0003556> (obsolete pontine flexure deviation (from_normal))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003556> <http://purl.obolibrary.org/obo/OBA_VT0000844>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003556> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0003556> "obsolete pontine flexure deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003556> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0003746> (<http://purl.obolibrary.org/obo/OBA_0003746>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0003746> (obsolete aorta mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003746> <http://purl.obolibrary.org/obo/OBA_VT0002845>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0003746> "obsolete aorta mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003746> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0003813> (<http://purl.obolibrary.org/obo/OBA_0003813>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0003813> (obsolete muscle organ weight)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003813> <http://purl.obolibrary.org/obo/OBA_0002401>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0003813> "obsolete muscle organ weight")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003813> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0003847> (<http://purl.obolibrary.org/obo/OBA_0003847>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0003847> (obsolete long bone epiphyseal plate proliferative zone deviation (from_normal))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003847> <http://purl.obolibrary.org/obo/OBA_VT0003662>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003847> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0003847> "obsolete long bone epiphyseal plate proliferative zone deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003847> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0003859> (<http://purl.obolibrary.org/obo/OBA_0003859>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0003859> (obsolete blood vessel remodeling deviation (from_normal))
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003859> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. There is no suitable value-neutral replacement in OBA. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0003859> "obsolete blood vessel remodeling deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003859> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0003862> (<http://purl.obolibrary.org/obo/OBA_0003862>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0003862> (obsolete photoreceptor layer of retina deviation (from_normal))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003862> <http://purl.obolibrary.org/obo/OBA_VT0003728>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003862> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0003862> "obsolete photoreceptor layer of retina deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003862> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0003898> (<http://purl.obolibrary.org/obo/OBA_0003898>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0003898> (obsolete bone element mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003898> <http://purl.obolibrary.org/obo/OBA_VT1000111>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0003898> "obsolete bone element mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003898> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0003901> (<http://purl.obolibrary.org/obo/OBA_0003901>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0003901> (obsolete interventricular groove deviation (from_normal))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003901> <http://purl.obolibrary.org/obo/OBA_VT0004032>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003901> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0003901> "obsolete interventricular groove deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003901> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0003930> (<http://purl.obolibrary.org/obo/OBA_0003930>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0003930> (obsolete cephalic midbrain flexure deviation (from_normal))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003930> <http://purl.obolibrary.org/obo/OBA_VT0004203>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003930> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0003930> "obsolete cephalic midbrain flexure deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003930> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0003933> (<http://purl.obolibrary.org/obo/OBA_0003933>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0003933> (obsolete iridocorneal angle deviation (from_normal))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003933> <http://purl.obolibrary.org/obo/OBA_VT0004221>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003933> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0003933> "obsolete iridocorneal angle deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003933> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0003943> (<http://purl.obolibrary.org/obo/OBA_0003943>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0003943> (obsolete basement membrane morphology)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003943> <http://purl.obolibrary.org/obo/OBA_VT0004272>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0003943> "obsolete basement membrane morphology")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003943> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0003995> (<http://purl.obolibrary.org/obo/OBA_0003995>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0003995> (obsolete epithelium of conjunctiva deviation (from_normal))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003995> <http://purl.obolibrary.org/obo/OBA_VT0004481>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003995> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0003995> "obsolete epithelium of conjunctiva deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003995> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004005> (<http://purl.obolibrary.org/obo/OBA_0004005>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004005> (obsolete palatine process of maxilla deviation (from_normal))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004005> <http://purl.obolibrary.org/obo/OBA_VT0000430>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0004005> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004005> "obsolete palatine process of maxilla deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004005> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004074> (<http://purl.obolibrary.org/obo/OBA_0004074>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004074> (obsolete skeletal muscle tissue mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004074> <http://purl.obolibrary.org/obo/OBA_VT1000712>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004074> "obsolete skeletal muscle tissue mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004074> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004079> (<http://purl.obolibrary.org/obo/OBA_0004079>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004079> (obsolete testis weight)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004079> <http://purl.obolibrary.org/obo/OBA_VT1000644>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004079> "obsolete testis weight")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004079> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004086> (<http://purl.obolibrary.org/obo/OBA_0004086>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004086> (obsolete uterus weight)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004086> <http://purl.obolibrary.org/obo/OBA_VT0010611>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004086> "obsolete uterus weight")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004086> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004087> (<http://purl.obolibrary.org/obo/OBA_0004087>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004087> (obsolete seminal vesicle weight)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004087> <http://purl.obolibrary.org/obo/OBA_VT0010524>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004087> "obsolete seminal vesicle weight")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004087> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004095> (<http://purl.obolibrary.org/obo/OBA_0004095>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004095> (obsolete epididymis weight)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004095> <http://purl.obolibrary.org/obo/OBA_VT0010019>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004095> "obsolete epididymis weight")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004095> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004101> (<http://purl.obolibrary.org/obo/OBA_0004101>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004101> (obsolete prostate gland weight)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004101> <http://purl.obolibrary.org/obo/OBA_VT0010466>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004101> "obsolete prostate gland weight")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004101> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004118> (<http://purl.obolibrary.org/obo/OBA_0004118>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004118> (obsolete late pro-B cell deviation (from_normal))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004118> <http://purl.obolibrary.org/obo/OBA_VT0005020>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0004118> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004118> "obsolete late pro-B cell deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004118> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004133> (<http://purl.obolibrary.org/obo/OBA_0004133>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004133> (obsolete establishment of blood-brain barrier deviation (from_normal))
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0004133> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. There is no suitable value-neutral replacement in OBA. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004133> "obsolete establishment of blood-brain barrier deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004133> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004334> (<http://purl.obolibrary.org/obo/OBA_0004334>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004334> (obsolete habenular commissure deviation (from_normal))
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0004334> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. There is no suitable value-neutral replacement in OBA. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004334> "obsolete habenular commissure deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004334> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004427> (<http://purl.obolibrary.org/obo/OBA_0004427>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004427> (obsolete spleen follicular dendritic cell network deviation (from_normal))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004427> <http://purl.obolibrary.org/obo/OBA_VT0008473>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0004427> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004427> "obsolete spleen follicular dendritic cell network deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004427> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004543> (<http://purl.obolibrary.org/obo/OBA_0004543>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004543> (obsolete pituitary gland weight)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004543> <http://purl.obolibrary.org/obo/OBA_VT0010496>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004543> "obsolete pituitary gland weight")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004543> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004614> (<http://purl.obolibrary.org/obo/OBA_0004614>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004614> (obsolete pancreas weight)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004614> <http://purl.obolibrary.org/obo/OBA_VT0010144>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004614> "obsolete pancreas weight")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004614> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004680> (<http://purl.obolibrary.org/obo/OBA_0004680>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004680> (obsolete gonadal fat pad weight)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004680> <http://purl.obolibrary.org/obo/OBA_VT0010423>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004680> "obsolete gonadal fat pad weight")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004680> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004681> (<http://purl.obolibrary.org/obo/OBA_0004681>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004681> (obsolete epididymal fat pad weight)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004681> <http://purl.obolibrary.org/obo/OBA_VT0010421>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004681> "obsolete epididymal fat pad weight")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004681> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004682> (<http://purl.obolibrary.org/obo/OBA_0004682>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004682> (obsolete inguinal fat pad weight)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004682> <http://purl.obolibrary.org/obo/OBA_VT0010424>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004682> "obsolete inguinal fat pad weight")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004682> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004683> (<http://purl.obolibrary.org/obo/OBA_0004683>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004683> (obsolete parametrial fat pad weight)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004683> <http://purl.obolibrary.org/obo/OBA_VT0010428>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004683> "obsolete parametrial fat pad weight")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004683> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004684> (<http://purl.obolibrary.org/obo/OBA_0004684>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004684> (obsolete retroperitoneal fat pad weight)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004684> <http://purl.obolibrary.org/obo/OBA_VT0010430>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004684> "obsolete retroperitoneal fat pad weight")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004684> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004847> (<http://purl.obolibrary.org/obo/OBA_0004847>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004847> (obsolete mitotic spindle deviation (from_normal))
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0004847> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. There is no suitable value-neutral replacement in OBA. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004847> "obsolete mitotic spindle deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004847> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0004848> (<http://purl.obolibrary.org/obo/OBA_0004848>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0004848> (obsolete meiotic spindle deviation (from_normal))
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0004848> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. There is no suitable value-neutral replacement in OBA. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0004848> "obsolete meiotic spindle deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004848> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0005181> (<http://purl.obolibrary.org/obo/OBA_0005181>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0005181> (obsolete cervical flexure deviation (from_normal))
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0005181> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. There is no suitable value-neutral replacement in OBA. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0005181> "obsolete cervical flexure deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0005181> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0005187> (<http://purl.obolibrary.org/obo/OBA_0005187>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0005187> (obsolete life span deviation (from_normal))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0005187> <http://purl.obolibrary.org/obo/OBA_0003653>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0005187> "obsolete life span deviation (from_normal)")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0005187> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0005515> (<http://purl.obolibrary.org/obo/OBA_0005515>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0005515> (obsolete bronchioalveolar stem cells amount)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0005515> <http://purl.obolibrary.org/obo/OBA_0005230>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0005515> "obsolete bronchioalveolar stem cells amount")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0005515> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0005707> (<http://purl.obolibrary.org/obo/OBA_0005707>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0005707> (obsolete adrenal gland weight)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0005707> <http://purl.obolibrary.org/obo/OBA_VT0010420>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0005707> "obsolete adrenal gland weight")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0005707> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0005767> (<http://purl.obolibrary.org/obo/OBA_0005767>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0005767> (obsolete cilium morphology)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0005767> <http://purl.obolibrary.org/obo/OBA_0005766>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0005767> "obsolete cilium morphology")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0005767> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_0005773> (<http://purl.obolibrary.org/obo/OBA_0005773>)
+# Class: <http://purl.obolibrary.org/obo/OBA_0005773> (obsolete cilium functionality)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0005773> <http://purl.obolibrary.org/obo/OBA_0005771>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0005773> "obsolete cilium functionality")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0005773> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1000220> (<http://purl.obolibrary.org/obo/OBA_1000220>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1000220> (obsolete serine family amino acid metabolic process quality)
 
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000220> "Reason for obsoletion: serine family amino acid metabolic process [GO:0009069] has been obsoleted by GO curators and considered 'an unnecessary grouping term', see https://github.com/geneontology/go-announcements/issues/923.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000220> "obsolete serine family amino acid metabolic process quality")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000220> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1000242> (<http://purl.obolibrary.org/obo/OBA_1000242>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1000242> (obsolete respiratory system quality)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000242> <http://purl.obolibrary.org/obo/OBA_VT0005388>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000242> "obsolete respiratory system quality")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000242> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1000294> (<http://purl.obolibrary.org/obo/OBA_1000294>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1000294> (obsolete glycosylation quality)
 
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000294> "Reason for obsoletion: glycosylation [GO:0070085]  has been obsoleted by GO curators as it 'represents a molecular function'.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000294> "obsolete glycosylation quality")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000294> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1000441> (<http://purl.obolibrary.org/obo/OBA_1000441>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1000441> (obsolete reproductive system quality)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000441> <http://purl.obolibrary.org/obo/OBA_VT0005389>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000441> "obsolete reproductive system quality")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000441> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1000584> (<http://purl.obolibrary.org/obo/OBA_1000584>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1000584> (obsolete nervous system quality)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000584> <http://purl.obolibrary.org/obo/OBA_VT1000781>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000584> "obsolete nervous system quality")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000584> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1000596> (<http://purl.obolibrary.org/obo/OBA_1000596>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1000596> (obsolete aspartate family amino acid metabolic process quality)
 
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000596> "Reason for obsoletion: aspartate family amino acid metabolic process [GO:0009066] has been obsoleted by GO curators and considered 'an unnecessary grouping term', see https://github.com/geneontology/go-announcements/issues/923.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000596> "obsolete aspartate family amino acid metabolic process quality")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000596> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1000791> (<http://purl.obolibrary.org/obo/OBA_1000791>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1000791> (obsolete parental behavior quality)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000791> <http://purl.obolibrary.org/obo/OBA_VT0002068>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000791> "obsolete parental behavior quality")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000791> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1000803> (<http://purl.obolibrary.org/obo/OBA_1000803>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1000803> (obsolete grooming behavior quality)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000803> <http://purl.obolibrary.org/obo/OBA_VT0001440>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000803> "obsolete grooming behavior quality")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000803> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1000815> (<http://purl.obolibrary.org/obo/OBA_1000815>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1000815> (obsolete subarachnoid space development quality)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000815> "Reason for obsoletion: [This term was obsoleted because it does not represent a real process. While subarachnoid space is a valid anatomical structure, it is formed by the development of the structures that surround it.](https://www.ebi.ac.uk/QuickGO/term/GO:1903374)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000815> "obsolete subarachnoid space development quality")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000815> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1000846> (<http://purl.obolibrary.org/obo/OBA_1000846>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1000846> (obsolete gas homeostasis quality)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000846> "Reason for obsoletion: gas homeostasis (GO:0033483) considered an unnecessary grouping by GO curators.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000846> "obsolete gas homeostasis quality")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000846> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1000870> (<http://purl.obolibrary.org/obo/OBA_1000870>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1000870> (obsolete vocalization behavior quality)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000870> <http://purl.obolibrary.org/obo/OBA_VT0001529>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000870> "obsolete vocalization behavior quality")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000870> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1000873> (<http://purl.obolibrary.org/obo/OBA_1000873>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1000873> (obsolete glial cell (sensu Vertebrata) quality)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000873> <http://purl.obolibrary.org/obo/OBA_1000236>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000873> "obsolete glial cell (sensu Vertebrata) quality")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000873> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1000951> (<http://purl.obolibrary.org/obo/OBA_1000951>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1000951> (obsolete ceramide amount)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1000951> <http://purl.obolibrary.org/obo/OBA_2040177>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000951> "Reason for obsoletion: this term is a too generic of a category that goes beyond the realm of biological attributes. For example, the obsolete term could be applied to chemicals in environmental samples which is beyond the scope of OBA.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000951> "obsolete ceramide amount")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000951> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001013> (<http://purl.obolibrary.org/obo/OBA_1001013>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001013> (obsolete amount of tumor necrosis factor alpha)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001013> <http://purl.obolibrary.org/obo/OBA_VT0008752>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1001013> "Reason for obsoletion: duplicate of OBA:VT0008752 (tumor necrosis factor amount), see https://github.com/obophenotype/bio-attribute-ontology/issues/454.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001013> "obsolete amount of tumor necrosis factor alpha")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001013> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001014> (<http://purl.obolibrary.org/obo/OBA_1001014>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001014> (obsolete sphingomyelin amount)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001014> <http://purl.obolibrary.org/obo/OBA_2040182>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1001014> "Reason for obsoletion: this term is a too generic of a category that goes beyond the realm of biological attributes. For example, the obsolete term could be applied to chemicals in environmental samples which is beyond the scope of OBA.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001014> "obsolete sphingomyelin amount")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001014> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001016> (<http://purl.obolibrary.org/obo/OBA_1001016>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001016> (obsolete protein amount)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001016> <http://purl.obolibrary.org/obo/OBA_VT0010120>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001016> "obsolete protein amount")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001016> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001018> (<http://purl.obolibrary.org/obo/OBA_1001018>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001018> (obsolete multicellular organism mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001018> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001018> "obsolete multicellular organism mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001018> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001019> (<http://purl.obolibrary.org/obo/OBA_1001019>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001019> (obsolete vagina mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001019> <http://purl.obolibrary.org/obo/OBA_0004552>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001019> "obsolete vagina mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001019> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001020> (<http://purl.obolibrary.org/obo/OBA_1001020>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001020> (obsolete heart mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001020> <http://purl.obolibrary.org/obo/OBA_VT0007028>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001020> "obsolete heart mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001020> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001021> (<http://purl.obolibrary.org/obo/OBA_1001021>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001021> (obsolete omental fat pad mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001021> <http://purl.obolibrary.org/obo/OBA_0004981>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001021> "obsolete omental fat pad mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001021> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001022> (<http://purl.obolibrary.org/obo/OBA_1001022>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001022> (obsolete late embryo mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001022> <http://purl.obolibrary.org/obo/OBA_0004726>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001022> "obsolete late embryo mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001022> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001023> (<http://purl.obolibrary.org/obo/OBA_1001023>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001023> (obsolete extensor digitorum longus mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001023> <http://purl.obolibrary.org/obo/OBA_0004721>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001023> "obsolete extensor digitorum longus mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001023> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001024> (<http://purl.obolibrary.org/obo/OBA_1001024>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001024> (obsolete lung mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001024> <http://purl.obolibrary.org/obo/OBA_VT0005629>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001024> "obsolete lung mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001024> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001025> (<http://purl.obolibrary.org/obo/OBA_1001025>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001025> (obsolete kidney mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001025> <http://purl.obolibrary.org/obo/OBA_VT0002707>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001025> "obsolete kidney mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001025> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001026> (<http://purl.obolibrary.org/obo/OBA_1001026>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001026> (obsolete right cardiac atrium mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001026> <http://purl.obolibrary.org/obo/OBA_VT0007027>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001026> "obsolete right cardiac atrium mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001026> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001027> (<http://purl.obolibrary.org/obo/OBA_1001027>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001027> (obsolete soleus muscle mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001027> <http://purl.obolibrary.org/obo/OBA_0004722>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001027> "obsolete soleus muscle mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001027> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001028> (<http://purl.obolibrary.org/obo/OBA_1001028>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001028> (obsolete ovary mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001028> <http://purl.obolibrary.org/obo/OBA_VT1000641>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001028> "obsolete ovary mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001028> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001029> (<http://purl.obolibrary.org/obo/OBA_1001029>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001029> (obsolete brain mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001029> <http://purl.obolibrary.org/obo/OBA_VT0002176>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001029> "obsolete brain mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001029> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001030> (<http://purl.obolibrary.org/obo/OBA_1001030>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001030> (obsolete fat pad mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001030> <http://purl.obolibrary.org/obo/OBA_0004528>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001030> "obsolete fat pad mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001030> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001031> (<http://purl.obolibrary.org/obo/OBA_1001031>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001031> (obsolete placenta mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001031> <http://purl.obolibrary.org/obo/OBA_VT0004257>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001031> "obsolete placenta mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001031> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001032> (<http://purl.obolibrary.org/obo/OBA_1001032>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001032> (obsolete spleen mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001032> <http://purl.obolibrary.org/obo/OBA_VT0004951>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001032> "obsolete spleen mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001032> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001033> (<http://purl.obolibrary.org/obo/OBA_1001033>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001033> (obsolete embryo mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001033> <http://purl.obolibrary.org/obo/OBA_0004725>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001033> "obsolete embryo mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001033> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001034> (<http://purl.obolibrary.org/obo/OBA_1001034>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001034> (obsolete gastrocnemius mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001034> <http://purl.obolibrary.org/obo/OBA_0004720>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001034> "obsolete gastrocnemius mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001034> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001035> (<http://purl.obolibrary.org/obo/OBA_1001035>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001035> (obsolete heart right ventricle mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001035> <http://purl.obolibrary.org/obo/OBA_VT0007033>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001035> "obsolete heart right ventricle mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001035> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001036> (<http://purl.obolibrary.org/obo/OBA_1001036>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001036> (obsolete abdominal fat pad mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001036> <http://purl.obolibrary.org/obo/OBA_VT1000711>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001036> "obsolete abdominal fat pad mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001036> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001037> (<http://purl.obolibrary.org/obo/OBA_1001037>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001037> (obsolete quadriceps femoris mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001037> <http://purl.obolibrary.org/obo/OBA_0005027>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001037> "obsolete quadriceps femoris mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001037> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001038> (<http://purl.obolibrary.org/obo/OBA_1001038>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001038> (obsolete urinary bladder mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001038> <http://purl.obolibrary.org/obo/OBA_0005562>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001038> "obsolete urinary bladder mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001038> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001039> (<http://purl.obolibrary.org/obo/OBA_1001039>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001039> (obsolete liver mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001039> <http://purl.obolibrary.org/obo/OBA_VT0003402>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001039> "obsolete liver mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001039> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001040> (<http://purl.obolibrary.org/obo/OBA_1001040>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001040> (obsolete thymus mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001040> <http://purl.obolibrary.org/obo/OBA_VT0004954>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001040> "obsolete thymus mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001040> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001041> (<http://purl.obolibrary.org/obo/OBA_1001041>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001041> (obsolete left cardiac atrium mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001041> <http://purl.obolibrary.org/obo/OBA_VT0007026>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001041> "obsolete left cardiac atrium mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001041> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001042> (<http://purl.obolibrary.org/obo/OBA_1001042>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001042> (obsolete tongue mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001042> <http://purl.obolibrary.org/obo/OBA_0004724>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001042> "obsolete tongue mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001042> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001043> (<http://purl.obolibrary.org/obo/OBA_1001043>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001043> (obsolete fallopian tube mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001043> <http://purl.obolibrary.org/obo/OBA_0004598>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001043> "obsolete fallopian tube mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001043> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_1001044> (<http://purl.obolibrary.org/obo/OBA_1001044>)
+# Class: <http://purl.obolibrary.org/obo/OBA_1001044> (obsolete heart left ventricle mass)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001044> <http://purl.obolibrary.org/obo/OBA_VT0007031>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1001044> "obsolete heart left ventricle mass")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001044> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2050081> (<http://purl.obolibrary.org/obo/OBA_2050081>)
+# Class: <http://purl.obolibrary.org/obo/OBA_2050081> (obsolete serum gamma-glutamyl transferase amount)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2050081> <http://purl.obolibrary.org/obo/OBA_2045319>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2050081> "Reason for obsoletion: a term with the same intended meaning already exists.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2050081> "obsolete serum gamma-glutamyl transferase amount")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2050081> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2058599> (<http://purl.obolibrary.org/obo/OBA_2058599>)
+# Class: <http://purl.obolibrary.org/obo/OBA_2058599> (obsolete amount of putative T-complex protein 10A homolog (human) in cerebrospinal fluid)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2058599> <http://purl.obolibrary.org/obo/OBA_2080015>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2058599> "Reason for obsoletion: The protein term 'putative T-complex protein 10A homolog (human)' [PR:Q12799] has been obsoleted with no suggested replacement. The most suitable protein replacement term is [PR:Q8TDR4] and is the entity in existing OBA term 'level of T-complex protein 10A homolog 1 (human) in cerebrospinal fluid' [OBA:2080015].")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2058599> "obsolete amount of putative T-complex protein 10A homolog (human) in cerebrospinal fluid")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2058599> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2060174> (<http://purl.obolibrary.org/obo/OBA_2060174>)
+# Class: <http://purl.obolibrary.org/obo/OBA_2060174> (obsolete amount of insulin in blood)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2060174> <http://purl.obolibrary.org/obo/OBA_VT0001560>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2060174> "Reason for obsoletion: duplicate of OBA:VT0001560 (blood insulin amount), see https://github.com/obophenotype/bio-attribute-ontology/issues/454.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2060174> "obsolete amount of insulin in blood")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2060174> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2060175> (<http://purl.obolibrary.org/obo/OBA_2060175>)
+# Class: <http://purl.obolibrary.org/obo/OBA_2060175> (obsolete amount of hemoglobin in blood)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2060175> <http://purl.obolibrary.org/obo/OBA_VT0001588>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2060175> "Reason for obsoletion: duplicate of OBA:VT0001588 (blood hemoglobin amount), see https://github.com/obophenotype/bio-attribute-ontology/issues/454.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2060175> "obsolete amount of hemoglobin in blood")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2060175> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2060178> (<http://purl.obolibrary.org/obo/OBA_2060178>)
+# Class: <http://purl.obolibrary.org/obo/OBA_2060178> (obsolete amount of albumin in blood)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2060178> <http://purl.obolibrary.org/obo/OBA_VT0000199>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2060178> "Reason for obsoletion: duplicate of OBA:VT0000199 (blood albumin amount), see https://github.com/obophenotype/bio-attribute-ontology/issues/454.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2060178> "obsolete amount of albumin in blood")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2060178> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_VT0000187> (<http://purl.obolibrary.org/obo/OBA_VT0000187>)
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0000187> (obsolete triglyceride amount)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_VT0000187> <http://purl.obolibrary.org/obo/OBA_2040183>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_VT0000187> "Reason for obsoletion: this term is a too generic of a category that goes beyond the realm of biological attributes. For example, the obsolete term could be applied to chemicals in environmental samples which is beyond the scope of OBA.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0000187> "obsolete triglyceride amount")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_VT0000187> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_VT0002918> (<http://purl.obolibrary.org/obo/OBA_VT0002918>)
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0002918> (obsolete paired-pulse facilitation trait)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_VT0002918> "Reason for obsoletion: the label 'paired-pulse facilitation trait' of OBA:VT0002918 and the definition of the matching term http://purl.obolibrary.org/obo/VT_0002918 do not agree with the logical definition in OBA. No appropriate GO process term exists to correct the logical definition at the time of the term obsoletion.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0002918> "obsolete paired-pulse facilitation trait")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_VT0002918> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_VT0003952> (<http://purl.obolibrary.org/obo/OBA_VT0003952>)
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0003952> (obsolete copper amount)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_VT0003952> <http://purl.obolibrary.org/obo/OBA_1000943>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_VT0003952> "Reason for obsoletion: this term is a too generic of a category that goes beyond the realm of biological attributes. For example, the obsolete term could be applied to chemicals in environmental samples which is beyond the scope of OBA.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0003952> "obsolete copper amount")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_VT0003952> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/OBA_VT0004271> (<http://purl.obolibrary.org/obo/OBA_VT0004271>)
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0004271> (obsolete paw/hand/foot/hoof morphology trait)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_VT0004271> <http://purl.obolibrary.org/obo/OBA_VT0000572>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0004271> "obsolete paw/hand/foot/hoof morphology trait")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_VT0004271> "true"^^xsd:boolean)
 
 
