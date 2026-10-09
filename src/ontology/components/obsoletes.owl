@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/oba/components/obsoletes.owl>
-<http://purl.obolibrary.org/obo/oba/releases/2026-09-02/components/obsoletes.owl>
-Annotation(owl:versionInfo "2026-09-02")
+<http://purl.obolibrary.org/obo/oba/releases/2026-10-09/components/obsoletes.owl>
+Annotation(owl:versionInfo "2026-10-09")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000039>))
@@ -16,16 +16,29 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000050>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000121>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0002145>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003556>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003746>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003813>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003847>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003859>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003862>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003898>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003901>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003930>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003933>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003943>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003995>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004005>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004086>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004087>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004095>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004101>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004118>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004133>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004334>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004427>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004543>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004614>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004680>))
@@ -33,6 +46,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004681>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004682>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004683>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004684>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004847>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004848>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005181>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005187>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005515>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005707>))
@@ -123,6 +139,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000121> 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0002145> <http://purl.obolibrary.org/obo/OBA_VT0010464>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0002145> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_0003556> (<http://purl.obolibrary.org/obo/OBA_0003556>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003556> <http://purl.obolibrary.org/obo/OBA_VT0000844>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003556> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003556> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/OBA_0003746> (<http://purl.obolibrary.org/obo/OBA_0003746>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003746> <http://purl.obolibrary.org/obo/OBA_VT0002845>)
@@ -133,15 +155,62 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003746> 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003813> <http://purl.obolibrary.org/obo/OBA_0002401>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003813> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_0003847> (<http://purl.obolibrary.org/obo/OBA_0003847>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003847> <http://purl.obolibrary.org/obo/OBA_VT0003662>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003847> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003847> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0003859> (<http://purl.obolibrary.org/obo/OBA_0003859>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003859> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. There is no suitable value-neutral replacement in OBA. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003859> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0003862> (<http://purl.obolibrary.org/obo/OBA_0003862>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003862> <http://purl.obolibrary.org/obo/OBA_VT0003728>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003862> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003862> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/OBA_0003898> (<http://purl.obolibrary.org/obo/OBA_0003898>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003898> <http://purl.obolibrary.org/obo/OBA_VT1000111>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003898> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_0003901> (<http://purl.obolibrary.org/obo/OBA_0003901>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003901> <http://purl.obolibrary.org/obo/OBA_VT0004032>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003901> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003901> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0003930> (<http://purl.obolibrary.org/obo/OBA_0003930>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003930> <http://purl.obolibrary.org/obo/OBA_VT0004203>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003930> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003930> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0003933> (<http://purl.obolibrary.org/obo/OBA_0003933>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003933> <http://purl.obolibrary.org/obo/OBA_VT0004221>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003933> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003933> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/OBA_0003943> (<http://purl.obolibrary.org/obo/OBA_0003943>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003943> <http://purl.obolibrary.org/obo/OBA_VT0004272>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003943> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0003995> (<http://purl.obolibrary.org/obo/OBA_0003995>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0003995> <http://purl.obolibrary.org/obo/OBA_VT0004481>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0003995> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0003995> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0004005> (<http://purl.obolibrary.org/obo/OBA_0004005>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004005> <http://purl.obolibrary.org/obo/OBA_VT0000430>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0004005> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004005> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0004074> (<http://purl.obolibrary.org/obo/OBA_0004074>)
 
@@ -172,6 +241,28 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004095> 
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004101> <http://purl.obolibrary.org/obo/OBA_VT0010466>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004101> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0004118> (<http://purl.obolibrary.org/obo/OBA_0004118>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004118> <http://purl.obolibrary.org/obo/OBA_VT0005020>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0004118> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004118> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0004133> (<http://purl.obolibrary.org/obo/OBA_0004133>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0004133> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. There is no suitable value-neutral replacement in OBA. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004133> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0004334> (<http://purl.obolibrary.org/obo/OBA_0004334>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0004334> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. There is no suitable value-neutral replacement in OBA. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004334> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0004427> (<http://purl.obolibrary.org/obo/OBA_0004427>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004427> <http://purl.obolibrary.org/obo/OBA_VT0008473>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0004427> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. Replaced by the existing morphology trait for this entity. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004427> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0004543> (<http://purl.obolibrary.org/obo/OBA_0004543>)
 
@@ -207,6 +298,21 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004683> 
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0004684> <http://purl.obolibrary.org/obo/OBA_VT0010430>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004684> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0004847> (<http://purl.obolibrary.org/obo/OBA_0004847>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0004847> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. There is no suitable value-neutral replacement in OBA. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004847> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0004848> (<http://purl.obolibrary.org/obo/OBA_0004848>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0004848> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. There is no suitable value-neutral replacement in OBA. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0004848> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0005181> (<http://purl.obolibrary.org/obo/OBA_0005181>)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0005181> "Reason for obsoletion: this term was built on the obsolete PATO class 'deviation (from_normal)' (PATO:0000069), which describes an abnormality (phenotype) rather than a value-neutral trait. There is no suitable value-neutral replacement in OBA. See https://github.com/obophenotype/bio-attribute-ontology/issues/456.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0005181> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0005187> (<http://purl.obolibrary.org/obo/OBA_0005187>)
 
