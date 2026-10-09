@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/oba/components/obsoletes.owl>
-<http://purl.obolibrary.org/obo/oba/releases/2026-09-02/components/obsoletes.owl>
-Annotation(owl:versionInfo "2026-09-02")
+<http://purl.obolibrary.org/obo/oba/releases/2026-10-09/components/obsoletes.owl>
+Annotation(owl:versionInfo "2026-10-09")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000039>))
@@ -82,6 +82,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2050081>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2058599>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2060174>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2060175>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2060178>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000187>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0002918>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0003952>))
@@ -452,6 +455,24 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2050081> 
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2058599> <http://purl.obolibrary.org/obo/OBA_2080015>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2058599> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2060174> (<http://purl.obolibrary.org/obo/OBA_2060174>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2060174> <http://purl.obolibrary.org/obo/OBA_VT0001560>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2060174> "Reason for obsoletion: duplicate of OBA:VT0001560 (blood insulin amount), see https://github.com/obophenotype/bio-attribute-ontology/issues/454.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2060174> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2060175> (<http://purl.obolibrary.org/obo/OBA_2060175>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2060175> <http://purl.obolibrary.org/obo/OBA_VT0001588>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2060175> "Reason for obsoletion: duplicate of OBA:VT0001588 (blood hemoglobin amount), see https://github.com/obophenotype/bio-attribute-ontology/issues/454.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2060175> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2060178> (<http://purl.obolibrary.org/obo/OBA_2060178>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2060178> <http://purl.obolibrary.org/obo/OBA_VT0000199>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2060178> "Reason for obsoletion: duplicate of OBA:VT0000199 (blood albumin amount), see https://github.com/obophenotype/bio-attribute-ontology/issues/454.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2060178> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0000187> (<http://purl.obolibrary.org/obo/OBA_VT0000187>)
 
