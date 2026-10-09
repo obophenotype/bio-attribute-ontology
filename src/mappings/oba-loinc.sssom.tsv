@@ -263,7 +263,7 @@ subject_id	subject_label	subject_category	predicate_id	object_id	object_label	ma
 3193-0	Coagulation factor V activity actual/normal in Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:2050268	coagulation factor V amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
 28657-5	Coagulation factor X activated actual/normal in Platelet poor plasma by Chromogenic method		skos:broadMatch	OBA:2050298	coagulation factor X amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
 3218-5	Coagulation factor X activity actual/normal in Platelet poor plasma by Coagulation assay		skos:broadMatch	OBA:2050298	coagulation factor X amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
-785-6	MCH [Entitic mass] by Automated count		skos:relatedMatch	OBA:2060175	amount of hemoglobin in blood	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
+785-6	MCH [Entitic mass] by Automated count		skos:relatedMatch	OBA:VT0001588	blood hemoglobin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
 58442-5	Other elements [Identifier] in Urine sediment by Light microscopy		skos:broadMatch	OBA:VT0000056	urine trait	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
 1756-6	Albumin in CSF/Albumin in Serum or Plasma		skos:relatedMatch	OBA:VT0000199	blood albumin amount	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754
 20493-3	Histiocytes/100 cells in Body fluid by Light microscopy		skos:broadMatch	OBA:VT0000217	leukocyte quantity	semapv:ManualMappingCuration	LOINC	OBA	1	2024-09-03	orcid:0000-0002-6581-7754

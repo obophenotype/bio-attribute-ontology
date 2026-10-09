@@ -14,6 +14,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000039>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000050>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000074>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000116>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000121>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0002145>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0003556>))
@@ -67,6 +68,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000846>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000870>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000873>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000951>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001018>))
@@ -98,6 +100,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1001044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2050081>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2058599>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2060174>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2060175>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2060178>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000187>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0002918>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0003952>))
@@ -128,6 +133,12 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000050> 
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0000074> <http://purl.obolibrary.org/obo/OBA_1001087>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000074> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0000116> (<http://purl.obolibrary.org/obo/OBA_0000116>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_0000116> <http://purl.obolibrary.org/obo/OBA_1000993>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_0000116> "Reason for obsoletion: duplicate of OBA:1000993 (neurotransmitter amount), see https://github.com/obophenotype/bio-attribute-ontology/issues/454.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_0000116> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0000121> (<http://purl.obolibrary.org/obo/OBA_0000121>)
 
@@ -402,6 +413,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1000951> "Reason for obsoletion: this term is a too generic of a category that goes beyond the realm of biological attributes. For example, the obsolete term could be applied to chemicals in environmental samples which is beyond the scope of OBA.")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1000951> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1001013> (<http://purl.obolibrary.org/obo/OBA_1001013>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001013> <http://purl.obolibrary.org/obo/OBA_VT0008752>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_1001013> "Reason for obsoletion: duplicate of OBA:VT0008752 (tumor necrosis factor amount), see https://github.com/obophenotype/bio-attribute-ontology/issues/454.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_1001013> "true"^^xsd:boolean)
+
 # Class: <http://purl.obolibrary.org/obo/OBA_1001014> (<http://purl.obolibrary.org/obo/OBA_1001014>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_1001014> <http://purl.obolibrary.org/obo/OBA_2040182>)
@@ -558,6 +575,24 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2050081> 
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2058599> <http://purl.obolibrary.org/obo/OBA_2080015>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2058599> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2060174> (<http://purl.obolibrary.org/obo/OBA_2060174>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2060174> <http://purl.obolibrary.org/obo/OBA_VT0001560>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2060174> "Reason for obsoletion: duplicate of OBA:VT0001560 (blood insulin amount), see https://github.com/obophenotype/bio-attribute-ontology/issues/454.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2060174> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2060175> (<http://purl.obolibrary.org/obo/OBA_2060175>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2060175> <http://purl.obolibrary.org/obo/OBA_VT0001588>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2060175> "Reason for obsoletion: duplicate of OBA:VT0001588 (blood hemoglobin amount), see https://github.com/obophenotype/bio-attribute-ontology/issues/454.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2060175> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2060178> (<http://purl.obolibrary.org/obo/OBA_2060178>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/OBA_2060178> <http://purl.obolibrary.org/obo/OBA_VT0000199>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/OBA_2060178> "Reason for obsoletion: duplicate of OBA:VT0000199 (blood albumin amount), see https://github.com/obophenotype/bio-attribute-ontology/issues/454.")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/OBA_2060178> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0000187> (<http://purl.obolibrary.org/obo/OBA_VT0000187>)
 
