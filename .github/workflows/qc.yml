@@ -26,6 +26,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
+      - name: Validate DOSDP patterns
+        run: cd src/ontology && make dosdp_validation PAT=true IMP=false MIR=false
+
       - name: Run ontology QC checks
         env:
           DEFAULT_BRANCH: master
