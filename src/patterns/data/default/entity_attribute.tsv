@@ -1,5 +1,5 @@
-defined_class	defined_class_name	entity	entity_name	attribute	attribute_name	exact_synonyms	xrefs	orcid
-OBA:0000036	body fluid levels	UBERON:0006314	bodily fluid	PATO:0000918	volume			
+defined_class	defined_class_name	entity	entity_name	attribute	attribute_name	exact_synonyms	xrefs	orcid	previous_label
+OBA:0000036	body fluid volume	UBERON:0006314	bodily fluid	PATO:0000918	volume				body fluid levels
 OBA:0000006	Malpighian tubule diameter	UBERON:0001054	Malpighian tubule	PATO:0001334	diameter			
 OBA:0000007	Malpighian tubule size	UBERON:0001054	Malpighian tubule	PATO:0000117	size			
 OBA:0000011	actin filament length	GO:0005884	actin filament	PATO:0000122	length			
@@ -14,7 +14,7 @@ OBA:0000055	cell size	CL:0000000	cell	PATO:0000117	size
 OBA:0000056	cell volume	CL:0000000	cell	PATO:0000918	volume			
 OBA:0000057	cellular component size	GO:0005575	cellular_component	PATO:0000117	size			
 OBA:0000060	cilium beat frequency	GO:0003341	cilium movement	PATO:0000044	frequency			
-OBA:0000061	circulating fibrinogen levels	GO:0005577	fibrinogen complex	PATO:0000070	amount			
+OBA:0000061	circulating fibrinogen amount	GO:0005577	fibrinogen complex	PATO:0000070	amount				circulating fibrinogen levels
 OBA:0000066	direction of cell growth	GO:0016049	cell growth	PATO:0000039	direction			
 OBA:0000067	embryonic cell shape	CL:0002321	embryonic cell	PATO:0000052	shape			
 OBA:0000068	endosome size	GO:0005768	endosome	PATO:0000117	size			
@@ -2455,7 +2455,6 @@ OBA:0003552		CL:0002608	hippocampal neuron	PATO:0002037	degeneration
 OBA:0003553		UBERON:0001886	choroid plexus	PATO:0000117	size			
 OBA:0003554		UBERON:0001894	diencephalon	PATO:0000117	size			
 OBA:0003555		UBERON:0001898	hypothalamus	PATO:0000117	size			
-OBA:0003556		UBERON:0005820	pontine flexure	PATO:0000069	deviation(from_normal)			
 OBA:0003557		UBERON:0010415	barrel cortex	PATO:0002264	organization quality			
 OBA:0003558		UBERON:0008829	cerebellum external granule cell layer	PATO:0000117	size			
 OBA:0003559		CL:0000121	Purkinje cell	PATO:0002037	degeneration			
@@ -2690,7 +2689,6 @@ OBA:0003843		UBERON:0002068	urachus	PATO:0000060	spatial pattern
 OBA:0003844		UBERON:0000002	uterine cervix	PATO:0000136	closure			
 OBA:0003845		UBERON:0000362	renal medulla	PATO:0000117	size			
 OBA:0003846		UBERON:0002224	thoracic cavity	PATO:0000025	composition			
-OBA:0003847		UBERON:0006771	long bone epiphyseal plate proliferative zone	PATO:0000069	deviation(from_normal)			
 OBA:0003848		GO:0048240	sperm capacitation	PATO:0000161	rate			
 OBA:0003850		UBERON:0001847	lobule of pinna	PATO:0000140	position			
 OBA:0003851		UBERON:0001847	lobule of pinna	PATO:0015007	prominence			
@@ -2700,9 +2698,7 @@ OBA:0003854		GO:0001835	blastocyst hatching	PATO:0002325	onset quality
 OBA:0003855		UBERON:0000086	zona pellucida	PATO:0000070	amount			
 OBA:0003857		GO:0005634	nucleus	PATO:0000070	amount			
 OBA:0003858		CL:0000000	cell	PATO:0001404	nucleate quality			
-OBA:0003859		GO:0001974	blood vessel remodeling	PATO:0000069	deviation(from_normal)			
 OBA:0003860		UBERON:0001691	external ear	PATO:0000060	spatial pattern			
-OBA:0003862		UBERON:0001787	photoreceptor layer of retina	PATO:0000069	deviation(from_normal)			
 OBA:0003863		UBERON:0001686	auditory ossicle bone	PATO:0001019	mass density			
 OBA:0003864		UBERON:0001686	auditory ossicle bone	PATO:0000141	structure			
 OBA:0003865		UBERON:0001716	secondary palate	PATO:0002005	concavity			
@@ -2734,7 +2730,6 @@ OBA:0003896	ductus venosus closure trait	UBERON:0002083	ductus venosus	PATO:0000
 OBA:0003897		GO:0014827	intestine smooth muscle contraction	PATO:0000161	rate			
 OBA:0003899		GO:0005694	chromosome	PATO:0000070	amount			
 OBA:0003900		CL:0000000	cell	PATO:0001374	ploidy			
-OBA:0003901		UBERON:0005455	interventricular groove	PATO:0000069	deviation(from_normal)			
 OBA:0003902		GO:0090075	relaxation of muscle	PATO:0000070	amount			
 OBA:0003903		UBERON:0000947	aorta	PATO:0000052	shape			
 OBA:0003904		UBERON:0004125	myocardial compact layer	PATO:0000117	size			
@@ -2752,9 +2747,7 @@ OBA:0003923		UBERON:0001508	arch of aorta	PATO:0000052	shape
 OBA:0003927		CL:0000602	pressoreceptor cell	PATO:0001509	functionality			
 OBA:0003928		UBERON:0000948	heart	PATO:0002005	concavity			
 OBA:0003929		UBERON:0000323	late embryo	PATO:0000117	size			
-OBA:0003930		UBERON:0005818	cephalic midbrain flexure	PATO:0000069	deviation(from_normal)			
 OBA:0003932		CL:0000746	cardiac muscle cell	PATO:0001509	functionality			
-OBA:0003933		UBERON:0006206	iridocorneal angle	PATO:0000069	deviation(from_normal)			
 OBA:0003934		UBERON:0005969	eye trabecular meshwork	PATO:0000070	amount			
 OBA:0003936		UBERON:0006720	pterygoid muscle	PATO:0000070	amount			
 OBA:0003938		GO:0001947	heart looping	PATO:0000070	amount			
@@ -2810,7 +2803,6 @@ OBA:0003991		UBERON:0006428	basisphenoid bone	PATO:0000141	structure
 OBA:0003992		CL:0002490	organ of Corti supporting cell	PATO:0002037	degeneration			
 OBA:0003993		UBERON:0001682	palatine bone	PATO:0000117	size			
 OBA:0003994		UBERON:0001762	turbinate bone	PATO:0000117	size			
-OBA:0003995		UBERON:0006763	epithelium of conjunctiva	PATO:0000069	deviation(from_normal)			
 OBA:0003996		CL:0002172	interdental cell of cochlea	PATO:0000070	amount			
 OBA:0003997		CL:0002670	type 1 otic fibrocyte	PATO:0002037	degeneration			
 OBA:0003998		CL:0002666	type 2 otic fibrocyte	PATO:0002037	degeneration			
@@ -2818,7 +2810,6 @@ OBA:0003999		CL:0002669	type 3 otic fibrocyte	PATO:0002037	degeneration
 OBA:0004000		CL:0002668	type 4 otic fibrocyte	PATO:0002037	degeneration			
 OBA:0004001		GO:0014047	glutamate secretion	PATO:0000161	rate			
 OBA:0004003		GO:0007567	parturition	PATO:0001309	duration			
-OBA:0004005		UBERON:0005871	palatine process of maxilla	PATO:0000069	deviation(from_normal)			
 OBA:0004006		GO:0007340	acrosome reaction	PATO:0000161	rate			
 OBA:0004007		CL:0000019	sperm	PATO:0001509	functionality			
 OBA:0004008		UBERON:0003126	trachea	PATO:0000122	length			
@@ -2889,7 +2880,6 @@ OBA:0004112		CL:0000062	osteoblast	PATO:0000070	amount
 OBA:0004114		GO:0045453	bone resorption	PATO:0000161	rate			
 OBA:0004115		GO:0007416	synapse assembly	PATO:0000161	rate			
 OBA:0004116		GO:0002249	lymphocyte anergy	PATO:0000161	rate			
-OBA:0004118		CL:0002048	late pro-B cell	PATO:0000069	deviation(from_normal)			
 OBA:0004119		UBERON:0000305	amnion	PATO:0000070	amount			
 OBA:0004120		GO:0042613	MHC class II protein complex	PATO:0000070	amount			
 OBA:0004121		UBERON:0001959	white pulp of spleen	PATO:0002083	altered number of			
@@ -2902,7 +2892,6 @@ OBA:0004129		GO:0042098	T cell proliferation	PATO:0000161	rate
 OBA:0004130		GO:0060048	cardiac muscle contraction	PATO:0000161	rate			
 OBA:0004131		UBERON:0004346	gubernaculum (male or female)	PATO:0000141	structure			
 OBA:0004132		UBERON:0000160	intestine	PATO:0000140	position			
-OBA:0004133		GO:0060856	establishment of blood-brain barrier	PATO:0000069	deviation(from_normal)			
 OBA:0004134		UBERON:0001834	upper lip	PATO:0000052	shape			
 OBA:0004135		UBERON:0000019	camera-type eye	PATO:0000136	closure			
 OBA:0004137		UBERON:0004029	canal of Schlemm	PATO:0000060	spatial pattern			
@@ -3042,7 +3031,6 @@ OBA:0004329		UBERON:0000908	hippocampal commissure	PATO:0000117	size
 OBA:0004330		UBERON:0000908	hippocampal commissure	PATO:0000070	amount			
 OBA:0004332		UBERON:0000935	anterior commissure	PATO:0000117	size			
 OBA:0004333		UBERON:0000935	anterior commissure	PATO:0000070	amount			
-OBA:0004334		UBERON:0001909	habenular commissure	PATO:0000069	deviation(from_normal)			
 OBA:0004336		UBERON:0001251	marginal zone of spleen	PATO:0000070	amount			
 OBA:0004341		UBERON:0001296	myometrium	PATO:0000117	size			
 OBA:0004342		UBERON:0001295	endometrium	PATO:0000117	size			
@@ -3099,7 +3087,6 @@ OBA:0004422		UBERON:0002079	left cardiac atrium	PATO:0000965	symmetry
 OBA:0004424		UBERON:0003968	peripheral lymph node	PATO:0000070	amount			
 OBA:0004425		UBERON:0002509	mesenteric lymph node	PATO:0000070	amount			
 OBA:0004426		CL:1001451	sensory neuron of dorsal root ganglion	PATO:0000070	amount			
-OBA:0004427		UBERON:0010756	spleen follicular dendritic cell network	PATO:0000069	deviation(from_normal)			
 OBA:0004428		UBERON:0001250	red pulp of spleen	PATO:0000070	amount			
 OBA:0004429		UBERON:0001959	white pulp of spleen	PATO:0000070	amount			
 OBA:0004430		UBERON:0003718	muscle spindle	PATO:0000070	amount			
@@ -3352,8 +3339,6 @@ OBA:0004841		UBERON:0009879	tarsal skeleton	PATO:0000070	amount
 OBA:0004843		UBERON:0002367	prostate gland	PATO:0000141	structure			
 OBA:0004844		UBERON:0001329	prostate gland anterior lobe	PATO:0000117	size			
 OBA:0004845		UBERON:0001911	mammary gland	PATO:0002181	displaced			
-OBA:0004847		GO:0072686	mitotic spindle	PATO:0000069	deviation(from_normal)			
-OBA:0004848		GO:0072687	meiotic spindle	PATO:0000069	deviation(from_normal)			
 OBA:0004850		UBERON:0000959	optic chiasma	PATO:0000070	amount			
 OBA:0004851		UBERON:0000966	retina	PATO:0000070	amount			
 OBA:0004852		CL:0000138	chondrocyte	PATO:0001509	functionality			
@@ -3491,7 +3476,6 @@ OBA:0005170		UBERON:0003996	cervical vertebra 1 arcus anterior	PATO:0000070	amou
 OBA:0005171		UBERON:0004096	odontoid process of cervical vertebra 2	PATO:0000070	amount			
 OBA:0005172		UBERON:0005810	cervical vertebra 1 anterior tubercle	PATO:0000070	amount			
 OBA:0005180		CL:0002573	Schwann cell	PATO:0000070	amount			
-OBA:0005181		UBERON:0005819	cervical flexure	PATO:0000069	deviation(from_normal)			
 OBA:0005183		UBERON:0006007	pre-Botzinger complex	PATO:0001509	functionality			
 OBA:0005185		CL:0000037	hematopoietic stem cell	PATO:0001509	functionality			
 OBA:0005186		GO:0071621	granulocyte chemotaxis	PATO:0000057	occurrence			
@@ -4113,7 +4097,7 @@ OBA:2045221	bowel opening frequency	GO:0035882	defecation rhythm	PATO:0000044	fr
 OBA:2045222	basophilic erythroblast count	CL:0000549	basophilic erythroblast	PATO:0000070	amount	prorubricyte count		https://orcid.org/0000-0001-8314-2140
 OBA:2045223	myeloid leukocyte count	CL:0000766	myeloid leukocyte	PATO:0000070	amount	myeloid white cell count		https://orcid.org/0000-0001-8314-2140
 OBA:2045224	visceral adipose tissue quantity	UBERON:0035818	visceral fat	PATO:0000070	amount			https://orcid.org/0000-0001-8314-2140
-OBA:2045225	blood clotting level	UBERON:0010210	blood clot	PATO:0000070	amount	thrombus formation level		https://orcid.org/0000-0001-8314-2140
+OBA:2045225	blood clotting amount	UBERON:0010210	blood clot	PATO:0000070	amount	thrombus formation level		https://orcid.org/0000-0001-8314-2140	blood clotting level
 OBA:2045226	carotid artery diameter	UBERON:0005396	carotid artery segment	PATO:0001334	diameter			https://orcid.org/0000-0001-8314-2140
 OBA:2045227	genu of corpus callosum volume	UBERON:0015599	genu of corpus callosum	PATO:0000918	volume			https://orcid.org/0000-0001-8314-2140
 OBA:2045228	rostrum of corpus callosum volume	UBERON:0015703	rostrum of corpus callosum	PATO:0000918	volume			https://orcid.org/0000-0001-8314-2140
@@ -4183,7 +4167,7 @@ OBA:2045294	asparaginase activity	GO:0006530	asparagine catabolic process	PATO:0
 OBA:2045295	brain connectivity attribute	UBERON:0000955	brain	PATO:0000141	structure			https://orcid.org/0000-0001-8314-2140
 OBA:2045296	defense response to other organism process attribute	GO:0098542	defense response to other organism	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140
 OBA:2045328	DNA methylation process attribute	GO:0009008	DNA-methyltransferase activity	PATO:0001236	process quality			https://orcid.org/0000-0001-8314-2140|https://orcid.org/0000-0001-6757-4744
-OBA:2045372	gestational blood glucose level	UBERON:0009097	gravid organism	OBA:VT0000188	blood glucose amount			https://orcid.org/0000-0001-8314-2140
+OBA:2045372	gestational blood glucose amount	UBERON:0009097	gravid organism	OBA:VT0000188	blood glucose amount			https://orcid.org/0000-0001-8314-2140	gestational blood glucose level
 OBA:2045389	leukocyte ratio	CL:0000738	leukocyte	PATO:0001470	ratio			https://orcid.org/0000-0001-8314-2140
 OBA:2045390	basophil ratio	CL:0000767	basophil	PATO:0001470	ratio			https://orcid.org/0000-0001-8314-2140
 OBA:2045391	eosinophil ratio	CL:0000771	eosinophil	PATO:0001470	ratio			https://orcid.org/0000-0001-8314-2140

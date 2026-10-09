@@ -23,10 +23,16 @@ annotationProperties:
   related_synonym: oio:hasRelatedSynonym
   xref: oio:hasDbXref
 
-vars: 
+vars:
   attribute: "'quality'"
   location: "'thing'"
   role: "'role'"
+
+data_vars:
+  previous_label: xsd:string
+
+data_list_vars:
+  exact_synonyms: xsd:string
 
 name:
   text: "%s of %s in %s"
@@ -56,8 +62,35 @@ annotations:
       - annotationProperty: xref
         text: "AUTO:patterns/patterns/chemical_role_attribute_location"
 
+  # Entity-first synonym ("X amount in Y"). The "/generated" suffix on its xref
+  # marks it for ../../sparql/postprocess-definitions.ru, which keeps it only on
+  # amount traits, drops the placeholder location and any clash, then removes
+  # the suffix.
+  - annotationProperty: exact_synonym
+    text: "%s %s in %s"
+    vars:
+      - role
+      - attribute
+      - location
+    annotations:
+      - annotationProperty: xref
+        text: "AUTO:patterns/patterns/chemical_role_attribute_location/generated"
 
-equivalentTo: 
+  # Former label of a relabelled term (previous_label column). The marker xref
+  # becomes synonym type OMO:0003000 "previous name" in
+  # ../../sparql/postprocess-definitions.ru.
+  - annotationProperty: exact_synonym
+    text: "%s"
+    vars:
+      - previous_label
+    annotations:
+      - annotationProperty: xref
+        text: "AUTO:previous_label"
+
+exact_synonym:
+  value: exact_synonyms
+
+equivalentTo:
   text: "%s and 'characteristic_of' some (('chemical entity' and ('has_role' some %s)) and 'part_of' some %s)"
   vars:
     - attribute
