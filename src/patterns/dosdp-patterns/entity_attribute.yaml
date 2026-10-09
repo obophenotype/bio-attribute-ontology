@@ -25,6 +25,9 @@ vars:
   attribute: "'quality'"
   entity: "'thing'"
 
+data_vars:
+  previous_label: xsd:string
+
 data_list_vars:
   exact_synonyms: xsd:string
   xrefs: xsd:anyURI
@@ -48,6 +51,17 @@ annotations:
 
   - annotationProperty: contributor
     value: orcid
+
+  # Former label of a relabelled term (previous_label column). The marker xref
+  # becomes synonym type OMO:0003000 "previous name" in
+  # ../../sparql/postprocess-definitions.ru.
+  - annotationProperty: exact_synonym
+    text: "%s"
+    vars:
+      - previous_label
+    annotations:
+      - annotationProperty: xref
+        text: "AUTO:previous_label"
 
 def:
   text: "The %s of a %s."

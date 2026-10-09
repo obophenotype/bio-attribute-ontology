@@ -34,7 +34,7 @@ This includes instructions for editing the OBA ontology.
 
     1- Read the issue carefully to identify the most appropriate design pattern and filler terms. Use the following examples as a general guide.
 
-        Example 1: The amount or level of cholesterol when measured in blood serum. Use the design pattern template `entity_attribute_location.tsv` and the filler terms: cholesterol, amount and blood serum.
+        Example 1: The amount or level of cholesterol when measured in blood serum. Use the design pattern template `entity_attribute_location.tsv` and the filler terms: cholesterol, amount and blood serum. Leave `defined_class_name` empty: the pattern labels the term `amount of cholesterol in blood serum` and generates the synonyms `cholesterol amount in blood serum` and `level of cholesterol in blood serum` itself. Never use "level" in a label (see `docs/editors-guide.md`, "Term label conventions").
                 
         Example 2: The age at which asthma manifestations first appear. Use the design pattern template `disease_onset.tsv` and the filler term: asthma.
 
@@ -103,7 +103,7 @@ Ontology ID: http://purl.obolibrary.org/obo/OBA_2050081
 Type: owl:Class
 Obsolete: true
 Replacement Term: http://purl.obolibrary.org/obo/OBA_2045319
-label of replaced class: serum gamma-glutamyl transferase level
+label of replaced class: amount of gamma-glutamyl transferase in blood serum
 Comment: Reason for obsoletion: a term with the same intended meaning already exists.
 
 ```
@@ -134,11 +134,11 @@ These should follow genus-differentia form, and depend on the pattern used.
 
         [Term]
         id: OBA:2040177
-        name: level of ceramide
-        def: "The amount of a ceramide when measured in anatomical entity." [AUTO:patterns/patterns/entity_attribute_location]
-        synonym: "anatomical entity ceramide amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
+        name: amount of ceramide
+        def: "The amount of a ceramide." [AUTO:patterns/patterns/entity_attribute_location]
         synonym: "ceramide amount" EXACT []
-        is_a: OBA:1000965 ! sphingolipid level
+        synonym: "level of ceramide" EXACT OMO:0003000 []
+        is_a: OBA:1000965 ! amount of sphingolipid
         property_value: terms:contributor "https://orcid.org/0000-0001-8314-2140" xsd:string
 
         ```
