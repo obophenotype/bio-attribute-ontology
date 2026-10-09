@@ -188,6 +188,12 @@ check_children_oba: $(CHECK_SPARQL)
 
 test: check_children_oba
 
+# Makefile's dosdp_validation is a no-op when PAT=false, which is how CI runs
+test: validate_dosdp_patterns
+.PHONY: validate_dosdp_patterns
+validate_dosdp_patterns:
+	$(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns/
+
 ##################################
 ### Synchronisation pipeline #####
 ##################################
