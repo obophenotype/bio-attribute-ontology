@@ -8136,7 +8136,7 @@ OBA:1001009	amount of Luteinizing hormone	CHEBI:81568	Luteinizing hormone	PATO:0
 OBA:1001010	amount of thyroxine	CHEBI:30660	thyroxine	PATO:0000070	amount	UBERON:0001062	anatomical entity	thyroxine amount				https://orcid.org/0000-0001-8314-2140		thyroxine level
 OBA:1001011	amount of phospholipid	CHEBI:16247	phospholipid	PATO:0000070	amount	UBERON:0001062	anatomical entity	phospholipid amount				https://orcid.org/0000-0001-8314-2140		phospholipid level
 OBA:1001012	amount of neopterin	CHEBI:28670	neopterin	PATO:0000070	amount	UBERON:0001062	anatomical entity	neopterin amount				https://orcid.org/0000-0001-8314-2140		neopterin level
-OBA:1001013	amount of tumor necrosis factor alpha	PR:000000134	tumor necrosis factor alpha	PATO:0000070	amount	UBERON:0001062	anatomical entity	tumor necrosis factor alpha amount				https://orcid.org/0000-0001-8314-2140		tumor necrosis factor alpha level
+OBA:VT0008752	tumor necrosis factor amount	PR:000000134	tumor necrosis factor	PATO:0000070	amount	UBERON:0001062	anatomical entity	tumor necrosis factor alpha amount|amount of tumor necrosis factor alpha						tumor necrosis factor level
 OBA:1001015	amount of folic acid	CHEBI:27470	folic acid	PATO:0000070	amount	UBERON:0001062	anatomical entity	folic acid amount				https://orcid.org/0000-0001-8314-2140		folic acid level
 OBA:1001017	amount of lipoprotein	CHEBI:6495	lipoprotein	PATO:0000070	amount	UBERON:0001062	anatomical entity	lipoprotein amount				https://orcid.org/0000-0001-8314-2140		lipoprotein level
 OBA:VT0010917	amount of bile acid	CHEBI:3098	bile acid	PATO:0000070	amount	UBERON:0001062	anatomical entity	bile acid amount				https://orcid.org/0000-0001-8314-2140		bile acid level
