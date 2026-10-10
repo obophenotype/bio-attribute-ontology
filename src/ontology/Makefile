@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                638e5e459c9110631f0c33e6ba05f58ed524d2b811765628021ef03ab8fb088c
+CONFIG_HASH=                43ca6cf390fff0845b505aaef5933300623a657867639b4abb847350e857cf5a
 
 
 # ----------------------------------------
@@ -193,7 +193,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  ro chebi goplus go pato omo hp mondo ncbitaxon uberon cl nbo pr so po bfo swisslipids lipidmaps ncit obi
+IMPORTS =  ro chebi goplus go pato omo hp mondo ncbitaxon uberon cl nbo pr so po bfo swisslipids lipidmaps ncit obi cob
 
 IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -433,6 +433,11 @@ $(IMPORTDIR)/merged_import.owl: $(MIRRORDIR)/merged.owl $(ALL_TERMS) \
 		 remove --select "<http://identifiers.org/hgnc/*>" \
 		 remove --select "<http://www.genenames.org/cgi-bin/gene_symbol_report*>" \
 		 remove --select "<http://www.ncbi.nlm.nih.gov/gene/*>" \
+		 remove --select "<http://identifiers.org/ensembl/*>" \
+		 remove --select "<http://identifiers.org/ncbigene/*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/CLM_*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/NCIT_C19085*>" \
+		 remove --select "<http://purl.obolibrary.org/obo/NCIT_C35920*>" \
 		 extract $(foreach f, $(ALL_TERMS), --term-file $(f)) $(T_IMPORTSEED) \
 		         --force true --copy-ontology-annotations false \
 		         --individuals include \
@@ -678,9 +683,16 @@ mirror-ncit: | $(TMPDIR)
 ## ONTOLOGY: obi
 .PHONY: mirror-obi
 .PRECIOUS: $(MIRRORDIR)/obi.owl
-mirror-obi: | $(TMPDIR)
-	curl -L $(OBOBASE)/obi.owl --create-dirs -o $(TMPDIR)/obi-download.owl --retry 4 --max-time 200 && \
-	$(ROBOT) remove -i $(TMPDIR)/obi-download.owl --base-iri http://purl.obolibrary.org/obo/OBI --axioms external --preserve-structure false --trim false -o $(TMPDIR)/$@.owl
+$(MIRRORDIR)/obi.owl: 
+	echo "ERROR: You have configured your default mirror type to be custom; this behavior needs to be overwritten in oba.Makefile!" && false
+
+
+## ONTOLOGY: cob
+.PHONY: mirror-cob
+.PRECIOUS: $(MIRRORDIR)/cob.owl
+mirror-cob: | $(TMPDIR)
+	curl -L $(OBOBASE)/cob/cob-base.owl --create-dirs -o $(TMPDIR)/cob-download.owl --retry 4 --max-time 200 && \
+	$(ROBOT) convert -i $(TMPDIR)/cob-download.owl -o $(TMPDIR)/$@.owl
 
 ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
 MERGE_MIRRORS = true

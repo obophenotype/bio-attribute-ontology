@@ -40,6 +40,11 @@ import_group:
     - <http://identifiers.org/hgnc/*>
     - <http://www.genenames.org/cgi-bin/gene_symbol_report*>
     - <http://www.ncbi.nlm.nih.gov/gene/*>
+    - <http://identifiers.org/ensembl/*>
+    - <http://identifiers.org/ncbigene/*>
+    - <http://purl.obolibrary.org/obo/CLM_*>
+    - <http://purl.obolibrary.org/obo/NCIT_C19085*>
+    - <http://purl.obolibrary.org/obo/NCIT_C35920*>
   products:
     - id: ro
       use_base: True
@@ -90,7 +95,9 @@ import_group:
       make_base: TRUE
       mirror_from: https://raw.githubusercontent.com/ncit-obo-org/ncit-obo-edition/refs/heads/main/src/ontology/ncit-obo-slim.owl
     - id: obi
-      make_base: TRUE
+      mirror_type: custom
+    - id: cob
+      use_base: True
 components:
   products:
     - filename: obsoletes.owl

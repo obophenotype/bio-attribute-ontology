@@ -94,6 +94,21 @@ $(MIRRORDIR)/lipidmaps.owl: $(TEMPLATEDIR)/lipidmaps.tsv
 		$(patsubst %, --template %, $^) \
 		$(ANNOTATE_CONVERT_FILE); fi
 
+# OBA only needs a handful of OBI terms (e.g. 'fasting' in the patterns). A BOT
+# module of the OBI base drags in ~80 OBI classes and a tail of unlabelled
+# IAO/COB classes, so the OBI mirror is a MIREOT of just the OBI terms we use:
+# those in the import seed plus imports/obi_terms.txt (OBI:0000260 'plan' is
+# listed there because cob-base references it from COB:0000035).
+$(TMPDIR)/obi_mireot_terms.txt: $(IMPORTDIR)/obi_terms.txt $(IMPORTSEED)
+	{ cat $(IMPORTDIR)/obi_terms.txt; grep 'obo/OBI_' $(IMPORTSEED) || true; } | sort -u > $@
+
+$(MIRRORDIR)/obi.owl: $(TMPDIR)/obi_mireot_terms.txt
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then \
+		curl -L $(OBOBASE)/obi.owl --create-dirs -o $(TMPDIR)/obi-download.owl --retry 4 --max-time 200 && \
+		$(ROBOT) extract -i $(TMPDIR)/obi-download.owl --method MIREOT --lower-terms $< \
+			remove --base-iri $(URIBASE)/OBI_ --axioms external --preserve-structure false --trim false \
+			convert -o $@; fi
+
 # FULL is overwritten because it needs materialize
 $(ONT)-full.owl: $(SRC) $(OTHER_SRC)
 	echo "INFO: Running FULL release, which is customised for OBA."
@@ -187,6 +202,14 @@ check_children_oba: $(CHECK_SPARQL)
 	$(ROBOT) verify -i $< --queries ../sparql/biological-attribute-child-violation.sparql -O $(REPORTDIR)
 
 test: check_children_oba
+
+# Unlabelled external classes in the import are strays pulled in by axioms we
+# don't need; exclude them via import_group.exclude_iri_patterns in oba-odk.yaml
+.PHONY: check_unlabelled_imports
+check_unlabelled_imports: $(IMPORTDIR)/merged_import.owl
+	$(ROBOT) verify -i $< --queries ../sparql/unlabelled-import-class-violation.sparql -O $(REPORTDIR)
+
+test: check_unlabelled_imports
 
 # Makefile's dosdp_validation is a no-op when PAT=false, which is how CI runs
 test: validate_dosdp_patterns
