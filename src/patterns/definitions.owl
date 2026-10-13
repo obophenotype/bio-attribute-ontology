@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/oba/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/oba/releases/2026-10-10/patterns/definitions.owl>
-Annotation(owl:versionInfo "2026-10-10")
+<http://purl.obolibrary.org/obo/oba/releases/2026-10-13/patterns/definitions.owl>
+Annotation(owl:versionInfo "2026-10-13")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_10033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_10112>))
@@ -24805,6 +24805,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100402>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100403>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100404>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100405>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100406>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100407>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100408>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000003>))
@@ -265156,6 +265159,42 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/OBA_2100405> "rate of progression of wet macular degeneration")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2100405> "wet macular degeneration progression trait")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2100405> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0002323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/MONDO_0005417>)))
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2100406> (amount of potassium in blood serum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBA_2100406> "Serves LOINC 2823-3 Potassium [Moles/volume] in Serum or Plasma. Distinct from the whole-blood trait blood potassium amount (OBA_VT0002668). Blood serum is part of blood plasma, which is part of blood, so this trait is classified under the whole-blood one.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2100406> "The amount of a potassium atom when measured in blood serum.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_2100406> "https://orcid.org/0000-0003-3311-7320")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/OBA_2100406> "http://purl.obolibrary.org/obo/CMO_0000495")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2100406> "blood serum potassium atom amount")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2100406> "level of potassium in blood serum")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2100406> "potassium atom amount in blood serum")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2100406> "amount of potassium in blood serum")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2100406> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_26216> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001977>)))))
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2100407> (amount of calcium in blood serum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBA_2100407> "Serves LOINC 2000-8 Calcium [Moles/volume] in Serum or Plasma. Distinct from the whole-blood trait blood calcium amount (OBA_VT0001562). Blood serum is part of blood plasma, which is part of blood, so this trait is classified under the whole-blood one.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2100407> "The amount of a calcium atom when measured in blood serum.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_2100407> "https://orcid.org/0000-0003-3311-7320")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/OBA_2100407> "http://purl.obolibrary.org/obo/CMO_0000503")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2100407> "blood serum calcium atom amount")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2100407> "calcium atom amount in blood serum")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2100407> "level of calcium in blood serum")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2100407> "amount of calcium in blood serum")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2100407> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_22984> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001977>)))))
+
+# Class: <http://purl.obolibrary.org/obo/OBA_2100408> (amount of magnesium in blood serum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/OBA_2100408> "Serves LOINC 2601-3 Magnesium [Moles/volume] in Serum or Plasma. Distinct from the whole-blood trait blood magnesium amount (OBA_VT0001771). Blood serum is part of blood plasma, which is part of blood, so this trait is classified under the whole-blood one.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2100408> "The amount of a magnesium atom when measured in blood serum.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/OBA_2100408> "https://orcid.org/0000-0003-3311-7320")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/OBA_2100408> "http://purl.obolibrary.org/obo/CMO_0000541")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2100408> "blood serum magnesium atom amount")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2100408> "level of magnesium in blood serum")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2100408> "magnesium atom amount in blood serum")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2100408> "amount of magnesium in blood serum")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2100408> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_25107> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001977>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0000000> (mammary gland secreted fluid morphology trait)
 
