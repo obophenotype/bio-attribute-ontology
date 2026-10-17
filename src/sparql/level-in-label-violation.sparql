@@ -16,4 +16,13 @@ SELECT ?entity ?property ?value WHERE {
   FILTER(STRSTARTS(STR(?entity), "http://purl.obolibrary.org/obo/OBA_"))
   FILTER NOT EXISTS { ?entity owl:deprecated "true"^^xsd:boolean }
   FILTER(REGEX(STR(?value), "\\blevels?\\b", "i"))
+
+  # Traits whose "level" comes from the name of the filler itself, not from
+  # amount wording. This check runs without imports, so it cannot look up the
+  # filler label; list them explicitly.
+  FILTER NOT EXISTS {
+    VALUES ?entity {
+      <http://purl.obolibrary.org/obo/OBA_2045517>  # response to nutrient levels trait (GO:0031667)
+    }
+  }
 }
