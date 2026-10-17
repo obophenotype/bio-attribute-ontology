@@ -17,7 +17,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_0003674>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001236>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001470>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute_location.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/oba/patterns/disease_onset.yaml>))
@@ -33,6 +36,8 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000087>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002314>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0020202>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0020203>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000112>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
@@ -41,6 +46,7 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>))
 
 
 
@@ -55,6 +61,20 @@ AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/attribute_location"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> "'thing' 'quality'"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> "'thing' in 'quality'"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/attribute_location.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> owl:Thing)))
+
+# Class: <http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml> ('quality' to 'quality' ratio)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/attribute_ratio"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml> "A compound attribute that is the ratio of 'quality' to 'quality'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml> "orcid"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml> "attribute_ratio"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml> "external_resource"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/attribute_ratio"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml> "the ratio of 'quality' to 'quality'"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml> "xsd:string"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml> "'quality' to 'quality' ratio"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/oba/patterns/attribute_ratio.yaml> ObjectIntersectionOf(ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001470> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020202> <http://purl.obolibrary.org/obo/PATO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0020203> <http://purl.obolibrary.org/obo/PATO_0000001>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/UBERON_0001062>)))
 
 # Class: <http://purl.obolibrary.org/obo/oba/patterns/chemical_role_attribute.yaml> ('role' 'quality')
 

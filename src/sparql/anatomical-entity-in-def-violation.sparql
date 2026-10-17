@@ -1,0 +1,26 @@
+# Flags OBA classes whose text definition mentions "anatomical entity" but
+# whose label does not. The entity_attribute_location amount/level terms are
+# generated with 'anatomical entity' (UBERON:0001062) as a placeholder location
+# and post-processed by ../sparql/postprocess-definitions.ru, which strips the
+# " when measured in anatomical entity" phrase from the definition. If that
+# pattern (or the strip) ever changes, the phrase would silently survive; this
+# check catches that. Terms where 'anatomical entity' legitimately belongs in
+# the definition (e.g. "anatomical entity mass", "anatomical entity morphology")
+# carry it in the label too, so they are not reported.
+# See https://github.com/obophenotype/bio-attribute-ontology/issues/439
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX IAO: <http://purl.obolibrary.org/obo/IAO_>
+
+SELECT ?entity ?property ?value WHERE {
+  ?entity IAO:0000115 ?value .
+  ?entity rdfs:label ?label .
+  BIND(IAO:0000115 AS ?property)
+
+  FILTER(STRSTARTS(STR(?entity), "http://purl.obolibrary.org/obo/OBA_"))
+  FILTER NOT EXISTS { ?entity owl:deprecated "true"^^xsd:boolean }
+  FILTER(CONTAINS(LCASE(STR(?value)), "anatomical entity"))
+  FILTER(!CONTAINS(LCASE(STR(?label)), "anatomical entity"))
+}

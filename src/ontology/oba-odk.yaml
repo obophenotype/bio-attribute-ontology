@@ -29,24 +29,28 @@ import_group:
     - <http://purl.obolibrary.org/obo/ECTO_*>
     - <http://purl.obolibrary.org/obo/ENVO_*>
     - <http://purl.obolibrary.org/obo/MF_*>
-    - <http://purl.obolibrary.org/obo/NCIT_*>
     - <http://purl.obolibrary.org/obo/OGMS_*>
     - <http://purl.obolibrary.org/obo/UPHENO_*>
-    - <http://purl.obolibrary.org/obo/OBI_*>
     - <http://purl.obolibrary.org/obo/HsapDv_*>
     - <http://purl.obolibrary.org/obo/MPATH_*>
+    - <http://purl.obolibrary.org/obo/MOD_*>
     - <http://www.geneontology.org/formats/*>
     - <http://purl.org/dc/*>
     - <http://swrl.stanford.edu/ontologies/*>
     - <http://identifiers.org/hgnc/*>
     - <http://www.genenames.org/cgi-bin/gene_symbol_report*>
     - <http://www.ncbi.nlm.nih.gov/gene/*>
+    - <http://identifiers.org/ensembl/*>
+    - <http://identifiers.org/ncbigene/*>
+    - <http://purl.obolibrary.org/obo/CLM_*>
+    - <http://purl.obolibrary.org/obo/NCIT_C19085*>
+    - <http://purl.obolibrary.org/obo/NCIT_C35920*>
   products:
     - id: ro
       use_base: True
     - id: chebi
       make_base: TRUE
-      mirror_from: https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl
+      mirror_from: http://purl.obolibrary.org/obo/upheno/chebi_slim.owl
     - id: goplus
       mirror_from: http://purl.obolibrary.org/obo/go/go-base.owl
       base_iris:
@@ -87,6 +91,13 @@ import_group:
       mirror_type: custom
     - id: lipidmaps
       mirror_type: custom
+    - id: ncit
+      make_base: TRUE
+      mirror_from: https://raw.githubusercontent.com/ncit-obo-org/ncit-obo-edition/refs/heads/main/src/ontology/ncit-obo-slim.owl
+    - id: obi
+      mirror_type: custom
+    - id: cob
+      use_base: True
 components:
   products:
     - filename: obsoletes.owl
@@ -109,6 +120,8 @@ robot_report:
   custom_sparql_checks :
     - equivalent-classes
     - owldef-self-reference
+    - anatomical-entity-in-def
+    - level-in-label
   custom_sparql_exports : 
     - basic-report
 documentation:

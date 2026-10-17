@@ -1,0 +1,13 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# An obsolete OBA class without a label. ROBOT's missing_label skips obsolete
+# classes and missing_obsolete_label only fires when a label exists, so neither
+# catches this. Labels come from the rdfs:label column of src/templates/obsoletes.tsv.
+# See https://github.com/obophenotype/bio-attribute-ontology/issues/460
+SELECT DISTINCT ?entity ?property ?value WHERE {
+  VALUES ?property { rdfs:label }
+  ?entity owl:deprecated true .
+  FILTER NOT EXISTS { ?entity rdfs:label ?value }
+  FILTER (STRSTARTS(STR(?entity), "http://purl.obolibrary.org/obo/OBA_"))
+}

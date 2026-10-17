@@ -1,5 +1,5 @@
 subject_id	subject_label	predicate_id	object_id	mapping_justification	comment
-EFO:0005514	HER2 status	skos:exactMatch	sssom:NoMapping	semapv:ManualMappingCuration	tumor level measurements out of scope for OBA
+EFO:0005514	HER2 status	skos:exactMatch	sssom:NoMapping	HumanCurated	tumor level measurements out of scope for OBA
 EFO:0007817	sleep apnea measurement				consider HP:0010535 Sleep apnea
 EFO:0008455	sleep apnea measurement during REM sleep				consider HP:0010535 Sleep apnea
 EFO:0004807	short sleep				consider HP:0033063 Shortened sleep cycle
