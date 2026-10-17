@@ -3180,13 +3180,11 @@ OBA:2050117	reproductive behavior trait	NBO:0000010	reproductive behavior	PATO:0
 OBA:2050118	helping behavior trait	NBO:0000287	helping behavior	PATO:0000001	quality
 OBA:2081988	glucosylceramidase activity trait	GO:0004348	glucosylceramidase activity	PATO:0000001	quality
 OBA:2045461	cell wall morphology	GO:0005618	cell wall	PATO:0000051	morphology
-OBA:2045462	bud neck morphology	GO:0005935	cellular bud neck	PATO:0000051	morphology
-OBA:2045463	bud morphology	GO:0005933	cellular bud	PATO:0000051	morphology
+OBA:2045462	cellular bud neck morphology	GO:0005935	cellular bud neck	PATO:0000051	morphology
+OBA:2045463	cellular bud morphology	GO:0005933	cellular bud	PATO:0000051	morphology
 OBA:2045464	vacuole morphology	GO:0005773	vacuole	PATO:0000051	morphology
 OBA:2045465	actin cytoskeleton morphology	GO:0015629	actin cytoskeleton	PATO:0000051	morphology
 OBA:2045466	spindle morphology	GO:0005819	spindle	PATO:0000051	morphology
-OBA:2045467	nucleus position	GO:0005634	nucleus	PATO:0000140	position
-OBA:2045468	spindle pole body position	GO:0005816	spindle pole body	PATO:0000140	position
 OBA:2045469	response to external stimulus trait	GO:0009605	response to external stimulus	PATO:0000001	quality
 OBA:2045471	cell budding trait	GO:0007114	cell budding	PATO:0000001	quality
 OBA:2045472	traversing start control point of mitotic cell cycle trait	GO:0007089	traversing start control point of mitotic cell cycle	PATO:0000001	quality

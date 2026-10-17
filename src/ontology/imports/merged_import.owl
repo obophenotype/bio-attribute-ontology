@@ -5437,7 +5437,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000080>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000001>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000018>))
@@ -60837,7 +60836,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0004023> "caus
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0004023> <http://purl.obolibrary.org/obo/RO_0002410>)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0004023> <http://purl.obolibrary.org/obo/RO_0040035>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0004024> (disease disrupts)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0004024> (disease causes disruption of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0004024> "A relationship between a disease and a process where the disease process disrupts the execution of the process.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0004024> "disease causes disruption of")
@@ -104112,12 +104111,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0000001> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0000001> <http://purl.obolibrary.org/obo/GO_0048311>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/GOREL_0002003> <http://purl.obolibrary.org/obo/GO_0005739>))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_2759>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0000002> (obsolete mitochondrial genome maintenance)
-
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0000002> "This term described phenotypic observations for multiple processes (including transport/lipid metabolism/ DNA metabolism/ fission/ fusion etc)")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0000002> "obsolete mitochondrial genome maintenance")
-AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GO_0000002> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0000011> (vacuole inheritance)
 
