@@ -217,6 +217,13 @@ test: validate_dosdp_patterns
 validate_dosdp_patterns:
 	$(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns/
 
+# Duplicate defined_class IDs (#470) and pattern variables without a TSV column
+# (#474); dosdp itself only warns about the latter and drops the axioms
+test: check_pattern_tsvs
+.PHONY: check_pattern_tsvs
+check_pattern_tsvs:
+	python3 ../scripts/check_pattern_tsvs.py $(PATTERNDIR)/dosdp-patterns $(PATTERNDIR)/data/default
+
 ##################################
 ### Synchronisation pipeline #####
 ##################################

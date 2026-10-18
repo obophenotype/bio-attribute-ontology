@@ -31,9 +31,9 @@ vars:
   entity: "'entity'"
   stimulus: "'stimulus'"
   location: "'location'"
-  usage_notes: xsd:string
 
 data_vars:
+  usage_notes: xsd:string
   previous_label: xsd:string
 
 data_list_vars:
