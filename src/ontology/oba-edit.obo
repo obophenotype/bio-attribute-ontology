@@ -4,6 +4,7 @@ import: http://purl.obolibrary.org/obo/oba/components/obsoletes.owl
 import: http://purl.obolibrary.org/obo/oba/components/synonyms.owl
 import: http://purl.obolibrary.org/obo/oba/imports/merged_import.owl
 import: http://purl.obolibrary.org/obo/oba/patterns/definitions.owl
+synonymtypedef: OMO:0003000 "previous name"
 ontology: oba
 property_value: http://purl.org/dc/elements/1.1/description "A collection of biological attributes (traits) covering all kingdoms of life. Interoperable with VT (vertebrate trait ontology) and TO (plant trait ontology). Extends PATO." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Ontology of Biological Attributes (OBA)" xsd:string
@@ -43,8 +44,8 @@ id: OBA:0000015 ! anatomical structure size
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000016 ! angiotensin levels in blood
-is_a: OBA:0000079 ! hormone levels
+id: OBA:0000016 ! amount of angiotensin in blood
+is_a: OBA:0000079 ! hormone amount
 
 [Term]
 id: OBA:0000018 ! appetite
@@ -62,7 +63,7 @@ id: OBA:0000032 ! blood vessel size
 is_a: OBA:0000172 ! tube size
 
 [Term]
-id: OBA:0000036 ! body fluid levels
+id: OBA:0000036 ! body fluid volume
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -106,7 +107,7 @@ comment: check this
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000061 ! circulating fibrinogen levels
+id: OBA:0000061 ! circulating fibrinogen amount
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -131,7 +132,7 @@ id: OBA:0000072 ! follicle cell microvillus length
 is_a: OBA:0000102 ! microvillus length
 
 [Term]
-id: OBA:0000079 ! hormone levels
+id: OBA:0000079 ! hormone amount
 comment: TODO - unify levels vs amount
 is_a: OBA:0000001 ! biological attribute
 
@@ -213,10 +214,6 @@ id: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
 id: OBA:0000116
-name: neurotransmitter levels
-comment: Was previously linked to neurotransmitter (GOCHE_25512)
-is_a: OBA:0100004 {is_asserted="true"} ! chemical entity attribute
-is_a: PATO:0000070 ! amount
 
 [Term]
 id: OBA:0000117 ! nuclear size
@@ -231,7 +228,6 @@ xref: Wikipedia:Osmotic_pressure
 
 [Term]
 id: OBA:0000121
-name: obsolete pH
 
 [Term]
 id: OBA:0000122 ! peroxisome size
@@ -333,7 +329,7 @@ is_a: OBA:0000015 ! anatomical structure size
 
 [Term]
 id: OBA:0000173 ! urinary volume
-is_a: OBA:0000036 ! body fluid levels
+is_a: OBA:0000036 ! body fluid volume
 
 [Term]
 id: OBA:0000174 ! vascular permeability
@@ -341,11 +337,13 @@ is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000181
-name: viral protein levels
+name: amount of viral protein
+synonym: "viral protein amount" EXACT []
+synonym: "viral protein levels" EXACT OMO:0003000 []
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
-id: OBA:0000182 ! nutrient level
+id: OBA:0000182 ! nutrient amount
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -366,6 +364,7 @@ id: OBA:0003476
 name: necrotic cell death amount
 def: "The amount of a necrotic cell death." []
 synonym: "amount of necrotic cell death" EXACT []
+synonym: "necrotic cell death level" EXACT []
 is_a: OBA:0100002 ! biological process attribute
 property_value: http://purl.org/dc/elements/1.1/date "2023-06-16T20:21:00Z" xsd:dateTime
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-8314-2140
@@ -1302,6 +1301,21 @@ created_by: cjmungall
 creation_date: 2015-09-29T15:36:19Z
 
 [Term]
+id: OBA:1000165
+name: orotic acid metabolic process quality
+def: "The quality of a orotic acid metabolic process." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of orotic acid metabolic process" EXACT [obo:oba/patterns/entity_attribute_part_of]
+is_a: OBA:1000604 ! monocarboxylic acid metabolic process quality
+
+[Term]
+id: OBA:1000338
+name: pyruvate family amino acid metabolic process quality
+def: "The quality of a pyruvate family amino acid metabolic process." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of pyruvate family amino acid metabolic process" EXACT [obo:oba/patterns/entity_attribute_part_of]
+is_a: OBA:1000232 ! amino acid metabolic process quality
+is_a: OBA:1000583 ! carboxylic acid metabolic process quality
+
+[Term]
 id: OBA:1000373
 name: neurotransmitter metabolic process quality
 def: "The quality of a neurotransmitter metabolic process." []
@@ -1342,6 +1356,16 @@ id: OBA:2020004 ! chemical in serum amount
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
+id: OBA:2044890
+name: amount of putative uncharacterized protein SLC66A1L (human) in blood serum
+def: "The amount of a putative uncharacterized protein SLC66A1L (human) when measured in blood serum." []
+synonym: "blood serum putative uncharacterized protein SLC66A1L (human) amount" EXACT []
+synonym: "level of putative uncharacterized protein SLC66A1L (human) in blood serum" EXACT OMO:0003000 []
+synonym: "putative uncharacterized protein SLC66A1L (human) amount in blood serum" EXACT []
+is_a: OBA:2050071 ! serum protein amount
+property_value: terms:contributor "https://orcid.org/0000-0001-6677-8489" xsd:string
+
+[Term]
 id: OBA:2045261 ! quality of life cycle
 is_a: OBA:0000001 ! biological attribute
 
@@ -1351,6 +1375,10 @@ is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:2060014 ! hippocampus stratum oriens thickness
+is_a: OBA:0000001 ! biological attribute
+
+[Term]
+id: OBA:2100390 ! disease progression trait
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -1377,13 +1405,6 @@ id: OBA:VT0005372 ! life span determination trait
 [Term]
 id: OBA:VT0005584 ! enzyme/coenzyme activity trait
 is_a: OBA:0000001 ! biological attribute
-
-[Term]
-id: OBA:VT0008752
-name: tumor necrosis factor amount
-comment: tumor necrosis factor receptor binding (GO_0005164) is a molecular function
-is_a: OBA:0000001 ! biological attribute
-is_a: PATO:0000070 ! amount
 
 [Typedef]
 id: OBA:2050187

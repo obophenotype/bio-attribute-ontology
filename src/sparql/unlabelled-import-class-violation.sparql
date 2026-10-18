@@ -1,0 +1,13 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Classes in the import module without a label. OBA classes are exempt, as
+# their labels come from the edit file.
+SELECT ?cls WHERE {
+  ?cls a owl:Class .
+  FILTER NOT EXISTS { ?cls rdfs:label ?label }
+  FILTER (isIRI(?cls))
+  FILTER (?cls NOT IN (owl:Thing, owl:Nothing))
+  FILTER (!STRSTARTS(STR(?cls), "http://purl.obolibrary.org/obo/OBA_"))
+}
+ORDER BY ?cls

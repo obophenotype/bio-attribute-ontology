@@ -1,26 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/components/reasoner_axioms.owl" uri="components/reasoner_axioms.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/pco_import.owl" uri="imports/pco_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/po_import.owl" uri="imports/po_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/pr_import.owl" uri="imports/pr_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/go_import.owl" uri="imports/go_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/cl_import.owl" uri="imports/cl_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/hp_import.owl" uri="imports/hp_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/mondo_import.owl" uri="imports/mondo_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/nbo_import.owl" uri="imports/nbo_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/so_import.owl" uri="imports/so_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/components/definitions.owl" uri="../patterns/definitions.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/external_import.owl" uri="imports/external_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/merged_import.owl" uri="imports/merged_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/components/obsoletes.owl" uri="components/obsoletes.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/components/synonyms.owl" uri="components/synonyms.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/modules/entity_attribute_location.owl" uri="modules/entity_attribute_location.owl"/>
-    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+  <group id="odk-managed-catalog" prefer="public">
+    <uri name="http://purl.obolibrary.org/obo/oba/imports/merged_import.owl" uri="imports/merged_import.owl" />
+    <uri name="http://purl.obolibrary.org/obo/oba/components/obsoletes.owl" uri="components/obsoletes.owl" />
+    <uri name="http://purl.obolibrary.org/obo/oba/components/synonyms.owl" uri="components/synonyms.owl" />
+    <uri name="http://purl.obolibrary.org/obo/oba/patterns/definitions.owl" uri="../patterns/definitions.owl" />
+  </group>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/components/reasoner_axioms.owl" uri="components/reasoner_axioms.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/pco_import.owl" uri="imports/pco_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/po_import.owl" uri="imports/po_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/pr_import.owl" uri="imports/pr_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/chebi_import.owl" uri="imports/chebi_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/uberon_import.owl" uri="imports/uberon_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/go_import.owl" uri="imports/go_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/cl_import.owl" uri="imports/cl_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/pato_import.owl" uri="imports/pato_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/hp_import.owl" uri="imports/hp_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/mondo_import.owl" uri="imports/mondo_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/nbo_import.owl" uri="imports/nbo_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/ro_import.owl" uri="imports/ro_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/so_import.owl" uri="imports/so_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/components/definitions.owl" uri="../patterns/definitions.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/external_import.owl" uri="imports/external_import.owl" />
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/oba/modules/entity_attribute_location.owl" uri="modules/entity_attribute_location.owl" />
+  <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" />
 </catalog>

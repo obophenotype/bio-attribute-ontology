@@ -8,7 +8,7 @@ on:
 jobs:
   dosdp:
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.5
+    container: obolibrary/odkfull:v1.6
     strategy:
       max-parallel: 1
     steps:

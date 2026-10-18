@@ -416,7 +416,7 @@ EFO:0020564	membrane metallo-endopeptidase-like 1 measurement	measurement	skos:e
 EFO:0020801	tumor necrosis factor receptor superfamily member 11b measurement	measurement	skos:exactMatch	OBA:2050271	tumor necrosis factor receptor superfamily member 11B amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
 EFO:0010931	tumor necrosis factor receptor 1 measurement	measurement	skos:narrowMatch	OBA:2050272	tumor necrosis factor receptor superfamily member 1A amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
 EFO:0020441	heterogeneous nuclear ribonucleoprotein a/b measurement	measurement	skos:exactMatch	OBA:2050273	heterogeneous nuclear ribonucleoprotein A/B amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
-EFO:0004684	tumor necrosis factor-alpha measurement	measurement	skos:exactMatch	OBA:1001013	tumor necrosis factor alpha amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
+EFO:0004684	tumor necrosis factor-alpha measurement	measurement	skos:exactMatch	OBA:VT0008752	tumor necrosis factor amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
 EFO:0008079	cell adhesion molecule-related/down-regulated by oncogenes measurement	measurement	skos:exactMatch	OBA:2050274	cell adhesion molecule-related/down-regulated by oncogenes amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
 EFO:0008032	basal cell adhesion molecule measurement	measurement	skos:exactMatch	OBA:2050275	basal cell adhesion molecule amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
 EFO:0020662	proteasome activator complex subunit 3 measurement	measurement	skos:exactMatch	OBA:2050276	proteasome activator complex subunit 3 amount		HumanCurated	EFO	OBA	1	2023-08-02				orcid:0000-0001-6757-4744
@@ -625,9 +625,9 @@ EFO:0010293	choroid plexus volume measurement	measurement	skos:exactMatch	OBA:20
 EFO:0010295	corpus callosum anterior volume measurement	measurement	skos:exactMatch	OBA:2045227	genu of corpus callosum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
 EFO:0010296	corpus callosum central volume measurement	measurement	skos:exactMatch	OBA:2045248	corpus callosum central volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
 EFO:0010297	corpus callosum mid-anterior volume measurement	measurement	skos:broadMatch	OBA:2045227	genu of corpus callosum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
-EFO:0010298	corpus callosum posterior volume measurement	measurement	skos:exactMatch	OBA:2045228	rostrum of corpus callosum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010298	corpus callosum posterior volume measurement	measurement	skos:exactMatch	OBA:2100389	splenium of corpus callosum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
 EFO:0010299	corpus callosum volume measurement	measurement	skos:exactMatch	OBA:2045249	corpus callosum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
-EFO:0010300	corpus collosum mid-posterior volume measurement	measurement	skos:broadMatch	OBA:2045228	rostrum of corpus callosum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
+EFO:0010300	corpus collosum mid-posterior volume measurement	measurement	skos:broadMatch	OBA:2045249	corpus callosum volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
 EFO:0010305	fusiform gyrus volume measurement	measurement	skos:exactMatch	OBA:2045240	fusiform gyrus volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
 EFO:0010310	isthmus cingulate cortex volume measurement	measurement	skos:exactMatch	OBA:2045250	isthmus cingulate cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
 EFO:0010311	lateral occipital cortex volume measurement	measurement	skos:exactMatch	OBA:2045241	lateral occipital cortex volume	volume	HumanCurated	EFO	OBA	1	2023-09-27				orcid:0000-0001-8314-2140
