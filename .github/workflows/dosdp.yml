@@ -12,10 +12,12 @@ jobs:
     strategy:
       max-parallel: 1
     steps:
-      - name: Checkout main branch
-        uses: actions/checkout@v2
+      # Fork PRs: the head branch only exists in the fork, so check it out from there
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.event.pull_request.head.ref || github.ref }}
       - name: work around permission issue
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
         
@@ -23,7 +25,9 @@ jobs:
         run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' GITHUB_ACTION=true ../patterns/definitions.owl
       - name: Run ontology QC checks
         run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' test IMP=false MIR=false
+      # GITHUB_TOKEN cannot push to a fork, so only commit for same-repo PRs and manual runs
       - name: Commit changes
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
         uses: EndBug/add-and-commit@v9
         with:
           message: 'Update dosdp patterns file'
