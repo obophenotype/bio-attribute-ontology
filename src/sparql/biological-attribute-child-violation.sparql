@@ -4,10 +4,16 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX OBA: <http://purl.obolibrary.org/obo/OBA_>
 
+# Every labelled OBA term must be a subclass of biological attribute. Untyped
+# IRIs count: a pattern row whose axioms were all dropped comes out with only a
+# label and no owl:Class declaration (#474). Properties are excluded.
 SELECT ?entity ?property ?value WHERE {
-  ?entity a owl:Class .
   ?entity rdfs:label ?label .
-  
+  FILTER NOT EXISTS {
+    ?entity a ?type .
+    FILTER(?type != owl:Class)
+  }
+
   FILTER NOT EXISTS {
     ?entity owl:deprecated "true"^^xsd:boolean
  }
