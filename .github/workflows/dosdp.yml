@@ -12,17 +12,27 @@ jobs:
     strategy:
       max-parallel: 1
     steps:
-      # Fork PRs: the head branch only exists in the fork, so check it out from there
+      # Fork PRs: the head branch only exists in the fork, so check it out from there.
+      # Forks are checked out at the PR's head SHA so a push during the run can't change
+      # what is tested; same-repo PRs need the branch so the commit step can push.
       - name: Checkout PR branch
         uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
-          ref: ${{ github.event.pull_request.head.ref || github.ref }}
+          ref: ${{ github.event.pull_request.head.repo.full_name != github.repository && github.event.pull_request.head.sha || github.event.pull_request.head.ref || github.ref }}
       - name: work around permission issue
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
-        
+
       - name: Refreshing DOSDP patterns files
         run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' GITHUB_ACTION=true ../patterns/definitions.owl
+      # Fork PRs can't get the regenerated file committed for them, and qc.yml tests the
+      # committed definitions.owl (PAT=false), so fail here if it is out of date.
+      # The version IRI and versionInfo carry the build date and are ignored.
+      - name: Check definitions.owl is up to date
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository
+        run: |
+          git diff --exit-code -I 'releases/[0-9-]+/patterns/definitions.owl' -I 'owl:versionInfo' -- src/patterns/definitions.owl \
+            || { echo "::error file=src/patterns/definitions.owl::definitions.owl is out of date. Run 'make ../patterns/definitions.owl' in src/ontology and commit the result."; exit 1; }
       - name: Run ontology QC checks
         run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' test IMP=false MIR=false
       # GITHUB_TOKEN cannot push to a fork, so only commit for same-repo PRs and manual runs
