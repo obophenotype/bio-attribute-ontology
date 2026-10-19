@@ -241,7 +241,7 @@ EFO:0600068	gene expression measurement	measurement	skos:exactMatch	OBA:2050119	
 EFO:0600070	interleukin-6 gene expression measurement	measurement	skos:exactMatch	OBA:2100419	interleukin-6 gene expression attribute		HumanCurated	EFO	OBA	1	2026-10-18				orcid:0000-0001-6757-4744
 EFO:0600069	tumor necrosis factor alpha gene expression measurement	measurement	skos:exactMatch	OBA:2100420	tumor necrosis factor gene expression attribute		HumanCurated	EFO	OBA	1	2026-10-18				orcid:0000-0001-6757-4744
 EFO:0600079	glucocorticoid receptor gene expression measurement	measurement	skos:exactMatch	OBA:2100421	glucocorticoid receptor gene expression attribute		HumanCurated	EFO	OBA	1	2026-10-18				orcid:0000-0001-6757-4744
-EFO:0020899	flg gene expression measurement	measurement	skos:broadMatch	OBA:2050119	gene expression		HumanCurated	EFO	OBA	1	2023-03-02				orcid:0000-0001-6757-4744
+EFO:0020899	flg gene expression measurement	measurement	skos:exactMatch	OBA:2100422	filaggrin gene expression attribute		HumanCurated	EFO	OBA	1	2026-10-19				orcid:0000-0001-6757-4744
 EFO:0008265	platelet-derived growth factor receptor beta measurement	measurement	skos:exactMatch	OBA:2050120	platelet-derived growth factor receptor beta amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
 EFO:0020381	fibroblast growth factor 20 measurement	measurement	skos:exactMatch	OBA:2050121	fibroblast growth factor 20 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
 EFO:0020387	fibroblast growth factor 9 measurement	measurement	skos:exactMatch	OBA:2050122	fibroblast growth factor 9 amount		HumanCurated	EFO	OBA	1	2023-03-16				orcid:0000-0001-6757-4744
