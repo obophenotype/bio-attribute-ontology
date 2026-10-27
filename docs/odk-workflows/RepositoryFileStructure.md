@@ -7,10 +7,12 @@ The main kinds of files in the repository:
 3. [Components](#components)
 
 ## Release files
+
 Release file are the file that are considered part of the official ontology release and to be used by the community. A detailed description of the release artefacts can be found [here](https://github.com/INCATools/ontology-development-kit/blob/master/docs/ReleaseArtefacts.md).
 
 ## Imports
-Imports are subsets of external ontologies that contain terms and axioms you would like to re-use in your ontology. These are considered "external", like dependencies in software development, and are not included in your "base" product, which is the [release artefact](https://github.com/INCATools/ontology-development-kit/blob/master/docs/ReleaseArtefacts.md) which contains only those axioms that you personally maintain.
+
+Imports are subsets of external ontologies that contain terms and axioms you would like to reuse in your ontology. These are considered "external", like dependencies in software development, and are not included in your "base" product, which is the [release artefact](https://github.com/INCATools/ontology-development-kit/blob/master/docs/ReleaseArtefacts.md) which contains only those axioms that you personally maintain.
 
 These are the current imports in OBA
 
@@ -38,6 +40,7 @@ These are the current imports in OBA
 | obi | http://purl.obolibrary.org/obo/obi.owl | slme |
 | cob | http://purl.obolibrary.org/obo/cob.owl | slme |
 ## Components
+
 Components, in contrast to imports, are considered full members of the ontology. This means that any axiom in a component is also included in the ontology base - which means it is considered _native_ to the ontology. While this sounds complicated, consider this: conceptually, no component should be part of more than one ontology. If that seems to be the case, we are most likely talking about an import. Components are often not needed for ontologies, but there are some use cases:
 
 1. There is an automated process that generates and re-generates a part of the ontology
