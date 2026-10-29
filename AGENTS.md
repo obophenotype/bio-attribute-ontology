@@ -45,11 +45,11 @@ Instructions for AI agents editing OBA. Human-facing workflows are in `docs/edit
 ## Running ODK
 
 - `src/ontology/run.sh` uses `docker run -ti` and **fails silently without a TTY** (agents, CI). Call docker directly with `-i`, image tag from CI (`.github/workflows/qc.yml`), CWD `src/ontology`:
-  `docker run --rm -i -v "$PWD":/work -w /work/src/ontology -e ROBOT_JAVA_ARGS=-Xmx8G obolibrary/odkfull:v1.6 make ...`
+  `docker run --rm -i -v "$PWD":/work -w /work/src/ontology -e ROBOT_JAVA_ARGS=-Xmx8G obolibrary/odkfull:v1.7 make ...`
 - Regenerate pattern terms: `make GITHUB_ACTION=true ../patterns/definitions.owl`.
 - Full QC, the same as CI: `make test IMP=false MIR=false`. Use `make -k` to see every failure, not just the first.
 - **Read the dosdp output, not just the exit code.** `is missing column for pattern variable <x>` means a pattern variable and a TSV column disagree; dosdp silently drops every axiom that uses that variable and the build still passes (only `missing_definition` WARNs go up).
-- **Refreshing the merged import** (`make refresh-merged`, needs ~36 GB for ROBOT): regenerate `definitions.owl` first, then delete `tmp/all_pattern_terms.txt` and `tmp/seed.txt`. The seed is built from those files, and a stale copy silently leaves out the new fillers.
+- **Refreshing the merged import** (`make refresh-imports`, needs ~36 GB for ROBOT; ODK 1.7 removed `refresh-merged`): regenerate `definitions.owl` first. `refresh-imports` runs `make clean`, which wipes `tmp/`. If you skip the mirror download with `make no-mirror-refresh-imports`, delete `tmp/all_pattern_terms.txt` and `tmp/seed.txt` first: the seed is built from those files, and a stale copy silently leaves out the new fillers.
 - After a run, restore files the test rebuilt but you did not mean to change (`src/ontology/reports/*`, `components/obsoletes.owl` version bumps) before committing.
 
 ## Editing files
