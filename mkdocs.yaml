@@ -28,4 +28,10 @@ nav:
   - Reference:
     - Design Patterns:
       - Design Patterns Overview: dosdp.md
+    - Entity decisions:
+      - Overview: decisions/index.md
+      - "0001: Proteins are not chemicals": decisions/0001-proteins-are-not-chemicals.md
+      - "0002: Species-neutral protein fillers": decisions/0002-species-neutral-protein-fillers.md
+      - "0003: Protein assemblies": decisions/0003-protein-assemblies.md
+      - Template: decisions/template.md
 

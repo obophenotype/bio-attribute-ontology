@@ -38,6 +38,11 @@ sh run.sh make sync_sssom_google_sheets
 
 ## Creating/updating terms
 
+Before choosing a filler for an entity that more than one ontology could
+supply (ChEBI or PRO, a GO complex or its PRO chains, a species-neutral or a
+species-specific protein), check the [entity decisions register](decisions/index.md).
+If no record covers the case, raise it on an issue and consider proposing one.
+
 ### Term label conventions
 
 Labels for pattern-generated terms come from the DOSDP pattern, not from the TSV.

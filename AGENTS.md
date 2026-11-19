@@ -10,6 +10,7 @@ Instructions for AI agents editing OBA. Human-facing workflows are in `docs/edit
 - **Generated, never edit by hand**: `src/patterns/definitions.owl`, `src/ontology/imports/*_import.owl`, `src/ontology/components/*.owl`, and the release files in the repo root.
 - **Mappings synced from Google Sheets, never edit in the repo**: `src/mappings/oba-efo.sssom.tsv`, `oba-vt.sssom.tsv`, `oba-loinc.sssom.tsv` and their `*-exclusions` files (see `OBA_*_GS` in `src/ontology/oba.Makefile`). Propose mapping rows for a curator to paste into the sheet instead.
 - **ID ranges**: `src/ontology/oba-idranges.owl`. Agent work uses idrange:13, `OBA:2100000`–`OBA:2109999`.
+- **Entity decisions**: `docs/decisions/`. A register of which class stands for an entity when several ontologies offer one (chemical vs protein vs complex, species-neutral vs species-specific). Read it before picking a filler.
 
 ## Finding terms
 
@@ -21,7 +22,7 @@ Instructions for AI agents editing OBA. Human-facing workflows are in `docs/edit
 ## Creating terms
 
 1. Read the issue and any linked issues (`gh issue view N --json title,body,comments`). If a PMID is cited, read it.
-2. Pick the pattern and fillers. Follow how existing terms of the same kind are modelled:
+2. Pick the pattern and fillers. Follow the accepted records in `docs/decisions/`; if the entity could be represented by classes from more than one ontology and no record covers it, ask on the issue (and consider proposing a record) rather than choosing silently. Otherwise follow how existing terms of the same kind are modelled:
    - Amount of a chemical or protein in a location: `entity_attribute_location.tsv` with `PATO:0000070` amount, e.g. cholesterol + amount + blood serum. Leave `defined_class_name` empty: the pattern labels it `amount of cholesterol in blood serum` and generates the `cholesterol amount in blood serum` and `level of cholesterol in blood serum` synonyms.
    - Disease onset: `disease_onset.tsv`. Response to a chemical: `response_to_chemical_stimulus_trait.tsv`.
    - GO cellular component morphology and GO process traits: `entity_attribute_part_of.tsv` with `PATO:0000051` morphology or `PATO:0000001` quality. That pattern uses `characteristic_of_part_of` and is for morphology and quality only.
