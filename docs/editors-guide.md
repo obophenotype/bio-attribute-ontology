@@ -183,7 +183,7 @@ cd chebi_obo_slim
 The *full process* of refreshing the DOSDP patterns:
 1.	Check if new PRO / Chebi terms are not in slim, if they are not, add them as described above.
 2.	Run `sh run.sh make IMP=false MIR=false ../patterns/definitions.owl` to generate a new pattern ontology component.
-3.	Run `sh run.sh make refresh-merged` to import the new terms.
+3.	Run `sh run.sh make refresh-imports` to import the new terms.
 4.	Run `sh run.sh make IMP=false MIR=false ../patterns/definitions.owl` again to generate the labels correctly where new terms are concerned.
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *

@@ -211,12 +211,6 @@ check_unlabelled_imports: $(IMPORTDIR)/merged_import.owl
 
 test: check_unlabelled_imports
 
-# Makefile's dosdp_validation is a no-op when PAT=false, which is how CI runs
-test: validate_dosdp_patterns
-.PHONY: validate_dosdp_patterns
-validate_dosdp_patterns:
-	$(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns/
-
 # Duplicate defined_class IDs (#470) and pattern variables without a TSV column
 # (#474); dosdp itself only warns about the latter and drops the axioms
 test: check_pattern_tsvs

@@ -47,7 +47,7 @@ import_group:
     - <http://purl.obolibrary.org/obo/NCIT_C35920*>
   products:
     - id: ro
-      use_base: True
+      use_variant: base
     - id: chebi
       make_base: TRUE
       mirror_from: http://purl.obolibrary.org/obo/upheno/chebi_slim.owl
@@ -64,12 +64,12 @@ import_group:
         - http://purl.obolibrary.org/obo/GO_
         - http://purl.obolibrary.org/obo/GOREL_
     - id: pato
-      use_base: True
+      use_variant: base
     - id: omo
     - id: hp
-      use_base: True
+      use_variant: base
     - id: mondo
-      use_base: True
+      use_variant: base
     - id: ncbitaxon
       mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
     - id: uberon
@@ -77,7 +77,7 @@ import_group:
     - id: cl
       make_base: True
     - id: nbo
-      use_base: True
+      use_variant: base
     - id: pr
       make_base: TRUE
       mirror_from: https://raw.githubusercontent.com/obophenotype/pro_obo_slim/master/pr_slim.owl
@@ -97,7 +97,7 @@ import_group:
     - id: obi
       mirror_type: custom
     - id: cob
-      use_base: True
+      use_variant: base
 components:
   products:
     - filename: obsoletes.owl
@@ -109,20 +109,21 @@ robotemplate_group:
     - id: obsoletes.owl
 robot_java_args: '-Xmx8G'
 allow_equivalents: asserted-only
-robot_report:
-  release_reports: False
-  use_base_iris: True
-  fail_on : ERROR
-  use_labels : False
-  custom_profile : True
-  report_on :
-    - oba.owl
-  custom_sparql_checks :
-    - equivalent-classes
-    - owldef-self-reference
-    - anatomical-entity-in-def
-    - level-in-label
-  custom_sparql_exports : 
-    - basic-report
+robot:
+  report:
+    release_reports: False
+    use_base_iris: True
+    fail_on: ERROR
+    use_labels: False
+    custom_profile: True
+    report_on:
+      - oba.owl
+    custom_sparql_checks:
+      - equivalent-classes
+      - owldef-self-reference
+      - anatomical-entity-in-def
+      - level-in-label
+    custom_sparql_exports:
+      - basic-report
 documentation:
   documentation_system: mkdocs
