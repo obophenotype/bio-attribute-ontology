@@ -125,17 +125,6 @@ $(ONT)-full.owl: $(SRC) $(OTHER_SRC)
 		reduce -r ELK \
 		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
 
-# Synonyms are managed on Google Sheets
-OBA_SYNONYM_TEMPLATE=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=473147169&single=true&output=tsv
-
-../templates/synonyms.tsv:
-	if [ $(COMP) = true ]; then wget "$(OBA_SYNONYM_TEMPLATE)" -O $@; fi
-
-.PHONY: sync_templates_google_sheets
-sync_templates_google_sheets:
-	$(MAKE) ../templates/measured_in.tsv -B
-	$(MAKE) ../templates/synonyms.tsv -B
-
 ###########################
 ### GH Release ############
 ###########################
@@ -149,44 +138,6 @@ public_release:
 	@test $(GHVERSION)
 	ls -alt $(RELEASE_ASSETS_AFTER_RELEASE)
 	gh release create $(GHVERSION) --title "$(VERSION) Release" --draft $(RELEASE_ASSETS_AFTER_RELEASE) --generate-notes
-
-#######################################################
-#### Automated OBA Alignment Pipeline: Templates ######
-########################################################
-
-OBA_EFO_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=1005741851&single=true&output=tsv
-OBA_VT_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=506793298&single=true&output=tsv
-OBA_EFO_EXCLUSIONS_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=698990842&single=true&output=tsv
-OBA_VT_EXCLUSIONS_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=2051840457&single=true&output=tsv
-OBA_LOINC_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=1483465731&single=true&output=tsv
-OBA_LOINC_EXCLUSIONS_GS=https://docs.google.com/spreadsheets/d/e/2PACX-1vSfh18vZmG6xXrknmklcEIlNnHqte598aFMczdm6SpYXVdnFL2iBthAA-z11s7bBR3s2kaf_d3XahrI/pub?gid=1165604508&single=true&output=tsv
-
-../mappings/oba-efo.sssom.tsv:
-	wget "$(OBA_EFO_GS)" -O $@
-
-../mappings/oba-vt.sssom.tsv:
-	wget "$(OBA_VT_GS)" -O $@
-
-../mappings/oba-efo-mapping-exclusions.sssom.tsv:
-	wget "$(OBA_EFO_EXCLUSIONS_GS)" -O $@
-
-../mappings/oba-vt-mapping-exclusions.sssom.tsv:
-	wget "$(OBA_VT_EXCLUSIONS_GS)" -O $@
-
-../mappings/oba-loinc.sssom.tsv:
-	wget "$(OBA_LOINC_GS)" -O $@
-
-../mappings/oba-loinc-mapping-exclusions.sssom.tsv:
-	wget "$(OBA_LOINC_EXCLUSIONS_GS)" -O $@
-
-.PHONY: sync_sssom_google_sheets
-sync_sssom_google_sheets:
-	$(MAKE) ../mappings/oba-efo.sssom.tsv -B
-	$(MAKE) ../mappings/oba-vt.sssom.tsv -B
-	$(MAKE) ../mappings/oba-efo-mapping-exclusions.sssom.tsv -B
-	$(MAKE) ../mappings/oba-vt-mapping-exclusions.sssom.tsv -B
-	$(MAKE) ../mappings/oba-loinc.sssom.tsv -B
-	$(MAKE) ../mappings/oba-loinc-mapping-exclusions.sssom.tsv -B
 
 ##################################
 ### Custom QC checks #############
@@ -457,8 +408,6 @@ base_unsat:
 .PHONY: help
 help:
 	@echo "$$data"
-	echo "* sync_templates_google_sheet:	Synchronise ROBOT templates from OBA Google Sheet"
-	echo "* sync_sssom_google_sheets:		Synchronise SSSOM Mappings from OBA Google Sheet (alignment pipeline)"
 	echo "* prepare_oba_alignment:			Prepare all files needed for Running the OBA alignment pipeline"
 	echo "* oba_reports:					Generate some OBA specific reports"
 	echo "* documentation:					Generate OBA-specific dynamic documentation"

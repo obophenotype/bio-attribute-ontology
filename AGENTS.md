@@ -8,7 +8,8 @@ Instructions for AI agents editing OBA. Human-facing workflows are in `docs/edit
 - **Hand-edited terms**: `src/ontology/oba-edit.obo`.
 - **Obsoletions**: `src/templates/obsoletes.tsv` (ROBOT template, built into `src/ontology/components/obsoletes.owl`).
 - **Generated, never edit by hand**: `src/patterns/definitions.owl`, `src/ontology/imports/*_import.owl`, `src/ontology/components/*.owl`, and the release files in the repo root.
-- **Mappings synced from Google Sheets, never edit in the repo**: `src/mappings/oba-efo.sssom.tsv`, `oba-vt.sssom.tsv`, `oba-loinc.sssom.tsv` and their `*-exclusions` files (see `OBA_*_GS` in `src/ontology/oba.Makefile`). Propose mapping rows for a curator to paste into the sheet instead.
+- **Curated mappings**: `src/mappings/oba-efo.sssom.tsv`, `oba-vt.sssom.tsv`, `oba-loinc.sssom.tsv` and their `*-mapping-exclusions` files. Edit them in the repo like any other source file. The Google Sheets they were once synced from are retired; never edit or sync from them.
+- **Synonyms**: `src/templates/synonyms.tsv` (ROBOT template, built into `src/ontology/components/synonyms.owl`).
 - **ID ranges**: `src/ontology/oba-idranges.owl`. Agent work uses idrange:13, `OBA:2100000`–`OBA:2109999`.
 
 ## Finding terms
