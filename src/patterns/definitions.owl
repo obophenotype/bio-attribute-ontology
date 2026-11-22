@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/oba/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/oba/releases/2026-11-19/patterns/definitions.owl>
-Annotation(owl:versionInfo "2026-11-19")
+<http://purl.obolibrary.org/obo/oba/releases/2026-11-22/patterns/definitions.owl>
+Annotation(owl:versionInfo "2026-11-22")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_10033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_10112>))
@@ -402,7 +402,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_5391>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_5613>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_5729>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_5778>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_5931>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_59640>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_59897>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_60242>))
@@ -437,7 +436,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_64669>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_6495>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_65172>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_65173>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_65311>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_6541>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_66901>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_67011>))
@@ -446,7 +444,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_6809>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_68481>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_68830>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_6887>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_7044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_70727>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_70744>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_70746>))
@@ -515,7 +512,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_81278>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_81567>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_81568>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_81569>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_81572>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_82846>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_82927>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_82978>))
@@ -24997,7 +24993,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100427>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100428>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100429>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100430>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100431>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100432>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100433>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2100434>))
@@ -29921,7 +29916,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2105353>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2105354>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2105355>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2105356>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2105357>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2105358>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2105359>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2105360>))
@@ -31023,7 +31017,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106455>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106456>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106457>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106458>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106459>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106460>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106461>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106462>))
@@ -31057,7 +31050,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106489>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106490>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106491>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106492>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106493>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106494>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106495>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106496>))
@@ -31160,7 +31152,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106592>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106593>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106594>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106595>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106596>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106597>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106598>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106599>))
@@ -31261,7 +31252,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106693>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106694>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106695>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106696>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106697>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106698>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106699>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106700>))
@@ -31328,11 +31318,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106761>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106762>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106763>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106764>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106765>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106766>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106767>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106768>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106769>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106770>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106771>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106772>))
@@ -31558,7 +31546,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106991>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106992>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106993>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106994>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106995>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106996>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106997>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2106998>))
@@ -31709,7 +31696,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107142>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107143>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107144>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107145>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107146>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107147>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107148>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107149>))
@@ -31742,7 +31728,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107175>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107176>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107177>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107178>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107180>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107181>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107182>))
@@ -31956,7 +31941,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107389>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107390>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107391>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107392>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107393>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107394>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107395>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107396>))
@@ -31982,7 +31966,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107415>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107416>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107417>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107418>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107419>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107420>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107421>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107422>))
@@ -32007,7 +31990,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107440>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107441>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107442>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107443>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107444>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107445>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107446>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107447>))
@@ -32015,7 +31997,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107448>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107449>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107450>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107451>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107452>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107453>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107454>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_2107455>))
@@ -269644,14 +269625,15 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2090000> "amount of glucose in blood during fasting")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2090000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_17234> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000178>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0017502> <http://purl.obolibrary.org/obo/OBI_0003653>)))))
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2090001> (amount of insulin in blood during fasting)
+# Class: <http://purl.obolibrary.org/obo/OBA_2090001> (amount of preproinsulin in blood during fasting)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2090001> "The amount of a insulin when measured in blood during fasting.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "oba:patterns/attribute_location_during_activity") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2090001> "blood amount insulin during fasting")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "oba:patterns/attribute_location_during_activity") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2090001> "insulin amount in blood during fasting")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2090001> "The amount of a preproinsulin when measured in blood during fasting.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "oba:patterns/attribute_location_during_activity") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2090001> "blood amount preproinsulin during fasting")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2090001> "level of insulin in blood during fasting")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2090001> "amount of insulin in blood during fasting")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2090001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_145810> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000178>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0017502> <http://purl.obolibrary.org/obo/OBI_0003653>)))))
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "oba:patterns/attribute_location_during_activity") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2090001> "level of preproinsulin in blood during fasting")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "oba:patterns/attribute_location_during_activity") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2090001> "preproinsulin amount in blood during fasting")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2090001> "amount of preproinsulin in blood during fasting")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2090001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000009054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000178>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0017502> <http://purl.obolibrary.org/obo/OBI_0003653>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_2090002> (amount of anti-Helicobacter pylori IgG in blood)
 
@@ -274408,14 +274390,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2100430> "level of bilirubin")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2100430> "amount of bilirubin")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2100430> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_16990> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
-# Class: <http://purl.obolibrary.org/obo/OBA_2100431> (amount of corticotropin-releasing hormone)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2100431> "The amount of a corticotropin-releasing hormone.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2100431> "corticotropin-releasing hormone amount")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2100431> "level of corticotropin-releasing hormone")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2100431> "amount of corticotropin-releasing hormone")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2100431> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_65311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_2100432> (amount of magnesium atom)
 
@@ -313801,14 +313775,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2105356> "amount of interleukin-33")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2105356> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000001389> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2105357> (amount of T-cell differentiation antigen CD6)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2105357> "The amount of a T-cell differentiation antigen CD6 (human).")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2105357> "T-cell differentiation antigen CD6 (human) amount")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2105357> "level of T-cell differentiation antigen CD6")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2105357> "amount of T-cell differentiation antigen CD6")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2105357> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_P30203> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
 # Class: <http://purl.obolibrary.org/obo/OBA_2105358> (amount of globulin type)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2105358> "The amount of a globulin type.")
@@ -322617,14 +322583,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2106458> "amount of tumor necrosis factor ligand superfamily member 14")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2106458> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000002222> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2106459> (amount of tumor necrosis factor ligand superfamily member 13 isoforms alpha/beta/gamma/4/5 (human))
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2106459> "The amount of a tumor necrosis factor ligand superfamily member 13 isoforms alpha/beta/gamma/4/5 (human).")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106459> "level of tumor necrosis factor ligand superfamily member 13 isoforms alpha/beta/gamma/4/5 (human)")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106459> "tumor necrosis factor ligand superfamily member 13 isoforms alpha/beta/gamma/4/5 (human) amount")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2106459> "amount of tumor necrosis factor ligand superfamily member 13 isoforms alpha/beta/gamma/4/5 (human)")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2106459> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_O75888> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
 # Class: <http://purl.obolibrary.org/obo/OBA_2106460> (amount of tyrosine-protein kinase Yes)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2106460> "The amount of a tyrosine-protein kinase Yes.")
@@ -322888,14 +322846,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106492> "mesothelin amount")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2106492> "amount of mesothelin")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2106492> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000010676> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
-# Class: <http://purl.obolibrary.org/obo/OBA_2106493> (amount of signal-regulatory protein beta-1 isoforms 1/2 (human))
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2106493> "The amount of a signal-regulatory protein beta-1 isoforms 1/2 (human).")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106493> "level of signal-regulatory protein beta-1 isoforms 1/2 (human)")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106493> "signal-regulatory protein beta-1 isoforms 1/2 (human) amount")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2106493> "amount of signal-regulatory protein beta-1 isoforms 1/2 (human)")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2106493> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_O00241> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_2106494> (amount of tyrosine-protein kinase receptor TYRO3)
 
@@ -323713,14 +323663,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2106595> "amount of aflatoxin B1 aldehyde reductase member 2")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2106595> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000003908> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2106596> (amount of A-kinase anchor protein 7 isoforms beta/alpha (human))
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2106596> "The amount of a A-kinase anchor protein 7 isoforms beta/alpha (human).")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106596> "A-kinase anchor protein 7 isoforms beta/alpha (human) amount")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106596> "level of A-kinase anchor protein 7 isoforms beta/alpha (human)")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2106596> "amount of A-kinase anchor protein 7 isoforms beta/alpha (human)")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2106596> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_O43687> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
 # Class: <http://purl.obolibrary.org/obo/OBA_2106597> (amount of small glutamine-rich tetratricopeptide repeat-containing protein alpha)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2106597> "The amount of a small glutamine-rich tetratricopeptide repeat-containing protein alpha.")
@@ -324521,14 +324463,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2106696> "amount of glucocorticoid receptor")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2106696> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000011406> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2106697> (amount of major prion protein (human))
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2106697> "The amount of a major prion protein (human).")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106697> "level of major prion protein (human)")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106697> "major prion protein (human) amount")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2106697> "amount of major prion protein (human)")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2106697> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_P04156> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
 # Class: <http://purl.obolibrary.org/obo/OBA_2106698> (amount of ornithine aminotransferase, mitochondrial)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2106698> "The amount of a ornithine aminotransferase, mitochondrial.")
@@ -325057,14 +324991,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2106764> "amount of histone H2A type 1-G/I/K/L/M")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2106764> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000029528> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2106765> (amount of DNA-directed RNA polymerase II subunit GRINL1A isoforms 1/2/3 (human))
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2106765> "The amount of a DNA-directed RNA polymerase II subunit GRINL1A isoforms 1/2/3 (human).")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106765> "DNA-directed RNA polymerase II subunit GRINL1A isoforms 1/2/3 (human) amount")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106765> "level of DNA-directed RNA polymerase II subunit GRINL1A isoforms 1/2/3 (human)")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2106765> "amount of DNA-directed RNA polymerase II subunit GRINL1A isoforms 1/2/3 (human)")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2106765> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_P0CAP2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
 # Class: <http://purl.obolibrary.org/obo/OBA_2106766> (amount of cryptic protein)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2106766> "The amount of a cryptic protein.")
@@ -325088,14 +325014,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106768> "polyubiquitin-C amount")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2106768> "amount of polyubiquitin-C")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2106768> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000016963> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
-# Class: <http://purl.obolibrary.org/obo/OBA_2106769> (amount of trafficking protein particle complex subunit 2A (human))
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2106769> "The amount of a trafficking protein particle complex subunit 2A (human).")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106769> "level of trafficking protein particle complex subunit 2A (human)")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106769> "trafficking protein particle complex subunit 2A (human) amount")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2106769> "amount of trafficking protein particle complex subunit 2A (human)")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2106769> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_P0DI81> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_2106770> (amount of peptide YY)
 
@@ -326897,14 +326815,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2106994> "amount of neurexin-1-beta (human)")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2106994> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_P58400> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2106995> (amount of neurexin-2-beta (human))
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2106995> "The amount of a neurexin-2-beta (human).")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106995> "level of neurexin-2-beta (human)")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2106995> "neurexin-2-beta (human) amount")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2106995> "amount of neurexin-2-beta (human)")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2106995> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_P58401> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
 # Class: <http://purl.obolibrary.org/obo/OBA_2106996> (amount of neurexophilin-1)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2106996> "The amount of a neurexophilin-1.")
@@ -328105,14 +328015,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2107145> "amount of torsin-1A-interacting protein 1")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2107145> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000016551> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2107146> (amount of Rab GTPase-activating protein 1-like isoforms 1/2/3/4/5/6/7/8/9 (human))
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2107146> "The amount of a Rab GTPase-activating protein 1-like isoforms 1/2/3/4/5/6/7/8/9 (human).")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2107146> "Rab GTPase-activating protein 1-like isoforms 1/2/3/4/5/6/7/8/9 (human) amount")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2107146> "level of Rab GTPase-activating protein 1-like isoforms 1/2/3/4/5/6/7/8/9 (human)")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2107146> "amount of Rab GTPase-activating protein 1-like isoforms 1/2/3/4/5/6/7/8/9 (human)")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2107146> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_Q5R372> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
 # Class: <http://purl.obolibrary.org/obo/OBA_2107147> (amount of leucine-rich repeat serine/threonine-protein kinase 2)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2107147> "The amount of a leucine-rich repeat serine/threonine-protein kinase 2.")
@@ -328368,14 +328270,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2107178> "level of amphoterin-induced protein 2")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2107178> "amount of amphoterin-induced protein 2")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2107178> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000003992> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
-# Class: <http://purl.obolibrary.org/obo/OBA_2107179> (amount of polyadenylate-binding protein 2 isoforms 1/2 (human))
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2107179> "The amount of a polyadenylate-binding protein 2 isoforms 1/2 (human).")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2107179> "level of polyadenylate-binding protein 2 isoforms 1/2 (human)")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2107179> "polyadenylate-binding protein 2 isoforms 1/2 (human) amount")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2107179> "amount of polyadenylate-binding protein 2 isoforms 1/2 (human)")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2107179> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_Q86U42> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_2107180> (amount of leucine-rich repeat transmembrane neuronal protein 1)
 
@@ -330081,14 +329975,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2107392> "amount of kallikrein-13")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2107392> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000009410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2107393> (amount of neurexin-1-alpha (human))
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2107393> "The amount of a neurexin-1-alpha (human).")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2107393> "level of neurexin-1-alpha (human)")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2107393> "neurexin-1-alpha (human) amount")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2107393> "amount of neurexin-1-alpha (human)")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2107393> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_Q9ULB1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
 # Class: <http://purl.obolibrary.org/obo/OBA_2107394> (amount of transmembrane and coiled-coil domain protein 3)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2107394> "The amount of a transmembrane and coiled-coil domain protein 3.")
@@ -330289,14 +330175,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2107418> "amount of ubiquitin-fold modifier-conjugating enzyme 1")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2107418> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000017039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2107419> (amount of neurexin-3-alpha (human))
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2107419> "The amount of a neurexin-3-alpha (human).")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2107419> "level of neurexin-3-alpha (human)")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2107419> "neurexin-3-alpha (human) amount")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2107419> "amount of neurexin-3-alpha (human)")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2107419> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_Q9Y4C0> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
 # Class: <http://purl.obolibrary.org/obo/OBA_2107420> (amount of carbohydrate sulfotransferase 2)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2107420> "The amount of a carbohydrate sulfotransferase 2.")
@@ -330489,14 +330367,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2107443> "amount of 5'-AMP-activated protein kinase catalytic subunit alpha-1")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2107443> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000013218> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
-# Class: <http://purl.obolibrary.org/obo/OBA_2107444> (amount of guanine nucleotide-binding protein G(s) subunit alpha isoforms XLas-1/XLas-2/XLas-3 (human))
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2107444> "The amount of a guanine nucleotide-binding protein G(s) subunit alpha isoforms XLas-1/XLas-2/XLas-3 (human).")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2107444> "guanine nucleotide-binding protein G(s) subunit alpha isoforms XLas-1/XLas-2/XLas-3 (human) amount")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2107444> "level of guanine nucleotide-binding protein G(s) subunit alpha isoforms XLas-1/XLas-2/XLas-3 (human)")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2107444> "amount of guanine nucleotide-binding protein G(s) subunit alpha isoforms XLas-1/XLas-2/XLas-3 (human)")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2107444> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_Q5JWF2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
 # Class: <http://purl.obolibrary.org/obo/OBA_2107445> (amount of interleukin-27 subunit alpha)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2107445> "The amount of a interleukin-27 subunit alpha.")
@@ -330552,14 +330422,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2107451> "level of cyclin-C")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2107451> "amount of cyclin-C")
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2107451> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000005120> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
-
-# Class: <http://purl.obolibrary.org/obo/OBA_2107452> (amount of guanine nucleotide-binding protein G(s) subunit alpha isoforms Gnas-1/Gnas-2/3/4 (human))
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_2107452> "The amount of a guanine nucleotide-binding protein G(s) subunit alpha isoforms Gnas-1/Gnas-2/3/4 (human).")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2107452> "guanine nucleotide-binding protein G(s) subunit alpha isoforms Gnas-1/Gnas-2/3/4 (human) amount")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_2107452> "level of guanine nucleotide-binding protein G(s) subunit alpha isoforms Gnas-1/Gnas-2/3/4 (human)")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_2107452> "amount of guanine nucleotide-binding protein G(s) subunit alpha isoforms Gnas-1/Gnas-2/3/4 (human)")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_2107452> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_P63092> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_2107453> (amount of cyclin-dependent kinase 5 activator 1)
 
@@ -335499,12 +335361,12 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0001553> ObjectIntersect
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0001560> (blood insulin amount)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0001560> "The amount of a insulin when measured in blood.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0001560> "blood insulin amount")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0001560> "The amount of a preproinsulin when measured in blood.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0001560> "blood insulin level")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0001560> "insulin amount in blood")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0001560> "blood preproinsulin amount")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0001560> "preproinsulin amount in blood")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0001560> "blood insulin amount")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0001560> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_145810> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000178>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0001560> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000009054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000178>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0001562> (blood calcium amount)
 
@@ -335743,12 +335605,12 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0001744> ObjectIntersect
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0001754> (blood corticotropin-releasing hormone amount)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0001754> "The amount of a corticotropin-releasing hormone when measured in blood.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0001754> "blood corticotropin-releasing hormone amount")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0001754> "The amount of a corticoliberin when measured in blood.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0001754> "blood corticoliberin amount")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0001754> "blood corticotropin-releasing hormone level")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0001754> "corticotropin-releasing hormone amount in blood")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0001754> "corticoliberin amount in blood")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0001754> "blood corticotropin-releasing hormone amount")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0001754> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_65311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000178>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0001754> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000005867> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000178>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0001757> (urine molecular composition)
 
@@ -343041,7 +342903,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0006034> "urine myoglobin amount")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0006034> "urine myoglobin level")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0006034> "urine myoglobin amount")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0006034> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_7044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001088>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0006034> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000010213> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001088>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0006055> (blood vessel endothelial cell morphology trait)
 
@@ -346432,12 +346294,12 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0010468> ObjectIntersect
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0010470> (pancreas insulin amount)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0010470> "The amount of a insulin (human) when measured in pancreas.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0010470> "insulin (human) amount in pancreas")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0010470> "pancreas insulin (human) amount")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0010470> "The amount of a preproinsulin when measured in pancreas.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0010470> "pancreas insulin level")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0010470> "pancreas preproinsulin amount")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0010470> "preproinsulin amount in pancreas")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0010470> "pancreas insulin amount")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0010470> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_5931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001264>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0010470> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000009054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001264>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0010471> (exploratory behavior trait)
 
@@ -346719,7 +346581,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0010545> "blood adiponectin amount")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0010545> "blood adiponectin level")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0010545> "blood adiponectin amount")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0010545> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_81572> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000178>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0010545> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000003777> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000178>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0010567> (thoracic aorta morphology)
 
@@ -348287,7 +348149,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT1000764> "muscle organ myoglobin amount")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT1000764> "myoglobin amount in muscle organ")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT1000764> "muscle myoglobin amount")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT1000764> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_7044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001630>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT1000764> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000010213> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001630>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT1000775> (integumentary system trait)
 
