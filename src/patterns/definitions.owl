@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/oba/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/oba/releases/2026-11-22/patterns/definitions.owl>
-Annotation(owl:versionInfo "2026-11-22")
+<http://purl.obolibrary.org/obo/oba/releases/2026-11-23/patterns/definitions.owl>
+Annotation(owl:versionInfo "2026-11-23")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_10033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_10112>))
@@ -509,7 +509,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_80630>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_8093>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_8107>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_81278>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_81567>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_81568>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_81569>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_82846>))
@@ -86074,7 +86073,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_1000983> "level of Thyroid stimulating hormone")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_1000983> "thyroid stimulating hormone amount")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000983> "amount of Thyroid stimulating hormone")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_1000983> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_81567> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_1000983> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000028269> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001062>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000984> (amount of catecholamine)
 
@@ -337786,12 +337785,12 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0002864> ObjectIntersect
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0002871> (urine albumin amount)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0002871> "The amount of a albumin type when measured in urine.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0002871> "albumin type amount in urine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0002871> "The amount of a albumin when measured in urine.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0002871> "albumin amount in urine")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0002871> "urine albumin amount")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0002871> "urine albumin level")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute_location") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0002871> "urine albumin type amount")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0002871> "urine albumin amount")
-EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0002871> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_166964> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001088>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0002871> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PR_000003918> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001088>)))))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0002876> (thyroid gland physiology trait)
 

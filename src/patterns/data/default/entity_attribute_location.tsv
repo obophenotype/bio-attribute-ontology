@@ -189,7 +189,7 @@ OBA:VT0010878	blood bile acid amount	CHEBI:3098	bile acid	PATO:0000070	amount	UB
 OBA:VT0010677	glycated serum protein amount	PR:000037069	glycoprotein	PATO:0000070	amount	UBERON:0001977	serum						
 OBA:VT0010648	muscle glycogen amount	CHEBI:28087	glycogen	PATO:0000070	amount	UBERON:0001134	skeletal muscle tissue						
 OBA:VT0008495	blood immunoglobulin G1 amount	PR:000050253	IgG1 heavy chain protein	PATO:0000070	amount	UBERON:0000178	blood						
-OBA:VT0002871	urine albumin amount	CHEBI:166964	albumin type	PATO:0000070	amount	UBERON:0001088	urine						
+OBA:VT0002871	urine albumin amount	PR:000003918	albumin	PATO:0000070	amount	UBERON:0001088	urine						
 OBA:VT1000047	blood creatine kinase amount	PR:000029971	creatine kinase	PATO:0000070	amount	UBERON:0000178	blood						
 OBA:VT0010616	blood lactate amount	CHEBI:24996	lactate	PATO:0000070	amount	UBERON:0000178	blood						
 OBA:VT0010695	blood ghrelin amount	PR:000007973	appetite-regulating hormone	PATO:0000070	amount	UBERON:0000178	blood						
@@ -8106,7 +8106,7 @@ OBA:1000977	amount of serotonin	CHEBI:28790	serotonin	PATO:0000070	amount	UBERON
 OBA:1000978	amount of TGF-beta	PR:000000046	TGF-beta	PATO:0000070	amount	UBERON:0001062	anatomical entity	TGF-beta amount				https://orcid.org/0000-0001-8314-2140		TGF-beta level
 OBA:1000980	amount of leukotriene	CHEBI:25029	leukotriene	PATO:0000070	amount	UBERON:0001062	anatomical entity	leukotriene amount				https://orcid.org/0000-0001-8314-2140		leukotriene level
 OBA:1000981	amount of Oxygen	CHEBI:25805	Oxygen	PATO:0000070	amount	UBERON:0001062	anatomical entity	Oxygen amount				https://orcid.org/0000-0001-8314-2140		Oxygen level
-OBA:1000983	amount of Thyroid stimulating hormone	CHEBI:81567	Thyroid stimulating hormone	PATO:0000070	amount	UBERON:0001062	anatomical entity	Thyroid stimulating hormone amount				https://orcid.org/0000-0001-8314-2140		Thyroid stimulating hormone level
+OBA:1000983	amount of Thyroid stimulating hormone	PR:000028269	thyroid stimulating hormone	PATO:0000070	amount	UBERON:0001062	anatomical entity	Thyroid stimulating hormone amount				https://orcid.org/0000-0001-8314-2140		Thyroid stimulating hormone level
 OBA:1000984	amount of catecholamine	CHEBI:33567	catecholamine	PATO:0000070	amount	UBERON:0001062	anatomical entity	catecholamine amount				https://orcid.org/0000-0001-8314-2140		catecholamine level
 OBA:1000985	amount of noradrenaline	CHEBI:33569	noradrenaline	PATO:0000070	amount	UBERON:0001062	anatomical entity	noradrenaline amount				https://orcid.org/0000-0001-8314-2140		noradrenaline level
 OBA:1000986	amount of Thiamine	CHEBI:26948	Thiamine	PATO:0000070	amount	UBERON:0001062	anatomical entity	Thiamine amount				https://orcid.org/0000-0001-8314-2140		Thiamine level
