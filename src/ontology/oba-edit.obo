@@ -1,10 +1,10 @@
 format-version: 1.2
+synonymtypedef: OMO:0003000 "previous name"
 default-namespace: oba
 import: http://purl.obolibrary.org/obo/oba/components/obsoletes.owl
 import: http://purl.obolibrary.org/obo/oba/components/synonyms.owl
 import: http://purl.obolibrary.org/obo/oba/imports/merged_import.owl
 import: http://purl.obolibrary.org/obo/oba/patterns/definitions.owl
-synonymtypedef: OMO:0003000 "previous name"
 ontology: oba
 property_value: http://purl.org/dc/elements/1.1/description "A collection of biological attributes (traits) covering all kingdoms of life. Interoperable with VT (vertebrate trait ontology) and TO (plant trait ontology). Extends PATO." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Ontology of Biological Attributes (OBA)" xsd:string
@@ -78,7 +78,7 @@ id: OBA:0000048 ! cell diameter
 is_a: OBA:0000055 ! cell size
 
 [Term]
-id: OBA:0000050
+id: OBA:0000050 ! obsolete cell pH
 
 [Term]
 id: OBA:0000051 ! cell projection size
@@ -213,7 +213,7 @@ id: OBA:0000113 ! myofibril size
 id: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
-id: OBA:0000116
+id: OBA:0000116 ! obsolete amount of neurotransmitter
 
 [Term]
 id: OBA:0000117 ! nuclear size
@@ -227,7 +227,7 @@ comment: Check this
 xref: Wikipedia:Osmotic_pressure
 
 [Term]
-id: OBA:0000121
+id: OBA:0000121 ! obsolete pH
 
 [Term]
 id: OBA:0000122 ! peroxisome size
@@ -1305,15 +1305,15 @@ id: OBA:1000165
 name: orotic acid metabolic process quality
 def: "The quality of a orotic acid metabolic process." [obo:oba/patterns/entity_attribute_part_of]
 synonym: "quality of orotic acid metabolic process" EXACT [obo:oba/patterns/entity_attribute_part_of]
-is_a: OBA:1000604 ! monocarboxylic acid metabolic process quality
+is_a: OBA:1000604 ! monocarboxylic acid metabolic process characteristic
 
 [Term]
 id: OBA:1000338
 name: pyruvate family amino acid metabolic process quality
 def: "The quality of a pyruvate family amino acid metabolic process." [obo:oba/patterns/entity_attribute_part_of]
 synonym: "quality of pyruvate family amino acid metabolic process" EXACT [obo:oba/patterns/entity_attribute_part_of]
-is_a: OBA:1000232 ! amino acid metabolic process quality
-is_a: OBA:1000583 ! carboxylic acid metabolic process quality
+is_a: OBA:1000232 ! amino acid metabolic process characteristic
+is_a: OBA:1000583 ! carboxylic acid metabolic process characteristic
 
 [Term]
 id: OBA:1000373
